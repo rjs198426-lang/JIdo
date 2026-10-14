@@ -1,12 +1,14 @@
 # J★Do Android 다운로드
 
-[Android 1.3 APK 다운로드](https://raw.githubusercontent.com/rjs198426-lang/JIdo/5e57c64940dc0f0ef9b42c66b895d8273b597f83/JDo-android.apk)
+[Android 1.4 APK 다운로드](https://raw.githubusercontent.com/rjs198426-lang/JIdo/555173f0478774388c20ff1e6f98e33e4f504884/JDo-android.apk)
 
 - 앱: J★Do (`com.jido.travel`)
-- 버전: 1.3 · versionCode 4 · Android 7.0 이상
-- 크기: 21306196 bytes
-- SHA-256: `a8da78caa4b7a685f63b960ba6c5491205a615492511274bc8d6392f2d6662da`
+- 버전: 1.4 · versionCode 5 · Android 7.0 이상
+- 크기: 21116323 bytes
+- SHA-256: `b9d9911c619e93a13352a04c98200cac8d95bd03e31ddd4a0579bfe8a61fe2fd`
 - 기존 APK와 같은 서명으로 업데이트 설치할 수 있습니다.
+
+앱 종료 후 다시 실행하면 항상 홈에서 시작합니다. Android 앱 아이콘으로 실행 중인 앱을 다시 열 때도 홈으로 이동합니다. 기존 여행·활성 여행·선택 날짜·작업 탭 기록은 보존하며 내 여행을 누르면 다시 볼 수 있습니다. 파일 선택기·사진·공유·지도에서 돌아올 때는 작업 화면을 유지합니다. 화면·재실행 검사 30건과 Android 빌드·기존 서명 검증을 통과했습니다.
 
 15개 여행지마다 출처를 확인한 50곳을 내장했으며 기존 장소를 포함해 전체 767곳입니다. 개인 블로그 근거가 있는 16곳과 여행자 가이드만 사용하는 734곳을 구분하고 상세에 출처를 표시합니다. 도시 필터, 근교 지역 표시, 목록 추가, 오프라인 장소 검색을 제공합니다. 기존 여행·사진과 첨부 기록을 보존합니다. 새 장소 중 사진을 확보하지 못한 곳에는 다른 장소의 사진을 붙이지 않습니다.
 
