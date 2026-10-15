@@ -101,12 +101,22 @@ test('앱 내 지도에 7곳 번호·연결선·출처 표시, 핀과 이전·�
   await seed(page)
   await expect(page.locator('.itinerary-map-pin')).toHaveCount(7)
   await page.evaluate(() => document.fonts.ready)
+  await expect(page.locator('.leaflet-container')).toHaveCSS(
+    'font-family',
+    /LaundryGothic/,
+  )
+  await expect(page.locator('.leaflet-control-zoom-in')).toHaveCSS(
+    'font-family',
+    /HiKR/,
+  )
   for (const family of await page
     .locator('.leaflet-container, .leaflet-control-zoom a')
     .evaluateAll((nodes) =>
       nodes.map((node) => getComputedStyle(node).fontFamily),
     )) {
-    expect(family.split(',')[0].replaceAll(/["']/g, '').trim()).toBe('HiKR')
+    expect(['HiKR', 'LaundryGothic']).toContain(
+      family.split(',')[0].replaceAll(/["']/g, '').trim(),
+    )
   }
   expect(await page.locator('.itinerary-map-pin').allTextContents()).toEqual([
     '1',

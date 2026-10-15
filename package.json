@@ -13,7 +13,9 @@
     "android:open": "cap open android",
     "icons": "node scripts/generate-icons.mjs",
     "server": "node --use-env-proxy --env-file-if-exists=.env server/index.mjs",
-    "test:server": "node --test server/*.test.mjs"
+    "test:server": "node --test server/*.test.mjs",
+    "prebuild": "node --use-env-proxy scripts/setup-fonts.mjs",
+    "predev": "node --use-env-proxy scripts/setup-fonts.mjs"
   },
   "engines": {
     "node": ">=24"

@@ -23,3 +23,6 @@ service-account*.json
 
 # Android-only project; retain the historical local folder without publishing it
 /ios/
+
+# LaundryGothic permits app embedding, not standalone font redistribution.
+/public/fonts/LaundryGothic-Regular.woff*

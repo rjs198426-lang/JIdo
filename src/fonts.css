@@ -1,4 +1,4 @@
-/* HiKR is distributed as one static ExtraBold face, used at every UI weight. */
+/* Unmodified static faces: display headings and readable body copy. */
 @font-face {
   font-family: 'HiKR';
   src: url('/fonts/HiKR-ExtraBold.woff2') format('woff2');
@@ -6,27 +6,83 @@
   font-weight: 100 900;
   font-display: swap;
 }
+@font-face {
+  font-family: 'LaundryGothic';
+  src: url('/fonts/LaundryGothic-Regular.woff') format('woff');
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+}
 :root {
-  --app-font: 'HiKR', 'Noto Sans KR Variable', sans-serif;
-  font-family: var(--app-font);
+  --app-body-font: 'LaundryGothic', 'Noto Sans KR Variable', sans-serif;
+  --app-heading-font: 'HiKR', 'Noto Sans KR Variable', sans-serif;
+  --app-font: var(--app-body-font);
+  font-family: var(--app-body-font);
   font-synthesis: none;
 }
-body,
+body {
+  font-family: var(--app-body-font);
+  font-weight: 400;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong,
+b,
+legend,
 button,
+.brand {
+  font-family: var(--app-heading-font);
+}
+p,
+small,
+address,
+time,
+cite,
 input,
 select,
 textarea,
-.leaflet-container,
-.leaflet-tooltip,
-.leaflet-popup-content {
-  font-family: var(--app-font);
+label {
+  font-family: var(--app-body-font);
 }
-/* The map stylesheet loads later; keep its labels and controls consistent. */
+p,
+input,
+select,
+textarea {
+  font-weight: 400;
+}
+/* Clickable cards contain body details as well as a bold title. */
+.city-card-copy,
+.place-card-copy,
+.picker-place-name,
+.stop-place > button,
+.home-trip-tile,
+.home-status-grid > button,
+.dashboard-cards > button,
+.personal-trip-card,
+.home-journey-cities,
+.home-journey-dates,
+.home-journey-meta,
+.place-location,
+.place-meta,
+.city-tagline,
+.place-description,
+.home-status-caption,
+.trip-facts,
+.trip-country {
+  font-family: var(--app-body-font);
+}
+/* Leaflet's stylesheet loads later; roles still apply to its controls. */
 :root .leaflet-container,
 :root .leaflet-tooltip,
-:root .leaflet-popup-content,
+:root .leaflet-popup-content {
+  font-family: var(--app-body-font);
+}
 :root .leaflet-container .leaflet-control-zoom-in,
 :root .leaflet-container .leaflet-control-zoom-out,
 :root .leaflet-container .leaflet-popup-close-button {
-  font-family: var(--app-font);
+  font-family: var(--app-heading-font);
 }

@@ -1,0 +1,19 @@
+{
+  "family": "LaundryGothic",
+  "face": "Regular",
+  "file": "/fonts/LaundryGothic-Regular.woff",
+  "copyright": "Copyright (c) Lifegoeson. Corp. All Rights Reserved.",
+  "manufacturer": "Design210",
+  "officialUrl": "https://www.laundrygo.com/font/",
+  "downloadUrl": "https://raw.githubusercontent.com/CapstoneDesign-Lymming/Lymming_FrontEnd/ada39435fa79971f321ae7c0c1a1fc58eda18f1b/src/assets/fonts/LaundryGothic_TTF/webfont/%EB%9F%B0%EB%93%9C%EB%A6%AC%EA%B3%A0%EB%94%95%20Regular.woff",
+  "licenseSourceUrl": "https://github.com/CapstoneDesign-Lymming/Lymming_FrontEnd/blob/ada39435fa79971f321ae7c0c1a1fc58eda18f1b/src/assets/fonts/LaundryGothic_TTF/laundrygothic_font_license.pdf",
+  "licenseFile": "/licenses/laundrygothic_font_license.pdf",
+  "licenseGuideUpdated": "2024-04-15",
+  "licenseVerifiedFrom": "Original publisher license PDF retained in pinned mirror; extracted text checked.",
+  "licenseScope": "App UI and device embedding explicitly permitted; standalone font redistribution, modification and sale prohibited.",
+  "sha256": "89484415b3fd56565f08d8fe5e795135f251ce1a86b5749cf149d27328f46a06",
+  "bytes": 357484,
+  "originalBytesUnmodified": true,
+  "fsType": 4,
+  "checkedAt": "2026-10-15"
+}

@@ -82,12 +82,20 @@
 | `public/images/bali.jpg`      | [Bilal742/poveda-bali-website — Things-to-see-and-do-in-Ubud.jpeg](https://github.com/Bilal742/poveda-bali-website/blob/HEAD/Img/Things-to-see-and-do-in-Ubud.jpeg) |
 
 
-기본 글꼴은 하이커(HiKR ExtraBold), 미지원 문자용 보조 글꼴은 `@fontsource-variable/noto-sans-kr`의 Noto Sans KR (SIL Open Font License), 아이콘은 `lucide-react` (ISC License)를 사용합니다. J★Do 로고·앱 아이콘·시작 화면과 `place-placeholder.svg`는 프로젝트에서 작성했습니다.
+주요 글꼴은 하이커(HiKR ExtraBold), 본문 글꼴은 런드리고딕 Regular, 미지원 문자용 보조 글꼴은 `@fontsource-variable/noto-sans-kr`의 Noto Sans KR (SIL Open Font License), 아이콘은 `lucide-react` (ISC License)를 사용합니다. J★Do 로고·앱 아이콘·시작 화면과 `place-placeholder.svg`는 프로젝트에서 작성했습니다.
 
 ## 하이커체 (HiKR)
 
-2026-10-15: 한국관광공사(Korea Tourism Organization)·스튜디오 양장점(yang-jang)의 HiKR ExtraBold를 전체 앱의 기본 글꼴로 사용합니다. 눈누의 [배포 파일](https://github.com/Project-Noonnu/2607101609/blob/31d0d818527e817f4e3b172bacec391e9d499157/hikr-extrabold/HiKR-ExtraBold.woff2)을 수정하지 않고 `public/fonts/HiKR-ExtraBold.woff2`에 내장했습니다. 저작권 표시 `© 2026 Korea Tourism Organization All rights reserved.`와 원본 메타데이터를 보존합니다.
+2026-10-15: 한국관광공사(Korea Tourism Organization)·스튜디오 양장점(yang-jang)의 HiKR ExtraBold를 제목·메뉴·주요 버튼의 글꼴로 사용합니다. 눈누의 [배포 파일](https://github.com/Project-Noonnu/2607101609/blob/31d0d818527e817f4e3b172bacec391e9d499157/hikr-extrabold/HiKR-ExtraBold.woff2)을 수정하지 않고 `public/fonts/HiKR-ExtraBold.woff2`에 내장했습니다. 저작권 표시 `© 2026 Korea Tourism Organization All rights reserved.`와 원본 메타데이터를 보존합니다.
 
 원본 이름 테이블의 제작자·디자이너·공식 사이트와 OS/2 임베딩 메타데이터(fsType=0, installable embedding)를 확인했습니다. [공식 사이트](https://hikr.visitkorea.or.kr)와 [눈누 안내](https://noonnu.cc/font_page/1865)는 현재 HTTP 403으로 열리지 않아 별도 공식 이용조건 문구는 확보하지 못했습니다. 임의의 SIL/OFL 라이선스를 붙이지 않습니다. 확인 근거·고정 배포 주소·SHA-256은 `public/fonts/HiKR-source.json`에 기록합니다.
 
-원본은 ExtraBold 한 가지 굵기입니다. 글꼴 파일이나 윤곽을 변형하지 않고 모든 UI 굵기에서 같은 원본을 사용하며 가짜 굵기·기울임을 합성하지 않습니다. 한글·영문·숫자는 HiKR로 표시하고 미지원 외국 문자와 기호는 보조 글꼴·기기 글꼴로 표시합니다. Android 시스템 파일 선택기·키보드 등 OS 화면은 앱 CSS 대상이 아닙니다.
+원본은 ExtraBold 한 가지 굵기입니다. 글꼴 파일이나 윤곽을 변형하지 않고 주요 글자의 굵기에서 같은 원본을 사용하며 가짜 굵기·기울임을 합성하지 않습니다. 제목·주요 글자의 한글·영문·숫자는 HiKR로 표시하고 미지원 외국 문자와 기호는 보조 글꼴·기기 글꼴로 표시합니다. Android 시스템 파일 선택기·키보드 등 OS 화면은 앱 CSS 대상이 아닙니다.
+
+## 본문 글꼴 — 런드리고딕 Regular
+
+본문·설명·주소·입력 내용·지도 안내는 런드리고딕 Regular로 표시합니다. 주요 제목·메뉴·버튼·강조 이름과 숫자는 기존 HiKR로 유지합니다. 원본 웹폰트는 수정하지 않습니다.
+
+원본 배포 패키지의 [이용조건 PDF](https://github.com/CapstoneDesign-Lymming/Lymming_FrontEnd/blob/ada39435fa79971f321ae7c0c1a1fc58eda18f1b/src/assets/fonts/LaundryGothic_TTF/laundrygothic_font_license.pdf)를 확인했습니다(문서 갱신 2024-04-15). 의식주컴퍼니(Lifegoeson. Corp.)의 저작권 표시와 Design210 제작 메타데이터를 보존합니다. 문서는 개인·기업의 영리·비영리 이용 및 「애플리케이션 UI, 모바일, 네비게이션 등 디바이스 내 탑재」를 허용하고, 폰트 임의 수정·단독 재배포·유료 판매를 금지합니다. 문서 원본은 `public/licenses/laundrygothic_font_license.pdf`에 포함했습니다.
+
+단독 폰트 파일은 GitHub 소스에 게시하지 않습니다. `public/fonts/LaundryGothic-Regular.woff`는 `.gitignore`로 제외하고, 앱 APK에만 내장합니다. `npm run build`·`npm run dev`는 `scripts/setup-fonts.mjs`에서 로컬 원본 해시를 확인하며 파일이 없으면 고정된 공개 배포 사본을 다운로드해 검증합니다. 실패하면 [공식 글꼴 안내](https://www.laundrygo.com/font/)의 Regular 웹폰트를 같은 경로에 준비해야 합니다. 원본 웹폰트와 메타데이터·임베딩 비트(fsType=4)는 변형하지 않습니다. 파일 해시·확인한 PDF·배포 사본 URL은 `public/fonts/LaundryGothic-source.json`에 기록합니다.
