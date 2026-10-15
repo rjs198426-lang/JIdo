@@ -1,3 +1,6 @@
+import GuideCourseForm from './GuideCourseForm'
+import { appendGuideCourse } from './guide-course'
+import { practicalGuideById, type CourseSelection } from './practical-guides'
 import TravelHome from './TravelHome'
 import PhotoCredits from './PhotoCredits'
 import PlaceSource from './PlaceSource'
@@ -103,7 +106,13 @@ type Dialog =
   | { type: 'credits' }
   | { type: 'city'; id: string }
   | { type: 'place'; id: string }
-  | { type: 'create'; cityId?: string; placeId?: string }
+  | {
+      type: 'create'
+      cityId?: string
+      placeId?: string
+      course?: CourseSelection
+    }
+  | { type: 'course'; course: CourseSelection }
   | { type: 'picker'; tripId: string; day: number }
   | { type: 'add'; placeId: string }
   | { type: 'delete'; tripId: string }
@@ -301,9 +310,11 @@ function CreateTrip({
   cityId,
   placeId,
   initialName = '',
+  course,
   onCreate,
 }: {
   cityId?: string
+  course?: CourseSelection
   initialName?: string
   placeId?: string
   onCreate: (trip: Trip) => void
@@ -316,6 +327,7 @@ function CreateTrip({
   const [end, setEnd] = useState(dateAt(today(), 3))
   const [travelers, setTravelers] = useState(1)
   const [recommended, setRecommended] = useState(false)
+  const [courseTime, setCourseTime] = useState('09:00')
   const [error, setError] = useState('')
   const selectedCity = getCity(destination) || {
     name: customCity.trim() || '새로운 도시',
@@ -341,11 +353,13 @@ function CreateTrip({
       return
     }
     const days: Stop[][] = Array.from({ length: count }, () => [])
-    const initialPlaces = placeId
-      ? [getPlace(placeId)!]
-      : recommended
-        ? places.filter((place) => place.cityId === destination).slice(0, 3)
-        : []
+    const initialPlaces = course
+      ? []
+      : placeId
+        ? [getPlace(placeId)!]
+        : recommended
+          ? places.filter((place) => place.cityId === destination).slice(0, 3)
+          : []
     initialPlaces.forEach((place, index) =>
       days[0].push({
         id: crypto.randomUUID(),
@@ -354,7 +368,7 @@ function CreateTrip({
         note: '',
       }),
     )
-    onCreate({
+    const created: Trip = {
       id: crypto.randomUUID(),
       title: title.trim() || `${selectedCity.name}, 나만의 여행`,
       cityId: targetId,
@@ -377,7 +391,23 @@ function CreateTrip({
         name: index === 0 ? '나' : `동행 ${index}`,
       })),
       days,
-    })
+    }
+    try {
+      onCreate(
+        course
+          ? appendGuideCourse(
+              created,
+              course.cityId,
+              course.placeIds,
+              0,
+              courseTime,
+              getPlace,
+            ).trip
+          : created,
+      )
+    } catch (error) {
+      setError((error as Error).message)
+    }
   }
   return (
     <form className="create-form" onSubmit={submit}>
@@ -394,7 +424,7 @@ function CreateTrip({
         <select
           value={destination}
           onChange={(event) => setDestination(event.target.value)}
-          disabled={!!placeId}
+          disabled={!!placeId || !!course}
         >
           {!cities.some((city) => city.id === destination) &&
             getCity(destination) && (
@@ -482,7 +512,30 @@ function CreateTrip({
           ))}
         </select>
       </label>
-      {!placeId && destination !== 'custom' && (
+      {course && (
+        <section className="course-create-preview">
+          <h3>{course.title}</h3>
+          <ol>
+            {course.placeIds.map((id) => (
+              <li key={id}>{getPlace(id)?.name}</li>
+            ))}
+          </ol>
+          <label className="field">
+            첫날 첫 방문 시간
+            <input
+              type="time"
+              required
+              value={courseTime}
+              onChange={(event) => setCourseTime(event.target.value)}
+            />
+          </label>
+          <p className="detail-footnote">
+            선택한 코스를 첫날에 담습니다. 방문 시간은 2시간 간격의 계획값이며
+            나중에 수정할 수 있어요.
+          </p>
+        </section>
+      )}
+      {!placeId && !course && destination !== 'custom' && (
         <label className="check-field">
           <input
             type="checkbox"
@@ -2078,6 +2131,65 @@ export default function App() {
           />
         </Modal>
       )}
+      {dialog?.type === 'course' && (
+        <Modal
+          title="가이드 코스 담기"
+          onClose={() => setDialog({ type: 'city', id: dialog.course.cityId })}
+        >
+          <GuideCourseForm
+            key={dialog.course.id}
+            course={dialog.course}
+            trips={store.trips}
+            activeTripId={activeTripId}
+            activeDay={activeDay}
+            onCreate={() =>
+              setDialog({
+                type: 'create',
+                cityId: dialog.course.cityId,
+                course: dialog.course,
+              })
+            }
+            onOpenTrip={(id) => {
+              setActiveTripId(id)
+              setDialog(null)
+              navigate('trips')
+            }}
+            onApply={(tripId, day, time) => {
+              const course = dialog.course
+              const current = store.trips.find((trip) => trip.id === tripId)
+              if (!current) return
+              const result = appendGuideCourse(
+                current,
+                course.cityId,
+                course.placeIds,
+                day,
+                time,
+                getPlace,
+              )
+              setStore((previous) => ({
+                ...previous,
+                trips: previous.trips.map((trip) =>
+                  trip.id === tripId
+                    ? appendGuideCourse(
+                        trip,
+                        course.cityId,
+                        course.placeIds,
+                        day,
+                        time,
+                        getPlace,
+                      ).trip
+                    : trip,
+                ),
+              }))
+              setActiveTripId(tripId)
+              setActiveDay(day)
+              setDialog(null)
+              navigate('trips')
+              setToast(`${result.added}곳을 일정에 담았어요.`)
+            }}
+          />
+        </Modal>
+      )}
       {dialog?.type === 'create' && (
         <Modal title="새로운 여행 만들기" onClose={() => setDialog(null)}>
           <CreateTrip
@@ -2086,6 +2198,7 @@ export default function App() {
             }
             cityId={dialog.cityId}
             placeId={dialog.placeId}
+            course={dialog.course}
             onCreate={createTrip}
           />
         </Modal>
@@ -2159,6 +2272,7 @@ export default function App() {
       {dialog?.type === 'city' &&
         (() => {
           const city = getCity(dialog.id)!
+          const storedGuide = getGuide(city.id)
           return (
             <Modal
               title={`${city.name} 여행 가이드`}
@@ -2175,8 +2289,15 @@ export default function App() {
                 </div>
               </div>
               <div className="modal-body">
-                <p className="city-intro">{city.description}</p>
-                <GuideContent guide={getGuide(city.id)} cityId={city.id} />
+                {(!practicalGuideById.has(city.id) || storedGuide) && (
+                  <p className="city-intro">{city.description}</p>
+                )}
+                <GuideContent
+                  guide={storedGuide}
+                  cityId={city.id}
+                  onCourse={(course) => setDialog({ type: 'course', course })}
+                  onPlace={openPlace}
+                />
                 <div className="city-facts">
                   <div>
                     <Plane size={19} />
