@@ -82,4 +82,12 @@
 | `public/images/bali.jpg`      | [Bilal742/poveda-bali-website — Things-to-see-and-do-in-Ubud.jpeg](https://github.com/Bilal742/poveda-bali-website/blob/HEAD/Img/Things-to-see-and-do-in-Ubud.jpeg) |
 
 
-글꼴은 `@fontsource-variable/noto-sans-kr`의 Noto Sans KR (SIL Open Font License), 아이콘은 `lucide-react` (ISC License)를 사용합니다. J★Do 로고·앱 아이콘·시작 화면과 `place-placeholder.svg`는 프로젝트에서 작성했습니다.
+기본 글꼴은 하이커(HiKR ExtraBold), 미지원 문자용 보조 글꼴은 `@fontsource-variable/noto-sans-kr`의 Noto Sans KR (SIL Open Font License), 아이콘은 `lucide-react` (ISC License)를 사용합니다. J★Do 로고·앱 아이콘·시작 화면과 `place-placeholder.svg`는 프로젝트에서 작성했습니다.
+
+## 하이커체 (HiKR)
+
+2026-10-15: 한국관광공사(Korea Tourism Organization)·스튜디오 양장점(yang-jang)의 HiKR ExtraBold를 전체 앱의 기본 글꼴로 사용합니다. 눈누의 [배포 파일](https://github.com/Project-Noonnu/2607101609/blob/31d0d818527e817f4e3b172bacec391e9d499157/hikr-extrabold/HiKR-ExtraBold.woff2)을 수정하지 않고 `public/fonts/HiKR-ExtraBold.woff2`에 내장했습니다. 저작권 표시 `© 2026 Korea Tourism Organization All rights reserved.`와 원본 메타데이터를 보존합니다.
+
+원본 이름 테이블의 제작자·디자이너·공식 사이트와 OS/2 임베딩 메타데이터(fsType=0, installable embedding)를 확인했습니다. [공식 사이트](https://hikr.visitkorea.or.kr)와 [눈누 안내](https://noonnu.cc/font_page/1865)는 현재 HTTP 403으로 열리지 않아 별도 공식 이용조건 문구는 확보하지 못했습니다. 임의의 SIL/OFL 라이선스를 붙이지 않습니다. 확인 근거·고정 배포 주소·SHA-256은 `public/fonts/HiKR-source.json`에 기록합니다.
+
+원본은 ExtraBold 한 가지 굵기입니다. 글꼴 파일이나 윤곽을 변형하지 않고 모든 UI 굵기에서 같은 원본을 사용하며 가짜 굵기·기울임을 합성하지 않습니다. 한글·영문·숫자는 HiKR로 표시하고 미지원 외국 문자와 기호는 보조 글꼴·기기 글꼴로 표시합니다. Android 시스템 파일 선택기·키보드 등 OS 화면은 앱 CSS 대상이 아닙니다.

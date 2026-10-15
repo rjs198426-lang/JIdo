@@ -7,6 +7,7 @@ import './workspace.css'
 import './home.css'
 import './trip-layout.css'
 import './compact-layout.css'
+import './fonts.css'
 import { Capacitor } from '@capacitor/core'
 const AdminApp = lazy(() => import('./AdminApp'))
 

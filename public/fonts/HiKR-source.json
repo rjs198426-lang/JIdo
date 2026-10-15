@@ -1,0 +1,21 @@
+{
+  "family": "HiKR",
+  "koreanFamily": "하이커",
+  "face": "ExtraBold",
+  "weight": 800,
+  "file": "/fonts/HiKR-ExtraBold.woff2",
+  "copyright": "© 2026 Korea Tourism Organization All rights reserved.",
+  "manufacturer": "Korea Tourism Organization / 한국관광공사",
+  "designer": "yang-jang / 스튜디오 양장점",
+  "officialUrl": "https://hikr.visitkorea.or.kr",
+  "distributionUrl": "https://raw.githubusercontent.com/Project-Noonnu/2607101609/31d0d818527e817f4e3b172bacec391e9d499157/hikr-extrabold/HiKR-ExtraBold.woff2",
+  "catalogUrl": "https://noonnu.cc/font_page/1865",
+  "sha256": "7293c5f85c3b6b49c1216f2391b8742399c9de32f3aa09560a1c6408963b0f3d",
+  "bytes": 175800,
+  "fsType": 0,
+  "embeddingMetadata": "Installable embedding (OS/2 fsType = 0)",
+  "originalBytesUnmodified": true,
+  "officialLicenseTextRetrieved": false,
+  "verificationNote": "Font names, owner, designer, glyph coverage and embedding metadata inspected. Official site and Noonnu page requests returned HTTP 403. No SIL/OFL or other unverified license text assigned.",
+  "checkedAt": "2026-10-15"
+}

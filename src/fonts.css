@@ -1,0 +1,32 @@
+/* HiKR is distributed as one static ExtraBold face, used at every UI weight. */
+@font-face {
+  font-family: 'HiKR';
+  src: url('/fonts/HiKR-ExtraBold.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+}
+:root {
+  --app-font: 'HiKR', 'Noto Sans KR Variable', sans-serif;
+  font-family: var(--app-font);
+  font-synthesis: none;
+}
+body,
+button,
+input,
+select,
+textarea,
+.leaflet-container,
+.leaflet-tooltip,
+.leaflet-popup-content {
+  font-family: var(--app-font);
+}
+/* The map stylesheet loads later; keep its labels and controls consistent. */
+:root .leaflet-container,
+:root .leaflet-tooltip,
+:root .leaflet-popup-content,
+:root .leaflet-container .leaflet-control-zoom-in,
+:root .leaflet-container .leaflet-control-zoom-out,
+:root .leaflet-container .leaflet-popup-close-button {
+  font-family: var(--app-font);
+}
