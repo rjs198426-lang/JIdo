@@ -10,8 +10,8 @@
     {
       "kind": "place",
       "total": 887,
-      "ready": 49,
-      "missing": 838
+      "ready": 52,
+      "missing": 835
     }
   ],
   "missing": [
@@ -2213,15 +2213,6 @@
     },
     {
       "kind": "place",
-      "id": "dubai-review-2d9db81044cf",
-      "name": "두바이 몰",
-      "cityId": "dubai",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
       "id": "dubai-review-0f764fd7eb6c",
       "name": "골드 수크",
       "cityId": "dubai",
@@ -2411,15 +2402,6 @@
     },
     {
       "kind": "place",
-      "id": "dubai-review-203e291fcce3",
-      "name": "여성박물관",
-      "cityId": "dubai",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
       "id": "dubai-review-7ba47279287f",
       "name": "셰이크 오바이드 빈 타니의 집",
       "cityId": "dubai",
@@ -2494,15 +2476,6 @@
       "kind": "place",
       "id": "dubai-review-24fbc130f5ca",
       "name": "부르즈 알 아랍",
-      "cityId": "dubai",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
-      "id": "dubai-review-865ee0a091b0",
-      "name": "두바이 분수",
       "cityId": "dubai",
       "image": "/images/place-placeholder.svg",
       "ready": false,

@@ -438,4 +438,31 @@ export const photoCredits: Record<string, PhotoCreditInfo> = {
     verifiedAt: '2026-10-14',
     licenseUrl: 'https://creativecommons.org/licenses/by-sa/4.0',
   },
+  'dubai-review-2d9db81044cf': {
+    file: '/images/dubai-review-2d9db81044cf.jpg',
+    author: 'Rohitshiv',
+    license: 'CC BY-SA 4.0',
+    licenseUrl: 'https://creativecommons.org/licenses/by-sa/4.0',
+    sourceUrl:
+      'https://commons.wikimedia.org/wiki/File:Waterfall%20%40Dubai%20Mall.jpg',
+    verifiedAt: '2026-10-15',
+  },
+  'dubai-review-203e291fcce3': {
+    file: '/images/dubai-review-203e291fcce3.jpg',
+    author: 'Lxs',
+    license: 'CC BY-SA 4.0',
+    licenseUrl: 'https://creativecommons.org/licenses/by-sa/4.0',
+    sourceUrl:
+      'https://commons.wikimedia.org/wiki/File:Entrance%20to%20Women%E2%80%99s%20Museum%20of%20Duba%C3%AF.jpg',
+    verifiedAt: '2026-10-15',
+  },
+  'dubai-review-865ee0a091b0': {
+    file: '/images/dubai-review-865ee0a091b0.jpg',
+    author: 'Donaldytong',
+    license: 'CC BY-SA 3.0',
+    licenseUrl: 'https://creativecommons.org/licenses/by-sa/3.0/',
+    sourceUrl:
+      'https://commons.wikimedia.org/wiki/File:%28UAE%29%20The%20Dubai%20Fountain%20at%20Dusk%2002.jpg',
+    verifiedAt: '2026-10-15',
+  },
 }

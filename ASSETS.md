@@ -1,5 +1,13 @@
 # 이미지 및 글꼴 출처
 
+2026-10-15 무료 재사용 사진 3곳 추가: 두바이 몰 실내 폭포, 여성박물관 입구, 두바이 분수. 실제 이미지와 고정된 미러의 CC BY-SA 표시·작가·원본 주소를 확인했습니다. 원본 Commons 페이지는 HTTP 403으로 직접 열람하지 못했으므로 원본에서 이용 조건을 재확인한 것으로 표시하지 않습니다. 다운로드 원본 바이트를 편집 없이 보존하며 SHA-256과 검증 근거는 `public/photo-sources.json`에 기록합니다. 사진별 작가·CC 라이선스·원본 링크는 앱 사진 출처 화면에 표시합니다. 개인 사진은 덮어쓰지 않습니다.
+
+| 장소 ID | 작가 | 이용 조건 | 출처·확인 근거 |
+| --- | --- | --- | --- |
+| dubai-review-2d9db81044cf | Rohitshiv | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [원본](https://commons.wikimedia.org/wiki/File:Waterfall%20%40Dubai%20Mall.jpg) · [확인한 메타데이터](https://github.com/jsschrstrcks1/InTheWake/blob/aa8d83d8407d5c5b64bfd8c40eebbc8505e26bcc/ports/img/dubai/dubai-attraction-1.webp.attr.json) |
+| dubai-review-203e291fcce3 | Lxs | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [원본](https://commons.wikimedia.org/wiki/File:Entrance%20to%20Women%E2%80%99s%20Museum%20of%20Duba%C3%AF.jpg) · [확인한 메타데이터](https://github.com/jsschrstrcks1/InTheWake/blob/aa8d83d8407d5c5b64bfd8c40eebbc8505e26bcc/ports/img/dubai/dubai-attraction-3.webp.attr.json) |
+| dubai-review-865ee0a091b0 | Donaldytong | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) | [원본](https://commons.wikimedia.org/wiki/File:%28UAE%29%20The%20Dubai%20Fountain%20at%20Dusk%2002.jpg) · [확인한 메타데이터](https://github.com/jsschrstrcks1/InTheWake/blob/aa8d83d8407d5c5b64bfd8c40eebbc8505e26bcc/ports/img/dubai/dubai-street.webp.attr.json) |
+
 2026-10-15 추가: 사이판 대표 전경 `/images/saipan-coast.jpg` — P. Miller (Pdmiller), Public domain. [원본](https://commons.wikimedia.org/wiki/File:Saipan.jpg), [미러 메타데이터](https://github.com/jsschrstrcks1/InTheWake/blob/main/ports/img/saipan/managaha-island.webp.attr.json). 미러가 제공한 작가·공개 이용 표시와 실제 이미지 내용을 확인했으며, 원본 Commons 페이지 직접 열람은 현재 접속 제한으로 하지 못했습니다. 출처 기록은 `public/photo-sources.json`에 남깁니다. 개별 장소 사진으로 재사용하지 않습니다. 아래 기존 49곳의 사진은 그대로 보존합니다.
 
 내장 지도 엔진은 Leaflet 1.9.4 (BSD 2-Clause)이며 전체 라이선스·저작권 고지를 `public/licenses/leaflet.txt`에 포함합니다. 지도 배경은 OpenStreetMap이며 지도 안에 출처를 표시합니다. 지도 사용 조건은 [MAPS.md](MAPS.md)를 참고하세요.
