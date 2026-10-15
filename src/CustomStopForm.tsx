@@ -11,6 +11,7 @@ import {
   destinationForDay,
   customPlaceSchema,
   tripDestinations,
+  stopName,
   type Stop,
   type Trip,
   type CustomPlace,
@@ -29,7 +30,7 @@ export default function CustomStopForm({
   onBrowse?: () => void
   onSave: (stop: Stop) => void
 }) {
-  const [name, setName] = useState(stop?.custom?.name || '')
+  const [name, setName] = useState(stop ? stopName(stop) : '')
   const [kind, setKind] = useState<CustomPlace['kind']>(
     stop?.custom?.kind || '관광',
   )

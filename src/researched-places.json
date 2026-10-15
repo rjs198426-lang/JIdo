@@ -442,7 +442,7 @@
   {
     "id": "kyoto-review-b94a619f6326",
     "cityId": "kyoto",
-    "name": "Fushimi Momoyama Castle",
+    "name": "후시미 모모야마성",
     "english": "Fushimi Momoyama Castle · 桃山城, Momoyama-jō; officially 伏見城, Fushimi-jō",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -468,7 +468,7 @@
   {
     "id": "kyoto-review-8fb58dfc216f",
     "cityId": "kyoto",
-    "name": "Shinsen-en Garden",
+    "name": "신센엔 정원",
     "english": "Shinsen-en Garden · 神泉苑",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -676,7 +676,7 @@
   {
     "id": "kyoto-review-c60ba2a4ba1c",
     "cityId": "kyoto",
-    "name": "Nijō-Jinya",
+    "name": "니조진야",
     "english": "Nijō-Jinya · 二条陣屋",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -702,7 +702,7 @@
   {
     "id": "kyoto-review-586e5aef1657",
     "cityId": "kyoto",
-    "name": "Nonomiya Shrine",
+    "name": "노노미야 신사",
     "english": "Nonomiya Shrine · 野宮神社, Nonomiya-jinja",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -728,7 +728,7 @@
   {
     "id": "kyoto-review-8f456c23b2ef",
     "cityId": "kyoto",
-    "name": "Imamiya Shrine",
+    "name": "이마미야 신사",
     "english": "Imamiya Shrine · 今宮神社, Imamiya-jinja",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -754,7 +754,7 @@
   {
     "id": "kyoto-review-568990a36576",
     "cityId": "kyoto",
-    "name": "Jōnan-gū Shrine",
+    "name": "조난구 신사",
     "english": "Jōnan-gū Shrine",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -780,7 +780,7 @@
   {
     "id": "kyoto-review-cd6b7c1644cf",
     "cityId": "kyoto",
-    "name": "Funaoka Onsen",
+    "name": "후나오카 온천",
     "english": "Funaoka Onsen · 船岡温泉",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -806,7 +806,7 @@
   {
     "id": "kyoto-review-2d8e48522bdf",
     "cityId": "kyoto",
-    "name": "The Museum of Kyoto",
+    "name": "교토 문화박물관",
     "english": "The Museum of Kyoto · 京都文化博物館, kyōto bunka hakubutsukan; 通称, bunpaku",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -858,7 +858,7 @@
   {
     "id": "kyoto-review-37b0b8476c9d",
     "cityId": "kyoto",
-    "name": "Tōji-in",
+    "name": "도지인",
     "english": "Tōji-in · 等持院",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -910,7 +910,7 @@
   {
     "id": "kyoto-review-d06e0564f87b",
     "cityId": "kyoto",
-    "name": "Toei Kyoto Studio Park",
+    "name": "도에이 우즈마사 영화마을",
     "english": "Toei Kyoto Studio Park · 東映太秦映画村 tōei uzumasa eigamura",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -988,7 +988,7 @@
   {
     "id": "kyoto-review-68bc9e75ea4c",
     "cityId": "kyoto",
-    "name": "Hirano Shrine",
+    "name": "히라노 신사",
     "english": "Hirano Shrine · 平野神社",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -1014,7 +1014,7 @@
   {
     "id": "kyoto-review-58b33f07fa06",
     "cityId": "kyoto",
-    "name": "Zuishin-in",
+    "name": "즈이신인",
     "english": "Zuishin-in · 随心院",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -1118,7 +1118,7 @@
   {
     "id": "kyoto-review-4110f2b2d822",
     "cityId": "kyoto",
-    "name": "Kajū-ji",
+    "name": "간슈지",
     "english": "Kajū-ji · 勧修寺",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -1170,7 +1170,7 @@
   {
     "id": "kyoto-review-4022d90dd1e7",
     "cityId": "kyoto",
-    "name": "Adashino Nenbutsu-ji",
+    "name": "아다시노 넨부쓰지",
     "english": "Adashino Nenbutsu-ji · 化野念仏寺",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -1196,7 +1196,7 @@
   {
     "id": "kyoto-review-b471d5e8e351",
     "cityId": "kyoto",
-    "name": "Myōshin-ji Temple",
+    "name": "묘신지",
     "english": "Myōshin-ji Temple",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -1222,7 +1222,7 @@
   {
     "id": "kyoto-review-375dbcb62310",
     "cityId": "kyoto",
-    "name": "Oharano Shrine",
+    "name": "오하라노 신사",
     "english": "Oharano Shrine · 大原野神社 Ōharano jinja",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -1300,7 +1300,7 @@
   {
     "id": "kyoto-review-c1b661113628",
     "cityId": "kyoto",
-    "name": "Rokuharamitsu-ji",
+    "name": "로쿠하라미쓰지",
     "english": "Rokuharamitsu-ji · 六波羅蜜寺",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -1586,7 +1586,7 @@
   {
     "id": "bali-review-e352eefa1b53",
     "cityId": "bali",
-    "name": "Bali Bomb Memorial",
+    "name": "발리 폭탄 테러 추모비",
     "english": "Bali Bomb Memorial",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -1612,7 +1612,7 @@
   {
     "id": "bali-review-38c25edfbabc",
     "cityId": "bali",
-    "name": "Pura Petitenget",
+    "name": "쁘띠뜽읏 사원",
     "english": "Pura Petitenget",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -1638,7 +1638,7 @@
   {
     "id": "bali-review-0dd451ae2886",
     "cityId": "bali",
-    "name": "Le Mayeur Museum",
+    "name": "르 마이어 미술관",
     "english": "Le Mayeur Museum",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -1664,7 +1664,7 @@
   {
     "id": "bali-review-d6b67b255c7d",
     "cityId": "bali",
-    "name": "Alun-Alun Puputan",
+    "name": "푸푸탄 광장",
     "english": "Alun-Alun Puputan · Puputan Square, Alun Alun Kota Denpasar, Lapangan Puputan Badung I Gusti Ngurah Made Agung",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -1690,7 +1690,7 @@
   {
     "id": "bali-review-e485271b167d",
     "cityId": "bali",
-    "name": "Brahma Vihara Arama",
+    "name": "브라마 비하라 아라마 사원",
     "english": "Brahma Vihara Arama",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -1716,7 +1716,7 @@
   {
     "id": "bali-review-64d825c5f09b",
     "cityId": "bali",
-    "name": "Dharmayana Temple",
+    "name": "다르마야나 사원",
     "english": "Dharmayana Temple · Wihara Dharmayana",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -1742,7 +1742,7 @@
   {
     "id": "bali-review-30b557437d49",
     "cityId": "bali",
-    "name": "Mangrove Information Centre",
+    "name": "맹그로브 정보센터",
     "english": "Mangrove Information Centre · Mangrove Forest Suwung Kawuh",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -1794,7 +1794,7 @@
   {
     "id": "bali-review-656c78b3c98e",
     "cityId": "bali",
-    "name": "Coba Baca Public Library",
+    "name": "초바 바차 공공도서관",
     "english": "Coba Baca Public Library",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -1820,7 +1820,7 @@
   {
     "id": "bali-review-579892169dd1",
     "cityId": "bali",
-    "name": "Pura Blanjong",
+    "name": "블란종 사원",
     "english": "Pura Blanjong · Blanjong Temple",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -1846,7 +1846,7 @@
   {
     "id": "bali-review-cbc05d9fbb0d",
     "cityId": "bali",
-    "name": "Lapangan Puputan Margarana",
+    "name": "푸푸탄 마르가라나 광장",
     "english": "Lapangan Puputan Margarana · Puputan Park, Lapangan Puputan Renon",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -1872,7 +1872,7 @@
   {
     "id": "bali-review-236a1e3447d5",
     "cityId": "bali",
-    "name": "Serangan Island Turtle Conservation Centre",
+    "name": "스랑안섬 바다거북 보호센터",
     "english": "Serangan Island Turtle Conservation Centre · Turtle Island",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -1898,7 +1898,7 @@
   {
     "id": "bali-review-ef55b677e219",
     "cityId": "bali",
-    "name": "Pura Agung Jagatnata",
+    "name": "아궁 자갓나타 사원",
     "english": "Pura Agung Jagatnata · Jagatnata Temple",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -1924,7 +1924,7 @@
   {
     "id": "bali-review-12f84dcfe255",
     "cityId": "bali",
-    "name": "Pura Maospahit",
+    "name": "마오스파힛 사원",
     "english": "Pura Maospahit · Maospahit Temple",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -1976,7 +1976,7 @@
   {
     "id": "bali-review-5f398f56ca9f",
     "cityId": "bali",
-    "name": "Sidik Jari Museum",
+    "name": "시딕 자리 미술관",
     "english": "Sidik Jari Museum · Finger Painting Museum",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -2002,7 +2002,7 @@
   {
     "id": "bali-review-a4b2dc3455b3",
     "cityId": "bali",
-    "name": "SAKA Museum",
+    "name": "사카 박물관",
     "english": "SAKA Museum",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -2028,7 +2028,7 @@
   {
     "id": "bali-review-5324843a1740",
     "cityId": "bali",
-    "name": "Pura Kehen",
+    "name": "크헨 사원",
     "english": "Pura Kehen · Kehen Temple",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -2054,7 +2054,7 @@
   {
     "id": "bali-review-5ffa26f036ad",
     "cityId": "bali",
-    "name": "Taman Wedhi Budaya Cultural Centre",
+    "name": "타만 웨디 부다야 문화센터",
     "english": "Taman Wedhi Budaya Cultural Centre",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -2080,7 +2080,7 @@
   {
     "id": "bali-review-ad3b621390cd",
     "cityId": "bali",
-    "name": "Pandawa",
+    "name": "판다와 해변",
     "english": "Pandawa",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -2106,7 +2106,7 @@
   {
     "id": "bali-review-8292daa93244",
     "cityId": "bali",
-    "name": "Paradiso Bowling Centre",
+    "name": "파라디소 볼링센터",
     "english": "Paradiso Bowling Centre",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -2132,7 +2132,7 @@
   {
     "id": "bali-review-54b9c601b806",
     "cityId": "bali",
-    "name": "Banjar Hot Springs",
+    "name": "반자르 온천",
     "english": "Banjar Hot Springs · Air Panas",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -2158,7 +2158,7 @@
   {
     "id": "bali-review-c4472d058a93",
     "cityId": "bali",
-    "name": "Puri Saren Agung",
+    "name": "우붓 왕궁",
     "english": "Puri Saren Agung · Royal Palace, Water Palace, Ubud Palace",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -2210,7 +2210,7 @@
   {
     "id": "bali-review-f947a33113e4",
     "cityId": "bali",
-    "name": "Balangan",
+    "name": "발랑안 해변",
     "english": "Balangan",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -2236,7 +2236,7 @@
   {
     "id": "bali-review-299050dddab0",
     "cityId": "bali",
-    "name": "Waterbom Park",
+    "name": "워터봄 발리",
     "english": "Waterbom Park",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -2262,7 +2262,7 @@
   {
     "id": "bali-review-75b22d78705b",
     "cityId": "bali",
-    "name": "Yeh Pulu",
+    "name": "예 풀루 유적",
     "english": "Yeh Pulu",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -2288,7 +2288,7 @@
   {
     "id": "bali-review-012152304a1f",
     "cityId": "bali",
-    "name": "Bingin",
+    "name": "빙인 해변",
     "english": "Bingin",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -2340,7 +2340,7 @@
   {
     "id": "bali-review-0afbe3eb2334",
     "cityId": "bali",
-    "name": "Dreamland",
+    "name": "드림랜드 해변",
     "english": "Dreamland",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -2366,7 +2366,7 @@
   {
     "id": "bali-review-ac8967073f5c",
     "cityId": "bali",
-    "name": "Pura Gunung Lebah",
+    "name": "구눙 르바 사원",
     "english": "Pura Gunung Lebah",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -2392,7 +2392,7 @@
   {
     "id": "bali-review-e10df5413ed1",
     "cityId": "bali",
-    "name": "Gunung Payung Beach",
+    "name": "구눙 파융 해변",
     "english": "Gunung Payung Beach",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -2418,7 +2418,7 @@
   {
     "id": "bali-review-69ad603e26d0",
     "cityId": "bali",
-    "name": "Moana Fish Eatery",
+    "name": "모아나 피시 이터리",
     "english": "Moana Fish Eatery",
     "category": "맛집",
     "image": "/images/place-placeholder.svg",
@@ -2444,7 +2444,7 @@
   {
     "id": "bali-review-8a4477209807",
     "cityId": "bali",
-    "name": "Agung Rai Museum of Art",
+    "name": "아궁 라이 미술관",
     "english": "Agung Rai Museum of Art · ARMA",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -2470,7 +2470,7 @@
   {
     "id": "bali-review-802e7f4de17e",
     "cityId": "bali",
-    "name": "Nyang Nyang Beach",
+    "name": "냥냥 해변",
     "english": "Nyang Nyang Beach",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -2496,7 +2496,7 @@
   {
     "id": "bali-review-4b60ebdfb8f9",
     "cityId": "bali",
-    "name": "CRATE Cafe",
+    "name": "크레이트 카페",
     "english": "CRATE Cafe",
     "category": "카페",
     "image": "/images/place-placeholder.svg",
@@ -2522,7 +2522,7 @@
   {
     "id": "bali-review-b46ac82bd279",
     "cityId": "bali",
-    "name": "Blanco Renaissance Museum",
+    "name": "블랑코 르네상스 미술관",
     "english": "Blanco Renaissance Museum",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -2548,7 +2548,7 @@
   {
     "id": "bali-review-9ee0d8498cb5",
     "cityId": "bali",
-    "name": "Green Bowl Beach",
+    "name": "그린볼 해변",
     "english": "Green Bowl Beach",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -2574,7 +2574,7 @@
   {
     "id": "bali-review-1f9bc5563554",
     "cityId": "bali",
-    "name": "Wina Optic",
+    "name": "위나 안경점",
     "english": "Wina Optic",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -2600,7 +2600,7 @@
   {
     "id": "bali-review-ec60946d5563",
     "cityId": "bali",
-    "name": "Artasedana",
+    "name": "아르타세다나",
     "english": "Artasedana",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -2860,7 +2860,7 @@
   {
     "id": "bangkok-review-142bb81e1d2b",
     "cityId": "bangkok",
-    "name": "Royal Barge National Museum",
+    "name": "왕실 선박 국립박물관",
     "english": "Royal Barge National Museum · พิพิธภัณฑสถานแห่งชาติเรือพระราชพิธี",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -2886,7 +2886,7 @@
   {
     "id": "bangkok-review-0318ec0d7f21",
     "cityId": "bangkok",
-    "name": "Suan Pakkad Palace",
+    "name": "수안 파카드 궁전",
     "english": "Suan Pakkad Palace · วังสวนผักกาด",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -2938,7 +2938,7 @@
   {
     "id": "bangkok-review-8be09893e6a6",
     "cityId": "bangkok",
-    "name": "Pratunam Market",
+    "name": "쁘라뚜남 시장",
     "english": "Pratunam Market · ตลาดประตูน้ำ",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -2964,7 +2964,7 @@
   {
     "id": "bangkok-review-44070ad35546",
     "cityId": "bangkok",
-    "name": "Democracy Monument",
+    "name": "민주기념탑",
     "english": "Democracy Monument · อนุสาวรีย์ประชาธิปไตย",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -2990,7 +2990,7 @@
   {
     "id": "bangkok-review-2679c7429ee4",
     "cityId": "bangkok",
-    "name": "Children's Discovery Museum",
+    "name": "어린이 발견 박물관",
     "english": "Children's Discovery Museum · พิพิธภัณฑ์เด็ก",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -3016,7 +3016,7 @@
   {
     "id": "bangkok-review-416c0c6b3e44",
     "cityId": "bangkok",
-    "name": "Thai Life Permanent Exhibition Hall",
+    "name": "태국 생활 상설전시관",
     "english": "Thai Life Permanent Exhibition Hall · หอไทยนิทัศน์",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -3042,7 +3042,7 @@
   {
     "id": "bangkok-review-06e05e78e8a4",
     "cityId": "bangkok",
-    "name": "Rama IX Royal Park",
+    "name": "라마 9세 공원",
     "english": "Rama IX Royal Park · สวนหลวง ร. 9",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -3068,7 +3068,7 @@
   {
     "id": "bangkok-review-b93647c6ed09",
     "cityId": "bangkok",
-    "name": "Benchasiri Park",
+    "name": "벤자시리 공원",
     "english": "Benchasiri Park · สวนเบญจศิริ",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -3120,7 +3120,7 @@
   {
     "id": "bangkok-review-7d8950e8a627",
     "cityId": "bangkok",
-    "name": "October 14 Memorial",
+    "name": "10월 14일 추모관",
     "english": "October 14 Memorial · อนุสรณ์สถาน 14 ตุลา",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -3146,7 +3146,7 @@
   {
     "id": "bangkok-review-aac483be78dc",
     "cityId": "bangkok",
-    "name": "Guru Tawan Sikh Temple",
+    "name": "구루 타완 시크교 사원",
     "english": "Guru Tawan Sikh Temple · คุรุดวาราศรีคุรุสิงห์สภา Gurudwara Siri Guru Singh Sabha",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -3172,7 +3172,7 @@
   {
     "id": "bangkok-review-dade2236930a",
     "cityId": "bangkok",
-    "name": "Abhisek Dusit Throne Hall",
+    "name": "아피섹 두싯 알현실",
     "english": "Abhisek Dusit Throne Hall · SUPPORT Museum",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -3198,7 +3198,7 @@
   {
     "id": "bangkok-review-e813616c761e",
     "cityId": "bangkok",
-    "name": "Museum of Contemporary Art",
+    "name": "방콕 현대미술관",
     "english": "Museum of Contemporary Art · พิพิฒภัณฑ์ศิลปะไทยร่วมสมัย",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -3224,7 +3224,7 @@
   {
     "id": "bangkok-review-72118eadb37b",
     "cityId": "bangkok",
-    "name": "Wat Thep Lila",
+    "name": "왓 텝 릴라",
     "english": "Wat Thep Lila · วัดเทพลีลา",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -3276,7 +3276,7 @@
   {
     "id": "bangkok-review-dccf852a1b0f",
     "cityId": "bangkok",
-    "name": "Soi Arab",
+    "name": "소이 아랍",
     "english": "Soi Arab · Middle East Street",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -3302,7 +3302,7 @@
   {
     "id": "bangkok-review-2bf2be8af2d1",
     "cityId": "bangkok",
-    "name": "King Rama VI Statue",
+    "name": "라마 6세 동상",
     "english": "King Rama VI Statue · พระบรมราชานุสาวรีย์พระบาทสมเด็จพระมงกุฏเกล้าเจ้าอยู่หัว",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -3328,7 +3328,7 @@
   {
     "id": "bangkok-review-e7abfa983104",
     "cityId": "bangkok",
-    "name": "Phra Sumen Fort",
+    "name": "프라 수멘 요새",
     "english": "Phra Sumen Fort · ป้อมพระสุเมรุ",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -3354,7 +3354,7 @@
   {
     "id": "bangkok-review-a54b069c67b8",
     "cityId": "bangkok",
-    "name": "Wat Chai Chana Songkhram",
+    "name": "왓 차이 차나 송크람",
     "english": "Wat Chai Chana Songkhram · วัดชัยชนะสงคราม",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -3380,7 +3380,7 @@
   {
     "id": "bangkok-review-c8e87f933302",
     "cityId": "bangkok",
-    "name": "King Rama V Equestrian Statue",
+    "name": "라마 5세 기마상",
     "english": "King Rama V Equestrian Statue · พระบรมรูปทรงม้า",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -3406,7 +3406,7 @@
   {
     "id": "bangkok-review-c8b67be14001",
     "cityId": "bangkok",
-    "name": "Santa Cruz Church",
+    "name": "산타크루즈 성당",
     "english": "Santa Cruz Church · วัดซางตาครู้ส",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -3432,7 +3432,7 @@
   {
     "id": "bangkok-review-967882844745",
     "cityId": "bangkok",
-    "name": "Baiyoke Tower II Observatory and Revolving Roofdeck",
+    "name": "바이욕 타워 2 전망대·회전 옥상",
     "english": "Baiyoke Tower II Observatory and Revolving Roofdeck · ตึกใบหยก 2",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -3458,7 +3458,7 @@
   {
     "id": "bangkok-review-332b1454bea3",
     "cityId": "bangkok",
-    "name": "Philatelic Museum",
+    "name": "우표박물관",
     "english": "Philatelic Museum · พิพิธภัณฑ์และห้องสมุดตราไปรษณียากร",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -3484,7 +3484,7 @@
   {
     "id": "bangkok-review-46ba86bc0d16",
     "cityId": "bangkok",
-    "name": "Madame Tussaud's",
+    "name": "마담 투소 방콕",
     "english": "Madame Tussaud's · พิพิธภัณฑ์หุ่นขี้ผึ้งมาดามทุสโซ",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -3510,7 +3510,7 @@
   {
     "id": "bangkok-review-f619a76ba54f",
     "cityId": "bangkok",
-    "name": "Queen Saovabha Memorial Institute Snake Farm",
+    "name": "사오와파 왕비 기념연구소 뱀농장",
     "english": "Queen Saovabha Memorial Institute Snake Farm · สถานเสาวภาสภากาชาดไทย",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -3536,7 +3536,7 @@
   {
     "id": "bangkok-review-f851b0dfe92e",
     "cityId": "bangkok",
-    "name": "Pavilion of Regalia, Royal Decorations and Thai Coins",
+    "name": "왕실 보물·훈장·태국 화폐 전시관",
     "english": "Pavilion of Regalia, Royal Decorations and Thai Coins",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -3562,7 +3562,7 @@
   {
     "id": "bangkok-review-1e0f18d6b5e1",
     "cityId": "bangkok",
-    "name": "Santichaiprakan Park",
+    "name": "싼띠차이쁘라깐 공원",
     "english": "Santichaiprakan Park · พระที่นั่งและสวนสาธารณะสันติชัยปราการ",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -3588,7 +3588,7 @@
   {
     "id": "bangkok-review-0d84eef8c7b4",
     "cityId": "bangkok",
-    "name": "Wat Chakrawat",
+    "name": "왓 짜끄라왓",
     "english": "Wat Chakrawat · วัดจักรวรรดิราชาวาสวรมหาวิหาร",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -3614,7 +3614,7 @@
   {
     "id": "bangkok-review-23f9f329ddf3",
     "cityId": "bangkok",
-    "name": "Wat Intharawihan",
+    "name": "왓 인타라위한",
     "english": "Wat Intharawihan · วัดอินทรวิหาร",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -3640,7 +3640,7 @@
   {
     "id": "bangkok-review-7bec5502007e",
     "cityId": "bangkok",
-    "name": "Wat Kanlayanamit",
+    "name": "왓 깐라야나밋",
     "english": "Wat Kanlayanamit · วัดกัลยาณมิตรวรมหาวิหาร",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -3666,7 +3666,7 @@
   {
     "id": "bangkok-review-6b661000f4af",
     "cityId": "bangkok",
-    "name": "Bangkok Dolls Museum",
+    "name": "방콕 인형박물관",
     "english": "Bangkok Dolls Museum · บ้านบางกอกดอลส์และตุ๊กตานานาชาติ",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -3692,7 +3692,7 @@
   {
     "id": "bangkok-review-5b1b2ac5ff12",
     "cityId": "bangkok",
-    "name": "Royal Thai Air Force Museum",
+    "name": "태국 왕립 공군박물관",
     "english": "Royal Thai Air Force Museum · พิพิธภัณฑ์กองทัพอากาศ",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -3718,7 +3718,7 @@
   {
     "id": "bangkok-review-0245590f6097",
     "cityId": "bangkok",
-    "name": "Queen Savang Vadhana Museum",
+    "name": "사왕 왓타나 왕비 박물관",
     "english": "Queen Savang Vadhana Museum · มูลนิธิสมเด็จพระพันวัสสาอัยยิกาเจ้า",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -3744,7 +3744,7 @@
   {
     "id": "bangkok-review-60c834ccf4af",
     "cityId": "bangkok",
-    "name": "Assumption Cathedral",
+    "name": "어섬션 대성당",
     "english": "Assumption Cathedral · อาสนวิหารอัสสัมชัญ",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -3770,7 +3770,7 @@
   {
     "id": "bangkok-review-66ea889014f0",
     "cityId": "bangkok",
-    "name": "Wat Ratchabophit",
+    "name": "왓 라차보핏",
     "english": "Wat Ratchabophit · วัดราชบพิตร",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -3796,7 +3796,7 @@
   {
     "id": "bangkok-review-c31c8d4a6071",
     "cityId": "bangkok",
-    "name": "Wat Bowonniwet",
+    "name": "왓 보원니웻",
     "english": "Wat Bowonniwet · วัดบวรนิเวศ",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -3822,7 +3822,7 @@
   {
     "id": "bangkok-review-c97b4d1c664c",
     "cityId": "bangkok",
-    "name": "Wat Ga Buang Kim",
+    "name": "왓 가 부앙 킴",
     "english": "Wat Ga Buang Kim",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -3848,7 +3848,7 @@
   {
     "id": "bangkok-review-1eb0608931af",
     "cityId": "bangkok",
-    "name": "Wat Prayoon",
+    "name": "왓 쁘라윤",
     "english": "Wat Prayoon · วัดประยุรวงศ์",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -3874,7 +3874,7 @@
   {
     "id": "bangkok-review-32e3b4415f17",
     "cityId": "bangkok",
-    "name": "Phaya Thai Palace",
+    "name": "파야타이 궁전",
     "english": "Phaya Thai Palace · วังพญาไท",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -3900,7 +3900,7 @@
   {
     "id": "bangkok-review-c5303d5c91a9",
     "cityId": "bangkok",
-    "name": "Bangkok Sea Life Ocean World",
+    "name": "씨라이프 방콕 오션월드",
     "english": "Bangkok Sea Life Ocean World · สยามโอเชี่ยนเวิลด์",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -4134,7 +4134,7 @@
   {
     "id": "santorini-review-57c138971237",
     "cityId": "santorini",
-    "name": "Agia Irini",
+    "name": "아기아 이리니 교회",
     "english": "Agia Irini",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -4160,7 +4160,7 @@
   {
     "id": "santorini-review-d42c993d51af",
     "cityId": "santorini",
-    "name": "Timiou Stafrou",
+    "name": "티미우 스타브루 교회",
     "english": "Timiou Stafrou",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -4186,7 +4186,7 @@
   {
     "id": "santorini-review-70a7850daa36",
     "cityId": "santorini",
-    "name": "Folklore Museum",
+    "name": "산토리니 민속박물관",
     "english": "Folklore Museum",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -4212,7 +4212,7 @@
   {
     "id": "santorini-review-71a86b7895b3",
     "cityId": "santorini",
-    "name": "Panagia Katefiani",
+    "name": "파나기아 카테피아니 교회",
     "english": "Panagia Katefiani",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -4238,7 +4238,7 @@
   {
     "id": "santorini-review-1ba9549aec8a",
     "cityId": "santorini",
-    "name": "La Ponta Castle",
+    "name": "라 폰타 성",
     "english": "La Ponta Castle",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -4290,7 +4290,7 @@
   {
     "id": "santorini-review-f7ab8a21c17a",
     "cityId": "santorini",
-    "name": "Museum of Minerals and Fossils",
+    "name": "광물·화석 박물관",
     "english": "Museum of Minerals and Fossils · Μουσείο ορυκτών και απολιθωμάτων Περίσσα Σαντορίνης",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -4316,7 +4316,7 @@
   {
     "id": "santorini-review-69a8cbc47693",
     "cityId": "santorini",
-    "name": "Old Mill",
+    "name": "옛 풍차",
     "english": "Old Mill",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -4342,7 +4342,7 @@
   {
     "id": "santorini-review-d90731535068",
     "cityId": "santorini",
-    "name": "Megaro Gyzi Museum",
+    "name": "메가로 기지 박물관",
     "english": "Megaro Gyzi Museum",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -4368,7 +4368,7 @@
   {
     "id": "santorini-review-a851ff3b16e4",
     "cityId": "santorini",
-    "name": "Ancient Quarry",
+    "name": "고대 채석장",
     "english": "Ancient Quarry",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -4394,7 +4394,7 @@
   {
     "id": "santorini-review-90a67c82ad42",
     "cityId": "santorini",
-    "name": "Saint Efstathios Church",
+    "name": "성 에프스타티오스 교회",
     "english": "Saint Efstathios Church · Άγιος Ευστάθιος",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -4420,7 +4420,7 @@
   {
     "id": "santorini-review-7778db413872",
     "cityId": "santorini",
-    "name": "Roger Tourte Exposition",
+    "name": "로제 투르트 전시관",
     "english": "Roger Tourte Exposition",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -4446,7 +4446,7 @@
   {
     "id": "santorini-review-541a0a7dc407",
     "cityId": "santorini",
-    "name": "Menhir",
+    "name": "선돌 유적",
     "english": "Menhir",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -4498,7 +4498,7 @@
   {
     "id": "santorini-review-508dcc2205c7",
     "cityId": "santorini",
-    "name": "Agios Nikolaos Church",
+    "name": "아기오스 니콜라오스 교회",
     "english": "Agios Nikolaos Church",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -4524,7 +4524,7 @@
   {
     "id": "santorini-review-d80027f157c1",
     "cityId": "santorini",
-    "name": "Dominican Convent",
+    "name": "도미니코회 수녀원",
     "english": "Dominican Convent",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -4576,7 +4576,7 @@
   {
     "id": "santorini-review-842ffdb4782e",
     "cityId": "santorini",
-    "name": "Orthodox Metropolitan Cathedral",
+    "name": "산토리니 정교회 대성당",
     "english": "Orthodox Metropolitan Cathedral",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -4602,7 +4602,7 @@
   {
     "id": "santorini-review-a8fa34e21dff",
     "cityId": "santorini",
-    "name": "Caldera Beach",
+    "name": "칼데라 해변",
     "english": "Caldera Beach",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -4628,7 +4628,7 @@
   {
     "id": "santorini-review-28027fc4ac90",
     "cityId": "santorini",
-    "name": "Cathedral of Saint John the Baptist",
+    "name": "세례자 성 요한 대성당",
     "english": "Cathedral of Saint John the Baptist · Καθεδρικός ναός του Αγίου Ιωάννη του Βαπτιστή",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -4654,7 +4654,7 @@
   {
     "id": "santorini-review-31a442e9fbd0",
     "cityId": "santorini",
-    "name": "Beach Cave",
+    "name": "해변 동굴",
     "english": "Beach Cave",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -4680,7 +4680,7 @@
   {
     "id": "santorini-review-17b1bcb88a6f",
     "cityId": "santorini",
-    "name": "Santorini Open Air Cinema Kamari",
+    "name": "카마리 야외영화관",
     "english": "Santorini Open Air Cinema Kamari · Santorini Cine Kamari",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -4706,7 +4706,7 @@
   {
     "id": "santorini-review-401028f085a8",
     "cityId": "santorini",
-    "name": "Kampia Beach",
+    "name": "캄피아 해변",
     "english": "Kampia Beach",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -4732,7 +4732,7 @@
   {
     "id": "santorini-review-f3ce30db03b5",
     "cityId": "santorini",
-    "name": "Alexander's Restaurant",
+    "name": "알렉산더스 레스토랑",
     "english": "Alexander's Restaurant",
     "category": "맛집",
     "image": "/images/place-placeholder.svg",
@@ -4758,7 +4758,7 @@
   {
     "id": "santorini-review-1024819b74da",
     "cityId": "santorini",
-    "name": "El Greco",
+    "name": "엘 그레코",
     "english": "El Greco",
     "category": "맛집",
     "image": "/images/place-placeholder.svg",
@@ -4784,7 +4784,7 @@
   {
     "id": "santorini-review-e71c30954b08",
     "cityId": "santorini",
-    "name": "The Old Cellar Gift Shop",
+    "name": "올드 셀러 기념품점",
     "english": "The Old Cellar Gift Shop",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -4810,7 +4810,7 @@
   {
     "id": "santorini-review-2c475a8819c8",
     "cityId": "santorini",
-    "name": "Saliveros",
+    "name": "살리베로스",
     "english": "Saliveros",
     "category": "맛집",
     "image": "/images/place-placeholder.svg",
@@ -4836,7 +4836,7 @@
   {
     "id": "santorini-review-bffde9b14f4d",
     "cityId": "santorini",
-    "name": "The White Door Theatro",
+    "name": "화이트 도어 극장",
     "english": "The White Door Theatro",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -4862,7 +4862,7 @@
   {
     "id": "santorini-review-2e4283ee58b6",
     "cityId": "santorini",
-    "name": "Santorini Zen Spa",
+    "name": "산토리니 젠 스파",
     "english": "Santorini Zen Spa",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -4888,7 +4888,7 @@
   {
     "id": "santorini-review-001bcd70af14",
     "cityId": "santorini",
-    "name": "Kokkalo",
+    "name": "코칼로",
     "english": "Kokkalo",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -4914,7 +4914,7 @@
   {
     "id": "santorini-review-6049a18ff33d",
     "cityId": "santorini",
-    "name": "Creamerie Vienna",
+    "name": "크레메리 비엔나",
     "english": "Creamerie Vienna",
     "category": "카페",
     "image": "/images/place-placeholder.svg",
@@ -4940,7 +4940,7 @@
   {
     "id": "santorini-review-f82af2eaef0d",
     "cityId": "santorini",
-    "name": "Volcano",
+    "name": "볼케이노",
     "english": "Volcano",
     "category": "맛집",
     "image": "/images/place-placeholder.svg",
@@ -4966,7 +4966,7 @@
   {
     "id": "santorini-review-0c8baa9fd843",
     "cityId": "santorini",
-    "name": "Hook Bar",
+    "name": "후크 바",
     "english": "Hook Bar",
     "category": "바·공연",
     "image": "/images/place-placeholder.svg",
@@ -4992,7 +4992,7 @@
   {
     "id": "santorini-review-12b33497b7f8",
     "cityId": "santorini",
-    "name": "Charlina's",
+    "name": "샬리나스",
     "english": "Charlina's",
     "category": "맛집",
     "image": "/images/place-placeholder.svg",
@@ -5018,7 +5018,7 @@
   {
     "id": "santorini-review-61661da056a5",
     "cityId": "santorini",
-    "name": "Prince Bar-Restaurant",
+    "name": "프린스 바·레스토랑",
     "english": "Prince Bar-Restaurant",
     "category": "바·공연",
     "image": "/images/place-placeholder.svg",
@@ -5044,7 +5044,7 @@
   {
     "id": "santorini-review-5e137b24a372",
     "cityId": "santorini",
-    "name": "Ancient Akrotiri Museum Shop",
+    "name": "고대 아크로티리 박물관 기념품점",
     "english": "Ancient Akrotiri Museum Shop",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -5070,7 +5070,7 @@
   {
     "id": "santorini-review-85cacdd17517",
     "cityId": "santorini",
-    "name": "Acropolis",
+    "name": "아크로폴리스",
     "english": "Acropolis",
     "category": "맛집",
     "image": "/images/place-placeholder.svg",
@@ -5096,7 +5096,7 @@
   {
     "id": "santorini-review-f12541f35d87",
     "cityId": "santorini",
-    "name": "Splash Bar - Restaurant",
+    "name": "스플래시 바·레스토랑",
     "english": "Splash Bar - Restaurant",
     "category": "바·공연",
     "image": "/images/place-placeholder.svg",
@@ -5122,7 +5122,7 @@
   {
     "id": "santorini-review-4f1b2aa5bf57",
     "cityId": "santorini",
-    "name": "XξYLO Wood Design Santorini",
+    "name": "크실로 우드 디자인 산토리니",
     "english": "XξYLO Wood Design Santorini",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -5148,7 +5148,7 @@
   {
     "id": "santorini-review-dd6695749293",
     "cityId": "santorini",
-    "name": "Sea Side View",
+    "name": "씨사이드 뷰",
     "english": "Sea Side View",
     "category": "맛집",
     "image": "/images/place-placeholder.svg",
@@ -5174,7 +5174,7 @@
   {
     "id": "santorini-review-decd39668a2f",
     "cityId": "santorini",
-    "name": "MATI Gallery",
+    "name": "마티 갤러리",
     "english": "MATI Gallery",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -5200,7 +5200,7 @@
   {
     "id": "santorini-review-b026929375f5",
     "cityId": "santorini",
-    "name": "Anna's Mini Market",
+    "name": "안나스 미니마켓",
     "english": "Anna's Mini Market",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -5304,7 +5304,7 @@
   {
     "id": "dubai-review-1ee5e0dc69a7",
     "cityId": "dubai",
-    "name": "Dubai Frame",
+    "name": "두바이 프레임",
     "english": "Dubai Frame",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -5590,7 +5590,7 @@
   {
     "id": "dubai-review-117e360d3def",
     "cityId": "dubai",
-    "name": "Mushrif Park",
+    "name": "무슈리프 공원",
     "english": "Mushrif Park",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -5616,7 +5616,7 @@
   {
     "id": "dubai-review-dc533b69e3d0",
     "cityId": "dubai",
-    "name": "Aquaventure Waterpark",
+    "name": "아쿠아벤처 워터파크",
     "english": "Aquaventure Waterpark",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -5694,7 +5694,7 @@
   {
     "id": "dubai-review-bec0ec0d798f",
     "cityId": "dubai",
-    "name": "Al Ahmadiya School and Heritage House",
+    "name": "알 아흐마디야 학교·헤리티지 하우스",
     "english": "Al Ahmadiya School and Heritage House",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -5720,7 +5720,7 @@
   {
     "id": "dubai-review-a9da29670cc5",
     "cityId": "dubai",
-    "name": "Creek Park",
+    "name": "크리크 공원",
     "english": "Creek Park",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -5746,7 +5746,7 @@
   {
     "id": "dubai-review-d1c4b7f3e011",
     "cityId": "dubai",
-    "name": "Deira Clocktower",
+    "name": "데이라 시계탑",
     "english": "Deira Clocktower · Dubai Clocktower",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -5772,7 +5772,7 @@
   {
     "id": "dubai-review-eae27c8b9c6c",
     "cityId": "dubai",
-    "name": "Dubai Dolphinarium",
+    "name": "두바이 돌피나리움",
     "english": "Dubai Dolphinarium",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -5798,7 +5798,7 @@
   {
     "id": "dubai-review-9b889b60dd32",
     "cityId": "dubai",
-    "name": "Imagine",
+    "name": "이매진 분수쇼",
     "english": "Imagine",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -5824,7 +5824,7 @@
   {
     "id": "dubai-review-5558a25e09cb",
     "cityId": "dubai",
-    "name": "Dhow Wharfage",
+    "name": "다우 선착장",
     "english": "Dhow Wharfage",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -5850,7 +5850,7 @@
   {
     "id": "dubai-review-9766209cd2ca",
     "cityId": "dubai",
-    "name": "Grand Mosque",
+    "name": "그랜드 모스크",
     "english": "Grand Mosque",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -5876,7 +5876,7 @@
   {
     "id": "dubai-review-ab9e154ce8f6",
     "cityId": "dubai",
-    "name": "Dubai Parks & Resorts",
+    "name": "두바이 파크 앤 리조트",
     "english": "Dubai Parks & Resorts",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -5902,7 +5902,7 @@
   {
     "id": "dubai-review-e4c84589be4e",
     "cityId": "dubai",
-    "name": "Mamzar Park",
+    "name": "알 맘자르 공원",
     "english": "Mamzar Park",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -5928,7 +5928,7 @@
   {
     "id": "dubai-review-db68e77d201d",
     "cityId": "dubai",
-    "name": "Heritage Village",
+    "name": "헤리티지 빌리지",
     "english": "Heritage Village",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -5954,7 +5954,7 @@
   {
     "id": "dubai-review-6bc5c5875878",
     "cityId": "dubai",
-    "name": "Dubai Municipality Museum",
+    "name": "두바이 시립박물관",
     "english": "Dubai Municipality Museum",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -5980,7 +5980,7 @@
   {
     "id": "dubai-review-c7f932de072d",
     "cityId": "dubai",
-    "name": "Iranian mosque",
+    "name": "이란 모스크",
     "english": "Iranian mosque",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -6006,7 +6006,7 @@
   {
     "id": "dubai-review-203e291fcce3",
     "cityId": "dubai",
-    "name": "Women's Museum",
+    "name": "여성박물관",
     "english": "Women's Museum",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -6032,7 +6032,7 @@
   {
     "id": "dubai-review-7ba47279287f",
     "cityId": "dubai",
-    "name": "Sheikh Obaid bin Thani House",
+    "name": "셰이크 오바이드 빈 타니의 집",
     "english": "Sheikh Obaid bin Thani House",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -6058,7 +6058,7 @@
   {
     "id": "dubai-review-208fc928205d",
     "cityId": "dubai",
-    "name": "Saeed Al Maktoum House",
+    "name": "사이드 알 막툼의 집",
     "english": "Saeed Al Maktoum House",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -6084,7 +6084,7 @@
   {
     "id": "dubai-review-7122c28fac79",
     "cityId": "dubai",
-    "name": "Dubai Autodrome",
+    "name": "두바이 오토드롬",
     "english": "Dubai Autodrome",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -6110,7 +6110,7 @@
   {
     "id": "dubai-review-7efbb1f4ba86",
     "cityId": "dubai",
-    "name": "Crossroad of Civilization Museum",
+    "name": "문명의 교차로 박물관",
     "english": "Crossroad of Civilization Museum",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -6136,7 +6136,7 @@
   {
     "id": "dubai-review-9818738a4c7e",
     "cityId": "dubai",
-    "name": "Dubai Sports City (DSC)",
+    "name": "두바이 스포츠 시티",
     "english": "Dubai Sports City (DSC)",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -6162,7 +6162,7 @@
   {
     "id": "dubai-review-adf17002f079",
     "cityId": "dubai",
-    "name": "Old Weapons Museum",
+    "name": "옛 무기 박물관",
     "english": "Old Weapons Museum",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -6188,7 +6188,7 @@
   {
     "id": "dubai-review-84fc4dc7d077",
     "cityId": "dubai",
-    "name": "Jebel Ali Shooting Club",
+    "name": "제벨 알리 사격클럽",
     "english": "Jebel Ali Shooting Club",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -6214,7 +6214,7 @@
   {
     "id": "dubai-review-17c8ce00a3f4",
     "cityId": "dubai",
-    "name": "Zabeel Park",
+    "name": "자빌 공원",
     "english": "Zabeel Park",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -6292,7 +6292,7 @@
   {
     "id": "dubai-review-a210d8e9f4cf",
     "cityId": "dubai",
-    "name": "Cinecity - Al Ghurair Centre",
+    "name": "시네시티 알 구레르 센터",
     "english": "Cinecity - Al Ghurair Centre · formerly the  Grand Cinemas",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -6318,7 +6318,7 @@
   {
     "id": "dubai-review-38d6cde67159",
     "cityId": "dubai",
-    "name": "La Fontana",
+    "name": "라 폰타나",
     "english": "La Fontana",
     "category": "맛집",
     "image": "/images/place-placeholder.svg",
@@ -6370,7 +6370,7 @@
   {
     "id": "dubai-review-c88f0443b0d2",
     "cityId": "dubai",
-    "name": "VOX Deira City Centre",
+    "name": "복스 시네마 데이라 시티센터",
     "english": "VOX Deira City Centre",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -6422,7 +6422,7 @@
   {
     "id": "dubai-review-399054b7e63f",
     "cityId": "dubai",
-    "name": "Jungle Bay Waterpark",
+    "name": "정글 베이 워터파크",
     "english": "Jungle Bay Waterpark",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -6448,7 +6448,7 @@
   {
     "id": "dubai-review-68857363e1b4",
     "cityId": "dubai",
-    "name": "Dubai Outlet Mall",
+    "name": "두바이 아웃렛몰",
     "english": "Dubai Outlet Mall",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -6474,7 +6474,7 @@
   {
     "id": "dubai-review-60258c7efc5a",
     "cityId": "dubai",
-    "name": "Majlis Ghorfat Umm Al Sheif",
+    "name": "마즐리스 고르팟 움 알 셰이프",
     "english": "Majlis Ghorfat Umm Al Sheif",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -6500,7 +6500,7 @@
   {
     "id": "dubai-review-7b119122d863",
     "cityId": "dubai",
-    "name": "Mall of Arabia",
+    "name": "몰 오브 아라비아",
     "english": "Mall of Arabia",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -6579,7 +6579,7 @@
   {
     "id": "maldives-review-780238e9cacd",
     "cityId": "maldives",
-    "name": "Fushi island",
+    "name": "푸시섬",
     "english": "Fushi island · Ukulhas Picnic island",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -6816,7 +6816,7 @@
   {
     "id": "maldives-review-5f3b9879b230",
     "cityId": "maldives",
-    "name": "Gaagandu",
+    "name": "가간두",
     "english": "Gaagandu",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -6923,7 +6923,7 @@
   {
     "id": "maldives-review-6a899241d5fc",
     "cityId": "maldives",
-    "name": "Kalhu Vakaru Miskiy",
+    "name": "칼후 바카루 모스크",
     "english": "Kalhu Vakaru Miskiy",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -7107,7 +7107,7 @@
   {
     "id": "maldives-review-6f9033896412",
     "cityId": "maldives",
-    "name": "Medhu Ziyaaraiy",
+    "name": "메두 지야라이 묘역",
     "english": "Medhu Ziyaaraiy",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -7133,7 +7133,7 @@
   {
     "id": "maldives-review-8769ba986db9",
     "cityId": "maldives",
-    "name": "Dharumavantha Mosque",
+    "name": "다루마반타 모스크",
     "english": "Dharumavantha Mosque",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -7159,7 +7159,7 @@
   {
     "id": "maldives-review-c4397f65f9d7",
     "cityId": "maldives",
-    "name": "Coffee Ole",
+    "name": "커피 올레",
     "english": "Coffee Ole",
     "category": "카페",
     "image": "/images/place-placeholder.svg",
@@ -7185,7 +7185,7 @@
   {
     "id": "maldives-review-eef5e97a9521",
     "cityId": "maldives",
-    "name": "Palm Shadow",
+    "name": "팜 섀도",
     "english": "Palm Shadow",
     "category": "카페",
     "image": "/images/place-placeholder.svg",
@@ -7211,7 +7211,7 @@
   {
     "id": "maldives-review-ebb03354c0e0",
     "cityId": "maldives",
-    "name": "Thin Ari",
+    "name": "틴 아리",
     "english": "Thin Ari",
     "category": "맛집",
     "image": "/images/place-placeholder.svg",
@@ -7237,7 +7237,7 @@
   {
     "id": "maldives-review-204ab7c3b35c",
     "cityId": "maldives",
-    "name": "Coconut Garden",
+    "name": "코코넛 가든",
     "english": "Coconut Garden",
     "category": "맛집",
     "image": "/images/place-placeholder.svg",
@@ -7263,7 +7263,7 @@
   {
     "id": "maldives-review-cdea9c7d9d53",
     "cityId": "maldives",
-    "name": "Nala Bistro",
+    "name": "날라 비스트로",
     "english": "Nala Bistro",
     "category": "맛집",
     "image": "/images/place-placeholder.svg",
@@ -7289,7 +7289,7 @@
   {
     "id": "maldives-review-123be57bcd88",
     "cityId": "maldives",
-    "name": "Coco Mero",
+    "name": "코코 메로",
     "english": "Coco Mero",
     "category": "맛집",
     "image": "/images/place-placeholder.svg",
@@ -7315,7 +7315,7 @@
   {
     "id": "maldives-review-d9354b94ba41",
     "cityId": "maldives",
-    "name": "Icoco",
+    "name": "아이코코",
     "english": "Icoco",
     "category": "맛집",
     "image": "/images/place-placeholder.svg",
@@ -7341,7 +7341,7 @@
   {
     "id": "maldives-review-d4cbd158c0fd",
     "cityId": "maldives",
-    "name": "Poblano",
+    "name": "포블라노",
     "english": "Poblano",
     "category": "맛집",
     "image": "/images/place-placeholder.svg",
@@ -7367,7 +7367,7 @@
   {
     "id": "maldives-review-b24ca6cb81fc",
     "cityId": "maldives",
-    "name": "Sunrise Cornet",
+    "name": "선라이즈 코넷",
     "english": "Sunrise Cornet",
     "category": "맛집",
     "image": "/images/place-placeholder.svg",
@@ -7393,7 +7393,7 @@
   {
     "id": "maldives-review-12139fcde64b",
     "cityId": "maldives",
-    "name": "Lemon Drop",
+    "name": "레몬 드롭",
     "english": "Lemon Drop",
     "category": "맛집",
     "image": "/images/place-placeholder.svg",
@@ -7419,7 +7419,7 @@
   {
     "id": "maldives-review-10ec7c4d6968",
     "cityId": "maldives",
-    "name": "Chef Nur",
+    "name": "셰프 누르",
     "english": "Chef Nur",
     "category": "맛집",
     "image": "/images/place-placeholder.svg",
@@ -7445,7 +7445,7 @@
   {
     "id": "maldives-review-45808412b4df",
     "cityId": "maldives",
-    "name": "Mint Garden",
+    "name": "민트 가든",
     "english": "Mint Garden",
     "category": "카페",
     "image": "/images/place-placeholder.svg",
@@ -7471,7 +7471,7 @@
   {
     "id": "maldives-review-804b6637d6da",
     "cityId": "maldives",
-    "name": "Taste",
+    "name": "테이스트",
     "english": "Taste",
     "category": "맛집",
     "image": "/images/place-placeholder.svg",
@@ -7497,7 +7497,7 @@
   {
     "id": "maldives-review-081d812abe23",
     "cityId": "maldives",
-    "name": "Black Salt",
+    "name": "블랙 솔트",
     "english": "Black Salt",
     "category": "맛집",
     "image": "/images/place-placeholder.svg",
@@ -7523,7 +7523,7 @@
   {
     "id": "maldives-review-52882bbbc1b0",
     "cityId": "maldives",
-    "name": "STO People's Choice Supermart",
+    "name": "에스티오 피플스 초이스 슈퍼마켓",
     "english": "STO People's Choice Supermart",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -7549,7 +7549,7 @@
   {
     "id": "maldives-review-2def4cc35dad",
     "cityId": "maldives",
-    "name": "South West Harbour Area",
+    "name": "남서쪽 항구 일대",
     "english": "South West Harbour Area",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -7627,7 +7627,7 @@
   {
     "id": "maldives-review-8043965f3abd",
     "cityId": "maldives",
-    "name": "Beach Blends",
+    "name": "비치 블렌즈",
     "english": "Beach Blends",
     "category": "바·공연",
     "image": "/images/place-placeholder.svg",
@@ -7653,7 +7653,7 @@
   {
     "id": "maldives-review-da2bdf2e1442",
     "cityId": "maldives",
-    "name": "Jade Bistro",
+    "name": "제이드 비스트로",
     "english": "Jade Bistro",
     "category": "카페",
     "image": "/images/place-placeholder.svg",
@@ -7679,7 +7679,7 @@
   {
     "id": "maldives-review-326288c7d42f",
     "cityId": "maldives",
-    "name": "Ginger",
+    "name": "진저",
     "english": "Ginger",
     "category": "바·공연",
     "image": "/images/place-placeholder.svg",
@@ -7731,7 +7731,7 @@
   {
     "id": "maldives-review-ffc9d8288a12",
     "cityId": "maldives",
-    "name": "FoodBank",
+    "name": "푸드뱅크",
     "english": "FoodBank",
     "category": "맛집",
     "image": "/images/place-placeholder.svg",
@@ -7757,7 +7757,7 @@
   {
     "id": "maldives-review-420de242221c",
     "cityId": "maldives",
-    "name": "Faiymini Kamana",
+    "name": "파이미니 카마나",
     "english": "Faiymini Kamana",
     "category": "바·공연",
     "image": "/images/place-placeholder.svg",
@@ -7783,7 +7783,7 @@
   {
     "id": "maldives-review-9e3c406f6057",
     "cityId": "maldives",
-    "name": "Breakwater",
+    "name": "브레이크워터",
     "english": "Breakwater",
     "category": "카페",
     "image": "/images/place-placeholder.svg",
@@ -7809,7 +7809,7 @@
   {
     "id": "maldives-review-c010c8fc1a71",
     "cityId": "maldives",
-    "name": "Seagull Café",
+    "name": "시걸 카페",
     "english": "Seagull Café",
     "category": "카페",
     "image": "/images/place-placeholder.svg",
@@ -8173,7 +8173,7 @@
   {
     "id": "tokyo-review-3633db0e05bd",
     "cityId": "tokyo",
-    "name": "Tokyo City View",
+    "name": "도쿄 시티뷰",
     "english": "Tokyo City View",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -8303,7 +8303,7 @@
   {
     "id": "tokyo-review-e9bf9837956b",
     "cityId": "tokyo",
-    "name": "Ginza Blossom",
+    "name": "긴자 블로섬",
     "english": "Ginza Blossom · 銀座ブロッサム",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -8329,7 +8329,7 @@
   {
     "id": "tokyo-review-1ad89942ca8b",
     "cityId": "tokyo",
-    "name": "Nogi's house and shrine",
+    "name": "노기 저택·신사",
     "english": "Nogi's house and shrine · 乃木神社",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -8355,7 +8355,7 @@
   {
     "id": "tokyo-review-6ba0e6eeb463",
     "cityId": "tokyo",
-    "name": "Shinbashi Steam Locomotive Square",
+    "name": "신바시 증기기관차 광장",
     "english": "Shinbashi Steam Locomotive Square · 新橋SL広場",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -8381,7 +8381,7 @@
   {
     "id": "tokyo-review-2f2d728a81c7",
     "cityId": "tokyo",
-    "name": "Advertising Museum Tokyo",
+    "name": "도쿄 광고박물관",
     "english": "Advertising Museum Tokyo · 広告とマーケティングの資料館, kōkoku to māketingu no shiryōkan",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -8407,7 +8407,7 @@
   {
     "id": "tokyo-review-6af4eecbbacf",
     "cityId": "tokyo",
-    "name": "Tokyo International Forum",
+    "name": "도쿄 국제포럼",
     "english": "Tokyo International Forum · 東京国際フォーラム, Tōkyō Kokusai Fōramu",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -8433,7 +8433,7 @@
   {
     "id": "tokyo-review-3294637baa6c",
     "cityId": "tokyo",
-    "name": "Tokyo Midtown",
+    "name": "도쿄 미드타운",
     "english": "Tokyo Midtown",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -8459,7 +8459,7 @@
   {
     "id": "tokyo-review-8e1e6e4bd613",
     "cityId": "tokyo",
-    "name": "Karasumori Shrine",
+    "name": "가라스모리 신사",
     "english": "Karasumori Shrine · 烏森神社",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -8485,7 +8485,7 @@
   {
     "id": "tokyo-review-29bc8a66c926",
     "cityId": "tokyo",
-    "name": "Old Shinbashi Railway Station",
+    "name": "옛 신바시 정거장",
     "english": "Old Shinbashi Railway Station · 旧新橋停車場, Kyū-shinbashi Teishajō",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -8511,7 +8511,7 @@
   {
     "id": "tokyo-review-9ca10e4dfc23",
     "cityId": "tokyo",
-    "name": "mAAch ecute Kanda Manseibashi",
+    "name": "마치 에큐트 간다 만세이바시",
     "english": "mAAch ecute Kanda Manseibashi · マーチエキュート神田万世橋",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -8537,7 +8537,7 @@
   {
     "id": "tokyo-review-06f264a9b920",
     "cityId": "tokyo",
-    "name": "Tsukiji Hongwanji",
+    "name": "쓰키지 혼간지",
     "english": "Tsukiji Hongwanji · 築地本願寺",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -8563,7 +8563,7 @@
   {
     "id": "tokyo-review-8ae79d65d27b",
     "cityId": "tokyo",
-    "name": "21_21 Design Sight",
+    "name": "21·21 디자인 사이트",
     "english": "21_21 Design Sight",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -8589,7 +8589,7 @@
   {
     "id": "tokyo-review-1f1fae01955c",
     "cityId": "tokyo",
-    "name": "Shiogama Shrine",
+    "name": "시오가마 신사",
     "english": "Shiogama Shrine",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -8615,7 +8615,7 @@
   {
     "id": "tokyo-review-49114b953ec2",
     "cityId": "tokyo",
-    "name": "Fuji TV Building",
+    "name": "후지 텔레비전 사옥",
     "english": "Fuji TV Building",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -8641,7 +8641,7 @@
   {
     "id": "tokyo-review-25afb49b9f0b",
     "cityId": "tokyo",
-    "name": "Panasonic Shiodome Museum of Art",
+    "name": "파나소닉 시오도메 미술관",
     "english": "Panasonic Shiodome Museum of Art · パナソニック汐留美術館",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -8667,7 +8667,7 @@
   {
     "id": "tokyo-review-e59901e7d169",
     "cityId": "tokyo",
-    "name": "Center Gai",
+    "name": "시부야 센터가이",
     "english": "Center Gai · センター街 Sentaa-gai",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -8693,7 +8693,7 @@
   {
     "id": "tokyo-review-523262bcd08d",
     "cityId": "tokyo",
-    "name": "Fire Museum",
+    "name": "도쿄 소방박물관",
     "english": "Fire Museum · 消防博物館",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -8719,7 +8719,7 @@
   {
     "id": "tokyo-review-fb1a5df5620e",
     "cityId": "tokyo",
-    "name": "National Diet Building",
+    "name": "일본 국회의사당",
     "english": "National Diet Building · 国会議事堂",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -8745,7 +8745,7 @@
   {
     "id": "tokyo-review-03385fa41154",
     "cityId": "tokyo",
-    "name": "Nihonbashi Bridge",
+    "name": "니혼바시 다리",
     "english": "Nihonbashi Bridge · 日本橋",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -8771,7 +8771,7 @@
   {
     "id": "tokyo-review-0e6a34fdff06",
     "cityId": "tokyo",
-    "name": "Fujifilm Square",
+    "name": "후지필름 스퀘어",
     "english": "Fujifilm Square",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -8797,7 +8797,7 @@
   {
     "id": "tokyo-review-a3563e13a0ef",
     "cityId": "tokyo",
-    "name": "Roppongi Crossing",
+    "name": "롯폰기 교차로",
     "english": "Roppongi Crossing",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -8823,7 +8823,7 @@
   {
     "id": "tokyo-review-5dbbcfff1e2d",
     "cityId": "tokyo",
-    "name": "Giant Gundam robot",
+    "name": "오다이바 대형 건담상",
     "english": "Giant Gundam robot",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -8849,7 +8849,7 @@
   {
     "id": "tokyo-review-7782aa3404b3",
     "cityId": "tokyo",
-    "name": "Dentsu Shiki Theater Umi",
+    "name": "덴쓰 시키극장 우미",
     "english": "Dentsu Shiki Theater Umi · 電通四季劇場 [海], Dentsū shiki gekijō Umi",
     "category": "바·공연",
     "image": "/images/place-placeholder.svg",
@@ -8875,7 +8875,7 @@
   {
     "id": "tokyo-review-bcbc453fd951",
     "cityId": "tokyo",
-    "name": "Moyai statues",
+    "name": "모야이 동상",
     "english": "Moyai statues · モヤイ像",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -8953,7 +8953,7 @@
   {
     "id": "tokyo-review-dac03d2000e1",
     "cityId": "tokyo",
-    "name": "Tokyo Stock Exchange",
+    "name": "도쿄 증권거래소",
     "english": "Tokyo Stock Exchange · 東京証券取引所 Tokyo shoken torihikijo",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -8979,7 +8979,7 @@
   {
     "id": "tokyo-review-ed196b1e6215",
     "cityId": "tokyo",
-    "name": "Suntory Museum of Art",
+    "name": "산토리 미술관",
     "english": "Suntory Museum of Art",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -9005,7 +9005,7 @@
   {
     "id": "tokyo-review-f0d1e3673f9f",
     "cityId": "tokyo",
-    "name": "Sumitomo Collection",
+    "name": "스미토모 컬렉션",
     "english": "Sumitomo Collection · 泉屋博古館, Sen-oku Hakuko kan",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -9031,7 +9031,7 @@
   {
     "id": "tokyo-review-28bf025cc346",
     "cityId": "tokyo",
-    "name": "Odaiba Statue of Liberty",
+    "name": "오다이바 자유의 여신상",
     "english": "Odaiba Statue of Liberty",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -9057,7 +9057,7 @@
   {
     "id": "tokyo-review-73907273e462",
     "cityId": "tokyo",
-    "name": "Hikarie",
+    "name": "시부야 히카리에",
     "english": "Hikarie · 渋谷ヒカリエ",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -9083,7 +9083,7 @@
   {
     "id": "tokyo-review-e87e437bc405",
     "cityId": "tokyo",
-    "name": "Shinjuku Southern Terrace",
+    "name": "신주쿠 서던테라스",
     "english": "Shinjuku Southern Terrace · 新宿サザンテラス",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -9109,7 +9109,7 @@
   {
     "id": "tokyo-review-d7aaf7f3d7d1",
     "cityId": "tokyo",
-    "name": "Kitanomaru Park",
+    "name": "기타노마루 공원",
     "english": "Kitanomaru Park · 北の丸公園, kita-no-maru kōen",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -9239,7 +9239,7 @@
   {
     "id": "osaka-review-ce04090fee74",
     "cityId": "osaka",
-    "name": "Open Air Museum of Old Farmhouses",
+    "name": "일본 민가 취락박물관",
     "english": "Open Air Museum of Old Farmhouses · 日本民家集落博物館 (nihon minka shūraku hakubutsukan)",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -9291,7 +9291,7 @@
   {
     "id": "osaka-review-b1c4146a2335",
     "cityId": "osaka",
-    "name": "Tempozan Harbor Village",
+    "name": "덴포잔 하버빌리지",
     "english": "Tempozan Harbor Village · 天保山ハーバービレッジ",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -9317,7 +9317,7 @@
   {
     "id": "osaka-review-a7d235646b8e",
     "cityId": "osaka",
-    "name": "Kumata Shrine",
+    "name": "구마타 신사",
     "english": "Kumata Shrine · 杭全神社",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -9473,7 +9473,7 @@
   {
     "id": "osaka-review-7286c3c15094",
     "cityId": "osaka",
-    "name": "Senkō-ji Temple",
+    "name": "센코지",
     "english": "Senkō-ji Temple · 全興寺",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -9551,7 +9551,7 @@
   {
     "id": "osaka-review-9321449f0489",
     "cityId": "osaka",
-    "name": "Peace Osaka",
+    "name": "피스 오사카 평화박물관",
     "english": "Peace Osaka · 大阪国際平和センター",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -9603,7 +9603,7 @@
   {
     "id": "osaka-review-08de55823f7b",
     "cityId": "osaka",
-    "name": "Dainenbutsu-ji Temple",
+    "name": "다이넨부쓰지",
     "english": "Dainenbutsu-ji Temple · 大念佛寺",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -9733,7 +9733,7 @@
   {
     "id": "osaka-review-4bcf6361338f",
     "cityId": "osaka",
-    "name": "ROR Comedy",
+    "name": "알오알 코미디",
     "english": "ROR Comedy",
     "category": "바·공연",
     "image": "/images/place-placeholder.svg",
@@ -9760,7 +9760,7 @@
   {
     "id": "osaka-review-ba6eb2a2d494",
     "cityId": "osaka",
-    "name": "Hirano Old City",
+    "name": "히라노 옛 거리",
     "english": "Hirano Old City · 平野旧市街",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -9786,7 +9786,7 @@
   {
     "id": "osaka-review-1dd74b62eb45",
     "cityId": "osaka",
-    "name": "Osaka Shiki Musical Theater",
+    "name": "오사카 시키극장",
     "english": "Osaka Shiki Musical Theater · 大阪四季劇場",
     "category": "바·공연",
     "image": "/images/place-placeholder.svg",
@@ -9812,7 +9812,7 @@
   {
     "id": "osaka-review-58411af3d281",
     "cityId": "osaka",
-    "name": "The Silver Ball Planet",
+    "name": "실버볼 플래닛",
     "english": "The Silver Ball Planet · ザ・シルバーボールプラネット",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -9838,7 +9838,7 @@
   {
     "id": "osaka-review-f24755b66f13",
     "cityId": "osaka",
-    "name": "Kire Moated Settlement",
+    "name": "기레 환호 취락",
     "english": "Kire Moated Settlement · 喜連環濠集落",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -9864,7 +9864,7 @@
   {
     "id": "osaka-review-aa829f856652",
     "cityId": "osaka",
-    "name": "Zepp Namba",
+    "name": "제프 난바",
     "english": "Zepp Namba",
     "category": "바·공연",
     "image": "/images/place-placeholder.svg",
@@ -9890,7 +9890,7 @@
   {
     "id": "osaka-review-2907582a9780",
     "cityId": "osaka",
-    "name": "Spa World",
+    "name": "스파월드",
     "english": "Spa World",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -9916,7 +9916,7 @@
   {
     "id": "osaka-review-168ded87b882",
     "cityId": "osaka",
-    "name": "Katana Museum",
+    "name": "일본도 박물관",
     "english": "Katana Museum · かたなの博物館",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -9942,7 +9942,7 @@
   {
     "id": "osaka-review-b62dacb478ba",
     "cityId": "osaka",
-    "name": "Billboard Live Osaka",
+    "name": "빌보드 라이브 오사카",
     "english": "Billboard Live Osaka · ビルボードライブ大阪",
     "category": "바·공연",
     "image": "/images/place-placeholder.svg",
@@ -9968,7 +9968,7 @@
   {
     "id": "osaka-review-14d4434d093c",
     "cityId": "osaka",
-    "name": "Osaka Municipal Tennoji Sports Center",
+    "name": "오사카 시립 덴노지 스포츠센터",
     "english": "Osaka Municipal Tennoji Sports Center · 大阪市立天王寺スポーツセンター",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -9994,7 +9994,7 @@
   {
     "id": "osaka-review-12d45478b914",
     "cityId": "osaka",
-    "name": "Cotton City Museum",
+    "name": "목화 마을 박물관",
     "english": "Cotton City Museum · 綿とくらし博物館",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -10047,7 +10047,7 @@
   {
     "id": "osaka-review-1cc764ea50b9",
     "cityId": "osaka",
-    "name": "Jo-Terrace",
+    "name": "조테라스 오사카",
     "english": "Jo-Terrace",
     "category": "카페",
     "image": "/images/place-placeholder.svg",
@@ -10099,7 +10099,7 @@
   {
     "id": "osaka-review-47c70650e824",
     "cityId": "osaka",
-    "name": "Abeno Q's Mall",
+    "name": "아베노 큐즈몰",
     "english": "Abeno Q's Mall · Abeno Cues Town",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -10125,7 +10125,7 @@
   {
     "id": "osaka-review-1850b76a628a",
     "cityId": "osaka",
-    "name": "Hirano Hommachi Dōri Shopping Arcade",
+    "name": "히라노 혼마치도리 상점가",
     "english": "Hirano Hommachi Dōri Shopping Arcade · 平野本町通商店街",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -10203,7 +10203,7 @@
   {
     "id": "osaka-review-1d1ace759027",
     "cityId": "osaka",
-    "name": "Hanadako",
+    "name": "하나다코",
     "english": "Hanadako · はなだこ",
     "category": "맛집",
     "image": "/images/place-placeholder.svg",
@@ -10229,7 +10229,7 @@
   {
     "id": "osaka-review-706eb6515ab3",
     "cityId": "osaka",
-    "name": "Endo Sushi",
+    "name": "엔도 스시",
     "english": "Endo Sushi · ゑんどう寿司",
     "category": "맛집",
     "image": "/images/place-placeholder.svg",
@@ -10255,7 +10255,7 @@
   {
     "id": "osaka-review-3c43100c0de0",
     "cityId": "osaka",
-    "name": "Jan-Jan Yokocho Street",
+    "name": "잔잔요코초 거리",
     "english": "Jan-Jan Yokocho Street",
     "category": "맛집",
     "image": "/images/place-placeholder.svg",
@@ -10281,7 +10281,7 @@
   {
     "id": "osaka-review-506442da550e",
     "cityId": "osaka",
-    "name": "Ganko Hirano-gō Yashiki",
+    "name": "간코 히라노고 저택",
     "english": "Ganko Hirano-gō Yashiki · がんこ平野郷屋敷",
     "category": "맛집",
     "image": "/images/place-placeholder.svg",
@@ -10307,7 +10307,7 @@
   {
     "id": "osaka-review-53e6a672351d",
     "cityId": "osaka",
-    "name": "Ajinoya",
+    "name": "아지노야",
     "english": "Ajinoya",
     "category": "맛집",
     "image": "/images/place-placeholder.svg",
@@ -10333,7 +10333,7 @@
   {
     "id": "osaka-review-31e6270c098c",
     "cityId": "osaka",
-    "name": "Kushikatsu Daruma Shinsekai Main Shop",
+    "name": "쿠시카츠 다루마 신세카이 본점",
     "english": "Kushikatsu Daruma Shinsekai Main Shop · 串かつだるま 新世界総本家",
     "category": "맛집",
     "image": "/images/place-placeholder.svg",
@@ -10359,7 +10359,7 @@
   {
     "id": "osaka-review-272e3770a2f1",
     "cityId": "osaka",
-    "name": "Melbourne Coffee",
+    "name": "멜버른 커피",
     "english": "Melbourne Coffee",
     "category": "카페",
     "image": "/images/place-placeholder.svg",
@@ -10385,7 +10385,7 @@
   {
     "id": "osaka-review-a8ce5cc258c2",
     "cityId": "osaka",
-    "name": "AEON Kire-Uriwari",
+    "name": "이온 기레우리와리점",
     "english": "AEON Kire-Uriwari · イオン喜連瓜破",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -10411,7 +10411,7 @@
   {
     "id": "osaka-review-bb6ecadc7926",
     "cityId": "osaka",
-    "name": "Lupu",
+    "name": "루푸",
     "english": "Lupu",
     "category": "바·공연",
     "image": "/images/place-placeholder.svg",
@@ -10723,7 +10723,7 @@
   {
     "id": "yokohama-review-0ff8da5bb751",
     "cityId": "yokohama",
-    "name": "Myohonji Temple",
+    "name": "묘혼지",
     "english": "Myohonji Temple · 妙本寺",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -10749,7 +10749,7 @@
   {
     "id": "yokohama-review-55b9a372dc6a",
     "cityId": "yokohama",
-    "name": "Zeniarai Benten Shrine",
+    "name": "제니아라이 벤텐 신사",
     "english": "Zeniarai Benten Shrine · 銭洗い弁天",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -10775,7 +10775,7 @@
   {
     "id": "yokohama-review-1c3285434645",
     "cityId": "yokohama",
-    "name": "Kamakurakōkōmae Station",
+    "name": "가마쿠라코코마에역",
     "english": "Kamakurakōkōmae Station · 鎌倉高校前駅",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -10801,7 +10801,7 @@
   {
     "id": "yokohama-review-e1ed7eaa0a8b",
     "cityId": "yokohama",
-    "name": "Kamakura Museum of History and Culture",
+    "name": "가마쿠라 역사문화교류관",
     "english": "Kamakura Museum of History and Culture · 鎌倉歴史文化交流館",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -10931,7 +10931,7 @@
   {
     "id": "yokohama-review-9783ed4a6e9a",
     "cityId": "yokohama",
-    "name": "Tōkeiji",
+    "name": "도케이지",
     "english": "Tōkeiji",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -10983,7 +10983,7 @@
   {
     "id": "yokohama-review-c8423da957d2",
     "cityId": "yokohama",
-    "name": "Meigetsuin",
+    "name": "메이게쓰인",
     "english": "Meigetsuin · 明月院",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -11009,7 +11009,7 @@
   {
     "id": "yokohama-review-9ddcf5517051",
     "cityId": "yokohama",
-    "name": "Keiō University - Hiyoshi Campus",
+    "name": "게이오대학교 히요시 캠퍼스",
     "english": "Keiō University - Hiyoshi Campus · 慶應義塾大学, Keiō Gijuku Daigaku",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -11035,7 +11035,7 @@
   {
     "id": "yokohama-review-4be34c1f3c77",
     "cityId": "yokohama",
-    "name": "Jōmyōji",
+    "name": "조묘지",
     "english": "Jōmyōji · 浄妙寺",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -11061,7 +11061,7 @@
   {
     "id": "yokohama-review-74cadf530470",
     "cityId": "yokohama",
-    "name": "Yokohama Bay Bridge",
+    "name": "요코하마 베이브리지",
     "english": "Yokohama Bay Bridge · 横浜ベイブリッジ",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -11087,7 +11087,7 @@
   {
     "id": "yokohama-review-7fca2f305550",
     "cityId": "yokohama",
-    "name": "Sugimotodera",
+    "name": "스기모토데라",
     "english": "Sugimotodera · 杉本寺",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -11113,7 +11113,7 @@
   {
     "id": "yokohama-review-97fce6b457a2",
     "cityId": "yokohama",
-    "name": "Yokohama Port Opening Memorial Hall",
+    "name": "요코하마 개항기념회관",
     "english": "Yokohama Port Opening Memorial Hall · 横浜市開港記念会館",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -11191,7 +11191,7 @@
   {
     "id": "yokohama-review-b62ddb924259",
     "cityId": "yokohama",
-    "name": "Former Residence of Marquis Kachō Hironobu",
+    "name": "옛 가초노미야 저택",
     "english": "Former Residence of Marquis Kachō Hironobu · 旧華頂宮邸",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -11217,7 +11217,7 @@
   {
     "id": "yokohama-review-98a7023df4a8",
     "cityId": "yokohama",
-    "name": "Yokohama History Museum",
+    "name": "요코하마 역사박물관",
     "english": "Yokohama History Museum · 横浜市歴史博物館",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -11243,7 +11243,7 @@
   {
     "id": "yokohama-review-b19b419b463b",
     "cityId": "yokohama",
-    "name": "Anpanman Children's Museum",
+    "name": "호빵맨 어린이박물관",
     "english": "Anpanman Children's Museum",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -11269,7 +11269,7 @@
   {
     "id": "yokohama-review-20a7b3471a09",
     "cityId": "yokohama",
-    "name": "Equine Museum of Japan",
+    "name": "일본 말 박물관",
     "english": "Equine Museum of Japan · 馬の博物館",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -11295,7 +11295,7 @@
   {
     "id": "yokohama-review-6977183db05b",
     "cityId": "yokohama",
-    "name": "Kanagawa Museum of Modern Literature",
+    "name": "가나가와 근대문학관",
     "english": "Kanagawa Museum of Modern Literature · 神奈川近代文学館",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -11321,7 +11321,7 @@
   {
     "id": "yokohama-review-eabc87502db1",
     "cityId": "yokohama",
-    "name": "Kishine Park",
+    "name": "기시네 공원",
     "english": "Kishine Park · 岸根公園",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -11347,7 +11347,7 @@
   {
     "id": "yokohama-review-205ba03d7b32",
     "cityId": "yokohama",
-    "name": "Yuigahama",
+    "name": "유이가하마 해변",
     "english": "Yuigahama · 由比ヶ浜",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -11373,7 +11373,7 @@
   {
     "id": "yokohama-review-e63788813bac",
     "cityId": "yokohama",
-    "name": "Kamoike Park",
+    "name": "가모이케 공원",
     "english": "Kamoike Park · 鴨池公園",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -11399,7 +11399,7 @@
   {
     "id": "yokohama-review-149261f690e8",
     "cityId": "yokohama",
-    "name": "Inamuragasaki",
+    "name": "이나무라가사키",
     "english": "Inamuragasaki · 稲村ヶ崎",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -11425,7 +11425,7 @@
   {
     "id": "yokohama-review-88c498302cb9",
     "cityId": "yokohama",
-    "name": "Hideyo Noguchi Memorial Park",
+    "name": "노구치 히데요 기념공원",
     "english": "Hideyo Noguchi Memorial Park · 野口記念公園",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -11451,7 +11451,7 @@
   {
     "id": "yokohama-review-abbda79c0dd9",
     "cityId": "yokohama",
-    "name": "Shichirigahama",
+    "name": "시치리가하마 해변",
     "english": "Shichirigahama · 七里ヶ浜",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -11477,7 +11477,7 @@
   {
     "id": "yokohama-review-c601667fb879",
     "cityId": "yokohama",
-    "name": "Kikuna Sakurayama Park",
+    "name": "기쿠나 사쿠라야마 공원",
     "english": "Kikuna Sakurayama Park · 菊名桜山公園",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -11503,7 +11503,7 @@
   {
     "id": "yokohama-review-814ff2f70834",
     "cityId": "yokohama",
-    "name": "Negishi Forest Park",
+    "name": "네기시 삼림공원",
     "english": "Negishi Forest Park · 根岸森林公園",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -11529,7 +11529,7 @@
   {
     "id": "yokohama-review-66df45a6a331",
     "cityId": "yokohama",
-    "name": "Hiyoshi Park",
+    "name": "히요시 공원",
     "english": "Hiyoshi Park · 日吉公園",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -11555,7 +11555,7 @@
   {
     "id": "yokohama-review-fac6043d7d90",
     "cityId": "yokohama",
-    "name": "River Karasuyama",
+    "name": "가라스야마강",
     "english": "River Karasuyama · 烏山川",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -11581,7 +11581,7 @@
   {
     "id": "yokohama-review-48adf3fb5252",
     "cityId": "yokohama",
-    "name": "Moro-oka Kumano Shrine",
+    "name": "모로오카 구마노 신사",
     "english": "Moro-oka Kumano Shrine · 師岡熊野神社",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -11607,7 +11607,7 @@
   {
     "id": "yokohama-review-ce23dd6f8efb",
     "cityId": "yokohama",
-    "name": "Shōmyō Temple",
+    "name": "쇼묘지",
     "english": "Shōmyō Temple · 称名寺",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -11633,7 +11633,7 @@
   {
     "id": "yokohama-review-e15ee36abc54",
     "cityId": "yokohama",
-    "name": "Soujiji",
+    "name": "소지지",
     "english": "Soujiji · 總持寺",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -11659,7 +11659,7 @@
   {
     "id": "yokohama-review-bb54a70dc6a0",
     "cityId": "yokohama",
-    "name": "Kamoi Sugiyama Shrine",
+    "name": "가모이 스기야마 신사",
     "english": "Kamoi Sugiyama Shrine · 杉山神社",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -11685,7 +11685,7 @@
   {
     "id": "yokohama-review-efb887ef9e0d",
     "cityId": "yokohama",
-    "name": "Kikuna Shrine",
+    "name": "기쿠나 신사",
     "english": "Kikuna Shrine · 菊名神社",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -11711,7 +11711,7 @@
   {
     "id": "yokohama-review-7aadd259580d",
     "cityId": "yokohama",
-    "name": "Yokohama Stadium",
+    "name": "요코하마 스타디움",
     "english": "Yokohama Stadium",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -11841,7 +11841,7 @@
   {
     "id": "nagoya-review-8a3e457eb555",
     "cityId": "nagoya",
-    "name": "Mentai Park Tokoname",
+    "name": "멘타이 파크 도코나메",
     "english": "Mentai Park Tokoname · めんたいパークとこなめ",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -11919,7 +11919,7 @@
   {
     "id": "nagoya-review-6dfee2547e8d",
     "cityId": "nagoya",
-    "name": "Rinku Beach",
+    "name": "린쿠 해변",
     "english": "Rinku Beach · りんくうビーチ",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -11971,7 +11971,7 @@
   {
     "id": "nagoya-review-49165d5e1af9",
     "cityId": "nagoya",
-    "name": "Urakuen",
+    "name": "우라쿠엔 정원",
     "english": "Urakuen · 有楽苑",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -11997,7 +11997,7 @@
   {
     "id": "nagoya-review-e10d1ac4135c",
     "cityId": "nagoya",
-    "name": "Ōno beach",
+    "name": "오노 해변",
     "english": "Ōno beach · 大野海水浴場",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -12049,7 +12049,7 @@
   {
     "id": "nagoya-review-6eef2e8d47d1",
     "cityId": "nagoya",
-    "name": "Karakuri Museum",
+    "name": "가라쿠리 인형박물관",
     "english": "Karakuri Museum · からくりミュージアム",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -12075,7 +12075,7 @@
   {
     "id": "nagoya-review-3b51b7cfa06c",
     "cityId": "nagoya",
-    "name": "Tokonyan",
+    "name": "도코냥",
     "english": "Tokonyan · とこにゃん",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -12127,7 +12127,7 @@
   {
     "id": "nagoya-review-d26b946dc273",
     "cityId": "nagoya",
-    "name": "Nagoya City Art Museum",
+    "name": "나고야 시립미술관",
     "english": "Nagoya City Art Museum · 名古屋市美術館 Nagoya-shi-bijutsukan",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -12179,7 +12179,7 @@
   {
     "id": "nagoya-review-6aba8ef8b997",
     "cityId": "nagoya",
-    "name": "Nittai-ji Temple",
+    "name": "닛타이지",
     "english": "Nittai-ji Temple · 覚王山日泰寺, kakuōzan nittai-ji",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -12205,7 +12205,7 @@
   {
     "id": "nagoya-review-6864fbaf8d1a",
     "cityId": "nagoya",
-    "name": "Shirakawa Park",
+    "name": "시라카와 공원",
     "english": "Shirakawa Park · 白川公園, shirakawa-kōen",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -12257,7 +12257,7 @@
   {
     "id": "nagoya-review-0f9d98a244bc",
     "cityId": "nagoya",
-    "name": "Kōshō-ji Temple",
+    "name": "고쇼지",
     "english": "Kōshō-ji Temple · 興正寺",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -12283,7 +12283,7 @@
   {
     "id": "nagoya-review-96c928c5b629",
     "cityId": "nagoya",
-    "name": "Shiroyama Hakusan Shrine",
+    "name": "시로야마 하쿠산 신사",
     "english": "Shiroyama Hakusan Shrine · 城山八幡宮, shiroyama hachiman-gū",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -12309,7 +12309,7 @@
   {
     "id": "nagoya-review-0e5aa9531381",
     "cityId": "nagoya",
-    "name": "Tōgan-ji Temple",
+    "name": "도간지",
     "english": "Tōgan-ji Temple · 桃巌寺",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -12387,7 +12387,7 @@
   {
     "id": "nagoya-review-c9e60149a6d1",
     "cityId": "nagoya",
-    "name": "Okuramochi",
+    "name": "오쿠라모치",
     "english": "Okuramochi · 大蔵餅",
     "category": "맛집",
     "image": "/images/place-placeholder.svg",
@@ -12413,7 +12413,7 @@
   {
     "id": "nagoya-review-2a6c2d0a5b6c",
     "cityId": "nagoya",
-    "name": "Arako Kannon Temple",
+    "name": "아라코 관음사",
     "english": "Arako Kannon Temple · 荒子観音",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -12439,7 +12439,7 @@
   {
     "id": "nagoya-review-3df572f17106",
     "cityId": "nagoya",
-    "name": "AEON MALL Nagakute",
+    "name": "이온몰 나가쿠테",
     "english": "AEON MALL Nagakute · イオンモール長久手",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -12465,7 +12465,7 @@
   {
     "id": "nagoya-review-46f9783cd558",
     "cityId": "nagoya",
-    "name": "Ōsu Kannon Temple",
+    "name": "오스 관음사",
     "english": "Ōsu Kannon Temple · 大須観音",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -12491,7 +12491,7 @@
   {
     "id": "nagoya-review-34372bd2cc48",
     "cityId": "nagoya",
-    "name": "Fujigaoka",
+    "name": "후지가오카",
     "english": "Fujigaoka",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -12544,7 +12544,7 @@
   {
     "id": "nagoya-review-44ca6fcbf80d",
     "cityId": "nagoya",
-    "name": "Aeon Mall Tokoname",
+    "name": "이온몰 도코나메",
     "english": "Aeon Mall Tokoname · イオンモール常滑",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -12596,7 +12596,7 @@
   {
     "id": "nagoya-review-2833c3bbd444",
     "cityId": "nagoya",
-    "name": "Costco Wholesale Chubu Airport Warehouse",
+    "name": "코스트코 주부공항점",
     "english": "Costco Wholesale Chubu Airport Warehouse · コストコホールセール 中部空港 倉庫店",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -12648,7 +12648,7 @@
   {
     "id": "nagoya-review-1949cefca655",
     "cityId": "nagoya",
-    "name": "Aichi Prefectural Museum of Art",
+    "name": "아이치현 미술관",
     "english": "Aichi Prefectural Museum of Art · 愛知県美術館 Aichi-ken-bijutsukan",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -12674,7 +12674,7 @@
   {
     "id": "nagoya-review-8bdd41779d56",
     "cityId": "nagoya",
-    "name": "Maruzen",
+    "name": "마루젠 서점",
     "english": "Maruzen · 丸善",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -12700,7 +12700,7 @@
   {
     "id": "nagoya-review-d42c1437613f",
     "cityId": "nagoya",
-    "name": "Sanseido Books",
+    "name": "산세이도 서점",
     "english": "Sanseido Books",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -12726,7 +12726,7 @@
   {
     "id": "nagoya-review-cfe3da179ab2",
     "cityId": "nagoya",
-    "name": "Midland Square Cinemas",
+    "name": "미들랜드 스퀘어 시네마",
     "english": "Midland Square Cinemas · ミッドランドスクエア・シネマ",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -12752,7 +12752,7 @@
   {
     "id": "nagoya-review-30d540884687",
     "cityId": "nagoya",
-    "name": "109 Cinemas Nagoya",
+    "name": "109 시네마 나고야",
     "english": "109 Cinemas Nagoya",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -12778,7 +12778,7 @@
   {
     "id": "nagoya-review-2a4d5969d702",
     "cityId": "nagoya",
-    "name": "Café de Metro",
+    "name": "카페 드 메트로",
     "english": "Café de Metro",
     "category": "카페",
     "image": "/images/place-placeholder.svg",
@@ -12804,7 +12804,7 @@
   {
     "id": "nagoya-review-0d3db56c6081",
     "cityId": "nagoya",
-    "name": "Jerry's UNO",
+    "name": "제리스 우노",
     "english": "Jerry's UNO",
     "category": "맛집",
     "image": "/images/place-placeholder.svg",
@@ -12830,7 +12830,7 @@
   {
     "id": "nagoya-review-d472fe9e41a8",
     "cityId": "nagoya",
-    "name": "Yabaton",
+    "name": "야바톤",
     "english": "Yabaton",
     "category": "맛집",
     "image": "/images/place-placeholder.svg",
@@ -12856,7 +12856,7 @@
   {
     "id": "nagoya-review-d76deb6a9d66",
     "cityId": "nagoya",
-    "name": "Desperados",
+    "name": "데스페라도스",
     "english": "Desperados · デスペラードス",
     "category": "맛집",
     "image": "/images/place-placeholder.svg",
@@ -12882,7 +12882,7 @@
   {
     "id": "nagoya-review-01a7b8e71a4a",
     "cityId": "nagoya",
-    "name": "Antica Roma",
+    "name": "안티카 로마",
     "english": "Antica Roma",
     "category": "맛집",
     "image": "/images/place-placeholder.svg",
@@ -12908,7 +12908,7 @@
   {
     "id": "nagoya-review-4ce5149dc33d",
     "cityId": "nagoya",
-    "name": "Garden Restaurant Tokugawa-en",
+    "name": "가든 레스토랑 도쿠가와엔",
     "english": "Garden Restaurant Tokugawa-en · ガーデンレストラン徳川園",
     "category": "맛집",
     "image": "/images/place-placeholder.svg",
@@ -12934,7 +12934,7 @@
   {
     "id": "nagoya-review-0074d3660c38",
     "cityId": "nagoya",
-    "name": "The Rock Aussie Sports Bar & Grill",
+    "name": "더 록 오지 스포츠 바 앤 그릴",
     "english": "The Rock Aussie Sports Bar & Grill · ザ・ロック オージースポーツバー&グリル",
     "category": "바·공연",
     "image": "/images/place-placeholder.svg",
@@ -12960,7 +12960,7 @@
   {
     "id": "nagoya-review-f1db474f7565",
     "cityId": "nagoya",
-    "name": "Maverick",
+    "name": "매버릭",
     "english": "Maverick",
     "category": "바·공연",
     "image": "/images/place-placeholder.svg",
@@ -12986,7 +12986,7 @@
   {
     "id": "nagoya-review-52fa5c857cf0",
     "cityId": "nagoya",
-    "name": "STEPS",
+    "name": "스텝스",
     "english": "STEPS",
     "category": "바·공연",
     "image": "/images/place-placeholder.svg",
@@ -13012,7 +13012,7 @@
   {
     "id": "nagoya-review-ac9c09997aa5",
     "cityId": "nagoya",
-    "name": "Jazz Inn Lovely",
+    "name": "재즈 인 러블리",
     "english": "Jazz Inn Lovely",
     "category": "바·공연",
     "image": "/images/place-placeholder.svg",
@@ -13090,8 +13090,8 @@
   {
     "id": "sapporo-tv-tower",
     "cityId": "sapporo",
-    "name": "삿포로 TV타워",
-    "english": "Sapporo TV Tower · さっぽろテレビ塔",
+    "name": "삿포로 텔레비전탑",
+    "english": "Sapporo TV Tower · さっぽろテレビ塔 · 삿포로 TV타워",
     "category": "관광",
     "image": "/images/place-sapporo-tv-tower.jpg",
     "description": "삿포로의 전망 장소.",
@@ -13194,7 +13194,7 @@
   {
     "id": "sapporo-review-1bcbdd7d039f",
     "cityId": "sapporo",
-    "name": "Steam Clock",
+    "name": "오타루 증기시계",
     "english": "Steam Clock · 蒸気時計 jōgi tokei",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -13298,7 +13298,7 @@
   {
     "id": "sapporo-review-b1b5a980d18f",
     "cityId": "sapporo",
-    "name": "Otaru City Museum",
+    "name": "오타루 시립박물관",
     "english": "Otaru City Museum",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -13324,7 +13324,7 @@
   {
     "id": "sapporo-review-7b09b6096cc5",
     "cityId": "sapporo",
-    "name": "Hokkaido Pioneer Village",
+    "name": "홋카이도 개척촌",
     "english": "Hokkaido Pioneer Village · 開拓の村",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -13350,7 +13350,7 @@
   {
     "id": "sapporo-review-dc6ca4c889c3",
     "cityId": "sapporo",
-    "name": "Stained Glass Museum",
+    "name": "오타루 스테인드글라스 미술관",
     "english": "Stained Glass Museum",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -13402,7 +13402,7 @@
   {
     "id": "sapporo-review-12f296fdd49a",
     "cityId": "sapporo",
-    "name": "The Bank of Japan Otaru Museum",
+    "name": "일본은행 오타루 금융자료관",
     "english": "The Bank of Japan Otaru Museum · 日本銀行旧小樽支店",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -13428,7 +13428,7 @@
   {
     "id": "sapporo-review-181e1840dbef",
     "cityId": "sapporo",
-    "name": "Asahiyama Park",
+    "name": "아사히야마 공원",
     "english": "Asahiyama Park · 旭山記念公園 Asahiyama Kinen Kōen",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -13506,7 +13506,7 @@
   {
     "id": "sapporo-review-e1f33a5c223d",
     "cityId": "sapporo",
-    "name": "JR Tower",
+    "name": "제이알 타워",
     "english": "JR Tower · JRタワー",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -13532,7 +13532,7 @@
   {
     "id": "sapporo-review-1fab36e53e0d",
     "cityId": "sapporo",
-    "name": "Hokkaido Museum of Modern Art",
+    "name": "홋카이도립 근대미술관",
     "english": "Hokkaido Museum of Modern Art · 北海道立近代美術館",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -13558,7 +13558,7 @@
   {
     "id": "sapporo-review-2d92903a389a",
     "cityId": "sapporo",
-    "name": "Snow Brand Milk Products Historical Museum",
+    "name": "유키지루시 유업 역사관",
     "english": "Snow Brand Milk Products Historical Museum",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -13584,7 +13584,7 @@
   {
     "id": "sapporo-review-3751bc864063",
     "cityId": "sapporo",
-    "name": "Sapporo Art Park",
+    "name": "삿포로 예술의 숲",
     "english": "Sapporo Art Park · 札幌芸術の森, sapporo geijutsu no mori",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -13636,7 +13636,7 @@
   {
     "id": "sapporo-review-14488690fdce",
     "cityId": "sapporo",
-    "name": "Hokkaido University Botanic Garden",
+    "name": "홋카이도대학교 식물원",
     "english": "Hokkaido University Botanic Garden · 北海道大学植物園 Hokkaido Daigaku Shokubutsuen",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -13688,7 +13688,7 @@
   {
     "id": "sapporo-review-80365c46346a",
     "cityId": "sapporo",
-    "name": "Former Hokkaido Prefectural Government Building",
+    "name": "홋카이도청 구 본청사",
     "english": "Former Hokkaido Prefectural Government Building · 北海道府旧本府舎",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -13766,7 +13766,7 @@
   {
     "id": "sapporo-review-07d102ead010",
     "cityId": "sapporo",
-    "name": "Kitaichi Hall",
+    "name": "기타이치 홀",
     "english": "Kitaichi Hall",
     "category": "맛집",
     "image": "/images/place-placeholder.svg",
@@ -13818,7 +13818,7 @@
   {
     "id": "sapporo-review-0e6f6cf6cab0",
     "cityId": "sapporo",
-    "name": "Waraku Kaiten Sushi",
+    "name": "와라쿠 회전초밥",
     "english": "Waraku Kaiten Sushi · 回転寿し 和楽",
     "category": "맛집",
     "image": "/images/place-placeholder.svg",
@@ -13844,7 +13844,7 @@
   {
     "id": "sapporo-review-40d1876cd6a0",
     "cityId": "sapporo",
-    "name": "Sapporo Shiryokan",
+    "name": "삿포로 자료관",
     "english": "Sapporo Shiryokan",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -13870,7 +13870,7 @@
   {
     "id": "sapporo-review-a37cd42c209e",
     "cityId": "sapporo",
-    "name": "Toppii Sushi",
+    "name": "톳피 회전초밥",
     "english": "Toppii Sushi · とっぴー",
     "category": "맛집",
     "image": "/images/place-placeholder.svg",
@@ -13896,7 +13896,7 @@
   {
     "id": "sapporo-review-0b4ac09ab673",
     "cityId": "sapporo",
-    "name": "Sapporo Fushimi Inari Shrine",
+    "name": "삿포로 후시미 이나리 신사",
     "english": "Sapporo Fushimi Inari Shrine",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -13974,7 +13974,7 @@
   {
     "id": "sapporo-review-a4f141f2cdde",
     "cityId": "sapporo",
-    "name": "Andiamo",
+    "name": "안디아모",
     "english": "Andiamo · アンディアモ",
     "category": "맛집",
     "image": "/images/place-placeholder.svg",
@@ -14000,7 +14000,7 @@
   {
     "id": "sapporo-review-2ef35116b312",
     "cityId": "sapporo",
-    "name": "Sapporo Factory / former Kaitakushi Brewery",
+    "name": "삿포로 팩토리·옛 개척사 맥주양조장",
     "english": "Sapporo Factory / former Kaitakushi Brewery",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -14026,7 +14026,7 @@
   {
     "id": "sapporo-review-a5dce9d028a7",
     "cityId": "sapporo",
-    "name": "Sapporo Ainu Culture Promotion Center",
+    "name": "삿포로 아이누 문화교류센터",
     "english": "Sapporo Ainu Culture Promotion Center",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -14052,7 +14052,7 @@
   {
     "id": "sapporo-review-4fdea41a4388",
     "cityId": "sapporo",
-    "name": "Mt. Teine",
+    "name": "데이네산",
     "english": "Mt. Teine · 手稲山 Teineyama",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -14078,7 +14078,7 @@
   {
     "id": "sapporo-review-4ef88b16d995",
     "cityId": "sapporo",
-    "name": "Hoheikyo Onsen",
+    "name": "호헤이쿄 온천",
     "english": "Hoheikyo Onsen · 豊平峡温泉",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -14130,7 +14130,7 @@
   {
     "id": "sapporo-review-443001d97449",
     "cityId": "sapporo",
-    "name": "Aji No Tokeidai",
+    "name": "아지노 도케이다이",
     "english": "Aji No Tokeidai · 味の時計台",
     "category": "맛집",
     "image": "/images/place-placeholder.svg",
@@ -14156,7 +14156,7 @@
   {
     "id": "sapporo-review-f9cad5caf6dd",
     "cityId": "sapporo",
-    "name": "Ramen Yokochō",
+    "name": "라멘 요코초",
     "english": "Ramen Yokochō · ラーメン横丁",
     "category": "맛집",
     "image": "/images/place-placeholder.svg",
@@ -14182,7 +14182,7 @@
   {
     "id": "sapporo-review-ee17f72fe9f7",
     "cityId": "sapporo",
-    "name": "Sapporo Beer Garden",
+    "name": "삿포로 비어가든",
     "english": "Sapporo Beer Garden",
     "category": "맛집",
     "image": "/images/place-placeholder.svg",
@@ -14208,7 +14208,7 @@
   {
     "id": "sapporo-review-d520ea1187c6",
     "cityId": "sapporo",
-    "name": "Romantei",
+    "name": "로만테이",
     "english": "Romantei",
     "category": "맛집",
     "image": "/images/place-placeholder.svg",
@@ -14234,7 +14234,7 @@
   {
     "id": "sapporo-review-d1d7adc8d47d",
     "cityId": "sapporo",
-    "name": "Cafe Phyton",
+    "name": "카페 피톤",
     "english": "Cafe Phyton",
     "category": "카페",
     "image": "/images/place-placeholder.svg",
@@ -14260,7 +14260,7 @@
   {
     "id": "sapporo-review-46abc96cbad5",
     "cityId": "sapporo",
-    "name": "Soup Curry Garaku",
+    "name": "수프카레 가라쿠",
     "english": "Soup Curry Garaku",
     "category": "맛집",
     "image": "/images/place-placeholder.svg",
@@ -14286,7 +14286,7 @@
   {
     "id": "sapporo-review-989bc7a33942",
     "cityId": "sapporo",
-    "name": "Yakiniku Dining MEGUMI Minamihachijoten",
+    "name": "야키니쿠 다이닝 메구미 미나미하치조점",
     "english": "Yakiniku Dining MEGUMI Minamihachijoten",
     "category": "맛집",
     "image": "/images/place-placeholder.svg",
@@ -14312,7 +14312,7 @@
   {
     "id": "sapporo-review-e7daa65c61f2",
     "cityId": "sapporo",
-    "name": "Paul's Cafe",
+    "name": "폴스 카페",
     "english": "Paul's Cafe",
     "category": "카페",
     "image": "/images/place-placeholder.svg",
@@ -14442,7 +14442,7 @@
   {
     "id": "fukuoka-review-2a612b76d37a",
     "cityId": "fukuoka",
-    "name": "Nakasu",
+    "name": "나카스",
     "english": "Nakasu",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -14468,7 +14468,7 @@
   {
     "id": "fukuoka-review-e93ed741f863",
     "cityId": "fukuoka",
-    "name": "Gion",
+    "name": "기온",
     "english": "Gion",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -14546,7 +14546,7 @@
   {
     "id": "fukuoka-review-883af8ccd617",
     "cityId": "fukuoka",
-    "name": "ACROS rooftop garden",
+    "name": "아크로스 옥상정원",
     "english": "ACROS rooftop garden",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -14598,7 +14598,7 @@
   {
     "id": "fukuoka-review-be6e41d9108f",
     "cityId": "fukuoka",
-    "name": "Atago Shrine",
+    "name": "아타고 신사",
     "english": "Atago Shrine · 愛宕神社",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -14624,7 +14624,7 @@
   {
     "id": "fukuoka-review-77b91c6de319",
     "cityId": "fukuoka",
-    "name": "Hakata Port Tower",
+    "name": "하카타 포트타워",
     "english": "Hakata Port Tower",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -14650,7 +14650,7 @@
   {
     "id": "fukuoka-review-f106c7336fe4",
     "cityId": "fukuoka",
-    "name": "Ohori Park Japanese Garden",
+    "name": "오호리 공원 일본정원",
     "english": "Ohori Park Japanese Garden · 大濠公園日本庭園",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -14728,7 +14728,7 @@
   {
     "id": "fukuoka-review-b80aae8094ea",
     "cityId": "fukuoka",
-    "name": "Nishi Park",
+    "name": "니시 공원",
     "english": "Nishi Park · 西公園",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -14754,7 +14754,7 @@
   {
     "id": "fukuoka-review-505b01370725",
     "cityId": "fukuoka",
-    "name": "Kego Koen",
+    "name": "게고 공원",
     "english": "Kego Koen",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -14806,7 +14806,7 @@
   {
     "id": "fukuoka-review-b0bbf29a37ab",
     "cityId": "fukuoka",
-    "name": "Machiya Folk Museum",
+    "name": "하카타 마치야 민속관",
     "english": "Machiya Folk Museum · 博多町屋ふるさと館",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -14884,7 +14884,7 @@
   {
     "id": "fukuoka-review-d451ff954e41",
     "cityId": "fukuoka",
-    "name": "Bayside Place Hakata Pier",
+    "name": "베이사이드 플레이스 하카타 부두",
     "english": "Bayside Place Hakata Pier",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -14910,7 +14910,7 @@
   {
     "id": "fukuoka-review-64e20739ff8a",
     "cityId": "fukuoka",
-    "name": "Fukuoka City Science Museum",
+    "name": "후쿠오카시 과학관",
     "english": "Fukuoka City Science Museum · 福岡市科学館",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -14936,7 +14936,7 @@
   {
     "id": "fukuoka-review-6723a754c607",
     "cityId": "fukuoka",
-    "name": "Ichiran Ramen Museum",
+    "name": "이치란 라멘박물관",
     "english": "Ichiran Ramen Museum · Ichiran no Mori",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -14988,7 +14988,7 @@
   {
     "id": "fukuoka-review-19c354a87040",
     "cityId": "fukuoka",
-    "name": "Itazuke Ruins Yayoi-kan Museum",
+    "name": "이타즈케 유적 야요이관",
     "english": "Itazuke Ruins Yayoi-kan Museum · 板付遺跡・板付遺跡弥生館",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -15014,7 +15014,7 @@
   {
     "id": "fukuoka-review-19e12add235f",
     "cityId": "fukuoka",
-    "name": "Kabuki theatre",
+    "name": "하카타 가부키극장",
     "english": "Kabuki theatre · Hakata-za",
     "category": "바·공연",
     "image": "/images/place-placeholder.svg",
@@ -15040,7 +15040,7 @@
   {
     "id": "fukuoka-review-3221922a2c81",
     "cityId": "fukuoka",
-    "name": "Noh theatre",
+    "name": "후쿠오카 노가쿠당",
     "english": "Noh theatre",
     "category": "바·공연",
     "image": "/images/place-placeholder.svg",
@@ -15118,7 +15118,7 @@
   {
     "id": "fukuoka-review-0e67fb3ee7ea",
     "cityId": "fukuoka",
-    "name": "Nishidori",
+    "name": "니시도리",
     "english": "Nishidori",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -15170,7 +15170,7 @@
   {
     "id": "fukuoka-review-7a964255b354",
     "cityId": "fukuoka",
-    "name": "Nakasu Kawabata shopping arcade",
+    "name": "나카스 가와바타 상점가",
     "english": "Nakasu Kawabata shopping arcade",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -15196,7 +15196,7 @@
   {
     "id": "fukuoka-review-85f9cc19f73c",
     "cityId": "fukuoka",
-    "name": "Hakata City",
+    "name": "하카타 시티",
     "english": "Hakata City",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -15222,7 +15222,7 @@
   {
     "id": "fukuoka-review-034f141770d7",
     "cityId": "fukuoka",
-    "name": "Konoha Mall Hashimoto",
+    "name": "고노하몰 하시모토",
     "english": "Konoha Mall Hashimoto · 木の葉モール橋本",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -15248,7 +15248,7 @@
   {
     "id": "fukuoka-review-4d6c928cd333",
     "cityId": "fukuoka",
-    "name": "Markis (Fukuoka Momochi)",
+    "name": "마크이즈 후쿠오카 모모치",
     "english": "Markis (Fukuoka Momochi) · マークイズ福岡ももち mākuizu...",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -15274,7 +15274,7 @@
   {
     "id": "fukuoka-review-7c545f7be97b",
     "cityId": "fukuoka",
-    "name": "Kakavaka 福岡",
+    "name": "카카바카 후쿠오카",
     "english": "Kakavaka 福岡",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -15300,7 +15300,7 @@
   {
     "id": "fukuoka-review-3b9784558692",
     "cityId": "fukuoka",
-    "name": "Nagahama",
+    "name": "나가하마",
     "english": "Nagahama",
     "category": "맛집",
     "image": "/images/place-placeholder.svg",
@@ -15326,7 +15326,7 @@
   {
     "id": "fukuoka-review-159aa2cdb01a",
     "cityId": "fukuoka",
-    "name": "Ichiran",
+    "name": "이치란",
     "english": "Ichiran · 一蘭",
     "category": "맛집",
     "image": "/images/place-placeholder.svg",
@@ -15352,7 +15352,7 @@
   {
     "id": "fukuoka-review-747310914700",
     "cityId": "fukuoka",
-    "name": "Ramen Stadium",
+    "name": "라멘 스타디움",
     "english": "Ramen Stadium",
     "category": "맛집",
     "image": "/images/place-placeholder.svg",
@@ -15378,7 +15378,7 @@
   {
     "id": "fukuoka-review-367a160f8d4a",
     "cityId": "fukuoka",
-    "name": "Yama-chan",
+    "name": "야마짱",
     "english": "Yama-chan",
     "category": "맛집",
     "image": "/images/place-placeholder.svg",
@@ -15404,7 +15404,7 @@
   {
     "id": "fukuoka-review-9066d4645d3b",
     "cityId": "fukuoka",
-    "name": "Asahiken Gyoza",
+    "name": "아사히켄 교자",
     "english": "Asahiken Gyoza",
     "category": "맛집",
     "image": "/images/place-placeholder.svg",
@@ -15430,7 +15430,7 @@
   {
     "id": "fukuoka-review-cfed75e73402",
     "cityId": "fukuoka",
-    "name": "Tetsu-Nabe",
+    "name": "데쓰나베",
     "english": "Tetsu-Nabe · 鉄なべ",
     "category": "맛집",
     "image": "/images/place-placeholder.svg",
@@ -15456,7 +15456,7 @@
   {
     "id": "fukuoka-review-fe6cce9787f9",
     "cityId": "fukuoka",
-    "name": "Sancho Panza",
+    "name": "산초 판사",
     "english": "Sancho Panza",
     "category": "맛집",
     "image": "/images/place-placeholder.svg",
@@ -15482,7 +15482,7 @@
   {
     "id": "fukuoka-review-629dd570fdf5",
     "cityId": "fukuoka",
-    "name": "Hitokuchi Gyoza Taketora",
+    "name": "히토쿠치 교자 다케토라",
     "english": "Hitokuchi Gyoza Taketora",
     "category": "맛집",
     "image": "/images/place-placeholder.svg",
@@ -15508,7 +15508,7 @@
   {
     "id": "fukuoka-review-30690129261b",
     "cityId": "fukuoka",
-    "name": "ShinShin",
+    "name": "신신",
     "english": "ShinShin · 신신라면",
     "category": "맛집",
     "image": "/images/place-placeholder.svg",
@@ -15534,7 +15534,7 @@
   {
     "id": "fukuoka-review-52d0f8cafe97",
     "cityId": "fukuoka",
-    "name": "Usagiyorikame",
+    "name": "우사기요리카메",
     "english": "Usagiyorikame · ウサギよりカメ もんじゃ焼き 春吉",
     "category": "맛집",
     "image": "/images/place-placeholder.svg",
@@ -15560,7 +15560,7 @@
   {
     "id": "fukuoka-review-bcb8a884577a",
     "cityId": "fukuoka",
-    "name": "Umeyama tetpei shokudo",
+    "name": "우메야마 텟페이 식당",
     "english": "Umeyama tetpei shokudo · 梅山鉄平食堂 本店",
     "category": "맛집",
     "image": "/images/place-placeholder.svg",
@@ -15586,7 +15586,7 @@
   {
     "id": "fukuoka-review-a2cd81f00aa2",
     "cityId": "fukuoka",
-    "name": "Menya Ishi",
+    "name": "멘야 이시",
     "english": "Menya Ishi · 麺屋 いしヰ",
     "category": "맛집",
     "image": "/images/place-placeholder.svg",
@@ -15612,7 +15612,7 @@
   {
     "id": "fukuoka-review-260d5661985d",
     "cityId": "fukuoka",
-    "name": "Yodobashi Camera store",
+    "name": "요도바시 카메라",
     "english": "Yodobashi Camera store",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -15716,7 +15716,7 @@
   {
     "id": "hiroshima-review-ad9d6c99b447",
     "cityId": "hiroshima",
-    "name": "Senjokaku",
+    "name": "센조카쿠",
     "english": "Senjokaku · 千畳閣",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -15742,7 +15742,7 @@
   {
     "id": "hiroshima-review-9952f4c09ec0",
     "cityId": "hiroshima",
-    "name": "Hypocenter",
+    "name": "원폭 폭심지",
     "english": "Hypocenter",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -15768,7 +15768,7 @@
   {
     "id": "hiroshima-review-8c71adcadc1d",
     "cityId": "hiroshima",
-    "name": "Miyao Castle",
+    "name": "미야오성",
     "english": "Miyao Castle · 宮尾城",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -15846,7 +15846,7 @@
   {
     "id": "hiroshima-review-cc4c4f3365a4",
     "cityId": "hiroshima",
-    "name": "Memorial Tower to the Mobilized Students",
+    "name": "동원학도 위령탑",
     "english": "Memorial Tower to the Mobilized Students",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -15898,7 +15898,7 @@
   {
     "id": "hiroshima-review-6ec916848150",
     "cityId": "hiroshima",
-    "name": "Hiroshima National Peace Memorial Hall for the Atomic Bomb Victims",
+    "name": "국립 히로시마 원폭희생자 추도평화기념관",
     "english": "Hiroshima National Peace Memorial Hall for the Atomic Bomb Victims",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -15924,7 +15924,7 @@
   {
     "id": "hiroshima-review-9ef4fce9fc97",
     "cityId": "hiroshima",
-    "name": "Miyajima History and Folklore Museum",
+    "name": "미야지마 역사민속자료관",
     "english": "Miyajima History and Folklore Museum · 宮島歴史民俗資料館",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -15976,7 +15976,7 @@
   {
     "id": "hiroshima-review-e294e03dc02a",
     "cityId": "hiroshima",
-    "name": "International Conference Center",
+    "name": "히로시마 국제회의장",
     "english": "International Conference Center",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -16002,7 +16002,7 @@
   {
     "id": "hiroshima-review-4a10a70ea5f6",
     "cityId": "hiroshima",
-    "name": "Honkawa Elementary School Peace Museum",
+    "name": "혼카와 초등학교 평화자료관",
     "english": "Honkawa Elementary School Peace Museum · 本川小学校平和資料館",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -16028,7 +16028,7 @@
   {
     "id": "hiroshima-review-903f25bba010",
     "cityId": "hiroshima",
-    "name": "Fukuro-machi Elementary School Museum",
+    "name": "후쿠로마치 초등학교 평화자료관",
     "english": "Fukuro-machi Elementary School Museum · 袋町小学校平和資料館",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -16054,7 +16054,7 @@
   {
     "id": "hiroshima-review-bfeba93a4f24",
     "cityId": "hiroshima",
-    "name": "Former Bank of Japan",
+    "name": "옛 일본은행 히로시마 지점",
     "english": "Former Bank of Japan",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -16106,7 +16106,7 @@
   {
     "id": "hiroshima-review-93839d894a56",
     "cityId": "hiroshima",
-    "name": "Chuo Park",
+    "name": "주오 공원",
     "english": "Chuo Park · 中央公園",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -16184,7 +16184,7 @@
   {
     "id": "hiroshima-review-7b18069a79b4",
     "cityId": "hiroshima",
-    "name": "Gokoku Shrine",
+    "name": "히로시마 호국신사",
     "english": "Gokoku Shrine · 護国神社 Gokoku-jinja",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -16210,7 +16210,7 @@
   {
     "id": "hiroshima-review-9d644bfafc4a",
     "cityId": "hiroshima",
-    "name": "Hiroshima Children's Museum",
+    "name": "히로시마 어린이문화과학관",
     "english": "Hiroshima Children's Museum · 広島市こども文化科学館",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -16262,7 +16262,7 @@
   {
     "id": "hiroshima-review-7352e167e81b",
     "cityId": "hiroshima",
-    "name": "Hijiyama Park",
+    "name": "히지야마 공원",
     "english": "Hijiyama Park · 比治山公園",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -16288,7 +16288,7 @@
   {
     "id": "hiroshima-review-8ee97e23ccd0",
     "cityId": "hiroshima",
-    "name": "Hiroshima City Manga Library",
+    "name": "히로시마시 만화도서관",
     "english": "Hiroshima City Manga Library · 広島市立まんが図書館",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -16314,7 +16314,7 @@
   {
     "id": "hiroshima-review-6577ec4c4553",
     "cityId": "hiroshima",
-    "name": "Hiroshima City Museum of Contemporary Art",
+    "name": "히로시마시 현대미술관",
     "english": "Hiroshima City Museum of Contemporary Art · 広島市現代美術館",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -16340,7 +16340,7 @@
   {
     "id": "hiroshima-review-437de93cdc50",
     "cityId": "hiroshima",
-    "name": "Fudoin",
+    "name": "후도인",
     "english": "Fudoin · 不動院",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -16366,7 +16366,7 @@
   {
     "id": "hiroshima-review-d0b9bbe7c96c",
     "cityId": "hiroshima",
-    "name": "Numaji Transportation Museum",
+    "name": "누마지 교통뮤지엄",
     "english": "Numaji Transportation Museum · ヌマジ交通ミュージアム",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -16392,7 +16392,7 @@
   {
     "id": "hiroshima-review-b4e77f3c59f0",
     "cityId": "hiroshima",
-    "name": "Hiroshima Prefectural Museum of Art",
+    "name": "히로시마현립 미술관",
     "english": "Hiroshima Prefectural Museum of Art · 広島県立美術館",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -16418,7 +16418,7 @@
   {
     "id": "hiroshima-review-0235d8858323",
     "cityId": "hiroshima",
-    "name": "Miyajima Brewery",
+    "name": "미야지마 브루어리",
     "english": "Miyajima Brewery",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -16470,7 +16470,7 @@
   {
     "id": "hiroshima-review-f3d6d9806610",
     "cityId": "hiroshima",
-    "name": "Kakiya",
+    "name": "가키야",
     "english": "Kakiya · 牡蠣屋",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -16522,7 +16522,7 @@
   {
     "id": "hiroshima-review-08f1f4cd8bcc",
     "cityId": "hiroshima",
-    "name": "les Clos",
+    "name": "레 클로",
     "english": "les Clos · 宮島 レ・クロ",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -16548,7 +16548,7 @@
   {
     "id": "hiroshima-review-2f46196661ae",
     "cityId": "hiroshima",
-    "name": "Hanbe Gardens",
+    "name": "한베 정원",
     "english": "Hanbe Gardens · 半べえ",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -16574,7 +16574,7 @@
   {
     "id": "hiroshima-review-53fd83a987dd",
     "cityId": "hiroshima",
-    "name": "Round One",
+    "name": "라운드원",
     "english": "Round One",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -16600,7 +16600,7 @@
   {
     "id": "hiroshima-review-bf3e5dd10e24",
     "cityId": "hiroshima",
-    "name": "EDiON",
+    "name": "에디온",
     "english": "EDiON · formerly DeoDeo",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -16626,7 +16626,7 @@
   {
     "id": "hiroshima-review-91866f99358d",
     "cityId": "hiroshima",
-    "name": "Fukuya (Ekimae)",
+    "name": "후쿠야 히로시마역 앞점",
     "english": "Fukuya (Ekimae) · 福屋広島駅前店",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -16652,7 +16652,7 @@
   {
     "id": "hiroshima-review-a43e067d1dea",
     "cityId": "hiroshima",
-    "name": "Hiroshima PARCO",
+    "name": "히로시마 파르코",
     "english": "Hiroshima PARCO · 広島パルコ",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -16678,7 +16678,7 @@
   {
     "id": "hiroshima-review-e53e7f88bbf2",
     "cityId": "hiroshima",
-    "name": "SOGO",
+    "name": "소고 백화점",
     "english": "SOGO",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -16704,7 +16704,7 @@
   {
     "id": "hiroshima-review-fdb0caf8d968",
     "cityId": "hiroshima",
-    "name": "SunMall",
+    "name": "선몰",
     "english": "SunMall",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -16730,7 +16730,7 @@
   {
     "id": "hiroshima-review-bae11aa3622c",
     "cityId": "hiroshima",
-    "name": "Hands",
+    "name": "핸즈",
     "english": "Hands",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -16756,7 +16756,7 @@
   {
     "id": "hiroshima-review-53771d74985c",
     "cityId": "hiroshima",
-    "name": "Daiso",
+    "name": "다이소",
     "english": "Daiso",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -16808,7 +16808,7 @@
   {
     "id": "hiroshima-review-1c4d1ae5b1d6",
     "cityId": "hiroshima",
-    "name": "Organ-za",
+    "name": "오르간자",
     "english": "Organ-za · ヲルガン座",
     "category": "맛집",
     "image": "/images/place-placeholder.svg",
@@ -16834,7 +16834,7 @@
   {
     "id": "hiroshima-review-ed9e863dd8f0",
     "cityId": "hiroshima",
-    "name": "Otis!",
+    "name": "오티스",
     "english": "Otis!",
     "category": "카페",
     "image": "/images/place-placeholder.svg",
@@ -16860,7 +16860,7 @@
   {
     "id": "hiroshima-review-87d66c3569f1",
     "cityId": "hiroshima",
-    "name": "Sankanou",
+    "name": "산카노",
     "english": "Sankanou · 三冠王",
     "category": "맛집",
     "image": "/images/place-placeholder.svg",
@@ -16886,7 +16886,7 @@
   {
     "id": "hiroshima-review-73dd35877a1f",
     "cityId": "hiroshima",
-    "name": "Micchan",
+    "name": "밋짱",
     "english": "Micchan · お好み焼 みっちゃん総本店",
     "category": "맛집",
     "image": "/images/place-placeholder.svg",
@@ -16912,7 +16912,7 @@
   {
     "id": "hiroshima-review-2a17cab3eda7",
     "cityId": "hiroshima",
-    "name": "Tachikoma",
+    "name": "다치코마",
     "english": "Tachikoma · たちこま",
     "category": "맛집",
     "image": "/images/place-placeholder.svg",
@@ -17042,7 +17042,7 @@
   {
     "id": "kobe-review-ecfcc32657c3",
     "cityId": "kobe",
-    "name": "Kyu-kyoryuchi",
+    "name": "고베 옛 외국인 거류지",
     "english": "Kyu-kyoryuchi · 旧居留地",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -17068,7 +17068,7 @@
   {
     "id": "kobe-review-ef0ea1d30c8f",
     "cityId": "kobe",
-    "name": "Hyogo Prefectural Museum of History",
+    "name": "효고현립 역사박물관",
     "english": "Hyogo Prefectural Museum of History · 兵庫県立歴史博物館, hyōgoken-ritsu rekishi hakubutsukan",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -17094,7 +17094,7 @@
   {
     "id": "kobe-review-8609d81e834f",
     "cityId": "kobe",
-    "name": "Chinatown",
+    "name": "고베 차이나타운",
     "english": "Chinatown · 南京町, nankinmachi",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -17120,7 +17120,7 @@
   {
     "id": "kobe-review-124bfcc6015e",
     "cityId": "kobe",
-    "name": "Himeji City Museum of Art",
+    "name": "히메지 시립미술관",
     "english": "Himeji City Museum of Art · 姫路市立美術館, himeji-shi ritsu bijutsukan",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -17146,7 +17146,7 @@
   {
     "id": "kobe-review-876fb80fa0e5",
     "cityId": "kobe",
-    "name": "Kobe Overseas Chinese History Museum",
+    "name": "고베 화교역사박물관",
     "english": "Kobe Overseas Chinese History Museum · 神戸華僑歴史博物館",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -17172,7 +17172,7 @@
   {
     "id": "kobe-review-91453d878d01",
     "cityId": "kobe",
-    "name": "Senhime Shrine",
+    "name": "센히메 신사",
     "english": "Senhime Shrine · 千姫天満宮, senhime tenmangū",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -17198,7 +17198,7 @@
   {
     "id": "kobe-review-06ac7b48ec95",
     "cityId": "kobe",
-    "name": "Takenaka Carpentry Tools Museum",
+    "name": "다케나카 목수도구관",
     "english": "Takenaka Carpentry Tools Museum · 竹中大工道具館",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -17224,7 +17224,7 @@
   {
     "id": "kobe-review-6f1f250e0484",
     "cityId": "kobe",
-    "name": "Himeji City Zoo",
+    "name": "히메지 시립동물원",
     "english": "Himeji City Zoo · 姫路市立動物園, himeji shihitsu dōbutsuen",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -17302,7 +17302,7 @@
   {
     "id": "kobe-review-8eb383c7371c",
     "cityId": "kobe",
-    "name": "Tetsujin 28 statue",
+    "name": "철인 28호 동상",
     "english": "Tetsujin 28 statue · Kobe project",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -17328,7 +17328,7 @@
   {
     "id": "kobe-review-90e8a7be2dfc",
     "cityId": "kobe",
-    "name": "Tegarayama",
+    "name": "데가라야마",
     "english": "Tegarayama · 手柄山",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -17380,7 +17380,7 @@
   {
     "id": "kobe-review-eaf9b6549d41",
     "cityId": "kobe",
-    "name": "Historical Peace Center",
+    "name": "평화자료관",
     "english": "Historical Peace Center · 平和資料館, heiwa shiryōkan",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -17432,7 +17432,7 @@
   {
     "id": "kobe-review-c1a5ca74f9e2",
     "cityId": "kobe",
-    "name": "Japan Toy Museum",
+    "name": "일본 장난감박물관",
     "english": "Japan Toy Museum · 日本玩具博物館, nihon ganku hakubutsukan",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -17458,7 +17458,7 @@
   {
     "id": "kobe-review-9501a46b9eb4",
     "cityId": "kobe",
-    "name": "Observation deck on the 24th Floor of Kobe City Hall",
+    "name": "고베 시청 24층 전망로비",
     "english": "Observation deck on the 24th Floor of Kobe City Hall",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -17484,7 +17484,7 @@
   {
     "id": "kobe-review-7cf13a3e558f",
     "cityId": "kobe",
-    "name": "Sawa-no-Tsuru Museum",
+    "name": "사와노쓰루 자료관",
     "english": "Sawa-no-Tsuru Museum · 沢の鶴資料館",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -17510,7 +17510,7 @@
   {
     "id": "kobe-review-85371518cff0",
     "cityId": "kobe",
-    "name": "Hakutsuru Sake Brewery Museum",
+    "name": "하쿠쓰루 주조자료관",
     "english": "Hakutsuru Sake Brewery Museum · 白鶴酒造資料館, hakutsuru shuzōshiryōkan",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -17536,7 +17536,7 @@
   {
     "id": "kobe-review-930aee210b94",
     "cityId": "kobe",
-    "name": "Hamafukutsuru-Ginjo Brewery and Shop",
+    "name": "하마후쿠쓰루 긴조공방·매장",
     "english": "Hamafukutsuru-Ginjo Brewery and Shop · 浜福鶴吟醸工房",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -17562,7 +17562,7 @@
   {
     "id": "kobe-review-f3538986b069",
     "cityId": "kobe",
-    "name": "Kiku-Masamune Sake Brewery Museum",
+    "name": "기쿠마사무네 주조기념관",
     "english": "Kiku-Masamune Sake Brewery Museum · 菊正宗酒造記念館, \"Kiku-Masamune Shuzo Kinenkan\"",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -17588,7 +17588,7 @@
   {
     "id": "kobe-review-5f32b37d4713",
     "cityId": "kobe",
-    "name": "Himeji Central Park",
+    "name": "히메지 센트럴파크",
     "english": "Himeji Central Park",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -17614,7 +17614,7 @@
   {
     "id": "kobe-review-f5231f099beb",
     "cityId": "kobe",
-    "name": "Taiyo Park",
+    "name": "다이요 공원",
     "english": "Taiyo Park · 太陽公園",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -17640,7 +17640,7 @@
   {
     "id": "kobe-review-ba66498bf0cd",
     "cityId": "kobe",
-    "name": "MOSAIC",
+    "name": "모자이크",
     "english": "MOSAIC",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -17718,7 +17718,7 @@
   {
     "id": "kobe-review-63091ed00bdd",
     "cityId": "kobe",
-    "name": "Fruit Flower Park",
+    "name": "프루트 플라워 파크",
     "english": "Fruit Flower Park · フルーツ・フラワーパーク",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -17822,7 +17822,7 @@
   {
     "id": "kobe-review-16557f84c150",
     "cityId": "kobe",
-    "name": "Modern Ark Pharm Cafe",
+    "name": "모던아크 팜카페",
     "english": "Modern Ark Pharm Cafe",
     "category": "카페",
     "image": "/images/place-placeholder.svg",
@@ -17848,7 +17848,7 @@
   {
     "id": "kobe-review-f80d6f1e0528",
     "cityId": "kobe",
-    "name": "Naruto Taiyaki Honpo Hankyu Sannomiya-ekimae",
+    "name": "나루토 타이야키 본점 한큐 산노미야역 앞점",
     "english": "Naruto Taiyaki Honpo Hankyu Sannomiya-ekimae",
     "category": "맛집",
     "image": "/images/place-placeholder.svg",
@@ -17874,7 +17874,7 @@
   {
     "id": "kobe-review-af3601403b9a",
     "cityId": "kobe",
-    "name": "Ryukaso",
+    "name": "류카소",
     "english": "Ryukaso",
     "category": "맛집",
     "image": "/images/place-placeholder.svg",
@@ -17900,7 +17900,7 @@
   {
     "id": "kobe-review-9ecff8279bda",
     "cityId": "kobe",
-    "name": "Cafe Terrasse de Paris",
+    "name": "카페 테라스 드 파리",
     "english": "Cafe Terrasse de Paris",
     "category": "카페",
     "image": "/images/place-placeholder.svg",
@@ -17926,7 +17926,7 @@
   {
     "id": "kobe-review-54f14f016b49",
     "cityId": "kobe",
-    "name": "Kobe Beef Steak Ishida Kitanozaka",
+    "name": "고베규 스테이크 이시다 기타노자카",
     "english": "Kobe Beef Steak Ishida Kitanozaka",
     "category": "맛집",
     "image": "/images/place-placeholder.svg",
@@ -17952,7 +17952,7 @@
   {
     "id": "kobe-review-e49177ee7848",
     "cityId": "kobe",
-    "name": "Kobe Portopia Hotel Restaurants",
+    "name": "고베 포토피아 호텔 레스토랑",
     "english": "Kobe Portopia Hotel Restaurants",
     "category": "맛집",
     "image": "/images/place-placeholder.svg",
@@ -17978,7 +17978,7 @@
   {
     "id": "kobe-review-489a92f47e0b",
     "cityId": "kobe",
-    "name": "Kokubu",
+    "name": "고쿠부",
     "english": "Kokubu",
     "category": "맛집",
     "image": "/images/place-placeholder.svg",
@@ -18004,7 +18004,7 @@
   {
     "id": "kobe-review-352e772b68d9",
     "cityId": "kobe",
-    "name": "Medium Rare Steakhouse @ Oriental Hotel",
+    "name": "오리엔탈 호텔 미디엄레어 스테이크하우스",
     "english": "Medium Rare Steakhouse @ Oriental Hotel",
     "category": "맛집",
     "image": "/images/place-placeholder.svg",
@@ -18030,7 +18030,7 @@
   {
     "id": "kobe-review-2d474e5b6a34",
     "cityId": "kobe",
-    "name": "Mouriya",
+    "name": "모리야",
     "english": "Mouriya",
     "category": "맛집",
     "image": "/images/place-placeholder.svg",
@@ -18056,7 +18056,7 @@
   {
     "id": "kobe-review-77a8e70ab643",
     "cityId": "kobe",
-    "name": "Wakkoqu @ Shin-Kobe",
+    "name": "와코쿠 신고베점",
     "english": "Wakkoqu @ Shin-Kobe",
     "category": "맛집",
     "image": "/images/place-placeholder.svg",
@@ -18082,7 +18082,7 @@
   {
     "id": "kobe-review-ae107d822cd7",
     "cityId": "kobe",
-    "name": "Chicken George",
+    "name": "치킨조지",
     "english": "Chicken George",
     "category": "바·공연",
     "image": "/images/place-placeholder.svg",
@@ -18108,7 +18108,7 @@
   {
     "id": "kobe-review-30a5d2aaeff6",
     "cityId": "kobe",
-    "name": "New Muenchen Kobe Taishikan",
+    "name": "뉴뮌헨 고베 대사관",
     "english": "New Muenchen Kobe Taishikan",
     "category": "바·공연",
     "image": "/images/place-placeholder.svg",
@@ -18134,7 +18134,7 @@
   {
     "id": "kobe-review-0d6c9db0b88c",
     "cityId": "kobe",
-    "name": "Sone",
+    "name": "소네",
     "english": "Sone",
     "category": "바·공연",
     "image": "/images/place-placeholder.svg",
@@ -18160,7 +18160,7 @@
   {
     "id": "kobe-review-948c46bd2f79",
     "cityId": "kobe",
-    "name": "The Rock",
+    "name": "더 록",
     "english": "The Rock",
     "category": "바·공연",
     "image": "/images/place-placeholder.svg",
@@ -18186,7 +18186,7 @@
   {
     "id": "kobe-review-13dd69bbb13f",
     "cityId": "kobe",
-    "name": "Cafe Freundlieb",
+    "name": "카페 프로인들리브",
     "english": "Cafe Freundlieb",
     "category": "카페",
     "image": "/images/place-placeholder.svg",
@@ -18212,7 +18212,7 @@
   {
     "id": "kobe-review-f33e5aaf9209",
     "cityId": "kobe",
-    "name": "Hub",
+    "name": "허브",
     "english": "Hub · ハブ",
     "category": "바·공연",
     "image": "/images/place-placeholder.svg",
@@ -18394,7 +18394,7 @@
   {
     "id": "sendai-review-5a648d9c156f",
     "cityId": "sendai",
-    "name": "Kanran-tei Pavilion",
+    "name": "간란테이",
     "english": "Kanran-tei Pavilion · 観瀾亭",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -18420,7 +18420,7 @@
   {
     "id": "sendai-review-6b6fa15ebb58",
     "cityId": "sendai",
-    "name": "Mogami Yoshiaki Historical Museum",
+    "name": "모가미 요시아키 역사관",
     "english": "Mogami Yoshiaki Historical Museum · 最上義光歴史館",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -18498,7 +18498,7 @@
   {
     "id": "sendai-review-a767baf65e2b",
     "cityId": "sendai",
-    "name": "Yamagata Prefectural Museum",
+    "name": "야마가타현립 박물관",
     "english": "Yamagata Prefectural Museum · 山形県立博物館",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -18524,7 +18524,7 @@
   {
     "id": "sendai-review-773aacc448d9",
     "cityId": "sendai",
-    "name": "Statue of Kannon (the Bodhisattva of Compassion)",
+    "name": "센다이 대관음",
     "english": "Statue of Kannon (the Bodhisattva of Compassion) · 仙台大観音, Sendai Daikannon",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -18550,7 +18550,7 @@
   {
     "id": "sendai-review-ef0263a8582c",
     "cityId": "sendai",
-    "name": "The Museum Matsushima",
+    "name": "더 뮤지엄 마쓰시마",
     "english": "The Museum Matsushima · ザ・ミュージアムMatsushima",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -18628,7 +18628,7 @@
   {
     "id": "sendai-review-9d8b55998c2b",
     "cityId": "sendai",
-    "name": "Kyohei Fujita Museum of Glass",
+    "name": "후지타 교헤이 유리미술관",
     "english": "Kyohei Fujita Museum of Glass · 藤田喬平ガラス美術館",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -18654,7 +18654,7 @@
   {
     "id": "sendai-review-264383ea809c",
     "cityId": "sendai",
-    "name": "Yamagata Museum of Art",
+    "name": "야마가타 미술관",
     "english": "Yamagata Museum of Art · 山形美術館 yamagata bijutsukan",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -18732,7 +18732,7 @@
   {
     "id": "sendai-review-02727291eec4",
     "cityId": "sendai",
-    "name": "Kyōdokan",
+    "name": "교도칸",
     "english": "Kyōdokan · 山形市郷土館",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -18758,7 +18758,7 @@
   {
     "id": "sendai-review-d0401e80b058",
     "cityId": "sendai",
-    "name": "SS30 Building Observation Lounge",
+    "name": "에스에스30 빌딩 전망라운지",
     "english": "SS30 Building Observation Lounge",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -18810,7 +18810,7 @@
   {
     "id": "sendai-review-eae945a22a8d",
     "cityId": "sendai",
-    "name": "Seifū-sō",
+    "name": "세이후소",
     "english": "Seifū-sō · 清風荘",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -18862,7 +18862,7 @@
   {
     "id": "sendai-review-b7a1f3a3966a",
     "cityId": "sendai",
-    "name": "Museum of Yamagata University",
+    "name": "야마가타대학교 박물관",
     "english": "Museum of Yamagata University · 山形大学附属博物館",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -18914,7 +18914,7 @@
   {
     "id": "sendai-review-d54da8e5eda4",
     "cityId": "sendai",
-    "name": "Karamatsu Kannondo",
+    "name": "가라마쓰 관음당",
     "english": "Karamatsu Kannondo · 唐松観音堂",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -18940,7 +18940,7 @@
   {
     "id": "sendai-review-91501ce96dc2",
     "cityId": "sendai",
-    "name": "Bansui Sōdō",
+    "name": "반스이 소도",
     "english": "Bansui Sōdō · 晩翠草堂",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -18966,7 +18966,7 @@
   {
     "id": "sendai-review-945455a2cef5",
     "cityId": "sendai",
-    "name": "Yamagata Prefectural Arts and Literature Museum",
+    "name": "야마가타현 향토관 문학전시관",
     "english": "Yamagata Prefectural Arts and Literature Museum · 山形県芸文美術館 yamagataken geibun bijutsukan",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -18992,7 +18992,7 @@
   {
     "id": "sendai-review-ee4194bd113c",
     "cityId": "sendai",
-    "name": "Yajiro Kokeshi Village",
+    "name": "야지로 고케시 마을",
     "english": "Yajiro Kokeshi Village · 弥治郎こけし村",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -19018,7 +19018,7 @@
   {
     "id": "sendai-review-1fcdf4dc2c51",
     "cityId": "sendai",
-    "name": "The Museum of the Forest of Depths of the Earth",
+    "name": "센다이시 도미자와 유적 보존관",
     "english": "The Museum of the Forest of Depths of the Earth · 地底の森ミュージアム",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -19044,7 +19044,7 @@
   {
     "id": "sendai-review-ac158bb4e742",
     "cityId": "sendai",
-    "name": "Yamagata City Industrial History Museum",
+    "name": "야마가타시 산업역사자료관",
     "english": "Yamagata City Industrial History Museum · 山形市産業歴史資料館",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -19070,7 +19070,7 @@
   {
     "id": "sendai-review-2eb4abaa586b",
     "cityId": "sendai",
-    "name": "Tohoku University Botanical Gardens",
+    "name": "도호쿠대학교 식물원",
     "english": "Tohoku University Botanical Gardens · 東北大学植物園",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -19096,7 +19096,7 @@
   {
     "id": "sendai-review-1a3e76c0474b",
     "cityId": "sendai",
-    "name": "Seikai Kunii Contemporary Calligraphy Memorial Museum",
+    "name": "구니이 세이카이 현대서예기념관",
     "english": "Seikai Kunii Contemporary Calligraphy Memorial Museum · 國井誠海記念館",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -19122,7 +19122,7 @@
   {
     "id": "sendai-review-7c1ed4c32877",
     "cityId": "sendai",
-    "name": "Ōtakamori",
+    "name": "오타카모리",
     "english": "Ōtakamori · 大高森",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -19148,7 +19148,7 @@
   {
     "id": "sendai-review-1794574a8824",
     "cityId": "sendai",
-    "name": "Tohoku University Museum of Natural History",
+    "name": "도호쿠대학교 자연사박물관",
     "english": "Tohoku University Museum of Natural History · 東北大学総合学術博物館, Tōhoku Daigaku Sōgō Gakujutsu Hakubutsukan",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -19200,7 +19200,7 @@
   {
     "id": "sendai-review-2f370aa671fa",
     "cityId": "sendai",
-    "name": "Sankyozawa Electric Centennial Museum (Sankyozawa 100 Year Electric Historical Center)",
+    "name": "산쿄자와 전기백년관",
     "english": "Sankyozawa Electric Centennial Museum (Sankyozawa 100 Year Electric Historical Center) · Tohokudenryoku Sankyozawa Denki Hyakunenkan, 東北電力 三居沢電気百年館",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -19226,7 +19226,7 @@
   {
     "id": "sendai-review-e5df83e7ad0f",
     "cityId": "sendai",
-    "name": "Tarumizu Ruins",
+    "name": "다루미즈 유적",
     "english": "Tarumizu Ruins · 垂水遺跡",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -19252,7 +19252,7 @@
   {
     "id": "sendai-review-16328300397b",
     "cityId": "sendai",
-    "name": "3M Sendai City Science Museum",
+    "name": "쓰리엠 센다이시 과학관",
     "english": "3M Sendai City Science Museum",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -19278,7 +19278,7 @@
   {
     "id": "sendai-review-1783c63e14c7",
     "cityId": "sendai",
-    "name": "Yamadera Goto Museum of Art",
+    "name": "야마데라 고토 미술관",
     "english": "Yamadera Goto Museum of Art · 山寺後藤美術館 yamadera goto bijutsukan",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -19304,7 +19304,7 @@
   {
     "id": "sendai-review-50e59bf2d996",
     "cityId": "sendai",
-    "name": "Yamadera Bashō Museum",
+    "name": "야마데라 바쇼 기념관",
     "english": "Yamadera Bashō Museum · 山寺芭蕉記念館",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -19330,7 +19330,7 @@
   {
     "id": "sendai-review-236bb6299574",
     "cityId": "sendai",
-    "name": "Momijigawa Ravine",
+    "name": "모미지가와 계곡",
     "english": "Momijigawa Ravine · 紅葉川渓谷",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -19356,7 +19356,7 @@
   {
     "id": "sendai-review-c4879f13b214",
     "cityId": "sendai",
-    "name": "Matsushima Italian Toto",
+    "name": "마쓰시마 이탈리안 토토",
     "english": "Matsushima Italian Toto · 松島イタリアン トト",
     "category": "맛집",
     "image": "/images/place-placeholder.svg",
@@ -19382,7 +19382,7 @@
   {
     "id": "sendai-review-8919f476c46e",
     "cityId": "sendai",
-    "name": "Benyland",
+    "name": "베니랜드",
     "english": "Benyland",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -19408,7 +19408,7 @@
   {
     "id": "sendai-review-08284bf31044",
     "cityId": "sendai",
-    "name": "Sankyozawa Traffic Park",
+    "name": "산쿄자와 교통공원",
     "english": "Sankyozawa Traffic Park · 三居沢交通公園, Minamikoizumi Traffic Park",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -19434,7 +19434,7 @@
   {
     "id": "sendai-review-82b43b28c0fe",
     "cityId": "sendai",
-    "name": "Yamagata Traditional Kokeshikan",
+    "name": "야마가타 전통 고케시관",
     "english": "Yamagata Traditional Kokeshikan · やまがた伝統こけし館 yamagata dentō kokeshikan",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -19460,7 +19460,7 @@
   {
     "id": "sendai-review-47fc0f351268",
     "cityId": "sendai",
-    "name": "Hiraga Kokeshi Store",
+    "name": "히라가 고케시점",
     "english": "Hiraga Kokeshi Store · 平賀こけし店",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -19486,7 +19486,7 @@
   {
     "id": "sendai-review-b0d8f73d0257",
     "cityId": "sendai",
-    "name": "Juichiya",
+    "name": "주이치야",
     "english": "Juichiya · 十一屋",
     "category": "관광",
     "image": "/images/place-placeholder.svg",
@@ -19512,7 +19512,7 @@
   {
     "id": "sendai-review-af0b95b98d2b",
     "cityId": "sendai",
-    "name": "Rikyu",
+    "name": "리큐",
     "english": "Rikyu · 利久",
     "category": "맛집",
     "image": "/images/place-placeholder.svg",

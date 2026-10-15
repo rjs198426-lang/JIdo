@@ -1,12 +1,14 @@
 # J★Do Android 다운로드
 
-[Android 1.4 APK 다운로드](https://raw.githubusercontent.com/rjs198426-lang/JIdo/555173f0478774388c20ff1e6f98e33e4f504884/JDo-android.apk)
+[Android 1.5 APK 다운로드](https://raw.githubusercontent.com/rjs198426-lang/JIdo/9142e238e6e30594e1b5dc001c8d23d2b52471ce/JDo-android.apk)
 
 - 앱: J★Do (`com.jido.travel`)
-- 버전: 1.4 · versionCode 5 · Android 7.0 이상
-- 크기: 21116323 bytes
-- SHA-256: `b9d9911c619e93a13352a04c98200cac8d95bd03e31ddd4a0579bfe8a61fe2fd`
+- 버전: 1.5 · versionCode 6 · Android 7.0 이상
+- 크기: 21442817 bytes
+- SHA-256: `5e1714cb4ad2f61dd9ee89ecc7d31133aefd794682336b801e309d61a848e571`
 - 기존 APK와 같은 서명으로 업데이트 설치할 수 있습니다.
+
+1.5에서는 외국어가 남아 있던 장소 이름 487곳을 한글로 바꿨습니다. 내장 15개 여행지·767곳의 기본 이름은 한글로 표시하며, 원래 이름으로도 검색할 수 있습니다. 원어는 상세의 「현지 이름 확인」에서 펼쳐 볼 수 있습니다. 예전 가이드 캐시와 목록에서 복사한 일정·지도 이름도 갱신하되 직접 바꾼 이름·메모·좌표·사진은 보존합니다. 한글화·검색·기존 일정·무료 검색·지도·좁은 화면 정렬 검사 44건과 Android 빌드·기존 서명 검증을 통과했습니다.
 
 앱 종료 후 다시 실행하면 항상 홈에서 시작합니다. Android 앱 아이콘으로 실행 중인 앱을 다시 열 때도 홈으로 이동합니다. 기존 여행·활성 여행·선택 날짜·작업 탭 기록은 보존하며 내 여행을 누르면 다시 볼 수 있습니다. 파일 선택기·사진·공유·지도에서 돌아올 때는 작업 화면을 유지합니다. 화면·재실행 검사 30건과 Android 빌드·기존 서명 검증을 통과했습니다.
 

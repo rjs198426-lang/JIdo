@@ -18,6 +18,8 @@ Wikivoyage의 공식 MediaWiki API로 여행자 공동 편집 가이드의 장�
 
 ## 데이터와 이용 조건
 
+2026-10-15에 외국어가 남아 있던 장소 이름 487곳을 한글 표기로 정리했습니다. 내장 15개 도시·767곳의 기본 이름은 한글이며, 원어는 `english` 검색 필드와 상세의 접힌 「현지 이름 확인」에 보존합니다. 현지 주소와 출처 원문은 그대로 유지합니다. `src/place-name-translations.json`은 ID별 예전 이름과 새 이름의 대응표입니다. 이전 가이드 캐시와 목록에서 복사한 일정은 정확히 일치하는 옛 기본 이름만 표시를 갱신하며, 사용자가 바꾼 이름·좌표·사진·메모·저장된 일정 원본은 덮어쓰지 않습니다.
+
 - `src/researched-places.json`: 앱 내장 장소·지역·출처·확인일·검사 기록.
 - `public/travel-place-sources.json`: 선택한 장소의 출처와 좌표 근거. Wikivoyage 원문 설명은 출처 보존을 위해 별도 기록합니다. 블로그 본문은 포함하지 않습니다.
 - `public/licenses/travel-data.txt`: Wikivoyage CC BY-SA 4.0 및 OpenStreetMap ODbL 표시.

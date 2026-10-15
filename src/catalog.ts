@@ -8,6 +8,7 @@ import {
 } from './data'
 import { guideSchema, archivedGuideSchema, type Guide } from './guide-schema'
 import { fetchGuides } from './guide-api'
+import { currentPlaceName } from './place-names'
 export { categoryOptions } from './data'
 export type { City, Place, Region } from './data'
 
@@ -61,6 +62,7 @@ function currentPhoto<
 }
 function currentPlace(value: (typeof bundledPlaces)[number]) {
   const bundled = bundledPlaces.find((place) => place.id === value.id)
+  value = currentPlaceName(value, bundled)
   const updated = currentPhoto(value, bundled)
   if (
     bundled?.reviewSources?.length &&

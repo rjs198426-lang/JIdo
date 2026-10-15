@@ -254,7 +254,7 @@ function CityCard({
       <button className="city-card-copy" onClick={onOpen}>
         <span className="city-title">
           <strong>{city.name}</strong>
-          <span>{city.english}</span>
+          <span>{city.country}</span>
           <ArrowUp className="diagonal-arrow" size={19} />
         </span>
         <span className="city-tagline">{city.tagline}</span>
@@ -945,7 +945,7 @@ function Itinerary({
         >
           <div>
             <span className="trip-country">
-              {city.country} · {city.english}
+              {city.country} · {city.name}
             </span>
             <h2>{trip.title}</h2>
             <div className="trip-facts">
@@ -2410,9 +2410,7 @@ export default function App() {
                 <img src={city.image} alt={`${city.name} 여행 풍경`} />
 
                 <div>
-                  <span>
-                    {city.country} · {city.english}
-                  </span>
+                  <span>{city.country}</span>
                   <h2>{city.name}</h2>
                   <p>{city.tagline}</p>
                 </div>
@@ -2521,8 +2519,16 @@ export default function App() {
                 />
               </div>
               <div className="modal-body">
-                <span className="eyebrow">{place.english}</span>
+                <span className="eyebrow">
+                  {city.name} · {place.category}
+                </span>
                 <h3 className="place-detail-title">{place.name}</h3>
+                {place.english && (
+                  <details className="place-original-name">
+                    <summary>현지 이름 확인</summary>
+                    <p lang="und">{place.english}</p>
+                  </details>
+                )}
                 <p className="city-intro">{place.description}</p>
                 <div className="place-facts">
                   {place.area && (

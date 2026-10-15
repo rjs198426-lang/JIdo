@@ -1795,6 +1795,19 @@ svg {
   letter-spacing: -0.7px;
   margin: 9px 0 12px;
 }
+.place-original-name {
+  margin: 0 0 16px;
+  color: var(--muted);
+  font-size: 13px;
+}
+.place-original-name summary {
+  cursor: pointer;
+  padding: 8px 0;
+}
+.place-original-name p {
+  margin: 4px 0;
+  overflow-wrap: anywhere;
+}
 .place-facts {
   display: flex;
   flex-direction: column;

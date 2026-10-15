@@ -1,6 +1,7 @@
 import { attachmentSchema } from './attachment-schema'
 import { z } from 'zod'
 import { getCity, getPlace } from './catalog'
+import { currentPlaceName } from './place-names'
 import type { City } from './data'
 
 const label = z.string().trim().min(1).max(160)
@@ -370,12 +371,19 @@ export function tripCity(trip: Trip): City {
     }
   )
 }
+export function stopName(stop: Stop) {
+  if (!stop.custom) return getPlace(stop.placeId)?.name || '장소'
+  const place = getPlace(stop.custom.catalogPlaceId || '')
+  return place
+    ? currentPlaceName({ ...place, name: stop.custom.name }, place).name
+    : stop.custom.name
+}
 export function stopDetails(stop: Stop) {
   const place = getPlace(stop.placeId)
   if (!stop.custom && place) return place
   return {
     id: stop.placeId,
-    name: stop.custom?.name || '장소',
+    name: stopName(stop),
     category: stop.custom?.kind || '기타',
     address: stop.custom?.address || '주소를 추가해 보세요',
     image: '/images/guide-placeholder.svg',

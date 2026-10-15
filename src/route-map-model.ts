@@ -1,5 +1,5 @@
 import { getPlace } from './catalog'
-import type { Stop } from './travel-model'
+import { stopName, type Stop } from './travel-model'
 export type RoutePoint = {
   stopId: string
   number: number
@@ -36,7 +36,7 @@ export function routePoints(stops: Stop[]): RoutePoint[] {
       {
         stopId: stop.id,
         number: index + 1,
-        name: stop.custom?.name || getPlace(stop.placeId)?.name || '장소',
+        name: stopName(stop),
         lat: position.lat,
         lng,
       },

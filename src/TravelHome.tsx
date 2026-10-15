@@ -88,7 +88,7 @@ export default function TravelHome(props: Props) {
     <div className="travel-home">
       <div className="home-heading">
         <div>
-          <span className="home-kicker">MY JOURNEY</span>
+          <span className="home-kicker">나의 자유여행</span>
           <h1>나의 여행 한눈에</h1>
         </div>
         <span className="home-date">
