@@ -1,11 +1,15 @@
 import rawGuides from './resort-guides.json' with { type: 'json' }
-import { citySchema, placeSchema } from './guide-schema.ts'
+import { citySchema, placeSchema, sectionSchema } from './guide-schema.ts'
 
-// Stable city/place records remain so existing personal trips can resolve IDs.
+// Authored planning guides. Unknown coordinates are omitted, never filled
+// with island centers. Official links are references, not claims of live checks.
 export const resortGuides = rawGuides.map((guide) => ({
   city: citySchema.parse(guide.city),
   places: guide.places.map((place) => placeSchema.parse(place)),
+  sections: guide.sections.map((section) => sectionSchema.parse(section)),
+  references: guide.references,
+  researchStatus: guide.researchStatus,
 }))
 export const resortGuideById = new Map(
-  resortGuides.map((item) => [item.city.id, item]),
+  resortGuides.map((guide) => [guide.city.id, guide]),
 )

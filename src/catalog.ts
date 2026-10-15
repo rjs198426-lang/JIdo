@@ -15,24 +15,18 @@ export type { City, Place, Region } from './data'
 const CACHE_KEY = 'jdo-guide-catalog-v1'
 type Catalog = { available: Guide[]; retained: Guide[]; usingServer: boolean }
 let snapshot: Catalog = { available: [], retained: [], usingServer: false }
-// The guidebook-only update removes old narrative/source material, while city
-// and venue records must remain resolvable for personal trips and photos.
-function withoutGuideMaterial(guide: Guide): Guide {
-  return { ...guide, sections: [], sources: [] }
-}
 try {
   const saved = JSON.parse(localStorage.getItem(CACHE_KEY) || 'null')
   if (saved && Array.isArray(saved.available) && Array.isArray(saved.retained))
     snapshot = {
       usingServer: saved.usingServer ?? true,
       available: saved.available.map((item: unknown) =>
-        withoutGuideMaterial(guideSchema.parse(item)),
+        guideSchema.parse(item),
       ),
       retained: saved.retained.map((item: unknown) =>
-        withoutGuideMaterial(archivedGuideSchema.parse(item)),
+        archivedGuideSchema.parse(item),
       ),
     }
-  if (saved) localStorage.setItem(CACHE_KEY, JSON.stringify(snapshot))
 } catch {
   /* Bundled guides remain available when cache is missing. */
 }
@@ -43,7 +37,7 @@ export let regions: Region[] = [...bundledRegions]
 const cityRegistry = new Map(bundledCities.map((city) => [city.id, city]))
 const placeRegistry = new Map(bundledPlaces.map((place) => [place.id, place]))
 // Older bundled guide caches used one city photo for every venue. Upgrade only
-// those known assets; preserve user-authored city/place metadata and custom photos.
+// those known assets; preserve user-authored guide content and custom photos.
 const legacyImages = new Set([
   '/images/kyoto.jpg',
   '/images/bali.jpg',
@@ -136,7 +130,6 @@ export const getGuide = (id: string) =>
   snapshot.available.find((guide) => guide.id === id) ||
   snapshot.retained.find((guide) => guide.id === id)
 export function installGuides(guides: Guide[]) {
-  guides = guides.map(withoutGuideMaterial)
   const retained = new Map(snapshot.retained.map((guide) => [guide.id, guide]))
   for (const guide of guides) {
     const previous = retained.get(guide.id)

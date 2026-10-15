@@ -60,11 +60,11 @@ test('휴양지 필터에 두 섬, 기본 사이판 전경·출처와 각 20개 
   )
   await saipan.click()
   const dialog = page.getByRole('dialog')
-  await expect(dialog).toContainText('공식 가이드북')
-  await expect(dialog).not.toContainText('지역별 하루 계획')
+  await expect(dialog).toContainText('지역별 하루 계획')
+  await dialog.getByText('상세 안내·기존 자료', { exact: true }).click()
   await expect(
     dialog.getByRole('link', { name: /마리아나 관광청/ }),
-  ).toHaveAttribute('href', 'https://mva.mymarianas.com/marianas-guide/')
+  ).toHaveAttribute('href', 'https://www.mymarianas.com/')
   await page.getByRole('button', { name: '닫기', exact: true }).click()
   await page.getByRole('tab', { name: /가볼 만한 곳/ }).click()
   for (const id of ['guam', 'saipan']) {
