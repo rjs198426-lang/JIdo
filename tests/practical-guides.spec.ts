@@ -303,7 +303,7 @@ test('여행이 없을 때 명시적으로 고른 코스만 새 여행 첫날에
   expect(normal.days.flat()).toEqual([])
 })
 
-test('1.13의 비워진 가이드 캐시에서도 내장 상세 안내·코스를 복원하고 개인 일정을 보존', async ({
+test('1.13의 비워진 가이드 캐시에서도 실전 안내·코스를 유지하고 기존 자료 항목은 표시하지 않음', async ({
   page,
   context,
 }) => {
@@ -351,11 +351,15 @@ test('1.13의 비워진 가이드 캐시에서도 내장 상세 안내·코스�
   await expect(
     dialog.getByRole('tablist', { name: '실전 가이드', exact: true }),
   ).toBeVisible()
-  await dialog.getByText('상세 안내·기존 자료', { exact: true }).click()
   await expect(
-    dialog.getByRole('heading', { name: '이동', exact: true }),
+    dialog.getByText('상세 안내·기존 자료', { exact: true }),
+  ).toHaveCount(0)
+  await expect(dialog.locator('.guide-background')).toHaveCount(0)
+  await expect(
+    dialog.getByRole('heading', { name: '숙소는 어디에 잡을까', exact: true }),
   ).toBeVisible()
-  await expect(dialog).toContainText('교토역')
+  await dialog.getByRole('tab', { name: '지역별 코스', exact: true }).click()
+  await expect(dialog.locator('.guide-course')).toHaveCount(2)
   const stored = await page.evaluate(
     () => JSON.parse(localStorage.getItem('jido-travel-v1')!).trips[0],
   )

@@ -86,13 +86,11 @@
   color: #087b70;
   overflow-wrap: anywhere;
 }
-.guide-evidence,
-.guide-background {
+.guide-evidence {
   border-top: 1px solid #e4ece6;
   margin-top: 16px;
 }
-.guide-evidence > summary,
-.guide-background > summary {
+.guide-evidence > summary {
   min-height: 44px;
   padding: 12px 0;
   cursor: pointer;
@@ -154,7 +152,7 @@
   line-height: 1.6;
   margin-bottom: 10px;
 }
-.guide-background section {
+.guide-custom-content section {
   margin: 16px 0;
 }
 @media (max-width: 600px) {
