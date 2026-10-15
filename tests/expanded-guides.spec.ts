@@ -20,8 +20,8 @@ test('새 여행권마다 고유 장소 20개, 원문 좌표·보관본 날짜·
     'singapore',
     'danang',
   ])
-  expect(cities).toHaveLength(19)
-  expect(places).toHaveLength(847)
+  expect(cities).toHaveLength(21)
+  expect(places).toHaveLength(887)
   expect(provenance.currentOperationVerified).toBe(false)
   expect(provenance.snapshotDate).toBe('2016-10-27')
   const bounds: Record<string, number[]> = {

@@ -21,6 +21,7 @@ import PlaceSearchResults, {
 } from './PlaceSearch'
 import type { SearchPlace } from './place-search'
 import { googleMapsLink, mapsSearch } from './google-maps'
+import { placeCoordinates, placeMapQuery } from './place-location'
 import {
   useEffect,
   useId,
@@ -2523,6 +2524,11 @@ export default function App() {
                   {city.name} · {place.category}
                 </span>
                 <h3 className="place-detail-title">{place.name}</h3>
+                {!placeCoordinates(place) && (
+                  <p className="detail-footnote">
+                    정확한 지도 위치 확인이 필요한 장소입니다.
+                  </p>
+                )}
                 {place.english && (
                   <details className="place-original-name">
                     <summary>현지 이름 확인</summary>
@@ -2560,12 +2566,14 @@ export default function App() {
                 </div>
                 <a
                   className="button outline full map-link"
-                  href={`https://www.google.com/maps/search/?api=1&query=${place.lat},${place.lng}`}
+                  href={mapsSearch(placeMapQuery(place))}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <MapIcon size={17} />
-                  지도에서 위치 보기
+                  {placeCoordinates(place)
+                    ? '지도에서 위치 보기'
+                    : '지도에서 이름으로 찾기'}
                   <ExternalLink size={14} />
                 </a>
                 <button

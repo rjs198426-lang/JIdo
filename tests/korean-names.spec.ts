@@ -16,7 +16,7 @@ async function explore(page: Page) {
 }
 
 test('모든 내장 도시·장소는 한글 이름이며 원래 이름으로도 검색 가능', () => {
-  expect(places).toHaveLength(847)
+  expect(places).toHaveLength(887)
   for (const item of [...cities, ...places]) {
     expect(item.name, item.id).toMatch(/[가-힣]/)
     expect(item.name, item.id).not.toMatch(/[A-Za-z\u3040-\u30ff\u4e00-\u9fff]/)
@@ -61,7 +61,7 @@ test('예전에 목록에서 복사한 장소도 일정과 지도에서 한글�
       link: '',
       destinationId: 'kyoto',
       catalogPlaceId: place.id,
-      coordinates: { lat: place.lat, lng: place.lng },
+      coordinates: { lat: place.lat!, lng: place.lng! },
     },
   }
   const before = structuredClone(stop)

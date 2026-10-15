@@ -586,5 +586,20 @@
     "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Dubai_Spice_Souk_2018.jpg/960px-Dubai_Spice_Souk_2018.jpg",
     "title": "File:Dubai Spice Souk 2018.jpg",
     "bytes": 214469
+  },
+  "saipan": {
+    "file": "/images/saipan-coast.jpg",
+    "author": "P. Miller (Pdmiller)",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Saipan.jpg",
+    "verifiedAt": "2026-10-15",
+    "verificationBasis": "미러의 작가·Public domain 메타데이터와 실제 이미지를 확인했습니다. 원본 Commons 페이지 직접 열람은 접속 차단으로 하지 못했습니다.",
+    "metadataUrl": "https://github.com/jsschrstrcks1/InTheWake/blob/main/ports/img/saipan/managaha-island.webp.attr.json",
+    "downloadUrl": "https://raw.githubusercontent.com/jsschrstrcks1/InTheWake/main/ports/img/saipan/managaha-island.webp",
+    "title": "File:Saipan.jpg",
+    "description": "사이판 서해안 전경",
+    "bytes": 182890,
+    "sha256": "257ad502f95fa34c027ebe70c63abb118ad20cabc3a83d65627ed4e257c3daae"
   }
 }

@@ -30,6 +30,8 @@ const countries: Record<string, string> = {
   벨기에: 'BE',
   체코: 'CZ',
   미국: 'US',
+  '미국령 괌': 'GU',
+  '북마리아나 제도': 'MP',
   캐나다: 'CA',
   멕시코: 'MX',
   호주: 'AU',
@@ -213,7 +215,12 @@ async function freePlaces(
         ? context.country.toUpperCase()
         : ''))
   if (country) params.set('countrycode', country)
-  const center = places.find((place) => place.cityId === context?.guideCityId)
+  const center = places.find(
+    (place) =>
+      place.cityId === context?.guideCityId &&
+      typeof place.lat === 'number' &&
+      typeof place.lng === 'number',
+  )
   if (center) {
     params.set('lat', String(center.lat))
     params.set('lon', String(center.lng))

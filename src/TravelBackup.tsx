@@ -9,6 +9,7 @@ import {
   type Trip,
 } from './travel-model'
 import { dateAt, formatDate } from './store'
+import { placeCoordinates, placeMapQuery } from './place-location'
 
 // Backups carry their own place descriptions, so a removed guide cannot break a restored trip.
 export function portableTrip(trip: Trip): Trip {
@@ -39,9 +40,9 @@ export function portableTrip(trip: Trip): Trip {
           kind:
             place.category === '바·공연' ? ('기타' as const) : place.category,
           catalogPlaceId: place.id,
-          coordinates: { lat: place.lat, lng: place.lng },
+          coordinates: placeCoordinates(place),
           address: place.address,
-          link: `https://www.google.com/maps/search/?api=1&query=${place.lat},${place.lng}`,
+          link: `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(placeMapQuery(place))}`,
           destinationId: destination.id,
         },
       }

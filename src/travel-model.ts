@@ -2,6 +2,7 @@ import { attachmentSchema } from './attachment-schema'
 import { z } from 'zod'
 import { getCity, getPlace } from './catalog'
 import { currentPlaceName } from './place-names'
+import { placeMapQuery } from './place-location'
 import type { City } from './data'
 
 const label = z.string().trim().min(1).max(160)
@@ -395,7 +396,7 @@ export function stopDetails(stop: Stop) {
 export function mapQuery(stop: Stop, trip: Trip) {
   if (!stop.custom) {
     const place = getPlace(stop.placeId)
-    return place ? `${place.lat},${place.lng}` : ''
+    return place ? placeMapQuery(place) : ''
   }
   if (stop.custom.coordinates)
     return `${stop.custom.coordinates.lat},${stop.custom.coordinates.lng}`

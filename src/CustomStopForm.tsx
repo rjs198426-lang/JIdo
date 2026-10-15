@@ -5,6 +5,7 @@ import PlaceSearchResults, {
 import type { SearchPlace } from './place-search'
 import { places, type Place } from './catalog'
 import { matchesSearch } from './search'
+import { placeCoordinates, placeMapQuery } from './place-location'
 import { mapsSearch, parseMapsShare } from './google-maps'
 import { useEffect, useState, type FormEvent } from 'react'
 import {
@@ -103,10 +104,10 @@ export default function CustomStopForm({
     setCatalogPlaceId(place.id)
     setGooglePlaceId(undefined)
     setOsmPlaceId(undefined)
-    setPosition({ lat: place.lat, lng: place.lng })
+    setPosition(placeCoordinates(place))
     setName(place.name)
     setAddress(place.address)
-    setLink(mapsSearch(`${place.lat},${place.lng}`))
+    setLink(mapsSearch(placeMapQuery(place)))
     setKind(
       place.category === '맛집' ||
         place.category === '카페' ||

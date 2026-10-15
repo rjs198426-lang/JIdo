@@ -3,15 +3,15 @@
   "summary": [
     {
       "kind": "destination",
-      "total": 19,
-      "ready": 15,
-      "missing": 4
+      "total": 21,
+      "ready": 16,
+      "missing": 5
     },
     {
       "kind": "place",
-      "total": 847,
+      "total": 887,
       "ready": 49,
-      "missing": 798
+      "missing": 838
     }
   ],
   "missing": [
@@ -48,6 +48,375 @@
       "name": "다낭·호이안",
       "cityId": "danang",
       "image": "/images/guide-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "destination",
+      "id": "guam",
+      "name": "괌",
+      "cityId": "guam",
+      "image": "/images/guide-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "guam-tumon-beach",
+      "name": "투몬 비치",
+      "cityId": "guam",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "guam-ypao-beach",
+      "name": "이파오 비치",
+      "cityId": "guam",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "guam-gun-beach",
+      "name": "건 비치",
+      "cityId": "guam",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "guam-two-lovers-point",
+      "name": "사랑의 절벽",
+      "cityId": "guam",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "guam-chamorro-village",
+      "name": "차모로 빌리지",
+      "cityId": "guam",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "guam-plaza-de-espana",
+      "name": "스페인 광장",
+      "cityId": "guam",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "guam-cathedral-basilica",
+      "name": "아가나 대성당",
+      "cityId": "guam",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "guam-latte-stone-park",
+      "name": "라테스톤 공원",
+      "cityId": "guam",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "guam-fort-santa-agueda",
+      "name": "산타아규다 요새",
+      "cityId": "guam",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "guam-guam-museum",
+      "name": "괌 박물관",
+      "cityId": "guam",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "guam-asan-beach",
+      "name": "아산 비치 공원",
+      "cityId": "guam",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "guam-newman-center",
+      "name": "티스텔 뉴먼 방문자센터",
+      "cityId": "guam",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "guam-ritidian-beach",
+      "name": "리티디안 비치",
+      "cityId": "guam",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "guam-fish-eye",
+      "name": "피시아이 마린파크",
+      "cityId": "guam",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "guam-emerald-valley",
+      "name": "에메랄드 밸리",
+      "cityId": "guam",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "guam-inarajan-pools",
+      "name": "이나라한 자연풀",
+      "cityId": "guam",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "guam-fort-soledad",
+      "name": "솔레다드 요새",
+      "cityId": "guam",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "guam-merizo-pier",
+      "name": "메리조 부두",
+      "cityId": "guam",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "guam-talofofo-falls",
+      "name": "탈로포포 폭포",
+      "cityId": "guam",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "guam-premier-outlets",
+      "name": "괌 프리미어 아울렛",
+      "cityId": "guam",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "saipan-managaha",
+      "name": "마나가하섬",
+      "cityId": "saipan",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "saipan-micro-beach",
+      "name": "마이크로 비치",
+      "cityId": "saipan",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "saipan-american-memorial",
+      "name": "아메리칸 메모리얼 파크",
+      "cityId": "saipan",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "saipan-bird-island",
+      "name": "버드아일랜드 전망대",
+      "cityId": "saipan",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "saipan-grotto",
+      "name": "그로토",
+      "cityId": "saipan",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "saipan-banzai-cliff",
+      "name": "만세절벽",
+      "cityId": "saipan",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "saipan-suicide-cliff",
+      "name": "자살절벽",
+      "cityId": "saipan",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "saipan-last-command",
+      "name": "최후의 사령부",
+      "cityId": "saipan",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "saipan-mount-tapochau",
+      "name": "타포차우산",
+      "cityId": "saipan",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "saipan-forbidden-island",
+      "name": "포비든아일랜드 전망대",
+      "cityId": "saipan",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "saipan-ladder-beach",
+      "name": "래더 비치",
+      "cityId": "saipan",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "saipan-obyan-beach",
+      "name": "오비안 비치",
+      "cityId": "saipan",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "saipan-tank-beach",
+      "name": "탱크 비치",
+      "cityId": "saipan",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "saipan-marine-beach",
+      "name": "마린 비치",
+      "cityId": "saipan",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "saipan-sugar-king",
+      "name": "슈가킹 공원",
+      "cityId": "saipan",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "saipan-kristo-rai",
+      "name": "가라판 크리스토라이 성당",
+      "cityId": "saipan",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "saipan-paseo",
+      "name": "파세오 데 마리아나스",
+      "cityId": "saipan",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "saipan-history-museum",
+      "name": "북마리아나 역사문화박물관",
+      "cityId": "saipan",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "saipan-jeffreys-beach",
+      "name": "제프리스 비치",
+      "cityId": "saipan",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "saipan-mount-carmel",
+      "name": "카멜산 대성당",
+      "cityId": "saipan",
+      "image": "/images/place-placeholder.svg",
       "ready": false,
       "reason": "missing-licensed-photo"
     },

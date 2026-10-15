@@ -1,5 +1,7 @@
 # 이미지 및 글꼴 출처
 
+2026-10-15 추가: 사이판 대표 전경 `/images/saipan-coast.jpg` — P. Miller (Pdmiller), Public domain. [원본](https://commons.wikimedia.org/wiki/File:Saipan.jpg), [미러 메타데이터](https://github.com/jsschrstrcks1/InTheWake/blob/main/ports/img/saipan/managaha-island.webp.attr.json). 미러가 제공한 작가·공개 이용 표시와 실제 이미지 내용을 확인했으며, 원본 Commons 페이지 직접 열람은 현재 접속 제한으로 하지 못했습니다. 출처 기록은 `public/photo-sources.json`에 남깁니다. 개별 장소 사진으로 재사용하지 않습니다. 아래 기존 49곳의 사진은 그대로 보존합니다.
+
 내장 지도 엔진은 Leaflet 1.9.4 (BSD 2-Clause)이며 전체 라이선스·저작권 고지를 `public/licenses/leaflet.txt`에 포함합니다. 지도 배경은 OpenStreetMap이며 지도 안에 출처를 표시합니다. 지도 사용 조건은 [MAPS.md](MAPS.md)를 참고하세요.
 
 사진 확인일: **2026-10-14**. 아래 49개 사진은 Wikimedia Commons 원본의 장소 설명·촬영자·라이선스를 확인하고 직접 검토했습니다. Commons가 제공하는 축소 JPEG를 추가 편집 없이 앱에 포함합니다. 각 파일에는 원본 파일명·출처·라이선스·다운로드 주소를 `public/photo-sources.json`에 기록하며 상단의 정보 버튼으로 여는 **사진 출처** 화면에서 촬영자·원본·라이선스를 확인할 수 있습니다. 카드·사진·일정에는 출처 문구를 덧씌우지 않습니다.

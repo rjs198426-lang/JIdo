@@ -1,5 +1,6 @@
 import { cities, places, reviewedPlaceIds } from '../src/data.ts'
 import { expandedGuideById } from '../src/expanded-guides.ts'
+import { resortGuideById } from '../src/resort-guides.ts'
 
 const complete = process.argv.includes('--complete')
 const report = cities.map((city) => {
@@ -7,15 +8,14 @@ const report = cities.map((city) => {
   const reviewed = entries.filter(
     (place) => reviewedPlaceIds.has(place.id) && place.reviewSources?.length,
   )
+  const required =
+    expandedGuideById.has(city.id) || resortGuideById.has(city.id) ? 20 : 50
   return {
     city: city.name,
     total: entries.length,
     reviewed: reviewed.length,
-    required: expandedGuideById.has(city.id) ? 20 : 50,
-    missing: Math.max(
-      0,
-      (expandedGuideById.has(city.id) ? 20 : 50) - reviewed.length,
-    ),
+    required,
+    missing: Math.max(0, required - reviewed.length),
   }
 })
 console.table(report)

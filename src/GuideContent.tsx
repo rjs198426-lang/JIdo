@@ -1,5 +1,6 @@
 import { japanGuideById } from './japan-guides'
 import { expandedGuideById } from './expanded-guides'
+import { resortGuideById } from './resort-guides'
 import { ExternalLink } from 'lucide-react'
 import type { Guide } from './guide-schema'
 
@@ -12,7 +13,8 @@ export default function GuideContent({
 }) {
   const basic = cityId ? japanGuideById.get(cityId) : undefined
   const expanded = cityId ? expandedGuideById.get(cityId) : undefined
-  if (!guide && !basic && !expanded) return null
+  const resort = cityId ? resortGuideById.get(cityId) : undefined
+  if (!guide && !basic && !expanded && !resort) return null
   return (
     <div className="guide-content">
       {basic && !guide && (
@@ -25,13 +27,34 @@ export default function GuideContent({
           일본정부관광국 공식 안내 <ExternalLink size={14} />
         </a>
       )}
-      {(guide?.sections || expanded?.sections || basic?.sections || []).map(
-        (section) => (
-          <section key={section.id}>
-            <h3>{section.title}</h3>
-            <p>{section.body}</p>
-          </section>
-        ),
+      {(
+        guide?.sections ||
+        expanded?.sections ||
+        resort?.sections ||
+        basic?.sections ||
+        []
+      ).map((section) => (
+        <section key={section.id}>
+          <h3>{section.title}</h3>
+          <p>{section.body}</p>
+        </section>
+      ))}
+      {!guide && resort && (
+        <section className="guide-sources">
+          <h3>공식 안내</h3>
+          {resort.references.map((reference) => (
+            <a
+              key={reference.url}
+              href={reference.url}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {reference.title}
+              <ExternalLink size={14} />
+            </a>
+          ))}
+          <p className="detail-footnote">{resort.researchStatus}</p>
+        </section>
       )}
       {!guide && expanded && (
         <section className="guide-sources">

@@ -2,6 +2,7 @@ import { test, expect, type Page } from '@playwright/test'
 import { cities, places, reviewedPlaceIds } from '../src/data'
 import { guideSchema } from '../src/guide-schema'
 import { expandedGuideById } from '../src/expanded-guides'
+import { resortGuideById } from '../src/resort-guides'
 
 async function explore(page: Page) {
   await page
@@ -11,23 +12,26 @@ async function explore(page: Page) {
   await page.getByRole('tab', { name: /가볼 만한 곳/ }).click()
 }
 
-test('기존 15곳은 출처 장소 50개, 새 여행권 4곳은 20개 이상과 안정된 ID를 내장', async () => {
-  expect(cities).toHaveLength(19)
+test('21개 여행권의 조사 자료와 미검증 휴양지 명소를 구분하고 ID 보존', async () => {
+  expect(cities).toHaveLength(21)
   expect(reviewedPlaceIds.size).toBe(830)
   expect(new Set(places.map((place) => place.id)).size).toBe(places.length)
   for (const city of cities) {
-    const minimum = expandedGuideById.has(city.id) ? 20 : 50
+    const minimum =
+      expandedGuideById.has(city.id) || resortGuideById.has(city.id) ? 20 : 50
     const entries = places.filter((place) => place.cityId === city.id)
     expect(entries.length).toBeGreaterThanOrEqual(minimum)
     expect(entries.length).toBeLessThanOrEqual(100)
     expect(
       entries.filter((place) => reviewedPlaceIds.has(place.id)),
-    ).toHaveLength(minimum)
+    ).toHaveLength(resortGuideById.has(city.id) ? 0 : minimum)
   }
   const reviewed = places.filter((place) => reviewedPlaceIds.has(place.id))
   const positions = new Map<string, string[]>()
   for (const place of reviewed) {
-    const key = `${place.cityId}:${place.lat.toFixed(5)},${place.lng.toFixed(5)}`
+    expect(place.lat).toBeDefined()
+    expect(place.lng).toBeDefined()
+    const key = `${place.cityId}:${place.lat!.toFixed(5)},${place.lng!.toFixed(5)}`
     positions.set(key, [
       ...(positions.get(key) || []),
       place.english.split(' · ')[0],

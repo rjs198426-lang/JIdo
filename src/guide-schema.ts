@@ -58,28 +58,37 @@ export const citySchema = z.object({
   season: required(200),
   accent: z.string().regex(/^#[0-9a-fA-F]{6}$/),
 })
-export const placeSchema = z.object({
-  id,
-  cityId: id,
-  name: required(120),
-  english: text(150),
-  category: z.enum(['관광', '맛집', '카페', '숙소', '바·공연']),
-  image,
-  photoCredit: photoCreditSchema.optional(),
-  description: required(3000),
-  address: required(300),
-  duration: required(100),
-  cost: required(300),
-  tip: required(1500),
-  lat: z.number().finite().min(-90).max(90),
-  lng: z.number().finite().min(-180).max(180),
-  area: text(100).optional(),
-  reviewSources: z.array(reviewSourceSchema).max(5).optional(),
-  osmPlaceId: z
-    .string()
-    .regex(/^(node|way|relation)\/\d+$/)
-    .optional(),
-})
+export const placeSchema = z
+  .object({
+    id,
+    cityId: id,
+    name: required(120),
+    english: text(150),
+    category: z.enum(['관광', '맛집', '카페', '숙소', '바·공연']),
+    image,
+    photoCredit: photoCreditSchema.optional(),
+    description: required(3000),
+    address: required(300),
+    duration: required(100),
+    cost: required(300),
+    tip: required(1500),
+    lat: z.number().finite().min(-90).max(90).optional(),
+    lng: z.number().finite().min(-180).max(180).optional(),
+    area: text(100).optional(),
+    reviewSources: z.array(reviewSourceSchema).max(5).optional(),
+    osmPlaceId: z
+      .string()
+      .regex(/^(node|way|relation)\/\d+$/)
+      .optional(),
+  })
+  .superRefine((place, context) => {
+    if ((place.lat === undefined) !== (place.lng === undefined))
+      context.addIssue({
+        code: 'custom',
+        message: '위도와 경도를 함께 입력하세요.',
+        path: ['lat'],
+      })
+  })
 export const sectionSchema = z.object({
   id,
   title: required(100),
