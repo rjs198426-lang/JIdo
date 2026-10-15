@@ -106,7 +106,7 @@ test('두 번째 도시의 가이드 장소를 같은 여행에 추가', async (
     .getByRole('button', { name: '경로에 도시 추가', exact: true })
     .click()
   await page.getByRole('button', { name: '장소 추가', exact: true }).click()
-  await page.getByRole('button', { name: '저장한 장소·추천에서 선택' }).click()
+  await page.getByRole('button', { name: '추천 장소에서 선택' }).click()
   await page
     .getByRole('button', { name: '니시키 시장 일정에 추가', exact: true })
     .click()

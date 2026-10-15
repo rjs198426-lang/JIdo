@@ -1,0 +1,299 @@
+/* Let content determine height; keep short actions intact. */
+.button,
+.text-button,
+.filter,
+.category-row button,
+.page-tabs button,
+.home-shortcuts strong {
+  white-space: nowrap;
+}
+.button {
+  max-width: 100%;
+}
+.modal-header {
+  gap: 12px;
+  padding: 12px 16px;
+}
+.modal-header > h2 {
+  min-width: 0;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+.modal-header > .icon-button {
+  width: 44px;
+  height: 44px;
+  flex: 0 0 44px;
+}
+.modal-body,
+.create-form {
+  padding: 16px;
+}
+.modal-body .modal-body {
+  padding: 0;
+}
+.tool-heading {
+  margin-bottom: 14px;
+  gap: 10px;
+}
+.tool-heading > div {
+  min-width: 0;
+}
+.tool-heading h3 {
+  margin-top: 0;
+}
+.inline-form {
+  padding: 12px;
+  margin: 12px 0;
+  gap: 12px;
+}
+.form-row > *,
+.row-actions > *,
+.share-options > *,
+.home-section-heading > div {
+  min-width: 0;
+}
+.home-section-heading {
+  flex-wrap: wrap;
+}
+.home-section-heading > .text-button {
+  flex-shrink: 0;
+}
+.city-title {
+  grid-template-rows: auto auto;
+}
+.city-title > strong,
+.city-title > span {
+  white-space: normal;
+  overflow: visible;
+  text-overflow: clip;
+  overflow-wrap: anywhere;
+}
+.city-card .city-tagline,
+.place-card .place-description {
+  display: none;
+}
+.place-card-copy > strong {
+  display: block;
+  min-height: 0;
+  max-height: none;
+  overflow: visible;
+  -webkit-line-clamp: unset;
+  line-height: 1.5;
+}
+.city-card .tags {
+  margin-top: 8px;
+  min-height: 0;
+}
+.place-location {
+  height: auto;
+  min-height: 0;
+  max-height: none;
+  white-space: normal;
+  flex-wrap: wrap;
+  line-height: 1.5;
+  overflow: visible;
+}
+.place-meta {
+  min-height: 0;
+  padding-top: 8px;
+}
+.city-card-copy,
+.place-card-copy {
+  padding: 12px;
+}
+.travel-home {
+  padding-top: 16px;
+}
+.home-shortcuts {
+  margin-block: 16px;
+  gap: 10px;
+}
+.home-section,
+.travel-home .personal-home {
+  margin-top: 24px;
+}
+.home-journey-photo {
+  min-height: 0;
+}
+.home-journey-copy {
+  padding: 20px;
+}
+.home-journey-copy h2 {
+  margin: 8px 0;
+  font-size: 24px;
+}
+.dashboard-cards > button {
+  grid-template-rows: auto;
+}
+.page-title {
+  margin-bottom: 16px;
+}
+.trip-selector {
+  margin-bottom: 12px;
+}
+@media (max-width: 680px) {
+  .bottom-nav > button {
+    flex: 1;
+    min-width: 0;
+    font-size: 12px;
+  }
+  .page-section {
+    padding-top: 16px;
+  }
+  .trip-page-title {
+    align-items: center;
+  }
+  .trip-page-title > .button {
+    min-height: 44px;
+    font-size: 12px;
+    margin-top: 0;
+  }
+  .trip-selector {
+    gap: 10px;
+  }
+  .trip-selector > label,
+  .trip-selector > select {
+    font-size: 12px;
+  }
+  .trip-selector > select {
+    min-height: 44px;
+  }
+  .home-heading {
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .home-heading h1 {
+    font-size: 22px;
+  }
+  .home-date {
+    padding: 0;
+  }
+  .home-start-card {
+    grid-template-columns: minmax(0, 1fr);
+    padding: 18px;
+  }
+  .home-start-card h2 {
+    margin: 8px 0 14px;
+    font-size: 24px;
+  }
+  .home-ticket {
+    display: none;
+  }
+  .home-journey-card {
+    grid-template-columns: minmax(0, 1fr) 100px;
+  }
+  .home-journey-copy {
+    padding: 16px;
+  }
+  .home-journey-copy h2 {
+    font-size: 20px;
+  }
+  .home-journey-copy .button {
+    white-space: normal;
+    text-align: left;
+  }
+  .home-shortcuts strong {
+    font-size: 11px;
+  }
+  .home-shortcuts > button {
+    padding: 4px 0;
+    gap: 6px;
+  }
+  .home-section-heading h2 {
+    font-size: 18px;
+  }
+  .place-grid,
+  .travel-home .place-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 12px;
+  }
+  .place-card {
+    flex-direction: row;
+    align-items: stretch;
+  }
+  .place-grid .place-photo {
+    flex: 0 0 88px;
+    width: 88px;
+    height: auto;
+    min-height: 112px;
+    aspect-ratio: auto;
+  }
+  .place-photo .photo-button {
+    height: 100%;
+  }
+  .place-card-copy {
+    padding: 12px;
+  }
+  .place-card-copy > strong {
+    font-size: 15px;
+    margin-top: 4px;
+  }
+  .place-meta {
+    font-size: 11px;
+  }
+  .place-location {
+    font-size: 11px;
+  }
+  .city-title > strong {
+    font-size: 16px;
+  }
+  .city-title > span {
+    font-size: 11px;
+  }
+  .dashboard-cards {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0;
+    margin-block: 12px;
+  }
+  .dashboard-cards > button {
+    grid-template-columns: 24px minmax(0, 1fr) auto;
+    gap: 6px 10px;
+    align-items: center;
+    padding: 12px 0;
+    border: 0;
+    border-radius: 0;
+    border-bottom: 1px solid #e6ede8;
+  }
+  .dashboard-cards > button:last-child {
+    grid-column: auto;
+  }
+  .dashboard-cards > button > svg {
+    grid-row: 1 / 3;
+  }
+  .dashboard-cards strong {
+    grid-column: 3;
+    grid-row: 1 / 3;
+    font-size: 20px;
+  }
+  .dashboard-cards small {
+    grid-column: 2;
+  }
+  .dashboard-day {
+    border-radius: 0;
+    background: transparent;
+    border-block: 1px solid #e6ede8;
+    padding: 12px 0;
+    margin: 12px 0;
+  }
+  .dashboard-cards strong,
+  .home-status-grid strong {
+    overflow-wrap: anywhere;
+  }
+  .reservation-list article {
+    padding: 12px;
+    gap: 10px;
+  }
+  .photo-credits-panel .input-search {
+    margin-bottom: 12px;
+  }
+}
+/* Reserve the measured navigation once; avoid stacked bottom spacers. */
+.main {
+  padding-bottom: calc(var(--jido-bottom-nav-height) + 16px);
+}
+.page-section {
+  padding-bottom: 16px;
+}
+.travel-home {
+  padding-bottom: 16px;
+}

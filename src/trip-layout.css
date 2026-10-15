@@ -1,9 +1,9 @@
-/* Keep every workspace section inside the same inset card column. */
+/* One workspace frame; only editable stops need their own cards. */
 .trips-page .itinerary {
-  padding: 16px;
+  padding: 12px;
   border: 1px solid #d7e3dc;
-  border-radius: 20px;
-  background: #f5f8f6;
+  border-radius: 16px;
+  background: white;
 }
 .itinerary .trip-banner,
 .itinerary .workspace-tabs,
@@ -12,25 +12,60 @@
 .itinerary .planning-shortcuts,
 .itinerary .day-content {
   min-width: 0;
-  border: 1px solid #dce6df;
-  border-radius: 14px;
-  background: white;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+}
+.itinerary .trip-banner {
+  padding: 4px 0 12px;
+  gap: 10px;
+  align-items: flex-start;
+}
+.itinerary .trip-banner > div:first-child {
+  min-width: 0;
+  flex: 1;
+}
+.itinerary .trip-banner h2 {
+  margin: 4px 0 10px;
+  font-size: 20px;
+  line-height: 1.45;
+  overflow-wrap: anywhere;
+}
+.itinerary .trip-management {
+  margin: 0;
+  gap: 6px;
+  flex-shrink: 0;
+}
+.itinerary .trip-edit,
+.itinerary .trip-delete {
+  min-width: 44px;
+  min-height: 44px;
 }
 .itinerary .workspace-tabs {
-  margin: 12px 0;
-  padding: 6px;
-  gap: 6px;
+  margin: 0;
+  padding: 4px 0;
+  gap: 4px;
+  border-block: 1px solid #e6ede8;
+}
+.itinerary .workspace-tabs button {
+  flex: 1 0 auto;
+  min-width: 64px;
+  padding: 10px 12px;
+  white-space: nowrap;
 }
 .itinerary .day-tabs {
   margin: 0;
-  padding: 6px;
+  padding: 8px 0;
   gap: 6px;
+  border-bottom: 1px solid #edf2ee;
 }
 .itinerary .day-tab {
+  flex: 1 0 76px;
+  min-width: 76px;
+  padding: 8px;
   border: 0;
-  border-radius: 9px;
-  min-width: 92px;
-  padding: 12px 16px;
+  border-radius: 8px;
+  gap: 4px;
 }
 .itinerary .day-tab.active::after {
   left: 10px;
@@ -39,13 +74,13 @@
 }
 .itinerary .journey-route {
   display: block;
-  padding: 16px;
-  margin: 16px 0;
+  padding: 12px 0 0;
+  margin: 0;
 }
 .journey-city-controls {
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
-  gap: 12px;
+  gap: 10px;
   align-items: stretch;
 }
 .itinerary .journey-route .day-destination {
@@ -57,9 +92,9 @@
   width: 100%;
   min-width: 0;
   height: 48px;
-  padding: 0 12px;
+  padding: 0 10px;
   margin: 0;
-  gap: 8px;
+  gap: 6px;
   border: 1px solid #d4e2d9;
   border-radius: 10px;
   background: white;
@@ -86,37 +121,40 @@
 .journey-city-controls > .button {
   height: 48px;
   min-height: 48px;
-  padding: 10px 14px;
+  padding: 10px;
   margin: 0;
   border-radius: 10px;
   font-size: 13px;
   white-space: nowrap;
-  gap: 7px;
+  gap: 5px;
 }
 .itinerary .journey-route .city-details {
-  margin-top: 12px;
-  border-top: 1px solid #edf2ee;
+  margin: 0;
+  border: 0;
 }
 .city-details > summary {
+  display: flex;
+  align-items: center;
   min-height: 44px;
-  padding: 12px 0 0;
+  padding: 0;
 }
 .itinerary .journey-route .inline-form {
-  margin: 16px 0 0;
+  margin: 8px 0 12px;
 }
 .itinerary .planning-shortcuts {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   align-items: start;
-  gap: 12px;
-  margin: 0 0 16px;
-  padding: 12px;
+  gap: 10px;
+  margin: 0 0 12px;
+  padding: 0;
 }
 .planning-shortcuts > .button {
   width: 100%;
-  min-height: 48px;
+  min-height: 44px;
   margin: 0;
-  font-size: 12px;
+  padding: 10px 8px;
+  font-size: 13px;
   border-radius: 10px;
 }
 .planning-shortcuts > .journey-share {
@@ -125,10 +163,17 @@
   padding: 0;
   border-radius: 10px;
 }
+.planning-shortcuts > .journey-share[open] {
+  grid-column: 1 / -1;
+}
 .planning-shortcuts .journey-share > summary {
-  min-height: 46px;
-  padding: 10px 12px;
-  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+  padding: 10px 8px;
+  font-size: 13px;
+  white-space: nowrap;
 }
 .planning-shortcuts .journey-share > :not(summary) {
   margin: 12px;
@@ -137,103 +182,153 @@
   width: calc(100% - 24px);
 }
 .itinerary .day-content {
-  padding: 20px;
+  padding: 12px 0 0;
+  border-top: 1px solid #e6ede8;
 }
 .itinerary .day-content .section-heading {
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
   align-items: center;
-  gap: 12px;
-  margin-bottom: 16px;
+  gap: 8px;
+  margin-bottom: 10px;
 }
 .day-content .section-heading > div {
   min-width: 0;
 }
 .itinerary .day-content .section-heading h3 {
   margin: 0;
+  font-size: 17px;
   line-height: 1.5;
   overflow-wrap: anywhere;
 }
+.itinerary .day-add-actions .button {
+  min-height: 44px;
+  padding: 10px;
+  font-size: 13px;
+  gap: 5px;
+  white-space: nowrap;
+}
 .itinerary .timeline {
   max-width: none;
+  gap: 12px;
 }
 .itinerary .stop-card {
   border-color: #dce6df;
   background: white;
 }
-
+.itinerary .workspace-panel,
+.itinerary .route-view {
+  padding: 16px 0 0;
+  min-height: 0;
+}
+.itinerary .schedule-sort {
+  margin-bottom: 12px;
+}
+.itinerary .workspace-empty {
+  padding: 20px 12px;
+}
 @media (max-width: 680px) {
   .trips-page .itinerary {
     padding: 12px;
-    border-radius: 16px;
   }
-  .itinerary .day-tab {
-    flex: 1 0 76px;
-    min-width: 76px;
-    padding: 10px 8px;
+  .itinerary .trip-edit > span {
+    display: none;
   }
-  .itinerary .journey-route {
-    padding: 12px;
-    margin: 12px 0;
-  }
-  .journey-city-controls {
-    gap: 10px;
-  }
-  .itinerary .journey-route .day-destination {
-    padding: 0 8px;
-    gap: 6px;
-    grid-template-columns: 15px minmax(0, 1fr);
-  }
-  .itinerary .journey-route .day-destination > svg {
-    width: 15px;
-  }
-  .journey-city-controls > .button {
+  .itinerary .trip-edit {
     padding: 10px;
-    font-size: 12px;
-    gap: 5px;
   }
-  .itinerary .planning-shortcuts {
-    grid-template-columns: minmax(0, 1fr);
-    margin-bottom: 12px;
-    gap: 10px;
+  .itinerary .trip-banner {
+    flex-direction: row;
   }
-  .itinerary .day-content {
-    padding: 14px 12px;
-  }
-  .itinerary .day-content .section-heading h3 {
-    font-size: 16px;
-  }
-  .itinerary .day-add-actions .button {
-    padding: 10px;
-    min-height: 48px;
-    font-size: 12px;
-    gap: 5px;
-  }
-  .itinerary .timeline {
-    gap: 16px;
+  .itinerary .trip-banner h2 {
+    font-size: 18px;
   }
   .itinerary .timeline-item {
-    padding-left: 26px;
+    padding-left: 24px;
   }
   .itinerary .stop-top {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr);
-    padding: 0 0 10px;
-    gap: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 8px;
+    gap: 6px;
   }
   .itinerary .stop-top .stop-time {
-    width: min(100%, 160px);
-    max-width: 160px;
+    width: 132px;
+    max-width: 100%;
     min-width: 0;
+    min-height: 44px;
     font-size: 16px;
   }
   .itinerary .stop-top .stop-category {
     display: none;
   }
   .itinerary .stop-top .stop-actions {
-    width: 100%;
-    gap: 6px;
+    width: auto;
+    margin-left: auto;
+    gap: 4px;
     flex-wrap: wrap;
     justify-content: flex-end;
   }
+  .itinerary .stop-place {
+    padding: 12px 10px;
+    gap: 10px;
+  }
+  .itinerary .stop-place > img {
+    width: 56px;
+    height: 56px;
+    flex-shrink: 0;
+  }
+  .itinerary .stop-place strong {
+    font-size: 14px;
+    line-height: 1.5;
+    overflow-wrap: anywhere;
+  }
+  .itinerary .stop-place span {
+    flex-wrap: wrap;
+    font-size: 11px;
+  }
+  .itinerary .day-content .section-heading h3 {
+    font-size: 15px;
+  }
+}
+/* Keep the banner actions beside its text instead of adding a full row. */
+@media (max-width: 680px) {
+  .itinerary .trip-banner {
+    flex-wrap: nowrap;
+  }
+  .itinerary .trip-banner > div:first-child {
+    width: auto;
+  }
+  .itinerary .trip-management {
+    width: auto;
+  }
+}
+.itinerary .stop-card {
+  padding: 0;
+}
+.itinerary .stop-card > .stop-edit-details,
+.itinerary .stop-card > .stop-photos,
+.itinerary .stop-card > .stop-progress-actions {
+  margin: 0 10px;
+}
+.itinerary .stop-photos {
+  border: 0;
+  border-radius: 0;
+  padding: 0;
+}
+.itinerary .stop-photos > summary,
+.itinerary .stop-edit-details > summary {
+  min-height: 44px;
+  padding: 10px 0;
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+}
+.itinerary .stop-progress-actions {
+  padding-block: 4px;
+}
+.itinerary .custom-stop-link {
+  min-height: 44px;
+  padding: 10px;
+  margin: 0;
 }

@@ -1,7 +1,7 @@
 import { openTrips } from './navigation'
 import { test, expect } from '@playwright/test'
 
-test('내 여행 카드의 외곽·간격과 도시 선택·추가 버튼 정렬을 보존', async ({
+test('내 여행을 하나의 틀로 묶고 도시 선택·추가 버튼 정렬과 기능 보존', async ({
   page,
 }, testInfo) => {
   await page.goto('/')
@@ -73,7 +73,7 @@ test('내 여행 카드의 외곽·간격과 도시 선택·추가 버튼 정렬
           right: r.right,
           bottom: r.bottom,
           height: r.height,
-          border: parseFloat(getComputedStyle(node).borderTopWidth),
+          border: parseFloat(getComputedStyle(node).borderLeftWidth),
         }
       }
       return {
@@ -97,13 +97,13 @@ test('내 여행 카드의 외곽·간격과 도시 선택·추가 버튼 정렬
     for (const section of boxes.sections) {
       expect(section.x - boxes.outer.x).toBeGreaterThanOrEqual(12)
       expect(boxes.outer.right - section.right).toBeGreaterThanOrEqual(12)
-      expect(section.border).toBeGreaterThan(0)
+      expect(section.border).toBe(0)
       expect(Math.abs(section.x - boxes.sections[0].x)).toBeLessThan(1)
     }
     for (let i = 1; i < boxes.sections.length; i++)
       expect(
         boxes.sections[i].y - boxes.sections[i - 1].bottom,
-      ).toBeGreaterThanOrEqual(11)
+      ).toBeGreaterThanOrEqual(0)
     expect(
       await page.evaluate(
         () => document.documentElement.scrollWidth > innerWidth,
@@ -131,7 +131,7 @@ test('내 여행 카드의 외곽·간격과 도시 선택·추가 버튼 정렬
   )
   expect(saved.days[0][0].note).toBe('예약 확인')
   expect(saved.days[0]).toHaveLength(2)
-  await page.getByText('동행자에게 일정 전달', { exact: true }).click()
+  await page.getByLabel('동행자에게 일정 전달', { exact: true }).click()
   await expect(page.getByLabel('동행자에게 전달할 내용')).toBeVisible()
   expect(
     await page.evaluate(

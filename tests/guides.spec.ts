@@ -163,7 +163,7 @@ test('요청 → AI 초안(테스트 응답) → 관리자 검토·게시 → �
   )
 })
 
-test('서버 게시 상태에 관계없이 로컬 가이드와 기존 일정·저장 장소 유지', async ({
+test('서버 게시 상태에 관계없이 로컬 가이드와 기존 일정 유지', async ({
   page,
   backend,
 }) => {
@@ -172,13 +172,6 @@ test('서버 게시 상태에 관계없이 로컬 가이드와 기존 일정·�
   await navigate(page, '여행지')
   await page
     .getByRole('button', { name: '빈 여행지 자세히 보기', exact: true })
-    .click()
-  await page
-    .getByRole('dialog')
-    .getByRole('button', { name: '빈 저장', exact: true })
-    .click()
-  await page
-    .getByRole('button', { name: '슈테판 대성당 저장', exact: true })
     .click()
   await page
     .getByRole('button', { name: '빈 여행 만들기', exact: true })
@@ -197,8 +190,8 @@ test('서버 게시 상태에 관계없이 로컬 가이드와 기존 일정·�
   await navigate(page, '내 여행')
   await expect(page.locator('.trip-banner')).toContainText('남겨둘 여행')
   await expect(page.locator('.timeline-item')).toContainText('슈테판 대성당')
-  await navigate(page, '저장한 곳')
-  await expect(page.locator('.place-card')).toContainText('슈테판 대성당')
-  await page.getByRole('tab', { name: '도시 1', exact: true }).click()
-  await expect(page.locator('.city-card')).toContainText('빈')
+  await navigate(page, '여행지')
+  await expect(
+    page.getByRole('button', { name: '빈 여행지 자세히 보기', exact: true }),
+  ).toBeVisible()
 })

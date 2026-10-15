@@ -180,7 +180,7 @@ test('사진에는 이용 조건을 덧씌우지 않고 별도 출처에서 모�
   await expect(page.locator('.photo-credit-entry')).toContainText('Jordy Meow')
 })
 
-test('카드 행의 사진·제목·설명 높이와 간격이 작은 화면에서도 일정', async ({
+test('카드 행의 사진·제목 위치와 간격이 작은 화면에서도 일정', async ({
   page,
 }) => {
   await page.goto('/')
@@ -199,9 +199,6 @@ test('카드 행의 사진·제목·설명 높이와 간격이 작은 화면에�
             const title = card
               .querySelector('.city-title, .place-card-copy > strong')!
               .getBoundingClientRect()
-            const description = card
-              .querySelector('.city-tagline, .place-description')!
-              .getBoundingClientRect()
             return {
               x: rect.x,
               y: rect.y,
@@ -209,7 +206,6 @@ test('카드 행의 사진·제목·설명 높이와 간격이 작은 화면에�
               height: rect.height,
               image: image.height,
               title: title.y - rect.y,
-              description: description.y - rect.y,
             }
           })
           return cards.reduce<(typeof cards)[]>((rows, card) => {
@@ -221,12 +217,7 @@ test('카드 행의 사진·제목·설명 높이와 간격이 작은 화면에�
         })
       for (const row of rows)
         for (let i = 1; i < row.length; i++) {
-          for (const key of [
-            'height',
-            'image',
-            'title',
-            'description',
-          ] as const)
+          for (const key of ['height', 'image', 'title'] as const)
             expect(Math.abs(row[i][key] - row[0][key])).toBeLessThan(2)
           expect(
             row[i].x - row[i - 1].x - row[i - 1].width,
@@ -370,7 +361,7 @@ test('저장한 여행이 있어도 모든 주요 화면에서 재실행하면 �
     selected: localStorage.getItem('jdo-active-trip-v1'),
     view: localStorage.getItem('jido-view-home-trip'),
   }))
-  for (const name of ['내 여행', '여행지', '저장한 곳']) {
+  for (const name of ['내 여행', '여행지']) {
     await navigate(page, name)
     await page.reload()
     await expect(page.locator('.travel-home')).toBeVisible()

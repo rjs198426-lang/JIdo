@@ -63,26 +63,22 @@ test('도시 검색, 지역 필터와 여행 상세 정보', async ({ page }) =>
   ).toBeVisible()
 })
 
-test('도시와 장소 저장 및 재시작 후 유지', async ({ page }) => {
+test('주 메뉴는 홈·내 여행·여행지 순서이며 저장 UI를 제거', async ({
+  page,
+}) => {
+  const navigation = page.locator('.desktop-nav:visible, .bottom-nav:visible')
+  await expect(navigation.getByRole('button')).toHaveText([
+    '홈',
+    '내 여행',
+    '여행지',
+  ])
   await navigate(page, '여행지')
-  await page.getByRole('button', { name: '교토 저장', exact: true }).click()
+  await expect(page.locator('.save-button')).toHaveCount(0)
   await page.getByRole('button', { name: '교토 여행지 자세히 보기' }).click()
-  await page
-    .getByRole('button', { name: '니시키 시장 저장', exact: true })
-    .click()
+  await expect(page.getByRole('dialog').locator('.save-button')).toHaveCount(0)
   await page.getByRole('button', { name: '닫기', exact: true }).click()
   await page.reload()
-  await navigate(page, '저장한 곳')
-  await expect(page.locator('.place-card')).toHaveCount(1)
-  await expect(page.locator('.place-card')).toContainText('니시키 시장')
-  await page.getByRole('tab', { name: '도시 1', exact: true }).click()
-  await expect(page.locator('.city-card')).toContainText('교토')
-  await page
-    .getByRole('button', { name: '교토 저장 취소', exact: true })
-    .click()
-  await expect(
-    page.getByText('마음에 드는 도시를 담아보세요', { exact: true }),
-  ).toBeVisible()
+  await expect(page.locator('.travel-home')).toBeVisible()
 })
 
 test('여행 생성, 일정 시간·메모 편집, 순서 이동 및 장소 추가', async ({
@@ -123,7 +119,7 @@ test('여행 생성, 일정 시간·메모 편집, 순서 이동 및 장소 추�
   await page
     .getByRole('button', { name: '첫 장소 추가하기', exact: true })
     .click()
-  await page.getByRole('button', { name: '저장한 장소·추천에서 선택' }).click()
+  await page.getByRole('button', { name: '추천 장소에서 선택' }).click()
   await page
     .getByRole('button', {
       name: '기온 시라카와 산책 일정에 추가',
@@ -218,12 +214,7 @@ test('장소 상세에서 새로운 여행 만들기 및 기존 일정에 추가
   )
 })
 
-test('여행 삭제 확인과 저장한 장소 보존', async ({ page }) => {
-  await navigate(page, '여행지')
-  await page.getByRole('tab', { name: /가볼 만한 곳/ }).click()
-  await page
-    .getByRole('button', { name: '기요미즈데라 저장', exact: true })
-    .click()
+test('여행 삭제 확인과 재시작 후 삭제 유지', async ({ page }) => {
   await createTrip(page, '삭제 테스트 여행')
   await page.getByRole('button', { name: '여행 삭제', exact: true }).click()
   await page.getByRole('button', { name: '돌아가기', exact: true }).click()
@@ -236,8 +227,6 @@ test('여행 삭제 확인과 저장한 장소 보존', async ({ page }) => {
   await expect(
     page.getByText('설레는 여행을 시작해볼까요?', { exact: true }),
   ).toBeVisible()
-  await navigate(page, '저장한 곳')
-  await expect(page.locator('.place-card')).toContainText('기요미즈데라')
   await page.reload()
   await navigate(page, '내 여행')
   await expect(page.locator('.trip-banner')).toHaveCount(0)
@@ -451,36 +440,16 @@ test('여행 편집과 날짜 이동은 메모를 보존하며 일정이 있는 
   )
 })
 
-test('저장한 장소를 도시별로 검색하고 저장 목록에서 일정에 추가', async ({
+test('추천 장소에서 일정에 추가하고 같은 날짜 중복 이동을 방지', async ({
   page,
 }) => {
-  await navigate(page, '여행지')
-  await page.getByRole('tab', { name: /가볼 만한 곳/ }).click()
-  await page
-    .getByRole('button', { name: '기요미즈데라 저장', exact: true })
-    .click()
-  await page
-    .getByRole('button', { name: '뜨갈랄랑 라이스 테라스 저장', exact: true })
-    .click()
-  await navigate(page, '저장한 곳')
-  await expect(page.locator('.place-card')).toHaveCount(2)
-  await page.getByRole('button', { name: '교토', exact: true }).click()
-  await expect(page.locator('.place-card')).toHaveCount(1)
-  await page.getByLabel('저장한 장소 검색').fill('없는 이름')
-  await expect(
-    page.getByText('조건에 맞는 저장 장소가 없어요', { exact: true }),
-  ).toBeVisible()
-  await page.getByRole('button', { name: '저장한 장소 모두 보기' }).click()
-  await expect(page.locator('.place-card')).toHaveCount(2)
   await createTrip(page)
   await page.getByRole('tab', { name: /DAY 2/ }).click()
   await page
     .getByRole('button', { name: '첫 장소 추가하기', exact: true })
     .click()
-  await page.getByRole('button', { name: '저장한 장소·추천에서 선택' }).click()
-  await page
-    .getByRole('button', { name: '저장한 장소만 보기', exact: true })
-    .click()
+  await page.getByRole('button', { name: '추천 장소에서 선택' }).click()
+  await page.getByLabel('일정에 추가할 장소 검색').fill('기요미즈데라')
   await expect(page.locator('.picker-item')).toHaveCount(1)
   await page
     .getByRole('button', { name: '기요미즈데라 일정에 추가', exact: true })

@@ -289,7 +289,7 @@ test('동행자 일정 전달은 민감한 기록 제외, 메모는 선택하고
 }) => {
   await seed(page)
   await tab(page, '일정')
-  await page.getByText('동행자에게 일정 전달', { exact: true }).click()
+  await page.getByLabel('동행자에게 일정 전달', { exact: true }).click()
   const text = page.getByLabel('동행자에게 전달할 내용')
   const initial = await text.inputValue()
   expect(initial).toContain('루브르')
@@ -348,7 +348,7 @@ test('날짜·작업 화면을 여행마다 기억하고 320px 현장 화면과 
   await expect(page.getByLabel('현장에서 볼 날짜')).toHaveValue('2')
   await page.getByRole('button', { name: '오늘로 이동' }).click()
   await expect(page.getByLabel('현장에서 볼 날짜')).toHaveValue('1')
-  await page.getByText('동행자에게 일정 전달', { exact: true }).click()
+  await page.getByLabel('동행자에게 일정 전달', { exact: true }).click()
   await page.getByLabel('전달할 일정').selectOption('all')
   await expect
     .poll(() =>
@@ -392,7 +392,7 @@ test('Android 공유 브리지 모형: 동행자 일정은 텍스트 또는 JSON
     ;(window as any).Capacitor.getPlatform = () => 'android'
   })
   await tab(page, '일정')
-  await page.getByText('동행자에게 일정 전달', { exact: true }).click()
+  await page.getByLabel('동행자에게 일정 전달', { exact: true }).click()
   await page.getByRole('button', { name: '일정 공유', exact: true }).click()
   await page
     .getByRole('button', { name: '앱용 일정 파일 전달', exact: true })

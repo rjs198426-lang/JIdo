@@ -42,7 +42,6 @@ import {
   Compass,
   Coffee,
   Earth,
-  Heart,
   Home,
   Luggage,
   Map as MapIcon,
@@ -99,7 +98,7 @@ import {
   type Stop,
 } from './store'
 
-type Page = 'home' | 'explore' | 'saved' | 'trips'
+type Page = 'home' | 'trips' | 'explore'
 type Dialog =
   | { type: 'credits' }
   | { type: 'city'; id: string }
@@ -113,9 +112,8 @@ type Dialog =
   | { type: 'custom'; tripId: string; day: number; stopId?: string }
 const navigation = [
   { id: 'home' as const, name: '홈', icon: Home },
-  { id: 'explore' as const, name: '여행지', icon: Compass },
-  { id: 'saved' as const, name: '저장한 곳', icon: Heart },
   { id: 'trips' as const, name: '내 여행', icon: Luggage },
+  { id: 'explore' as const, name: '여행지', icon: Compass },
 ]
 const categoryIcon = {
   관광: MapPin,
@@ -202,39 +200,12 @@ function Modal({
   )
 }
 
-function SaveButton({
-  saved,
-  label,
-  onClick,
-  small = false,
-}: {
-  saved: boolean
-  label: string
-  onClick: () => void
-  small?: boolean
-}) {
-  return (
-    <button
-      className={`save-button ${saved ? 'is-saved' : ''} ${small ? 'save-small' : ''}`}
-      onClick={onClick}
-      aria-label={`${label} ${saved ? '저장 취소' : '저장'}`}
-      aria-pressed={saved}
-    >
-      <Heart size={small ? 17 : 20} fill={saved ? 'currentColor' : 'none'} />
-    </button>
-  )
-}
-
 function CityCard({
   city,
-  saved,
-  onSave,
   onOpen,
   compact = false,
 }: {
   city: City
-  saved: boolean
-  onSave: () => void
   onOpen: () => void
   compact?: boolean
 }) {
@@ -249,8 +220,6 @@ function CityCard({
           <img src={city.image} alt={`${city.name}의 풍경`} loading="lazy" />
         </button>
         <span className="country-tag">{city.country}</span>
-
-        <SaveButton saved={saved} label={city.name} onClick={onSave} />
       </div>
       <button className="city-card-copy" onClick={onOpen}>
         <span className="city-title">
@@ -269,17 +238,7 @@ function CityCard({
   )
 }
 
-function PlaceCard({
-  place,
-  saved,
-  onSave,
-  onOpen,
-}: {
-  place: Place
-  saved: boolean
-  onSave: () => void
-  onOpen: () => void
-}) {
+function PlaceCard({ place, onOpen }: { place: Place; onOpen: () => void }) {
   const Icon = categoryIcon[place.category]
   return (
     <article className="place-card">
@@ -291,8 +250,6 @@ function PlaceCard({
         >
           <PlacePhoto place={place} alt={place.name} />
         </button>
-
-        <SaveButton saved={saved} label={place.name} onClick={onSave} small />
       </div>
       <button className="place-card-copy" onClick={onOpen}>
         <span className="place-location">
@@ -639,7 +596,6 @@ function PlacePicker({
   day,
   onAdd,
   onOpen,
-  savedPlaces,
   onCustom,
   onGoogleAdd,
 }: {
@@ -647,32 +603,21 @@ function PlacePicker({
   onCustom: () => void
   trip: Trip
   day: number
-  savedPlaces: string[]
   onAdd: (placeId: string) => void
   onOpen: (placeId: string) => void
 }) {
   const [category, setCategory] = useState<string>('전체')
   const [query, setQuery] = useState('')
-  const [savedOnly, setSavedOnly] = useState(false)
   const google = usePlaceSearch()
-  const candidates = [
-    ...new Map(
-      [
-        ...places,
-        ...savedPlaces.map(getPlace).filter((place): place is Place => !!place),
-      ].map((place) => [place.id, place]),
-    ).values(),
-  ]
-  const available = candidates.filter(
+  const available = places.filter(
     (place) =>
       place.cityId === destinationForDay(trip, day).guideCityId &&
       (category === '전체' || place.category === category) &&
-      (!savedOnly || savedPlaces.includes(place.id)) &&
       matchesPlace(place, getCity(place.cityId)!, query),
   )
   function findPlace() {
     google.reset()
-    if (!query.trim() || available.length || savedOnly) return
+    if (!query.trim() || available.length) return
     const destination = destinationForDay(trip, day)
     void google.search(query.trim(), destination)
   }
@@ -730,16 +675,6 @@ function PlacePicker({
           </button>
         ))}
       </div>
-      <button
-        className={`saved-only-toggle ${savedOnly ? 'active' : ''}`}
-        aria-pressed={savedOnly}
-        onClick={() => {
-          setSavedOnly(!savedOnly)
-          google.reset()
-        }}
-      >
-        <Heart size={16} /> 저장한 장소만 보기
-      </button>
       <div className="picker-list">
         {available.map((place) => {
           const added = trip.days[day].some((stop) => stop.placeId === place.id)
@@ -774,9 +709,7 @@ function PlacePicker({
           !google.error &&
           !google.searched && (
             <p className="no-results">
-              {savedOnly
-                ? '이 조건에 맞는 저장한 장소가 없어요. 저장한 장소 필터를 해제해 보세요.'
-                : '검색 결과가 없어요. 다른 이름을 입력해보세요.'}
+              검색 결과가 없어요. 다른 이름을 입력해보세요.
             </p>
           )}
       </div>
@@ -962,8 +895,13 @@ function Itinerary({
             </div>
           </div>
           <div className="trip-management">
-            <button className="trip-edit" onClick={onEditTrip}>
-              <Pencil size={16} /> 여행 정보 수정
+            <button
+              className="trip-edit"
+              aria-label="여행 정보 수정"
+              onClick={onEditTrip}
+            >
+              <Pencil size={16} />
+              <span>여행 정보 수정</span>
             </button>
             <button
               className="trip-delete"
@@ -1060,7 +998,7 @@ function Itinerary({
                     setWorkspace('field')
                   }}
                 >
-                  여행 중 화면 열기
+                  여행 중 보기
                 </button>
                 <JourneyShare trip={trip} day={day} />
               </div>
@@ -1489,9 +1427,6 @@ export default function App() {
   const [exploreCity, setExploreCity] = useState('전체')
   const [placeLimit, setPlaceLimit] = useState(24)
   const [exploreTab, setExploreTab] = useState<'cities' | 'places'>('cities')
-  const [savedCity, setSavedCity] = useState('전체')
-  const [savedQuery, setSavedQuery] = useState('')
-  const [savedTab, setSavedTab] = useState<'cities' | 'places'>('places')
   const [dialog, setDialog] = useState<Dialog | null>(null)
   const [toast, setToast] = useState('')
   const [activeTripId, setActiveTripId] = useState(() => {
@@ -1513,7 +1448,8 @@ export default function App() {
         `${nav.getBoundingClientRect().height}px`,
       )
     const observer = new ResizeObserver(measure)
-    observer.observe(nav)
+    // Android gesture insets change padding, so observe the whole bar.
+    observer.observe(nav, { box: 'border-box' })
     measure()
     window.addEventListener('resize', measure)
     return () => {
@@ -1564,16 +1500,6 @@ export default function App() {
   }
   const openCity = (id: string) => setDialog({ type: 'city', id })
   const openPlace = (id: string) => setDialog({ type: 'place', id })
-  const toggleSaved = (type: 'savedCities' | 'savedPlaces', id: string) => {
-    const saved = store[type].includes(id)
-    setStore((previous) => ({
-      ...previous,
-      [type]: saved
-        ? previous[type].filter((item) => item !== id)
-        : [...previous[type], id],
-    }))
-    setToast(saved ? '저장을 취소했어요.' : '저장한 곳에 담았어요.')
-  }
   const search = (event: FormEvent) => {
     event.preventDefault()
     setRegion('전체')
@@ -1667,20 +1593,6 @@ export default function App() {
     () => setPlaceLimit(24),
     [query, region, category, effectiveExploreCity],
   )
-  const savedPlaceList = store.savedPlaces
-    .map(getPlace)
-    .filter((place): place is Place => !!place)
-  const savedCityOptions = [
-    ...new Set(savedPlaceList.map((place) => place.cityId)),
-  ]
-  const effectiveSavedCity = savedCityOptions.includes(savedCity)
-    ? savedCity
-    : '전체'
-  const visibleSavedPlaces = savedPlaceList.filter(
-    (place) =>
-      (effectiveSavedCity === '전체' || place.cityId === effectiveSavedCity) &&
-      matchesPlace(place, getCity(place.cityId)!, savedQuery),
-  )
   const activeTrip =
     store.trips.find((trip) => trip.id === activeTripId) || store.trips[0]
   useEffect(() => {
@@ -1698,8 +1610,7 @@ export default function App() {
           key={city.id}
           city={city}
           compact={compact}
-          saved={store.savedCities.includes(city.id)}
-          onSave={() => toggleSaved('savedCities', city.id)}
+
           onOpen={() => openCity(city.id)}
         />
       ))}
@@ -1711,8 +1622,7 @@ export default function App() {
         <PlaceCard
           key={place.id}
           place={place}
-          saved={store.savedPlaces.includes(place.id)}
-          onSave={() => toggleSaved('savedPlaces', place.id)}
+
           onOpen={() => openPlace(place.id)}
         />
       ))}
@@ -1744,12 +1654,6 @@ export default function App() {
                 onClick={() => navigate(item.id)}
               >
                 {item.name}
-                {item.id === 'saved' &&
-                  store.savedPlaces.length + store.savedCities.length > 0 && (
-                    <span className="nav-count" aria-hidden="true">
-                      {store.savedPlaces.length + store.savedCities.length}
-                    </span>
-                  )}
               </button>
             ))}
           </nav>
@@ -1786,35 +1690,19 @@ export default function App() {
           <TravelHome
             trip={activeTrip}
             trips={store.trips}
-            savedCount={savedPlaceList.length}
             cities={cityCards(
               ['tokyo', 'osaka', 'kyoto', 'sapporo']
                 .map(getCity)
                 .filter((city): city is City => !!city),
             )}
             places={placeCards(
-              [
-                ...savedPlaceList,
-                ...places.filter(
-                  (place) =>
-                    !store.savedPlaces.includes(place.id) &&
-                    [
-                      'tokyo-shibuya',
-                      'osaka-dotonbori',
-                      'kiyomizu',
-                      'sapporo-odori',
-                    ].includes(place.id),
-                ),
-              ].slice(0, 4),
+              ['tokyo-shibuya', 'osaka-dotonbori', 'kiyomizu', 'sapporo-odori']
+                .map(getPlace)
+                .filter((place): place is Place => !!place),
             )}
-            placesTitle={
-              savedPlaceList.length >= 4
-                ? '다시 볼 저장한 장소'
-                : '여행에 담아둘 장소'
-            }
+            placesTitle="여행에 담아둘 장소"
             onCreate={() => setDialog({ type: 'create' })}
             onTrips={() => navigate('trips')}
-            onSaved={() => navigate('saved')}
             onImport={() => setDialog({ type: 'backup' })}
             onExplore={(japan = false, showPlaces = false) => {
               setQuery('')
@@ -2022,132 +1910,6 @@ export default function App() {
             )}
           </section>
         )}
-        {page === 'saved' && (
-          <section className="page-section">
-            <div className="page-title">
-              <h1>
-                여행 후보 장소
-                <Heart className="title-heart" size={29} />
-              </h1>
-            </div>
-            <div className="saved-notice">
-              <Bookmark size={17} />
-              <span>저장한 곳은 이 기기에서 다시 볼 수 있어요.</span>
-            </div>
-            <div className="page-tabs" role="tablist" aria-label="저장한 항목">
-              <button
-                role="tab"
-                aria-selected={savedTab === 'places'}
-                className={savedTab === 'places' ? 'active' : ''}
-                onClick={() => setSavedTab('places')}
-              >
-                장소 <span>{store.savedPlaces.length}</span>
-              </button>
-              <button
-                role="tab"
-                aria-selected={savedTab === 'cities'}
-                className={savedTab === 'cities' ? 'active' : ''}
-                onClick={() => setSavedTab('cities')}
-              >
-                도시 <span>{store.savedCities.length}</span>
-              </button>
-            </div>
-            {savedTab === 'places' && savedPlaceList.length > 0 && (
-              <div className="saved-controls">
-                <div className="input-search">
-                  <Search size={18} />
-                  <input
-                    aria-label="저장한 장소 검색"
-                    placeholder="저장한 장소에서 찾아보세요"
-                    value={savedQuery}
-                    onChange={(event) => setSavedQuery(event.target.value)}
-                  />
-                  {savedQuery && (
-                    <button
-                      className="icon-button"
-                      aria-label="저장 검색어 지우기"
-                      onClick={() => setSavedQuery('')}
-                    >
-                      <X size={18} />
-                    </button>
-                  )}
-                </div>
-                <div className="filter-row" aria-label="저장한 장소의 도시">
-                  <button
-                    className={`filter ${effectiveSavedCity === '전체' ? 'active' : ''}`}
-                    aria-pressed={effectiveSavedCity === '전체'}
-                    onClick={() => setSavedCity('전체')}
-                  >
-                    전체
-                  </button>
-                  {savedCityOptions.map((id) => (
-                    <button
-                      key={id}
-                      className={`filter ${effectiveSavedCity === id ? 'active' : ''}`}
-                      aria-pressed={effectiveSavedCity === id}
-                      onClick={() => setSavedCity(id)}
-                    >
-                      {getCity(id)!.name}
-                    </button>
-                  ))}
-                </div>
-                <p className="result-count">
-                  저장한 장소 {visibleSavedPlaces.length}곳
-                </p>
-              </div>
-            )}
-            {savedTab === 'places' ? (
-              store.savedPlaces.length ? (
-                visibleSavedPlaces.length ? (
-                  placeCards(visibleSavedPlaces)
-                ) : (
-                  <EmptyState
-                    icon={<Search size={30} />}
-                    title="조건에 맞는 저장 장소가 없어요"
-                    description="도시나 검색어를 바꿔보세요."
-                    action="저장한 장소 모두 보기"
-                    onAction={() => {
-                      setSavedCity('전체')
-                      setSavedQuery('')
-                    }}
-                  />
-                )
-              ) : (
-                <EmptyState
-                  icon={<Heart size={32} />}
-                  title="아직 비어 있는 여행 취향"
-                  description="장소의 하트를 눌러 가고 싶은 곳을 모아보세요."
-                  action="장소 발견하기"
-                  onAction={() => {
-                    setQuery('')
-                    setRegion('전체')
-                    setExploreTab('places')
-                    navigate('explore')
-                  }}
-                />
-              )
-            ) : store.savedCities.length ? (
-              cityCards(
-                store.savedCities
-                  .map(getCity)
-                  .filter((city): city is City => !!city),
-              )
-            ) : (
-              <EmptyState
-                icon={<Earth size={32} />}
-                title="마음에 드는 도시를 담아보세요"
-                description="도시의 하트를 누르면 여기에 모아둘 수 있어요."
-                action="여행지 둘러보기"
-                onAction={() => {
-                  setQuery('')
-                  setRegion('전체')
-                  setExploreTab('cities')
-                  navigate('explore')
-                }}
-              />
-            )}
-          </section>
-        )}
         {page === 'trips' && (
           <section className="page-section trips-page">
             <div className="page-title trip-page-title">
@@ -2274,10 +2036,6 @@ export default function App() {
             >
               <span>
                 <Icon size={22} strokeWidth={page === item.id ? 2.2 : 1.7} />
-                {item.id === 'saved' &&
-                  store.savedPlaces.length + store.savedCities.length > 0 && (
-                    <i />
-                  )}
               </span>
               <span>{item.name}</span>
             </button>
@@ -2415,11 +2173,6 @@ export default function App() {
                   <h2>{city.name}</h2>
                   <p>{city.tagline}</p>
                 </div>
-                <SaveButton
-                  saved={store.savedCities.includes(city.id)}
-                  label={city.name}
-                  onClick={() => toggleSaved('savedCities', city.id)}
-                />
               </div>
               <div className="modal-body">
                 <p className="city-intro">{city.description}</p>
@@ -2480,12 +2233,6 @@ export default function App() {
                               {place.category} · {place.duration}
                             </span>
                           </button>
-                          <SaveButton
-                            saved={store.savedPlaces.includes(place.id)}
-                            label={place.name}
-                            onClick={() => toggleSaved('savedPlaces', place.id)}
-                            small
-                          />
                           <button
                             className="icon-button"
                             aria-label={`${place.name} 자세히 보기`}
@@ -2513,11 +2260,6 @@ export default function App() {
                 <span>
                   {city.name} · {place.category}
                 </span>
-                <SaveButton
-                  saved={store.savedPlaces.includes(place.id)}
-                  label={place.name}
-                  onClick={() => toggleSaved('savedPlaces', place.id)}
-                />
               </div>
               <div className="modal-body">
                 <span className="eyebrow">
@@ -2612,7 +2354,6 @@ export default function App() {
             >
               <PlacePicker
                 trip={trip}
-                savedPlaces={store.savedPlaces}
                 onCustom={() =>
                   setDialog({
                     type: 'custom',
@@ -2677,7 +2418,7 @@ export default function App() {
           <div className="modal-body">
             <p className="delete-description">
               ‘{store.trips.find((trip) => trip.id === dialog.tripId)?.title}’의
-              일정과 메모가 삭제돼요. 저장한 장소는 유지돼요.
+              일정과 메모가 삭제돼요.
             </p>
             <div className="form-row">
               <button

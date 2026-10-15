@@ -53,8 +53,8 @@ export default function JourneyShare({
   }
   return (
     <details className="journey-share">
-      <summary>
-        <Share2 size={16} /> 동행자에게 일정 전달
+      <summary aria-label="동행자에게 일정 전달">
+        <Share2 size={16} /> 일정 전달
       </summary>
       <div className="share-options">
         <label>

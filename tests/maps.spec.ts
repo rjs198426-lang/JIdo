@@ -230,7 +230,7 @@ test('추천 장소 선택 화면에서도 구글 결과를 골라 바로 일정
   await sdkFixture(page)
   await tripPage(page)
   await page.getByRole('button', { name: '장소 추가', exact: true }).click()
-  await page.getByRole('button', { name: '저장한 장소·추천에서 선택' }).click()
+  await page.getByRole('button', { name: '추천 장소에서 선택' }).click()
   await page.getByLabel('일정에 추가할 장소 검색').fill('에펠탑')
   await page.getByRole('button', { name: '찾기', exact: true }).click()
   await page.getByRole('button', { name: '에펠탑 선택', exact: true }).click()

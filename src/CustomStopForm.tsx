@@ -367,7 +367,7 @@ export default function CustomStopForm({
       )}
       {onBrowse && !stop && (
         <button className="text-button" type="button" onClick={onBrowse}>
-          저장한 장소·추천에서 선택
+          추천 장소에서 선택
         </button>
       )}
       <div className="form-row">

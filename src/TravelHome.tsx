@@ -1,7 +1,7 @@
 import type { ReactNode } from 'react'
 import {
   ArrowRight,
-  Bookmark,
+  Luggage,
   CalendarDays,
   CheckSquare,
   Compass,
@@ -28,7 +28,6 @@ import {
 type Props = {
   trip?: Trip
   trips: Trip[]
-  savedCount: number
   cities: ReactNode
   places: ReactNode
   placesTitle: string
@@ -36,7 +35,6 @@ type Props = {
   onCreate: () => void
   onOpenTrip: (trip: Trip, workspace?: string, day?: number) => void
   onTrips: () => void
-  onSaved: () => void
   onImport: () => void
   onExplore: (japan?: boolean, showPlaces?: boolean) => void
 }
@@ -66,10 +64,10 @@ export default function TravelHome(props: Props) {
   const shortcuts = [
     { label: '여행 만들기', icon: Plus, color: 'mint', action: props.onCreate },
     {
-      label: '저장한 곳',
-      icon: Bookmark,
+      label: '내 여행',
+      icon: Luggage,
       color: 'peach',
-      action: props.onSaved,
+      action: props.onTrips,
     },
     {
       label: '일정 가져오기',
@@ -288,11 +286,7 @@ export default function TravelHome(props: Props) {
           </div>
           <button
             className="text-button"
-            onClick={
-              props.savedCount >= 4
-                ? props.onSaved
-                : () => props.onExplore(false, true)
-            }
+            onClick={() => props.onExplore(false, true)}
           >
             더 보기
             <ArrowRight size={16} />
