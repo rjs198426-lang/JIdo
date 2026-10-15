@@ -1,4 +1,5 @@
 import { cities, places, reviewedPlaceIds } from '../src/data.ts'
+import { expandedGuideById } from '../src/expanded-guides.ts'
 
 const complete = process.argv.includes('--complete')
 const report = cities.map((city) => {
@@ -10,16 +11,20 @@ const report = cities.map((city) => {
     city: city.name,
     total: entries.length,
     reviewed: reviewed.length,
-    missing: Math.max(0, 50 - reviewed.length),
+    required: expandedGuideById.has(city.id) ? 20 : 50,
+    missing: Math.max(
+      0,
+      (expandedGuideById.has(city.id) ? 20 : 50) - reviewed.length,
+    ),
   }
 })
 console.table(report)
 console.log(
-  `현재 ${places.length}곳 · 확인한 후기 기반 ${reviewedPlaceIds.size}곳`,
+  `현재 ${places.length}곳 · 출처 자료가 있는 장소 ${reviewedPlaceIds.size}곳`,
 )
-if (complete && report.some((row) => row.reviewed < 50 || row.total > 100)) {
+if (complete && report.some((row) => row.missing > 0 || row.total > 100)) {
   console.error(
-    '각 여행지에 후기 원문을 확인한 장소 50곳 이상, 전체 장소 100곳 이하가 필요합니다.',
+    '기존 여행지는 출처 장소 50곳, 추가 여행지는 20곳 이상이며 전체 장소는 여행지당 100곳 이하가 필요합니다.',
   )
   process.exitCode = 1
 }

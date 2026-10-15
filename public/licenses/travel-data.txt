@@ -23,3 +23,15 @@ inferred from traveler reviews.
 
 Photo licenses are separate; existing licensed venue photos retain their
 original credits and license links in the app's photo source screen.
+
+Expanded destinations (Taipei, Hong Kong, Singapore, Da Nang/Hoi An):
+80 selected records are adapted from the 2016-10-27 public Wikivoyage listings
+snapshot, inspected on 2026-10-15. The archived dataset is CC BY-SA 3.0:
+https://creativecommons.org/licenses/by-sa/3.0/
+https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv
+Dataset license statement: https://github.com/baturin/wikivoyage-listings#data-license
+Authors: Wikivoyage contributors; original article URLs and selected source
+excerpts are retained in expanded-place-sources.json. Korean names, brief
+factual summaries, area labels and planning tips were written for JDo.
+These adaptations are offered under CC BY-SA 3.0. Live popularity rankings,
+current operation, opening hours and prices were not verified from this archive.

@@ -1,4 +1,5 @@
 import { japanGuideById } from './japan-guides'
+import { expandedGuideById } from './expanded-guides'
 import { ExternalLink } from 'lucide-react'
 import type { Guide } from './guide-schema'
 
@@ -10,7 +11,8 @@ export default function GuideContent({
   cityId?: string
 }) {
   const basic = cityId ? japanGuideById.get(cityId) : undefined
-  if (!guide && !basic) return null
+  const expanded = cityId ? expandedGuideById.get(cityId) : undefined
+  if (!guide && !basic && !expanded) return null
   return (
     <div className="guide-content">
       {basic && !guide && (
@@ -23,12 +25,33 @@ export default function GuideContent({
           일본정부관광국 공식 안내 <ExternalLink size={14} />
         </a>
       )}
-      {(guide?.sections || basic?.sections || []).map((section) => (
-        <section key={section.id}>
-          <h3>{section.title}</h3>
-          <p>{section.body}</p>
+      {(guide?.sections || expanded?.sections || basic?.sections || []).map(
+        (section) => (
+          <section key={section.id}>
+            <h3>{section.title}</h3>
+            <p>{section.body}</p>
+          </section>
+        ),
+      )}
+      {!guide && expanded && (
+        <section className="guide-sources">
+          <h3>참고 출처</h3>
+          {expanded.sources.map((source) => (
+            <a
+              key={source.url}
+              href={source.url}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span>
+                {source.title}
+                <small>자료 확인일 · {source.accessedAt}</small>
+              </span>
+              <ExternalLink size={14} />
+            </a>
+          ))}
         </section>
-      ))}
+      )}
       {guide && guide.sources.length > 0 && (
         <section className="guide-sources">
           <h3>참고 출처</h3>

@@ -3,6 +3,13 @@ import type { Place } from './catalog'
 
 export default function PlaceReviews({ place }: { place: Place }) {
   if (!place.reviewSources?.length) return null
+  const licenses = [
+    ...new Set(
+      place.reviewSources
+        .filter((source) => source.kind === 'traveler-guide')
+        .map((source) => source.license || 'CC BY-SA 4.0'),
+    ),
+  ]
   return (
     <section className="place-review-sources">
       <h3>여행 후기·여행자 자료</h3>
@@ -23,19 +30,17 @@ export default function PlaceReviews({ place }: { place: Place }) {
           <ExternalLink size={15} />
         </a>
       ))}
-      {place.reviewSources.some(
-        (source) => source.kind === 'traveler-guide',
-      ) && (
-        <small>
+      {licenses.map((license) => (
+        <small key={license}>
           <a
-            href="https://creativecommons.org/licenses/by-sa/4.0/"
+            href={`https://creativecommons.org/licenses/by-sa/${license.endsWith('3.0') ? '3.0' : '4.0'}/`}
             target="_blank"
             rel="noopener noreferrer"
           >
-            Wikivoyage contributors · CC BY-SA 4.0
+            Wikivoyage contributors · {license}
           </a>
         </small>
-      )}
+      ))}
       {place.osmPlaceId && (
         <small>
           <a

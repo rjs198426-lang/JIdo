@@ -1,0 +1,2330 @@
+[
+  {
+    "city": {
+      "id": "taipei",
+      "name": "타이베이",
+      "english": "TAIPEI · 臺北",
+      "country": "대만",
+      "region": "동아시아",
+      "image": "/images/guide-placeholder.svg",
+      "tagline": "지하철로 잇는 시장·사찰·도심 산책",
+      "description": "신이·중정·시먼딩을 날짜별로 나누고, 베이터우는 별도 반나절로 잡기 좋은 도시입니다.",
+      "tags": [
+        "도심 산책",
+        "온천"
+      ],
+      "flight": "타오위안·쑹산공항 · 운항편 확인",
+      "currency": "신타이완 달러 · TWD",
+      "timeDifference": "한국보다 1시간 느림",
+      "season": "10–4월 · 여름 고온·태풍 확인",
+      "accent": "#e8f3ef"
+    },
+    "places": [
+      {
+        "id": "taipei-guide-3682822e1b06",
+        "cityId": "taipei",
+        "name": "베이터우 온천박물관",
+        "english": "Beitou Hot Springs Museum",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "옛 공중목욕탕 건축과 온천 문화를 살펴보는 박물관입니다.",
+        "address": "베이터우 · 타이베이",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "온천 지역 산책과 묶고 시설별 휴관일을 확인하세요.",
+        "lat": 25.13658,
+        "lng": 121.50715,
+        "area": "베이터우",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 타이베이 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "taipei-guide-9a78bac6997e",
+        "cityId": "taipei",
+        "name": "용산사",
+        "english": "Longshan Temple · 龍山寺",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "타이베이의 대표적인 불교·민간신앙 사찰입니다.",
+        "address": "완화 · 타이베이",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "참배 동선을 가로막지 않고 실내 촬영 규정을 따르세요.",
+        "lat": 25.0373,
+        "lng": 121.49988,
+        "area": "완화",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 타이베이 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "taipei-guide-4873bb146512",
+        "cityId": "taipei",
+        "name": "시먼 홍러우",
+        "english": "Red House · 紅樓劇場",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "시먼딩의 붉은 벽돌 역사 건물과 문화 공간입니다.",
+        "address": "시먼딩 · 타이베이",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "시먼딩 산책과 함께 배치하기 좋습니다.",
+        "lat": 25.04209,
+        "lng": 121.50648,
+        "area": "시먼딩",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 타이베이 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "taipei-guide-4e2b4d3547c8",
+        "cityId": "taipei",
+        "name": "디화제",
+        "english": "Dihua Street · 迪化街",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "오래된 상점 건축과 건어물·차 문화를 만나는 거리입니다.",
+        "address": "다다오청 · 타이베이",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "거리가 길어 방문할 구간을 정하고 걸으세요.",
+        "lat": 25.05747,
+        "lng": 121.50977,
+        "area": "다다오청",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 타이베이 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "taipei-guide-7d4eec8b2e13",
+        "cityId": "taipei",
+        "name": "보안궁",
+        "english": "Bao'an Temple · 保安宮",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "전통 건축과 장식이 있는 도교 사원입니다.",
+        "address": "다룽둥 · 타이베이",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "인근 공자묘와 한 구역으로 묶으세요.",
+        "lat": 25.07321,
+        "lng": 121.51554,
+        "area": "다룽둥",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 타이베이 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "taipei-guide-311190f31652",
+        "cityId": "taipei",
+        "name": "타이베이 공자묘",
+        "english": "Confucius Temple · 孔廟",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "공자를 기리는 전통 사당입니다.",
+        "address": "다룽둥 · 타이베이",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "보안궁에서 걸어서 이어갈 수 있습니다.",
+        "lat": 25.07286,
+        "lng": 121.51625,
+        "area": "다룽둥",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 타이베이 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "taipei-guide-0195af2115b6",
+        "cityId": "taipei",
+        "name": "다안 삼림공원",
+        "english": "Daan Forest Park · 大安森林公園",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "도심의 넓은 녹지와 산책로가 있는 공원입니다.",
+        "address": "다안 · 타이베이",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "낮에는 그늘과 물을 챙기고 쉬어 가세요.",
+        "lat": 25.0302,
+        "lng": 121.5357,
+        "area": "다안",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 타이베이 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "taipei-guide-f8fa7026762b",
+        "cityId": "taipei",
+        "name": "샹산 등산로",
+        "english": "Elephant Mountain Hiking Trail · 象山步道",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "도시와 타이베이 101을 바라보는 계단 산책길입니다.",
+        "address": "신이 · 타이베이",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "경사가 가파르므로 미끄럽지 않은 신발과 물을 준비하세요.",
+        "lat": 25.02738,
+        "lng": 121.57074,
+        "area": "신이",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 타이베이 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "taipei-guide-efbe7e846207",
+        "cityId": "taipei",
+        "name": "타이베이 101 쇼핑몰",
+        "english": "Taipei 101 Mall",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "타이베이 101 건물에 연결된 쇼핑 공간입니다.",
+        "address": "신이 · 타이베이",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "저장 좌표는 쇼핑몰 기준이며 전망대 입장·예약은 별도입니다.",
+        "lat": 25.03412,
+        "lng": 121.56437,
+        "area": "신이",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 타이베이 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "taipei-guide-fce11ef0e9f1",
+        "cityId": "taipei",
+        "name": "벨라비타 쇼핑몰",
+        "english": "Bellavita Mall",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "신이 지구의 쇼핑 공간입니다.",
+        "address": "신이 · 타이베이",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "타이베이 101 일대와 함께 둘러보세요.",
+        "lat": 25.03966,
+        "lng": 121.56779,
+        "area": "신이",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 타이베이 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "taipei-guide-11658c833418",
+        "cityId": "taipei",
+        "name": "젠궈 휴일 옥시장",
+        "english": "Jianguo Holiday Jade Market · 假日玉市",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "고가도로 아래에 열리는 옥·장신구 시장입니다.",
+        "address": "다안 · 타이베이",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "상설 매장처럼 생각하지 말고 실제 장날을 확인하세요.",
+        "lat": 25.0381,
+        "lng": 121.5379,
+        "area": "다안",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 타이베이 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "taipei-guide-f93a5b74783b",
+        "cityId": "taipei",
+        "name": "타이베이 시립미술관",
+        "english": "Taipei Fine Arts Museum · 台北市立美術館",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "대만과 해외 작가의 작품을 소개하는 미술관입니다.",
+        "address": "중산 · 타이베이",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "전시 교체와 휴관일을 확인한 뒤 방문하세요.",
+        "lat": 25.0721,
+        "lng": 121.5248,
+        "area": "중산",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 타이베이 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "taipei-guide-9a433dfcd6d7",
+        "cityId": "taipei",
+        "name": "중정기념당",
+        "english": "National Chiang Kai-shek Memorial Hall · 中正紀念堂",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "기념당과 넓은 광장으로 구성된 타이베이의 주요 명소입니다.",
+        "address": "중정 · 타이베이",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "그늘이 적은 광장에서는 햇볕을 피할 시간을 잡으세요.",
+        "lat": 25.0346,
+        "lng": 121.5217,
+        "area": "중정",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 타이베이 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "taipei-guide-7d7000a05bb1",
+        "cityId": "taipei",
+        "name": "국립역사박물관",
+        "english": "National Museum Of History · 國立歷史博物館",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "역사·미술 유물을 다루는 박물관입니다.",
+        "address": "중정 · 타이베이",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "식물원과 가깝지만 전시·입장 조건은 별도로 확인하세요.",
+        "lat": 25.03157,
+        "lng": 121.51119,
+        "area": "중정",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 타이베이 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "taipei-guide-592c444ae51a",
+        "cityId": "taipei",
+        "name": "국립대만박물관",
+        "english": "National Taiwan Museum · 國立台灣博物館",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "역사 건물에서 대만의 자연·문화 자료를 소개하는 박물관입니다.",
+        "address": "중정 · 타이베이",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "분관과 본관의 입장 위치를 구분하세요.",
+        "lat": 25.0427,
+        "lng": 121.5151,
+        "area": "중정",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 타이베이 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "taipei-guide-ba10a8dc504f",
+        "cityId": "taipei",
+        "name": "이이팔 기념관",
+        "english": "228 Memorial Museum",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "이이팔 사건을 기록하는 역사 전시 공간입니다.",
+        "address": "중정 · 타이베이",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "인근 평화기념공원과 함께 조용히 둘러보세요.",
+        "lat": 25.04038,
+        "lng": 121.51555,
+        "area": "중정",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 타이베이 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "taipei-guide-5838566958d3",
+        "cityId": "taipei",
+        "name": "이이팔 평화기념공원",
+        "english": "228 Peace Memorial Park · 二二八和平公園",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "도심의 산책로와 기념 시설이 있는 공원입니다.",
+        "address": "중정 · 타이베이",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "국립대만박물관·기념관을 같은 동선으로 묶기 좋습니다.",
+        "lat": 25.0416,
+        "lng": 121.515,
+        "area": "중정",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 타이베이 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "taipei-guide-d5df460eeaf1",
+        "cityId": "taipei",
+        "name": "타이베이 식물원",
+        "english": "Taipei Botanical Garden · 植物園",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "연못과 식물 컬렉션을 따라 걷는 도심 식물원입니다.",
+        "address": "중정 · 타이베이",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "야외 산책에 맞는 신발과 벌레 기피제를 준비하세요.",
+        "lat": 25.03214,
+        "lng": 121.50949,
+        "area": "중정",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 타이베이 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "taipei-guide-5196ef892dd6",
+        "cityId": "taipei",
+        "name": "화산 문화창의공원",
+        "english": "Hua Shan Cultural and Creative Industry Center · 華山創意文化園區",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "옛 산업 건물을 전시·공연·창작 공간으로 활용하는 문화 지구입니다.",
+        "address": "중정 · 타이베이",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "행사마다 표·운영 시간이 다르므로 관심 전시를 확인하세요.",
+        "lat": 25.0446,
+        "lng": 121.529,
+        "area": "중정",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 타이베이 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "taipei-guide-cc04d56a4659",
+        "cityId": "taipei",
+        "name": "보장암 국제예술촌",
+        "english": "Treasure Hill Artist Village · 寶藏巖國際藝術村",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "언덕의 옛 마을과 예술 공간이 어우러진 곳입니다.",
+        "address": "궁관 · 타이베이",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "주거 구역을 존중하고 언덕길을 걸을 시간을 확보하세요.",
+        "lat": 25.01052,
+        "lng": 121.53244,
+        "area": "궁관",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 타이베이 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "id": "taipei-transport",
+        "title": "이동 준비",
+        "body": "공항과 숙소를 잇는 철도·버스를 먼저 확인하고, 시내에서는 지하철역과 출구를 기준으로 이동하세요."
+      },
+      {
+        "id": "taipei-route",
+        "title": "지역별 하루 계획",
+        "body": "중정기념당·식물원·시먼딩을 하루로, 신이의 타이베이 101 쇼핑몰·샹산은 다른 하루로 묶으세요. 베이터우는 이동 시간을 따로 확보하세요."
+      }
+    ],
+    "sources": [
+      {
+        "title": "위키보야지 공개 보관본 · 2016-10-27",
+        "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+        "accessedAt": "2026-10-15"
+      }
+    ]
+  },
+  {
+    "city": {
+      "id": "hongkong",
+      "name": "홍콩",
+      "english": "HONG KONG · 香港",
+      "country": "홍콩",
+      "region": "동아시아",
+      "image": "/images/guide-placeholder.svg",
+      "tagline": "항구 야경과 골목, 섬으로 이어지는 여행",
+      "description": "센트럴·침사추이·란타우를 하루에 왕복하기보다 지역별로 나누어 계획하는 도시 여행지입니다.",
+      "tags": [
+        "항구 야경",
+        "섬 산책"
+      ],
+      "flight": "홍콩국제공항 · 운항편 확인",
+      "currency": "홍콩 달러 · HKD",
+      "timeDifference": "한국보다 1시간 느림",
+      "season": "10–4월 · 여름 태풍 확인",
+      "accent": "#e8f3ef"
+    },
+    "places": [
+      {
+        "id": "hongkong-guide-ba6138c89ec7",
+        "cityId": "hongkong",
+        "name": "만모사",
+        "english": "Man Mo Temple Compound",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "문무 두 신을 모시는 전통 사원입니다.",
+        "address": "셩완 · 홍콩",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "향 연기가 많은 실내에서는 참배객 동선을 존중하세요.",
+        "lat": 22.284,
+        "lng": 114.1502,
+        "area": "셩완",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 홍콩 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hongkong-guide-fd5091deba63",
+        "cityId": "hongkong",
+        "name": "홍콩 공원",
+        "english": "Hong Kong Park",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "고층 건물 사이의 녹지와 연못을 잇는 공원입니다.",
+        "address": "애드미럴티 · 홍콩",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "센트럴 일대 도보 일정 중 쉬어 가기 좋습니다.",
+        "lat": 22.27716,
+        "lng": 114.16146,
+        "area": "애드미럴티",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 홍콩 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hongkong-guide-0d00a6d445a0",
+        "cityId": "hongkong",
+        "name": "미드레벨 에스컬레이터",
+        "english": "Central-Mid-Levels Escalator",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "센트럴의 경사지를 연결하는 야외 에스컬레이터입니다.",
+        "address": "센트럴 · 홍콩",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "시간대에 따라 진행 방향이 바뀌므로 현장 안내를 보세요.",
+        "lat": 22.28101,
+        "lng": 114.15251,
+        "area": "센트럴",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 홍콩 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hongkong-guide-15b37b842ec3",
+        "cityId": "hongkong",
+        "name": "스타의 거리",
+        "english": "Avenue of Stars",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "빅토리아항을 따라 영화 관련 조형물을 만나는 산책로입니다.",
+        "address": "침사추이 · 홍콩",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "해 질 무렵부터 야경까지 볼 수 있게 시간을 잡으세요.",
+        "lat": 22.293,
+        "lng": 114.1748,
+        "area": "침사추이",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 홍콩 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hongkong-guide-77da8ea9ec30",
+        "cityId": "hongkong",
+        "name": "웡타이신 사원",
+        "english": "Sik Sik Yuen Wong Tai Sin Temple · 嗇色園黃大仙祠",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "전통 신앙과 다채로운 건축을 볼 수 있는 사원입니다.",
+        "address": "웡타이신 · 홍콩",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "제례와 참배 공간에서는 촬영·출입 안내를 따르세요.",
+        "lat": 22.3428,
+        "lng": 114.1937,
+        "area": "웡타이신",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 홍콩 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hongkong-guide-a9345e6d7bc6",
+        "cityId": "hongkong",
+        "name": "구룡채성공원",
+        "english": "Kowloon Walled City Park",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "옛 구룡채성 부지의 정원과 역사 흔적을 만나는 공원입니다.",
+        "address": "가우룽시티 · 홍콩",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "정원 산책과 역사 전시를 함께 둘러보세요.",
+        "lat": 22.332,
+        "lng": 114.19,
+        "area": "가우룽시티",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 홍콩 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hongkong-guide-f387af1e434c",
+        "cityId": "hongkong",
+        "name": "홍콩 디즈니랜드",
+        "english": "Hong Kong Disneyland",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "란타우섬의 테마파크입니다.",
+        "address": "란타우 · 홍콩",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "예약·입장권과 운영 달력을 확인하고 하루 단위로 계획하세요.",
+        "lat": 22.3128,
+        "lng": 114.0419,
+        "area": "란타우",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 홍콩 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hongkong-guide-69e57ef5cd48",
+        "cityId": "hongkong",
+        "name": "옹핑 케이블카 상부역",
+        "english": "Ngong Ping 360",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "옹핑 마을과 산악 풍경을 연결하는 케이블카의 상부 구역입니다.",
+        "address": "란타우 · 홍콩",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "저장 위치는 옹핑 쪽입니다. 탑승 출발역은 퉁충으로 구분하세요.",
+        "lat": 22.25634,
+        "lng": 113.90146,
+        "area": "란타우",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 홍콩 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hongkong-guide-b6006fbf3c75",
+        "cityId": "hongkong",
+        "name": "타이오 어촌",
+        "english": "Tai O · 大澳",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "수상 가옥과 골목으로 알려진 어촌입니다.",
+        "address": "란타우 · 홍콩",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "옹핑과 묶을 때 버스 이동·막차 시간을 확인하세요.",
+        "lat": 22.257,
+        "lng": 113.86,
+        "area": "란타우",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 홍콩 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hongkong-guide-7758681a1269",
+        "cityId": "hongkong",
+        "name": "라마섬",
+        "english": "Lamma Island · 南丫島",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "도보 산책과 해안 풍경을 즐기는 섬입니다.",
+        "address": "근교 · 라마섬 · 홍콩",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "출발·도착 선착장과 돌아오는 배 시간을 먼저 정하세요.",
+        "lat": 22.201116,
+        "lng": 114.131126,
+        "area": "근교 · 라마섬",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 홍콩 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hongkong-guide-84a5b5251631",
+        "cityId": "hongkong",
+        "name": "청차우섬",
+        "english": "Cheung Chau · 長洲",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "항구와 골목·해안 산책길이 있는 섬입니다.",
+        "address": "근교 · 청차우섬 · 홍콩",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "주말 배편과 골목 혼잡을 고려해 시간을 넉넉히 잡으세요.",
+        "lat": 22.208565,
+        "lng": 114.029331,
+        "area": "근교 · 청차우섬",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 홍콩 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hongkong-guide-babcd84c03a8",
+        "cityId": "hongkong",
+        "name": "머레이 하우스",
+        "english": "Murray House",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "스탠리 해안에 자리한 역사 건물입니다.",
+        "address": "스탠리 · 홍콩",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "스탠리 해안 산책과 함께 계획하세요.",
+        "lat": 22.218,
+        "lng": 114.21,
+        "area": "스탠리",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 홍콩 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hongkong-guide-82ed7d620944",
+        "cityId": "hongkong",
+        "name": "골든 보히니아 광장",
+        "english": "Golden Bauhinia Square",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "항구 쪽에 바우히니아 조형물이 있는 광장입니다.",
+        "address": "완차이 · 홍콩",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "완차이 해안 산책 동선과 연결하세요.",
+        "lat": 22.28445,
+        "lng": 114.17237,
+        "area": "완차이",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 홍콩 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hongkong-guide-a5674d78f5d1",
+        "cityId": "hongkong",
+        "name": "홍콩 미술관",
+        "english": "Hong Kong Museum of Art",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "중국과 홍콩 미술을 다루는 항구 옆 미술관입니다.",
+        "address": "침사추이 · 홍콩",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "스타의 거리와 가깝고 전시별 입장 조건은 다릅니다.",
+        "lat": 22.29354,
+        "lng": 114.17209,
+        "area": "침사추이",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 홍콩 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hongkong-guide-0f73d5aaabd9",
+        "cityId": "hongkong",
+        "name": "홍콩 우주박물관",
+        "english": "Hong Kong Space Museum",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "천문·우주 전시와 돔 상영 시설이 있는 박물관입니다.",
+        "address": "침사추이 · 홍콩",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "상영 프로그램은 전시 관람과 별도로 예약을 확인하세요.",
+        "lat": 22.29427,
+        "lng": 114.17196,
+        "area": "침사추이",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 홍콩 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hongkong-guide-dc6da3467116",
+        "cityId": "hongkong",
+        "name": "홍콩 과학박물관",
+        "english": "Hong Kong Science Museum",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "체험형 과학 전시를 둘러보는 박물관입니다.",
+        "address": "침사추이 · 홍콩",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "체험 전시는 대기 시간을 두고 천천히 둘러보세요.",
+        "lat": 22.30088,
+        "lng": 114.17767,
+        "area": "침사추이",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 홍콩 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hongkong-guide-9cee604f01aa",
+        "cityId": "hongkong",
+        "name": "홍콩 해사박물관",
+        "english": "Hong Kong Maritime Museum · 香港海事博物館",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "항구와 해상 교역의 역사를 소개하는 박물관입니다.",
+        "address": "센트럴 · 홍콩",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "센트럴 부두 산책과 묶기 좋습니다.",
+        "lat": 22.28669,
+        "lng": 114.16206,
+        "area": "센트럴",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 홍콩 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hongkong-guide-7ca0c9418dc5",
+        "cityId": "hongkong",
+        "name": "쑨원 박물관",
+        "english": "Dr Sun Yat-sen Museum",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "쑨원과 홍콩의 관계를 다루는 역사박물관입니다.",
+        "address": "미드레벨 · 홍콩",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "주변 경사가 있어 미드레벨 동선과 함께 계획하세요.",
+        "lat": 22.28213,
+        "lng": 114.15077,
+        "area": "미드레벨",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 홍콩 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hongkong-guide-69e2a031536a",
+        "cityId": "hongkong",
+        "name": "홍콩 마담 투소",
+        "english": "Madame Tussauds",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "빅토리아 피크 구역의 밀랍인형 전시관입니다.",
+        "address": "빅토리아 피크 · 홍콩",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "피크 이동과 관람권을 구분해 예약하세요.",
+        "lat": 22.27127,
+        "lng": 114.15,
+        "area": "빅토리아 피크",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 홍콩 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hongkong-guide-607154550ace",
+        "cityId": "hongkong",
+        "name": "빅토리아 공원",
+        "english": "Victoria Park",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "코즈웨이베이 인근의 넓은 도심 공원입니다.",
+        "address": "코즈웨이베이 · 홍콩",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "도심 쇼핑 일정 사이에 산책·휴식 구간으로 넣으세요.",
+        "lat": 22.283,
+        "lng": 114.189,
+        "area": "코즈웨이베이",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 홍콩 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "id": "hongkong-transport",
+        "title": "이동 준비",
+        "body": "도심 철도와 버스, 섬으로 가는 배편을 구분하세요. 라마섬·청차우섬 방문은 귀환 배편을 먼저 확인합니다."
+      },
+      {
+        "id": "hongkong-route",
+        "title": "지역별 하루 계획",
+        "body": "센트럴·셩완은 도보와 에스컬레이터로, 침사추이는 해안·박물관으로 묶으세요. 디즈니랜드나 란타우섬은 별도 하루로 잡으세요."
+      }
+    ],
+    "sources": [
+      {
+        "title": "위키보야지 공개 보관본 · 2016-10-27",
+        "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+        "accessedAt": "2026-10-15"
+      }
+    ]
+  },
+  {
+    "city": {
+      "id": "singapore",
+      "name": "싱가포르",
+      "english": "SINGAPORE · 新加坡",
+      "country": "싱가포르",
+      "region": "동남아",
+      "image": "/images/guide-placeholder.svg",
+      "tagline": "마리나베이에서 차이나타운과 센토사까지",
+      "description": "도심 정원·박물관·야경을 지역별로 묶고, 만다이 동물원과 센토사는 이동 시간을 따로 잡는 여행지입니다.",
+      "tags": [
+        "정원과 야경",
+        "가족 여행"
+      ],
+      "flight": "창이공항 · 운항편 확인",
+      "currency": "싱가포르 달러 · SGD",
+      "timeDifference": "한국보다 1시간 느림",
+      "season": "연중 고온다습 · 소나기 대비",
+      "accent": "#e8f3ef"
+    },
+    "places": [
+      {
+        "id": "singapore-guide-d56599727500",
+        "cityId": "singapore",
+        "name": "머라이언 공원",
+        "english": "Merlion",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "머라이언상과 마리나베이 풍경을 함께 보는 강변 명소입니다.",
+        "address": "마리나베이 · 싱가포르",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "주변 산책로로 이어가되 한낮에는 물과 그늘을 챙기세요.",
+        "lat": 1.2868,
+        "lng": 103.8545,
+        "area": "마리나베이",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 싱가포르 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "singapore-guide-3e98c0bd3bdf",
+        "cityId": "singapore",
+        "name": "가든스 바이 더 베이",
+        "english": "Gardens by the Bay",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "수퍼트리와 여러 정원 구역을 잇는 대형 공원입니다.",
+        "address": "마리나베이 · 싱가포르",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "야외 정원과 유료 온실·전망 통로의 입장을 구분하세요.",
+        "lat": 1.283319,
+        "lng": 103.86527,
+        "area": "마리나베이",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 싱가포르 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "singapore-guide-3e2d29af71a8",
+        "cityId": "singapore",
+        "name": "마리나베이 샌즈 스카이파크",
+        "english": "Sands SkyPark",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "마리나베이 일대를 내려다보는 고층 전망 공간입니다.",
+        "address": "마리나베이 · 싱가포르",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "전망대 관람권과 호텔 투숙객 전용 시설을 혼동하지 마세요.",
+        "lat": 1.28489,
+        "lng": 103.86117,
+        "area": "마리나베이",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 싱가포르 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "singapore-guide-b10fb9ddbad4",
+        "cityId": "singapore",
+        "name": "아트사이언스 뮤지엄",
+        "english": "ArtScience Museum",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "예술과 과학을 주제로 전시하는 연꽃 모양 건축의 박물관입니다.",
+        "address": "마리나베이 · 싱가포르",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "전시별 예약 시간과 티켓 포함 범위를 확인하세요.",
+        "lat": 1.28611,
+        "lng": 103.859,
+        "area": "마리나베이",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 싱가포르 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "singapore-guide-b1d0fa56c267",
+        "cityId": "singapore",
+        "name": "싱가포르 보타닉가든",
+        "english": "Botanic Gardens",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "넓은 열대 정원과 산책로가 있는 식물원입니다.",
+        "address": "탕린 · 싱가포르",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "공원 출입구가 여러 곳이므로 만날 위치를 정하세요.",
+        "lat": 1.3151,
+        "lng": 103.8162,
+        "area": "탕린",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 싱가포르 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "singapore-guide-c0ed2347fae2",
+        "cityId": "singapore",
+        "name": "국립 난초정원",
+        "english": "National Orchid Garden",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "보타닉가든 안의 난초 전시 정원입니다.",
+        "address": "탕린 · 싱가포르",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "일반 식물원 구역과 별도 입장 조건을 확인하세요.",
+        "lat": 1.31249,
+        "lng": 103.8136,
+        "area": "탕린",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 싱가포르 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "singapore-guide-f9acb420cb2d",
+        "cityId": "singapore",
+        "name": "싱가포르 동물원",
+        "english": "Singapore Zoo",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "만다이 지역의 야생동물 관람 시설입니다.",
+        "address": "만다이 · 싱가포르",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "도심에서의 왕복 이동 시간을 따로 확보하세요.",
+        "lat": 1.40487,
+        "lng": 103.79056,
+        "area": "만다이",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 싱가포르 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "singapore-guide-c4ca281387ad",
+        "cityId": "singapore",
+        "name": "나이트 사파리",
+        "english": "Night Safari",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "저녁 시간대에 관람하는 야생동물 시설입니다.",
+        "address": "만다이 · 싱가포르",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "예약 시간과 야간 귀가 교통을 먼저 확인하세요.",
+        "lat": 1.40465,
+        "lng": 103.78533,
+        "area": "만다이",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 싱가포르 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "singapore-guide-2654a9fca3aa",
+        "cityId": "singapore",
+        "name": "불아사",
+        "english": "Buddha Tooth Relic Temple",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "불교 사찰과 전시 공간을 함께 둘러보는 명소입니다.",
+        "address": "차이나타운 · 싱가포르",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "사찰 복장과 촬영 규정을 따르세요.",
+        "lat": 1.2815,
+        "lng": 103.8443,
+        "area": "차이나타운",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 싱가포르 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "singapore-guide-7d3207aa3b9c",
+        "cityId": "singapore",
+        "name": "스리 마리암만 사원",
+        "english": "Sri Mariamman Temple",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "차이나타운의 힌두교 사원입니다.",
+        "address": "차이나타운 · 싱가포르",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "입장 전 신발·복장·촬영 안내를 확인하세요.",
+        "lat": 1.2827,
+        "lng": 103.8451,
+        "area": "차이나타운",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 싱가포르 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "singapore-guide-83ea0b1fb08a",
+        "cityId": "singapore",
+        "name": "티안혹켕 사원",
+        "english": "Thian Hock Keng Temple · 天福宫",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "해상 교역과 화교 공동체의 역사가 담긴 사원입니다.",
+        "address": "텔록아이어 · 싱가포르",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "주변 역사 거리와 짧은 도보 코스로 묶으세요.",
+        "lat": 1.281,
+        "lng": 103.8475,
+        "area": "텔록아이어",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 싱가포르 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "singapore-guide-9a40cce1ce7c",
+        "cityId": "singapore",
+        "name": "차이나타운 헤리티지 센터",
+        "english": "Chinatown Heritage Centre",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "차이나타운의 이주민 생활사를 다루는 전시 공간입니다.",
+        "address": "차이나타운 · 싱가포르",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "전시·운영 재개 여부와 예약을 방문 전에 확인하세요.",
+        "lat": 1.2836,
+        "lng": 103.8444,
+        "area": "차이나타운",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 싱가포르 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "singapore-guide-fd44b733a471",
+        "cityId": "singapore",
+        "name": "아시아 문명박물관",
+        "english": "Asian Civilisations Museum",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "아시아 여러 지역의 문화·교역 자료를 전시하는 박물관입니다.",
+        "address": "시빅지구 · 싱가포르",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "싱가포르강 주변 산책과 함께 묶기 좋습니다.",
+        "lat": 1.2875,
+        "lng": 103.851111,
+        "area": "시빅지구",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 싱가포르 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "singapore-guide-832f8ce8c0ae",
+        "cityId": "singapore",
+        "name": "페라나칸 박물관",
+        "english": "Peranakan Museum",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "페라나칸 문화의 생활·공예 자료를 소개하는 박물관입니다.",
+        "address": "시빅지구 · 싱가포르",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "특별전과 상설전의 입장 조건을 확인하세요.",
+        "lat": 1.2942,
+        "lng": 103.8492,
+        "area": "시빅지구",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 싱가포르 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "singapore-guide-d7771a02b158",
+        "cityId": "singapore",
+        "name": "싱가포르 국립박물관",
+        "english": "National Museum of Singapore",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "싱가포르의 역사와 문화를 다루는 박물관입니다.",
+        "address": "시빅지구 · 싱가포르",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "전시별 휴관·교체 일정을 확인하세요.",
+        "lat": 1.29672,
+        "lng": 103.849,
+        "area": "시빅지구",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 싱가포르 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "singapore-guide-4b7473a99ebf",
+        "cityId": "singapore",
+        "name": "옛 힐스트리트 경찰서",
+        "english": "Old Hill Street Police Station · MICA Building",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "색색의 창문이 특징인 옛 경찰서 건물입니다.",
+        "address": "리버사이드 · 싱가포르",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "업무 공간 출입과 외관 촬영을 구분하세요.",
+        "lat": 1.2907,
+        "lng": 103.8482,
+        "area": "리버사이드",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 싱가포르 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "singapore-guide-184320afc634",
+        "cityId": "singapore",
+        "name": "세인트 앤드루스 대성당",
+        "english": "St Andrew's Cathedral",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "시빅지구의 흰색 성공회 대성당입니다.",
+        "address": "시빅지구 · 싱가포르",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "예배와 행사 중에는 관람·촬영 안내를 따르세요.",
+        "lat": 1.292484,
+        "lng": 103.852348,
+        "area": "시빅지구",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 싱가포르 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "singapore-guide-d3ad5eafe270",
+        "cityId": "singapore",
+        "name": "실로소 요새",
+        "english": "Fort Siloso",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "센토사섬의 해안 방어 역사 유적입니다.",
+        "address": "센토사 · 싱가포르",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "야외 구간을 걷기 편한 신발과 물을 준비하세요.",
+        "lat": 1.258889,
+        "lng": 103.808056,
+        "area": "센토사",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 싱가포르 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "singapore-guide-7934802795a5",
+        "cityId": "singapore",
+        "name": "마리나 배라지",
+        "english": "Marina Barrage",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "저수지와 도심 풍경을 볼 수 있는 댐·공원 구역입니다.",
+        "address": "마리나베이 · 싱가포르",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "잔디와 해안은 한낮보다 늦은 오후 산책에 알맞습니다.",
+        "lat": 1.279479,
+        "lng": 103.871183,
+        "area": "마리나베이",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 싱가포르 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "singapore-guide-03704339df11",
+        "cityId": "singapore",
+        "name": "쿤셍 로드",
+        "english": "Koon Seng Road",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "파스텔색 전통 상점주택이 이어지는 거리입니다.",
+        "address": "주치앗 · 싱가포르",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "거주지이므로 문 앞을 막거나 사유지에 들어가지 마세요.",
+        "lat": 1.31027,
+        "lng": 103.90252,
+        "area": "주치앗",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 싱가포르 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "id": "singapore-transport",
+        "title": "이동 준비",
+        "body": "도심은 지하철역 기준으로 이동하되 만다이·센토사는 연결 교통과 귀가편을 별도로 확인하세요."
+      },
+      {
+        "id": "singapore-route",
+        "title": "지역별 하루 계획",
+        "body": "머라이언·마리나베이·가든스 바이 더 베이를 하루로 묶고, 차이나타운·시빅지구 박물관을 다른 하루에 배치하세요."
+      }
+    ],
+    "sources": [
+      {
+        "title": "위키보야지 공개 보관본 · 2016-10-27",
+        "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+        "accessedAt": "2026-10-15"
+      }
+    ]
+  },
+  {
+    "city": {
+      "id": "danang",
+      "name": "다낭·호이안",
+      "english": "DA NANG · HOI AN",
+      "country": "베트남",
+      "region": "동남아",
+      "image": "/images/guide-placeholder.svg",
+      "tagline": "해변의 다낭과 골목의 호이안을 함께",
+      "description": "다낭 해변·도심과 근교 호이안 구시가지를 함께 계획하는 여행권입니다. 두 지역 사이에는 차량 이동이 필요합니다.",
+      "tags": [
+        "해변과 골목",
+        "근교 여행"
+      ],
+      "flight": "다낭국제공항 · 운항편 확인",
+      "currency": "베트남 동 · VND",
+      "timeDifference": "한국보다 2시간 느림",
+      "season": "2–8월 · 우기·기상 확인",
+      "accent": "#e8f3ef"
+    },
+    "places": [
+      {
+        "id": "danang-guide-1cffff18d23e",
+        "cityId": "danang",
+        "name": "미케 해변",
+        "english": "My Khe Beach · China Beach",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "다낭 도심 동쪽의 긴 모래 해변입니다.",
+        "address": "다낭 해안 · 다낭·호이안",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "파도·해류와 현장 수영 금지 안내를 확인하세요.",
+        "lat": 16.07035,
+        "lng": 108.24623,
+        "area": "다낭 해안",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 다낭·호이안 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "danang-guide-e22744f96b4c",
+        "cityId": "danang",
+        "name": "린응사",
+        "english": "Linh Ung Temple",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "바다를 내려다보는 선짜반도의 불교 사찰입니다.",
+        "address": "선짜반도 · 다낭·호이안",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "한낮에는 햇볕이 강하므로 물과 모자를 챙기세요.",
+        "lat": 16.10032,
+        "lng": 108.27799,
+        "area": "선짜반도",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 다낭·호이안 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "danang-guide-fdbc49ddca56",
+        "cityId": "danang",
+        "name": "오행산",
+        "english": "Marble Mountains · Ngu Hanh Son",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "석회암 봉우리와 동굴·사찰이 모인 명소입니다.",
+        "address": "다낭 남부 · 다낭·호이안",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "계단과 미끄러운 바닥에 맞는 신발을 준비하세요.",
+        "lat": 16.00333,
+        "lng": 108.2637,
+        "area": "다낭 남부",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 다낭·호이안 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "danang-guide-51b8b7d35422",
+        "cityId": "danang",
+        "name": "다낭 참 조각박물관",
+        "english": "Museum of Cham Sculpture · Bảo Tàng Chăm",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "참파 문명의 석조 조각을 소개하는 박물관입니다.",
+        "address": "다낭 도심 · 다낭·호이안",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "한강 주변 도심 코스와 함께 묶기 좋습니다.",
+        "lat": 16.06006,
+        "lng": 108.22307,
+        "area": "다낭 도심",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 다낭·호이안 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "danang-guide-dce9a989753a",
+        "cityId": "danang",
+        "name": "한강 산책로",
+        "english": "Han River Promenade",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "한강을 따라 도심 풍경을 바라보는 산책 구간입니다.",
+        "address": "다낭 도심 · 다낭·호이안",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "저장 좌표는 산책로의 대표 지점입니다.",
+        "lat": 16.06491,
+        "lng": 108.22464,
+        "area": "다낭 도심",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 다낭·호이안 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "danang-guide-bfbc0f6a9a38",
+        "cityId": "danang",
+        "name": "한시장",
+        "english": "Han Market",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "식료품·의류·기념품 상점이 모인 도심 시장입니다.",
+        "address": "다낭 도심 · 다낭·호이안",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "가격·수량·포장을 확인하고 귀중품을 관리하세요.",
+        "lat": 16.06823,
+        "lng": 108.22432,
+        "area": "다낭 도심",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 다낭·호이안 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "danang-guide-c9deaa06b77b",
+        "cityId": "danang",
+        "name": "다낭 롯데마트",
+        "english": "Lotte Mart shopping centre",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "식료품과 생활용품을 살 수 있는 쇼핑 공간입니다.",
+        "address": "다낭 남부 · 다낭·호이안",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "일정 마지막에 넣을 때 짐과 숙소 이동을 고려하세요.",
+        "lat": 16.03506,
+        "lng": 108.22889,
+        "area": "다낭 남부",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 다낭·호이안 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "danang-guide-284e62f6baff",
+        "cityId": "danang",
+        "name": "바나힐 케이블카 입구",
+        "english": "Ba Na Hill Station",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "바나산 관광 구역으로 올라가는 케이블카 입구 일대입니다.",
+        "address": "근교 · 바나산 · 다낭·호이안",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "좌표는 산 정상 대신 입구 기준입니다. 입장·교통을 따로 확인하세요.",
+        "lat": 16.02577,
+        "lng": 108.0314,
+        "area": "근교 · 바나산",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 다낭·호이안 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "danang-guide-3037568d722d",
+        "cityId": "danang",
+        "name": "호이안 내원교",
+        "english": "Japanese Covered Bridge · Chua Cau ''or'' Lai Vien Kieu",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "호이안 구시가지의 지붕 있는 역사적 다리입니다.",
+        "address": "근교 · 호이안 · 다낭·호이안",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "구시가지 관람권과 다리의 출입 안내를 확인하세요.",
+        "lat": 15.87713,
+        "lng": 108.32605,
+        "area": "근교 · 호이안",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 다낭·호이안 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "danang-guide-19149da8eee7",
+        "cityId": "danang",
+        "name": "호이안 관공묘",
+        "english": "Quan Cong Temple",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "관우를 기리는 호이안 구시가지의 사당입니다.",
+        "address": "근교 · 호이안 · 다낭·호이안",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "참배객을 배려하고 구시가지 안에서 걸어 이동하세요.",
+        "lat": 15.87753,
+        "lng": 108.33106,
+        "area": "근교 · 호이안",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 다낭·호이안 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "danang-guide-1118ea125b72",
+        "cityId": "danang",
+        "name": "호이안 민속문화박물관",
+        "english": "Museum of Folk Culture",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "지역 주민의 생활·문화 자료를 전시하는 박물관입니다.",
+        "address": "근교 · 호이안 · 다낭·호이안",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "구시가지의 다른 박물관과 관람권 포함 여부를 확인하세요.",
+        "lat": 15.87647,
+        "lng": 108.32838,
+        "area": "근교 · 호이안",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 다낭·호이안 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "danang-guide-aceb5b1cff2b",
+        "cityId": "danang",
+        "name": "사후인 문화박물관",
+        "english": "Museum of Sa Huynh Culture",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "사후인 문화의 토기와 유물을 다루는 박물관입니다.",
+        "address": "근교 · 호이안 · 다낭·호이안",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "내원교 주변 역사 건물과 함께 둘러보세요.",
+        "lat": 15.87701,
+        "lng": 108.32641,
+        "area": "근교 · 호이안",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 다낭·호이안 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "danang-guide-a038f991bb87",
+        "cityId": "danang",
+        "name": "호이안 무역도자기박물관",
+        "english": "Museum of Trade Ceramics",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "옛 가옥에서 도자기와 무역 관련 자료를 전시하는 공간입니다.",
+        "address": "근교 · 호이안 · 다낭·호이안",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "전시물뿐 아니라 옛 가옥 구조도 살펴보세요.",
+        "lat": 15.87735,
+        "lng": 108.32944,
+        "area": "근교 · 호이안",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 다낭·호이안 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "danang-guide-84f8a60fea72",
+        "cityId": "danang",
+        "name": "풍흥 고가",
+        "english": "Old house of Phung Hung",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "호이안의 전통 목조 가옥입니다.",
+        "address": "근교 · 호이안 · 다낭·호이안",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "실제 생활 공간이 포함될 수 있어 안내 동선을 지키세요.",
+        "lat": 15.87722,
+        "lng": 108.32581,
+        "area": "근교 · 호이안",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 다낭·호이안 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "danang-guide-c88286d57343",
+        "cityId": "danang",
+        "name": "꽌탕 고가",
+        "english": "Old house of Quan Thang",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "구시가지 상인의 옛 가옥을 둘러보는 역사 공간입니다.",
+        "address": "근교 · 호이안 · 다낭·호이안",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "개방 구역과 관람권을 현장에서 확인하세요.",
+        "lat": 15.87711,
+        "lng": 108.32925,
+        "area": "근교 · 호이안",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 다낭·호이안 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "danang-guide-844e966c3b0e",
+        "cityId": "danang",
+        "name": "득안 고가",
+        "english": "Old house of Duc An",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "구시가지에 남아 있는 전통 가옥입니다.",
+        "address": "근교 · 호이안 · 다낭·호이안",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "주변 가옥과 거리가 가까워 도보로 묶기 좋습니다.",
+        "lat": 15.87706,
+        "lng": 108.32767,
+        "area": "근교 · 호이안",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 다낭·호이안 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "danang-guide-0672f96a46da",
+        "cityId": "danang",
+        "name": "떤키 고가",
+        "english": "Old house of Tan Ky",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "여러 문화의 건축 요소를 볼 수 있는 옛 상인 가옥입니다.",
+        "address": "근교 · 호이안 · 다낭·호이안",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "내부 관람 동선과 사진 촬영 안내를 따르세요.",
+        "lat": 15.87646,
+        "lng": 108.32776,
+        "area": "근교 · 호이안",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 다낭·호이안 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "danang-guide-3bdf58583d2f",
+        "cityId": "danang",
+        "name": "광조회관",
+        "english": "Quang Trieu Assembly Hall · Cantonese",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "정원과 장식 조각이 있는 광둥계 공동체 회관입니다.",
+        "address": "근교 · 호이안 · 다낭·호이안",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "구시가지 사원·회관을 걸어서 연결하세요.",
+        "lat": 15.8773,
+        "lng": 108.32645,
+        "area": "근교 · 호이안",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 다낭·호이안 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "danang-guide-02551715de7c",
+        "cityId": "danang",
+        "name": "복건회관",
+        "english": "Phuc Kien Meeting Hall",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "푸젠계 공동체의 역사와 신앙이 담긴 회관입니다.",
+        "address": "근교 · 호이안 · 다낭·호이안",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "참배 공간에서는 복장과 촬영 규정을 따르세요.",
+        "lat": 15.87806,
+        "lng": 108.33095,
+        "area": "근교 · 호이안",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 다낭·호이안 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "danang-guide-a9a6e8de1bcb",
+        "cityId": "danang",
+        "name": "조주회관",
+        "english": "Trieu Chau Meeting Hall",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "차오저우계 공동체가 세운 전통 회관입니다.",
+        "address": "근교 · 호이안 · 다낭·호이안",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "관람권에 포함되는 회관을 확인하고 방문하세요.",
+        "lat": 15.87789,
+        "lng": 108.3331,
+        "area": "근교 · 호이안",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 다낭·호이안 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "id": "danang-transport",
+        "title": "이동 준비",
+        "body": "다낭 도심·선짜반도·바나산·호이안은 서로 다른 구역입니다. 근교 이동은 차량과 귀환 방법을 먼저 정하세요."
+      },
+      {
+        "id": "danang-route",
+        "title": "지역별 하루 계획",
+        "body": "다낭 도심과 해변을 하루로, 오행산·호이안을 다른 하루로 묶으세요. 바나산은 날씨와 이동 시간을 고려해 별도 일정으로 두세요."
+      }
+    ],
+    "sources": [
+      {
+        "title": "위키보야지 공개 보관본 · 2016-10-27",
+        "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+        "accessedAt": "2026-10-15"
+      }
+    ]
+  }
+]

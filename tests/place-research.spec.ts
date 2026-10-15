@@ -1,6 +1,7 @@
 import { test, expect, type Page } from '@playwright/test'
 import { cities, places, reviewedPlaceIds } from '../src/data'
 import { guideSchema } from '../src/guide-schema'
+import { expandedGuideById } from '../src/expanded-guides'
 
 async function explore(page: Page) {
   await page
@@ -10,17 +11,18 @@ async function explore(page: Page) {
   await page.getByRole('tab', { name: /가볼 만한 곳/ }).click()
 }
 
-test('15개 여행지에 확인 자료 50곳 이상, 안정된 ID와 서로 구분된 출처를 내장', async () => {
-  expect(cities).toHaveLength(15)
-  expect(reviewedPlaceIds.size).toBe(750)
+test('기존 15곳은 출처 장소 50개, 새 여행권 4곳은 20개 이상과 안정된 ID를 내장', async () => {
+  expect(cities).toHaveLength(19)
+  expect(reviewedPlaceIds.size).toBe(830)
   expect(new Set(places.map((place) => place.id)).size).toBe(places.length)
   for (const city of cities) {
+    const minimum = expandedGuideById.has(city.id) ? 20 : 50
     const entries = places.filter((place) => place.cityId === city.id)
-    expect(entries.length).toBeGreaterThanOrEqual(50)
+    expect(entries.length).toBeGreaterThanOrEqual(minimum)
     expect(entries.length).toBeLessThanOrEqual(100)
     expect(
       entries.filter((place) => reviewedPlaceIds.has(place.id)),
-    ).toHaveLength(50)
+    ).toHaveLength(minimum)
   }
   const reviewed = places.filter((place) => reviewedPlaceIds.has(place.id))
   const positions = new Map<string, string[]>()
@@ -51,6 +53,10 @@ test('15개 여행지에 확인 자료 50곳 이상, 안정된 ID와 서로 구�
     hiroshima: [34.1, 34.7, 132, 133],
     kobe: [34.5, 35, 134.4, 135.5],
     sendai: [37.8, 38.7, 140.2, 141.6],
+    taipei: [24.9, 25.3, 121.4, 121.7],
+    hongkong: [22.1, 22.6, 113.8, 114.4],
+    singapore: [1.2, 1.5, 103.6, 104.1],
+    danang: [15.7, 16.2, 107.9, 108.5],
   }
   for (const place of reviewed) {
     const [south, north, west, east] = bounds[place.cityId]
@@ -60,9 +66,11 @@ test('15개 여행지에 확인 자료 50곳 이상, 안정된 ID와 서로 구�
     expect(place.lng, place.name).toBeLessThanOrEqual(east)
     expect(place.reviewSources?.length).toBeGreaterThan(0)
     for (const source of place.reviewSources!) {
-      expect(source.checkedAt).toBe('2026-10-14')
+      expect(source.checkedAt).toBe(
+        expandedGuideById.has(place.cityId) ? '2026-10-15' : '2026-10-14',
+      )
       expect(source.url).toMatch(
-        /^https:\/\/(en\.wikivoyage\.org\/wiki\/|blog\.naver\.com\/)/,
+        /^https:\/\/(en\.wikivoyage\.org\/wiki\/|blog\.naver\.com\/|github\.com\/wikivoyage\/wikivoyage.github.io\/blob\/)/,
       )
       expect(source.screeningNote).toContain('보증하지 않습니다')
     }

@@ -1,6 +1,7 @@
 import { verifiedVenueCoordinates } from './venue-coordinates.ts'
 import { photoCredits, type PhotoCreditInfo } from './photo-credits.ts'
 import { japanGuides } from './japan-guides.ts'
+import { expandedGuides } from './expanded-guides.ts'
 import researchedPlaces from './researched-places.json' with { type: 'json' }
 import { placeSchema } from './guide-schema.ts'
 import type { ReviewSource } from './review-source'
@@ -515,11 +516,15 @@ export const places: Place[] = [
 ]
 
 cities.push(...japanGuides.map((guide) => guide.city))
+cities.push(...expandedGuides.map((guide) => guide.city))
 places.push(...japanGuides.flatMap((guide) => guide.places))
 // Only records reviewed against real source bodies belong in this file.
 // Researched recommendations are bundled for offline search; retain existing IDs and saved stops.
 export const reviewedPlaceIds = new Set<string>()
-for (const raw of researchedPlaces) {
+for (const raw of [
+  ...researchedPlaces,
+  ...expandedGuides.flatMap((guide) => guide.places),
+]) {
   const reviewed = placeSchema.parse(raw)
   if (
     !reviewed.reviewSources?.length ||

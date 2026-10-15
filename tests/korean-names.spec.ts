@@ -16,7 +16,7 @@ async function explore(page: Page) {
 }
 
 test('모든 내장 도시·장소는 한글 이름이며 원래 이름으로도 검색 가능', () => {
-  expect(places).toHaveLength(767)
+  expect(places).toHaveLength(847)
   for (const item of [...cities, ...places]) {
     expect(item.name, item.id).toMatch(/[가-힣]/)
     expect(item.name, item.id).not.toMatch(/[A-Za-z\u3040-\u30ff\u4e00-\u9fff]/)

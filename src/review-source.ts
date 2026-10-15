@@ -17,6 +17,7 @@ export const reviewSourceSchema = z.object({
   url: httpsUrl,
   kind: z.enum(['visit-review', 'traveler-guide']),
   checkedAt: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
+  license: z.enum(['CC BY-SA 3.0', 'CC BY-SA 4.0']).optional(),
   // This records an editorial check, not a guarantee about undisclosed payments.
   sponsorshipCheck: z.literal('no-disclosure-found'),
   screeningNote: z.string().trim().min(10).max(800),

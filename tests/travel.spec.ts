@@ -37,7 +37,9 @@ test('도시 검색, 지역 필터와 여행 상세 정보', async ({ page }) =>
   await page.getByRole('button', { name: '닫기', exact: true }).click()
   await page.getByRole('button', { name: '검색어 지우기' }).click()
   await page.getByRole('button', { name: '동남아', exact: true }).click()
-  await expect(page.locator('.city-card')).toHaveCount(2)
+  await expect(page.locator('.city-card')).toHaveCount(
+    cities.filter((city) => city.region === '동남아').length,
+  )
   await page.getByRole('tab', { name: '가볼 만한 곳' }).click()
   await page
     .locator('.category-row')
@@ -250,7 +252,7 @@ test('손상된 저장 데이터 복구와 오프라인 사진 표시', async ({
   await page.reload()
   await expect(page.getByLabel('도시 또는 나라 검색')).toBeVisible()
   await navigate(page, '여행지')
-  await expect(page.locator('.city-card')).toHaveCount(15)
+  await expect(page.locator('.city-card')).toHaveCount(cities.length)
   await page
     .locator('main')
     .evaluate((el) => window.scrollTo(0, el.scrollHeight))
