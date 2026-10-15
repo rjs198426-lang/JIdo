@@ -1,0 +1,25 @@
+node_modules/
+dist/
+test-results/
+playwright-report/
+.env
+.env.*
+!.env.example
+*.log
+artifacts/
+*.tsbuildinfo
+.runtime/
+
+# Private Android signing material and local credentials
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+key.properties
+keystore.properties
+credentials*.json
+service-account*.json
+
+# Android-only project; retain the historical local folder without publishing it
+/ios/

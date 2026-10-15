@@ -1,0 +1,25 @@
+J★Do travel place data — checked 2026-10-14
+
+Wikivoyage contributors: source titles and per-place links are provided in
+travel-place-sources.json and the app's travel review/source section.
+Wikivoyage text (including retained source excerpts and adaptations) is
+licensed under Creative Commons Attribution-ShareAlike 4.0 International:
+https://creativecommons.org/licenses/by-sa/4.0/
+Changes: listing selection, duplicate/excluded-entry removal, Korean factual
+summaries, Korean name aliases, region labels and category mapping.
+The adapted Wikivoyage data is offered under the same CC BY-SA 4.0 license.
+
+OpenStreetMap contributors: https://www.openstreetmap.org/copyright
+OSM-derived coordinate records are identified by node/way IDs and links.
+Open Database License (ODbL) 1.0:
+https://opendatacommons.org/licenses/odbl/1-0/
+Sources obtained via Photon are attributed to OpenStreetMap, not Google.
+
+Personal blog sources: links identify the original authors/posts. Blog prose
+and photographs are not copied into this data. Brief factual summaries were
+written for J★Do; a source link does not license copying the original blog.
+No numerical venue ratings, current prices or opening-hour guarantees are
+inferred from traveler reviews.
+
+Photo licenses are separate; existing licensed venue photos retain their
+original credits and license links in the app's photo source screen.

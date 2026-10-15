@@ -1,0 +1,13 @@
+node_modules
+dist
+.git
+.runtime
+.env*
+android
+ios
+artifacts
+test-results
+playwright-report
+*.log
+server/*.test.mjs
+tests

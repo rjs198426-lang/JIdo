@@ -1,0 +1,262 @@
+{
+  "verifiedAt": "2026-10-14",
+  "official": [
+    {
+      "id": "tokyo",
+      "url": "https://www.japan.travel/en/destinations/kanto/tokyo/",
+      "verifiedAt": "2026-10-14"
+    },
+    {
+      "id": "osaka",
+      "url": "https://www.japan.travel/en/destinations/kansai/osaka/",
+      "verifiedAt": "2026-10-14"
+    },
+    {
+      "id": "yokohama",
+      "url": "https://www.japan.travel/en/destinations/kanto/kanagawa/",
+      "verifiedAt": "2026-10-14"
+    },
+    {
+      "id": "nagoya",
+      "url": "https://www.japan.travel/en/destinations/tokai/aichi/",
+      "verifiedAt": "2026-10-14"
+    },
+    {
+      "id": "sapporo",
+      "url": "https://www.japan.travel/en/destinations/hokkaido/hokkaido/",
+      "verifiedAt": "2026-10-14"
+    },
+    {
+      "id": "fukuoka",
+      "url": "https://www.japan.travel/en/destinations/kyushu/fukuoka/",
+      "verifiedAt": "2026-10-14"
+    },
+    {
+      "id": "hiroshima",
+      "url": "https://www.japan.travel/en/destinations/chugoku/hiroshima/",
+      "verifiedAt": "2026-10-14"
+    },
+    {
+      "id": "kobe",
+      "url": "https://www.japan.travel/en/destinations/kansai/hyogo/",
+      "verifiedAt": "2026-10-14"
+    },
+    {
+      "id": "sendai",
+      "url": "https://www.japan.travel/en/destinations/tohoku/miyagi/",
+      "verifiedAt": "2026-10-14"
+    },
+    {
+      "id": "kyoto",
+      "url": "https://www.japan.travel/en/destinations/kansai/kyoto/",
+      "verifiedAt": "2026-10-14"
+    }
+  ],
+  "venues": {
+    "kiyomizu": {
+      "title": "Kiyomizu-dera",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Kiyomizu-dera",
+      "verifiedAt": "2026-10-14"
+    },
+    "fushimi": {
+      "title": "Fushimi Inari-taisha",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Fushimi_Inari-taisha",
+      "verifiedAt": "2026-10-14"
+    },
+    "nishiki": {
+      "title": "Nishiki Market",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Nishiki_Market",
+      "verifiedAt": "2026-10-14"
+    },
+    "gion": {
+      "title": "Gion",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Gion",
+      "verifiedAt": "2026-10-14"
+    },
+    "kyoto-cafe": {
+      "title": "Ninenzaka",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ninenzaka",
+      "verifiedAt": "2026-10-14"
+    },
+    "ubud": {
+      "title": "Tegallalang",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Tegallalang",
+      "verifiedAt": "2026-10-14"
+    },
+    "uluwatu": {
+      "title": "Uluwatu Temple",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Uluwatu_Temple",
+      "verifiedAt": "2026-10-14"
+    },
+    "wat-arun": {
+      "title": "Wat Arun",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Wat_Arun",
+      "verifiedAt": "2026-10-14"
+    },
+    "grand-palace": {
+      "title": "Grand Palace",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Grand_Palace",
+      "verifiedAt": "2026-10-14"
+    },
+    "yaowarat": {
+      "title": "Yaowarat Road",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Yaowarat_Road",
+      "verifiedAt": "2026-10-14"
+    },
+    "talat-noi": {
+      "title": "Talat Noi",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Talat_Noi",
+      "verifiedAt": "2026-10-14"
+    },
+    "oia": {
+      "title": "Oia, Greece",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Oia%2C_Greece",
+      "verifiedAt": "2026-10-14"
+    },
+    "fira": {
+      "title": "Fira",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Fira",
+      "verifiedAt": "2026-10-14"
+    },
+    "burj": {
+      "title": "Burj Khalifa",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Burj_Khalifa",
+      "verifiedAt": "2026-10-14"
+    },
+    "dubai-souk": {
+      "title": "Dubai Spice Souk",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Dubai_Spice_Souk",
+      "verifiedAt": "2026-10-14"
+    },
+    "male": {
+      "title": "Malé",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mal%C3%A9",
+      "verifiedAt": "2026-10-14"
+    },
+    "tokyo-sensoji": {
+      "title": "Sensō-ji",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Sens%C5%8D-ji",
+      "verifiedAt": "2026-10-14"
+    },
+    "tokyo-meiji": {
+      "title": "Meiji Shrine",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Meiji_Shrine",
+      "verifiedAt": "2026-10-14"
+    },
+    "tokyo-shibuya": {
+      "title": "Shibuya Crossing",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Shibuya_Crossing",
+      "verifiedAt": "2026-10-14"
+    },
+    "osaka-castle": {
+      "title": "Osaka Castle",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Osaka_Castle",
+      "verifiedAt": "2026-10-14"
+    },
+    "osaka-dotonbori": {
+      "title": "Dōtonbori",
+      "sourceUrl": "https://en.wikipedia.org/wiki/D%C5%8Dtonbori",
+      "verifiedAt": "2026-10-14"
+    },
+    "osaka-umeda-sky": {
+      "title": "Umeda Sky Building",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Umeda_Sky_Building",
+      "verifiedAt": "2026-10-14"
+    },
+    "yokohama-minatomirai": {
+      "title": "Minato Mirai 21",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Minato_Mirai_21",
+      "verifiedAt": "2026-10-14"
+    },
+    "yokohama-yamashita": {
+      "title": "Yamashita Park",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Yamashita_Park",
+      "verifiedAt": "2026-10-14"
+    },
+    "yokohama-chinatown": {
+      "title": "Yokohama Chinatown",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Yokohama_Chinatown",
+      "verifiedAt": "2026-10-14"
+    },
+    "nagoya-castle": {
+      "title": "Nagoya Castle",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Nagoya_Castle",
+      "verifiedAt": "2026-10-14"
+    },
+    "nagoya-osu": {
+      "title": "Ōsu",
+      "sourceUrl": "https://en.wikipedia.org/wiki/%C5%8Csu",
+      "verifiedAt": "2026-10-14"
+    },
+    "nagoya-atsuta": {
+      "title": "Atsuta Shrine",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Atsuta_Shrine",
+      "verifiedAt": "2026-10-14"
+    },
+    "sapporo-odori": {
+      "title": "Odori Park",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Odori_Park",
+      "verifiedAt": "2026-10-14"
+    },
+    "sapporo-clock": {
+      "title": "Sapporo Clock Tower",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Sapporo_Clock_Tower",
+      "verifiedAt": "2026-10-14"
+    },
+    "sapporo-tv-tower": {
+      "title": "Sapporo TV Tower",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Sapporo_TV_Tower",
+      "verifiedAt": "2026-10-14"
+    },
+    "fukuoka-ohori": {
+      "title": "Ōhori Park",
+      "sourceUrl": "https://en.wikipedia.org/wiki/%C5%8Chori_Park",
+      "verifiedAt": "2026-10-14"
+    },
+    "fukuoka-kushida": {
+      "title": "Kushida Shrine",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Kushida_Shrine",
+      "verifiedAt": "2026-10-14"
+    },
+    "hiroshima-peace-park": {
+      "title": "Hiroshima Peace Memorial Park",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Hiroshima_Peace_Memorial_Park",
+      "verifiedAt": "2026-10-14"
+    },
+    "hiroshima-dome": {
+      "title": "Hiroshima Peace Memorial",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Hiroshima_Peace_Memorial",
+      "verifiedAt": "2026-10-14"
+    },
+    "hiroshima-shukkeien": {
+      "title": "Shukkei-en",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Shukkei-en",
+      "verifiedAt": "2026-10-14"
+    },
+    "kobe-harborland": {
+      "title": "Harborland",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Harborland",
+      "verifiedAt": "2026-10-14"
+    },
+    "kobe-kitano": {
+      "title": "Kitano-chō",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Kitano-ch%C5%8D",
+      "verifiedAt": "2026-10-14"
+    },
+    "kobe-rokko": {
+      "title": "Mount Rokkō",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mount_Rokk%C5%8D",
+      "verifiedAt": "2026-10-14"
+    },
+    "sendai-castle": {
+      "title": "Aoba Castle",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Aoba_Castle",
+      "verifiedAt": "2026-10-14"
+    },
+    "sendai-zuihoden": {
+      "title": "Zuihōden",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Zuih%C5%8Dden",
+      "verifiedAt": "2026-10-14"
+    }
+  }
+}
