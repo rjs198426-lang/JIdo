@@ -1,0 +1,229 @@
+{
+  "status": "draft-not-installed",
+  "city": {
+    "id": "guam",
+    "name": "괌",
+    "english": "GUAM",
+    "country": "미국령 괌",
+    "region": "휴양지",
+    "image": "/images/guide-placeholder.svg",
+    "tagline": "투몬 해변과 하갓냐 역사 산책, 남부 드라이브",
+    "description": "투몬·하갓냐·남부를 날짜별로 나누고 섬 남부는 차량 이동을 준비하세요.",
+    "tags": [
+      "해변 휴양",
+      "섬 여행"
+    ],
+    "flight": "괌 국제공항 · 운항편 확인",
+    "currency": "미국 달러 · USD",
+    "timeDifference": "한국보다 1시간 빠름",
+    "season": "1–5월 · 우기·태풍 확인",
+    "accent": "#d7efef"
+  },
+  "candidates": [
+    {
+      "id": "guam-tumon-beach",
+      "cityId": "guam",
+      "name": "투몬 비치",
+      "english": "Tumon Beach",
+      "area": "투몬",
+      "status": "pending-source-review",
+      "coordinates": null,
+      "photo": null
+    },
+    {
+      "id": "guam-ypao-beach",
+      "cityId": "guam",
+      "name": "이파오 비치",
+      "english": "Ypao Beach",
+      "area": "투몬",
+      "status": "pending-source-review",
+      "coordinates": null,
+      "photo": null
+    },
+    {
+      "id": "guam-gun-beach",
+      "cityId": "guam",
+      "name": "건 비치",
+      "english": "Gun Beach",
+      "area": "투몬",
+      "status": "pending-source-review",
+      "coordinates": null,
+      "photo": null
+    },
+    {
+      "id": "guam-two-lovers-point",
+      "cityId": "guam",
+      "name": "사랑의 절벽",
+      "english": "Two Lovers Point",
+      "area": "투몬 북부",
+      "status": "pending-source-review",
+      "coordinates": null,
+      "photo": null
+    },
+    {
+      "id": "guam-chamorro-village",
+      "cityId": "guam",
+      "name": "차모로 빌리지",
+      "english": "Chamorro Village",
+      "area": "하갓냐",
+      "status": "pending-source-review",
+      "coordinates": null,
+      "photo": null
+    },
+    {
+      "id": "guam-plaza-de-espana",
+      "cityId": "guam",
+      "name": "스페인 광장",
+      "english": "Plaza de España Guam",
+      "area": "하갓냐",
+      "status": "pending-source-review",
+      "coordinates": null,
+      "photo": null
+    },
+    {
+      "id": "guam-cathedral-basilica",
+      "cityId": "guam",
+      "name": "아가나 대성당",
+      "english": "Dulce Nombre de Maria Cathedral Basilica",
+      "area": "하갓냐",
+      "status": "pending-source-review",
+      "coordinates": null,
+      "photo": null
+    },
+    {
+      "id": "guam-latte-stone-park",
+      "cityId": "guam",
+      "name": "라테스톤 공원",
+      "english": "Latte Stone Park",
+      "area": "하갓냐",
+      "status": "pending-source-review",
+      "coordinates": null,
+      "photo": null
+    },
+    {
+      "id": "guam-fort-santa-agueda",
+      "cityId": "guam",
+      "name": "산타아규다 요새",
+      "english": "Fort Santa Agueda",
+      "area": "하갓냐",
+      "status": "pending-source-review",
+      "coordinates": null,
+      "photo": null
+    },
+    {
+      "id": "guam-guam-museum",
+      "cityId": "guam",
+      "name": "괌 박물관",
+      "english": "Guam Museum",
+      "area": "하갓냐",
+      "status": "pending-source-review",
+      "coordinates": null,
+      "photo": null
+    },
+    {
+      "id": "guam-asan-beach",
+      "cityId": "guam",
+      "name": "아산 비치 공원",
+      "english": "Asan Beach Park",
+      "area": "아산",
+      "status": "pending-source-review",
+      "coordinates": null,
+      "photo": null
+    },
+    {
+      "id": "guam-newman-center",
+      "cityId": "guam",
+      "name": "티스텔 뉴먼 방문자센터",
+      "english": "T. Stell Newman Visitor Center",
+      "area": "피티",
+      "status": "pending-source-review",
+      "coordinates": null,
+      "photo": null
+    },
+    {
+      "id": "guam-ritidian-beach",
+      "cityId": "guam",
+      "name": "리티디안 비치",
+      "english": "Ritidian Beach",
+      "area": "북부",
+      "status": "pending-source-review",
+      "coordinates": null,
+      "photo": null
+    },
+    {
+      "id": "guam-fish-eye",
+      "cityId": "guam",
+      "name": "피시아이 마린파크",
+      "english": "Fish Eye Marine Park",
+      "area": "피티",
+      "status": "pending-source-review",
+      "coordinates": null,
+      "photo": null
+    },
+    {
+      "id": "guam-emerald-valley",
+      "cityId": "guam",
+      "name": "에메랄드 밸리",
+      "english": "Emerald Valley Guam",
+      "area": "피티",
+      "status": "pending-source-review",
+      "coordinates": null,
+      "photo": null
+    },
+    {
+      "id": "guam-inarajan-pools",
+      "cityId": "guam",
+      "name": "이나라한 자연풀",
+      "english": "Inarajan Natural Pool",
+      "area": "이나라한",
+      "status": "pending-source-review",
+      "coordinates": null,
+      "photo": null
+    },
+    {
+      "id": "guam-fort-soledad",
+      "cityId": "guam",
+      "name": "솔레다드 요새",
+      "english": "Fort Nuestra Senora de la Soledad",
+      "area": "우마탁",
+      "status": "pending-source-review",
+      "coordinates": null,
+      "photo": null
+    },
+    {
+      "id": "guam-merizo-pier",
+      "cityId": "guam",
+      "name": "메리조 부두",
+      "english": "Merizo Pier",
+      "area": "메리조",
+      "status": "pending-source-review",
+      "coordinates": null,
+      "photo": null
+    },
+    {
+      "id": "guam-talofofo-falls",
+      "cityId": "guam",
+      "name": "탈로포포 폭포",
+      "english": "Talofofo Falls",
+      "area": "탈로포포",
+      "status": "pending-source-review",
+      "coordinates": null,
+      "photo": null
+    },
+    {
+      "id": "guam-premier-outlets",
+      "cityId": "guam",
+      "name": "괌 프리미어 아울렛",
+      "english": "Guam Premier Outlets",
+      "area": "타무닝",
+      "status": "pending-source-review",
+      "coordinates": null,
+      "photo": null
+    }
+  ],
+  "researchLimit": "공식 관광 자료·사진 서버 접속이 현재 HTTP 403으로 차단됩니다. 후보 장소의 정확한 위치·사진 이용 조건·현재 운영을 아직 검증하지 않았습니다. 이 파일은 앱의 내장 가이드로 불러오지 않습니다.",
+  "sourceTargets": [
+    "https://www.visitguam.com/",
+    "https://commons.wikimedia.org/"
+  ]
+}

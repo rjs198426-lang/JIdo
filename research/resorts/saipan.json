@@ -1,0 +1,229 @@
+{
+  "status": "draft-not-installed",
+  "city": {
+    "id": "saipan",
+    "name": "사이판",
+    "english": "SAIPAN",
+    "country": "북마리아나 제도",
+    "region": "휴양지",
+    "image": "/images/guide-placeholder.svg",
+    "tagline": "가라판과 해변, 북부 전망을 잇는 섬 여행",
+    "description": "가라판·북부·남부를 나누고 마나가하섬은 배편·기상 조건에 맞춰 별도로 계획하세요.",
+    "tags": [
+      "해변 휴양",
+      "섬 여행"
+    ],
+    "flight": "사이판 국제공항 · 운항편 확인",
+    "currency": "미국 달러 · USD",
+    "timeDifference": "한국보다 1시간 빠름",
+    "season": "12–6월 · 기상·해양 조건 확인",
+    "accent": "#d7efef"
+  },
+  "candidates": [
+    {
+      "id": "saipan-managaha",
+      "cityId": "saipan",
+      "name": "마나가하섬",
+      "english": "Managaha Island",
+      "area": "근교 · 마나가하섬",
+      "status": "pending-source-review",
+      "coordinates": null,
+      "photo": null
+    },
+    {
+      "id": "saipan-micro-beach",
+      "cityId": "saipan",
+      "name": "마이크로 비치",
+      "english": "Micro Beach",
+      "area": "가라판",
+      "status": "pending-source-review",
+      "coordinates": null,
+      "photo": null
+    },
+    {
+      "id": "saipan-american-memorial",
+      "cityId": "saipan",
+      "name": "아메리칸 메모리얼 파크",
+      "english": "American Memorial Park",
+      "area": "가라판",
+      "status": "pending-source-review",
+      "coordinates": null,
+      "photo": null
+    },
+    {
+      "id": "saipan-bird-island",
+      "cityId": "saipan",
+      "name": "버드아일랜드 전망대",
+      "english": "Bird Island Lookout",
+      "area": "북부",
+      "status": "pending-source-review",
+      "coordinates": null,
+      "photo": null
+    },
+    {
+      "id": "saipan-grotto",
+      "cityId": "saipan",
+      "name": "그로토",
+      "english": "The Grotto Saipan",
+      "area": "북부",
+      "status": "pending-source-review",
+      "coordinates": null,
+      "photo": null
+    },
+    {
+      "id": "saipan-banzai-cliff",
+      "cityId": "saipan",
+      "name": "만세절벽",
+      "english": "Banzai Cliff",
+      "area": "북부",
+      "status": "pending-source-review",
+      "coordinates": null,
+      "photo": null
+    },
+    {
+      "id": "saipan-suicide-cliff",
+      "cityId": "saipan",
+      "name": "자살절벽",
+      "english": "Suicide Cliff",
+      "area": "북부",
+      "status": "pending-source-review",
+      "coordinates": null,
+      "photo": null
+    },
+    {
+      "id": "saipan-last-command",
+      "cityId": "saipan",
+      "name": "최후의 사령부",
+      "english": "Last Command Post Saipan",
+      "area": "북부",
+      "status": "pending-source-review",
+      "coordinates": null,
+      "photo": null
+    },
+    {
+      "id": "saipan-mount-tapochau",
+      "cityId": "saipan",
+      "name": "타포차우산",
+      "english": "Mount Tapochau",
+      "area": "중부",
+      "status": "pending-source-review",
+      "coordinates": null,
+      "photo": null
+    },
+    {
+      "id": "saipan-forbidden-island",
+      "cityId": "saipan",
+      "name": "포비든아일랜드 전망대",
+      "english": "Forbidden Island Lookout",
+      "area": "동부",
+      "status": "pending-source-review",
+      "coordinates": null,
+      "photo": null
+    },
+    {
+      "id": "saipan-ladder-beach",
+      "cityId": "saipan",
+      "name": "래더 비치",
+      "english": "Ladder Beach",
+      "area": "남부",
+      "status": "pending-source-review",
+      "coordinates": null,
+      "photo": null
+    },
+    {
+      "id": "saipan-obyan-beach",
+      "cityId": "saipan",
+      "name": "오비안 비치",
+      "english": "Obyan Beach",
+      "area": "남부",
+      "status": "pending-source-review",
+      "coordinates": null,
+      "photo": null
+    },
+    {
+      "id": "saipan-tank-beach",
+      "cityId": "saipan",
+      "name": "탱크 비치",
+      "english": "Tank Beach",
+      "area": "동부",
+      "status": "pending-source-review",
+      "coordinates": null,
+      "photo": null
+    },
+    {
+      "id": "saipan-marine-beach",
+      "cityId": "saipan",
+      "name": "마린 비치",
+      "english": "Marine Beach Saipan",
+      "area": "동부",
+      "status": "pending-source-review",
+      "coordinates": null,
+      "photo": null
+    },
+    {
+      "id": "saipan-sugar-king",
+      "cityId": "saipan",
+      "name": "슈가킹 공원",
+      "english": "Sugar King Park",
+      "area": "가라판",
+      "status": "pending-source-review",
+      "coordinates": null,
+      "photo": null
+    },
+    {
+      "id": "saipan-kristo-rai",
+      "cityId": "saipan",
+      "name": "가라판 크리스토라이 성당",
+      "english": "Kristo Rai Church",
+      "area": "가라판",
+      "status": "pending-source-review",
+      "coordinates": null,
+      "photo": null
+    },
+    {
+      "id": "saipan-paseo",
+      "cityId": "saipan",
+      "name": "파세오 데 마리아나스",
+      "english": "Paseo de Marianas",
+      "area": "가라판",
+      "status": "pending-source-review",
+      "coordinates": null,
+      "photo": null
+    },
+    {
+      "id": "saipan-history-museum",
+      "cityId": "saipan",
+      "name": "북마리아나 역사문화박물관",
+      "english": "Northern Mariana Islands Museum of History and Culture",
+      "area": "가라판",
+      "status": "pending-source-review",
+      "coordinates": null,
+      "photo": null
+    },
+    {
+      "id": "saipan-jeffreys-beach",
+      "cityId": "saipan",
+      "name": "제프리스 비치",
+      "english": "Jeffrey's Beach",
+      "area": "동부",
+      "status": "pending-source-review",
+      "coordinates": null,
+      "photo": null
+    },
+    {
+      "id": "saipan-mount-carmel",
+      "cityId": "saipan",
+      "name": "카멜산 대성당",
+      "english": "Mount Carmel Cathedral Saipan",
+      "area": "찰란카노아",
+      "status": "pending-source-review",
+      "coordinates": null,
+      "photo": null
+    }
+  ],
+  "researchLimit": "공식 관광 자료·사진 서버 접속이 현재 HTTP 403으로 차단됩니다. 후보 장소의 정확한 위치·사진 이용 조건·현재 운영을 아직 검증하지 않았습니다. 이 파일은 앱의 내장 가이드로 불러오지 않습니다.",
+  "sourceTargets": [
+    "https://www.mymarianas.com/",
+    "https://commons.wikimedia.org/"
+  ]
+}

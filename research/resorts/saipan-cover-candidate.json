@@ -1,0 +1,15 @@
+{
+  "file": "saipan-cover-candidate.jpg",
+  "subject": "사이판 서해안 전경",
+  "author": "P. Miller (Pdmiller)",
+  "reportedLicense": "Public domain",
+  "licenseEvidence": "https://github.com/jsschrstrcks1/InTheWake/blob/main/ports/img/saipan/managaha-island.webp.attr.json",
+  "originalSource": "https://commons.wikimedia.org/wiki/File:Saipan.jpg",
+  "downloadedFrom": "https://raw.githubusercontent.com/jsschrstrcks1/InTheWake/main/ports/img/saipan/managaha-island.webp",
+  "checkedAt": "2026-10-15",
+  "imageVisuallyInspected": true,
+  "primaryLicensePageRead": false,
+  "status": "candidate-not-installed",
+  "note": "미러 메타데이터는 Public domain으로 표시합니다. 원본 Commons 페이지는 접속 차단으로 직접 읽지 못했습니다. 사진은 마나가하섬의 개별 사진으로 사용하지 않습니다.",
+  "sha256": "257ad502f95fa34c027ebe70c63abb118ad20cabc3a83d65627ed4e257c3daae"
+}
