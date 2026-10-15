@@ -62,7 +62,7 @@ test('새 여행권마다 고유 장소 20개, 원문 좌표·보관본 날짜·
   }
 })
 
-test('새 여행지·20개 장소·이동 가이드는 오프라인으로 읽고 원래 이름으로 검색', async ({
+test('새 여행지·20개 장소·공식 책자 목록은 오프라인으로 읽고 원래 이름으로 검색', async ({
   page,
   context,
 }) => {
@@ -74,9 +74,9 @@ test('새 여행지·20개 장소·이동 가이드는 오프라인으로 읽고
   await page
     .getByRole('button', { name: '타이베이 여행지 자세히 보기', exact: true })
     .click()
-  await expect(page.getByRole('dialog')).toContainText('이동 준비')
-  await expect(page.getByRole('dialog')).toContainText('지역별 하루 계획')
-  await expect(page.getByRole('dialog')).toContainText('2016-10-27')
+  await expect(page.getByRole('dialog')).toContainText('공식 가이드북')
+  await expect(page.getByRole('dialog')).toContainText('타이베이 관광 지도 2026')
+  await expect(page.getByRole('dialog')).not.toContainText('지역별 하루 계획')
   await page.getByRole('button', { name: '닫기', exact: true }).click()
   await page.getByRole('button', { name: '전체', exact: true }).click()
   await page.getByRole('tab', { name: /가볼 만한 곳/ }).click()

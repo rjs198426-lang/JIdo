@@ -354,7 +354,7 @@ function Editor({
             </div>
           </div>
           <p className="city-intro">{guide.city.description}</p>
-          <GuideContent guide={guide} />
+          <GuideContent cityId={guide.id} />
           <h3>추천 장소 {guide.places.length}곳</h3>
           {guide.places.map((place) => (
             <div key={place.id} className="preview-place">

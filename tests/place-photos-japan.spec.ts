@@ -1,7 +1,7 @@
 import { openTrips } from './navigation'
 import { test, expect, type Page } from '@playwright/test'
 import { cities, places } from '../src/data'
-import { japanGuideById } from '../src/japan-guides'
+import { officialGuidebooksForCity } from '../src/official-guidebooks'
 import { tripSchema } from '../src/travel-model'
 const png = Buffer.from(
   'iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+a4jIAAAAASUVORK5CYII=',
@@ -249,7 +249,7 @@ test('긴 하단 바·Android 제스처 여백·작은 높이에서도 마지막
   })
 })
 
-test('일본 주요 10개 도시·500개 이상 장소의 기본 가이드와 일본어 검색·일정 추가를 오프라인 제공', async ({
+test('일본 주요 10개 도시·500개 이상 장소와 공식 책자 목록·일본어 검색·일정 추가를 오프라인 제공', async ({
   page,
   context,
 }) => {
@@ -259,21 +259,22 @@ test('일본 주요 10개 도시·500개 이상 장소의 기본 가이드와 �
     places.filter((place) => japan.some((city) => city.id === place.cityId))
       .length,
   ).toBeGreaterThanOrEqual(500)
-  for (const city of japan) expect(japanGuideById.has(city.id)).toBe(true)
+  for (const city of japan)
+    expect(officialGuidebooksForCity(city.id).length).toBeGreaterThan(0)
   await page.goto('/')
   await page.getByLabel('도시 또는 나라 검색').fill('東京')
   await page.getByRole('button', { name: '여행지 찾기', exact: true }).click()
   await expect(page.locator('.city-card')).toHaveCount(1)
   await page.getByRole('button', { name: '도쿄 여행지 자세히 보기' }).click()
   const dialog = page.getByRole('dialog')
-  await expect(dialog).toContainText('하네다·나리타공항')
-  await expect(dialog).toContainText('하루 계획')
+  await expect(dialog.locator('.city-facts')).toHaveCount(0)
+  await expect(dialog).toContainText('공식 가이드북')
   await expect(dialog).toContainText('센소지')
   await expect(
-    dialog.getByRole('link', { name: '일본정부관광국 공식 안내' }),
+    dialog.getByRole('link', { name: /도쿄 여행 가이드 2026/ }),
   ).toHaveAttribute(
     'href',
-    'https://www.japan.travel/en/destinations/kanto/tokyo/',
+    'https://www.gotokyo.org/book/wp-content/uploads/2026/03/AO2_2603_tg_low_KR.pdf',
   )
   await dialog
     .getByRole('button', { name: '도쿄 여행 만들기', exact: true })
@@ -493,7 +494,7 @@ test('이전 서버 가이드 캐시가 비어 있어도 앱에 포함된 일본
   ).toBeVisible()
 })
 
-test('이전 교토 가이드의 반복 사진은 갱신하면서 사용자가 쓴 가이드와 일정 보존', async ({
+test('이전 교토 안내 문단은 삭제하고 장소·사진·개인 일정은 보존', async ({
   page,
 }) => {
   const city = {
@@ -557,6 +558,17 @@ test('이전 교토 가이드의 반복 사진은 갱신하면서 사용자가 �
   await page
     .getByRole('button', { name: '교토 여행지 자세히 보기', exact: true })
     .click()
-  await expect(page.getByRole('dialog')).toContainText('내가 정리한 교토')
-  await expect(page.getByRole('dialog')).toContainText('숙소 주변 걷기')
+  await expect(page.getByRole('dialog')).not.toContainText('숙소 주변 걷기')
+  await expect(page.getByRole('dialog')).toContainText(
+    '간사이 공식 관광 가이드',
+  )
+  const cache = await page.evaluate(() =>
+    JSON.parse(localStorage.getItem('jdo-guide-catalog-v1')!),
+  )
+  expect(cache.available[0].sections).toEqual([])
+  expect(cache.retained[0].sections).toEqual([])
+  expect(
+    cache.retained[0].places.map((place: { id: string }) => place.id),
+  ).toEqual(legacyPlaces.map((place) => place.id))
+  expect(cache.available[0].city.description).toBe('내가 정리한 교토')
 })

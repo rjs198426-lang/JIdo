@@ -1,0 +1,186 @@
+[
+  {
+    "id": "tokyo-2026",
+    "cityIds": [
+      "tokyo"
+    ],
+    "title": "도쿄 여행 가이드 2026",
+    "publisher": "도쿄도·도쿄관광재단",
+    "language": "한국어",
+    "url": "https://www.gotokyo.org/book/wp-content/uploads/2026/03/AO2_2603_tg_low_KR.pdf",
+    "sourceUrl": "https://www.gotokyo.org/book/ko/list/1132/",
+    "format": "PDF",
+    "note": "약 93 MB"
+  },
+  {
+    "id": "kansai-2026",
+    "cityIds": [
+      "kyoto",
+      "osaka",
+      "kobe"
+    ],
+    "title": "간사이 공식 관광 가이드 2026–2027",
+    "publisher": "간사이관광본부 · JNTO 배포",
+    "language": "영어",
+    "url": "https://members.jnto.go.jp/simg/pamph/2798.pdf",
+    "sourceUrl": "https://www.japan.travel/brochures/eng/index.php?keyword=Kyoto",
+    "format": "PDF",
+    "note": "광역 가이드 · 파일 접속 미확인"
+  },
+  {
+    "id": "yokohama-spots",
+    "cityIds": [
+      "yokohama"
+    ],
+    "title": "요코하마의 볼만한 곳·명소",
+    "publisher": "일본정부관광국(JNTO) 공식 자료실",
+    "language": "한국어",
+    "url": "https://members.jnto.go.jp/simg/pamph/1230.pdf",
+    "sourceUrl": "https://www.japan.travel/brochures/kor/index.php",
+    "format": "PDF",
+    "note": "공식 배포 목록 확인 · 파일 접속 미확인"
+  },
+  {
+    "id": "nagoya-map",
+    "cityIds": [
+      "nagoya"
+    ],
+    "title": "나고야 관광 지도",
+    "publisher": "일본정부관광국(JNTO) 공식 자료실",
+    "language": "한국어",
+    "url": "https://members.jnto.go.jp/simg/pamph/2622.pdf",
+    "sourceUrl": "https://www.japan.travel/brochures/kor/index.php",
+    "format": "PDF",
+    "note": "공식 배포 목록 확인 · 파일 접속 미확인"
+  },
+  {
+    "id": "fukuoka-welcome",
+    "cityIds": [
+      "fukuoka"
+    ],
+    "title": "어서오세요 후쿠오카",
+    "publisher": "일본정부관광국(JNTO) 공식 자료실",
+    "language": "한국어",
+    "url": "https://members.jnto.go.jp/simg/pamph/1325.pdf",
+    "sourceUrl": "https://www.japan.travel/brochures/kor/index.php",
+    "format": "PDF",
+    "note": "공식 배포 목록 확인 · 파일 접속 미확인"
+  },
+  {
+    "id": "hiroshima-peace",
+    "cityIds": [
+      "hiroshima"
+    ],
+    "title": "PEACE FULL Hiroshima",
+    "publisher": "일본정부관광국(JNTO) 공식 자료실",
+    "language": "한국어",
+    "url": "https://members.jnto.go.jp/simg/pamph/2523.pdf",
+    "sourceUrl": "https://www.japan.travel/brochures/kor/index.php",
+    "format": "PDF",
+    "note": "공식 배포 목록 확인 · 파일 접속 미확인"
+  },
+  {
+    "id": "hokkaido-drive",
+    "cityIds": [
+      "sapporo"
+    ],
+    "title": "홋카이도 드라이브 가이드 2024",
+    "publisher": "일본정부관광국(JNTO) 공식 자료실",
+    "language": "영어",
+    "url": "https://members.jnto.go.jp/simg/pamph/95.pdf",
+    "sourceUrl": "https://www.japan.travel/brochures/eng/index.php?keyword=Hokkaido",
+    "format": "PDF",
+    "note": "홋카이도 광역 · 2024판 · 파일 접속 미확인"
+  },
+  {
+    "id": "tohoku-map",
+    "cityIds": [
+      "sendai"
+    ],
+    "title": "일본 도호쿠 관광 지도",
+    "publisher": "일본정부관광국(JNTO) 공식 자료실",
+    "language": "영어",
+    "url": "https://members.jnto.go.jp/simg/pamph/2457.pdf",
+    "sourceUrl": "https://www.japan.travel/brochures/eng/index.php?keyword=Tohoku",
+    "format": "PDF",
+    "note": "도호쿠 광역 · 파일 접속 미확인"
+  },
+  {
+    "id": "taipei-map",
+    "cityIds": [
+      "taipei"
+    ],
+    "title": "타이베이 관광 지도 2026",
+    "publisher": "타이베이시 관광전파국",
+    "language": "영어",
+    "url": "https://www.travel.taipei/assets/files/UNDISCOVERED%20TAIPEI%20MAP_2026_E.pdf",
+    "sourceUrl": "https://www.travel.taipei/en/information/tourist-map",
+    "format": "PDF",
+    "note": "2026년 7월판"
+  },
+  {
+    "id": "taipei-quarterly",
+    "cityIds": [
+      "taipei"
+    ],
+    "title": "TAIPEI 공식 계간지",
+    "publisher": "타이베이시 관광전파국",
+    "language": "영어",
+    "url": "https://www.travel.taipei/en/pictorial",
+    "sourceUrl": "https://www.travel.taipei/en/pictorial",
+    "format": "발행·다운로드 목록",
+    "note": ""
+  },
+  {
+    "id": "hk-ebooks",
+    "cityIds": [
+      "hongkong"
+    ],
+    "title": "홍콩관광청 E-가이드북",
+    "publisher": "홍콩관광청",
+    "language": "한국어",
+    "url": "https://www.discoverhongkong.com/kr/travel-guide/traveller-essentials/e-guidebooks.html",
+    "sourceUrl": "https://www.discoverhongkong.com/kr/travel-guide/traveller-essentials/e-guidebooks.html",
+    "format": "발행·다운로드 목록",
+    "note": ""
+  },
+  {
+    "id": "hk-tsimshatsui",
+    "cityIds": [
+      "hongkong"
+    ],
+    "title": "침사추이 동네 가이드",
+    "publisher": "홍콩관광청",
+    "language": "영어",
+    "url": "https://www.discoverhongkong.com/content/dam/dhk/intl/plan/traveller-info/e-guidebooks/tsim-sha-tsui-en.pdf",
+    "sourceUrl": "https://www.discoverhongkong.com/eng/travel-guide/traveller-essentials/e-guidebooks.html",
+    "format": "PDF",
+    "note": ""
+  },
+  {
+    "id": "vietnam-coast",
+    "cityIds": [
+      "danang"
+    ],
+    "title": "베트남 해안·섬 여행 가이드",
+    "publisher": "베트남 관광청",
+    "language": "영어",
+    "url": "https://images.vietnam.travel/2021-04/Coast_Islands_Vietnam.pdf",
+    "sourceUrl": "https://vietnam.travel/",
+    "format": "PDF",
+    "note": "베트남 광역 · 2021 자료 · 파일 접속 미확인"
+  },
+  {
+    "id": "marianas-guide",
+    "cityIds": [
+      "saipan"
+    ],
+    "title": "마리아나 가이드",
+    "publisher": "마리아나 관광청",
+    "language": "영어",
+    "url": "https://mva.mymarianas.com/marianas-guide/",
+    "sourceUrl": "https://www.mymarianas.com/",
+    "format": "가이드 배포 페이지",
+    "note": "공식 메뉴 확인 · 배포 페이지 접속 미확인"
+  }
+]

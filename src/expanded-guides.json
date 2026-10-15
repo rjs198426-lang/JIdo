@@ -560,25 +560,6 @@
           }
         ]
       }
-    ],
-    "sections": [
-      {
-        "id": "taipei-transport",
-        "title": "이동 준비",
-        "body": "공항과 숙소를 잇는 철도·버스를 먼저 확인하고, 시내에서는 지하철역과 출구를 기준으로 이동하세요."
-      },
-      {
-        "id": "taipei-route",
-        "title": "지역별 하루 계획",
-        "body": "중정기념당·식물원·시먼딩을 하루로, 신이의 타이베이 101 쇼핑몰·샹산은 다른 하루로 묶으세요. 베이터우는 이동 시간을 따로 확보하세요."
-      }
-    ],
-    "sources": [
-      {
-        "title": "위키보야지 공개 보관본 · 2016-10-27",
-        "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
-        "accessedAt": "2026-10-15"
-      }
     ]
   },
   {
@@ -1141,25 +1122,6 @@
             "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
           }
         ]
-      }
-    ],
-    "sections": [
-      {
-        "id": "hongkong-transport",
-        "title": "이동 준비",
-        "body": "도심 철도와 버스, 섬으로 가는 배편을 구분하세요. 라마섬·청차우섬 방문은 귀환 배편을 먼저 확인합니다."
-      },
-      {
-        "id": "hongkong-route",
-        "title": "지역별 하루 계획",
-        "body": "센트럴·셩완은 도보와 에스컬레이터로, 침사추이는 해안·박물관으로 묶으세요. 디즈니랜드나 란타우섬은 별도 하루로 잡으세요."
-      }
-    ],
-    "sources": [
-      {
-        "title": "위키보야지 공개 보관본 · 2016-10-27",
-        "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
-        "accessedAt": "2026-10-15"
       }
     ]
   },
@@ -1724,25 +1686,6 @@
           }
         ]
       }
-    ],
-    "sections": [
-      {
-        "id": "singapore-transport",
-        "title": "이동 준비",
-        "body": "도심은 지하철역 기준으로 이동하되 만다이·센토사는 연결 교통과 귀가편을 별도로 확인하세요."
-      },
-      {
-        "id": "singapore-route",
-        "title": "지역별 하루 계획",
-        "body": "머라이언·마리나베이·가든스 바이 더 베이를 하루로 묶고, 차이나타운·시빅지구 박물관을 다른 하루에 배치하세요."
-      }
-    ],
-    "sources": [
-      {
-        "title": "위키보야지 공개 보관본 · 2016-10-27",
-        "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
-        "accessedAt": "2026-10-15"
-      }
     ]
   },
   {
@@ -2305,25 +2248,6 @@
             "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
           }
         ]
-      }
-    ],
-    "sections": [
-      {
-        "id": "danang-transport",
-        "title": "이동 준비",
-        "body": "다낭 도심·선짜반도·바나산·호이안은 서로 다른 구역입니다. 근교 이동은 차량과 귀환 방법을 먼저 정하세요."
-      },
-      {
-        "id": "danang-route",
-        "title": "지역별 하루 계획",
-        "body": "다낭 도심과 해변을 하루로, 오행산·호이안을 다른 하루로 묶으세요. 바나산은 날씨와 이동 시간을 고려해 별도 일정으로 두세요."
-      }
-    ],
-    "sources": [
-      {
-        "title": "위키보야지 공개 보관본 · 2016-10-27",
-        "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
-        "accessedAt": "2026-10-15"
       }
     ]
   }

@@ -1,10 +1,9 @@
 import type { City, Place } from './data'
-// JNTO destination pages read on 2026-10-14; Korean summaries are authored here.
+// Stable city/place records retained for existing personal trips.
 // Avoid fixed opening hours/fares. Photo attribution lives in photo-credits.ts.
 export type JapanGuide = {
   city: City
   places: Place[]
-  sections: { id: string; title: string; body: string }[]
   officialUrl: string
   verifiedAt: string
 }
@@ -27,8 +26,6 @@ function guide(
   english: string,
   description: string,
   airport: string,
-  transport: string,
-  route: string,
   officialPath: string,
   spots: Spot[],
 ): JapanGuide {
@@ -64,10 +61,6 @@ function guide(
       cost: '시설별 입장 조건 확인',
       tip,
     })),
-    sections: [
-      { id: `${id}-transport`, title: '이동', body: transport },
-      { id: `${id}-route`, title: '하루 계획', body: route },
-    ],
     officialUrl:
       'https://www.japan.travel/en/destinations/' + officialPath + '/',
     verifiedAt: '2026-10-14',
@@ -80,8 +73,6 @@ export const japanGuides: JapanGuide[] = [
     'TOKYO · 東京',
     '아사쿠사·시부야·신주쿠 등 지역을 나눠 계획하기 좋은 도시입니다. 같은 날에는 가까운 지역을 묶으세요.',
     '하네다·나리타공항',
-    '하네다는 철도·모노레일·버스, 나리타는 공항 특급·버스로 도심에 연결됩니다. 시내 JR·지하철은 운영사가 여러 곳이므로 숙소의 가까운 역과 출구를 기준으로 동선을 잡습니다.',
-    '아사쿠사 주변을 하루로 묶고 메이지 신궁·하라주쿠·시부야는 다른 하루에 배치합니다. 도시를 가로지르는 왕복 이동을 줄이세요.',
     'kanto/tokyo',
     [
       [
@@ -119,8 +110,6 @@ export const japanGuides: JapanGuide[] = [
     'OSAKA · 大阪',
     '난바·우메다·오사카성 주변을 나눠 계획하고, 교토·고베 이동을 이어갈 수 있습니다.',
     '간사이·이타미공항',
-    '간사이공항에서 JR·난카이 철도로 도심에 연결됩니다. 신칸센은 오사카역이 아닌 신오사카역에 도착합니다. 숙소를 난바·우메다 중 어느 지역에 둘지 정하면 교토·나라·고베 이동을 묶기 좋습니다.',
-    '오사카성 주변과 도톤보리를 하루로 묶거나, 우메다 지역을 따로 배치합니다. 교토·고베 방문일에는 당일 귀가 열차를 확인하세요.',
     'kansai/osaka',
     [
       [
@@ -158,8 +147,6 @@ export const japanGuides: JapanGuide[] = [
     'YOKOHAMA · 横浜',
     '항구 주변 산책과 차이나타운을 묶기 좋으며 도쿄에서 이어서 방문할 수 있습니다.',
     '도쿄 공항에서 철도 이동',
-    '신칸센은 신요코하마역에 정차하고, 도쿄에서는 일반 열차로 요코하마역에 접근할 수 있습니다. 하네다공항에서도 철도·버스로 연결됩니다. 항구 관광은 미나토미라이·모토마치추카가이역을 기준으로 묶습니다.',
-    '미나토미라이에서 항구를 따라 야마시타 공원으로 이동하고 차이나타운에서 식사하는 순서로 묶을 수 있습니다.',
     'kanto/kanagawa',
     [
       [
@@ -197,8 +184,6 @@ export const japanGuides: JapanGuide[] = [
     'NAGOYA · 名古屋',
     '나고야성·오스·아쓰타 지역을 나눠 둘러보고 중부 지역 여행을 이어갈 수 있습니다.',
     '주부 센트레아공항',
-    '나고야역은 도카이도 신칸센의 거점입니다. 국제선 관문인 주부 센트레아공항과 도심은 메이테쓰 철도로 연결됩니다. 시내 관광과 다른 도시 이동을 나고야역 기준으로 나눕니다.',
-    '나고야성 관람과 오스 상점가 산책을 묶고, 아쓰타 신궁은 별도 지역 일정으로 배치할 수 있습니다.',
     'tokai/aichi',
     [
       [
@@ -236,8 +221,6 @@ export const japanGuides: JapanGuide[] = [
     'SAPPORO · 札幌',
     '도심의 오도리 공원과 주요 건물을 도보로 묶기 좋습니다. 겨울에는 눈과 빙판에 맞춰 이동을 여유 있게 잡으세요.',
     '신치토세공항',
-    '신치토세공항이 주요 항공 관문입니다. 도쿄에서 철도로 올 때는 신하코다테호쿠토에서 호쿠토 특급으로 갈아타므로 삿포로까지 신칸센 직통으로 계획하지 않습니다. 시내는 삿포로역·오도리·스스키노를 중심으로 묶습니다.',
-    '시계탑·오도리 공원·TV타워를 한 구역으로 묶고, 다른 지역 관광은 별도의 날로 배치하세요.',
     'hokkaido/hokkaido',
     [
       [
@@ -275,8 +258,6 @@ export const japanGuides: JapanGuide[] = [
     'FUKUOKA · 福岡',
     '하카타·텐진과 오호리 공원을 나눠 계획하기 좋습니다. 하카타역에서 규슈 다른 도시로 여행을 이어갈 수 있습니다.',
     '후쿠오카공항',
-    '후쿠오카공항은 도심 가까이에 있고, 하카타역은 산요·규슈 신칸센의 거점입니다. 하카타·텐진을 숙소와 시내 관광의 기준으로 잡고 다른 규슈 도시로 이동하는 날을 따로 둡니다.',
-    '오호리 공원 산책 후 텐진에서 식사·쇼핑을 하거나, 하카타 주변과 구시다 신사를 묶어 걸을 수 있습니다.',
     'kyushu/fukuoka',
     [
       [
@@ -314,8 +295,6 @@ export const japanGuides: JapanGuide[] = [
     'HIROSHIMA · 広島',
     '평화기념공원 주변을 중심으로 계획하고, 시내 정원이나 근교 방문을 다른 시간에 배치할 수 있습니다.',
     '히로시마공항',
-    '히로시마역은 산요 신칸센으로 오사카·후쿠오카와 연결됩니다. 도심 밖 히로시마공항에서는 공항버스 이동을 확보합니다. 시내 관광은 노면전차·버스를 조합하고 미야지마는 별도의 근교 일정으로 둡니다.',
-    '평화기념공원과 원폭 돔을 함께 방문하고, 슛케이엔 정원을 별도 산책 일정으로 더할 수 있습니다.',
     'chugoku/hiroshima',
     [
       [
@@ -353,8 +332,6 @@ export const japanGuides: JapanGuide[] = [
     'KOBE · 神戸',
     '항구·기타노·롯코 지역을 나눠 계획할 수 있습니다. 산과 항구 사이 이동에는 별도의 시간을 잡으세요.',
     '고베·간사이공항',
-    '신칸센의 신코베역과 시내 철도 거점인 산노미야역을 구분합니다. 간사이·고베공항에서 접근할 수 있습니다. 항구 산책과 기타노 언덕·롯코산 방문은 교통편과 시간을 나눠 잡습니다.',
-    '기타노 주변을 둘러본 뒤 하버랜드에서 항구를 걷거나, 롯코 지역을 별도의 날로 잡을 수 있습니다.',
     'kansai/hyogo',
     [
       [
@@ -392,8 +369,6 @@ export const japanGuides: JapanGuide[] = [
     'SENDAI · 仙台',
     '센다이역을 거점으로 도심과 역사 유적을 나눠 계획할 수 있는 도호쿠의 주요 도시입니다.',
     '센다이공항',
-    '도쿄에서 도호쿠 신칸센으로 센다이역에 접근하고 센다이공항에서도 시내로 연결됩니다. 역 주변을 숙소 거점으로 잡고, 다테 마사무네 유적과 마쓰시마 근교 방문을 다른 날로 나눌 수 있습니다.',
-    '조젠지 거리에서 도심을 걷고, 센다이성 터와 즈이호덴은 이동 시간을 확보해 방문하세요.',
     'tohoku/miyagi',
     [
       [
@@ -426,20 +401,3 @@ export const japanGuides: JapanGuide[] = [
     ],
   ),
 ]
-export const japanGuideById = new Map(
-  japanGuides.map((guide) => [guide.city.id, guide]),
-)
-japanGuideById.set(
-  'kyoto',
-  guide(
-    'kyoto',
-    '교토',
-    'KYOTO · 京都',
-    '히가시야마·기온과 후시미를 나눠 계획하는 도시입니다.',
-    '간사이·이타미공항에서 철도 이동',
-    '교토역은 도카이도·산요 신칸센으로 주요 도시와 연결됩니다. 가까운 공항은 오사카의 간사이·이타미공항입니다. 시내는 철도·버스·도보를 조합하고 히가시야마와 후시미·우지 방문일을 나눕니다.',
-    '기요미즈데라·히가시야마·기온을 같은 지역 일정으로 묶고, 후시미 이나리 신사는 다른 시간대에 배치할 수 있습니다.',
-    'kansai/kyoto',
-    [],
-  ),
-)
