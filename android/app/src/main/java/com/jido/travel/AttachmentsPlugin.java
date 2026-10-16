@@ -125,6 +125,18 @@ public class AttachmentsPlugin extends Plugin {
         try { String id = call.getString("id"); metadata(getContext(), id); JSObject result = new JSObject(); result.put("uri", Uri.fromFile(file(getContext(), id)).toString()); call.resolve(result); }
         catch (Exception error) { call.reject("자료가 없습니다. 다시 첨부해 주세요."); }
     }
+    @PluginMethod public void checkFile(PluginCall call) {
+        worker.execute(() -> {
+            try {
+                String id = call.getString("id"); metadata(getContext(), id);
+                File target = file(getContext(), id);
+                try (InputStream stream = new FileInputStream(target)) {
+                    if (stream.read() < 0) throw new IOException("빈 파일입니다.");
+                }
+                JSObject result = new JSObject(); result.put("size", target.length()); call.resolve(result);
+            } catch (Exception error) { call.reject("기기에 자료가 없거나 읽을 수 없습니다. 원본을 다시 첨부해 주세요."); }
+        });
+    }
     @PluginMethod public void readText(PluginCall call) {
         worker.execute(() -> {
             try {

@@ -193,7 +193,36 @@ test('오늘 날짜·사용자가 정한 방문 순서로 현장 실행, 완료�
 test('선택한 날의 숙소·확인서·연락처와 장소 지출을 탭 탐색 없이 연결', async ({
   page,
 }) => {
-  await seed(page)
+  const fileId = '55555555-1111-4111-8111-111111111111'
+  await seed(page, {
+    attachments: [
+      {
+        id: fileId,
+        name: '숙소확인서.txt',
+        mimeType: 'text/plain',
+        size: 12,
+        createdAt: '2026-10-16T00:00:00.000Z',
+        storage: 'browser',
+        reservationId: 'hotel',
+      },
+    ],
+  })
+  await page.evaluate(async (id) => {
+    const db = await new Promise<IDBDatabase>((resolve) => {
+      const request = indexedDB.open('jido-attachments-v1', 1)
+      request.onupgradeneeded = () => request.result.createObjectStore('files')
+      request.onsuccess = () => resolve(request.result)
+    })
+    await new Promise<void>((resolve) => {
+      const tx = db.transaction('files', 'readwrite')
+      tx.objectStore('files').put(
+        new Blob(['hotel-ticket'], { type: 'text/plain' }),
+        id,
+      )
+      tx.oncomplete = () => resolve()
+    })
+    db.close()
+  }, fileId)
   await tab(page, '여행 중')
   const field = page.getByRole('region', { name: '여행 중 빠른 실행' })
   await expect(field.locator('.field-lodging')).toContainText('오늘 숙소')
@@ -202,6 +231,11 @@ test('선택한 날의 숙소·확인서·연락처와 장소 지출을 탭 탐�
   await expect(
     field.getByRole('region', { name: '예약 첨부 자료' }),
   ).toHaveCount(1)
+  await field.getByRole('button', { name: '숙소확인서.txt 자료 열기' }).click()
+  await expect(
+    page.getByRole('dialog', { name: '숙소확인서.txt 미리보기' }),
+  ).toContainText('hotel-ticket')
+  await page.getByRole('button', { name: '자료 미리보기 닫기' }).click()
   await field.getByText('여행 연락처·메모', { exact: true }).click()
   await expect(
     field.getByRole('link', { name: '+33123456789' }),

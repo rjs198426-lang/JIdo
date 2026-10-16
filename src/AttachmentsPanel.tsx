@@ -1,4 +1,7 @@
 import { createContext, useContext, useEffect, useRef, useState } from 'react'
+import AttachmentCheck from './AttachmentCheck'
+import { attachmentConnection } from './trip-search'
+import type { Trip } from './travel-model'
 import {
   FileText,
   Image as ImageIcon,
@@ -39,6 +42,7 @@ export default function AttachmentsPanel({
   imagesOnly = false,
   all = false,
   readOnly = false,
+  trip,
 }: {
   reservationId?: string
   expenseId?: string
@@ -46,11 +50,13 @@ export default function AttachmentsPanel({
   imagesOnly?: boolean
   all?: boolean
   readOnly?: boolean
+  trip?: Trip
 }) {
   const context = useContext(AttachmentsContext)
   const [busy, setBusy] = useState(false),
     [error, setError] = useState(''),
     [query, setQuery] = useState(''),
+    [category, setCategory] = useState('전체'),
     [remove, setRemove] = useState<Attachment | null>(null),
     [preview, setPreview] = useState<Attachment | null>(null)
   const input = useRef<HTMLInputElement>(null),
@@ -74,6 +80,15 @@ export default function AttachmentsPanel({
               ? file.expenseId === expenseId
               : !file.stopId && !file.reservationId && !file.expenseId)) &&
       (!imagesOnly || file.mimeType.startsWith('image/')) &&
+      (!all ||
+        category === '전체' ||
+        (category === '예약' && !!file.reservationId) ||
+        (category === '장소' && !!file.stopId) ||
+        (category === '영수증' && !!file.expenseId) ||
+        (category === '공용' &&
+          !file.stopId &&
+          !file.reservationId &&
+          !file.expenseId)) &&
       file.name.toLocaleLowerCase().includes(query.toLocaleLowerCase().trim()),
   )
   const limit = Math.max(0, Math.min(10, 300 - context.files.length))
@@ -196,6 +211,28 @@ export default function AttachmentsPanel({
         />
       )}
       {busy && <p role="status">선택한 자료를 기기에 저장하고 있어요.</p>}
+      {all && context.files.length > 0 && (
+        <>
+          <div
+            className="journey-filter-row"
+            role="group"
+            aria-label="자료 분류"
+          >
+            {['전체', '예약', '장소', '영수증', '공용'].map((name) => (
+              <button
+                type="button"
+                key={name}
+                className="button outline small"
+                aria-pressed={category === name}
+                onClick={() => setCategory(name)}
+              >
+                {name}
+              </button>
+            ))}
+          </div>
+          <AttachmentCheck files={context.files} />
+        </>
+      )}
       {error && (
         <p className="form-error attachment-error" role="alert">
           {error}
@@ -203,7 +240,7 @@ export default function AttachmentsPanel({
       )}
       <div className="attachment-list">
         {files.map((file) => (
-          <article key={file.id}>
+          <article key={file.id} data-attachment-id={file.id} tabIndex={-1}>
             <button
               className="attachment-open"
               type="button"
@@ -225,6 +262,7 @@ export default function AttachmentsPanel({
                       ? ' · 영수증'
                       : ''}
                 </small>
+                {all && <small>{attachmentConnection(file, trip)}</small>}
               </span>
             </button>
             {!readOnly && imagesOnly && stopId && (
@@ -254,8 +292,8 @@ export default function AttachmentsPanel({
           </article>
         ))}
       </div>
-      {all && !files.length && query.trim() && (
-        <p className="workspace-empty">이름에 맞는 자료가 없어요.</p>
+      {all && !files.length && (query.trim() || category !== '전체') && (
+        <p className="workspace-empty">조건에 맞는 자료가 없어요.</p>
       )}
       {remove && (
         <div className="attachment-remove" role="alert">

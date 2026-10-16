@@ -1,0 +1,241 @@
+.trip-banner-controls {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 4px;
+  flex-shrink: 0;
+}
+.trip-banner-controls > .icon-button {
+  min-width: 44px;
+  min-height: 44px;
+  color: #126f61;
+  background: #eff7f3;
+  border: 1px solid #d3e3db;
+  border-radius: 10px;
+}
+.itinerary.is-field .trip-banner-controls {
+  gap: 2px;
+}
+.itinerary.is-field .field-management summary {
+  min-width: 44px;
+  justify-content: center;
+  padding-inline: 4px;
+}
+.itinerary.is-field .trip-banner {
+  gap: 6px;
+}
+.trip-search-dialog,
+.day-adjust-dialog {
+  width: min(620px, calc(100% - 24px));
+  max-height: calc(100dvh - 24px);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 0 16px 16px;
+  background: #fff;
+  color: #193c35;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+.trip-search-dialog::backdrop,
+.day-adjust-dialog::backdrop {
+  background: #163a3399;
+}
+.travel-dialog-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  background: #fff;
+  padding: 8px 0;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+.travel-dialog-heading h3 {
+  font-size: 17px;
+  margin: 0;
+}
+.travel-dialog-heading button {
+  min-width: 44px;
+  min-height: 44px;
+  flex-shrink: 0;
+}
+.trip-search-dialog .field,
+.day-adjust-dialog .field {
+  min-width: 0;
+  font-size: 14px;
+  margin: 12px 0;
+}
+.trip-search-dialog input,
+.day-adjust-dialog input[type='number'] {
+  min-width: 0;
+  width: 100%;
+  min-height: 48px;
+  font-size: 16px;
+}
+.journey-filter-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 12px 0;
+}
+.journey-filter-row .button {
+  min-height: 44px;
+  font-size: 13px;
+  white-space: normal;
+}
+.journey-filter-row [aria-pressed='true'] {
+  background: #e4f4ee;
+  color: #006d62;
+  border-color: #087b70;
+}
+.trip-search-count {
+  font-size: 14px;
+  margin: 12px 0;
+}
+.trip-search-results {
+  display: grid;
+  gap: 8px;
+}
+.trip-search-results > button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  min-height: 56px;
+  padding: 12px;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  text-align: left;
+  color: #254139;
+}
+.trip-search-results span {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.trip-search-results svg {
+  flex-shrink: 0;
+}
+.trip-search-results strong {
+  display: block;
+  font-family: var(--app-body-font);
+  font-size: 16px;
+}
+.trip-search-results small {
+  display: block;
+  font-family: var(--app-body-font);
+  font-size: 13px;
+  line-height: 1.6;
+}
+.adjust-stop-list {
+  display: grid;
+  gap: 8px;
+  margin: 12px 0;
+}
+.adjust-stop-list label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 52px;
+  padding: 8px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  cursor: pointer;
+}
+.adjust-stop-list input {
+  flex-shrink: 0;
+  width: 22px;
+  height: 22px;
+}
+.adjust-stop-list span {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.adjust-stop-list strong,
+.adjust-stop-list small {
+  display: block;
+  font-family: var(--app-body-font);
+  line-height: 1.6;
+}
+.adjust-stop-list strong {
+  font-size: 15px;
+}
+.adjust-stop-list small {
+  font-size: 13px;
+}
+.adjust-stop-list label:has(input:disabled) {
+  color: #64776f;
+  background: #f7f9f7;
+}
+.travel-dialog-actions {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+  gap: 8px;
+  padding: 12px 0 0;
+  position: sticky;
+  bottom: -16px;
+  background: #fff;
+  z-index: 1;
+}
+.travel-dialog-actions .button {
+  min-height: 48px;
+  white-space: normal;
+  min-width: 0;
+}
+.attachment-check {
+  margin: 8px 0;
+  font-size: 13px;
+  overflow-wrap: anywhere;
+}
+.attachment-check .button {
+  min-height: 44px;
+}
+.attachment-check-errors {
+  padding-left: 18px;
+  margin: 8px 0;
+}
+.attachment-check-errors strong,
+.attachment-check-errors span {
+  display: block;
+  line-height: 1.6;
+}
+.attachment-check-errors li {
+  margin: 8px 0;
+}
+[data-attachment-id]:focus,
+[data-expense-id]:focus {
+  outline: 2px solid #168b7b;
+  outline-offset: 3px;
+}
+@media (max-width: 700px) {
+  .itinerary:not(.is-field) .trip-banner {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 8px;
+  }
+  .itinerary:not(.is-field) .trip-banner > div:first-child {
+    min-width: 0;
+  }
+  .itinerary:not(.is-field) .trip-banner-controls {
+    flex-wrap: wrap;
+    max-width: 100px;
+  }
+  .itinerary:not(.is-field) .trip-management {
+    width: 100%;
+  }
+  .day-add-actions {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+}
+.duration-input {
+  display: grid;
+  gap: 4px;
+  min-width: 0;
+}
+.duration-input small {
+  font-size: 12px;
+  color: #87530f;
+}

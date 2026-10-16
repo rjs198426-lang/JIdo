@@ -238,7 +238,7 @@ export default function TripDashboard({
           ))}
         </details>
       )}
-      <AttachmentsPanel all />
+      <AttachmentsPanel all trip={trip} />
       <TravelMembers trip={trip} onUpdate={onUpdate} />
       <div className="travel-info">
         <div className="tool-heading">

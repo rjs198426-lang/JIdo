@@ -11,6 +11,7 @@ export const NativeAttachments = registerPlugin<{
     imagesOnly?: boolean
   }): Promise<{ files: Attachment[]; errors: string[] }>
   getUri(options: { id: string }): Promise<{ uri: string }>
+  checkFile(options: { id: string }): Promise<{ size: number }>
   readText(options: {
     id: string
   }): Promise<{ text: string; truncated: boolean }>
@@ -76,6 +77,21 @@ export async function browserBlob(file: Attachment): Promise<Blob> {
   if (!(blob instanceof Blob))
     throw new Error('자료가 없습니다. 다시 첨부해 주세요.')
   return blob
+}
+export async function checkStoredAttachment(file: Attachment) {
+  let size: number
+  if (file.storage === 'android') {
+    if (!isAndroid()) throw new Error('다른 Android 기기에 저장된 자료입니다.')
+    size = (await NativeAttachments.checkFile({ id: file.id })).size
+  } else {
+    const blob = await browserBlob(file)
+    await blob.slice(0, 1).arrayBuffer()
+    size = blob.size
+  }
+  if (!Number.isInteger(size) || size <= 0)
+    throw new Error('빈 파일이거나 자료를 읽을 수 없어요.')
+  if (size !== file.size)
+    throw new Error('저장된 파일 크기가 기록과 달라요. 원본을 확인하세요.')
 }
 export async function attachmentUrl(
   file: Attachment,

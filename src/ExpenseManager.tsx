@@ -36,11 +36,13 @@ type Props = {
   trip: Trip
   onUpdate: (trip: Trip) => void
   initialExpense?: ExpenseDraft
+  focusExpenseId?: string
 }
 export default function ExpenseManager({
   trip,
   onUpdate,
   initialExpense,
+  focusExpenseId,
 }: Props) {
   const expenses = trip.expenses || [],
     members = trip.members || []
@@ -92,6 +94,25 @@ export default function ExpenseManager({
     [filterCategory, setFilterCategory] = useState('전체'),
     [filterCurrency, setFilterCurrency] = useState('전체'),
     [filterQuery, setFilterQuery] = useState('')
+  useEffect(() => {
+    if (!focusExpenseId) return
+    setView('지출')
+    setFilterDate('')
+    setFilterCategory('전체')
+    setFilterCurrency('전체')
+    setFilterQuery('')
+  }, [focusExpenseId])
+  useEffect(() => {
+    if (!focusExpenseId || view !== '지출') return
+    const request = requestAnimationFrame(() => {
+      const element = Array.from(
+        document.querySelectorAll<HTMLElement>('[data-expense-id]'),
+      ).find((item) => item.dataset.expenseId === focusExpenseId)
+      element?.scrollIntoView({ block: 'center', behavior: 'instant' })
+      element?.focus({ preventScroll: true })
+    })
+    return () => cancelAnimationFrame(request)
+  }, [focusExpenseId, view])
   const [base, setBase] = useState<Currency>(trip.baseCurrency || 'KRW'),
     [totalBudget, setTotalBudget] = useState(
       trip.totalBudget === undefined ? '' : String(trip.totalBudget),
@@ -610,7 +631,7 @@ export default function ExpenseManager({
             {[...visible]
               .sort((a, b) => b.date.localeCompare(a.date))
               .map((item) => (
-                <article key={item.id}>
+                <article key={item.id} data-expense-id={item.id} tabIndex={-1}>
                   <div>
                     <small>
                       {formatDate(item.date)} · {item.category} ·{' '}

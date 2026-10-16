@@ -11,6 +11,8 @@ export type JourneyTarget = {
   stopId?: string
   reservationId?: string
   checklistId?: string
+  attachmentId?: string
+  expenseId?: string
 }
 export type ReadinessIssue = {
   id: string

@@ -1,4 +1,5 @@
 import { useState, type FormEvent } from 'react'
+import { useDraftFields } from './form-draft'
 import { Plus, Pencil, Trash2 } from 'lucide-react'
 import { checklistCategories, checklistSchema, type Trip } from './travel-model'
 import { today, formatDate } from './store'
@@ -45,15 +46,40 @@ export default function PreparationChecklist({
   onUpdate: (trip: Trip) => void
 }) {
   const items = trip.checklist || []
-  const [title, setTitle] = useState(''),
-    [category, setCategory] = useState<Item['category']>('기타'),
-    [template, setTemplate] = useState('기본 여행'),
+  const draft = useDraftFields(
+    `jido-draft:checklist:${trip.id}`,
+    {
+      title: '',
+      category: '기타' as Item['category'],
+      addAssignee: '',
+      editing: null as Item | null,
+    },
+    {
+      title: (value) => typeof value === 'string' && value.length <= 160,
+      category: (value) =>
+        checklistCategories.includes(value as NonNullable<Item['category']>),
+      addAssignee: (value) =>
+        value === '' ||
+        trip.members?.some((member) => member.id === value) === true,
+      editing: (value) =>
+        value === null ||
+        (!!value &&
+          typeof value === 'object' &&
+          typeof (value as Item).title === 'string' &&
+          (value as Item).title.length <= 160 &&
+          checklistSchema.safeParse({ ...value, title: '초안' }).success),
+    },
+    (value) => !!value.title || !!value.editing,
+  )
+  const [title, setTitle] = draft.field('title'),
+    [category, setCategory] = draft.field('category'),
+    [addAssignee, setAddAssignee] = draft.field('addAssignee'),
+    [editing, setEditing] = draft.field('editing')
+  const [template, setTemplate] = useState('기본 여행'),
     [filter, setFilter] = useState('전체'),
     [categoryFilter, setCategoryFilter] = useState('전체'),
-    [assigneeFilter, setAssigneeFilter] = useState('all'),
-    [addAssignee, setAddAssignee] = useState('')
-  const [editing, setEditing] = useState<Item | null>(null),
-    [removed, setRemoved] = useState<{ item: Item; index: number } | null>(
+    [assigneeFilter, setAssigneeFilter] = useState('all')
+  const [removed, setRemoved] = useState<{ item: Item; index: number } | null>(
       null,
     ),
     [error, setError] = useState('')

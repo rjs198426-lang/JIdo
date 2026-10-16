@@ -1,4 +1,9 @@
 import DayTransfers from './DayTransfers'
+import DurationInput from './DurationInput'
+import TripSearch from './TripSearch'
+import DayScheduleAdjust from './DayScheduleAdjust'
+import { applyTimeAdjustment, type TimeAdjustment } from './schedule-adjust'
+import { useJourneyNavigation } from './use-journey-navigation'
 import type { JourneyTarget } from './trip-readiness'
 import { dayTransferLegs } from './transfer-planning'
 import {
@@ -74,6 +79,8 @@ import {
   MapPin,
   Plus,
   Search,
+  ChevronLeft,
+  SlidersHorizontal,
   Sparkles,
   Trash2,
   Users,
@@ -831,7 +838,7 @@ function PlacePicker({
 function Itinerary({
   trip,
   day,
-  onDayChange,
+  onDayChange: changeDay,
   onAdd,
   onDeleteTrip,
   onEditTrip,
@@ -858,9 +865,23 @@ function Itinerary({
   const city = tripCity(trip)
   const personalCityPhoto = usePersonalPhoto(personalPhotoKey('city', city.id))
   const cityCover = usePhotoUrl(personalCityPhoto) || city.image
-  const [workspace, setWorkspace] = useState(
+  const [workspace, setWorkspaceState] = useState(
     () => journeyPreference(trip).workspace,
   )
+  const navigation = useJourneyNavigation(
+    workspace,
+    day,
+    setWorkspaceState,
+    changeDay,
+  )
+  const setWorkspace = (next: string) => navigation.go(next)
+  const onDayChange = (next: number) => navigation.go(workspace, next)
+  const [searchOpen, setSearchOpen] = useState(false)
+  const [targetRevision, setTargetRevision] = useState(0)
+  const [focusedExpenseId, setFocusedExpenseId] = useState<string>()
+  const [adjustOpen, setAdjustOpen] = useState(false)
+  const [timeUndo, setTimeUndo] = useState<TimeAdjustment>()
+  const [adjustError, setAdjustError] = useState('')
   useEffect(() => {
     saveJourneyPreference(trip, day, workspace)
   }, [trip.id, day, workspace])
@@ -892,12 +913,21 @@ function Itinerary({
     pendingTarget.current = null
     const attribute = target.reservationId
       ? 'data-reservation-id'
-      : target.checklistId
-        ? 'data-checklist-id'
-        : workspace === 'transfers'
-          ? 'data-transfer-id'
-          : 'data-stop-id'
-    const id = target.reservationId || target.checklistId || target.stopId
+      : target.attachmentId
+        ? 'data-attachment-id'
+        : target.expenseId
+          ? 'data-expense-id'
+          : target.checklistId
+            ? 'data-checklist-id'
+            : workspace === 'transfers'
+              ? 'data-transfer-id'
+              : 'data-stop-id'
+    const id =
+      target.reservationId ||
+      target.attachmentId ||
+      target.expenseId ||
+      target.checklistId ||
+      target.stopId
     const element = id
       ? Array.from(
           document.querySelectorAll<HTMLElement>(`[${attribute}]`),
@@ -905,18 +935,19 @@ function Itinerary({
       : document.getElementById('workspace-panel')
     element?.scrollIntoView({ block: 'center', behavior: 'instant' })
     element?.focus({ preventScroll: true })
-  }, [workspace, day])
+  }, [workspace, day, targetRevision])
   const locate = (target: JourneyTarget) => {
+    setFocusedExpenseId(target.expenseId)
+    setTargetRevision((value) => value + 1)
     pendingTarget.current = target
     if (target.day !== undefined) {
-      onDayChange(target.day)
       if (target.stopId)
         setSelectedStops((previous) => ({
           ...previous,
           [target.day!]: target.stopId!,
         }))
     }
-    setWorkspace(target.workspace)
+    navigation.go(target.workspace, target.day ?? day)
   }
   useEffect(() => {
     if (workspace !== 'schedule' || !pendingScroll.current) return
@@ -1065,46 +1096,64 @@ function Itinerary({
               <span>{trip.days.length}일</span>
             </div>
           </div>
-          {workspace === 'field' ? (
-            <details className="field-management">
-              <summary>
-                여행 관리
-                <ChevronRight size={16} aria-hidden="true" />
-              </summary>
+          <div className="trip-banner-controls">
+            {navigation.canGoBack && (
               <button
-                className="button outline"
-                aria-label="여행 정보 수정"
-                onClick={onEditTrip}
+                className="icon-button trip-back"
+                aria-label="이전 여행 화면"
+                onClick={navigation.back}
               >
-                여행 정보 수정
+                <ChevronLeft size={20} />
               </button>
-              <button
-                className="button outline"
-                aria-label="여행 삭제"
-                onClick={onDeleteTrip}
-              >
-                여행 삭제
-              </button>
-            </details>
-          ) : (
-            <div className="trip-management">
-              <button
-                className="trip-edit"
-                aria-label="여행 정보 수정"
-                onClick={onEditTrip}
-              >
-                <Pencil size={16} />
-                <span>여행 정보 수정</span>
-              </button>
-              <button
-                className="trip-delete"
-                onClick={onDeleteTrip}
-                aria-label="여행 삭제"
-              >
-                <Trash2 size={17} />
-              </button>
-            </div>
-          )}
+            )}
+            <button
+              className="icon-button trip-find"
+              aria-label="여행 내 찾기"
+              onClick={() => setSearchOpen(true)}
+            >
+              <Search size={20} />
+            </button>
+            {workspace === 'field' ? (
+              <details className="field-management">
+                <summary aria-label="여행 관리">
+                  <SlidersHorizontal size={18} />
+                  <ChevronRight size={16} aria-hidden="true" />
+                </summary>
+                <button
+                  className="button outline"
+                  aria-label="여행 정보 수정"
+                  onClick={onEditTrip}
+                >
+                  여행 정보 수정
+                </button>
+                <button
+                  className="button outline"
+                  aria-label="여행 삭제"
+                  onClick={onDeleteTrip}
+                >
+                  여행 삭제
+                </button>
+              </details>
+            ) : (
+              <div className="trip-management">
+                <button
+                  className="trip-edit"
+                  aria-label="여행 정보 수정"
+                  onClick={onEditTrip}
+                >
+                  <Pencil size={16} />
+                  <span>여행 정보 수정</span>
+                </button>
+                <button
+                  className="trip-delete"
+                  onClick={onDeleteTrip}
+                  aria-label="여행 삭제"
+                >
+                  <Trash2 size={17} />
+                </button>
+              </div>
+            )}
+          </div>
         </div>
         <div className="workspace-tabs" role="tablist" aria-label="여행 관리">
           {[
@@ -1120,17 +1169,14 @@ function Itinerary({
               aria-controls="workspace-panel"
               aria-selected={mainWorkspace === id}
               onClick={() => {
-                setWorkspace(
+                navigation.go(
                   id === 'schedule'
                     ? planningView.current
                     : id === 'overview'
                       ? preparationView.current
                       : id,
+                  id === 'field' ? (travelDay(trip) ?? day) : day,
                 )
-                if (id === 'field') {
-                  const current = travelDay(trip)
-                  if (current !== null) onDayChange(current)
-                }
               }}
             >
               {label}
@@ -1220,8 +1266,7 @@ function Itinerary({
               day={day}
               onUpdate={onUpdate}
               onOpen={(next, nextDay) => {
-                setWorkspace(next)
-                if (nextDay !== undefined) onDayChange(nextDay)
+                navigation.go(next, nextDay ?? day)
               }}
               onExpense={() => recordExpense()}
             />
@@ -1304,6 +1349,13 @@ function Itinerary({
                       </h3>
                     </div>
                     <div className="day-add-actions">
+                      <button
+                        className="button outline small"
+                        onClick={() => setAdjustOpen(true)}
+                        disabled={!stops.length}
+                      >
+                        시간 변경
+                      </button>
                       <button className="button primary small" onClick={onAdd}>
                         <Plus size={16} />
                         장소 추가
@@ -1324,6 +1376,31 @@ function Itinerary({
                         max={stops.length}
                       />
                     </div>
+                  )}
+                  {timeUndo && (
+                    <div className="undo-strip" role="status">
+                      DAY {timeUndo.day + 1} · {timeUndo.changes.length}곳
+                      시간을 변경했어요.
+                      <button
+                        onClick={() => {
+                          try {
+                            onUpdate(applyTimeAdjustment(trip, timeUndo, true))
+                            setTimeUndo(undefined)
+                            setAdjustError('')
+                          } catch (reason) {
+                            setAdjustError((reason as Error).message)
+                            setTimeUndo(undefined)
+                          }
+                        }}
+                      >
+                        시간 변경 되돌리기
+                      </button>
+                    </div>
+                  )}
+                  {adjustError && (
+                    <p className="form-error" role="alert">
+                      {adjustError}
+                    </p>
                   )}
                   {conflicts.length > 0 && (
                     <details className="time-conflicts">
@@ -1562,28 +1639,14 @@ function Itinerary({
                                   </label>
                                   <label className="field">
                                     예상 체류 시간 · 분
-                                    <input
-                                      aria-label={`${place.name} 예상 체류 시간`}
-                                      type="number"
-                                      min="5"
-                                      max="1440"
-                                      step="5"
-                                      value={stop.durationMinutes ?? ''}
-                                      onChange={(event) => {
-                                        const value = Number(event.target.value)
-                                        if (!event.target.value)
-                                          updateStop(stop.id, {
-                                            durationMinutes: undefined,
-                                          })
-                                        else if (
-                                          Number.isInteger(value) &&
-                                          value >= 5 &&
-                                          value <= 1440
-                                        )
-                                          updateStop(stop.id, {
-                                            durationMinutes: value,
-                                          })
-                                      }}
+                                    <DurationInput
+                                      label={`${place.name} 예상 체류 시간`}
+                                      value={stop.durationMinutes}
+                                      onChange={(value) =>
+                                        updateStop(stop.id, {
+                                          durationMinutes: value,
+                                        })
+                                      }
                                     />
                                   </label>
                                 </div>
@@ -1687,17 +1750,45 @@ function Itinerary({
           )}
           {workspace === 'files' && (
             <div className="workspace-panel">
-              <AttachmentsPanel all />
+              <AttachmentsPanel key={targetRevision} all trip={trip} />
             </div>
           )}
           {workspace === 'reservations' && (
-            <Reservations trip={trip} onUpdate={onUpdate} />
+            <Reservations
+              key={targetRevision}
+              trip={trip}
+              onUpdate={onUpdate}
+            />
           )}
           {workspace === 'checklist' && (
-            <Checklist trip={trip} onUpdate={onUpdate} />
+            <Checklist key={targetRevision} trip={trip} onUpdate={onUpdate} />
           )}
           {workspace === 'expenses' && (
-            <Expenses trip={trip} onUpdate={onUpdate} />
+            <Expenses
+              key={targetRevision}
+              focusExpenseId={focusedExpenseId}
+              trip={trip}
+              onUpdate={onUpdate}
+            />
+          )}
+          {searchOpen && (
+            <TripSearch
+              trip={trip}
+              onClose={() => setSearchOpen(false)}
+              onLocate={locate}
+            />
+          )}
+          {adjustOpen && (
+            <DayScheduleAdjust
+              trip={trip}
+              day={day}
+              onClose={() => setAdjustOpen(false)}
+              onApply={(value) => {
+                onUpdate(applyTimeAdjustment(trip, value))
+                setTimeUndo(value)
+                setAdjustError('')
+              }}
+            />
           )}
         </div>
       </div>
@@ -1784,21 +1875,31 @@ export default function App() {
     return () => window.removeEventListener('jido:launcher-open', showHome)
   }, [])
   useEffect(() => {
-    if (!Capacitor.isNativePlatform()) return
-    const listener = NativeApp.addListener('backButton', () => {
-      const preview = document.querySelector(
-        'dialog.attachment-preview[open], dialog.address-dialog[open]',
-      )
+    const handleBack = () => {
+      const preview = Array.from(
+        document.querySelectorAll(
+          'dialog.attachment-preview[open], dialog.address-dialog[open], dialog.trip-search-dialog[open], dialog.day-adjust-dialog[open]',
+        ),
+      ).at(-1)
       if (preview) {
         preview.dispatchEvent(new Event('cancel', { cancelable: true }))
         return
       }
       if (navigationRef.current.dialog) navigationRef.current.closeDialog()
+      else if (
+        !window.dispatchEvent(new Event('jido:trip-back', { cancelable: true }))
+      )
+        return
       else if (navigationRef.current.page !== 'home') setPage('home')
-      else void NativeApp.exitApp()
-    })
+      else if (Capacitor.isNativePlatform()) void NativeApp.exitApp()
+    }
+    window.addEventListener('jido:back', handleBack)
+    const listener = Capacitor.isNativePlatform()
+      ? NativeApp.addListener('backButton', handleBack)
+      : undefined
     return () => {
-      void listener.then((handle) => handle.remove())
+      window.removeEventListener('jido:back', handleBack)
+      void listener?.then((handle) => handle.remove())
     }
   }, [])
   const navigate = (target: Page) => {
