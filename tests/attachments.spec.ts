@@ -1,4 +1,4 @@
-import { openTrips } from './navigation'
+import { openTrips, openWorkspace } from './navigation'
 import { test, expect, type Page } from '@playwright/test'
 const png = Buffer.from(
   'iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+a4jIAAAAASUVORK5CYII=',
@@ -53,10 +53,7 @@ async function seed(page: Page, extra: Record<string, unknown> = {}) {
   await openTrips(page)
 }
 async function tab(page: Page, name: string) {
-  await page
-    .getByRole('tablist', { name: '여행 관리', exact: true })
-    .getByRole('tab', { name, exact: true })
-    .click()
+  await openWorkspace(page, name)
 }
 async function fileCount(page: Page) {
   return await page.evaluate(

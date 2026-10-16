@@ -2,7 +2,7 @@ import { test, expect, type Page } from '@playwright/test'
 import { tripSchema, type Trip } from '../src/travel-model'
 import { readFile } from 'node:fs/promises'
 import { unzipSync, zipSync, strFromU8, strToU8 } from 'fflate'
-import { openTrips } from './navigation'
+import { openTrips, openWorkspace } from './navigation'
 function fixture(): Trip {
   return tripSchema.parse({
     id: 'audit-fixes',
@@ -60,10 +60,7 @@ async function seed(page: Page, trip = fixture()) {
   await openTrips(page)
 }
 async function tab(page: Page, name: string) {
-  await page
-    .getByRole('tablist', { name: '여행 관리', exact: true })
-    .getByRole('tab', { name, exact: true })
-    .click()
+  await openWorkspace(page, name)
 }
 async function backup(page: Page) {
   await page

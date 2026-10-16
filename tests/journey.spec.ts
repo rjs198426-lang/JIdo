@@ -1,3 +1,4 @@
+import { openWorkspace } from './navigation'
 import { expect, test, type Page } from '@playwright/test'
 
 async function navigate(page: Page, name: string) {
@@ -37,10 +38,7 @@ async function customStop(page: Page, name: string, kind = '관광') {
     .click()
 }
 async function tab(page: Page, name: string) {
-  await page
-    .getByRole('tablist', { name: '여행 관리', exact: true })
-    .getByRole('tab', { name, exact: true })
-    .click()
+  await openWorkspace(page, name)
 }
 
 test('가이드 없이 파리·로마 여행, 직접 장소 편집, 도시별 일정과 동선 유지', async ({

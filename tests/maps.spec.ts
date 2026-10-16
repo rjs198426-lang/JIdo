@@ -1,4 +1,4 @@
-import { openTrips } from './navigation'
+import { openTrips, openWorkspace } from './navigation'
 import { test, expect, type Page } from '@playwright/test'
 import { parseMapsShare, googleMapsLink } from '../src/google-maps'
 
@@ -175,7 +175,7 @@ test('구글 결과를 앱에서 선택하고 주소·좌표·장소 ID를 일�
   )
   expect(saved.googlePlaceId).toBe('eiffel-cafe')
   expect(saved.coordinates).toEqual({ lat: 48.85, lng: 2.29 })
-  await page.getByRole('tab', { name: '동선', exact: true }).click()
+  await openWorkspace(page, '동선')
   await expect(
     page.getByRole('link', { name: '에펠 카페 지도 검색' }),
   ).toHaveAttribute('href', /query_place_id=eiffel-cafe/)

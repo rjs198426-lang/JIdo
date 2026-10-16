@@ -1,3 +1,5 @@
+import { activeDayStops } from './transfer-planning'
+import { cancelledReservation } from './journey-progress'
 import { googleMapsLink } from './google-maps'
 import { lazy, Suspense, useMemo, useState, type FormEvent } from 'react'
 import { ArrowRight, MapPin, Plus, Trash2, ExternalLink } from 'lucide-react'
@@ -206,16 +208,21 @@ export function DayRoute({
   onUpdate,
   onEdit,
   onAdd,
+  selectedId,
+  onSelect,
+  onShowStop,
 }: {
   trip: Trip
   day: number
   onUpdate: (trip: Trip) => void
   onEdit: (id: string) => void
   onAdd: () => void
+  selectedId?: string
+  onSelect: (id: string) => void
+  onShowStop: (id: string) => void
 }) {
   const stops = trip.days[day]
   const points = useMemo(() => routePoints(stops), [stops])
-  const [selectedId, setSelectedId] = useState(stops[0]?.id)
   const selectedIndex = Math.max(
     0,
     stops.findIndex((stop) => stop.id === selectedId),
@@ -235,7 +242,8 @@ export function DayRoute({
       days: trip.days.map((items, index) => (index === day ? ordered : items)),
     })
   }
-  const queries = stops.slice(0, 5).map((stop) => mapQuery(stop, trip))
+  const activeStops = activeDayStops(trip, day)
+  const queries = activeStops.slice(0, 5).map((stop) => mapQuery(stop, trip))
   const params = new URLSearchParams({
     api: '1',
     origin: queries[0] || '',
@@ -272,14 +280,14 @@ export function DayRoute({
               key={`${trip.id}:${day}`}
               points={points}
               selectedId={selected?.id}
-              onSelect={setSelectedId}
+              onSelect={onSelect}
             />
           </Suspense>
           <div className="map-sequence-controls" aria-label="장소 순서 이동">
             <button
               className="button outline small"
               disabled={selectedIndex === 0}
-              onClick={() => setSelectedId(stops[selectedIndex - 1].id)}
+              onClick={() => onSelect(stops[selectedIndex - 1].id)}
             >
               이전 장소
             </button>
@@ -289,7 +297,7 @@ export function DayRoute({
             <button
               className="button outline small"
               disabled={selectedIndex === stops.length - 1}
-              onClick={() => setSelectedId(stops[selectedIndex + 1].id)}
+              onClick={() => onSelect(stops[selectedIndex + 1].id)}
             >
               다음 장소
             </button>
@@ -302,6 +310,15 @@ export function DayRoute({
             <div>
               <small>{selected.time}</small>
               <h3>{stopDetails(selected).name}</h3>
+              {(selected.status === 'skipped' ||
+                cancelledReservation(trip, selected)) && (
+                <small className="route-stop-status">
+                  {cancelledReservation(trip, selected)
+                    ? '예약 취소'
+                    : '건너뜀'}{' '}
+                  · 길찾기 제외
+                </small>
+              )}
               <p>
                 {selected.custom?.address ||
                   (!selected.custom
@@ -336,6 +353,12 @@ export function DayRoute({
               </button>
             </div>
           </article>
+          <button
+            className="button outline full"
+            onClick={() => onShowStop(selected.id)}
+          >
+            선택한 장소 일정 보기
+          </button>
           {points.length < stops.length && (
             <p className="map-missing-count">
               위치 미지정 {stops.length - points.length}곳
@@ -350,13 +373,20 @@ export function DayRoute({
               className={`route-place-select ${selected?.id === stop.id ? 'selected' : ''}`}
               aria-label={`${index + 1}번 ${stopDetails(stop).name} 지도에서 선택`}
               aria-pressed={selected?.id === stop.id}
-              onClick={() => setSelectedId(stop.id)}
+              onClick={() => onSelect(stop.id)}
             >
               {index + 1}
             </button>
             <div>
               <small>{stop.time}</small>
               <strong>{stopDetails(stop).name}</strong>
+              {(stop.status === 'skipped' ||
+                cancelledReservation(trip, stop)) && (
+                <small className="route-stop-status">
+                  {cancelledReservation(trip, stop) ? '예약 취소' : '건너뜀'} ·
+                  길찾기 제외
+                </small>
+              )}
               <p>
                 {stop.custom?.address ||
                   (!stop.custom
@@ -385,7 +415,7 @@ export function DayRoute({
           rel="noopener noreferrer"
           href={`https://www.google.com/maps/dir/?${params}`}
         >
-          {stops.length > 5 ? '앞의 5곳' : '이 순서로'} 지도에서 길찾기{' '}
+          {activeStops.length > 5 ? '앞의 5곳' : '이 순서로'} 지도에서 길찾기{' '}
           <ExternalLink size={16} />
         </a>
       )}

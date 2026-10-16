@@ -1,6 +1,6 @@
 import { test, expect, type Page } from '@playwright/test'
 import { tripSchema, type Trip } from '../src/travel-model'
-import { openTrips } from './navigation'
+import { openTrips, openWorkspace } from './navigation'
 function trip(): Trip {
   return tripSchema.parse({
     id: 'six-point',
@@ -92,10 +92,7 @@ async function seed(page: Page) {
   await openTrips(page)
 }
 async function tab(page: Page, name: string) {
-  await page
-    .getByRole('tablist', { name: '여행 관리', exact: true })
-    .getByRole('tab', { name, exact: true })
-    .click()
+  await openWorkspace(page, name)
 }
 async function field(page: Page) {
   await tab(page, '여행 중')

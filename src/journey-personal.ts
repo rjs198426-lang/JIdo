@@ -1,3 +1,4 @@
+import { transferFor } from './transfer-planning'
 import {
   destinationForDay,
   stopDetails,
@@ -35,6 +36,7 @@ export function journeyPreference(trip: Trip): {
           'field',
           'overview',
           'route',
+          'transfers',
           'files',
           'reservations',
           'checklist',
@@ -168,7 +170,14 @@ export function companionBackup(trip: Trip, notes = false) {
             status: 'planned' as const,
             note: notes ? stop.note : '',
           }
-        }),
+        })
+        .map((stop, index, stops) => ({
+          ...stop,
+          transfer:
+            index > 0 && transferFor(stops[index - 1], stop)
+              ? stop.transfer
+              : undefined,
+        })),
     ),
   }
   return JSON.stringify(

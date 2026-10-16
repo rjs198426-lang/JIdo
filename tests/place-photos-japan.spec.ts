@@ -1,4 +1,4 @@
-import { openTrips } from './navigation'
+import { openTrips, openWorkspace } from './navigation'
 import { test, expect, type Page } from '@playwright/test'
 import { cities, places } from '../src/data'
 import { japanGuideById } from '../src/japan-guides'
@@ -40,10 +40,7 @@ async function seed(page: Page) {
   await openTrips(page)
 }
 async function tab(page: Page, name: string) {
-  await page
-    .getByRole('tablist', { name: '여행 관리', exact: true })
-    .getByRole('tab', { name, exact: true })
-    .click()
+  await openWorkspace(page, name)
 }
 async function photos(page: Page, index = 0) {
   const detail = page.locator('.stop-card .stop-photos').nth(index)

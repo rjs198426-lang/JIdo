@@ -1,4 +1,4 @@
-import { openTrips } from './navigation'
+import { openTrips, openWorkspace } from './navigation'
 import { test, expect, type Page } from '@playwright/test'
 import { routePoints, routeSegments } from '../src/route-map-model'
 import type { Stop } from '../src/travel-model'
@@ -80,10 +80,7 @@ async function seed(page: Page, day: Stop[] = stops) {
   await mapTab(page)
 }
 async function mapTab(page: Page) {
-  await page
-    .getByRole('tablist', { name: '여행 관리', exact: true })
-    .getByRole('tab', { name: '동선', exact: true })
-    .click()
+  await openWorkspace(page, '동선')
 }
 async function state(page: Page) {
   return page.evaluate(
@@ -186,10 +183,7 @@ test('지도에서 일정 순서 변경은 번호·선·일정을 함께 바꾸�
   await expect(
     page.getByRole('button', { name: '4번 니시키 시장 선택', exact: true }),
   ).toBeVisible()
-  await page
-    .getByRole('tablist', { name: '여행 관리' })
-    .getByRole('tab', { name: '일정', exact: true })
-    .click()
+  await openWorkspace(page, '일정')
   expect(await page.locator('.stop-place strong').allTextContents()).toEqual([
     '기요미즈데라',
     '후시미 이나리 신사',
@@ -273,10 +267,7 @@ test('날짜·화면 전환에서 이전 핀을 제거하고 중복 지도 초�
   ).toBeVisible()
   await expect(page.locator('.itinerary-route-line')).toHaveCount(0)
   for (let i = 0; i < 2; i++) {
-    await page
-      .getByRole('tablist', { name: '여행 관리' })
-      .getByRole('tab', { name: '일정', exact: true })
-      .click()
+    await openWorkspace(page, '일정')
     await mapTab(page)
     await expect(page.locator('.leaflet-container')).toHaveCount(1)
   }

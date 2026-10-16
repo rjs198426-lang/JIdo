@@ -139,8 +139,10 @@ test('홈 현황은 실제 기록이며 바로가기는 기억한 날짜의 해�
   )
   await stats.getByRole('button', { name: /준비물/ }).click()
   await expect(
-    page.getByRole('tab', { name: '준비물', exact: true }),
-  ).toHaveAttribute('aria-selected', 'true')
+    page
+      .getByRole('group', { name: '준비 관리', exact: true })
+      .getByRole('button', { name: '준비물', exact: true }),
+  ).toHaveAttribute('aria-pressed', 'true')
   await navigate(page, '홈')
   await page
     .locator('.home-next-day')

@@ -1,4 +1,4 @@
-import { openTrips } from './navigation'
+import { openTrips, openWorkspace } from './navigation'
 import { test, expect, type Page } from '@playwright/test'
 async function seed(page: Page, extra: Record<string, unknown> = {}) {
   await page.goto('/')
@@ -58,10 +58,7 @@ async function seed(page: Page, extra: Record<string, unknown> = {}) {
   await openTrips(page)
 }
 async function tab(page: Page, name: string) {
-  await page
-    .getByRole('tablist', { name: '여행 관리', exact: true })
-    .getByRole('tab', { name, exact: true })
-    .click()
+  await openWorkspace(page, name)
 }
 async function members(page: Page) {
   await tab(page, '여행 준비')

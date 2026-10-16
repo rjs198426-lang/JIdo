@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test'
-import { openTrips } from './navigation'
+import { openTrips, openWorkspace } from './navigation'
 
 test('320px와 큰 글자에서도 작업 버튼은 한 줄이며 긴 장소명을 자르지 않음', async ({
   page,
@@ -88,10 +88,7 @@ test('320px와 큰 글자에서도 작업 버튼은 한 줄이며 긴 장소명�
     '가계부',
     '일정',
   ]) {
-    await page
-      .getByRole('tablist', { name: '여행 관리', exact: true })
-      .getByRole('tab', { name, exact: true })
-      .click()
+    await openWorkspace(page, name)
     expect(
       await page.evaluate(
         () => document.documentElement.scrollWidth > innerWidth,

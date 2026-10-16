@@ -1,3 +1,10 @@
+import DayTransfers from './DayTransfers'
+import { dayTransferLegs } from './transfer-planning'
+import {
+  planningViews,
+  preparationViews,
+  workspaceGroup,
+} from './workspace-navigation'
 import QuickExpense from './QuickExpense'
 import NearbyPlaces from './NearbyPlaces'
 import { commitFullRestore } from './full-backup'
@@ -856,6 +863,44 @@ function Itinerary({
   useEffect(() => {
     saveJourneyPreference(trip, day, workspace)
   }, [trip.id, day, workspace])
+  const mainWorkspace = workspaceGroup(workspace)
+  const planningView = useRef(
+    (planningViews as readonly string[]).includes(workspace)
+      ? workspace
+      : 'schedule',
+  )
+  const preparationView = useRef(
+    (preparationViews as readonly string[]).includes(workspace)
+      ? workspace
+      : 'overview',
+  )
+  if (mainWorkspace === 'schedule') planningView.current = workspace
+  if (mainWorkspace === 'overview') preparationView.current = workspace
+  const [selectedStops, setSelectedStops] = useState<Record<number, string>>({})
+  const selectedStop = selectedStops[day] || trip.days[day]?.[0]?.id
+  const pendingScroll = useRef<string | undefined>(undefined)
+  useEffect(() => {
+    if (workspace !== 'schedule' || !pendingScroll.current) return
+    const id = pendingScroll.current
+    pendingScroll.current = undefined
+    const element = Array.from(
+      document.querySelectorAll<HTMLElement>('[data-stop-id]'),
+    ).find((el) => el.dataset.stopId === id)
+    element?.scrollIntoView({ block: 'center', behavior: 'instant' })
+    element?.focus({ preventScroll: true })
+  }, [workspace, day])
+  const showMap = (id: string) => {
+    setSelectedStops((previous) => ({ ...previous, [day]: id }))
+    setWorkspace('route')
+  }
+  const showInList = (id: string) => {
+    setSelectedStops((previous) => ({ ...previous, [day]: id }))
+    pendingScroll.current = id
+    setWorkspace('schedule')
+  }
+  const legs = dayTransferLegs(trip, day)
+  const travelWarnings = legs.filter((leg) => leg.lateMinutes).length
+
   const conflicts = timeConflicts(trip, day)
   const recordExpense = onQuickExpense
   const [removed, setRemoved] = useState<{
@@ -1027,10 +1072,6 @@ function Itinerary({
             ['schedule', '일정'],
             ['field', '여행 중'],
             ['overview', '여행 준비'],
-            ['route', '동선'],
-            ['files', '자료'],
-            ['reservations', '예약'],
-            ['checklist', '준비물'],
             ['expenses', '가계부'],
           ].map(([id, label]) => (
             <button
@@ -1038,9 +1079,15 @@ function Itinerary({
               id={`workspace-${id}`}
               role="tab"
               aria-controls="workspace-panel"
-              aria-selected={workspace === id}
+              aria-selected={mainWorkspace === id}
               onClick={() => {
-                setWorkspace(id)
+                setWorkspace(
+                  id === 'schedule'
+                    ? planningView.current
+                    : id === 'overview'
+                      ? preparationView.current
+                      : id,
+                )
                 if (id === 'field') {
                   const current = travelDay(trip)
                   if (current !== null) onDayChange(current)
@@ -1059,8 +1106,59 @@ function Itinerary({
           className={`workspace-content workspace-${workspace}`}
           id="workspace-panel"
           role="tabpanel"
-          aria-labelledby={`workspace-${workspace}`}
+          aria-labelledby={`workspace-${mainWorkspace}`}
         >
+          {mainWorkspace === 'schedule' && (
+            <div
+              className="workspace-view-switch"
+              role="group"
+              aria-label="일정 보기"
+            >
+              {[
+                ['schedule', '일정 목록'],
+                ['route', '지도·동선'],
+                ['transfers', '이동시간'],
+              ].map(([id, label]) => (
+                <button
+                  key={id}
+                  className="button outline small"
+                  aria-label={label}
+                  aria-pressed={workspace === id}
+                  onClick={() => setWorkspace(id)}
+                >
+                  {label}
+                  {id === 'transfers' && travelWarnings > 0 && (
+                    <span className="travel-warning-count" aria-hidden="true">
+                      {travelWarnings}
+                    </span>
+                  )}
+                </button>
+              ))}
+            </div>
+          )}
+          {mainWorkspace === 'overview' && (
+            <div
+              className="workspace-view-switch"
+              role="group"
+              aria-label="준비 관리"
+            >
+              {[
+                ['overview', '요약'],
+                ['reservations', '예약'],
+                ['checklist', '준비물'],
+                ['files', '자료'],
+              ].map(([id, label]) => (
+                <button
+                  key={id}
+                  className="button outline small"
+                  aria-pressed={workspace === id}
+                  onClick={() => setWorkspace(id)}
+                >
+                  {label}
+                </button>
+              ))}
+            </div>
+          )}
           {workspace === 'field' && (
             <FieldJourney
               trip={trip}
@@ -1084,7 +1182,7 @@ function Itinerary({
               onExpense={() => recordExpense()}
             />
           )}
-          {(workspace === 'schedule' || workspace === 'route') && (
+          {mainWorkspace === 'schedule' && (
             <>
               <label className="day-jump">
                 날짜{' '}
@@ -1133,8 +1231,15 @@ function Itinerary({
                 </button>
                 <JourneyShare trip={trip} day={day} />
               </div>
-              {workspace === 'route' ? (
+              {workspace === 'transfers' ? (
+                <DayTransfers trip={trip} day={day} onUpdate={onUpdate} />
+              ) : workspace === 'route' ? (
                 <DayRoute
+                  selectedId={selectedStop}
+                  onSelect={(id) =>
+                    setSelectedStops((previous) => ({ ...previous, [day]: id }))
+                  }
+                  onShowStop={showInList}
                   trip={trip}
                   day={day}
                   onUpdate={onUpdate}
@@ -1233,7 +1338,9 @@ function Itinerary({
                           ] || MapPin
                         return (
                           <article
-                            className={`timeline-item ${stop.status === 'done' ? 'stop-completed' : stop.status === 'skipped' || cancelledReservation(trip, stop) ? 'stop-skipped' : ''}`}
+                            data-stop-id={stop.id}
+                            tabIndex={-1}
+                            className={`timeline-item ${selectedStop === stop.id ? 'stop-selected' : ''} ${stop.status === 'done' ? 'stop-completed' : stop.status === 'skipped' || cancelledReservation(trip, stop) ? 'stop-skipped' : ''}`}
                             key={stop.id}
                           >
                             <span className="stop-number">{index + 1}</span>
@@ -1256,6 +1363,13 @@ function Itinerary({
                                   {place.category}
                                 </span>
                                 <div className="stop-actions">
+                                  <button
+                                    className="icon-button"
+                                    aria-label={`${place.name} 지도에서 보기`}
+                                    onClick={() => showMap(stop.id)}
+                                  >
+                                    <MapIcon size={16} />
+                                  </button>
                                   <button
                                     className="icon-button"
                                     disabled={index === 0}

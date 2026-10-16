@@ -65,6 +65,14 @@ export const stopSchema = z.object({
   photoId: z.string().uuid().optional(),
   status: z.enum(['planned', 'done', 'skipped']).optional(),
   durationMinutes: z.number().int().min(5).max(1440).optional(),
+  transfer: z
+    .object({
+      fromStopId: id,
+      fromPlace: z.string().max(3000),
+      toPlace: z.string().max(3000),
+      minutes: z.number().int().min(0).max(1440),
+    })
+    .optional(),
 })
 export const checklistCategories = [
   '서류',

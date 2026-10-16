@@ -1,3 +1,4 @@
+import { useDraftFields } from './form-draft'
 import AttachmentsPanel from './AttachmentsPanel'
 import { useState, type FormEvent } from 'react'
 import {
@@ -83,17 +84,36 @@ export default function TripDashboard({
           reservation.status === 'cancelled',
       ),
   )
-  const [info, setInfo] = useState(
-      trip.travelInfo || {
-        emergencyPhone: '',
-        insurancePhone: '',
-        embassyContact: '',
-        lodgingAddress: '',
-        note: '',
-      },
-    ),
-    [infoOpen, setInfoOpen] = useState(false),
-    [message, setMessage] = useState('')
+  const defaultInfo = trip.travelInfo || {
+    emergencyPhone: '',
+    insurancePhone: '',
+    embassyContact: '',
+    lodgingAddress: '',
+    note: '',
+  }
+  const memoDraft = useDraftFields(
+    `jido-draft:travel-info:${trip.id}`,
+    { info: defaultInfo, infoOpen: false },
+    {
+      info: (value) =>
+        !!value &&
+        typeof value === 'object' &&
+        !Array.isArray(value) &&
+        Object.keys(value).length === 5 &&
+        Object.keys(defaultInfo).every(
+          (key) =>
+            typeof (value as Record<string, unknown>)[key] === 'string' &&
+            String((value as Record<string, unknown>)[key]).length <=
+              (['emergencyPhone', 'insurancePhone'].includes(key) ? 80 : 500),
+        ),
+    },
+    (value) =>
+      value.infoOpen ||
+      JSON.stringify(value.info) !== JSON.stringify(defaultInfo),
+  )
+  const [info, setInfo] = memoDraft.field('info'),
+    [infoOpen, setInfoOpen] = memoDraft.field('infoOpen')
+  const [message, setMessage] = useState('')
   function saveInfo(event: FormEvent) {
     event.preventDefault()
     onUpdate({ ...trip, travelInfo: info })
@@ -235,20 +255,10 @@ export default function TripDashboard({
           <h4>여행 연락처·메모</h4>
           <button
             className="button outline small"
-            onClick={() => {
-              setInfo(
-                trip.travelInfo || {
-                  emergencyPhone: '',
-                  insurancePhone: '',
-                  embassyContact: '',
-                  lodgingAddress: '',
-                  note: '',
-                },
-              )
-              setInfoOpen(!infoOpen)
-            }}
+            onClick={() => setInfoOpen(!infoOpen)}
+            aria-expanded={infoOpen}
           >
-            {trip.travelInfo ? '편집' : '추가'}
+            {infoOpen ? '접기' : trip.travelInfo ? '편집' : '추가'}
           </button>
         </div>
         {infoOpen ? (

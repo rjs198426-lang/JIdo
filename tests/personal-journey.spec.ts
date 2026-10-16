@@ -1,12 +1,9 @@
-import { openTrips } from './navigation'
+import { openTrips, openWorkspace } from './navigation'
 import { expect, test, type Page } from '@playwright/test'
 import { readFile } from 'node:fs/promises'
 
 async function tab(page: Page, name: string) {
-  await page
-    .getByRole('tablist', { name: '여행 관리', exact: true })
-    .getByRole('tab', { name, exact: true })
-    .click()
+  await openWorkspace(page, name)
 }
 async function seed(page: Page, extra: Record<string, unknown> = {}) {
   await page.clock.setFixedTime(new Date('2026-11-02T12:00:00Z'))

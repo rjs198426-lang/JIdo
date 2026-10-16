@@ -1,0 +1,141 @@
+.itinerary .workspace-tabs {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 4px;
+  overflow: visible;
+}
+.itinerary .workspace-tabs button {
+  min-width: 0;
+  min-height: 44px;
+  font-size: 14px;
+  padding: 8px 2px;
+}
+.workspace-view-switch {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 8px 0;
+}
+.workspace-view-switch .button {
+  min-height: 44px;
+  min-width: 0;
+  font-size: 13px;
+}
+.workspace-view-switch [aria-pressed='true'] {
+  background: #e4f4ee;
+  color: #006d62;
+  border-color: #087b70;
+}
+.travel-warning-count {
+  padding: 2px 6px;
+  border-radius: 8px;
+  background: #fff1dd;
+  color: #80500f;
+}
+.stop-selected .stop-card {
+  border-color: #168b7b;
+}
+.timeline-item:focus {
+  outline: none;
+}
+.timeline-item:focus-visible .stop-card {
+  outline: 2px solid #168b7b;
+  outline-offset: 3px;
+}
+.day-transfers {
+  padding: 12px 0;
+  min-width: 0;
+}
+.transfer-leg {
+  padding: 16px 0;
+  border-top: 1px solid #dce7df;
+}
+.transfer-leg h4 {
+  margin: 0 0 8px;
+  font-size: 16px;
+  overflow-wrap: anywhere;
+  line-height: 1.6;
+}
+.transfer-leg p {
+  font-size: 14px;
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+}
+.transfer-leg .field {
+  font-size: 14px;
+  margin: 12px 0;
+}
+.transfer-leg input {
+  min-height: 44px;
+  max-width: 100%;
+}
+.transfer-warning {
+  background: #fff5e6;
+  color: #78480b;
+  padding: 12px;
+  border-radius: 8px;
+}
+.transfer-status {
+  color: #785a26;
+}
+.transfer-result {
+  color: #086f60;
+}
+/* New view switches precede shared dates in the schedule flex layout. */
+.workspace-schedule > .workspace-view-switch {
+  order: -1;
+}
+@media (max-width: 700px) {
+  .stop-top {
+    flex-wrap: wrap;
+  }
+  .stop-top .stop-actions {
+    margin-left: auto;
+    flex-wrap: wrap;
+  }
+}
+.workspace-route > .workspace-view-switch {
+  order: -1;
+}
+.workspace-transfers {
+  display: flex;
+  flex-direction: column;
+}
+.workspace-transfers > .workspace-view-switch {
+  order: -1;
+}
+.workspace-transfers > .day-jump {
+  order: 0;
+}
+.workspace-transfers > .day-tabs {
+  order: 1;
+}
+.workspace-transfers > .journey-route {
+  order: 2;
+}
+.workspace-transfers > .day-transfers {
+  order: 3;
+}
+.workspace-transfers > .trip-overview {
+  order: 4;
+}
+.workspace-transfers > .planning-shortcuts {
+  order: 5;
+}
+@media (max-width: 700px) {
+  .workspace-transfers > .day-jump {
+    display: none;
+  }
+  .workspace-transfers:has(.day-tab:nth-child(8)) > .day-jump {
+    display: flex;
+  }
+  .workspace-transfers:has(.day-tab:nth-child(8)) > .day-tabs {
+    display: none;
+  }
+}
+.route-stop-status {
+  display: block;
+  color: #80500f;
+  font-size: 13px;
+  line-height: 1.6;
+}
