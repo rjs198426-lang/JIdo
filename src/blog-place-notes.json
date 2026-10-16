@@ -1,0 +1,105 @@
+[
+  {
+    "id": "kiyomizu",
+    "cityId": "kyoto",
+    "name": "기요미즈데라",
+    "previousDescription": "히가시야마의 사찰.",
+    "previousTip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+    "description": "히가시야마 언덕 위의 사찰. 본당과 주변 산책길에서 교토 풍경을 보고 니넨자카·산넨자카 거리로 이어 걸을 수 있어요.",
+    "tip": "접근로에 오르막과 혼잡한 구간이 있어 편한 신발과 물을 준비하세요. 본당 앞에서만 머물기보다 관람로를 따라 이동하며 다른 전망도 확인해 보세요.",
+    "reviewSources": [
+      {
+        "title": "교토 자유여행, 청수사(기요미즈데라) 구경하기",
+        "url": "https://gnrlfhdns.tistory.com/201",
+        "kind": "visit-review",
+        "checkedAt": "2026-10-16",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "직접 방문한 동선·관람 경험의 본문과 본문 링크를 확인했습니다. 협찬·원고료·체험단 표시와 예약 제휴·할인 코드 유도가 발견되지 않았습니다. 오래된 요금·영업시간·공사 정보는 반영하지 않았습니다. 숨겨진 협찬 여부나 현재 운영을 보증하지 않습니다."
+      },
+      {
+        "title": "순동이와 함께한 교토🎋☔️",
+        "url": "https://blog.naver.com/alrg0411/224439356860",
+        "kind": "visit-review",
+        "checkedAt": "2026-10-16",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "직접 방문한 동선·관람 경험의 본문과 본문 링크를 확인했습니다. 협찬·원고료·체험단 표시와 예약 제휴·할인 코드 유도가 발견되지 않았습니다. 오래된 요금·영업시간·공사 정보는 반영하지 않았습니다. 숨겨진 협찬 여부나 현재 운영을 보증하지 않습니다."
+      }
+    ]
+  },
+  {
+    "id": "kyoto-review-c9c8b0ef41be",
+    "cityId": "kyoto",
+    "name": "교토시 교세라 미술관",
+    "previousDescription": "히가시야마의 박물관·전시 공간.",
+    "previousTip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+    "description": "오카자키의 미술관. 전시 관람과 건축 구경, 주변 카페 방문을 같은 구역의 일정으로 묶기 좋아요.",
+    "tip": "후기에는 전시를 보지 않고 건물 주변에서 쉬어 간 경험도 있어요. 보고 싶은 전시와 입장 조건을 먼저 확인하고 관람 시간을 정하세요.",
+    "reviewSources": [
+      {
+        "title": "순동이와 함께한 교토🎋☔️",
+        "url": "https://blog.naver.com/alrg0411/224439356860",
+        "kind": "visit-review",
+        "checkedAt": "2026-10-16",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "직접 방문한 동선·관람 경험의 본문과 본문 링크를 확인했습니다. 협찬·원고료·체험단 표시와 예약 제휴·할인 코드 유도가 발견되지 않았습니다. 오래된 요금·영업시간·공사 정보는 반영하지 않았습니다. 숨겨진 협찬 여부나 현재 운영을 보증하지 않습니다."
+      }
+    ]
+  },
+  {
+    "id": "kyoto-review-87a373e9da3f",
+    "cityId": "kyoto",
+    "name": "킨카쿠지",
+    "previousDescription": "북부의 사찰.",
+    "previousTip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+    "description": "연못과 금빛 누각을 중심으로 정원 관람로가 이어지는 교토 북서부의 사찰이에요.",
+    "tip": "도심 동쪽 명소와 떨어져 있어 이동 시간을 따로 잡으세요. 연못 앞 사진만 찍고 끝내기보다 누각 뒤편과 정원 관람로까지 이어 둘러보세요.",
+    "reviewSources": [
+      {
+        "title": "[일본여행] 교토#4 - 금각사",
+        "url": "https://woof.tistory.com/1433",
+        "kind": "visit-review",
+        "checkedAt": "2026-10-16",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "직접 방문한 동선·관람 경험의 본문과 본문 링크를 확인했습니다. 협찬·원고료·체험단 표시와 예약 제휴·할인 코드 유도가 발견되지 않았습니다. 오래된 요금·영업시간·공사 정보는 반영하지 않았습니다. 숨겨진 협찬 여부나 현재 운영을 보증하지 않습니다."
+      }
+    ]
+  },
+  {
+    "id": "osaka-dotonbori",
+    "cityId": "osaka",
+    "name": "도톤보리",
+    "previousDescription": "미나미·난바의 둘러볼 수 있는 장소.",
+    "previousTip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+    "description": "난바와 이어지는 강변 번화가. 간판과 상점, 오사카 간식을 구경하며 걷는 일정에 어울려요.",
+    "tip": "실제 여름 방문 후기에는 인파와 더위·습도, 오래 걷는 피로가 언급돼요. 도착일에는 짐을 맡긴 뒤 짧게 둘러보고 식사·휴식 시간을 함께 잡으세요.",
+    "reviewSources": [
+      {
+        "title": "오사카 여행 후기 1일차 : 도톤보리",
+        "url": "https://blog.naver.com/ddxzzx/223566551305",
+        "kind": "visit-review",
+        "checkedAt": "2026-10-16",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "직접 방문한 동선·관람 경험의 본문과 본문 링크를 확인했습니다. 협찬·원고료·체험단 표시와 예약 제휴·할인 코드 유도가 발견되지 않았습니다. 오래된 요금·영업시간·공사 정보는 반영하지 않았습니다. 숨겨진 협찬 여부나 현재 운영을 보증하지 않습니다."
+      }
+    ]
+  },
+  {
+    "id": "osaka-castle",
+    "cityId": "osaka",
+    "name": "오사카성",
+    "previousDescription": "오사카의 박물관·전시 공간. 지역·역사 자료를 살펴볼 수 있습니다.",
+    "previousTip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+    "description": "해자와 넓은 공원을 지나 천수각으로 향하는 오사카의 대표 명소예요. 공원 산책과 실내 관람을 나눠 계획할 수 있어요.",
+    "tip": "모리노미야역에서 공원에 도착해도 천수각까지는 더 걸어가야 해요. 큰 짐을 들고 성까지 이동하지 않도록 보관 장소를 먼저 확인하고 도보 시간을 넉넉히 잡으세요.",
+    "reviewSources": [
+      {
+        "title": "[일본/오사카/관광지] 12월 7일. 오사카성에 가다. (관광 정보)",
+        "url": "https://strongestlonghairyoungman.tistory.com/118",
+        "kind": "visit-review",
+        "checkedAt": "2026-10-16",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "직접 방문한 동선·관람 경험의 본문과 본문 링크를 확인했습니다. 협찬·원고료·체험단 표시와 예약 제휴·할인 코드 유도가 발견되지 않았습니다. 오래된 요금·영업시간·공사 정보는 반영하지 않았습니다. 숨겨진 협찬 여부나 현재 운영을 보증하지 않습니다."
+      }
+    ]
+  }
+]

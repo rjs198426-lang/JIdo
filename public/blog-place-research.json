@@ -1,0 +1,100 @@
+{
+  "checkedAt": "2026-10-16",
+  "scope": "교토·오사카 5개 장소, 네이버 2개·티스토리 3개 본문. 전체 887곳의 블로그 재조사가 아님.",
+  "references": [
+    {
+      "url": "https://gnrlfhdns.tistory.com/201",
+      "resolvedUrl": "https://gnrlfhdns.tistory.com/201",
+      "title": "교토 자유여행, 청수사(기요미즈데라) 구경하기",
+      "httpStatus": 200,
+      "checkedAt": "2026-10-16",
+      "articleTextLength": 2136,
+      "articleTextSHA256": "2a7c8ef871954adca66099a89701e1f18ec26a9077020856857edae238706946",
+      "articleSelector": ".tt_article_useless_p_margin / article container",
+      "screeningNote": "직접 방문한 동선·관람 경험의 본문과 본문 링크를 확인했습니다. 협찬·원고료·체험단 표시와 예약 제휴·할인 코드 유도가 발견되지 않았습니다. 오래된 요금·영업시간·공사 정보는 반영하지 않았습니다. 숨겨진 협찬 여부나 현재 운영을 보증하지 않습니다.",
+      "placeIds": [
+        "kiyomizu"
+      ]
+    },
+    {
+      "url": "https://blog.naver.com/alrg0411/224439356860",
+      "resolvedUrl": "https://m.blog.naver.com/alrg0411/224439356860",
+      "title": "순동이와 함께한 교토🎋☔️",
+      "httpStatus": 200,
+      "checkedAt": "2026-10-16",
+      "articleTextLength": 11179,
+      "articleTextSHA256": "2cf41661c5c321e57e0f412c9079219254d3421ddff26e771a92463c8bcf8ab7",
+      "articleSelector": ".se-main-container",
+      "screeningNote": "직접 방문한 동선·관람 경험의 본문과 본문 링크를 확인했습니다. 협찬·원고료·체험단 표시와 예약 제휴·할인 코드 유도가 발견되지 않았습니다. 오래된 요금·영업시간·공사 정보는 반영하지 않았습니다. 숨겨진 협찬 여부나 현재 운영을 보증하지 않습니다.",
+      "placeIds": [
+        "kiyomizu",
+        "kyoto-review-c9c8b0ef41be"
+      ]
+    },
+    {
+      "url": "https://woof.tistory.com/1433",
+      "resolvedUrl": "https://woof.tistory.com/1433",
+      "title": "[일본여행] 교토#4 - 금각사",
+      "httpStatus": 200,
+      "checkedAt": "2026-10-16",
+      "articleTextLength": 1919,
+      "articleTextSHA256": "c88a316d67c4b1da8ece87b4d74becfed8b59ba7e53e44bf3f7a80375300a13e",
+      "articleSelector": ".tt_article_useless_p_margin / article container",
+      "screeningNote": "직접 방문한 동선·관람 경험의 본문과 본문 링크를 확인했습니다. 협찬·원고료·체험단 표시와 예약 제휴·할인 코드 유도가 발견되지 않았습니다. 오래된 요금·영업시간·공사 정보는 반영하지 않았습니다. 숨겨진 협찬 여부나 현재 운영을 보증하지 않습니다.",
+      "placeIds": [
+        "kyoto-review-87a373e9da3f"
+      ]
+    },
+    {
+      "url": "https://blog.naver.com/ddxzzx/223566551305",
+      "resolvedUrl": "https://m.blog.naver.com/ddxzzx/223566551305",
+      "title": "오사카 여행 후기 1일차 : 도톤보리",
+      "httpStatus": 200,
+      "checkedAt": "2026-10-16",
+      "articleTextLength": 1253,
+      "articleTextSHA256": "7f2708e9790d17dbce1a2d8c7f1c75624d6456877e3a6c3690d215848db1bdfb",
+      "articleSelector": ".se-main-container",
+      "screeningNote": "직접 방문한 동선·관람 경험의 본문과 본문 링크를 확인했습니다. 협찬·원고료·체험단 표시와 예약 제휴·할인 코드 유도가 발견되지 않았습니다. 오래된 요금·영업시간·공사 정보는 반영하지 않았습니다. 숨겨진 협찬 여부나 현재 운영을 보증하지 않습니다.",
+      "placeIds": [
+        "osaka-dotonbori"
+      ]
+    },
+    {
+      "url": "https://strongestlonghairyoungman.tistory.com/118",
+      "resolvedUrl": "https://strongestlonghairyoungman.tistory.com/118",
+      "title": "[일본/오사카/관광지] 12월 7일. 오사카성에 가다. (관광 정보)",
+      "httpStatus": 200,
+      "checkedAt": "2026-10-16",
+      "articleTextLength": 2096,
+      "articleTextSHA256": "e28013b1c0af65dd863a90f386a896ff283e3d7daf36baca9dbd62f759c60bdf",
+      "articleSelector": ".tt_article_useless_p_margin / article container",
+      "screeningNote": "직접 방문한 동선·관람 경험의 본문과 본문 링크를 확인했습니다. 협찬·원고료·체험단 표시와 예약 제휴·할인 코드 유도가 발견되지 않았습니다. 오래된 요금·영업시간·공사 정보는 반영하지 않았습니다. 숨겨진 협찬 여부나 현재 운영을 보증하지 않습니다.",
+      "placeIds": [
+        "osaka-castle"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "url": "https://chloelife.tistory.com/entry/%EC%9D%B4%EB%82%98%EB%A6%AC%EC%8B%A0%EC%82%AC-%EA%B5%90%ED%86%A0%EC%97%AC%ED%96%89%EC%9D%98-%ED%95%84%EC%88%98-%EC%BD%94%EC%8A%A4-%EC%9D%BC%EB%B3%B8%EC%97%AC%ED%96%89%EC%9D%98-%EA%BF%80%ED%8C%81-%EA%B3%B5%EC%9C%A0",
+      "reason": "기모노 대여점·KKday 예약 유도 문구가 있어 제외"
+    },
+    {
+      "url": "https://epro.tistory.com/1247",
+      "reason": "숙소 판매 중심의 소개로 개인 방문 동선을 확인할 근거가 부족해 제외"
+    },
+    {
+      "url": "https://darong0103.tistory.com/9",
+      "reason": "버스투어 상품 추천 비중이 커서 이번 요약에서 제외"
+    }
+  ],
+  "rights": "블로그 본문·사진은 재배포하지 않음. 공개 사실과 동선만 독립적으로 요약. 본문 광고 검사이며 숨은 협찬 부재를 보증하지 않음.",
+  "correctedAssociations": [
+    {
+      "placeId": "kyoto-review-3ad4fafd578f",
+      "placeName": "쇼세이엔 정원",
+      "removedUrl": "https://blog.naver.com/alrg0411/224439356860",
+      "reason": "본문의 서래원 방문을 쇼세이엔 정원 방문으로 확인할 수 없어 기존 연결을 제거. Wikivoyage 근거는 보존."
+    }
+  ]
+}

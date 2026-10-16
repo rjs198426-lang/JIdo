@@ -2,6 +2,7 @@ import { test, expect, type Page } from '@playwright/test'
 import { cities, places, reviewedPlaceIds } from '../src/data'
 import { guideSchema } from '../src/guide-schema'
 import { expandedGuideById } from '../src/expanded-guides'
+import blogNotes from '../src/blog-place-notes.json' with { type: 'json' }
 import { resortGuideById } from '../src/resort-guides'
 
 async function explore(page: Page) {
@@ -71,10 +72,18 @@ test('21개 여행권의 조사 자료와 미검증 휴양지 명소를 구분�
     expect(place.reviewSources?.length).toBeGreaterThan(0)
     for (const source of place.reviewSources!) {
       expect(source.checkedAt).toBe(
-        expandedGuideById.has(place.cityId) ? '2026-10-15' : '2026-10-14',
+        blogNotes.some(
+          (note) =>
+            note.id === place.id &&
+            note.reviewSources.some((review) => review.url === source.url),
+        )
+          ? '2026-10-16'
+          : expandedGuideById.has(place.cityId)
+            ? '2026-10-15'
+            : '2026-10-14',
       )
       expect(source.url).toMatch(
-        /^https:\/\/(en\.wikivoyage\.org\/wiki\/|blog\.naver\.com\/|github\.com\/wikivoyage\/wikivoyage.github.io\/blob\/)/,
+        /^https:\/\/(en\.wikivoyage\.org\/wiki\/|blog\.naver\.com\/|[a-zA-Z0-9-]+\.tistory\.com\/|github\.com\/wikivoyage\/wikivoyage.github.io\/blob\/)/,
       )
       expect(source.screeningNote).toContain('보증하지 않습니다')
     }
@@ -83,8 +92,8 @@ test('21개 여행권의 조사 자료와 미검증 휴양지 명소를 구분�
     reviewed.filter((place) =>
       place.reviewSources?.some((source) => source.kind === 'visit-review'),
     ),
-  ).toHaveLength(16)
-  expect(places.filter((place) => place.photoCredit)).toHaveLength(52)
+  ).toHaveLength(18)
+  expect(places.filter((place) => place.photoCredit)).toHaveLength(54)
 })
 
 test('도시 선택·목록 추가·근교 검색은 인터넷 없이 동작하고 서로의 필터를 보존', async ({

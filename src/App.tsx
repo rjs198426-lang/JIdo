@@ -1,3 +1,4 @@
+import GuidePlaces from './GuidePlaces'
 import TripOverview from './TripOverview'
 import {
   personalPhotoKey,
@@ -2398,40 +2399,7 @@ export default function App() {
                   <Plus size={18} />
                   {city.name} 여행 만들기
                 </button>
-                <div className="detail-section-heading">
-                  <h3>이 도시에서 꼭 가볼 곳</h3>
-                  <span>
-                    {places.filter((place) => place.cityId === city.id).length}
-                    곳
-                  </span>
-                </div>
-                <div className="detail-place-list">
-                  {places
-                    .filter((place) => place.cityId === city.id)
-                    .map((place) => {
-                      const Icon = categoryIcon[place.category]
-                      return (
-                        <div key={place.id}>
-                          <span className="detail-place-icon">
-                            <Icon size={18} />
-                          </span>
-                          <button onClick={() => openPlace(place.id)}>
-                            <strong>{place.name}</strong>
-                            <span>
-                              {place.category} · {place.duration}
-                            </span>
-                          </button>
-                          <button
-                            className="icon-button"
-                            aria-label={`${place.name} 자세히 보기`}
-                            onClick={() => openPlace(place.id)}
-                          >
-                            <ChevronRight size={17} />
-                          </button>
-                        </div>
-                      )
-                    })}
-                </div>
+                <GuidePlaces key={city.id} cityId={city.id} onOpen={openPlace} />
               </div>
             </Modal>
           )

@@ -9,6 +9,7 @@ import {
 import { guideSchema, archivedGuideSchema, type Guide } from './guide-schema'
 import { fetchGuides } from './guide-api'
 import { currentPlaceName } from './place-names'
+import { withBlogNotes } from './blog-place-notes'
 export { categoryOptions } from './data'
 export type { City, Place, Region } from './data'
 
@@ -63,7 +64,7 @@ function currentPhoto<
 function currentPlace(value: (typeof bundledPlaces)[number]) {
   const bundled = bundledPlaces.find((place) => place.id === value.id)
   value = currentPlaceName(value, bundled)
-  const updated = currentPhoto(value, bundled)
+  const updated = withBlogNotes(currentPhoto(value, bundled))
   if (
     bundled?.reviewSources?.length &&
     !value.reviewSources?.length &&
@@ -71,14 +72,14 @@ function currentPlace(value: (typeof bundledPlaces)[number]) {
     value.cityId === bundled.cityId &&
     (legacyImages.has(value.image) || value.image === bundled.photoCredit?.file)
   )
-    return {
+    return withBlogNotes({
       ...updated,
       area: bundled.area,
       reviewSources: bundled.reviewSources,
       lat: bundled.lat,
       lng: bundled.lng,
       osmPlaceId: bundled.osmPlaceId,
-    }
+    })
   return updated
 }
 function rebuild() {

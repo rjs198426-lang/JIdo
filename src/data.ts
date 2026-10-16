@@ -6,6 +6,7 @@ import { resortGuides } from './resort-guides.ts'
 import researchedPlaces from './researched-places.json' with { type: 'json' }
 import { placeSchema } from './guide-schema.ts'
 import type { ReviewSource } from './review-source'
+import { withBlogNotes } from './blog-place-notes.ts'
 export type PlaceCategory = '관광' | '맛집' | '카페' | '숙소' | '바·공연'
 export type Region =
   | '전체'
@@ -543,7 +544,8 @@ for (const raw of [
   if (index >= 0) places[index] = { ...places[index], ...reviewed }
   else places.push(reviewed)
 }
-for (const place of places) {
+for (let index = 0; index < places.length; index++) {
+  const place = (places[index] = withBlogNotes(places[index]))
   const coordinate = verifiedVenueCoordinates[place.id]
   if (coordinate && !reviewedPlaceIds.has(place.id)) {
     place.lat = coordinate.lat

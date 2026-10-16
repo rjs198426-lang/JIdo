@@ -71,3 +71,45 @@
 .trip-overview[open] > summary > svg:last-child {
   transform: rotate(180deg);
 }
+
+.guide-place-categories {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  gap: 8px;
+  padding: 4px 0 12px;
+  margin: 0 0 4px;
+  max-width: 100%;
+}
+.guide-place-categories > button {
+  flex: 0 0 auto;
+  min-height: 44px;
+  padding: 8px 12px;
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  font-size: 14px;
+  color: #48645d;
+  background: #fff;
+  white-space: nowrap;
+}
+.guide-place-categories > button.active {
+  background: var(--green);
+  border-color: var(--green);
+  color: #fff;
+}
+.guide-place-categories button > span {
+  margin-left: 6px;
+  font-size: 12px;
+  opacity: 0.8;
+}
+.guide-place-categories button:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+.guide-places {
+  min-width: 0;
+}
+.guide-places-empty {
+  color: #64776b;
+  font-size: 14px;
+}

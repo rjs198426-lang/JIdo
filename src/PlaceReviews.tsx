@@ -23,8 +23,14 @@ export default function PlaceReviews({ place }: { place: Place }) {
           <span>
             <strong>{source.title}</strong>
             <small>
-              {source.kind === 'visit-review' ? '방문 후기' : '여행자 가이드'} ·
-              확인 {source.checkedAt}
+              {source.kind === 'visit-review'
+                ? new URL(source.url).hostname.endsWith('.tistory.com')
+                  ? '티스토리 방문 후기'
+                  : new URL(source.url).hostname.endsWith('.naver.com')
+                    ? '네이버 방문 후기'
+                    : '방문 후기'
+                : '여행자 가이드'}{' '}
+              · 확인 {source.checkedAt}
             </small>
           </span>
           <ExternalLink size={15} />
