@@ -163,11 +163,11 @@ test('잘못된 여행 날짜는 저장하지 않음', async ({ page }) => {
   await expect(page.getByRole('alert')).toContainText(
     '마지막 날은 출발일과 같거나 이후',
   )
-  await page.getByLabel('마지막 날').fill('2026-12-20')
+  await page.getByLabel('마지막 날').fill('2027-03-20')
   await page
     .getByRole('button', { name: '내 여행 만들기', exact: true })
     .click()
-  await expect(page.getByRole('alert')).toContainText('최대 21일')
+  await expect(page.getByRole('alert')).toContainText('최대 90일')
   await page.getByLabel('마지막 날').fill('2026-11-10')
   await page
     .getByRole('button', { name: '내 여행 만들기', exact: true })

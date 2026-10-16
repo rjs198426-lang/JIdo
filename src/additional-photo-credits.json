@@ -30,5 +30,69 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Taipei_101_2009_amk.jpg",
     "verifiedAt": "2026-10-16"
+  },
+  "kyoto-review-b0667fd6a6fb": {
+    "file": "/images/kyoto-review-b0667fd6a6fb.jpg",
+    "author": "Cun Cun",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Summer_in_Ginkakuji_Temple,_Kyoto.jpg",
+    "verifiedAt": "2026-10-16"
+  },
+  "kyoto-review-d2c00ef25973": {
+    "file": "/images/kyoto-review-d2c00ef25973.jpg",
+    "author": "tanohei",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kyoto-maruyama.jpg",
+    "verifiedAt": "2026-10-16"
+  },
+  "tokyo-review-e4e7585206e4": {
+    "file": "/images/tokyo-review-e4e7585206e4.jpg",
+    "author": "掬茶",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Night_view_from_the_Tokyo_Metropolitan_Government_Building,_20101002-005.jpg",
+    "verifiedAt": "2026-10-16"
+  },
+  "city-guam": {
+    "file": "/images/city-guam.jpg",
+    "author": "Daniel Ramirez from Honolulu, USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Evening_at_Tumon_Bay_(49255617617).jpg",
+    "verifiedAt": "2026-10-16"
+  },
+  "city-hongkong": {
+    "file": "/images/city-hongkong.jpg",
+    "author": "ImMrDrake",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Victoria_Harbour_skyline,_Hong_Kong_(2008).jpg",
+    "verifiedAt": "2026-10-16"
+  },
+  "city-danang": {
+    "file": "/images/city-danang.jpg",
+    "author": "Nick",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dragon_Bridge,_Da_Nang,_Vietnam_(48944946922).jpg",
+    "verifiedAt": "2026-10-16"
+  },
+  "guam-tumon-beach": {
+    "file": "/images/city-guam.jpg",
+    "author": "Daniel Ramirez from Honolulu, USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Evening_at_Tumon_Bay_(49255617617).jpg",
+    "verifiedAt": "2026-10-16"
+  },
+  "taipei-guide-efbe7e846207": {
+    "file": "/images/city-taipei.webp",
+    "author": "AngMoKio",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Taipei_101_2009_amk.jpg",
+    "verifiedAt": "2026-10-16"
   }
 }

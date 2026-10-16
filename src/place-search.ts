@@ -1,3 +1,4 @@
+import { aliasQuery, koreanSearchName } from './search-aliases'
 import { Capacitor, CapacitorHttp } from '@capacitor/core'
 import { places } from './catalog'
 import { searchGooglePlaces, type GooglePlace } from './google-places'
@@ -184,7 +185,10 @@ export function photonPlaces(body: unknown): SearchPlace[] {
     result.set(id, {
       id,
       provider: 'osm',
-      name: properties.name.trim().slice(0, 160),
+      name:
+        typeof properties['name:ko'] === 'string'
+          ? properties['name:ko'].slice(0, 160)
+          : properties.name.trim().slice(0, 160),
       address,
       link: `https://www.openstreetmap.org/${id}`,
       coordinates: { lat, lng },
@@ -305,7 +309,18 @@ export async function findPlaces(
   service: PlaceSearchService,
   context?: SearchContext,
 ) {
-  if (service === 'osm') return freePlaces(query, context)
+  if (service === 'osm') {
+    const found = await freePlaces(query, context)
+    const alias = aliasQuery(query)
+    const result =
+      found.length || !alias ? found : await freePlaces(alias, context)
+    return /[가-힣]/.test(query)
+      ? result.map((place) => ({
+          ...place,
+          name: koreanSearchName(place.name),
+        }))
+      : result
+  }
   return (
     await searchGooglePlaces(
       context ? [context.name, context.country, query.trim()].join(' ') : query,

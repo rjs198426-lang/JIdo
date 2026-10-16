@@ -1,3 +1,4 @@
+import { useDraftFields } from './form-draft'
 import AttachmentsPanel from './AttachmentsPanel'
 import {
   reservationNote,
@@ -36,7 +37,41 @@ export function Reservations({ trip, onUpdate }: Props) {
     note: '',
     status: 'pending',
   })
-  const [form, setForm] = useState<Reservation | null>(null)
+  const draft = useDraftFields(
+    `jido-draft:reservation:${trip.id}`,
+    { form: null as Reservation | null },
+    {
+      form: (value) => {
+        if (value === null) return true
+        if (!value || typeof value !== 'object') return false
+        const item = value as Reservation
+        return (
+          [
+            'id',
+            'title',
+            'date',
+            'time',
+            'reference',
+            'address',
+            'link',
+            'note',
+          ].every(
+            (key) =>
+              typeof item[key as keyof Reservation] === 'string' &&
+              String(item[key as keyof Reservation]).length <= 2000,
+          ) &&
+          ['항공', '숙소', '교통', '체험', '기타'].includes(item.kind) &&
+          (!item.status ||
+            ['pending', 'confirmed', 'cancelled'].includes(item.status)) &&
+          (item.cost === undefined ||
+            (typeof item.cost === 'number' && Number.isFinite(item.cost))) &&
+          (item.currency === undefined || currencies.includes(item.currency)) &&
+          (item.endDate === undefined || typeof item.endDate === 'string')
+        )
+      },
+    },
+  )
+  const [form, setForm] = draft.field('form')
   const [error, setError] = useState('')
   const [removed, setRemoved] = useState<Reservation | null>(null)
   const [filter, setFilter] = useState('전체')

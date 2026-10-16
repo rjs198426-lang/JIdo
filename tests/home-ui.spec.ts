@@ -165,7 +165,7 @@ test('사진에는 이용 조건을 덧씌우지 않고 별도 출처에서 모�
   await expect(page.locator('.photo-credit')).toHaveCount(0)
   await expect(page.locator('.travel-home')).not.toContainText('CC BY')
   await page.getByRole('button', { name: '사진 출처', exact: true }).click()
-  await expect(page.locator('.photo-credit-entry')).toHaveCount(57)
+  await expect(page.locator('.photo-credit-entry')).toHaveCount(63)
   const links = await page
     .locator('.photo-credit-links a')
     .evaluateAll((links) =>

@@ -1,5 +1,6 @@
+import { reservationConflicts } from './reservation-conflicts'
+import { useDraftFields } from './form-draft'
 import { useState, type FormEvent } from 'react'
-import { CalendarDays } from 'lucide-react'
 import { dayCount, type Trip } from './store'
 import { destinationForDay } from './travel-model'
 
@@ -10,10 +11,16 @@ export default function TripEditor({
   trip: Trip
   onSave: (trip: Trip) => void
 }) {
-  const [title, setTitle] = useState(trip.title)
-  const [start, setStart] = useState(trip.startDate)
-  const [end, setEnd] = useState(trip.endDate)
-  const [travelers, setTravelers] = useState(trip.travelers)
+  const draft = useDraftFields(`jido-draft:trip:${trip.id}`, {
+    title: trip.title,
+    start: trip.startDate,
+    end: trip.endDate,
+    travelers: trip.travelers,
+  })
+  const [title, setTitle] = draft.field('title')
+  const [start, setStart] = draft.field('start')
+  const [end, setEnd] = draft.field('end')
+  const [travelers, setTravelers] = draft.field('travelers')
   const [error, setError] = useState('')
   const count = dayCount(start, end)
   const blockedDays =
@@ -22,12 +29,21 @@ export default function TripEditor({
           index >= count && stops.length ? [`DAY ${index + 1}`] : [],
         )
       : []
+  const conflicts =
+    Number.isFinite(count) && count > 0 && count <= 90
+      ? reservationConflicts({
+          ...trip,
+          startDate: start,
+          endDate: end,
+          days: Array.from({ length: count }, (_, i) => trip.days[i] || []),
+        })
+      : []
   function submit(event: FormEvent) {
     event.preventDefault()
     if (!title.trim()) return setError('여행 이름을 입력해 주세요.')
     if (!Number.isFinite(count) || count < 1)
       return setError('마지막 날은 출발일과 같거나 이후여야 해요.')
-    if (count > 21) return setError('한 여행은 최대 21일까지 만들 수 있어요.')
+    if (count > 90) return setError('한 여행은 최대 90일까지 만들 수 있어요.')
     if (travelers < (trip.members?.length || 0))
       return setError(
         '등록한 동행인 수보다 인원을 줄일 수 없어요. 먼저 동행인을 편집하세요.',
@@ -45,6 +61,7 @@ export default function TripEditor({
         name = `${base} (${suffix++})`
       members.push({ id: crypto.randomUUID(), name })
     }
+    draft.clear()
     onSave({
       ...trip,
       title: title.trim(),
@@ -62,15 +79,6 @@ export default function TripEditor({
   }
   return (
     <form className="create-form" onSubmit={submit}>
-      <div className="form-intro">
-        <span className="small-icon">
-          <CalendarDays size={24} />
-        </span>
-        <div>
-          <h3>계획이 바뀌어도 괜찮아요</h3>
-          <p>여행 이름, 날짜와 인원을 수정하세요.</p>
-        </div>
-      </div>
       <label className="field">
         여행 이름
         <input
@@ -119,6 +127,17 @@ export default function TripEditor({
           ))}
         </select>
       </label>
+      {!!conflicts.length && (
+        <aside className="reservation-conflicts" role="alert">
+          <strong>예약 날짜와 일정이 달라집니다</strong>
+          <ul>
+            {conflicts.map((item) => (
+              <li key={item.id}>{item.text}</li>
+            ))}
+          </ul>
+          <p>예약 원본 날짜는 유지됩니다. 저장 후 예약을 확인하세요.</p>
+        </aside>
+      )}
       {error && (
         <p className="form-error" role="alert">
           {error}

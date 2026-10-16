@@ -103,3 +103,16 @@
 원본 배포 패키지의 [이용조건 PDF](https://github.com/CapstoneDesign-Lymming/Lymming_FrontEnd/blob/ada39435fa79971f321ae7c0c1a1fc58eda18f1b/src/assets/fonts/LaundryGothic_TTF/laundrygothic_font_license.pdf)를 확인했습니다(문서 갱신 2024-04-15). 의식주컴퍼니(Lifegoeson. Corp.)의 저작권 표시와 Design210 제작 메타데이터를 보존합니다. 문서는 개인·기업의 영리·비영리 이용 및 「애플리케이션 UI, 모바일, 네비게이션 등 디바이스 내 탑재」를 허용하고, 폰트 임의 수정·단독 재배포·유료 판매를 금지합니다. 문서 원본은 `public/licenses/laundrygothic_font_license.pdf`에 포함했습니다.
 
 단독 폰트 파일은 GitHub 소스에 게시하지 않습니다. `public/fonts/LaundryGothic-Regular.woff`는 `.gitignore`로 제외하고, 앱 APK에만 내장합니다. `npm run build`·`npm run dev`는 `scripts/setup-fonts.mjs`에서 로컬 원본 해시를 확인하며 파일이 없으면 고정된 공개 배포 사본을 다운로드해 검증합니다. 실패하면 [공식 글꼴 안내](https://www.laundrygo.com/font/)의 Regular 웹폰트를 같은 경로에 준비해야 합니다. 원본 웹폰트와 메타데이터·임베딩 비트(fsType=4)는 변형하지 않습니다. 파일 해시·확인한 PDF·배포 사본 URL은 `public/fonts/LaundryGothic-source.json`에 기록합니다.
+
+## Android 1.18 — 여행지 대표 사진 보완
+
+2026-10-16 Wikimedia Commons ImageInfo API의 촬영자·라이선스 메타데이터와 원본 JPEG를 확인하고 실제 이미지를 검토했습니다. 원본 바이트를 수정하지 않고 내장합니다. 일부 추가 검색은 HTTP 429로 중단했으며, 라이선스가 불명확한 Flickr·미러 사진은 사용하지 않았습니다. 사진 위에 이용조건을 표시하지 않고 기존 정보 화면에 출처를 유지합니다.
+
+- `kyoto-review-b0667fd6a6fb`: [File:Summer in Ginkakuji Temple, Kyoto.jpg](https://commons.wikimedia.org/wiki/File:Summer_in_Ginkakuji_Temple,_Kyoto.jpg) · Cun Cun · [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) · SHA-256 `63f424142d298233b83ae7b7c903136d635a69352a0e21f8f5a76a5e394a4d63`.
+- `kyoto-review-d2c00ef25973`: [File:Kyoto-maruyama.jpg](https://commons.wikimedia.org/wiki/File:Kyoto-maruyama.jpg) · tanohei · [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) · SHA-256 `b5b44d7512ad8ff0ba3139341fe3a61ad9a2568e49d4fdfc270c271f13751160`.
+- `tokyo-review-e4e7585206e4`: [File:Night view from the Tokyo Metropolitan Government Building, 20101002-005.jpg](https://commons.wikimedia.org/wiki/File:Night_view_from_the_Tokyo_Metropolitan_Government_Building,_20101002-005.jpg) · 掬茶 · [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) · SHA-256 `cf84fbcbfe540c82efe40611a5fe19a6fecd9e8925737973663857b6ba251794`.
+- `city-guam`: [File:Evening at Tumon Bay (49255617617).jpg](https://commons.wikimedia.org/wiki/File:Evening_at_Tumon_Bay_(49255617617).jpg) · Daniel Ramirez from Honolulu, USA · [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) · SHA-256 `1fb972a3e9eeb35e782f0ad6ca49610a767ced79c046608c1be5dff94edcdee6`.
+- `city-hongkong`: [File:Victoria Harbour skyline, Hong Kong (2008).jpg](https://commons.wikimedia.org/wiki/File:Victoria_Harbour_skyline,_Hong_Kong_(2008).jpg) · ImMrDrake · [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) · SHA-256 `0e6e04c2ee470749a2cd5b7ece2ffec851efbd022cf47cbb2db1486eaf76d575`.
+- `city-danang`: [File:Dragon Bridge, Da Nang, Vietnam (48944946922).jpg](https://commons.wikimedia.org/wiki/File:Dragon_Bridge,_Da_Nang,_Vietnam_(48944946922).jpg) · Nick · [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) · SHA-256 `1816705532381956f91871f6042708d9eda7df0479afeb3d84e101ba049299cd`.
+
+괌의 투몬 비치는 투몬만 사진을, 타이베이 101 쇼핑몰은 같은 건물의 기존 타이베이 101 사진을 연결합니다. 이 사진을 서로 다른 장소에 반복하지 않습니다. 현재 도시 대표 사진 21/21개, 장소 사진 59/887개입니다. 장소 828곳의 사진은 남아 있으며 불확실한 사진으로 채우지 않습니다. [확인 근거](public/photo-research-1.18.json).

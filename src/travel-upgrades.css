@@ -113,3 +113,228 @@
   color: #64776b;
   font-size: 14px;
 }
+
+/* Keep the selected day and real stops ahead of secondary management tools. */
+.workspace-schedule {
+  display: flex;
+  flex-direction: column;
+}
+.workspace-schedule > .day-jump {
+  order: 0;
+}
+.workspace-schedule > .day-tabs {
+  order: 1;
+}
+.workspace-schedule > .journey-route {
+  display: block;
+  order: 2;
+}
+.workspace-schedule .journey-city-controls {
+  order: 2;
+}
+.workspace-schedule > .day-content {
+  order: 3;
+}
+.workspace-schedule .city-details {
+  order: 4;
+}
+.workspace-schedule > .trip-overview {
+  order: 5;
+}
+.workspace-schedule > .planning-shortcuts {
+  order: 6;
+}
+.day-jump {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  padding: 8px 0;
+}
+.day-jump select {
+  flex: 1;
+  min-width: 0;
+  min-height: 44px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: #fff;
+  padding: 8px;
+}
+.reservation-conflicts {
+  border-left: 3px solid #b97619;
+  padding: 12px;
+  margin: 8px 0;
+  background: #fff8e9;
+  color: #704a12;
+  font-size: 14px;
+  overflow-wrap: anywhere;
+}
+.reservation-conflicts ul {
+  padding-left: 18px;
+  margin: 8px 0;
+}
+.reservation-conflicts li + li {
+  margin-top: 6px;
+}
+.text-button,
+summary {
+  min-height: 44px;
+}
+.timeline-item .text-button {
+  min-width: 44px;
+  padding: 10px 8px;
+}
+@media (max-width: 700px) {
+  .trips-page .trip-page-title {
+    margin-bottom: 8px;
+    gap: 8px;
+    align-items: center;
+  }
+  .trips-page .trip-page-title h1 {
+    font-size: 22px;
+    margin: 0;
+  }
+  .trips-page .trip-page-title > div {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .trips-page .trip-selector {
+    margin: 0 0 8px;
+    padding: 0;
+    gap: 8px;
+  }
+  .itinerary .trip-banner {
+    padding: 0 0 8px;
+  }
+  .itinerary .trip-banner h2 {
+    margin: 0 0 4px;
+    font-size: 18px;
+  }
+  .itinerary .workspace-tabs {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    overflow: visible;
+    gap: 4px;
+  }
+  .itinerary .workspace-tabs button {
+    min-width: 0;
+    padding: 8px 2px;
+    min-height: 44px;
+    font-size: 12px;
+  }
+  .workspace-schedule > .day-jump {
+    padding: 6px 0;
+  }
+  .workspace-schedule > .day-tabs {
+    padding: 4px 0;
+  }
+  .workspace-schedule > .day-jump {
+    display: none;
+  }
+  .workspace-schedule:has(.day-tab:nth-child(8)) > .day-jump {
+    display: flex;
+  }
+  .workspace-schedule:has(.day-tab:nth-child(8)) > .day-tabs {
+    display: none;
+  }
+  .workspace-schedule .journey-city-controls {
+    margin: 4px 0 8px;
+  }
+  .itinerary .day-content {
+    padding-top: 0;
+  }
+  .itinerary .day-content > .section-heading {
+    margin: 0 0 8px;
+    padding: 4px 0;
+  }
+}
+.nearby-places {
+  margin: 20px 0;
+}
+.nearby-places > button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 12px;
+  padding: 12px 0;
+  border-top: 1px solid var(--line);
+  min-height: 48px;
+  text-align: left;
+}
+.nearby-places > button > span {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.nearby-places strong {
+  font-size: 15px;
+  overflow-wrap: anywhere;
+}
+.nearby-places small {
+  font-size: 13px;
+  color: #64776b;
+}
+.nearby-places svg {
+  flex-shrink: 0;
+}
+.place-card-address {
+  display: block;
+  font-size: 12px;
+  overflow-wrap: anywhere;
+}
+.place-card .place-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.place-card .place-card-address {
+  flex-basis: 100%;
+}
+.place-card .place-meta > svg {
+  flex-shrink: 0;
+}
+.full-backup {
+  min-width: 0;
+}
+.full-backup .restore-preview {
+  overflow-wrap: anywhere;
+}
+@media (max-width: 700px) {
+  .place-card:has(.place-photo-empty) .place-photo {
+    background: transparent;
+  }
+  .place-card .place-photo-empty {
+    background: #f6f8f7;
+    color: #73958c;
+  }
+  .place-card .place-meta {
+    font-size: 12px;
+  }
+}
+
+.workspace-route {
+  display: flex;
+  flex-direction: column;
+}
+.workspace-route > .day-jump {
+  order: 0;
+}
+.workspace-route > .day-tabs {
+  order: 1;
+}
+.workspace-route > .journey-route {
+  order: 2;
+}
+.workspace-route > .route-view {
+  order: 3;
+}
+.workspace-route > .trip-overview {
+  order: 4;
+}
+.workspace-route > .planning-shortcuts {
+  order: 5;
+}

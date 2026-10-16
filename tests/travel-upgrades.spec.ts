@@ -90,10 +90,9 @@ test('여행을 만들기 전에도 개인 장소·도시 사진을 지정하고
       ].id,
   )
   await page.getByRole('button', { name: '닫기', exact: true }).click()
-  await page
-    .getByRole('button', { name: '교토 여행지 자세히 보기', exact: true })
-    .first()
-    .click()
+  await expect(page.getByRole('dialog')).toHaveAccessibleName(
+    '교토 여행 가이드',
+  )
   await page
     .getByLabel('교토 개인 사진 파일', { exact: true })
     .setInputFiles('public/images/place-gion.jpg')

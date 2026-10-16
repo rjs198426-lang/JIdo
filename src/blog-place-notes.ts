@@ -1,3 +1,4 @@
+import curated from './curated-place-notes.json' with { type: 'json' }
 import { z } from 'zod'
 import notes from './blog-place-notes.json' with { type: 'json' }
 import { reviewSourceSchema } from './review-source.ts'
@@ -13,10 +14,10 @@ const updates = z
       previousTip: z.string(),
       description: z.string().min(1).max(5000),
       tip: z.string().min(1).max(2000),
-      reviewSources: z.array(reviewSourceSchema).min(1),
+      reviewSources: z.array(reviewSourceSchema).default([]),
     }),
   )
-  .parse(notes)
+  .parse([...notes, ...curated])
 
 // Upgrade unchanged built-in text only. Custom guide text, coordinates and photos survive.
 export function withBlogNotes<T extends Place>(place: T): T {

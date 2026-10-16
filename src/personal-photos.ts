@@ -1,3 +1,4 @@
+import { savedTripReferencesFile } from './file-references'
 import { useEffect, useState, useSyncExternalStore } from 'react'
 import { attachmentSchema, type Attachment } from './attachment-schema'
 import { attachmentUrl, deleteStoredAttachment } from './attachment-storage'
@@ -55,7 +56,8 @@ export async function savePersonalPhoto(key: string, file?: Attachment) {
   if (
     previous &&
     previous.id !== file?.id &&
-    !Object.values(next).some((item) => item.id === previous.id)
+    !Object.values(next).some((item) => item.id === previous.id) &&
+    !savedTripReferencesFile(previous.id)
   )
     await deleteStoredAttachment(previous).catch(() => {})
 }
@@ -80,4 +82,24 @@ export function usePhotoUrl(file?: Attachment) {
     }
   }, [file?.id])
   return file && state.id === file.id ? state.url : ''
+}
+
+export function personalPhotosSnapshot(): Record<string, Attachment> {
+  return { ...photos }
+}
+// Backup transactions manage file lifetime themselves; this never deletes old files.
+export function replacePersonalPhotos(next: Record<string, Attachment>) {
+  if (Object.keys(next).length > 200)
+    throw new Error('개인 대표 사진은 최대 200곳까지 복원할 수 있어요.')
+  const parsed: Record<string, Attachment> = {}
+  for (const [key, value] of Object.entries(next)) {
+    if (!/^(city|place):[a-zA-Z0-9_-]{1,100}$/.test(key))
+      throw new Error('사진 연결 정보를 확인하세요.')
+    parsed[key] = attachmentSchema.parse(value)
+    if (!parsed[key].mimeType.startsWith('image/'))
+      throw new Error('대표 사진 형식을 확인하세요.')
+  }
+  localStorage.setItem(KEY, JSON.stringify(parsed))
+  photos = parsed
+  for (const listener of listeners) listener()
 }

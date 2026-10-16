@@ -204,9 +204,9 @@ export const tripSchema = z
     startDate: dateSchema,
     endDate: dateSchema,
     travelers: z.number().int().min(1).max(10),
-    days: z.array(z.array(stopSchema).max(200)).min(1).max(21),
+    days: z.array(z.array(stopSchema).max(200)).min(1).max(90),
     destinations: z.array(destinationSchema).min(1).max(30).optional(),
-    dayDestinationIds: z.array(id).max(21).optional(),
+    dayDestinationIds: z.array(id).max(90).optional(),
     checklist: z.array(checklistSchema).max(500).optional(),
     expenses: z.array(expenseSchema).max(10000).optional(),
     budgets: z

@@ -1,0 +1,78 @@
+{
+  "checkedAt": "2026-10-16",
+  "references": [
+    {
+      "id": "kyoto-review-b0667fd6a6fb",
+      "title": "File:Summer in Ginkakuji Temple, Kyoto.jpg",
+      "author": "Cun Cun",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Summer_in_Ginkakuji_Temple,_Kyoto.jpg",
+      "imageSHA256": "63f424142d298233b83ae7b7c903136d635a69352a0e21f8f5a76a5e394a4d63",
+      "originalBytes": 926505,
+      "checkedAt": "2026-10-16",
+      "verification": "Commons ImageInfo extmetadata + original image + visual inspection"
+    },
+    {
+      "id": "kyoto-review-d2c00ef25973",
+      "title": "File:Kyoto-maruyama.jpg",
+      "author": "tanohei",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kyoto-maruyama.jpg",
+      "imageSHA256": "b5b44d7512ad8ff0ba3139341fe3a61ad9a2568e49d4fdfc270c271f13751160",
+      "originalBytes": 785767,
+      "checkedAt": "2026-10-16",
+      "verification": "Commons ImageInfo extmetadata + original image + visual inspection"
+    },
+    {
+      "id": "tokyo-review-e4e7585206e4",
+      "title": "File:Night view from the Tokyo Metropolitan Government Building, 20101002-005.jpg",
+      "author": "掬茶",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Night_view_from_the_Tokyo_Metropolitan_Government_Building,_20101002-005.jpg",
+      "imageSHA256": "cf84fbcbfe540c82efe40611a5fe19a6fecd9e8925737973663857b6ba251794",
+      "originalBytes": 1405059,
+      "checkedAt": "2026-10-16",
+      "verification": "Commons ImageInfo extmetadata + original image + visual inspection"
+    },
+    {
+      "id": "city-guam",
+      "title": "File:Evening at Tumon Bay (49255617617).jpg",
+      "author": "Daniel Ramirez from Honolulu, USA",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Evening_at_Tumon_Bay_(49255617617).jpg",
+      "imageSHA256": "1fb972a3e9eeb35e782f0ad6ca49610a767ced79c046608c1be5dff94edcdee6",
+      "originalBytes": 844160,
+      "checkedAt": "2026-10-16",
+      "verification": "Commons ImageInfo extmetadata + original image + visual inspection"
+    },
+    {
+      "id": "city-hongkong",
+      "title": "File:Victoria Harbour skyline, Hong Kong (2008).jpg",
+      "author": "ImMrDrake",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Victoria_Harbour_skyline,_Hong_Kong_(2008).jpg",
+      "imageSHA256": "0e6e04c2ee470749a2cd5b7ece2ffec851efbd022cf47cbb2db1486eaf76d575",
+      "originalBytes": 2105614,
+      "checkedAt": "2026-10-16",
+      "verification": "Commons ImageInfo extmetadata + original image + visual inspection"
+    },
+    {
+      "id": "city-danang",
+      "title": "File:Dragon Bridge, Da Nang, Vietnam (48944946922).jpg",
+      "author": "Nick",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dragon_Bridge,_Da_Nang,_Vietnam_(48944946922).jpg",
+      "imageSHA256": "1816705532381956f91871f6042708d9eda7df0479afeb3d84e101ba049299cd",
+      "originalBytes": 158929,
+      "checkedAt": "2026-10-16",
+      "verification": "Commons ImageInfo extmetadata + original image + visual inspection"
+    }
+  ],
+  "limits": "Other Commons searches hit HTTP 429; uncertain licenses and unrelated photos were not used. These six images do not complete all venue photos."
+}

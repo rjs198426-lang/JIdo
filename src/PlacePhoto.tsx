@@ -1,6 +1,13 @@
 import { personalPhotoKey, usePersonalPhoto } from './personal-photos'
 import { useContext, useEffect, useState } from 'react'
-import { Image as ImageIcon } from 'lucide-react'
+import {
+  Image as ImageIcon,
+  MapPin,
+  Utensils,
+  Coffee,
+  BedDouble,
+  Music,
+} from 'lucide-react'
 import { AttachmentsContext } from './AttachmentsPanel'
 import { attachmentUrl } from './attachment-storage'
 import type { Stop } from './travel-model'
@@ -22,7 +29,7 @@ export default function PlacePhoto({
     context?.files.filter(
       (file) =>
         !!stop?.id &&
-        file.stopId === stop.id &&
+        (file.stopId === stop.id || file.id === stop.photoId) &&
         file.mimeType.startsWith('image/'),
     ) || []
   const catalog =
@@ -31,7 +38,10 @@ export default function PlacePhoto({
       ? getPlace(stop.custom.catalogPlaceId || '')
       : getPlace(stop?.placeId || ''))
   const personal = usePersonalPhoto(
-    personalPhotoKey('place', catalog?.id || ''),
+    personalPhotoKey(
+      'place',
+      catalog?.id || stop?.custom?.catalogPlaceId || '',
+    ),
   )
   const own =
     files.find((file) => file.id === stop?.photoId) || files[0] || personal
@@ -77,13 +87,23 @@ export default function PlacePhoto({
         }
       />
     )
+  const EmptyIcon =
+    (
+      {
+        관광: MapPin,
+        맛집: Utensils,
+        카페: Coffee,
+        숙소: BedDouble,
+        '바·공연': Music,
+      } as Record<string, typeof ImageIcon>
+    )[catalog?.category || stop?.custom?.kind || ''] || ImageIcon
   return (
     <span
       className={`place-photo-empty ${className}`}
       role="img"
       aria-label={`${alt || catalog?.name || stop?.custom?.name || '장소'} 사진 없음`}
     >
-      <ImageIcon size={26} />
+      <EmptyIcon size={26} />
     </span>
   )
 }

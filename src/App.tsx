@@ -1,7 +1,12 @@
+import NearbyPlaces from './NearbyPlaces'
+import { commitFullRestore } from './full-backup'
+import ReservationConflicts from './ReservationConflicts'
+import { useDraftFields } from './form-draft'
 import GuidePlaces from './GuidePlaces'
 import TripOverview from './TripOverview'
 import {
   personalPhotoKey,
+  personalPhotosSnapshot,
   usePersonalPhoto,
   usePhotoUrl,
 } from './personal-photos'
@@ -282,9 +287,10 @@ function PlaceCard({ place, onOpen }: { place: Place; onOpen: () => void }) {
         <strong>{place.name}</strong>
         <span className="place-description">{place.description}</span>
         <span className="place-meta">
-          <Icon size={13} /> 추천 코스 <span>·</span>
-          <Clock3 size={13} />
-          {place.duration}
+          <Icon size={13} /> {place.area || place.category}
+          {place.address && (
+            <span className="place-card-address">{place.address}</span>
+          )}
         </span>
       </button>
     </article>
@@ -329,15 +335,29 @@ function CreateTrip({
   placeId?: string
   onCreate: (trip: Trip) => void
 }) {
-  const [destination, setDestination] = useState(cityId || 'custom')
-  const [customCity, setCustomCity] = useState(initialName)
-  const [customCountry, setCustomCountry] = useState('')
-  const [title, setTitle] = useState('')
-  const [start, setStart] = useState(today())
-  const [end, setEnd] = useState(dateAt(today(), 3))
-  const [travelers, setTravelers] = useState(1)
-  const [recommended, setRecommended] = useState(false)
-  const [courseTime, setCourseTime] = useState('09:00')
+  const draft = useDraftFields(
+    `jido-draft:create:${cityId || 'custom'}:${placeId || ''}:${course?.placeIds.join(',') || ''}`,
+    {
+      destination: cityId || 'custom',
+      customCity: initialName,
+      customCountry: '',
+      title: '',
+      start: today(),
+      end: dateAt(today(), 3),
+      travelers: 1,
+      recommended: false,
+      courseTime: '09:00',
+    },
+  )
+  const [destination, setDestination] = draft.field('destination')
+  const [customCity, setCustomCity] = draft.field('customCity')
+  const [customCountry, setCustomCountry] = draft.field('customCountry')
+  const [title, setTitle] = draft.field('title')
+  const [start, setStart] = draft.field('start')
+  const [end, setEnd] = draft.field('end')
+  const [travelers, setTravelers] = draft.field('travelers')
+  const [recommended, setRecommended] = draft.field('recommended')
+  const [courseTime, setCourseTime] = draft.field('courseTime')
   const [error, setError] = useState('')
   const selectedCity = getCity(destination) || {
     name: customCity.trim() || '새로운 도시',
@@ -358,8 +378,8 @@ function CreateTrip({
       setError('마지막 날은 출발일과 같거나 이후여야 해요.')
       return
     }
-    if (count > 21) {
-      setError('한 여행은 최대 21일까지 만들 수 있어요.')
+    if (count > 90) {
+      setError('한 여행은 최대 90일까지 만들 수 있어요.')
       return
     }
     const days: Stop[][] = Array.from({ length: count }, () => [])
@@ -415,20 +435,13 @@ function CreateTrip({
             ).trip
           : created,
       )
+      draft.clear()
     } catch (error) {
       setError((error as Error).message)
     }
   }
   return (
     <form className="create-form" onSubmit={submit}>
-      <div className="form-intro">
-        <span className="small-icon">
-          <Plane size={24} />
-        </span>
-        <div>
-          <h3>내 자유여행 만들기</h3>
-        </div>
-      </div>
       <label className="field">
         어디로 떠나세요?
         <select
@@ -1032,7 +1045,12 @@ function Itinerary({
             </button>
           ))}
         </div>
+        <ReservationConflicts
+          trip={trip}
+          onOpen={() => setWorkspace('reservations')}
+        />
         <div
+          className={`workspace-content workspace-${workspace}`}
           id="workspace-panel"
           role="tabpanel"
           aria-labelledby={`workspace-${workspace}`}
@@ -1062,6 +1080,21 @@ function Itinerary({
           )}
           {(workspace === 'schedule' || workspace === 'route') && (
             <>
+              <label className="day-jump">
+                날짜{' '}
+                <select
+                  aria-label="일정 날짜 바로 이동"
+                  value={day}
+                  onChange={(event) => onDayChange(Number(event.target.value))}
+                >
+                  {trip.days.map((_, index) => (
+                    <option key={index} value={index}>
+                      DAY {index + 1} ·{' '}
+                      {formatDate(dateAt(trip.startDate, index))}
+                    </option>
+                  ))}
+                </select>
+              </label>
               <div className="day-tabs" role="tablist" aria-label="여행 날짜">
                 {trip.days.map((_, index) => (
                   <button
@@ -1525,6 +1558,21 @@ export default function App() {
   const [placeLimit, setPlaceLimit] = useState(24)
   const [exploreTab, setExploreTab] = useState<'cities' | 'places'>('cities')
   const [dialog, setDialog] = useState<Dialog | null>(null)
+  const guideCategory = useRef<(typeof categoryOptions)[number]>('전체')
+  const guideReturn = useRef<{ dialog: Dialog; scroll: number }[]>([])
+  const closeDialog = () => {
+    const previous = guideReturn.current.pop()
+    if (dialog?.type === 'place' && previous) {
+      setDialog(previous.dialog)
+      requestAnimationFrame(() =>
+        requestAnimationFrame(() => {
+          const modal = document.querySelector('.modal')
+          if (modal) modal.scrollTop = previous.scroll
+        }),
+      )
+    } else setDialog(null)
+  }
+
   const [toast, setToast] = useState('')
   const [activeTripId, setActiveTripId] = useState(() => {
     try {
@@ -1558,8 +1606,8 @@ export default function App() {
     const trip = store.trips.find((item) => item.id === activeTripId)
     return trip ? journeyPreference(trip).day : 0
   })
-  const navigationRef = useRef({ page, dialog })
-  navigationRef.current = { page, dialog }
+  const navigationRef = useRef({ page, dialog, closeDialog })
+  navigationRef.current = { page, dialog, closeDialog }
   useEffect(() => {
     if (!toast) return
     const timer = window.setTimeout(() => setToast(''), 2600)
@@ -1583,7 +1631,7 @@ export default function App() {
         preview.dispatchEvent(new Event('cancel', { cancelable: true }))
         return
       }
-      if (navigationRef.current.dialog) setDialog(null)
+      if (navigationRef.current.dialog) navigationRef.current.closeDialog()
       else if (navigationRef.current.page !== 'home') setPage('home')
       else void NativeApp.exitApp()
     })
@@ -1595,8 +1643,20 @@ export default function App() {
     setPage(target)
     window.scrollTo({ top: 0, behavior: 'smooth' })
   }
-  const openCity = (id: string) => setDialog({ type: 'city', id })
-  const openPlace = (id: string) => setDialog({ type: 'place', id })
+  const openCity = (id: string) => {
+    guideCategory.current = '전체'
+    guideReturn.current = []
+    setDialog({ type: 'city', id })
+  }
+  const openPlace = (id: string) => {
+    if (dialog?.type === 'city' || dialog?.type === 'place')
+      guideReturn.current.push({
+        dialog,
+        scroll: document.querySelector('.modal')?.scrollTop || 0,
+      })
+    else guideReturn.current = []
+    setDialog({ type: 'place', id })
+  }
   const search = (event: FormEvent) => {
     event.preventDefault()
     setRegion('전체')
@@ -2104,6 +2164,9 @@ export default function App() {
                     }))
                   }
                   isAttachmentShared={(id) =>
+                    Object.values(personalPhotosSnapshot()).some(
+                      (file) => file.id === id,
+                    ) ||
                     attachmentStoreRef.current.trips.some(
                       (trip) =>
                         trip.id !== activeTrip.id &&
@@ -2183,11 +2246,25 @@ export default function App() {
           <TravelBackup
             trips={store.trips}
             activeTrip={activeTrip}
+            onFullRestore={(trips, photos) => {
+              const next = commitFullRestore(
+                attachmentStoreRef.current,
+                trips,
+                photos,
+              )
+              setStore(next)
+              if (trips.length) {
+                setActiveTripId(trips[0].id)
+                setActiveDay(0)
+              }
+            }}
             onRestore={(trips) => {
-              setStore((previous) => ({
-                ...previous,
-                trips: [...previous.trips, ...trips],
-              }))
+              const current = attachmentStoreRef.current
+              if (current.trips.length + trips.length > 500)
+                throw new Error('여행은 최대 500개까지 보관할 수 있어요.')
+              const next = { ...current, trips: [...current.trips, ...trips] }
+              localStorage.setItem('jido-travel-v1', JSON.stringify(next))
+              setStore(next)
               setActiveTripId(trips[0]?.id || '')
               setActiveDay(0)
             }}
@@ -2399,7 +2476,15 @@ export default function App() {
                   <Plus size={18} />
                   {city.name} 여행 만들기
                 </button>
-                <GuidePlaces key={city.id} cityId={city.id} onOpen={openPlace} />
+                <GuidePlaces
+                  key={city.id}
+                  cityId={city.id}
+                  onOpen={openPlace}
+                  initialCategory={guideCategory.current}
+                  onCategory={(value) => {
+                    guideCategory.current = value
+                  }}
+                />
               </div>
             </Modal>
           )
@@ -2409,7 +2494,7 @@ export default function App() {
           const place = getPlace(dialog.id)!
           const city = getCity(place.cityId)!
           return (
-            <Modal title={place.name} onClose={() => setDialog(null)}>
+            <Modal key={place.id} title={place.name} onClose={closeDialog}>
               <div className="place-detail-photo">
                 <PlacePhoto place={place} alt={place.name} />
 
@@ -2459,14 +2544,18 @@ export default function App() {
                     <span>{place.cost}</span>
                   </p>
                 </div>
-                <PlaceReviews place={place} />
-                <div className="place-tip">
-                  <Sparkles size={18} />
-                  <div>
-                    <strong>작은 여행 팁</strong>
-                    <p>{place.tip}</p>
+                {place.tip !==
+                  '영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.' && (
+                  <div className="place-tip">
+                    <Sparkles size={18} />
+                    <div>
+                      <strong>작은 여행 팁</strong>
+                      <p>{place.tip}</p>
+                    </div>
                   </div>
-                </div>
+                )}
+                <NearbyPlaces place={place} onOpen={openPlace} />
+                <PlaceReviews place={place} />
                 <a
                   className="button outline full map-link"
                   href={mapsSearch(placeMapQuery(place))}

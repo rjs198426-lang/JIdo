@@ -8,6 +8,7 @@ public class MainActivity extends BridgeActivity {
     @Override public void onCreate(Bundle savedInstanceState) {
         registerPlugin(AttachmentsPlugin.class);
         registerPlugin(TravelSharingPlugin.class);
+        registerPlugin(TravelBackupPlugin.class);
         super.onCreate(savedInstanceState);
         // Identify this personal app to community map tiles, keeping WebView defaults.
         android.webkit.WebSettings settings = getBridge().getWebView().getSettings();

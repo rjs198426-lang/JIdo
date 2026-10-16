@@ -1,3 +1,7 @@
+import FullBackup from './FullBackup'
+import { NativeBackup, downloadBlob } from './full-backup'
+import { isAndroid } from './attachment-storage'
+import type { Attachment } from './attachment-schema'
 import { useState, type ChangeEvent } from 'react'
 import { Copy, Download, Upload } from 'lucide-react'
 import { z } from 'zod'
@@ -56,26 +60,16 @@ const backupSchema = z.object({
   version: z.literal(1),
   trips: z.array(tripSchema).min(1).max(500),
 })
-function download(text: string, name: string) {
-  const url = URL.createObjectURL(
-    new Blob([text], { type: 'application/json' }),
-  )
-  const anchor = document.createElement('a')
-  anchor.href = url
-  anchor.download = name
-  document.body.append(anchor)
-  anchor.click()
-  anchor.remove()
-  setTimeout(() => URL.revokeObjectURL(url), 1000)
-}
 export default function TravelBackup({
   trips,
   activeTrip,
   onRestore,
+  onFullRestore,
 }: {
   trips: Trip[]
   activeTrip?: Trip
   onRestore: (trips: Trip[]) => void
+  onFullRestore: (trips: Trip[], photos: Record<string, Attachment>) => void
 }) {
   const [input, setInput] = useState('')
   const [preview, setPreview] = useState<Trip[] | null>(null)
@@ -150,7 +144,9 @@ export default function TravelBackup({
   }
   return (
     <div className="modal-body backup-panel">
-      <h3>내 여행을 기기 밖에도 보관하세요</h3>
+      <FullBackup trips={trips} onRestore={onFullRestore} />
+      <hr />
+      <h3>일정 JSON 백업</h3>
       <p className="workspace-hint">
         여행 경로·일정·메모·예약·준비물·경비를 함께 백업해요. 저장한 여행지
         목록은 포함되지 않아요. 예약 번호가 들어 있으므로 본인이 관리하는 곳에
@@ -171,11 +167,27 @@ export default function TravelBackup({
         <button
           disabled={!trips.length}
           className="button outline"
-          onClick={() => {
+          onClick={async () => {
             const text = backup()
             setExportText(text)
-            download(text, 'jdo-trips-backup.json')
-            setMessage('다운로드가 지원되지 않으면 백업 복사를 이용하세요.')
+            try {
+              if (isAndroid()) {
+                const result = await NativeBackup.saveDocument({ text })
+                setMessage(
+                  result.cancelled
+                    ? '백업 저장을 취소했어요.'
+                    : '일정 백업 파일을 저장했어요.',
+                )
+              } else {
+                downloadBlob(
+                  new Blob([text], { type: 'application/json' }),
+                  'jdo-trips-backup.json',
+                )
+                setMessage('일정 백업 파일을 저장했어요.')
+              }
+            } catch {
+              setError('일정 백업 파일을 저장하지 못했어요.')
+            }
           }}
         >
           <Download size={17} />
@@ -248,9 +260,16 @@ export default function TravelBackup({
             className="button primary"
             disabled={trips.length + preview.length > 500}
             onClick={() => {
-              onRestore(
-                preview.map((trip) => ({ ...trip, id: crypto.randomUUID() })),
-              )
+              try {
+                onRestore(
+                  preview.map((trip) => ({ ...trip, id: crypto.randomUUID() })),
+                )
+              } catch {
+                setError(
+                  '복원 내용을 저장하지 못했어요. 기존 여행은 유지했어요.',
+                )
+                return
+              }
               setPreview(null)
               setInput('')
               setMessage('여행 복사본을 가져왔어요.')

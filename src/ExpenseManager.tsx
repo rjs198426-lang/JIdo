@@ -1,3 +1,4 @@
+import { useDraftFields } from './form-draft'
 import AttachmentsPanel from './AttachmentsPanel'
 import { useEffect, useState, type FormEvent } from 'react'
 import { Plus, Pencil, Trash2, Download, Copy } from 'lucide-react'
@@ -42,25 +43,46 @@ export default function ExpenseManager({
 }: Props) {
   const expenses = trip.expenses || [],
     members = trip.members || []
-  const [view, setView] = useState('지출'),
-    [editing, setEditing] = useState<string | null>(null),
-    [open, setOpen] = useState(false)
-  const [title, setTitle] = useState(''),
-    [amount, setAmount] = useState(''),
-    [currency, setCurrency] = useState<Currency>(trip.baseCurrency || 'KRW'),
-    [date, setDate] = useState(trip.startDate),
-    [category, setCategory] = useState<Expense['category']>('식비'),
-    [payer, setPayer] = useState(''),
-    [payerId, setPayerId] = useState(''),
-    [direction, setDirection] = useState<'expense' | 'refund'>('expense'),
-    [paymentMethod, setPaymentMethod] =
-      useState<NonNullable<Expense['paymentMethod']>>('카드'),
-    [note, setNote] = useState(''),
-    [stopId, setStopId] = useState<string | undefined>(),
-    [reservationId, setReservationId] = useState<string | undefined>()
-  const [splitMode, setSplitMode] = useState('none'),
-    [participants, setParticipants] = useState<string[]>([]),
-    [shares, setShares] = useState<Record<string, string>>({})
+  const draft = useDraftFields(`jido-draft:expense:${trip.id}`, {
+    view: '지출',
+    editing: null as string | null,
+    open: false,
+    title: '',
+    amount: '',
+    currency: (trip.baseCurrency || 'KRW') as Currency,
+    date: trip.startDate,
+    category: '식비' as Expense['category'],
+    payer: '',
+    payerId: '',
+    direction: 'expense' as 'expense' | 'refund',
+    paymentMethod: '카드' as NonNullable<Expense['paymentMethod']>,
+    note: '',
+    stopId: undefined as string | undefined,
+    reservationId: undefined as string | undefined,
+    splitMode: 'none',
+    participants: [] as string[],
+    shares: {} as Record<string, string>,
+    appliedToken: '',
+  })
+  const [view, setView] = draft.field('view')
+  const [editing, setEditing] = draft.field('editing')
+  const [open, setOpen] = draft.field('open')
+  const [title, setTitle] = draft.field('title')
+  const [amount, setAmount] = draft.field('amount')
+  const [currency, setCurrency] = draft.field('currency')
+  const [date, setDate] = draft.field('date')
+  const [category, setCategory] = draft.field('category')
+  const [payer, setPayer] = draft.field('payer')
+  const [payerId, setPayerId] = draft.field('payerId')
+  const [direction, setDirection] = draft.field('direction')
+  const [paymentMethod, setPaymentMethod] = draft.field('paymentMethod')
+  const [note, setNote] = draft.field('note')
+  const [stopId, setStopId] = draft.field('stopId')
+  const [reservationId, setReservationId] = draft.field('reservationId')
+  const [splitMode, setSplitMode] = draft.field('splitMode')
+  const [participants, setParticipants] = draft.field('participants')
+  const [shares, setShares] = draft.field('shares')
+  const [appliedToken, setAppliedToken] = draft.field('appliedToken')
   const [budgetCurrency, setBudgetCurrency] = useState<Currency>('KRW'),
     [budget, setBudget] = useState(''),
     [error, setError] = useState(''),
@@ -115,7 +137,12 @@ export default function ExpenseManager({
     setError('')
   }
   useEffect(() => {
-    if (!initialExpense) return
+    if (!initialExpense || initialExpense.token === appliedToken) return
+    setAppliedToken(initialExpense.token)
+    if (open && title.trim()) {
+      setMessage('작성 중인 지출을 이어서 작성하세요.')
+      return
+    }
     reset()
     setTitle(initialExpense.title)
     setDate(initialExpense.date)

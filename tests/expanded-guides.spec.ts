@@ -74,9 +74,17 @@ test('새 여행지·20개 장소·이동 가이드는 오프라인으로 읽고
   await page
     .getByRole('button', { name: '타이베이 여행지 자세히 보기', exact: true })
     .click()
-  await expect(page.getByRole('dialog')).toContainText('이동 준비')
-  await expect(page.getByRole('dialog')).toContainText('지역별 하루 계획')
-  await expect(page.getByRole('dialog')).toContainText('2016-10-27')
+  await expect(
+    page
+      .getByRole('dialog')
+      .getByRole('tab', { name: '처음 가면', exact: true }),
+  ).toBeVisible()
+  await expect(
+    page
+      .getByRole('dialog')
+      .getByRole('tab', { name: '지역별 코스', exact: true }),
+  ).toBeVisible()
+  await expect(page.getByRole('dialog')).toContainText('2016년 보관본')
   await page.getByRole('button', { name: '닫기', exact: true }).click()
   await page.getByRole('button', { name: '전체', exact: true }).click()
   await page.getByRole('tab', { name: /가볼 만한 곳/ }).click()

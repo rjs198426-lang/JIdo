@@ -18,12 +18,16 @@ const icons = {
 export default function GuidePlaces({
   cityId,
   onOpen,
+  initialCategory = '전체',
+  onCategory,
 }: {
   cityId: string
   onOpen: (id: string) => void
+  initialCategory?: (typeof categoryOptions)[number]
+  onCategory?: (category: (typeof categoryOptions)[number]) => void
 }) {
   const [category, setCategory] =
-    useState<(typeof categoryOptions)[number]>('전체')
+    useState<(typeof categoryOptions)[number]>(initialCategory)
   const all = places.filter((place) => place.cityId === cityId)
   const filtered = all.filter(
     (place) => category === '전체' || place.category === category,
@@ -56,7 +60,10 @@ export default function GuidePlaces({
               aria-label={item}
               aria-pressed={category === item}
               disabled={!count && item !== '전체'}
-              onClick={() => setCategory(item)}
+              onClick={() => {
+                setCategory(item)
+                onCategory?.(item)
+              }}
             >
               {item}
               <span aria-hidden="true">{count}</span>

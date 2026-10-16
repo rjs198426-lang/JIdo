@@ -85,8 +85,9 @@ test('내 여행을 하나의 틀로 묶고 도시 선택·추가 버튼 정렬�
           '.workspace-tabs',
           '.day-tabs',
           '.journey-route',
-          '.planning-shortcuts',
           '.day-content',
+          '.trip-overview',
+          '.planning-shortcuts',
         ].map(rect),
       }
     })
