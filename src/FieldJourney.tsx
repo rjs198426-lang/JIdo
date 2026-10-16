@@ -2,6 +2,7 @@ import PlaceSource from './PlaceSource'
 import PlacePhoto from './PlacePhoto'
 import {
   Check,
+  ChevronRight,
   MapPin,
   Wallet,
   FileText,
@@ -9,14 +10,14 @@ import {
   Plus,
   Phone,
 } from 'lucide-react'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import {
   type Trip,
   type Stop,
   stopDetails,
   destinationForDay,
 } from './travel-model'
-import { dateAt, formatDate } from './store'
+import { dateAt, formatDate, today } from './store'
 import {
   pendingStops,
   lodgingForDay,
@@ -47,6 +48,32 @@ export default function FieldJourney({
   const pending = pendingStops(trip, day),
     next = pending[0],
     lodging = lodgingForDay(trip, day)
+  const [now, setNow] = useState(() => new Date())
+  useEffect(() => {
+    const refresh = () => setNow(new Date())
+    const timer = window.setInterval(refresh, 60000)
+    window.addEventListener('focus', refresh)
+    document.addEventListener('visibilitychange', refresh)
+    return () => {
+      window.clearInterval(timer)
+      window.removeEventListener('focus', refresh)
+      document.removeEventListener('visibilitychange', refresh)
+    }
+  }, [])
+  const lateMinutes =
+    next && dateAt(trip.startDate, day) === today()
+      ? Math.max(
+          0,
+          now.getHours() * 60 +
+            now.getMinutes() -
+            Number(next.time.slice(0, 2)) * 60 -
+            Number(next.time.slice(3)),
+        )
+      : 0
+  const delay =
+    lateMinutes >= 60
+      ? `${Math.floor(lateMinutes / 60)}시간${lateMinutes % 60 ? ` ${lateMinutes % 60}분` : ''}`
+      : `${lateMinutes}분`
   const [undo, setUndo] = useState<{
     id: string
     day: number
@@ -101,13 +128,14 @@ export default function FieldJourney({
       </div>
       {next ? (
         <article className="field-next">
-          <PlacePhoto stop={next} className="field-place-photo" />
-
-          <PlaceSource stop={next} />
           <span className="eyebrow">다음 방문 · {next.time}</span>
+          {lateMinutes > 0 && (
+            <span className="field-delay" role="status">
+              예정 시각보다 {delay} 지났어요
+            </span>
+          )}
           <h2>{stopDetails(next).name}</h2>
           <p>{stopDetails(next).address}</p>
-          {next.note && <p className="field-note">{next.note}</p>}
           <div className="field-actions">
             <a
               className="button primary"
@@ -130,8 +158,14 @@ export default function FieldJourney({
               지출 기록
             </button>
           </div>
-          <details className="stop-photos">
-            <summary>장소 사진</summary>
+          {next.note && <p className="field-note">{next.note}</p>}
+          <PlaceSource stop={next} />
+          <details className="field-place-info stop-photos">
+            <summary>
+              장소 사진
+              <ChevronRight size={16} aria-hidden="true" />
+            </summary>
+            <PlacePhoto stop={next} className="field-place-photo" />
             <AttachmentsPanel stopId={next.id} imagesOnly />
           </details>
           <button className="text-button" onClick={() => mark(next, 'skipped')}>

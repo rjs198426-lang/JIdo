@@ -1,0 +1,207 @@
+/* Field use prioritizes the next stop and actions over decorative content. */
+.itinerary.is-field .trip-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding-bottom: 8px;
+}
+.itinerary.is-field .trip-banner > div:first-child {
+  min-width: 0;
+}
+.itinerary.is-field .trip-banner h2 {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+.itinerary.is-field .trip-country,
+.itinerary.is-field .trip-facts {
+  display: none;
+}
+.field-management {
+  position: relative;
+  flex: 0 0 auto;
+  font-size: 13px;
+}
+.field-management summary {
+  display: flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 6px;
+  cursor: pointer;
+}
+.field-management[open] {
+  max-width: 180px;
+}
+.field-management .button {
+  display: flex;
+  width: 100%;
+  min-height: 44px;
+  white-space: normal;
+  margin-bottom: 8px;
+}
+.is-field .field-journey .tool-heading {
+  margin: 8px 0;
+  gap: 8px;
+}
+.field-journey .tool-heading h3 {
+  font-size: 16px;
+  margin: 0;
+}
+.field-journey .tool-heading span {
+  font-size: 13px;
+}
+.field-next {
+  padding: 16px;
+  margin: 8px 0 12px;
+}
+.field-next h2 {
+  font-size: 23px;
+  margin: 8px 0;
+}
+.field-next > p {
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 8px 0;
+}
+.field-delay {
+  display: block;
+  color: #87530f;
+  font-family: var(--app-body-font);
+  font-size: 13px;
+  line-height: 1.5;
+  margin-top: 6px;
+}
+.field-actions {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+  margin: 12px 0;
+}
+.field-actions > a {
+  grid-column: 1 / -1;
+}
+.field-actions .button {
+  min-width: 0;
+  min-height: 48px;
+  padding: 10px 6px;
+  white-space: normal;
+  font-size: 14px;
+}
+.field-actions .button svg {
+  flex: 0 0 18px;
+}
+.field-place-info {
+  margin-top: 12px;
+}
+.field-place-info summary {
+  display: flex;
+  align-items: center;
+  min-height: 44px;
+  cursor: pointer;
+  font-size: 14px;
+}
+.field-place-info .field-place-photo {
+  width: 100%;
+  height: auto;
+  max-height: 240px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-top: 12px;
+}
+.quick-expense .field {
+  margin: 0;
+  min-width: 0;
+  gap: 6px;
+  font-size: 14px;
+}
+.quick-expense-context {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #33443c;
+  overflow-wrap: anywhere;
+  margin: 0 0 16px;
+}
+.quick-expense-core {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(90px, 1fr);
+  gap: 12px;
+  margin-bottom: 12px;
+}
+.quick-expense input,
+.quick-expense select,
+.quick-expense textarea {
+  width: 100%;
+  min-width: 0;
+  min-height: 48px;
+  font-size: 16px;
+}
+.quick-expense-details {
+  margin: 12px 0;
+}
+.quick-expense-details summary {
+  display: flex;
+  align-items: center;
+  min-height: 44px;
+  cursor: pointer;
+  font-size: 14px;
+}
+.quick-expense-details .field,
+.quick-expense-details .split-members {
+  margin: 12px 0;
+}
+.quick-expense-details input[type='checkbox'] {
+  width: 22px;
+  min-height: 22px;
+}
+.quick-expense-actions {
+  position: sticky;
+  bottom: 0;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+  gap: 10px;
+  padding: 12px 0 max(12px, env(safe-area-inset-bottom));
+  background: white;
+  z-index: 2;
+}
+.quick-expense-actions .button {
+  min-height: 48px;
+  min-width: 0;
+  white-space: normal;
+}
+@media (max-width: 700px) {
+  .trips-page:has(.is-field) .trip-selector > label {
+    display: none;
+  }
+  .trips-page:has(.is-field) .trip-selector > select {
+    flex: 1;
+    width: 100%;
+    font-size: 14px;
+  }
+  .trips-page:has(.is-field) .trip-page-title {
+    margin-bottom: 4px;
+  }
+  .is-field .workspace-tabs {
+    margin-bottom: 8px;
+  }
+  .is-field .field-journey {
+    padding: 0;
+  }
+}
+.field-management summary,
+.field-place-info summary,
+.quick-expense-details summary {
+  justify-content: space-between;
+  gap: 8px;
+}
+.field-management summary svg,
+.field-place-info summary svg,
+.quick-expense-details summary svg {
+  flex-shrink: 0;
+}
+.field-management[open] > summary svg,
+.field-place-info[open] > summary svg,
+.quick-expense-details[open] > summary svg {
+  transform: rotate(90deg);
+}

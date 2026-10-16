@@ -1,3 +1,4 @@
+import { rememberExpense } from './expense-context'
 import { useDraftFields } from './form-draft'
 import AttachmentsPanel from './AttachmentsPanel'
 import { useEffect, useState, type FormEvent } from 'react'
@@ -196,6 +197,7 @@ export default function ExpenseManager({
           : '지출 이름·날짜·금액과 분담 항목을 확인하세요.',
       )
     onUpdate(next)
+    rememberExpense(trip, nextExpense)
     reset()
     setOpen(false)
   }

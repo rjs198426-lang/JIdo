@@ -1,3 +1,4 @@
+import QuickExpense from './QuickExpense'
 import NearbyPlaces from './NearbyPlaces'
 import { commitFullRestore } from './full-backup'
 import ReservationConflicts from './ReservationConflicts'
@@ -31,7 +32,6 @@ import {
 import AttachmentsPanel, { AttachmentsContext } from './AttachmentsPanel'
 import type { Attachment } from './attachment-schema'
 import TripDashboard from './TripDashboard'
-import type { ExpenseDraft } from './ExpenseManager'
 import { cancelledReservation, timeConflicts } from './journey-progress'
 import PlaceSearchResults, {
   PlaceSearchService,
@@ -104,6 +104,7 @@ import {
   destinationForDay,
   stopDetails,
   mapQuery,
+  tripSchema,
 } from './travel-model'
 import { matchesCity, matchesPlace } from './search'
 import {
@@ -119,6 +120,7 @@ import {
 type Page = 'home' | 'trips' | 'explore'
 type Dialog =
   | { type: 'credits' }
+  | { type: 'expense'; tripId: string; day: number; stopId?: string }
   | { type: 'city'; id: string }
   | { type: 'place'; id: string }
   | {
@@ -830,7 +832,9 @@ function Itinerary({
   onOpen,
   onAttachmentsChange,
   isAttachmentShared,
+  onQuickExpense,
 }: {
+  onQuickExpense: (stop?: Stop) => void
   onAttachmentsChange: (change: (files: Attachment[]) => Attachment[]) => void
   isAttachmentShared: (id: string) => boolean
   trip: Trip
@@ -852,29 +856,8 @@ function Itinerary({
   useEffect(() => {
     saveJourneyPreference(trip, day, workspace)
   }, [trip.id, day, workspace])
-  const [expenseDraft, setExpenseDraft] = useState<ExpenseDraft>()
   const conflicts = timeConflicts(trip, day)
-  const recordExpense = (stop?: Stop) => {
-    const place = stop ? stopDetails(stop) : undefined
-    setExpenseDraft({
-      title: place?.name || '',
-      date: dateAt(trip.startDate, day),
-      category:
-        place?.category === '맛집' || place?.category === '카페'
-          ? '식비'
-          : place?.category === '숙소'
-            ? '숙박'
-            : place?.category === '이동'
-              ? '교통'
-              : place?.category === '관광'
-                ? '관광'
-                : '기타',
-      stopId: stop?.id,
-      reservationId: stop?.reservationId,
-      token: crypto.randomUUID(),
-    })
-    setWorkspace('expenses')
-  }
+  const recordExpense = onQuickExpense
   const [removed, setRemoved] = useState<{
     stop: Stop
     day: number
@@ -974,7 +957,7 @@ function Itinerary({
         },
       }}
     >
-      <div className="itinerary">
+      <div className={`itinerary ${workspace === 'field' ? 'is-field' : ''}`}>
         <div
           className="trip-banner"
           style={{
@@ -998,23 +981,46 @@ function Itinerary({
               <span>{trip.days.length}일</span>
             </div>
           </div>
-          <div className="trip-management">
-            <button
-              className="trip-edit"
-              aria-label="여행 정보 수정"
-              onClick={onEditTrip}
-            >
-              <Pencil size={16} />
-              <span>여행 정보 수정</span>
-            </button>
-            <button
-              className="trip-delete"
-              onClick={onDeleteTrip}
-              aria-label="여행 삭제"
-            >
-              <Trash2 size={17} />
-            </button>
-          </div>
+          {workspace === 'field' ? (
+            <details className="field-management">
+              <summary>
+                여행 관리
+                <ChevronRight size={16} aria-hidden="true" />
+              </summary>
+              <button
+                className="button outline"
+                aria-label="여행 정보 수정"
+                onClick={onEditTrip}
+              >
+                여행 정보 수정
+              </button>
+              <button
+                className="button outline"
+                aria-label="여행 삭제"
+                onClick={onDeleteTrip}
+              >
+                여행 삭제
+              </button>
+            </details>
+          ) : (
+            <div className="trip-management">
+              <button
+                className="trip-edit"
+                aria-label="여행 정보 수정"
+                onClick={onEditTrip}
+              >
+                <Pencil size={16} />
+                <span>여행 정보 수정</span>
+              </button>
+              <button
+                className="trip-delete"
+                onClick={onDeleteTrip}
+                aria-label="여행 삭제"
+              >
+                <Trash2 size={17} />
+              </button>
+            </div>
+          )}
         </div>
         <div className="workspace-tabs" role="tablist" aria-label="여행 관리">
           {[
@@ -1533,11 +1539,7 @@ function Itinerary({
             <Checklist trip={trip} onUpdate={onUpdate} />
           )}
           {workspace === 'expenses' && (
-            <Expenses
-              trip={trip}
-              onUpdate={onUpdate}
-              initialExpense={expenseDraft}
-            />
+            <Expenses trip={trip} onUpdate={onUpdate} />
           )}
         </div>
       </div>
@@ -2141,6 +2143,14 @@ export default function App() {
                 </div>
                 <Itinerary
                   key={activeTrip.id}
+                  onQuickExpense={(stop) =>
+                    setDialog({
+                      type: 'expense',
+                      tripId: activeTrip.id,
+                      day: Math.min(activeDay, activeTrip.days.length - 1),
+                      stopId: stop?.id,
+                    })
+                  }
                   trip={activeTrip}
                   onAttachmentsChange={(change) =>
                     setStore((previous) => ({
@@ -2232,6 +2242,49 @@ export default function App() {
           이 기기에 저장할 수 없어요. 브라우저의 저장 공간 설정을 확인하세요.
         </div>
       )}
+      {dialog?.type === 'expense' &&
+        (() => {
+          const trip = store.trips.find((item) => item.id === dialog.tripId)
+          if (!trip || !trip.days[dialog.day]) return null
+          return (
+            <Modal title="빠른 지출 기록" onClose={() => setDialog(null)}>
+              <QuickExpense
+                key={`${trip.id}:${dialog.day}:${dialog.stopId || 'general'}`}
+                trip={trip}
+                day={dialog.day}
+                stopId={dialog.stopId}
+                onClose={() => setDialog(null)}
+                onSave={(expense) => {
+                  const current = attachmentStoreRef.current
+                  const latest = current.trips.find(
+                    (item) => item.id === trip.id,
+                  )
+                  if (!latest) throw new Error('여행을 찾을 수 없어요.')
+                  const updated = tripSchema.parse({
+                    ...latest,
+                    expenses: [...(latest.expenses || []), expense],
+                  })
+                  const next = {
+                    ...current,
+                    trips: current.trips.map((item) =>
+                      item.id === trip.id ? updated : item,
+                    ),
+                  }
+                  try {
+                    localStorage.setItem('jido-travel-v1', JSON.stringify(next))
+                  } catch {
+                    throw new Error(
+                      '지출을 저장하지 못했어요. 저장 공간을 확인하고 다시 시도하세요.',
+                    )
+                  }
+                  setStore(next)
+                  setDialog(null)
+                  setToast('지출을 저장했어요.')
+                }}
+              />
+            </Modal>
+          )
+        })()}
       {dialog?.type === 'credits' && (
         <Modal title="사진 출처" onClose={() => setDialog(null)} wide>
           <PhotoCredits

@@ -115,6 +115,10 @@ test('장소별 실제 사진을 기기에 저장하고 대표 사진 선택·�
     )
     .toBeGreaterThan(0)
   await tab(page, '여행 중')
+  await page
+    .getByRole('region', { name: '여행 중 빠른 실행' })
+    .locator('.stop-photos summary')
+    .click()
   await expect
     .poll(() =>
       page
@@ -122,10 +126,7 @@ test('장소별 실제 사진을 기기에 저장하고 대표 사진 선택·�
         .evaluate((img: any) => img.naturalWidth),
     )
     .toBeGreaterThan(0)
-  await page
-    .getByRole('region', { name: '여행 중 빠른 실행' })
-    .locator('.stop-photos summary')
-    .click()
+
   await expect(
     page.getByRole('button', { name: '절의 다른 사진.png 대표 사진으로 사용' }),
   ).toHaveAttribute('aria-pressed', 'true')

@@ -11,6 +11,7 @@ import './fonts.css'
 import './practical-guide.css'
 import './travel-upgrades.css'
 import './typography.css'
+import './field-upgrade.css'
 import { Capacitor } from '@capacitor/core'
 const AdminApp = lazy(() => import('./AdminApp'))
 

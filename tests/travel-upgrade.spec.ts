@@ -159,6 +159,7 @@ test('여행 실행에서 방문 완료·체류 시간·지출 기록을 연결�
   await expect(page.getByLabel('지출 날짜', { exact: true })).toHaveValue(
     '2026-11-01',
   )
+  await page.getByLabel('지출 통화', { exact: true }).selectOption('KRW')
   await page.getByLabel('금액', { exact: true }).fill('12000')
   await page.getByRole('button', { name: '지출 저장', exact: true }).click()
   await page.reload()

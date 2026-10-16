@@ -5,6 +5,7 @@ export function useDraftFields<T extends object>(
   key: string,
   defaults: T,
   validators: Partial<{ [K in keyof T]: (value: unknown) => boolean }> = {},
+  shouldPersist?: (state: T) => boolean,
 ) {
   const read = () => {
     try {
@@ -63,7 +64,8 @@ export function useDraftFields<T extends object>(
   const [state, setState] = useState<T>(read)
   useEffect(() => {
     try {
-      localStorage.setItem(key, JSON.stringify(state))
+      if (shouldPersist && !shouldPersist(state)) localStorage.removeItem(key)
+      else localStorage.setItem(key, JSON.stringify(state))
     } catch {
       /* Saving a real record reports storage errors separately. */
     }
