@@ -556,9 +556,10 @@ for (const place of places) {
   }
 }
 for (const city of cities) {
-  const credit = places.find(
-    (place) => place.cityId === city.id && place.photoCredit,
-  )?.photoCredit
+  const credit =
+    photoCredits[`city-${city.id}`] ||
+    places.find((place) => place.cityId === city.id && place.photoCredit)
+      ?.photoCredit
   if (credit) {
     city.image = credit.file
     city.photoCredit = credit

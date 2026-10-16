@@ -1,3 +1,4 @@
+import additional from './additional-photo-credits.json' with { type: 'json' }
 export type PhotoCreditInfo = {
   file: string
   author: string
@@ -466,3 +467,5 @@ export const photoCredits: Record<string, PhotoCreditInfo> = {
     verifiedAt: '2026-10-15',
   },
 }
+
+Object.assign(photoCredits, additional)

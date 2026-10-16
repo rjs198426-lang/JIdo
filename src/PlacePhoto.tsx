@@ -1,3 +1,4 @@
+import { personalPhotoKey, usePersonalPhoto } from './personal-photos'
 import { useContext, useEffect, useState } from 'react'
 import { Image as ImageIcon } from 'lucide-react'
 import { AttachmentsContext } from './AttachmentsPanel'
@@ -24,19 +25,25 @@ export default function PlacePhoto({
         file.stopId === stop.id &&
         file.mimeType.startsWith('image/'),
     ) || []
-  const own = files.find((file) => file.id === stop?.photoId) || files[0]
   const catalog =
     place ||
     (stop?.custom
       ? getPlace(stop.custom.catalogPlaceId || '')
       : getPlace(stop?.placeId || ''))
+  const personal = usePersonalPhoto(
+    personalPhotoKey('place', catalog?.id || ''),
+  )
+  const own =
+    files.find((file) => file.id === stop?.photoId) || files[0] || personal
   const [url, setUrl] = useState(''),
-    [failed, setFailed] = useState(false)
+    [failed, setFailed] = useState(false),
+    [fallbackFailed, setFallbackFailed] = useState(false)
   useEffect(() => {
     let active = true,
       revoke = () => {}
     setUrl('')
     setFailed(false)
+    setFallbackFailed(false)
     if (own)
       void attachmentUrl(own)
         .then((result) => {
@@ -52,21 +59,22 @@ export default function PlacePhoto({
       revoke()
     }
   }, [own?.id, catalog?.image])
-  const source = own
-    ? url
-    : catalog &&
-        (catalog.photoCredit ||
-          catalog.image !== getCity(catalog.cityId)?.image)
+  const fallback =
+    catalog &&
+    (catalog.photoCredit || catalog.image !== getCity(catalog.cityId)?.image)
       ? catalog.image
       : undefined
-  if (source && !failed && source !== '/images/place-placeholder.svg')
+  const source = own && !failed ? url : fallback
+  if (source && !fallbackFailed && source !== '/images/place-placeholder.svg')
     return (
       <img
         className={className}
         src={source}
         alt={alt || catalog?.name || stop?.custom?.name || '장소 사진'}
         loading="lazy"
-        onError={() => setFailed(true)}
+        onError={() =>
+          own && source === url ? setFailed(true) : setFallbackFailed(true)
+        }
       />
     )
   return (

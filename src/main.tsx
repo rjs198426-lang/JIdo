@@ -9,6 +9,7 @@ import './trip-layout.css'
 import './compact-layout.css'
 import './fonts.css'
 import './practical-guide.css'
+import './travel-upgrades.css'
 import { Capacitor } from '@capacitor/core'
 const AdminApp = lazy(() => import('./AdminApp'))
 

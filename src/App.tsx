@@ -1,3 +1,12 @@
+import TripOverview from './TripOverview'
+import {
+  personalPhotoKey,
+  usePersonalPhoto,
+  usePhotoUrl,
+} from './personal-photos'
+import { sameStopPlace } from './stop-identity'
+import CityPhoto from './CityPhoto'
+import PersonalPhotoControl from './PersonalPhotoControl'
 import GuideCourseForm from './GuideCourseForm'
 import { appendGuideCourse } from './guide-course'
 import { practicalGuideById, type CourseSelection } from './practical-guides'
@@ -226,7 +235,7 @@ function CityCard({
           aria-label={`${city.name} 여행지 자세히 보기`}
           onClick={onOpen}
         >
-          <img src={city.image} alt={`${city.name}의 풍경`} loading="lazy" />
+          <CityPhoto city={city} />
         </button>
         <span className="country-tag">{city.country}</span>
       </div>
@@ -566,11 +575,13 @@ function AddToTrip({
   trips,
   onAdd,
   onCreate,
+  onManageTrip,
 }: {
   place: Place
   trips: Trip[]
   onAdd: (tripId: string, day: number) => void
   onCreate: () => void
+  onManageTrip: (id: string) => void
 }) {
   const matching = trips.filter((trip) =>
     tripDestinations(trip).some(
@@ -578,8 +589,15 @@ function AddToTrip({
     ),
   )
   const [tripId, setTripId] = useState(matching[0]?.id ?? '')
-  const [day, setDay] = useState(0)
+  const [day, setDay] = useState<number | null>(null)
   const trip = matching.find((item) => item.id === tripId)
+  const eligible =
+    trip?.days
+      .map((_, index) => index)
+      .filter(
+        (index) => destinationForDay(trip, index).guideCityId === place.cityId,
+      ) || []
+  const selectedDay = day !== null && eligible.includes(day) ? day : eligible[0]
   if (!trip)
     return (
       <div className="modal-body">
@@ -597,7 +615,7 @@ function AddToTrip({
       className="modal-body"
       onSubmit={(event) => {
         event.preventDefault()
-        onAdd(tripId, day)
+        if (selectedDay !== undefined) onAdd(tripId, selectedDay)
       }}
     >
       <div className="add-place-preview">
@@ -613,7 +631,7 @@ function AddToTrip({
           value={tripId}
           onChange={(event) => {
             setTripId(event.target.value)
-            setDay(0)
+            setDay(null)
           }}
         >
           {matching.map((item) => (
@@ -626,17 +644,33 @@ function AddToTrip({
       <label className="field">
         어느 날에 갈까요?
         <select
-          value={day}
+          value={selectedDay ?? ''}
           onChange={(event) => setDay(Number(event.target.value))}
         >
-          {trip.days.map((_, index) => (
+          {selectedDay === undefined && (
+            <option value="">이 도시의 날짜 미지정</option>
+          )}
+          {eligible.map((index) => (
             <option key={index} value={index}>
               DAY {index + 1} · {formatDate(dateAt(trip.startDate, index))}
             </option>
           ))}
         </select>
       </label>
-      <button className="button primary full" type="submit">
+      {selectedDay === undefined && (
+        <button
+          type="button"
+          className="button outline full"
+          onClick={() => onManageTrip(trip.id)}
+        >
+          여행에서 체류 날짜 지정
+        </button>
+      )}
+      <button
+        className="button primary full"
+        type="submit"
+        disabled={selectedDay === undefined}
+      >
         <Plus size={18} />
         일정에 추가
       </button>
@@ -796,6 +830,8 @@ function Itinerary({
   onOpen: (placeId: string) => void
 }) {
   const city = tripCity(trip)
+  const personalCityPhoto = usePersonalPhoto(personalPhotoKey('city', city.id))
+  const cityCover = usePhotoUrl(personalCityPhoto) || city.image
   const [workspace, setWorkspace] = useState(
     () => journeyPreference(trip).workspace,
   )
@@ -856,7 +892,8 @@ function Itinerary({
     if (
       target === day ||
       !trip.days[target] ||
-      trip.days[target].some((item) => item.placeId === stop.placeId)
+      trip.days[target].some((item) => sameStopPlace(item, stop)) ||
+      trip.days[target].length >= 200
     )
       return
     onUpdate({
@@ -927,7 +964,7 @@ function Itinerary({
         <div
           className="trip-banner"
           style={{
-            backgroundImage: `linear-gradient(90deg, rgba(12,36,31,.86),rgba(12,36,31,.3)), url(${city.image})`,
+            backgroundImage: `linear-gradient(90deg, rgba(12,36,31,.86),rgba(12,36,31,.3)), url(${cityCover})`,
           }}
         >
           <div>
@@ -1041,6 +1078,7 @@ function Itinerary({
                   </button>
                 ))}
               </div>
+              <TripOverview trip={trip} onDay={onDayChange} />
               <JourneyRoute trip={trip} day={day} onUpdate={onUpdate} />
               <div className="planning-shortcuts">
                 <button
@@ -1367,21 +1405,26 @@ function Itinerary({
                                       {trip.days.map((items, index) => {
                                         const duplicate =
                                           index !== day &&
-                                          items.some(
-                                            (item) =>
-                                              item.placeId === stop.placeId,
+                                          items.some((item) =>
+                                            sameStopPlace(item, stop),
                                           )
                                         return (
                                           <option
                                             key={index}
                                             value={index}
-                                            disabled={duplicate}
+                                            disabled={
+                                              duplicate || items.length >= 200
+                                            }
                                           >
                                             DAY {index + 1} ·{' '}
                                             {formatDate(
                                               dateAt(trip.startDate, index),
                                             )}
-                                            {duplicate ? ' · 이미 추가됨' : ''}
+                                            {duplicate
+                                              ? ' · 이미 추가됨'
+                                              : items.length >= 200
+                                                ? ' · 200곳 가득 참'
+                                                : ''}
                                           </option>
                                         )
                                       })}
@@ -1596,8 +1639,27 @@ export default function App() {
       )
     )
       return
-    if (trip.days[day].some((stop) => stop.placeId === placeId)) {
+    if (
+      destinationForDay(trip, day).guideCityId !== getPlace(placeId)?.cityId
+    ) {
+      setToast('장소와 같은 도시로 지정한 날짜를 선택해 주세요.')
+      return
+    }
+    if (
+      trip.days[day].some((stop) =>
+        sameStopPlace(stop, {
+          id: 'candidate',
+          placeId,
+          time: '09:00',
+          note: '',
+        }),
+      )
+    ) {
       setToast('이날 일정에 이미 있는 장소예요.')
+      return
+    }
+    if (trip.days[day].length >= 200) {
+      setToast('하루 일정은 최대 200곳까지 담을 수 있어요.')
       return
     }
     const stop: Stop = {
@@ -2280,7 +2342,7 @@ export default function App() {
               wide
             >
               <div className="city-detail-hero">
-                <img src={city.image} alt={`${city.name} 여행 풍경`} />
+                <CityPhoto city={city} alt={`${city.name} 여행 풍경`} />
 
                 <div>
                   <span>{city.country}</span>
@@ -2292,6 +2354,11 @@ export default function App() {
                 {(!practicalGuideById.has(city.id) || storedGuide) && (
                   <p className="city-intro">{city.description}</p>
                 )}
+                <PersonalPhotoControl
+                  kind="city"
+                  id={city.id}
+                  name={city.name}
+                />
                 <GuideContent
                   guide={storedGuide}
                   cityId={city.id}
@@ -2387,6 +2454,11 @@ export default function App() {
                   {city.name} · {place.category}
                 </span>
                 <h3 className="place-detail-title">{place.name}</h3>
+                <PersonalPhotoControl
+                  kind="place"
+                  id={place.id}
+                  name={place.name}
+                />
                 {!placeCoordinates(place) && (
                   <p className="detail-footnote">
                     정확한 지도 위치 확인이 필요한 장소입니다.
@@ -2455,6 +2527,17 @@ export default function App() {
             place={getPlace(dialog.placeId)!}
             trips={store.trips}
             onAdd={(tripId, day) => addStop(tripId, day, dialog.placeId)}
+            onManageTrip={(id) => {
+              const trip = store.trips.find((item) => item.id === id)
+              if (trip) {
+                const selected = journeyPreference(trip).day
+                saveJourneyPreference(trip, selected, 'schedule')
+                setActiveDay(selected)
+              }
+              setActiveTripId(id)
+              setDialog(null)
+              navigate('trips')
+            }}
             onCreate={() =>
               setDialog({
                 type: 'create',

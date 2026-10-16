@@ -1,3 +1,4 @@
+import CityPhoto from './CityPhoto'
 import type { ReactNode } from 'react'
 import {
   ArrowRight,
@@ -134,9 +135,9 @@ export default function TravelHome(props: Props) {
               <ArrowRight size={17} />
             </button>
           </div>
-          <img
+          <CityPhoto
             className="home-journey-photo"
-            src={tripCity(trip).image}
+            city={tripCity(trip)}
             alt={`${tripCity(trip).name} 여행 풍경`}
           />
         </section>

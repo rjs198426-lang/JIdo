@@ -1,0 +1,73 @@
+.personal-photo-control {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 12px;
+  align-items: center;
+  margin: 0 0 16px;
+}
+.personal-photo-control button {
+  min-height: 44px;
+}
+.personal-photo-control p {
+  flex-basis: 100%;
+  color: #a34432;
+  margin: 0;
+  font-size: 13px;
+  overflow-wrap: anywhere;
+}
+.trip-overview {
+  border-top: 1px solid #e0e9e3;
+  border-bottom: 1px solid #e0e9e3;
+  margin: 16px 0;
+}
+.trip-overview > summary {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 48px;
+  cursor: pointer;
+}
+.trip-overview > summary > span {
+  margin-left: auto;
+  font-size: 12px;
+  color: #64776d;
+}
+.trip-overview .input-search {
+  margin: 4px 0 12px;
+}
+.trip-overview-days > button {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  text-align: left;
+  padding: 12px 0;
+  min-height: 64px;
+}
+.trip-overview-days > button + button {
+  border-top: 1px solid #edf0ed;
+}
+.trip-overview-days > button > span {
+  display: grid;
+  gap: 5px;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.trip-overview-days small,
+.trip-overview-days > button > span > span {
+  font-size: 12px;
+  color: #68796e;
+  line-height: 1.6;
+}
+.trip-overview-days svg {
+  flex-shrink: 0;
+}
+
+.trip-overview > summary > svg:last-child {
+  flex-shrink: 0;
+  transition: transform 0.15s ease;
+}
+.trip-overview[open] > summary > svg:last-child {
+  transform: rotate(180deg);
+}

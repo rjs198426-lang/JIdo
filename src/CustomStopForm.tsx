@@ -215,6 +215,8 @@ export default function CustomStopForm({
   }
   function submit(event: FormEvent) {
     event.preventDefault()
+    if (!stop && trip.days[day].length >= 200)
+      return setError('하루 일정은 최대 200곳까지 담을 수 있어요.')
     const position =
       latitude.trim() || longitude.trim()
         ? { lat: Number(latitude), lng: Number(longitude) }
