@@ -27,6 +27,9 @@ import {
 import { mapsSearch } from './google-maps'
 import AttachmentsPanel from './AttachmentsPanel'
 import JourneyShare from './JourneyShare'
+import AddressCard from './AddressCard'
+import FieldReservation from './FieldReservation'
+import { reservationsForDay } from './field-reservations'
 
 export default function FieldJourney({
   trip,
@@ -36,6 +39,7 @@ export default function FieldJourney({
   onOpen,
   onAdd,
   onExpense,
+  onReservation,
 }: {
   trip: Trip
   day: number
@@ -44,10 +48,22 @@ export default function FieldJourney({
   onOpen: (workspace: string) => void
   onAdd: () => void
   onExpense: (stop?: Stop) => void
+  onReservation: (id: string) => void
 }) {
   const pending = pendingStops(trip, day),
     next = pending[0],
     lodging = lodgingForDay(trip, day)
+  const selectedDate = dateAt(trip.startDate, day)
+  const nextReservation = next?.reservationId
+    ? trip.reservations?.find(
+        (item) => item.id === next.reservationId && item.status !== 'cancelled',
+      )
+    : undefined
+  const dayReservations = reservationsForDay(trip, day).filter(
+    (item) =>
+      item.id !== nextReservation?.id &&
+      !lodging.some((stay) => stay.id === item.id),
+  )
   const [now, setNow] = useState(() => new Date())
   useEffect(() => {
     const refresh = () => setNow(new Date())
@@ -158,6 +174,26 @@ export default function FieldJourney({
               지출 기록
             </button>
           </div>
+          {stopDetails(next).address && (
+            <AddressCard
+              name={stopDetails(next).name}
+              address={stopDetails(next).address}
+            />
+          )}
+          {nextReservation && (
+            <details className="field-ticket" key={next.id}>
+              <summary>
+                예약·티켓 ·{' '}
+                {nextReservation.status === 'confirmed' ? '확정' : '확인 필요'}
+              </summary>
+              <FieldReservation
+                item={nextReservation}
+                date={selectedDate}
+                scheduledTime={next.time}
+                onManage={onReservation}
+              />
+            </details>
+          )}
           {next.note && <p className="field-note">{next.note}</p>}
           <PlaceSource stop={next} />
           <details className="field-place-info stop-photos">
@@ -230,6 +266,22 @@ export default function FieldJourney({
           장소 추가
         </button>
       </div>
+      {dayReservations.length > 0 && (
+        <details
+          className="field-day-bookings"
+          key={`${trip.id}:${day}:${nextReservation?.id || ''}`}
+        >
+          <summary>이날의 다른 예약 {dayReservations.length}건</summary>
+          {dayReservations.map((item) => (
+            <FieldReservation
+              key={item.id}
+              item={item}
+              date={selectedDate}
+              onManage={onReservation}
+            />
+          ))}
+        </details>
+      )}
       <details className="field-remaining">
         <summary>남은 장소 {pending.length}곳 · 방문 순서</summary>
         {pending.map((stop) => (
@@ -266,6 +318,9 @@ export default function FieldJourney({
               <strong>{item.title}</strong>
               {item.status !== 'confirmed' && <small>예약 확인 필요</small>}
               <p>{item.address}</p>
+              {item.address && (
+                <AddressCard name={item.title} address={item.address} />
+              )}
               {item.reference && <p>예약 번호: {item.reference}</p>}
               {item.address && (
                 <a
@@ -276,7 +331,7 @@ export default function FieldJourney({
                   숙소 지도
                 </a>
               )}
-              <AttachmentsPanel reservationId={item.id} />
+              <AttachmentsPanel reservationId={item.id} readOnly />
             </article>
           ))
         ) : trip.travelInfo?.lodgingAddress ? (

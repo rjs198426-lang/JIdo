@@ -38,12 +38,14 @@ export default function AttachmentsPanel({
   stopId,
   imagesOnly = false,
   all = false,
+  readOnly = false,
 }: {
   reservationId?: string
   expenseId?: string
   stopId?: string
   imagesOnly?: boolean
   all?: boolean
+  readOnly?: boolean
 }) {
   const context = useContext(AttachmentsContext)
   const [busy, setBusy] = useState(false),
@@ -75,6 +77,7 @@ export default function AttachmentsPanel({
       file.name.toLocaleLowerCase().includes(query.toLocaleLowerCase().trim()),
   )
   const limit = Math.max(0, Math.min(10, 300 - context.files.length))
+  if (readOnly && !files.length) return null
   async function attach(browserFiles?: FileList) {
     if (!context || lock.current) return
     lock.current = true
@@ -156,17 +159,21 @@ export default function AttachmentsPanel({
           {imagesOnly ? '장소 사진' : all ? '여행 자료 보관함' : '첨부 자료'}
           {files.length > 0 && <span>{files.length}</span>}
         </h4>
-        <button
-          className="button outline small"
-          type="button"
-          disabled={busy || limit === 0}
-          onClick={() => (isAndroid() ? void attach() : input.current?.click())}
-        >
-          <Paperclip size={15} />
-          {busy ? '저장 중…' : imagesOnly ? '사진 추가' : '파일 첨부'}
-        </button>
+        {!readOnly && (
+          <button
+            className="button outline small"
+            type="button"
+            disabled={busy || limit === 0}
+            onClick={() =>
+              isAndroid() ? void attach() : input.current?.click()
+            }
+          >
+            <Paperclip size={15} />
+            {busy ? '저장 중…' : imagesOnly ? '사진 추가' : '파일 첨부'}
+          </button>
+        )}
       </div>
-      {!isAndroid() && (
+      {!readOnly && !isAndroid() && (
         <input
           ref={input}
           hidden
@@ -220,7 +227,7 @@ export default function AttachmentsPanel({
                 </small>
               </span>
             </button>
-            {imagesOnly && stopId && (
+            {!readOnly && imagesOnly && stopId && (
               <button
                 type="button"
                 className="photo-cover-button"
@@ -233,22 +240,22 @@ export default function AttachmentsPanel({
                 대표 사진
               </button>
             )}
-            <button
-              className="icon-button"
-              type="button"
-              aria-label={`${file.name} 첨부 삭제`}
-              disabled={busy}
-              onClick={() => setRemove(file)}
-            >
-              <Trash2 size={16} />
-            </button>
+            {!readOnly && (
+              <button
+                className="icon-button"
+                type="button"
+                aria-label={`${file.name} 첨부 삭제`}
+                disabled={busy}
+                onClick={() => setRemove(file)}
+              >
+                <Trash2 size={16} />
+              </button>
+            )}
           </article>
         ))}
       </div>
       {all && !files.length && query.trim() && (
-        <p className="workspace-empty">
-          이름에 맞는 자료가 없어요.
-        </p>
+        <p className="workspace-empty">이름에 맞는 자료가 없어요.</p>
       )}
       {remove && (
         <div className="attachment-remove" role="alert">

@@ -1,4 +1,5 @@
 import DayTransfers from './DayTransfers'
+import type { JourneyTarget } from './trip-readiness'
 import { dayTransferLegs } from './transfer-planning'
 import {
   planningViews,
@@ -879,6 +880,44 @@ function Itinerary({
   const [selectedStops, setSelectedStops] = useState<Record<number, string>>({})
   const selectedStop = selectedStops[day] || trip.days[day]?.[0]?.id
   const pendingScroll = useRef<string | undefined>(undefined)
+  const pendingTarget = useRef<JourneyTarget | null>(null)
+  useEffect(() => {
+    const target = pendingTarget.current
+    if (
+      !target ||
+      workspace !== target.workspace ||
+      (target.day !== undefined && day !== target.day)
+    )
+      return
+    pendingTarget.current = null
+    const attribute = target.reservationId
+      ? 'data-reservation-id'
+      : target.checklistId
+        ? 'data-checklist-id'
+        : workspace === 'transfers'
+          ? 'data-transfer-id'
+          : 'data-stop-id'
+    const id = target.reservationId || target.checklistId || target.stopId
+    const element = id
+      ? Array.from(
+          document.querySelectorAll<HTMLElement>(`[${attribute}]`),
+        ).find((item) => item.getAttribute(attribute) === id)
+      : document.getElementById('workspace-panel')
+    element?.scrollIntoView({ block: 'center', behavior: 'instant' })
+    element?.focus({ preventScroll: true })
+  }, [workspace, day])
+  const locate = (target: JourneyTarget) => {
+    pendingTarget.current = target
+    if (target.day !== undefined) {
+      onDayChange(target.day)
+      if (target.stopId)
+        setSelectedStops((previous) => ({
+          ...previous,
+          [target.day!]: target.stopId!,
+        }))
+    }
+    setWorkspace(target.workspace)
+  }
   useEffect(() => {
     if (workspace !== 'schedule' || !pendingScroll.current) return
     const id = pendingScroll.current
@@ -1106,6 +1145,7 @@ function Itinerary({
           className={`workspace-content workspace-${workspace}`}
           id="workspace-panel"
           role="tabpanel"
+          tabIndex={-1}
           aria-labelledby={`workspace-${mainWorkspace}`}
         >
           {mainWorkspace === 'schedule' && (
@@ -1161,6 +1201,9 @@ function Itinerary({
           )}
           {workspace === 'field' && (
             <FieldJourney
+              onReservation={(id) =>
+                locate({ workspace: 'reservations', reservationId: id })
+              }
               trip={trip}
               day={day}
               onDay={onDayChange}
@@ -1172,6 +1215,7 @@ function Itinerary({
           )}
           {workspace === 'overview' && (
             <TripDashboard
+              onLocate={locate}
               trip={trip}
               day={day}
               onUpdate={onUpdate}
@@ -1742,7 +1786,9 @@ export default function App() {
   useEffect(() => {
     if (!Capacitor.isNativePlatform()) return
     const listener = NativeApp.addListener('backButton', () => {
-      const preview = document.querySelector('dialog.attachment-preview[open]')
+      const preview = document.querySelector(
+        'dialog.attachment-preview[open], dialog.address-dialog[open]',
+      )
       if (preview) {
         preview.dispatchEvent(new Event('cancel', { cancelable: true }))
         return

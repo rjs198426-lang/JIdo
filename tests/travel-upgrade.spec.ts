@@ -108,7 +108,7 @@ test('준비 목록 템플릿·담당자·기한과 대시보드가 연결되고
   await page.getByLabel('준비물 메모').fill('여권 사본도 준비')
   await page.getByRole('button', { name: '준비물 수정 저장' }).click()
   await tab(page, '여행 준비')
-  await expect(page.locator('.preparation-reminders')).toContainText(
+  await expect(page.getByRole('region', { name: '여행 점검' })).toContainText(
     '여권 유효기간 확인 · 기한 지남',
   )
   await tab(page, '준비물')

@@ -43,7 +43,12 @@ export default function DayTransfers({
           distance,
           stale,
         }) => (
-          <article className="transfer-leg" key={`${previous.id}:${stop.id}`}>
+          <article
+            className="transfer-leg"
+            data-transfer-id={stop.id}
+            tabIndex={-1}
+            key={`${previous.id}:${stop.id}`}
+          >
             <h4>
               {stopDetails(previous).name} → {stopDetails(stop).name}
             </h4>
@@ -113,13 +118,18 @@ export default function DayTransfers({
                 max={1440}
                 step={1}
                 aria-label={`${stopDetails(previous).name} 체류 시간`}
-                value={dwellDrafts[previous.id] ?? previous.durationMinutes ?? ''}
+                value={
+                  dwellDrafts[previous.id] ?? previous.durationMinutes ?? ''
+                }
                 placeholder="직접 입력"
                 onBlur={() => clearDwellDraft(previous.id)}
                 onChange={(event) => {
                   const raw = event.target.value,
                     minutes = Number(raw)
-                  setDwellDrafts((drafts) => ({ ...drafts, [previous.id]: raw }))
+                  setDwellDrafts((drafts) => ({
+                    ...drafts,
+                    [previous.id]: raw,
+                  }))
                   if (
                     raw !== '' &&
                     (!Number.isInteger(minutes) ||

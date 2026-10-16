@@ -321,7 +321,12 @@ export default function PreparationChecklist({
       )}
       <div className="checklist">
         {visible.map((item) => (
-          <div key={item.id} className="checklist-row">
+          <div
+            key={item.id}
+            className="checklist-row"
+            data-checklist-id={item.id}
+            tabIndex={-1}
+          >
             <div>
               <label className={item.done ? 'done' : ''}>
                 <input

@@ -324,7 +324,7 @@ export function Reservations({ trip, onUpdate }: Props) {
           )
           .sort((a, b) => (a.date + a.time).localeCompare(b.date + b.time))
           .map((item) => (
-            <article key={item.id}>
+            <article key={item.id} data-reservation-id={item.id} tabIndex={-1}>
               <div className="reservation-date">
                 <span>{item.kind}</span>
                 <strong>{formatDate(item.date)}</strong>

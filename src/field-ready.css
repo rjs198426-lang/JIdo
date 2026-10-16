@@ -1,0 +1,185 @@
+/* Keep secondary field tools below the three primary actions. */
+.field-ticket,
+.field-day-bookings {
+  margin: 12px 0;
+  border-top: 1px solid var(--line);
+}
+.field-ticket > summary,
+.field-day-bookings > summary {
+  min-height: 44px;
+  padding: 12px 0;
+  cursor: pointer;
+  font-size: 14px;
+  overflow-wrap: anywhere;
+}
+.field-booking {
+  padding: 12px 0;
+  min-width: 0;
+  border-top: 1px solid var(--line);
+}
+.field-booking .tool-heading {
+  flex-wrap: wrap;
+}
+.field-booking h4,
+.field-booking p,
+.field-reference strong {
+  overflow-wrap: anywhere;
+}
+.field-booking h4 {
+  margin: 0;
+  font-size: 16px;
+}
+.field-booking p,
+.field-reference {
+  font-size: 14px;
+  line-height: 1.65;
+}
+.field-reference {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+.field-reference strong {
+  user-select: text;
+  min-width: 0;
+}
+.booking-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.field-booking .button,
+.address-open {
+  min-height: 44px;
+  white-space: normal;
+}
+.booking-pending {
+  color: #87530f;
+}
+.booking-confirmed {
+  color: #087565;
+}
+.address-dialog {
+  width: min(520px, calc(100% - 24px));
+  max-height: calc(100dvh - 24px);
+  padding: 0 20px 20px;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  color: #183c36;
+  background: #fff;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+.address-dialog::backdrop {
+  background: #163a3399;
+}
+.address-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  position: sticky;
+  top: 0;
+  background: #fff;
+  padding: 8px 0;
+  z-index: 1;
+}
+.address-heading h3 {
+  margin: 0;
+  font-size: 16px;
+}
+.address-heading button {
+  min-width: 44px;
+  min-height: 44px;
+  flex-shrink: 0;
+}
+.address-dialog h2 {
+  overflow-wrap: anywhere;
+  font-size: 22px;
+}
+.address-display {
+  font-family: var(--app-body-font);
+  font-size: 28px;
+  line-height: 1.7;
+  overflow-wrap: anywhere;
+  white-space: pre-wrap;
+  user-select: text;
+}
+.address-dialog .button {
+  min-height: 48px;
+  white-space: normal;
+}
+.trip-readiness {
+  padding: 16px 0;
+  border-block: 1px solid var(--line);
+  margin: 16px 0;
+  min-width: 0;
+}
+.trip-readiness > .tool-heading {
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.trip-readiness h4 {
+  margin: 0;
+}
+.readiness-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 12px 0;
+}
+.readiness-filters .button {
+  min-height: 44px;
+  font-size: 14px;
+}
+.readiness-filters [aria-pressed='true'] {
+  background: #e4f4ee;
+  border-color: #087b70;
+  color: #006d62;
+}
+.readiness-list {
+  display: grid;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+.readiness-list > button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  text-align: left;
+  padding: 12px;
+  min-height: 48px;
+  border: 1px solid var(--line);
+  background: #fff;
+  border-radius: 10px;
+  font-family: var(--app-body-font);
+  font-size: 14px;
+  line-height: 1.65;
+  color: #28453e;
+}
+.readiness-list > button span {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.readiness-list small {
+  display: block;
+  font-size: 12px;
+  color: #687b70;
+}
+.readiness-list svg {
+  flex-shrink: 0;
+}
+.readiness-list > .readiness-urgent {
+  border-color: #ddc393;
+}
+[data-reservation-id]:focus,
+[data-transfer-id]:focus {
+  outline: 2px solid #168b7b;
+  outline-offset: 3px;
+}
+[data-checklist-id]:focus {
+  outline: 2px solid #168b7b;
+  outline-offset: 3px;
+}

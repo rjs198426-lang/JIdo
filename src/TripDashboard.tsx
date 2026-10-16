@@ -18,6 +18,8 @@ import {
 } from './travel-model'
 import { today, dayCount, dateAt, formatDate } from './store'
 import TravelMembers from './TravelMembers'
+import TripReadiness from './TripReadiness'
+import type { JourneyTarget } from './trip-readiness'
 
 type Props = {
   trip: Trip
@@ -25,6 +27,7 @@ type Props = {
   onUpdate: (trip: Trip) => void
   onOpen: (workspace: string, day?: number) => void
   onExpense: () => void
+  onLocate: (target: JourneyTarget) => void
 }
 export default function TripDashboard({
   trip,
@@ -32,6 +35,7 @@ export default function TripDashboard({
   onUpdate,
   onOpen,
   onExpense,
+  onLocate,
 }: Props) {
   const date = today(),
     until = dayCount(date, trip.startDate) - 1
@@ -104,7 +108,11 @@ export default function TripDashboard({
           (key) =>
             typeof (value as Record<string, unknown>)[key] === 'string' &&
             String((value as Record<string, unknown>)[key]).length <=
-              (['emergencyPhone', 'insurancePhone'].includes(key) ? 80 : 500),
+              (['emergencyPhone', 'insurancePhone'].includes(key)
+                ? 80
+                : key === 'note'
+                  ? 2000
+                  : 500),
         ),
     },
     (value) =>
@@ -183,6 +191,7 @@ export default function TripDashboard({
           </small>
         </button>
       </div>
+      <TripReadiness trip={trip} onLocate={onLocate} />
       <div className="dashboard-day">
         <div className="tool-heading">
           <h4>
@@ -216,25 +225,6 @@ export default function TripDashboard({
           지출 바로 기록
         </button>
       </div>
-      {(overdue.length > 0 ||
-        reservations.some((item) => item.status !== 'confirmed')) && (
-        <div className="preparation-reminders">
-          <h4>확인할 항목</h4>
-          {overdue.slice(0, 3).map((item) => (
-            <button key={item.id} onClick={() => onOpen('checklist')}>
-              {item.title} · 기한 지남 <ArrowRight size={14} />
-            </button>
-          ))}
-          {reservations
-            .filter((item) => item.status !== 'confirmed')
-            .slice(0, 3)
-            .map((item) => (
-              <button key={item.id} onClick={() => onOpen('reservations')}>
-                {item.title} · 예약 확인 필요 <ArrowRight size={14} />
-              </button>
-            ))}
-        </div>
-      )}
       {!!planned.length && (
         <details className="planned-costs">
           <summary>아직 지출에 기록하지 않은 예약 비용</summary>
