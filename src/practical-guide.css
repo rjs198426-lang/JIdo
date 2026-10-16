@@ -3,7 +3,8 @@
   min-width: 0;
 }
 .guide-tabs {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 4px;
   border-bottom: 1px solid #e2eae5;
   margin-bottom: 16px;
@@ -15,7 +16,8 @@
   padding: 8px 4px;
   border-radius: 8px 8px 0 0;
   font-size: 13px;
-  white-space: nowrap;
+  white-space: normal;
+  overflow-wrap: anywhere;
 }
 .guide-tabs button[aria-selected='true'] {
   background: #e8f5ef;
@@ -145,6 +147,88 @@
   .guide-tabs button {
     font-size: 12px;
   }
+}
+@media (max-width: 480px) {
+  .guide-tabs {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+.guide-blogs-heading {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+.guide-blogs-heading h3 {
+  margin: 0;
+}
+.guide-blogs-heading > span {
+  flex-shrink: 0;
+  font-size: 12px;
+  color: #52685d;
+}
+.guide-blog-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.guide-blog-list li + li {
+  border-top: 1px solid #e4ece6;
+}
+.guide-blog-list a {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 44px;
+  padding: 16px 0;
+  color: #244b40;
+  text-decoration: none;
+}
+.guide-blog-copy {
+  display: grid;
+  gap: 7px;
+  min-width: 0;
+  flex: 1;
+  overflow-wrap: anywhere;
+}
+.guide-blog-copy small,
+.guide-blog-copy > span {
+  font-family: var(--app-body-font);
+  font-size: 12px;
+  font-weight: 400;
+  color: #52685d;
+  line-height: 1.6;
+}
+.guide-blog-copy strong {
+  font-family: var(--app-body-font);
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.65;
+}
+.guide-blog-list svg {
+  flex-shrink: 0;
+  color: #087b70;
+}
+.guide-blog-list a:focus-visible {
+  outline: 2px solid #087b70;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+.guide-blog-search {
+  margin: 12px 0;
+  white-space: normal;
+}
+.guide-blog-criteria summary {
+  min-height: 44px;
+  padding: 12px 0;
+  font-size: 12px;
+  cursor: pointer;
+}
+.guide-blog-criteria p,
+.guide-blog-criteria small {
+  font-size: 12px;
+  line-height: 1.7;
+  color: #52685d;
 }
 .practical-guide .guide-status {
   font-size: 12px;

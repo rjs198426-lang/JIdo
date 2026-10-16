@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { ArrowRight, ExternalLink } from 'lucide-react'
 import { getPlace } from './catalog'
 import { practicalGuideById, type CourseSelection } from './practical-guides'
+import GuideBlogs from './GuideBlogs'
 
 export default function PracticalGuide({
   cityId,
@@ -30,6 +31,7 @@ export default function PracticalGuide({
           ['start', '처음 가면'],
           ['courses', '지역별 코스'],
           ['ready', '예약·현장 팁'],
+          ['blogs', '블로그 후기'],
         ].map(([id, label]) => (
           <button
             type="button"
@@ -38,7 +40,30 @@ export default function PracticalGuide({
             id={`practical-tab-${id}`}
             aria-controls="practical-panel"
             aria-selected={tab === id}
+            tabIndex={tab === id ? 0 : -1}
             onClick={() => setTab(id)}
+            onKeyDown={(event) => {
+              const tabs = Array.from(
+                event.currentTarget.parentElement!.querySelectorAll<HTMLButtonElement>(
+                  '[role="tab"]',
+                ),
+              )
+              const index = tabs.indexOf(event.currentTarget)
+              const next =
+                event.key === 'Home'
+                  ? 0
+                  : event.key === 'End'
+                    ? tabs.length - 1
+                    : event.key === 'ArrowRight'
+                      ? (index + 1) % tabs.length
+                      : event.key === 'ArrowLeft'
+                        ? (index - 1 + tabs.length) % tabs.length
+                        : -1
+              if (next < 0) return
+              event.preventDefault()
+              tabs[next].focus()
+              tabs[next].click()
+            }}
           >
             {label}
           </button>
@@ -144,6 +169,7 @@ export default function PracticalGuide({
             <p>{profile.rainPlan}</p>
           </>
         )}
+        {tab === 'blogs' && <GuideBlogs cityId={cityId} />}
       </div>
       <details className="guide-evidence">
         <summary>정보 확인·출처</summary>
