@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test'
 
-test('주요 제목은 하이커체, 본문·입력 내용은 내장 런드리고딕으로 오프라인에서도 실제 표시', async ({
+test('주요 제목은 하이커체, 본문·입력 내용은 내장 SUIT로 오프라인에서도 실제 표시', async ({
   page,
   context,
 }) => {
@@ -23,7 +23,7 @@ test('주요 제목은 하이커체, 본문·입력 내용은 내장 런드리�
   const { root } = await session.send('DOM.getDocument')
   for (const [selector, expected] of [
     ['.home-heading h1', /HiKR/i],
-    ['.city-card .city-title > span', /LaundryGothic/i],
+    ['.city-card .city-title > span', /SUIT/i],
   ] as const) {
     const { nodeId } = await session.send('DOM.querySelector', {
       nodeId: root.nodeId,
@@ -49,8 +49,8 @@ test('주요 제목은 하이커체, 본문·입력 내용은 내장 런드리�
   for (const [selector, expectedFamily] of [
     ['h2', 'HiKR'],
     ['button', 'HiKR'],
-    ['input', 'LaundryGothic'],
-    ['select', 'LaundryGothic'],
+    ['input', 'SUIT'],
+    ['select', 'SUIT'],
   ] as const) {
     const families = await dialog
       .locator(selector)
@@ -65,4 +65,89 @@ test('주요 제목은 하이커체, 본문·입력 내용은 내장 런드리�
   }
   expect(remoteFontRequests).toEqual([])
   await context.setOffline(false)
+})
+
+test('320px 장소 상세에서 SUIT 본문·주소·팁을 읽을 크기와 대비로 표시하고 긴 주소를 자르지 않음', async ({
+  page,
+  context,
+}) => {
+  await page.setViewportSize({ width: 320, height: 740 })
+  await page.route('https://**', (route) => route.abort())
+  await page.goto('/')
+  await page
+    .getByRole('button', { name: '교토 여행지 자세히 보기', exact: true })
+    .first()
+    .click()
+  await page
+    .getByRole('dialog')
+    .getByRole('button', { name: '기요미즈데라 자세히 보기', exact: true })
+    .click()
+  await page.evaluate(() => document.fonts.ready)
+  for (const [selector, size] of [
+    ['.city-intro', 16],
+    ['.place-facts > p', 14],
+    ['.place-tip p', 15],
+  ] as const) {
+    const style = await page
+      .locator(selector)
+      .first()
+      .evaluate((node) => {
+        const style = getComputedStyle(node)
+        const color = style.color
+          .match(/\d+/g)!
+          .slice(0, 3)
+          .map(Number)
+          .map((v) => {
+            const n = v / 255
+            return n <= 0.04045 ? n / 12.92 : ((n + 0.055) / 1.055) ** 2.4
+          })
+        const lum = color[0] * 0.2126 + color[1] * 0.7152 + color[2] * 0.0722
+        return {
+          size: parseFloat(style.fontSize),
+          family: style.fontFamily,
+          contrast: 1.05 / (lum + 0.05),
+        }
+      })
+    expect(style.size).toBeGreaterThanOrEqual(size)
+    expect(style.family).toMatch(/^SUIT/)
+    expect(style.contrast).toBeGreaterThanOrEqual(4.5)
+  }
+  const session = await context.newCDPSession(page)
+  await session.send('DOM.enable')
+  await session.send('CSS.enable')
+  const { root } = await session.send('DOM.getDocument')
+  const { nodeId } = await session.send('DOM.querySelector', {
+    nodeId: root.nodeId,
+    selector: '.city-intro',
+  })
+  const { fonts } = await session.send('CSS.getPlatformFontsForNode', {
+    nodeId,
+  })
+  expect(
+    fonts.some(
+      (f) => f.isCustomFont && /SUIT/.test(f.familyName) && f.glyphCount > 0,
+    ),
+  ).toBe(true)
+  expect(
+    await page.evaluate(() =>
+      [...document.fonts].some(
+        (f) =>
+          f.family.replaceAll(/["']/g, '') === 'SUIT' &&
+          f.weight === '100 900' &&
+          f.status === 'loaded',
+      ),
+    ),
+  ).toBe(true)
+  for (const row of await page.locator('.place-facts > p > span').all()) {
+    expect(
+      await row.evaluate((el) => el.scrollWidth <= el.clientWidth + 1),
+    ).toBe(true)
+  }
+  await page.locator('.map-link').scrollIntoViewIfNeeded()
+  expect(
+    await page.evaluate(
+      () => document.documentElement.scrollWidth <= innerWidth,
+    ),
+  ).toBe(true)
+  await page.screenshot({ path: 'artifacts/suit-place-320.png' })
 })

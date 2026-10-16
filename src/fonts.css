@@ -1,4 +1,4 @@
-/* Unmodified static faces: display headings and readable body copy. */
+/* Original HiKR display face and SUIT variable body face, embedded offline. */
 @font-face {
   font-family: 'HiKR';
   src: url('/fonts/HiKR-ExtraBold.woff2') format('woff2');
@@ -7,14 +7,14 @@
   font-display: swap;
 }
 @font-face {
-  font-family: 'LaundryGothic';
-  src: url('/fonts/LaundryGothic-Regular.woff') format('woff');
+  font-family: 'SUIT';
+  src: url('/fonts/SUIT-Variable.woff2') format('woff2');
   font-style: normal;
   font-weight: 100 900;
   font-display: swap;
 }
 :root {
-  --app-body-font: 'LaundryGothic', 'Noto Sans KR Variable', sans-serif;
+  --app-body-font: 'SUIT', 'Noto Sans KR Variable', sans-serif;
   --app-heading-font: 'HiKR', 'Noto Sans KR Variable', sans-serif;
   --app-font: var(--app-body-font);
   font-family: var(--app-body-font);

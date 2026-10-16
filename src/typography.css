@@ -1,0 +1,85 @@
+/* Readable body copy takes precedence over earlier compact mobile rules. */
+body {
+  font-size: 16px;
+}
+.city-intro,
+.practical-guide p,
+.practical-guide .guide-lead,
+.guide-decisions dd,
+.guide-advice,
+.guide-course ol {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #33443c;
+}
+.place-tip p {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #33443c;
+}
+.place-tip strong {
+  font-size: 14px;
+}
+.place-tip > div,
+.place-facts > p > span {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.place-facts > p,
+.place-original-name p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #526057;
+  overflow-wrap: anywhere;
+}
+.place-facts > p {
+  align-items: flex-start;
+}
+.place-facts > p > svg {
+  flex-shrink: 0;
+  margin-top: 3px;
+}
+.city-detail-hero p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+.city-facts span {
+  font-size: 13px;
+}
+.city-facts strong {
+  font-size: 14px;
+}
+.detail-place-list strong {
+  font-size: 15px;
+  line-height: 1.5;
+}
+.detail-place-list span:not(.detail-place-icon),
+.city-title > span,
+.place-location,
+.place-meta,
+.place-card-address {
+  font-size: 13px;
+  line-height: 1.5;
+}
+.place-location,
+.place-meta,
+.city-title > span {
+  color: #526057;
+}
+.field input,
+.field select,
+.field textarea,
+.create-form input,
+.create-form select,
+.create-form textarea {
+  font-size: 16px;
+  font-weight: 500;
+}
+.guide-evidence > p,
+.guide-evidence small,
+.detail-footnote,
+.guide-course > small,
+.course-add-form > small {
+  font-size: 13px;
+  line-height: 1.6;
+}
