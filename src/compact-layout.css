@@ -179,11 +179,8 @@
   .home-ticket {
     display: none;
   }
-  .home-journey-card {
-    grid-template-columns: minmax(0, 1fr) 100px;
-  }
   .home-journey-copy {
-    padding: 16px;
+    padding: 16px 12px;
   }
   .home-journey-copy h2 {
     font-size: 20px;

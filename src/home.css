@@ -116,11 +116,17 @@
 }
 .home-journey-card {
   display: grid;
-  grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
+  /* Half the screen, including the space outside this inset card. */
+  grid-template-columns: minmax(0, 1fr) min(50vw, calc(100% - 120px));
 }
 .home-journey-copy {
   padding: 28px 32px;
   min-width: 0;
+}
+.home-journey-copy .button {
+  max-width: 100%;
+  white-space: normal;
+  text-align: left;
 }
 .home-phase {
   display: inline-block;
@@ -729,7 +735,6 @@
   }
   .home-journey-card {
     border-radius: 20px;
-    grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr);
   }
   .home-journey-copy {
     padding: 22px 18px;
