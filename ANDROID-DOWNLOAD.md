@@ -1,18 +1,19 @@
 # J★Do Android 다운로드
 
-[Android 1.26 새 버전 APK 다운로드](JDo-android-1.26.apk)
+[현재 정식 앱 J★Do 1.27 APK 다운로드](JDo-android-1.27.apk)
 
-- 앱 표시 이름: J★Do 새버전
-- 패키지: com.jido.travel.next · versionCode 27 · Android 7.0 이상
-- 새 키로 서명한 별도 앱입니다. 기존 com.jido.travel과 함께 설치됩니다.
-- 기존 앱: 내 여행 → 여행 백업·공유 → 전체 백업 저장. 새 앱: 전체 백업 불러오기. 사진·PDF를 옮기려면 전체 ZIP을 사용합니다.
-- 새 앱에서 자료 복원을 확인할 때까지 기존 앱을 유지하세요.
-- 크기: 47,482,324바이트
-- APK SHA-256: 32bc0c9e60f04d8db9da100d324994437387e6bec5bcb44494e1a688cd05706a
-- 서명 인증서 SHA-256: 0d1b1f20dae73d00626d9ebb4f460943c4f16c2266bc7bc58d124d13b32494ac
-- 웹/Android 빌드, APK 서명·자산 230개 일치, 자료 백업·복원 관련 모바일 검사 5개 통과. 실제 휴대폰 설치 시험은 미수행.
+- 앱 이름: **J★Do** · 패키지 `com.jido.travel.next`
+- 버전: 1.27 · versionCode 28 · Android 7.0 이상
+- 1.26의 ‘J★Do 새버전’을 같은 키로 업데이트하며 원래 이름 J★Do로 표시합니다.
+- 기존 1.25와는 서명이 달라 직접 덮어 설치할 수 없습니다. 기존 앱에서 전체 ZIP을 저장하고 이 앱에서 복원·확인한 뒤 기존 앱을 삭제하면 이 앱만 남길 수 있습니다.
+- 경로: 내 여행 → 여행 백업·공유 → 전체 백업 저장 / 전체 백업 불러오기.
+- APK 크기: 47482316 bytes
+- APK SHA-256: `3f2f3b9dcee6edad9a2d4dae860eb1f76f0cb637f237faec4e649ef555677b1b`
+- 인증서 SHA-256: `0d1b1f20dae73d00626d9ebb4f460943c4f16c2266bc7bc58d124d13b32494ac`
+- Android release 빌드·서명 확인, 내장 웹 자산 230개 일치. 실제 사용자 기기의 설치·이전 자료 확인은 별도입니다.
 
-[기존 1.25 APK](JDo-android-1.25.apk)는 기존 패키지와 서명을 유지합니다.
-[개선 소스와 검증 기록](https://github.com/rjs198426-lang/JIdo/tree/codex/recover-usability-126)
+[이전 1.26 APK](JDo-android-1.26.apk) · [구형 1.25 APK](JDo-android-1.25.apk)
 
-개인 키와 비밀번호는 이 공개 브랜치에 포함하지 않습니다.
+[소스와 검증 기록](https://github.com/rjs198426-lang/JIdo/tree/codex/recover-usability-126)
+
+서명 키 백업은 비공개 채팅 다운로드 파일로만 전달합니다. 개인 키·비밀번호를 이 공개 브랜치나 APK에 넣지 않습니다.
