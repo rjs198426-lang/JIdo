@@ -2,6 +2,8 @@
 
 본인 또는 동행자와 자유여행을 계획하고 현장에서 확인하는 **개인용 Android 여행 앱**입니다. 공개 커뮤니티·판매·서버 동기화 없이 기기에 기록합니다. React 화면을 Capacitor 네이티브 앱으로 패키징합니다. PC와 모바일 브라우저에서도 동일한 화면을 개발·테스트할 수 있습니다.
 
+[Android 1.26 설치 APK와 자료 이전 안내](ANDROID-DOWNLOAD.md). 새 서명 키로 만든 **J★Do 새버전**은 기존 앱과 함께 설치됩니다.
+
 ## 개인과 동행자 사용
 
 첫 화면은 내 여행과 후보 장소이며, 새 여행은 인원 1명·원하는 도시 직접 입력·빈 일정으로 시작합니다. 기존 여행 기록은 그대로 읽습니다. 가이드 장소는 필요할 때 선택하며 추천 일정을 자동으로 넣지 않습니다.
@@ -72,7 +74,7 @@ npm run android:open     # Android Studio에서 열기
 
 Java **21**, Android SDK **API 36**, Build Tools **35.0.0 / 36.0.0**을 사용합니다. 최소 Android 버전은 **7.0 / API 24**입니다.
 
-클라우드에서 도구를 준비하고 디버그 APK를 만드는 명령:
+클라우드에서 도구를 준비하고 서명된 설치용 APK를 만드는 명령:
 
 ```bash
 cd /workspace/JIdo
@@ -83,13 +85,17 @@ npm run android:build
 
 도구는 `/workspace/.cache/android-sdk`에 설치하고 Google 공식 메타데이터의 체크섬으로 다운로드를 검증합니다. Gradle 배포도 공식 SHA-256으로 검증합니다. 기존 HTTPS 프록시가 있으면 Gradle의 지원되는 프록시 설정을 이용합니다.
 
-결과는 `artifacts/jido-debug.apk`입니다. Android 기기로 파일을 옮겨 테스트용으로 설치하거나 연결한 기기에 다음 명령을 사용할 수 있습니다.
+먼저 비공개 서명 백업을 `/workspace/.jido-signing`에 복원해야 합니다. 다른 위치는 `JIDO_SIGNING_PROPERTIES`로 지정합니다. 키가 없으면 빌드는 중단하며 키를 자동 생성하지 않습니다. 공개 인증서 지문은 `android/signing-certificate.sha256`에 고정했습니다.
+
+결과는 `artifacts/jido-release.apk`와 `artifacts/JDo-android.apk`입니다. Android 기기로 파일을 옮겨 설치하거나 연결한 기기에 다음 명령을 사용할 수 있습니다.
 
 ```bash
-/workspace/.cache/android-sdk/platform-tools/adb install -r artifacts/jido-debug.apk
+/workspace/.cache/android-sdk/platform-tools/adb install -r artifacts/jido-release.apk
 ```
 
-다른 개발 머신에서는 Android Studio에서 SDK 36을 설치하고 `ANDROID_HOME`, `ANDROID_USER_HOME`, `GRADLE_USER_HOME`을 자신의 쓰기 가능한 경로로 지정하세요. `npm run android:open`으로 연 프로젝트도 직접 빌드할 수 있습니다. 디버그 APK는 테스트용이며 Play Store 배포에는 별도의 릴리스 서명과 AAB가 필요합니다.
+다른 개발 머신에서는 Android Studio에서 SDK 36을 설치하고 `ANDROID_HOME`, `ANDROID_USER_HOME`, `GRADLE_USER_HOME`을 자신의 쓰기 가능한 경로로 지정하세요. `npm run android:open`으로 연 프로젝트도 직접 빌드할 수 있습니다. 서명 백업을 복원한 뒤 `signing.properties`의 `storeFile`을 실제 비공개 키 경로로 맞추세요. 백업에는 개인 키와 비밀번호가 함께 있으므로 공개 저장소에 넣지 않습니다. Play Store 배포는 별도의 스토어 설정·AAB 검증이 필요합니다.
+
+1.26부터 새 키와 `com.jido.travel.next`를 사용합니다. 기존 `com.jido.travel` 앱을 덮어쓰지 않고 **J★Do 새버전**으로 함께 설치됩니다. 이전 앱에서 **내 여행 → 여행 백업·공유 → 전체 백업 저장**으로 ZIP을 저장하고 새 앱의 **전체 백업 불러오기**로 가져오세요. 사진·예약 파일은 전체 ZIP에 포함되며 일정 JSON에는 파일 바이너리가 포함되지 않습니다. 복원을 확인하기 전 기존 앱은 유지하세요.
 
 ## 장소 사진과 화면 여백
 
@@ -127,7 +133,7 @@ Playwright는 배포용 빌드의 프리뷰 서버를 실행하고 PC와 Pixel 7
 
 이 버전에는 여행자 회원가입, 실제 예약·결제, 실시간 리뷰·가격·날씨, 도로 경로 계산 및 경로 최적화가 포함되어 있지 않습니다. 일본 도시 안내는 2026-10-14에 확인한 JNTO 자료를 바탕으로 작성했습니다. 운영 시간과 비용은 방문 전 공식 안내를 확인해야 합니다. 장소별 사진은 촬영자·이용 조건·출처를 연결하며 개인 사진으로 바꿀 수 있습니다.
 
-앱 식별자는 `com.jido.travel`입니다. 실제 스토어 배포 전에는 소유한 식별자, 서명, 개인정보처리방침 및 데이터 출처를 준비해야 합니다.
+앱 식별자는 `com.jido.travel.next`입니다. Java namespace는 기존 `com.jido.travel`을 유지하지만 설치 식별자·파일 공유 provider는 새 식별자를 사용합니다. 실제 스토어 배포 전에는 스토어 설정, 개인정보처리방침 및 데이터 출처를 준비해야 합니다.
 
 ## 파일 구조
 

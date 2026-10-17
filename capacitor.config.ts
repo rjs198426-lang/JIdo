@@ -1,7 +1,7 @@
 import type { CapacitorConfig } from '@capacitor/cli'
 
 const config: CapacitorConfig = {
-  appId: 'com.jido.travel',
+  appId: 'com.jido.travel.next',
   appName: 'J★Do',
   webDir: 'dist',
   backgroundColor: '#ffffff',

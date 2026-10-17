@@ -1,21 +1,30 @@
 # J★Do Android 다운로드
 
-[Android 1.25 APK 다운로드](https://raw.githubusercontent.com/rjs198426-lang/JIdo/0623313b4ca0660f55017f611ea26a8bea97d599/JDo-android.apk)
+[Android 1.26 새 버전 APK 다운로드](https://raw.githubusercontent.com/rjs198426-lang/JIdo/0c576795241c42cf1e79baae3e11d5c20677b2f6/JDo-android-1.26.apk)
 
-- 앱: J★Do (`com.jido.travel`)
-- 버전: 1.25 · versionCode 26 · Android 7.0 이상
-- 크기: 30326173 bytes
-- SHA-256: `d60df70e8fa6b18b5d96a3b0d41b1252acf230b3a4512e4d6be8c798870d8dd9`
-- 기존 앱과 같은 패키지·서명입니다. 앱을 삭제하지 않고 업데이트하세요.
-- 서명 인증서 SHA-256: `3d2583f60de848d7a4895b217453c7dd824fb31669c41c7ac4e0ad10e7a0e1b0`
+- 앱: **J★Do 새버전** (`com.jido.travel.next`)
+- 버전: 1.26 · versionCode 27 · Android 7.0 이상
+- 크기: 47,482,324 bytes
+- SHA-256: `32bc0c9e60f04d8db9da100d324994437387e6bec5bcb44494e1a688cd05706a`
+- 서명 인증서 SHA-256: `0d1b1f20dae73d00626d9ebb4f460943c4f16c2266bc7bc58d124d13b32494ac`
 
-## 1.26 소스 개선 · APK 미배포
+## 설치와 기존 자료 이동
 
-작업 환경 복구 후 1.25 핵심 기능을 소스에 재구현하고 준비물·백업·현지 시간대·이동 구간·식당 자료를 개선했습니다. 현재 환경에서 기존 서명 키를 찾지 못해 새 APK를 업데이트용으로 배포하지 않습니다. 위 링크는 검증된 기존 1.25입니다.
+사용자의 새 키 생성 승인에 따라 새 설치 식별자를 사용합니다. **기존 앱을 삭제할 필요 없이 함께 설치됩니다.** 기존 앱의 내 여행 → 여행 백업·공유 → 전체 백업 저장으로 ZIP을 저장하고, 새 앱에서 전체 백업 불러오기로 가져오세요. 사진·PDF 등 첨부 자료는 전체 ZIP으로 옮깁니다. 일정 JSON에는 첨부 바이너리가 없습니다. 새 앱에서 복원을 확인한 뒤 기존 앱의 유지 여부를 결정하세요.
 
-2026-10-17 소스에는 장소 사진 6개도 추가했습니다(사진 65/900곳). 기존 다운로드 APK에 이 변경이 들어간 것은 아닙니다. [복구·검증 상태](RECOVERY_AND_REMAINING_IMPROVEMENTS.md).
+## 1.26 반영·검증
 
-재시도에서 1.26 Android release 빌드와 APK 내부 웹 자산 230개 일치를 확인했습니다. 생성물은 서명되지 않았으며 설치용으로 배포하지 않습니다. 기존 1.25 링크는 다시 다운로드해 해시 일치를 확인했습니다.
+준비물 미완료 우선 정렬, 개인 보관/동행자 전달 분리, 간단한 일정 목록, 현지 시간대·백업 보존, 이동 구간 길찾기, 식당 13곳·장소 사진 6곳을 반영했습니다. 여행지 21곳·장소 900곳이며 장소 사진은 65곳에 있습니다. 전체 사진 적용·최신 영업 전수 검증을 완료한 것은 아닙니다.
+
+웹·Android release 빌드 성공. APK 서명 검증, 내부 웹 자산 230개 일치, 개인 키 백업 복원 후 동일 인증서 재서명 확인. 자료 이전 관련 모바일 검사 5개 통과(12.4초). 공개 링크를 직접 내려받아 위 SHA-256·인증서 일치 확인. 실제 휴대폰 설치·공유 화면·강제 종료 시험은 아직 수행하지 못했습니다.
+
+새 키는 공개 GitHub·APK에 넣지 않았습니다. [서명 백업 관리](SIGNING.md), [복구·검증 기록](RECOVERY_AND_REMAINING_IMPROVEMENTS.md).
+
+## 기존 앱 1.25
+
+[기존 1.25 APK 다운로드](https://raw.githubusercontent.com/rjs198426-lang/JIdo/0623313b4ca0660f55017f611ea26a8bea97d599/JDo-android.apk)
+
+기존 `com.jido.travel`용입니다. versionCode 26, 30,326,173바이트, SHA-256 `d60df70e8fa6b18b5d96a3b0d41b1252acf230b3a4512e4d6be8c798870d8dd9`. 기존 인증서 SHA-256은 `3d2583f60de848d7a4895b217453c7dd824fb31669c41c7ac4e0ad10e7a0e1b0`이며 새 키와 다릅니다.
 
 ## 1.24 — 가이드 블로그 후기 탭
 

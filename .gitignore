@@ -18,6 +18,9 @@ artifacts/
 *.pem
 key.properties
 keystore.properties
+signing.properties
+*.key
+*signing-backup*.zip
 credentials*.json
 service-account*.json
 

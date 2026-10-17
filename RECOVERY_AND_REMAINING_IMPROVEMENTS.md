@@ -4,7 +4,7 @@
 
 실행 환경이 다시 연결됐지만 GitHub main의 1.24 소스만 있었으며 이전 미커밋 변경, /workspace/.cache 빌드 도구, 임시 조사 파일은 이번 환경에서 확인되지 않았습니다. 배포한 1.25 APK는 GitHub 다운로드 전용 브랜치에 보존되어 있습니다. 1.25에서 확인했던 기능은 대화에 남은 변경 내용을 바탕으로 소스에 재구현했습니다. 이전 소스 파일과 바이트 단위로 동일하다고 주장하지 않습니다.
 
-현재 환경에서 기존 서명 키를 확인하지 못했습니다. 다른 키로 만든 APK는 기존 앱에 덮어 설치할 수 없으므로 새 업데이트 APK 배포는 보류합니다. 기존 1.25 다운로드를 유지합니다. 소스 변경은 GitHub 별도 브랜치에 보관합니다.
+기존 서명 키는 복구하지 못했으며 사용자가 새 키 생성을 승인했습니다. 새 키와 `com.jido.travel.next`로 1.26을 서명·배포했습니다. 기존 앱과 함께 설치되며 전체 ZIP 백업으로 자료를 옮깁니다. 기존 1.25도 보존합니다. 아래 서명 키 부재·unsigned 빌드 기록은 새 키 승인 전의 조사 과정입니다. 최신 다운로드는 [ANDROID-DOWNLOAD.md](ANDROID-DOWNLOAD.md), 새 키 관리는 [SIGNING.md](SIGNING.md)를 확인하세요.
 
 ## 적용 내용
 
@@ -56,3 +56,16 @@ Android 빌드 도구는 `scripts/setup-java.py`, `scripts/setup-android.py`로 
 - 생성물: `android/app/build/outputs/apk/release/app-release-unsigned.apk`, 패키지 `com.jido.travel`, versionCode 27, versionName 1.26, minSdk 24. 크기 47,474,108바이트, SHA-256 `7e66a1a9f9e67350c7c9e1821f4a0149534e3c45de2ae24d4241c6df36388556`.
 - APK 내부 웹 자산 230개를 dist와 바이트 단위 비교: 누락 0개·불일치 0개. apksigner는 서명 없음으로 검증 실패(예상 결과). 설치·업데이트 가능한 APK로 배포하지 않음. 실제 기기 검증도 수행하지 않음.
 - Android 빌드·서명 보존 지침을 환경 설정 `start_skill` 초안에 저장. 응답은 saved, requires_publish=true. 초안 저장은 실행 환경 게시나 새 작업 복원 검증을 뜻하지 않음.
+
+
+## 새 키 승인 후 1.26 배포
+
+- 사용자가 새 키 생성을 승인. RSA 4096비트 PKCS12 키를 생성하고 외부 비공개 디렉터리 `/workspace/.jido-signing`에 보관. 새 패키지 `com.jido.travel.next`, 기존 Java namespace 유지. provider와 커스텀 URI도 새 설치 식별자를 사용해 구버전과 충돌 방지.
+- `npm run android:build`를 서명된 release 빌드로 변경. 키가 없으면 자동 생성 없이 중단하고, 생성 APK 인증서를 공개 지문 파일과 비교. 키·비밀번호는 공개 저장소·APK에 포함하지 않음.
+- 빌드 성공(21초). 서명 검증 성공. 내장 웹 자산 230개 바이트 일치. 새 패키지·실행 activity·provider authority·minSdk 24 확인. debuggable 플래그 없음.
+- 비공개 서명 ZIP 백업을 별도 임시 경로에 복원해 실제 APK를 재서명하고 같은 인증서임을 검증. 키 설정 파일이 없을 때 빌드가 중단되는 것도 확인.
+- 자료 이전 관련 모바일 검사 5개 통과(12.4초): 전체 ZIP의 PDF·개인 사진·참조 복원, 손상 ZIP 거부, Android 저장 브리지/취소 처리, 복원 실패 롤백, 개인 보관/공유 목적 분리.
+- APK 47,482,324바이트. SHA-256 `32bc0c9e60f04d8db9da100d324994437387e6bec5bcb44494e1a688cd05706a`. 공개 다운로드를 인증 헤더 없이 받아 바이트 해시와 인증서를 다시 검증.
+- 배포 커밋 `0c576795241c42cf1e79baae3e11d5c20677b2f6`은 공개 APK와 안내 파일만 포함. 기존 1.25를 별도 파일과 원래 고정 URL로 보존.
+- 원래 키가 복구된 것은 아니며 구버전을 제자리 업데이트하지 않음. 사용자 휴대폰의 설치·자료 복원 확인은 아직 받지 못함. 서명 백업의 사용자 다운로드 완료도 확인하지 못함.
+- 새 서명 경로·인증서 보존·서명 빌드 지침을 `start_skill` 초안에 저장(saved, requires_publish=true). 환경 설정 검토·저장·게시 전에는 새 환경에 반영됐다고 간주하지 않음.

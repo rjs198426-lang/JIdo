@@ -1,10 +1,18 @@
 apply plugin: 'com.android.application'
 
+// Keep private signing material outside the checkout. Missing keys must not be
+// replaced automatically: the same key is required for every subsequent update.
+def signingPropertiesFile = new File(System.getenv('JIDO_SIGNING_PROPERTIES') ?: '/workspace/.jido-signing/signing.properties')
+def signingProperties = new Properties()
+if (signingPropertiesFile.isFile()) {
+    signingPropertiesFile.withInputStream { signingProperties.load(it) }
+}
+
 android {
     namespace = "com.jido.travel"
     compileSdk = rootProject.ext.compileSdkVersion
     defaultConfig {
-        applicationId "com.jido.travel"
+        applicationId "com.jido.travel.next"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 27
@@ -16,8 +24,21 @@ android {
             ignoreAssetsPattern = '!.svn:!.git:!.ds_store:!*.scc:.*:!CVS:!thumbs.db:!picasa.ini:!*~'
         }
     }
+    signingConfigs {
+        if (signingPropertiesFile.isFile()) {
+            personalRelease {
+                storeFile new File(signingProperties.getProperty('storeFile'))
+                storePassword signingProperties.getProperty('storePassword')
+                keyAlias signingProperties.getProperty('keyAlias')
+                keyPassword signingProperties.getProperty('keyPassword')
+            }
+        }
+    }
     buildTypes {
         release {
+            if (signingPropertiesFile.isFile()) {
+                signingConfig signingConfigs.personalRelease
+            }
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
