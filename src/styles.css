@@ -9,7 +9,7 @@
     --safe-area-inset-right,
     env(safe-area-inset-right, 0px)
   );
-  font-family: var(--app-font, 'HiKR', 'Noto Sans KR Variable', sans-serif);
+  font-family: var(--app-font, 'SUIT', 'Noto Sans KR Variable', sans-serif);
   color: #233b35;
   background: #ffffff;
   font-synthesis: none;

@@ -1,11 +1,4 @@
-/* Original HiKR display face and SUIT variable body face, embedded offline. */
-@font-face {
-  font-family: 'HiKR';
-  src: url('/fonts/HiKR-ExtraBold.woff2') format('woff2');
-  font-style: normal;
-  font-weight: 100 900;
-  font-display: swap;
-}
+/* One embedded variable family keeps titles, controls and body copy coherent. */
 @font-face {
   font-family: 'SUIT';
   src: url('/fonts/SUIT-Variable.woff2') format('woff2');
@@ -15,7 +8,7 @@
 }
 :root {
   --app-body-font: 'SUIT', 'Noto Sans KR Variable', sans-serif;
-  --app-heading-font: 'HiKR', 'Noto Sans KR Variable', sans-serif;
+  --app-heading-font: var(--app-body-font);
   --app-font: var(--app-body-font);
   font-family: var(--app-body-font);
   font-synthesis: none;
@@ -36,6 +29,21 @@ legend,
 button,
 .brand {
   font-family: var(--app-heading-font);
+}
+h1 {
+  font-weight: 800;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 750;
+}
+strong,
+b,
+legend {
+  font-weight: 700;
 }
 p,
 small,

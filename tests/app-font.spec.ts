@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test'
 
-test('주요 제목은 하이커체, 본문·입력 내용은 내장 SUIT로 오프라인에서도 실제 표시', async ({
+test('제목·로고·본문·입력 내용은 내장 SUIT 한 계열로 오프라인에서도 실제 표시', async ({
   page,
   context,
 }) => {
@@ -14,7 +14,7 @@ test('주요 제목은 하이커체, 본문·입력 내용은 내장 SUIT로 오
   await page.evaluate(() => document.fonts.ready)
   expect(
     await page.evaluate(() =>
-      document.fonts.check('16px HiKR', '가나다 여행 123 ABC'),
+      document.fonts.check('800 24px SUIT', '가나다 여행 123 ABC'),
     ),
   ).toBe(true)
   const session = await context.newCDPSession(page)
@@ -22,7 +22,8 @@ test('주요 제목은 하이커체, 본문·입력 내용은 내장 SUIT로 오
   await session.send('CSS.enable')
   const { root } = await session.send('DOM.getDocument')
   for (const [selector, expected] of [
-    ['.home-heading h1', /HiKR/i],
+    ['.home-heading h1', /SUIT/i],
+    ['.brand-mark', /SUIT/i],
     ['.city-card .city-title > span', /SUIT/i],
   ] as const) {
     const { nodeId } = await session.send('DOM.querySelector', {
@@ -47,7 +48,7 @@ test('주요 제목은 하이커체, 본문·입력 내용은 내장 SUIT로 오
     .click()
   const dialog = page.getByRole('dialog')
   for (const [selector, expectedFamily] of [
-    ['h2', 'HiKR'],
+    ['h2', 'SUIT'],
     ['button', 'SUIT'],
     ['input', 'SUIT'],
     ['select', 'SUIT'],

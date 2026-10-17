@@ -96,9 +96,11 @@
 | `public/images/bali.jpg`      | [Bilal742/poveda-bali-website — Things-to-see-and-do-in-Ubud.jpeg](https://github.com/Bilal742/poveda-bali-website/blob/HEAD/Img/Things-to-see-and-do-in-Ubud.jpeg) |
 
 
-주요 글꼴은 하이커(HiKR ExtraBold), 본문 글꼴은 SUIT Variable, 미지원 문자용 보조 글꼴은 `@fontsource-variable/noto-sans-kr`의 Noto Sans KR (SIL Open Font License), 아이콘은 `lucide-react` (ISC License)를 사용합니다. J★Do 로고·앱 아이콘·시작 화면과 `place-placeholder.svg`는 프로젝트에서 작성했습니다.
+1.28부터 제목·브랜드·본문의 기본 글꼴은 SUIT Variable 하나이며, 미지원 문자용 보조 글꼴은 `@fontsource-variable/noto-sans-kr`의 Noto Sans KR (SIL Open Font License), 아이콘은 `lucide-react` (ISC License)를 사용합니다. J★Do 로고·앱 아이콘·시작 화면과 `place-placeholder.svg`는 프로젝트에서 작성했습니다.
 
-## 하이커체 (HiKR)
+## 이전 제목 글꼴 — 하이커체 (HiKR)
+
+1.28부터 화면에서 사용하지 않으며 CSS font-face 선언을 제거했습니다. 이전 배포의 원본 파일·출처·검증 기록은 보존합니다.
 
 2026-10-15: 한국관광공사(Korea Tourism Organization)·스튜디오 양장점(yang-jang)의 HiKR ExtraBold를 제목·메뉴·주요 버튼의 글꼴로 사용합니다. 눈누의 [배포 파일](https://github.com/Project-Noonnu/2607101609/blob/31d0d818527e817f4e3b172bacec391e9d499157/hikr-extrabold/HiKR-ExtraBold.woff2)을 수정하지 않고 `public/fonts/HiKR-ExtraBold.woff2`에 내장했습니다. 저작권 표시 `© 2026 Korea Tourism Organization All rights reserved.`와 원본 메타데이터를 보존합니다.
 
@@ -134,3 +136,8 @@
 - 고정 원본: https://raw.githubusercontent.com/sun-typeface/SUIT/55118d981336d8fce005eb62888c12c0568ef7b0/fonts/variable/woff2/SUIT-Variable.woff2
 - SHA-256: `aa894a204d5a6fbae259dac6868d350cbd373a390caee0313f92946af741df23` · 624536 bytes
 - [출처 메타데이터](public/fonts/SUIT-source.json). `scripts/setup-fonts.mjs`는 빌드 전 원본 해시를 검증하고 누락 시 위 고정 원본을 받아 검증합니다. 앱 실행 중 글꼴 서버 요청은 없습니다.
+
+
+## Android 1.28 — SUIT로 화면 글꼴 통일
+
+제목·로고·버튼·본문·입력·지도에 같은 SUIT Variable을 사용합니다. 원본 파일·라이선스는 1.19와 동일하며 글꼴 파일을 변형하지 않습니다. 제목 750–800과 본문 400–500 등 실제 가변 굵기로 구분합니다. 하이커 글꼴을 표시하지 않으며 외부 글꼴 서버 요청을 추가하지 않습니다.
