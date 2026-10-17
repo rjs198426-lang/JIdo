@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">J★Do 새버전</string>
-    <string name="title_activity_main">J★Do 새버전</string>
+    <string name="app_name">J★Do</string>
+    <string name="title_activity_main">J★Do</string>
     <string name="package_name">com.jido.travel.next</string>
     <string name="custom_url_scheme">com.jido.travel.next</string>
 </resources>
