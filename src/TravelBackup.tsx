@@ -62,8 +62,7 @@ export function portableTrip(trip: Trip): Trip {
         ...portableStop,
         custom: {
           name: place.name,
-          kind:
-            place.category === '바·공연' ? ('기타' as const) : place.category,
+          kind: place.category,
           catalogPlaceId: place.id,
           coordinates: placeCoordinates(place),
           address: place.address,

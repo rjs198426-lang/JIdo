@@ -1,0 +1,4354 @@
+[
+  {
+    "id": "kyoto-balance-a399aaa2bc",
+    "cityId": "kyoto",
+    "name": "무사시 스시 산조점",
+    "english": "Musashi Sushi",
+    "category": "맛집",
+    "image": "/images/place-placeholder.svg",
+    "description": "회전초밥을 고를 수 있는 산조의 초밥집입니다.",
+    "address": "도심, 교토",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "지점과 주문 방식, 식단 제한을 확인하고 식사 일정에 넣어 보세요. 메뉴·영업시간은 방문 전 확인하세요.",
+    "area": "도심",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Kyoto/Central",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Kyoto/Central&oldid=5380622",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 eat 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "id": "kyoto-balance-9b756093a0",
+    "cityId": "kyoto",
+    "name": "호텔 몬토레 교토",
+    "english": "Hotel Monterey Kyoto",
+    "category": "숙소",
+    "image": "/images/place-placeholder.svg",
+    "description": "도심에서 교토 여행의 숙박 거점을 비교할 수 있는 호텔입니다.",
+    "address": "3 Jyo Minami Karasuma-dori, Nakagyo-ku",
+    "duration": "숙박 일정에 맞춰 지정",
+    "cost": "숙박일·객실·공식 안내에서 확인",
+    "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+    "area": "도심",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Kyoto/Central",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Kyoto/Central&oldid=5380622",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "id": "kyoto-balance-8c96335a64",
+    "cityId": "kyoto",
+    "name": "마루후쿠로",
+    "english": "Marufukuro",
+    "category": "숙소",
+    "image": "/images/place-placeholder.svg",
+    "description": "옛 닌텐도 본사 건물을 활용한 소규모 호텔입니다.",
+    "address": "No. 342, Kagiyamachi, Kamogawa Nishiiri, Maedori",
+    "duration": "숙박 일정에 맞춰 지정",
+    "cost": "숙박일·객실·공식 안내에서 확인",
+    "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+    "area": "도심",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Kyoto/Central",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Kyoto/Central&oldid=5380622",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 34.99173,
+    "lng": 135.76627
+  },
+  {
+    "id": "kyoto-balance-602ff118c5",
+    "cityId": "kyoto",
+    "name": "사케 바 요라무",
+    "english": "Sake Bar Yoramu · 酒ＢＡＲよらむ",
+    "category": "바·공연",
+    "image": "/images/place-placeholder.svg",
+    "description": "여러 종류의 사케를 비교하며 맛볼 수 있는 바입니다.",
+    "address": "Nijo-dori east of Karasuma",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "공연 일정·입장 연령·드레스 코드·입장료와 최소 주문 조건을 방문 전 확인하세요.",
+    "area": "도심",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Kyoto/Central",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Kyoto/Central&oldid=5380622",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "id": "kyoto-balance-73122530a7",
+    "cityId": "kyoto",
+    "name": "케이야",
+    "english": "K-ya · K Bar, Bar K",
+    "category": "바·공연",
+    "image": "/images/place-placeholder.svg",
+    "description": "교토 도심 골목의 칵테일 바입니다.",
+    "address": "105 Yaoya-cho, Gokomachi-nishiiru, Rokkaku-dori, Nakagyo-ku",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "공연 일정·입장 연령·드레스 코드·입장료와 최소 주문 조건을 방문 전 확인하세요.",
+    "area": "도심",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Kyoto/Central",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Kyoto/Central&oldid=5380622",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "id": "kyoto-balance-287d25639a",
+    "cityId": "kyoto",
+    "name": "카멜리아 다도 체험",
+    "english": "Camellia, Tea Ceremony · 茶道体験カメリア",
+    "category": "체험",
+    "image": "/images/place-placeholder.svg",
+    "description": "전통 가옥에서 다도 시연과 차 준비 과정을 경험하는 공간입니다.",
+    "address": "349 Masuya-cho, Higashiyama-ku, Kyoto 6050826",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "운영 회차·예약·참가 조건을 확인하세요. 물놀이와 야외 활동은 당일 날씨·안전 안내를 따르세요.",
+    "area": "히가시야마·기온",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Kyoto/Higashiyama",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Kyoto/Higashiyama&oldid=5384571",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 do 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 34.998281,
+    "lng": 135.780819
+  },
+  {
+    "id": "kyoto-balance-a3c44f2870",
+    "cityId": "kyoto",
+    "name": "니시진 직물센터",
+    "english": "Nishijin Textile Center · 西陣織会館 Nishijin-ori Kaikan",
+    "category": "체험",
+    "image": "/images/place-placeholder.svg",
+    "description": "니시진 직물과 직조 문화를 접할 수 있는 공간입니다.",
+    "address": "Horikawa-Imadegawa",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "운영 회차·예약·참가 조건을 확인하세요. 물놀이와 야외 활동은 당일 날씨·안전 안내를 따르세요.",
+    "area": "도심",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Kyoto/Central",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Kyoto/Central&oldid=5380622",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 do 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "id": "kyoto-balance-76f15f0d0d",
+    "cityId": "kyoto",
+    "name": "라쿠시샤 종이공예점",
+    "english": "Rakushisha Paper Crafts · 洛紙舎",
+    "category": "쇼핑",
+    "image": "/images/place-placeholder.svg",
+    "description": "종이공예품과 일본풍 그림을 살펴볼 수 있는 기념품 가게입니다.",
+    "address": "549-2 Nishinomon-cho",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "품목과 매장별 운영시간을 확인하고 구입할 물건을 정해 둘러보세요.",
+    "area": "히가시야마·기온",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Kyoto/Higashiyama",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Kyoto/Higashiyama&oldid=5384571",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 buy 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 34.989114,
+    "lng": 135.771067
+  },
+  {
+    "id": "kyoto-balance-71c92f0cf7",
+    "cityId": "kyoto",
+    "name": "준쿠도 교토점",
+    "english": "Junkudo",
+    "category": "쇼핑",
+    "image": "/images/place-placeholder.svg",
+    "description": "여행 서적과 다양한 분야의 책을 찾을 수 있는 서점입니다.",
+    "address": "도심, 교토",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "품목과 매장별 운영시간을 확인하고 구입할 물건을 정해 둘러보세요.",
+    "area": "도심",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Kyoto/Central",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Kyoto/Central&oldid=5380622",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 buy 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "id": "bali-balance-aeac2e2b37",
+    "cityId": "bali",
+    "name": "이부 오카 우붓 본점",
+    "english": "Warung Babi Guling Ibu Oka 1",
+    "category": "맛집",
+    "image": "/images/place-placeholder.svg",
+    "description": "발리식 통돼지구이 바비 굴링을 맛볼 수 있는 우붓의 식당입니다.",
+    "address": "Jl Suweta",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "지점과 주문 방식, 식단 제한을 확인하고 식사 일정에 넣어 보세요. 메뉴·영업시간은 방문 전 확인하세요.",
+    "area": "우붓",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Ubud",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Ubud&oldid=5371661",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 eat 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": -8.505953,
+    "lng": 115.26434
+  },
+  {
+    "id": "bali-balance-c7219a638e",
+    "cityId": "bali",
+    "name": "나시 아얌 크데와탄 이부 망쿠",
+    "english": "Warung Nasi Ayam Kedewatan Ibu Mangku",
+    "category": "맛집",
+    "image": "/images/place-placeholder.svg",
+    "description": "발리식 닭고기 밥과 곁들임을 내는 식당입니다.",
+    "address": "Jl. Raya Kedewatan No.18",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "지점과 주문 방식, 식단 제한을 확인하고 식사 일정에 넣어 보세요. 메뉴·영업시간은 방문 전 확인하세요.",
+    "area": "우붓",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Ubud",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Ubud&oldid=5371661",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 eat 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": -8.483562,
+    "lng": 115.246437
+  },
+  {
+    "id": "bali-balance-5d6cb631b0",
+    "cityId": "bali",
+    "name": "세니만 커피 스튜디오",
+    "english": "Seniman Coffee Studio",
+    "category": "카페",
+    "image": "/images/place-placeholder.svg",
+    "description": "여러 산지의 커피와 음식을 고를 수 있는 우붓의 카페입니다.",
+    "address": "Jl. Sri Wedari No.5, Banjar Taman Kelod",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "산책이나 쇼핑 사이에 쉬어갈 후보입니다. 좌석 이용·마지막 주문 시간은 방문 전 확인하세요.",
+    "area": "우붓",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Ubud",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Ubud&oldid=5371661",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": -8.506937,
+    "lng": 115.265062
+  },
+  {
+    "id": "bali-balance-e65176a21c",
+    "cityId": "bali",
+    "name": "폴드 우붓",
+    "english": "Fold",
+    "category": "카페",
+    "image": "/images/place-placeholder.svg",
+    "description": "커피와 베이커리, 피자를 함께 고를 수 있는 공간입니다.",
+    "address": "Jl. Raya Pengosekan No.63 X",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "산책이나 쇼핑 사이에 쉬어갈 후보입니다. 좌석 이용·마지막 주문 시간은 방문 전 확인하세요.",
+    "area": "우붓",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Ubud",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Ubud&oldid=5371661",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": -8.51893,
+    "lng": 115.26318
+  },
+  {
+    "id": "bali-balance-eb87e86095",
+    "cityId": "bali",
+    "name": "포시즌스 리조트 발리 앳 사얀",
+    "english": "Four Seasons Resort at Sayan",
+    "category": "숙소",
+    "image": "/images/place-placeholder.svg",
+    "description": "사얀 지역의 리조트 숙박 후보입니다.",
+    "address": "Jl Raya Kedewatan, Sayan",
+    "duration": "숙박 일정에 맞춰 지정",
+    "cost": "숙박일·객실·공식 안내에서 확인",
+    "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+    "area": "우붓",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Ubud",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Ubud&oldid=5371661",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": -8.5021,
+    "lng": 115.2438
+  },
+  {
+    "id": "bali-balance-9495cfc198",
+    "cityId": "bali",
+    "name": "마야 우붓",
+    "english": "Maya Ubud",
+    "category": "숙소",
+    "image": "/images/place-placeholder.svg",
+    "description": "우붓의 리조트 숙박 후보로 시설과 이동 조건을 비교해 보세요.",
+    "address": "Jl Gunung Sari, Peliatan",
+    "duration": "숙박 일정에 맞춰 지정",
+    "cost": "숙박일·객실·공식 안내에서 확인",
+    "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+    "area": "우붓",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Ubud",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Ubud&oldid=5371661",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": -8.5098,
+    "lng": 115.2776
+  },
+  {
+    "id": "bali-balance-96a3e580cb",
+    "cityId": "bali",
+    "name": "멜팅 팟 게임룸 앤 펍",
+    "english": "The Melting Pot Game Room and Pub",
+    "category": "바·공연",
+    "image": "/images/place-placeholder.svg",
+    "description": "당구와 게임을 즐길 수 있는 우붓의 펍입니다.",
+    "address": "Jl. Pengosekan",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "공연 일정·입장 연령·드레스 코드·입장료와 최소 주문 조건을 방문 전 확인하세요.",
+    "area": "우붓",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Ubud",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Ubud&oldid=5371661",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": -8.5194,
+    "lng": 115.2636
+  },
+  {
+    "id": "bali-balance-e25d88287c",
+    "cityId": "bali",
+    "name": "파온 발리 쿠킹 클래스",
+    "english": "Paon Bali Cooking Class",
+    "category": "체험",
+    "image": "/images/place-placeholder.svg",
+    "description": "발리 음식을 직접 준비해 보는 요리 체험 공간입니다.",
+    "address": "Laplapan Village",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "운영 회차·예약·참가 조건을 확인하세요. 물놀이와 야외 활동은 당일 날씨·안전 안내를 따르세요.",
+    "area": "우붓",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Ubud",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Ubud&oldid=5371661",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 do 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": -8.504016,
+    "lng": 115.278642
+  },
+  {
+    "id": "bali-balance-aee57d160f",
+    "cityId": "bali",
+    "name": "요가 반",
+    "english": "The Yoga Barn",
+    "category": "체험",
+    "image": "/images/place-placeholder.svg",
+    "description": "우붓에서 요가 수업을 선택할 수 있는 공간입니다.",
+    "address": "Jl Hanoman, Pengosekan",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "운영 회차·예약·참가 조건을 확인하세요. 물놀이와 야외 활동은 당일 날씨·안전 안내를 따르세요.",
+    "area": "우붓",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Ubud",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Ubud&oldid=5371661",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 do 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": -8.519387,
+    "lng": 115.26609
+  },
+  {
+    "id": "bali-balance-6ef25c2053",
+    "cityId": "bali",
+    "name": "가네샤 서점",
+    "english": "Ganesha Bookstore",
+    "category": "쇼핑",
+    "image": "/images/place-placeholder.svg",
+    "description": "발리와 인도네시아 관련 책, 중고 서적을 둘러볼 수 있습니다.",
+    "address": "Jl Raya",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "품목과 매장별 운영시간을 확인하고 구입할 물건을 정해 둘러보세요.",
+    "area": "우붓",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Ubud",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Ubud&oldid=5371661",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 buy 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": -8.509383,
+    "lng": 115.26681
+  },
+  {
+    "id": "bali-balance-36906e3097",
+    "cityId": "bali",
+    "name": "스레즈 오브 라이프",
+    "english": "Threads of Life",
+    "category": "쇼핑",
+    "image": "/images/place-placeholder.svg",
+    "description": "인도네시아 전통 직물을 살펴볼 수 있는 가게입니다.",
+    "address": "Jl Kajeng 24",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "품목과 매장별 운영시간을 확인하고 구입할 물건을 정해 둘러보세요.",
+    "area": "우붓",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Ubud",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Ubud&oldid=5371661",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 buy 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": -8.5036,
+    "lng": 115.2627
+  },
+  {
+    "id": "bangkok-balance-94d9b6f7f8",
+    "cityId": "bangkok",
+    "name": "쏨땀 누아 시암점",
+    "english": "Som Tam Nua · Som Tam Paradise or Papaya Salad Restaurant",
+    "category": "맛집",
+    "image": "/images/place-placeholder.svg",
+    "description": "파파야 샐러드 쏨땀을 중심으로 태국 음식을 맛보는 식당입니다.",
+    "address": "392/14 Siam Square Soi 5",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "지점과 주문 방식, 식단 제한을 확인하고 식사 일정에 넣어 보세요. 메뉴·영업시간은 방문 전 확인하세요.",
+    "area": "시암",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Bangkok/Siam Square",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Bangkok/Siam_Square&oldid=5382192",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 eat 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "id": "bangkok-balance-097783e776",
+    "cityId": "bangkok",
+    "name": "쁘라짝 식당",
+    "english": "Prachak Restaurant · ประจักษ์เป็ดย่าง",
+    "category": "맛집",
+    "image": "/images/place-placeholder.svg",
+    "description": "구운 오리 요리로 소개된 방락 지역의 식당입니다.",
+    "address": "1415 Charoen Krung Rd",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "지점과 주문 방식, 식단 제한을 확인하고 식사 일정에 넣어 보세요. 메뉴·영업시간은 방문 전 확인하세요.",
+    "area": "실롬·방락",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Bangkok/Silom",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Bangkok/Silom&oldid=5382193",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 eat 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 13.72033,
+    "lng": 100.51603
+  },
+  {
+    "id": "bangkok-balance-b1b0096d5b",
+    "cityId": "bangkok",
+    "name": "에이티티 나인틴 카페",
+    "english": "Att19 Cafe",
+    "category": "카페",
+    "image": "/images/place-placeholder.svg",
+    "description": "차롱끄룽의 예술 공간과 함께 둘러볼 수 있는 카페입니다.",
+    "address": "19 Charoen Krung Soi 30, Bang Rak",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "산책이나 쇼핑 사이에 쉬어갈 후보입니다. 좌석 이용·마지막 주문 시간은 방문 전 확인하세요.",
+    "area": "실롬·방락",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Bangkok/Silom",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Bangkok/Silom&oldid=5382193",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "id": "bangkok-balance-f2472c580f",
+    "cityId": "bangkok",
+    "name": "헤이지",
+    "english": "Heijii",
+    "category": "카페",
+    "image": "/images/place-placeholder.svg",
+    "description": "차롱끄룽 골목에서 커피와 디저트를 즐기는 카페입니다.",
+    "address": "415 Charoen Krung Road, Soi 43, Si Phraya, Bang Rak",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "산책이나 쇼핑 사이에 쉬어갈 후보입니다. 좌석 이용·마지막 주문 시간은 방문 전 확인하세요.",
+    "area": "실롬·방락",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Bangkok/Silom",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Bangkok/Silom&oldid=5382193",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "id": "bangkok-balance-fc2f5579cf",
+    "cityId": "bangkok",
+    "name": "그랜드 하얏트 에라완 방콕",
+    "english": "Grand Hyatt Erawan",
+    "category": "숙소",
+    "image": "/images/place-placeholder.svg",
+    "description": "에라완 사당과 가까운 도심 호텔입니다.",
+    "address": "494 Ratchadamri Rd",
+    "duration": "숙박 일정에 맞춰 지정",
+    "cost": "숙박일·객실·공식 안내에서 확인",
+    "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+    "area": "시암",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Bangkok/Siam Square",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Bangkok/Siam_Square&oldid=5382192",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 13.743497,
+    "lng": 100.540427
+  },
+  {
+    "id": "bangkok-balance-db6b05e331",
+    "cityId": "bangkok",
+    "name": "만다린 오리엔탈 방콕",
+    "english": "Mandarin Oriental · โรงแรมแมนดาริน โอเรียนเต็ล",
+    "category": "숙소",
+    "image": "/images/place-placeholder.svg",
+    "description": "차오프라야 강변의 호텔 숙박 후보입니다.",
+    "address": "48 Oriental Rd",
+    "duration": "숙박 일정에 맞춰 지정",
+    "cost": "숙박일·객실·공식 안내에서 확인",
+    "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+    "area": "실롬·방락",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Bangkok/Silom",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Bangkok/Silom&oldid=5382193",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 13.72395,
+    "lng": 100.51418
+  },
+  {
+    "id": "bangkok-balance-6c1385b65e",
+    "cityId": "bangkok",
+    "name": "뱀부 바",
+    "english": "Bamboo Bar",
+    "category": "바·공연",
+    "image": "/images/place-placeholder.svg",
+    "description": "만다린 오리엔탈 호텔의 재즈 바입니다.",
+    "address": "Oriental Hotel, 48 Oriental Rd",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "공연 일정·입장 연령·드레스 코드·입장료와 최소 주문 조건을 방문 전 확인하세요.",
+    "area": "실롬·방락",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Bangkok/Silom",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Bangkok/Silom&oldid=5382193",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 13.72377,
+    "lng": 100.51424
+  },
+  {
+    "id": "bangkok-balance-d8aef2fdbd",
+    "cityId": "bangkok",
+    "name": "스카이 바 방콕",
+    "english": "Sky Bar Bangkok · Riverview Rooftop Bar",
+    "category": "바·공연",
+    "image": "/images/place-placeholder.svg",
+    "description": "스테이트 타워 상층에서 도시 전망을 함께 즐기는 바입니다.",
+    "address": "63F, State Tower, 1055/111 Silom Rd",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "공연 일정·입장 연령·드레스 코드·입장료와 최소 주문 조건을 방문 전 확인하세요.",
+    "area": "실롬·방락",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Bangkok/Silom",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Bangkok/Silom&oldid=5382193",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 13.72143,
+    "lng": 100.51686
+  },
+  {
+    "id": "bangkok-balance-7761bbea37",
+    "cityId": "bangkok",
+    "name": "엠비케이 센터",
+    "english": "MBK Center · มาบุญครอง",
+    "category": "쇼핑",
+    "image": "/images/place-placeholder.svg",
+    "description": "작은 매장이 모여 의류와 전자제품 등을 비교할 수 있는 쇼핑몰입니다.",
+    "address": "444 Phaya Thai Rd",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "품목과 매장별 운영시간을 확인하고 구입할 물건을 정해 둘러보세요.",
+    "area": "시암",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Bangkok/Siam Square",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Bangkok/Siam_Square&oldid=5382192",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 buy 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 13.74447,
+    "lng": 100.52987
+  },
+  {
+    "id": "bangkok-balance-71f236ff82",
+    "cityId": "bangkok",
+    "name": "시암 파라곤",
+    "english": "Siam Paragon · สยามพารากอน",
+    "category": "쇼핑",
+    "image": "/images/place-placeholder.svg",
+    "description": "시암역 주변에서 상점과 식음료 매장을 둘러보는 대형 쇼핑몰입니다.",
+    "address": "991 Rama I Rd",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "품목과 매장별 운영시간을 확인하고 구입할 물건을 정해 둘러보세요.",
+    "area": "시암",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Bangkok/Siam Square",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Bangkok/Siam_Square&oldid=5382192",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 buy 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 13.74686,
+    "lng": 100.535
+  },
+  {
+    "id": "bangkok-balance-8d9e861786",
+    "cityId": "bangkok",
+    "name": "센터 포인트 마사지 앤 스파",
+    "english": "Center Point Massage & Spa",
+    "category": "체험",
+    "image": "/images/place-placeholder.svg",
+    "description": "시암 스퀘어 원에서 마사지 프로그램을 고를 수 있는 공간입니다.",
+    "address": "6F, Siam Square One, 388 Rama I Rd",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "운영 회차·예약·참가 조건을 확인하세요. 물놀이와 야외 활동은 당일 날씨·안전 안내를 따르세요.",
+    "area": "시암",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Bangkok/Siam Square",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Bangkok/Siam_Square&oldid=5382192",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 do 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 13.74532,
+    "lng": 100.53397
+  },
+  {
+    "id": "bangkok-balance-70b97ea9f7",
+    "cityId": "bangkok",
+    "name": "바디 튠 실롬",
+    "english": "BODY Tune",
+    "category": "체험",
+    "image": "/images/place-placeholder.svg",
+    "description": "실롬에서 전통 태국 마사지를 받을 수 있는 공간입니다.",
+    "address": "2F, Yada Bldg, 56 Silom Rd",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "운영 회차·예약·참가 조건을 확인하세요. 물놀이와 야외 활동은 당일 날씨·안전 안내를 따르세요.",
+    "area": "실롬·방락",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Bangkok/Silom",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Bangkok/Silom&oldid=5382193",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 do 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 13.72891,
+    "lng": 100.53432
+  },
+  {
+    "id": "maldives-balance-0d45bf3d37",
+    "cityId": "maldives",
+    "name": "웨일 서브마린",
+    "english": "Whale Submarine",
+    "category": "체험",
+    "image": "/images/place-placeholder.svg",
+    "description": "말레 인근 바닷속을 잠수정으로 둘러보는 체험입니다.",
+    "address": "H. Abadhahfehi Magu",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "운영 회차·예약·참가 조건을 확인하세요. 물놀이와 야외 활동은 당일 날씨·안전 안내를 따르세요.",
+    "area": "말레",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Malé",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Malé&oldid=5368258",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 do 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "id": "maldives-balance-629e99dc8c",
+    "cityId": "maldives",
+    "name": "말레 로컬 마켓",
+    "english": "Local Market",
+    "category": "쇼핑",
+    "image": "/images/place-placeholder.svg",
+    "description": "여러 환초에서 가져온 과일과 지역 생산물을 살펴보는 시장입니다.",
+    "address": "말레, 몰디브",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "품목과 매장별 운영시간을 확인하고 구입할 물건을 정해 둘러보세요.",
+    "area": "말레",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Malé",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Malé&oldid=5368258",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 buy 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "id": "maldives-balance-28d36da638",
+    "cityId": "maldives",
+    "name": "바르셀로 나산두라",
+    "english": "Barceló Nasandhura",
+    "category": "숙소",
+    "image": "/images/place-placeholder.svg",
+    "description": "말레 항구와 가까운 호텔 숙박 후보입니다.",
+    "address": "말레, 몰디브",
+    "duration": "숙박 일정에 맞춰 지정",
+    "cost": "숙박일·객실·공식 안내에서 확인",
+    "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+    "area": "말레",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Malé",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Malé&oldid=5368258",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 4.177694,
+    "lng": 73.516548
+  },
+  {
+    "id": "tokyo-balance-66ca51339a",
+    "cityId": "tokyo",
+    "name": "아카시아 신주쿠",
+    "english": "Acacia Shinjuku",
+    "category": "맛집",
+    "image": "/images/place-placeholder.svg",
+    "description": "양배추 롤 스튜와 양식 정식을 내는 신주쿠의 식당입니다.",
+    "address": "Shinjuku 3-22-10",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "지점과 주문 방식, 식단 제한을 확인하고 식사 일정에 넣어 보세요. 메뉴·영업시간은 방문 전 확인하세요.",
+    "area": "신주쿠·가구라자카",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Tokyo/Shinjuku",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Tokyo/Shinjuku&oldid=5393104",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 eat 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 35.693096,
+    "lng": 139.701569
+  },
+  {
+    "id": "tokyo-balance-f5e9c0c11a",
+    "cityId": "tokyo",
+    "name": "갓포 나카지마",
+    "english": "Kappō Nakajima",
+    "category": "맛집",
+    "image": "/images/place-placeholder.svg",
+    "description": "정어리 요리와 일본식 정식을 고를 수 있는 식당입니다.",
+    "address": "Shinjuku 3-32-5 basement",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "지점과 주문 방식, 식단 제한을 확인하고 식사 일정에 넣어 보세요. 메뉴·영업시간은 방문 전 확인하세요.",
+    "area": "신주쿠·가구라자카",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Tokyo/Shinjuku",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Tokyo/Shinjuku&oldid=5393104",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 eat 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "id": "tokyo-balance-9c6882656d",
+    "cityId": "tokyo",
+    "name": "아카 아마 커피",
+    "english": "Akha Ama",
+    "category": "카페",
+    "image": "/images/place-placeholder.svg",
+    "description": "가구라자카 산책 중 커피를 마실 수 있는 카페입니다.",
+    "address": "1-25 Akagi Motomachi",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "산책이나 쇼핑 사이에 쉬어갈 후보입니다. 좌석 이용·마지막 주문 시간은 방문 전 확인하세요.",
+    "area": "신주쿠·가구라자카",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Tokyo/Shinjuku",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Tokyo/Shinjuku&oldid=5393104",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 35.704539,
+    "lng": 139.737249
+  },
+  {
+    "id": "tokyo-balance-266f23d6a2",
+    "cityId": "tokyo",
+    "name": "호텔 선루트 플라자 신주쿠",
+    "english": "Hotel Sunroute Plaza Shinjuku",
+    "category": "숙소",
+    "image": "/images/place-placeholder.svg",
+    "description": "신주쿠역 주변의 이동을 고려해 비교할 수 있는 호텔입니다.",
+    "address": "2-3-1 Yoyogi, Shibuya-ku",
+    "duration": "숙박 일정에 맞춰 지정",
+    "cost": "숙박일·객실·공식 안내에서 확인",
+    "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+    "area": "신주쿠·가구라자카",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Tokyo/Shinjuku",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Tokyo/Shinjuku&oldid=5393104",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "id": "tokyo-balance-737773ce21",
+    "cityId": "tokyo",
+    "name": "게이오 플라자 호텔",
+    "english": "Keio Plaza Hotel",
+    "category": "숙소",
+    "image": "/images/place-placeholder.svg",
+    "description": "신주쿠 서쪽 고층 건물 지구의 호텔 숙박 후보입니다.",
+    "address": "2-2-1 Nishi-Shinjuku",
+    "duration": "숙박 일정에 맞춰 지정",
+    "cost": "숙박일·객실·공식 안내에서 확인",
+    "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+    "area": "신주쿠·가구라자카",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Tokyo/Shinjuku",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Tokyo/Shinjuku&oldid=5393104",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 35.689583,
+    "lng": 139.694466
+  },
+  {
+    "id": "tokyo-balance-d5adffc4bb",
+    "cityId": "tokyo",
+    "name": "바 알바트로스 골든가이",
+    "english": "Bar Albatross-G",
+    "category": "바·공연",
+    "image": "/images/place-placeholder.svg",
+    "description": "골든가이에서 칵테일을 즐길 수 있는 작은 바입니다.",
+    "address": "#2F 5th Ave",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "공연 일정·입장 연령·드레스 코드·입장료와 최소 주문 조건을 방문 전 확인하세요.",
+    "area": "신주쿠·가구라자카",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Tokyo/Shinjuku",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Tokyo/Shinjuku&oldid=5393104",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "id": "tokyo-balance-d11f30abc8",
+    "cityId": "tokyo",
+    "name": "뉴욕 바 앤 그릴",
+    "english": "New York Bar & Grill",
+    "category": "바·공연",
+    "image": "/images/place-placeholder.svg",
+    "description": "파크 하얏트 도쿄 상층의 전망과 함께 방문하는 바입니다.",
+    "address": "Nishi-Shinjuku 3-7-1",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "공연 일정·입장 연령·드레스 코드·입장료와 최소 주문 조건을 방문 전 확인하세요.",
+    "area": "신주쿠·가구라자카",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Tokyo/Shinjuku",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Tokyo/Shinjuku&oldid=5393104",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "id": "tokyo-balance-22454d9923",
+    "cityId": "tokyo",
+    "name": "이세탄 신주쿠점",
+    "english": "Isetan",
+    "category": "쇼핑",
+    "image": "/images/place-placeholder.svg",
+    "description": "의류와 식품관을 함께 둘러볼 수 있는 신주쿠의 백화점입니다.",
+    "address": "Shinjuku 3-14-1",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "품목과 매장별 운영시간을 확인하고 구입할 물건을 정해 둘러보세요.",
+    "area": "신주쿠·가구라자카",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Tokyo/Shinjuku",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Tokyo/Shinjuku&oldid=5393104",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 buy 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 35.691381,
+    "lng": 139.70412
+  },
+  {
+    "id": "tokyo-balance-f569dc38a6",
+    "cityId": "tokyo",
+    "name": "기노쿠니야 서점 신주쿠",
+    "english": "Books Kinokuniya",
+    "category": "쇼핑",
+    "image": "/images/place-placeholder.svg",
+    "description": "일본어와 외국어 서적을 찾을 수 있는 신주쿠의 서점입니다.",
+    "address": "신주쿠·가구라자카, 도쿄",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "품목과 매장별 운영시간을 확인하고 구입할 물건을 정해 둘러보세요.",
+    "area": "신주쿠·가구라자카",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Tokyo/Shinjuku",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Tokyo/Shinjuku&oldid=5393104",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 buy 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "id": "tokyo-balance-b43ed57afc",
+    "cityId": "tokyo",
+    "name": "신주쿠 피카딜리",
+    "english": "Shinjuku Piccadilly",
+    "category": "체험",
+    "image": "/images/place-placeholder.svg",
+    "description": "신주쿠에서 상영작을 골라 관람할 수 있는 영화관입니다.",
+    "address": "Shinjuku 3-15-5",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "운영 회차·예약·참가 조건을 확인하세요. 물놀이와 야외 활동은 당일 날씨·안전 안내를 따르세요.",
+    "area": "신주쿠·가구라자카",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Tokyo/Shinjuku",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Tokyo/Shinjuku&oldid=5393104",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 do 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 35.69272,
+    "lng": 139.70379
+  },
+  {
+    "id": "tokyo-balance-98b1bed6ab",
+    "cityId": "tokyo",
+    "name": "하나야시키",
+    "english": "Hanayashiki · 花やしき",
+    "category": "체험",
+    "image": "/images/place-placeholder.svg",
+    "description": "아사쿠사에 있는 놀이공원으로 가족 일정에 넣어볼 수 있습니다.",
+    "address": "아사쿠사, 도쿄",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "운영 회차·예약·참가 조건을 확인하세요. 물놀이와 야외 활동은 당일 날씨·안전 안내를 따르세요.",
+    "area": "아사쿠사",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Tokyo/Asakusa",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Tokyo/Asakusa&oldid=5387494",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 do 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 35.715497,
+    "lng": 139.794689
+  },
+  {
+    "id": "yokohama-balance-2e205e297c",
+    "cityId": "yokohama",
+    "name": "시타테야",
+    "english": "Shitateya · 仕立屋",
+    "category": "맛집",
+    "image": "/images/place-placeholder.svg",
+    "description": "생선과 해산물 요리를 내는 요코하마의 작은 식당입니다.",
+    "address": "요코하마, 요코하마",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "지점과 주문 방식, 식단 제한을 확인하고 식사 일정에 넣어 보세요. 메뉴·영업시간은 방문 전 확인하세요.",
+    "area": "요코하마",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Yokohama",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Yokohama&oldid=5388687",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 eat 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "id": "yokohama-balance-1b5c174cfe",
+    "cityId": "yokohama",
+    "name": "만친로",
+    "english": "Manchin-Ro",
+    "category": "맛집",
+    "image": "/images/place-placeholder.svg",
+    "description": "요코하마 차이나타운에서 광둥 요리를 맛볼 수 있는 식당입니다.",
+    "address": "156 Yamashitacho, Naka-ku",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "지점과 주문 방식, 식단 제한을 확인하고 식사 일정에 넣어 보세요. 메뉴·영업시간은 방문 전 확인하세요.",
+    "area": "요코하마",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Yokohama",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Yokohama&oldid=5388687",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 eat 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "id": "yokohama-balance-01c4e70616",
+    "cityId": "yokohama",
+    "name": "분노스케 차야 요코하마점",
+    "english": "Bunnosuke Chaya · 文の助茶屋",
+    "category": "카페",
+    "image": "/images/place-placeholder.svg",
+    "description": "일본식 디저트와 차를 고를 수 있는 찻집입니다.",
+    "address": "요코하마, 요코하마",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "산책이나 쇼핑 사이에 쉬어갈 후보입니다. 좌석 이용·마지막 주문 시간은 방문 전 확인하세요.",
+    "area": "요코하마",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Yokohama",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Yokohama&oldid=5388687",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 eat 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "id": "yokohama-balance-8cc03dc040",
+    "cityId": "yokohama",
+    "name": "차노마 요코하마",
+    "english": "Chano-ma",
+    "category": "카페",
+    "image": "/images/place-placeholder.svg",
+    "description": "붉은 벽돌 창고에서 식사와 휴식을 함께 즐길 수 있는 카페입니다.",
+    "address": "Akarenga Soko Bldg 2",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "산책이나 쇼핑 사이에 쉬어갈 후보입니다. 좌석 이용·마지막 주문 시간은 방문 전 확인하세요.",
+    "area": "요코하마",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Yokohama",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Yokohama&oldid=5388687",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 eat 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "id": "yokohama-balance-4669551414",
+    "cityId": "yokohama",
+    "name": "인터컨티넨탈 요코하마 그랜드",
+    "english": "InterContinental Yokohama Grand",
+    "category": "숙소",
+    "image": "/images/place-placeholder.svg",
+    "description": "미나토미라이 해안가의 호텔 숙박 후보입니다.",
+    "address": "1-1-1 Minatomirai, Nishi-Ku",
+    "duration": "숙박 일정에 맞춰 지정",
+    "cost": "숙박일·객실·공식 안내에서 확인",
+    "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+    "area": "요코하마",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Yokohama",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Yokohama&oldid=5388687",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 35.4574,
+    "lng": 139.637
+  },
+  {
+    "id": "yokohama-balance-e8dc60870f",
+    "cityId": "yokohama",
+    "name": "호텔 뉴 그랜드",
+    "english": "Hotel New Grand",
+    "category": "숙소",
+    "image": "/images/place-placeholder.svg",
+    "description": "야마시타 공원과 가까운 클래식한 호텔입니다.",
+    "address": "10, Yamashita-cho",
+    "duration": "숙박 일정에 맞춰 지정",
+    "cost": "숙박일·객실·공식 안내에서 확인",
+    "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+    "area": "요코하마",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Yokohama",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Yokohama&oldid=5388687",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 35.4451,
+    "lng": 139.6495
+  },
+  {
+    "id": "yokohama-balance-7c6f2de20d",
+    "cityId": "yokohama",
+    "name": "다운비트",
+    "english": "Downbeat",
+    "category": "바·공연",
+    "image": "/images/place-placeholder.svg",
+    "description": "레코드 컬렉션의 재즈 음악을 즐길 수 있는 바입니다.",
+    "address": "Miyamoto Bldg 2F 1-43 Hanabusacho, Naku-ku 231-0052 Sakuragicho",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "공연 일정·입장 연령·드레스 코드·입장료와 최소 주문 조건을 방문 전 확인하세요.",
+    "area": "요코하마",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Yokohama",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Yokohama&oldid=5388687",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "id": "yokohama-balance-5b5f770c23",
+    "cityId": "yokohama",
+    "name": "윈드재머",
+    "english": "Windjammer",
+    "category": "바·공연",
+    "image": "/images/place-placeholder.svg",
+    "description": "차이나타운 주변에서 재즈와 음료를 함께 즐기는 바입니다.",
+    "address": "Toraku Bldg 1F, Yamashita-cho, Naka-ku",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "공연 일정·입장 연령·드레스 코드·입장료와 최소 주문 조건을 방문 전 확인하세요.",
+    "area": "요코하마",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Yokohama",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Yokohama&oldid=5388687",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "id": "yokohama-balance-a79dcf0376",
+    "cityId": "yokohama",
+    "name": "미쓰이 아울렛 파크 요코하마 베이사이드",
+    "english": "Mitsui Outlet Park Yokohama Bayside · 三井アウトレットパーク横浜ベイサイド",
+    "category": "쇼핑",
+    "image": "/images/place-placeholder.svg",
+    "description": "요코하마 남쪽 해안의 아울렛 쇼핑 공간입니다.",
+    "address": "요코하마, 요코하마",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "품목과 매장별 운영시간을 확인하고 구입할 물건을 정해 둘러보세요.",
+    "area": "요코하마",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Yokohama",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Yokohama&oldid=5388687",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 buy 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 35.3795,
+    "lng": 139.646389
+  },
+  {
+    "id": "yokohama-balance-79f267cf0d",
+    "cityId": "yokohama",
+    "name": "미나토미라이 도큐 스퀘어",
+    "english": "Minatomirai Tokyu Square · みなとみらい東急スクエア",
+    "category": "쇼핑",
+    "image": "/images/place-placeholder.svg",
+    "description": "미나토미라이역과 연결된 쇼핑 공간입니다.",
+    "address": "요코하마, 요코하마",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "품목과 매장별 운영시간을 확인하고 구입할 물건을 정해 둘러보세요.",
+    "area": "요코하마",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Yokohama",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Yokohama&oldid=5388687",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 buy 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "id": "yokohama-balance-2c62415a4f",
+    "cityId": "yokohama",
+    "name": "요코하마 미나토미라이 만요 클럽",
+    "english": "Manyou Club",
+    "category": "체험",
+    "image": "/images/place-placeholder.svg",
+    "description": "미나토미라이에서 온천과 휴식을 즐길 수 있는 시설입니다.",
+    "address": "요코하마, 요코하마",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "운영 회차·예약·참가 조건을 확인하세요. 물놀이와 야외 활동은 당일 날씨·안전 안내를 따르세요.",
+    "area": "요코하마",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Yokohama",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Yokohama&oldid=5388687",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 do 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "id": "nagoya-balance-59da07def6",
+    "cityId": "nagoya",
+    "name": "교야 료칸",
+    "english": "Kyoya Ryokan · 京屋旅館",
+    "category": "숙소",
+    "image": "/images/place-placeholder.svg",
+    "description": "나고야에서 일본식 숙박을 비교할 수 있는 료칸입니다.",
+    "address": "2-11-4 Habashita",
+    "duration": "숙박 일정에 맞춰 지정",
+    "cost": "숙박일·객실·공식 안내에서 확인",
+    "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+    "area": "나고야",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Nagoya",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Nagoya&oldid=5385494",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 35.17822,
+    "lng": 136.89167
+  },
+  {
+    "id": "nagoya-balance-dee23b43e5",
+    "cityId": "nagoya",
+    "name": "나고야 메리어트 아소시아 호텔",
+    "english": "Marriott Associa Hotel",
+    "category": "숙소",
+    "image": "/images/place-placeholder.svg",
+    "description": "나고야역 위에 자리한 호텔로 철도 이동과 함께 계획하기 좋습니다.",
+    "address": "Nagoya Station",
+    "duration": "숙박 일정에 맞춰 지정",
+    "cost": "숙박일·객실·공식 안내에서 확인",
+    "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+    "area": "나고야",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Nagoya",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Nagoya&oldid=5385494",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 35.17084,
+    "lng": 136.88293
+  },
+  {
+    "id": "sapporo-balance-3e09b14c9c",
+    "cityId": "sapporo",
+    "name": "재즈 스폿 제리코",
+    "english": "Jazz Spot Jericho · ジェリコ",
+    "category": "바·공연",
+    "image": "/images/place-placeholder.svg",
+    "description": "스스키노 주변의 작은 라이브 재즈 바입니다.",
+    "address": "Minami 3 Jonishi, 3 Chome−1",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "공연 일정·입장 연령·드레스 코드·입장료와 최소 주문 조건을 방문 전 확인하세요.",
+    "area": "삿포로",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Sapporo",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Sapporo&oldid=5386813",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "id": "sapporo-balance-bd4d171eba",
+    "cityId": "sapporo",
+    "name": "호텔 마이스테이스 삿포로 나카지마 파크",
+    "english": "HOTEL MSTAYS Sapporo Nakajima Park · ホテルマイステイズ札幌中島公園",
+    "category": "숙소",
+    "image": "/images/place-placeholder.svg",
+    "description": "나카지마 공원 주변을 거점으로 삼을 수 있는 호텔입니다.",
+    "address": "1 Chome-1-20 Minami 14 Jonishi, Chuo Ward",
+    "duration": "숙박 일정에 맞춰 지정",
+    "cost": "숙박일·객실·공식 안내에서 확인",
+    "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+    "area": "삿포로",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Sapporo",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Sapporo&oldid=5386813",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 43.042562,
+    "lng": 141.356858
+  },
+  {
+    "id": "sapporo-balance-7ef249728a",
+    "cityId": "sapporo",
+    "name": "삿포로 그랜드 호텔",
+    "english": "Sapporo Grand Hotel",
+    "category": "숙소",
+    "image": "/images/place-placeholder.svg",
+    "description": "삿포로 도심의 역사 있는 호텔 숙박 후보입니다.",
+    "address": "North 1, West 4, Chuo-ku",
+    "duration": "숙박 일정에 맞춰 지정",
+    "cost": "숙박일·객실·공식 안내에서 확인",
+    "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+    "area": "삿포로",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Sapporo",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Sapporo&oldid=5386813",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 43.06268,
+    "lng": 141.35095
+  },
+  {
+    "id": "sendai-balance-f62377bd2a",
+    "cityId": "sendai",
+    "name": "오뎅 산키치",
+    "english": "Oden Sankichi · おでん三吉",
+    "category": "맛집",
+    "image": "/images/place-placeholder.svg",
+    "description": "여러 재료를 끓여 내는 일본식 오뎅을 맛볼 수 있는 식당입니다.",
+    "address": "4-10-8 Ichiban-cho, Aoba-ku",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "지점과 주문 방식, 식단 제한을 확인하고 식사 일정에 넣어 보세요. 메뉴·영업시간은 방문 전 확인하세요.",
+    "area": "센다이",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Sendai",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Sendai&oldid=5374266",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 eat 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 38.265437,
+    "lng": 140.869738
+  },
+  {
+    "id": "sendai-balance-5f652c3573",
+    "cityId": "sendai",
+    "name": "가키토쿠",
+    "english": "Kaki Toku · かき徳",
+    "category": "맛집",
+    "image": "/images/place-placeholder.svg",
+    "description": "미야기 지역의 굴 요리를 맛보는 식당입니다.",
+    "address": "4-0-1 Ichiban-cho, Aoba-ku",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "지점과 주문 방식, 식단 제한을 확인하고 식사 일정에 넣어 보세요. 메뉴·영업시간은 방문 전 확인하세요.",
+    "area": "센다이",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Sendai",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Sendai&oldid=5374266",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 eat 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 38.264754,
+    "lng": 140.870284
+  },
+  {
+    "id": "sendai-balance-9630f509fb",
+    "cityId": "sendai",
+    "name": "록 카페 피터팬",
+    "english": "Rock Cafe Peter Pan",
+    "category": "카페",
+    "image": "/images/place-placeholder.svg",
+    "description": "록 음악 컬렉션과 커피를 함께 즐길 수 있는 카페입니다.",
+    "address": "2 Chome-6-1 Kokubuncho, Aoba-ku",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "산책이나 쇼핑 사이에 쉬어갈 후보입니다. 좌석 이용·마지막 주문 시간은 방문 전 확인하세요.",
+    "area": "센다이",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Sendai",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Sendai&oldid=5374266",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "id": "sendai-balance-36a0c66636",
+    "cityId": "sendai",
+    "name": "센다이 커피 스탠드",
+    "english": "Sendai Coffee Stand",
+    "category": "카페",
+    "image": "/images/place-placeholder.svg",
+    "description": "고쿠분초 골목에서 커피를 고를 수 있는 작은 카페입니다.",
+    "address": "Kokubuncho 1 Chome-3-１２, Aoba-ku",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "산책이나 쇼핑 사이에 쉬어갈 후보입니다. 좌석 이용·마지막 주문 시간은 방문 전 확인하세요.",
+    "area": "센다이",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Sendai",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Sendai&oldid=5374266",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "id": "sendai-balance-71dac6a5fe",
+    "cityId": "sendai",
+    "name": "호텔 메트로폴리탄 센다이",
+    "english": "Hotel Metropolitan Sendai · ホテルメトロポリタン仙台",
+    "category": "숙소",
+    "image": "/images/place-placeholder.svg",
+    "description": "센다이역 주변의 호텔 숙박 후보입니다.",
+    "address": "1-1-1 Chuo, Aoba-ku",
+    "duration": "숙박 일정에 맞춰 지정",
+    "cost": "숙박일·객실·공식 안내에서 확인",
+    "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+    "area": "센다이",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Sendai",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Sendai&oldid=5374266",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "id": "sendai-balance-ea6b21a419",
+    "cityId": "sendai",
+    "name": "웨스틴 센다이",
+    "english": "Westin Hotel Sendai",
+    "category": "숙소",
+    "image": "/images/place-placeholder.svg",
+    "description": "센다이 도심 고층 건물에 자리한 호텔입니다.",
+    "address": "1-9-1 Ichibancho, Aoba-ku",
+    "duration": "숙박 일정에 맞춰 지정",
+    "cost": "숙박일·객실·공식 안내에서 확인",
+    "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+    "area": "센다이",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Sendai",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Sendai&oldid=5374266",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 38.256444,
+    "lng": 140.876194
+  },
+  {
+    "id": "sendai-balance-0ac426a1ca",
+    "cityId": "sendai",
+    "name": "빌레반",
+    "english": "Vilevan",
+    "category": "바·공연",
+    "image": "/images/place-placeholder.svg",
+    "description": "재즈와 음료를 함께 즐길 수 있는 바입니다.",
+    "address": "센다이, 센다이",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "공연 일정·입장 연령·드레스 코드·입장료와 최소 주문 조건을 방문 전 확인하세요.",
+    "area": "센다이",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Sendai",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Sendai&oldid=5374266",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "id": "sendai-balance-c13d6b9dbf",
+    "cityId": "sendai",
+    "name": "이즈 바",
+    "english": "E'z Bar",
+    "category": "바·공연",
+    "image": "/images/place-placeholder.svg",
+    "description": "고쿠분초에서 음료와 음악을 즐길 수 있는 지하 바입니다.",
+    "address": "2-12-19 daisankyoritsuBld. B1 kokubuncho-aobaku",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "공연 일정·입장 연령·드레스 코드·입장료와 최소 주문 조건을 방문 전 확인하세요.",
+    "area": "센다이",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Sendai",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Sendai&oldid=5374266",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "id": "sendai-balance-f2ef0e05ac",
+    "cityId": "sendai",
+    "name": "닛카 미야기쿄 증류소 견학",
+    "english": "Nikka Whisky Distillery Tour",
+    "category": "체험",
+    "image": "/images/place-placeholder.svg",
+    "description": "사쿠나미 지역에서 위스키 제조 과정을 살펴보는 견학 장소입니다.",
+    "address": "Nikka 1, Aoba-ku (Sakunami)",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "운영 회차·예약·참가 조건을 확인하세요. 물놀이와 야외 활동은 당일 날씨·안전 안내를 따르세요.",
+    "area": "센다이",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Sendai",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Sendai&oldid=5374266",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 do 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "id": "hiroshima-balance-c04aef64d3",
+    "cityId": "hiroshima",
+    "name": "아쿠슈 카페 오가닉",
+    "english": "Akushu Cafe ORGANIC · 握手カフェ",
+    "category": "카페",
+    "image": "/images/place-placeholder.svg",
+    "description": "히로시마 도심에서 식사와 커피를 즐길 수 있는 카페입니다.",
+    "address": "1F Orizuru Tower 1-2-1 Otemachi Naka Ward",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "산책이나 쇼핑 사이에 쉬어갈 후보입니다. 좌석 이용·마지막 주문 시간은 방문 전 확인하세요.",
+    "area": "히로시마",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Hiroshima",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Hiroshima&oldid=5383988",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 eat 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 34.3957,
+    "lng": 132.4548
+  },
+  {
+    "id": "hiroshima-balance-5ba46815ef",
+    "cityId": "hiroshima",
+    "name": "카페 폰테",
+    "english": "Caffe Ponte",
+    "category": "카페",
+    "image": "/images/place-placeholder.svg",
+    "description": "강변을 바라보며 커피와 이탈리아 음식을 고르는 카페입니다.",
+    "address": "Motoyasu-bashi, Ote-machi",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "산책이나 쇼핑 사이에 쉬어갈 후보입니다. 좌석 이용·마지막 주문 시간은 방문 전 확인하세요.",
+    "area": "히로시마",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Hiroshima",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Hiroshima&oldid=5383988",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 eat 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 34.394,
+    "lng": 132.4543
+  },
+  {
+    "id": "hiroshima-balance-682aaad504",
+    "cityId": "hiroshima",
+    "name": "미쓰이 가든 호텔 히로시마",
+    "english": "Mitsui Garden Hotel Hiroshima · 三井ガーデンホテル広島",
+    "category": "숙소",
+    "image": "/images/place-placeholder.svg",
+    "description": "도심 관광과 식사 동선을 함께 계획할 수 있는 호텔입니다.",
+    "address": "9-12 Nakamachi, Naka-ku",
+    "duration": "숙박 일정에 맞춰 지정",
+    "cost": "숙박일·객실·공식 안내에서 확인",
+    "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+    "area": "히로시마",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Hiroshima",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Hiroshima&oldid=5383988",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 34.389436,
+    "lng": 132.45919
+  },
+  {
+    "id": "hiroshima-balance-10688eb7ea",
+    "cityId": "hiroshima",
+    "name": "호텔 그란비아 히로시마",
+    "english": "Hotel Granvia · ホテルグランヴィア広島",
+    "category": "숙소",
+    "image": "/images/place-placeholder.svg",
+    "description": "히로시마역 주변의 호텔 숙박 후보입니다.",
+    "address": "1-5 Matsubara-cho, Minami-ku",
+    "duration": "숙박 일정에 맞춰 지정",
+    "cost": "숙박일·객실·공식 안내에서 확인",
+    "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+    "area": "히로시마",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Hiroshima",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Hiroshima&oldid=5383988",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 34.3992,
+    "lng": 132.4755
+  },
+  {
+    "id": "hiroshima-balance-bb02ad8f68",
+    "cityId": "hiroshima",
+    "name": "히로시마 클럽 콰트로",
+    "english": "Club Quattro",
+    "category": "바·공연",
+    "image": "/images/place-placeholder.svg",
+    "description": "투어 중인 밴드의 록·팝 공연을 볼 수 있는 라이브 공간입니다.",
+    "address": "10-1 Hon-dori, Naka-ku (PARCO Building, 10F)",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "공연 일정·입장 연령·드레스 코드·입장료와 최소 주문 조건을 방문 전 확인하세요.",
+    "area": "히로시마",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Hiroshima",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Hiroshima&oldid=5383988",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 34.3921,
+    "lng": 132.4619
+  },
+  {
+    "id": "hiroshima-balance-174f1cd16e",
+    "cityId": "hiroshima",
+    "name": "몰리 말론스 히로시마",
+    "english": "Molly Malone's",
+    "category": "바·공연",
+    "image": "/images/place-placeholder.svg",
+    "description": "스포츠 중계와 음료를 함께 즐기는 아일랜드식 펍입니다.",
+    "address": "1-20 Shintenchi, Naka-ku (Teigeki Building, 4F)",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "공연 일정·입장 연령·드레스 코드·입장료와 최소 주문 조건을 방문 전 확인하세요.",
+    "area": "히로시마",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Hiroshima",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Hiroshima&oldid=5383988",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 34.3918,
+    "lng": 132.4633
+  },
+  {
+    "id": "kobe-balance-0b43587f96",
+    "cityId": "kobe",
+    "name": "고베 포토피아 호텔",
+    "english": "Kobe Portopia Hotel · 神戸ポートピアホテル",
+    "category": "숙소",
+    "image": "/images/place-placeholder.svg",
+    "description": "포트아일랜드의 호텔 숙박 후보입니다.",
+    "address": "10-1,6 Chome, Minatojima Nakamachi, Chuo-ku. 650-0046",
+    "duration": "숙박 일정에 맞춰 지정",
+    "cost": "숙박일·객실·공식 안내에서 확인",
+    "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+    "area": "고베",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Kobe",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Kobe&oldid=5390869",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 34.6653,
+    "lng": 135.2138
+  },
+  {
+    "id": "kobe-balance-43a27a251d",
+    "cityId": "kobe",
+    "name": "고베 메리켄 파크 오리엔탈 호텔",
+    "english": "Kobe Meriken Park Oriental Hotel",
+    "category": "숙소",
+    "image": "/images/place-placeholder.svg",
+    "description": "메리켄 파크 해안가의 호텔입니다.",
+    "address": "Chuo-ku Hatobamachi 5-6",
+    "duration": "숙박 일정에 맞춰 지정",
+    "cost": "숙박일·객실·공식 안내에서 확인",
+    "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+    "area": "고베",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Kobe",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Kobe&oldid=5390869",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 34.6797,
+    "lng": 135.1887
+  },
+  {
+    "id": "kobe-balance-3e1eb37020",
+    "cityId": "kobe",
+    "name": "준쿠도 고베점",
+    "english": "Junkudo",
+    "category": "쇼핑",
+    "image": "/images/place-placeholder.svg",
+    "description": "책과 잡지를 고를 수 있는 고베의 서점입니다.",
+    "address": "고베, 고베",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "품목과 매장별 운영시간을 확인하고 구입할 물건을 정해 둘러보세요.",
+    "area": "고베",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Kobe",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Kobe&oldid=5390869",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 buy 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "id": "fukuoka-balance-93c2de662a",
+    "cityId": "fukuoka",
+    "name": "에스페리아 호텔 하카타",
+    "english": "S-Peria Hotel Hakata · エスペリアホテル博多",
+    "category": "숙소",
+    "image": "/images/place-placeholder.svg",
+    "description": "하카타역 주변의 비즈니스호텔 숙박 후보입니다.",
+    "address": "2 Chome-11-4 Hakata Ekimae, Hakata Ward",
+    "duration": "숙박 일정에 맞춰 지정",
+    "cost": "숙박일·객실·공식 안내에서 확인",
+    "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+    "area": "후쿠오카",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Fukuoka",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Fukuoka&oldid=5383685",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 33.591488,
+    "lng": 130.41633
+  },
+  {
+    "id": "fukuoka-balance-f52726978f",
+    "cityId": "fukuoka",
+    "name": "그랜드 하얏트 후쿠오카",
+    "english": "Grand Hyatt Fukuoka",
+    "category": "숙소",
+    "image": "/images/place-placeholder.svg",
+    "description": "캐널시티 하카타에 자리한 호텔입니다.",
+    "address": "1-2-82 Sumiyoshi, Hakata-ku",
+    "duration": "숙박 일정에 맞춰 지정",
+    "cost": "숙박일·객실·공식 안내에서 확인",
+    "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+    "area": "후쿠오카",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Fukuoka",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Fukuoka&oldid=5383685",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 33.5898,
+    "lng": 130.4103
+  },
+  {
+    "id": "fukuoka-balance-0c7b4094ae",
+    "cityId": "fukuoka",
+    "name": "아뮤플라자 하카타",
+    "english": "Amu plaza Hakata · アミュプラザ博多",
+    "category": "쇼핑",
+    "image": "/images/place-placeholder.svg",
+    "description": "하카타역과 연결된 쇼핑몰입니다.",
+    "address": "1-1 Hakataekichuogai, Hakata Ward",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "품목과 매장별 운영시간을 확인하고 구입할 물건을 정해 둘러보세요.",
+    "area": "후쿠오카",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Fukuoka",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Fukuoka&oldid=5383685",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 buy 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 33.589989,
+    "lng": 130.420753
+  },
+  {
+    "id": "singapore-balance-5bcd5b3ca7",
+    "cityId": "singapore",
+    "name": "티앤티앤 하이난 치킨라이스",
+    "english": "Tian Tian Hainanese Chicken Rice",
+    "category": "맛집",
+    "image": "/images/place-placeholder.svg",
+    "description": "맥스웰 푸드센터에서 하이난식 치킨라이스를 맛볼 수 있습니다.",
+    "address": "Maxwell Food Centre #01-10",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "지점과 주문 방식, 식단 제한을 확인하고 식사 일정에 넣어 보세요. 메뉴·영업시간은 방문 전 확인하세요.",
+    "area": "차이나타운",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Singapore/Chinatown",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Singapore/Chinatown&oldid=5373631",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 eat 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "id": "singapore-balance-e48d385859",
+    "cityId": "singapore",
+    "name": "징화 샤오츠",
+    "english": "Jing Hua Xiao Chi",
+    "category": "맛집",
+    "image": "/images/place-placeholder.svg",
+    "description": "딤섬과 만두를 고를 수 있는 차이나타운의 식당입니다.",
+    "address": "21 Neil Rd",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "지점과 주문 방식, 식단 제한을 확인하고 식사 일정에 넣어 보세요. 메뉴·영업시간은 방문 전 확인하세요.",
+    "area": "차이나타운",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Singapore/Chinatown",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Singapore/Chinatown&oldid=5373631",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 eat 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 1.27995,
+    "lng": 103.84339
+  },
+  {
+    "id": "singapore-balance-eaf2d23af8",
+    "cityId": "singapore",
+    "name": "티 챕터",
+    "english": "Tea Chapter",
+    "category": "카페",
+    "image": "/images/place-placeholder.svg",
+    "description": "차를 고르고 중국식 다도 문화를 접할 수 있는 찻집입니다.",
+    "address": "9 Neil Rd",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "산책이나 쇼핑 사이에 쉬어갈 후보입니다. 좌석 이용·마지막 주문 시간은 방문 전 확인하세요.",
+    "area": "차이나타운",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Singapore/Chinatown",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Singapore/Chinatown&oldid=5373631",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 1.2801,
+    "lng": 103.8436
+  },
+  {
+    "id": "singapore-balance-b0099cae82",
+    "cityId": "singapore",
+    "name": "난양 올드 커피",
+    "english": "Nanyang Old Coffee",
+    "category": "카페",
+    "image": "/images/place-placeholder.svg",
+    "description": "차이나타운에서 현지식 커피와 간식을 즐기는 카페입니다.",
+    "address": "268 South Bridge Rd, Singapore 058817",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "산책이나 쇼핑 사이에 쉬어갈 후보입니다. 좌석 이용·마지막 주문 시간은 방문 전 확인하세요.",
+    "area": "차이나타운",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Singapore/Chinatown",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Singapore/Chinatown&oldid=5373631",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "id": "singapore-balance-87a23b142a",
+    "cityId": "singapore",
+    "name": "파크로열 컬렉션 피커링",
+    "english": "Parkroyal on Pickering",
+    "category": "숙소",
+    "image": "/images/place-placeholder.svg",
+    "description": "차이나타운과 도심 사이의 호텔 숙박 후보입니다.",
+    "address": "3 Upper Pickering Street",
+    "duration": "숙박 일정에 맞춰 지정",
+    "cost": "숙박일·객실·공식 안내에서 확인",
+    "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+    "area": "차이나타운",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Singapore/Chinatown",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Singapore/Chinatown&oldid=5373631",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 1.285777,
+    "lng": 103.846476
+  },
+  {
+    "id": "singapore-balance-26f921970e",
+    "cityId": "singapore",
+    "name": "힐튼 싱가포르 오차드",
+    "english": "Hilton Singapore Orchard",
+    "category": "숙소",
+    "image": "/images/place-placeholder.svg",
+    "description": "오차드 로드의 쇼핑과 이동을 함께 고려할 수 있는 호텔입니다.",
+    "address": "333 Orchard Rd",
+    "duration": "숙박 일정에 맞춰 지정",
+    "cost": "숙박일·객실·공식 안내에서 확인",
+    "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+    "area": "오차드",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Singapore/Orchard",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Singapore/Orchard&oldid=5387052",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 1.30205,
+    "lng": 103.83632
+  },
+  {
+    "id": "singapore-balance-7a5374badf",
+    "cityId": "singapore",
+    "name": "앨리 바",
+    "english": "Alley Bar",
+    "category": "바·공연",
+    "image": "/images/place-placeholder.svg",
+    "description": "페라나칸 상가 사이에서 칵테일을 즐기는 바입니다.",
+    "address": "2 Emerald Hill",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "공연 일정·입장 연령·드레스 코드·입장료와 최소 주문 조건을 방문 전 확인하세요.",
+    "area": "오차드",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Singapore/Orchard",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Singapore/Orchard&oldid=5387052",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 1.30145,
+    "lng": 103.83915
+  },
+  {
+    "id": "singapore-balance-f952c47087",
+    "cityId": "singapore",
+    "name": "맨해튼 바",
+    "english": "Manhattan",
+    "category": "바·공연",
+    "image": "/images/place-placeholder.svg",
+    "description": "호텔 안에서 칵테일을 고를 수 있는 바입니다.",
+    "address": "1 Cuscaden Road",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "공연 일정·입장 연령·드레스 코드·입장료와 최소 주문 조건을 방문 전 확인하세요.",
+    "area": "오차드",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Singapore/Orchard",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Singapore/Orchard&oldid=5387052",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 1.3047,
+    "lng": 103.825
+  },
+  {
+    "id": "singapore-balance-bcf81ddf84",
+    "cityId": "singapore",
+    "name": "아이온 오차드",
+    "english": "ION Orchard",
+    "category": "쇼핑",
+    "image": "/images/place-placeholder.svg",
+    "description": "오차드역과 연결된 대형 쇼핑몰입니다.",
+    "address": "2 Orchard Turn",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "품목과 매장별 운영시간을 확인하고 구입할 물건을 정해 둘러보세요.",
+    "area": "오차드",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Singapore/Orchard",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Singapore/Orchard&oldid=5387052",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 buy 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 1.30444,
+    "lng": 103.832
+  },
+  {
+    "id": "singapore-balance-4f3e474897",
+    "cityId": "singapore",
+    "name": "피플스 파크 컴플렉스",
+    "english": "People's Park Complex",
+    "category": "쇼핑",
+    "image": "/images/place-placeholder.svg",
+    "description": "차이나타운에서 생활용품과 기념품 등을 둘러보는 복합 상가입니다.",
+    "address": "1 Park Rd",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "품목과 매장별 운영시간을 확인하고 구입할 물건을 정해 둘러보세요.",
+    "area": "차이나타운",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Singapore/Chinatown",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Singapore/Chinatown&oldid=5373631",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 buy 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 1.28386,
+    "lng": 103.84241
+  },
+  {
+    "id": "singapore-balance-395da9e1a6",
+    "cityId": "singapore",
+    "name": "바운스 싱가포르",
+    "english": "Bounce",
+    "category": "체험",
+    "image": "/images/place-placeholder.svg",
+    "description": "실내 트램펄린 활동을 즐길 수 있는 체험 시설입니다.",
+    "address": "8 Grange Rd",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "운영 회차·예약·참가 조건을 확인하세요. 물놀이와 야외 활동은 당일 날씨·안전 안내를 따르세요.",
+    "area": "오차드",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Singapore/Orchard",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Singapore/Orchard&oldid=5387052",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 do 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 1.3014,
+    "lng": 103.8363
+  },
+  {
+    "id": "danang-balance-20bd90eefc",
+    "cityId": "danang",
+    "name": "미꽝 일에이",
+    "english": "Mi Quang 1A",
+    "category": "맛집",
+    "image": "/images/place-placeholder.svg",
+    "description": "다낭의 미꽝 국수를 맛볼 수 있는 식당입니다.",
+    "address": "1 Hải Phòng, Hải Châu 1, Q. Hải Châu",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "지점과 주문 방식, 식단 제한을 확인하고 식사 일정에 넣어 보세요. 메뉴·영업시간은 방문 전 확인하세요.",
+    "area": "다낭",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Da Nang",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Da_Nang&oldid=5383180",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 eat 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 16.072454,
+    "lng": 108.219051
+  },
+  {
+    "id": "danang-balance-91764ab0aa",
+    "cityId": "danang",
+    "name": "마담 칸 반미 퀸",
+    "english": "Madam Khanh - The Banh Mi Queen",
+    "category": "맛집",
+    "image": "/images/place-placeholder.svg",
+    "description": "속 재료를 고른 베트남식 샌드위치 반미를 맛보는 가게입니다.",
+    "address": "115 Trần Cao Vân",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "지점과 주문 방식, 식단 제한을 확인하고 식사 일정에 넣어 보세요. 메뉴·영업시간은 방문 전 확인하세요.",
+    "area": "호이안",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Hoi An",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Hoi_An&oldid=5390860",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 eat 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 15.8805953,
+    "lng": 108.3279486
+  },
+  {
+    "id": "danang-balance-8f5e0516b7",
+    "cityId": "danang",
+    "name": "롱 커피",
+    "english": "Long Coffee",
+    "category": "카페",
+    "image": "/images/place-placeholder.svg",
+    "description": "다낭에서 베트남식 커피를 마실 수 있는 카페입니다.",
+    "address": "123 Le Loi",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "산책이나 쇼핑 사이에 쉬어갈 후보입니다. 좌석 이용·마지막 주문 시간은 방문 전 확인하세요.",
+    "area": "다낭",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Da Nang",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Da_Nang&oldid=5383180",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 16.07486,
+    "lng": 108.21995
+  },
+  {
+    "id": "danang-balance-e8a10261b1",
+    "cityId": "danang",
+    "name": "로지스 카페 호이안",
+    "english": "Rosie's cafe",
+    "category": "카페",
+    "image": "/images/place-placeholder.svg",
+    "description": "호이안에서 커피와 브런치를 고를 수 있는 카페입니다.",
+    "address": "8/6 Nguyen Thi Minh Khai street",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "산책이나 쇼핑 사이에 쉬어갈 후보입니다. 좌석 이용·마지막 주문 시간은 방문 전 확인하세요.",
+    "area": "호이안",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Hoi An",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Hoi_An&oldid=5390860",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "id": "danang-balance-adc9e1e833",
+    "cityId": "danang",
+    "name": "하얏트 리젠시 다낭",
+    "english": "Hyatt Regency Da Nang",
+    "category": "숙소",
+    "image": "/images/place-placeholder.svg",
+    "description": "다낭 해변 지역의 리조트 숙박 후보입니다.",
+    "address": "Truong Sa St, Hoa Hai Ward, Ngu Hanh Son District",
+    "duration": "숙박 일정에 맞춰 지정",
+    "cost": "숙박일·객실·공식 안내에서 확인",
+    "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+    "area": "다낭",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Da Nang",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Da_Nang&oldid=5383180",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 16.01139,
+    "lng": 108.26402
+  },
+  {
+    "id": "danang-balance-c08389f08e",
+    "cityId": "danang",
+    "name": "아난타라 호이안 리조트",
+    "english": "Anantara Hoi An Resort",
+    "category": "숙소",
+    "image": "/images/place-placeholder.svg",
+    "description": "호이안 강변을 거점으로 삼을 수 있는 리조트입니다.",
+    "address": "1 Pham Hong Thai St.",
+    "duration": "숙박 일정에 맞춰 지정",
+    "cost": "숙박일·객실·공식 안내에서 확인",
+    "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+    "area": "호이안",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Hoi An",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Hoi_An&oldid=5390860",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 15.877247,
+    "lng": 108.33686
+  },
+  {
+    "id": "danang-balance-51bafad9bf",
+    "cityId": "danang",
+    "name": "골든 파인",
+    "english": "Golden Pine",
+    "category": "바·공연",
+    "image": "/images/place-placeholder.svg",
+    "description": "한강 주변에서 음료와 음악을 즐기는 바입니다.",
+    "address": "다낭, 다낭·호이안",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "공연 일정·입장 연령·드레스 코드·입장료와 최소 주문 조건을 방문 전 확인하세요.",
+    "area": "다낭",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Da Nang",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Da_Nang&oldid=5383180",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 16.0726,
+    "lng": 108.2247
+  },
+  {
+    "id": "danang-balance-5335dcf3f0",
+    "cityId": "danang",
+    "name": "호이안 다이브 바",
+    "english": "Dive Bar Restaurant",
+    "category": "바·공연",
+    "image": "/images/place-placeholder.svg",
+    "description": "음료와 당구, 라이브 음악을 즐길 수 있는 바입니다.",
+    "address": "88 Nguyen Thai Hoc St",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "공연 일정·입장 연령·드레스 코드·입장료와 최소 주문 조건을 방문 전 확인하세요.",
+    "area": "호이안",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Hoi An",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Hoi_An&oldid=5390860",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 15.87662,
+    "lng": 108.32829
+  },
+  {
+    "id": "danang-balance-5d59aacbfa",
+    "cityId": "danang",
+    "name": "호이안 야시장",
+    "english": "Night Market",
+    "category": "쇼핑",
+    "image": "/images/place-placeholder.svg",
+    "description": "호이안에서 공예품과 기념품을 둘러보는 야시장입니다.",
+    "address": "호이안, 다낭·호이안",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "품목과 매장별 운영시간을 확인하고 구입할 물건을 정해 둘러보세요.",
+    "area": "호이안",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Hoi An",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Hoi_An&oldid=5390860",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 buy 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 15.87578,
+    "lng": 108.32592
+  },
+  {
+    "id": "danang-balance-a8e0a78f39",
+    "cityId": "danang",
+    "name": "호이안 실크 빌리지",
+    "english": "Hoi An Silk Village",
+    "category": "체험",
+    "image": "/images/place-placeholder.svg",
+    "description": "견직물 제작 과정과 지역 공예를 접할 수 있는 공간입니다.",
+    "address": "28 Nguyen Tat Thanh St",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "운영 회차·예약·참가 조건을 확인하세요. 물놀이와 야외 활동은 당일 날씨·안전 안내를 따르세요.",
+    "area": "호이안",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Hoi An",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Hoi_An&oldid=5390860",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 do 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 15.8875,
+    "lng": 108.3192
+  },
+  {
+    "id": "guam-balance-2c5bdea8cf",
+    "cityId": "guam",
+    "name": "메스클라 도스 투몬",
+    "english": "Mekla Dos",
+    "category": "맛집",
+    "image": "/images/place-placeholder.svg",
+    "description": "버거와 감자튀김, 현지식 바비큐를 고를 수 있는 투몬의 식당입니다.",
+    "address": "1155 Pale San Vitores Road",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "지점과 주문 방식, 식단 제한을 확인하고 식사 일정에 넣어 보세요. 메뉴·영업시간은 방문 전 확인하세요.",
+    "area": "투몬",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Tumon",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Tumon&oldid=5239622",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 eat 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 13.516633,
+    "lng": 144.80759
+  },
+  {
+    "id": "guam-balance-8b21210470",
+    "cityId": "guam",
+    "name": "후지이치방 괌",
+    "english": "FujiIchiban Guam",
+    "category": "맛집",
+    "image": "/images/place-placeholder.svg",
+    "description": "투몬에서 라멘과 일본식 음식을 고를 수 있는 식당입니다.",
+    "address": "932 Pale San Vitores Rd",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "지점과 주문 방식, 식단 제한을 확인하고 식사 일정에 넣어 보세요. 메뉴·영업시간은 방문 전 확인하세요.",
+    "area": "투몬",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Tumon",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Tumon&oldid=5239622",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 eat 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 13.507357,
+    "lng": 144.802683
+  },
+  {
+    "id": "guam-balance-0c3d42a097",
+    "cityId": "guam",
+    "name": "에그앤띵스 괌",
+    "english": "Eggs 'n Things",
+    "category": "카페",
+    "image": "/images/place-placeholder.svg",
+    "description": "팬케이크와 커피를 함께 고를 수 있는 브런치 카페입니다.",
+    "address": "1317 Pale San Vitores Rd",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "산책이나 쇼핑 사이에 쉬어갈 후보입니다. 좌석 이용·마지막 주문 시간은 방문 전 확인하세요.",
+    "area": "투몬",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Tumon",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Tumon&oldid=5239622",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 eat 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 13.51594,
+    "lng": 144.807049
+  },
+  {
+    "id": "guam-balance-79d938ebb1",
+    "cityId": "guam",
+    "name": "크랙드 에그",
+    "english": "The Kracked Egg",
+    "category": "카페",
+    "image": "/images/place-placeholder.svg",
+    "description": "아침 식사와 커피를 고를 수 있는 투몬의 카페입니다.",
+    "address": "1051 Pale San Vitores Rd",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "산책이나 쇼핑 사이에 쉬어갈 후보입니다. 좌석 이용·마지막 주문 시간은 방문 전 확인하세요.",
+    "area": "투몬",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Tumon",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Tumon&oldid=5239622",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 eat 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 13.509809,
+    "lng": 144.804999
+  },
+  {
+    "id": "guam-balance-f52c396229",
+    "cityId": "guam",
+    "name": "호텔 닛코 괌",
+    "english": "Hotel Nikko Guam",
+    "category": "숙소",
+    "image": "/images/place-placeholder.svg",
+    "description": "투몬 북쪽 해안의 리조트 호텔입니다.",
+    "address": "투몬, 괌",
+    "duration": "숙박 일정에 맞춰 지정",
+    "cost": "숙박일·객실·공식 안내에서 확인",
+    "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+    "area": "투몬",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Tumon",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Tumon&oldid=5239622",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 13.521667,
+    "lng": 144.804444
+  },
+  {
+    "id": "guam-balance-97a4af1cf5",
+    "cityId": "guam",
+    "name": "두짓타니 괌 리조트",
+    "english": "Dusit Thani Guam Resort",
+    "category": "숙소",
+    "image": "/images/place-placeholder.svg",
+    "description": "투몬 해안가의 호텔 숙박 후보입니다.",
+    "address": "1227 Pale San Vitores Rd (Tamuning)",
+    "duration": "숙박 일정에 맞춰 지정",
+    "cost": "숙박일·객실·공식 안내에서 확인",
+    "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+    "area": "투몬",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Tumon",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Tumon&oldid=5239622",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 13.514475,
+    "lng": 144.8058
+  },
+  {
+    "id": "guam-balance-98a5f46947",
+    "cityId": "guam",
+    "name": "버디스 빌리어즈 앤 브루",
+    "english": "Buddies Billiards and Brew",
+    "category": "바·공연",
+    "image": "/images/place-placeholder.svg",
+    "description": "당구와 음료를 함께 즐기는 투몬의 바입니다.",
+    "address": "투몬, 괌",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "공연 일정·입장 연령·드레스 코드·입장료와 최소 주문 조건을 방문 전 확인하세요.",
+    "area": "투몬",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Tumon",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Tumon&oldid=5239622",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "id": "guam-balance-3bd2f9e185",
+    "cityId": "guam",
+    "name": "카페 하바나 괌",
+    "english": "Cafe Havana",
+    "category": "바·공연",
+    "image": "/images/place-placeholder.svg",
+    "description": "투몬에서 음료를 고를 수 있는 바입니다.",
+    "address": "투몬, 괌",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "공연 일정·입장 연령·드레스 코드·입장료와 최소 주문 조건을 방문 전 확인하세요.",
+    "area": "투몬",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Tumon",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Tumon&oldid=5239622",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "id": "guam-balance-825eb8e850",
+    "cityId": "guam",
+    "name": "더 플라자 쇼핑센터",
+    "english": "The Plaza Shopping Center",
+    "category": "쇼핑",
+    "image": "/images/place-placeholder.svg",
+    "description": "투몬 중심부에서 상점들을 둘러볼 수 있는 쇼핑센터입니다.",
+    "address": "1225 Pale San Vitores Rd",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "품목과 매장별 운영시간을 확인하고 구입할 물건을 정해 둘러보세요.",
+    "area": "투몬",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Tumon",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Tumon&oldid=5239622",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 buy 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 13.514826,
+    "lng": 144.805996
+  },
+  {
+    "id": "saipan-balance-159d858dad",
+    "cityId": "saipan",
+    "name": "에비스야 사이판",
+    "english": "Ebisuya",
+    "category": "맛집",
+    "image": "/images/place-placeholder.svg",
+    "description": "수수페에서 빵과 샌드위치, 스시를 고를 수 있는 가게입니다.",
+    "address": "Susupe",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "지점과 주문 방식, 식단 제한을 확인하고 식사 일정에 넣어 보세요. 메뉴·영업시간은 방문 전 확인하세요.",
+    "area": "사이판",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Saipan",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Saipan&oldid=5304456",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 eat 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "id": "saipan-balance-457279cc5d",
+    "cityId": "saipan",
+    "name": "히마와리 사이판",
+    "english": "Himawari",
+    "category": "맛집",
+    "image": "/images/place-placeholder.svg",
+    "description": "가라판에서 스시와 빵, 면 요리를 고를 수 있는 가게입니다.",
+    "address": "Garapan",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "지점과 주문 방식, 식단 제한을 확인하고 식사 일정에 넣어 보세요. 메뉴·영업시간은 방문 전 확인하세요.",
+    "area": "사이판",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Saipan",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Saipan&oldid=5304456",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 eat 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "id": "saipan-balance-68d6f4fe08",
+    "cityId": "saipan",
+    "name": "커피 케어",
+    "english": "Coffee Care",
+    "category": "카페",
+    "image": "/images/place-placeholder.svg",
+    "description": "캐피톨 힐에서 커피와 파스타, 샌드위치를 즐길 수 있는 카페입니다.",
+    "address": "Capitol Hill",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "산책이나 쇼핑 사이에 쉬어갈 후보입니다. 좌석 이용·마지막 주문 시간은 방문 전 확인하세요.",
+    "area": "사이판",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Saipan",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Saipan&oldid=5304456",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 eat 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "id": "saipan-balance-ad7a0a9b27",
+    "cityId": "saipan",
+    "name": "자바 조스 사이판",
+    "english": "Java Joe's",
+    "category": "카페",
+    "image": "/images/place-placeholder.svg",
+    "description": "커피와 라테, 스무디를 고를 수 있는 작은 카페입니다.",
+    "address": "사이판, 사이판",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "산책이나 쇼핑 사이에 쉬어갈 후보입니다. 좌석 이용·마지막 주문 시간은 방문 전 확인하세요.",
+    "area": "사이판",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Saipan",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Saipan&oldid=5304456",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 eat 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "id": "saipan-balance-1d18b3dfb9",
+    "cityId": "saipan",
+    "name": "사이판 스카이라인 디자이너스 호텔",
+    "english": "Saipan Skyline Designers Hotel",
+    "category": "숙소",
+    "image": "/images/place-placeholder.svg",
+    "description": "사이판 북부 산지에 자리한 소규모 호텔입니다.",
+    "address": "Mina Dr, As Matuis",
+    "duration": "숙박 일정에 맞춰 지정",
+    "cost": "숙박일·객실·공식 안내에서 확인",
+    "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+    "area": "사이판",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Saipan",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Saipan&oldid=5304456",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "id": "saipan-balance-3dce60a0f0",
+    "cityId": "saipan",
+    "name": "사이판 월드 리조트",
+    "english": "Saipan World Resort",
+    "category": "숙소",
+    "image": "/images/place-placeholder.svg",
+    "description": "수수페 해변의 리조트 숙박 후보입니다.",
+    "address": "Beach Rd, Susupe",
+    "duration": "숙박 일정에 맞춰 지정",
+    "cost": "숙박일·객실·공식 안내에서 확인",
+    "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+    "area": "사이판",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Saipan",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Saipan&oldid=5304456",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 15.1584,
+    "lng": 145.703341
+  },
+  {
+    "id": "saipan-balance-ae61128d44",
+    "cityId": "saipan",
+    "name": "올레아이 비치 클럽",
+    "english": "Oleai Beach Club",
+    "category": "바·공연",
+    "image": "/images/place-placeholder.svg",
+    "description": "산호세 해변에서 일몰과 음료를 함께 즐길 수 있는 바입니다.",
+    "address": "사이판, 사이판",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "공연 일정·입장 연령·드레스 코드·입장료와 최소 주문 조건을 방문 전 확인하세요.",
+    "area": "사이판",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Saipan",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Saipan&oldid=5304456",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "id": "santorini-balance-9c40bd9f19",
+    "cityId": "santorini",
+    "name": "넥타르 라운지",
+    "english": "Nektar Lounge",
+    "category": "카페",
+    "image": "/images/place-placeholder.svg",
+    "description": "칼데라 전망과 함께 커피나 음료를 고를 수 있는 카페 겸 바입니다.",
+    "address": "피라, 산토리니",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "산책이나 쇼핑 사이에 쉬어갈 후보입니다. 좌석 이용·마지막 주문 시간은 방문 전 확인하세요.",
+    "area": "피라",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Fira",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Fira&oldid=5350912",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 36.41685,
+    "lng": 25.431562
+  },
+  {
+    "id": "santorini-balance-0c3247ff58",
+    "cityId": "santorini",
+    "name": "아다만트 스위츠",
+    "english": "Adamant Suites",
+    "category": "숙소",
+    "image": "/images/place-placeholder.svg",
+    "description": "피라의 절벽 전망 지역에서 비교할 수 있는 숙박 후보입니다.",
+    "address": "피라, 산토리니",
+    "duration": "숙박 일정에 맞춰 지정",
+    "cost": "숙박일·객실·공식 안내에서 확인",
+    "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+    "area": "피라",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Fira",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Fira&oldid=5350912",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 36.41546,
+    "lng": 25.431
+  },
+  {
+    "id": "santorini-balance-e5a8ab97c8",
+    "cityId": "santorini",
+    "name": "페리볼라스",
+    "english": "Perivolas Traditional Houses",
+    "category": "숙소",
+    "image": "/images/place-placeholder.svg",
+    "description": "이아에서 전통 가옥 형태의 숙박을 비교할 수 있는 곳입니다.",
+    "address": "이아, 산토리니",
+    "duration": "숙박 일정에 맞춰 지정",
+    "cost": "숙박일·객실·공식 안내에서 확인",
+    "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+    "area": "이아",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Oia (Greece)",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Oia_(Greece)&oldid=5354534",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "id": "santorini-balance-84c996ff69",
+    "cityId": "santorini",
+    "name": "안하이드러스 와이너리",
+    "english": "Anhydrous Winery",
+    "category": "체험",
+    "image": "/images/place-placeholder.svg",
+    "description": "산토리니의 와인과 양조 문화를 접할 수 있는 와이너리입니다.",
+    "address": "피라, 산토리니",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "운영 회차·예약·참가 조건을 확인하세요. 물놀이와 야외 활동은 당일 날씨·안전 안내를 따르세요.",
+    "area": "피라",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Fira",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Fira&oldid=5350912",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 36.42213,
+    "lng": 25.43661
+  },
+  {
+    "id": "santorini-balance-15819f66e2",
+    "cityId": "santorini",
+    "name": "므네모시네 갤러리",
+    "english": "Mnemossyne Gallery",
+    "category": "쇼핑",
+    "image": "/images/place-placeholder.svg",
+    "description": "이아에서 수공예 장신구를 둘러볼 수 있는 갤러리 겸 가게입니다.",
+    "address": "이아, 산토리니",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "품목과 매장별 운영시간을 확인하고 구입할 물건을 정해 둘러보세요.",
+    "area": "이아",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Oia (Greece)",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Oia_(Greece)&oldid=5354534",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 buy 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 36.46086,
+    "lng": 25.37385
+  },
+  {
+    "id": "santorini-balance-619fe790c9",
+    "cityId": "santorini",
+    "name": "아트 오브 더 룸 갤러리",
+    "english": "Art of the Loom Gallery",
+    "category": "쇼핑",
+    "image": "/images/place-placeholder.svg",
+    "description": "피라에서 유리 공예품과 장신구 기념품을 살펴보는 갤러리입니다.",
+    "address": "피라, 산토리니",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "품목과 매장별 운영시간을 확인하고 구입할 물건을 정해 둘러보세요.",
+    "area": "피라",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Fira",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Fira&oldid=5350912",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 buy 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 36.42462,
+    "lng": 25.429
+  },
+  {
+    "id": "dubai-balance-12ba4e2f15",
+    "cityId": "dubai",
+    "name": "모어 카페",
+    "english": "More Cafe",
+    "category": "카페",
+    "image": "/images/place-placeholder.svg",
+    "description": "두바이에서 커피와 식사를 함께 즐길 수 있는 카페입니다.",
+    "address": "Dubai Mall",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "산책이나 쇼핑 사이에 쉬어갈 후보입니다. 좌석 이용·마지막 주문 시간은 방문 전 확인하세요.",
+    "area": "주메이라",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Dubai/Jumeirah",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Dubai/Jumeirah&oldid=5383401",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 eat 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "id": "dubai-balance-4ba7a33430",
+    "cityId": "dubai",
+    "name": "필리 카페테리아",
+    "english": "Filli Cafeteria",
+    "category": "카페",
+    "image": "/images/place-placeholder.svg",
+    "description": "차와 간식을 고를 수 있는 데이라의 카페입니다.",
+    "address": "Al Mamzar",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "산책이나 쇼핑 사이에 쉬어갈 후보입니다. 좌석 이용·마지막 주문 시간은 방문 전 확인하세요.",
+    "area": "데이라",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Dubai/Deira",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Dubai/Deira&oldid=5390000",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "id": "dubai-balance-a3ac2d629a",
+    "cityId": "dubai",
+    "name": "알 파나르 레스토랑 앤 카페",
+    "english": "Al Fanar Restaurant & Cafe",
+    "category": "맛집",
+    "image": "/images/place-placeholder.svg",
+    "description": "에미라티 전통 음식을 고를 수 있는 두바이의 식당입니다.",
+    "address": "Canal Walk, Dubai Festival City Mall",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "지점과 주문 방식, 식단 제한을 확인하고 식사 일정에 넣어 보세요. 메뉴·영업시간은 방문 전 확인하세요.",
+    "area": "데이라",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Dubai/Deira",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Dubai/Deira&oldid=5390000",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 eat 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "id": "dubai-balance-14fcba1455",
+    "cityId": "dubai",
+    "name": "랄 킬라 두바이",
+    "english": "Lal Qila Dubai",
+    "category": "맛집",
+    "image": "/images/place-placeholder.svg",
+    "description": "파키스탄 음식을 고를 수 있는 두바이의 식당입니다.",
+    "address": "Diyafa St, Jumairah-1",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "지점과 주문 방식, 식단 제한을 확인하고 식사 일정에 넣어 보세요. 메뉴·영업시간은 방문 전 확인하세요.",
+    "area": "주메이라",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Dubai/Jumeirah",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Dubai/Jumeirah&oldid=5383401",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 eat 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "id": "dubai-balance-41b7a45ebf",
+    "cityId": "dubai",
+    "name": "아난타라 더 팜 두바이",
+    "english": "Anantara The Palm Dubai Resort",
+    "category": "숙소",
+    "image": "/images/place-placeholder.svg",
+    "description": "팜 주메이라의 리조트 숙박 후보입니다.",
+    "address": "East Crescent",
+    "duration": "숙박 일정에 맞춰 지정",
+    "cost": "숙박일·객실·공식 안내에서 확인",
+    "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+    "area": "주메이라",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Dubai/Jumeirah",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Dubai/Jumeirah&oldid=5383401",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 25.129496,
+    "lng": 55.153156
+  },
+  {
+    "id": "dubai-balance-6af8d877a9",
+    "cityId": "dubai",
+    "name": "하얏트 리젠시 두바이",
+    "english": "Hyatt Regency Dubai",
+    "category": "숙소",
+    "image": "/images/place-placeholder.svg",
+    "description": "데이라 지역을 거점으로 삼을 수 있는 호텔입니다.",
+    "address": "Deira Corniche",
+    "duration": "숙박 일정에 맞춰 지정",
+    "cost": "숙박일·객실·공식 안내에서 확인",
+    "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+    "area": "데이라",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Dubai/Deira",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Dubai/Deira&oldid=5390000",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 25.2788983,
+    "lng": 55.3046501
+  },
+  {
+    "id": "dubai-balance-812c10d8d9",
+    "cityId": "dubai",
+    "name": "바라스티",
+    "english": "Barasti",
+    "category": "바·공연",
+    "image": "/images/place-placeholder.svg",
+    "description": "해변 주변에서 음료와 음악을 즐기는 바입니다.",
+    "address": "주메이라, 두바이",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "공연 일정·입장 연령·드레스 코드·입장료와 최소 주문 조건을 방문 전 확인하세요.",
+    "area": "주메이라",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Dubai/Jumeirah",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Dubai/Jumeirah&oldid=5383401",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 25.091774,
+    "lng": 55.1458121
+  },
+  {
+    "id": "dubai-balance-6df4f686ba",
+    "cityId": "dubai",
+    "name": "스카이뷰 바",
+    "english": "Skyview Bar",
+    "category": "바·공연",
+    "image": "/images/place-placeholder.svg",
+    "description": "버즈 알 아랍 호텔의 전망과 함께 음료를 즐기는 바입니다.",
+    "address": "주메이라, 두바이",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "공연 일정·입장 연령·드레스 코드·입장료와 최소 주문 조건을 방문 전 확인하세요.",
+    "area": "주메이라",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Dubai/Jumeirah",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Dubai/Jumeirah&oldid=5383401",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 25.1357038,
+    "lng": 55.1866875
+  },
+  {
+    "id": "dubai-balance-440bb7c4d3",
+    "cityId": "dubai",
+    "name": "몰 오브 디 에미리츠",
+    "english": "Mall of the Emirates",
+    "category": "쇼핑",
+    "image": "/images/place-placeholder.svg",
+    "description": "상점과 실내 여가 시설을 함께 둘러보는 쇼핑몰입니다.",
+    "address": "Near 4th interchange on Sheikh Zayed Rd, Al Barsha 1 community",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "품목과 매장별 운영시간을 확인하고 구입할 물건을 정해 둘러보세요.",
+    "area": "주메이라",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Dubai/Jumeirah",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Dubai/Jumeirah&oldid=5383401",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 buy 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 25.11825,
+    "lng": 55.20162
+  },
+  {
+    "id": "dubai-balance-2f57258d71",
+    "cityId": "dubai",
+    "name": "시티센터 데이라",
+    "english": "City Centre Deira",
+    "category": "쇼핑",
+    "image": "/images/place-placeholder.svg",
+    "description": "데이라 지역에서 쇼핑과 식사를 함께 계획할 수 있는 쇼핑몰입니다.",
+    "address": "Banyias Rd, Alittihad Rd, Port Saeed community",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "품목과 매장별 운영시간을 확인하고 구입할 물건을 정해 둘러보세요.",
+    "area": "데이라",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Dubai/Deira",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Dubai/Deira&oldid=5390000",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 buy 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 25.25241,
+    "lng": 55.3336
+  },
+  {
+    "id": "osaka-balance-313fe9f8be",
+    "cityId": "osaka",
+    "name": "힐튼 오사카",
+    "english": "Hilton Osaka",
+    "category": "숙소",
+    "image": "/images/place-placeholder.svg",
+    "description": "오사카역 주변의 숙박과 철도 이동을 함께 고려할 수 있는 호텔입니다.",
+    "address": "1-8-8, Umeda, Kita-ku",
+    "duration": "숙박 일정에 맞춰 지정",
+    "cost": "숙박일·객실·공식 안내에서 확인",
+    "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+    "area": "우메다",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Osaka/Kita",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Osaka/Kita&oldid=5385822",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "id": "osaka-balance-4eb78162b8",
+    "cityId": "osaka",
+    "name": "스위소텔 난카이 오사카",
+    "english": "Swissôtel Nankai",
+    "category": "숙소",
+    "image": "/images/place-placeholder.svg",
+    "description": "난카이 난바역과 연결된 호텔입니다.",
+    "address": "5-1-60, Namba, Chuo-ku",
+    "duration": "숙박 일정에 맞춰 지정",
+    "cost": "숙박일·객실·공식 안내에서 확인",
+    "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+    "area": "난바·신사이바시",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Osaka/Minami",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Osaka/Minami&oldid=5385823",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "id": "osaka-balance-703d753661",
+    "cityId": "osaka",
+    "name": "다이마루 우메다점",
+    "english": "Daimaru Umeda · 大丸 梅田店",
+    "category": "쇼핑",
+    "image": "/images/place-placeholder.svg",
+    "description": "오사카역 주변에서 식품관과 의류 매장을 둘러보는 백화점입니다.",
+    "address": "우메다, 오사카",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "품목과 매장별 운영시간을 확인하고 구입할 물건을 정해 둘러보세요.",
+    "area": "우메다",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Osaka/Kita",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Osaka/Kita&oldid=5385822",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 buy 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "id": "osaka-balance-56c9c625ca",
+    "cityId": "osaka",
+    "name": "한큐 삼번가",
+    "english": "Hankyu Sanban-gai · 阪急三番街",
+    "category": "쇼핑",
+    "image": "/images/place-placeholder.svg",
+    "description": "한큐 오사카우메다역 주변의 상점과 식당을 둘러보는 복합 상가입니다.",
+    "address": "우메다, 오사카",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "품목과 매장별 운영시간을 확인하고 구입할 물건을 정해 둘러보세요.",
+    "area": "우메다",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Osaka/Kita",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Osaka/Kita&oldid=5385822",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 buy 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "id": "taipei-balance-325ed7e361",
+    "cityId": "taipei",
+    "name": "난지창 야시장",
+    "english": "Nanjichang Night Market · 南機場夜市",
+    "category": "맛집",
+    "image": "/images/place-placeholder.svg",
+    "description": "타이베이 남서쪽 주택가에서 현지 먹거리를 고르는 야시장입니다.",
+    "address": "중정·공관, 타이베이",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "지점과 주문 방식, 식단 제한을 확인하고 식사 일정에 넣어 보세요. 메뉴·영업시간은 방문 전 확인하세요.",
+    "area": "중정·공관",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Taipei/Zhongzheng",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Taipei/Zhongzheng&oldid=5393007",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 eat 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 25.02914,
+    "lng": 121.50596
+  },
+  {
+    "id": "taipei-balance-23c04e6ea7",
+    "cityId": "taipei",
+    "name": "해피 팜 채식 식당",
+    "english": "Happy Farm Vegetarian Restaurant · Kai Xing Nong Tsung (開心農場素食店)",
+    "category": "맛집",
+    "image": "/images/place-placeholder.svg",
+    "description": "채식 요리를 고를 수 있는 중정 구역의 식당입니다.",
+    "address": "2F, No 16, Lane 683, Roosevelt Road, Sec 3, Gongguang",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "지점과 주문 방식, 식단 제한을 확인하고 식사 일정에 넣어 보세요. 메뉴·영업시간은 방문 전 확인하세요.",
+    "area": "중정·공관",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Taipei/Zhongzheng",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Taipei/Zhongzheng&oldid=5393007",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 eat 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 25.018588,
+    "lng": 121.531771
+  },
+  {
+    "id": "taipei-balance-a5285b629d",
+    "cityId": "taipei",
+    "name": "커피 랩 타이베이",
+    "english": "Coffee Lab",
+    "category": "카페",
+    "image": "/images/place-placeholder.svg",
+    "description": "중정 구역에서 커피를 고를 수 있는 카페입니다.",
+    "address": "No. 6, Lane 64, Section 2, Zhōngxiào East Road",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "산책이나 쇼핑 사이에 쉬어갈 후보입니다. 좌석 이용·마지막 주문 시간은 방문 전 확인하세요.",
+    "area": "중정·공관",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Taipei/Zhongzheng",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Taipei/Zhongzheng&oldid=5393007",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "id": "taipei-balance-3aa63e1483",
+    "cityId": "taipei",
+    "name": "노치 카페",
+    "english": "Notch Cafe",
+    "category": "카페",
+    "image": "/images/place-placeholder.svg",
+    "description": "타이베이역 주변에서 커피와 간단한 음식을 고르는 카페입니다.",
+    "address": "35號, Section 1, Chongqing South Rd",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "산책이나 쇼핑 사이에 쉬어갈 후보입니다. 좌석 이용·마지막 주문 시간은 방문 전 확인하세요.",
+    "area": "중정·공관",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Taipei/Zhongzheng",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Taipei/Zhongzheng&oldid=5393007",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "id": "taipei-balance-fffb4a9d57",
+    "cityId": "taipei",
+    "name": "코스모스 호텔 타이베이",
+    "english": "Cosmos Hotel · 天成大飯店",
+    "category": "숙소",
+    "image": "/images/place-placeholder.svg",
+    "description": "타이베이역을 거점으로 삼을 수 있는 호텔입니다.",
+    "address": "43 Zhongxiao West Rd, sec. 1",
+    "duration": "숙박 일정에 맞춰 지정",
+    "cost": "숙박일·객실·공식 안내에서 확인",
+    "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+    "area": "중정·공관",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Taipei/Zhongzheng",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Taipei/Zhongzheng&oldid=5393007",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 25.046348,
+    "lng": 121.518348
+  },
+  {
+    "id": "taipei-balance-d163e6c1be",
+    "cityId": "taipei",
+    "name": "쉐라톤 그랜드 타이베이",
+    "english": "Sheraton Grand Taipei Hotel · 台北喜來登大飯店",
+    "category": "숙소",
+    "image": "/images/place-placeholder.svg",
+    "description": "중정 구역의 도심 호텔 숙박 후보입니다.",
+    "address": "12 Zhongxiao East Rd, Sec. 1",
+    "duration": "숙박 일정에 맞춰 지정",
+    "cost": "숙박일·객실·공식 안내에서 확인",
+    "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+    "area": "중정·공관",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Taipei/Zhongzheng",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Taipei/Zhongzheng&oldid=5393007",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 25.044582,
+    "lng": 121.522227
+  },
+  {
+    "id": "taipei-balance-28a2288970",
+    "cityId": "taipei",
+    "name": "더 월 라이브 하우스",
+    "english": "The Wall Live House",
+    "category": "바·공연",
+    "image": "/images/place-placeholder.svg",
+    "description": "공관 주변에서 밴드 공연을 볼 수 있는 라이브 공간입니다.",
+    "address": "200 Roosevelt Road B1, Sec 4",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "공연 일정·입장 연령·드레스 코드·입장료와 최소 주문 조건을 방문 전 확인하세요.",
+    "area": "중정·공관",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Taipei/Zhongzheng",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Taipei/Zhongzheng&oldid=5393007",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 25.010832,
+    "lng": 121.536716
+  },
+  {
+    "id": "taipei-balance-78b718414c",
+    "cityId": "taipei",
+    "name": "리볼버 타이베이",
+    "english": "Revolver",
+    "category": "바·공연",
+    "image": "/images/place-placeholder.svg",
+    "description": "바와 라이브 공연을 함께 즐기는 공간입니다.",
+    "address": "No. 1-2, Section 1, Roosevelt Rd",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "공연 일정·입장 연령·드레스 코드·입장료와 최소 주문 조건을 방문 전 확인하세요.",
+    "area": "중정·공관",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Taipei/Zhongzheng",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Taipei/Zhongzheng&oldid=5393007",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 25.034273,
+    "lng": 121.51741
+  },
+  {
+    "id": "taipei-balance-712e241c3b",
+    "cityId": "taipei",
+    "name": "광화 디지털 플라자",
+    "english": "Guanghua Digital Mall · 光華商場",
+    "category": "쇼핑",
+    "image": "/images/place-placeholder.svg",
+    "description": "전자제품과 컴퓨터 관련 매장을 비교할 수 있는 상가입니다.",
+    "address": "No 8, Civic Boulevard Sec 3,",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "품목과 매장별 운영시간을 확인하고 구입할 물건을 정해 둘러보세요.",
+    "area": "중정·공관",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Taipei/Zhongzheng",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Taipei/Zhongzheng&oldid=5393007",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 buy 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 25.045016,
+    "lng": 121.532258
+  },
+  {
+    "id": "taipei-balance-84ce69e620",
+    "cityId": "taipei",
+    "name": "타이베이 워터파크",
+    "english": "Taipei Water Park · 自來水園區",
+    "category": "체험",
+    "image": "/images/place-placeholder.svg",
+    "description": "공관 지역에서 물놀이를 즐길 수 있는 시설입니다.",
+    "address": "No. 1, Siyuan St",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "운영 회차·예약·참가 조건을 확인하세요. 물놀이와 야외 활동은 당일 날씨·안전 안내를 따르세요.",
+    "area": "중정·공관",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Taipei/Zhongzheng",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Taipei/Zhongzheng&oldid=5393007",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 do 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 25.0141177,
+    "lng": 121.5317319
+  },
+  {
+    "id": "hongkong-balance-7b184ee98a",
+    "cityId": "hongkong",
+    "name": "융키 레스토랑",
+    "english": "Yung Kee Restaurant",
+    "category": "맛집",
+    "image": "/images/place-placeholder.svg",
+    "description": "센트럴에서 광둥식 구이 요리를 맛볼 수 있는 식당입니다.",
+    "address": "32-40 Wellington St",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "지점과 주문 방식, 식단 제한을 확인하고 식사 일정에 넣어 보세요. 메뉴·영업시간은 방문 전 확인하세요.",
+    "area": "센트럴·셩완",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Hong Kong/Central",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Hong_Kong/Central&oldid=5384017",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 eat 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 22.28131,
+    "lng": 114.15578
+  },
+  {
+    "id": "hongkong-balance-1af5535bda",
+    "cityId": "hongkong",
+    "name": "로푸키",
+    "english": "Law Fu Kee",
+    "category": "맛집",
+    "image": "/images/place-placeholder.svg",
+    "description": "죽과 완탕면 등 광둥식 간단한 식사를 고르는 가게입니다.",
+    "address": "50 Lyndhurst Terrace, Soho",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "지점과 주문 방식, 식단 제한을 확인하고 식사 일정에 넣어 보세요. 메뉴·영업시간은 방문 전 확인하세요.",
+    "area": "센트럴·셩완",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Hong Kong/Central",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Hong_Kong/Central&oldid=5384017",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 eat 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "id": "hongkong-balance-36ee82609d",
+    "cityId": "hongkong",
+    "name": "브런치 클럽",
+    "english": "Brunch Club",
+    "category": "카페",
+    "image": "/images/place-placeholder.svg",
+    "description": "소호에서 브런치와 커피를 즐기는 카페입니다.",
+    "address": "70 Peel St, Soho",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "산책이나 쇼핑 사이에 쉬어갈 후보입니다. 좌석 이용·마지막 주문 시간은 방문 전 확인하세요.",
+    "area": "센트럴·셩완",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Hong Kong/Central",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Hong_Kong/Central&oldid=5384017",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 eat 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "id": "hongkong-balance-3fa8f90c6b",
+    "cityId": "hongkong",
+    "name": "룩유 티하우스",
+    "english": "Luk Yu Tea House · 陸羽茶室",
+    "category": "카페",
+    "image": "/images/place-placeholder.svg",
+    "description": "딤섬과 차를 즐길 수 있는 센트럴의 찻집입니다.",
+    "address": "26 Stanley St",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "산책이나 쇼핑 사이에 쉬어갈 후보입니다. 좌석 이용·마지막 주문 시간은 방문 전 확인하세요.",
+    "area": "센트럴·셩완",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Hong Kong/Central",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Hong_Kong/Central&oldid=5384017",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 eat 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "id": "hongkong-balance-5004206737",
+    "cityId": "hongkong",
+    "name": "이비스 홍콩 센트럴 앤 셩완",
+    "english": "ibis Hong Kong Central & Sheung Wan",
+    "category": "숙소",
+    "image": "/images/place-placeholder.svg",
+    "description": "셩완 지역을 거점으로 삼을 수 있는 호텔입니다.",
+    "address": "28 Des Voeux Road West, Sheung Wan",
+    "duration": "숙박 일정에 맞춰 지정",
+    "cost": "숙박일·객실·공식 안내에서 확인",
+    "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+    "area": "센트럴·셩완",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Hong Kong/Central",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Hong_Kong/Central&oldid=5384017",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 22.287697,
+    "lng": 114.147558
+  },
+  {
+    "id": "hongkong-balance-73d0ec3275",
+    "cityId": "hongkong",
+    "name": "만다린 오리엔탈 홍콩",
+    "english": "Mandarin Oriental",
+    "category": "숙소",
+    "image": "/images/place-placeholder.svg",
+    "description": "센트럴에 자리한 호텔 숙박 후보입니다.",
+    "address": "5 Connaught Rd",
+    "duration": "숙박 일정에 맞춰 지정",
+    "cost": "숙박일·객실·공식 안내에서 확인",
+    "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+    "area": "센트럴·셩완",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Hong Kong/Central",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Hong_Kong/Central&oldid=5384017",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "id": "hongkong-balance-d1a96e6289",
+    "cityId": "hongkong",
+    "name": "더 글로브",
+    "english": "The Globe",
+    "category": "바·공연",
+    "image": "/images/place-placeholder.svg",
+    "description": "여러 종류의 맥주와 음식을 고를 수 있는 소호의 펍입니다.",
+    "address": "45-53 Graham St, Soho",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "공연 일정·입장 연령·드레스 코드·입장료와 최소 주문 조건을 방문 전 확인하세요.",
+    "area": "센트럴·셩완",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Hong Kong/Central",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Hong_Kong/Central&oldid=5384017",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 22.28238,
+    "lng": 114.152761
+  },
+  {
+    "id": "hongkong-balance-d0e16ee09a",
+    "cityId": "hongkong",
+    "name": "스탠턴스 와인 바 앤 카페",
+    "english": "Staunton's Wine Bar & Cafe",
+    "category": "바·공연",
+    "image": "/images/place-placeholder.svg",
+    "description": "소호 골목에서 와인과 음료를 즐기는 바입니다.",
+    "address": "Staunton St, Soho",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "공연 일정·입장 연령·드레스 코드·입장료와 최소 주문 조건을 방문 전 확인하세요.",
+    "area": "센트럴·셩완",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Hong Kong/Central",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Hong_Kong/Central&oldid=5384017",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 22.281787,
+    "lng": 114.1529
+  },
+  {
+    "id": "hongkong-balance-8f2e5d8b09",
+    "cityId": "hongkong",
+    "name": "아이에프씨 몰",
+    "english": "IFC Mall",
+    "category": "쇼핑",
+    "image": "/images/place-placeholder.svg",
+    "description": "홍콩역 주변에서 상점과 식당을 둘러볼 수 있는 쇼핑몰입니다.",
+    "address": "Central",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "품목과 매장별 운영시간을 확인하고 구입할 물건을 정해 둘러보세요.",
+    "area": "센트럴·셩완",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Hong Kong/Central",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Hong_Kong/Central&oldid=5384017",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 buy 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 22.28536,
+    "lng": 114.15847
+  },
+  {
+    "id": "hongkong-balance-5367ec2fe0",
+    "cityId": "hongkong",
+    "name": "캣 스트리트",
+    "english": "Cat Street",
+    "category": "쇼핑",
+    "image": "/images/place-placeholder.svg",
+    "description": "셩완에서 골동품과 기념품을 살펴보는 거리입니다.",
+    "address": "Sheung Wan",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·이용 조건·공식 안내에서 확인",
+    "tip": "품목과 매장별 운영시간을 확인하고 구입할 물건을 정해 둘러보세요.",
+    "area": "센트럴·셩완",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Hong Kong/Central",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Hong_Kong/Central&oldid=5384017",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 buy 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ],
+    "lat": 22.28443,
+    "lng": 114.15062
+  },
+  {
+    "id": "saipan-balance-b5e4628204",
+    "cityId": "saipan",
+    "name": "스타 샌즈 플라자",
+    "english": "Star Sands Plaza",
+    "category": "쇼핑",
+    "image": "/images/place-placeholder.svg",
+    "description": "가라판에서 기념품과 생활용품을 살펴보는 쇼핑 공간입니다.",
+    "address": "가라판, 사이판",
+    "duration": "직접 체류시간 지정",
+    "cost": "구입 품목에 따라 다름",
+    "tip": "품목과 매장별 운영시간을 확인하고 구입할 물건을 정해 둘러보세요.",
+    "area": "가라판",
+    "lat": 15.210885,
+    "lng": 145.718175,
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Saipan 쇼핑",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Saipan&oldid=5304456",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드 Buy 본문과 개별 상점 marker의 이름·좌표를 읽었습니다. 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "id": "saipan-balance-f4362cec3f",
+    "cityId": "saipan",
+    "name": "조텐 가라판",
+    "english": "Joeten",
+    "category": "쇼핑",
+    "image": "/images/place-placeholder.svg",
+    "description": "가라판에서 생활용품과 지역 상품을 고를 수 있는 상점입니다.",
+    "address": "가라판, 사이판",
+    "duration": "직접 체류시간 지정",
+    "cost": "구입 품목에 따라 다름",
+    "tip": "품목과 매장별 운영시간을 확인하고 구입할 물건을 정해 둘러보세요.",
+    "area": "가라판",
+    "lat": 15.210339,
+    "lng": 145.717392,
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Saipan 쇼핑",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Saipan&oldid=5304456",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드 Buy 본문과 개별 상점 marker의 이름·좌표를 읽었습니다. 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "id": "sapporo-balance-tanukikoji",
+    "cityId": "sapporo",
+    "name": "다누키코지 상점가",
+    "english": "Tanuki Koji Shopping Arcade",
+    "category": "쇼핑",
+    "image": "/images/place-placeholder.svg",
+    "description": "도심에서 기념품과 여러 상점을 둘러볼 수 있는 지붕 있는 상점가입니다.",
+    "address": "삿포로 도심 다누키코지",
+    "duration": "직접 체류시간 지정",
+    "cost": "구입 품목에 따라 다름",
+    "tip": "품목과 매장별 운영시간을 확인하고 구입할 물건을 정해 둘러보세요.",
+    "area": "도심",
+    "reviewSources": [
+      {
+        "title": "Wikivoyage · Sapporo 쇼핑",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Sapporo&oldid=5386813",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-18",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "Buy 본문에서 상점가 이름과 기념품 쇼핑 안내를 확인했습니다. 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "id": "fukuoka-balance-rec-kitte",
+    "cityId": "fukuoka",
+    "name": "렉 커피 킷테 하카타점",
+    "english": "REC Coffee KITTE Hakata",
+    "category": "카페",
+    "image": "/images/place-placeholder.svg",
+    "description": "하카타역 쇼핑 사이에 커피를 마실 수 있는 킷테 하카타의 카페입니다.",
+    "address": "킷테 하카타 6층, 후쿠오카",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·공식 안내에서 확인",
+    "tip": "산책이나 쇼핑 사이에 쉬어갈 후보입니다. 좌석 이용·마지막 주문 시간은 방문 전 확인하세요.",
+    "reviewSources": [
+      {
+        "title": "후쿠오카 4박5일 여행 후기",
+        "url": "https://jamie-dev.tistory.com/218",
+        "kind": "visit-review",
+        "checkedAt": "2026-10-18",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "커피·음식 주문과 매장 방문 과정을 담은 개인 후기 본문 및 링크를 읽었습니다. 협찬 표시·예약 제휴·할인 코드를 발견하지 못했습니다. 숨은 이해관계나 현재 영업 상태를 보증하지 않습니다."
+      }
+    ]
+  },
+  {
+    "id": "fukuoka-balance-yamaha-y3t",
+    "cityId": "fukuoka",
+    "name": "야마하 쓰리 테라스",
+    "english": "Yamaha 3 Terrace (Y3T)",
+    "category": "카페",
+    "image": "/images/place-placeholder.svg",
+    "description": "창이 넓은 공간에서 프렌치토스트와 커피를 고를 수 있는 카페입니다.",
+    "address": "야쿠인, 후쿠오카",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·공식 안내에서 확인",
+    "tip": "산책이나 쇼핑 사이에 쉬어갈 후보입니다. 좌석 이용·마지막 주문 시간은 방문 전 확인하세요.",
+    "reviewSources": [
+      {
+        "title": "후쿠오카 4박5일 여행 후기",
+        "url": "https://jamie-dev.tistory.com/218",
+        "kind": "visit-review",
+        "checkedAt": "2026-10-18",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "커피·음식 주문과 매장 방문 과정을 담은 개인 후기 본문 및 링크를 읽었습니다. 협찬 표시·예약 제휴·할인 코드를 발견하지 못했습니다. 숨은 이해관계나 현재 영업 상태를 보증하지 않습니다."
+      }
+    ]
+  },
+  {
+    "id": "nagoya-balance-hario-nagoya",
+    "cityId": "nagoya",
+    "name": "하리오 카페 나고야점",
+    "english": "HARIO CAFE & Lampwork Factory Nagoya Store",
+    "category": "카페",
+    "image": "/images/place-placeholder.svg",
+    "description": "커피를 마시고 드리퍼와 유리 공예품도 살펴볼 수 있는 하리오 직영 카페입니다.",
+    "address": "3 Chome-5-11 Nishiki, Naka Ward, Nagoya",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·공식 안내에서 확인",
+    "tip": "산책이나 쇼핑 사이에 쉬어갈 후보입니다. 좌석 이용·마지막 주문 시간은 방문 전 확인하세요.",
+    "reviewSources": [
+      {
+        "title": "나고야 여행기 · 하리오 카페",
+        "url": "https://jeesus.tistory.com/453",
+        "kind": "visit-review",
+        "checkedAt": "2026-10-18",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "커피·음식 주문과 매장 방문 과정을 담은 개인 후기 본문 및 링크를 읽었습니다. 협찬 표시·예약 제휴·할인 코드를 발견하지 못했습니다. 숨은 이해관계나 현재 영업 상태를 보증하지 않습니다."
+      }
+    ]
+  }
+]

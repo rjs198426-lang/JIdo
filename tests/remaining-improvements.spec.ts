@@ -109,7 +109,7 @@ test('시간대는 날짜 변경선과 서머타임을 반영하며 잘못된 �
 test('새 식당·카페 13곳은 한글·좌표·검증 가능한 출처와 원문 증거를 갖춤', () => {
   const dining = places.filter((p) => p.id.includes('-dining-'))
   expect(dining).toHaveLength(13)
-  expect(places).toHaveLength(900)
+  expect(places).toHaveLength(1066)
   for (const place of dining) {
     expect(place.name).toMatch(/[가-힣]/)
     expect(place.lat).toBeGreaterThan(0)

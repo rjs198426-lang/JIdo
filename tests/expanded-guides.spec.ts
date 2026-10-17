@@ -21,7 +21,7 @@ test('새 여행권마다 고유 장소 20개, 원문 좌표·보관본 날짜·
     'danang',
   ])
   expect(cities).toHaveLength(21)
-  expect(places).toHaveLength(900)
+  expect(places).toHaveLength(1066)
   expect(provenance.currentOperationVerified).toBe(false)
   expect(provenance.snapshotDate).toBe('2016-10-27')
   const bounds: Record<string, number[]> = {
@@ -90,7 +90,7 @@ test('새 여행지·20개 장소·이동 가이드는 오프라인으로 읽고
   await page.getByRole('tab', { name: /가볼 만한 곳/ }).click()
   for (const guide of expandedGuides) {
     await page.getByLabel('가볼 만한 곳의 도시').selectOption(guide.city.id)
-    await expect(page.locator('.place-card')).toHaveCount(20)
+    await expect(page.locator('.place-card')).toHaveCount(24)
   }
   await page.getByLabel('가볼 만한 곳의 도시').selectOption('singapore')
   await page.getByLabel('여행지와 장소 검색').fill('Merlion')

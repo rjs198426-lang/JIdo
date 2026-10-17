@@ -1,3 +1,4 @@
+import { balancedPlaces } from './category-balance'
 import PlacePhoto from './PlacePhoto'
 import { useState } from 'react'
 import {
@@ -7,6 +8,8 @@ import {
   Coffee,
   BedDouble,
   Music,
+  ShoppingBag,
+  Sparkles,
 } from 'lucide-react'
 import { places, categoryOptions, type Place } from './catalog'
 const icons = {
@@ -15,6 +18,8 @@ const icons = {
   카페: Coffee,
   숙소: BedDouble,
   '바·공연': Music,
+  쇼핑: ShoppingBag,
+  체험: Sparkles,
 }
 export default function GuidePlaces({
   cityId,
@@ -26,7 +31,7 @@ export default function GuidePlaces({
   const [category, setCategory] =
     useState<(typeof categoryOptions)[number]>('전체')
   const [query, setQuery] = useState('')
-  const all = places.filter((place) => place.cityId === cityId)
+  const all = balancedPlaces(places.filter((place) => place.cityId === cityId))
   const filtered = all.filter(
     (place) =>
       (category === '전체' || place.category === category) &&

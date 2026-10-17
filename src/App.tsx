@@ -1,3 +1,4 @@
+import { balancedPlaces } from './category-balance'
 import CompanionCount from './CompanionCount'
 import DayTransfers from './DayTransfers'
 import DurationInput from './DurationInput'
@@ -100,6 +101,7 @@ import {
   Info,
   BedDouble,
   Music,
+  ShoppingBag,
 } from 'lucide-react'
 import { App as NativeApp } from '@capacitor/app'
 import { Capacitor } from '@capacitor/core'
@@ -183,6 +185,8 @@ const categoryIcon = {
   카페: Coffee,
   숙소: BedDouble,
   '바·공연': Music,
+  쇼핑: ShoppingBag,
+  체험: Sparkles,
 }
 
 function Modal({
@@ -2366,7 +2370,12 @@ export default function App() {
               )
             ) : filteredPlaces.length ? (
               <>
-                {placeCards(filteredPlaces.slice(0, placeLimit))}
+                {placeCards(
+                  (category === '전체'
+                    ? balancedPlaces(filteredPlaces)
+                    : filteredPlaces
+                  ).slice(0, placeLimit),
+                )}
                 {filteredPlaces.length > placeLimit && (
                   <button
                     className="button outline full places-load-more"

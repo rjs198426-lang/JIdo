@@ -1,3 +1,5 @@
+import { googlePlaceKind } from './place-categories'
+import type { customPlaceKinds } from './place-categories'
 import { googleMapsLink, mapsSearch } from './google-maps'
 
 export type GooglePlace = {
@@ -6,7 +8,7 @@ export type GooglePlace = {
   address: string
   link: string
   coordinates: { lat: number; lng: number }
-  kind: '관광' | '맛집' | '카페' | '숙소' | '이동' | '기타'
+  kind: (typeof customPlaceKinds)[number]
   attributions: { provider: string; url?: string }[]
 }
 type PlacesLibrary = Pick<google.maps.PlacesLibrary, 'Place'>
@@ -134,19 +136,7 @@ export async function searchGooglePlaces(
       )
         return []
       const types = place.types || []
-      const kind = types.includes('cafe')
-        ? '카페'
-        : types.includes('restaurant')
-          ? '맛집'
-          : types.includes('lodging')
-            ? '숙소'
-            : types.some((type) =>
-                  ['airport', 'train_station', 'transit_station'].includes(
-                    type,
-                  ),
-                )
-              ? '이동'
-              : '관광'
+      const kind = googlePlaceKind(types)
       const fallback = new URL(mapsSearch(`${lat},${lng}`))
       fallback.searchParams.set('query_place_id', place.id)
       const attributions = (place.attributions || []).flatMap((item) => {

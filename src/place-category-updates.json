@@ -1,0 +1,530 @@
+[
+  {
+    "id": "nishiki",
+    "cityId": "kyoto",
+    "name": "니시키 시장",
+    "previousCategory": "관광",
+    "category": "쇼핑",
+    "basis": "기존 내장 장소의 이름·설명·출처에 명시된 주된 이용 목적을 기준으로 분류를 수정. 장소 ID·위치·사진·원문 확인일은 보존."
+  },
+  {
+    "id": "kyoto-review-cd6b7c1644cf",
+    "cityId": "kyoto",
+    "name": "후나오카 온천",
+    "previousCategory": "관광",
+    "category": "체험",
+    "basis": "기존 내장 장소의 이름·설명·출처에 명시된 주된 이용 목적을 기준으로 분류를 수정. 장소 ID·위치·사진·원문 확인일은 보존."
+  },
+  {
+    "id": "kyoto-review-d06e0564f87b",
+    "cityId": "kyoto",
+    "name": "도에이 우즈마사 영화마을",
+    "previousCategory": "관광",
+    "category": "체험",
+    "basis": "기존 내장 장소의 이름·설명·출처에 명시된 주된 이용 목적을 기준으로 분류를 수정. 장소 ID·위치·사진·원문 확인일은 보존."
+  },
+  {
+    "id": "ubud-market",
+    "cityId": "bali",
+    "name": "우붓 시장",
+    "previousCategory": "관광",
+    "category": "쇼핑",
+    "basis": "기존 내장 장소의 이름·설명·출처에 명시된 주된 이용 목적을 기준으로 분류를 수정. 장소 ID·위치·사진·원문 확인일은 보존."
+  },
+  {
+    "id": "bali-review-1f9bc5563554",
+    "cityId": "bali",
+    "name": "위나 안경점",
+    "previousCategory": "관광",
+    "category": "쇼핑",
+    "basis": "기존 내장 장소의 이름·설명·출처에 명시된 주된 이용 목적을 기준으로 분류를 수정. 장소 ID·위치·사진·원문 확인일은 보존."
+  },
+  {
+    "id": "bali-review-ec60946d5563",
+    "cityId": "bali",
+    "name": "아르타세다나",
+    "previousCategory": "관광",
+    "category": "쇼핑",
+    "basis": "기존 내장 장소의 이름·설명·출처에 명시된 주된 이용 목적을 기준으로 분류를 수정. 장소 ID·위치·사진·원문 확인일은 보존."
+  },
+  {
+    "id": "bali-review-8292daa93244",
+    "cityId": "bali",
+    "name": "파라디소 볼링센터",
+    "previousCategory": "관광",
+    "category": "체험",
+    "basis": "기존 내장 장소의 이름·설명·출처에 명시된 주된 이용 목적을 기준으로 분류를 수정. 장소 ID·위치·사진·원문 확인일은 보존."
+  },
+  {
+    "id": "bali-review-54b9c601b806",
+    "cityId": "bali",
+    "name": "반자르 온천",
+    "previousCategory": "관광",
+    "category": "체험",
+    "basis": "기존 내장 장소의 이름·설명·출처에 명시된 주된 이용 목적을 기준으로 분류를 수정. 장소 ID·위치·사진·원문 확인일은 보존."
+  },
+  {
+    "id": "bali-review-299050dddab0",
+    "cityId": "bali",
+    "name": "워터봄 발리",
+    "previousCategory": "관광",
+    "category": "체험",
+    "basis": "기존 내장 장소의 이름·설명·출처에 명시된 주된 이용 목적을 기준으로 분류를 수정. 장소 ID·위치·사진·원문 확인일은 보존."
+  },
+  {
+    "id": "bangkok-review-93ee61e07ea5",
+    "cityId": "bangkok",
+    "name": "아이콘시암",
+    "previousCategory": "관광",
+    "category": "쇼핑",
+    "basis": "기존 내장 장소의 이름·설명·출처에 명시된 주된 이용 목적을 기준으로 분류를 수정. 장소 ID·위치·사진·원문 확인일은 보존."
+  },
+  {
+    "id": "bangkok-review-8be09893e6a6",
+    "cityId": "bangkok",
+    "name": "쁘라뚜남 시장",
+    "previousCategory": "관광",
+    "category": "쇼핑",
+    "basis": "기존 내장 장소의 이름·설명·출처에 명시된 주된 이용 목적을 기준으로 분류를 수정. 장소 ID·위치·사진·원문 확인일은 보존."
+  },
+  {
+    "id": "santorini-review-e71c30954b08",
+    "cityId": "santorini",
+    "name": "올드 셀러 기념품점",
+    "previousCategory": "관광",
+    "category": "쇼핑",
+    "basis": "기존 내장 장소의 이름·설명·출처에 명시된 주된 이용 목적을 기준으로 분류를 수정. 장소 ID·위치·사진·원문 확인일은 보존."
+  },
+  {
+    "id": "santorini-review-5e137b24a372",
+    "cityId": "santorini",
+    "name": "고대 아크로티리 박물관 기념품점",
+    "previousCategory": "관광",
+    "category": "쇼핑",
+    "basis": "기존 내장 장소의 이름·설명·출처에 명시된 주된 이용 목적을 기준으로 분류를 수정. 장소 ID·위치·사진·원문 확인일은 보존."
+  },
+  {
+    "id": "santorini-review-b026929375f5",
+    "cityId": "santorini",
+    "name": "안나스 미니마켓",
+    "previousCategory": "관광",
+    "category": "쇼핑",
+    "basis": "기존 내장 장소의 이름·설명·출처에 명시된 주된 이용 목적을 기준으로 분류를 수정. 장소 ID·위치·사진·원문 확인일은 보존."
+  },
+  {
+    "id": "santorini-review-17b1bcb88a6f",
+    "cityId": "santorini",
+    "name": "카마리 야외영화관",
+    "previousCategory": "관광",
+    "category": "체험",
+    "basis": "기존 내장 장소의 이름·설명·출처에 명시된 주된 이용 목적을 기준으로 분류를 수정. 장소 ID·위치·사진·원문 확인일은 보존."
+  },
+  {
+    "id": "santorini-review-bffde9b14f4d",
+    "cityId": "santorini",
+    "name": "화이트 도어 극장",
+    "previousCategory": "관광",
+    "category": "바·공연",
+    "basis": "현재 확인한 Wikivoyage do 항목 및 기존 장소 이름·주소를 대조."
+  },
+  {
+    "id": "santorini-review-2e4283ee58b6",
+    "cityId": "santorini",
+    "name": "산토리니 젠 스파",
+    "previousCategory": "관광",
+    "category": "체험",
+    "basis": "기존 내장 장소의 이름·설명·출처에 명시된 주된 이용 목적을 기준으로 분류를 수정. 장소 ID·위치·사진·원문 확인일은 보존."
+  },
+  {
+    "id": "dubai-review-2d9db81044cf",
+    "cityId": "dubai",
+    "name": "두바이 몰",
+    "previousCategory": "관광",
+    "category": "쇼핑",
+    "basis": "기존 내장 장소의 이름·설명·출처에 명시된 주된 이용 목적을 기준으로 분류를 수정. 장소 ID·위치·사진·원문 확인일은 보존."
+  },
+  {
+    "id": "dubai-review-68857363e1b4",
+    "cityId": "dubai",
+    "name": "두바이 아웃렛몰",
+    "previousCategory": "관광",
+    "category": "쇼핑",
+    "basis": "기존 내장 장소의 이름·설명·출처에 명시된 주된 이용 목적을 기준으로 분류를 수정. 장소 ID·위치·사진·원문 확인일은 보존."
+  },
+  {
+    "id": "dubai-review-ca675a267f90",
+    "cityId": "dubai",
+    "name": "스키 두바이",
+    "previousCategory": "관광",
+    "category": "체험",
+    "basis": "현재 확인한 Wikivoyage do 항목 및 기존 장소 이름·주소를 대조."
+  },
+  {
+    "id": "dubai-review-ab9e154ce8f6",
+    "cityId": "dubai",
+    "name": "두바이 파크 앤 리조트",
+    "previousCategory": "관광",
+    "category": "체험",
+    "basis": "기존 내장 장소의 이름·설명·출처에 명시된 주된 이용 목적을 기준으로 분류를 수정. 장소 ID·위치·사진·원문 확인일은 보존."
+  },
+  {
+    "id": "dubai-review-a210d8e9f4cf",
+    "cityId": "dubai",
+    "name": "시네시티 알 구레르 센터",
+    "previousCategory": "관광",
+    "category": "체험",
+    "basis": "기존 내장 장소의 이름·설명·출처에 명시된 주된 이용 목적을 기준으로 분류를 수정. 장소 ID·위치·사진·원문 확인일은 보존."
+  },
+  {
+    "id": "male-market",
+    "cityId": "maldives",
+    "name": "말레 피시 마켓",
+    "previousCategory": "관광",
+    "category": "쇼핑",
+    "basis": "기존 내장 장소의 이름·설명·출처에 명시된 주된 이용 목적을 기준으로 분류를 수정. 장소 ID·위치·사진·원문 확인일은 보존."
+  },
+  {
+    "id": "tokyo-review-a45369c140d6",
+    "cityId": "tokyo",
+    "name": "쓰키지 장외시장",
+    "previousCategory": "관광",
+    "category": "쇼핑",
+    "basis": "기존 내장 장소의 이름·설명·출처에 명시된 주된 이용 목적을 기준으로 분류를 수정. 장소 ID·위치·사진·원문 확인일은 보존."
+  },
+  {
+    "id": "osaka-review-2907582a9780",
+    "cityId": "osaka",
+    "name": "스파월드",
+    "previousCategory": "관광",
+    "category": "체험",
+    "basis": "기존 내장 장소의 이름·설명·출처에 명시된 주된 이용 목적을 기준으로 분류를 수정. 장소 ID·위치·사진·원문 확인일은 보존."
+  },
+  {
+    "id": "osaka-review-14d4434d093c",
+    "cityId": "osaka",
+    "name": "오사카 시립 덴노지 스포츠센터",
+    "previousCategory": "관광",
+    "category": "체험",
+    "basis": "기존 내장 장소의 이름·설명·출처에 명시된 주된 이용 목적을 기준으로 분류를 수정. 장소 ID·위치·사진·원문 확인일은 보존."
+  },
+  {
+    "id": "osaka-review-2ee7e4f01b93",
+    "cityId": "osaka",
+    "name": "구로몬 시장",
+    "previousCategory": "관광",
+    "category": "쇼핑",
+    "basis": "기존 내장 장소의 이름·설명·출처에 명시된 주된 이용 목적을 기준으로 분류를 수정. 장소 ID·위치·사진·원문 확인일은 보존."
+  },
+  {
+    "id": "osaka-review-47c70650e824",
+    "cityId": "osaka",
+    "name": "아베노 큐즈몰",
+    "previousCategory": "관광",
+    "category": "쇼핑",
+    "basis": "기존 내장 장소의 이름·설명·출처에 명시된 주된 이용 목적을 기준으로 분류를 수정. 장소 ID·위치·사진·원문 확인일은 보존."
+  },
+  {
+    "id": "osaka-review-1850b76a628a",
+    "cityId": "osaka",
+    "name": "히라노 혼마치도리 상점가",
+    "previousCategory": "관광",
+    "category": "쇼핑",
+    "basis": "기존 내장 장소의 이름·설명·출처에 명시된 주된 이용 목적을 기준으로 분류를 수정. 장소 ID·위치·사진·원문 확인일은 보존."
+  },
+  {
+    "id": "yokohama-review-040c8c2ae64e",
+    "cityId": "yokohama",
+    "name": "요코하마 코스모월드",
+    "previousCategory": "관광",
+    "category": "체험",
+    "basis": "기존 내장 장소의 이름·설명·출처에 명시된 주된 이용 목적을 기준으로 분류를 수정. 장소 ID·위치·사진·원문 확인일은 보존."
+  },
+  {
+    "id": "nagoya-osu",
+    "cityId": "nagoya",
+    "name": "오스 상점가",
+    "previousCategory": "관광",
+    "category": "쇼핑",
+    "basis": "기존 내장 장소의 이름·설명·출처에 명시된 주된 이용 목적을 기준으로 분류를 수정. 장소 ID·위치·사진·원문 확인일은 보존."
+  },
+  {
+    "id": "nagoya-review-50dd3b74c667",
+    "cityId": "nagoya",
+    "name": "지브리 파크",
+    "previousCategory": "관광",
+    "category": "체험",
+    "basis": "기존 내장 장소의 이름·설명·출처에 명시된 주된 이용 목적을 기준으로 분류를 수정. 장소 ID·위치·사진·원문 확인일은 보존."
+  },
+  {
+    "id": "nagoya-review-44ca6fcbf80d",
+    "cityId": "nagoya",
+    "name": "이온몰 도코나메",
+    "previousCategory": "관광",
+    "category": "쇼핑",
+    "basis": "기존 내장 장소의 이름·설명·출처에 명시된 주된 이용 목적을 기준으로 분류를 수정. 장소 ID·위치·사진·원문 확인일은 보존."
+  },
+  {
+    "id": "nagoya-review-8bdd41779d56",
+    "cityId": "nagoya",
+    "name": "마루젠 서점",
+    "previousCategory": "관광",
+    "category": "쇼핑",
+    "basis": "현재 확인한 Wikivoyage buy 항목 및 기존 장소 이름·주소를 대조."
+  },
+  {
+    "id": "nagoya-review-d42c1437613f",
+    "cityId": "nagoya",
+    "name": "산세이도 서점",
+    "previousCategory": "관광",
+    "category": "쇼핑",
+    "basis": "현재 확인한 Wikivoyage buy 항목 및 기존 장소 이름·주소를 대조."
+  },
+  {
+    "id": "nagoya-review-cfe3da179ab2",
+    "cityId": "nagoya",
+    "name": "미들랜드 스퀘어 시네마",
+    "previousCategory": "관광",
+    "category": "체험",
+    "basis": "현재 확인한 Wikivoyage do 항목 및 기존 장소 이름·주소를 대조."
+  },
+  {
+    "id": "nagoya-review-30d540884687",
+    "cityId": "nagoya",
+    "name": "109 시네마 나고야",
+    "previousCategory": "관광",
+    "category": "체험",
+    "basis": "기존 내장 장소의 이름·설명·출처에 명시된 주된 이용 목적을 기준으로 분류를 수정. 장소 ID·위치·사진·원문 확인일은 보존."
+  },
+  {
+    "id": "sapporo-review-4ef88b16d995",
+    "cityId": "sapporo",
+    "name": "호헤이쿄 온천",
+    "previousCategory": "관광",
+    "category": "체험",
+    "basis": "현재 확인한 Wikivoyage do 항목 및 기존 장소 이름·주소를 대조."
+  },
+  {
+    "id": "fukuoka-review-7a964255b354",
+    "cityId": "fukuoka",
+    "name": "나카스 가와바타 상점가",
+    "previousCategory": "관광",
+    "category": "쇼핑",
+    "basis": "기존 내장 장소의 이름·설명·출처에 명시된 주된 이용 목적을 기준으로 분류를 수정. 장소 ID·위치·사진·원문 확인일은 보존."
+  },
+  {
+    "id": "fukuoka-review-034f141770d7",
+    "cityId": "fukuoka",
+    "name": "고노하몰 하시모토",
+    "previousCategory": "관광",
+    "category": "쇼핑",
+    "basis": "기존 내장 장소의 이름·설명·출처에 명시된 주된 이용 목적을 기준으로 분류를 수정. 장소 ID·위치·사진·원문 확인일은 보존."
+  },
+  {
+    "id": "fukuoka-review-530980286e42",
+    "cityId": "fukuoka",
+    "name": "마린월드 우미노나카미치",
+    "previousCategory": "관광",
+    "category": "체험",
+    "basis": "기존 내장 장소의 이름·설명·출처에 명시된 주된 이용 목적을 기준으로 분류를 수정. 장소 ID·위치·사진·원문 확인일은 보존."
+  },
+  {
+    "id": "hiroshima-review-fdb0caf8d968",
+    "cityId": "hiroshima",
+    "name": "선몰",
+    "previousCategory": "관광",
+    "category": "쇼핑",
+    "basis": "기존 내장 장소의 이름·설명·출처에 명시된 주된 이용 목적을 기준으로 분류를 수정. 장소 ID·위치·사진·원문 확인일은 보존."
+  },
+  {
+    "id": "kobe-review-930aee210b94",
+    "cityId": "kobe",
+    "name": "하마후쿠쓰루 긴조공방·매장",
+    "previousCategory": "관광",
+    "category": "체험",
+    "basis": "기존 내장 장소의 이름·설명·출처에 명시된 주된 이용 목적을 기준으로 분류를 수정. 장소 ID·위치·사진·원문 확인일은 보존."
+  },
+  {
+    "id": "kobe-review-5f32b37d4713",
+    "cityId": "kobe",
+    "name": "히메지 센트럴파크",
+    "previousCategory": "관광",
+    "category": "체험",
+    "basis": "기존 내장 장소의 이름·설명·출처에 명시된 주된 이용 목적을 기준으로 분류를 수정. 장소 ID·위치·사진·원문 확인일은 보존."
+  },
+  {
+    "id": "sendai-review-47fc0f351268",
+    "cityId": "sendai",
+    "name": "히라가 고케시점",
+    "previousCategory": "관광",
+    "category": "쇼핑",
+    "basis": "기존 내장 장소의 이름·설명·출처에 명시된 주된 이용 목적을 기준으로 분류를 수정. 장소 ID·위치·사진·원문 확인일은 보존."
+  },
+  {
+    "id": "sendai-review-8919f476c46e",
+    "cityId": "sendai",
+    "name": "베니랜드",
+    "previousCategory": "관광",
+    "category": "체험",
+    "basis": "기존 내장 장소의 이름·설명·출처에 명시된 주된 이용 목적을 기준으로 분류를 수정. 장소 ID·위치·사진·원문 확인일은 보존."
+  },
+  {
+    "id": "sendai-review-08284bf31044",
+    "cityId": "sendai",
+    "name": "산쿄자와 교통공원",
+    "previousCategory": "관광",
+    "category": "체험",
+    "basis": "기존 내장 장소의 이름·설명·출처에 명시된 주된 이용 목적을 기준으로 분류를 수정. 장소 ID·위치·사진·원문 확인일은 보존."
+  },
+  {
+    "id": "taipei-guide-efbe7e846207",
+    "cityId": "taipei",
+    "name": "타이베이 101 쇼핑몰",
+    "previousCategory": "관광",
+    "category": "쇼핑",
+    "basis": "기존 내장 장소의 이름·설명·출처에 명시된 주된 이용 목적을 기준으로 분류를 수정. 장소 ID·위치·사진·원문 확인일은 보존."
+  },
+  {
+    "id": "taipei-guide-fce11ef0e9f1",
+    "cityId": "taipei",
+    "name": "벨라비타 쇼핑몰",
+    "previousCategory": "관광",
+    "category": "쇼핑",
+    "basis": "기존 내장 장소의 이름·설명·출처에 명시된 주된 이용 목적을 기준으로 분류를 수정. 장소 ID·위치·사진·원문 확인일은 보존."
+  },
+  {
+    "id": "taipei-guide-11658c833418",
+    "cityId": "taipei",
+    "name": "젠궈 휴일 옥시장",
+    "previousCategory": "관광",
+    "category": "쇼핑",
+    "basis": "기존 내장 장소의 이름·설명·출처에 명시된 주된 이용 목적을 기준으로 분류를 수정. 장소 ID·위치·사진·원문 확인일은 보존."
+  },
+  {
+    "id": "hongkong-guide-f387af1e434c",
+    "cityId": "hongkong",
+    "name": "홍콩 디즈니랜드",
+    "previousCategory": "관광",
+    "category": "체험",
+    "basis": "기존 내장 장소의 이름·설명·출처에 명시된 주된 이용 목적을 기준으로 분류를 수정. 장소 ID·위치·사진·원문 확인일은 보존."
+  },
+  {
+    "id": "hongkong-guide-69e2a031536a",
+    "cityId": "hongkong",
+    "name": "홍콩 마담 투소",
+    "previousCategory": "관광",
+    "category": "체험",
+    "basis": "기존 내장 장소의 이름·설명·출처에 명시된 주된 이용 목적을 기준으로 분류를 수정. 장소 ID·위치·사진·원문 확인일은 보존."
+  },
+  {
+    "id": "singapore-guide-c4ca281387ad",
+    "cityId": "singapore",
+    "name": "나이트 사파리",
+    "previousCategory": "관광",
+    "category": "체험",
+    "basis": "기존 내장 장소의 이름·설명·출처에 명시된 주된 이용 목적을 기준으로 분류를 수정. 장소 ID·위치·사진·원문 확인일은 보존."
+  },
+  {
+    "id": "danang-guide-bfbc0f6a9a38",
+    "cityId": "danang",
+    "name": "한시장",
+    "previousCategory": "관광",
+    "category": "쇼핑",
+    "basis": "기존 내장 장소의 이름·설명·출처에 명시된 주된 이용 목적을 기준으로 분류를 수정. 장소 ID·위치·사진·원문 확인일은 보존."
+  },
+  {
+    "id": "danang-guide-c9deaa06b77b",
+    "cityId": "danang",
+    "name": "다낭 롯데마트",
+    "previousCategory": "관광",
+    "category": "쇼핑",
+    "basis": "기존 내장 장소의 이름·설명·출처에 명시된 주된 이용 목적을 기준으로 분류를 수정. 장소 ID·위치·사진·원문 확인일은 보존."
+  },
+  {
+    "id": "guam-premier-outlets",
+    "cityId": "guam",
+    "name": "괌 프리미어 아울렛",
+    "previousCategory": "관광",
+    "category": "쇼핑",
+    "basis": "기존 내장 장소의 이름·설명·출처에 명시된 주된 이용 목적을 기준으로 분류를 수정. 장소 ID·위치·사진·원문 확인일은 보존."
+  },
+  {
+    "id": "guam-fish-eye",
+    "cityId": "guam",
+    "name": "피시아이 마린파크",
+    "previousCategory": "관광",
+    "category": "체험",
+    "basis": "기존 내장 장소의 이름·설명·출처에 명시된 주된 이용 목적을 기준으로 분류를 수정. 장소 ID·위치·사진·원문 확인일은 보존."
+  },
+  {
+    "id": "saipan-grotto",
+    "cityId": "saipan",
+    "name": "그로토",
+    "previousCategory": "관광",
+    "category": "체험",
+    "basis": "기존 내장 장소의 이름·설명·출처에 명시된 주된 이용 목적을 기준으로 분류를 수정. 장소 ID·위치·사진·원문 확인일은 보존."
+  },
+  {
+    "id": "maldives-review-52882bbbc1b0",
+    "cityId": "maldives",
+    "name": "에스티오 피플스 초이스 슈퍼마켓",
+    "previousCategory": "관광",
+    "category": "쇼핑",
+    "basis": "현재 확인한 Wikivoyage buy 항목 및 기존 장소 이름·주소를 대조."
+  },
+  {
+    "id": "sapporo-review-4fdea41a4388",
+    "cityId": "sapporo",
+    "name": "데이네산",
+    "previousCategory": "관광",
+    "category": "체험",
+    "basis": "현재 확인한 Wikivoyage do 항목 및 기존 장소 이름·주소를 대조."
+  },
+  {
+    "id": "hiroshima-review-a43e067d1dea",
+    "cityId": "hiroshima",
+    "name": "히로시마 파르코",
+    "previousCategory": "관광",
+    "category": "쇼핑",
+    "basis": "현재 확인한 Wikivoyage buy 항목 및 기존 장소 이름·주소를 대조."
+  },
+  {
+    "id": "hiroshima-review-bf3e5dd10e24",
+    "cityId": "hiroshima",
+    "name": "에디온",
+    "previousCategory": "관광",
+    "category": "쇼핑",
+    "basis": "현재 확인한 Wikivoyage buy 항목 및 기존 장소 이름·주소를 대조."
+  },
+  {
+    "id": "hiroshima-review-53fd83a987dd",
+    "cityId": "hiroshima",
+    "name": "라운드원",
+    "previousCategory": "관광",
+    "category": "체험",
+    "basis": "현재 확인한 Wikivoyage do 항목 및 기존 장소 이름·주소를 대조."
+  },
+  {
+    "id": "fukuoka-review-4d6c928cd333",
+    "cityId": "fukuoka",
+    "name": "마크이즈 후쿠오카 모모치",
+    "previousCategory": "관광",
+    "category": "쇼핑",
+    "basis": "현재 확인한 Wikivoyage buy 항목 및 기존 장소 이름·주소를 대조."
+  },
+  {
+    "id": "dubai-review-dc533b69e3d0",
+    "cityId": "dubai",
+    "name": "아쿠아벤처 워터파크",
+    "previousCategory": "관광",
+    "category": "체험",
+    "basis": "현재 확인한 Wikivoyage do 항목 및 기존 장소 이름·주소를 대조."
+  },
+  {
+    "id": "osaka-review-58411af3d281",
+    "cityId": "osaka",
+    "name": "실버볼 플래닛",
+    "previousCategory": "관광",
+    "category": "체험",
+    "basis": "현재 확인한 Wikivoyage do 항목 및 기존 장소 이름·주소를 대조."
+  }
+]

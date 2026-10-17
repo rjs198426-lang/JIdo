@@ -1,3 +1,4 @@
+import { placeCategories } from './place-categories.ts'
 import { z } from 'zod'
 import { reviewSourceSchema } from './review-source.ts'
 
@@ -64,7 +65,7 @@ export const placeSchema = z
     cityId: id,
     name: required(120),
     english: text(150),
-    category: z.enum(['관광', '맛집', '카페', '숙소', '바·공연']),
+    category: z.enum(placeCategories),
     image,
     photoCredit: photoCreditSchema.optional(),
     description: required(3000),

@@ -1,3 +1,4 @@
+import { balancedPlaces } from './category-balance'
 import { useState } from 'react'
 import { Check, Plus, Search, MapPin, Clock3 } from 'lucide-react'
 import { places, categoryOptions, getCity } from './catalog'
@@ -41,9 +42,9 @@ export default function PlacePicker({
   const saved = registeredPlaces(trips, destination).filter((place) =>
     matchesRegisteredPlace(place, query),
   )
-  const available = known.filter(
-    (place) => category === '전체' || place.category === category,
-  )
+  const available = (
+    category === '전체' ? balancedPlaces(known) : known
+  ).filter((place) => category === '전체' || place.category === category)
   const reused = saved.filter(
     (place) => category === '전체' || place.custom.kind === category,
   )

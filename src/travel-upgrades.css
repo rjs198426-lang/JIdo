@@ -74,8 +74,8 @@
 
 .guide-place-categories {
   display: flex;
-  flex-wrap: nowrap;
-  overflow-x: auto;
+  flex-wrap: wrap;
+  overflow-x: visible;
   gap: 8px;
   padding: 4px 0 12px;
   margin: 0 0 4px;

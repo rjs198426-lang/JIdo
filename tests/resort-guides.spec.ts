@@ -17,7 +17,7 @@ async function navigate(page: Page, name: string) {
 
 test('괌·사이판은 휴양지에 명소 20곳씩 포함하고 미확인 위치를 만들지 않음', () => {
   expect(cities).toHaveLength(21)
-  expect(places).toHaveLength(900)
+  expect(places).toHaveLength(1066)
   for (const guide of resortGuides) {
     expect(guide.city.region).toBe('휴양지')
     expect(guide.places).toHaveLength(20)
@@ -73,7 +73,7 @@ test('휴양지 필터에 두 섬, 기본 사이판 전경·출처와 각 20개 
   await page.getByRole('tab', { name: /가볼 만한 곳/ }).click()
   for (const id of ['guam', 'saipan']) {
     await page.getByLabel('가볼 만한 곳의 도시').selectOption(id)
-    await expect(page.locator('.place-card')).toHaveCount(20)
+    await expect(page.locator('.place-card')).toHaveCount(24)
   }
 })
 

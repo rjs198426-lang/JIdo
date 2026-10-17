@@ -1,3 +1,4 @@
+import { customPlaceKinds } from './place-categories'
 import { attachmentSchema } from './attachment-schema'
 import { z } from 'zod'
 import { getCity, getPlace } from './catalog'
@@ -50,7 +51,7 @@ export const destinationSchema = z.object({
 })
 export const customPlaceSchema = z.object({
   name: label,
-  kind: z.enum(['관광', '맛집', '카페', '숙소', '이동', '기타']),
+  kind: z.enum(customPlaceKinds),
   address: z.string().trim().max(500),
   link: safeLink,
   destinationId: id,

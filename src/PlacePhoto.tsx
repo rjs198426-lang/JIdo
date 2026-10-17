@@ -7,6 +7,8 @@ import {
   Coffee,
   BedDouble,
   Music,
+  ShoppingBag,
+  Sparkles,
 } from 'lucide-react'
 import { AttachmentsContext } from './AttachmentsPanel'
 import { attachmentUrl } from './attachment-storage'
@@ -95,6 +97,8 @@ export default function PlacePhoto({
         카페: Coffee,
         숙소: BedDouble,
         '바·공연': Music,
+        쇼핑: ShoppingBag,
+        체험: Sparkles,
       } as Record<string, typeof ImageIcon>
     )[catalog?.category || stop?.custom?.kind || ''] || ImageIcon
   return (

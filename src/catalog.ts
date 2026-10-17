@@ -1,3 +1,4 @@
+import { currentPlaceCategory } from './category-balance'
 import { useState, useSyncExternalStore } from 'react'
 import {
   cities as bundledCities,
@@ -63,7 +64,7 @@ function currentPhoto<
 }
 function currentPlace(value: (typeof bundledPlaces)[number]) {
   const bundled = bundledPlaces.find((place) => place.id === value.id)
-  value = currentPlaceName(value, bundled)
+  value = currentPlaceCategory(currentPlaceName(value, bundled))
   const updated = withBlogNotes(currentPhoto(value, bundled))
   if (
     bundled?.reviewSources?.length &&

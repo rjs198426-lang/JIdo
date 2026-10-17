@@ -35,3 +35,10 @@ excerpts are retained in expanded-place-sources.json. Korean names, brief
 factual summaries, area labels and planning tips were written for JDo.
 These adaptations are offered under CC BY-SA 3.0. Live popularity rankings,
 current operation, opening hours and prices were not verified from this archive.
+
+Category expansion checked 2026-10-18 (Asia/Seoul):
+163 new records use current Wikivoyage individual listings and named shopping
+paragraphs under CC BY-SA 4.0. Source revisions, original listing text and
+coordinate evidence are retained in category-place-research.json. Changes:
+selection, Korean summaries and category mapping. Three additional cafes use
+factual summaries of two personal blog visits; no blog prose or photos copied.

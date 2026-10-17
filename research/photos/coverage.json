@@ -9,9 +9,9 @@
     },
     {
       "kind": "place",
-      "total": 900,
+      "total": 1066,
       "ready": 70,
-      "missing": 830
+      "missing": 996
     }
   ],
   "missing": [
@@ -6770,6 +6770,1500 @@
       "id": "tokyo-dining-a6e4a41e23",
       "name": "아사쿠사 나니와야",
       "cityId": "tokyo",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "kyoto-balance-a399aaa2bc",
+      "name": "무사시 스시 산조점",
+      "cityId": "kyoto",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "kyoto-balance-9b756093a0",
+      "name": "호텔 몬토레 교토",
+      "cityId": "kyoto",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "kyoto-balance-8c96335a64",
+      "name": "마루후쿠로",
+      "cityId": "kyoto",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "kyoto-balance-602ff118c5",
+      "name": "사케 바 요라무",
+      "cityId": "kyoto",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "kyoto-balance-73122530a7",
+      "name": "케이야",
+      "cityId": "kyoto",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "kyoto-balance-287d25639a",
+      "name": "카멜리아 다도 체험",
+      "cityId": "kyoto",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "kyoto-balance-a3c44f2870",
+      "name": "니시진 직물센터",
+      "cityId": "kyoto",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "kyoto-balance-76f15f0d0d",
+      "name": "라쿠시샤 종이공예점",
+      "cityId": "kyoto",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "kyoto-balance-71c92f0cf7",
+      "name": "준쿠도 교토점",
+      "cityId": "kyoto",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "bali-balance-aeac2e2b37",
+      "name": "이부 오카 우붓 본점",
+      "cityId": "bali",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "bali-balance-c7219a638e",
+      "name": "나시 아얌 크데와탄 이부 망쿠",
+      "cityId": "bali",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "bali-balance-5d6cb631b0",
+      "name": "세니만 커피 스튜디오",
+      "cityId": "bali",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "bali-balance-e65176a21c",
+      "name": "폴드 우붓",
+      "cityId": "bali",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "bali-balance-eb87e86095",
+      "name": "포시즌스 리조트 발리 앳 사얀",
+      "cityId": "bali",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "bali-balance-9495cfc198",
+      "name": "마야 우붓",
+      "cityId": "bali",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "bali-balance-96a3e580cb",
+      "name": "멜팅 팟 게임룸 앤 펍",
+      "cityId": "bali",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "bali-balance-e25d88287c",
+      "name": "파온 발리 쿠킹 클래스",
+      "cityId": "bali",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "bali-balance-aee57d160f",
+      "name": "요가 반",
+      "cityId": "bali",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "bali-balance-6ef25c2053",
+      "name": "가네샤 서점",
+      "cityId": "bali",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "bali-balance-36906e3097",
+      "name": "스레즈 오브 라이프",
+      "cityId": "bali",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "bangkok-balance-94d9b6f7f8",
+      "name": "쏨땀 누아 시암점",
+      "cityId": "bangkok",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "bangkok-balance-097783e776",
+      "name": "쁘라짝 식당",
+      "cityId": "bangkok",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "bangkok-balance-b1b0096d5b",
+      "name": "에이티티 나인틴 카페",
+      "cityId": "bangkok",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "bangkok-balance-f2472c580f",
+      "name": "헤이지",
+      "cityId": "bangkok",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "bangkok-balance-fc2f5579cf",
+      "name": "그랜드 하얏트 에라완 방콕",
+      "cityId": "bangkok",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "bangkok-balance-db6b05e331",
+      "name": "만다린 오리엔탈 방콕",
+      "cityId": "bangkok",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "bangkok-balance-6c1385b65e",
+      "name": "뱀부 바",
+      "cityId": "bangkok",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "bangkok-balance-d8aef2fdbd",
+      "name": "스카이 바 방콕",
+      "cityId": "bangkok",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "bangkok-balance-7761bbea37",
+      "name": "엠비케이 센터",
+      "cityId": "bangkok",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "bangkok-balance-71f236ff82",
+      "name": "시암 파라곤",
+      "cityId": "bangkok",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "bangkok-balance-8d9e861786",
+      "name": "센터 포인트 마사지 앤 스파",
+      "cityId": "bangkok",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "bangkok-balance-70b97ea9f7",
+      "name": "바디 튠 실롬",
+      "cityId": "bangkok",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "maldives-balance-0d45bf3d37",
+      "name": "웨일 서브마린",
+      "cityId": "maldives",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "maldives-balance-629e99dc8c",
+      "name": "말레 로컬 마켓",
+      "cityId": "maldives",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "maldives-balance-28d36da638",
+      "name": "바르셀로 나산두라",
+      "cityId": "maldives",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "tokyo-balance-66ca51339a",
+      "name": "아카시아 신주쿠",
+      "cityId": "tokyo",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "tokyo-balance-f5e9c0c11a",
+      "name": "갓포 나카지마",
+      "cityId": "tokyo",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "tokyo-balance-9c6882656d",
+      "name": "아카 아마 커피",
+      "cityId": "tokyo",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "tokyo-balance-266f23d6a2",
+      "name": "호텔 선루트 플라자 신주쿠",
+      "cityId": "tokyo",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "tokyo-balance-737773ce21",
+      "name": "게이오 플라자 호텔",
+      "cityId": "tokyo",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "tokyo-balance-d5adffc4bb",
+      "name": "바 알바트로스 골든가이",
+      "cityId": "tokyo",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "tokyo-balance-d11f30abc8",
+      "name": "뉴욕 바 앤 그릴",
+      "cityId": "tokyo",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "tokyo-balance-22454d9923",
+      "name": "이세탄 신주쿠점",
+      "cityId": "tokyo",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "tokyo-balance-f569dc38a6",
+      "name": "기노쿠니야 서점 신주쿠",
+      "cityId": "tokyo",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "tokyo-balance-b43ed57afc",
+      "name": "신주쿠 피카딜리",
+      "cityId": "tokyo",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "tokyo-balance-98b1bed6ab",
+      "name": "하나야시키",
+      "cityId": "tokyo",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "yokohama-balance-2e205e297c",
+      "name": "시타테야",
+      "cityId": "yokohama",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "yokohama-balance-1b5c174cfe",
+      "name": "만친로",
+      "cityId": "yokohama",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "yokohama-balance-01c4e70616",
+      "name": "분노스케 차야 요코하마점",
+      "cityId": "yokohama",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "yokohama-balance-8cc03dc040",
+      "name": "차노마 요코하마",
+      "cityId": "yokohama",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "yokohama-balance-4669551414",
+      "name": "인터컨티넨탈 요코하마 그랜드",
+      "cityId": "yokohama",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "yokohama-balance-e8dc60870f",
+      "name": "호텔 뉴 그랜드",
+      "cityId": "yokohama",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "yokohama-balance-7c6f2de20d",
+      "name": "다운비트",
+      "cityId": "yokohama",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "yokohama-balance-5b5f770c23",
+      "name": "윈드재머",
+      "cityId": "yokohama",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "yokohama-balance-a79dcf0376",
+      "name": "미쓰이 아울렛 파크 요코하마 베이사이드",
+      "cityId": "yokohama",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "yokohama-balance-79f267cf0d",
+      "name": "미나토미라이 도큐 스퀘어",
+      "cityId": "yokohama",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "yokohama-balance-2c62415a4f",
+      "name": "요코하마 미나토미라이 만요 클럽",
+      "cityId": "yokohama",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "nagoya-balance-59da07def6",
+      "name": "교야 료칸",
+      "cityId": "nagoya",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "nagoya-balance-dee23b43e5",
+      "name": "나고야 메리어트 아소시아 호텔",
+      "cityId": "nagoya",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "sapporo-balance-3e09b14c9c",
+      "name": "재즈 스폿 제리코",
+      "cityId": "sapporo",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "sapporo-balance-bd4d171eba",
+      "name": "호텔 마이스테이스 삿포로 나카지마 파크",
+      "cityId": "sapporo",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "sapporo-balance-7ef249728a",
+      "name": "삿포로 그랜드 호텔",
+      "cityId": "sapporo",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "sendai-balance-f62377bd2a",
+      "name": "오뎅 산키치",
+      "cityId": "sendai",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "sendai-balance-5f652c3573",
+      "name": "가키토쿠",
+      "cityId": "sendai",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "sendai-balance-9630f509fb",
+      "name": "록 카페 피터팬",
+      "cityId": "sendai",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "sendai-balance-36a0c66636",
+      "name": "센다이 커피 스탠드",
+      "cityId": "sendai",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "sendai-balance-71dac6a5fe",
+      "name": "호텔 메트로폴리탄 센다이",
+      "cityId": "sendai",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "sendai-balance-ea6b21a419",
+      "name": "웨스틴 센다이",
+      "cityId": "sendai",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "sendai-balance-0ac426a1ca",
+      "name": "빌레반",
+      "cityId": "sendai",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "sendai-balance-c13d6b9dbf",
+      "name": "이즈 바",
+      "cityId": "sendai",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "sendai-balance-f2ef0e05ac",
+      "name": "닛카 미야기쿄 증류소 견학",
+      "cityId": "sendai",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "hiroshima-balance-c04aef64d3",
+      "name": "아쿠슈 카페 오가닉",
+      "cityId": "hiroshima",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "hiroshima-balance-5ba46815ef",
+      "name": "카페 폰테",
+      "cityId": "hiroshima",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "hiroshima-balance-682aaad504",
+      "name": "미쓰이 가든 호텔 히로시마",
+      "cityId": "hiroshima",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "hiroshima-balance-10688eb7ea",
+      "name": "호텔 그란비아 히로시마",
+      "cityId": "hiroshima",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "hiroshima-balance-bb02ad8f68",
+      "name": "히로시마 클럽 콰트로",
+      "cityId": "hiroshima",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "hiroshima-balance-174f1cd16e",
+      "name": "몰리 말론스 히로시마",
+      "cityId": "hiroshima",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "kobe-balance-0b43587f96",
+      "name": "고베 포토피아 호텔",
+      "cityId": "kobe",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "kobe-balance-43a27a251d",
+      "name": "고베 메리켄 파크 오리엔탈 호텔",
+      "cityId": "kobe",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "kobe-balance-3e1eb37020",
+      "name": "준쿠도 고베점",
+      "cityId": "kobe",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "fukuoka-balance-93c2de662a",
+      "name": "에스페리아 호텔 하카타",
+      "cityId": "fukuoka",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "fukuoka-balance-f52726978f",
+      "name": "그랜드 하얏트 후쿠오카",
+      "cityId": "fukuoka",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "fukuoka-balance-0c7b4094ae",
+      "name": "아뮤플라자 하카타",
+      "cityId": "fukuoka",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "singapore-balance-5bcd5b3ca7",
+      "name": "티앤티앤 하이난 치킨라이스",
+      "cityId": "singapore",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "singapore-balance-e48d385859",
+      "name": "징화 샤오츠",
+      "cityId": "singapore",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "singapore-balance-eaf2d23af8",
+      "name": "티 챕터",
+      "cityId": "singapore",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "singapore-balance-b0099cae82",
+      "name": "난양 올드 커피",
+      "cityId": "singapore",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "singapore-balance-87a23b142a",
+      "name": "파크로열 컬렉션 피커링",
+      "cityId": "singapore",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "singapore-balance-26f921970e",
+      "name": "힐튼 싱가포르 오차드",
+      "cityId": "singapore",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "singapore-balance-7a5374badf",
+      "name": "앨리 바",
+      "cityId": "singapore",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "singapore-balance-f952c47087",
+      "name": "맨해튼 바",
+      "cityId": "singapore",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "singapore-balance-bcf81ddf84",
+      "name": "아이온 오차드",
+      "cityId": "singapore",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "singapore-balance-4f3e474897",
+      "name": "피플스 파크 컴플렉스",
+      "cityId": "singapore",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "singapore-balance-395da9e1a6",
+      "name": "바운스 싱가포르",
+      "cityId": "singapore",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "danang-balance-20bd90eefc",
+      "name": "미꽝 일에이",
+      "cityId": "danang",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "danang-balance-91764ab0aa",
+      "name": "마담 칸 반미 퀸",
+      "cityId": "danang",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "danang-balance-8f5e0516b7",
+      "name": "롱 커피",
+      "cityId": "danang",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "danang-balance-e8a10261b1",
+      "name": "로지스 카페 호이안",
+      "cityId": "danang",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "danang-balance-adc9e1e833",
+      "name": "하얏트 리젠시 다낭",
+      "cityId": "danang",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "danang-balance-c08389f08e",
+      "name": "아난타라 호이안 리조트",
+      "cityId": "danang",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "danang-balance-51bafad9bf",
+      "name": "골든 파인",
+      "cityId": "danang",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "danang-balance-5335dcf3f0",
+      "name": "호이안 다이브 바",
+      "cityId": "danang",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "danang-balance-5d59aacbfa",
+      "name": "호이안 야시장",
+      "cityId": "danang",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "danang-balance-a8e0a78f39",
+      "name": "호이안 실크 빌리지",
+      "cityId": "danang",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "guam-balance-2c5bdea8cf",
+      "name": "메스클라 도스 투몬",
+      "cityId": "guam",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "guam-balance-8b21210470",
+      "name": "후지이치방 괌",
+      "cityId": "guam",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "guam-balance-0c3d42a097",
+      "name": "에그앤띵스 괌",
+      "cityId": "guam",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "guam-balance-79d938ebb1",
+      "name": "크랙드 에그",
+      "cityId": "guam",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "guam-balance-f52c396229",
+      "name": "호텔 닛코 괌",
+      "cityId": "guam",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "guam-balance-97a4af1cf5",
+      "name": "두짓타니 괌 리조트",
+      "cityId": "guam",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "guam-balance-98a5f46947",
+      "name": "버디스 빌리어즈 앤 브루",
+      "cityId": "guam",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "guam-balance-3bd2f9e185",
+      "name": "카페 하바나 괌",
+      "cityId": "guam",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "guam-balance-825eb8e850",
+      "name": "더 플라자 쇼핑센터",
+      "cityId": "guam",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "saipan-balance-159d858dad",
+      "name": "에비스야 사이판",
+      "cityId": "saipan",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "saipan-balance-457279cc5d",
+      "name": "히마와리 사이판",
+      "cityId": "saipan",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "saipan-balance-68d6f4fe08",
+      "name": "커피 케어",
+      "cityId": "saipan",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "saipan-balance-ad7a0a9b27",
+      "name": "자바 조스 사이판",
+      "cityId": "saipan",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "saipan-balance-1d18b3dfb9",
+      "name": "사이판 스카이라인 디자이너스 호텔",
+      "cityId": "saipan",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "saipan-balance-3dce60a0f0",
+      "name": "사이판 월드 리조트",
+      "cityId": "saipan",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "saipan-balance-ae61128d44",
+      "name": "올레아이 비치 클럽",
+      "cityId": "saipan",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "santorini-balance-9c40bd9f19",
+      "name": "넥타르 라운지",
+      "cityId": "santorini",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "santorini-balance-0c3247ff58",
+      "name": "아다만트 스위츠",
+      "cityId": "santorini",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "santorini-balance-e5a8ab97c8",
+      "name": "페리볼라스",
+      "cityId": "santorini",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "santorini-balance-84c996ff69",
+      "name": "안하이드러스 와이너리",
+      "cityId": "santorini",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "santorini-balance-15819f66e2",
+      "name": "므네모시네 갤러리",
+      "cityId": "santorini",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "santorini-balance-619fe790c9",
+      "name": "아트 오브 더 룸 갤러리",
+      "cityId": "santorini",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "dubai-balance-12ba4e2f15",
+      "name": "모어 카페",
+      "cityId": "dubai",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "dubai-balance-4ba7a33430",
+      "name": "필리 카페테리아",
+      "cityId": "dubai",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "dubai-balance-a3ac2d629a",
+      "name": "알 파나르 레스토랑 앤 카페",
+      "cityId": "dubai",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "dubai-balance-14fcba1455",
+      "name": "랄 킬라 두바이",
+      "cityId": "dubai",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "dubai-balance-41b7a45ebf",
+      "name": "아난타라 더 팜 두바이",
+      "cityId": "dubai",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "dubai-balance-6af8d877a9",
+      "name": "하얏트 리젠시 두바이",
+      "cityId": "dubai",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "dubai-balance-812c10d8d9",
+      "name": "바라스티",
+      "cityId": "dubai",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "dubai-balance-6df4f686ba",
+      "name": "스카이뷰 바",
+      "cityId": "dubai",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "dubai-balance-440bb7c4d3",
+      "name": "몰 오브 디 에미리츠",
+      "cityId": "dubai",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "dubai-balance-2f57258d71",
+      "name": "시티센터 데이라",
+      "cityId": "dubai",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "osaka-balance-313fe9f8be",
+      "name": "힐튼 오사카",
+      "cityId": "osaka",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "osaka-balance-4eb78162b8",
+      "name": "스위소텔 난카이 오사카",
+      "cityId": "osaka",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "osaka-balance-703d753661",
+      "name": "다이마루 우메다점",
+      "cityId": "osaka",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "osaka-balance-56c9c625ca",
+      "name": "한큐 삼번가",
+      "cityId": "osaka",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "taipei-balance-325ed7e361",
+      "name": "난지창 야시장",
+      "cityId": "taipei",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "taipei-balance-23c04e6ea7",
+      "name": "해피 팜 채식 식당",
+      "cityId": "taipei",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "taipei-balance-a5285b629d",
+      "name": "커피 랩 타이베이",
+      "cityId": "taipei",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "taipei-balance-3aa63e1483",
+      "name": "노치 카페",
+      "cityId": "taipei",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "taipei-balance-fffb4a9d57",
+      "name": "코스모스 호텔 타이베이",
+      "cityId": "taipei",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "taipei-balance-d163e6c1be",
+      "name": "쉐라톤 그랜드 타이베이",
+      "cityId": "taipei",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "taipei-balance-28a2288970",
+      "name": "더 월 라이브 하우스",
+      "cityId": "taipei",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "taipei-balance-78b718414c",
+      "name": "리볼버 타이베이",
+      "cityId": "taipei",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "taipei-balance-712e241c3b",
+      "name": "광화 디지털 플라자",
+      "cityId": "taipei",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "taipei-balance-84ce69e620",
+      "name": "타이베이 워터파크",
+      "cityId": "taipei",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "hongkong-balance-7b184ee98a",
+      "name": "융키 레스토랑",
+      "cityId": "hongkong",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "hongkong-balance-1af5535bda",
+      "name": "로푸키",
+      "cityId": "hongkong",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "hongkong-balance-36ee82609d",
+      "name": "브런치 클럽",
+      "cityId": "hongkong",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "hongkong-balance-3fa8f90c6b",
+      "name": "룩유 티하우스",
+      "cityId": "hongkong",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "hongkong-balance-5004206737",
+      "name": "이비스 홍콩 센트럴 앤 셩완",
+      "cityId": "hongkong",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "hongkong-balance-73d0ec3275",
+      "name": "만다린 오리엔탈 홍콩",
+      "cityId": "hongkong",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "hongkong-balance-d1a96e6289",
+      "name": "더 글로브",
+      "cityId": "hongkong",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "hongkong-balance-d0e16ee09a",
+      "name": "스탠턴스 와인 바 앤 카페",
+      "cityId": "hongkong",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "hongkong-balance-8f2e5d8b09",
+      "name": "아이에프씨 몰",
+      "cityId": "hongkong",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "hongkong-balance-5367ec2fe0",
+      "name": "캣 스트리트",
+      "cityId": "hongkong",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "saipan-balance-b5e4628204",
+      "name": "스타 샌즈 플라자",
+      "cityId": "saipan",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "saipan-balance-f4362cec3f",
+      "name": "조텐 가라판",
+      "cityId": "saipan",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "sapporo-balance-tanukikoji",
+      "name": "다누키코지 상점가",
+      "cityId": "sapporo",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "fukuoka-balance-rec-kitte",
+      "name": "렉 커피 킷테 하카타점",
+      "cityId": "fukuoka",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "fukuoka-balance-yamaha-y3t",
+      "name": "야마하 쓰리 테라스",
+      "cityId": "fukuoka",
+      "image": "/images/place-placeholder.svg",
+      "ready": false,
+      "reason": "missing-licensed-photo"
+    },
+    {
+      "kind": "place",
+      "id": "nagoya-balance-hario-nagoya",
+      "name": "하리오 카페 나고야점",
+      "cityId": "nagoya",
       "image": "/images/place-placeholder.svg",
       "ready": false,
       "reason": "missing-licensed-photo"

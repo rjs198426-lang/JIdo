@@ -1,3 +1,4 @@
+import balanced from '../src/balanced-places.json' with { type: 'json' }
 import { test, expect, type Page } from '@playwright/test'
 import { cities, places, reviewedPlaceIds } from '../src/data'
 import { guideSchema } from '../src/guide-schema'
@@ -16,7 +17,7 @@ async function explore(page: Page) {
 
 test('21개 여행권의 조사 자료와 미검증 휴양지 명소를 구분하고 ID 보존', async () => {
   expect(cities).toHaveLength(21)
-  expect(reviewedPlaceIds.size).toBe(843)
+  expect(reviewedPlaceIds.size).toBe(1009)
   expect(new Set(places.map((place) => place.id)).size).toBe(places.length)
   for (const city of cities) {
     const minimum =
@@ -27,12 +28,17 @@ test('21개 여행권의 조사 자료와 미검증 휴양지 명소를 구분�
     expect(
       entries.filter((place) => reviewedPlaceIds.has(place.id)),
     ).toHaveLength(
-      resortGuideById.has(city.id)
+      (resortGuideById.has(city.id)
         ? 0
-        : minimum + dining.filter((place) => place.cityId === city.id).length,
+        : minimum + dining.filter((place) => place.cityId === city.id).length) +
+        balanced.filter((place) => place.cityId === city.id).length,
     )
   }
-  const reviewed = places.filter((place) => reviewedPlaceIds.has(place.id))
+  const reviewed = places.filter(
+    (place) =>
+      reviewedPlaceIds.has(place.id) &&
+      !balanced.some((item) => item.id === place.id),
+  )
   const positions = new Map<string, string[]>()
   for (const place of reviewed) {
     expect(place.lat).toBeDefined()
@@ -104,7 +110,7 @@ test('21개 여행권의 조사 자료와 미검증 휴양지 명소를 구분�
       place.reviewSources?.some((source) => source.kind === 'visit-review'),
     ),
   ).toHaveLength(18)
-  expect(places.filter((place) => place.photoCredit)).toHaveLength(65)
+  expect(places.filter((place) => place.photoCredit)).toHaveLength(70)
 })
 
 test('도시 선택·목록 추가·근교 검색은 인터넷 없이 동작하고 서로의 필터를 보존', async ({
@@ -120,7 +126,9 @@ test('도시 선택·목록 추가·근교 검색은 인터넷 없이 동작하�
   await page.getByRole('button', { name: /장소 더 보기/ }).click()
   await expect(page.locator('.place-card')).toHaveCount(48)
   await page.getByRole('button', { name: /장소 더 보기/ }).click()
-  await expect(page.locator('.place-card')).toHaveCount(58)
+  await expect(page.locator('.place-card')).toHaveCount(
+    places.filter((place) => place.cityId === 'kyoto').length,
+  )
   await expect(page.getByRole('button', { name: /장소 더 보기/ })).toHaveCount(
     0,
   )
@@ -142,7 +150,7 @@ test('숙소를 관광지와 구분하고 실제 블로그·지도 출처를 장
   await explore(page)
   await page.getByLabel('가볼 만한 곳의 도시').selectOption('maldives')
   await page.getByRole('button', { name: '숙소', exact: true }).click()
-  await expect(page.locator('.place-card')).toHaveCount(3)
+  await expect(page.locator('.place-card')).toHaveCount(4)
   await page
     .locator('.place-card')
     .filter({ hasText: '릴리 비치 리조트' })
@@ -201,7 +209,9 @@ test('이전 소수 장소 캐시로 시작해도 보강된 추천 장소과 기
   await page.getByLabel('가볼 만한 곳의 도시').selectOption('kyoto')
   await expect(
     page.getByLabel('가볼 만한 곳의 도시').locator('option:checked'),
-  ).toContainText('56곳')
+  ).toContainText(
+    `${50 + dining.filter((p) => p.cityId === 'kyoto').length + balanced.filter((p) => p.cityId === 'kyoto').length}곳`,
+  )
   await page
     .locator('.place-card')
     .filter({ hasText: '기요미즈데라' })

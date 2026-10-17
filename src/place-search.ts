@@ -1,3 +1,4 @@
+import { customPlaceKinds, osmPlaceKind } from './place-categories'
 import { aliasQuery, koreanSearchName } from './search-aliases'
 import { Capacitor, CapacitorHttp } from '@capacitor/core'
 import { places } from './catalog'
@@ -70,7 +71,7 @@ const cachedPlaceSchema = z
       lat: z.number().finite().min(-90).max(90),
       lng: z.number().finite().min(-180).max(180),
     }),
-    kind: z.enum(['관광', '맛집', '카페', '숙소', '이동', '기타']),
+    kind: z.enum(customPlaceKinds),
     attributions: z
       .array(
         z.object({
@@ -175,16 +176,8 @@ export function photonPlaces(body: unknown): SearchPlace[] {
       .join(', ')
       .slice(0, 500)
     const value = String(properties.osm_value || '')
-    const kind =
-      value === 'cafe'
-        ? '카페'
-        : ['restaurant', 'fast_food', 'food_court'].includes(value)
-          ? '맛집'
-          : ['hotel', 'hostel', 'guest_house', 'motel'].includes(value)
-            ? '숙소'
-            : ['station', 'aerodrome', 'bus_station', 'halt'].includes(value)
-              ? '이동'
-              : '관광'
+    const key = String(properties.osm_key || '')
+    const kind = osmPlaceKind(key, value)
     result.set(id, {
       id,
       provider: 'osm',

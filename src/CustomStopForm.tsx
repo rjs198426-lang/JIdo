@@ -1,3 +1,4 @@
+import { customPlaceKinds } from './place-categories'
 import PlaceSearchResults, {
   PlaceSearchService,
   usePlaceSearch,
@@ -110,15 +111,7 @@ export default function CustomStopForm({
     setName(place.name)
     setAddress(place.address)
     setLink(mapsSearch(placeMapQuery(place)))
-    setKind(
-      place.category === '맛집' ||
-        place.category === '카페' ||
-        place.category === '숙소'
-        ? place.category
-        : place.category === '바·공연'
-          ? '기타'
-          : '관광',
-    )
+    setKind(place.category)
     setResults([])
   }
   const draftKey = `jdo-place-draft:${trip.id}:${day}:${stop?.id || 'new'}${!stop && initialName ? ':' + initialName : ''}`
@@ -143,9 +136,7 @@ export default function CustomStopForm({
         if (typeof draft.note === 'string') setNote(draft.note)
         if (typeof draft.catalogPlaceId === 'string')
           setCatalogPlaceId(draft.catalogPlaceId)
-        if (
-          ['관광', '맛집', '카페', '숙소', '이동', '기타'].includes(draft.kind)
-        )
+        if (customPlaceKinds.some((kind) => kind === draft.kind))
           setKind(draft.kind)
         if (
           tripDestinations(trip).some((item) => item.id === draft.destinationId)
@@ -383,7 +374,7 @@ export default function CustomStopForm({
               setKind(event.target.value as CustomPlace['kind'])
             }
           >
-            {['관광', '맛집', '카페', '숙소', '이동', '기타'].map((item) => (
+            {customPlaceKinds.map((item) => (
               <option key={item}>{item}</option>
             ))}
           </select>

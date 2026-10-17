@@ -1,3 +1,7 @@
+import balanced from './balanced-places.json' with { type: 'json' }
+import { currentPlaceCategory } from './category-balance.ts'
+import { placeCategories, type PlaceCategory } from './place-categories.ts'
+export type { PlaceCategory } from './place-categories.ts'
 import { verifiedVenueCoordinates } from './venue-coordinates.ts'
 import { photoCredits, type PhotoCreditInfo } from './photo-credits.ts'
 import { japanGuides } from './japan-guides.ts'
@@ -8,7 +12,6 @@ import diningPlaces from './dining-places.json' with { type: 'json' }
 import { placeSchema } from './guide-schema.ts'
 import type { ReviewSource } from './review-source'
 import { withBlogNotes } from './blog-place-notes.ts'
-export type PlaceCategory = '관광' | '맛집' | '카페' | '숙소' | '바·공연'
 export type Region =
   | '전체'
   | '일본'
@@ -529,6 +532,7 @@ export const reviewedPlaceIds = new Set<string>()
 for (const raw of [
   ...researchedPlaces,
   ...diningPlaces,
+  ...balanced,
   ...expandedGuides.flatMap((guide) => guide.places),
 ]) {
   const reviewed = placeSchema.parse(raw)
@@ -547,7 +551,9 @@ for (const raw of [
   else places.push(reviewed)
 }
 for (let index = 0; index < places.length; index++) {
-  const place = (places[index] = withBlogNotes(places[index]))
+  const place = (places[index] = withBlogNotes(
+    currentPlaceCategory(places[index]),
+  ))
   const coordinate = verifiedVenueCoordinates[place.id]
   if (coordinate && !reviewedPlaceIds.has(place.id)) {
     place.lat = coordinate.lat
@@ -578,13 +584,6 @@ export const regions: Region[] = [
   '휴양지',
   '중동',
 ]
-export const categoryOptions = [
-  '전체',
-  '관광',
-  '맛집',
-  '카페',
-  '숙소',
-  '바·공연',
-] as const
+export const categoryOptions = ['전체', ...placeCategories] as const
 export const getCity = (id: string) => cities.find((city) => city.id === id)
 export const getPlace = (id: string) => places.find((place) => place.id === id)
