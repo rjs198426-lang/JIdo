@@ -158,3 +158,11 @@ Android 빌드 도구는 `scripts/setup-java.py`, `scripts/setup-android.py`로 
 - Android release 빌드 성공(21초), versionCode 35/versionName 1.34, com.jido.travel.next·J★Do·기존 인증서 유지. 웹 자산 233개 바이트 일치·개인 키 미포함 확인. 실제 휴대폰 설치는 미수행.
 - APK 배포 커밋 `915bd7efe77c178f7a2b0e792c417f0670ab164d`, 49,542,609바이트, SHA-256 `ecf3bf2ba34f45e84a99954528ba0f044aceaf13b2f0e415a0eb52042b07e831`.
 - 공개 고정 링크에서 익명 다운로드 후 크기·SHA-256·서명 인증서 일치 확인.
+
+## 1.35 — 각 여행지의 후기 5편
+
+- 2026-10-17 네이버 검색·티스토리 원문 접속 확인. 기존 42편을 보존하고 원문 본문·본문 링크를 검토한 63편을 추가해 21개 여행지별 5편, 총 105편. 신규 원문 확인 근거와 제휴 표시 제외 사례를 public/guide-blog-research.json에 기록. 본문·사진 미복제.
+- 작성일 미확인 글도 링크 확인일을 표시하며 전체 확인 기간은 10월 16~17일로 표시. 인기 순위·숨은 광고·과거 요금의 현재 유효성을 보증하지 않음.
+- 모바일·PC 관련 가이드 검사 18개 통과(27.1초). 320px 확대 글자·주제 필터·오프라인 목록·다른 도시 분리·기존 코스 동작 확인.
+- Android release 빌드 성공(20초), versionCode 36/versionName 1.35, 기존 com.jido.travel.next·J★Do·인증서 유지. 내장 웹 자산 233개 바이트 일치·개인 키 미포함 확인. 실제 기기 설치는 미수행.
+- 공개 고정 APK 링크에서 실제 다운로드 후 HTTP 200·49,557,965바이트·SHA-256 및 기존 인증서 일치 확인. ANDROID-DOWNLOAD.md의 1.35 링크로 배포.

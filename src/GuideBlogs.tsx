@@ -6,6 +6,11 @@ import { blogsForCity } from './guide-blogs'
 export default function GuideBlogs({ cityId }: { cityId: string }) {
   const [topic, setTopic] = useState('전체')
   const all = blogsForCity(cityId)
+  const checkedDates = [...new Set(all.map((post) => post.checkedAt))].sort()
+  const checkedPeriod =
+    checkedDates.length > 1
+      ? `${checkedDates[0]} ~ ${checkedDates[checkedDates.length - 1]}`
+      : checkedDates[0]
   const classify = (text: string) =>
     /교통|공항|철도|버스|이동/.test(text)
       ? '교통·이동'
@@ -44,11 +49,10 @@ export default function GuideBlogs({ cityId }: { cityId: string }) {
                   </small>
                   <strong>{post.title}</strong>
                   <span>{post.topic}</span>
-                  {post.publishedAt && (
-                    <small>
-                      {post.publishedAt} 작성 · 링크 확인 {post.checkedAt}
-                    </small>
-                  )}
+                  <small>
+                    {post.publishedAt && `${post.publishedAt} 작성 · `}
+                    링크 확인 {post.checkedAt}
+                  </small>
                 </span>
                 <ExternalLink size={18} aria-label="외부 원문" />
               </a>
@@ -76,7 +80,7 @@ export default function GuideBlogs({ cityId }: { cityId: string }) {
           필요합니다.
         </p>
         {posts.length > 0 && (
-          <small>원문 확인: {posts[0].checkedAt} · 게시 순위와 무관</small>
+          <small>원문 확인: {checkedPeriod} · 게시 순위와 무관</small>
         )}
       </details>
     </section>
