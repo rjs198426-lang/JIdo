@@ -1,0 +1,2 @@
+# Keep the upstream OFL text byte-for-byte, including its original whitespace.
+public/licenses/Pretendard-OFL.txt -whitespace
