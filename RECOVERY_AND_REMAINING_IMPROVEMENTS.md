@@ -47,3 +47,12 @@ Android 빌드 도구는 `scripts/setup-java.py`, `scripts/setup-android.py`로 
 - 장소 감사: 900곳 중 출처 자료가 있는 장소 843곳. 현재 영업 검증 완료 수가 아닙니다.
 - 스크린샷: reports/recovery-126/{compact-itinerary,checklist,backup-purpose,dining}.png.
 - 소스는 GitHub `codex/recover-usability-126` 브랜치에 저장했습니다. main 병합·새 APK 배포와 구분합니다.
+
+## 재시도 결과 — Android 패키징
+
+- 클라우드 연결과 GitHub 읽기 정상. 공개 1.25 APK를 다시 내려받아 SHA-256 `d60df70e8fa6b18b5d96a3b0d41b1252acf230b3a4512e4d6be8c798870d8dd9` 일치 확인.
+- 접근 가능한 `/workspace`, `/tmp`, `/home`에서 키 파일을 찾지 못했고 서명 관련 환경 변수·플랫폼 secret binding도 없음. `/tmp` 한 디렉터리와 `/root/.android`는 읽을 수 없으므로 전 시스템 키 부재를 단정하지 않음.
+- `npm run build`, `npx cap sync android`, `assembleRelease --no-daemon --max-workers=2` 성공. Android 빌드는 2분 2초, 작업 163개 실행. Gradle 배포 체크섬과 TLS 검증 유지.
+- 생성물: `android/app/build/outputs/apk/release/app-release-unsigned.apk`, 패키지 `com.jido.travel`, versionCode 27, versionName 1.26, minSdk 24. 크기 47,474,108바이트, SHA-256 `7e66a1a9f9e67350c7c9e1821f4a0149534e3c45de2ae24d4241c6df36388556`.
+- APK 내부 웹 자산 230개를 dist와 바이트 단위 비교: 누락 0개·불일치 0개. apksigner는 서명 없음으로 검증 실패(예상 결과). 설치·업데이트 가능한 APK로 배포하지 않음. 실제 기기 검증도 수행하지 않음.
+- Android 빌드·서명 보존 지침을 환경 설정 `start_skill` 초안에 저장. 응답은 saved, requires_publish=true. 초안 저장은 실행 환경 게시나 새 작업 복원 검증을 뜻하지 않음.
