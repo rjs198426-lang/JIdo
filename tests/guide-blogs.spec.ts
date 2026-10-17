@@ -70,7 +70,7 @@ test('새 탭은 오프라인에서 해당 도시 글을 보여주고 원문과 
   await panel.getByText('후기 선정 기준', { exact: true }).click()
   await expect(panel).toContainText('조회수·인기 순위는 확인하지 않았습니다')
   await tabs.getByRole('tab', { name: '지역별 코스', exact: true }).click()
-  await expect(page.locator('.guide-course')).toHaveCount(2)
+  await expect(page.locator('.guide-course')).toHaveCount(3)
   await page.getByRole('button', { name: '닫기', exact: true }).click()
   await page
     .getByRole('button', { name: '교토 여행지 자세히 보기', exact: true })

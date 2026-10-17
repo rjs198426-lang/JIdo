@@ -173,7 +173,7 @@ test('검색창은 직접 등록한 장소도 보여주며 도시·날짜를 맞
   await page.reload()
   await openTrips(page)
   await page
-    .locator('.bottom-nav')
+    .locator('.desktop-nav:visible,.bottom-nav:visible')
     .getByRole('button', { name: '여행지', exact: true })
     .click()
   await page.getByLabel('여행지와 장소 검색').fill('나의 골목 카페')
@@ -191,7 +191,7 @@ test('검색창은 직접 등록한 장소도 보여주며 도시·날짜를 맞
   expect(saved.days[1][0].custom.coordinates).toEqual({ lat: 35, lng: 135 })
   expect(saved.days[1][0].note).toBe('')
   await page
-    .locator('.bottom-nav')
+    .locator('.desktop-nav:visible,.bottom-nav:visible')
     .getByRole('button', { name: '여행지', exact: true })
     .click()
   await page.getByLabel('여행지와 장소 검색').fill('새 전망대')
@@ -230,7 +230,7 @@ test('여행 없이 없는 장소를 검색하면 여행 생성 후 검색어를
 }) => {
   await page.goto('/')
   await page
-    .locator('.bottom-nav')
+    .locator('.desktop-nav:visible,.bottom-nav:visible')
     .getByRole('button', { name: '여행지', exact: true })
     .click()
   await page.getByLabel('여행지와 장소 검색').fill('골목 전망대')

@@ -29,8 +29,13 @@ import { sameStopPlace } from './stop-identity'
 import CityPhoto from './CityPhoto'
 import PersonalPhotoControl from './PersonalPhotoControl'
 import GuideCourseForm from './GuideCourseForm'
-import { appendGuideCourse } from './guide-course'
-import { practicalGuideById, type CourseSelection } from './practical-guides'
+import { appendGuideSelection } from './guide-course'
+import {
+  courseDays,
+  practicalGuideById,
+  type CourseSelection,
+} from './practical-guides'
+import CoursePreview from './CoursePreview'
 import TravelHome from './TravelHome'
 import PhotoCredits from './PhotoCredits'
 import PlaceSource from './PlaceSource'
@@ -371,14 +376,14 @@ function CreateTrip({
   onCreate: (trip: Trip) => void
 }) {
   const draft = useDraftFields(
-    `jido-draft:create:${cityId || 'custom'}:${placeId || ''}:${course?.placeIds.join(',') || ''}${initialName ? ':' + initialName + ':' + initialCountry : ''}`,
+    `jido-draft:create:${cityId || 'custom'}:${placeId || ''}:${course?.days ? course.id + ':' : ''}${course?.placeIds.join(',') || ''}${initialName ? ':' + initialName + ':' + initialCountry : ''}`,
     {
       destination: cityId || 'custom',
       customCity: initialName,
       customCountry: initialCountry,
       title: '',
       start: today(),
-      end: dateAt(today(), 3),
+      end: dateAt(today(), course?.days ? course.days.length - 1 : 3),
       travelers: 1,
       recommended: false,
       courseTime: '09:00',
@@ -468,14 +473,7 @@ function CreateTrip({
     try {
       onCreate(
         course
-          ? appendGuideCourse(
-              created,
-              course.cityId,
-              course.placeIds,
-              0,
-              courseTime,
-              getPlace,
-            ).trip
+          ? appendGuideSelection(created, course, 0, courseTime, getPlace).trip
           : created,
       )
       draft.clear()
@@ -548,6 +546,8 @@ function CreateTrip({
             value={start}
             onChange={(event) => {
               setStart(event.target.value)
+              if (course?.days && event.target.value)
+                setEnd(dateAt(event.target.value, course.days.length - 1))
               setError('')
             }}
           />
@@ -569,13 +569,9 @@ function CreateTrip({
       {course && (
         <section className="course-create-preview">
           <h3>{course.title}</h3>
-          <ol>
-            {course.placeIds.map((id) => (
-              <li key={id}>{getPlace(id)?.name}</li>
-            ))}
-          </ol>
+          <CoursePreview course={course} />
           <label className="field">
-            첫날 첫 방문 시간
+            {course.days ? '매일 첫 방문 시간' : '첫날 첫 방문 시간'}
             <input
               type="time"
               required
@@ -584,8 +580,10 @@ function CreateTrip({
             />
           </label>
           <p className="detail-footnote">
-            선택한 코스를 첫날에 담습니다. 방문 시간은 2시간 간격의 계획값이며
-            나중에 수정할 수 있어요.
+            {course.days
+              ? `선택한 ${courseDays(course).length}일 코스를 날짜별로 담습니다. `
+              : '선택한 코스를 첫날에 담습니다. '}
+            방문 시간은 2시간 간격의 계획값이며 나중에 수정할 수 있어요.
           </p>
         </section>
       )}
@@ -2659,10 +2657,7 @@ export default function App() {
         </Modal>
       )}
       {dialog?.type === 'course' && (
-        <Modal
-          title="가이드 코스 담기"
-          onClose={() => setDialog({ type: 'city', id: dialog.course.cityId })}
-        >
+        <Modal title="가이드 코스 담기" onClose={closeDialog}>
           <GuideCourseForm
             key={dialog.course.id}
             course={dialog.course}
@@ -2683,31 +2678,23 @@ export default function App() {
             }}
             onApply={(tripId, day, time) => {
               const course = dialog.course
-              const current = store.trips.find((trip) => trip.id === tripId)
-              if (!current) return
-              const result = appendGuideCourse(
-                current,
-                course.cityId,
-                course.placeIds,
+              const current = attachmentStoreRef.current
+              const target = current.trips.find((trip) => trip.id === tripId)
+              if (!target)
+                throw new Error('여행을 찾을 수 없습니다. 다시 선택해 주세요.')
+              const result = appendGuideSelection(
+                target,
+                course,
                 day,
                 time,
                 getPlace,
               )
-              setStore((previous) => ({
-                ...previous,
-                trips: previous.trips.map((trip) =>
-                  trip.id === tripId
-                    ? appendGuideCourse(
-                        trip,
-                        course.cityId,
-                        course.placeIds,
-                        day,
-                        time,
-                        getPlace,
-                      ).trip
-                    : trip,
+              setStore({
+                ...current,
+                trips: current.trips.map((trip) =>
+                  trip.id === tripId ? result.trip : trip,
                 ),
-              }))
+              })
               setActiveTripId(tripId)
               setActiveDay(day)
               setDialog(null)

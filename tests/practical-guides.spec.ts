@@ -359,7 +359,7 @@ test('1.13의 비워진 가이드 캐시에서도 실전 안내·코스를 유�
     dialog.getByRole('heading', { name: '숙소는 어디에 잡을까', exact: true }),
   ).toBeVisible()
   await dialog.getByRole('tab', { name: '지역별 코스', exact: true }).click()
-  await expect(dialog.locator('.guide-course')).toHaveCount(2)
+  await expect(dialog.locator('.guide-course')).toHaveCount(3)
   const stored = await page.evaluate(
     () => JSON.parse(localStorage.getItem('jido-travel-v1')!).trips[0],
   )

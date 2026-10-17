@@ -1,0 +1,1182 @@
+[
+  {
+    "cityId": "kyoto",
+    "days": [
+      {
+        "id": "kyoto-day-1",
+        "title": "히가시야마에서 기온까지",
+        "pace": "반나절–하루 · 도보",
+        "why": "동쪽 사찰과 골목을 한 방향으로 이어 걷는 제안입니다.",
+        "placeIds": ["kiyomizu", "kyoto-review-abea75631b76", "gion"]
+      },
+      {
+        "id": "kyoto-day-2",
+        "title": "아라시야마에 집중하는 날",
+        "pace": "반나절 · 철도 이동 후 도보",
+        "why": "아라시야마 안의 정원·대나무숲·강변만 묶습니다.",
+        "placeIds": [
+          "kyoto-review-67044d7dcd97",
+          "kyoto-review-84598141b54d",
+          "kyoto-review-e6ed09efb32b"
+        ]
+      },
+      {
+        "id": "kyoto-day-3",
+        "title": "후시미의 붉은 도리이와 도심 시장",
+        "pace": "철도·도보",
+        "why": "후시미 이나리는 오전에 보고 도심으로 돌아와 시장에서 식사합니다.",
+        "placeIds": ["fushimi", "kyoto-review-dc3a3df10526", "nishiki"]
+      },
+      {
+        "id": "kyoto-day-4",
+        "title": "북부 사찰과 정원",
+        "pace": "버스·도보",
+        "why": "킨카쿠지와 료안지를 같은 날에 묶습니다. 버스 이동과 정원 관람에 여유를 둡니다.",
+        "placeIds": [
+          "kyoto-review-87a373e9da3f",
+          "kyoto-review-8ce5c3eb4590",
+          "kyoto-review-8dce7ff01b89"
+        ]
+      },
+      {
+        "id": "kyoto-day-5",
+        "title": "니조성과 교토 도심 문화",
+        "pace": "철도·도보",
+        "why": "도심 실내 관람을 중심으로 쉬어 가는 날입니다. 박물관 휴관일에 맞춰 날짜를 바꾸세요.",
+        "placeIds": [
+          "kyoto-review-ed13761d9aeb",
+          "kyoto-review-eb58ef6b3823",
+          "kyoto-review-2d8e48522bdf"
+        ]
+      }
+    ]
+  },
+  {
+    "cityId": "tokyo",
+    "days": [
+      {
+        "id": "tokyo-day-1",
+        "title": "하라주쿠·시부야 산책",
+        "pace": "반나절–하루 · 도보",
+        "why": "메이지 신궁에서 시부야 방향으로 이어가는 서쪽 권역입니다.",
+        "placeIds": [
+          "tokyo-meiji",
+          "tokyo-shibuya",
+          "tokyo-review-a3a4540c66ad"
+        ]
+      },
+      {
+        "id": "tokyo-day-2",
+        "title": "쓰키지와 시오도메 정원",
+        "pace": "반나절 · 도보",
+        "why": "시장 식사와 정원을 묶고 이동을 짧게 유지하는 제안입니다.",
+        "placeIds": [
+          "tokyo-review-a45369c140d6",
+          "tokyo-review-06f264a9b920",
+          "tokyo-review-06cfc84fff67"
+        ]
+      },
+      {
+        "id": "tokyo-day-3",
+        "title": "아사쿠사 사찰과 먹거리",
+        "pace": "철도·도보",
+        "why": "센소지 주변에서 식사와 간식을 고릅니다. 인기 가게 대기 시간을 남깁니다.",
+        "placeIds": [
+          "tokyo-sensoji",
+          "tokyo-dining-4259f04f2f",
+          "tokyo-dining-671d1c3968"
+        ]
+      },
+      {
+        "id": "tokyo-day-4",
+        "title": "신주쿠의 정원과 전망",
+        "pace": "철도·도보",
+        "why": "공원 개방 시간에 맞춰 시작하고 신주쿠 구역 안에서 마무리합니다.",
+        "placeIds": [
+          "tokyo-review-90d6c70e1e86",
+          "tokyo-review-99da82ca9ae5",
+          "tokyo-review-e4e7585206e4"
+        ]
+      },
+      {
+        "id": "tokyo-day-5",
+        "title": "오다이바 해변과 실내 관람",
+        "pace": "철도·도보",
+        "why": "오다이바 안에서 과학관·건담·해변을 묶습니다. 전시 휴관일을 확인합니다.",
+        "placeIds": [
+          "tokyo-review-1d57af2089ad",
+          "tokyo-review-5dbbcfff1e2d",
+          "tokyo-review-a43000ec81b8"
+        ]
+      }
+    ]
+  },
+  {
+    "cityId": "osaka",
+    "days": [
+      {
+        "id": "osaka-day-1",
+        "title": "난바와 신세카이",
+        "pace": "하루 · 도보·지하철",
+        "why": "먹거리 지역을 남쪽에 모은 코스입니다. 식사와 대기 시간을 별도로 남기세요.",
+        "placeIds": [
+          "osaka-review-b0660bf9b758",
+          "osaka-review-2ee7e4f01b93",
+          "osaka-dotonbori"
+        ]
+      },
+      {
+        "id": "osaka-day-2",
+        "title": "오사카성 역사 산책",
+        "pace": "반나절 · 도보",
+        "why": "성 공원과 가까운 박물관을 한 구역으로 묶습니다.",
+        "placeIds": [
+          "osaka-review-c96670713187",
+          "osaka-castle",
+          "osaka-review-1cc764ea50b9"
+        ]
+      },
+      {
+        "id": "osaka-day-3",
+        "title": "우메다와 나카노시마",
+        "pace": "철도·도보",
+        "why": "기타 지역의 과학관과 식사·전망을 묶고 남부로 왕복하지 않습니다.",
+        "placeIds": [
+          "osaka-review-7e5bbdf9692c",
+          "osaka-review-1d1ace759027",
+          "osaka-umeda-sky"
+        ]
+      },
+      {
+        "id": "osaka-day-4",
+        "title": "덴포잔 바닷가의 하루",
+        "pace": "철도·도보",
+        "why": "가이유칸 관람에 충분한 시간을 쓰고 같은 항구 구역에서 쉽니다.",
+        "placeIds": [
+          "osaka-review-a662f143191a",
+          "osaka-review-b1c4146a2335",
+          "osaka-review-3a2aec26f2ba"
+        ]
+      },
+      {
+        "id": "osaka-day-5",
+        "title": "덴노지 사찰과 아베노 전망",
+        "pace": "철도·도보",
+        "why": "덴노지·아베노에 집중하고 쇼핑과 전망을 뒤쪽에 배치합니다.",
+        "placeIds": [
+          "osaka-review-a5288887f42e",
+          "osaka-review-f2a95d63eb60",
+          "osaka-review-47c70650e824",
+          "osaka-review-90bb9ca54308"
+        ]
+      }
+    ]
+  },
+  {
+    "cityId": "yokohama",
+    "days": [
+      {
+        "id": "yokohama-day-1",
+        "title": "미나토미라이에서 항구로",
+        "pace": "반나절–하루 · 도보",
+        "why": "항구를 따라 이동하는 방향으로 묶었습니다.",
+        "placeIds": [
+          "yokohama-minatomirai",
+          "yokohama-review-563f511596a3",
+          "yokohama-yamashita"
+        ]
+      },
+      {
+        "id": "yokohama-day-2",
+        "title": "차이나타운과 해안",
+        "pace": "반나절 · 도보",
+        "why": "식사 구역과 해안 산책을 가까이 묶습니다.",
+        "placeIds": [
+          "yokohama-chinatown",
+          "yokohama-review-37b6ce32c549",
+          "yokohama-review-258fa4853c59"
+        ]
+      },
+      {
+        "id": "yokohama-day-3",
+        "title": "산케이엔과 야마테 언덕",
+        "pace": "버스·도보",
+        "why": "산케이엔을 먼저 보고 야마테로 이동합니다. 언덕과 정원 관람 사이 휴식을 둡니다.",
+        "placeIds": [
+          "yokohama-review-0a6982dc509e",
+          "yokohama-review-74171e79661d",
+          "yokohama-review-6977183db05b"
+        ]
+      },
+      {
+        "id": "yokohama-day-4",
+        "title": "근교 가마쿠라의 대불과 해안",
+        "pace": "철도·도보",
+        "why": "가마쿠라는 하루를 따로 잡습니다. 하세 구역 관람 후 유이가하마에서 쉽니다.",
+        "placeIds": [
+          "yokohama-review-1b18ef5a0935",
+          "yokohama-review-8acf1732c325",
+          "yokohama-review-205ba03d7b32"
+        ]
+      },
+      {
+        "id": "yokohama-day-5",
+        "title": "미나토미라이 체험과 전망",
+        "pace": "철도·도보",
+        "why": "실내 체험과 놀이·전망을 같은 구역에 묶고 컵누들 체험 예약을 먼저 확인합니다.",
+        "placeIds": [
+          "yokohama-review-f6e5358087f5",
+          "yokohama-review-040c8c2ae64e",
+          "yokohama-review-0870e7f21066"
+        ]
+      }
+    ]
+  },
+  {
+    "cityId": "nagoya",
+    "days": [
+      {
+        "id": "nagoya-day-1",
+        "title": "도심 역사와 상점가",
+        "pace": "하루 · 지하철·도보",
+        "why": "성에서 도심과 오스로 이동하는 날입니다.",
+        "placeIds": [
+          "nagoya-castle",
+          "nagoya-review-90c23f0ca4bf",
+          "nagoya-osu"
+        ]
+      },
+      {
+        "id": "nagoya-day-2",
+        "title": "아쓰타와 정원",
+        "pace": "반나절 · 도보",
+        "why": "남쪽의 신궁과 정원을 가까이 묶습니다.",
+        "placeIds": ["nagoya-atsuta", "nagoya-review-ea0e9b513c37"]
+      },
+      {
+        "id": "nagoya-day-3",
+        "title": "나고야항 수족관과 철도",
+        "pace": "철도",
+        "why": "수족관과 리니어·철도관을 이동 시간을 두고 연결합니다. 두 시설의 휴관일을 먼저 비교합니다.",
+        "placeIds": ["nagoya-review-7ca6d597ccd7", "nagoya-review-e59ec11f35da"]
+      },
+      {
+        "id": "nagoya-day-4",
+        "title": "이누야마 성하마을",
+        "pace": "철도·도보",
+        "why": "이누야마성 주변에서 하루를 보내고 멀리 떨어진 메이지무라는 따로 둡니다.",
+        "placeIds": [
+          "nagoya-review-97fb403a3466",
+          "nagoya-review-49165d5e1af9",
+          "nagoya-review-6eef2e8d47d1"
+        ]
+      },
+      {
+        "id": "nagoya-day-5",
+        "title": "산업 전시와 사카에의 저녁",
+        "pace": "철도·도보",
+        "why": "도요타 산업 전시 후 사카에로 이동해 공원과 전망을 즐깁니다.",
+        "placeIds": [
+          "nagoya-review-a05ea12c07b0",
+          "nagoya-review-135538c9e28a",
+          "nagoya-review-62b4d2479d7c"
+        ]
+      }
+    ]
+  },
+  {
+    "cityId": "sapporo",
+    "days": [
+      {
+        "id": "sapporo-day-1",
+        "title": "오도리 도심 산책",
+        "pace": "반나절 · 도보",
+        "why": "서로 가까운 도심 표식을 잇는 가벼운 코스입니다.",
+        "placeIds": ["sapporo-odori", "sapporo-clock", "sapporo-tv-tower"]
+      },
+      {
+        "id": "sapporo-day-2",
+        "title": "근교 · 오타루",
+        "pace": "하루 · 철도 이동 후 도보",
+        "why": "삿포로 도심과 다른 날짜로 분리해 여유 있게 다녀오는 제안입니다.",
+        "placeIds": [
+          "sapporo-review-56228a68e4e4",
+          "sapporo-review-0eab69e8ee77",
+          "sapporo-review-597158274130"
+        ]
+      },
+      {
+        "id": "sapporo-day-3",
+        "title": "마루야마 신궁과 모이와산",
+        "pace": "철도·버스",
+        "why": "서쪽 구역을 중심으로 둘러보고 모이와산은 날씨를 보고 결정합니다.",
+        "placeIds": [
+          "sapporo-review-dc3887920113",
+          "sapporo-review-1fab36e53e0d",
+          "sapporo-review-abc4bcc667b3"
+        ]
+      },
+      {
+        "id": "sapporo-day-4",
+        "title": "홋카이도의 역사와 맥주",
+        "pace": "철도·버스",
+        "why": "개척촌에 반나절을 두고 시내로 돌아와 맥주박물관을 방문합니다.",
+        "placeIds": [
+          "sapporo-review-7b09b6096cc5",
+          "sapporo-review-7655df2da794",
+          "sapporo-review-ee17f72fe9f7"
+        ]
+      },
+      {
+        "id": "sapporo-day-5",
+        "title": "도심 시장과 대학 산책",
+        "pace": "철도·도보",
+        "why": "도심에서 식사·쇼핑·산책을 여유 있게 합니다. 공항 이동이 있으면 뒤쪽 장소를 줄입니다.",
+        "placeIds": [
+          "sapporo-review-273aa4dab417",
+          "sapporo-review-489e10ffdfb4",
+          "sapporo-review-e1f33a5c223d"
+        ]
+      }
+    ]
+  },
+  {
+    "cityId": "fukuoka",
+    "days": [
+      {
+        "id": "fukuoka-day-1",
+        "title": "하카타 옛 거리",
+        "pace": "반나절 · 도보",
+        "why": "도심 사찰과 신사를 가까이 묶었습니다.",
+        "placeIds": [
+          "fukuoka-kushida",
+          "fukuoka-review-6e06e038f245",
+          "fukuoka-review-fdbdfe8afeac"
+        ]
+      },
+      {
+        "id": "fukuoka-day-2",
+        "title": "오호리 공원권",
+        "pace": "반나절 · 도보",
+        "why": "공원과 성터를 중심으로 걷는 날입니다.",
+        "placeIds": [
+          "fukuoka-ohori",
+          "fukuoka-review-52cd4e0c30d7",
+          "fukuoka-review-72350575eabf"
+        ]
+      },
+      {
+        "id": "fukuoka-day-3",
+        "title": "다자이후 역사 나들이",
+        "pace": "철도·도보",
+        "why": "다자이후에 하루를 배정해 신사와 박물관을 서두르지 않고 봅니다.",
+        "placeIds": [
+          "fukuoka-review-7c691bbfc87d",
+          "fukuoka-review-62545a9d3b3c"
+        ]
+      },
+      {
+        "id": "fukuoka-day-4",
+        "title": "모모치 바닷가와 전망",
+        "pace": "버스·도보",
+        "why": "박물관과 타워·모모치 해변을 같은 날에 묶습니다.",
+        "placeIds": [
+          "fukuoka-review-bfb3f156eb3e",
+          "fukuoka-review-8249290872e6",
+          "fukuoka-review-21faa7978443"
+        ]
+      },
+      {
+        "id": "fukuoka-day-5",
+        "title": "텐진에서 나카스까지",
+        "pace": "철도·도보",
+        "why": "쇼핑과 공원 산책 후 나카스 주변 저녁 식사로 이어갑니다.",
+        "placeIds": [
+          "fukuoka-tenjin",
+          "fukuoka-review-883af8ccd617",
+          "fukuoka-review-7a964255b354",
+          "fukuoka-review-2a612b76d37a"
+        ]
+      }
+    ]
+  },
+  {
+    "cityId": "hiroshima",
+    "days": [
+      {
+        "id": "hiroshima-day-1",
+        "title": "평화기념공원 관람",
+        "pace": "반나절–하루 · 도보",
+        "why": "무리하게 유료 시설을 더 넣지 않고 관람과 휴식을 함께 두는 코스입니다.",
+        "placeIds": [
+          "hiroshima-dome",
+          "hiroshima-peace-park",
+          "hiroshima-review-b732d8b5046d"
+        ]
+      },
+      {
+        "id": "hiroshima-day-2",
+        "title": "근교 · 미야지마",
+        "pace": "하루 · 철도·페리 후 도보",
+        "why": "섬 안의 신사와 사찰을 묶습니다. 귀환 교통은 별도 확인하세요.",
+        "placeIds": [
+          "hiroshima-review-9c122332e42e",
+          "hiroshima-review-ad9d6c99b447",
+          "hiroshima-review-5f9d07e06ee2"
+        ]
+      },
+      {
+        "id": "hiroshima-day-3",
+        "title": "히로시마 정원과 미술",
+        "pace": "전차·도보",
+        "why": "슛케이엔 주변 미술관과 도심 관람을 묶습니다.",
+        "placeIds": [
+          "hiroshima-shukkeien",
+          "hiroshima-review-b4e77f3c59f0",
+          "hiroshima-review-d22da1836552"
+        ]
+      },
+      {
+        "id": "hiroshima-day-4",
+        "title": "히지야마에서 현대미술",
+        "pace": "전차·도보",
+        "why": "언덕 위 공원과 현대미술관을 함께 보고 도심으로 돌아와 식사합니다.",
+        "placeIds": [
+          "hiroshima-review-7352e167e81b",
+          "hiroshima-review-6577ec4c4553",
+          "hiroshima-review-a477dec7b23a"
+        ]
+      },
+      {
+        "id": "hiroshima-day-5",
+        "title": "히로시마성 주변과 실내 체험",
+        "pace": "전차·도보",
+        "why": "성 주변 산책과 과학관을 가볍게 묶고 주오 공원에서 쉽니다.",
+        "placeIds": [
+          "hiroshima-review-f2a22af18205",
+          "hiroshima-review-9d644bfafc4a",
+          "hiroshima-review-93839d894a56"
+        ]
+      }
+    ]
+  },
+  {
+    "cityId": "kobe",
+    "days": [
+      {
+        "id": "kobe-day-1",
+        "title": "고베 항구 산책",
+        "pace": "반나절 · 도보",
+        "why": "항구의 박물관과 전망·산책 구역을 묶습니다.",
+        "placeIds": [
+          "kobe-harborland",
+          "kobe-review-ca5239e342c6",
+          "kobe-review-fb65ccaa5148"
+        ]
+      },
+      {
+        "id": "kobe-day-2",
+        "title": "기타노에서 도심으로",
+        "pace": "하루 · 도보·전철",
+        "why": "언덕에서 시내 쪽으로 내려오는 방향을 기준으로 조정하세요.",
+        "placeIds": [
+          "kobe-kitano",
+          "kobe-review-ecfcc32657c3",
+          "kobe-review-8609d81e834f"
+        ]
+      },
+      {
+        "id": "kobe-day-3",
+        "title": "롯코산 전망과 자연",
+        "pace": "버스·케이블카",
+        "why": "산 이동과 전망에 하루를 남깁니다. 운행·기상 상황에 따라 산행 범위를 줄입니다.",
+        "placeIds": ["kobe-rokko"]
+      },
+      {
+        "id": "kobe-day-4",
+        "title": "근교 히메지의 성과 정원",
+        "pace": "철도·도보",
+        "why": "히메지로 하루를 따로 잡고 성과 정원에 충분한 관람 시간을 둡니다.",
+        "placeIds": [
+          "kobe-review-2ab015099c7b",
+          "kobe-review-34e9a13e2bca",
+          "kobe-review-124bfcc6015e"
+        ]
+      },
+      {
+        "id": "kobe-day-5",
+        "title": "나다의 양조장 거리",
+        "pace": "철도·도보",
+        "why": "나다의 양조장 지역 안에서 자료관과 전시를 둘러봅니다. 시음 후 운전하지 않습니다.",
+        "placeIds": [
+          "kobe-review-85371518cff0",
+          "kobe-review-f3538986b069",
+          "kobe-review-7cf13a3e558f"
+        ]
+      }
+    ]
+  },
+  {
+    "cityId": "sendai",
+    "days": [
+      {
+        "id": "sendai-day-1",
+        "title": "센다이 도심의 역사",
+        "pace": "하루 · 버스·도보",
+        "why": "언덕 이동을 포함하므로 버스·택시를 함께 고려하는 코스입니다.",
+        "placeIds": ["sendai-castle", "sendai-zuihoden", "sendai-jozenji"]
+      },
+      {
+        "id": "sendai-day-2",
+        "title": "근교 · 마쓰시마",
+        "pace": "하루 · 철도 이동 후 도보",
+        "why": "마쓰시마 해안 가까운 사찰을 한 날에 묶습니다.",
+        "placeIds": [
+          "sendai-review-e33e65db8ce8",
+          "sendai-review-1995e85edc6e",
+          "sendai-review-5b4f677919ee"
+        ]
+      },
+      {
+        "id": "sendai-day-3",
+        "title": "센다이 북쪽의 사찰과 문화",
+        "pace": "버스·도보",
+        "why": "오사키 하치만구와 린노지를 묶고 도심 문화 공간에서 마무리합니다.",
+        "placeIds": [
+          "sendai-review-9b1df5a94ae2",
+          "sendai-review-40bec75c034a",
+          "sendai-review-44f14b9a624d"
+        ]
+      },
+      {
+        "id": "sendai-day-4",
+        "title": "야마데라 산사 나들이",
+        "pace": "철도·도보",
+        "why": "야마데라는 하루를 별도로 배정합니다. 계단과 마지막 귀환 열차 시간을 고려합니다.",
+        "placeIds": [
+          "sendai-review-f294b1b3fd83",
+          "sendai-review-50e59bf2d996",
+          "sendai-review-1783c63e14c7"
+        ]
+      },
+      {
+        "id": "sendai-day-5",
+        "title": "도호쿠대와 센다이 실내 관람",
+        "pace": "버스·도보",
+        "why": "아오바야마 주변 대학 전시와 박물관을 중심으로 돌아봅니다.",
+        "placeIds": [
+          "sendai-review-1794574a8824",
+          "sendai-review-2eb4abaa586b",
+          "sendai-review-634edee22d56"
+        ]
+      }
+    ]
+  },
+  {
+    "cityId": "bali",
+    "days": [
+      {
+        "id": "bali-day-1",
+        "title": "우붓 중심에서 천천히",
+        "pace": "하루 · 도보·차량",
+        "why": "우붓 중심의 시장·왕궁·숲을 묶습니다. 숙소 위치에 따라 차량을 조합하세요.",
+        "placeIds": [
+          "ubud-market",
+          "bali-review-c4472d058a93",
+          "bali-review-7baf35008c3b"
+        ]
+      },
+      {
+        "id": "bali-day-2",
+        "title": "남부 해안 드라이브",
+        "pace": "하루 · 차량 이동",
+        "why": "해변과 사원을 차량으로 잇는 제안이며 해변 사이 도보 코스가 아닙니다.",
+        "placeIds": [
+          "bali-review-4aa0b066bd35",
+          "bali-review-881e2aeb21dd",
+          "uluwatu"
+        ]
+      },
+      {
+        "id": "bali-day-3",
+        "title": "우붓 북쪽 논과 물의 사원",
+        "pace": "차량",
+        "why": "뜨갈랄랑과 탐팍시링을 한 방향으로 이동합니다. 사원 복장과 차량 대기 시간을 고려합니다.",
+        "placeIds": [
+          "ubud",
+          "bali-review-7a45374550b0",
+          "bali-review-b7e316dbb1c4"
+        ]
+      },
+      {
+        "id": "bali-day-4",
+        "title": "사누르의 미술과 바다",
+        "pace": "차량·도보",
+        "why": "사누르에 집중해 미술관과 해안 주변을 천천히 봅니다. 북부 로비나까지 왕복하지 않습니다.",
+        "placeIds": [
+          "bali-review-0dd451ae2886",
+          "bali-review-579892169dd1",
+          "bali-review-ec60946d5563"
+        ]
+      },
+      {
+        "id": "bali-day-5",
+        "title": "쿠타에서 물놀이와 가벼운 산책",
+        "pace": "차량·도보",
+        "why": "워터파크에 반나절 이상 남기고 쿠타 안에서 마무리합니다.",
+        "placeIds": [
+          "bali-review-299050dddab0",
+          "bali-review-64d825c5f09b",
+          "bali-review-e352eefa1b53"
+        ]
+      }
+    ],
+    "dayOrder": {
+      "3": [0, 2, 1],
+      "4": [0, 2, 3, 1],
+      "5": [0, 2, 3, 1, 4]
+    }
+  },
+  {
+    "cityId": "bangkok",
+    "days": [
+      {
+        "id": "bangkok-day-1",
+        "title": "구시가지와 강 건너 사원",
+        "pace": "하루 · 도보·배편",
+        "why": "왕궁과 구시가지 관람 뒤 강을 건너는 동선입니다. 선착장과 운항을 확인하세요.",
+        "placeIds": ["grand-palace", "bangkok-review-8b1f0624c7d0", "wat-arun"]
+      },
+      {
+        "id": "bangkok-day-2",
+        "title": "시암권 문화 산책",
+        "pace": "반나절–하루 · 도보·BTS",
+        "why": "실내 관람을 도심에 모아 더위를 피하는 코스입니다.",
+        "placeIds": [
+          "bangkok-review-aaba407c833d",
+          "bangkok-review-1d53593bca2c",
+          "bangkok-review-8d827b8ea328"
+        ]
+      },
+      {
+        "id": "bangkok-day-3",
+        "title": "딸랏 너이와 차이나타운 저녁",
+        "pace": "도보·택시",
+        "why": "강변 골목을 먼저 걷고 야오와랏 저녁 식사로 마무리합니다.",
+        "placeIds": ["talat-noi", "bangkok-review-57de3e5e724a", "yaowarat"]
+      },
+      {
+        "id": "bangkok-day-4",
+        "title": "실롬의 공원과 도심 전망",
+        "pace": "철도·도보",
+        "why": "더운 낮에는 휴식을 두고 해 질 무렵 전망대를 잡습니다.",
+        "placeIds": [
+          "bangkok-review-12f3a2d501b2",
+          "bangkok-review-f619a76ba54f",
+          "bangkok-review-a6635ddb390c"
+        ]
+      },
+      {
+        "id": "bangkok-day-5",
+        "title": "수쿰윗에서 여유 있게",
+        "pace": "철도·도보",
+        "why": "벤자시리와 벤짜끼띠를 도심 철도로 연결하고 가까운 식사 구역을 남깁니다.",
+        "placeIds": [
+          "bangkok-review-b93647c6ed09",
+          "bangkok-review-f47ebbf461a4",
+          "bangkok-review-dccf852a1b0f"
+        ]
+      }
+    ]
+  },
+  {
+    "cityId": "santorini",
+    "days": [
+      {
+        "id": "santorini-day-1",
+        "title": "피라의 역사와 전망",
+        "pace": "반나절 · 도보",
+        "why": "피라 안에서 박물관과 마을을 묶는 제안입니다.",
+        "placeIds": [
+          "santorini-review-d07aa4e4afa4",
+          "fira",
+          "santorini-review-69c4e48acaa8"
+        ]
+      },
+      {
+        "id": "santorini-day-2",
+        "title": "남부 유적과 등대",
+        "pace": "하루 · 차량 이동",
+        "why": "유적과 해안 끝 등대는 차량 이동을 전제로 분리해 계획하세요.",
+        "placeIds": [
+          "santorini-review-14b095fbd552",
+          "santorini-review-c10c02d6cb8a"
+        ]
+      },
+      {
+        "id": "santorini-day-3",
+        "title": "이아 마을과 아무디의 일몰",
+        "pace": "버스·도보",
+        "why": "피라에서 이아로 이동한 뒤 한 구역에서 쉽니다. 아무디의 계단과 일몰 뒤 귀가 수단을 확인합니다.",
+        "placeIds": ["oia", "ammoudi"]
+      },
+      {
+        "id": "santorini-day-4",
+        "title": "카마리의 유적과 해변 마을",
+        "pace": "차량",
+        "why": "고대 테라를 먼저 보고 카마리에서 점심과 저녁을 보냅니다. 유적 접근 도로와 개방 여부를 확인합니다.",
+        "placeIds": [
+          "santorini-review-f65abd003050",
+          "santorini-review-f3ce30db03b5",
+          "santorini-review-17b1bcb88a6f"
+        ]
+      },
+      {
+        "id": "santorini-day-5",
+        "title": "페리사의 검은 모래 해변",
+        "pace": "버스·도보",
+        "why": "페리사 안에서 해변과 마을을 천천히 봅니다. 수영·휴식 시간을 넉넉히 남깁니다.",
+        "placeIds": [
+          "santorini-review-233784073870",
+          "santorini-review-d42c993d51af",
+          "santorini-review-f7ab8a21c17a"
+        ]
+      }
+    ]
+  },
+  {
+    "cityId": "dubai",
+    "days": [
+      {
+        "id": "dubai-day-1",
+        "title": "크리크 양쪽의 옛 두바이",
+        "pace": "반나절–하루 · 도보·배편",
+        "why": "강 양쪽을 이동하므로 아브라 선착장과 운항을 따로 확인하세요.",
+        "placeIds": ["al-fahidi", "dubai-souk", "dubai-review-0f764fd7eb6c"]
+      },
+      {
+        "id": "dubai-day-2",
+        "title": "다운타운에 집중",
+        "pace": "반나절–하루 · 도보",
+        "why": "전망대 예약과 몰 식사를 한 권역에 모은 제안입니다.",
+        "placeIds": [
+          "burj",
+          "dubai-review-2d9db81044cf",
+          "dubai-review-2da0fd74470a"
+        ]
+      },
+      {
+        "id": "dubai-day-3",
+        "title": "마리나와 팜 주메이라",
+        "pace": "철도·택시",
+        "why": "서쪽 해안에 집중하고 팜 진입·복귀 교통을 따로 잡습니다.",
+        "placeIds": ["dubai-review-92cdaffb7054", "dubai-review-4aa19d63d873"]
+      },
+      {
+        "id": "dubai-day-4",
+        "title": "주메이라 바닷가와 수크",
+        "pace": "택시",
+        "why": "주메이라 해안선을 따라 이동합니다. 해변과 수크에서 더위를 피할 여유를 둡니다.",
+        "placeIds": [
+          "dubai-review-828a8341ea58",
+          "dubai-review-cd947889b1f5",
+          "dubai-review-24fbc130f5ca"
+        ]
+      },
+      {
+        "id": "dubai-day-5",
+        "title": "자빌 공원과 미래박물관",
+        "pace": "철도·택시",
+        "why": "예약한 미래박물관 시간을 먼저 고정하고 자빌 공원권을 더합니다.",
+        "placeIds": [
+          "dubai-review-24ce1836f50d",
+          "dubai-review-17c8ce00a3f4",
+          "dubai-review-1ee5e0dc69a7"
+        ]
+      }
+    ]
+  },
+  {
+    "cityId": "maldives",
+    "days": [
+      {
+        "id": "maldives-day-1",
+        "title": "훌루말레에서 쉬며 도착",
+        "pace": "차량·도보",
+        "why": "장거리 비행 뒤 훌루말레에서 쉽니다. 숙소를 먼저 정하고 섬 이동은 다음 날부터 잡습니다.",
+        "placeIds": ["hulhumale", "maldives-review-035dfef27193"]
+      },
+      {
+        "id": "maldives-day-2",
+        "title": "말레 시내 문화 산책",
+        "pace": "차량·도보",
+        "why": "말레 시내에서 시장과 광장·박물관을 묶습니다. 마푸시행 배편이 있으면 승선 시간을 먼저 확보합니다.",
+        "placeIds": [
+          "male-market",
+          "maldives-review-fcce176fa9d1",
+          "maldives-review-fd44dd2c60e5"
+        ]
+      },
+      {
+        "id": "maldives-day-3",
+        "title": "마푸시로 이동해 바다에서 쉬기",
+        "pace": "예약 선박·도보",
+        "why": "마푸시 숙박과 왕복 스피드보트를 먼저 예약한 로컬섬 예시입니다. 도착 당일이라면 비행기 도착 시각에 맞는 배편이 있을 때만 선택합니다. 다른 환초 리조트와 섞지 않습니다.",
+        "placeIds": [
+          "maldives-review-546f19696adf",
+          "maldives-review-c909c12a24e1"
+        ]
+      },
+      {
+        "id": "maldives-day-4",
+        "title": "마푸시 해변에서 머무는 날",
+        "pace": "도보",
+        "why": "마푸시에서 물놀이와 휴식을 보냅니다. 출국 전날이면 오후 배편으로 훌루말레에 돌아와 마지막 밤을 보냅니다. 해양 활동은 현지 운영사와 날씨를 확인합니다.",
+        "placeIds": ["maldives-review-5487a27a6317"]
+      },
+      {
+        "id": "maldives-day-5",
+        "title": "훌루말레 복귀와 출국 준비",
+        "pace": "차량·도보",
+        "why": "훌루말레로 복귀해 마지막 밤을 보낸 뒤 출국하는 날입니다. 귀국편에 맞춰 해변 일정은 생략하고 공항 이동 시간을 먼저 남깁니다.",
+        "placeIds": ["maldives-review-bd79fcf6d136", "hulhumale"]
+      }
+    ],
+    "dayOrder": {
+      "3": [2, 3, 4],
+      "4": [0, 2, 3, 4],
+      "5": [0, 1, 2, 3, 4]
+    }
+  },
+  {
+    "cityId": "taipei",
+    "days": [
+      {
+        "id": "taipei-day-1",
+        "title": "구시가지와 시먼",
+        "pace": "하루 · MRT·도보",
+        "why": "오래된 도심의 사찰·문화 공간·박물관을 묶습니다.",
+        "placeIds": [
+          "taipei-guide-9a78bac6997e",
+          "taipei-guide-4873bb146512",
+          "taipei-guide-592c444ae51a"
+        ]
+      },
+      {
+        "id": "taipei-day-2",
+        "title": "신이권 전망 산책",
+        "pace": "반나절 · 도보·계단",
+        "why": "쇼핑몰과 전망 산책을 묶되 비가 오면 산행을 빼세요.",
+        "placeIds": ["taipei-guide-efbe7e846207", "taipei-guide-f8fa7026762b"]
+      },
+      {
+        "id": "taipei-day-3",
+        "title": "중정기념당과 창의공원",
+        "pace": "철도·도보",
+        "why": "중정기념당에서 시작해 다안과 화산으로 이동하며 도심 하루를 보냅니다.",
+        "placeIds": [
+          "taipei-guide-9a433dfcd6d7",
+          "taipei-guide-0195af2115b6",
+          "taipei-guide-5196ef892dd6"
+        ]
+      },
+      {
+        "id": "taipei-day-4",
+        "title": "다다오청에서 다룽둥까지",
+        "pace": "철도·도보",
+        "why": "디화제 거리와 북쪽 사찰 구역을 묶습니다. 시장·사찰 개방 시간에 맞춰 순서를 조절합니다.",
+        "placeIds": [
+          "taipei-guide-4e2b4d3547c8",
+          "taipei-guide-7d4eec8b2e13",
+          "taipei-guide-311190f31652"
+        ]
+      },
+      {
+        "id": "taipei-day-5",
+        "title": "베이터우 온천과 중산 미술관",
+        "pace": "철도",
+        "why": "북쪽 온천 지역을 먼저 보고 돌아오는 길 중산의 미술관을 방문합니다. 박물관 휴관일을 비교합니다.",
+        "placeIds": ["taipei-guide-3682822e1b06", "taipei-guide-f93a5b74783b"]
+      }
+    ]
+  },
+  {
+    "cityId": "hongkong",
+    "days": [
+      {
+        "id": "hongkong-day-1",
+        "title": "센트럴의 경사길",
+        "pace": "반나절–하루 · 도보·MTR",
+        "why": "언덕이 있는 도심이므로 동행자의 보행량에 맞춰 줄이세요.",
+        "placeIds": [
+          "hongkong-guide-ba6138c89ec7",
+          "hongkong-guide-0d00a6d445a0",
+          "hongkong-guide-fd5091deba63"
+        ]
+      },
+      {
+        "id": "hongkong-day-2",
+        "title": "침사추이 해안과 박물관",
+        "pace": "반나절–하루 · 도보",
+        "why": "항구 가까운 박물관과 산책로를 한 권역에 묶었습니다.",
+        "placeIds": [
+          "hongkong-guide-0f73d5aaabd9",
+          "hongkong-guide-a5674d78f5d1",
+          "hongkong-guide-15b37b842ec3"
+        ]
+      },
+      {
+        "id": "hongkong-day-3",
+        "title": "란타우의 옹핑과 어촌",
+        "pace": "철도·버스·케이블카",
+        "why": "란타우 안에서 하루를 쓰고 타이오행 버스·복귀편을 확인합니다. 디즈니랜드를 같은 날에 넣지 않습니다.",
+        "placeIds": [
+          "hongkong-guide-69e57ef5cd48",
+          "hongkong-guide-b6006fbf3c75"
+        ]
+      },
+      {
+        "id": "hongkong-day-4",
+        "title": "구룡의 사원과 옛 성곽",
+        "pace": "철도·버스",
+        "why": "웡타이신과 가우룽시티를 묶어 구룡에서 하루를 보냅니다.",
+        "placeIds": [
+          "hongkong-guide-77da8ea9ec30",
+          "hongkong-guide-a9345e6d7bc6"
+        ]
+      },
+      {
+        "id": "hongkong-day-5",
+        "title": "완차이에서 코즈웨이베이까지",
+        "pace": "철도·도보",
+        "why": "홍콩섬 북쪽 해안을 따라 이동하고 공원 주변에서 쉽니다.",
+        "placeIds": [
+          "hongkong-guide-82ed7d620944",
+          "hongkong-guide-607154550ace"
+        ]
+      }
+    ]
+  },
+  {
+    "cityId": "singapore",
+    "days": [
+      {
+        "id": "singapore-day-1",
+        "title": "마리나베이의 하루",
+        "pace": "하루 · MRT·도보",
+        "why": "해안과 전시·정원을 한 권역에 묶고 실내 휴식을 사이에 두세요.",
+        "placeIds": [
+          "singapore-guide-d56599727500",
+          "singapore-guide-b10fb9ddbad4",
+          "singapore-guide-3e98c0bd3bdf"
+        ]
+      },
+      {
+        "id": "singapore-day-2",
+        "title": "차이나타운 문화 산책",
+        "pace": "반나절 · 도보",
+        "why": "서로 가까운 종교·문화 공간을 중심으로 걷는 제안입니다.",
+        "placeIds": [
+          "singapore-guide-2654a9fca3aa",
+          "singapore-guide-7d3207aa3b9c",
+          "singapore-guide-83ea0b1fb08a"
+        ]
+      },
+      {
+        "id": "singapore-day-3",
+        "title": "보타닉가든과 국립 난초정원",
+        "pace": "철도·도보",
+        "why": "정원에 충분한 시간을 두고 더운 오후에는 휴식을 남깁니다.",
+        "placeIds": [
+          "singapore-guide-b1d0fa56c267",
+          "singapore-guide-c0ed2347fae2"
+        ]
+      },
+      {
+        "id": "singapore-day-4",
+        "title": "시빅지구의 역사와 박물관",
+        "pace": "철도·도보",
+        "why": "가까운 도심 박물관을 묶고 전시 관람 시간에 따라 한 곳을 줄여도 좋습니다.",
+        "placeIds": [
+          "singapore-guide-d7771a02b158",
+          "singapore-guide-832f8ce8c0ae",
+          "singapore-guide-184320afc634"
+        ]
+      },
+      {
+        "id": "singapore-day-5",
+        "title": "만다이 동물원과 나이트 사파리",
+        "pace": "철도·버스",
+        "why": "만다이 구역에서 하루를 보냅니다. 낮 관람과 저녁 사파리 사이 쉬는 시간을 충분히 둡니다.",
+        "placeIds": [
+          "singapore-guide-f9acb420cb2d",
+          "singapore-guide-c4ca281387ad"
+        ]
+      }
+    ]
+  },
+  {
+    "cityId": "danang",
+    "days": [
+      {
+        "id": "danang-day-1",
+        "title": "다낭 도심 문화와 강변",
+        "pace": "반나절–하루 · 도보·차량",
+        "why": "시장·박물관·강변을 도심에 모으는 제안입니다.",
+        "placeIds": [
+          "danang-guide-bfbc0f6a9a38",
+          "danang-guide-51b8b7d35422",
+          "danang-guide-dce9a989753a"
+        ]
+      },
+      {
+        "id": "danang-day-2",
+        "title": "근교 · 호이안 옛 도시",
+        "pace": "하루 · 차량 이동 후 도보",
+        "why": "다낭에서의 왕복을 따로 두고 옛 도시 안을 걷습니다.",
+        "placeIds": [
+          "danang-guide-3037568d722d",
+          "danang-guide-02551715de7c",
+          "danang-guide-0672f96a46da"
+        ]
+      },
+      {
+        "id": "danang-day-3",
+        "title": "미케 해변과 선짜반도",
+        "pace": "차량",
+        "why": "해변에서 쉬고 선짜반도의 린응사로 이동합니다. 햇볕이 강한 시간은 숙소 휴식에 남깁니다.",
+        "placeIds": ["danang-guide-1cffff18d23e", "danang-guide-e22744f96b4c"]
+      },
+      {
+        "id": "danang-day-4",
+        "title": "오행산과 다낭 남부",
+        "pace": "차량",
+        "why": "오행산의 계단·관람 시간을 고려하고 시내로 돌아오는 길에 장을 봅니다.",
+        "placeIds": ["danang-guide-fdbc49ddca56", "danang-guide-c9deaa06b77b"]
+      },
+      {
+        "id": "danang-day-5",
+        "title": "호이안 옛집과 거리 산책",
+        "pace": "차량·도보",
+        "why": "호이안에 하루를 더 두어 옛집과 작은 박물관을 천천히 봅니다. 통합 입장권의 방문 범위를 확인합니다.",
+        "placeIds": [
+          "danang-guide-84f8a60fea72",
+          "danang-guide-a038f991bb87",
+          "danang-guide-1118ea125b72"
+        ]
+      }
+    ]
+  },
+  {
+    "cityId": "guam",
+    "days": [
+      {
+        "id": "guam-day-1",
+        "title": "투몬 해변에서 쉬는 날",
+        "pace": "반나절–하루 · 도보·차량",
+        "why": "투몬권에서 이동을 줄이는 제안입니다. 숙소 위치에 맞춰 두 해변 중 하나만 골라도 됩니다.",
+        "placeIds": ["guam-tumon-beach", "guam-ypao-beach"]
+      },
+      {
+        "id": "guam-day-2",
+        "title": "하갓냐 문화 산책",
+        "pace": "반나절 · 차량 이동 후 도보",
+        "why": "하갓냐 안의 문화·역사 장소를 묶습니다.",
+        "placeIds": [
+          "guam-guam-museum",
+          "guam-plaza-de-espana",
+          "guam-latte-stone-park"
+        ]
+      },
+      {
+        "id": "guam-day-3",
+        "title": "남부 해안 드라이브",
+        "pace": "렌터카",
+        "why": "서쪽에서 남쪽으로 내려가 솔레다드·메리조·이나라한 순서로 봅니다. 수영 가능 여부와 일몰 전 복귀를 확인합니다.",
+        "placeIds": [
+          "guam-fort-soledad",
+          "guam-merizo-pier",
+          "guam-inarajan-pools"
+        ]
+      },
+      {
+        "id": "guam-day-4",
+        "title": "피티의 바다와 전망",
+        "pace": "렌터카",
+        "why": "피티 구역에 집중하고 해양 체험 예약 시간을 먼저 정합니다.",
+        "placeIds": [
+          "guam-fish-eye",
+          "guam-emerald-valley",
+          "guam-newman-center"
+        ]
+      },
+      {
+        "id": "guam-day-5",
+        "title": "투몬 북쪽과 쇼핑",
+        "pace": "렌터카",
+        "why": "북부 전망과 투몬 주변 바다를 보고 타무닝에서 필요한 물품을 삽니다.",
+        "placeIds": [
+          "guam-two-lovers-point",
+          "guam-gun-beach",
+          "guam-premier-outlets"
+        ]
+      }
+    ]
+  },
+  {
+    "cityId": "saipan",
+    "days": [
+      {
+        "id": "saipan-day-1",
+        "title": "가라판에서 천천히",
+        "pace": "반나절 · 도보",
+        "why": "가라판권의 해안과 공원을 묶는 가벼운 제안입니다.",
+        "placeIds": [
+          "saipan-micro-beach",
+          "saipan-american-memorial",
+          "saipan-paseo"
+        ]
+      },
+      {
+        "id": "saipan-day-2",
+        "title": "북부 전망 드라이브",
+        "pace": "반나절–하루 · 차량",
+        "why": "전망지 사이를 차량으로 이동하는 제안이며 도보 코스가 아닙니다.",
+        "placeIds": [
+          "saipan-bird-island",
+          "saipan-last-command",
+          "saipan-banzai-cliff"
+        ]
+      },
+      {
+        "id": "saipan-day-3",
+        "title": "마나가하섬에서 하루",
+        "pace": "선박",
+        "why": "마나가하 왕복편과 입도 조건을 확인하고 섬에서 휴식·물놀이에 하루를 둡니다.",
+        "placeIds": ["saipan-managaha"]
+      },
+      {
+        "id": "saipan-day-4",
+        "title": "남부 해변과 찰란카노아",
+        "pace": "렌터카",
+        "why": "남부 해변과 성당을 묶습니다. 파도가 높으면 물놀이 대신 전망만 봅니다.",
+        "placeIds": [
+          "saipan-mount-carmel",
+          "saipan-ladder-beach",
+          "saipan-obyan-beach"
+        ]
+      },
+      {
+        "id": "saipan-day-5",
+        "title": "타포차우 전망과 가라판 문화",
+        "pace": "렌터카·도보",
+        "why": "산길 상태를 확인한 뒤 타포차우산을 보고 가라판으로 돌아와 공원·박물관을 둘러봅니다.",
+        "placeIds": [
+          "saipan-mount-tapochau",
+          "saipan-sugar-king",
+          "saipan-history-museum"
+        ]
+      }
+    ]
+  }
+]

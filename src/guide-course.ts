@@ -1,7 +1,61 @@
 import { destinationForDay, type Trip, type Stop } from './travel-model'
 import type { Place } from './data'
+import { courseDays, type CourseSelection } from './practical-guides'
 
 type PlaceLookup = (id: string) => Place | undefined
+export function eligibleCourseDays(trip: Trip, course: CourseSelection) {
+  const length = courseDays(course).length
+  return trip.days
+    .map((_, index) => index)
+    .filter(
+      (index) =>
+        index + length <= trip.days.length &&
+        Array.from(
+          { length },
+          (_, offset) =>
+            destinationForDay(trip, index + offset).guideCityId ===
+            course.cityId,
+        ).every(Boolean),
+    )
+}
+export function appendGuideSelection(
+  trip: Trip,
+  course: CourseSelection,
+  startDay: number,
+  startTime: string,
+  lookup: PlaceLookup,
+): { trip: Trip; added: number } {
+  const days = courseDays(course)
+  if (!days.length || !eligibleCourseDays(trip, course).includes(startDay))
+    throw new Error(
+      days.length > 1
+        ? `${days.length}일 연속으로 이 도시에 머무는 시작 날짜를 선택해 주세요.`
+        : '이 도시로 지정한 여행 날짜를 선택해 주세요.',
+    )
+  let next = trip
+  let added = 0
+  for (const [offset, day] of days.entries()) {
+    try {
+      const result = appendGuideCourse(
+        next,
+        course.cityId,
+        day.placeIds,
+        startDay + offset,
+        startTime,
+        lookup,
+      )
+      next = result.trip
+      added += result.added
+    } catch (error) {
+      throw new Error(
+        days.length > 1
+          ? `DAY ${offset + 1}: ${(error as Error).message}`
+          : (error as Error).message,
+      )
+    }
+  }
+  return { trip: next, added }
+}
 export function newCoursePlaceIds(stops: Stop[], ids: string[]) {
   const existing = new Set(
     stops.map((stop) => stop.custom?.catalogPlaceId || stop.placeId),

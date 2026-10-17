@@ -1,7 +1,13 @@
 import { useState } from 'react'
 import { ArrowRight, ExternalLink } from 'lucide-react'
 import { getPlace } from './catalog'
-import { practicalGuideById, type CourseSelection } from './practical-guides'
+import {
+  practicalGuideById,
+  getGuidePlan,
+  guidePlanDurations,
+  type GuidePlanDuration,
+  type CourseSelection,
+} from './practical-guides'
 import GuideBlogs from './GuideBlogs'
 
 export default function PracticalGuide({
@@ -15,6 +21,8 @@ export default function PracticalGuide({
 }) {
   const profile = practicalGuideById.get(cityId)
   const [tab, setTab] = useState('start')
+  const [duration, setDuration] = useState<GuidePlanDuration>(3)
+  const plan = getGuidePlan(cityId, duration)
   if (!profile) return null
   return (
     <section className="practical-guide" aria-label="자유여행 실전 가이드">
@@ -97,12 +105,27 @@ export default function PracticalGuide({
             </dl>
             <h3>며칠을 잡을까</h3>
             <dl className="guide-decisions">
-              {profile.timePlan.map((item) => (
-                <div key={item.name}>
-                  <dt>{item.name}</dt>
-                  <dd>{item.advice}</dd>
-                </div>
-              ))}
+              {guidePlanDurations.map((days) => {
+                const itinerary = getGuidePlan(cityId, days)!
+                const previous =
+                  days > 3
+                    ? getGuidePlan(cityId, (days - 1) as GuidePlanDuration)
+                        ?.days
+                    : []
+                const added = itinerary.days!.filter(
+                  (day) => !previous?.some((item) => item.id === day.id),
+                )
+                return (
+                  <div key={days}>
+                    <dt>{days}일</dt>
+                    <dd>
+                      {days > 3 ? `${days - 1}일 일정에 ` : ''}
+                      {added.map((day) => day.title).join(' → ')}
+                      {days > 3 ? ' 추가' : ''}
+                    </dd>
+                  </div>
+                )
+              })}
             </dl>
             <button
               className="button outline full"
@@ -115,9 +138,40 @@ export default function PracticalGuide({
         )}
         {tab === 'courses' && (
           <div className="guide-courses">
-            {profile.courses.map((course) => (
+            <div
+              className="guide-duration"
+              role="group"
+              aria-label="추천 일정 기간"
+            >
+              {guidePlanDurations.map((days) => (
+                <button
+                  type="button"
+                  key={days}
+                  aria-pressed={duration === days}
+                  onClick={() => setDuration(days)}
+                >
+                  {days}일
+                </button>
+              ))}
+            </div>
+            <div className="guide-plan-summary">
+              <h3>{duration}일 추천 일정</h3>
+              {plan && onCourse && (
+                <button
+                  type="button"
+                  className="button primary full"
+                  onClick={() => onCourse(plan)}
+                >
+                  {duration}일 전체 일정에 담기 <ArrowRight size={16} />
+                </button>
+              )}
+            </div>
+            {plan?.days?.map((course, index) => (
               <article className="guide-course" key={course.id}>
-                <small>{course.pace}</small>
+                <div className="guide-course-day">
+                  <strong>DAY {index + 1}</strong>
+                  <small>{course.pace}</small>
+                </div>
                 <h3>{course.title}</h3>
                 <p>{course.why}</p>
                 <ol>

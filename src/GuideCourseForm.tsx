@@ -1,13 +1,15 @@
 import { useState } from 'react'
 import { getCity, getPlace } from './catalog'
-import { tripDestinations, destinationForDay, type Trip } from './travel-model'
+import { tripDestinations, type Trip } from './travel-model'
 import { dateAt, formatDate } from './store'
 import {
   courseStartTime,
   newCoursePlaceIds,
-  appendGuideCourse,
+  appendGuideSelection,
+  eligibleCourseDays,
 } from './guide-course'
-import type { CourseSelection } from './practical-guides'
+import { courseDays, type CourseSelection } from './practical-guides'
+import CoursePreview from './CoursePreview'
 
 export default function GuideCourseForm({
   course,
@@ -26,6 +28,8 @@ export default function GuideCourseForm({
   onCreate: () => void
   onOpenTrip: (tripId: string) => void
 }) {
+  const days = courseDays(course)
+  const multiDay = days.length > 1
   const matching = trips.filter((trip) =>
     tripDestinations(trip).some(
       (destination) => destination.guideCityId === course.cityId,
@@ -37,26 +41,29 @@ export default function GuideCourseForm({
       '',
   )
   const trip = matching.find((trip) => trip.id === selected) || matching[0]
-  const eligible =
-    trip?.days
-      .map((_, index) => index)
-      .filter(
-        (index) => destinationForDay(trip, index).guideCityId === course.cityId,
-      ) || []
+  const eligible = trip ? eligibleCourseDays(trip, course) : []
   const [day, setDay] = useState(
     eligible.includes(activeDay) ? activeDay : (eligible[0] ?? 0),
   )
   const effectiveDay = eligible.includes(day) ? day : eligible[0]
+  const initialTime = (target: Trip, index: number) =>
+    multiDay ? '09:00' : courseStartTime(target.days[index], course.placeIds)
   const [time, setTime] = useState(
     trip && effectiveDay !== undefined
-      ? courseStartTime(trip.days[effectiveDay], course.placeIds)
+      ? initialTime(trip, effectiveDay)
       : '09:00',
   )
   const [error, setError] = useState('')
-  const ids =
+  const added =
     trip && effectiveDay !== undefined
-      ? newCoursePlaceIds(trip.days[effectiveDay], course.placeIds)
-      : []
+      ? days.reduce(
+          (total, item, offset) =>
+            total +
+            newCoursePlaceIds(trip.days[effectiveDay + offset], item.placeIds)
+              .length,
+          0,
+        )
+      : 0
   return (
     <form
       className="modal-body course-add-form"
@@ -65,14 +72,7 @@ export default function GuideCourseForm({
         setError('')
         if (!trip || effectiveDay === undefined) return
         try {
-          appendGuideCourse(
-            trip,
-            course.cityId,
-            course.placeIds,
-            effectiveDay,
-            time,
-            getPlace,
-          )
+          appendGuideSelection(trip, course, effectiveDay, time, getPlace)
           onApply(trip.id, effectiveDay, time)
         } catch (error) {
           setError((error as Error).message)
@@ -83,16 +83,14 @@ export default function GuideCourseForm({
         {getCity(course.cityId)?.name} · {course.pace}
       </small>
       <h3>{course.title}</h3>
-      <ol>
-        {course.placeIds.map((id) => (
-          <li key={id}>
-            {getPlace(id)?.name}
-            {trip && effectiveDay !== undefined && !ids.includes(id) && (
-              <small> · 이날 이미 포함</small>
-            )}
-          </li>
-        ))}
-      </ol>
+      <CoursePreview
+        course={course}
+        existingDays={
+          trip && effectiveDay !== undefined
+            ? trip.days.slice(effectiveDay, effectiveDay + days.length)
+            : undefined
+        }
+      />
       {trip ? (
         <>
           <label className="field">
@@ -103,17 +101,11 @@ export default function GuideCourseForm({
                 const next = matching.find(
                   (item) => item.id === event.target.value,
                 )!
-                const nextDay = next.days.findIndex(
-                  (_, index) =>
-                    destinationForDay(next, index).guideCityId ===
-                    course.cityId,
-                )
+                const nextDay = eligibleCourseDays(next, course)[0]
                 setSelected(next.id)
-                setDay(Math.max(0, nextDay))
+                setDay(nextDay ?? 0)
                 setTime(
-                  nextDay >= 0
-                    ? courseStartTime(next.days[nextDay], course.placeIds)
-                    : '09:00',
+                  nextDay === undefined ? '09:00' : initialTime(next, nextDay),
                 )
                 setError('')
               }}
@@ -128,13 +120,13 @@ export default function GuideCourseForm({
           {eligible.length ? (
             <>
               <label className="field">
-                코스를 담을 날짜
+                {multiDay ? '코스를 시작할 날짜' : '코스를 담을 날짜'}
                 <select
                   value={effectiveDay}
                   onChange={(event) => {
                     const next = Number(event.target.value)
                     setDay(next)
-                    setTime(courseStartTime(trip.days[next], course.placeIds))
+                    setTime(initialTime(trip, next))
                     setError('')
                   }}
                 >
@@ -142,12 +134,15 @@ export default function GuideCourseForm({
                     <option key={index} value={index}>
                       DAY {index + 1} ·{' '}
                       {formatDate(dateAt(trip.startDate, index))}
+                      {multiDay
+                        ? ` ~ ${formatDate(dateAt(trip.startDate, index + days.length - 1))}`
+                        : ''}
                     </option>
                   ))}
                 </select>
               </label>
               <label className="field">
-                첫 방문 시간
+                {multiDay ? '매일 첫 방문 시간' : '첫 방문 시간'}
                 <input
                   type="time"
                   required
@@ -159,8 +154,11 @@ export default function GuideCourseForm({
                 />
               </label>
               <p className="detail-footnote">
-                기존 일정 뒤에 중복 없이 추가합니다. 방문 시간은 2시간 간격의
-                편집 가능한 계획값이며 이동·대기시간을 계산한 값은 아닙니다.
+                {multiDay
+                  ? `${days.length}일에 나누어 기존 장소를 보존하며 추가합니다. `
+                  : '기존 일정 뒤에 중복 없이 추가합니다. '}
+                방문 시간은 2시간 간격의 편집 가능한 계획값이며 이동·대기시간을
+                계산한 값은 아닙니다.
               </p>
               {error && (
                 <p className="form-error" role="alert">
@@ -170,18 +168,21 @@ export default function GuideCourseForm({
               <button
                 className="button primary full"
                 type="submit"
-                disabled={!ids.length}
+                disabled={!added}
               >
-                {ids.length
-                  ? `${ids.length}곳 일정에 추가`
-                  : '이날 이미 모두 담았어요'}
+                {added
+                  ? `${added}곳 일정에 추가`
+                  : multiDay
+                    ? '모든 날짜에 이미 담았어요'
+                    : '이날 이미 모두 담았어요'}
               </button>
             </>
           ) : (
             <>
               <p>
-                이 도시로 지정한 여행 날짜가 없습니다. 내 여행에서 날짜별 체류
-                도시를 먼저 정해 주세요.
+                {multiDay
+                  ? `${days.length}일 연속으로 이 도시에 머무는 날짜가 없습니다. 여행 기간과 날짜별 도시를 확인해 주세요.`
+                  : '이 도시로 지정한 여행 날짜가 없습니다. 내 여행에서 날짜별 체류 도시를 먼저 정해 주세요.'}
               </p>
               <button
                 type="button"
@@ -194,7 +195,11 @@ export default function GuideCourseForm({
           )}
         </>
       ) : (
-        <p>이 도시가 포함된 여행을 만들면 첫날에 선택한 코스를 담습니다.</p>
+        <p>
+          {multiDay
+            ? `선택한 ${days.length}일 코스로 새 여행을 만듭니다.`
+            : '이 도시가 포함된 여행을 만들면 첫날에 선택한 코스를 담습니다.'}
+        </p>
       )}
       <button
         type="button"
