@@ -7,6 +7,7 @@ import type { City } from './data'
 
 const label = z.string().trim().min(1).max(160)
 const id = z.string().min(1).max(100)
+export const MAX_TRAVELERS = 1001
 export const safeLink = z
   .string()
   .max(1500)
@@ -163,7 +164,7 @@ export const expenseSchema = z
         }),
       )
       .min(1)
-      .max(10)
+      .max(MAX_TRAVELERS)
       .optional(),
     reservationId: id.optional(),
     stopId: id.optional(),
@@ -225,7 +226,7 @@ export const tripSchema = z
     cityId: id,
     startDate: dateSchema,
     endDate: dateSchema,
-    travelers: z.number().int().min(1).max(10),
+    travelers: z.number().int().min(1).max(MAX_TRAVELERS),
     days: z.array(z.array(stopSchema).max(200)).min(1).max(90),
     destinations: z.array(destinationSchema).min(1).max(30).optional(),
     dayDestinationIds: z.array(id).max(90).optional(),
@@ -239,7 +240,7 @@ export const tripSchema = z
       .optional(),
     reservations: z.array(reservationSchema).max(1000).optional(),
     attachments: z.array(attachmentSchema).max(300).optional(),
-    members: z.array(memberSchema).min(1).max(10).optional(),
+    members: z.array(memberSchema).min(1).max(MAX_TRAVELERS).optional(),
     baseCurrency: z.enum(currencies).optional(),
     totalBudget: z.number().finite().nonnegative().max(1e12).optional(),
     exchangeRates: z

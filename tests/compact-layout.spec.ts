@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test'
 import { openTrips, openWorkspace } from './navigation'
 
-test('320px와 큰 글자에서도 작업 버튼은 한 줄이며 긴 장소명을 자르지 않음', async ({
+test('320px와 큰 글자에서도 작업 버튼·공유 요약과 긴 장소명을 자르지 않음', async ({
   page,
 }) => {
   await page.setViewportSize({ width: 320, height: 740 })
@@ -60,9 +60,12 @@ test('320px와 큰 글자에서도 작업 버튼은 한 줄이며 긴 장소명�
       client: el.clientWidth,
       whiteSpace: getComputedStyle(el).whiteSpace,
       height: el.getBoundingClientRect().height,
+      share: el.matches('.journey-share > summary'),
+      clipped: el.scrollHeight > el.clientHeight,
     }))
     expect(size.scroll).toBeLessThanOrEqual(size.client + 1)
-    expect(size.whiteSpace).toBe('nowrap')
+    if (!size.share) expect(size.whiteSpace).toBe('nowrap')
+    expect(size.clipped).toBe(false)
     expect(size.height).toBeGreaterThanOrEqual(42)
   }
   const title = page.locator('.stop-place strong')
@@ -75,9 +78,7 @@ test('320px와 큰 글자에서도 작업 버튼은 한 줄이며 긴 장소명�
   await page.getByRole('button', { name: '장소 추가', exact: true }).click()
   await expect(page.getByRole('dialog')).toBeVisible()
   await expect(
-    page
-      .getByRole('dialog')
-      .getByRole('button', { name: '추천 장소에서 선택' }),
+    page.getByRole('dialog').getByRole('button', { name: '새 장소 추가' }),
   ).toBeVisible()
   await page.getByRole('button', { name: '닫기', exact: true }).click()
   for (const name of [

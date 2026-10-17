@@ -1,3 +1,4 @@
+import CompanionCount from './CompanionCount'
 import DayTransfers from './DayTransfers'
 import DurationInput from './DurationInput'
 import TripSearch from './TripSearch'
@@ -46,11 +47,13 @@ import AttachmentsPanel, { AttachmentsContext } from './AttachmentsPanel'
 import type { Attachment } from './attachment-schema'
 import TripDashboard from './TripDashboard'
 import { cancelledReservation, timeConflicts } from './journey-progress'
-import PlaceSearchResults, {
-  PlaceSearchService,
-  usePlaceSearch,
-} from './PlaceSearch'
-import type { SearchPlace } from './place-search'
+import PlacePicker from './PlacePicker'
+import RegisteredPlaceAdd from './RegisteredPlaceAdd'
+import {
+  registeredPlaces,
+  registeredPlaceKey,
+  matchesRegisteredPlace,
+} from './registered-places'
 import { googleMapsLink, mapsSearch } from './google-maps'
 import { placeCoordinates, placeMapQuery } from './place-location'
 import {
@@ -120,6 +123,8 @@ import {
   stopDetails,
   mapQuery,
   tripSchema,
+  MAX_TRAVELERS,
+  type CustomPlace,
 } from './travel-model'
 import { matchesCity, matchesPlace } from './search'
 import {
@@ -143,14 +148,25 @@ type Dialog =
       cityId?: string
       placeId?: string
       course?: CourseSelection
+      initialName?: string
+      initialCountry?: string
+      pendingPlaceName?: string
+      registeredPlace?: CustomPlace
     }
   | { type: 'course'; course: CourseSelection }
   | { type: 'picker'; tripId: string; day: number }
   | { type: 'add'; placeId: string }
+  | { type: 'registered'; key: string }
   | { type: 'delete'; tripId: string }
   | { type: 'backup' }
   | { type: 'edit'; tripId: string }
-  | { type: 'custom'; tripId: string; day: number; stopId?: string }
+  | {
+      type: 'custom'
+      tripId: string
+      day: number
+      stopId?: string
+      initialName?: string
+    }
 const navigation = [
   { id: 'home' as const, name: '홈', icon: Home },
   { id: 'trips' as const, name: '내 여행', icon: Luggage },
@@ -343,21 +359,23 @@ function CreateTrip({
   cityId,
   placeId,
   initialName = '',
+  initialCountry = '',
   course,
   onCreate,
 }: {
   cityId?: string
   course?: CourseSelection
   initialName?: string
+  initialCountry?: string
   placeId?: string
   onCreate: (trip: Trip) => void
 }) {
   const draft = useDraftFields(
-    `jido-draft:create:${cityId || 'custom'}:${placeId || ''}:${course?.placeIds.join(',') || ''}`,
+    `jido-draft:create:${cityId || 'custom'}:${placeId || ''}:${course?.placeIds.join(',') || ''}${initialName ? ':' + initialName + ':' + initialCountry : ''}`,
     {
       destination: cityId || 'custom',
       customCity: initialName,
-      customCountry: '',
+      customCountry: initialCountry,
       title: '',
       start: today(),
       end: dateAt(today(), 3),
@@ -386,6 +404,14 @@ function CreateTrip({
       (!customCity.trim() || !customCountry.trim())
     ) {
       setError('도시와 국가를 입력해 주세요.')
+      return
+    }
+    if (
+      !Number.isInteger(travelers) ||
+      travelers < 1 ||
+      travelers > MAX_TRAVELERS
+    ) {
+      setError('함께하는 인원을 확인해 주세요.')
       return
     }
     const targetId =
@@ -539,19 +565,7 @@ function CreateTrip({
           />
         </label>
       </div>
-      <label className="field">
-        함께하는 인원
-        <select
-          value={travelers}
-          onChange={(event) => setTravelers(Number(event.target.value))}
-        >
-          {Array.from({ length: 10 }, (_, index) => (
-            <option value={index + 1} key={index}>
-              {index + 1}명{index === 0 ? ' · 나 홀로 여행' : ''}
-            </option>
-          ))}
-        </select>
-      </label>
+      <CompanionCount travelers={travelers} onChange={setTravelers} />
       {course && (
         <section className="course-create-preview">
           <h3>{course.title}</h3>
@@ -706,132 +720,6 @@ function AddToTrip({
         일정에 추가
       </button>
     </form>
-  )
-}
-
-function PlacePicker({
-  trip,
-  day,
-  onAdd,
-  onOpen,
-  onCustom,
-  onGoogleAdd,
-}: {
-  onGoogleAdd: (place: SearchPlace) => void
-  onCustom: () => void
-  trip: Trip
-  day: number
-  onAdd: (placeId: string) => void
-  onOpen: (placeId: string) => void
-}) {
-  const [category, setCategory] = useState<string>('전체')
-  const [query, setQuery] = useState('')
-  const google = usePlaceSearch()
-  const available = places.filter(
-    (place) =>
-      place.cityId === destinationForDay(trip, day).guideCityId &&
-      (category === '전체' || place.category === category) &&
-      matchesPlace(place, getCity(place.cityId)!, query),
-  )
-  function findPlace() {
-    google.reset()
-    if (!query.trim() || available.length) return
-    const destination = destinationForDay(trip, day)
-    void google.search(query.trim(), destination)
-  }
-  return (
-    <div className="modal-body">
-      <p className="muted picker-description">
-        DAY {day + 1} · {formatDate(dateAt(trip.startDate, day))}에 갈 장소를
-        골라보세요.
-      </p>
-      <button
-        className="button primary full custom-stop-cta"
-        onClick={onCustom}
-      >
-        <Plus size={17} />
-        장소·숙소·이동 직접 추가
-      </button>
-      <div className="input-search">
-        <Search size={18} />
-        <input
-          value={query}
-          onChange={(event) => {
-            setQuery(event.target.value)
-            google.reset()
-          }}
-          placeholder="장소 이름 검색"
-          aria-label="일정에 추가할 장소 검색"
-          onKeyDown={(event) => {
-            if (event.key === 'Enter') {
-              event.preventDefault()
-              findPlace()
-            }
-          }}
-        />
-        <button
-          className="button primary small"
-          type="button"
-          disabled={!query.trim() || google.loading}
-          onClick={findPlace}
-        >
-          찾기
-        </button>
-      </div>
-      <PlaceSearchService search={google} />
-      <div className="filter-row">
-        {categoryOptions.map((item) => (
-          <button
-            key={item}
-            className={`filter ${item === category ? 'active' : ''}`}
-            onClick={() => {
-              setCategory(item)
-              google.reset()
-            }}
-          >
-            {item}
-          </button>
-        ))}
-      </div>
-      <div className="picker-list">
-        {available.map((place) => {
-          const added = trip.days[day].some((stop) => stop.placeId === place.id)
-          return (
-            <div key={place.id} className="picker-item">
-              <PlacePhoto place={place} alt={place.name} />
-              <button
-                className="picker-place-name"
-                onClick={() => onOpen(place.id)}
-              >
-                <small>{place.category}</small>
-                <strong>{place.name}</strong>
-                <span>
-                  <Clock3 size={12} />
-                  {place.duration}
-                </span>
-              </button>
-              <button
-                className={`icon-button ${added ? 'added' : 'add-stop'}`}
-                disabled={added}
-                aria-label={`${place.name} ${added ? '추가됨' : '일정에 추가'}`}
-                onClick={() => onAdd(place.id)}
-              >
-                {added ? <Check size={20} /> : <Plus size={20} />}
-              </button>
-            </div>
-          )
-        })}
-        <PlaceSearchResults search={google} onSelect={onGoogleAdd} />
-        {available.length === 0 &&
-          !google.loading &&
-          !google.error &&
-          !google.searched && (
-            <p className="no-results">
-              검색 결과가 없어요. 다른 이름을 입력해보세요.
-            </p>
-          )}
-      </div>
-    </div>
   )
 }
 
@@ -1101,7 +989,9 @@ function Itinerary({
               </span>
               <span>
                 <Users size={15} />
-                {trip.travelers}명
+                {trip.travelers === 1
+                  ? '나 혼자'
+                  : `동행 ${trip.travelers - 1}명`}
               </span>
               <span>{trip.days.length}일</span>
             </div>
@@ -1334,7 +1224,9 @@ function Itinerary({
                   <button
                     className="button outline small schedule-density"
                     aria-pressed={compactStops}
-                    aria-label={compactStops ? '상세 목록 보기' : '간단한 목록 보기'}
+                    aria-label={
+                      compactStops ? '상세 목록 보기' : '간단한 목록 보기'
+                    }
                     onClick={() => {
                       const next = !compactStops
                       setCompactStops(next)
@@ -1981,12 +1873,7 @@ export default function App() {
     setCategory('전체')
     setExploreCity('전체')
     setExploreTab(
-      !cities.some((city) => matchesCity(city, query)) &&
-        places.some((place) =>
-          matchesPlace(place, getCity(place.cityId)!, query),
-        )
-        ? 'places'
-        : 'cities',
+      cities.some((city) => matchesCity(city, query)) ? 'cities' : 'places',
     )
     navigate('explore')
   }
@@ -2061,6 +1948,72 @@ export default function App() {
     }
     setToast('일정에 장소를 추가했어요.')
   }
+  const addRegisteredPlace = (
+    place: CustomPlace,
+    tripId: string,
+    day: number,
+    close = true,
+  ) => {
+    const trip = attachmentStoreRef.current.trips.find(
+      (item) => item.id === tripId,
+    )
+    if (!trip || !trip.days[day]) return
+    const custom = { ...place, destinationId: destinationForDay(trip, day).id }
+    if (
+      trip.days[day].some(
+        (stop) =>
+          stop.custom &&
+          registeredPlaceKey(stop.custom) === registeredPlaceKey(custom),
+      )
+    ) {
+      setToast('이날 일정에 이미 있는 장소예요.')
+      return
+    }
+    if (trip.days[day].length >= 200) {
+      setToast('하루 일정은 최대 200곳까지 담을 수 있어요.')
+      return
+    }
+    updateTrip({
+      ...trip,
+      days: trip.days.map((items, index) =>
+        index === day
+          ? [
+              ...items,
+              {
+                id: crypto.randomUUID(),
+                placeId: `custom-${crypto.randomUUID()}`,
+                time: '10:00',
+                note: '',
+                custom,
+              },
+            ]
+          : items,
+      ),
+    })
+    setActiveTripId(trip.id)
+    setActiveDay(day)
+    if (close) {
+      setDialog(null)
+      navigate('trips')
+    }
+    setToast('일정에 장소를 추가했어요.')
+  }
+  const registered = registeredPlaces(store.trips)
+  const startNewPlace = () => {
+    if (activeTrip)
+      setDialog({
+        type: 'custom',
+        tripId: activeTrip.id,
+        day: Math.min(activeDay, activeTrip.days.length - 1),
+        initialName: query.trim(),
+      })
+    else
+      setDialog({
+        type: 'create',
+        cityId: 'custom',
+        pendingPlaceName: query.trim(),
+      })
+  }
   const filteredCities = cities.filter(
     (city) =>
       (region === '전체' || city.region === region) && matchesCity(city, query),
@@ -2073,6 +2026,18 @@ export default function App() {
   )
     ? exploreCity
     : '전체'
+  const filteredRegistered = registered.filter((entry) => {
+    const city = entry.destination.guideCityId
+      ? getCity(entry.destination.guideCityId)
+      : undefined
+    return (
+      (region === '전체' || city?.region === region) &&
+      (category === '전체' || entry.custom.kind === category) &&
+      (effectiveExploreCity === '전체' ||
+        entry.destination.guideCityId === effectiveExploreCity) &&
+      matchesRegisteredPlace(entry, query)
+    )
+  })
   const filteredPlaces = places.filter((place) => {
     const city = getCity(place.cityId)!
     return (
@@ -2265,7 +2230,15 @@ export default function App() {
                 aria-label="여행지와 장소 검색"
                 placeholder="도시, 나라, 장소 이름으로 검색하세요"
                 value={query}
-                onChange={(event) => setQuery(event.target.value)}
+                onChange={(event) => {
+                  const value = event.target.value
+                  setQuery(value)
+                  if (
+                    value.trim() &&
+                    !cities.some((city) => matchesCity(city, value))
+                  )
+                    setExploreTab('places')
+                }}
               />
               {query && (
                 <button
@@ -2293,7 +2266,8 @@ export default function App() {
                 className={exploreTab === 'places' ? 'active' : ''}
                 onClick={() => setExploreTab('places')}
               >
-                가볼 만한 곳 <span>{filteredPlaces.length}</span>
+                가볼 만한 곳{' '}
+                <span>{filteredPlaces.length + filteredRegistered.length}</span>
               </button>
             </div>
             <div className="filter-row">
@@ -2349,9 +2323,46 @@ export default function App() {
               {query.trim() && <strong>‘{query.trim()}’ </strong>}총{' '}
               {exploreTab === 'cities'
                 ? filteredCities.length
-                : filteredPlaces.length}
+                : filteredPlaces.length + filteredRegistered.length}
               개의 {exploreTab === 'cities' ? '여행지' : '장소'}
             </p>
+            {exploreTab === 'places' && filteredRegistered.length > 0 && (
+              <div
+                className="picker-list registered-explore-list"
+                aria-label="직접 등록한 장소 검색 결과"
+              >
+                {filteredRegistered.map((entry) => (
+                  <div className="picker-item" key={entry.key}>
+                    <span className="registered-place-icon">
+                      <MapPin size={22} />
+                    </span>
+                    <button
+                      type="button"
+                      className="picker-place-name"
+                      onClick={() =>
+                        setDialog({ type: 'registered', key: entry.key })
+                      }
+                    >
+                      <small>
+                        {entry.destination.name} · {entry.custom.kind}
+                      </small>
+                      <strong>{entry.custom.name}</strong>
+                      <span>{entry.custom.address}</span>
+                    </button>
+                    <button
+                      type="button"
+                      className="icon-button"
+                      aria-label={`${entry.custom.name} 일정에 추가`}
+                      onClick={() =>
+                        setDialog({ type: 'registered', key: entry.key })
+                      }
+                    >
+                      <Plus size={20} />
+                    </button>
+                  </div>
+                ))}
+              </div>
+            )}
             {exploreTab === 'cities' ? (
               filteredCities.length ? (
                 cityCards(filteredCities)
@@ -2388,20 +2399,47 @@ export default function App() {
                   </button>
                 )}
               </>
-            ) : (
+            ) : filteredRegistered.length ? null : (
               <EmptyState
                 icon={<Search size={30} />}
-                title="검색 결과가 없어요"
-                description="검색어나 지역, 장소 유형을 바꿔보세요."
-                action="모든 장소 보기"
-                onAction={() => {
-                  setQuery('')
-                  setRegion('전체')
-                  setCategory('전체')
-                  setExploreCity('전체')
-                }}
+                title="등록된 장소가 없어요"
+                description=""
+                action={
+                  query.trim()
+                    ? `‘${query.trim()}’ 새 장소 추가`
+                    : '새 장소 추가'
+                }
+                onAction={startNewPlace}
               />
             )}
+            {exploreTab === 'cities' &&
+              query.trim() &&
+              !filteredCities.length &&
+              !filteredPlaces.length &&
+              !filteredRegistered.length && (
+                <button
+                  type="button"
+                  className="button outline full custom-stop-cta"
+                  onClick={startNewPlace}
+                >
+                  ‘{query.trim()}’ 새 장소 추가
+                </button>
+              )}
+            {exploreTab === 'places' &&
+              query.trim() &&
+              !filteredCities.length &&
+              !filteredPlaces.length &&
+              !filteredRegistered.length && (
+                <button
+                  type="button"
+                  className="button outline full custom-stop-cta"
+                  onClick={() =>
+                    setDialog({ type: 'create', cityId: 'custom' })
+                  }
+                >
+                  직접 입력해 여행 만들기
+                </button>
+              )}
           </section>
         )}
         {page === 'trips' && (
@@ -2514,7 +2552,7 @@ export default function App() {
                   onDayChange={setActiveDay}
                   onAdd={() =>
                     setDialog({
-                      type: 'custom',
+                      type: 'picker',
                       tripId: activeTrip.id,
                       day: Math.min(activeDay, activeTrip.days.length - 1),
                     })
@@ -2704,12 +2742,49 @@ export default function App() {
         <Modal title="새로운 여행 만들기" onClose={() => setDialog(null)}>
           <CreateTrip
             initialName={
-              dialog.cityId === 'custom' ? query.trim().slice(0, 80) : ''
+              dialog.initialName ??
+              (dialog.pendingPlaceName
+                ? ''
+                : dialog.cityId === 'custom'
+                  ? query.trim().slice(0, 80)
+                  : '')
             }
+            initialCountry={dialog.initialCountry}
             cityId={dialog.cityId}
             placeId={dialog.placeId}
             course={dialog.course}
-            onCreate={createTrip}
+            onCreate={(trip) => {
+              if (dialog.registeredPlace) {
+                trip = {
+                  ...trip,
+                  days: trip.days.map((items, index) =>
+                    index === 0
+                      ? [
+                          ...items,
+                          {
+                            id: crypto.randomUUID(),
+                            placeId: `custom-${crypto.randomUUID()}`,
+                            time: '10:00',
+                            note: '',
+                            custom: {
+                              ...dialog.registeredPlace!,
+                              destinationId: destinationForDay(trip, 0).id,
+                            },
+                          },
+                        ]
+                      : items,
+                  ),
+                }
+              }
+              createTrip(trip)
+              if (dialog.pendingPlaceName)
+                setDialog({
+                  type: 'custom',
+                  tripId: trip.id,
+                  day: 0,
+                  initialName: dialog.pendingPlaceName,
+                })
+            }}
           />
         </Modal>
       )}
@@ -2726,6 +2801,7 @@ export default function App() {
               onClose={() => setDialog(null)}
             >
               <CustomStopForm
+                initialName={dialog.initialName}
                 onBrowse={() =>
                   setDialog({
                     type: 'picker',
@@ -2975,6 +3051,44 @@ export default function App() {
           />
         </Modal>
       )}
+      {dialog?.type === 'registered' &&
+        (() => {
+          const entry = registered.find((place) => place.key === dialog.key)
+          if (!entry) return null
+          return (
+            <Modal
+              title="등록한 장소 일정에 담기"
+              onClose={() => setDialog(null)}
+            >
+              <RegisteredPlaceAdd
+                entry={entry}
+                trips={store.trips}
+                activeTripId={activeTripId}
+                initialDay={activeDay}
+                onAdd={(tripId, day) =>
+                  addRegisteredPlace(entry.custom, tripId, day)
+                }
+                onManage={(tripId) => {
+                  const trip = store.trips.find((item) => item.id === tripId)
+                  if (trip) saveJourneyPreference(trip, 0, 'route')
+                  setActiveDay(0)
+                  setActiveTripId(tripId)
+                  setDialog(null)
+                  navigate('trips')
+                }}
+                onCreate={() =>
+                  setDialog({
+                    type: 'create',
+                    cityId: entry.destination.guideCityId || 'custom',
+                    initialName: entry.destination.name,
+                    initialCountry: entry.destination.country,
+                    registeredPlace: entry.custom,
+                  })
+                }
+              />
+            </Modal>
+          )
+        })()}
       {dialog?.type === 'picker' &&
         (() => {
           const trip = store.trips.find((item) => item.id === dialog.tripId)!
@@ -2985,59 +3099,19 @@ export default function App() {
             >
               <PlacePicker
                 trip={trip}
-                onCustom={() =>
+                trips={store.trips}
+                onCustom={(name) =>
                   setDialog({
                     type: 'custom',
+                    initialName: name,
                     tripId: trip.id,
                     day: dialog.day,
                   })
                 }
                 day={dialog.day}
-                onGoogleAdd={(place) => {
-                  if (
-                    trip.days[dialog.day].some(
-                      (stop) =>
-                        (place.provider === 'google'
-                          ? stop.custom?.googlePlaceId
-                          : stop.custom?.osmPlaceId) === place.id,
-                    )
-                  ) {
-                    setToast('이미 일정에 있는 장소예요.')
-                    return
-                  }
-                  updateTrip({
-                    ...trip,
-                    days: trip.days.map((items, index) =>
-                      index === dialog.day
-                        ? [
-                            ...items,
-                            {
-                              id: crypto.randomUUID(),
-                              placeId: `custom-${crypto.randomUUID()}`,
-                              time: '10:00',
-                              note: '',
-                              custom: {
-                                name: place.name,
-                                kind: place.kind,
-                                address: place.address,
-                                link: place.link,
-                                destinationId: destinationForDay(
-                                  trip,
-                                  dialog.day,
-                                ).id,
-                                ...(place.provider === 'google'
-                                  ? { googlePlaceId: place.id }
-                                  : { osmPlaceId: place.id }),
-                                coordinates: place.coordinates,
-                              },
-                            },
-                          ]
-                        : items,
-                    ),
-                  })
-                  setDialog(null)
-                  setToast('일정에 장소를 추가했어요.')
-                }}
+                onReuse={(place) =>
+                  addRegisteredPlace(place, trip.id, dialog.day, false)
+                }
                 onAdd={(id) => addStop(trip.id, dialog.day, id, false)}
                 onOpen={openPlace}
               />

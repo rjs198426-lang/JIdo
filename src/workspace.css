@@ -2190,3 +2190,41 @@ details.maps-import[open] > * + * {
     font-size: 15px;
   }
 }
+
+.registered-place-icon {
+  width: 63px;
+  height: 63px;
+  flex-shrink: 0;
+  display: grid;
+  place-items: center;
+  color: #087b70;
+  background: #eaf4ef;
+  border-radius: 12px;
+}
+.picker-item > .picker-place-photo,
+.picker-item > .registered-place-icon {
+  width: 63px;
+  height: 63px;
+  min-height: 0;
+  flex: 0 0 63px;
+  object-fit: cover;
+  border-radius: 9px;
+}
+.custom-stop-cta {
+  margin-top: 16px;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+.picker-place-name > strong,
+.picker-place-name > span {
+  max-width: 100%;
+  overflow-wrap: anywhere;
+}
+@media (max-width: 600px) {
+  .picker-item > .picker-place-photo,
+  .picker-item > .registered-place-icon {
+    width: 56px;
+    height: 56px;
+    flex-basis: 56px;
+  }
+}

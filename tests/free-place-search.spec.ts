@@ -68,6 +68,7 @@ async function seed(page: Page, custom?: Record<string, unknown>) {
 }
 async function add(page: Page) {
   await page.getByRole('button', { name: '장소 추가', exact: true }).click()
+  await page.getByRole('button', { name: '새 장소 추가', exact: true }).click()
 }
 async function find(page: Page, query = 'Eiffel Tower') {
   await page.getByLabel('장소 또는 일정 이름').fill(query)

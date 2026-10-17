@@ -134,7 +134,7 @@ test('혼자 여행은 직접 고른 도시·빈 일정으로 시작하고 공�
     .getByRole('button', { name: '첫 여행 만들기', exact: true })
     .click()
   const form = page.getByRole('dialog')
-  await expect(form.getByLabel('함께하는 인원')).toHaveValue('1')
+  await expect(form.getByLabel('함께하는 인원')).toHaveValue('0')
   await expect(form.getByLabel('어디로 떠나세요?')).toHaveValue('custom')
   await form.getByLabel('도시 이름', { exact: true }).fill('리스본')
   await form.getByLabel('국가', { exact: true }).fill('포르투갈')
@@ -298,7 +298,7 @@ test('동행자 제거 시 실제 여행 인원도 줄이고 기록에서 사용
     .getByRole('button', { name: '수진 동행인 삭제', exact: true })
     .click()
   await page.getByRole('button', { name: '동행인 저장', exact: true }).click()
-  await expect(page.locator('.trip-banner')).toContainText('1명')
+  await expect(page.locator('.trip-banner')).toContainText('나 혼자')
   await tab(page, '가계부')
   await expect(
     page.getByRole('tab', { name: '정산', exact: true }),

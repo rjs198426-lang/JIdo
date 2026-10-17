@@ -24,14 +24,16 @@ export default function CustomStopForm({
   stop,
   onSave,
   onBrowse,
+  initialName = '',
 }: {
   trip: Trip
   day: number
   stop?: Stop
   onBrowse?: () => void
+  initialName?: string
   onSave: (stop: Stop) => void
 }) {
-  const [name, setName] = useState(stop ? stopName(stop) : '')
+  const [name, setName] = useState(stop ? stopName(stop) : initialName)
   const [kind, setKind] = useState<CustomPlace['kind']>(
     stop?.custom?.kind || '관광',
   )
@@ -119,7 +121,7 @@ export default function CustomStopForm({
     )
     setResults([])
   }
-  const draftKey = `jdo-place-draft:${trip.id}:${day}:${stop?.id || 'new'}`
+  const draftKey = `jdo-place-draft:${trip.id}:${day}:${stop?.id || 'new'}${!stop && initialName ? ':' + initialName : ''}`
   const [loaded, setLoaded] = useState(false)
   useEffect(() => {
     try {
@@ -369,7 +371,7 @@ export default function CustomStopForm({
       )}
       {onBrowse && !stop && (
         <button className="text-button" type="button" onClick={onBrowse}>
-          추천 장소에서 선택
+          등록된 가볼 곳에서 선택
         </button>
       )}
       <div className="form-row">

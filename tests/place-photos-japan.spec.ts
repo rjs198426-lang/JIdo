@@ -398,6 +398,7 @@ test('Google SDK 모형: 기기 내 동명 장소가 있어도 Google 공식 이
   })
   await seed(page)
   await page.getByRole('button', { name: '장소 추가', exact: true }).click()
+  await page.getByRole('button', { name: '새 장소 추가', exact: true }).click()
   await page.getByLabel('장소 또는 일정 이름').fill('기요미즈데라')
   await page.getByRole('button', { name: '찾기', exact: true }).click()
   await page

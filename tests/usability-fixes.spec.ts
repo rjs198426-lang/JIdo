@@ -104,6 +104,7 @@ test('한글 검색은 실제 찾기 때만 알려진 영문 별칭으로 무료
     })
   })
   await page.getByRole('button', { name: '장소 추가', exact: true }).click()
+  await page.getByRole('button', { name: '새 장소 추가', exact: true }).click()
   await page.getByLabel('장소 또는 일정 이름').fill('아라비카교토')
   expect(queries).toEqual([])
   await page.getByRole('button', { name: '찾기', exact: true }).click()

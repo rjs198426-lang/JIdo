@@ -59,7 +59,7 @@ test('도시 검색, 지역 필터와 여행 상세 정보', async ({ page }) =>
     await expect(card).toContainText('카페')
   await page.getByLabel('여행지와 장소 검색').fill('없는 여행지')
   await expect(
-    page.getByText('검색 결과가 없어요', { exact: true }),
+    page.getByText('등록된 장소가 없어요', { exact: true }),
   ).toBeVisible()
 })
 
@@ -119,7 +119,6 @@ test('여행 생성, 일정 시간·메모 편집, 순서 이동 및 장소 추�
   await page
     .getByRole('button', { name: '첫 장소 추가하기', exact: true })
     .click()
-  await page.getByRole('button', { name: '추천 장소에서 선택' }).click()
   await page
     .getByRole('button', {
       name: '기온 시라카와 산책 일정에 추가',
@@ -448,7 +447,6 @@ test('추천 장소에서 일정에 추가하고 같은 날짜 중복 이동을 
   await page
     .getByRole('button', { name: '첫 장소 추가하기', exact: true })
     .click()
-  await page.getByRole('button', { name: '추천 장소에서 선택' }).click()
   await page.getByLabel('일정에 추가할 장소 검색').fill('기요미즈데라')
   await expect(page.locator('.picker-item')).toHaveCount(1)
   await page

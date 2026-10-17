@@ -2,7 +2,8 @@ import { reservationConflicts } from './reservation-conflicts'
 import { useDraftFields } from './form-draft'
 import { useState, type FormEvent } from 'react'
 import { dayCount, type Trip } from './store'
-import { destinationForDay } from './travel-model'
+import { destinationForDay, MAX_TRAVELERS } from './travel-model'
+import CompanionCount from './CompanionCount'
 
 export default function TripEditor({
   trip,
@@ -40,11 +41,29 @@ export default function TripEditor({
       : []
   function submit(event: FormEvent) {
     event.preventDefault()
+    if (
+      !Number.isInteger(travelers) ||
+      travelers < 1 ||
+      travelers > MAX_TRAVELERS
+    )
+      return setError('함께하는 인원을 확인해 주세요.')
     if (!title.trim()) return setError('여행 이름을 입력해 주세요.')
     if (!Number.isFinite(count) || count < 1)
       return setError('마지막 날은 출발일과 같거나 이후여야 해요.')
     if (count > 90) return setError('한 여행은 최대 90일까지 만들 수 있어요.')
-    if (travelers < (trip.members?.length || 0))
+    const removed = (trip.members || []).slice(travelers)
+    if (
+      removed.some(
+        (member, index) =>
+          member.name !== `동행 ${travelers + index}` ||
+          trip.checklist?.some((item) => item.assigneeId === member.id) ||
+          trip.expenses?.some(
+            (item) =>
+              item.payerId === member.id ||
+              item.splits?.some((split) => split.memberId === member.id),
+          ),
+      )
+    )
       return setError(
         '등록한 동행인 수보다 인원을 줄일 수 없어요. 먼저 동행인을 편집하세요.',
       )
@@ -52,7 +71,7 @@ export default function TripEditor({
       return setError(
         `${blockedDays.join(', ')}에 일정이 있어요. 장소를 다른 날로 옮긴 뒤 기간을 줄여 주세요.`,
       )
-    const members = [...(trip.members || [])]
+    const members = [...(trip.members || [])].slice(0, travelers)
     while (members.length < travelers) {
       const base = members.length === 0 ? '나' : `동행 ${members.length}`
       let name = base,
@@ -114,19 +133,7 @@ export default function TripEditor({
           />
         </label>
       </div>
-      <label className="field">
-        함께하는 인원
-        <select
-          value={travelers}
-          onChange={(event) => setTravelers(Number(event.target.value))}
-        >
-          {Array.from({ length: 10 }, (_, index) => (
-            <option key={index} value={index + 1}>
-              {index + 1}명
-            </option>
-          ))}
-        </select>
-      </label>
+      <CompanionCount travelers={travelers} onChange={setTravelers} />
       {!!conflicts.length && (
         <aside className="reservation-conflicts" role="alert">
           <strong>예약 날짜와 일정이 달라집니다</strong>

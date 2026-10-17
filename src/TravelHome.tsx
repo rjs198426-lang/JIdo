@@ -114,7 +114,9 @@ export default function TravelHome(props: Props) {
             <div className="home-journey-meta">
               <span>
                 <Users size={15} />
-                {trip.travelers === 1 ? '나 혼자' : `동행 ${trip.travelers}명`}
+                {trip.travelers === 1
+                  ? '나 혼자'
+                  : `동행 ${trip.travelers - 1}명`}
               </span>
               <span>
                 <MapPin size={15} />
@@ -324,7 +326,9 @@ export default function TravelHome(props: Props) {
                     <strong>{item.title}</strong>
                     <span>
                       {formatDate(item.startDate)} · {item.days.length}일 ·{' '}
-                      {item.travelers === 1 ? '나 혼자' : `${item.travelers}명`}
+                      {item.travelers === 1
+                        ? '나 혼자'
+                        : `동행 ${item.travelers - 1}명`}
                     </span>
                   </div>
                   <ArrowRight size={17} />

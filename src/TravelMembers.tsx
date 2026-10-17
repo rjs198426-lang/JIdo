@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Plus, Trash2 } from 'lucide-react'
-import { tripSchema, type Trip } from './travel-model'
+import { MAX_TRAVELERS, tripSchema, type Trip } from './travel-model'
 export default function TravelMembers({
   trip,
   onUpdate,
@@ -89,7 +89,7 @@ export default function TravelMembers({
                 className="icon-button"
                 type="button"
                 aria-label={`${member.name} 동행인 삭제`}
-                disabled={members.length === 1 || referenced(member.id)}
+                disabled={index === 0 || members.length === 1 || referenced(member.id)}
                 onClick={() =>
                   setMembers(
                     members.filter((current) => current.id !== member.id),
@@ -103,7 +103,7 @@ export default function TravelMembers({
           <button
             className="text-button"
             type="button"
-            disabled={members.length >= 10}
+            disabled={members.length >= MAX_TRAVELERS}
             onClick={() =>
               setMembers([...members, { id: crypto.randomUUID(), name: '' }])
             }

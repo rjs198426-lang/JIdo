@@ -130,6 +130,7 @@ test('구글 결과를 앱에서 선택하고 주소·좌표·장소 ID를 일�
   await sdkFixture(page)
   await tripPage(page)
   await page.getByRole('button', { name: '장소 추가', exact: true }).click()
+  await page.getByRole('button', { name: '새 장소 추가', exact: true }).click()
   await expect(
     page.getByRole('button', { name: '찾기', exact: true }),
   ).toBeDisabled()
@@ -158,6 +159,7 @@ test('구글 결과를 앱에서 선택하고 주소·좌표·장소 ID를 일�
   await page.reload()
   await openTrips(page)
   await page.getByRole('button', { name: '장소 추가', exact: true }).click()
+  await page.getByRole('button', { name: '새 장소 추가', exact: true }).click()
   await expect(page.getByLabel('장소 또는 일정 이름')).toHaveValue('에펠 카페')
   await page
     .getByRole('button', { name: '내 일정에 추가', exact: true })
@@ -193,6 +195,7 @@ test('결과 없음·연결 실패·오프라인은 앱 안에서 표시하고 �
   await sdkFixture(page)
   await tripPage(page)
   await page.getByRole('button', { name: '장소 추가', exact: true }).click()
+  await page.getByRole('button', { name: '새 장소 추가', exact: true }).click()
   await page.getByLabel('장소 또는 일정 이름').fill('결과없음')
   await page.getByLabel('장소 또는 일정 이름').press('Enter')
   await expect(page.getByRole('status')).toContainText('검색 결과가 없습니다')
@@ -210,6 +213,7 @@ test('느린 응답이 변경된 검색 결과를 덮어쓰지 않음', async ({
   await sdkFixture(page)
   await tripPage(page)
   await page.getByRole('button', { name: '장소 추가', exact: true }).click()
+  await page.getByRole('button', { name: '새 장소 추가', exact: true }).click()
   await page.getByLabel('장소 또는 일정 이름').fill('느린검색')
   await page.getByRole('button', { name: '찾기', exact: true }).click()
   await expect(page.getByRole('status')).toContainText('장소 찾는 중')
@@ -225,16 +229,18 @@ test('느린 응답이 변경된 검색 결과를 덮어쓰지 않음', async ({
   ).toBeVisible()
 })
 
-test('추천 장소 선택 화면에서도 구글 결과를 골라 바로 일정 추가', async ({
-  page,
-}) => {
+test('등록된 장소가 없을 때 새 장소 추가를 거쳐 구글 결과를 선택해 저장', async ({ page }) => {
   await sdkFixture(page)
   await tripPage(page)
   await page.getByRole('button', { name: '장소 추가', exact: true }).click()
-  await page.getByRole('button', { name: '추천 장소에서 선택' }).click()
   await page.getByLabel('일정에 추가할 장소 검색').fill('에펠탑')
   await page.getByRole('button', { name: '찾기', exact: true }).click()
+  expect(await page.evaluate(() => (window as any).mapsRequests)).toEqual([])
+  await page.getByRole('button', { name: '‘에펠탑’ 새 장소 추가', exact: true }).click()
+  await expect(page.getByLabel('장소 또는 일정 이름')).toHaveValue('에펠탑')
+  await page.getByRole('button', { name: '찾기', exact: true }).click()
   await page.getByRole('button', { name: '에펠탑 선택', exact: true }).click()
+  await page.getByRole('button', { name: '내 일정에 추가', exact: true }).click()
   await expect(page.getByRole('dialog')).toHaveCount(0)
   await expect(page.locator('.timeline-item')).toContainText('에펠탑')
   expect(await page.evaluate(() => (window as any).externalOpens)).toBe(0)
@@ -256,6 +262,7 @@ test('기기 내 장소를 찾을 때는 구글 호출 없이 선택', async ({ 
   await page.reload()
   await openTrips(page)
   await page.getByRole('button', { name: '장소 추가', exact: true }).click()
+  await page.getByRole('button', { name: '새 장소 추가', exact: true }).click()
   await page.getByLabel('장소 또는 일정 이름').fill('기요미즈')
   await page.getByRole('button', { name: '찾기', exact: true }).click()
   await page.locator('.place-find-results').getByRole('button').click()
@@ -279,6 +286,7 @@ test('검색 연결이 없으면 설정 오류를 알리고 외부 지도나 가
   })
   await tripPage(page)
   await page.getByRole('button', { name: '장소 추가', exact: true }).click()
+  await page.getByRole('button', { name: '새 장소 추가', exact: true }).click()
   await page.getByLabel('장소 또는 일정 이름').fill('에펠탑')
   await page.getByRole('button', { name: '찾기', exact: true }).click()
   await expect(page.getByRole('alert')).toContainText(/설정되지|연결할 수/)
