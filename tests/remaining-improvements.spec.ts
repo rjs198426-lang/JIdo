@@ -3,6 +3,7 @@ import { openTrips, openWorkspace } from './navigation'
 import { tripSchema } from '../src/travel-model'
 import { localClock, validTimeZone } from '../src/destination-time'
 import { places } from '../src/data'
+import { portableTrip } from '../src/TravelBackup'
 const fixture = () => ({
   id: 'remaining',
   title: '우리 교토 여행',
@@ -88,6 +89,13 @@ test('시간대는 날짜 변경선과 서머타임을 반영하며 잘못된 �
     localClock(new Date('2026-12-01T12:00:00Z'), 'America/New_York').time,
   ).toBe('07:00')
   expect(validTimeZone('Not/AZone')).toBe(false)
+  const bali = tripSchema.parse({
+    ...fixture(),
+    destinations: [
+      { id: 'kyoto', name: '발리', country: '인도네시아', guideCityId: 'bali' },
+    ],
+  })
+  expect(portableTrip(bali).destinations?.[0].timeZone).toBe('Asia/Makassar')
   expect(
     tripSchema.safeParse({
       ...fixture(),

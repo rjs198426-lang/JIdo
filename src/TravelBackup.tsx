@@ -1,5 +1,6 @@
 import FullBackup from './FullBackup'
 import JourneyShare from './JourneyShare'
+import { destinationTimeZone } from './destination-time'
 import { NativeBackup, downloadBlob } from './full-backup'
 import { isAndroid } from './attachment-storage'
 import type { Attachment } from './attachment-schema'
@@ -19,11 +20,17 @@ import { placeCoordinates, placeMapQuery } from './place-location'
 // Backups carry their own place descriptions, so a removed guide cannot break a restored trip.
 export function portableTrip(trip: Trip): Trip {
   const destinations = tripDestinations(trip).map(
-    ({ id, name, country, timeZone }) => ({
+    ({ id, name, country, timeZone, guideCityId }) => ({
       id,
       name,
       country,
-      ...(timeZone ? { timeZone } : {}),
+      timeZone: destinationTimeZone({
+        id,
+        name,
+        country,
+        timeZone,
+        guideCityId,
+      }),
     }),
   )
   const days = trip.days.map((stops) =>
@@ -37,7 +44,17 @@ export function portableTrip(trip: Trip): Trip {
       let destination = destinations.find((item) => item.id === source?.id)
       if (!destination) {
         const city = getCity(place.cityId)!
-        destination = { id: city.id, name: city.name, country: city.country }
+        destination = {
+          id: city.id,
+          name: city.name,
+          country: city.country,
+          timeZone: destinationTimeZone({
+            id: city.id,
+            name: city.name,
+            country: city.country,
+            guideCityId: city.id,
+          }),
+        }
         if (!destinations.some((item) => item.id === destination!.id))
           destinations.push(destination)
       }

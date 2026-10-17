@@ -48,7 +48,7 @@ test('주요 제목은 하이커체, 본문·입력 내용은 내장 SUIT로 오
   const dialog = page.getByRole('dialog')
   for (const [selector, expectedFamily] of [
     ['h2', 'HiKR'],
-    ['button', 'HiKR'],
+    ['button', 'SUIT'],
     ['input', 'SUIT'],
     ['select', 'SUIT'],
   ] as const) {
