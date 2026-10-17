@@ -21,6 +21,8 @@ keystore.properties
 signing.properties
 *.key
 *signing-backup*.zip
+*signing-transfer*.json
+.jido-transfer/
 credentials*.json
 service-account*.json
 
