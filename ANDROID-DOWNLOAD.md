@@ -1,6 +1,8 @@
 # J★Do Android 다운로드
 
-[J★Do 1.38 APK 다운로드](https://raw.githubusercontent.com/rjs198426-lang/JIdo/7e5ef20389d4ce11f82eaad6e990116a73b0c971/JDo-android-1.38.apk)
+**1.38 APK는 빌드·기존 서명 검증을 완료했으며 공개 업로드 승인 대기 중입니다.**
+
+[현재 공개된 J★Do 1.37 APK 다운로드](https://raw.githubusercontent.com/rjs198426-lang/JIdo/343df4ac891d1f1e350ee3c2db4511eb70b6b0e2/JDo-android-1.37.apk)
 
 - 앱: **J★Do** (`com.jido.travel.next`)
 - 버전: 1.38 · versionCode 39 · Android 7.0 이상
