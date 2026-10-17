@@ -909,3 +909,36 @@
 .explore-place-filters .category-row {
   flex-wrap: wrap;
 }
+
+.home-custom-destination {
+  display: grid;
+  grid-template-columns: 24px minmax(0, 1fr) 20px;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  min-height: 72px;
+  margin-top: 12px;
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  text-align: left;
+}
+.home-custom-destination strong,
+.home-custom-destination small {
+  display: block;
+  overflow-wrap: anywhere;
+}
+.home-custom-destination strong {
+  font-size: 16px;
+  font-weight: 700;
+}
+.home-custom-destination small {
+  margin-top: 4px;
+  color: #697e73;
+}
+.home-section-heading > div {
+  min-width: 0;
+}
+.home-section-heading h2 {
+  overflow-wrap: anywhere;
+}

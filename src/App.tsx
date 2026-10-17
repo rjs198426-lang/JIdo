@@ -1,3 +1,4 @@
+import { homeJourney } from './home-journey'
 import { balancedPlaces } from './category-balance'
 import CompanionCount from './CompanionCount'
 import DayTransfers from './DayTransfers'
@@ -620,12 +621,16 @@ function CreateTrip({
 function AddToTrip({
   place,
   trips,
+  preferredTripId,
+  preferredDay,
   onAdd,
   onCreate,
   onManageTrip,
 }: {
   place: Place
   trips: Trip[]
+  preferredTripId?: string
+  preferredDay?: number
   onAdd: (tripId: string, day: number) => void
   onCreate: () => void
   onManageTrip: (id: string) => void
@@ -635,8 +640,16 @@ function AddToTrip({
       (destination) => destination.guideCityId === place.cityId,
     ),
   )
-  const [tripId, setTripId] = useState(matching[0]?.id ?? '')
-  const [day, setDay] = useState<number | null>(null)
+  const [tripId, setTripId] = useState(
+    matching.find((trip) => trip.id === preferredTripId)?.id ??
+      matching[0]?.id ??
+      '',
+  )
+  const [day, setDay] = useState<number | null>(
+    matching.some((trip) => trip.id === preferredTripId)
+      ? (preferredDay ?? null)
+      : null,
+  )
   const trip = matching.find((item) => item.id === tripId)
   const eligible =
     trip?.days
@@ -2033,6 +2046,23 @@ export default function App() {
     () => setPlaceLimit(24),
     [query, region, category, effectiveExploreCity],
   )
+  const [homeNow, setHomeNow] = useState(() => new Date())
+  useEffect(() => {
+    if (page !== 'home') return
+    const refresh = () => {
+      if (!document.hidden) setHomeNow(new Date())
+    }
+    refresh()
+    const timer = window.setInterval(refresh, 60_000)
+    window.addEventListener('focus', refresh)
+    document.addEventListener('visibilitychange', refresh)
+    return () => {
+      window.clearInterval(timer)
+      window.removeEventListener('focus', refresh)
+      document.removeEventListener('visibilitychange', refresh)
+    }
+  }, [page])
+  const home = homeJourney(store.trips, activeTripId, homeNow)
   const activeTrip =
     store.trips.find((trip) => trip.id === activeTripId) || store.trips[0]
   useEffect(() => {
@@ -2128,27 +2158,44 @@ export default function App() {
       <main className="main">
         {page === 'home' && (
           <TravelHome
-            trip={activeTrip}
+            journey={home}
             trips={store.trips}
             cities={cityCards(
-              ['tokyo', 'osaka', 'kyoto', 'sapporo']
-                .map(getCity)
-                .filter((city): city is City => !!city),
+              home?.personalized
+                ? home.cities
+                : ['tokyo', 'osaka', 'kyoto', 'sapporo']
+                    .map(getCity)
+                    .filter((city): city is City => !!city),
             )}
             places={placeCards(
-              ['tokyo-shibuya', 'osaka-dotonbori', 'kiyomizu', 'sapporo-odori']
-                .map(getPlace)
-                .filter((place): place is Place => !!place),
+              home?.personalized
+                ? home.recommendations
+                : [
+                    'tokyo-shibuya',
+                    'osaka-dotonbori',
+                    'kiyomizu',
+                    'sapporo-odori',
+                  ]
+                    .map(getPlace)
+                    .filter((place): place is Place => !!place),
             )}
-            placesTitle="여행에 담아둘 장소"
+            placesTitle={
+              home?.personalized
+                ? `${home.destination.name}에서 더 가볼 곳`
+                : '여행에 담아둘 장소'
+            }
             onCreate={() => setDialog({ type: 'create' })}
             onTrips={() => navigate('trips')}
             onImport={() => setDialog({ type: 'backup' })}
-            onExplore={(japan = false, showPlaces = false) => {
+            onExplore={(japan = false, showPlaces = false, cityId) => {
               setQuery('')
               setRegion(japan ? '일본' : '전체')
               setCategory('전체')
-              setExploreCity('전체')
+              setExploreCity(cityId || '전체')
+              if (cityId && home?.personalized) {
+                setActiveTripId(home.trip.id)
+                setActiveDay(home.day)
+              }
               setExploreTab(showPlaces ? 'places' : 'cities')
               navigate('explore')
             }}
@@ -3000,6 +3047,14 @@ export default function App() {
           <AddToTrip
             place={getPlace(dialog.placeId)!}
             trips={store.trips}
+            preferredTripId={
+              page === 'home' && home?.personalized
+                ? home.trip.id
+                : activeTrip?.id
+            }
+            preferredDay={
+              page === 'home' && home?.personalized ? home.day : activeDay
+            }
             onAdd={(tripId, day) => addStop(tripId, day, dialog.placeId)}
             onManageTrip={(id) => {
               const trip = store.trips.find((item) => item.id === id)

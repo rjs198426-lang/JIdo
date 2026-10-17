@@ -1,5 +1,6 @@
 import CityPhoto from './CityPhoto'
 import type { ReactNode } from 'react'
+import type { HomeJourney } from './home-journey'
 import {
   ArrowRight,
   Luggage,
@@ -15,19 +16,18 @@ import {
   Wallet,
 } from 'lucide-react'
 import { convertedTotal } from './finance'
-import { journeyPreference, pendingStops, travelDay } from './journey-personal'
-import { dayCount, formatDate, today } from './store'
+import { pendingStops } from './journey-personal'
+import { formatDate, today } from './store'
 import {
   destinationForDay,
   money,
   stopDetails,
-  tripCity,
   tripDestinations,
   type Trip,
 } from './travel-model'
 
 type Props = {
-  trip?: Trip
+  journey?: HomeJourney
   trips: Trip[]
   cities: ReactNode
   places: ReactNode
@@ -37,20 +37,21 @@ type Props = {
   onOpenTrip: (trip: Trip, workspace?: string, day?: number) => void
   onTrips: () => void
   onImport: () => void
-  onExplore: (japan?: boolean, showPlaces?: boolean) => void
+  onExplore: (japan?: boolean, showPlaces?: boolean, cityId?: string) => void
 }
 
 export default function TravelHome(props: Props) {
-  const { trip, trips } = props
-  const currentDay = trip ? travelDay(trip) : null
-  const day = trip ? (currentDay ?? journeyPreference(trip).day) : 0
-  const until = trip ? dayCount(today(), trip.startDate) - 1 : 0
-  const phase = !trip
+  const { journey, trips } = props
+  const trip = journey?.trip
+  const focused = !!journey?.personalized
+  const currentDay = journey?.currentDay ?? null
+  const day = journey?.day ?? 0
+  const phase = !journey
     ? ''
-    : currentDay !== null
+    : journey.phase === 'ongoing'
       ? '여행 중'
-      : until > 0
-        ? `D-${until}`
+      : journey.phase === 'upcoming'
+        ? `D-${journey.until}`
         : '여행 기록'
   const checklist = trip?.checklist || []
   const completed = checklist.filter((item) => item.done).length
@@ -62,33 +63,72 @@ export default function TravelHome(props: Props) {
   ).length
   const conversion = trip ? convertedTotal(trip) : null
   const next = trip ? pendingStops(trip, day).slice(0, 3) : []
-  const shortcuts = [
-    { label: '여행 만들기', icon: Plus, color: 'mint', action: props.onCreate },
-    {
-      label: '내 여행',
-      icon: Luggage,
-      color: 'peach',
-      action: props.onTrips,
-    },
-    {
-      label: '일정 가져오기',
-      icon: FileDown,
-      color: 'blue',
-      action: props.onImport,
-    },
-    {
-      label: '여행지 보기',
-      icon: Compass,
-      color: 'violet',
-      action: () => props.onExplore(),
-    },
-  ]
+  const shortcuts =
+    focused && trip
+      ? [
+          {
+            label: '일정 계획',
+            icon: CalendarDays,
+            color: 'mint',
+            action: () => props.onOpenTrip(trip, 'schedule', day),
+          },
+          {
+            label: '예약 확인',
+            icon: Ticket,
+            color: 'peach',
+            action: () => props.onOpenTrip(trip, 'reservations', day),
+          },
+          {
+            label: '준비물 확인',
+            icon: CheckSquare,
+            color: 'blue',
+            action: () => props.onOpenTrip(trip, 'checklist', day),
+          },
+          {
+            label: '여행 자료',
+            icon: FileDown,
+            color: 'violet',
+            action: () => props.onOpenTrip(trip, 'files', day),
+          },
+        ]
+      : [
+          {
+            label: '여행 만들기',
+            icon: Plus,
+            color: 'mint',
+            action: props.onCreate,
+          },
+          {
+            label: '내 여행',
+            icon: Luggage,
+            color: 'peach',
+            action: props.onTrips,
+          },
+          {
+            label: '일정 가져오기',
+            icon: FileDown,
+            color: 'blue',
+            action: props.onImport,
+          },
+          {
+            label: '여행지 보기',
+            icon: Compass,
+            color: 'violet',
+            action: () => props.onExplore(),
+          },
+        ]
   return (
     <div className="travel-home">
       <div className="home-heading">
         <div>
           <span className="home-kicker">나의 자유여행</span>
-          <h1>나의 여행 한눈에</h1>
+          <h1>
+            {focused
+              ? currentDay !== null
+                ? '오늘의 여행'
+                : '다음 여행 준비'
+              : '나의 여행 한눈에'}
+          </h1>
         </div>
         <span className="home-date">
           <CalendarDays size={15} />
@@ -139,8 +179,8 @@ export default function TravelHome(props: Props) {
           </div>
           <CityPhoto
             className="home-journey-photo"
-            city={tripCity(trip)}
-            alt={`${tripCity(trip).name} 여행 풍경`}
+            city={journey!.heroCity}
+            alt={`${journey!.destination.name} 여행 풍경`}
           />
         </section>
       ) : (
@@ -180,7 +220,7 @@ export default function TravelHome(props: Props) {
           </button>
         ))}
       </nav>
-      {props.search}
+      {!focused && props.search}
       {trip && (
         <section className="home-trip-overview" aria-label="여행 현황">
           <div className="home-status-grid">
@@ -192,7 +232,9 @@ export default function TravelHome(props: Props) {
                 <small> / {checklist.length}</small>
               </strong>
               <span className="home-status-caption">
-                {checklist.length - completed}개 남음
+                {checklist.length
+                  ? `${checklist.length - completed}개 남음`
+                  : '준비물 등록하기'}
               </span>
             </button>
             <button onClick={() => props.onOpenTrip(trip, 'reservations', day)}>
@@ -268,34 +310,117 @@ export default function TravelHome(props: Props) {
           </div>
         </section>
       )}
-      <section className="home-section" aria-label="일본 도시 둘러보기">
-        <div className="home-section-heading">
-          <div>
-            <span className="home-kicker">CITY GUIDE</span>
-            <h2>일본 도시 둘러보기</h2>
+      {focused && journey && (
+        <section
+          className="home-section home-trip-destinations"
+          aria-label="이번 여행의 도시"
+        >
+          <div className="home-section-heading">
+            <div>
+              <span className="home-kicker">MY DESTINATIONS</span>
+              <h2>이번 여행의 도시</h2>
+            </div>
+            <button
+              className="text-button"
+              onClick={() => props.onOpenTrip(journey.trip, 'overview', day)}
+            >
+              여행 개요
+              <ArrowRight size={16} />
+            </button>
           </div>
-          <button className="text-button" onClick={() => props.onExplore(true)}>
-            더 보기
-            <ArrowRight size={16} />
-          </button>
-        </div>
-        {props.cities}
-      </section>
+          {props.cities}
+          {tripDestinations(journey.trip)
+            .filter(
+              (destination) =>
+                !destination.guideCityId ||
+                !journey.cities.some(
+                  (city) => city.id === destination.guideCityId,
+                ),
+            )
+            .map((destination) => (
+              <button
+                className="home-custom-destination"
+                key={destination.id}
+                onClick={() => {
+                  const targetDay = journey.trip.days.findIndex(
+                    (_, index) =>
+                      destinationForDay(journey.trip, index).id ===
+                      destination.id,
+                  )
+                  props.onOpenTrip(
+                    journey.trip,
+                    targetDay < 0 ? 'overview' : 'schedule',
+                    targetDay < 0 ? day : targetDay,
+                  )
+                }}
+              >
+                <MapPin size={20} />
+                <span>
+                  <strong>{destination.name}</strong>
+                  <small>{destination.country}</small>
+                </span>
+                <ArrowRight size={17} />
+              </button>
+            ))}
+        </section>
+      )}
+      {!focused && (
+        <section className="home-section" aria-label="일본 도시 둘러보기">
+          <div className="home-section-heading">
+            <div>
+              <span className="home-kicker">CITY GUIDE</span>
+              <h2>일본 도시 둘러보기</h2>
+            </div>
+            <button
+              className="text-button"
+              onClick={() => props.onExplore(true)}
+            >
+              더 보기
+              <ArrowRight size={16} />
+            </button>
+          </div>
+          {props.cities}
+        </section>
+      )}
       <section className="home-section" aria-label={props.placesTitle}>
         <div className="home-section-heading">
           <div>
-            <span className="home-kicker">PLACES TO GO</span>
+            <span className="home-kicker">
+              {focused
+                ? `DAY ${day + 1} · ${journey!.destination.name}`
+                : 'PLACES TO GO'}
+            </span>
             <h2>{props.placesTitle}</h2>
           </div>
-          <button
-            className="text-button"
-            onClick={() => props.onExplore(false, true)}
-          >
-            더 보기
-            <ArrowRight size={16} />
-          </button>
+          {(!focused || journey?.city) && (
+            <button
+              className="text-button"
+              onClick={() =>
+                props.onExplore(
+                  false,
+                  true,
+                  focused ? journey?.city?.id : undefined,
+                )
+              }
+            >
+              더 보기
+              <ArrowRight size={16} />
+            </button>
+          )}
         </div>
         {props.places}
+        {focused && !journey?.recommendations.length && (
+          <button
+            className="home-empty-day"
+            onClick={() => props.onOpenTrip(journey!.trip, 'schedule', day)}
+          >
+            <Plus size={20} />
+            {journey?.city
+              ? '정한 장소를 일정에서 확인하기'
+              : '이 여행의 장소 직접 정하기'}
+            <ArrowRight size={17} />
+          </button>
+        )}
       </section>
       {!!trips.length && (
         <section className="personal-home" aria-label="나와 동행자의 여행">
