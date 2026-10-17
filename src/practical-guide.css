@@ -45,13 +45,17 @@
   margin: 0 0 16px;
 }
 .guide-decisions > div {
-  padding: 10px 0;
+  padding: 14px 0;
   border-bottom: 1px solid #edf2ee;
 }
 .guide-decisions dt {
-  font-size: 14px;
+  font-size: 18px;
+  font-weight: 750;
+  line-height: 1.45;
+  color: #153f36;
   font-family: var(--app-heading-font);
-  margin-bottom: 5px;
+  margin-bottom: 8px;
+  overflow-wrap: anywhere;
 }
 .guide-decisions dd {
   margin: 0;

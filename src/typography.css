@@ -148,6 +148,11 @@ body {
   font-size: var(--type-subtitle);
   font-weight: 700;
 }
+:root .practical-guide [role='tabpanel'] > h3 {
+  font-size: 20px;
+  font-weight: 800;
+  margin: 24px 0 12px;
+}
 :root button.city-card-copy,
 :root button.place-card-copy,
 :root button.home-trip-tile,
