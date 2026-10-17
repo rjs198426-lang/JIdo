@@ -1,4 +1,5 @@
 import additional from './additional-photo-credits.json' with { type: 'json' }
+import photos126 from './photos-126.json' with { type: 'json' }
 export type PhotoCreditInfo = {
   file: string
   author: string
@@ -468,4 +469,4 @@ export const photoCredits: Record<string, PhotoCreditInfo> = {
   },
 }
 
-Object.assign(photoCredits, additional)
+Object.assign(photoCredits, additional, photos126)
