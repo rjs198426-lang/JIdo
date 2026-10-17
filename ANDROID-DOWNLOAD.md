@@ -1,18 +1,11 @@
-# J★Do Android 다운로드
+# J★Do Android 1.31
 
-[J★Do 1.30 APK 다운로드](JDo-android-1.30.apk)
+[J★Do 1.31 APK 다운로드](https://raw.githubusercontent.com/rjs198426-lang/JIdo/android-apk-downloads/JDo-android-1.31.apk)
 
-- 함께하는 인원은 **나 제외 0명**부터 시작합니다. 0~10명 선택, 11~1000명 직접 입력. 기존 자료와 정산의 총인원 계산은 유지합니다.
-- **장소 추가 → 등록된 가볼 곳 목록**을 먼저 엽니다. 직접 등록했던 장소도 같은 도시의 다른 날짜·여행에서 다시 선택할 수 있습니다.
-- 장소 이름·주소 검색은 기기 자료를 먼저 보여주고, 없으면 **새 장소 추가**로 검색어를 넘깁니다. 무료/Google 지도 검색은 새 장소 입력 화면에서 명시적으로 찾기를 누를 때 사용합니다.
-- 재사용할 때는 이름·주소·위치 정보를 가져오며 이전 일정의 메모·예약·첨부 참조를 복사하지 않습니다.
-- 앱 J★Do · com.jido.travel.next · versionCode 31 · Android 7.0 이상. 1.26 이상에서 같은 키로 업데이트합니다.
-- 크기 47484236 bytes · SHA-256 `c68eab9ab64f3990fed0454561731666515b81fea99aab693c4e7216b55e1589`
-- 인증서 SHA-256 `0d1b1f20dae73d00626d9ebb4f460943c4f16c2266bc7bc58d124d13b32494ac`
-- Android release 빌드·서명, 내부 웹 자산 230개 일치 확인. 197개 모바일 회귀 중 191개 통과 후 변경된 기대치 6건을 수정해 관련 35개 모두 통과. 최종 UI/새 흐름 6개 재검사 통과. 실제 휴대폰 설치는 별도입니다.
+- com.jido.travel.next · J★Do · versionCode 32 · Android 7.0 이상
+- 47,484,064 bytes
+- SHA-256: `b3927dc98f84d1e483cec3b626299756b853d12ea198dc7f5e53e80290ab89fe`
+- 서명 인증서: `0d1b1f20dae73d00626d9ebb4f460943c4f16c2266bc7bc58d124d13b32494ac`
 
-[1.29](JDo-android-1.29.apk) · [1.28](JDo-android-1.28.apk) · [1.27](JDo-android-1.27.apk) · [1.26](JDo-android-1.26.apk) · [구형 1.25](JDo-android-1.25.apk)
-
-[소스와 안내](https://github.com/rjs198426-lang/JIdo)
-
-개인 서명 키·비밀번호는 공개 APK나 브랜치에 포함하지 않습니다.
+가볼 만한 곳·주변 장소를 선택하면 기존 창을 교체하고 닫기·Android 뒤로 한 번으로 닫습니다. 이전 창을 이력에 쌓지 않습니다.
+1.26~1.30과 동일 패키지·서명으로 업데이트합니다. 구형 1.25는 전체 ZIP으로 자료를 옮긴 뒤 제거하세요.
