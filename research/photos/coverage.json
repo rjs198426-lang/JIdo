@@ -10,8 +10,8 @@
     {
       "kind": "place",
       "total": 900,
-      "ready": 65,
-      "missing": 835
+      "ready": 70,
+      "missing": 830
     }
   ],
   "missing": [
@@ -35,24 +35,6 @@
     },
     {
       "kind": "place",
-      "id": "guam-two-lovers-point",
-      "name": "사랑의 절벽",
-      "cityId": "guam",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
-      "id": "guam-chamorro-village",
-      "name": "차모로 빌리지",
-      "cityId": "guam",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
       "id": "guam-plaza-de-espana",
       "name": "스페인 광장",
       "cityId": "guam",
@@ -62,35 +44,8 @@
     },
     {
       "kind": "place",
-      "id": "guam-cathedral-basilica",
-      "name": "아가나 대성당",
-      "cityId": "guam",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
-      "id": "guam-latte-stone-park",
-      "name": "라테스톤 공원",
-      "cityId": "guam",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
       "id": "guam-fort-santa-agueda",
       "name": "산타아규다 요새",
-      "cityId": "guam",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
-      "id": "guam-guam-museum",
-      "name": "괌 박물관",
       "cityId": "guam",
       "image": "/images/place-placeholder.svg",
       "ready": false,

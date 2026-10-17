@@ -1,0 +1,620 @@
+{
+  "apiCheck": "HTTP 200 with imageinfo.extmetadata; File:Kiyomizu.jpg",
+  "accepted": [
+    {
+      "placeId": "guam-two-lovers-point",
+      "file": "/images/guam-two-lovers-point.jpg",
+      "author": "Dorothy from USA",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Two_lovers_point_(80103943).jpg",
+      "verifiedAt": "2026-10-17",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Two_lovers_point_%2880103943%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSha256": "1ec98ef4969ac20df1063d543a51bb8e4ef073b8e438844cdc196c5eee20c102",
+      "bundledSha256": "1ec98ef4969ac20df1063d543a51bb8e4ef073b8e438844cdc196c5eee20c102",
+      "modifications": "None; original bytes bundled unchanged",
+      "visualReview": "Tumon Bay 및 Views of Two Lovers Point 분류와 절벽·전망대 실물 확인.",
+      "commonsMetadata": {
+        "pageid": 101334080,
+        "ns": 6,
+        "title": "File:Two lovers point (80103943).jpg",
+        "index": 1,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Two_lovers_point_%2880103943%29.jpg/960px-Two_lovers_point_%2880103943%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 800,
+            "thumbheight": 600,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Two_lovers_point_%2880103943%29.jpg/1920px-Two_lovers_point_%2880103943%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Two_lovers_point_%2880103943%29.jpg/960px-Two_lovers_point_%2880103943%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 800,
+              "height": 600,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Two_lovers_point_%2880103943%29.jpg/1920px-Two_lovers_point_%2880103943%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Two_lovers_point_%2880103943%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Two_lovers_point_(80103943).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=101334080",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2021-03-12 05:55:54",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Two lovers point (80103943)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Tumon Bay|Views of Two Lovers Point|Flickr images reviewed by FlickreviewR 2",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Two lovers point",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2005-12-31 01:44",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/dorothyhess-pictures/80103943/\">Two lovers point</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/34595183@N00\">Dorothy</a> from USA",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "placeId": "guam-chamorro-village",
+      "file": "/images/guam-chamorro-village.jpg",
+      "author": "yuki5287 from Fukuoka city, Japan",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chamorro_Village_(27223949484).jpg",
+      "verifiedAt": "2026-10-17",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/df/Chamorro_Village_%2827223949484%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSha256": "59e0551f6a5170e82af1dc6a816b0e7faff0e836ce1cf993be7b8c1dcfe7f53f",
+      "bundledSha256": "59e0551f6a5170e82af1dc6a816b0e7faff0e836ce1cf993be7b8c1dcfe7f53f",
+      "modifications": "None; original bytes bundled unchanged",
+      "visualReview": "Chamorro Village 분류 및 사진 속 Chamorro Village 입구 표지 확인.",
+      "commonsMetadata": {
+        "pageid": 101655058,
+        "ns": 6,
+        "title": "File:Chamorro Village (27223949484).jpg",
+        "index": 1,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Chamorro_Village_%2827223949484%29.jpg/960px-Chamorro_Village_%2827223949484%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 800,
+            "thumbheight": 530,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Chamorro_Village_%2827223949484%29.jpg/1920px-Chamorro_Village_%2827223949484%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Chamorro_Village_%2827223949484%29.jpg/960px-Chamorro_Village_%2827223949484%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 800,
+              "height": 530,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Chamorro_Village_%2827223949484%29.jpg/1920px-Chamorro_Village_%2827223949484%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Chamorro_Village_%2827223949484%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Chamorro_Village_(27223949484).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=101655058",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2021-03-17 03:31:56",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Chamorro Village (27223949484)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "2016 in Guam|Signs in Guam|Flickr images missing SDC creator|Files with coordinates missing SDC location of creation|Flickr images reviewed by FlickreviewR 2|Chamorro Village|Bilingual Chamorro-English signs",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "13.477504",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "144.752187",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "IMGP1491",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2016-06-20 10:09",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/yuki5287/27223949484/\">IMGP1491</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/43618054@N05\">yuki5287</a> from Fukuoka city, Japan",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "placeId": "guam-cathedral-basilica",
+      "file": "/images/guam-cathedral-basilica.jpg",
+      "author": "Hajime NAKANO from Tokyo, Japan",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dulce_Nombre_de_Maria_Cathedral_Basilica_in_Hagatna,_Guam.jpg",
+      "verifiedAt": "2026-10-17",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Dulce_Nombre_de_Maria_Cathedral_Basilica_in_Hagatna%2C_Guam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSha256": "e29541c829361ff6a52ba2ac56c1a2cd85482b46dff07872c8ae9c8c35684ded",
+      "bundledSha256": "e29541c829361ff6a52ba2ac56c1a2cd85482b46dff07872c8ae9c8c35684ded",
+      "modifications": "None; original bytes bundled unchanged",
+      "visualReview": "Hagatna, Guam 설명과 대성당 종탑·외벽 및 교황 동상 확인.",
+      "commonsMetadata": {
+        "pageid": 3991346,
+        "ns": 6,
+        "title": "File:Dulce Nombre de Maria Cathedral Basilica in Hagatna, Guam.jpg",
+        "index": 2,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Dulce_Nombre_de_Maria_Cathedral_Basilica_in_Hagatna%2C_Guam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 800,
+            "thumbheight": 600,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Dulce_Nombre_de_Maria_Cathedral_Basilica_in_Hagatna%2C_Guam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 800,
+              "height": 600
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Dulce_Nombre_de_Maria_Cathedral_Basilica_in_Hagatna%2C_Guam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Dulce_Nombre_de_Maria_Cathedral_Basilica_in_Hagatna,_Guam.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=3991346",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2008-05-04 18:15:51",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Dulce Nombre de Maria Cathedral Basilica in Hagatna, Guam",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "2006 in Guam|Dulce Nombre de Maria Cathedral Basilica|Flickr images reviewed by FlickreviewR|Crosses on buildings|Churches in the United States photographed in 2006|Files from Hajime Nakano Flickr stream|Statue of Ioannes Paulus II, Guam",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Dulce Nombre de Maria {Sweet Name of Mary} Cathedral Basilica and a statue of Pope John Paul II in Hagatna, Guam.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2006-06-07 17:18",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/92203585@N00/162922875/\">Pope John Paul II statue</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/92203585@N00\">Hajime NAKANO</a> from Tokyo, Japan",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "placeId": "guam-latte-stone-park",
+      "file": "/images/guam-latte-stone-park.jpg",
+      "author": "Hajime NAKANO from Tokyo, Japan",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Latte_stones_in_Hagatna.jpg",
+      "verifiedAt": "2026-10-17",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Latte_stones_in_Hagatna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSha256": "589c72d89f19b3a4640d4e0c27653b30b09e70cb3ce84446c50e7e2085be9488",
+      "bundledSha256": "589c72d89f19b3a4640d4e0c27653b30b09e70cb3ce84446c50e7e2085be9488",
+      "modifications": "None; original bytes bundled unchanged",
+      "visualReview": "Hagatna의 Latte Stone Park 설명·분류와 공원 내 라테스톤 열 확인.",
+      "commonsMetadata": {
+        "pageid": 4052632,
+        "ns": 6,
+        "title": "File:Latte stones in Hagatna.jpg",
+        "index": 1,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Latte_stones_in_Hagatna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 800,
+            "thumbheight": 600,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Latte_stones_in_Hagatna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 800,
+              "height": 600
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Latte_stones_in_Hagatna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Latte_stones_in_Hagatna.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=4052632",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2008-05-15 11:44:01",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Latte stones in Hagatna",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "2006 in Guam|Latte Stone Park|Flickr images reviewed by trusted users|Files from Hajime Nakano Flickr stream",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Latte stones in Latte Stone Park, Hagatna, Guam",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2006-06-07 16:51",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"mw:ExtLink nofollow\" href=\"https://www.flickr.com/photos/92203585@N00/162915806/\" class=\"external text\">Latte stone</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"mw:ExtLink nofollow\" href=\"https://www.flickr.com/people/92203585@N00\" class=\"external text\">Hajime NAKANO</a> from Tokyo, Japan",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "placeId": "guam-guam-museum",
+      "file": "/images/guam-guam-museum.jpg",
+      "author": "Daniel Ramirez from Honolulu, USA",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Another_shot_of_the_Guam_Museum_(49332191502).jpg",
+      "verifiedAt": "2026-10-17",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Another_shot_of_the_Guam_Museum_%2849332191502%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "originalSha256": "3be053ea576e813a2fd3b234e6bd75b4c28896801796227b65aaf1262306ceb0",
+      "bundledSha256": "3be053ea576e813a2fd3b234e6bd75b4c28896801796227b65aaf1262306ceb0",
+      "modifications": "None; original bytes bundled unchanged",
+      "visualReview": "Guam Museum 분류, 13.474769/144.751586 촬영 좌표와 박물관 외관 확인.",
+      "commonsMetadata": {
+        "pageid": 102137545,
+        "ns": 6,
+        "title": "File:Another shot of the Guam Museum (49332191502).jpg",
+        "index": 1,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Another_shot_of_the_Guam_Museum_%2849332191502%29.jpg/960px-Another_shot_of_the_Guam_Museum_%2849332191502%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 800,
+            "thumbheight": 450,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Another_shot_of_the_Guam_Museum_%2849332191502%29.jpg/1920px-Another_shot_of_the_Guam_Museum_%2849332191502%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Another_shot_of_the_Guam_Museum_%2849332191502%29.jpg/960px-Another_shot_of_the_Guam_Museum_%2849332191502%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 800,
+              "height": 450,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Another_shot_of_the_Guam_Museum_%2849332191502%29.jpg/1920px-Another_shot_of_the_Guam_Museum_%2849332191502%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Another_shot_of_the_Guam_Museum_%2849332191502%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Another_shot_of_the_Guam_Museum_(49332191502).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=102137545",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2021-03-23 01:11:09",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Another shot of the Guam Museum (49332191502)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "2019 in Guam|Guam Museum|Hurao|Chamorro language|Guam Hymn|Monuments and memorials in Guam|Files with coordinates missing SDC location of creation|Flickr images reviewed by FlickreviewR 2|Bilingual Chamorro-English signs",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "13.474769",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "144.751586",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "From the Plaza de España",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2019-12-14 14:47",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/danramarch/49332191502/\">Another shot of the Guam Museum</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/21442511@N08\">Daniel Ramirez</a> from Honolulu, USA",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "rejected": {
+    "guam-ypao-beach": "검토 후보는 해변 대신 잔디 공원 중심",
+    "guam-plaza-de-espana": "검토 후보는 광장 대신 대성당 중심",
+    "guam-gun-beach": "상위 검색 결과가 다른 나라 장소"
+  },
+  "limitation": "Commons API rate limit stopped further searches; remaining places not yet reviewed",
+  "rateLimitedPlaceIds": [
+    "guam-asan-beach"
+  ],
+  "unreviewedCandidatePlaceIds": [
+    "guam-fort-santa-agueda"
+  ]
+}
