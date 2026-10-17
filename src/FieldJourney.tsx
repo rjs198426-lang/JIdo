@@ -1,4 +1,5 @@
 import PlaceSource from './PlaceSource'
+import { tripClock, destinationTimeZone } from './destination-time'
 import PlacePhoto from './PlacePhoto'
 import {
   Check,
@@ -17,7 +18,7 @@ import {
   stopDetails,
   destinationForDay,
 } from './travel-model'
-import { dateAt, formatDate, today } from './store'
+import { dateAt, formatDate } from './store'
 import {
   pendingStops,
   lodgingForDay,
@@ -76,12 +77,13 @@ export default function FieldJourney({
       document.removeEventListener('visibilitychange', refresh)
     }
   }, [])
+  const clock = tripClock(trip, day, now)
+  const zone = destinationTimeZone(destinationForDay(trip, day))
   const lateMinutes =
-    next && dateAt(trip.startDate, day) === today()
+    next && dateAt(trip.startDate, day) === clock.date
       ? Math.max(
           0,
-          now.getHours() * 60 +
-            now.getMinutes() -
+          clock.minutes -
             Number(next.time.slice(0, 2)) * 60 -
             Number(next.time.slice(3)),
         )
@@ -128,7 +130,9 @@ export default function FieldJourney({
       <div className="tool-heading">
         <div>
           <h3>{destinationForDay(trip, day).name}에서의 하루</h3>
-          <span>{formatDate(dateAt(trip.startDate, day), true)}</span>
+          <span className="local-clock" title={zone || '도시 시간대 미설정'}>
+            {zone ? '현지' : '기기'} {clock.date} {clock.time}
+          </span>
         </div>
         <select
           aria-label="현장에서 볼 날짜"

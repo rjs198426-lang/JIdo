@@ -1,15 +1,37 @@
+import { useState } from 'react'
 import { ExternalLink } from 'lucide-react'
 import { getCity } from './catalog'
 import { blogsForCity } from './guide-blogs'
 
 export default function GuideBlogs({ cityId }: { cityId: string }) {
-  const posts = blogsForCity(cityId)
+  const [topic, setTopic] = useState('전체')
+  const all = blogsForCity(cityId)
+  const classify = (text: string) =>
+    /교통|공항|철도|버스|이동/.test(text)
+      ? '교통·이동'
+      : /맛집|식사|음식|카페|커피|먹거리/.test(text)
+        ? '식사·카페'
+        : '관광·여행기'
+  const posts = all.filter(
+    (post) => topic === '전체' || classify(post.topic + post.title) === topic,
+  )
   const name = getCity(cityId)?.name ?? cityId
   return (
     <section className="guide-blogs" aria-label={`${name} 블로그 후기`}>
       <div className="guide-blogs-heading">
         <h3>{name} 블로그 후기</h3>
         <span>{posts.length}편</span>
+      </div>
+      <div role="group" aria-label="블로그 후기 주제" className="category-row">
+        {['전체', '관광·여행기', '식사·카페', '교통·이동'].map((item) => (
+          <button
+            key={item}
+            aria-pressed={topic === item}
+            onClick={() => setTopic(item)}
+          >
+            {item}
+          </button>
+        ))}
       </div>
       {posts.length > 0 ? (
         <ul className="guide-blog-list">
@@ -23,7 +45,9 @@ export default function GuideBlogs({ cityId }: { cityId: string }) {
                   <strong>{post.title}</strong>
                   <span>{post.topic}</span>
                   {post.publishedAt && (
-                    <small>{post.publishedAt.slice(0, 4)}년 작성</small>
+                    <small>
+                      {post.publishedAt} 작성 · 링크 확인 {post.checkedAt}
+                    </small>
                   )}
                 </span>
                 <ExternalLink size={18} aria-label="외부 원문" />
@@ -32,7 +56,7 @@ export default function GuideBlogs({ cityId }: { cityId: string }) {
           ))}
         </ul>
       ) : (
-        <p>아직 확인한 후기가 없어요.</p>
+        <p>이 주제에 확인한 후기가 없어요.</p>
       )}
       <a
         className="button outline full guide-blog-search"

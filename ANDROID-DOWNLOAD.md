@@ -1,13 +1,17 @@
 # J★Do Android 다운로드
 
-[Android 1.24 APK 다운로드](https://raw.githubusercontent.com/rjs198426-lang/JIdo/b080feab0d92263f8445b3bf1df57c8041a6fbed/JDo-android.apk)
+[Android 1.25 APK 다운로드](https://raw.githubusercontent.com/rjs198426-lang/JIdo/0623313b4ca0660f55017f611ea26a8bea97d599/JDo-android.apk)
 
 - 앱: J★Do (`com.jido.travel`)
-- 버전: 1.24 · versionCode 25 · Android 7.0 이상
-- 크기: 30325129 bytes
-- SHA-256: `5642f13c730dc9fb5fc2965fbac206a4d8b8b542f27d311ed1786867793fac59`
+- 버전: 1.25 · versionCode 26 · Android 7.0 이상
+- 크기: 30326173 bytes
+- SHA-256: `d60df70e8fa6b18b5d96a3b0d41b1252acf230b3a4512e4d6be8c798870d8dd9`
 - 기존 앱과 같은 패키지·서명입니다. 앱을 삭제하지 않고 업데이트하세요.
 - 서명 인증서 SHA-256: `3d2583f60de848d7a4895b217453c7dd824fb31669c41c7ac4e0ad10e7a0e1b0`
+
+## 1.26 소스 개선 · APK 미배포
+
+작업 환경 복구 후 1.25 핵심 기능을 소스에 재구현하고 준비물·백업·현지 시간대·이동 구간·식당 자료를 개선했습니다. 현재 환경에서 기존 서명 키를 찾지 못해 새 APK를 업데이트용으로 배포하지 않습니다. 위 링크는 검증된 기존 1.25입니다.
 
 ## 1.24 — 가이드 블로그 후기 탭
 

@@ -1,8 +1,10 @@
+import { destinationTimeZone, validTimeZone } from './destination-time'
 import { activeDayStops } from './transfer-planning'
 import { cancelledReservation } from './journey-progress'
 import { googleMapsLink } from './google-maps'
 import { lazy, Suspense, useMemo, useState, type FormEvent } from 'react'
 import { ArrowRight, MapPin, Plus, Trash2, ExternalLink } from 'lucide-react'
+import { dateAt, formatDate } from './store'
 import { cities } from './catalog'
 import {
   destinationForDay,
@@ -27,6 +29,8 @@ export default function JourneyRoute({
   const [guideId, setGuideId] = useState('custom')
   const [name, setName] = useState('')
   const [country, setCountry] = useState('')
+  const [assignFrom, setAssignFrom] = useState('none')
+  const [assignTo, setAssignTo] = useState(String(day))
   const [error, setError] = useState('')
   const destinations = tripDestinations(trip)
   const selected = destinationForDay(trip, day)
@@ -58,7 +62,11 @@ export default function JourneyRoute({
       ...trip,
       destinations: [...destinations, next],
       dayDestinationIds: assignments.map((id, index) =>
-        index === day ? next.id : id,
+        assignFrom !== 'none' &&
+        index >= Number(assignFrom) &&
+        index <= Number(assignTo)
+          ? next.id
+          : id,
       ),
     })
     setAdding(false)
@@ -94,7 +102,11 @@ export default function JourneyRoute({
         <button
           className="button outline small"
           aria-expanded={adding}
-          onClick={() => setAdding(!adding)}
+          onClick={() => {
+            setAdding(!adding)
+            setAssignFrom('none')
+            setAssignTo(String(day))
+          }}
         >
           <Plus size={16} />
           도시 추가
@@ -102,6 +114,42 @@ export default function JourneyRoute({
       </div>
       <details className="city-details">
         <summary>전체 도시 관리 · {destinations.length}개</summary>
+        <details className="destination-zone">
+          <summary>
+            현지 시간대 · {destinationTimeZone(selected) || '미설정'}
+          </summary>
+          <label className="field">
+            이 도시의 시간대
+            <input
+              aria-label="도시 시간대"
+              key={selected.id + (selected.timeZone || '')}
+              defaultValue={
+                selected.timeZone || destinationTimeZone(selected) || ''
+              }
+              placeholder="예: America/Los_Angeles"
+              onBlur={(event) => {
+                const zone = event.target.value.trim()
+                if (zone && !validTimeZone(zone)) {
+                  setError(
+                    '올바른 시간대 이름을 입력하세요. 예: America/Los_Angeles',
+                  )
+                  return
+                }
+                setError('')
+                onUpdate({
+                  ...trip,
+                  destinations: destinations.map((item) =>
+                    item.id === selected.id
+                      ? { ...item, timeZone: zone || undefined }
+                      : item,
+                  ),
+                })
+              }}
+            />
+          </label>
+          {error && <p role="alert">{error}</p>}
+        </details>
+
         <div className="destination-chips">
           {destinations.map((destination, index) => (
             <div
@@ -184,10 +232,52 @@ export default function JourneyRoute({
               </label>
             </div>
           )}
-          <p className="muted">
-            추가한 도시는 현재 DAY {day + 1}의 체류 도시로 설정돼요. 기존 장소는
-            유지돼요.
-          </p>
+          <div className="form-row">
+            <label className="field">
+              체류 시작일
+              <select
+                aria-label="새 도시 체류 시작일"
+                value={assignFrom}
+                onChange={(event) => {
+                  setAssignFrom(event.target.value)
+                  if (event.target.value !== 'none')
+                    setAssignTo(
+                      String(
+                        Math.max(Number(event.target.value), Number(assignTo)),
+                      ),
+                    )
+                }}
+              >
+                <option value="none">도시만 추가 · 날짜는 나중에</option>
+                {trip.days.map((_, index) => (
+                  <option key={index} value={index}>
+                    DAY {index + 1} ·{' '}
+                    {formatDate(dateAt(trip.startDate, index))}
+                  </option>
+                ))}
+              </select>
+            </label>
+            {assignFrom !== 'none' && (
+              <label className="field">
+                체류 마지막 날
+                <select
+                  aria-label="새 도시 체류 마지막 날"
+                  value={assignTo}
+                  onChange={(event) => setAssignTo(event.target.value)}
+                >
+                  {trip.days.map(
+                    (_, index) =>
+                      index >= Number(assignFrom) && (
+                        <option key={index} value={index}>
+                          DAY {index + 1} ·{' '}
+                          {formatDate(dateAt(trip.startDate, index))}
+                        </option>
+                      ),
+                  )}
+                </select>
+              </label>
+            )}
+          </div>
           {error && (
             <p role="alert" className="form-error">
               {error}

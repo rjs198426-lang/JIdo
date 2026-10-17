@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { stopDetails, type Trip } from './travel-model'
+import { mapQuery, stopDetails, type Trip } from './travel-model'
 import {
   arrivalText,
   placeSignature,
@@ -30,6 +30,10 @@ export default function DayTransfers({
     >
       <h3>이동시간 확인</h3>
       <p className="workspace-hint">직선 거리 · 이동시간은 직접 입력</p>
+      <p className="transfer-summary">
+        이동시간 확인 {legs.filter((leg) => leg.transfer).length}/{legs.length}
+        구간
+      </p>
       {!legs.length && (
         <p>같은 날에 장소를 2곳 이상 추가하면 구간을 확인할 수 있어요.</p>
       )}
@@ -57,6 +61,29 @@ export default function DayTransfers({
                 ? '지도 위치 미확인'
                 : `직선 ${distance < 1 ? `${Math.round(distance * 1000)}m` : `${distance.toFixed(1)}km`}`}
             </p>
+            <div className="transfer-map-links">
+              {(['walking', 'transit', 'driving'] as const).map((mode) => (
+                <a
+                  className="button outline small"
+                  key={mode}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href={`https://www.google.com/maps/dir/?${new URLSearchParams({ api: '1', origin: mapQuery(previous, trip), destination: mapQuery(stop, trip), travelmode: mode })}`}
+                >
+                  {mode === 'walking'
+                    ? '도보 길찾기'
+                    : mode === 'transit'
+                      ? '대중교통 길찾기'
+                      : '차량 길찾기'}
+                </a>
+              ))}
+            </div>
+            {transfer?.checkedAt && (
+              <small>
+                이동시간 기록 ·{' '}
+                {new Date(transfer.checkedAt).toLocaleString('ko-KR')}
+              </small>
+            )}
             {stale && (
               <p className="transfer-status">
                 순서나 장소가 바뀌었어요. 이동시간을 다시 확인하세요.
@@ -102,6 +129,7 @@ export default function DayTransfers({
                                           fromPlace: placeSignature(previous),
                                           toPlace: placeSignature(stop),
                                           minutes,
+                                          checkedAt: new Date().toISOString(),
                                         },
                                 },
                           ),

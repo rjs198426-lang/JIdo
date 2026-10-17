@@ -121,6 +121,7 @@ test('내 여행을 하나의 틀로 묶고 도시 선택·추가 버튼 정렬�
     page.getByRole('button', { name: '도시 추가', exact: true }),
   ).toHaveAttribute('aria-expanded', 'true')
   await page.getByLabel('추가할 여행지').selectOption('tokyo')
+  await page.getByLabel('새 도시 체류 시작일').selectOption('0')
   await page
     .getByRole('button', { name: '경로에 도시 추가', exact: true })
     .click()

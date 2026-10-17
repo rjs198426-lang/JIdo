@@ -16,20 +16,21 @@ import {
   type Trip,
   type Reservation,
 } from './travel-model'
-import { formatDate, dayCount } from './store'
+import { formatDate, dayCount, dateAt } from './store'
 
-type Props = { trip: Trip; onUpdate: (trip: Trip) => void }
+type Props = { trip: Trip; onUpdate: (trip: Trip) => void; day?: number }
 export { default as Checklist } from './PreparationChecklist'
 
 export { default as Expenses } from './ExpenseManager'
 
-export function Reservations({ trip, onUpdate }: Props) {
+export function Reservations({ trip, onUpdate, day = 0 }: Props) {
   const items = trip.reservations || []
   const blank = (): Reservation => ({
     id: crypto.randomUUID(),
     title: '',
     kind: '숙소',
-    date: trip.startDate,
+    date: dateAt(trip.startDate, day),
+    endDate: dateAt(trip.startDate, day + 1),
     time: '15:00',
     reference: '',
     address: '',
@@ -80,6 +81,8 @@ export function Reservations({ trip, onUpdate }: Props) {
     setForm((form) => (form ? { ...form, [key]: value } : null))
   function save(event: FormEvent) {
     event.preventDefault()
+    if (form?.kind === '숙소' && (!form.endDate || form.endDate <= form.date))
+      return setError('체크아웃 날짜는 체크인 다음 날 이후로 선택하세요.')
     const parsed = reservationSchema.safeParse({
       ...form,
       currency: form?.cost !== undefined ? form.currency || 'KRW' : undefined,
@@ -151,7 +154,16 @@ export function Reservations({ trip, onUpdate }: Props) {
               예약 유형
               <select
                 value={form.kind}
-                onChange={(event) => set('kind', event.target.value)}
+                onChange={(event) =>
+                  setForm({
+                    ...form,
+                    kind: event.target.value as Reservation['kind'],
+                    endDate:
+                      event.target.value === '숙소' && form.date
+                        ? dateAt(form.date, 1)
+                        : undefined,
+                  })
+                }
               >
                 {['항공', '숙소', '교통', '체험', '기타'].map((value) => (
                   <option key={value}>{value}</option>
@@ -174,7 +186,19 @@ export function Reservations({ trip, onUpdate }: Props) {
                 required
                 type="date"
                 value={form.date}
-                onChange={(event) => set('date', event.target.value)}
+                onChange={(event) => {
+                  const date = event.target.value
+                  setForm({
+                    ...form,
+                    date,
+                    endDate:
+                      form.kind === '숙소' &&
+                      date &&
+                      (!form.endDate || form.endDate <= date)
+                        ? dateAt(date, 1)
+                        : form.endDate,
+                  })
+                }}
               />
             </label>
             <label className="field">
@@ -188,6 +212,22 @@ export function Reservations({ trip, onUpdate }: Props) {
             </label>
           </div>
           <label className="field">
+            {form.kind === '숙소' ? '체크아웃 날짜' : '이용 종료일'}
+            <input
+              type="date"
+              required={form.kind === '숙소'}
+              min={
+                form.kind === '숙소' && form.date
+                  ? dateAt(form.date, 1)
+                  : form.date
+              }
+              value={form.endDate || ''}
+              onChange={(event) =>
+                set('endDate', event.target.value || undefined)
+              }
+            />
+          </label>
+          <label className="field">
             예약 상태
             <select
               value={form.status || 'pending'}
@@ -199,7 +239,7 @@ export function Reservations({ trip, onUpdate }: Props) {
             </select>
           </label>
           <details className="reservation-cost-fields">
-            <summary>비용·이용기간</summary>
+            <summary>비용·결제일</summary>
             <div className="form-row">
               <label className="field">
                 예약 비용
@@ -239,17 +279,6 @@ export function Reservations({ trip, onUpdate }: Props) {
                   value={form.paymentDate || ''}
                   onChange={(event) =>
                     set('paymentDate', event.target.value || undefined)
-                  }
-                />
-              </label>
-              <label className="field">
-                이용 종료일
-                <input
-                  type="date"
-                  min={form.date}
-                  value={form.endDate || ''}
-                  onChange={(event) =>
-                    set('endDate', event.target.value || undefined)
                   }
                 />
               </label>

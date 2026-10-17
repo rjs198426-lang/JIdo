@@ -139,6 +139,11 @@ export default function PlaceSearchResults({
                     {place.name}
                     {selectedId === place.id && ' ✓'}
                   </strong>
+                  {place.originalName && place.originalName !== place.name && (
+                    <span className="local-place-name">
+                      {place.originalName}
+                    </span>
+                  )}
                   <span>{place.address}</span>
                 </button>
                 {place.attributions.map((item, index) => (

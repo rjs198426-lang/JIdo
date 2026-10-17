@@ -101,7 +101,15 @@ export function aliasQuery(query: string) {
   result = result.replace(/\s+/g, ' ').trim()
   return result !== query.trim() && !/[가-힣]/.test(result) ? result : undefined
 }
+const resultNames: Record<string, string> = {
+  'ichiran dotonbori shop': '이치란 도톤보리점',
+  '% arabica kyoto higashiyama': '아라비카 교토 히가시야마점',
+  kagetsudo: '아사쿠사 카게츠도',
+  'komagata dozeu': '고마가타 도제우',
+  daikokuya: '다이코쿠야',
+}
 export function koreanSearchName(name: string) {
+  if (resultNames[name.toLowerCase()]) return resultNames[name.toLowerCase()]
   // Use only a complete, known name; retain unfamiliar official names as supplied.
   const exact = aliases.find(
     ([, english]) => english.toLowerCase() === name.toLowerCase(),

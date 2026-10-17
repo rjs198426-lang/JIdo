@@ -36,6 +36,14 @@ export async function openWorkspace(page: Page, name: string) {
       .getByRole('group', { name: '준비 관리', exact: true })
       .getByRole('button', { name: preparation[name], exact: true })
       .click()
+  if (
+    name === '준비물' &&
+    (await page.locator('.preparation-options').count()) &&
+    !(await page
+      .locator('.preparation-options')
+      .evaluate((el) => (el as HTMLDetailsElement).open))
+  )
+    await page.locator('.preparation-options > summary').click()
   if (planning[name])
     await page
       .getByRole('group', { name: '일정 보기', exact: true })

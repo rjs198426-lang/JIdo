@@ -180,6 +180,7 @@ test('구글 결과를 앱에서 선택하고 주소·좌표·장소 ID를 일�
     page.getByRole('link', { name: '에펠 카페 지도 검색' }),
   ).toHaveAttribute('href', /query_place_id=eiffel-cafe/)
   await page.getByRole('button', { name: '여행 백업·공유' }).click()
+  await page.locator('.legacy-backup > summary').click()
   await page.getByRole('button', { name: '전체 여행 백업 복사' }).click()
   await expect(page.getByLabel('내보낸 여행 내용')).toHaveValue(/eiffel-cafe/)
   await page.getByRole('button', { name: '닫기', exact: true }).click()

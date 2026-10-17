@@ -5,7 +5,10 @@ import { searchGooglePlaces, type GooglePlace } from './google-places'
 import { z } from 'zod'
 
 export type PlaceSearchService = 'osm' | 'google'
-export type SearchPlace = GooglePlace & { provider: PlaceSearchService }
+export type SearchPlace = GooglePlace & {
+  provider: PlaceSearchService
+  originalName?: string
+}
 export type SearchContext = {
   name: string
   country: string
@@ -318,6 +321,7 @@ export async function findPlaces(
       ? result.map((place) => ({
           ...place,
           name: koreanSearchName(place.name),
+          originalName: place.name,
         }))
       : result
   }

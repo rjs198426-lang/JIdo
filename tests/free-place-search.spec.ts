@@ -132,6 +132,7 @@ test('키·결제 없이 무료 검색이 기본이고 OSM 이름·주소·좌�
   await page
     .getByRole('button', { name: '여행 백업·공유', exact: true })
     .click()
+  await page.locator('.legacy-backup > summary').click()
   await page.getByRole('button', { name: '전체 여행 백업 복사' }).click()
   expect(await page.getByLabel('내보낸 여행 내용').inputValue()).toContain(
     'way/501',

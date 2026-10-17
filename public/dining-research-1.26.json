@@ -1,0 +1,401 @@
+{
+  "checkedAt": "2026-10-17",
+  "scope": "travel-guide listing check; not live operation verification",
+  "entries": [
+    {
+      "id": "kyoto-dining-14b86ecf1d",
+      "source": {
+        "title": "Kyoto/Higashiyama · 식사·휴식",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Kyoto/Higashiyama&oldid=5384571",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-17",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 eat/drink 항목을 확인했습니다. 광고 금지 편집 정책의 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      },
+      "originalListing": {
+        "type": "eat",
+        "name": "Toryanse",
+        "alt": "通りゃんせ",
+        "url": "",
+        "email": "",
+        "address": "",
+        "lat": "35.015371",
+        "long": "135.794939",
+        "directions": "",
+        "phone": "",
+        "tollfree": "",
+        "hours": "",
+        "price": "",
+        "lastedit": "2024-04-01",
+        "content": "A restaurant with vegan options. The interior features photos of cat that roam around the Philosopher’s Path. Cash only."
+      },
+      "revision": 5384571
+    },
+    {
+      "id": "kyoto-dining-9b8932b2ac",
+      "source": {
+        "title": "Kyoto/Higashiyama · 식사·휴식",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Kyoto/Higashiyama&oldid=5384571",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-17",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 eat/drink 항목을 확인했습니다. 광고 금지 편집 정책의 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      },
+      "originalListing": {
+        "type": "eat",
+        "name": "Saryou Tsuriji",
+        "alt": "茶寮都路里",
+        "url": "http://www.giontsujiri.co.jp/saryo/",
+        "email": "",
+        "address": "573-3 Minami-gawa, Gion-cho",
+        "lat": "35.002991",
+        "long": "135.776407",
+        "directions": "",
+        "phone": "+81 75-561-2257",
+        "tollfree": "",
+        "fax": "",
+        "hours": "Mon-Fri 10:00-21:00, Sat Sun national holidays 10:00-20:30",
+        "price": "Dishes typically range from ¥1000&ndash;1400",
+        "content": "Famous for its ''matcha'' (grean tea) parfait, this restaurant is quite popular among Japanese tourists. It is not uncommon to wait 30 minutes just to get inside. Mainly ice cream is served, and most of it is grean tea flavored, as it is a Kyoto specialty. It's a nice experience for those who like to make eating part of their travel experience, but for those on a budget, there are plenty of vendors selling cheap macha ice cream cones. A branch is also at Kodaiji in Higashiyama and other regions in Kyoto."
+      },
+      "revision": 5384571
+    },
+    {
+      "id": "kyoto-dining-20a211e4df",
+      "source": {
+        "title": "Kyoto/Higashiyama · 식사·휴식",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Kyoto/Higashiyama&oldid=5384571",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-17",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 eat/drink 항목을 확인했습니다. 광고 금지 편집 정책의 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      },
+      "originalListing": {
+        "type": "eat",
+        "name": "Sweets Paradise",
+        "alt": "スイーツパラダイス",
+        "url": "https://www.sweets-paradise.jp/shop/shijokawaramachi/",
+        "email": "",
+        "address": "392 Komeya-cho, Nakagyo-ku (Koto Cross Hankyu Kawaramachi, 6th Floor)",
+        "lat": "35.004023",
+        "long": "135.769618",
+        "directions": "",
+        "phone": "+81 75-212-2234",
+        "tollfree": "",
+        "hours": "10:30-21:30",
+        "price": "¥1480",
+        "content": "Sweets Paradise is the famed all-you-can-eat cake and dessert restaurant. While they do offer some main dishes, no one comes here for anything but the sweets! After you pay, you can eat as much as you want for 90 minutes."
+      },
+      "revision": 5384571
+    },
+    {
+      "id": "kyoto-dining-86fb62f22b",
+      "source": {
+        "title": "Kyoto/Higashiyama · 식사·휴식",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Kyoto/Higashiyama&oldid=5384571",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-17",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 eat/drink 항목을 확인했습니다. 광고 금지 편집 정책의 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      },
+      "originalListing": {
+        "type": "eat",
+        "name": "Gion TAC",
+        "alt": "祇園TAC",
+        "url": "https://www.gion-tac.com/",
+        "email": "",
+        "address": "京都市東山区末吉町８８−１",
+        "lat": "35.00492",
+        "long": "135.774344",
+        "directions": "coming from Gion Shijo station, walk along Shijo Dori on the left side, towards the east. After the first crossroads with traffic lights, walk about 100 m and turn left into the small street; about 50 m after the next crossroads, TAC is on your left; ground floor, wooden sliding door",
+        "phone": "+81 75-531-0970",
+        "tollfree": "",
+        "hours": "06:00-15:00",
+        "price": "¥4000 p.p",
+        "content": "Not the cheapest, but really great Italian food in a very hospitable environment, with friendly staff, nice music and great dessert."
+      },
+      "revision": 5384571
+    },
+    {
+      "id": "kyoto-dining-7c2da3eeec",
+      "source": {
+        "title": "Kyoto/Higashiyama · 식사·휴식",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Kyoto/Higashiyama&oldid=5384571",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-17",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 eat/drink 항목을 확인했습니다. 광고 금지 편집 정책의 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      },
+      "originalListing": {
+        "type": "eat",
+        "name": "Kikunoi (main restaurant)",
+        "alt": "菊乃井本店",
+        "url": "https://kikunoi.jp/kikunoiweb.en/top",
+        "email": "",
+        "address": "459 Shimokawara-cho, Yasakatoriimae-sagaru, Shimokawara-dori",
+        "lat": "35.001797",
+        "long": "135.781991",
+        "directions": "",
+        "phone": "+81 75-561-0015",
+        "tollfree": "",
+        "hours": "11:30-13:00, 17:00-20:00",
+        "price": "¥4,000 (lunch), ¥15,000 (dinner)",
+        "lastedit": "2022-10-02",
+        "content": "One of Japan's most famous ''ryotei'', serving ''kaiseki'' using the finest regional seasonal ingredients. Very expensive for dinner, but lunches are much more reasonable. Bookings essential well in advance. Staff don't speak much English, but the restaurant does publish English books with descriptions of some of their dishes."
+      },
+      "revision": 5384571
+    },
+    {
+      "id": "kyoto-dining-5e1341e7fd",
+      "source": {
+        "title": "Kyoto/Higashiyama · 식사·휴식",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Kyoto/Higashiyama&oldid=5384571",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-17",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 eat/drink 항목을 확인했습니다. 광고 금지 편집 정책의 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      },
+      "originalListing": {
+        "type": "drink",
+        "name": "Gion Kappa Restaurant",
+        "alt": "",
+        "url": "http://www.kirinya-foods.jp/kappa/",
+        "email": "",
+        "address": "Higashiyama-ku, Sueyoshichō, 八坂新地末吉町77",
+        "lat": "35.005004",
+        "long": "135.773040",
+        "directions": "",
+        "phone": "+81 75-531-1112",
+        "tollfree": "",
+        "fax": "",
+        "hours": "",
+        "price": "Most of the small dishes cost &yen;390 each. Cover charge of &yen;390 per person, which includes an appetizer",
+        "image": "Gion Kappa Restaurant in Kyoto.jpg",
+        "lastedit": "2018-11-19",
+        "content": "An izakaya (Japanese-style pub) where you can see them preparing the food in front of you, popular with both international tourists and Japanese customers. Try the sweet plum liquor. English menu available."
+      },
+      "revision": 5384571
+    },
+    {
+      "id": "tokyo-dining-4259f04f2f",
+      "source": {
+        "title": "Tokyo/Asakusa · 식사·휴식",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Tokyo/Asakusa&oldid=5387494",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-17",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 eat/drink 항목을 확인했습니다. 광고 금지 편집 정책의 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      },
+      "originalListing": {
+        "type": "eat",
+        "name": "Kagetsudo",
+        "alt": "花月堂",
+        "url": "",
+        "email": "",
+        "address": "Asakusa 1-18-11",
+        "lat": "35.711520",
+        "long": "139.796054",
+        "directions": "",
+        "phone": "+81 3-5830-3534",
+        "tollfree": "",
+        "fax": "",
+        "hours": "Daily 09:00-17:00",
+        "price": "¥200 for one, ¥500 for three",
+        "lastedit": "2016-01-12",
+        "content": "This place has been making \"melon pan\" since 1945, and they haven't changed the decoration. It is a buttery and milky small cake with a crispy sweet crust."
+      },
+      "revision": 5387494
+    },
+    {
+      "id": "tokyo-dining-f6fccefcee",
+      "source": {
+        "title": "Tokyo/Asakusa · 식사·휴식",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Tokyo/Asakusa&oldid=5387494",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-17",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 eat/drink 항목을 확인했습니다. 광고 금지 편집 정책의 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      },
+      "originalListing": {
+        "type": "eat",
+        "name": "Naruto Taiyaki",
+        "alt": "鳴門鯛焼",
+        "url": "https://www.taiyaki.co.jp/",
+        "email": "",
+        "address": "Asakusa 1-28-1",
+        "lat": "35.7121",
+        "long": "139.7948",
+        "directions": "",
+        "phone": "+83 3-5830-7668",
+        "tollfree": "",
+        "hours": "Daily 10:00-23:00",
+        "price": "¥350 each",
+        "lastedit": "2024-04-18",
+        "content": "Freshly grilled ''taiyaki'', a traditional sweet waffle in the shape of a lucky fish, with your choice of red bean, sweet potato or custard filling."
+      },
+      "revision": 5387494
+    },
+    {
+      "id": "tokyo-dining-8c51c8587b",
+      "source": {
+        "title": "Tokyo/Asakusa · 식사·휴식",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Tokyo/Asakusa&oldid=5387494",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-17",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 eat/drink 항목을 확인했습니다. 광고 금지 편집 정책의 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      },
+      "originalListing": {
+        "type": "eat",
+        "name": "Aoi-Marushin",
+        "alt": "葵丸進",
+        "url": "http://www.aoi-marushin.co.jp",
+        "email": "",
+        "address": "1-4-4 Asakusa",
+        "lat": "35.711253",
+        "long": "139.794981",
+        "directions": "",
+        "phone": "+81 3 3841-0110",
+        "tollfree": "",
+        "fax": "",
+        "hours": "",
+        "price": "",
+        "lastedit": "2016-12-29",
+        "content": "Good tempura in a convenient location, with fifty years of history behind it."
+      },
+      "revision": 5387494
+    },
+    {
+      "id": "tokyo-dining-a1030e9c66",
+      "source": {
+        "title": "Tokyo/Asakusa · 식사·휴식",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Tokyo/Asakusa&oldid=5387494",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-17",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 eat/drink 항목을 확인했습니다. 광고 금지 편집 정책의 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      },
+      "originalListing": {
+        "type": "eat",
+        "name": "Benizuru",
+        "alt": "紅鶴",
+        "url": "",
+        "email": "",
+        "address": "Nishiasakusa 2-1-11",
+        "lat": "35.7120",
+        "long": "139.7920",
+        "directions": "",
+        "phone": "",
+        "tollfree": "",
+        "fax": "",
+        "hours": "10:00-16:30 daily",
+        "price": "Pancake stack from ¥1,200",
+        "lastedit": "2024-04-17",
+        "content": "Ludicrously fluffy pancakes served in wobbly stacks of three, with a selection of sweet and savoury toppings. Extremely popular among the Instagram crowd, the only way to get a guaranteed seat is to queue up in person before 8:30am and pay a ¥1000/person deposit. No English sign, but English menu available."
+      },
+      "revision": 5387494
+    },
+    {
+      "id": "tokyo-dining-40b32ed42a",
+      "source": {
+        "title": "Tokyo/Asakusa · 식사·휴식",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Tokyo/Asakusa&oldid=5387494",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-17",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 eat/drink 항목을 확인했습니다. 광고 금지 편집 정책의 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      },
+      "originalListing": {
+        "type": "eat",
+        "name": "Daikokuya",
+        "alt": "大黒家",
+        "url": "http://www.tempura.co.jp/",
+        "email": "",
+        "address": "1-38-10 Asakusa",
+        "lat": "35.712764",
+        "long": "139.795524",
+        "directions": "",
+        "phone": "+81 3 3844-1111",
+        "tollfree": "",
+        "fax": "",
+        "hours": "",
+        "price": "Tendon from ¥2000",
+        "lastedit": "2024-04-15",
+        "content": "One of Tokyo's most famous tempura restaurants, opened in 1887. Be prepared for extremely long queues during meal times. An English menu is available on request."
+      },
+      "revision": 5387494
+    },
+    {
+      "id": "tokyo-dining-671d1c3968",
+      "source": {
+        "title": "Tokyo/Asakusa · 식사·휴식",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Tokyo/Asakusa&oldid=5387494",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-17",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 eat/drink 항목을 확인했습니다. 광고 금지 편집 정책의 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      },
+      "originalListing": {
+        "type": "eat",
+        "name": "Komagata Dozeu",
+        "alt": "駒形どぜう",
+        "url": "https://www.dozeu.com/en/asakusa/",
+        "email": "",
+        "address": "1-7-12 Asakusa",
+        "lat": "35.70985",
+        "long": "139.79689",
+        "directions": "",
+        "phone": "",
+        "tollfree": "",
+        "fax": "",
+        "hours": "",
+        "price": "From ¥2000",
+        "lastedit": "2024-04-15",
+        "content": "Another local institution, Komagata has been serving up loach hotpot (''dojō nabe'') for over 200 years. Small, bony and slimy, loach was the working man's alternative to eel, then as now an expensive luxury.  It's a bit of an acquired taste -- \"tofu with bones\" is a common description -- but it's very Asakusa and you can ladle on green onion and ''shichimi'' spice to add some flavor. Tatami seating downstairs, tables upstairs."
+      },
+      "revision": 5387494
+    },
+    {
+      "id": "tokyo-dining-a6e4a41e23",
+      "source": {
+        "title": "Tokyo/Asakusa · 식사·휴식",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Tokyo/Asakusa&oldid=5387494",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-17",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 eat/drink 항목을 확인했습니다. 광고 금지 편집 정책의 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      },
+      "originalListing": {
+        "type": "drink",
+        "name": "Asakusa Naniwaya",
+        "url": "http://a-naniwaya.com/",
+        "email": "",
+        "address": "Asakusa 2-12-4",
+        "lat": "35.714816",
+        "long": "139.792788",
+        "directions": "",
+        "phone": "+81 3-3842-0988",
+        "tollfree": "",
+        "fax": "",
+        "hours": "Daily 10:00-19:00",
+        "price": "",
+        "lastedit": "2016-12-29",
+        "content": "Asakusa Naniwaya branch the original of Taiyaki Naniwaya Sohonten (Azabu Jyu-ban). You can enjoy green tea and coffee at the cafe in the shop, with all handmade Japanese sweets."
+      },
+      "revision": 5387494
+    }
+  ]
+}

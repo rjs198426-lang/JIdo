@@ -290,6 +290,7 @@ test('자료는 텍스트로 안전하게 표시하고 일정 JSON 백업에는 
   ).toBeUndefined()
   await page.getByRole('button', { name: '자료 미리보기 닫기' }).click()
   await page.getByRole('button', { name: '여행 백업·공유' }).click()
+  await page.locator('.legacy-backup > summary').click()
   await expect(page.getByRole('dialog')).toContainText(
     '일정 JSON 백업에는 포함되지 않습니다',
   )

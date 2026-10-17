@@ -17,7 +17,7 @@ async function navigate(page: Page, name: string) {
 
 test('괌·사이판은 휴양지에 명소 20곳씩 포함하고 미확인 위치를 만들지 않음', () => {
   expect(cities).toHaveLength(21)
-  expect(places).toHaveLength(887)
+  expect(places).toHaveLength(900)
   for (const guide of resortGuides) {
     expect(guide.city.region).toBe('휴양지')
     expect(guide.places).toHaveLength(20)

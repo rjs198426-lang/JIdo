@@ -6,14 +6,17 @@ import {
   type Stop,
   type Trip,
 } from './travel-model'
-import { today, dateAt, dayCount } from './store'
+import { dateAt } from './store'
+import { tripClock } from './destination-time'
 import { cancelledReservation } from './journey-progress'
 import { portableTrip } from './TravelBackup'
 
-export function travelDay(trip: Trip, date = today()) {
-  return date >= trip.startDate && date <= trip.endDate
-    ? dayCount(trip.startDate, date) - 1
-    : null
+export function travelDay(trip: Trip, date?: string) {
+  const index = trip.days.findIndex(
+    (_, day) =>
+      dateAt(trip.startDate, day) === (date || tripClock(trip, day).date),
+  )
+  return index < 0 ? null : index
 }
 export function journeyPreference(trip: Trip): {
   day: number

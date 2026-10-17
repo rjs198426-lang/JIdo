@@ -4,6 +4,7 @@ import { japanGuides } from './japan-guides.ts'
 import { expandedGuides } from './expanded-guides.ts'
 import { resortGuides } from './resort-guides.ts'
 import researchedPlaces from './researched-places.json' with { type: 'json' }
+import diningPlaces from './dining-places.json' with { type: 'json' }
 import { placeSchema } from './guide-schema.ts'
 import type { ReviewSource } from './review-source'
 import { withBlogNotes } from './blog-place-notes.ts'
@@ -527,6 +528,7 @@ places.push(...resortGuides.flatMap((guide) => guide.places))
 export const reviewedPlaceIds = new Set<string>()
 for (const raw of [
   ...researchedPlaces,
+  ...diningPlaces,
   ...expandedGuides.flatMap((guide) => guide.places),
 ]) {
   const reviewed = placeSchema.parse(raw)

@@ -66,6 +66,7 @@ async function backup(page: Page) {
   await page
     .getByRole('button', { name: '여행 백업·공유', exact: true })
     .click()
+  await page.locator('.legacy-backup > summary').click()
 }
 test('한글 검색은 실제 찾기 때만 알려진 영문 별칭으로 무료 재검색하고 선택 좌표를 보존', async ({
   page,

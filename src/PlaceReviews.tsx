@@ -13,6 +13,14 @@ export default function PlaceReviews({ place }: { place: Place }) {
   return (
     <section className="place-review-sources">
       <h3>여행 후기·여행자 자료</h3>
+      <small className="source-check-status">
+        자료 확인{' '}
+        {place.reviewSources
+          .map((source) => source.checkedAt)
+          .sort()
+          .at(-1)}{' '}
+        · 현재 영업·요금은 별도 확인
+      </small>
       {place.reviewSources.map((source) => (
         <a
           key={source.url}

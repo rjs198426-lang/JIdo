@@ -182,6 +182,7 @@ test('사진 파일과 대표 사진 참조는 일정 JSON 백업·동행자 파
   await page
     .getByRole('button', { name: '여행 백업·공유', exact: true })
     .click()
+  await page.locator('.legacy-backup > summary').click()
   await page.getByRole('button', { name: '전체 여행 백업 복사' }).click()
   const text = await page.getByLabel('내보낸 여행 내용').inputValue()
   const backup = JSON.parse(text)

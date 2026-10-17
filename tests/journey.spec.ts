@@ -58,6 +58,7 @@ test('가이드 없이 파리·로마 여행, 직접 장소 편집, 도시별 �
   await page.getByRole('button', { name: '도시 추가', exact: true }).click()
   await page.getByLabel('도시 이름', { exact: true }).fill('로마')
   await page.getByLabel('국가', { exact: true }).fill('이탈리아')
+  await page.getByLabel('새 도시 체류 시작일').selectOption('1')
   await page
     .getByRole('button', { name: '경로에 도시 추가', exact: true })
     .click()
@@ -100,6 +101,7 @@ test('두 번째 도시의 가이드 장소를 같은 여행에 추가', async (
   await page.getByRole('tab', { name: /DAY 2/ }).click()
   await page.getByRole('button', { name: '도시 추가', exact: true }).click()
   await page.getByLabel('추가할 여행지').selectOption('kyoto')
+  await page.getByLabel('새 도시 체류 시작일').selectOption('1')
   await page
     .getByRole('button', { name: '경로에 도시 추가', exact: true })
     .click()
@@ -211,6 +213,7 @@ test('독립 여행 백업 복원과 잘못된 파일 거부', async ({ page }) 
   await page
     .getByRole('button', { name: '여행 백업·공유', exact: true })
     .click()
+  await page.locator('.legacy-backup > summary').click()
   await page.getByRole('button', { name: '전체 여행 백업 복사' }).click()
   const backup = await page.getByLabel('내보낸 여행 내용').inputValue()
   const parsed = JSON.parse(backup)
@@ -235,6 +238,7 @@ test('독립 여행 백업 복원과 잘못된 파일 거부', async ({ page }) 
   await page
     .getByRole('button', { name: '여행 백업·공유', exact: true })
     .click()
+  await page.locator('.legacy-backup > summary').click()
   await page.getByLabel('백업 내용 붙여넣기').fill(backup)
   await page.getByRole('button', { name: '백업 내용 확인' }).click()
   await page.getByRole('button', { name: '여행 복사본 가져오기' }).click()
@@ -366,6 +370,7 @@ test('가이드 장소도 독립 백업으로 복원되고 일부 손상이 다�
   await page
     .getByRole('button', { name: '여행 백업·공유', exact: true })
     .click()
+  await page.locator('.legacy-backup > summary').click()
   await page.getByRole('button', { name: '전체 여행 백업 복사' }).click()
   const backup = await page.getByLabel('내보낸 여행 내용').inputValue()
   expect(JSON.parse(backup).trips[0].days[0][0].custom.name).toBe(

@@ -879,6 +879,14 @@ function Itinerary({
   const [searchOpen, setSearchOpen] = useState(false)
   const [targetRevision, setTargetRevision] = useState(0)
   const [focusedExpenseId, setFocusedExpenseId] = useState<string>()
+  const [compactStops, setCompactStops] = useState(() => {
+    try {
+      return localStorage.getItem('jido-compact-stops') === 'true'
+    } catch {
+      return false
+    }
+  })
+  const [expandedStops, setExpandedStops] = useState<string[]>([])
   const [adjustOpen, setAdjustOpen] = useState(false)
   const [timeUndo, setTimeUndo] = useState<TimeAdjustment>()
   const [adjustError, setAdjustError] = useState('')
@@ -937,6 +945,8 @@ function Itinerary({
     element?.focus({ preventScroll: true })
   }, [workspace, day, targetRevision])
   const locate = (target: JourneyTarget) => {
+    if (target.stopId)
+      setExpandedStops((items) => [...new Set([...items, target.stopId!])])
     setFocusedExpenseId(target.expenseId)
     setTargetRevision((value) => value + 1)
     pendingTarget.current = target
@@ -1307,7 +1317,9 @@ function Itinerary({
               </div>
               <TripOverview trip={trip} onDay={onDayChange} />
               <JourneyRoute trip={trip} day={day} onUpdate={onUpdate} />
-              <div className="planning-shortcuts">
+              <div
+                className={`planning-shortcuts ${workspace === 'schedule' && stops.length > 0 ? 'has-density' : ''}`}
+              >
                 <button
                   className="button outline small"
                   onClick={() => {
@@ -1318,6 +1330,25 @@ function Itinerary({
                 >
                   여행 중 보기
                 </button>
+                {workspace === 'schedule' && stops.length > 0 && (
+                  <button
+                    className="button outline small schedule-density"
+                    aria-pressed={compactStops}
+                    aria-label={compactStops ? '상세 목록 보기' : '간단한 목록 보기'}
+                    onClick={() => {
+                      const next = !compactStops
+                      setCompactStops(next)
+                      try {
+                        localStorage.setItem('jido-compact-stops', String(next))
+                      } catch {
+                        /* Optional preference. */
+                      }
+                    }}
+                  >
+                    {compactStops ? '상세히 보기' : '간단히 보기'}
+                  </button>
+                )}
+
                 <JourneyShare trip={trip} day={day} />
               </div>
               {workspace === 'transfers' ? (
@@ -1465,7 +1496,29 @@ function Itinerary({
                             key={stop.id}
                           >
                             <span className="stop-number">{index + 1}</span>
-                            <div className="stop-card">
+                            <div
+                              className={`stop-card ${compactStops && !expandedStops.includes(stop.id) ? 'stop-condensed' : ''}`}
+                            >
+                              {compactStops && (
+                                <button
+                                  className="text-button stop-expand"
+                                  aria-expanded={expandedStops.includes(
+                                    stop.id,
+                                  )}
+                                  aria-label={`${place.name} 일정 상세 펼치기`}
+                                  onClick={() =>
+                                    setExpandedStops((items) =>
+                                      items.includes(stop.id)
+                                        ? items.filter((id) => id !== stop.id)
+                                        : [...items, stop.id],
+                                    )
+                                  }
+                                >
+                                  {expandedStops.includes(stop.id)
+                                    ? '접기'
+                                    : '상세'}
+                                </button>
+                              )}
                               <div className="stop-top">
                                 <input
                                   className="stop-time"
@@ -1755,6 +1808,7 @@ function Itinerary({
           )}
           {workspace === 'reservations' && (
             <Reservations
+              day={day}
               key={targetRevision}
               trip={trip}
               onUpdate={onUpdate}
@@ -1765,6 +1819,7 @@ function Itinerary({
           )}
           {workspace === 'expenses' && (
             <Expenses
+              day={day}
               key={targetRevision}
               focusExpenseId={focusedExpenseId}
               trip={trip}
@@ -2558,6 +2613,7 @@ export default function App() {
       {dialog?.type === 'backup' && (
         <Modal title="여행 백업·공유" onClose={() => setDialog(null)}>
           <TravelBackup
+            day={activeDay}
             trips={store.trips}
             activeTrip={activeTrip}
             onFullRestore={(trips, photos) => {

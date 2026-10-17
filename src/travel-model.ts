@@ -34,6 +34,18 @@ export const destinationSchema = z.object({
   name: label,
   country: label,
   guideCityId: id.optional(),
+  timeZone: z
+    .string()
+    .max(100)
+    .refine((zone) => {
+      try {
+        new Intl.DateTimeFormat('en', { timeZone: zone }).format()
+        return true
+      } catch {
+        return false
+      }
+    }, '시간대를 확인하세요.')
+    .optional(),
 })
 export const customPlaceSchema = z.object({
   name: label,
@@ -71,6 +83,8 @@ export const stopSchema = z.object({
       fromPlace: z.string().max(3000),
       toPlace: z.string().max(3000),
       minutes: z.number().int().min(0).max(1440),
+      mode: z.enum(['walking', 'transit', 'driving']).optional(),
+      checkedAt: z.string().datetime().optional(),
     })
     .optional(),
 })

@@ -1,3 +1,4 @@
+import PlacePhoto from './PlacePhoto'
 import { useState } from 'react'
 import {
   ChevronRight,
@@ -28,9 +29,14 @@ export default function GuidePlaces({
 }) {
   const [category, setCategory] =
     useState<(typeof categoryOptions)[number]>(initialCategory)
+  const [query, setQuery] = useState('')
   const all = places.filter((place) => place.cityId === cityId)
   const filtered = all.filter(
-    (place) => category === '전체' || place.category === category,
+    (place) =>
+      (category === '전체' || place.category === category) &&
+      `${place.name} ${place.address}`
+        .toLocaleLowerCase()
+        .includes(query.trim().toLocaleLowerCase()),
   )
   return (
     <section className="guide-places" aria-label="가이드 가볼 만한 곳">
@@ -71,14 +77,31 @@ export default function GuidePlaces({
           )
         })}
       </div>
+      <label className="field guide-place-search">
+        이 도시의 장소 찾기
+        <input
+          type="search"
+          value={query}
+          onChange={(event) => setQuery(event.target.value)}
+          placeholder="장소 이름·주소"
+        />
+      </label>
       <div className="detail-place-list">
         {filtered.map((place: Place) => {
           const Icon = icons[place.category]
           return (
             <div key={place.id}>
-              <span className="detail-place-icon">
-                <Icon size={18} />
-              </span>
+              {place.image ? (
+                <PlacePhoto
+                  place={place}
+                  className="guide-place-thumb"
+                  alt={place.name}
+                />
+              ) : (
+                <span className="detail-place-icon">
+                  <Icon size={18} />
+                </span>
+              )}
               <button onClick={() => onOpen(place.id)}>
                 <strong>{place.name}</strong>
                 <span>

@@ -1,4 +1,4 @@
-import { rememberExpense } from './expense-context'
+import { expensePreferences, rememberExpense } from './expense-context'
 import { useDraftFields } from './form-draft'
 import AttachmentsPanel from './AttachmentsPanel'
 import { useEffect, useState, type FormEvent } from 'react'
@@ -21,7 +21,7 @@ import {
   settlements,
   splitEvenly,
 } from './finance'
-import { formatDate } from './store'
+import { dateAt, formatDate } from './store'
 import TravelMembers from './TravelMembers'
 
 export type ExpenseDraft = {
@@ -36,6 +36,7 @@ type Props = {
   trip: Trip
   onUpdate: (trip: Trip) => void
   initialExpense?: ExpenseDraft
+  day?: number
   focusExpenseId?: string
 }
 export default function ExpenseManager({
@@ -43,6 +44,7 @@ export default function ExpenseManager({
   onUpdate,
   initialExpense,
   focusExpenseId,
+  day = 0,
 }: Props) {
   const expenses = trip.expenses || [],
     members = trip.members || []
@@ -52,8 +54,8 @@ export default function ExpenseManager({
     open: false,
     title: '',
     amount: '',
-    currency: (trip.baseCurrency || 'KRW') as Currency,
-    date: trip.startDate,
+    currency: expensePreferences(trip, day).currency,
+    date: dateAt(trip.startDate, day),
     category: '식비' as Expense['category'],
     payer: '',
     payerId: '',
@@ -145,9 +147,10 @@ export default function ExpenseManager({
     setEditing(null)
     setTitle('')
     setAmount('')
-    setDate(trip.startDate)
+    setDate(dateAt(trip.startDate, day))
+    setCurrency(expensePreferences(trip, day).currency)
     setPayer('')
-    setPayerId(members[0]?.id || '')
+    setPayerId(expensePreferences(trip, day).payerId)
     setDirection('expense')
     setPaymentMethod('카드')
     setNote('')
@@ -262,12 +265,14 @@ export default function ExpenseManager({
           </span>
           <strong>
             {conversion.missing.length
-              ? conversion.missing.join(' · ')
+              ? totals
+                  .map((item) => money(item.total, item.currency))
+                  .join(' · ')
               : money(conversion.total, conversion.currency)}
           </strong>
           {conversion.missing.length > 0 && (
             <small>
-              환산된 금액 {money(conversion.total, conversion.currency)}
+              전체 합계 환산 전 · {conversion.missing.join(' · ')} 환율 필요
             </small>
           )}
         </div>

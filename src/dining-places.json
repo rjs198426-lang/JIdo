@@ -1,0 +1,353 @@
+[
+  {
+    "id": "kyoto-dining-14b86ecf1d",
+    "cityId": "kyoto",
+    "name": "토랸세",
+    "english": "Toryanse · 通りゃんせ",
+    "category": "맛집",
+    "image": "/images/place-placeholder.svg",
+    "description": "철학의 길 주변의 비건 선택지가 있는 식당입니다.",
+    "address": "철학의 길 주변, 교토",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·공식 안내에서 확인",
+    "tip": "철학의 길 산책 중 식사 후보입니다. 식단 제한을 주문 전에 확인하세요.",
+    "lat": 35.015371,
+    "lng": 135.794939,
+    "area": "히가시야마·기온",
+    "reviewSources": [
+      {
+        "title": "Kyoto/Higashiyama · 식사·휴식",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Kyoto/Higashiyama&oldid=5384571",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-17",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 eat/drink 항목을 확인했습니다. 광고 금지 편집 정책의 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "id": "kyoto-dining-9b8932b2ac",
+    "cityId": "kyoto",
+    "name": "사료 츠지리 기온 본점",
+    "english": "Saryou Tsuriji · 茶寮都路里",
+    "category": "카페",
+    "image": "/images/place-placeholder.svg",
+    "description": "기온에서 말차 파르페와 디저트를 고를 수 있는 찻집입니다.",
+    "address": "573-3 Minami-gawa, Gion-cho, Kyoto, Japan",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·공식 안내에서 확인",
+    "tip": "야사카 신사·기온 산책 뒤 휴식 후보입니다. 혼잡 시 대기와 마지막 주문 시간을 확인하세요.",
+    "lat": 35.002991,
+    "lng": 135.776407,
+    "area": "히가시야마·기온",
+    "reviewSources": [
+      {
+        "title": "Kyoto/Higashiyama · 식사·휴식",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Kyoto/Higashiyama&oldid=5384571",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-17",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 eat/drink 항목을 확인했습니다. 광고 금지 편집 정책의 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "id": "kyoto-dining-20a211e4df",
+    "cityId": "kyoto",
+    "name": "스위츠 파라다이스 시조카와라마치점",
+    "english": "Sweets Paradise · スイーツパラダイス",
+    "category": "카페",
+    "image": "/images/place-placeholder.svg",
+    "description": "시조카와라마치의 케이크·디저트 뷔페 매장입니다.",
+    "address": "392 Komeya-cho, Nakagyo-ku (Koto Cross Hankyu Kawaramachi, 6th Floor), Kyoto, Japan",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·공식 안내에서 확인",
+    "tip": "이용 코스·제한 시간·예약 여부는 매장 공식 안내를 확인하세요.",
+    "lat": 35.004023,
+    "lng": 135.769618,
+    "area": "히가시야마·기온",
+    "reviewSources": [
+      {
+        "title": "Kyoto/Higashiyama · 식사·휴식",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Kyoto/Higashiyama&oldid=5384571",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-17",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 eat/drink 항목을 확인했습니다. 광고 금지 편집 정책의 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "id": "kyoto-dining-86fb62f22b",
+    "cityId": "kyoto",
+    "name": "기온 택",
+    "english": "Gion TAC · 祇園TAC",
+    "category": "맛집",
+    "image": "/images/place-placeholder.svg",
+    "description": "기온 골목에 있는 이탈리아 음식점입니다.",
+    "address": "京都市東山区末吉町８８−１, Kyoto, Japan",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·공식 안내에서 확인",
+    "tip": "기온에서 저녁을 먹을 때 비교할 후보입니다. 예약·운영일을 먼저 확인하세요.",
+    "lat": 35.00492,
+    "lng": 135.774344,
+    "area": "히가시야마·기온",
+    "reviewSources": [
+      {
+        "title": "Kyoto/Higashiyama · 식사·휴식",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Kyoto/Higashiyama&oldid=5384571",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-17",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 eat/drink 항목을 확인했습니다. 광고 금지 편집 정책의 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "id": "kyoto-dining-7c2da3eeec",
+    "cityId": "kyoto",
+    "name": "기쿠노이 본점",
+    "english": "Kikunoi (main restaurant) · 菊乃井本店",
+    "category": "맛집",
+    "image": "/images/place-placeholder.svg",
+    "description": "히가시야마에서 제철 가이세키 코스를 제공하는 요정입니다.",
+    "address": "459 Shimokawara-cho, Yasakatoriimae-sagaru, Shimokawara-dori, Kyoto, Japan",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·공식 안내에서 확인",
+    "tip": "예약을 우선 확인하고 코스·복장·식이 제한·취소 조건을 함께 확인하세요.",
+    "lat": 35.001797,
+    "lng": 135.781991,
+    "area": "히가시야마·기온",
+    "reviewSources": [
+      {
+        "title": "Kyoto/Higashiyama · 식사·휴식",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Kyoto/Higashiyama&oldid=5384571",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-17",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 eat/drink 항목을 확인했습니다. 광고 금지 편집 정책의 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "id": "kyoto-dining-5e1341e7fd",
+    "cityId": "kyoto",
+    "name": "기온 갓파",
+    "english": "Gion Kappa Restaurant",
+    "category": "맛집",
+    "image": "/images/place-placeholder.svg",
+    "description": "기온에서 일본식 안주와 식사를 고를 수 있는 이자카야입니다.",
+    "address": "Higashiyama-ku, Sueyoshichō, 八坂新地末吉町77, Kyoto, Japan",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·공식 안내에서 확인",
+    "tip": "예약 가능 여부와 좌석·금연 조건을 확인하세요.",
+    "lat": 35.005004,
+    "lng": 135.77304,
+    "area": "히가시야마·기온",
+    "reviewSources": [
+      {
+        "title": "Kyoto/Higashiyama · 식사·휴식",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Kyoto/Higashiyama&oldid=5384571",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-17",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 eat/drink 항목을 확인했습니다. 광고 금지 편집 정책의 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "id": "tokyo-dining-4259f04f2f",
+    "cityId": "tokyo",
+    "name": "아사쿠사 카게츠도",
+    "english": "Kagetsudo · 花月堂",
+    "category": "카페",
+    "image": "/images/place-placeholder.svg",
+    "description": "아사쿠사의 멜론빵으로 알려진 제과점입니다.",
+    "address": "Asakusa 1-18-11, Tokyo, Japan",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·공식 안내에서 확인",
+    "tip": "센소지 산책 중 간식 후보입니다. 본문에 나온 지점과 현재 본점 위치를 지도에서 대조하세요.",
+    "lat": 35.71152,
+    "lng": 139.796054,
+    "area": "아사쿠사",
+    "reviewSources": [
+      {
+        "title": "Tokyo/Asakusa · 식사·휴식",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Tokyo/Asakusa&oldid=5387494",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-17",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 eat/drink 항목을 확인했습니다. 광고 금지 편집 정책의 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "id": "tokyo-dining-f6fccefcee",
+    "cityId": "tokyo",
+    "name": "나루토 타이야키 아사쿠사",
+    "english": "Naruto Taiyaki · 鳴門鯛焼",
+    "category": "카페",
+    "image": "/images/place-placeholder.svg",
+    "description": "팥·고구마 등의 소를 넣은 타이야키를 고를 수 있는 가게입니다.",
+    "address": "Asakusa 1-28-1, Tokyo, Japan",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·공식 안내에서 확인",
+    "tip": "테이크아웃 간식으로 비교하고 알레르기 성분을 확인하세요.",
+    "lat": 35.7121,
+    "lng": 139.7948,
+    "area": "아사쿠사",
+    "reviewSources": [
+      {
+        "title": "Tokyo/Asakusa · 식사·휴식",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Tokyo/Asakusa&oldid=5387494",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-17",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 eat/drink 항목을 확인했습니다. 광고 금지 편집 정책의 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "id": "tokyo-dining-8c51c8587b",
+    "cityId": "tokyo",
+    "name": "아오이마루신",
+    "english": "Aoi-Marushin · 葵丸進",
+    "category": "맛집",
+    "image": "/images/place-placeholder.svg",
+    "description": "센소지 주변에서 덴푸라 식사를 할 수 있는 식당입니다.",
+    "address": "1-4-4 Asakusa, Tokyo, Japan",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·공식 안내에서 확인",
+    "tip": "관광 중 점심 후보입니다. 휴무·대기·메뉴는 공식 안내를 확인하세요.",
+    "lat": 35.711253,
+    "lng": 139.794981,
+    "area": "아사쿠사",
+    "reviewSources": [
+      {
+        "title": "Tokyo/Asakusa · 식사·휴식",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Tokyo/Asakusa&oldid=5387494",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-17",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 eat/drink 항목을 확인했습니다. 광고 금지 편집 정책의 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "id": "tokyo-dining-a1030e9c66",
+    "cityId": "tokyo",
+    "name": "베니즈루",
+    "english": "Benizuru · 紅鶴",
+    "category": "카페",
+    "image": "/images/place-placeholder.svg",
+    "description": "니시아사쿠사의 수플레 팬케이크 가게입니다.",
+    "address": "Nishiasakusa 2-1-11, Tokyo, Japan",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·공식 안내에서 확인",
+    "tip": "예약·현장 접수 방식이 바뀔 수 있으므로 방문일의 매장 안내를 먼저 확인하세요.",
+    "lat": 35.712,
+    "lng": 139.792,
+    "area": "아사쿠사",
+    "reviewSources": [
+      {
+        "title": "Tokyo/Asakusa · 식사·휴식",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Tokyo/Asakusa&oldid=5387494",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-17",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 eat/drink 항목을 확인했습니다. 광고 금지 편집 정책의 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "id": "tokyo-dining-40b32ed42a",
+    "cityId": "tokyo",
+    "name": "다이코쿠야 덴푸라",
+    "english": "Daikokuya · 大黒家",
+    "category": "맛집",
+    "image": "/images/place-placeholder.svg",
+    "description": "아사쿠사의 덴푸라·덴동 식당입니다.",
+    "address": "1-38-10 Asakusa, Tokyo, Japan",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·공식 안내에서 확인",
+    "tip": "식사 시간 대기를 고려하고 본점과 별관의 운영을 구분해 확인하세요.",
+    "lat": 35.712764,
+    "lng": 139.795524,
+    "area": "아사쿠사",
+    "reviewSources": [
+      {
+        "title": "Tokyo/Asakusa · 식사·휴식",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Tokyo/Asakusa&oldid=5387494",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-17",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 eat/drink 항목을 확인했습니다. 광고 금지 편집 정책의 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "id": "tokyo-dining-671d1c3968",
+    "cityId": "tokyo",
+    "name": "고마가타 도제우",
+    "english": "Komagata Dozeu · 駒形どぜう",
+    "category": "맛집",
+    "image": "/images/place-placeholder.svg",
+    "description": "아사쿠사에서 미꾸라지 전골 도제우 나베를 제공하는 전통 식당입니다.",
+    "address": "1-7-12 Asakusa, Tokyo, Japan",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·공식 안내에서 확인",
+    "tip": "생선 식감·뼈가 있는 메뉴이므로 취향과 동행자의 식단을 먼저 확인하세요.",
+    "lat": 35.70985,
+    "lng": 139.79689,
+    "area": "아사쿠사",
+    "reviewSources": [
+      {
+        "title": "Tokyo/Asakusa · 식사·휴식",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Tokyo/Asakusa&oldid=5387494",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-17",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 eat/drink 항목을 확인했습니다. 광고 금지 편집 정책의 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "id": "tokyo-dining-a6e4a41e23",
+    "cityId": "tokyo",
+    "name": "아사쿠사 나니와야",
+    "english": "Asakusa Naniwaya",
+    "category": "카페",
+    "image": "/images/place-placeholder.svg",
+    "description": "타이야키와 일본식 디저트·차를 고를 수 있는 가게입니다.",
+    "address": "Asakusa 2-12-4, Tokyo, Japan",
+    "duration": "직접 체류시간 지정",
+    "cost": "메뉴·공식 안내에서 확인",
+    "tip": "센소지 북서쪽 산책 후 간식·휴식 후보입니다. 계절 메뉴와 운영일을 확인하세요.",
+    "lat": 35.714816,
+    "lng": 139.792788,
+    "area": "아사쿠사",
+    "reviewSources": [
+      {
+        "title": "Tokyo/Asakusa · 식사·휴식",
+        "url": "https://en.wikivoyage.org/w/index.php?title=Tokyo/Asakusa&oldid=5387494",
+        "kind": "traveler-guide",
+        "checkedAt": "2026-10-17",
+        "license": "CC BY-SA 4.0",
+        "sponsorshipCheck": "no-disclosure-found",
+        "screeningNote": "여행자 가이드의 실제 eat/drink 항목을 확인했습니다. 광고 금지 편집 정책의 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+      }
+    ]
+  }
+]

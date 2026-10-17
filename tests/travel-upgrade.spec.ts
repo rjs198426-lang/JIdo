@@ -186,10 +186,10 @@ test('예약 비용 중복 방지·확정 상태·예약 수정의 일정 반영
   await page
     .getByRole('combobox', { name: '예약 상태', exact: true })
     .selectOption('confirmed')
-  await page.getByText('비용·이용기간', { exact: true }).click()
+  await page.getByText('비용·결제일', { exact: true }).click()
   await page.getByLabel('예약 비용 통화').selectOption('EUR')
   await page.getByLabel('예약 비용', { exact: true }).fill('120')
-  await page.getByLabel('이용 종료일').fill('2026-11-03')
+  await page.getByLabel('체크아웃 날짜').fill('2026-11-03')
   await page.getByRole('button', { name: '예약 정보 저장' }).click()
   await page.getByRole('button', { name: '파리 숙소 일정에 복사' }).click()
   await page.getByRole('button', { name: '파리 숙소 지출로 기록' }).click()
@@ -298,6 +298,7 @@ test('개별 분담 합계 오류는 저장하지 않고 새 정보도 백업·�
   await tab(page, '가계부')
   await page.getByRole('button', { name: '지출 추가', exact: true }).click()
   await page.getByLabel('지출 이름').fill('공동 식사')
+  await page.getByLabel('지출 통화', { exact:true }).selectOption('KRW')
   await page.getByLabel('금액', { exact: true }).fill('10000')
   await page.getByLabel('비용 분담').selectOption('custom')
   await page.getByLabel('민수 부담 금액').fill('2000')
@@ -308,6 +309,7 @@ test('개별 분담 합계 오류는 저장하지 않고 새 정보도 백업·�
   await page.getByLabel('지수 부담 금액').fill('8000')
   await page.getByRole('button', { name: '지출 저장', exact: true }).click()
   await page.getByRole('button', { name: '여행 백업·공유' }).click()
+  await page.locator('.legacy-backup > summary').click()
   await page.getByRole('button', { name: '전체 여행 백업 복사' }).click()
   const backup = await page.getByLabel('내보낸 여행 내용').inputValue()
   expect(JSON.parse(backup).trips[0]).toMatchObject({
@@ -357,7 +359,7 @@ test('320px에서 준비·예약·환율·분담 입력에 가로 넘침 없음'
   await page
     .getByRole('button', { name: '예약 정보 추가', exact: true })
     .click()
-  await page.getByText('비용·이용기간', { exact: true }).click()
+  await page.getByText('비용·결제일', { exact: true }).click()
   await fits()
   await tab(page, '가계부')
   await page.getByRole('button', { name: '지출 추가', exact: true }).click()

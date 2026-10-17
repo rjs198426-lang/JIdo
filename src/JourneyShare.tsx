@@ -9,9 +9,11 @@ export const TravelSharing = registerPlugin<{
 export default function JourneyShare({
   trip,
   day,
+  expanded = false,
 }: {
   trip: Trip
   day: number
+  expanded?: boolean
 }) {
   const [scope, setScope] = useState('day'),
     [notes, setNotes] = useState(false),
@@ -52,7 +54,7 @@ export default function JourneyShare({
     }
   }
   return (
-    <details className="journey-share">
+    <details className="journey-share" open={expanded || undefined}>
       <summary aria-label="동행자에게 일정 전달">
         <Share2 size={16} /> 일정 전달
       </summary>

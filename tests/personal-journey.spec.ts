@@ -354,6 +354,7 @@ test('동행자 일정 전달은 민감한 기록 제외, 메모는 선택하고
   await page
     .getByRole('button', { name: '여행 백업·공유', exact: true })
     .click()
+  await page.locator('.legacy-backup > summary').click()
   await page.getByLabel('여행 백업 파일').setInputFiles(path!)
   await page
     .getByRole('button', { name: '여행 복사본 가져오기', exact: true })
