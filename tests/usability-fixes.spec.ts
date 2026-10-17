@@ -190,7 +190,7 @@ test('예약·경비·새 여행 초안은 탭 이동과 재시작 뒤 복원하
     '파리',
   )
 })
-test('도시 가이드 분류·스크롤로 복귀하고 일정 첫 화면·작은 터치 영역 개선', async ({
+test('가이드와 주변 장소는 창을 교체하고 한 번에 닫으며 일정 터치 영역 유지', async ({
   page,
 }) => {
   await page.setViewportSize({ width: 412, height: 839 })
@@ -216,33 +216,97 @@ test('도시 가이드 분류·스크롤로 복귀하고 일정 첫 화면·작�
     .getByRole('group', { name: '가볼 만한 곳 분류' })
     .getByRole('button', { name: '관광', exact: true })
   await category.click()
-  const y = await page.locator('.modal').evaluate((n) => n.scrollTop)
-  await page
-    .getByRole('dialog')
-    .getByRole('button', { name: '기요미즈데라 자세히 보기', exact: true })
-    .click()
-  await page.getByRole('button', { name: '닫기', exact: true }).click()
-  await expect(page.getByRole('dialog')).toHaveAccessibleName(
-    '교토 여행 가이드',
-  )
   await expect(category).toHaveAttribute('aria-pressed', 'true')
-  await expect
-    .poll(() => page.locator('.modal').evaluate((n) => n.scrollTop))
-    .toBeGreaterThanOrEqual(y - 5)
   await page
     .getByRole('dialog')
     .getByRole('button', { name: '기요미즈데라 자세히 보기', exact: true })
     .click()
-  const peer = await page.locator('.nearby-places strong').first().innerText()
-  await page.locator('.nearby-places button').first().click()
-  await expect(page.getByRole('dialog')).toHaveAccessibleName(peer)
-  await page.getByRole('button', { name: '닫기', exact: true }).click()
   await expect(page.getByRole('dialog')).toHaveAccessibleName('기요미즈데라')
+  for (let i = 0; i < 4; i++) {
+    const peer = await page.locator('.nearby-places strong').first().innerText()
+    await page.locator('.nearby-places button').first().click()
+    await expect(page.getByRole('dialog')).toHaveCount(1)
+    await expect(page.locator('.modal-backdrop')).toHaveCount(1)
+    await expect(page.getByRole('dialog')).toHaveAccessibleName(peer)
+    await expect(
+      page.getByRole('button', { name: '닫기', exact: true }),
+    ).toBeFocused()
+    await expect
+      .poll(() => page.locator('.modal').evaluate((n) => n.scrollTop))
+      .toBe(0)
+  }
   await page.getByRole('button', { name: '닫기', exact: true }).click()
+  await expect(page.getByRole('dialog')).toHaveCount(0)
+  await expect(page.locator('.modal-backdrop')).toHaveCount(0)
+  await expect
+    .poll(() => page.evaluate(() => document.body.style.overflow))
+    .toBe('')
+  await page
+    .getByRole('button', { name: '교토 여행지 자세히 보기', exact: true })
+    .first()
+    .click()
   await expect(page.getByRole('dialog')).toHaveAccessibleName(
     '교토 여행 가이드',
   )
+  await expect(
+    page
+      .getByRole('group', { name: '가볼 만한 곳 분류' })
+      .getByRole('button', { name: '전체', exact: true }),
+  ).toHaveAttribute('aria-pressed', 'true')
+  await page
+    .getByRole('dialog')
+    .getByRole('button', { name: '기요미즈데라 자세히 보기', exact: true })
+    .click()
+  await page.evaluate(() => window.dispatchEvent(new Event('jido:back')))
+  await expect(page.getByRole('dialog')).toHaveCount(0)
+  await expect(
+    page
+      .locator('.bottom-nav:visible,.desktop-nav:visible')
+      .getByRole('button', { name: '홈', exact: true }),
+  ).toHaveClass(/active/)
 })
+for (const closeWith of ['Escape', '배경'] as const) {
+  test(`장소를 연속 전환한 뒤 ${closeWith} 한 번으로 닫고 이력을 남기지 않음`, async ({
+    page,
+  }) => {
+    await seed(page)
+    await page
+      .locator('.desktop-nav:visible,.bottom-nav:visible')
+      .getByRole('button', { name: '홈', exact: true })
+      .click()
+    await page
+      .getByRole('button', { name: '교토 여행지 자세히 보기', exact: true })
+      .first()
+      .click()
+    await page
+      .getByRole('dialog')
+      .getByRole('button', { name: '기요미즈데라 자세히 보기', exact: true })
+      .click()
+    for (let i = 0; i < 2; i++) {
+      const peer = await page
+        .locator('.nearby-places strong')
+        .first()
+        .innerText()
+      await page.locator('.nearby-places button').first().click()
+      await expect(page.getByRole('dialog')).toHaveCount(1)
+      await expect(page.getByRole('dialog')).toHaveAccessibleName(peer)
+    }
+    if (closeWith === 'Escape') await page.keyboard.press('Escape')
+    else
+      await page.locator('.modal-backdrop').click({ position: { x: 1, y: 1 } })
+    await expect(page.getByRole('dialog')).toHaveCount(0)
+    await expect(page.locator('.modal-backdrop')).toHaveCount(0)
+    await expect
+      .poll(() => page.evaluate(() => document.body.style.overflow))
+      .toBe('')
+    await page
+      .getByRole('button', { name: '교토 여행지 자세히 보기', exact: true })
+      .first()
+      .click()
+    await page.evaluate(() => window.dispatchEvent(new Event('jido:back')))
+    await expect(page.getByRole('dialog')).toHaveCount(0)
+  })
+}
 test('60일 다도시 여행은 날짜 바로 이동·재시작·독립 백업으로 보존', async ({
   page,
 }) => {
@@ -290,7 +354,7 @@ test('전체 백업은 PDF·개인 사진·대표 참조를 새 저장소에 복
     page.getByRole('button', { name: '내 사진 바꾸기', exact: true }),
   ).toBeVisible()
   await page.getByRole('button', { name: '닫기', exact: true }).click()
-  await page.getByRole('button', { name: '닫기', exact: true }).click()
+  await expect(page.getByRole('dialog')).toHaveCount(0)
   await page
     .locator('.desktop-nav:visible,.bottom-nav:visible')
     .getByRole('button', { name: '내 여행', exact: true })

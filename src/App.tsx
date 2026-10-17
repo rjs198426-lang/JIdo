@@ -1756,20 +1756,7 @@ export default function App() {
   const [placeLimit, setPlaceLimit] = useState(24)
   const [exploreTab, setExploreTab] = useState<'cities' | 'places'>('cities')
   const [dialog, setDialog] = useState<Dialog | null>(null)
-  const guideCategory = useRef<(typeof categoryOptions)[number]>('전체')
-  const guideReturn = useRef<{ dialog: Dialog; scroll: number }[]>([])
-  const closeDialog = () => {
-    const previous = guideReturn.current.pop()
-    if (dialog?.type === 'place' && previous) {
-      setDialog(previous.dialog)
-      requestAnimationFrame(() =>
-        requestAnimationFrame(() => {
-          const modal = document.querySelector('.modal')
-          if (modal) modal.scrollTop = previous.scroll
-        }),
-      )
-    } else setDialog(null)
-  }
+  const closeDialog = () => setDialog(null)
 
   const [toast, setToast] = useState('')
   const [activeTripId, setActiveTripId] = useState(() => {
@@ -1854,17 +1841,9 @@ export default function App() {
     window.scrollTo({ top: 0, behavior: 'smooth' })
   }
   const openCity = (id: string) => {
-    guideCategory.current = '전체'
-    guideReturn.current = []
     setDialog({ type: 'city', id })
   }
   const openPlace = (id: string) => {
-    if (dialog?.type === 'city' || dialog?.type === 'place')
-      guideReturn.current.push({
-        dialog,
-        scroll: document.querySelector('.modal')?.scrollTop || 0,
-      })
-    else guideReturn.current = []
     setDialog({ type: 'place', id })
   }
   const search = (event: FormEvent) => {
@@ -2926,10 +2905,6 @@ export default function App() {
                   key={city.id}
                   cityId={city.id}
                   onOpen={openPlace}
-                  initialCategory={guideCategory.current}
-                  onCategory={(value) => {
-                    guideCategory.current = value
-                  }}
                 />
               </div>
             </Modal>

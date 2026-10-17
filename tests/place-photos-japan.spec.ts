@@ -343,10 +343,7 @@ test('65개 장소의 사진 파일이 열리고 장소별로 구분되며 촬�
   ).toHaveAttribute('src', '/images/place-kiyomizu.jpg')
   await expect(dialog.locator('.photo-credit')).toHaveCount(0)
   await page.getByRole('button', { name: '닫기', exact: true }).click()
-  await expect(page.getByRole('dialog')).toHaveAccessibleName(
-    '교토 여행 가이드',
-  )
-  await page.getByRole('button', { name: '닫기', exact: true }).click()
+  await expect(page.getByRole('dialog')).toHaveCount(0)
   await page.getByRole('button', { name: '사진 출처', exact: true }).click()
   await page.getByLabel('사진 출처 검색').fill('기요미즈데라')
   const credit = page.locator('.photo-credit-entry')
