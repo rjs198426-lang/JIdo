@@ -1,0 +1,836 @@
+﻿placeId,여행지,장소명,현지명·영문명,위도,경도,현재사진,상태
+guam-ypao-beach,괌,이파오 비치,Ypao Beach,,,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+guam-gun-beach,괌,건 비치,Gun Beach,,,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+guam-two-lovers-point,괌,사랑의 절벽,Two Lovers Point,,,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+guam-chamorro-village,괌,차모로 빌리지,Chamorro Village,,,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+guam-plaza-de-espana,괌,스페인 광장,Plaza de España Guam,,,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+guam-cathedral-basilica,괌,아가나 대성당,Dulce Nombre de Maria Cathedral Basilica,,,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+guam-latte-stone-park,괌,라테스톤 공원,Latte Stone Park,,,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+guam-fort-santa-agueda,괌,산타아규다 요새,Fort Santa Agueda,,,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+guam-guam-museum,괌,괌 박물관,Guam Museum,,,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+guam-asan-beach,괌,아산 비치 공원,Asan Beach Park,,,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+guam-newman-center,괌,티스텔 뉴먼 방문자센터,T. Stell Newman Visitor Center,,,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+guam-ritidian-beach,괌,리티디안 비치,Ritidian Beach,,,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+guam-fish-eye,괌,피시아이 마린파크,Fish Eye Marine Park,,,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+guam-emerald-valley,괌,에메랄드 밸리,Emerald Valley Guam,,,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+guam-inarajan-pools,괌,이나라한 자연풀,Inarajan Natural Pool,,,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+guam-fort-soledad,괌,솔레다드 요새,Fort Nuestra Senora de la Soledad,,,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+guam-merizo-pier,괌,메리조 부두,Merizo Pier,,,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+guam-talofofo-falls,괌,탈로포포 폭포,Talofofo Falls,,,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+guam-premier-outlets,괌,괌 프리미어 아울렛,Guam Premier Outlets,,,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+saipan-managaha,사이판,마나가하섬,Managaha Island,,,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+saipan-micro-beach,사이판,마이크로 비치,Micro Beach,,,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+saipan-american-memorial,사이판,아메리칸 메모리얼 파크,American Memorial Park,,,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+saipan-bird-island,사이판,버드아일랜드 전망대,Bird Island Lookout,,,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+saipan-grotto,사이판,그로토,The Grotto Saipan,,,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+saipan-banzai-cliff,사이판,만세절벽,Banzai Cliff,,,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+saipan-suicide-cliff,사이판,자살절벽,Suicide Cliff,,,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+saipan-last-command,사이판,최후의 사령부,Last Command Post Saipan,,,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+saipan-mount-tapochau,사이판,타포차우산,Mount Tapochau,,,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+saipan-forbidden-island,사이판,포비든아일랜드 전망대,Forbidden Island Lookout,,,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+saipan-ladder-beach,사이판,래더 비치,Ladder Beach,,,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+saipan-obyan-beach,사이판,오비안 비치,Obyan Beach,,,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+saipan-tank-beach,사이판,탱크 비치,Tank Beach,,,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+saipan-marine-beach,사이판,마린 비치,Marine Beach Saipan,,,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+saipan-sugar-king,사이판,슈가킹 공원,Sugar King Park,,,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+saipan-kristo-rai,사이판,가라판 크리스토라이 성당,Kristo Rai Church,,,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+saipan-paseo,사이판,파세오 데 마리아나스,Paseo de Marianas,,,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+saipan-history-museum,사이판,북마리아나 역사문화박물관,Northern Mariana Islands Museum of History and Culture,,,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+saipan-jeffreys-beach,사이판,제프리스 비치,Jeffrey's Beach,,,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+saipan-mount-carmel,사이판,카멜산 대성당,Mount Carmel Cathedral Saipan,,,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kyoto-review-3ad4fafd578f,교토,쇼세이엔 정원,Shōseien Garden · 渉成園; Kikoku-tei; Karatachi tei,34.991395,135.763238,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kyoto-review-c9c8b0ef41be,교토,교토시 교세라 미술관,Kyoto Municipal Museum of Art · 京都市美術館,35.012836,135.783569,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kyoto-review-354ac9b67d4b,교토,난젠지,Nanzenji Temple · 南禅寺,35.01127,135.79308,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kyoto-review-b981c89f42b4,교토,에이칸도,Eikandō Temple · 永観堂禅林寺,35.01437,135.79557,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kyoto-review-abea75631b76,교토,야사카 신사,Yasaka Shrine · 八坂神社,35.003645,135.778529,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kyoto-review-8f785e509bce,교토,지온인,Chion-in · 知恩院,35.006168,135.78328,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kyoto-review-cd801b84397d,교토,겐닌지,Kenninji Temple · 建仁寺,35.001187,135.773929,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kyoto-review-84598141b54d,교토,아라시야마 대나무숲,Bamboo Forest,35.016845,135.6716,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kyoto-review-b94a619f6326,교토,후시미 모모야마성,"Fushimi Momoyama Castle · 桃山城, Momoyama-jō; officially 伏見城, Fushimi-jō",34.939501,135.77686,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kyoto-review-8fb58dfc216f,교토,신센엔 정원,Shinsen-en Garden · 神泉苑,35.011382,135.748369,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kyoto-review-67044d7dcd97,교토,덴류지,Tenryū-ji · 天龍寺,35.015833,135.673693,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kyoto-review-8dce7ff01b89,교토,닌나지,Ninnaji Temple · 仁和寺,35.031111,135.713889,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kyoto-review-46d3ae0aecc9,교토,데라다야,Teradaya · 寺田屋,34.930406,135.759577,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kyoto-review-ed13761d9aeb,교토,니조성,Nijō Castle · 二条城 nijō-jō,35.014167,135.7475,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kyoto-review-144b2db96983,교토,오코치 산소,Ōkōchi Sansō · 大河内山荘,35.017281,135.669355,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kyoto-review-e714b5190a91,교토,다이토쿠지,Daitokuji Temple · 大徳寺,35.043891,135.74603,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kyoto-review-dc3a3df10526,교토,도후쿠지,Tōfuku-ji · 東福寺,34.975707,135.773676,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kyoto-review-c60ba2a4ba1c,교토,니조진야,Nijō-Jinya · 二条陣屋,35.010282,135.748658,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kyoto-review-586e5aef1657,교토,노노미야 신사,"Nonomiya Shrine · 野宮神社, Nonomiya-jinja",35.017731,135.674184,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kyoto-review-8f456c23b2ef,교토,이마미야 신사,"Imamiya Shrine · 今宮神社, Imamiya-jinja",35.046008,135.742039,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kyoto-review-568990a36576,교토,조난구 신사,Jōnan-gū Shrine,34.951119,135.746556,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kyoto-review-cd6b7c1644cf,교토,후나오카 온천,Funaoka Onsen · 船岡温泉,35.036912,135.744581,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kyoto-review-2d8e48522bdf,교토,교토 문화박물관,"The Museum of Kyoto · 京都文化博物館, kyōto bunka hakubutsukan; 通称, bunpaku",35.009389,135.762333,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kyoto-review-0e1bc316acc9,교토,이와타야마 원숭이공원,Iwatayama Monkey Park,35.011061,135.676626,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kyoto-review-37b0b8476c9d,교토,도지인,Tōji-in · 等持院,35.03155,135.723469,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kyoto-review-29b34e0acd04,교토,다이고지,Daigo-ji · 醍醐寺,34.951111,135.819444,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kyoto-review-d06e0564f87b,교토,도에이 우즈마사 영화마을,Toei Kyoto Studio Park · 東映太秦映画村 tōei uzumasa eigamura,35.016389,135.708333,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kyoto-review-eb58ef6b3823,교토,교토 국제만화박물관,"Kyoto International Manga Museum · 京都国際マンガミュージアム, Kyōto Kokusai Manga Myūjiamu",35.010807,135.760009,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kyoto-review-67cf0c320956,교토,오타기 넨부쓰지,Otagi Nenbutsu-ji Temple · 愛宕念仏寺,35.03135,135.661131,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kyoto-review-68bc9e75ea4c,교토,히라노 신사,Hirano Shrine · 平野神社,35.032448,135.732271,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kyoto-review-58b33f07fa06,교토,즈이신인,Zuishin-in · 随心院,34.959494,135.816286,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kyoto-review-0962554e1a2f,교토,니시혼간지,Nishi Honganji · 西本願寺; “Western Temple of the Original Vow”,34.991778,135.751694,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kyoto-review-e9e87ec94792,교토,다이카쿠지,Daikakuji Temple · 大覚寺,35.028325,135.677803,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kyoto-review-92e65fe472f5,교토,기타노 텐만구,Kitano Tenman-gū · 北野天満宮,35.029195,135.735008,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kyoto-review-4110f2b2d822,교토,간슈지,Kajū-ji · 勧修寺,34.961214,135.807558,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kyoto-review-c41dc17bb092,교토,히가시혼간지,Higashi Honganji · 東本願寺 Higashi Honganji; Eastern Temple of the Original Vow,34.99143,135.75854,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kyoto-review-4022d90dd1e7,교토,아다시노 넨부쓰지,Adashino Nenbutsu-ji · 化野念仏寺,35.026817,135.664545,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kyoto-review-b471d5e8e351,교토,묘신지,Myōshin-ji Temple,35.02317,135.720184,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kyoto-review-375dbcb62310,교토,오하라노 신사,Oharano Shrine · 大原野神社 Ōharano jinja,34.960278,135.656111,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kyoto-review-dccde152c855,교토,도지,Tō-ji · 東寺 Tō-ji; East Temple; Kyō-ō-gokoku-ji (教王護国寺),34.980556,135.747778,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kyoto-review-d98ccf90f5a9,교토,기오지,Giōji Temple · 祇王寺,35.023363,135.666765,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kyoto-review-c1b661113628,교토,로쿠하라미쓰지,Rokuharamitsu-ji · 六波羅蜜寺,34.99711,135.773329,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bali-review-7baf35008c3b,발리,우붓 몽키 포레스트,Monkey Forest,-8.518735,115.258586,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bali-review-7a45374550b0,발리,띠르따 엠풀,Tirta Empul,-8.41639,115.315,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bali-review-c1b79571d9d4,발리,고아 가자,Goa Gajah · Elephant Cave,-8.523389,115.286333,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bali-review-4aa0b066bd35,발리,멜라스티 비치,Melasti Beach,-8.84823,115.15759,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bali-review-c1af91b4a7e8,발리,술루반 비치,Suluban Beach,-8.8137,115.0924,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bali-review-881e2aeb21dd,발리,빠당빠당 비치,Padang-Padang,-8.8112,115.1036,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bali-review-b7e09d81c081,발리,가루다 위스누 끈짜나 문화공원,Garuda Wisnu Kencana Cultural Park · GWK,-8.809808,115.168055,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bali-review-e352eefa1b53,발리,발리 폭탄 테러 추모비,Bali Bomb Memorial,-8.71727,115.17449,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bali-review-38c25edfbabc,발리,쁘띠뜽읏 사원,Pura Petitenget,-8.68184,115.15243,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bali-review-0dd451ae2886,발리,르 마이어 미술관,Le Mayeur Museum,-8.67501,115.263727,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bali-review-d6b67b255c7d,발리,푸푸탄 광장,"Alun-Alun Puputan · Puputan Square, Alun Alun Kota Denpasar, Lapangan Puputan Badung I Gusti Ngurah Made Agung",-8.657139,115.21767,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bali-review-e485271b167d,발리,브라마 비하라 아라마 사원,Brahma Vihara Arama,-8.210577,114.973877,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bali-review-64d825c5f09b,발리,다르마야나 사원,Dharmayana Temple · Wihara Dharmayana,-8.72386,115.177899,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bali-review-30b557437d49,발리,맹그로브 정보센터,Mangrove Information Centre · Mangrove Forest Suwung Kawuh,-8.7237,115.192,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bali-review-d3ac73af2077,발리,발리 박물관,Bali Museum · Museum Negeri Propinsi Bali,-8.6575,115.218528,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bali-review-656c78b3c98e,발리,초바 바차 공공도서관,Coba Baca Public Library,-8.137975,115.05274,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bali-review-579892169dd1,발리,블란종 사원,Pura Blanjong · Blanjong Temple,-8.7058,115.2544,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bali-review-cbc05d9fbb0d,발리,푸푸탄 마르가라나 광장,"Lapangan Puputan Margarana · Puputan Park, Lapangan Puputan Renon",-8.671991,115.233936,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bali-review-236a1e3447d5,발리,스랑안섬 바다거북 보호센터,Serangan Island Turtle Conservation Centre · Turtle Island,-8.7237,115.236,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bali-review-ef55b677e219,발리,아궁 자갓나타 사원,Pura Agung Jagatnata · Jagatnata Temple,-8.6566,115.2188,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bali-review-12f84dcfe255,발리,마오스파힛 사원,Pura Maospahit · Maospahit Temple,-8.653794,115.210089,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bali-review-b7e316dbb1c4,발리,구눙 카위,Gunung Kawi · Poet Mountain,-8.423361,115.312333,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bali-review-5f398f56ca9f,발리,시딕 자리 미술관,Sidik Jari Museum · Finger Painting Museum,-8.6633,115.2404,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bali-review-a4b2dc3455b3,발리,사카 박물관,SAKA Museum,-8.78956,115.1435,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bali-review-5324843a1740,발리,크헨 사원,Pura Kehen · Kehen Temple,-8.441827,115.359902,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bali-review-5ffa26f036ad,발리,타만 웨디 부다야 문화센터,Taman Wedhi Budaya Cultural Centre,-8.656,115.2339,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bali-review-ad3b621390cd,발리,판다와 해변,Pandawa,-8.8458,115.1853,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bali-review-8292daa93244,발리,파라디소 볼링센터,Paradiso Bowling Centre,-8.726768,115.170209,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bali-review-54b9c601b806,발리,반자르 온천,Banjar Hot Springs · Air Panas,-8.210508,114.966988,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bali-review-c4472d058a93,발리,우붓 왕궁,"Puri Saren Agung · Royal Palace, Water Palace, Ubud Palace",-8.50673,115.262622,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bali-review-f54a77d9bdf2,발리,바즈라 산디 기념탑,Bajra Sandhi Monument · Bajra Sandhi,-8.671667,115.233889,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bali-review-f947a33113e4,발리,발랑안 해변,Balangan,-8.7914,115.1238,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bali-review-299050dddab0,발리,워터봄 발리,Waterbom Park,-8.72848,115.16952,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bali-review-75b22d78705b,발리,예 풀루 유적,Yeh Pulu,-8.530064,115.293128,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bali-review-012152304a1f,발리,빙인 해변,Bingin,-8.8055,115.1133,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bali-review-364bd04f3514,발리,사라스와티 사원,Saraswati Temple · Pura Taman Saraswati,-8.505951,115.261492,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bali-review-0afbe3eb2334,발리,드림랜드 해변,Dreamland,-8.7995,115.1175,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bali-review-ac8967073f5c,발리,구눙 르바 사원,Pura Gunung Lebah,-8.50531,115.26033,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bali-review-e10df5413ed1,발리,구눙 파융 해변,Gunung Payung Beach,-8.8408,115.1995,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bali-review-69ad603e26d0,발리,모아나 피시 이터리,Moana Fish Eatery,-8.649096,115.137695,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bali-review-8a4477209807,발리,아궁 라이 미술관,Agung Rai Museum of Art · ARMA,-8.518353,115.262083,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bali-review-802e7f4de17e,발리,냥냥 해변,Nyang Nyang Beach,-8.83968,115.09428,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bali-review-4b60ebdfb8f9,발리,크레이트 카페,CRATE Cafe,-8.64839,115.137163,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bali-review-b46ac82bd279,발리,블랑코 르네상스 미술관,Blanco Renaissance Museum,-8.5058,115.2543,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bali-review-9ee0d8498cb5,발리,그린볼 해변,Green Bowl Beach,-8.848722,115.170936,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bali-review-1f9bc5563554,발리,위나 안경점,Wina Optic,-8.72271,115.1768,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bali-review-ec60946d5563,발리,아르타세다나,Artasedana,-8.69491,115.26341,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bangkok-review-1d53593bca2c,방콕,방콕 예술문화센터,Bangkok Art and Culture Centre · หอศิลปวัฒนธรรมแห่งกรุงเทพมหานคร,13.746701,100.530224,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bangkok-review-aaba407c833d,방콕,짐 톰슨 하우스,Jim Thompson's House · พิพิธภัณฑ์จิม ทอมป์สัน,13.74924,100.52838,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bangkok-review-12f3a2d501b2,방콕,룸피니 공원,Lumphini Park · สวนลุมพินี,13.73022,100.53834,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bangkok-review-f47ebbf461a4,방콕,벤짜끼띠 공원,Benjakiti Park,13.7294,100.5586,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bangkok-review-e22ba9e57d6a,방콕,왓 사켓·골든 마운트,Wat Saket and the Golden Mount · วัดสระเกศและภูเขาทอง,13.753895,100.506593,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bangkok-review-8b1f0624c7d0,방콕,시암 박물관,Museum of Siam · มิวเซียมสยาม,13.744133,100.494128,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bangkok-review-5d192029724c,방콕,방콕 국립박물관,National Museum · พิพิธภัณฑสถานแห่งชาติ พระนคร,13.757826,100.492307,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bangkok-review-57de3e5e724a,방콕,왓 트라이밋,Wat Traimit · วัดไตรมิตรวิทยารามวรวิหาร,13.73799,100.51365,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bangkok-review-a478d6995919,방콕,왓 벤짜마보핏,"Wat Benchamabophit · วัดเบญจมบพิตร, also known as the Marble Temple",13.766562,100.514139,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bangkok-review-142bb81e1d2b,방콕,왕실 선박 국립박물관,Royal Barge National Museum · พิพิธภัณฑสถานแห่งชาติเรือพระราชพิธี,13.761667,100.484417,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bangkok-review-0318ec0d7f21,방콕,수안 파카드 궁전,Suan Pakkad Palace · วังสวนผักกาด,13.756667,100.5375,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bangkok-review-93ee61e07ea5,방콕,아이콘시암,Iconsiam,13.72676,100.51026,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bangkok-review-8be09893e6a6,방콕,쁘라뚜남 시장,Pratunam Market · ตลาดประตูน้ำ,13.752,100.54087,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bangkok-review-44070ad35546,방콕,민주기념탑,Democracy Monument · อนุสาวรีย์ประชาธิปไตย,13.75669,100.50185,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bangkok-review-2679c7429ee4,방콕,어린이 발견 박물관,Children's Discovery Museum · พิพิธภัณฑ์เด็ก,13.803163,100.551362,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bangkok-review-416c0c6b3e44,방콕,태국 생활 상설전시관,Thai Life Permanent Exhibition Hall · หอไทยนิทัศน์,13.7665,100.5734,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bangkok-review-06e05e78e8a4,방콕,라마 9세 공원,Rama IX Royal Park · สวนหลวง ร. 9,13.6869,100.6628,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bangkok-review-b93647c6ed09,방콕,벤자시리 공원,Benchasiri Park · สวนเบญจศิริ,13.73034,100.56732,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bangkok-review-a6635ddb390c,방콕,마하나콘 전망대,The Mahanakhon Observation Deck,13.72384,100.52599,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bangkok-review-7d8950e8a627,방콕,10월 14일 추모관,October 14 Memorial · อนุสรณ์สถาน 14 ตุลา,13.75678,100.49908,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bangkok-review-aac483be78dc,방콕,구루 타완 시크교 사원,Guru Tawan Sikh Temple · คุรุดวาราศรีคุรุสิงห์สภา Gurudwara Siri Guru Singh Sabha,13.74417,100.50109,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bangkok-review-dade2236930a,방콕,아피섹 두싯 알현실,Abhisek Dusit Throne Hall · SUPPORT Museum,13.773472,100.513064,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bangkok-review-e813616c761e,방콕,방콕 현대미술관,Museum of Contemporary Art · พิพิฒภัณฑ์ศิลปะไทยร่วมสมัย,13.8517,100.5628,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bangkok-review-72118eadb37b,방콕,왓 텝 릴라,Wat Thep Lila · วัดเทพลีลา,13.7594,100.6145,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bangkok-review-8d827b8ea328,방콕,에라완 사당,Erawan Shrine · ศาลพระพรหม,13.74429,100.54043,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bangkok-review-dccf852a1b0f,방콕,소이 아랍,Soi Arab · Middle East Street,13.7425,100.553556,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bangkok-review-2bf2be8af2d1,방콕,라마 6세 동상,King Rama VI Statue · พระบรมราชานุสาวรีย์พระบาทสมเด็จพระมงกุฏเกล้าเจ้าอยู่หัว,13.72997,100.53763,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bangkok-review-e7abfa983104,방콕,프라 수멘 요새,Phra Sumen Fort · ป้อมพระสุเมรุ,13.76399,100.49573,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bangkok-review-a54b069c67b8,방콕,왓 차이 차나 송크람,Wat Chai Chana Songkhram · วัดชัยชนะสงคราม,13.744722,100.505833,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bangkok-review-c8e87f933302,방콕,라마 5세 기마상,King Rama V Equestrian Statue · พระบรมรูปทรงม้า,13.769223,100.512031,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bangkok-review-c8b67be14001,방콕,산타크루즈 성당,Santa Cruz Church · วัดซางตาครู้ส,13.738999,100.493764,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bangkok-review-967882844745,방콕,바이욕 타워 2 전망대·회전 옥상,Baiyoke Tower II Observatory and Revolving Roofdeck · ตึกใบหยก 2,13.754308,100.54043,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bangkok-review-332b1454bea3,방콕,우표박물관,Philatelic Museum · พิพิธภัณฑ์และห้องสมุดตราไปรษณียากร,13.7939,100.5491,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bangkok-review-46ba86bc0d16,방콕,마담 투소 방콕,Madame Tussaud's · พิพิธภัณฑ์หุ่นขี้ผึ้งมาดามทุสโซ,13.74649,100.53173,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bangkok-review-f619a76ba54f,방콕,사오와파 왕비 기념연구소 뱀농장,Queen Saovabha Memorial Institute Snake Farm · สถานเสาวภาสภากาชาดไทย,13.73238,100.53266,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bangkok-review-f851b0dfe92e,방콕,왕실 보물·훈장·태국 화폐 전시관,"Pavilion of Regalia, Royal Decorations and Thai Coins",13.751003,100.491782,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bangkok-review-1e0f18d6b5e1,방콕,싼띠차이쁘라깐 공원,Santichaiprakan Park · พระที่นั่งและสวนสาธารณะสันติชัยปราการ,13.76408,100.49509,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bangkok-review-0d84eef8c7b4,방콕,왓 짜끄라왓,Wat Chakrawat · วัดจักรวรรดิราชาวาสวรมหาวิหาร,13.742199,100.504158,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bangkok-review-23f9f329ddf3,방콕,왓 인타라위한,Wat Intharawihan · วัดอินทรวิหาร,13.766927,100.502947,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bangkok-review-7bec5502007e,방콕,왓 깐라야나밋,Wat Kanlayanamit · วัดกัลยาณมิตรวรมหาวิหาร,13.740003,100.491278,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bangkok-review-6b661000f4af,방콕,방콕 인형박물관,Bangkok Dolls Museum · บ้านบางกอกดอลส์และตุ๊กตานานาชาติ,13.7594,100.54676,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bangkok-review-5b1b2ac5ff12,방콕,태국 왕립 공군박물관,Royal Thai Air Force Museum · พิพิธภัณฑ์กองทัพอากาศ,13.9196,100.622,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bangkok-review-0245590f6097,방콕,사왕 왓타나 왕비 박물관,Queen Savang Vadhana Museum · มูลนิธิสมเด็จพระพันวัสสาอัยยิกาเจ้า,13.74804,100.53378,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bangkok-review-60c834ccf4af,방콕,어섬션 대성당,Assumption Cathedral · อาสนวิหารอัสสัมชัญ,13.7231,100.5152,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bangkok-review-66ea889014f0,방콕,왓 라차보핏,Wat Ratchabophit · วัดราชบพิตร,13.749133,100.497332,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bangkok-review-c31c8d4a6071,방콕,왓 보원니웻,Wat Bowonniwet · วัดบวรนิเวศ,13.76025,100.49985,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bangkok-review-c97b4d1c664c,방콕,왓 가 부앙 킴,Wat Ga Buang Kim,13.7414,100.5053,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bangkok-review-1eb0608931af,방콕,왓 쁘라윤,Wat Prayoon · วัดประยุรวงศ์,13.737363,100.49537,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bangkok-review-32e3b4415f17,방콕,파야타이 궁전,Phaya Thai Palace · วังพญาไท,13.768666,100.532912,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+bangkok-review-c5303d5c91a9,방콕,씨라이프 방콕 오션월드,Bangkok Sea Life Ocean World · สยามโอเชี่ยนเวิลด์,13.74599,100.53515,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+santorini-review-f65abd003050,산토리니,고대 테라 유적,Ancient Thera,36.363611,25.478056,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+santorini-review-14b095fbd552,산토리니,아크로티리 고고학 유적,Ancient Akrotiri · Ακρωτήρι,36.35136,25.40356,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+santorini-review-d07aa4e4afa4,산토리니,테라 선사박물관,Museum of Prehistoric Thira,36.4185,25.437,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+santorini-review-1d219b4b7d6e,산토리니,레드 비치,Red Beach · Κόκκινη Παραλία,36.34732,25.39459,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+santorini-review-233784073870,산토리니,페리사 비치,Perissa Beach,36.3567,25.476,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+santorini-review-7ebd7d8d9fd7,산토리니,팔레아 카메니,Palea Kameni,36.398,25.37863,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+santorini-review-c10c02d6cb8a,산토리니,아크로티리 등대,Faros Lighthouse,36.35779,25.35706,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+santorini-review-57c138971237,산토리니,아기아 이리니 교회,Agia Irini,36.35753,25.47561,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+santorini-review-d42c993d51af,산토리니,티미우 스타브루 교회,Timiou Stafrou,36.35638,25.47483,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+santorini-review-70a7850daa36,산토리니,산토리니 민속박물관,Folklore Museum,36.42309,25.43456,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+santorini-review-71a86b7895b3,산토리니,파나기아 카테피아니 교회,Panagia Katefiani,36.360817,25.475216,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+santorini-review-1ba9549aec8a,산토리니,라 폰타 성,La Ponta Castle,36.3582,25.39719,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+santorini-review-e58decbba9a4,산토리니,테라 고고학박물관,Archaeological Museum of Thera,36.4178,25.4317,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+santorini-review-f7ab8a21c17a,산토리니,광물·화석 박물관,Museum of Minerals and Fossils · Μουσείο ορυκτών και απολιθωμάτων Περίσσα Σαντορίνης,36.3568,25.474711,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+santorini-review-69a8cbc47693,산토리니,옛 풍차,Old Mill,36.355779,25.396941,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+santorini-review-d90731535068,산토리니,메가로 기지 박물관,Megaro Gyzi Museum,36.42082,25.43089,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+santorini-review-a851ff3b16e4,산토리니,고대 채석장,Ancient Quarry,36.3655,25.4721,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+santorini-review-90a67c82ad42,산토리니,성 에프스타티오스 교회,Saint Efstathios Church · Άγιος Ευστάθιος,36.360481,25.409868,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+santorini-review-7778db413872,산토리니,로제 투르트 전시관,Roger Tourte Exposition,36.42226,25.42847,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+santorini-review-541a0a7dc407,산토리니,선돌 유적,Menhir,36.353661,25.388296,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+santorini-review-69c4e48acaa8,산토리니,피라 세 개의 종 성당,Catholic Church of the Dormition (The Three Bells of Fira) · Τρεις καμπάνες των Φηρών,36.42333,25.42855,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+santorini-review-508dcc2205c7,산토리니,아기오스 니콜라오스 교회,Agios Nikolaos Church,36.3475,25.39563,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+santorini-review-d80027f157c1,산토리니,도미니코회 수녀원,Dominican Convent,36.42072,25.43065,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+santorini-review-30045380d508,산토리니,화이트 비치,White Beach,36.35047,25.38237,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+santorini-review-842ffdb4782e,산토리니,산토리니 정교회 대성당,Orthodox Metropolitan Cathedral,36.41678,25.43187,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+santorini-review-a8fa34e21dff,산토리니,칼데라 해변,Caldera Beach,36.36099,25.40781,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+santorini-review-28027fc4ac90,산토리니,세례자 성 요한 대성당,Cathedral of Saint John the Baptist · Καθεδρικός ναός του Αγίου Ιωάννη του Βαπτιστή,36.420528,25.430806,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+santorini-review-31a442e9fbd0,산토리니,해변 동굴,Beach Cave,36.349402,25.39139,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+santorini-review-17b1bcb88a6f,산토리니,카마리 야외영화관,Santorini Open Air Cinema Kamari · Santorini Cine Kamari,36.37923,25.47552,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+santorini-review-401028f085a8,산토리니,캄피아 해변,Kampia Beach,36.348104,25.386999,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+santorini-review-f3ce30db03b5,산토리니,알렉산더스 레스토랑,Alexander's Restaurant,36.37257,25.48063,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+santorini-review-1024819b74da,산토리니,엘 그레코,El Greco,36.37815,25.48634,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+santorini-review-e71c30954b08,산토리니,올드 셀러 기념품점,The Old Cellar Gift Shop,36.356819,25.475664,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+santorini-review-2c475a8819c8,산토리니,살리베로스,Saliveros,36.37197,25.48215,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+santorini-review-bffde9b14f4d,산토리니,화이트 도어 극장,The White Door Theatro,36.419475,25.431549,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+santorini-review-2e4283ee58b6,산토리니,산토리니 젠 스파,Santorini Zen Spa,36.422964,25.433869,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+santorini-review-001bcd70af14,산토리니,코칼로,Kokkalo,36.422737,25.431804,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+santorini-review-6049a18ff33d,산토리니,크레메리 비엔나,Creamerie Vienna,36.35335,25.472756,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+santorini-review-f82af2eaef0d,산토리니,볼케이노,Volcano,36.353048,25.472573,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+santorini-review-0c8baa9fd843,산토리니,후크 바,Hook Bar,36.37126,25.48155,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+santorini-review-12b33497b7f8,산토리니,샬리나스,Charlina's,36.345982,25.464658,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+santorini-review-61661da056a5,산토리니,프린스 바·레스토랑,Prince Bar-Restaurant,36.37543,25.48468,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+santorini-review-5e137b24a372,산토리니,고대 아크로티리 박물관 기념품점,Ancient Akrotiri Museum Shop,36.35021,25.401695,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+santorini-review-85cacdd17517,산토리니,아크로폴리스,Acropolis,36.35092,25.47027,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+santorini-review-f12541f35d87,산토리니,스플래시 바·레스토랑,Splash Bar - Restaurant,36.38043,25.48692,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+santorini-review-4f1b2aa5bf57,산토리니,크실로 우드 디자인 산토리니,XξYLO Wood Design Santorini,36.363901,25.423745,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+santorini-review-dd6695749293,산토리니,씨사이드 뷰,Sea Side View,36.343207,25.460977,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+santorini-review-decd39668a2f,산토리니,마티 갤러리,MATI Gallery,36.4171,25.43171,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+santorini-review-b026929375f5,산토리니,안나스 미니마켓,Anna's Mini Market,36.359052,25.401141,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+dubai-review-1ee5e0dc69a7,두바이,두바이 프레임,Dubai Frame,25.23553,55.30032,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+dubai-review-92cdaffb7054,두바이,두바이 마리나,Dubai Marina,25.08135,55.144075,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+dubai-review-24ce1836f50d,두바이,미래박물관,Museum of the Future,25.21912,55.2821,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+dubai-review-2da0fd74470a,두바이,두바이 아쿠아리움,Dubai Aquarium and Underwater Zoo,25.1977,55.2788,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+dubai-review-b1f0843a3e06,두바이,에티하드 박물관,Etihad Museum · Union House,25.241433,55.269331,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+dubai-review-0f764fd7eb6c,두바이,골드 수크,Gold Souk,25.2701,55.29816,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+dubai-review-e3e7329faca7,두바이,글로벌 빌리지,Global Village,25.06632,55.30342,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+dubai-review-7838c0204418,두바이,두바이 사파리 파크,Dubai Safari Park,25.177509,55.450114,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+dubai-review-b63c20009655,두바이,두바이 미라클 가든,Dubai Miracle Garden,25.05981,55.24454,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+dubai-review-cd947889b1f5,두바이,수크 마디나트 주메이라,Souk Madinat Jumeirah,25.1333,55.186076,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+dubai-review-117e360d3def,두바이,무슈리프 공원,Mushrif Park,25.21713,55.45109,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+dubai-review-dc533b69e3d0,두바이,아쿠아벤처 워터파크,Aquaventure Waterpark,25.135,55.122,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+dubai-review-ca675a267f90,두바이,스키 두바이,Ski Dubai,25.117222,55.198333,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+dubai-review-4aa19d63d873,두바이,더 뷰 앳 더 팜,The View at The Palm,25.11397,55.13982,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+dubai-review-bec0ec0d798f,두바이,알 아흐마디야 학교·헤리티지 하우스,Al Ahmadiya School and Heritage House,25.268433,55.294919,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+dubai-review-a9da29670cc5,두바이,크리크 공원,Creek Park,25.2408,55.3259,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+dubai-review-d1c4b7f3e011,두바이,데이라 시계탑,Deira Clocktower · Dubai Clocktower,25.258659,55.326443,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+dubai-review-eae27c8b9c6c,두바이,두바이 돌피나리움,Dubai Dolphinarium,25.234654,55.326764,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+dubai-review-9b889b60dd32,두바이,이매진 분수쇼,Imagine,25.221,55.35,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+dubai-review-5558a25e09cb,두바이,다우 선착장,Dhow Wharfage,25.2566,55.3182,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+dubai-review-9766209cd2ca,두바이,그랜드 모스크,Grand Mosque,25.26439,55.29694,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+dubai-review-ab9e154ce8f6,두바이,두바이 파크 앤 리조트,Dubai Parks & Resorts,24.920758,55.010391,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+dubai-review-e4c84589be4e,두바이,알 맘자르 공원,Mamzar Park,25.32,55.35,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+dubai-review-db68e77d201d,두바이,헤리티지 빌리지,Heritage Village,25.268,55.29,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+dubai-review-6bc5c5875878,두바이,두바이 시립박물관,Dubai Municipality Museum,25.2679,55.2978,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+dubai-review-c7f932de072d,두바이,이란 모스크,Iranian mosque,25.264,55.2946,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+dubai-review-7ba47279287f,두바이,셰이크 오바이드 빈 타니의 집,Sheikh Obaid bin Thani House,25.2686,55.29076,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+dubai-review-208fc928205d,두바이,사이드 알 막툼의 집,Saeed Al Maktoum House,25.26818,55.29036,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+dubai-review-7122c28fac79,두바이,두바이 오토드롬,Dubai Autodrome,25.05008,55.24001,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+dubai-review-7efbb1f4ba86,두바이,문명의 교차로 박물관,Crossroad of Civilization Museum,25.2675,55.2889,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+dubai-review-9818738a4c7e,두바이,두바이 스포츠 시티,Dubai Sports City (DSC),25.041889,55.219585,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+dubai-review-adf17002f079,두바이,옛 무기 박물관,Old Weapons Museum,25.2672,55.2893,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+dubai-review-84fc4dc7d077,두바이,제벨 알리 사격클럽,Jebel Ali Shooting Club,24.961111,55.034237,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+dubai-review-17c8ce00a3f4,두바이,자빌 공원,Zabeel Park,25.2355,55.2977,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+dubai-review-24fbc130f5ca,두바이,부르즈 알 아랍,Burj al-Arab · Tower of the Arabs,25.14145,55.18547,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+dubai-review-a210d8e9f4cf,두바이,시네시티 알 구레르 센터,Cinecity - Al Ghurair Centre · formerly the  Grand Cinemas,25.267954,55.317396,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+dubai-review-38d6cde67159,두바이,라 폰타나,La Fontana,24.987552,55.021925,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+dubai-review-828a8341ea58,두바이,주메이라 비치,Jumeirah Beach,25.1647,55.2072,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+dubai-review-c88f0443b0d2,두바이,복스 시네마 데이라 시티센터,VOX Deira City Centre,25.274335,55.347405,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+dubai-review-da4efa91fdc8,두바이,주메이라 모스크,Jumeirah Mosque,25.233972,55.265503,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+dubai-review-399054b7e63f,두바이,정글 베이 워터파크,Jungle Bay Waterpark,25.09295,55.14701,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+dubai-review-68857363e1b4,두바이,두바이 아웃렛몰,Dubai Outlet Mall,25.07318,55.39975,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+dubai-review-60258c7efc5a,두바이,마즐리스 고르팟 움 알 셰이프,Majlis Ghorfat Umm Al Sheif,25.18668,55.23077,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+dubai-review-7b119122d863,두바이,몰 오브 아라비아,Mall of Arabia,25.081451,55.323657,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+maldives-review-780238e9cacd,몰디브,푸시섬,Fushi island · Ukulhas Picnic island,4.2156,72.8835,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+maldives-review-5487a27a6317,몰디브,마푸시 비키니 비치,Maafushi Bikini Beach,3.9454668,73.4911727,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+maldives-review-c92bd60e6699,몰디브,다라반두 섬,Dharavandhoo Island,5.15833333,73.13055556,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+maldives-review-efa930904c60,몰디브,하니파루 베이 보호구역,Hanifaru Bay Marine Protected Area,5.1740371,73.1442046,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+maldives-review-cfd3abb199bd,몰디브,굴히 섬,Gulhi Island,3.98888889,73.50888889,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+maldives-review-c0411d945ff6,몰디브,토두 섬,Thoddoo Island,4.43694444,72.95944444,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+maldives-review-9cbc960fd274,몰디브,릴리 비치 리조트,Lily Beach Resort and Spa,3.6536801,72.9539703,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+maldives-review-546f19696adf,몰디브,마푸시 섬,Maafushi Island,3.94027778,73.48888889,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+maldives-review-9b01188b564f,몰디브,말레 금요 모스크,Friday Mosque · Hukuru Miskiy,4.178015,73.512375,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+maldives-review-5f3b9879b230,몰디브,가간두,Gaagandu,4.2331,72.8765,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+maldives-review-035dfef27193,몰디브,훌루말레 센트럴 파크,Hulhumale Central Park,4.2169686,73.5405287,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+maldives-review-c909c12a24e1,몰디브,마푸시 벨라나 비치,Velana Beach Maafushi,3.943329,73.4922169,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+maldives-review-617abc69c8f8,몰디브,바이오스피어 인 다라반두,Biosphere Inn Dharavandhoo,5.1568939,73.1312282,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+maldives-review-6a899241d5fc,몰디브,칼후 바카루 모스크,Kalhu Vakaru Miskiy,4.177784,73.510188,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+maldives-review-bd79fcf6d136,몰디브,후반두마 힝군 거리,Huvandhumaa Hingun,4.2161076,73.5433115,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+maldives-review-cc9b0c5280ed,몰디브,카니 그랜드 씨뷰,Kaani Grand Seaview,3.9449847,73.4911038,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+maldives-review-fcce176fa9d1,몰디브,말레 공화국 광장,Republic Square · Jumhooree Maidhaan,4.17914,73.511064,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+maldives-review-813fd63e9539,몰디브,말레 이슬람 센터,Islamic Centre · Masjid Al-Sultan Muhammad Thakurufaanu al-Auzam,4.178505,73.510513,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+maldives-review-b2d70a180d96,몰디브,토두 선셋 비치,Bikini Beach,4.4353,72.9545,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+maldives-review-fd44dd2c60e5,몰디브,술탄 공원·몰디브 국립박물관,Sultan Park and National Museum,4.17726,73.510162,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+maldives-review-6f9033896412,몰디브,메두 지야라이 묘역,Medhu Ziyaaraiy,4.177666,73.512501,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+maldives-review-8769ba986db9,몰디브,다루마반타 모스크,Dharumavantha Mosque,4.17739,73.511647,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+maldives-review-c4397f65f9d7,몰디브,커피 올레,Coffee Ole,4.2633,72.99172,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+maldives-review-eef5e97a9521,몰디브,팜 섀도,Palm Shadow,4.2637,72.9904,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+maldives-review-ebb03354c0e0,몰디브,틴 아리,Thin Ari,4.4399,72.9638,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+maldives-review-204ab7c3b35c,몰디브,코코넛 가든,Coconut Garden,4.26321,72.99299,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+maldives-review-cdea9c7d9d53,몰디브,날라 비스트로,Nala Bistro,4.21246,72.86569,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+maldives-review-123be57bcd88,몰디브,코코 메로,Coco Mero,4.4378,72.9605,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+maldives-review-d9354b94ba41,몰디브,아이코코,Icoco,4.26346,72.9914,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+maldives-review-d4cbd158c0fd,몰디브,포블라노,Poblano,4.21407,72.86595,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+maldives-review-b24ca6cb81fc,몰디브,선라이즈 코넷,Sunrise Cornet,4.4372,72.9602,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+maldives-review-12139fcde64b,몰디브,레몬 드롭,Lemon Drop,4.26444,72.9914,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+maldives-review-10ec7c4d6968,몰디브,셰프 누르,Chef Nur,4.21547,72.86407,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+maldives-review-45808412b4df,몰디브,민트 가든,Mint Garden,4.4375,72.9591,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+maldives-review-804b6637d6da,몰디브,테이스트,Taste,4.21221,72.86586,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+maldives-review-081d812abe23,몰디브,블랙 솔트,Black Salt,4.4373,72.9614,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+maldives-review-52882bbbc1b0,몰디브,에스티오 피플스 초이스 슈퍼마켓,STO People's Choice Supermart,4.179128,73.509489,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+maldives-review-2def4cc35dad,몰디브,남서쪽 항구 일대,South West Harbour Area,4.171975,73.503301,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+maldives-review-f8d2f232423f,몰디브,라스두 비키니 비치,Bikini beach,4.2606,72.9915,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+maldives-review-39a0bb401598,몰디브,라스두 피크닉 아일랜드,Picnic Island · Madivaru Island,4.2655,73.0003,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+maldives-review-8043965f3abd,몰디브,비치 블렌즈,Beach Blends,4.21383,72.86439,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+maldives-review-da2bdf2e1442,몰디브,제이드 비스트로,Jade Bistro,4.177965,73.515546,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+maldives-review-326288c7d42f,몰디브,진저,Ginger,4.21612,72.86235,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+maldives-review-a73c6d7f519c,몰디브,라스두 후다 모스크,Masjid Hudha,4.26307,72.99112,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+maldives-review-ffc9d8288a12,몰디브,푸드뱅크,FoodBank,4.176978,73.515055,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+maldives-review-420de242221c,몰디브,파이미니 카마나,Faiymini Kamana,4.2156,72.86396,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+maldives-review-9e3c406f6057,몰디브,브레이크워터,Breakwater,4.173828,73.518233,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+maldives-review-c010c8fc1a71,몰디브,시걸 카페,Seagull Café,4.177918,73.509911,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+tokyo-review-a3a4540c66ad,도쿄,하치코 동상,Hachikō · ハチ公,35.659048,139.700579,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+tokyo-review-90d6c70e1e86,도쿄,신주쿠 교엔,Shinjuku Gyoen National Garden · 新宿御苑,35.687258,139.713791,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+tokyo-review-f45327fa4942,도쿄,황거 히가시교엔,Imperial Palace East Garden,35.68703,139.75729,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+tokyo-review-a45369c140d6,도쿄,쓰키지 장외시장,Tsukiji Outer Market · 築地場外市場 Tsukiji jōgai shijō,35.661389,139.769722,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+tokyo-review-06cfc84fff67,도쿄,하마리큐 정원,Hama-rikyū Gardens · 浜離宮恩賜庭園,35.659955,139.762219,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+tokyo-review-9bc3e51d9cd3,도쿄,도쿄 타워,Tokyo Tower · 東京タワー Tōkyō Tawā,35.658611,139.745556,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+tokyo-review-a759547eabbc,도쿄,조조지,Zōjō-ji Temple · 増上寺,35.657479,139.748376,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+tokyo-review-5aadf4462382,도쿄,네즈 미술관,Nezu Museum,35.66216,139.717603,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+tokyo-review-c0b8a061d5c7,도쿄,팀랩 보더리스,"Mori Building Digital Art Museum: teamLab Borderless · 森ビル デジタルアート ミュージアム：エプソン チームラボボーダレス (チームラボボーダレス, 麻布台ヒルズ, 東京)",35.660882,139.740657,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+tokyo-review-4318d577a3dc,도쿄,국립신미술관,National Art Center · 国立新美術館,35.66528,139.72634,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+tokyo-review-c99cc24ca4bb,도쿄,모리 미술관,Mori Art Museum · 森美術館,35.660901,139.729424,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+tokyo-review-3633db0e05bd,도쿄,도쿄 시티뷰,Tokyo City View,35.660901,139.729424,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+tokyo-review-1d57af2089ad,도쿄,일본과학미래관,Miraikan · 日本科学未来館,35.61918,139.77662,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+tokyo-review-a43000ec81b8,도쿄,오다이바 해변공원,"Odaiba Marine Park · お台場海浜公園, Odaiba Kaihin Kōen",35.63084,139.77672,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+tokyo-review-adfa78e730d3,도쿄,레인보우 브리지,Rainbow Bridge,35.636389,139.763611,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+tokyo-review-aa85e6696341,도쿄,도쿄 장난감미술관,Tokyo Toy Museum · 東京おもちゃ美術館 Tokyo omocha bijutsukan,35.689646,139.718064,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+tokyo-review-e9bf9837956b,도쿄,긴자 블로섬,Ginza Blossom · 銀座ブロッサム,35.671199,139.771172,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+tokyo-review-1ad89942ca8b,도쿄,노기 저택·신사,Nogi's house and shrine · 乃木神社,35.66836,139.72787,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+tokyo-review-6ba0e6eeb463,도쿄,신바시 증기기관차 광장,Shinbashi Steam Locomotive Square · 新橋SL広場,35.667071,139.757591,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+tokyo-review-2f2d728a81c7,도쿄,도쿄 광고박물관,"Advertising Museum Tokyo · 広告とマーケティングの資料館, kōkoku to māketingu no shiryōkan",35.66469,139.76217,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+tokyo-review-6af4eecbbacf,도쿄,도쿄 국제포럼,"Tokyo International Forum · 東京国際フォーラム, Tōkyō Kokusai Fōramu",35.676925,139.7642,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+tokyo-review-3294637baa6c,도쿄,도쿄 미드타운,Tokyo Midtown,35.665833,139.731111,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+tokyo-review-8e1e6e4bd613,도쿄,가라스모리 신사,Karasumori Shrine · 烏森神社,35.666683,139.756748,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+tokyo-review-29bc8a66c926,도쿄,옛 신바시 정거장,"Old Shinbashi Railway Station · 旧新橋停車場, Kyū-shinbashi Teishajō",35.6658,139.7614,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+tokyo-review-9ca10e4dfc23,도쿄,마치 에큐트 간다 만세이바시,mAAch ecute Kanda Manseibashi · マーチエキュート神田万世橋,35.6972,139.7703,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+tokyo-review-06f264a9b920,도쿄,쓰키지 혼간지,Tsukiji Hongwanji · 築地本願寺,35.666472,139.772317,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+tokyo-review-8ae79d65d27b,도쿄,21·21 디자인 사이트,21_21 Design Sight,35.6675,139.73027,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+tokyo-review-1f1fae01955c,도쿄,시오가마 신사,Shiogama Shrine,35.66302,139.754892,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+tokyo-review-49114b953ec2,도쿄,후지 텔레비전 사옥,Fuji TV Building,35.62668,139.77418,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+tokyo-review-25afb49b9f0b,도쿄,파나소닉 시오도메 미술관,Panasonic Shiodome Museum of Art · パナソニック汐留美術館,35.66582,139.76195,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+tokyo-review-e59901e7d169,도쿄,시부야 센터가이,Center Gai · センター街 Sentaa-gai,35.659835,139.700104,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+tokyo-review-523262bcd08d,도쿄,도쿄 소방박물관,Fire Museum · 消防博物館,35.68836,139.7202,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+tokyo-review-fb1a5df5620e,도쿄,일본 국회의사당,National Diet Building · 国会議事堂,35.676107,139.744587,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+tokyo-review-03385fa41154,도쿄,니혼바시 다리,Nihonbashi Bridge · 日本橋,35.683696,139.774394,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+tokyo-review-0e6a34fdff06,도쿄,후지필름 스퀘어,Fujifilm Square,35.665401,139.730268,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+tokyo-review-a3563e13a0ef,도쿄,롯폰기 교차로,Roppongi Crossing,35.6633,139.7323,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+tokyo-review-5dbbcfff1e2d,도쿄,오다이바 대형 건담상,Giant Gundam robot,35.6244,139.77543,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+tokyo-review-7782aa3404b3,도쿄,덴쓰 시키극장 우미,"Dentsu Shiki Theater Umi · 電通四季劇場 [海], Dentsū shiki gekijō Umi",35.665028,139.762333,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+tokyo-review-bcbc453fd951,도쿄,모야이 동상,Moyai statues · モヤイ像,35.65731,139.69993,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+tokyo-review-99da82ca9ae5,도쿄,하나조노 신사,Hanazono Shrine · 花園神社,35.693553,139.705184,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+tokyo-review-f86e5cc590f5,도쿄,황거,Imperial Palace · 皇居 Kōkyo,35.6825,139.7521,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+tokyo-review-dac03d2000e1,도쿄,도쿄 증권거래소,Tokyo Stock Exchange · 東京証券取引所 Tokyo shoken torihikijo,35.682667,139.778808,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+tokyo-review-ed196b1e6215,도쿄,산토리 미술관,Suntory Museum of Art,35.666389,139.730278,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+tokyo-review-f0d1e3673f9f,도쿄,스미토모 컬렉션,"Sumitomo Collection · 泉屋博古館, Sen-oku Hakuko kan",35.665058,139.741072,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+tokyo-review-28bf025cc346,도쿄,오다이바 자유의 여신상,Odaiba Statue of Liberty,35.627841,139.771825,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+tokyo-review-73907273e462,도쿄,시부야 히카리에,Hikarie · 渋谷ヒカリエ,35.658846,139.703049,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+tokyo-review-e87e437bc405,도쿄,신주쿠 서던테라스,Shinjuku Southern Terrace · 新宿サザンテラス,35.686778,139.700694,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+tokyo-review-d7aaf7f3d7d1,도쿄,기타노마루 공원,"Kitanomaru Park · 北の丸公園, kita-no-maru kōen",35.691528,139.751059,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+osaka-review-b0660bf9b758,오사카,쓰텐카쿠,Tsūtenkaku · 通天閣,34.652222,135.506111,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+osaka-review-ce04090fee74,오사카,일본 민가 취락박물관,Open Air Museum of Old Farmhouses · 日本民家集落博物館 (nihon minka shūraku hakubutsukan),34.779167,135.488194,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+osaka-review-9264d09dfcc7,오사카,스미요시 타이샤,Sumiyoshi Grand Shrine · 住吉大社,34.612797,135.492942,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+osaka-review-b1c4146a2335,오사카,덴포잔 하버빌리지,Tempozan Harbor Village · 天保山ハーバービレッジ,34.655841,135.430235,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+osaka-review-a7d235646b8e,오사카,구마타 신사,Kumata Shrine · 杭全神社,34.628944,135.554944,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+osaka-review-7e5bbdf9692c,오사카,오사카 시립과학관,Osaka Science Museum · 大阪市立科学館,34.69124,135.49152,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+osaka-review-6c26a8388777,오사카,가미가타 우키요에관,Kamigata Ukiyoe Museum,34.667977,135.5022,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+osaka-review-a5288887f42e,오사카,시텐노지,Shitennōji Temple · 四天王寺,34.6539,135.51645,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+osaka-review-c96670713187,오사카,오사카 역사박물관,Osaka Museum of History · 大阪歴史博物館,34.682722,135.520806,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+osaka-review-a662f143191a,오사카,가이유칸,Osaka Aquarium Kaiyukan · 海遊館,34.654472,135.428889,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+osaka-review-7286c3c15094,오사카,센코지,Senkō-ji Temple · 全興寺,34.6234,135.5553,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+osaka-review-2378c205e94c,오사카,오사카 조폐박물관,Japan Mint and Mint Museum · 造幣局,34.696833,135.521194,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+osaka-review-90bb9ca54308,오사카,아베노 하루카스,Abeno Harukas Tower,34.645947,135.514267,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+osaka-review-9321449f0489,오사카,피스 오사카 평화박물관,Peace Osaka · 大阪国際平和センター,34.681667,135.53,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+osaka-review-3a2aec26f2ba,오사카,덴포잔 대관람차,Tempozan Ferris Wheel · 天保山大観覧車,34.656166,135.431031,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+osaka-review-08de55823f7b,오사카,다이넨부쓰지,Dainenbutsu-ji Temple · 大念佛寺,34.62725,135.550497,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+osaka-review-33e85c9b87f5,오사카,오사카 텐만구,Osaka Tenmangū Shrine · 大阪天満宮,34.697423,135.51301,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+osaka-review-71281cae7993,오사카,덴노지 동물원,Tennoji Zoo · 天王寺動物園,34.6526,135.508,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+osaka-review-f2a95d63eb60,오사카,오사카 시립미술관,Osaka City Museum of Fine Arts · 大阪市立美術館,34.650111,135.510528,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+osaka-review-4e29bd7a0d28,오사카,국립 분라쿠 극장,National Bunraku Theater,34.66751,135.508696,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+osaka-review-4bcf6361338f,오사카,알오알 코미디,ROR Comedy,34.6692777,135.4972095,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+osaka-review-ba6eb2a2d494,오사카,히라노 옛 거리,Hirano Old City · 平野旧市街,34.623698,135.554877,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+osaka-review-1dd74b62eb45,오사카,오사카 시키극장,Osaka Shiki Musical Theater · 大阪四季劇場,34.6997,135.49452,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+osaka-review-58411af3d281,오사카,실버볼 플래닛,The Silver Ball Planet · ザ・シルバーボールプラネット,34.672533,135.498638,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+osaka-review-f24755b66f13,오사카,기레 환호 취락,Kire Moated Settlement · 喜連環濠集落,34.61258,135.55417,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+osaka-review-aa829f856652,오사카,제프 난바,Zepp Namba,34.65742,135.50134,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+osaka-review-2907582a9780,오사카,스파월드,Spa World,34.64996,135.50562,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+osaka-review-168ded87b882,오사카,일본도 박물관,Katana Museum · かたなの博物館,34.625123,135.554447,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+osaka-review-b62dacb478ba,오사카,빌보드 라이브 오사카,Billboard Live Osaka · ビルボードライブ大阪,34.7056,135.5012,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+osaka-review-14d4434d093c,오사카,오사카 시립 덴노지 스포츠센터,Osaka Municipal Tennoji Sports Center · 大阪市立天王寺スポーツセンター,34.67087,135.52851,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+osaka-review-12d45478b914,오사카,목화 마을 박물관,Cotton City Museum · 綿とくらし博物館,34.622521,135.557272,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+osaka-review-2ee7e4f01b93,오사카,구로몬 시장,Kuromon Ichiba Market · 黒門市場,34.6653277,135.5069795,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+osaka-review-1cc764ea50b9,오사카,조테라스 오사카,Jo-Terrace,34.6887,135.5329,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+osaka-review-e0e35470a0cb,오사카,신사이바시,Shinsaibashi · 心斎橋,34.6725,135.5,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+osaka-review-47c70650e824,오사카,아베노 큐즈몰,Abeno Q's Mall · Abeno Cues Town,34.644972,135.511583,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+osaka-review-1850b76a628a,오사카,히라노 혼마치도리 상점가,Hirano Hommachi Dōri Shopping Arcade · 平野本町通商店街,34.623945,135.552017,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+osaka-review-810895971d65,오사카,아메리카무라,Amerikamura · アメリカ村,34.672086,135.49796,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+osaka-review-d96f9c9d7f59,오사카,닛폰바시 덴덴타운,Nipponbashi Den-Den Town · 日本橋でんでんタウン,34.65972222,135.50583333,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+osaka-review-1d1ace759027,오사카,하나다코,Hanadako · はなだこ,34.703155,135.497984,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+osaka-review-706eb6515ab3,오사카,엔도 스시,Endo Sushi · ゑんどう寿司,34.684195,135.479544,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+osaka-review-3c43100c0de0,오사카,잔잔요코초 거리,Jan-Jan Yokocho Street,34.649243,135.50588,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+osaka-review-506442da550e,오사카,간코 히라노고 저택,Ganko Hirano-gō Yashiki · がんこ平野郷屋敷,34.626444,135.566167,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+osaka-review-53e6a672351d,오사카,아지노야,Ajinoya,34.668,135.5009,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+osaka-review-31e6270c098c,오사카,쿠시카츠 다루마 신세카이 본점,Kushikatsu Daruma Shinsekai Main Shop · 串かつだるま 新世界総本家,34.651579,135.506201,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+osaka-review-272e3770a2f1,오사카,멜버른 커피,Melbourne Coffee,34.677737,135.502084,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+osaka-review-a8ce5cc258c2,오사카,이온 기레우리와리점,AEON Kire-Uriwari · イオン喜連瓜破,34.608167,135.551917,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+osaka-review-bb6ecadc7926,오사카,루푸,Lupu,34.7044,135.503379,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+yokohama-review-040c8c2ae64e,요코하마,요코하마 코스모월드,Yokohama Cosmo World,35.455203,139.636681,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+yokohama-review-563f511596a3,요코하마,요코하마 아카렌가 창고,"Yokohama Red Brick Warehouse ""Aka Renga Souko"" · 横浜赤レンガ倉庫",35.452546,139.642468,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+yokohama-review-f6e5358087f5,요코하마,컵누들 뮤지엄 요코하마,Cup Noodles Museum Yokohama,35.455459,139.638529,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+yokohama-review-0a6982dc509e,요코하마,산케이엔,Sankei-en Park,35.41695,139.660042,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+yokohama-review-258fa4853c59,요코하마,오산바시 부두,Ōsanbashi Pier · 大さん橋,35.4517,139.648,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+yokohama-review-f998dfd3c322,요코하마,쓰루가오카 하치만구,Tsurugaoka Hachimangū Shrine · 鶴岡八幡宮,35.32605,139.556472,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+yokohama-review-1b18ef5a0935,요코하마,고토쿠인·가마쿠라 대불,Kōtokuin · 高徳院,35.316837,139.535733,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+yokohama-review-8acf1732c325,요코하마,가마쿠라 하세데라,Hasedera · 長谷寺,35.312985,139.533931,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+yokohama-review-0ff8da5bb751,요코하마,묘혼지,Myohonji Temple · 妙本寺,35.317563,139.55593,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+yokohama-review-55b9a372dc6a,요코하마,제니아라이 벤텐 신사,Zeniarai Benten Shrine · 銭洗い弁天,35.32575,139.542248,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+yokohama-review-1c3285434645,요코하마,가마쿠라코코마에역,Kamakurakōkōmae Station · 鎌倉高校前駅,35.306667,139.500556,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+yokohama-review-e1ed7eaa0a8b,요코하마,가마쿠라 역사문화교류관,Kamakura Museum of History and Culture · 鎌倉歴史文化交流館,35.322375,139.547653,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+yokohama-review-4f15aef30b25,요코하마,겐초지,Kenchōji · 建長寺,35.331789,139.555347,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+yokohama-review-2ae62d3dcbc1,요코하마,요코하마 마린타워,Marine Tower,35.44393,139.6509,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+yokohama-review-1fbd54f27a3d,요코하마,엔가쿠지,Engakuji · 円覚寺,35.337704,139.547498,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+yokohama-review-37b6ce32c549,요코하마,히카와마루,Hikawa Maru · 氷川丸,35.446682,139.651252,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+yokohama-review-9783ed4a6e9a,요코하마,도케이지,Tōkeiji,35.335244,139.545636,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+yokohama-review-0870e7f21066,요코하마,요코하마 랜드마크 타워,Landmark Tower,35.454722,139.631667,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+yokohama-review-c8423da957d2,요코하마,메이게쓰인,Meigetsuin · 明月院,35.334856,139.551386,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+yokohama-review-9ddcf5517051,요코하마,게이오대학교 히요시 캠퍼스,"Keiō University - Hiyoshi Campus · 慶應義塾大学, Keiō Gijuku Daigaku",35.55414,139.64818,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+yokohama-review-4be34c1f3c77,요코하마,조묘지,Jōmyōji · 浄妙寺,35.322839,139.571297,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+yokohama-review-74cadf530470,요코하마,요코하마 베이브리지,Yokohama Bay Bridge · 横浜ベイブリッジ,35.454378,139.673907,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+yokohama-review-7fca2f305550,요코하마,스기모토데라,Sugimotodera · 杉本寺,35.322617,139.567447,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+yokohama-review-97fce6b457a2,요코하마,요코하마 개항기념회관,Yokohama Port Opening Memorial Hall · 横浜市開港記念会館,35.447648,139.641359,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+yokohama-review-21a8f8aa1370,요코하마,호코쿠지,Hōkokuji · 報国寺,35.32,139.5693,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+yokohama-review-74171e79661d,요코하마,야마테 서양관 거리,Yamate · 山手,35.4381994,139.6535468,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+yokohama-review-b62ddb924259,요코하마,옛 가초노미야 저택,Former Residence of Marquis Kachō Hironobu · 旧華頂宮邸,35.318112,139.569805,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+yokohama-review-98a7023df4a8,요코하마,요코하마 역사박물관,Yokohama History Museum · 横浜市歴史博物館,35.5502,139.578,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+yokohama-review-b19b419b463b,요코하마,호빵맨 어린이박물관,Anpanman Children's Museum,35.463235,139.62886,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+yokohama-review-20a7b3471a09,요코하마,일본 말 박물관,Equine Museum of Japan · 馬の博物館,35.42267,139.639624,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+yokohama-review-6977183db05b,요코하마,가나가와 근대문학관,Kanagawa Museum of Modern Literature · 神奈川近代文学館,35.438639,139.656083,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+yokohama-review-eabc87502db1,요코하마,기시네 공원,Kishine Park · 岸根公園,35.493797,139.615525,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+yokohama-review-205ba03d7b32,요코하마,유이가하마 해변,Yuigahama · 由比ヶ浜,35.309259,139.542257,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+yokohama-review-e63788813bac,요코하마,가모이케 공원,Kamoike Park · 鴨池公園,35.54402,139.56203,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+yokohama-review-149261f690e8,요코하마,이나무라가사키,Inamuragasaki · 稲村ヶ崎,35.301988,139.525611,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+yokohama-review-88c498302cb9,요코하마,노구치 히데요 기념공원,Hideyo Noguchi Memorial Park · 野口記念公園,35.357306,139.6365,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+yokohama-review-abbda79c0dd9,요코하마,시치리가하마 해변,Shichirigahama · 七里ヶ浜,35.304067,139.514201,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+yokohama-review-c601667fb879,요코하마,기쿠나 사쿠라야마 공원,Kikuna Sakurayama Park · 菊名桜山公園,35.506153,139.636214,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+yokohama-review-814ff2f70834,요코하마,네기시 삼림공원,Negishi Forest Park · 根岸森林公園,35.424104,139.638576,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+yokohama-review-66df45a6a331,요코하마,히요시 공원,Hiyoshi Park · 日吉公園,35.558984,139.647348,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+yokohama-review-fac6043d7d90,요코하마,가라스야마강,River Karasuyama · 烏山川,35.651793,139.678947,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+yokohama-review-48adf3fb5252,요코하마,모로오카 구마노 신사,Moro-oka Kumano Shrine · 師岡熊野神社,35.524167,139.635556,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+yokohama-review-ce23dd6f8efb,요코하마,쇼묘지,Shōmyō Temple · 称名寺,35.344181,139.630392,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+yokohama-review-e15ee36abc54,요코하마,소지지,Soujiji · 總持寺,35.507778,139.670833,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+yokohama-review-bb54a70dc6a0,요코하마,가모이 스기야마 신사,Kamoi Sugiyama Shrine · 杉山神社,35.507984,139.566578,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+yokohama-review-efb887ef9e0d,요코하마,기쿠나 신사,Kikuna Shrine · 菊名神社,35.511996,139.632614,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+yokohama-review-7aadd259580d,요코하마,요코하마 스타디움,Yokohama Stadium,35.443428,139.6401,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+nagoya-review-97fb403a3466,나고야,이누야마성,Inuyama Castle · 犬山城 Inuyamajō,35.3883,136.9393,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+nagoya-review-8a3e457eb555,나고야,멘타이 파크 도코나메,Mentai Park Tokoname · めんたいパークとこなめ,34.890361,136.826087,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+nagoya-review-50dd3b74c667,나고야,지브리 파크,Ghibli Park · ジブリパーク,35.1726,137.089,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+nagoya-review-425453cbd16f,나고야,박물관 메이지무라,Meiji Mura Museum · 明治村,35.340598,136.98873,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+nagoya-review-6dfee2547e8d,나고야,린쿠 해변,Rinku Beach · りんくうビーチ,34.885929,136.822824,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+nagoya-review-df7b506c9769,나고야,도요타 박물관,Toyota Automobile Museum · トヨタ博物館 Toyota Hakubutsukan,35.1727,137.058,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+nagoya-review-49165d5e1af9,나고야,우라쿠엔 정원,Urakuen · 有楽苑,35.387899,136.942245,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+nagoya-review-e10d1ac4135c,나고야,오노 해변,Ōno beach · 大野海水浴場,34.938333,136.825,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+nagoya-review-7ca6d597ccd7,나고야,나고야항 수족관,Port of Nagoya Aquarium · 名古屋港水族館 Nagoya-kō-suizoukan,35.0906,136.8782,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+nagoya-review-6eef2e8d47d1,나고야,가라쿠리 인형박물관,Karakuri Museum · からくりミュージアム,35.385894,136.939843,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+nagoya-review-3b51b7cfa06c,나고야,도코냥,Tokonyan · とこにゃん,34.890057,136.838251,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+nagoya-review-a05ea12c07b0,나고야,도요타 산업기술기념관,Toyota Commemorative Museum of Industry and Technology · トヨタ産業技術記念館 Toyota-sangyō-gijutsu-kinenkan,35.1832,136.876,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+nagoya-review-d26b946dc273,나고야,나고야 시립미술관,Nagoya City Art Museum · 名古屋市美術館 Nagoya-shi-bijutsukan,35.163889,136.901111,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+nagoya-review-ea0e9b513c37,나고야,시로토리 정원,"Shirotori Garden · 白鳥庭園, Shirotori Teien",35.125878,136.900898,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+nagoya-review-6aba8ef8b997,나고야,닛타이지,"Nittai-ji Temple · 覚王山日泰寺, kakuōzan nittai-ji",35.171667,136.955278,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+nagoya-review-6864fbaf8d1a,나고야,시라카와 공원,"Shirakawa Park · 白川公園, shirakawa-kōen",35.163992,136.900022,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+nagoya-review-ee1274401866,나고야,도쿠가와 미술관,Tokugawa Art Museum · 徳川美術館,35.183692,136.933189,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+nagoya-review-0f9d98a244bc,나고야,고쇼지,Kōshō-ji Temple · 興正寺,35.140556,136.9625,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+nagoya-review-96c928c5b629,나고야,시로야마 하쿠산 신사,"Shiroyama Hakusan Shrine · 城山八幡宮, shiroyama hachiman-gū",35.1675,136.959722,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+nagoya-review-0e5aa9531381,나고야,도간지,Tōgan-ji Temple · 桃巌寺,35.1613,136.965,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+nagoya-review-90c23f0ca4bf,나고야,나고야시 과학관,"Nagoya City Science Museum · 名古屋市科学館, Nagoya-shi Kagakukan",35.164772,136.899667,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+nagoya-review-e59ec11f35da,나고야,리니어·철도관,SCMAGLEV and Railway Park · リニア・鉄道館 Rinia-Tetsudōkan,35.04735,136.849319,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+nagoya-review-c9e60149a6d1,나고야,오쿠라모치,Okuramochi · 大蔵餅,34.894719,136.833128,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+nagoya-review-2a6c2d0a5b6c,나고야,아라코 관음사,Arako Kannon Temple · 荒子観音,35.136569,136.858225,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+nagoya-review-3df572f17106,나고야,이온몰 나가쿠테,AEON MALL Nagakute · イオンモール長久手,35.173472,137.050778,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+nagoya-review-46f9783cd558,나고야,오스 관음사,Ōsu Kannon Temple · 大須観音,35.1598,136.9,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+nagoya-review-34372bd2cc48,나고야,후지가오카,Fujigaoka,35.1822,137.022,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+nagoya-review-dd32f13f518d,나고야,단푸산 고분,Danpusan Kofun · 断夫山古墳,35.1308571,136.9032932,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+nagoya-review-44ca6fcbf80d,나고야,이온몰 도코나메,Aeon Mall Tokoname · イオンモール常滑,34.882996,136.826286,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+nagoya-review-62b4d2479d7c,나고야,주부전력 미라이 타워,Nagoya TV Tower · 名古屋テレビ塔 Nagoya-terebi-tō,35.1724,136.908,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+nagoya-review-2833c3bbd444,나고야,코스트코 주부공항점,Costco Wholesale Chubu Airport Warehouse · コストコホールセール 中部空港 倉庫店,34.890133,136.826367,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+nagoya-review-135538c9e28a,나고야,히사야오도리 공원,"Hisaya-Odori Park · 久屋大通公園, hisaya-ōdōri kōen",35.168708,136.908383,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+nagoya-review-1949cefca655,나고야,아이치현 미술관,Aichi Prefectural Museum of Art · 愛知県美術館 Aichi-ken-bijutsukan,35.17115,136.911308,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+nagoya-review-8bdd41779d56,나고야,마루젠 서점,Maruzen · 丸善,35.1672,136.90564,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+nagoya-review-d42c1437613f,나고야,산세이도 서점,Sanseido Books,35.17216,136.88287,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+nagoya-review-cfe3da179ab2,나고야,미들랜드 스퀘어 시네마,Midland Square Cinemas · ミッドランドスクエア・シネマ,35.16988,136.8852,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+nagoya-review-30d540884687,나고야,109 시네마 나고야,109 Cinemas Nagoya,35.16264,136.8848,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+nagoya-review-2a4d5969d702,나고야,카페 드 메트로,Café de Metro,35.14414,136.90134,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+nagoya-review-0d3db56c6081,나고야,제리스 우노,Jerry's UNO,35.15832,136.90445,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+nagoya-review-d472fe9e41a8,나고야,야바톤,Yabaton,35.161677,136.906247,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+nagoya-review-d76deb6a9d66,나고야,데스페라도스,Desperados · デスペラードス,35.16838,136.91833,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+nagoya-review-01a7b8e71a4a,나고야,안티카 로마,Antica Roma,35.17448,136.92212,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+nagoya-review-4ce5149dc33d,나고야,가든 레스토랑 도쿠가와엔,Garden Restaurant Tokugawa-en · ガーデンレストラン徳川園,35.18431,136.93216,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+nagoya-review-0074d3660c38,나고야,더 록 오지 스포츠 바 앤 그릴,The Rock Aussie Sports Bar & Grill · ザ・ロック オージースポーツバー&グリル,35.1677,136.91014,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+nagoya-review-f1db474f7565,나고야,매버릭,Maverick,35.17058,136.90521,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+nagoya-review-52fa5c857cf0,나고야,스텝스,STEPS,35.1677,136.9037,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+nagoya-review-ac9c09997aa5,나고야,재즈 인 러블리,Jazz Inn Lovely,35.17261,136.91014,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sapporo-review-56228a68e4e4,삿포로,오타루 운하,Otaru Canal · 小樽運河,43.198004,141.003047,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sapporo-review-60dbdab4fca0,삿포로,치토세 평화탑,Peace Pagoda,43.030385,141.330728,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sapporo-review-597158274130,삿포로,오타루 오르골당,Otaru Music Box Museum · 小樽オルゴール堂,43.19068,141.00766,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sapporo-review-1bcbdd7d039f,삿포로,오타루 증기시계,Steam Clock · 蒸気時計 jōgi tokei,43.1909,141.00741,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sapporo-review-2d40c676eec5,삿포로,시로이 코이비토 파크,Shiroi Koibito Park · 白い恋人パーク,43.08883,141.27132,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sapporo-review-48c378f81c09,삿포로,오타루 덴구야마,Mount Tengu · 天狗山,43.168409,140.969814,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sapporo-review-7655df2da794,삿포로,삿포로 맥주박물관,Sapporo Beer Museum · サッポロビール博物館 Sapporo Biru Hakubutsukan,43.071666,141.368836,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sapporo-review-b1b5a980d18f,삿포로,오타루 시립박물관,Otaru City Museum,43.211153,141.001019,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sapporo-review-7b09b6096cc5,삿포로,홋카이도 개척촌,Hokkaido Pioneer Village · 開拓の村,43.048278,141.497056,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sapporo-review-dc6ca4c889c3,삿포로,오타루 스테인드글라스 미술관,Stained Glass Museum,43.198103,141.002253,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sapporo-review-abc4bcc667b3,삿포로,모이와산,Moiwayama · 藻岩山,43.022139,141.322111,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sapporo-review-12f296fdd49a,삿포로,일본은행 오타루 금융자료관,The Bank of Japan Otaru Museum · 日本銀行旧小樽支店,43.19641,141.00038,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sapporo-review-181e1840dbef,삿포로,아사히야마 공원,Asahiyama Park · 旭山記念公園 Asahiyama Kinen Kōen,43.039667,141.315028,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sapporo-review-dc3887920113,삿포로,홋카이도 신궁,Hokkaido Shrine · 北海道神宮 Hokkaidō Jingū,43.054235,141.307705,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sapporo-review-6f1fb60219bc,삿포로,조잔케이,Jōzankei · 定山渓,42.915833,141.153611,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sapporo-review-e1f33a5c223d,삿포로,제이알 타워,JR Tower · JRタワー,43.06813,141.352528,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sapporo-review-1fab36e53e0d,삿포로,홋카이도립 근대미술관,Hokkaido Museum of Modern Art · 北海道立近代美術館,43.060062,141.330378,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sapporo-review-2d92903a389a,삿포로,유키지루시 유업 역사관,Snow Brand Milk Products Historical Museum,43.07195,141.38492,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sapporo-review-3751bc864063,삿포로,삿포로 예술의 숲,"Sapporo Art Park · 札幌芸術の森, sapporo geijutsu no mori",42.940166,141.340849,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sapporo-review-ea77f4d1d55d,삿포로,모에레누마 공원,"Moerenuma Park · モエレ沼公園, Moerenuma Kōen",43.124,141.43,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sapporo-review-14488690fdce,삿포로,홋카이도대학교 식물원,Hokkaido University Botanic Garden · 北海道大学植物園 Hokkaido Daigaku Shokubutsuen,43.063667,141.342472,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sapporo-review-0eab69e8ee77,삿포로,기타이치 글라스,Kitaichi Glass · 北一硝子 Kitaichi Garasu,43.192226,141.007394,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sapporo-review-80365c46346a,삿포로,홋카이도청 구 본청사,Former Hokkaido Prefectural Government Building · 北海道府旧本府舎,43.06431,141.34683,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sapporo-review-49d6c207d864,삿포로,홋카이도 박물관,Hokkaido Museum,43.053,141.496611,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sapporo-review-489e10ffdfb4,삿포로,홋카이도 대학,Hokkaido University,43.074722,141.340833,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sapporo-review-07d102ead010,삿포로,기타이치 홀,Kitaichi Hall,43.192156,141.007212,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sapporo-review-b4b80ef307c1,삿포로,호헤이칸,Hōheikan,43.046274,141.352584,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sapporo-review-0e6f6cf6cab0,삿포로,와라쿠 회전초밥,Waraku Kaiten Sushi · 回転寿し 和楽,43.196339,141.005073,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sapporo-review-40d1876cd6a0,삿포로,삿포로 자료관,Sapporo Shiryokan,43.058556,141.337417,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sapporo-review-a37cd42c209e,삿포로,톳피 회전초밥,Toppii Sushi · とっぴー,43.1958,141.0075,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sapporo-review-0b4ac09ab673,삿포로,삿포로 후시미 이나리 신사,Sapporo Fushimi Inari Shrine,43.034917,141.325333,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sapporo-review-fdb249de0cb0,삿포로,르타오,LeTAO · ルタオ,43.19131,141.007433,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sapporo-review-f90535d7eb70,삿포로,나카지마 공원,Nakajima Park,43.047346,141.354378,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sapporo-review-a4f141f2cdde,삿포로,안디아모,Andiamo · アンディアモ,43.196207,140.99624,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sapporo-review-2ef35116b312,삿포로,삿포로 팩토리·옛 개척사 맥주양조장,Sapporo Factory / former Kaitakushi Brewery,43.065556,141.363333,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sapporo-review-a5dce9d028a7,삿포로,삿포로 아이누 문화교류센터,Sapporo Ainu Culture Promotion Center,42.968977,141.219827,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sapporo-review-4fdea41a4388,삿포로,데이네산,Mt. Teine · 手稲山 Teineyama,43.0767,141.19263,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sapporo-review-4ef88b16d995,삿포로,호헤이쿄 온천,Hoheikyo Onsen · 豊平峡温泉,42.94958,141.15597,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sapporo-review-273aa4dab417,삿포로,니조 시장,Nijō Ichiba · 二条市場,43.058306,141.358472,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sapporo-review-443001d97449,삿포로,아지노 도케이다이,Aji No Tokeidai · 味の時計台,43.10586,141.33326,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sapporo-review-f9cad5caf6dd,삿포로,라멘 요코초,Ramen Yokochō · ラーメン横丁,43.05466,141.35434,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sapporo-review-ee17f72fe9f7,삿포로,삿포로 비어가든,Sapporo Beer Garden,43.07133,141.36907,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sapporo-review-d520ea1187c6,삿포로,로만테이,Romantei,43.01647,141.36822,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sapporo-review-d1d7adc8d47d,삿포로,카페 피톤,Cafe Phyton,43.058747,141.358498,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sapporo-review-46abc96cbad5,삿포로,수프카레 가라쿠,Soup Curry Garaku,43.0581,141.355,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sapporo-review-989bc7a33942,삿포로,야키니쿠 다이닝 메구미 미나미하치조점,Yakiniku Dining MEGUMI Minamihachijoten,43.051128,141.354636,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sapporo-review-e7daa65c61f2,삿포로,폴스 카페,Paul's Cafe,43.06682,141.34828,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+fukuoka-review-7c691bbfc87d,후쿠오카,다자이후 텐만구,Dazaifu Tenmangu Shrine · 太宰府天満宮,33.520918,130.53472,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+fukuoka-review-62545a9d3b3c,후쿠오카,규슈 국립박물관,Kyushu National Museum · 九州国立博物館,33.518214,130.538455,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+fukuoka-review-2a612b76d37a,후쿠오카,나카스,Nakasu,33.593249,130.405667,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+fukuoka-review-e93ed741f863,후쿠오카,기온,Gion,33.593807,130.413587,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+fukuoka-review-6e06e038f245,후쿠오카,도초지,Tōchō-ji,33.595,130.414167,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+fukuoka-review-fdbdfe8afeac,후쿠오카,쇼후쿠지,Shōfuku-ji,33.597454,130.414458,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+fukuoka-review-883af8ccd617,후쿠오카,아크로스 옥상정원,ACROS rooftop garden,33.591595,130.402349,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+fukuoka-review-8249290872e6,후쿠오카,후쿠오카 타워,Fukuoka Tower · 福岡タワー,33.59325,130.351472,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+fukuoka-review-be6e41d9108f,후쿠오카,아타고 신사,Atago Shrine · 愛宕神社,33.58554,130.334851,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+fukuoka-review-77b91c6de319,후쿠오카,하카타 포트타워,Hakata Port Tower,33.604444,130.397778,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+fukuoka-review-f106c7336fe4,후쿠오카,오호리 공원 일본정원,Ohori Park Japanese Garden · 大濠公園日本庭園,33.58303,130.378745,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+fukuoka-review-52cd4e0c30d7,후쿠오카,마이즈루 공원,Maizuru Park · 舞鶴公園,33.586366,130.385192,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+fukuoka-review-72350575eabf,후쿠오카,후쿠오카성 터,Fukuoka Castle ruins,33.584381,130.383103,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+fukuoka-review-b80aae8094ea,후쿠오카,니시 공원,Nishi Park · 西公園,33.598374,130.374915,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+fukuoka-review-505b01370725,후쿠오카,게고 공원,Kego Koen,33.5884,130.3991,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+fukuoka-review-bfb3f156eb3e,후쿠오카,후쿠오카시 박물관,Fukuoka City Museum · 福岡市博物館,33.589804,130.353093,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+fukuoka-review-b0bbf29a37ab,후쿠오카,하카타 마치야 민속관,Machiya Folk Museum · 博多町屋ふるさと館,33.59378,130.41162,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+fukuoka-review-2927acb1c037,후쿠오카,후쿠오카 아시아미술관,Asian Art Museum,33.595,130.4058,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+fukuoka-review-fb6cad49a1e5,후쿠오카,후쿠오카시 미술관,Fukuoka Art Museum,33.583889,130.379806,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+fukuoka-review-d451ff954e41,후쿠오카,베이사이드 플레이스 하카타 부두,Bayside Place Hakata Pier,33.6041,130.3988,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+fukuoka-review-64e20739ff8a,후쿠오카,후쿠오카시 과학관,Fukuoka City Science Museum · 福岡市科学館,33.592569,130.35252,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+fukuoka-review-6723a754c607,후쿠오카,이치란 라멘박물관,Ichiran Ramen Museum · Ichiran no Mori,33.5931,130.2022,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+fukuoka-review-530980286e42,후쿠오카,마린월드 우미노나카미치,Marine World Uminonakamichi · マリンワールド海の中道,33.660922,130.363477,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+fukuoka-review-19c354a87040,후쿠오카,이타즈케 유적 야요이관,Itazuke Ruins Yayoi-kan Museum · 板付遺跡・板付遺跡弥生館,33.565472,130.452806,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+fukuoka-review-19e12add235f,후쿠오카,하카타 가부키극장,Kabuki theatre · Hakata-za,33.595703,130.406477,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+fukuoka-review-3221922a2c81,후쿠오카,후쿠오카 노가쿠당,Noh theatre,33.5896,130.3742,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+fukuoka-review-21faa7978443,후쿠오카,모모치 해변,Momochihama,33.595389,130.352845,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+fukuoka-review-15218f8266f0,후쿠오카,노코노시마,Nokonoshima · 能古島,33.620983,130.30356,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+fukuoka-review-0e67fb3ee7ea,후쿠오카,니시도리,Nishidori,33.58881,130.39635,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+fukuoka-review-57e1c9f39abf,후쿠오카,캐널시티 하카타,Canal City,33.591111,130.410556,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+fukuoka-review-7a964255b354,후쿠오카,나카스 가와바타 상점가,Nakasu Kawabata shopping arcade,33.59367,130.4082,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+fukuoka-review-85f9cc19f73c,후쿠오카,하카타 시티,Hakata City,33.59,130.4198,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+fukuoka-review-034f141770d7,후쿠오카,고노하몰 하시모토,Konoha Mall Hashimoto · 木の葉モール橋本,33.55637,130.32159,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+fukuoka-review-4d6c928cd333,후쿠오카,마크이즈 후쿠오카 모모치,Markis (Fukuoka Momochi) · マークイズ福岡ももち mākuizu...,33.5923,130.3641,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+fukuoka-review-7c545f7be97b,후쿠오카,카카바카 후쿠오카,Kakavaka 福岡,33.586442,130.394584,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+fukuoka-review-3b9784558692,후쿠오카,나가하마,Nagahama,33.593501,130.393346,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+fukuoka-review-159aa2cdb01a,후쿠오카,이치란,Ichiran · 一蘭,33.5933,130.4044,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+fukuoka-review-747310914700,후쿠오카,라멘 스타디움,Ramen Stadium,33.58913,130.41104,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+fukuoka-review-367a160f8d4a,후쿠오카,야마짱,Yama-chan,33.593276,130.393443,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+fukuoka-review-9066d4645d3b,후쿠오카,아사히켄 교자,Asahiken Gyoza,33.59057,130.41662,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+fukuoka-review-cfed75e73402,후쿠오카,데쓰나베,Tetsu-Nabe · 鉄なべ,33.5925,130.4141,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+fukuoka-review-fe6cce9787f9,후쿠오카,산초 판사,Sancho Panza,33.5872,130.396,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+fukuoka-review-629dd570fdf5,후쿠오카,히토쿠치 교자 다케토라,Hitokuchi Gyoza Taketora,33.588013,130.406617,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+fukuoka-review-30690129261b,후쿠오카,신신,ShinShin · 신신라면,33.59271,130.39689,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+fukuoka-review-52d0f8cafe97,후쿠오카,우사기요리카메,Usagiyorikame · ウサギよりカメ もんじゃ焼き 春吉,33.586618,130.408107,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+fukuoka-review-bcb8a884577a,후쿠오카,우메야마 텟페이 식당,Umeyama tetpei shokudo · 梅山鉄平食堂 本店,33.585748,130.404493,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+fukuoka-review-a2cd81f00aa2,후쿠오카,멘야 이시,Menya Ishi · 麺屋 いしヰ,33.588406,130.416152,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+fukuoka-review-260d5661985d,후쿠오카,요도바시 카메라,Yodobashi Camera store,33.5882,130.4217,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+hiroshima-review-9c122332e42e,히로시마,이쓰쿠시마 신사,Itsukushima Shrine · 厳島神社,34.29583,132.31972,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+hiroshima-review-ad9d6c99b447,히로시마,센조카쿠,Senjokaku · 千畳閣,34.297333,132.32025,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+hiroshima-review-9952f4c09ec0,히로시마,원폭 폭심지,Hypocenter,34.394791,132.454718,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+hiroshima-review-8c71adcadc1d,히로시마,미야오성,Miyao Castle · 宮尾城,34.300554,132.322415,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+hiroshima-review-7ab2797639cf,히로시마,원폭 어린이의 동상,Children's Peace Monument · (原爆の子の像 Genbaku no ko no zō,34.394142,132.452776,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+hiroshima-review-5f9d07e06ee2,히로시마,다이쇼인,Daisho-in · 大聖院,34.29195,132.318475,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+hiroshima-review-cc4c4f3365a4,히로시마,동원학도 위령탑,Memorial Tower to the Mobilized Students,34.3949,132.4539,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+hiroshima-review-b60ebf716826,히로시마,미야지마 수족관,Miyajima Public Aquarium · 宮島水族館,34.295392,132.315356,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+hiroshima-review-6ec916848150,히로시마,국립 히로시마 원폭희생자 추도평화기념관,Hiroshima National Peace Memorial Hall for the Atomic Bomb Victims,34.39333,132.45349,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+hiroshima-review-9ef4fce9fc97,히로시마,미야지마 역사민속자료관,Miyajima History and Folklore Museum · 宮島歴史民俗資料館,34.295441,132.317323,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+hiroshima-review-b732d8b5046d,히로시마,히로시마 평화기념자료관,Peace Memorial Museum · 平和記念資料館 Heiwa Kinen Shiryōkan,34.39182,132.45209,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+hiroshima-review-e294e03dc02a,히로시마,히로시마 국제회의장,International Conference Center,34.392083,132.451028,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+hiroshima-review-4a10a70ea5f6,히로시마,혼카와 초등학교 평화자료관,Honkawa Elementary School Peace Museum · 本川小学校平和資料館,34.395885,132.450606,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+hiroshima-review-903f25bba010,히로시마,후쿠로마치 초등학교 평화자료관,Fukuro-machi Elementary School Museum · 袋町小学校平和資料館,34.39176,132.458706,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+hiroshima-review-bfeba93a4f24,히로시마,옛 일본은행 히로시마 지점,Former Bank of Japan,34.3915,132.4568,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+hiroshima-review-5872a2c3d613,히로시마,미센산,Mt. Misen · 弥山,34.2825,132.315556,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+hiroshima-review-93839d894a56,히로시마,주오 공원,Chuo Park · 中央公園,34.401389,132.454667,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+hiroshima-review-0c7f8472aa7f,히로시마,모미지다니 공원,Momijidani Park · 紅葉谷公園,34.294191,132.324057,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+hiroshima-review-f2a22af18205,히로시마,히로시마성 주변,Hiroshima Castle · 広島城 Hiroshima-jō,34.402728,132.459047,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+hiroshima-review-7b18069a79b4,히로시마,히로시마 호국신사,Gokoku Shrine · 護国神社 Gokoku-jinja,34.401167,132.45875,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+hiroshima-review-9d644bfafc4a,히로시마,히로시마 어린이문화과학관,Hiroshima Children's Museum · 広島市こども文化科学館,34.398667,132.453639,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+hiroshima-review-d22da1836552,히로시마,히로시마 미술관,Hiroshima Museum of Art · ひろしま美術館,34.398669,132.458061,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+hiroshima-review-7352e167e81b,히로시마,히지야마 공원,Hijiyama Park · 比治山公園,34.384059,132.473484,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+hiroshima-review-8ee97e23ccd0,히로시마,히로시마시 만화도서관,Hiroshima City Manga Library · 広島市立まんが図書館,34.387722,132.474444,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+hiroshima-review-6577ec4c4553,히로시마,히로시마시 현대미술관,Hiroshima City Museum of Contemporary Art · 広島市現代美術館,34.38638,132.473365,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+hiroshima-review-437de93cdc50,히로시마,후도인,Fudoin · 不動院,34.427036,132.637783,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+hiroshima-review-d0b9bbe7c96c,히로시마,누마지 교통뮤지엄,Numaji Transportation Museum · ヌマジ交通ミュージアム,34.470861,132.428641,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+hiroshima-review-b4e77f3c59f0,히로시마,히로시마현립 미술관,Hiroshima Prefectural Museum of Art · 広島県立美術館,34.399908,132.466275,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+hiroshima-review-0235d8858323,히로시마,미야지마 브루어리,Miyajima Brewery,34.297886,132.320631,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+hiroshima-review-a3bf3b9e4ce2,히로시마,마쓰다 뮤지엄,Mazda Museum · マツダミュージアム,34.377058,132.503011,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+hiroshima-review-f3d6d9806610,히로시마,가키야,Kakiya · 牡蠣屋,34.298532,132.321551,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+hiroshima-review-6e32718e3b23,히로시마,미타키데라,Mitaki-dera · 三瀧寺,34.420294,132.437617,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+hiroshima-review-08f1f4cd8bcc,히로시마,레 클로,les Clos · 宮島 レ・クロ,34.298582,132.322646,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+hiroshima-review-2f46196661ae,히로시마,한베 정원,Hanbe Gardens · 半べえ,34.37492,132.488,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+hiroshima-review-53fd83a987dd,히로시마,라운드원,Round One,34.39348,132.46005,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+hiroshima-review-bf3e5dd10e24,히로시마,에디온,EDiON · formerly DeoDeo,34.3954,132.4561,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+hiroshima-review-91866f99358d,히로시마,후쿠야 히로시마역 앞점,Fukuya (Ekimae) · 福屋広島駅前店,34.3965,132.4738,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+hiroshima-review-a43e067d1dea,히로시마,히로시마 파르코,Hiroshima PARCO · 広島パルコ,34.3921,132.4619,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+hiroshima-review-e53e7f88bbf2,히로시마,소고 백화점,SOGO,34.396,132.4571,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+hiroshima-review-fdb0caf8d968,히로시마,선몰,SunMall,34.3943,132.4566,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+hiroshima-review-bae11aa3622c,히로시마,핸즈,Hands,34.3945,132.462,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+hiroshima-review-53771d74985c,히로시마,다이소,Daiso,34.392663,132.461848,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+hiroshima-review-a477dec7b23a,히로시마,오코노미무라,Okonomi-mura · お好み村,34.391309,132.461928,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+hiroshima-review-1c4d1ae5b1d6,히로시마,오르간자,Organ-za · ヲルガン座,34.3968,132.4491,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+hiroshima-review-ed9e863dd8f0,히로시마,오티스,Otis!,34.3889,132.4499,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+hiroshima-review-87d66c3569f1,히로시마,산카노,Sankanou · 三冠王,34.398042,132.473212,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+hiroshima-review-73dd35877a1f,히로시마,밋짱,Micchan · お好み焼 みっちゃん総本店,34.387077,132.459686,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+hiroshima-review-2a17cab3eda7,히로시마,다치코마,Tachikoma · たちこま,34.390425,132.474537,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kobe-review-2ab015099c7b,고베,히메지성,Himeji Castle · 姫路城 Himeji-jō,34.839444,134.693889,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kobe-review-34e9a13e2bca,고베,고코엔,Kōkoen Garden · 好古園 kōko-en,34.83816,134.6898,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kobe-review-ecfcc32657c3,고베,고베 옛 외국인 거류지,Kyu-kyoryuchi · 旧居留地,34.686942,135.19245,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kobe-review-ef0ea1d30c8f,고베,효고현립 역사박물관,"Hyogo Prefectural Museum of History · 兵庫県立歴史博物館, hyōgoken-ritsu rekishi hakubutsukan",34.8411,134.697,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kobe-review-8609d81e834f,고베,고베 차이나타운,"Chinatown · 南京町, nankinmachi",34.688006,135.18792,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kobe-review-124bfcc6015e,고베,히메지 시립미술관,"Himeji City Museum of Art · 姫路市立美術館, himeji-shi ritsu bijutsukan",34.8397,134.6967,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kobe-review-876fb80fa0e5,고베,고베 화교역사박물관,Kobe Overseas Chinese History Museum · 神戸華僑歴史博物館,34.685991,135.187165,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kobe-review-91453d878d01,고베,센히메 신사,"Senhime Shrine · 千姫天満宮, senhime tenmangū",34.8415,134.6889,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kobe-review-06ac7b48ec95,고베,다케나카 목수도구관,Takenaka Carpentry Tools Museum · 竹中大工道具館,34.7069,135.1974,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kobe-review-6f1f250e0484,고베,히메지 시립동물원,"Himeji City Zoo · 姫路市立動物園, himeji shihitsu dōbutsuen",34.8368,134.6942,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kobe-review-ca5239e342c6,고베,고베 해양박물관,"Kobe Maritime Museum · 神戸海洋博物館 ""Kobe Kaiyo Hakubutsukan""",34.682778,135.188333,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kobe-review-c9a898a5865d,고베,엔교지,"Engyō-ji Temple · 書寫山圓教寺, shoshazan engyō-ji",34.89159,134.65718,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kobe-review-8eb383c7371c,고베,철인 28호 동상,Tetsujin 28 statue · Kobe project,34.6562,135.1441,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kobe-review-90e8a7be2dfc,고베,데가라야마,Tegarayama · 手柄山,34.819,134.6754,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kobe-review-3cafaa7b38aa,고베,풍향계의 집,Weathercock House,34.70138,135.1895,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kobe-review-eaf9b6549d41,고베,평화자료관,"Historical Peace Center · 平和資料館, heiwa shiryōkan",34.821889,134.674139,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kobe-review-fb65ccaa5148,고베,고베 포트타워,Kobe Port Tower,34.6826,135.1867,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kobe-review-c1a5ca74f9e2,고베,일본 장난감박물관,"Japan Toy Museum · 日本玩具博物館, nihon ganku hakubutsukan",34.907444,134.745389,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kobe-review-9501a46b9eb4,고베,고베 시청 24층 전망로비,Observation deck on the 24th Floor of Kobe City Hall,34.68943,135.19574,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kobe-review-7cf13a3e558f,고베,사와노쓰루 자료관,Sawa-no-Tsuru Museum · 沢の鶴資料館,34.7036,135.2329,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kobe-review-85371518cff0,고베,하쿠쓰루 주조자료관,"Hakutsuru Sake Brewery Museum · 白鶴酒造資料館, hakutsuru shuzōshiryōkan",34.7103,135.2611,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kobe-review-930aee210b94,고베,하마후쿠쓰루 긴조공방·매장,Hamafukutsuru-Ginjo Brewery and Shop · 浜福鶴吟醸工房,34.7096,135.2728,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kobe-review-f3538986b069,고베,기쿠마사무네 주조기념관,"Kiku-Masamune Sake Brewery Museum · 菊正宗酒造記念館, ""Kiku-Masamune Shuzo Kinenkan""",34.7099,135.2581,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kobe-review-5f32b37d4713,고베,히메지 센트럴파크,Himeji Central Park,34.867746,134.752064,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kobe-review-f5231f099beb,고베,다이요 공원,Taiyo Park · 太陽公園,34.89311,134.625503,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kobe-review-ba66498bf0cd,고베,모자이크,MOSAIC,34.6802,135.1843,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kobe-review-4d34a98a58f9,고베,누노비키 폭포,"Nunobiki Falls · 布引の滝 , Nunobiki no taki",34.709722,135.193889,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kobe-review-d55e74fbf204,고베,메리켄 파크,Meriken Park · メリケンパーク,34.6822,135.1891,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kobe-review-63091ed00bdd,고베,프루트 플라워 파크,Fruit Flower Park · フルーツ・フラワーパーク,34.8465,135.1917,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kobe-review-7afab710acfc,고베,소라쿠엔,Sōraku-en Garden · 相楽園,34.6926,135.1817,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kobe-review-c60ad8d2f412,고베,누노비키 허브가든,Nunobiki Herb Garden · 布引ハーブ園,34.7171,135.1908,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kobe-review-5b22495c3fd4,고베,오지 동물원,Oji Zoo · 王子動物園,34.7106,135.2145,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kobe-review-16557f84c150,고베,모던아크 팜카페,Modern Ark Pharm Cafe,34.69197,135.18888,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kobe-review-f80d6f1e0528,고베,나루토 타이야키 본점 한큐 산노미야역 앞점,Naruto Taiyaki Honpo Hankyu Sannomiya-ekimae,34.69249,135.19158,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kobe-review-af3601403b9a,고베,류카소,Ryukaso,34.68864,135.18888,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kobe-review-9ecff8279bda,고베,카페 테라스 드 파리,Cafe Terrasse de Paris,34.69816,135.18733,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kobe-review-54f14f016b49,고베,고베규 스테이크 이시다 기타노자카,Kobe Beef Steak Ishida Kitanozaka,34.69612,135.19263,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kobe-review-e49177ee7848,고베,고베 포토피아 호텔 레스토랑,Kobe Portopia Hotel Restaurants,34.66524,135.21392,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kobe-review-489a92f47e0b,고베,고쿠부,Kokubu,34.6942,135.19257,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kobe-review-352e772b68d9,고베,오리엔탈 호텔 미디엄레어 스테이크하우스,Medium Rare Steakhouse @ Oriental Hotel,34.68761,135.19312,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kobe-review-2d474e5b6a34,고베,모리야,Mouriya,34.69283,135.19159,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kobe-review-77a8e70ab643,고베,와코쿠 신고베점,Wakkoqu @ Shin-Kobe,34.70458,135.19524,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kobe-review-ae107d822cd7,고베,치킨조지,Chicken George,34.69415,135.19013,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kobe-review-30a5d2aaeff6,고베,뉴뮌헨 고베 대사관,New Muenchen Kobe Taishikan,34.69064,135.19195,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kobe-review-0d6c9db0b88c,고베,소네,Sone,34.69737,135.19151,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kobe-review-948c46bd2f79,고베,더 록,The Rock,34.69687,135.19226,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kobe-review-13dd69bbb13f,고베,카페 프로인들리브,Cafe Freundlieb,34.7008,135.19516,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kobe-review-f33e5aaf9209,고베,허브,Hub · ハブ,34.69323,135.19138,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sendai-review-e33e65db8ce8,센다이,즈이간지,Zuigan-ji Temple · 瑞巌寺,38.371966,141.060209,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sendai-review-03093db0a492,센다이,이시노모리 만화관,"Ishinomori Manga Museum · 石ノ森萬画館, Ishinomori Mangakan",38.429631,141.31069,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sendai-review-fd6092c0e653,센다이,야마가타성 터,Yamagata Castle · 山形城,38.255272,140.330713,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sendai-review-0ae07fee21b2,센다이,시로이시성,Shiroishi Castle · 白石城,38.002647,140.617147,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sendai-review-5a648d9c156f,센다이,간란테이,Kanran-tei Pavilion · 観瀾亭,38.369458,141.061337,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sendai-review-6b6fa15ebb58,센다이,모가미 요시아키 역사관,Mogami Yoshiaki Historical Museum · 最上義光歴史館,38.25511,140.333394,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sendai-review-9b1df5a94ae2,센다이,오사키 하치만구,Ōsaki Hachiman Shrine · 大崎八幡宮,38.2722,140.845,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sendai-review-5362a5b1a4b7,센다이,후쿠우라 섬,Fukuura Island · 福浦島; Fukuura-jima,38.366711,141.070945,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sendai-review-a767baf65e2b,센다이,야마가타현립 박물관,Yamagata Prefectural Museum · 山形県立博物館,38.254407,140.329457,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sendai-review-773aacc448d9,센다이,센다이 대관음,"Statue of Kannon (the Bodhisattva of Compassion) · 仙台大観音, Sendai Daikannon",38.3007,140.8236,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sendai-review-ef0263a8582c,센다이,더 뮤지엄 마쓰시마,The Museum Matsushima · ザ・ミュージアムMatsushima,38.372209,141.066847,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sendai-review-7c5989477945,센다이,분쇼칸,Bunshōkan · 文翔館,38.256897,140.341246,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sendai-review-44f14b9a624d,센다이,센다이 미디어테크,Sendai Mediatheque · せんだいメディアテーク,38.26556,140.86556,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sendai-review-9d8b55998c2b,센다이,후지타 교헤이 유리미술관,Kyohei Fujita Museum of Glass · 藤田喬平ガラス美術館,38.376946,141.071972,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sendai-review-264383ea809c,센다이,야마가타 미술관,Yamagata Museum of Art · 山形美術館 yamagata bijutsukan,38.25588,140.332402,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sendai-review-40bec75c034a,센다이,린노지,Rinno-ji · 輪王寺,38.283114,140.858653,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sendai-review-5b4f677919ee,센다이,고다이도,Godaido Hall · 五大堂,38.369736,141.064258,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sendai-review-02727291eec4,센다이,교도칸,Kyōdokan · 山形市郷土館,38.253131,140.328503,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sendai-review-d0401e80b058,센다이,에스에스30 빌딩 전망라운지,SS30 Building Observation Lounge,38.256222,140.878059,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sendai-review-1995e85edc6e,센다이,엔쓰인,Entsū-in,38.371111,141.059722,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sendai-review-eae945a22a8d,센다이,세이후소,Seifū-sō · 清風荘,38.245634,140.34458,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sendai-review-634edee22d56,센다이,센다이시 박물관,Sendai City Museum · 仙台市博物館,38.2561,140.85694,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sendai-review-b7a1f3a3966a,센다이,야마가타대학교 박물관,Museum of Yamagata University · 山形大学附属博物館,38.246554,140.349061,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sendai-review-86a925eb47d0,센다이,야기야마 동물원,Yagiyama Zoo · 八木山動物公園,38.244797,140.845297,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sendai-review-d54da8e5eda4,센다이,가라마쓰 관음당,Karamatsu Kannondo · 唐松観音堂,38.244292,140.3913,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sendai-review-91501ce96dc2,센다이,반스이 소도,Bansui Sōdō · 晩翠草堂,38.259461,140.86935,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sendai-review-945455a2cef5,센다이,야마가타현 향토관 문학전시관,Yamagata Prefectural Arts and Literature Museum · 山形県芸文美術館 yamagataken geibun bijutsukan,38.253586,140.339918,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sendai-review-ee4194bd113c,센다이,야지로 고케시 마을,Yajiro Kokeshi Village · 弥治郎こけし村,38.035397,140.572714,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sendai-review-1fcdf4dc2c51,센다이,센다이시 도미자와 유적 보존관,The Museum of the Forest of Depths of the Earth · 地底の森ミュージアム,38.222991,140.872715,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sendai-review-ac158bb4e742,센다이,야마가타시 산업역사자료관,Yamagata City Industrial History Museum · 山形市産業歴史資料館,38.230587,140.289475,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sendai-review-2eb4abaa586b,센다이,도호쿠대학교 식물원,Tohoku University Botanical Gardens · 東北大学植物園,38.25597,140.85147,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sendai-review-1a3e76c0474b,센다이,구니이 세이카이 현대서예기념관,Seikai Kunii Contemporary Calligraphy Memorial Museum · 國井誠海記念館,38.258057,140.312974,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sendai-review-7c1ed4c32877,센다이,오타카모리,Ōtakamori · 大高森,38.340026,141.152288,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sendai-review-1794574a8824,센다이,도호쿠대학교 자연사박물관,"Tohoku University Museum of Natural History · 東北大学総合学術博物館, Tōhoku Daigaku Sōgō Gakujutsu Hakubutsukan",38.257917,140.837333,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sendai-review-f294b1b3fd83,센다이,야마데라,Yamadera · 山寺,38.311849,140.434794,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sendai-review-2f370aa671fa,센다이,산쿄자와 전기백년관,"Sankyozawa Electric Centennial Museum (Sankyozawa 100 Year Electric Historical Center) · Tohokudenryoku Sankyozawa Denki Hyakunenkan, 東北電力 三居沢電気百年館",38.267057,140.840306,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sendai-review-e5df83e7ad0f,센다이,다루미즈 유적,Tarumizu Ruins · 垂水遺跡,38.317249,140.442524,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sendai-review-16328300397b,센다이,쓰리엠 센다이시 과학관,3M Sendai City Science Museum,38.298996,140.8834,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sendai-review-1783c63e14c7,센다이,야마데라 고토 미술관,Yamadera Goto Museum of Art · 山寺後藤美術館 yamadera goto bijutsukan,38.308725,140.439563,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sendai-review-50e59bf2d996,센다이,야마데라 바쇼 기념관,Yamadera Bashō Museum · 山寺芭蕉記念館,38.309551,140.438982,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sendai-review-236bb6299574,센다이,모미지가와 계곡,Momijigawa Ravine · 紅葉川渓谷,38.332987,140.496093,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sendai-review-c4879f13b214,센다이,마쓰시마 이탈리안 토토,Matsushima Italian Toto · 松島イタリアン トト,38.368604,141.059153,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sendai-review-8919f476c46e,센다이,베니랜드,Benyland,38.2467,140.8486,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sendai-review-08284bf31044,센다이,산쿄자와 교통공원,"Sankyozawa Traffic Park · 三居沢交通公園, Minamikoizumi Traffic Park",38.266515,140.840983,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sendai-review-82b43b28c0fe,센다이,야마가타 전통 고케시관,Yamagata Traditional Kokeshikan · やまがた伝統こけし館 yamagata dentō kokeshikan,38.253583,140.33991,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sendai-review-47fc0f351268,센다이,히라가 고케시점,Hiraga Kokeshi Store · 平賀こけし店,38.335804,140.612292,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sendai-review-b0d8f73d0257,센다이,주이치야,Juichiya · 十一屋,38.253476,140.338906,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+sendai-review-af0b95b98d2b,센다이,리큐,Rikyu · 利久,38.262684,140.880312,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kyoto-dining-14b86ecf1d,교토,토랸세,Toryanse · 通りゃんせ,35.015371,135.794939,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kyoto-dining-9b8932b2ac,교토,사료 츠지리 기온 본점,Saryou Tsuriji · 茶寮都路里,35.002991,135.776407,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kyoto-dining-20a211e4df,교토,스위츠 파라다이스 시조카와라마치점,Sweets Paradise · スイーツパラダイス,35.004023,135.769618,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kyoto-dining-86fb62f22b,교토,기온 택,Gion TAC · 祇園TAC,35.00492,135.774344,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+kyoto-dining-7c2da3eeec,교토,기쿠노이 본점,Kikunoi (main restaurant) · 菊乃井本店,35.001797,135.781991,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+tokyo-dining-f6fccefcee,도쿄,나루토 타이야키 아사쿠사,Naruto Taiyaki · 鳴門鯛焼,35.7121,139.7948,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+tokyo-dining-8c51c8587b,도쿄,아오이마루신,Aoi-Marushin · 葵丸進,35.711253,139.794981,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+tokyo-dining-a1030e9c66,도쿄,베니즈루,Benizuru · 紅鶴,35.712,139.792,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+tokyo-dining-a6e4a41e23,도쿄,아사쿠사 나니와야,Asakusa Naniwaya,35.714816,139.792788,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+taipei-guide-3682822e1b06,타이베이,베이터우 온천박물관,Beitou Hot Springs Museum,25.13658,121.50715,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+taipei-guide-9a78bac6997e,타이베이,용산사,Longshan Temple · 龍山寺,25.0373,121.49988,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+taipei-guide-4873bb146512,타이베이,시먼 홍러우,Red House · 紅樓劇場,25.04209,121.50648,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+taipei-guide-4e2b4d3547c8,타이베이,디화제,Dihua Street · 迪化街,25.05747,121.50977,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+taipei-guide-7d4eec8b2e13,타이베이,보안궁,Bao'an Temple · 保安宮,25.07321,121.51554,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+taipei-guide-311190f31652,타이베이,타이베이 공자묘,Confucius Temple · 孔廟,25.07286,121.51625,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+taipei-guide-0195af2115b6,타이베이,다안 삼림공원,Daan Forest Park · 大安森林公園,25.0302,121.5357,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+taipei-guide-f8fa7026762b,타이베이,샹산 등산로,Elephant Mountain Hiking Trail · 象山步道,25.02738,121.57074,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+taipei-guide-fce11ef0e9f1,타이베이,벨라비타 쇼핑몰,Bellavita Mall,25.03966,121.56779,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+taipei-guide-11658c833418,타이베이,젠궈 휴일 옥시장,Jianguo Holiday Jade Market · 假日玉市,25.0381,121.5379,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+taipei-guide-f93a5b74783b,타이베이,타이베이 시립미술관,Taipei Fine Arts Museum · 台北市立美術館,25.0721,121.5248,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+taipei-guide-9a433dfcd6d7,타이베이,중정기념당,National Chiang Kai-shek Memorial Hall · 中正紀念堂,25.0346,121.5217,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+taipei-guide-7d7000a05bb1,타이베이,국립역사박물관,National Museum Of History · 國立歷史博物館,25.03157,121.51119,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+taipei-guide-592c444ae51a,타이베이,국립대만박물관,National Taiwan Museum · 國立台灣博物館,25.0427,121.5151,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+taipei-guide-ba10a8dc504f,타이베이,이이팔 기념관,228 Memorial Museum,25.04038,121.51555,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+taipei-guide-5838566958d3,타이베이,이이팔 평화기념공원,228 Peace Memorial Park · 二二八和平公園,25.0416,121.515,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+taipei-guide-d5df460eeaf1,타이베이,타이베이 식물원,Taipei Botanical Garden · 植物園,25.03214,121.50949,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+taipei-guide-5196ef892dd6,타이베이,화산 문화창의공원,Hua Shan Cultural and Creative Industry Center · 華山創意文化園區,25.0446,121.529,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+taipei-guide-cc04d56a4659,타이베이,보장암 국제예술촌,Treasure Hill Artist Village · 寶藏巖國際藝術村,25.01052,121.53244,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+hongkong-guide-ba6138c89ec7,홍콩,만모사,Man Mo Temple Compound,22.284,114.1502,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+hongkong-guide-fd5091deba63,홍콩,홍콩 공원,Hong Kong Park,22.27716,114.16146,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+hongkong-guide-0d00a6d445a0,홍콩,미드레벨 에스컬레이터,Central-Mid-Levels Escalator,22.28101,114.15251,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+hongkong-guide-15b37b842ec3,홍콩,스타의 거리,Avenue of Stars,22.293,114.1748,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+hongkong-guide-77da8ea9ec30,홍콩,웡타이신 사원,Sik Sik Yuen Wong Tai Sin Temple · 嗇色園黃大仙祠,22.3428,114.1937,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+hongkong-guide-a9345e6d7bc6,홍콩,구룡채성공원,Kowloon Walled City Park,22.332,114.19,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+hongkong-guide-f387af1e434c,홍콩,홍콩 디즈니랜드,Hong Kong Disneyland,22.3128,114.0419,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+hongkong-guide-69e57ef5cd48,홍콩,옹핑 케이블카 상부역,Ngong Ping 360,22.25634,113.90146,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+hongkong-guide-b6006fbf3c75,홍콩,타이오 어촌,Tai O · 大澳,22.257,113.86,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+hongkong-guide-7758681a1269,홍콩,라마섬,Lamma Island · 南丫島,22.201116,114.131126,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+hongkong-guide-84a5b5251631,홍콩,청차우섬,Cheung Chau · 長洲,22.208565,114.029331,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+hongkong-guide-babcd84c03a8,홍콩,머레이 하우스,Murray House,22.218,114.21,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+hongkong-guide-82ed7d620944,홍콩,골든 보히니아 광장,Golden Bauhinia Square,22.28445,114.17237,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+hongkong-guide-a5674d78f5d1,홍콩,홍콩 미술관,Hong Kong Museum of Art,22.29354,114.17209,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+hongkong-guide-0f73d5aaabd9,홍콩,홍콩 우주박물관,Hong Kong Space Museum,22.29427,114.17196,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+hongkong-guide-dc6da3467116,홍콩,홍콩 과학박물관,Hong Kong Science Museum,22.30088,114.17767,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+hongkong-guide-9cee604f01aa,홍콩,홍콩 해사박물관,Hong Kong Maritime Museum · 香港海事博物館,22.28669,114.16206,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+hongkong-guide-7ca0c9418dc5,홍콩,쑨원 박물관,Dr Sun Yat-sen Museum,22.28213,114.15077,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+hongkong-guide-69e2a031536a,홍콩,홍콩 마담 투소,Madame Tussauds,22.27127,114.15,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+hongkong-guide-607154550ace,홍콩,빅토리아 공원,Victoria Park,22.283,114.189,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+singapore-guide-d56599727500,싱가포르,머라이언 공원,Merlion,1.2868,103.8545,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+singapore-guide-3e98c0bd3bdf,싱가포르,가든스 바이 더 베이,Gardens by the Bay,1.283319,103.86527,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+singapore-guide-3e2d29af71a8,싱가포르,마리나베이 샌즈 스카이파크,Sands SkyPark,1.28489,103.86117,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+singapore-guide-b10fb9ddbad4,싱가포르,아트사이언스 뮤지엄,ArtScience Museum,1.28611,103.859,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+singapore-guide-b1d0fa56c267,싱가포르,싱가포르 보타닉가든,Botanic Gardens,1.3151,103.8162,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+singapore-guide-c0ed2347fae2,싱가포르,국립 난초정원,National Orchid Garden,1.31249,103.8136,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+singapore-guide-f9acb420cb2d,싱가포르,싱가포르 동물원,Singapore Zoo,1.40487,103.79056,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+singapore-guide-c4ca281387ad,싱가포르,나이트 사파리,Night Safari,1.40465,103.78533,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+singapore-guide-2654a9fca3aa,싱가포르,불아사,Buddha Tooth Relic Temple,1.2815,103.8443,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+singapore-guide-7d3207aa3b9c,싱가포르,스리 마리암만 사원,Sri Mariamman Temple,1.2827,103.8451,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+singapore-guide-83ea0b1fb08a,싱가포르,티안혹켕 사원,Thian Hock Keng Temple · 天福宫,1.281,103.8475,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+singapore-guide-9a40cce1ce7c,싱가포르,차이나타운 헤리티지 센터,Chinatown Heritage Centre,1.2836,103.8444,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+singapore-guide-fd44b733a471,싱가포르,아시아 문명박물관,Asian Civilisations Museum,1.2875,103.851111,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+singapore-guide-832f8ce8c0ae,싱가포르,페라나칸 박물관,Peranakan Museum,1.2942,103.8492,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+singapore-guide-d7771a02b158,싱가포르,싱가포르 국립박물관,National Museum of Singapore,1.29672,103.849,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+singapore-guide-4b7473a99ebf,싱가포르,옛 힐스트리트 경찰서,Old Hill Street Police Station · MICA Building,1.2907,103.8482,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+singapore-guide-184320afc634,싱가포르,세인트 앤드루스 대성당,St Andrew's Cathedral,1.292484,103.852348,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+singapore-guide-d3ad5eafe270,싱가포르,실로소 요새,Fort Siloso,1.258889,103.808056,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+singapore-guide-7934802795a5,싱가포르,마리나 배라지,Marina Barrage,1.279479,103.871183,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+singapore-guide-03704339df11,싱가포르,쿤셍 로드,Koon Seng Road,1.31027,103.90252,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+danang-guide-1cffff18d23e,다낭·호이안,미케 해변,My Khe Beach · China Beach,16.07035,108.24623,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+danang-guide-e22744f96b4c,다낭·호이안,린응사,Linh Ung Temple,16.10032,108.27799,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+danang-guide-fdbc49ddca56,다낭·호이안,오행산,Marble Mountains · Ngu Hanh Son,16.00333,108.2637,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+danang-guide-51b8b7d35422,다낭·호이안,다낭 참 조각박물관,Museum of Cham Sculpture · Bảo Tàng Chăm,16.06006,108.22307,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+danang-guide-dce9a989753a,다낭·호이안,한강 산책로,Han River Promenade,16.06491,108.22464,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+danang-guide-bfbc0f6a9a38,다낭·호이안,한시장,Han Market,16.06823,108.22432,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+danang-guide-c9deaa06b77b,다낭·호이안,다낭 롯데마트,Lotte Mart shopping centre,16.03506,108.22889,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+danang-guide-284e62f6baff,다낭·호이안,바나힐 케이블카 입구,Ba Na Hill Station,16.02577,108.0314,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+danang-guide-3037568d722d,다낭·호이안,호이안 내원교,Japanese Covered Bridge · Chua Cau ''or'' Lai Vien Kieu,15.87713,108.32605,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+danang-guide-19149da8eee7,다낭·호이안,호이안 관공묘,Quan Cong Temple,15.87753,108.33106,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+danang-guide-1118ea125b72,다낭·호이안,호이안 민속문화박물관,Museum of Folk Culture,15.87647,108.32838,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+danang-guide-aceb5b1cff2b,다낭·호이안,사후인 문화박물관,Museum of Sa Huynh Culture,15.87701,108.32641,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+danang-guide-a038f991bb87,다낭·호이안,호이안 무역도자기박물관,Museum of Trade Ceramics,15.87735,108.32944,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+danang-guide-84f8a60fea72,다낭·호이안,풍흥 고가,Old house of Phung Hung,15.87722,108.32581,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+danang-guide-c88286d57343,다낭·호이안,꽌탕 고가,Old house of Quan Thang,15.87711,108.32925,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+danang-guide-844e966c3b0e,다낭·호이안,득안 고가,Old house of Duc An,15.87706,108.32767,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+danang-guide-0672f96a46da,다낭·호이안,떤키 고가,Old house of Tan Ky,15.87646,108.32776,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+danang-guide-3bdf58583d2f,다낭·호이안,광조회관,Quang Trieu Assembly Hall · Cantonese,15.8773,108.32645,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+danang-guide-02551715de7c,다낭·호이안,복건회관,Phuc Kien Meeting Hall,15.87806,108.33095,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요
+danang-guide-a9a6e8de1bcb,다낭·호이안,조주회관,Trieu Chau Meeting Hall,15.87789,108.3331,/images/place-placeholder.svg,장소 일치·이용조건 확인 필요

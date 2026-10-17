@@ -1,0 +1,16 @@
+{
+  "config": {
+    "network": {
+      "allowed_domains": [
+        "api.openai.com",
+        "search.naver.com",
+        "blog.naver.com",
+        "m.blog.naver.com",
+        "*.tistory.com",
+        "upload.wikimedia.org",
+        "commons.wikimedia.org",
+        "thumb.wikimedia.org"
+      ]
+    }
+  }
+}
