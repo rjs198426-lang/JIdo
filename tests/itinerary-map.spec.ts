@@ -100,18 +100,18 @@ test('앱 내 지도에 7곳 번호·연결선·출처 표시, 핀과 이전·�
   await page.evaluate(() => document.fonts.ready)
   await expect(page.locator('.leaflet-container')).toHaveCSS(
     'font-family',
-    /SUIT/,
+    /Pretendard Variable/,
   )
   await expect(page.locator('.leaflet-control-zoom-in')).toHaveCSS(
     'font-family',
-    /SUIT/,
+    /Pretendard Variable/,
   )
   for (const family of await page
     .locator('.leaflet-container, .leaflet-control-zoom a')
     .evaluateAll((nodes) =>
       nodes.map((node) => getComputedStyle(node).fontFamily),
     )) {
-    expect(['SUIT']).toContain(
+    expect(['Pretendard Variable']).toContain(
       family.split(',')[0].replaceAll(/["']/g, '').trim(),
     )
   }

@@ -1,10 +1,17 @@
 import { test, expect } from '@playwright/test'
 
-test('제목·로고·본문·입력 내용은 내장 SUIT 한 계열로 오프라인에서도 실제 표시', async ({
+test('제목·로고·본문·입력 내용은 내장 Pretendard Variable 한 계열로 오프라인에서도 실제 표시', async ({
   page,
   context,
 }) => {
   const remoteFontRequests: string[] = []
+  const oldFontRequests: string[] = []
+  page.on('request', (request) => {
+    if (
+      /\/(?:HiKR|LaundryGothic|SUIT)[^/]*\.(?:woff2?|ttf)/.test(request.url())
+    )
+      oldFontRequests.push(request.url())
+  })
   await page.route('https://**', (route) => {
     if (/\.(woff2?|ttf|otf)(?:\?|$)/.test(route.request().url()))
       remoteFontRequests.push(route.request().url())
@@ -14,17 +21,39 @@ test('제목·로고·본문·입력 내용은 내장 SUIT 한 계열로 오프�
   await page.evaluate(() => document.fonts.ready)
   expect(
     await page.evaluate(() =>
-      document.fonts.check('800 24px SUIT', '가나다 여행 123 ABC'),
+      document.fonts.check(
+        '800 24px "Pretendard Variable"',
+        '가나다 여행 123 ABC',
+      ),
     ),
   ).toBe(true)
+  const roles = await page.evaluate(() => {
+    const read = (selector: string) => {
+      const style = getComputedStyle(document.querySelector(selector)!)
+      return {
+        size: parseFloat(style.fontSize),
+        weight: Number(style.fontWeight),
+      }
+    }
+    return {
+      title: read('.home-heading h1'),
+      card: read('.city-title strong'),
+      caption: read('.city-title > span'),
+    }
+  })
+  expect(roles.title.size).toBeGreaterThanOrEqual(26)
+  expect(roles.title.weight).toBe(800)
+  expect(roles.card.weight).toBe(700)
+  expect(roles.card.size).toBeGreaterThan(roles.caption.size)
+  expect(roles.caption.weight).toBe(400)
   const session = await context.newCDPSession(page)
   await session.send('DOM.enable')
   await session.send('CSS.enable')
   const { root } = await session.send('DOM.getDocument')
   for (const [selector, expected] of [
-    ['.home-heading h1', /SUIT/i],
-    ['.brand-mark', /SUIT/i],
-    ['.city-card .city-title > span', /SUIT/i],
+    ['.home-heading h1', /Pretendard Variable/i],
+    ['.brand-mark', /Pretendard Variable/i],
+    ['.city-card .city-title > span', /Pretendard Variable/i],
   ] as const) {
     const { nodeId } = await session.send('DOM.querySelector', {
       nodeId: root.nodeId,
@@ -48,10 +77,10 @@ test('제목·로고·본문·입력 내용은 내장 SUIT 한 계열로 오프�
     .click()
   const dialog = page.getByRole('dialog')
   for (const [selector, expectedFamily] of [
-    ['h2', 'SUIT'],
-    ['button', 'SUIT'],
-    ['input', 'SUIT'],
-    ['select', 'SUIT'],
+    ['h2', 'Pretendard Variable'],
+    ['button', 'Pretendard Variable'],
+    ['input', 'Pretendard Variable'],
+    ['select', 'Pretendard Variable'],
   ] as const) {
     const families = await dialog
       .locator(selector)
@@ -65,10 +94,11 @@ test('제목·로고·본문·입력 내용은 내장 SUIT 한 계열로 오프�
       )
   }
   expect(remoteFontRequests).toEqual([])
+  expect(oldFontRequests).toEqual([])
   await context.setOffline(false)
 })
 
-test('320px 장소 상세에서 SUIT 본문·주소·팁을 읽을 크기와 대비로 표시하고 긴 주소를 자르지 않음', async ({
+test('320px 장소 상세에서 Pretendard Variable 본문·주소·팁을 읽을 크기와 대비로 표시하고 긴 주소를 자르지 않음', async ({
   page,
   context,
 }) => {
@@ -84,6 +114,16 @@ test('320px 장소 상세에서 SUIT 본문·주소·팁을 읽을 크기와 대
     .getByRole('button', { name: '기요미즈데라 자세히 보기', exact: true })
     .click()
   await page.evaluate(() => document.fonts.ready)
+  await expect(page.locator('.place-detail-title')).toHaveCSS(
+    'font-size',
+    '22px',
+  )
+  await expect(page.locator('.place-detail-title')).toHaveCSS(
+    'font-weight',
+    '750',
+  )
+  await expect(page.locator('.city-intro')).toHaveCSS('font-weight', '400')
+  await expect(page.locator('.modal-header h2')).toHaveCSS('font-size', '20px')
   for (const [selector, size] of [
     ['.city-intro', 16],
     ['.place-facts > p', 14],
@@ -110,7 +150,7 @@ test('320px 장소 상세에서 SUIT 본문·주소·팁을 읽을 크기와 대
         }
       })
     expect(style.size).toBeGreaterThanOrEqual(size)
-    expect(style.family).toMatch(/^SUIT/)
+    expect(style.family).toMatch(/^["\']?Pretendard Variable/)
     expect(style.contrast).toBeGreaterThanOrEqual(4.5)
   }
   const session = await context.newCDPSession(page)
@@ -126,14 +166,17 @@ test('320px 장소 상세에서 SUIT 본문·주소·팁을 읽을 크기와 대
   })
   expect(
     fonts.some(
-      (f) => f.isCustomFont && /SUIT/.test(f.familyName) && f.glyphCount > 0,
+      (f) =>
+        f.isCustomFont &&
+        /Pretendard Variable/.test(f.familyName) &&
+        f.glyphCount > 0,
     ),
   ).toBe(true)
   expect(
     await page.evaluate(() =>
       [...document.fonts].some(
         (f) =>
-          f.family.replaceAll(/["']/g, '') === 'SUIT' &&
+          f.family.replaceAll(/["']/g, '') === 'Pretendard Variable' &&
           f.weight === '100 900' &&
           f.status === 'loaded',
       ),
@@ -150,5 +193,5 @@ test('320px 장소 상세에서 SUIT 본문·주소·팁을 읽을 크기와 대
       () => document.documentElement.scrollWidth <= innerWidth,
     ),
   ).toBe(true)
-  await page.screenshot({ path: 'artifacts/suit-place-320.png' })
+  await page.screenshot({ path: 'artifacts/pretendard-place-320.png' })
 })

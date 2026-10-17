@@ -83,3 +83,106 @@ body {
   font-size: 13px;
   line-height: 1.6;
 }
+
+/* A single family, separated by role rather than by different typefaces. */
+:root {
+  --type-page-title: clamp(26px, 1.35rem + 1.15vw, 32px);
+  --type-section-title: 22px;
+  --type-subtitle: 18px;
+  --type-body: 16px;
+  --type-caption: 13px;
+}
+:root h1 {
+  font-size: var(--type-page-title);
+  font-weight: 800;
+  line-height: 1.3;
+  letter-spacing: -0.025em;
+}
+:root h2 {
+  font-size: var(--type-section-title);
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+}
+:root h3 {
+  font-size: var(--type-subtitle);
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: -0.015em;
+}
+:root h4,
+:root h5,
+:root h6 {
+  font-size: var(--type-body);
+  font-weight: 650;
+  line-height: 1.5;
+}
+:root .home-heading h1,
+:root .page-title h1 {
+  font-size: var(--type-page-title);
+}
+:root .home-journey-copy h2 {
+  font-size: clamp(22px, 1.15rem + 1vw, 28px);
+  font-weight: 750;
+}
+:root .home-section-heading h2,
+:root .section-heading h2 {
+  font-size: var(--type-section-title);
+}
+:root .modal-header > h2 {
+  font-size: 20px;
+  font-weight: 700;
+  overflow-wrap: anywhere;
+  min-width: 0;
+}
+:root .modal-header > .icon-button {
+  flex-shrink: 0;
+}
+:root .place-detail-title {
+  font-size: 22px;
+  font-weight: 750;
+}
+:root .practical-guide h3,
+:root .detail-section-heading > h3,
+:root .day-content .section-heading h3 {
+  font-size: var(--type-subtitle);
+  font-weight: 700;
+}
+:root button.city-card-copy,
+:root button.place-card-copy,
+:root button.home-trip-tile,
+:root button.personal-trip-card,
+:root .home-status-grid > button {
+  font-weight: 400;
+}
+:root .city-title strong,
+:root .place-card-copy > strong {
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+:root .city-title > span,
+:root .place-description,
+:root .city-tagline,
+:root .place-location,
+:root .place-meta,
+:root .home-status-caption,
+:root .home-journey-cities,
+:root .home-journey-dates,
+:root .home-journey-meta {
+  font-weight: 400;
+}
+:root .city-intro,
+:root .practical-guide p,
+:root .guide-decisions dd,
+:root .guide-advice {
+  font-size: var(--type-body);
+  font-weight: 400;
+  line-height: 1.7;
+}
+:root .detail-footnote,
+:root .guide-evidence small,
+:root .course-add-form > small {
+  font-size: var(--type-caption);
+  font-weight: 400;
+}

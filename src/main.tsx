@@ -10,12 +10,12 @@ import './compact-layout.css'
 import './fonts.css'
 import './practical-guide.css'
 import './travel-upgrades.css'
-import './typography.css'
 import './field-upgrade.css'
 import './planning-upgrade.css'
 import './field-ready.css'
 import './complete-travel.css'
 import './usability-refresh.css'
+import './typography.css'
 import { Capacitor } from '@capacitor/core'
 const AdminApp = lazy(() => import('./AdminApp'))
 

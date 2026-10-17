@@ -1,13 +1,13 @@
 /* One embedded variable family keeps titles, controls and body copy coherent. */
 @font-face {
-  font-family: 'SUIT';
-  src: url('/fonts/SUIT-Variable.woff2') format('woff2');
+  font-family: 'Pretendard Variable';
+  src: url('/fonts/PretendardVariable.woff2') format('woff2');
   font-style: normal;
   font-weight: 100 900;
   font-display: swap;
 }
 :root {
-  --app-body-font: 'SUIT', 'Noto Sans KR Variable', sans-serif;
+  --app-body-font: 'Pretendard Variable', 'Noto Sans KR Variable', sans-serif;
   --app-heading-font: var(--app-body-font);
   --app-font: var(--app-body-font);
   font-family: var(--app-body-font);
@@ -34,11 +34,13 @@ h1 {
   font-weight: 800;
 }
 h2,
-h3,
+h3 {
+  font-weight: 700;
+}
 h4,
 h5,
 h6 {
-  font-weight: 750;
+  font-weight: 650;
 }
 strong,
 b,

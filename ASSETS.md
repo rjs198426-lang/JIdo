@@ -96,7 +96,7 @@
 | `public/images/bali.jpg`      | [Bilal742/poveda-bali-website — Things-to-see-and-do-in-Ubud.jpeg](https://github.com/Bilal742/poveda-bali-website/blob/HEAD/Img/Things-to-see-and-do-in-Ubud.jpeg) |
 
 
-1.28부터 제목·브랜드·본문의 기본 글꼴은 SUIT Variable 하나이며, 미지원 문자용 보조 글꼴은 `@fontsource-variable/noto-sans-kr`의 Noto Sans KR (SIL Open Font License), 아이콘은 `lucide-react` (ISC License)를 사용합니다. J★Do 로고·앱 아이콘·시작 화면과 `place-placeholder.svg`는 프로젝트에서 작성했습니다.
+1.33부터 제목·브랜드·본문의 기본 글꼴은 Pretendard Variable 하나이며, 미지원 문자용 보조 글꼴은 `@fontsource-variable/noto-sans-kr`의 Noto Sans KR (SIL Open Font License), 아이콘은 `lucide-react` (ISC License)를 사용합니다. J★Do 로고·앱 아이콘·시작 화면과 `place-placeholder.svg`는 프로젝트에서 작성했습니다.
 
 ## 이전 제목 글꼴 — 하이커체 (HiKR)
 
@@ -141,3 +141,15 @@
 ## Android 1.28 — SUIT로 화면 글꼴 통일
 
 제목·로고·버튼·본문·입력·지도에 같은 SUIT Variable을 사용합니다. 원본 파일·라이선스는 1.19와 동일하며 글꼴 파일을 변형하지 않습니다. 제목 750–800과 본문 400–500 등 실제 가변 굵기로 구분합니다. 하이커 글꼴을 표시하지 않으며 외부 글꼴 서버 요청을 추가하지 않습니다.
+
+
+## Android 1.33 — 전체 Pretendard Variable
+
+[프리텐다드 공식 저장소](https://github.com/orioncactus/pretendard)의 v1.3.9 태그가 가리키는 커밋 `5c41199ea0024a9e0b2cb31735265056e5472d76`에서 원본 `PretendardVariable.woff2`와 LICENSE를 받았습니다. 글꼴 파일을 변형하지 않고 로고·제목·본문·입력·메뉴·지도에 사용하며 원본 100–900 가변 굵기를 적용합니다. 저작권은 `Copyright (c) 2021, Kil Hyung-jin (https://github.com/orioncactus/pretendard), with Reserved Font Name Pretendard.`이며 SIL OFL 1.1 원문을 APK와 소스에 동봉합니다.
+
+- [고정 원본](https://raw.githubusercontent.com/orioncactus/pretendard/5c41199ea0024a9e0b2cb31735265056e5472d76/packages/pretendard/dist/web/variable/woff2/PretendardVariable.woff2) · 2,057,688바이트
+- SHA-256: `9599f12fd42fc0bce1cd50b47a0c022e108d7aa64dd0d1bb0ed44f3282d900b4`
+- [출처 메타데이터](public/fonts/Pretendard-source.json), [OFL 원문](public/licenses/Pretendard-OFL.txt)
+- `scripts/setup-fonts.mjs`는 폰트와 라이선스 해시를 검사하고 누락된 파일만 고정 공식 주소에서 받아 검사합니다. 기존 파일의 해시가 다르면 덮어쓰거나 검증을 건너뛰지 않고 중단합니다.
+
+이전 SUIT·HiKR의 출처·라이선스 기록을 보존하지만 현재 화면에서는 선언하거나 미리 읽지 않습니다. 미지원 외국 문자는 내장 Noto Sans KR와 기기 글꼴로 보완합니다.

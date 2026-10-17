@@ -45,7 +45,7 @@
 - `src/GuideContent.tsx`: 기존 작성 가이드 보존과 실전 안내 통합.
 - `tests/practical-guides.spec.ts`: 실제 장소 연결·조사 상태·일정 보존·오프라인·명시적 코스 생성 검사.
 
-SUIT Variable 한 계열을 유지하며, 서버·계정·온라인 동기화나 과금 지도 API를 추가하지 않습니다. 원문 링크 열기만 인터넷을 사용합니다.
+Pretendard Variable 한 계열을 사용하며, 서버·계정·온라인 동기화나 과금 지도 API를 추가하지 않습니다. 원문 링크 열기만 인터넷을 사용합니다.
 
 ## Android 1.14 복원
 
