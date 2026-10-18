@@ -519,11 +519,9 @@ test('320px·큰 글자·작은 높이에서 검색·시간 미리보기와 주�
       )
     })
   expect(contrast).toBeGreaterThanOrEqual(4.5)
-  await page
-    .locator('.trip-banner')
-    .screenshot({
-      path: `artifacts/complete-controls-${info.project.name}.png`,
-    })
+  await page.locator('.trip-banner').screenshot({
+    path: `artifacts/complete-controls-${info.project.name}.png`,
+  })
   let dialog = await find(page, '교토')
   expect(
     await dialog.evaluate((el) => el.scrollWidth <= el.clientWidth + 1),
@@ -566,7 +564,7 @@ test('탐색 이력과 검색창은 재시작에 남지 않고 홈으로 시작,
   await openTrips(page)
   await expect(
     page.getByRole('button', { name: '이전 여행 화면', exact: true }),
-  ).toHaveCount(0)
+  ).toBeDisabled()
   expect((await state(page)).attachments).toEqual(fixture().attachments)
 })
 

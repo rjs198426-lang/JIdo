@@ -111,7 +111,7 @@ async function state(page: Page) {
   )
 }
 
-test('393×852 현장 첫 화면에 다음 장소와 세 동작, 지연 표시·관리 메뉴·사진 접기와 건너뛰기 복귀', async ({
+test('393×852 현장 첫 화면에 다음 장소와 세 동작, 지연 표시·공통 관리 버튼·사진 접기와 건너뛰기 복귀', async ({
   page,
 }, info) => {
   await page.setViewportSize({ width: 393, height: 852 })
@@ -131,12 +131,10 @@ test('393×852 현장 첫 화면에 다음 장소와 세 동작, 지연 표시·
   )
   await expect(
     page.getByRole('button', { name: '여행 삭제', exact: true }),
-  ).toBeHidden()
-  await page.locator('.field-management summary').click()
+  ).toBeVisible()
   await expect(
     page.getByRole('button', { name: '여행 정보 수정', exact: true }),
   ).toBeVisible()
-  await page.locator('.field-management summary').click()
   await page.screenshot({ path: info.outputPath('field-first-screen.png') })
   await page
     .getByRole('button', { name: '이번 장소 건너뛰기', exact: true })

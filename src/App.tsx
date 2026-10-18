@@ -93,7 +93,6 @@ import {
   Plus,
   Search,
   ChevronLeft,
-  SlidersHorizontal,
   Sparkles,
   Trash2,
   Users,
@@ -994,7 +993,7 @@ function Itinerary({
             backgroundImage: `linear-gradient(90deg, rgba(12,36,31,.86),rgba(12,36,31,.3)), url(${cityCover})`,
           }}
         >
-          <div>
+          <div className="trip-header-copy">
             <span className="trip-country">
               {city.country} · {city.name}
             </span>
@@ -1014,15 +1013,14 @@ function Itinerary({
             </div>
           </div>
           <div className="trip-banner-controls">
-            {navigation.canGoBack && (
-              <button
-                className="icon-button trip-back"
-                aria-label="이전 여행 화면"
-                onClick={navigation.back}
-              >
-                <ChevronLeft size={20} />
-              </button>
-            )}
+            <button
+              className="icon-button trip-back"
+              aria-label="이전 여행 화면"
+              disabled={!navigation.canGoBack}
+              onClick={navigation.back}
+            >
+              <ChevronLeft size={20} />
+            </button>
             <button
               className="icon-button trip-find"
               aria-label="여행 내 찾기"
@@ -1030,46 +1028,20 @@ function Itinerary({
             >
               <Search size={20} />
             </button>
-            {workspace === 'field' ? (
-              <details className="field-management">
-                <summary aria-label="여행 관리">
-                  <SlidersHorizontal size={18} />
-                  <ChevronRight size={16} aria-hidden="true" />
-                </summary>
-                <button
-                  className="button outline"
-                  aria-label="여행 정보 수정"
-                  onClick={onEditTrip}
-                >
-                  여행 정보 수정
-                </button>
-                <button
-                  className="button outline"
-                  aria-label="여행 삭제"
-                  onClick={onDeleteTrip}
-                >
-                  여행 삭제
-                </button>
-              </details>
-            ) : (
-              <div className="trip-management">
-                <button
-                  className="trip-edit"
-                  aria-label="여행 정보 수정"
-                  onClick={onEditTrip}
-                >
-                  <Pencil size={16} />
-                  <span>여행 정보 수정</span>
-                </button>
-                <button
-                  className="trip-delete"
-                  onClick={onDeleteTrip}
-                  aria-label="여행 삭제"
-                >
-                  <Trash2 size={17} />
-                </button>
-              </div>
-            )}
+            <button
+              className="icon-button trip-edit"
+              aria-label="여행 정보 수정"
+              onClick={onEditTrip}
+            >
+              <Pencil size={20} />
+            </button>
+            <button
+              className="icon-button trip-delete"
+              onClick={onDeleteTrip}
+              aria-label="여행 삭제"
+            >
+              <Trash2 size={20} />
+            </button>
           </div>
         </div>
         <div className="workspace-tabs" role="tablist" aria-label="여행 관리">

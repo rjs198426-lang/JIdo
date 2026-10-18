@@ -1,0 +1,55 @@
+/* A shared header for every trip workspace, including field use. */
+.trips-page .itinerary .trip-banner {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 94px;
+  align-items: start;
+  gap: 12px;
+  padding: 4px 0 12px;
+}
+.trips-page .itinerary .trip-header-copy {
+  width: auto;
+  min-width: 0;
+}
+.trips-page .itinerary .trip-banner h2 {
+  margin: 0 0 10px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.4;
+  overflow-wrap: anywhere;
+}
+.trips-page .itinerary .trip-country {
+  display: none;
+}
+.trips-page .itinerary .trip-facts {
+  display: flex;
+  gap: 6px 12px;
+  font-size: 13px;
+  line-height: 1.5;
+}
+.trips-page .itinerary .trip-banner-controls {
+  display: grid;
+  grid-template-columns: repeat(2, 44px);
+  grid-template-rows: repeat(2, 44px);
+  gap: 6px;
+  width: 94px;
+  max-width: none;
+}
+.trips-page .itinerary .trip-banner-controls > button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  min-width: 44px;
+  min-height: 44px;
+  margin: 0;
+  padding: 0;
+  color: #126f61;
+  background: #eff7f3;
+  border: 1px solid #d3e3db;
+  border-radius: 10px;
+}
+.trips-page .itinerary .trip-back:disabled {
+  opacity: 0.4;
+  cursor: default;
+}

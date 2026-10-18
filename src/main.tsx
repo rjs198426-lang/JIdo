@@ -16,6 +16,7 @@ import './field-ready.css'
 import './complete-travel.css'
 import './usability-refresh.css'
 import './typography.css'
+import './trip-header.css'
 import { Capacitor } from '@capacitor/core'
 const AdminApp = lazy(() => import('./AdminApp'))
 
