@@ -99,10 +99,6 @@ async function state(page: Page) {
     () => JSON.parse(localStorage.getItem('jido-travel-v1')!).trips[0],
   )
 }
-const transferInput = (page: Page) =>
-  page.getByLabel('기요미즈데라에서 후시미 이나리 신사 이동시간', {
-    exact: true,
-  })
 
 test('상위 메뉴는 4개, 이전 예약 화면 복원과 준비 하위 화면·작성 메모를 왕복해 보존', async ({
   page,
@@ -202,41 +198,35 @@ test('지도 선택 장소를 목록에서 바로 찾고 선택·날짜·순서 
   ).toContainText('후시미 이나리 신사')
 })
 
-test('직접 정한 이동·체류 시간으로 도착 부족을 표시하고 재시작·백업에 보존, 빈 값·0분 구분', async ({
+test('기존 수동 이동·체류 시간과 0분은 간소화한 화면과 백업에서 보존', async ({
   page,
 }) => {
   await seed(page)
-  await openWorkspace(page, '이동시간')
-  await expect(transferInput(page)).toHaveValue('')
-  await transferInput(page).fill('30')
-  await expect(
-    page.getByRole('region', { name: '이동시간 확인' }).getByRole('alert'),
-  ).toContainText('입력 기준 도착 11:30')
-  await expect(
-    page.getByRole('region', { name: '이동시간 확인' }).getByRole('alert'),
-  ).toContainText('45분 부족')
-  expect((await state(page)).days[0][1].time).toBe('10:45')
+  const original = await state(page)
+  await page.evaluate(
+    (transfer) => {
+      const saved = JSON.parse(localStorage.getItem('jido-travel-v1')!)
+      const trip = saved.trips[0]
+      trip.days[0][0].durationMinutes = 30
+      trip.days[0][1].transfer = transfer
+      localStorage.setItem('jido-travel-v1', JSON.stringify(saved))
+    },
+    {
+      fromStopId: 'temple',
+      fromPlace: placeSignature(original.days[0][0]),
+      toPlace: placeSignature(original.days[0][1]),
+      minutes: 0,
+    },
+  )
   await page.reload()
   await openTrips(page)
-  await expect(transferInput(page)).toHaveValue('30')
-  const dwellInput = page.getByLabel('기요미즈데라 체류 시간', { exact: true })
-  await dwellInput.fill('')
-  await dwellInput.pressSequentially('1')
-  await expect(dwellInput).toHaveValue('1')
-  expect((await state(page)).days[0][0].durationMinutes).toBeUndefined()
-  await dwellInput.pressSequentially('5')
-  await expect(dwellInput).toHaveValue('15')
-  expect((await state(page)).days[0][0].durationMinutes).toBe(15)
-  await page.getByLabel('기요미즈데라 체류 시간', { exact: true }).fill('30')
-  await transferInput(page).fill('0')
-  await expect(transferInput(page)).toHaveValue('0')
-  await expect(page.locator('.transfer-result').first()).toContainText('10:30')
-  const saved = tripSchema.parse(await state(page)),
-    restored = tripSchema.parse(portableTrip(saved))
+  const before = await state(page)
+  await openWorkspace(page, '이동시간')
+  await expect(page.locator('.day-transfers input')).toHaveCount(0)
+  expect(await state(page)).toEqual(before)
+  const restored = tripSchema.parse(portableTrip(tripSchema.parse(before)))
   expect(transferFor(restored.days[0][0], restored.days[0][1])?.minutes).toBe(0)
-  await transferInput(page).fill('')
-  expect((await state(page)).days[0][1].transfer).toBeUndefined()
-  await expect(page.locator('.transfer-result')).toHaveCount(0)
+  expect(restored.days[0][0].durationMinutes).toBe(30)
 })
 
 test('순서·장소가 바뀌면 이전 구간 시간을 적용하지 않고 좌표 없이는 거리·도로시간을 만들지 않음', () => {
@@ -311,7 +301,7 @@ test('320px·큰 글자에서도 메뉴·지도 왕복·이동 입력에 가로 
     ).toBe(true)
   }
   await openWorkspace(page, '이동시간')
-  await transferInput(page).fill('30')
+  await expect(page.locator('.transfer-calculation').first()).toBeVisible()
   await page.screenshot({ path: info.outputPath('transfers-320.png') })
 })
 

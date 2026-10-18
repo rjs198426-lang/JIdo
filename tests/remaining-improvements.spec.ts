@@ -1,4 +1,5 @@
 import { test, expect } from '@playwright/test'
+import { googleMapsFixture } from './google-maps-fixture'
 import { openTrips, openWorkspace } from './navigation'
 import { tripSchema } from '../src/travel-model'
 import { localClock, validTimeZone } from '../src/destination-time'
@@ -214,23 +215,26 @@ test('선택 날짜의 숙소와 경비·현지 통화, 간단한 목록이 복�
   await expect(page.getByLabel('체크아웃 날짜')).toBeVisible()
 })
 
-test('이동 구간의 외부 길찾기는 실제 두 장소를 포함하고 입력 시간을 기록', async ({
+test('이동 구간은 수단 선택만으로 자동 계산하고 원본에 저장하지 않음', async ({
   page,
 }) => {
+  await googleMapsFixture(page)
   await seed(page)
   await openWorkspace(page, '이동시간')
-  await expect(
-    page.getByRole('link', { name: '대중교통 길찾기' }),
-  ).toHaveAttribute('href', /origin=.*destination=.*travelmode=transit/)
-  await page.getByLabel('기요미즈데라에서 기온 산책 이동시간').fill('25')
-  await expect(page.locator('.transfer-summary')).toContainText('1/1구간')
+  const output = page.getByLabel('기요미즈데라에서 기온 산책 이동시간', {
+    exact: true,
+  })
+  await expect(output).toHaveText('13분')
+  await page
+    .getByLabel('기요미즈데라에서 기온 산책 이동수단')
+    .selectOption('transit')
+  await expect(output).toHaveText('22분')
   const value = await page.evaluate(
     () =>
       JSON.parse(localStorage.getItem('jido-travel-v1')!).trips[0].days[0][1]
         .transfer,
   )
-  expect(value.minutes).toBe(25)
-  expect(value.checkedAt).toMatch(/^20/)
+  expect(value).toBeUndefined()
 })
 
 test('도시 시간대 설정은 재실행·JSON 백업에도 보존', async ({ page }) => {

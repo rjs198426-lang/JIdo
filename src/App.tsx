@@ -1230,12 +1230,7 @@ function Itinerary({
                 <JourneyShare trip={trip} day={day} />
               </div>
               {workspace === 'transfers' ? (
-                <DayTransfers
-                  trip={trip}
-                  day={day}
-                  onUpdate={onUpdate}
-                  routing={googleRouting}
-                />
+                <DayTransfers trip={trip} day={day} routing={googleRouting} />
               ) : workspace === 'route' ? (
                 <DayRoute
                   routing={googleRouting}

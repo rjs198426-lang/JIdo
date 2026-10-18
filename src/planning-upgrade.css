@@ -139,3 +139,45 @@
   font-size: 13px;
   line-height: 1.6;
 }
+
+.transfer-calculation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+.transfer-calculation .field {
+  flex: 1;
+  min-width: 0;
+  max-width: 200px;
+}
+.transfer-calculation select {
+  min-height: 44px;
+  width: 100%;
+}
+.transfer-duration {
+  flex: 0 0 auto;
+  color: #086f60;
+  font-size: 24px;
+  font-weight: 750;
+  font-variant-numeric: tabular-nums;
+}
+.transfer-duration.transfer-status {
+  color: #785a26;
+  font-size: 16px;
+}
+.transfer-route-notices summary {
+  display: flex;
+  align-items: center;
+  min-height: 44px;
+  cursor: pointer;
+  color: #526057;
+  font-size: 13px;
+}
+.transfer-route-notices summary::before {
+  content: '▸';
+  margin-right: 6px;
+}
+.transfer-route-notices[open] summary::before {
+  content: '▾';
+}

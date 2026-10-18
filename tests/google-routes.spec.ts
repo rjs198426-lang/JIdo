@@ -1,4 +1,5 @@
 import { test, expect, type Page } from '@playwright/test'
+import { placeSignature } from '../src/transfer-planning'
 import { googleMapsFixture } from './google-maps-fixture'
 import { openTrips, openWorkspace } from './navigation'
 async function seed(page: Page, missing = false, fixture = true) {
@@ -90,13 +91,12 @@ test('Google 이동시간 자동 입력·경로 표시·귀속과 여행 원본 
   const before = await state(page)
   expect(await page.evaluate(() => (window as any).googleCalls.length)).toBe(0)
   await openWorkspace(page, '이동시간')
-  await expect(minutes(page)).toHaveValue('13')
+  await expect(minutes(page)).toHaveText('13분')
   await expect(page.locator('.google-maps-attribution')).toContainText(
-    'Google Maps · 도보 · 자동 계산',
+    'Google Maps',
   )
-  await expect(page.locator('.transfer-result')).toContainText(
-    'Google 계산 기준 도착 11:13',
-  )
+  await expect(page.locator('.transfer-result')).toHaveCount(0)
+  await page.getByText('경로 안내', { exact: true }).click()
   await expect(page.locator('.google-route-warning')).toContainText(
     '보행 경로를 확인하세요.',
   )
@@ -117,11 +117,11 @@ test('이동수단 변경은 해당 Google 경로·시간을 갱신하고 차량
 }) => {
   await seed(page)
   await openWorkspace(page, '이동시간')
-  await expect(minutes(page)).toHaveValue('13')
+  await expect(minutes(page)).toHaveText('13분')
   await mode(page).selectOption('transit')
-  await expect(minutes(page)).toHaveValue('22')
+  await expect(minutes(page)).toHaveText('22분')
   await mode(page).selectOption('driving')
-  await expect(minutes(page)).toHaveValue('9')
+  await expect(minutes(page)).toHaveText('9분')
   const calls = await page.evaluate(() => (window as any).googleCalls)
   expect(calls.map((c: any) => c.travelMode)).toEqual([
     'WALKING',
@@ -132,30 +132,39 @@ test('이동수단 변경은 해당 Google 경로·시간을 갱신하고 차량
   expect((await state(page)).days[0][1].transfer).toBeUndefined()
 })
 
-test('직접 입력 시간은 자동 응답·재계산·재시작으로 덮어쓰지 않음', async ({
+test('기존 수동 시간은 보존하면서 선택한 수단의 자동 계산 값을 표시', async ({
   page,
 }) => {
   await seed(page)
+  const original = await state(page)
+  await page.evaluate(
+    (transfer) => {
+      const saved = JSON.parse(localStorage.getItem('jido-travel-v1')!)
+      saved.trips[0].days[0][1].transfer = transfer
+      localStorage.setItem('jido-travel-v1', JSON.stringify(saved))
+    },
+    {
+      fromStopId: 'temple',
+      fromPlace: placeSignature(original.days[0][0]),
+      toPlace: placeSignature(original.days[0][1]),
+      minutes: 7,
+    },
+  )
+  await page.reload()
+  await openTrips(page)
+  const before = await state(page)
   await openWorkspace(page, '이동시간')
-  await expect(minutes(page)).toHaveValue('13')
-  await minutes(page).fill('7')
+  await expect(minutes(page)).toHaveText('13분')
   await mode(page).selectOption('transit')
-  await expect
-    .poll(() => page.evaluate(() => (window as any).googleCalls.length))
-    .toBe(2)
-  await expect(minutes(page)).toHaveValue('7')
-  await page
-    .getByRole('button', { name: '이동시간 다시 계산', exact: true })
-    .click()
-  await expect
-    .poll(() => page.evaluate(() => (window as any).googleCalls.length))
-    .toBe(3)
-  await expect(minutes(page)).toHaveValue('7')
+  await expect(minutes(page)).toHaveText('22분')
+  await mode(page).selectOption('driving')
+  await expect(minutes(page)).toHaveText('9분')
+  expect(await state(page)).toEqual(before)
   await page.reload()
   await openTrips(page)
   await openWorkspace(page, '이동시간')
-  await expect(minutes(page)).toHaveValue('7')
-  expect((await state(page)).days[0][0].note).toBe('개인 메모')
+  await expect(minutes(page)).toHaveText('13분')
+  expect(await state(page)).toEqual(before)
 })
 
 test('늦은 이전 이동수단 응답은 현재 선택을 덮어쓰지 않음', async ({
@@ -178,12 +187,12 @@ test('늦은 이전 이동수단 응답은 현재 선택을 덮어쓰지 않음'
     )
     .toBe(2)
   await page.evaluate(() => (window as any).googleRequestsPending.shift()())
-  await expect(minutes(page)).toHaveValue('')
+  await expect(minutes(page)).not.toHaveText(/^[0-9]+분$/)
   await page.evaluate(() => (window as any).googleRequestsPending.shift()())
-  await expect(minutes(page)).toHaveValue('22')
+  await expect(minutes(page)).toHaveText('22분')
 })
 
-test('경로 실패·누락 응답은 추정값으로 채우지 않고 직접 입력과 재시도 유지', async ({
+test('경로 실패·누락 응답은 추정값으로 채우지 않고 재시도 유지', async ({
   page,
 }) => {
   await seed(page)
@@ -191,17 +200,13 @@ test('경로 실패·누락 응답은 추정값으로 채우지 않고 직접 �
     ;(window as any).googleRouteFailure = true
   })
   await openWorkspace(page, '이동시간')
-  await expect(
-    page.getByText(/Google 이동시간을 가져오지 못했어요/),
-  ).toBeVisible()
-  await expect(minutes(page)).toHaveValue('')
+  await expect(minutes(page)).toHaveText('계산 실패')
+  await expect(minutes(page)).not.toHaveText(/^[0-9]+분$/)
   await page.evaluate(() => {
     ;(window as any).googleRouteFailure = false
   })
-  await page
-    .getByRole('button', { name: '이동시간 다시 계산', exact: true })
-    .click()
-  await expect(minutes(page)).toHaveValue('13')
+  await page.getByRole('button', { name: '다시 계산', exact: true }).click()
+  await expect(minutes(page)).toHaveText('13분')
 })
 
 test('위치 없는 구간은 건너뛰어 연결하거나 이동시간을 만들지 않음', async ({
@@ -210,7 +215,7 @@ test('위치 없는 구간은 건너뛰어 연결하거나 이동시간을 만�
   await seed(page, true)
   await openWorkspace(page, '이동시간')
   await expect(
-    page.getByText('두 장소의 위치를 추가하면 자동 계산할 수 있어요.', {
+    page.getByText('위치 필요', {
       exact: true,
     }),
   ).toHaveCount(2)
@@ -273,10 +278,8 @@ test('20초 지연 뒤 실패를 표시하며 늦은 결과는 시간을 저장�
     )
     .toBe(1)
   await page.clock.runFor(20001)
-  await expect(
-    page.getByText(/Google 이동시간 계산이 지연됩니다/),
-  ).toBeVisible()
-  await expect(minutes(page)).toHaveValue('')
+  await expect(minutes(page)).toHaveText('계산 지연')
+  await expect(minutes(page)).not.toHaveText(/^[0-9]+분$/)
   await page.evaluate(() => (window as any).googleRequestsPending.shift()())
   expect((await state(page)).days[0][1].transfer).toBeUndefined()
 })
@@ -319,4 +322,29 @@ test('SDK 라이브러리 자체가 응답하지 않아도 20초 후 지연 상�
     'Google 지도 연결이 지연됩니다.',
   )
   await expect(page.locator('.itinerary-map-pin')).toHaveCount(0)
+})
+
+test('320px에서도 이동수단과 계산 값만 간결하게 표시', async ({ page }) => {
+  await page.setViewportSize({ width: 320, height: 740 })
+  await seed(page)
+  await openWorkspace(page, '이동시간')
+  await expect(minutes(page)).toHaveText('13분')
+  const panel = page.getByRole('region', { name: '이동시간 확인' })
+  await expect(panel.locator('input')).toHaveCount(0)
+  await expect(panel).not.toContainText(
+    /직선|조회 시점|자동 계산|도착|체류|직접 입력/,
+  )
+  await expect(mode(page).locator('option')).toHaveText([
+    '도보',
+    '대중교통',
+    '자동차',
+  ])
+  expect(
+    await mode(page).evaluate((el) => el.getBoundingClientRect().height),
+  ).toBeGreaterThanOrEqual(44)
+  expect(
+    await page.evaluate(
+      () => document.documentElement.scrollWidth <= innerWidth,
+    ),
+  ).toBe(true)
 })

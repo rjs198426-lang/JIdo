@@ -7,7 +7,7 @@ export type TravelMode = 'walking' | 'transit' | 'driving'
 export const travelModes: Record<TravelMode, string> = {
   walking: '도보',
   transit: '대중교통',
-  driving: '차량',
+  driving: '자동차',
 }
 export type GoogleRoute = {
   minutes: number
