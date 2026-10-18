@@ -10,8 +10,8 @@
     {
       "kind": "place",
       "total": 1066,
-      "ready": 70,
-      "missing": 996
+      "ready": 71,
+      "missing": 995
     }
   ],
   "missing": [
@@ -3269,15 +3269,6 @@
       "id": "tokyo-review-d7aaf7f3d7d1",
       "name": "기타노마루 공원",
       "cityId": "tokyo",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
-      "id": "osaka-review-b0660bf9b758",
-      "name": "쓰텐카쿠",
-      "cityId": "osaka",
       "image": "/images/place-placeholder.svg",
       "ready": false,
       "reason": "missing-licensed-photo"

@@ -1,5 +1,6 @@
 import { homeJourney } from './home-journey'
 import AppInformation from './AppInformation'
+import BlogPhotos from './BlogPhotos'
 import { meaningfulCost } from './place-introduction'
 import { balancedPlaces } from './category-balance'
 import CompanionCount from './CompanionCount'
@@ -2917,6 +2918,7 @@ export default function App() {
                   id={city.id}
                   name={city.name}
                 />
+                <BlogPhotos cityId={city.id} />
                 <GuideContent
                   guide={storedGuide}
                   cityId={city.id}
@@ -2995,6 +2997,11 @@ export default function App() {
                   </details>
                 )}
                 <p className="city-intro">{place.description}</p>
+                <BlogPhotos
+                  cityId={city.id}
+                  placeId={place.id}
+                  primaryImage={place.image}
+                />
                 <div className="place-facts">
                   {place.area && (
                     <p>

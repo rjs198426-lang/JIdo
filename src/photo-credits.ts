@@ -1,4 +1,5 @@
 import photos136 from './photos-136.json' with { type: 'json' }
+import blogPhotos from './blog-photos.json' with { type: 'json' }
 import additional from './additional-photo-credits.json' with { type: 'json' }
 import photos126 from './photos-126.json' with { type: 'json' }
 export type PhotoCreditInfo = {
@@ -471,3 +472,7 @@ export const photoCredits: Record<string, PhotoCreditInfo> = {
 }
 
 Object.assign(photoCredits, additional, photos126, photos136)
+for (const photo of blogPhotos) {
+  if (photo.primaryPlaceId && !photoCredits[photo.primaryPlaceId])
+    photoCredits[photo.primaryPlaceId] = photo.photoCredit
+}

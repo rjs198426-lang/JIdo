@@ -1,13 +1,8 @@
 import { useState } from 'react'
 import { Search, ExternalLink } from 'lucide-react'
-import {
-  cities,
-  places,
-  getCity,
-  getPlace,
-  type City,
-  type Place,
-} from './catalog'
+import { cities, places, getCity, getPlace } from './catalog'
+import blogPhotos from './blog-photos.json'
+import type { PhotoCreditInfo } from './photo-credits'
 import { tripCity, tripDestinations, type Trip } from './travel-model'
 
 export default function PhotoCredits({
@@ -20,9 +15,11 @@ export default function PhotoCredits({
   savedPlaces: string[]
 }) {
   const [query, setQuery] = useState('')
-  const sources: (City | Place | undefined)[] = [
+  type Source = { name: string; image: string; photoCredit?: PhotoCreditInfo }
+  const sources: (Source | undefined)[] = [
     ...cities,
     ...places,
+    ...blogPhotos,
     ...savedCities.map(getCity),
     ...savedPlaces.map(getPlace),
     ...trips.flatMap((trip) => [
@@ -37,10 +34,7 @@ export default function PhotoCredits({
         ),
     ]),
   ]
-  const entries = new Map<
-    string,
-    { source: City | Place; names: Set<string> }
-  >()
+  const entries = new Map<string, { source: Source; names: Set<string> }>()
   for (const source of sources) {
     const credit = source?.photoCredit
     if (!source || !credit || source.image !== credit.file) continue

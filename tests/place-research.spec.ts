@@ -110,7 +110,7 @@ test('21개 여행권의 조사 자료와 미검증 휴양지 명소를 구분�
       place.reviewSources?.some((source) => source.kind === 'visit-review'),
     ),
   ).toHaveLength(18)
-  expect(places.filter((place) => place.photoCredit)).toHaveLength(70)
+  expect(places.filter((place) => place.photoCredit)).toHaveLength(71)
 })
 
 test('도시 선택·목록 추가·근교 검색은 인터넷 없이 동작하고 서로의 필터를 보존', async ({
