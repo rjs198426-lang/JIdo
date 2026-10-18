@@ -1,4 +1,5 @@
 import { homeJourney } from './home-journey'
+import AppInformation from './AppInformation'
 import { meaningfulCost } from './place-introduction'
 import { balancedPlaces } from './category-balance'
 import CompanionCount from './CompanionCount'
@@ -100,7 +101,6 @@ import {
   Plane,
   ExternalLink,
   Pencil,
-  Info,
   BedDouble,
   Music,
   ShoppingBag,
@@ -1772,7 +1772,9 @@ export default function App() {
   const [placeLimit, setPlaceLimit] = useState(24)
   const [exploreTab, setExploreTab] = useState<'cities' | 'places'>('cities')
   const [dialog, setDialog] = useState<Dialog | null>(null)
+  const [infoOpen, setInfoOpen] = useState(false)
   const closeDialog = () => setDialog(null)
+  useEffect(() => setInfoOpen(false), [page, dialog])
 
   const [toast, setToast] = useState('')
   const [activeTripId, setActiveTripId] = useState(() => {
@@ -1807,8 +1809,8 @@ export default function App() {
     const trip = store.trips.find((item) => item.id === activeTripId)
     return trip ? journeyPreference(trip).day : 0
   })
-  const navigationRef = useRef({ page, dialog, closeDialog })
-  navigationRef.current = { page, dialog, closeDialog }
+  const navigationRef = useRef({ page, dialog, closeDialog, infoOpen })
+  navigationRef.current = { page, dialog, closeDialog, infoOpen }
   useEffect(() => {
     if (!toast) return
     const timer = window.setTimeout(() => setToast(''), 2600)
@@ -1817,6 +1819,7 @@ export default function App() {
   useEffect(() => {
     const showHome = () => {
       setDialog(null)
+      setInfoOpen(false)
       setToast('')
       setPage('home')
       window.scrollTo({ top: 0, behavior: 'instant' })
@@ -1833,6 +1836,11 @@ export default function App() {
       ).at(-1)
       if (preview) {
         preview.dispatchEvent(new Event('cancel', { cancelable: true }))
+        return
+      }
+      if (navigationRef.current.infoOpen) {
+        setInfoOpen(false)
+        document.getElementById('app-information-toggle')?.focus()
         return
       }
       if (navigationRef.current.dialog) navigationRef.current.closeDialog()
@@ -1853,6 +1861,7 @@ export default function App() {
     }
   }, [])
   const navigate = (target: Page) => {
+    setInfoOpen(false)
     setPage(target)
     window.scrollTo({ top: 0, behavior: 'smooth' })
   }
@@ -2129,13 +2138,15 @@ export default function App() {
             ))}
           </nav>
           <div className="header-actions">
-            <button
-              className="icon-button header-info"
-              aria-label="사진 출처"
-              onClick={() => setDialog({ type: 'credits' })}
-            >
-              <Info size={20} />
-            </button>
+            <AppInformation
+              open={infoOpen}
+              onToggle={() => setInfoOpen((value) => !value)}
+              onClose={() => setInfoOpen(false)}
+              onPhotoCredits={() => {
+                setInfoOpen(false)
+                setDialog({ type: 'credits' })
+              }}
+            />
             <button
               className="header-search icon-button"
               aria-label="여행지 검색"

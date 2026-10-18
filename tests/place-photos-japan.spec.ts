@@ -344,6 +344,7 @@ test('70개 장소의 사진 파일이 열리고 장소별로 구분되며 촬�
   await expect(dialog.locator('.photo-credit')).toHaveCount(0)
   await page.getByRole('button', { name: '닫기', exact: true }).click()
   await expect(page.getByRole('dialog')).toHaveCount(0)
+  await page.getByRole('button', { name: '앱 정보', exact: true }).click()
   await page.getByRole('button', { name: '사진 출처', exact: true }).click()
   await page.getByLabel('사진 출처 검색').fill('기요미즈데라')
   const credit = page.locator('.photo-credit-entry')
