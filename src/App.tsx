@@ -1,3 +1,14 @@
+import ScheduleToolbar from './ScheduleToolbar'
+import ScheduleStopInfo from './ScheduleStopInfo'
+import ScheduleOrderDialog from './ScheduleOrderDialog'
+import {
+  emptyScheduleFilter,
+  matchesSchedule,
+  scheduleSummary,
+  applyScheduleOrder,
+  type ScheduleFilter,
+  type ScheduleOrder,
+} from './schedule-list'
 import { homeJourney } from './home-journey'
 import AppInformation from './AppInformation'
 import BlogPhotos from './BlogPhotos'
@@ -791,6 +802,22 @@ function Itinerary({
     }
   })
   const [expandedStops, setExpandedStops] = useState<string[]>([])
+  const [filterState, setFilterState] = useState<{
+    day: number
+    value: ScheduleFilter
+  }>({ day, value: { ...emptyScheduleFilter } })
+  useEffect(() => {
+    setFilterState({ day, value: { ...emptyScheduleFilter } })
+  }, [day, trip.id])
+  const scheduleFilter =
+    filterState.day === day ? filterState.value : { ...emptyScheduleFilter }
+  const setScheduleFilter = (value: ScheduleFilter) =>
+    setFilterState({ day, value })
+  const resetScheduleFilter = () =>
+    setScheduleFilter({ ...emptyScheduleFilter })
+  const [orderOpen, setOrderOpen] = useState(false)
+  const [orderUndo, setOrderUndo] = useState<ScheduleOrder>()
+  const [orderError, setOrderError] = useState('')
   const [adjustOpen, setAdjustOpen] = useState(false)
   const [timeUndo, setTimeUndo] = useState<TimeAdjustment>()
   const [adjustError, setAdjustError] = useState('')
@@ -854,6 +881,7 @@ function Itinerary({
     element?.focus({ preventScroll: true })
   }, [workspace, day, targetRevision])
   const locate = (target: JourneyTarget) => {
+    if (target.workspace === 'schedule') resetScheduleFilter()
     if (target.stopId)
       setExpandedStops((items) => [...new Set([...items, target.stopId!])])
     setFocusedExpenseId(target.expenseId)
@@ -883,6 +911,8 @@ function Itinerary({
     setWorkspace('route')
   }
   const showInList = (id: string) => {
+    resetScheduleFilter()
+    setExpandedStops((items) => [...new Set([...items, id])])
     setSelectedStops((previous) => ({ ...previous, [day]: id }))
     pendingScroll.current = id
     setWorkspace('schedule')
@@ -898,6 +928,16 @@ function Itinerary({
     index: number
   } | null>(null)
   const stops = trip.days[day] || []
+  const daySummary = scheduleSummary(trip, day)
+  const visibleStops = stops
+    .map((stop, index) => ({ stop, index }))
+    .filter(({ stop }) => matchesSchedule(trip, stop, scheduleFilter))
+  const changeOrder = (change: ScheduleOrder) => {
+    onUpdate(applyScheduleOrder(trip, change))
+    setOrderUndo(change)
+    setOrderError('')
+  }
+
   const updateStop = (id: string, change: Partial<Stop>) =>
     onUpdate({
       ...trip,
@@ -940,15 +980,13 @@ function Itinerary({
     onDayChange(target)
   }
   const moveStop = (index: number, direction: number) => {
-    const updated = [...stops]
+    if (index + direction < 0 || index + direction >= stops.length) return
+    const updated = stops.map((stop) => stop.id)
     ;[updated[index], updated[index + direction]] = [
       updated[index + direction],
       updated[index],
     ]
-    onUpdate({
-      ...trip,
-      days: trip.days.map((items, i) => (i === day ? updated : items)),
-    })
+    changeOrder({ day, before: stops.map((stop) => stop.id), after: updated })
   }
   return (
     <AttachmentsContext.Provider
@@ -1273,17 +1311,50 @@ function Itinerary({
                     </div>
                   </div>
                   {stops.length > 0 && (
+                    <ScheduleToolbar
+                      trip={trip}
+                      day={day}
+                      filter={scheduleFilter}
+                      onFilter={setScheduleFilter}
+                      visible={visibleStops.length}
+                      onNext={(stop) =>
+                        locate({ workspace: 'schedule', day, stopId: stop.id })
+                      }
+                    />
+                  )}
+                  {orderUndo && (
+                    <div className="undo-strip" role="status">
+                      DAY {orderUndo.day + 1} · 방문 순서를 변경했어요.
+                      <button
+                        onClick={() => {
+                          try {
+                            onUpdate(applyScheduleOrder(trip, orderUndo, true))
+                            setOrderError('')
+                          } catch (reason) {
+                            setOrderError((reason as Error).message)
+                          }
+                          setOrderUndo(undefined)
+                        }}
+                      >
+                        순서 변경 되돌리기
+                      </button>
+                    </div>
+                  )}
+                  {orderError && (
+                    <p className="form-error" role="alert">
+                      {orderError}
+                    </p>
+                  )}
+                  {stops.length > 0 && (
                     <div className="day-progress">
                       <span>
-                        {stops.filter((stop) => stop.status === 'done').length}/
-                        {stops.length} 방문 완료
+                        {daySummary.done}/{daySummary.planned + daySummary.done}{' '}
+                        방문 완료
                       </span>
                       <progress
                         aria-label="이날의 방문 진행률"
-                        value={
-                          stops.filter((stop) => stop.status === 'done').length
-                        }
-                        max={stops.length}
+                        value={daySummary.done}
+                        max={Math.max(1, daySummary.planned + daySummary.done)}
                       />
                     </div>
                   )}
@@ -1329,26 +1400,31 @@ function Itinerary({
                           (stop, index) =>
                             index > 0 && stops[index - 1].time > stop.time,
                         )
-                          ? '방문 순서와 시간이 달라요. 순서대로 갈지 확인해 보세요.'
+                          ? '방문 순서와 시간이 달라요'
                           : `오늘 ${stops.length}개의 일정`}
                       </span>
-                      <button
-                        className="text-button"
-                        onClick={() =>
-                          onUpdate({
-                            ...trip,
-                            days: trip.days.map((items, index) =>
-                              index === day
-                                ? [...items].sort((a, b) =>
-                                    a.time.localeCompare(b.time),
-                                  )
-                                : items,
-                            ),
-                          })
-                        }
-                      >
-                        시간순 정렬 <ArrowDown size={14} />
-                      </button>
+                      <div className="schedule-sort-actions">
+                        <button
+                          className="button outline small"
+                          onClick={() => setOrderOpen(true)}
+                        >
+                          순서 편집
+                        </button>
+                        <button
+                          className="text-button"
+                          onClick={() =>
+                            changeOrder({
+                              day,
+                              before: stops.map((stop) => stop.id),
+                              after: [...stops]
+                                .sort((a, b) => a.time.localeCompare(b.time))
+                                .map((stop) => stop.id),
+                            })
+                          }
+                        >
+                          시간순 정렬 <ArrowDown size={14} />
+                        </button>
+                      </div>
                     </div>
                   )}
                   {stops.length === 0 ? (
@@ -1361,7 +1437,18 @@ function Itinerary({
                     />
                   ) : (
                     <div className="timeline">
-                      {stops.map((stop, index) => {
+                      {!visibleStops.length && (
+                        <div className="schedule-empty-results" role="status">
+                          <p>조건에 맞는 일정이 없어요.</p>
+                          <button
+                            className="button outline"
+                            onClick={resetScheduleFilter}
+                          >
+                            모든 일정 보기
+                          </button>
+                        </div>
+                      )}
+                      {visibleStops.map(({ stop, index }) => {
                         const place = stopDetails(stop)
                         const Icon =
                           categoryIcon[
@@ -1472,14 +1559,16 @@ function Itinerary({
                                     <MapPin size={12} />
                                     {place.address}
                                   </span>
-                                  <span>
-                                    <Clock3 size={12} />
-                                    {place.duration}
-                                  </span>
                                 </button>
                                 <ChevronRight size={18} />
                               </div>
 
+                              <ScheduleStopInfo
+                                trip={trip}
+                                stop={stop}
+                                day={day}
+                                onLocate={locate}
+                              />
                               <PlaceSource stop={stop} />
                               <a
                                 className="custom-stop-link"
@@ -1646,6 +1735,15 @@ function Itinerary({
                       })}
                     </div>
                   )}
+                  {stops.length > 0 && (
+                    <button
+                      className="button outline full schedule-add-bottom"
+                      onClick={onAdd}
+                    >
+                      <Plus size={16} />
+                      장소 더하기
+                    </button>
+                  )}
                   {removed && (
                     <div className="undo-strip" role="status">
                       일정에서 삭제했어요.
@@ -1711,6 +1809,15 @@ function Itinerary({
               trip={trip}
               onClose={() => setSearchOpen(false)}
               onLocate={locate}
+            />
+          )}
+          {orderOpen && (
+            <ScheduleOrderDialog
+              key={`${trip.id}:${day}`}
+              trip={trip}
+              day={day}
+              onClose={() => setOrderOpen(false)}
+              onApply={changeOrder}
             />
           )}
           {adjustOpen && (
