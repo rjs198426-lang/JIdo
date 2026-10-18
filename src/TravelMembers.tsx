@@ -22,7 +22,11 @@ export default function TravelMembers({
       (item) =>
         item.payerId === id ||
         item.splits?.some((split) => split.memberId === id),
-    ) || (trip.checklist || []).some((item) => item.assigneeId === id)
+    ) ||
+    (trip.checklist || []).some((item) => item.assigneeId === id) ||
+    (trip.settlementPayments || []).some(
+      (item) => item.from === id || item.to === id,
+    )
   return (
     <div className="member-settings">
       <div className="tool-heading">
@@ -89,7 +93,9 @@ export default function TravelMembers({
                 className="icon-button"
                 type="button"
                 aria-label={`${member.name} 동행인 삭제`}
-                disabled={index === 0 || members.length === 1 || referenced(member.id)}
+                disabled={
+                  index === 0 || members.length === 1 || referenced(member.id)
+                }
                 onClick={() =>
                   setMembers(
                     members.filter((current) => current.id !== member.id),

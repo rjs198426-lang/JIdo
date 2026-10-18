@@ -57,6 +57,9 @@ export default function TripEditor({
         (member, index) =>
           member.name !== `동행 ${travelers + index}` ||
           trip.checklist?.some((item) => item.assigneeId === member.id) ||
+          trip.settlementPayments?.some(
+            (item) => item.from === member.id || item.to === member.id,
+          ) ||
           trip.expenses?.some(
             (item) =>
               item.payerId === member.id ||

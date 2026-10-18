@@ -46,7 +46,7 @@ export default function QuickExpense({
       date: dateAt(trip.startDate, day),
       category: expenseCategoryFor(stop),
       note: '',
-      paymentMethod: '카드' as NonNullable<Expense['paymentMethod']>,
+      paymentMethod: preference.paymentMethod,
       direction: 'expense' as 'expense' | 'refund',
       splitMode: 'none',
       participants: members.map((member) => member.id),
@@ -63,7 +63,7 @@ export default function QuickExpense({
         state.currency !== preference.currency ||
         state.payerId !== preference.payerId ||
         state.payer !== (trip.travelers === 1 ? '나' : '') ||
-        state.paymentMethod !== '카드' ||
+        state.paymentMethod !== preference.paymentMethod ||
         state.direction !== 'expense' ||
         state.splitMode !== 'none' ||
         Object.keys(state.shares).length

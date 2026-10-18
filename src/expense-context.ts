@@ -54,7 +54,11 @@ const countryCurrencies: Record<string, Currency> = {
 const preferenceKey = (trip: Trip, day: number) =>
   `jido-expense-pref:${trip.id}:${destinationForDay(trip, day).id}`
 export function expensePreferences(trip: Trip, day: number) {
-  let saved: { currency?: Currency; payerId?: string } = {}
+  let saved: {
+    currency?: Currency
+    payerId?: string
+    paymentMethod?: Expense['paymentMethod']
+  } = {}
   try {
     saved =
       JSON.parse(localStorage.getItem(preferenceKey(trip, day)) || '{}') || {}
@@ -69,6 +73,9 @@ export function expensePreferences(trip: Trip, day: number) {
           : undefined) ||
         trip.baseCurrency ||
         'KRW',
+    paymentMethod: (['카드', '현금', '기타'].includes(saved.paymentMethod || '')
+      ? saved.paymentMethod
+      : '카드') as NonNullable<Expense['paymentMethod']>,
     payerId:
       trip.members?.find((member) => member.id === saved.payerId)?.id ||
       trip.members?.[0]?.id ||
@@ -83,7 +90,12 @@ export function rememberExpense(trip: Trip, expense: Expense) {
   try {
     localStorage.setItem(
       preferenceKey(trip, day),
-      JSON.stringify({ currency: expense.currency, payerId: expense.payerId }),
+      JSON.stringify({
+        currency: expense.currency,
+        payerId: expense.payerId,
+        paymentMethod:
+          expense.paymentMethod || expensePreferences(trip, day).paymentMethod,
+      }),
     )
   } catch {
     /* The expense itself has already been saved. */

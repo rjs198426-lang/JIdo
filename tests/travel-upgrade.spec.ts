@@ -234,7 +234,10 @@ test('환율·예산·환불·동행인 정산·CSV를 같은 가계부에서 �
   await expense(page, '저녁 식사', '30')
   await expense(page, '식사 환불', '10', 'refund')
   await expect(page.locator('.money-overview')).toContainText('환율 입력 필요')
-  await page.getByText('환율·전체 예산', { exact: true }).click()
+  await page
+    .getByRole('tablist', { name: '가계부 보기' })
+    .getByRole('tab', { name: '예산', exact: true })
+    .click()
   await page.getByLabel('전체 여행 예산').fill('25000')
   await page.getByLabel('환율 통화').selectOption('EUR')
   await page.getByLabel('환율 값').fill('1500')
@@ -298,7 +301,7 @@ test('개별 분담 합계 오류는 저장하지 않고 새 정보도 백업·�
   await tab(page, '가계부')
   await page.getByRole('button', { name: '지출 추가', exact: true }).click()
   await page.getByLabel('지출 이름').fill('공동 식사')
-  await page.getByLabel('지출 통화', { exact:true }).selectOption('KRW')
+  await page.getByLabel('지출 통화', { exact: true }).selectOption('KRW')
   await page.getByLabel('금액', { exact: true }).fill('10000')
   await page.getByLabel('비용 분담').selectOption('custom')
   await page.getByLabel('민수 부담 금액').fill('2000')
@@ -365,7 +368,10 @@ test('320px에서 준비·예약·환율·분담 입력에 가로 넘침 없음'
   await page.getByRole('button', { name: '지출 추가', exact: true }).click()
   await page.getByLabel('비용 분담').selectOption('custom')
   await fits()
-  await page.getByText('환율·전체 예산', { exact: true }).click()
+  await page
+    .getByRole('tablist', { name: '가계부 보기' })
+    .getByRole('tab', { name: '예산', exact: true })
+    .click()
   await fits()
   await page.screenshot({
     path: `artifacts/upgraded-cost-${test.info().project.name}.png`,

@@ -149,6 +149,7 @@ test('예약 확인서와 영수증을 각각 예약·경비 기록에 첨부하
     page.getByRole('button', { name: '예약 확인.txt 자료 열기' }),
   ).toBeVisible()
   await tab(page, '가계부')
+  await page.getByLabel('저녁 식사 영수증·자료', { exact: true }).click()
   await page
     .getByRole('region', { name: '경비 첨부 자료' })
     .getByLabel('첨부할 자료 파일')

@@ -379,6 +379,22 @@ test('전체 백업은 PDF·개인 사진·대표 참조를 새 저장소에 복
     })
     db.close()
     const store = JSON.parse(localStorage.getItem('jido-travel-v1')!)
+    store.trips[0].travelers = 2
+    store.trips[0].members = [
+      { id: 'me', name: '나' },
+      { id: 'friend', name: '동행' },
+    ]
+    store.trips[0].settlementPayments = [
+      {
+        id: 'sent',
+        from: 'friend',
+        to: 'me',
+        currency: 'JPY',
+        amount: 100,
+        date: '2026-11-04',
+        note: '송금 확인',
+      },
+    ]
     store.trips[0].attachments = [
       {
         id,
@@ -434,6 +450,17 @@ test('전체 백업은 PDF·개인 사진·대표 참조를 새 저장소에 복
   const trip = data.store.trips[0]
   expect(trip.id).not.toBe('audit-fixes')
   expect(trip.days[0][0].note).toBe('개인 예약 메모')
+  expect(trip.settlementPayments).toEqual([
+    {
+      id: 'sent',
+      from: 'friend',
+      to: 'me',
+      currency: 'JPY',
+      amount: 100,
+      date: '2026-11-04',
+      note: '송금 확인',
+    },
+  ])
   expect(
     trip.attachments.find((f: { name: string }) => f.name === '예약.pdf')
       .reservationId,
@@ -476,6 +503,10 @@ test('전체 백업은 PDF·개인 사진·대표 참조를 새 저장소에 복
   await restored
     .locator('.desktop-nav:visible,.bottom-nav:visible')
     .getByRole('button', { name: '홈', exact: true })
+    .click()
+  await restored
+    .locator('.desktop-nav:visible,.bottom-nav:visible')
+    .getByRole('button', { name: '여행지', exact: true })
     .click()
   await restored
     .getByRole('button', { name: '교토 여행지 자세히 보기', exact: true })

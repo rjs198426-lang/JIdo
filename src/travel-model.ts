@@ -220,6 +220,15 @@ export function validCurrencyAmount(amount: number, currency: Currency) {
   const scaled = amount / currencyStep(currency)
   return Math.abs(scaled - Math.round(scaled)) < 0.0001
 }
+export const settlementPaymentSchema = z.object({
+  id,
+  from: id,
+  to: id,
+  amount: z.number().finite().positive().max(1e9),
+  currency: z.enum(currencies),
+  date: dateSchema,
+  note: z.string().max(1000).optional(),
+})
 export const tripSchema = z
   .object({
     id,
@@ -233,6 +242,7 @@ export const tripSchema = z
     dayDestinationIds: z.array(id).max(90).optional(),
     checklist: z.array(checklistSchema).max(500).optional(),
     expenses: z.array(expenseSchema).max(10000).optional(),
+    settlementPayments: z.array(settlementPaymentSchema).max(10000).optional(),
     budgets: z
       .partialRecord(
         z.enum(currencies),
@@ -317,6 +327,16 @@ export const tripSchema = z
           fail('부담 금액 합계가 지출 금액과 달라요.')
       }
     }
+    for (const payment of trip.settlementPayments || []) {
+      if (
+        payment.from === payment.to ||
+        !memberIds.has(payment.from) ||
+        !memberIds.has(payment.to)
+      )
+        fail('송금한 사람과 받은 사람을 확인하세요.')
+      if (!validCurrencyAmount(payment.amount, payment.currency))
+        fail('통화에 맞는 송금 금액을 입력하세요.')
+    }
     if (
       trip.totalBudget !== undefined &&
       !validCurrencyAmount(trip.totalBudget, trip.baseCurrency || 'KRW')
@@ -336,6 +356,7 @@ export const tripSchema = z
     for (const collection of [
       trip.checklist,
       trip.expenses,
+      trip.settlementPayments,
       trip.reservations,
       trip.attachments,
     ]) {
@@ -351,6 +372,7 @@ export type CustomPlace = z.infer<typeof customPlaceSchema>
 export type Stop = z.infer<typeof stopSchema>
 export type Trip = z.infer<typeof tripSchema>
 export type Expense = z.infer<typeof expenseSchema>
+export type SettlementPayment = z.infer<typeof settlementPaymentSchema>
 export type Reservation = z.infer<typeof reservationSchema>
 export type Currency = (typeof currencies)[number]
 export function tripDestinations(trip: {

@@ -176,10 +176,17 @@ test('예약 정보·체크리스트 편집과 재시작 복원', async ({ page 
 test('통화별 경비·예산과 지출 수정·삭제 취소', async ({ page }) => {
   await customTrip(page)
   await tab(page, '가계부')
-  await page.getByText('통화별 예산 설정', { exact: true }).click()
+  await page
+    .getByRole('tablist', { name: '가계부 보기' })
+    .getByRole('tab', { name: '예산', exact: true })
+    .click()
   await page.getByLabel('예산 통화').selectOption('EUR')
   await page.getByLabel('예산 금액').fill('100')
   await page.getByRole('button', { name: '예산 저장', exact: true }).click()
+  await page
+    .getByRole('tablist', { name: '가계부 보기' })
+    .getByRole('tab', { name: '지출', exact: true })
+    .click()
   for (const [title, amount, currency] of [
     ['저녁 식사', '30.50', 'EUR'],
     ['기차표', '80', 'EUR'],

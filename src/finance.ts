@@ -83,56 +83,64 @@ export function settlements(trip: Trip) {
     if (!good) excluded++
     return good
   })
-  const groups = [...new Set(eligible.map((item) => item.currency))].map(
-    (currency) => {
-      const unit = currencyStep(currency)
-      const balances = new Map(members.map((member) => [member.id, 0]))
-      for (const item of eligible.filter(
-        (item) => item.currency === currency,
-      )) {
-        const sign = item.direction === 'refund' ? -1 : 1
+  const groups = [
+    ...new Set([
+      ...eligible.map((item) => item.currency),
+      ...(trip.settlementPayments || []).map((item) => item.currency),
+    ]),
+  ].map((currency) => {
+    const unit = currencyStep(currency)
+    const balances = new Map(members.map((member) => [member.id, 0]))
+    for (const item of eligible.filter((item) => item.currency === currency)) {
+      const sign = item.direction === 'refund' ? -1 : 1
+      balances.set(
+        item.payerId!,
+        balances.get(item.payerId!)! + Math.round(item.amount / unit) * sign,
+      )
+      for (const split of item.splits!)
         balances.set(
-          item.payerId!,
-          balances.get(item.payerId!)! + Math.round(item.amount / unit) * sign,
+          split.memberId,
+          balances.get(split.memberId)! -
+            Math.round(split.amount / unit) * sign,
         )
-        for (const split of item.splits!)
-          balances.set(
-            split.memberId,
-            balances.get(split.memberId)! -
-              Math.round(split.amount / unit) * sign,
-          )
-      }
-      const creditors = [...balances]
-        .filter(([, units]) => units > 0)
-        .map(([id, units]) => ({ id, units }))
-        .sort((a, b) => b.units - a.units || a.id.localeCompare(b.id))
-      const debtors = [...balances]
-        .filter(([, units]) => units < 0)
-        .map(([id, units]) => ({ id, units: -units }))
-        .sort((a, b) => b.units - a.units || a.id.localeCompare(b.id))
-      const transfers: { from: string; to: string; amount: number }[] = []
-      for (const debtor of debtors)
-        for (const creditor of creditors) {
-          const units = Math.min(debtor.units, creditor.units)
-          if (!units) continue
-          transfers.push({
-            from: debtor.id,
-            to: creditor.id,
-            amount: Math.round(units * unit * 100) / 100,
-          })
-          debtor.units -= units
-          creditor.units -= units
-        }
-      return {
-        currency,
-        balances: [...balances].map(([memberId, units]) => ({
-          memberId,
+    }
+    for (const payment of (trip.settlementPayments || []).filter(
+      (item) => item.currency === currency,
+    )) {
+      const units = Math.round(payment.amount / unit)
+      balances.set(payment.from, (balances.get(payment.from) || 0) + units)
+      balances.set(payment.to, (balances.get(payment.to) || 0) - units)
+    }
+    const creditors = [...balances]
+      .filter(([, units]) => units > 0)
+      .map(([id, units]) => ({ id, units }))
+      .sort((a, b) => b.units - a.units || a.id.localeCompare(b.id))
+    const debtors = [...balances]
+      .filter(([, units]) => units < 0)
+      .map(([id, units]) => ({ id, units: -units }))
+      .sort((a, b) => b.units - a.units || a.id.localeCompare(b.id))
+    const transfers: { from: string; to: string; amount: number }[] = []
+    for (const debtor of debtors)
+      for (const creditor of creditors) {
+        const units = Math.min(debtor.units, creditor.units)
+        if (!units) continue
+        transfers.push({
+          from: debtor.id,
+          to: creditor.id,
           amount: Math.round(units * unit * 100) / 100,
-        })),
-        transfers,
+        })
+        debtor.units -= units
+        creditor.units -= units
       }
-    },
-  )
+    return {
+      currency,
+      balances: [...balances].map(([memberId, units]) => ({
+        memberId,
+        amount: Math.round(units * unit * 100) / 100,
+      })),
+      transfers,
+    }
+  })
   return { groups, excluded }
 }
 export function expensesCsv(trip: Trip) {

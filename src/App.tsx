@@ -1703,6 +1703,7 @@ function Itinerary({
           )}
           {workspace === 'expenses' && (
             <Expenses
+              onQuickAdd={() => onQuickExpense()}
               day={day}
               key={targetRevision}
               focusExpenseId={focusedExpenseId}
