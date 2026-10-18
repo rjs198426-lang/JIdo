@@ -564,7 +564,7 @@ test('탐색 이력과 검색창은 재시작에 남지 않고 홈으로 시작,
   await openTrips(page)
   await expect(
     page.getByRole('button', { name: '이전 여행 화면', exact: true }),
-  ).toBeDisabled()
+  ).toHaveCount(0)
   expect((await state(page)).attachments).toEqual(fixture().attachments)
 })
 
@@ -582,9 +582,7 @@ test('작성 중인 새 준비물과 수정 초안은 검색 왕복·재시작�
     .getByRole('textbox', { name: '준비물 메모', exact: true })
     .fill('숙소에도 한 장 보관')
   await searchSelect(page, 'LOCAL-77', '교토 입장 예약')
-  await page
-    .getByRole('button', { name: '이전 여행 화면', exact: true })
-    .click()
+  await page.evaluate(() => window.dispatchEvent(new Event('jido:back')))
   await expect(page.getByLabel('새 준비물', { exact: true })).toHaveValue(
     '전원 어댑터 챙기기',
   )

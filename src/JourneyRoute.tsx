@@ -14,6 +14,7 @@ import {
   type Trip,
 } from './travel-model'
 import { routePoints } from './route-map-model'
+import type { GoogleRouting, GoogleRoute } from './google-routes'
 const ItineraryMap = lazy(() => import('./ItineraryMap'))
 
 export default function JourneyRoute({
@@ -293,6 +294,7 @@ export default function JourneyRoute({
 }
 
 export function DayRoute({
+  routing,
   trip,
   day,
   onUpdate,
@@ -302,6 +304,7 @@ export function DayRoute({
   onSelect,
   onShowStop,
 }: {
+  routing: GoogleRouting
   trip: Trip
   day: number
   onUpdate: (trip: Trip) => void
@@ -369,10 +372,29 @@ export function DayRoute({
             <ItineraryMap
               key={`${trip.id}:${day}`}
               points={points}
+              routes={activeStops
+                .slice(1)
+                .map((stop, i) => routing.stateFor(activeStops[i], stop)?.value)
+                .filter((route): route is GoogleRoute => !!route)}
               selectedId={selected?.id}
               onSelect={onSelect}
             />
           </Suspense>
+          {[
+            ...new Set(
+              activeStops
+                .slice(1)
+                .flatMap(
+                  (stop, i) =>
+                    routing.stateFor(activeStops[i], stop)?.value?.warnings ||
+                    [],
+                ),
+            ),
+          ].map((warning) => (
+            <p className="google-route-warning" key={warning}>
+              {warning}
+            </p>
+          ))}
           <div className="map-sequence-controls" aria-label="장소 순서 이동">
             <button
               className="button outline small"

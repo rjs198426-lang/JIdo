@@ -42,8 +42,7 @@ test('네 여행 화면의 제목·바로가기 위치 고정과 기록 보존',
     () => JSON.parse(localStorage.getItem('jido-travel-v1')!).trips,
   )
   const back = page.getByRole('button', { name: '이전 여행 화면', exact: true })
-  await expect(back).toBeVisible()
-  await expect(back).toBeDisabled()
+  await expect(back).toHaveCount(0)
   for (const width of [320, 393, 655, 700, 768, 1440]) {
     await page.setViewportSize({ width, height: 900 })
     let baseline: unknown
@@ -73,7 +72,6 @@ test('네 여행 화면의 제목·바로가기 위치 고정과 기록 보존',
           '.trip-banner',
           '.trip-header-copy h2',
           '.trip-facts',
-          '.trip-back',
           '.trip-find',
           '.trip-edit',
           '.trip-delete',
@@ -82,15 +80,25 @@ test('네 여행 화면의 제목·바로가기 위치 고정과 기록 보존',
       })
       baseline ??= geometry
       expect(geometry).toEqual(baseline)
-      const [, , , , , backBox, searchBox, editBox, deleteBox] = geometry
-      expect(backBox.y).toBe(searchBox.y)
+      const [, , , , , searchBox, editBox, deleteBox] = geometry
+      expect(searchBox.y).toBe(editBox.y)
       expect(editBox.y).toBe(deleteBox.y)
-      expect(backBox.x).toBe(editBox.x)
-      expect(searchBox.x).toBe(deleteBox.x)
-      for (const box of geometry.slice(5, 9)) {
-        expect(box.width).toBeGreaterThanOrEqual(44)
-        expect(box.height).toBeGreaterThanOrEqual(44)
+      expect(searchBox.x).toBeLessThan(editBox.x)
+      expect(editBox.x).toBeLessThan(deleteBox.x)
+      for (const box of geometry.slice(5, 8)) {
+        expect(box.width).toBe(36)
+        expect(box.height).toBe(36)
       }
+      const facts = await page
+        .locator('.trip-facts > span')
+        .evaluateAll((nodes) =>
+          nodes.map((node) => {
+            const r = node.getBoundingClientRect()
+            return { y: r.y, bottom: r.bottom }
+          }),
+        )
+      expect(facts[1].y).toBeGreaterThanOrEqual(facts[0].bottom)
+      expect(facts[1].y).toBe(facts[2].y)
       expect(
         await page.evaluate(
           () => document.documentElement.scrollWidth > innerWidth,
@@ -128,7 +136,7 @@ test('네 여행 화면의 제목·바로가기 위치 고정과 기록 보존',
   await page.keyboard.press('Escape')
   await page.getByRole('button', { name: '여행 삭제', exact: true }).click()
   await page.getByRole('button', { name: '돌아가기', exact: true }).click()
-  await back.click()
+  await page.evaluate(() => window.dispatchEvent(new Event('jido:back')))
   await expect(
     page.getByRole('tab', { name: '일정', exact: true }),
   ).toHaveAttribute('aria-selected', 'true')

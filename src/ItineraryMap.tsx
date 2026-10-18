@@ -1,178 +1,220 @@
 import { useEffect, useRef, useState } from 'react'
-import L from 'leaflet'
-import 'leaflet/dist/leaflet.css'
-import { routeSegments, type RoutePoint } from './route-map-model'
+import { loadGoogleLibrary } from './google-sdk'
+import type { RoutePoint } from './route-map-model'
+import type { GoogleRoute } from './google-routes'
 
 export default function ItineraryMap({
   points,
+  routes,
   selectedId,
   onSelect,
 }: {
   points: RoutePoint[]
+  routes: GoogleRoute[]
   selectedId?: string
   onSelect: (id: string) => void
 }) {
   const canvas = useRef<HTMLDivElement>(null)
-  const map = useRef<L.Map | null>(null)
-  const layers = useRef<L.LayerGroup | null>(null)
-  const markers = useRef(new Map<string, L.Marker>())
-  const geometry = useRef('')
-  const previousSelection = useRef(selectedId)
-  const current = useRef({ points, onSelect })
-  current.current = { points, onSelect }
-  const [tileFailure, setTileFailure] = useState(false)
+  const map = useRef<google.maps.Map | null>(null)
+  const current = useRef({ points, routes, selectedId, onSelect })
+  current.current = { points, routes, selectedId, onSelect }
+  const [ready, setReady] = useState(0)
+  const [error, setError] = useState('')
+  const [retry, setRetry] = useState(0)
   const hasPoints = points.length > 0
+  useEffect(() => {
+    const fail = () => setError('Google 지도 인증 설정을 확인해야 합니다.')
+    window.addEventListener('jido:google-auth-error', fail)
+    return () => window.removeEventListener('jido:google-auth-error', fail)
+  }, [])
+  const normalize = (lng: number) => ((((lng + 180) % 360) + 360) % 360) - 180
   function fitAll() {
     const all = current.current.points
     if (!map.current || !all.length) return
-    map.current.fitBounds(
-      L.latLngBounds(all.map((point) => [point.lat, point.lng])),
-      { padding: [38, 38], maxZoom: 16, animate: false },
-    )
+    if (all.length === 1) {
+      map.current.setCenter({ lat: all[0].lat, lng: normalize(all[0].lng) })
+      map.current.setZoom(15)
+    } else
+      map.current.fitBounds(
+        {
+          north: Math.max(...all.map((p) => p.lat)),
+          south: Math.min(...all.map((p) => p.lat)),
+          west: normalize(Math.min(...all.map((p) => p.lng))),
+          east: normalize(Math.max(...all.map((p) => p.lng))),
+        },
+        36,
+      )
   }
   useEffect(() => {
     if (!canvas.current || !hasPoints) return
-    const instance = L.map(canvas.current, {
-      scrollWheelZoom: false,
-      minZoom: 2,
-      maxZoom: 19,
-      zoomAnimation: false,
-      fadeAnimation: false,
-      markerZoomAnimation: false,
-      zoomControl: false,
-    })
-    map.current = instance
-    L.control
-      .zoom({ zoomInTitle: '지도 확대', zoomOutTitle: '지도 축소' })
-      .addTo(instance)
-    instance.attributionControl.setPrefix(false)
-    const tiles = L.tileLayer(
-      'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
-      {
-        attribution:
-          '© <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap</a> contributors',
-        maxZoom: 19,
-        keepBuffer: 1,
-        updateWhenIdle: true,
-        updateWhenZooming: false,
-      },
-    )
-    let loaded = 0,
-      failed = 0
-    tiles.on('loading', () => {
-      loaded = 0
-      failed = 0
-    })
-    tiles.on('tileload', () => {
-      loaded++
-    })
-    tiles.on('tileerror', () => {
-      failed++
-      setTileFailure(true)
-    })
-    tiles.on('load', () => setTileFailure(failed > 0 && loaded === 0))
-    tiles.addTo(instance)
-    layers.current = L.layerGroup().addTo(instance)
-    geometry.current = ''
-    setTileFailure(false)
-    const observer = new ResizeObserver(() =>
-      instance.invalidateSize({ pan: false }),
-    )
-    observer.observe(canvas.current)
-    return () => {
-      observer.disconnect()
-      instance.remove()
-      map.current = null
-      layers.current = null
-      markers.current.clear()
-    }
-  }, [hasPoints])
-  useEffect(() => {
-    if (!map.current || !layers.current) return
-    const group = layers.current
-    group.clearLayers()
-    markers.current.clear()
-    for (const segment of routeSegments(points)) {
-      L.polyline(
-        segment.map((point) => [point.lat, point.lng]),
-        { color: '#ffffff', weight: 8, opacity: 0.9, interactive: false },
-      ).addTo(group)
-      L.polyline(
-        segment.map((point) => [point.lat, point.lng]),
-        {
-          color: '#087b70',
-          weight: 4,
-          opacity: 1,
-          interactive: false,
-          className: 'itinerary-route-line',
-        },
-      ).addTo(group)
-    }
-    for (const point of points) {
-      const marker = L.marker([point.lat, point.lng], {
-        title: `${point.number}. ${point.name}`,
-        keyboard: true,
-        icon: L.divIcon({
-          className: 'itinerary-map-pin',
-          html: `<span>${point.number}</span>`,
-          iconSize: [44, 44],
-          iconAnchor: [22, 22],
-        }),
+    let active = true
+    let instance: google.maps.Map | undefined
+    setReady(0)
+    setError('')
+    void loadGoogleLibrary('maps')
+      .then(({ Map: GoogleMap }) => {
+        if (!active || !canvas.current) return
+        instance = new GoogleMap(canvas.current, {
+          center: {
+            lat: current.current.points[0].lat,
+            lng: normalize(current.current.points[0].lng),
+          },
+          zoom: 13,
+          mapTypeControl: false,
+          streetViewControl: false,
+          fullscreenControl: false,
+          gestureHandling: 'cooperative',
+          clickableIcons: false,
+          keyboardShortcuts: true,
+        })
+        map.current = instance
+        fitAll()
+        setReady((n) => n + 1)
       })
-      // Icons are created on map load, which may happen after fitBounds.
-      marker.on('add', () =>
-        marker
-          .getElement()
-          ?.setAttribute('aria-label', `${point.number}번 ${point.name} 선택`),
-      )
-      marker.on('click', () => current.current.onSelect(point.stopId))
-      marker.addTo(group)
-      markers.current.set(point.stopId, marker)
+      .catch((e) => {
+        if (active)
+          setError(
+            e instanceof Error ? e.message : 'Google 지도를 불러오지 못했어요.',
+          )
+      })
+    return () => {
+      active = false
+      map.current = null
+      instance?.unbindAll()
+      if (instance) canvas.current?.replaceChildren()
     }
-    const next = points
-      .map((point) => `${point.stopId}:${point.lat}:${point.lng}`)
-      .sort()
-      .join('|')
-    if (next !== geometry.current) {
-      geometry.current = next
-      fitAll()
-    }
-  }, [points, hasPoints])
+  }, [hasPoints, retry])
+  const geometry = points.map((p) => `${p.stopId}:${p.lat}:${p.lng}`).join('|')
   useEffect(() => {
-    const target = selectedId && markers.current.get(selectedId)
-    if (target && previousSelection.current !== selectedId)
-      map.current?.panTo(target.getLatLng(), { animate: false })
-    previousSelection.current = selectedId
-    for (const [id, marker] of markers.current) {
-      marker.getElement()?.classList.toggle('selected', id === selectedId)
-      marker
-        .getElement()
-        ?.setAttribute('aria-pressed', String(id === selectedId))
-      marker.setZIndexOffset(id === selectedId ? 1000 : 0)
+    fitAll()
+  }, [geometry, ready])
+  useEffect(() => {
+    if (!map.current || !ready) return
+    let active = true
+    const pins: google.maps.OverlayView[] = []
+    void Promise.all([loadGoogleLibrary('maps'), loadGoogleLibrary('core')])
+      .then(([{ OverlayView }, { LatLng }]) => {
+        if (!active || !map.current) return
+        for (const point of points) {
+          const button = document.createElement('button')
+          button.className = `itinerary-map-pin google-map-pin${selectedId === point.stopId ? ' selected' : ''}`
+          button.type = 'button'
+          const number = document.createElement('span')
+          number.textContent = String(point.number)
+          button.append(number)
+          button.setAttribute(
+            'aria-label',
+            `${point.number}번 ${point.name} 선택`,
+          )
+          button.setAttribute(
+            'aria-pressed',
+            String(selectedId === point.stopId),
+          )
+          button.onclick = () => current.current.onSelect(point.stopId)
+          class Pin extends OverlayView {
+            onAdd() {
+              this.getPanes()?.overlayMouseTarget.append(button)
+            }
+            draw() {
+              const pixel = this.getProjection().fromLatLngToDivPixel(
+                new LatLng(point.lat, normalize(point.lng)),
+              )
+              if (pixel) {
+                button.style.left = `${pixel.x}px`
+                button.style.top = `${pixel.y}px`
+              }
+            }
+            onRemove() {
+              button.remove()
+            }
+          }
+          const pin = new Pin()
+          // Prevent marker taps/keyboard events from also panning the base map.
+          OverlayView.preventMapHitsAndGesturesFrom(button)
+          pin.setMap(map.current)
+          pins.push(pin)
+        }
+      })
+      .catch((e) => {
+        if (active)
+          setError(
+            e instanceof Error ? e.message : '장소 번호를 표시하지 못했어요.',
+          )
+      })
+    return () => {
+      active = false
+      pins.forEach((pin) => pin.setMap(null))
     }
-  }, [selectedId, points, hasPoints])
+  }, [points, selectedId, ready])
+  useEffect(() => {
+    const point = points.find((p) => p.stopId === selectedId)
+    if (point) map.current?.panTo({ lat: point.lat, lng: normalize(point.lng) })
+  }, [selectedId, ready])
+  useEffect(() => {
+    if (!map.current || !ready) return
+    let active = true
+    const lines: google.maps.Polyline[] = []
+    void loadGoogleLibrary('maps')
+      .then(({ Polyline }) => {
+        if (!active || !map.current) return
+        for (const route of routes) {
+          if (route.path.length < 2) continue
+          lines.push(
+            new Polyline({
+              map: map.current,
+              path: route.path,
+              strokeColor: '#087b70',
+              strokeWeight: 5,
+              strokeOpacity: 0.9,
+              clickable: false,
+            }),
+          )
+        }
+      })
+      .catch(() => {})
+    return () => {
+      active = false
+      lines.forEach((line) => line.setMap(null))
+    }
+  }, [routes, ready])
   return (
-    <figure className="itinerary-map" aria-label="일정 순서 지도">
+    <figure className="itinerary-map" aria-label="일정 순서 Google 지도">
       {hasPoints ? (
         <>
           <div
             className="itinerary-map-canvas"
             ref={canvas}
-            aria-label="장소 지도"
+            aria-label="장소 Google 지도"
           />
-          <button className="map-fit button outline small" onClick={fitAll}>
-            전체 동선
-          </button>
-          {tileFailure && (
-            <small className="map-connection-status" role="status">
-              지도 배경 연결 안 됨
-            </small>
+          {error ? (
+            <div className="google-map-status" role="status">
+              <p>{error}</p>
+              <button
+                className="button outline small"
+                onClick={() => setRetry((n) => n + 1)}
+              >
+                다시 연결
+              </button>
+            </div>
+          ) : !map.current ? (
+            <p className="google-map-status" role="status">
+              Google 지도 여는 중…
+            </p>
+          ) : (
+            <button className="map-fit button outline small" onClick={fitAll}>
+              전체 동선
+            </button>
           )}
         </>
       ) : (
         <div className="map-no-position">표시할 위치가 없습니다</div>
       )}
-      <figcaption>방문 순서 · 직선 연결</figcaption>
+      <figcaption>
+        Google Maps · 일정 번호
+        {routes.some((route) => route.path.length > 1)
+          ? '와 계산된 구간 경로'
+          : ''}
+      </figcaption>
     </figure>
   )
 }

@@ -2228,3 +2228,39 @@ details.maps-import[open] > * + * {
     flex-basis: 56px;
   }
 }
+
+.google-map-status {
+  position: absolute;
+  inset: 12px 12px auto;
+  z-index: 2;
+  margin: 0;
+  padding: 12px;
+  border-radius: 10px;
+  background: white;
+  color: #33443c;
+  font-size: 14px;
+  overflow-wrap: anywhere;
+}
+.google-map-status p {
+  margin: 0 0 10px;
+}
+.google-map-pin {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 44px;
+  height: 44px;
+  padding: 6px;
+  border: 0;
+  background: transparent;
+}
+.google-maps-attribution,
+.google-route-warning {
+  font-size: 13px;
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+  color: #526057;
+}
+.google-maps-attribution a {
+  color: #33443c;
+  font-weight: 650;
+}

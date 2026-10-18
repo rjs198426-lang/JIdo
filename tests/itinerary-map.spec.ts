@@ -2,10 +2,7 @@ import { openTrips, openWorkspace } from './navigation'
 import { test, expect, type Page } from '@playwright/test'
 import { routePoints, routeSegments } from '../src/route-map-model'
 import type { Stop } from '../src/travel-model'
-const tile = Buffer.from(
-  'iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+a4jIAAAAASUVORK5CYII=',
-  'base64',
-)
+import { googleMapsFixture } from './google-maps-fixture'
 const known = (placeId: string, index: number): Stop => ({
   id: `stop-${index}`,
   placeId,
@@ -34,13 +31,7 @@ const stops = [
   custom('숙소', 35.016, 135.77),
 ]
 async function seed(page: Page, day: Stop[] = stops) {
-  await page.route('https://tile.openstreetmap.org/**', (route) =>
-    route.fulfill({
-      contentType: 'image/png',
-      body: tile,
-      headers: { 'Cache-Control': 'public, max-age=604800' },
-    }),
-  )
+  await googleMapsFixture(page)
   await page.goto('/')
   await page.evaluate(
     (day) =>
@@ -88,7 +79,7 @@ async function state(page: Page) {
   )
 }
 
-test('앱 내 지도에 7곳 번호·연결선·출처 표시, 핀과 이전·다음으로 장소 선택', async ({
+test('Google 지도에 7곳 번호·실제 구간 응답 경로·출처 표시, 핀과 이전·다음으로 장소 선택', async ({
   page,
 }, info) => {
   const external: string[] = []
@@ -98,23 +89,11 @@ test('앱 내 지도에 7곳 번호·연결선·출처 표시, 핀과 이전·�
   await seed(page)
   await expect(page.locator('.itinerary-map-pin')).toHaveCount(7)
   await page.evaluate(() => document.fonts.ready)
-  await expect(page.locator('.leaflet-container')).toHaveCSS(
+  await expect(page.locator('.google-map-fixture')).toHaveCount(1)
+  await expect(page.locator('.itinerary-map-pin').first()).toHaveCSS(
     'font-family',
     /Pretendard Variable/,
   )
-  await expect(page.locator('.leaflet-control-zoom-in')).toHaveCSS(
-    'font-family',
-    /Pretendard Variable/,
-  )
-  for (const family of await page
-    .locator('.leaflet-container, .leaflet-control-zoom a')
-    .evaluateAll((nodes) =>
-      nodes.map((node) => getComputedStyle(node).fontFamily),
-    )) {
-    expect(['Pretendard Variable']).toContain(
-      family.split(',')[0].replaceAll(/["']/g, '').trim(),
-    )
-  }
   expect(await page.locator('.itinerary-map-pin').allTextContents()).toEqual([
     '1',
     '2',
@@ -124,10 +103,9 @@ test('앱 내 지도에 7곳 번호·연결선·출처 표시, 핀과 이전·�
     '6',
     '7',
   ])
-  await expect(page.locator('.itinerary-route-line')).toHaveCount(1)
-  await expect(page.locator('.leaflet-control-attribution a')).toHaveAttribute(
-    'href',
-    'https://www.openstreetmap.org/copyright',
+  await expect(page.locator('.google-route-fixture')).toHaveCount(6)
+  await expect(page.locator('.google-attribution-fixture')).toHaveText(
+    'Google Maps',
   )
   await page
     .getByRole('button', { name: '3번 니시키 시장 선택', exact: true })
@@ -205,7 +183,7 @@ test('좌표 없는 장소는 번호를 유지하고 연결선을 끊으며 위�
     '3',
     '4',
   ])
-  await expect(page.locator('.itinerary-route-line')).toHaveCount(1)
+  await expect(page.locator('.google-route-fixture')).toHaveCount(1)
   await expect(page.locator('.map-missing-count')).toContainText(
     '위치 미지정 1곳',
   )
@@ -224,30 +202,30 @@ test('좌표 없는 장소는 번호를 유지하고 연결선을 끊으며 위�
     .click()
   await expect(page.locator('.itinerary-map-pin')).toHaveCount(4)
   await expect(page.locator('.map-missing-count')).toHaveCount(0)
-  await expect(page.locator('.itinerary-route-line')).toHaveCount(1)
+  await expect(page.locator('.google-route-fixture')).toHaveCount(3)
 })
 
-test('지도 배경 연결 실패·오프라인에도 장소 번호·선·순서 선택 유지', async ({
+test('Google 지도 연결 실패에도 일정 목록·순서 선택을 유지하고 다시 연결', async ({
   page,
-  context,
 }) => {
   await seed(page)
-  await page.route('https://tile.openstreetmap.org/**', (route) =>
-    route.abort(),
-  )
-  await page.getByRole('button', { name: '전체 동선', exact: true }).click()
-  await page.locator('.leaflet-control-zoom-in').click()
+  await page.evaluate(() => {
+    ;(window as any).googleMapFailure = true
+  })
+  await openWorkspace(page, '일정')
+  await mapTab(page)
   await expect(
-    page.getByText('지도 배경 연결 안 됨', { exact: true }),
+    page.getByText('Google 지도에 연결할 수 없습니다.', { exact: true }),
   ).toBeVisible()
-  await context.setOffline(true)
   await page.getByRole('button', { name: '다음 장소', exact: true }).click()
   await expect(page.locator('.map-selected-place')).toContainText(
     '후시미 이나리',
   )
+  await page.evaluate(() => {
+    ;(window as any).googleMapFailure = false
+  })
+  await page.getByRole('button', { name: '다시 연결', exact: true }).click()
   await expect(page.locator('.itinerary-map-pin')).toHaveCount(7)
-  await expect(page.locator('.itinerary-route-line')).toHaveCount(1)
-  await context.setOffline(false)
 })
 
 test('날짜·화면 전환에서 이전 핀을 제거하고 중복 지도 초기화 없이 재진입', async ({
@@ -265,11 +243,11 @@ test('날짜·화면 전환에서 이전 핀을 제거하고 중복 지도 초�
   await expect(
     page.getByRole('button', { name: '1번 센소지 선택', exact: true }),
   ).toBeVisible()
-  await expect(page.locator('.itinerary-route-line')).toHaveCount(0)
+  await expect(page.locator('.google-route-fixture')).toHaveCount(0)
   for (let i = 0; i < 2; i++) {
     await openWorkspace(page, '일정')
     await mapTab(page)
-    await expect(page.locator('.leaflet-container')).toHaveCount(1)
+    await expect(page.locator('.google-map-fixture')).toHaveCount(1)
   }
   expect(errors).toEqual([])
 })
@@ -309,7 +287,7 @@ test('320px 지도·하단 메뉴가 겹치지 않고 마지막 길찾기와 지
       () => document.documentElement.scrollWidth <= window.innerWidth,
     ),
   ).toBe(true)
-  const attribution = page.locator('.leaflet-control-attribution')
+  const attribution = page.locator('.google-attribution-fixture')
   const box = await attribution.boundingBox(),
     canvas = await page.locator('.itinerary-map-canvas').boundingBox()
   expect(

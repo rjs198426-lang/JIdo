@@ -163,7 +163,7 @@ test('지도 선택 장소를 목록에서 바로 찾고 선택·날짜·순서 
     })
     .click()
   await expect(
-    page.getByRole('figure', { name: '일정 순서 지도' }),
+    page.getByRole('figure', { name: '일정 순서 Google 지도' }),
   ).toBeVisible()
   await expect(
     page.getByRole('article', { name: '지도에서 선택한 장소' }),

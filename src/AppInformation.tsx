@@ -96,6 +96,22 @@ export default function AppInformation({
             <span>사진 출처</span>
             <ChevronRight size={18} aria-hidden="true" />
           </button>
+          <a
+            className="app-information-link"
+            href="https://github.com/rjs198426-lang/JIdo/blob/main/APP-TERMS.md"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            이용 안내
+          </a>
+          <a
+            className="app-information-link"
+            href="https://github.com/rjs198426-lang/JIdo/blob/main/PRIVACY.md"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            개인정보 처리 안내
+          </a>
         </section>
       )}
     </div>

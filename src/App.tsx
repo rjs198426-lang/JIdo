@@ -5,6 +5,7 @@ import { meaningfulCost } from './place-introduction'
 import { balancedPlaces } from './category-balance'
 import CompanionCount from './CompanionCount'
 import DayTransfers from './DayTransfers'
+import { useGoogleRoutes } from './google-routes'
 import DurationInput from './DurationInput'
 import TripSearch from './TripSearch'
 import DayScheduleAdjust from './DayScheduleAdjust'
@@ -92,7 +93,6 @@ import {
   MapPin,
   Plus,
   Search,
-  ChevronLeft,
   Sparkles,
   Trash2,
   Users,
@@ -798,6 +798,11 @@ function Itinerary({
     saveJourneyPreference(trip, day, workspace)
   }, [trip.id, day, workspace])
   const mainWorkspace = workspaceGroup(workspace)
+  const googleRouting = useGoogleRoutes(
+    trip,
+    day,
+    workspace === 'route' || workspace === 'transfers',
+  )
   const planningView = useRef(
     (planningViews as readonly string[]).includes(workspace)
       ? workspace
@@ -1014,33 +1019,25 @@ function Itinerary({
           </div>
           <div className="trip-banner-controls">
             <button
-              className="icon-button trip-back"
-              aria-label="이전 여행 화면"
-              disabled={!navigation.canGoBack}
-              onClick={navigation.back}
-            >
-              <ChevronLeft size={20} />
-            </button>
-            <button
               className="icon-button trip-find"
               aria-label="여행 내 찾기"
               onClick={() => setSearchOpen(true)}
             >
-              <Search size={20} />
+              <Search size={18} />
             </button>
             <button
               className="icon-button trip-edit"
               aria-label="여행 정보 수정"
               onClick={onEditTrip}
             >
-              <Pencil size={20} />
+              <Pencil size={18} />
             </button>
             <button
               className="icon-button trip-delete"
               onClick={onDeleteTrip}
               aria-label="여행 삭제"
             >
-              <Trash2 size={20} />
+              <Trash2 size={18} />
             </button>
           </div>
         </div>
@@ -1233,9 +1230,15 @@ function Itinerary({
                 <JourneyShare trip={trip} day={day} />
               </div>
               {workspace === 'transfers' ? (
-                <DayTransfers trip={trip} day={day} onUpdate={onUpdate} />
+                <DayTransfers
+                  trip={trip}
+                  day={day}
+                  onUpdate={onUpdate}
+                  routing={googleRouting}
+                />
               ) : workspace === 'route' ? (
                 <DayRoute
+                  routing={googleRouting}
                   selectedId={selectedStop}
                   onSelect={(id) =>
                     setSelectedStops((previous) => ({ ...previous, [day]: id }))

@@ -5,16 +5,57 @@ import {
   placeSignature,
   dayTransferLegs,
 } from './transfer-planning'
+import {
+  travelModes,
+  type GoogleRouting,
+  type TravelMode,
+} from './google-routes'
 export default function DayTransfers({
   trip,
   day,
   onUpdate,
+  routing,
 }: {
   trip: Trip
   day: number
   onUpdate: (trip: Trip) => void
+  routing: GoogleRouting
 }) {
-  const legs = dayTransferLegs(trip, day),
+  const originalLegs = dayTransferLegs(trip, day)
+  const automatic = new Map(
+    originalLegs.flatMap(({ previous, stop, transfer }) => {
+      const value = routing.stateFor(previous, stop)?.value
+      return !transfer && value
+        ? [
+            [
+              stop.id,
+              {
+                fromStopId: previous.id,
+                fromPlace: placeSignature(previous),
+                toPlace: placeSignature(stop),
+                minutes: value.minutes,
+                mode: routing.modeFor(previous, stop),
+                checkedAt: value.checkedAt,
+              },
+            ] as const,
+          ]
+        : []
+    }),
+  )
+  // Google results fill this view only. Manual values remain in the original trip.
+  const preview = {
+    ...trip,
+    days: trip.days.map((stops, index) =>
+      index === day
+        ? stops.map((stop) =>
+            automatic.has(stop.id)
+              ? { ...stop, transfer: automatic.get(stop.id) }
+              : stop,
+          )
+        : stops,
+    ),
+  }
+  const legs = dayTransferLegs(preview, day),
     [error, setError] = useState('')
   const [dwellDrafts, setDwellDrafts] = useState<Record<string, string>>({})
   const clearDwellDraft = (id: string) =>
@@ -29,7 +70,20 @@ export default function DayTransfers({
       aria-label="이동시간 확인"
     >
       <h3>이동시간 확인</h3>
-      <p className="workspace-hint">직선 거리 · 이동시간은 직접 입력</p>
+      <p className="workspace-hint">
+        Google Maps 이동시간 자동 계산 · 조회 시점 기준
+      </p>
+      {!routing.configured && (
+        <p className="transfer-status" role="status">
+          Google 지도 연결이 아직 설정되지 않았습니다. 직접 입력과 구글 길찾기는
+          사용할 수 있어요.
+        </p>
+      )}
+      {routing.configured && (
+        <button className="button outline small" onClick={routing.retry}>
+          이동시간 다시 계산
+        </button>
+      )}
       <p className="transfer-summary">
         이동시간 확인 {legs.filter((leg) => leg.transfer).length}/{legs.length}
         구간
@@ -56,6 +110,53 @@ export default function DayTransfers({
             <h4>
               {stopDetails(previous).name} → {stopDetails(stop).name}
             </h4>
+            <label className="field">
+              이동수단
+              <select
+                aria-label={`${stopDetails(previous).name}에서 ${stopDetails(stop).name} 이동수단`}
+                value={routing.modeFor(previous, stop)}
+                onChange={(event) =>
+                  routing.setMode(
+                    previous,
+                    stop,
+                    event.target.value as TravelMode,
+                  )
+                }
+              >
+                {Object.entries(travelModes).map(([value, label]) => (
+                  <option key={value} value={value}>
+                    {label}
+                  </option>
+                ))}
+              </select>
+            </label>
+            {routing.stateFor(previous, stop)?.pending && (
+              <p role="status">이동시간 계산 중…</p>
+            )}
+            {routing.stateFor(previous, stop)?.error && (
+              <p className="transfer-status" role="status">
+                {routing.stateFor(previous, stop)?.error}
+              </p>
+            )}
+            {automatic.has(stop.id) && (
+              <p className="google-maps-attribution">
+                <a
+                  href="https://maps.google.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Google Maps
+                </a>{' '}
+                · {travelModes[routing.modeFor(previous, stop)]} · 자동 계산
+              </p>
+            )}
+            {(routing.stateFor(previous, stop)?.value?.warnings || []).map(
+              (warning) => (
+                <p className="google-route-warning" key={warning}>
+                  {warning}
+                </p>
+              ),
+            )}
             <p>
               {distance === undefined
                 ? '지도 위치 미확인'
@@ -80,7 +181,7 @@ export default function DayTransfers({
             </div>
             {transfer?.checkedAt && (
               <small>
-                이동시간 기록 ·{' '}
+                {automatic.has(stop.id) ? 'Google 조회' : '이동시간 기록'} ·{' '}
                 {new Date(transfer.checkedAt).toLocaleString('ko-KR')}
               </small>
             )}
@@ -99,7 +200,9 @@ export default function DayTransfers({
                 inputMode="numeric"
                 aria-label={`${stopDetails(previous).name}에서 ${stopDetails(stop).name} 이동시간`}
                 value={transfer?.minutes ?? ''}
-                placeholder="직접 입력"
+                placeholder={
+                  routing.configured ? '자동 계산 대기' : '직접 입력'
+                }
                 onChange={(event) => {
                   const raw = event.target.value,
                     minutes = Number(raw)
@@ -197,7 +300,8 @@ export default function DayTransfers({
                 className={lateMinutes ? 'transfer-warning' : 'transfer-result'}
                 role={lateMinutes ? 'alert' : undefined}
               >
-                입력 기준 도착 {arrivalText(arrival)} · 다음 예정 {stop.time}
+                {automatic.has(stop.id) ? 'Google 계산 기준' : '입력 기준'} 도착{' '}
+                {arrivalText(arrival)} · 다음 예정 {stop.time}
                 {lateMinutes ? ` · ${lateMinutes}분 부족` : ' · 시간 내 도착'}
               </p>
             )}

@@ -1,3 +1,4 @@
+import { loadGoogleLibrary } from './google-sdk'
 import { googlePlaceKind } from './place-categories'
 import type { customPlaceKinds } from './place-categories'
 import { googleMapsLink, mapsSearch } from './google-maps'
@@ -12,71 +13,7 @@ export type GooglePlace = {
   attributions: { provider: string; url?: string }[]
 }
 type PlacesLibrary = Pick<google.maps.PlacesLibrary, 'Place'>
-type MapsWindow = Window & {
-  google?: {
-    maps?: { importLibrary?: (name: string) => Promise<PlacesLibrary> }
-  }
-  __jdoMapsReady?: () => void
-  gm_authFailure?: () => void
-}
-let loading: Promise<PlacesLibrary> | undefined
-const key = import.meta.env.VITE_GOOGLE_MAPS_API_KEY?.trim()
-
-async function loadPlaces(): Promise<PlacesLibrary> {
-  const target = window as MapsWindow
-  if (target.google?.maps?.importLibrary)
-    return target.google.maps.importLibrary('places')
-  if (!key) throw new Error('구글 장소 검색 연결이 아직 설정되지 않았습니다.')
-  if (loading) return loading
-  loading = new Promise<void>((resolve, reject) => {
-    const script = document.createElement('script')
-    const previousAuth = target.gm_authFailure
-    let finished = false
-    const finish = (error?: Error) => {
-      if (finished) return
-      finished = true
-      clearTimeout(timer)
-      delete target.__jdoMapsReady
-      target.gm_authFailure = previousAuth
-      if (error) {
-        script.remove()
-        reject(error)
-      } else resolve()
-    }
-    const timer = window.setTimeout(
-      () => finish(new Error('구글 연결이 지연됩니다. 다시 찾아 주세요.')),
-      20000,
-    )
-    target.__jdoMapsReady = () => finish()
-    target.gm_authFailure = () =>
-      finish(new Error('구글 장소 검색 연결을 확인해야 합니다.'))
-    script.onerror = () =>
-      finish(
-        new Error('구글에 연결할 수 없습니다. 인터넷 연결을 확인해 주세요.'),
-      )
-    const params = new URLSearchParams({
-      key,
-      libraries: 'places',
-      v: 'weekly',
-      language: 'ko',
-      loading: 'async',
-      callback: '__jdoMapsReady',
-    })
-    script.src = `https://maps.googleapis.com/maps/api/js?${params}`
-    script.async = true
-    document.head.append(script)
-  })
-    .then(() => {
-      if (!target.google?.maps?.importLibrary)
-        throw new Error('구글 장소 검색을 불러오지 못했습니다.')
-      return target.google.maps.importLibrary('places')
-    })
-    .catch((error) => {
-      loading = undefined
-      throw error
-    })
-  return loading
-}
+const loadPlaces = () => loadGoogleLibrary('places')
 export async function searchGooglePlaces(
   query: string,
 ): Promise<GooglePlace[]> {

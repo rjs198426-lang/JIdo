@@ -96,3 +96,9 @@ textarea {
 :root .leaflet-container .leaflet-popup-close-button {
   font-family: var(--app-heading-font);
 }
+/* Keep app-owned Google map pins and controls in the embedded family. */
+:root .google-map-pin,
+:root .itinerary-map-canvas .gm-style button,
+:root .itinerary-map-canvas .gm-style select {
+  font-family: var(--app-body-font) !important;
+}
