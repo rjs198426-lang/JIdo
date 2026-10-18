@@ -1,4 +1,5 @@
 import data from './guide-blogs.json' with { type: 'json' }
+import { isRecentBlog } from './blog-recency.ts'
 
 export interface GuideBlog {
   cityId: string
@@ -14,5 +15,7 @@ export interface GuideBlog {
 export const guideBlogs: readonly GuideBlog[] = data
 
 export function blogsForCity(cityId: string) {
-  return guideBlogs.filter((post) => post.cityId === cityId)
+  return guideBlogs.filter(
+    (post) => post.cityId === cityId && isRecentBlog(post),
+  )
 }

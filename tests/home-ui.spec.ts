@@ -168,7 +168,7 @@ test('사진에는 이용 조건을 덧씌우지 않고 별도 출처에서 모�
   await expect(page.locator('.travel-home')).not.toContainText('CC BY')
   await page.getByRole('button', { name: '앱 정보', exact: true }).click()
   await page.getByRole('button', { name: '사진 출처', exact: true }).click()
-  await expect(page.locator('.photo-credit-entry')).toHaveCount(79)
+  await expect(page.locator('.photo-credit-entry')).toHaveCount(95)
   const links = await page
     .locator('.photo-credit-links a')
     .evaluateAll((links) =>
@@ -179,8 +179,10 @@ test('사진에는 이용 조건을 덧씌우지 않고 별도 출처에서 모�
     expect(links).toContain(place.photoCredit!.licenseUrl)
   }
   await page.getByLabel('사진 출처 검색').fill('기요미즈데라')
-  await expect(page.locator('.photo-credit-entry')).toHaveCount(1)
-  await expect(page.locator('.photo-credit-entry')).toContainText('Jordy Meow')
+  await expect(page.locator('.photo-credit-entry')).toHaveCount(2)
+  await expect(
+    page.locator('.photo-credit-entry').filter({ hasText: 'Jordy Meow' }),
+  ).toHaveCount(1)
 })
 
 test('카드 행의 사진·제목 위치와 간격이 작은 화면에서도 일정', async ({

@@ -110,7 +110,7 @@ test('21개 여행권의 조사 자료와 미검증 휴양지 명소를 구분�
       place.reviewSources?.some((source) => source.kind === 'visit-review'),
     ),
   ).toHaveLength(18)
-  expect(places.filter((place) => place.photoCredit)).toHaveLength(71)
+  expect(places.filter((place) => place.photoCredit)).toHaveLength(70)
 })
 
 test('도시 선택·목록 추가·근교 검색은 인터넷 없이 동작하고 서로의 필터를 보존', async ({
@@ -159,11 +159,14 @@ test('숙소를 관광지와 구분하고 실제 블로그·지도 출처를 장
   const dialog = page.getByRole('dialog')
   await expect(dialog).toContainText('사유 리조트')
   await expect(dialog.locator('.place-review-sources')).toContainText(
-    '방문 후기',
+    '최근 3년',
   )
   await expect(
     dialog.getByRole('link', { name: /신혼여행 9박 10일/ }),
-  ).toHaveAttribute('href', 'https://blog.naver.com/janie-0919/224113221448')
+  ).toHaveCount(0)
+  await expect(
+    dialog.getByRole('link', { name: '이 장소 블로그 후기 찾기', exact: true }),
+  ).toBeVisible()
   await dialog.getByText('설명 자료 출처', { exact: true }).click()
   await expect(
     dialog.getByRole('link', { name: /OpenStreetMap/ }),

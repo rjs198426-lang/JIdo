@@ -11,6 +11,7 @@ import { guideSchema, archivedGuideSchema, type Guide } from './guide-schema'
 import { fetchGuides } from './guide-api'
 import { currentPlaceName } from './place-names'
 import { withBlogNotes } from './blog-place-notes'
+import { retiredBlogImages } from './blog-recency'
 export { categoryOptions } from './data'
 export type { City, Place, Region } from './data'
 
@@ -57,6 +58,8 @@ function currentPhoto<
     photoCredit?: (typeof bundledPlaces)[number]['photoCredit']
   },
 >(value: T, bundled: T | undefined): T {
+  if (bundled && retiredBlogImages.has(value.image))
+    return { ...value, image: bundled.image, photoCredit: bundled.photoCredit }
   const credit = bundled?.photoCredit
   if (credit && (legacyImages.has(value.image) || value.image === credit.file))
     return { ...value, image: credit.file, photoCredit: credit }

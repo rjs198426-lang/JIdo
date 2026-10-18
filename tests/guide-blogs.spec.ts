@@ -7,10 +7,10 @@ test('모든 여행지의 실제 블로그 글은 본문 확인 근거와 연결
   expect(new Set(guideBlogs.map((post) => post.cityId))).toEqual(
     new Set(cities.map((city) => city.id)),
   )
-  expect(guideBlogs).toHaveLength(cities.length * 5)
+  expect(guideBlogs).toHaveLength(88)
   for (const city of cities) {
     const posts = blogsForCity(city.id)
-    expect(posts).toHaveLength(5)
+    expect(posts.length).toBeGreaterThanOrEqual(1)
     expect(new Set(posts.map((post) => post.url)).size).toBe(posts.length)
     for (const post of posts) {
       const url = new URL(post.url)
@@ -70,17 +70,24 @@ test('새 탭은 오프라인에서 해당 도시 글을 보여주고 원문과 
   ).toBe('교토 자유여행 후기')
   await panel.getByText('후기 선정 기준', { exact: true }).click()
   await expect(panel).toContainText('조회수·인기 순위는 확인하지 않았습니다')
-  await expect(panel).toContainText('원문 확인: 2026-10-16 ~ 2026-10-17')
+  await expect(panel).toContainText('원문 확인: 2026-10-16 ~ 2026-10-18')
   const filters = panel.getByRole('group', { name: '블로그 후기 주제' })
   await filters
     .getByRole('button', { name: '관광·여행기', exact: true })
     .click()
-  await expect(panel.locator('.guide-blog-list a')).toHaveCount(5)
+  await expect(panel.locator('.guide-blog-list a')).toHaveCount(
+    posts.filter(
+      (post) =>
+        !/교통|공항|철도|버스|이동|맛집|식사|음식|카페|커피|먹거리/.test(
+          post.topic + post.title,
+        ),
+    ).length,
+  )
   await filters.getByRole('button', { name: '식사·카페', exact: true }).click()
   await expect(panel.locator('.guide-blog-list a')).toHaveCount(0)
   await expect(panel).toContainText('이 주제에 확인한 후기가 없어요.')
   await filters.getByRole('button', { name: '전체', exact: true }).click()
-  await expect(panel.locator('.guide-blog-list a')).toHaveCount(5)
+  await expect(panel.locator('.guide-blog-list a')).toHaveCount(posts.length)
   await tabs.getByRole('tab', { name: '지역별 코스', exact: true }).click()
   await expect(page.locator('.guide-course')).toHaveCount(3)
   await page.getByRole('button', { name: '닫기', exact: true }).click()

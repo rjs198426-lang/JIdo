@@ -81,11 +81,11 @@ test('키보드로 사진 출처를 열고 모든 출처와 검색·복귀 초�
   await expect(page.getByRole('region', { name: '앱 정보' })).toHaveCount(0)
   const dialog = page.getByRole('dialog', { name: '사진 출처' })
   await expect(dialog).toBeVisible()
-  await expect(dialog.locator('.photo-credit-entry')).toHaveCount(79)
+  await expect(dialog.locator('.photo-credit-entry')).toHaveCount(95)
   await dialog.getByLabel('사진 출처 검색').fill('기요미즈데라')
-  await expect(dialog.locator('.photo-credit-entry')).toHaveCount(1)
+  await expect(dialog.locator('.photo-credit-entry')).toHaveCount(2)
   await expect(
-    dialog.getByRole('link', { name: '사진 원본', exact: true }),
+    dialog.getByRole('link', { name: '사진 원본', exact: true }).first(),
   ).toBeVisible()
   await dialog.getByRole('button', { name: '닫기', exact: true }).click()
   await expect(toggle).toBeFocused()

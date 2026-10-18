@@ -16,8 +16,8 @@
     "platform": "티스토리",
     "author": "후기로운",
     "publishedAt": "2024-01-23",
-    "topic": "청수사 경내와 주변 거리 방문 경험",
-    "checkedAt": "2026-10-16"
+    "checkedAt": "2026-10-18",
+    "topic": "기요미즈데라의 불당"
   },
   {
     "cityId": "kyoto",
@@ -66,8 +66,8 @@
     "platform": "티스토리",
     "author": "지수스",
     "publishedAt": "2026-09-06",
-    "topic": "후다노츠지 야경과 오시아게 마트 구경",
-    "checkedAt": "2026-10-16"
+    "checkedAt": "2026-10-18",
+    "topic": "도시의 도로 너머로 보이는 도쿄 타워"
   },
   {
     "cityId": "tokyo",
@@ -111,26 +111,6 @@
   },
   {
     "cityId": "osaka",
-    "title": "[일본/오사카/관광지] 12월 7일. 오사카성에 가다. (관광 정보)",
-    "url": "https://strongestlonghairyoungman.tistory.com/118",
-    "platform": "티스토리",
-    "author": "JB Son",
-    "publishedAt": "2023-02-08",
-    "topic": "오사카성 관람 동선과 방문 경험",
-    "checkedAt": "2026-10-16"
-  },
-  {
-    "cityId": "osaka",
-    "title": "[오사카 여행] 오사카 주유패스 사용 후기  / 오사카 주유패스로 당일치기 / 오사카 여행 1일차",
-    "url": "https://eundol-meow.tistory.com/entry/%EC%98%A4%EC%82%AC%EC%B9%B4-%EC%A3%BC%EC%9C%A0%ED%8C%A8%EC%8A%A4-%EC%82%AC%EC%9A%A9-%ED%9B%84%EA%B8%B0-%EC%98%A4%EC%82%AC%EC%B9%B4-%EC%97%AC%ED%96%89-%EC%98%A4%EC%82%AC%EC%B9%B4-%EC%A3%BC%EC%9C%A0%ED%8C%A8%EC%8A%A4%EB%A1%9C-%EB%8B%B9%EC%9D%BC%EC%B9%98%EA%B8%B0-%EC%98%A4%EC%82%AC%EC%B9%B4-%EC%97%AC%ED%96%89-1%EC%9D%BC%EC%B0%A8",
-    "platform": "티스토리",
-    "author": "eundol-meow",
-    "publishedAt": "2023-07-17",
-    "topic": "2023년 방문기 · 주유패스로 전망대·온천을 다닌 하루 동선",
-    "checkedAt": "2026-10-17"
-  },
-  {
-    "cityId": "osaka",
     "title": "[오사카 여행] 타코야끼 보다 추천하는 이것! 도톤보리 + 신사이바시 구경 먹거리 후기",
     "url": "https://bruce.tistory.com/1198143522",
     "platform": "티스토리",
@@ -146,8 +126,8 @@
     "platform": "티스토리",
     "author": "KaNonx카논",
     "publishedAt": "2024-02-14",
-    "topic": "2024년 설 여행 · 계획표와 실제 난바·신사이바시 동선",
-    "checkedAt": "2026-10-17"
+    "checkedAt": "2026-10-18",
+    "topic": "도톤보리의 불빛과 번화가"
   },
   {
     "cityId": "yokohama",
@@ -176,8 +156,8 @@
     "platform": "티스토리",
     "author": "지수스",
     "publishedAt": "2026-09-15",
-    "topic": "야마시타 공원에서 오산바시까지 걸어 본 야경 동선",
-    "checkedAt": "2026-10-17"
+    "checkedAt": "2026-10-18",
+    "topic": "야마시타 공원의 잔디와 항구"
   },
   {
     "cityId": "yokohama",
@@ -246,8 +226,8 @@
     "platform": "티스토리",
     "author": "지수스",
     "publishedAt": "2026-01-12",
-    "topic": "사카에 쇼핑과 히츠마부시 식사·숙소 장단점",
-    "checkedAt": "2026-10-17"
+    "checkedAt": "2026-10-18",
+    "topic": "사카에 라 시크 앞의 거리"
   },
   {
     "cityId": "sapporo",
@@ -271,16 +251,6 @@
   },
   {
     "cityId": "sapporo",
-    "title": "[2023 삿포로여행] 3일 차, 오타루를 걷다",
-    "url": "https://liih.tistory.com/186",
-    "platform": "티스토리",
-    "author": "LiiH",
-    "publishedAt": "2025-08-10",
-    "topic": "2023년 방문기 · 근교 오타루 당일치기와 삿포로 저녁",
-    "checkedAt": "2026-10-17"
-  },
-  {
-    "cityId": "sapporo",
     "title": "삿포로 여행 2025 - 둘째날 오타루 (1)",
     "url": "https://geone.tistory.com/643",
     "platform": "티스토리",
@@ -296,8 +266,8 @@
     "platform": "티스토리",
     "author": "지오네Blog",
     "publishedAt": "2025-06-22",
-    "topic": "2025년 방문기 · 니조시장·맥주박물관·스스키노 산책",
-    "checkedAt": "2026-10-17"
+    "checkedAt": "2026-10-18",
+    "topic": "니조 시장의 바깥과 안쪽"
   },
   {
     "cityId": "fukuoka",
@@ -316,28 +286,8 @@
     "platform": "티스토리",
     "author": "Hyeyeon.P",
     "publishedAt": "2025-04-01",
-    "topic": "혼자 다닌 식당·카페의 솔직한 장단점",
-    "checkedAt": "2026-10-16"
-  },
-  {
-    "cityId": "fukuoka",
-    "title": "후쿠오카 여행 후기 (3일차)  일본 경찰서 방문",
-    "url": "https://dahelligram.tistory.com/entry/%ED%9B%84%EC%BF%A0%EC%98%A4%EC%B9%B4-%EC%97%AC%ED%96%89-%ED%9B%84%EA%B8%B0-3%EC%9D%BC%EC%B0%A8-%EC%9D%BC%EB%B3%B8-%EA%B2%BD%EC%B0%B0%EC%84%9C-%EB%B0%A9%EB%AC%B8",
-    "platform": "티스토리",
-    "author": "삐뚤어진 개발자",
-    "publishedAt": "2022-12-20",
-    "topic": "현금 분실 후 식당·편의점·경찰서에서 도움받은 경험",
-    "checkedAt": "2026-10-17"
-  },
-  {
-    "cityId": "fukuoka",
-    "title": "후쿠오카 여행 후기 1일차 -신신라멘",
-    "url": "https://redmilkb.tistory.com/entry/%ED%9B%84%EC%BF%A0%EC%98%A4%EC%B9%B4-%EC%97%AC%ED%96%89-%ED%9B%84%EA%B8%B0-1%EC%9D%BC%EC%B0%A8-%EC%8B%A0%EC%8B%A0%EB%9D%BC%EB%A9%98",
-    "platform": "티스토리",
-    "author": "메리민스 ",
-    "publishedAt": "2023-06-30",
-    "topic": "2023년 가족여행 · 밤늦은 도착과 신신라멘 대기 경험",
-    "checkedAt": "2026-10-17"
+    "checkedAt": "2026-10-18",
+    "topic": "후쿠오카에서 맛본 철판 야키소바"
   },
   {
     "cityId": "fukuoka",
@@ -356,8 +306,8 @@
     "platform": "티스토리",
     "author": "ChiTu",
     "publishedAt": "2026-01-03",
-    "topic": "히로시마역 도착과 시내 산책",
-    "checkedAt": "2026-10-16"
+    "checkedAt": "2026-10-18",
+    "topic": "히로시마성의 목조 외관"
   },
   {
     "cityId": "hiroshima",
@@ -416,8 +366,8 @@
     "platform": "티스토리",
     "author": "kjyz",
     "publishedAt": "2026-05-16",
-    "topic": "기타노이진칸 산책과 빵집·카페",
-    "checkedAt": "2026-10-16"
+    "checkedAt": "2026-10-18",
+    "topic": "기타노 이진칸으로 오르는 거리"
   },
   {
     "cityId": "kobe",
@@ -451,42 +401,12 @@
   },
   {
     "cityId": "sendai",
-    "title": "일본 센다이 여행 (2)",
-    "url": "https://letsgotodream.tistory.com/36",
-    "platform": "티스토리",
-    "author": "페크쇼",
-    "publishedAt": "2021-03-21",
-    "topic": "2017년 방문기 · 센다이 숙박과 근교 야마가타",
-    "checkedAt": "2026-10-16"
-  },
-  {
-    "cityId": "sendai",
-    "title": "센다이여행 (3)",
-    "url": "https://letsgotodream.tistory.com/37",
-    "platform": "티스토리",
-    "author": "페크쇼",
-    "publishedAt": "2021-03-21",
-    "topic": "2017년 방문기 · 게스트하우스와 귀국길",
-    "checkedAt": "2026-10-16"
-  },
-  {
-    "cityId": "sendai",
     "title": "센다이 인천공항 아시아나항공 OZ151 이코노미 탑승 후기",
     "url": "https://makeiteasy-trends.tistory.com/1035",
     "platform": "티스토리",
     "author": "TechnoMBA",
     "publishedAt": "2026-08-31",
     "topic": "센다이공항 출국 수속과 인천행 항공편 탑승 경험",
-    "checkedAt": "2026-10-17"
-  },
-  {
-    "cityId": "sendai",
-    "title": "[센다이2019] 3. 마츠시마 페리 투어",
-    "url": "https://frozenray85.tistory.com/2064",
-    "platform": "티스토리",
-    "author": "FrozenRay911",
-    "publishedAt": "2019-07-06",
-    "topic": "2019년 방문기 · 센다이 근교 마쓰시마 유람선 경험",
     "checkedAt": "2026-10-17"
   },
   {
@@ -536,8 +456,8 @@
     "platform": "티스토리",
     "author": "박두이",
     "publishedAt": "2025-04-12",
-    "topic": "스미냑 포테이토 헤드 숙박 · 비치클럽·조식·수질 장단점",
-    "checkedAt": "2026-10-17"
+    "checkedAt": "2026-10-18",
+    "topic": "스미냑 비치클럽의 저녁"
   },
   {
     "cityId": "bali",
@@ -616,8 +536,8 @@
     "platform": "티스토리",
     "author": "부용-芙蓉-",
     "publishedAt": "2025-05-26",
-    "topic": "가족 자유여행의 산토리니 풍경 기록",
-    "checkedAt": "2026-10-16"
+    "checkedAt": "2026-10-18",
+    "topic": "이아 마을의 하얀 골목과 바다"
   },
   {
     "cityId": "santorini",
@@ -640,16 +560,6 @@
     "checkedAt": "2026-10-17"
   },
   {
-    "cityId": "santorini",
-    "title": "터키 🇹🇷 그리스 🇬🇷 여행 ㅡ 산토리니",
-    "url": "https://leesh0523.tistory.com/814",
-    "platform": "티스토리",
-    "author": "leeesssong",
-    "publishedAt": "2023-09-27",
-    "topic": "2023년 방문기 · 피라·이아 버스와 카마리 해변·식사",
-    "checkedAt": "2026-10-17"
-  },
-  {
     "cityId": "dubai",
     "title": "신혼여행 두바이 1. : 사막 위의 도시, 첫 인상",
     "url": "https://kdharchive.tistory.com/1197",
@@ -661,23 +571,13 @@
   },
   {
     "cityId": "dubai",
-    "title": "두바이,아부다비 여행기",
-    "url": "https://imsun202.tistory.com/15715601",
-    "platform": "티스토리",
-    "author": "한다걸",
-    "publishedAt": "2016-11-25",
-    "topic": "두바이·아부다비를 함께 둘러본 방문 기록",
-    "checkedAt": "2026-10-16"
-  },
-  {
-    "cityId": "dubai",
     "title": "신혼여행 두바이 2. : 행군 같지만 괜찮아",
     "url": "https://kdharchive.tistory.com/1198",
     "platform": "티스토리",
     "author": "김도훈",
     "publishedAt": "2026-07-20",
-    "topic": "아우라 스카이풀·두바이몰·전망대의 대기와 식사 경험",
-    "checkedAt": "2026-10-17"
+    "checkedAt": "2026-10-18",
+    "topic": "두바이 분수와 도심의 밤"
   },
   {
     "cityId": "dubai",
@@ -721,26 +621,6 @@
   },
   {
     "cityId": "maldives",
-    "title": "몰디브 여행 후기",
-    "url": "https://dasado.tistory.com/1019",
-    "platform": "티스토리",
-    "author": "다사도",
-    "publishedAt": "2024-03-07",
-    "topic": "직접 예약한 리조트·마푸시 · 체력과 숙소의 장단점",
-    "checkedAt": "2026-10-17"
-  },
-  {
-    "cityId": "maldives",
-    "title": "몰디브 미루아일랜드 1탄_공항에서 미루아일랜드까지!",
-    "url": "https://waniros.tistory.com/150",
-    "platform": "티스토리",
-    "author": "waniros",
-    "publishedAt": "2017-12-09",
-    "topic": "2017년 방문기 · 공항에서 미루아일랜드 보트 이동·체크인",
-    "checkedAt": "2026-10-17"
-  },
-  {
-    "cityId": "maldives",
     "title": "Wedding 50. 몰디브 신혼여행 5일차: 힐튼 몰디브 아밍기리 리조트 후기 - Habitat 저녁 메뉴 및 식사 후기, GYM 방문기",
     "url": "https://violette.tistory.com/316",
     "platform": "티스토리",
@@ -766,8 +646,8 @@
     "platform": "티스토리",
     "author": "lalou",
     "publishedAt": "2025-01-22",
-    "topic": "반차오·중산·시먼딩 유모차 이동 비교",
-    "checkedAt": "2026-10-16"
+    "checkedAt": "2026-10-18",
+    "topic": "반차오의 넓은 인도와 쇼핑몰"
   },
   {
     "cityId": "taipei",
@@ -836,8 +716,8 @@
     "platform": "티스토리",
     "author": "마담 에이미씨",
     "publishedAt": "2025-01-23",
-    "topic": "익청빌딩 방문기 · 역에서 걷는 길과 주변 구경",
-    "checkedAt": "2026-10-17"
+    "checkedAt": "2026-10-18",
+    "topic": "쿼리베이 익청빌딩 일대의 풍경"
   },
   {
     "cityId": "hongkong",
@@ -856,8 +736,8 @@
     "platform": "티스토리",
     "author": "하루 아빠",
     "publishedAt": "2026-08-16",
-    "topic": "환승 중 시내투어와 머라이언·슈퍼트리",
-    "checkedAt": "2026-10-16"
+    "checkedAt": "2026-10-18",
+    "topic": "비 오는 날 걷는 싱가포르 도심"
   },
   {
     "cityId": "singapore",
@@ -901,53 +781,13 @@
   },
   {
     "cityId": "danang",
-    "title": "[다낭 반쎄오 맛집/ 바두엉 그랩 위치 설명] 다시 찾은 로컬 반쎄오 맛집 다낭 바두엉 후기",
-    "url": "https://writer-gi.tistory.com/28",
-    "platform": "티스토리",
-    "author": "슬기록",
-    "publishedAt": "2020-01-08",
-    "topic": "바두엉 반쎄오 방문과 골목 찾아가기",
-    "checkedAt": "2026-10-16"
-  },
-  {
-    "cityId": "danang",
-    "title": "베트남 다낭 여행 관광 2부 (논누억 비치, 콩카페, 까오다이교 사원, 퀸스파)",
-    "url": "https://holycrap.tistory.com/168",
-    "platform": "티스토리",
-    "author": "힠힠",
-    "publishedAt": "2018-05-02",
-    "topic": "2017년 방문기 · 논누억 해변·콩카페·사원",
-    "checkedAt": "2026-10-16"
-  },
-  {
-    "cityId": "danang",
-    "title": "베트남 다낭 여행 오행산(五行山)",
-    "url": "https://holycrap.tistory.com/152",
-    "platform": "티스토리",
-    "author": "힠힠",
-    "publishedAt": "2018-02-10",
-    "topic": "2018년 게시 방문기 · 오행산 계단·엘리베이터와 동굴 구경",
-    "checkedAt": "2026-10-17"
-  },
-  {
-    "cityId": "danang",
     "title": "40개월 아기랑 베트남 다낭 여행 - 미카즈키 리조트 후기",
     "url": "https://babysarang.tistory.com/entry/40%EA%B0%9C%EC%9B%94-%EC%95%84%EA%B8%B0%EB%9E%91-%EB%B2%A0%ED%8A%B8%EB%82%A8-%EB%8B%A4%EB%82%AD-%EC%97%AC%ED%96%89-%EB%AF%B8%EC%B9%B4%EC%B8%A0%ED%82%A4-%EB%A6%AC%EC%A1%B0%ED%8A%B8-%ED%9B%84%EA%B8%B0",
     "platform": "티스토리",
     "author": "22사랑이",
     "publishedAt": "2025-10-15",
-    "topic": "2025년 아이 동반 방문기 · 미카즈키 워터파크와 태풍 경험",
-    "checkedAt": "2026-10-17"
-  },
-  {
-    "cityId": "danang",
-    "title": "베트남 다낭 여행 쌀국수 맛집 분차카 109, 미꽝 1A",
-    "url": "https://holycrap.tistory.com/144",
-    "platform": "티스토리",
-    "author": "힠힠",
-    "publishedAt": "2017-10-17",
-    "topic": "2017년 방문기 · 분차카 109·미꽝 1A 쌀국수 식사",
-    "checkedAt": "2026-10-17"
+    "checkedAt": "2026-10-18",
+    "topic": "미카즈키의 실내 워터파크"
   },
   {
     "cityId": "guam",
@@ -967,44 +807,6 @@
     "author": "URD",
     "publishedAt": "2023-11-30",
     "topic": "2023년 가족여행 · PIC와 택시 이동 경험",
-    "checkedAt": "2026-10-16"
-  },
-  {
-    "cityId": "guam",
-    "title": "카카오T 괌택시(GPO->PIC)",
-    "url": "https://blog.naver.com/exist7/223272864021",
-    "platform": "네이버 블로그",
-    "author": "exist7",
-    "topic": "교통·이동 · GPO에서 PIC로 카카오T 괌택시 이용 경험",
-    "checkedAt": "2026-10-17"
-  },
-  {
-    "cityId": "guam",
-    "title": "괌 롯데호텔 2박 다녀온 후기",
-    "url": "https://jjaggung.tistory.com/entry/%EA%B4%8C-%EB%A1%AF%EB%8D%B0%ED%98%B8%ED%85%94-2%EB%B0%95-%EB%8B%A4%EB%85%80%EC%98%A8-%ED%9B%84%EA%B8%B0",
-    "platform": "티스토리",
-    "author": "늘 수면부족",
-    "publishedAt": "2023-02-21",
-    "topic": "2023년 방문기 · 괌 롯데호텔 객실·조식·수영장 장단점",
-    "checkedAt": "2026-10-17"
-  },
-  {
-    "cityId": "guam",
-    "title": "괌 PIC 리조트 feat. 골드카드",
-    "url": "https://blog.naver.com/exist7/223272383115",
-    "platform": "네이버 블로그",
-    "author": "exist7",
-    "topic": "칠순 가족여행 · 괌 PIC 골드카드 식사·물놀이 이용",
-    "checkedAt": "2026-10-17"
-  },
-  {
-    "cityId": "saipan",
-    "title": "사이판 여행기 #1 : 카노아 리조트 & 서프클럽",
-    "url": "https://hanaball.tistory.com/1",
-    "platform": "티스토리",
-    "author": "구하나공",
-    "publishedAt": "2018-08-15",
-    "topic": "2018년 방문기 · 숙소·서프클럽·마트",
     "checkedAt": "2026-10-16"
   },
   {
@@ -1028,23 +830,53 @@
     "checkedAt": "2026-10-17"
   },
   {
-    "cityId": "saipan",
-    "title": "사이판 여행기 #3 : 마나가하섬 &페러세일링 & 토니로마스 & 카지노",
-    "url": "https://hanaball.tistory.com/3",
+    "cityId": "bangkok",
+    "title": "[태국 방콕] 2024.07.30. 방콕 자유여행, 방콕 엠스피어, 방콕 룽르엉 국수 추천, 아보카도 슬러시 추천, 리젠시 위스키 구매처",
+    "url": "https://yamaeketo.tistory.com/320",
     "platform": "티스토리",
-    "author": "구하나공",
-    "publishedAt": "2018-08-16",
-    "topic": "2018년 방문기 · 마나가하·패러세일링과 식사 동선",
-    "checkedAt": "2026-10-17"
+    "author": "먹먹여행",
+    "publishedAt": "2024-09-10",
+    "checkedAt": "2026-10-18",
+    "topic": "방콕 룽르엉의 국수 한 그릇"
+  },
+  {
+    "cityId": "sendai",
+    "title": "[센다이 여행 후기] 20년 만의 일본 방문, 조용한 도시 센다이에서 보낸 2박 3일 여행기",
+    "url": "https://pernandez.tistory.com/5",
+    "platform": "티스토리",
+    "author": "pernandez",
+    "publishedAt": "2026-06-24",
+    "checkedAt": "2026-10-18",
+    "topic": "센다이성 터의 다테 마사무네 기마상"
+  },
+  {
+    "cityId": "guam",
+    "title": "[괌 태교여행] 닛산 렌트카, 두짓타니 괌 리조트(Dusit Thani Guam Resort)",
+    "url": "https://foryourdailylife.tistory.com/entry/%EA%B4%8C-%ED%83%9C%EA%B5%90%EC%97%AC%ED%96%89-%EB%8B%9B%EC%82%B0-%EB%A0%8C%ED%8A%B8%EC%B9%B4-%EB%91%90%EC%A7%93%ED%83%80%EB%8B%88-%EA%B4%8C-%EB%A6%AC%EC%A1%B0%ED%8A%B8Dusit-Thani-Guam-Resort",
+    "platform": "티스토리",
+    "author": "포디(For.D)",
+    "publishedAt": "2025-11-15",
+    "checkedAt": "2026-10-18",
+    "topic": "투몬 비치와 해변을 따라선 호텔들"
   },
   {
     "cityId": "saipan",
-    "title": "사이판 여행기 #2 : 그루토 & 새섬 & 만세절벽 & 부바컴프 & I ♡ Saipan",
-    "url": "https://hanaball.tistory.com/2",
+    "title": "사이판 PIC의 해변가 식당 및 레스토랑 후기(씨사이드그릴, BBQ, 마트)",
+    "url": "https://kibak.tistory.com/entry/%EC%82%AC%EC%9D%B4%ED%8C%90-PIC%EC%9D%98-%ED%95%B4%EB%B3%80%EA%B0%80-%EC%8B%9D%EB%8B%B9-%EB%B0%8F-%EB%A0%88%EC%8A%A4%ED%86%A0%EB%9E%91-%ED%9B%84%EA%B8%B0%EC%94%A8%EC%82%AC%EC%9D%B4%EB%93%9C%EA%B7%B8%EB%A6%B4-BBQ-%EB%A7%88%ED%8A%B8",
     "platform": "티스토리",
-    "author": "구하나공",
-    "publishedAt": "2018-08-15",
-    "topic": "2018년 방문기 · 그로토·새섬·만세절벽과 저녁 식사",
-    "checkedAt": "2026-10-17"
+    "author": "오디세이 스쿼드",
+    "publishedAt": "2024-03-03",
+    "checkedAt": "2026-10-18",
+    "topic": "PIC 앞에서 만나는 사이판의 바다"
+  },
+  {
+    "cityId": "maldives",
+    "title": "몰디브 리조트 후기 2편 Nova Maldives - 노바 몰디브",
+    "url": "https://sundaylogbook.tistory.com/143",
+    "platform": "티스토리",
+    "author": "썬데이로그",
+    "publishedAt": "2025-06-22",
+    "checkedAt": "2026-10-18",
+    "topic": "몰디브의 섬으로 향하는 수상비행기"
   }
 ]

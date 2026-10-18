@@ -290,20 +290,21 @@
     "publishedAt": "2025-01-21"
   },
   {
+    "cityId": "tokyo",
     "title": "요코하마와 같이 다녀온 도쿄 여행기 3일차 - 4. 후다노츠지 도쿄타워 야경, 라이프 슈퍼마켓 오시아게점",
     "url": "https://jeesus.tistory.com/481",
     "platform": "티스토리",
     "author": "지수스",
+    "publishedAt": "2026-09-06",
     "checkedAt": "2026-10-18",
-    "topic": "후다노츠지 육교에서 건물 사이 도쿄 타워 야경을 본 경험",
+    "topic": "도시의 도로 너머로 보이는 도쿄 타워",
     "places": [
       {
         "id": "tokyo-review-9bc3e51d9cd3",
         "cityId": "tokyo",
         "name": "도쿄 타워"
       }
-    ],
-    "publishedAt": "2026-09-06"
+    ]
   },
   {
     "title": "요코하마와 같이 다녀온 도쿄 여행기 2일차 - 2. 시부야, 프레클 도넛, 아사히야",
@@ -320,22 +321,6 @@
       }
     ],
     "publishedAt": "2026-08-26"
-  },
-  {
-    "title": "[일본/오사카/관광지] 12월 7일. 오사카성에 가다. (관광 정보)",
-    "url": "https://strongestlonghairyoungman.tistory.com/118",
-    "platform": "티스토리",
-    "author": "JB Son",
-    "checkedAt": "2026-10-18",
-    "topic": "모리노미야역에서 공원을 지나 성으로 걸어간 방문기",
-    "places": [
-      {
-        "id": "osaka-castle",
-        "cityId": "osaka",
-        "name": "오사카성"
-      }
-    ],
-    "publishedAt": "2023-02-08"
   },
   {
     "title": "[오사카 여행] 타코야끼 보다 추천하는 이것! 도톤보리 + 신사이바시 구경 먹거리 후기",
@@ -359,12 +344,14 @@
     "publishedAt": "2023-11-04"
   },
   {
+    "cityId": "yokohama",
     "title": "요코하마와 같이 다녀온 도쿄 여행기 4일차 - 4. 야마시타 공원, 오산바시 요코하마 야경, 츄카소바 미카와",
     "url": "https://jeesus.tistory.com/485",
     "platform": "티스토리",
     "author": "지수스",
+    "publishedAt": "2026-09-15",
     "checkedAt": "2026-10-18",
-    "topic": "해안 산책 · 공원·계류 여객선 외관과 부두에서 보는 야경",
+    "topic": "야마시타 공원의 잔디와 항구",
     "places": [
       {
         "id": "yokohama-minatomirai",
@@ -386,8 +373,7 @@
         "cityId": "yokohama",
         "name": "히카와마루"
       }
-    ],
-    "publishedAt": "2026-09-15"
+    ]
   },
   {
     "title": "[2023 삿포로여행] 3일 차, 오타루를 걷다",
@@ -479,12 +465,14 @@
     "publishedAt": "2026-06-25"
   },
   {
+    "cityId": "dubai",
     "title": "신혼여행 두바이 2. : 행군 같지만 괜찮아",
     "url": "https://kdharchive.tistory.com/1198",
     "platform": "티스토리",
     "author": "김도훈",
+    "publishedAt": "2026-07-20",
     "checkedAt": "2026-10-18",
-    "topic": "몰에서의 긴 도보·카페 휴식과 수크의 디저트 방문",
+    "topic": "두바이 분수와 도심의 밤",
     "places": [
       {
         "id": "dubai-review-2d9db81044cf",
@@ -495,9 +483,13 @@
         "id": "dubai-review-cd947889b1f5",
         "cityId": "dubai",
         "name": "수크 마디나트 주메이라"
+      },
+      {
+        "id": "dubai-review-865ee0a091b0",
+        "cityId": "dubai",
+        "name": "두바이 분수"
       }
-    ],
-    "publishedAt": "2026-07-20"
+    ]
   },
   {
     "title": "나혼자 떠나는 식도락 3박 3일 홍콩 여행 - 딤섬과 스타의거리",
@@ -530,48 +522,6 @@
       }
     ],
     "publishedAt": "2026-08-16"
-  },
-  {
-    "title": "사이판 여행기 #3 : 마나가하섬 &페러세일링 & 토니로마스 & 카지노",
-    "url": "https://hanaball.tistory.com/3",
-    "platform": "티스토리",
-    "author": "구하나공",
-    "checkedAt": "2026-10-18",
-    "topic": "2018년 방문기 · 배편·물놀이와 패러세일링 경험",
-    "places": [
-      {
-        "id": "saipan-managaha",
-        "cityId": "saipan",
-        "name": "마나가하섬"
-      }
-    ],
-    "publishedAt": "2018-08-16"
-  },
-  {
-    "title": "사이판 여행기 #2 : 그루토 & 새섬 & 만세절벽 & 부바컴프 & I ♡ Saipan",
-    "url": "https://hanaball.tistory.com/2",
-    "platform": "티스토리",
-    "author": "구하나공",
-    "checkedAt": "2026-10-18",
-    "topic": "2018년 방문기 · 그로토 체험과 북부 전망 명소 동선",
-    "places": [
-      {
-        "id": "saipan-grotto",
-        "cityId": "saipan",
-        "name": "그로토"
-      },
-      {
-        "id": "saipan-bird-island",
-        "cityId": "saipan",
-        "name": "버드아일랜드 전망대"
-      },
-      {
-        "id": "saipan-banzai-cliff",
-        "cityId": "saipan",
-        "name": "만세절벽"
-      }
-    ],
-    "publishedAt": "2018-08-15"
   },
   {
     "title": "괌태교여행 관광지 괌가볼만한곳 괌렌트카 리치렌트카 내돈내산 사랑의절벽 에메랄드밸리",
@@ -636,5 +586,141 @@
       }
     ],
     "publishedAt": "2026-02-19"
+  },
+  {
+    "cityId": "kyoto",
+    "title": "교토 자유여행, 청수사(기요미즈데라) 구경하기",
+    "url": "https://gnrlfhdns.tistory.com/201",
+    "platform": "티스토리",
+    "author": "후기로운",
+    "publishedAt": "2024-01-23",
+    "checkedAt": "2026-10-18",
+    "topic": "기요미즈데라의 불당",
+    "places": [
+      {
+        "id": "kiyomizu",
+        "cityId": "kyoto",
+        "name": "기요미즈데라"
+      }
+    ]
+  },
+  {
+    "cityId": "santorini",
+    "title": "그리스여행 𝐒𝐚𝐧𝐭𝐨𝐫𝐢𝐧𝐢",
+    "url": "https://sjpark0.tistory.com/17453185",
+    "platform": "티스토리",
+    "author": "부용-芙蓉-",
+    "publishedAt": "2025-05-26",
+    "checkedAt": "2026-10-18",
+    "topic": "이아 마을의 하얀 골목과 바다",
+    "places": [
+      {
+        "id": "oia",
+        "cityId": "santorini",
+        "name": "이아 마을"
+      }
+    ]
+  },
+  {
+    "cityId": "osaka",
+    "title": "설날 오사카 3박 4일 여행기, 도톤보리에서 신사이바시까지",
+    "url": "https://kanonxkanon.tistory.com/5686",
+    "platform": "티스토리",
+    "author": "KaNonx카논",
+    "publishedAt": "2024-02-14",
+    "checkedAt": "2026-10-18",
+    "topic": "도톤보리의 불빛과 번화가",
+    "places": [
+      {
+        "id": "osaka-dotonbori",
+        "cityId": "osaka",
+        "name": "도톤보리"
+      }
+    ]
+  },
+  {
+    "cityId": "sapporo",
+    "title": "삿포로 여행 2025 - 셋째날 삿포로 산책",
+    "url": "https://geone.tistory.com/645",
+    "platform": "티스토리",
+    "author": "지오네Blog",
+    "publishedAt": "2025-06-22",
+    "checkedAt": "2026-10-18",
+    "topic": "니조 시장의 바깥과 안쪽",
+    "places": [
+      {
+        "id": "sapporo-review-273aa4dab417",
+        "cityId": "sapporo",
+        "name": "니조 시장"
+      }
+    ]
+  },
+  {
+    "cityId": "hiroshima",
+    "title": "연말연시 히로시마 여행기 - 1편",
+    "url": "https://astrota.tistory.com/669",
+    "platform": "티스토리",
+    "author": "ChiTu",
+    "publishedAt": "2026-01-03",
+    "checkedAt": "2026-10-18",
+    "topic": "히로시마성의 목조 외관",
+    "places": [
+      {
+        "id": "hiroshima-review-f2a22af18205",
+        "cityId": "hiroshima",
+        "name": "히로시마성 주변"
+      }
+    ]
+  },
+  {
+    "cityId": "kobe",
+    "title": "(일본 여행) 2일차 - 고베",
+    "url": "https://kjyz.tistory.com/229",
+    "platform": "티스토리",
+    "author": "kjyz",
+    "publishedAt": "2026-05-16",
+    "checkedAt": "2026-10-18",
+    "topic": "기타노 이진칸으로 오르는 거리",
+    "places": [
+      {
+        "id": "kobe-kitano",
+        "cityId": "kobe",
+        "name": "기타노 이진칸 거리"
+      }
+    ]
+  },
+  {
+    "cityId": "sendai",
+    "title": "[센다이 여행 후기] 20년 만의 일본 방문, 조용한 도시 센다이에서 보낸 2박 3일 여행기",
+    "url": "https://pernandez.tistory.com/5",
+    "platform": "티스토리",
+    "author": "pernandez",
+    "publishedAt": "2026-06-24",
+    "checkedAt": "2026-10-18",
+    "topic": "센다이성 터의 다테 마사무네 기마상",
+    "places": [
+      {
+        "id": "sendai-castle",
+        "cityId": "sendai",
+        "name": "센다이성 터"
+      }
+    ]
+  },
+  {
+    "cityId": "guam",
+    "title": "[괌 태교여행] 닛산 렌트카, 두짓타니 괌 리조트(Dusit Thani Guam Resort)",
+    "url": "https://foryourdailylife.tistory.com/entry/%EA%B4%8C-%ED%83%9C%EA%B5%90%EC%97%AC%ED%96%89-%EB%8B%9B%EC%82%B0-%EB%A0%8C%ED%8A%B8%EC%B9%B4-%EB%91%90%EC%A7%93%ED%83%80%EB%8B%88-%EA%B4%8C-%EB%A6%AC%EC%A1%B0%ED%8A%B8Dusit-Thani-Guam-Resort",
+    "platform": "티스토리",
+    "author": "포디(For.D)",
+    "publishedAt": "2025-11-15",
+    "checkedAt": "2026-10-18",
+    "topic": "투몬 비치와 해변을 따라선 호텔들",
+    "places": [
+      {
+        "id": "guam-tumon-beach",
+        "cityId": "guam",
+        "name": "투몬 비치"
+      }
+    ]
   }
 ]

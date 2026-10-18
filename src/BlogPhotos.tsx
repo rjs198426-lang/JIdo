@@ -1,5 +1,6 @@
 import { ExternalLink } from 'lucide-react'
 import photos from './blog-photos.json'
+import { isRecentBlog } from './blog-recency'
 import './blog-photos.css'
 
 export default function BlogPhotos({
@@ -13,6 +14,7 @@ export default function BlogPhotos({
 }) {
   const selected = photos.filter(
     (photo) =>
+      isRecentBlog(photo) &&
       photo.cityId === cityId &&
       (!placeId || photo.placeIds.includes(placeId)) &&
       photo.image !== primaryImage,
@@ -33,8 +35,7 @@ export default function BlogPhotos({
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                {photo.photoCredit.author} · {photo.publishedAt.slice(0, 4)}년
-                글
+                {photo.photoCredit.author} · {photo.publishedAt} 작성
                 <ExternalLink size={14} aria-hidden="true" />
               </a>
             </figcaption>

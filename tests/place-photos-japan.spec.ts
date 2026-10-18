@@ -294,12 +294,12 @@ test('일본 주요 10개 도시·500개 이상 장소의 기본 가이드와 �
   await context.setOffline(false)
 })
 
-test('71개 장소의 사진 파일이 열리고 장소별로 구분되며 촬영자·이용 조건을 연결', async ({
+test('70개 장소의 사진 파일이 열리고 장소별로 구분되며 촬영자·이용 조건을 연결', async ({
   page,
 }) => {
   const photographed = places.filter((place) => place.photoCredit)
-  expect(photographed).toHaveLength(71)
-  expect(new Set(photographed.map((place) => place.image)).size).toBe(71)
+  expect(photographed).toHaveLength(70)
+  expect(new Set(photographed.map((place) => place.image)).size).toBe(70)
   for (const place of photographed) {
     expect(place.photoCredit?.file).toBe(place.image)
     expect(place.photoCredit?.sourceUrl).toMatch(
@@ -325,7 +325,7 @@ test('71개 장소의 사진 파일이 열리고 장소별로 구분되며 촬�
       ),
     photographed.map((place) => place.image),
   )
-  expect(loaded).toEqual(Array(71).fill(true))
+  expect(loaded).toEqual(Array(70).fill(true))
   await page.getByLabel('도시 또는 나라 검색').fill('교토')
   await page.getByRole('button', { name: '여행지 찾기', exact: true }).click()
   await page.getByRole('button', { name: '교토 여행지 자세히 보기' }).click()
@@ -347,7 +347,9 @@ test('71개 장소의 사진 파일이 열리고 장소별로 구분되며 촬�
   await page.getByRole('button', { name: '앱 정보', exact: true }).click()
   await page.getByRole('button', { name: '사진 출처', exact: true }).click()
   await page.getByLabel('사진 출처 검색').fill('기요미즈데라')
-  const credit = page.locator('.photo-credit-entry')
+  const credit = page
+    .locator('.photo-credit-entry')
+    .filter({ hasText: 'Jordy Meow' })
   await expect(credit).toHaveCount(1)
   await expect(credit.getByRole('link', { name: '사진 원본' })).toHaveAttribute(
     'href',

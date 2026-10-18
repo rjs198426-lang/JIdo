@@ -1,6 +1,6 @@
 {
   "checkedAt": "2026-10-18",
-  "scope": "장소별 블로그 연결. 기존 도시 글 105편 재접속 및 괌 후보 57편을 검색·원문 확인. 장소가 실제로 등장하는 33편만 연결; 본문·사진 복제 없음.",
+  "scope": "Only recent dated place blog links; source text is not copied. Photo rights recorded separately.",
   "references": [
     {
       "url": "https://blog.naver.com/dadablog00/224425286682",
@@ -321,8 +321,8 @@
           "name": "도쿄 타워"
         }
       ],
-      "reviewScope": "후다노츠지 육교에서 건물 사이 도쿄 타워 야경을 본 경험",
-      "screeningNote": "본문의 장소·지점·방문 맥락과 링크를 검토했습니다. 협찬·예약 제휴 유도를 발견하지 못한 글을 골랐으며 숨은 광고와 현재 운영·가격을 보증하지 않습니다. 실제 이용하지 않고 다른 글을 소개한 카드·계획 언급·동명 호텔만 일치한 후보는 제외했습니다."
+      "reviewScope": "도시의 도로 너머로 보이는 도쿄 타워",
+      "screeningNote": "본문의 촬영 대상·도시와 실제 방문 맥락을 확인했습니다. 숨은 광고와 현재 운영·가격은 보증하지 않습니다."
     },
     {
       "url": "https://jeesus.tistory.com/476",
@@ -339,23 +339,6 @@
         }
       ],
       "reviewScope": "시부야 교차로 사람 구경과 오쿠시부 산책·식사",
-      "screeningNote": "본문의 장소·지점·방문 맥락과 링크를 검토했습니다. 협찬·예약 제휴 유도를 발견하지 못한 글을 골랐으며 숨은 광고와 현재 운영·가격을 보증하지 않습니다. 실제 이용하지 않고 다른 글을 소개한 카드·계획 언급·동명 호텔만 일치한 후보는 제외했습니다."
-    },
-    {
-      "url": "https://strongestlonghairyoungman.tistory.com/118",
-      "resolvedUrl": "https://strongestlonghairyoungman.tistory.com/118",
-      "httpStatus": 200,
-      "checkedAt": "2026-10-18",
-      "articleTextLength": 1548,
-      "articleTextSHA256": "a0443b78993181d93057231d6023389fefb9e18508a4f6c523eba3ecd9480bb5",
-      "places": [
-        {
-          "id": "osaka-castle",
-          "cityId": "osaka",
-          "name": "오사카성"
-        }
-      ],
-      "reviewScope": "모리노미야역에서 공원을 지나 성으로 걸어간 방문기",
       "screeningNote": "본문의 장소·지점·방문 맥락과 링크를 검토했습니다. 협찬·예약 제휴 유도를 발견하지 못한 글을 골랐으며 숨은 광고와 현재 운영·가격을 보증하지 않습니다. 실제 이용하지 않고 다른 글을 소개한 카드·계획 언급·동명 호텔만 일치한 후보는 제외했습니다."
     },
     {
@@ -409,8 +392,8 @@
           "name": "히카와마루"
         }
       ],
-      "reviewScope": "해안 산책 · 공원·계류 여객선 외관과 부두에서 보는 야경",
-      "screeningNote": "본문의 장소·지점·방문 맥락과 링크를 검토했습니다. 협찬·예약 제휴 유도를 발견하지 못한 글을 골랐으며 숨은 광고와 현재 운영·가격을 보증하지 않습니다. 실제 이용하지 않고 다른 글을 소개한 카드·계획 언급·동명 호텔만 일치한 후보는 제외했습니다."
+      "reviewScope": "야마시타 공원의 잔디와 항구",
+      "screeningNote": "본문의 촬영 대상·도시와 실제 방문 맥락을 확인했습니다. 숨은 광고와 현재 운영·가격은 보증하지 않습니다."
     },
     {
       "url": "https://liih.tistory.com/186",
@@ -522,10 +505,15 @@
           "id": "dubai-review-cd947889b1f5",
           "cityId": "dubai",
           "name": "수크 마디나트 주메이라"
+        },
+        {
+          "id": "dubai-review-865ee0a091b0",
+          "cityId": "dubai",
+          "name": "두바이 분수"
         }
       ],
-      "reviewScope": "몰에서의 긴 도보·카페 휴식과 수크의 디저트 방문",
-      "screeningNote": "본문의 장소·지점·방문 맥락과 링크를 검토했습니다. 협찬·예약 제휴 유도를 발견하지 못한 글을 골랐으며 숨은 광고와 현재 운영·가격을 보증하지 않습니다. 실제 이용하지 않고 다른 글을 소개한 카드·계획 언급·동명 호텔만 일치한 후보는 제외했습니다."
+      "reviewScope": "두바이 분수와 도심의 밤",
+      "screeningNote": "본문의 촬영 대상·도시와 실제 방문 맥락을 확인했습니다. 숨은 광고와 현재 운영·가격은 보증하지 않습니다."
     },
     {
       "url": "https://victoryjsm.tistory.com/310",
@@ -559,50 +547,6 @@
         }
       ],
       "reviewScope": "비가 온 날의 싱가포르 투어와 가든스 바이 더 베이 방문",
-      "screeningNote": "본문의 장소·지점·방문 맥락과 링크를 검토했습니다. 협찬·예약 제휴 유도를 발견하지 못한 글을 골랐으며 숨은 광고와 현재 운영·가격을 보증하지 않습니다. 실제 이용하지 않고 다른 글을 소개한 카드·계획 언급·동명 호텔만 일치한 후보는 제외했습니다."
-    },
-    {
-      "url": "https://hanaball.tistory.com/3",
-      "resolvedUrl": "https://hanaball.tistory.com/3",
-      "httpStatus": 200,
-      "checkedAt": "2026-10-18",
-      "articleTextLength": 1407,
-      "articleTextSHA256": "b4791864d9f0b04606960425498aa001c9b1da7212c2407781a344d698b5deed",
-      "places": [
-        {
-          "id": "saipan-managaha",
-          "cityId": "saipan",
-          "name": "마나가하섬"
-        }
-      ],
-      "reviewScope": "2018년 방문기 · 배편·물놀이와 패러세일링 경험",
-      "screeningNote": "본문의 장소·지점·방문 맥락과 링크를 검토했습니다. 협찬·예약 제휴 유도를 발견하지 못한 글을 골랐으며 숨은 광고와 현재 운영·가격을 보증하지 않습니다. 실제 이용하지 않고 다른 글을 소개한 카드·계획 언급·동명 호텔만 일치한 후보는 제외했습니다."
-    },
-    {
-      "url": "https://hanaball.tistory.com/2",
-      "resolvedUrl": "https://hanaball.tistory.com/2",
-      "httpStatus": 200,
-      "checkedAt": "2026-10-18",
-      "articleTextLength": 1210,
-      "articleTextSHA256": "e871b57b1a593cc32990d0c02b45df66c53fe00af1e0156811b78c94112168ba",
-      "places": [
-        {
-          "id": "saipan-grotto",
-          "cityId": "saipan",
-          "name": "그로토"
-        },
-        {
-          "id": "saipan-bird-island",
-          "cityId": "saipan",
-          "name": "버드아일랜드 전망대"
-        },
-        {
-          "id": "saipan-banzai-cliff",
-          "cityId": "saipan",
-          "name": "만세절벽"
-        }
-      ],
-      "reviewScope": "2018년 방문기 · 그로토 체험과 북부 전망 명소 동선",
       "screeningNote": "본문의 장소·지점·방문 맥락과 링크를 검토했습니다. 협찬·예약 제휴 유도를 발견하지 못한 글을 골랐으며 숨은 광고와 현재 운영·가격을 보증하지 않습니다. 실제 이용하지 않고 다른 글을 소개한 카드·계획 언급·동명 호텔만 일치한 후보는 제외했습니다."
     },
     {
@@ -672,6 +616,142 @@
       ],
       "reviewScope": "늦은 저녁 식사 · 라멘의 양과 사이드·아이 동반 경험",
       "screeningNote": "본문의 장소·지점·방문 맥락과 링크를 검토했습니다. 협찬·예약 제휴 유도를 발견하지 못한 글을 골랐으며 숨은 광고와 현재 운영·가격을 보증하지 않습니다. 실제 이용하지 않고 다른 글을 소개한 카드·계획 언급·동명 호텔만 일치한 후보는 제외했습니다."
+    },
+    {
+      "url": "https://gnrlfhdns.tistory.com/201",
+      "resolvedUrl": "https://gnrlfhdns.tistory.com/201",
+      "httpStatus": 200,
+      "checkedAt": "2026-10-18",
+      "articleTextLength": 1652,
+      "articleTextSHA256": "d44e716a9f85ac50245906eb21e43562e852b013082f6b831466f8e488e1ae76",
+      "places": [
+        {
+          "id": "kiyomizu",
+          "cityId": "kyoto",
+          "name": "기요미즈데라"
+        }
+      ],
+      "reviewScope": "기요미즈데라의 불당",
+      "screeningNote": "본문의 촬영 대상·도시와 실제 방문 맥락을 확인했습니다. 숨은 광고와 현재 운영·가격은 보증하지 않습니다."
+    },
+    {
+      "url": "https://sjpark0.tistory.com/17453185",
+      "resolvedUrl": "https://sjpark0.tistory.com/17453185",
+      "httpStatus": 200,
+      "checkedAt": "2026-10-18",
+      "articleTextLength": 440,
+      "articleTextSHA256": "3e1fd80ac54cf04fea3d4a634ec57d4b9f071d36b301960896e145815da08186",
+      "places": [
+        {
+          "id": "oia",
+          "cityId": "santorini",
+          "name": "이아 마을"
+        }
+      ],
+      "reviewScope": "이아 마을의 하얀 골목과 바다",
+      "screeningNote": "본문의 촬영 대상·도시와 실제 방문 맥락을 확인했습니다. 숨은 광고와 현재 운영·가격은 보증하지 않습니다."
+    },
+    {
+      "url": "https://kanonxkanon.tistory.com/5686",
+      "resolvedUrl": "https://kanonxkanon.tistory.com/5686",
+      "httpStatus": 200,
+      "checkedAt": "2026-10-18",
+      "articleTextLength": 1968,
+      "articleTextSHA256": "dce0481e926d3fd19e2ed347df5513b5f73e2a795ca37d4f543a5b1dc7835871",
+      "places": [
+        {
+          "id": "osaka-dotonbori",
+          "cityId": "osaka",
+          "name": "도톤보리"
+        }
+      ],
+      "reviewScope": "도톤보리의 불빛과 번화가",
+      "screeningNote": "본문의 촬영 대상·도시와 실제 방문 맥락을 확인했습니다. 숨은 광고와 현재 운영·가격은 보증하지 않습니다."
+    },
+    {
+      "url": "https://geone.tistory.com/645",
+      "resolvedUrl": "https://geone.tistory.com/645",
+      "httpStatus": 200,
+      "checkedAt": "2026-10-18",
+      "articleTextLength": 2685,
+      "articleTextSHA256": "51395c219a820e4c94166691a39506c875b26227080f845f38a52b64619dac8d",
+      "places": [
+        {
+          "id": "sapporo-review-273aa4dab417",
+          "cityId": "sapporo",
+          "name": "니조 시장"
+        }
+      ],
+      "reviewScope": "니조 시장의 바깥과 안쪽",
+      "screeningNote": "본문의 촬영 대상·도시와 실제 방문 맥락을 확인했습니다. 숨은 광고와 현재 운영·가격은 보증하지 않습니다."
+    },
+    {
+      "url": "https://astrota.tistory.com/669",
+      "resolvedUrl": "https://astrota.tistory.com/669",
+      "httpStatus": 200,
+      "checkedAt": "2026-10-18",
+      "articleTextLength": 1110,
+      "articleTextSHA256": "6a4cf5691f5149f9bc12e70c58e5cb93cf56a01a6a2f9e572a2b50df8215e279",
+      "places": [
+        {
+          "id": "hiroshima-review-f2a22af18205",
+          "cityId": "hiroshima",
+          "name": "히로시마성 주변"
+        }
+      ],
+      "reviewScope": "히로시마성의 목조 외관",
+      "screeningNote": "본문의 촬영 대상·도시와 실제 방문 맥락을 확인했습니다. 숨은 광고와 현재 운영·가격은 보증하지 않습니다."
+    },
+    {
+      "url": "https://kjyz.tistory.com/229",
+      "resolvedUrl": "https://kjyz.tistory.com/229",
+      "httpStatus": 200,
+      "checkedAt": "2026-10-18",
+      "articleTextLength": 1704,
+      "articleTextSHA256": "50ef96c4f1ea5d04d9eb7bc287fd0bf828ed77bb3b18d63a2ea4117bd5ee7002",
+      "places": [
+        {
+          "id": "kobe-kitano",
+          "cityId": "kobe",
+          "name": "기타노 이진칸 거리"
+        }
+      ],
+      "reviewScope": "기타노 이진칸으로 오르는 거리",
+      "screeningNote": "본문의 촬영 대상·도시와 실제 방문 맥락을 확인했습니다. 숨은 광고와 현재 운영·가격은 보증하지 않습니다."
+    },
+    {
+      "url": "https://pernandez.tistory.com/5",
+      "resolvedUrl": "https://pernandez.tistory.com/5",
+      "httpStatus": 200,
+      "checkedAt": "2026-10-18",
+      "articleTextLength": 2439,
+      "articleTextSHA256": "5b2f2e5e05401b169876dd02a859a3e467ef55ff15a7ab2cc907ae7aede9b647",
+      "places": [
+        {
+          "id": "sendai-castle",
+          "cityId": "sendai",
+          "name": "센다이성 터"
+        }
+      ],
+      "reviewScope": "센다이성 터의 다테 마사무네 기마상",
+      "screeningNote": "본문의 촬영 대상·도시와 실제 방문 맥락을 확인했습니다. 숨은 광고와 현재 운영·가격은 보증하지 않습니다."
+    },
+    {
+      "url": "https://foryourdailylife.tistory.com/entry/%EA%B4%8C-%ED%83%9C%EA%B5%90%EC%97%AC%ED%96%89-%EB%8B%9B%EC%82%B0-%EB%A0%8C%ED%8A%B8%EC%B9%B4-%EB%91%90%EC%A7%93%ED%83%80%EB%8B%88-%EA%B4%8C-%EB%A6%AC%EC%A1%B0%ED%8A%B8Dusit-Thani-Guam-Resort",
+      "resolvedUrl": "https://foryourdailylife.tistory.com/entry/%EA%B4%8C-%ED%83%9C%EA%B5%90%EC%97%AC%ED%96%89-%EB%8B%9B%EC%82%B0-%EB%A0%8C%ED%8A%B8%EC%B9%B4-%EB%91%90%EC%A7%93%ED%83%80%EB%8B%88-%EA%B4%8C-%EB%A6%AC%EC%A1%B0%ED%8A%B8Dusit-Thani-Guam-Resort",
+      "httpStatus": 200,
+      "checkedAt": "2026-10-18",
+      "articleTextLength": 2542,
+      "articleTextSHA256": "56bab3ffe4406b45ec95475790aaeeb39dd40683b4cbaa8acde126b76120573e",
+      "places": [
+        {
+          "id": "guam-tumon-beach",
+          "cityId": "guam",
+          "name": "투몬 비치"
+        }
+      ],
+      "reviewScope": "투몬 비치와 해변을 따라선 호텔들",
+      "screeningNote": "본문의 촬영 대상·도시와 실제 방문 맥락을 확인했습니다. 숨은 광고와 현재 운영·가격은 보증하지 않습니다."
     }
   ],
   "excludedExamples": [

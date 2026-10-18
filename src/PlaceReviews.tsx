@@ -14,6 +14,7 @@ export default function PlaceReviews({ place }: { place: Place }) {
   return (
     <section className="place-review-sources" aria-label="장소 블로그 후기">
       <h3>블로그 후기</h3>
+      <p className="place-blog-period">최근 3년 이내 작성된 글을 모았어요.</p>
       {posts.map((post) => (
         <a
           key={post.url}
