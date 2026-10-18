@@ -1,5 +1,5 @@
 import { useEffect, useId, useRef } from 'react'
-import { ChevronRight, Image, Menu, X } from 'lucide-react'
+import { ChevronRight, Image, Info } from 'lucide-react'
 import './app-information.css'
 
 export default function AppInformation({
@@ -52,11 +52,7 @@ export default function AppInformation({
         aria-controls={panelId}
         onClick={onToggle}
       >
-        {open ? (
-          <X size={20} aria-hidden="true" />
-        ) : (
-          <Menu size={20} aria-hidden="true" />
-        )}
+        <Info size={20} aria-hidden="true" />
       </button>
       {open && (
         <section
