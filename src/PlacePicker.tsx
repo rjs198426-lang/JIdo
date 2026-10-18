@@ -1,6 +1,7 @@
 import { balancedPlaces } from './category-balance'
 import { useState } from 'react'
-import { Check, Plus, Search, MapPin, Clock3 } from 'lucide-react'
+import { Check, Plus, Search, MapPin } from 'lucide-react'
+import { placeIntroduction } from './place-introduction'
 import { places, categoryOptions, getCity } from './catalog'
 import { destinationForDay, type Trip, type CustomPlace } from './travel-model'
 import { dateAt, formatDate } from './store'
@@ -149,10 +150,7 @@ export default function PlacePicker({
               >
                 <small>{place.category}</small>
                 <strong>{place.name}</strong>
-                <span>
-                  <Clock3 size={12} />
-                  {place.duration}
-                </span>
+                <span>{placeIntroduction(place)}</span>
               </button>
               <button
                 type="button"

@@ -1,0 +1,716 @@
+{
+  "checkedAt": "2026-10-18",
+  "scope": "장소별 블로그 연결. 기존 도시 글 105편 재접속 및 괌 후보 57편을 검색·원문 확인. 장소가 실제로 등장하는 33편만 연결; 본문·사진 복제 없음.",
+  "references": [
+    {
+      "url": "https://blog.naver.com/dadablog00/224425286682",
+      "resolvedUrl": "https://m.blog.naver.com/dadablog00/224425286682",
+      "httpStatus": 200,
+      "checkedAt": "2026-10-18",
+      "articleTextLength": 596,
+      "articleTextSHA256": "66d651da7a8d9890d994a0bc5432c51db8d12f1f9ed8b52368b9a0a93d4d4b10",
+      "places": [
+        {
+          "id": "guam-balance-2c5bdea8cf",
+          "cityId": "guam",
+          "name": "메스클라 도스 투몬"
+        }
+      ],
+      "reviewScope": "투몬점 방문 · 새우버거와 치즈버거를 먹어 본 경험",
+      "screeningNote": "본문의 장소·지점·방문 맥락과 링크를 검토했습니다. 협찬·예약 제휴 유도를 발견하지 못한 글을 골랐으며 숨은 광고와 현재 운영·가격을 보증하지 않습니다. 실제 이용하지 않고 다른 글을 소개한 카드·계획 언급·동명 호텔만 일치한 후보는 제외했습니다."
+    },
+    {
+      "url": "https://blog.naver.com/jye40323/224244196057",
+      "resolvedUrl": "https://m.blog.naver.com/jye40323/224244196057",
+      "httpStatus": 200,
+      "checkedAt": "2026-10-18",
+      "articleTextLength": 1883,
+      "articleTextSHA256": "7063cc8362fecca08dbe4e32b0164e4284eb6d6304b9ff0a3a5fd680e08d166e",
+      "places": [
+        {
+          "id": "guam-balance-2c5bdea8cf",
+          "cityId": "guam",
+          "name": "메스클라 도스 투몬"
+        }
+      ],
+      "reviewScope": "점심 대기·메뉴 고르기·사이드 주문 경험",
+      "screeningNote": "본문의 장소·지점·방문 맥락과 링크를 검토했습니다. 협찬·예약 제휴 유도를 발견하지 못한 글을 골랐으며 숨은 광고와 현재 운영·가격을 보증하지 않습니다. 실제 이용하지 않고 다른 글을 소개한 카드·계획 언급·동명 호텔만 일치한 후보는 제외했습니다."
+    },
+    {
+      "url": "https://blog.naver.com/alwls879/224253194332",
+      "resolvedUrl": "https://m.blog.naver.com/alwls879/224253194332",
+      "httpStatus": 200,
+      "checkedAt": "2026-10-18",
+      "articleTextLength": 2104,
+      "articleTextSHA256": "71dac300d69e8a3ff5a102c7ac67ff2d31993040e3b4306b5eb525f9f9f3a6b1",
+      "places": [
+        {
+          "id": "guam-balance-0c3d42a097",
+          "cityId": "guam",
+          "name": "에그앤띵스 괌"
+        }
+      ],
+      "reviewScope": "아이와 브런치 · 팬케이크의 장점과 식사 메뉴의 아쉬움",
+      "screeningNote": "본문의 장소·지점·방문 맥락과 링크를 검토했습니다. 협찬·예약 제휴 유도를 발견하지 못한 글을 골랐으며 숨은 광고와 현재 운영·가격을 보증하지 않습니다. 실제 이용하지 않고 다른 글을 소개한 카드·계획 언급·동명 호텔만 일치한 후보는 제외했습니다."
+    },
+    {
+      "url": "https://blog.naver.com/rubiivii/224375306427",
+      "resolvedUrl": "https://m.blog.naver.com/rubiivii/224375306427",
+      "httpStatus": 200,
+      "checkedAt": "2026-10-18",
+      "articleTextLength": 961,
+      "articleTextSHA256": "db7ee39f481edc8b718b43f19f81fa96494faf5671b69d52612d5b4323ab9f27",
+      "places": [
+        {
+          "id": "guam-balance-79d938ebb1",
+          "cityId": "guam",
+          "name": "크랙드 에그"
+        }
+      ],
+      "reviewScope": "오믈렛·프렌치토스트 식사와 재방문에 대한 솔직한 의견",
+      "screeningNote": "본문의 장소·지점·방문 맥락과 링크를 검토했습니다. 협찬·예약 제휴 유도를 발견하지 못한 글을 골랐으며 숨은 광고와 현재 운영·가격을 보증하지 않습니다. 실제 이용하지 않고 다른 글을 소개한 카드·계획 언급·동명 호텔만 일치한 후보는 제외했습니다."
+    },
+    {
+      "url": "https://blog.naver.com/dlehfla1/223963143503",
+      "resolvedUrl": "https://m.blog.naver.com/dlehfla1/223963143503",
+      "httpStatus": 200,
+      "checkedAt": "2026-10-18",
+      "articleTextLength": 1862,
+      "articleTextSHA256": "33f7897f2f87de0dd77821fabbd2d9ce1a42dcdad353c4e5b0245b8ea3e0da24",
+      "places": [
+        {
+          "id": "guam-balance-f52c396229",
+          "cityId": "guam",
+          "name": "호텔 닛코 괌"
+        },
+        {
+          "id": "guam-gun-beach",
+          "cityId": "guam",
+          "name": "건 비치"
+        }
+      ],
+      "reviewScope": "2025년 숙박기 · 객실 습도·수영장·바로 앞 건 비치",
+      "screeningNote": "본문의 장소·지점·방문 맥락과 링크를 검토했습니다. 협찬·예약 제휴 유도를 발견하지 못한 글을 골랐으며 숨은 광고와 현재 운영·가격을 보증하지 않습니다. 실제 이용하지 않고 다른 글을 소개한 카드·계획 언급·동명 호텔만 일치한 후보는 제외했습니다."
+    },
+    {
+      "url": "https://blog.naver.com/ehcmw8290/223917074942",
+      "resolvedUrl": "https://m.blog.naver.com/ehcmw8290/223917074942",
+      "httpStatus": 200,
+      "checkedAt": "2026-10-18",
+      "articleTextLength": 1750,
+      "articleTextSHA256": "2a8b675fb6941f046d947a8b5f26ebba86c164e663ca97906bbca7b9624f3310",
+      "places": [
+        {
+          "id": "guam-balance-97a4af1cf5",
+          "cityId": "guam",
+          "name": "두짓타니 괌 리조트"
+        }
+      ],
+      "reviewScope": "객실·욕실·투몬만 전망과 가족 수영장 이용 경험",
+      "screeningNote": "본문의 장소·지점·방문 맥락과 링크를 검토했습니다. 협찬·예약 제휴 유도를 발견하지 못한 글을 골랐으며 숨은 광고와 현재 운영·가격을 보증하지 않습니다. 실제 이용하지 않고 다른 글을 소개한 카드·계획 언급·동명 호텔만 일치한 후보는 제외했습니다."
+    },
+    {
+      "url": "https://blog.naver.com/miniyuni1821/224069036332",
+      "resolvedUrl": "https://m.blog.naver.com/miniyuni1821/224069036332",
+      "httpStatus": 200,
+      "checkedAt": "2026-10-18",
+      "articleTextLength": 1690,
+      "articleTextSHA256": "3bbe20a2942cf26f50997946d53b3faecef67a52d15ae117436e54835d9a8d0e",
+      "places": [
+        {
+          "id": "guam-fish-eye",
+          "cityId": "guam",
+          "name": "피시아이 마린파크"
+        },
+        {
+          "id": "guam-emerald-valley",
+          "cityId": "guam",
+          "name": "에메랄드 밸리"
+        }
+      ],
+      "reviewScope": "아이와 해중 전망대 관람 후 에메랄드 밸리로 이동한 방문기",
+      "screeningNote": "본문의 장소·지점·방문 맥락과 링크를 검토했습니다. 협찬·예약 제휴 유도를 발견하지 못한 글을 골랐으며 숨은 광고와 현재 운영·가격을 보증하지 않습니다. 실제 이용하지 않고 다른 글을 소개한 카드·계획 언급·동명 호텔만 일치한 후보는 제외했습니다."
+    },
+    {
+      "url": "https://blog.naver.com/anotherchapter/223969587354",
+      "resolvedUrl": "https://m.blog.naver.com/anotherchapter/223969587354",
+      "httpStatus": 200,
+      "checkedAt": "2026-10-18",
+      "articleTextLength": 2096,
+      "articleTextSHA256": "87111032fe7ca2adc46d193c95ab0d528fb5c19aaf41093e8a9dcd75cce74670",
+      "places": [
+        {
+          "id": "guam-plaza-de-espana",
+          "cityId": "guam",
+          "name": "스페인 광장"
+        },
+        {
+          "id": "guam-guam-museum",
+          "cityId": "guam",
+          "name": "괌 박물관"
+        }
+      ],
+      "reviewScope": "광장 유적과 박물관의 차모로 문화·역사 전시 관람",
+      "screeningNote": "본문의 장소·지점·방문 맥락과 링크를 검토했습니다. 협찬·예약 제휴 유도를 발견하지 못한 글을 골랐으며 숨은 광고와 현재 운영·가격을 보증하지 않습니다. 실제 이용하지 않고 다른 글을 소개한 카드·계획 언급·동명 호텔만 일치한 후보는 제외했습니다."
+    },
+    {
+      "url": "https://blog.naver.com/sunbi6800/224096984614",
+      "resolvedUrl": "https://m.blog.naver.com/sunbi6800/224096984614",
+      "httpStatus": 200,
+      "checkedAt": "2026-10-18",
+      "articleTextLength": 913,
+      "articleTextSHA256": "a8fe7a2834be496fa498a73f4633326a126c5cd8f2cb4ba967c134e0e14cca8a",
+      "places": [
+        {
+          "id": "guam-plaza-de-espana",
+          "cityId": "guam",
+          "name": "스페인 광장"
+        },
+        {
+          "id": "guam-cathedral-basilica",
+          "cityId": "guam",
+          "name": "아가나 대성당"
+        }
+      ],
+      "reviewScope": "광장 포토존·초콜릿하우스와 대성당 외관 방문",
+      "screeningNote": "본문의 장소·지점·방문 맥락과 링크를 검토했습니다. 협찬·예약 제휴 유도를 발견하지 못한 글을 골랐으며 숨은 광고와 현재 운영·가격을 보증하지 않습니다. 실제 이용하지 않고 다른 글을 소개한 카드·계획 언급·동명 호텔만 일치한 후보는 제외했습니다."
+    },
+    {
+      "url": "https://blog.naver.com/jjmomiris/224212568301",
+      "resolvedUrl": "https://m.blog.naver.com/jjmomiris/224212568301",
+      "httpStatus": 200,
+      "checkedAt": "2026-10-18",
+      "articleTextLength": 3019,
+      "articleTextSHA256": "0c78763778b2b9741ce7813cfd714c0a07d8d7fcb5a113220f1527b286235ba7",
+      "places": [
+        {
+          "id": "guam-chamorro-village",
+          "cityId": "guam",
+          "name": "차모로 빌리지"
+        }
+      ],
+      "reviewScope": "야시장 직접 방문 · 주차·바비큐·과일 음료와 분위기",
+      "screeningNote": "본문의 장소·지점·방문 맥락과 링크를 검토했습니다. 협찬·예약 제휴 유도를 발견하지 못한 글을 골랐으며 숨은 광고와 현재 운영·가격을 보증하지 않습니다. 실제 이용하지 않고 다른 글을 소개한 카드·계획 언급·동명 호텔만 일치한 후보는 제외했습니다."
+    },
+    {
+      "url": "https://blog.naver.com/hjh14579/224334057263",
+      "resolvedUrl": "https://m.blog.naver.com/hjh14579/224334057263",
+      "httpStatus": 200,
+      "checkedAt": "2026-10-18",
+      "articleTextLength": 2015,
+      "articleTextSHA256": "cf533af079724bcb2a942e7ea4132fca3710e96598e0b4d29d9bb01eaf5e8a5d",
+      "places": [
+        {
+          "id": "guam-plaza-de-espana",
+          "cityId": "guam",
+          "name": "스페인 광장"
+        },
+        {
+          "id": "guam-emerald-valley",
+          "cityId": "guam",
+          "name": "에메랄드 밸리"
+        },
+        {
+          "id": "guam-fort-soledad",
+          "cityId": "guam",
+          "name": "솔레다드 요새"
+        },
+        {
+          "id": "guam-merizo-pier",
+          "cityId": "guam",
+          "name": "메리조 부두"
+        },
+        {
+          "id": "guam-inarajan-pools",
+          "cityId": "guam",
+          "name": "이나라한 자연풀"
+        }
+      ],
+      "reviewScope": "아이와 남부 드라이브 · 전망·부두와 자연풀의 현장 상태",
+      "screeningNote": "본문의 장소·지점·방문 맥락과 링크를 검토했습니다. 협찬·예약 제휴 유도를 발견하지 못한 글을 골랐으며 숨은 광고와 현재 운영·가격을 보증하지 않습니다. 실제 이용하지 않고 다른 글을 소개한 카드·계획 언급·동명 호텔만 일치한 후보는 제외했습니다."
+    },
+    {
+      "url": "https://blog.naver.com/ckumkh/224383535518",
+      "resolvedUrl": "https://m.blog.naver.com/ckumkh/224383535518",
+      "httpStatus": 200,
+      "checkedAt": "2026-10-18",
+      "articleTextLength": 3098,
+      "articleTextSHA256": "24ace44e5145d48347bacfbf51752e6e7ed791518a635337f0ba5805cd364dbf",
+      "places": [
+        {
+          "id": "guam-tumon-beach",
+          "cityId": "guam",
+          "name": "투몬 비치"
+        },
+        {
+          "id": "guam-ypao-beach",
+          "cityId": "guam",
+          "name": "이파오 비치"
+        }
+      ],
+      "reviewScope": "가족 물놀이·스노클링과 여행 마지막 저녁의 투몬 산책",
+      "screeningNote": "본문의 장소·지점·방문 맥락과 링크를 검토했습니다. 협찬·예약 제휴 유도를 발견하지 못한 글을 골랐으며 숨은 광고와 현재 운영·가격을 보증하지 않습니다. 실제 이용하지 않고 다른 글을 소개한 카드·계획 언급·동명 호텔만 일치한 후보는 제외했습니다."
+    },
+    {
+      "url": "https://blog.naver.com/jay_adventures/224016559545",
+      "resolvedUrl": "https://m.blog.naver.com/jay_adventures/224016559545",
+      "httpStatus": 200,
+      "checkedAt": "2026-10-18",
+      "articleTextLength": 1029,
+      "articleTextSHA256": "9c5ef2725f0593fc20c9714e48167a71b1333d716670d739288ebe324462b573",
+      "places": [
+        {
+          "id": "guam-balance-825eb8e850",
+          "cityId": "guam",
+          "name": "더 플라자 쇼핑센터"
+        }
+      ],
+      "reviewScope": "호텔에서 이어 걷는 쇼핑 · 스투시 대기·쿠키·ABC 매장 구경",
+      "screeningNote": "본문의 장소·지점·방문 맥락과 링크를 검토했습니다. 협찬·예약 제휴 유도를 발견하지 못한 글을 골랐으며 숨은 광고와 현재 운영·가격을 보증하지 않습니다. 실제 이용하지 않고 다른 글을 소개한 카드·계획 언급·동명 호텔만 일치한 후보는 제외했습니다."
+    },
+    {
+      "url": "https://blog.naver.com/exist7/223272864021",
+      "resolvedUrl": "https://m.blog.naver.com/exist7/223272864021",
+      "httpStatus": 200,
+      "checkedAt": "2026-10-18",
+      "articleTextLength": 899,
+      "articleTextSHA256": "acb1200bbdc1a5bc91f2743d718eccd45fa1c2cebaa33286eb1a9571c13d4b42",
+      "places": [
+        {
+          "id": "guam-premier-outlets",
+          "cityId": "guam",
+          "name": "괌 프리미어 아울렛"
+        }
+      ],
+      "reviewScope": "2023년 방문기 · 쇼핑 후 GPO에서 숙소로 택시 이동",
+      "screeningNote": "본문의 장소·지점·방문 맥락과 링크를 검토했습니다. 협찬·예약 제휴 유도를 발견하지 못한 글을 골랐으며 숨은 광고와 현재 운영·가격을 보증하지 않습니다. 실제 이용하지 않고 다른 글을 소개한 카드·계획 언급·동명 호텔만 일치한 후보는 제외했습니다."
+    },
+    {
+      "url": "https://ngbn.tistory.com/13",
+      "resolvedUrl": "https://ngbn.tistory.com/13",
+      "httpStatus": 200,
+      "checkedAt": "2026-10-18",
+      "articleTextLength": 2157,
+      "articleTextSHA256": "7b326ae2810d8d2359967e247190c7ee168474c9870a493bd7f0103ffda000d4",
+      "places": [
+        {
+          "id": "fushimi",
+          "cityId": "kyoto",
+          "name": "후시미 이나리 신사"
+        },
+        {
+          "id": "kyoto-review-cd801b84397d",
+          "cityId": "kyoto",
+          "name": "겐닌지"
+        }
+      ],
+      "reviewScope": "2024년 방문기 · 기온에서 겐닌지를 거쳐 걷기와 후시미 이나리",
+      "screeningNote": "본문의 장소·지점·방문 맥락과 링크를 검토했습니다. 협찬·예약 제휴 유도를 발견하지 못한 글을 골랐으며 숨은 광고와 현재 운영·가격을 보증하지 않습니다. 실제 이용하지 않고 다른 글을 소개한 카드·계획 언급·동명 호텔만 일치한 후보는 제외했습니다."
+    },
+    {
+      "url": "https://jeesus.tistory.com/481",
+      "resolvedUrl": "https://jeesus.tistory.com/481",
+      "httpStatus": 200,
+      "checkedAt": "2026-10-18",
+      "articleTextLength": 2436,
+      "articleTextSHA256": "4a643988d04b3838f7713ecb2608ef09b8c307fd5c0b4d5741eba3908e34751a",
+      "places": [
+        {
+          "id": "tokyo-review-9bc3e51d9cd3",
+          "cityId": "tokyo",
+          "name": "도쿄 타워"
+        }
+      ],
+      "reviewScope": "후다노츠지 육교에서 건물 사이 도쿄 타워 야경을 본 경험",
+      "screeningNote": "본문의 장소·지점·방문 맥락과 링크를 검토했습니다. 협찬·예약 제휴 유도를 발견하지 못한 글을 골랐으며 숨은 광고와 현재 운영·가격을 보증하지 않습니다. 실제 이용하지 않고 다른 글을 소개한 카드·계획 언급·동명 호텔만 일치한 후보는 제외했습니다."
+    },
+    {
+      "url": "https://jeesus.tistory.com/476",
+      "resolvedUrl": "https://jeesus.tistory.com/476",
+      "httpStatus": 200,
+      "checkedAt": "2026-10-18",
+      "articleTextLength": 2004,
+      "articleTextSHA256": "ab6fd6ab415582f1f775354340ea8ee807d2ce73dbded0a9854b39c0fc62d938",
+      "places": [
+        {
+          "id": "tokyo-shibuya",
+          "cityId": "tokyo",
+          "name": "시부야 스크램블 교차로"
+        }
+      ],
+      "reviewScope": "시부야 교차로 사람 구경과 오쿠시부 산책·식사",
+      "screeningNote": "본문의 장소·지점·방문 맥락과 링크를 검토했습니다. 협찬·예약 제휴 유도를 발견하지 못한 글을 골랐으며 숨은 광고와 현재 운영·가격을 보증하지 않습니다. 실제 이용하지 않고 다른 글을 소개한 카드·계획 언급·동명 호텔만 일치한 후보는 제외했습니다."
+    },
+    {
+      "url": "https://strongestlonghairyoungman.tistory.com/118",
+      "resolvedUrl": "https://strongestlonghairyoungman.tistory.com/118",
+      "httpStatus": 200,
+      "checkedAt": "2026-10-18",
+      "articleTextLength": 1548,
+      "articleTextSHA256": "a0443b78993181d93057231d6023389fefb9e18508a4f6c523eba3ecd9480bb5",
+      "places": [
+        {
+          "id": "osaka-castle",
+          "cityId": "osaka",
+          "name": "오사카성"
+        }
+      ],
+      "reviewScope": "모리노미야역에서 공원을 지나 성으로 걸어간 방문기",
+      "screeningNote": "본문의 장소·지점·방문 맥락과 링크를 검토했습니다. 협찬·예약 제휴 유도를 발견하지 못한 글을 골랐으며 숨은 광고와 현재 운영·가격을 보증하지 않습니다. 실제 이용하지 않고 다른 글을 소개한 카드·계획 언급·동명 호텔만 일치한 후보는 제외했습니다."
+    },
+    {
+      "url": "https://bruce.tistory.com/1198143522",
+      "resolvedUrl": "https://bruce.tistory.com/1198143522",
+      "httpStatus": 200,
+      "checkedAt": "2026-10-18",
+      "articleTextLength": 2176,
+      "articleTextSHA256": "1f84f757a326c078ffb7b457e678ec88afd55d4e735c5f2f09946c6381c2d608",
+      "places": [
+        {
+          "id": "osaka-dotonbori",
+          "cityId": "osaka",
+          "name": "도톤보리"
+        },
+        {
+          "id": "osaka-review-e0e35470a0cb",
+          "cityId": "osaka",
+          "name": "신사이바시"
+        }
+      ],
+      "reviewScope": "난바 번화가에서 먹거리와 상점가를 이어 걸은 경험",
+      "screeningNote": "본문의 장소·지점·방문 맥락과 링크를 검토했습니다. 협찬·예약 제휴 유도를 발견하지 못한 글을 골랐으며 숨은 광고와 현재 운영·가격을 보증하지 않습니다. 실제 이용하지 않고 다른 글을 소개한 카드·계획 언급·동명 호텔만 일치한 후보는 제외했습니다."
+    },
+    {
+      "url": "https://jeesus.tistory.com/485",
+      "resolvedUrl": "https://jeesus.tistory.com/485",
+      "httpStatus": 200,
+      "checkedAt": "2026-10-18",
+      "articleTextLength": 2942,
+      "articleTextSHA256": "15252fa605b56ccb417ad2130110dbc155f15db988bbe01ee5765c8302eaf4c4",
+      "places": [
+        {
+          "id": "yokohama-minatomirai",
+          "cityId": "yokohama",
+          "name": "미나토미라이"
+        },
+        {
+          "id": "yokohama-yamashita",
+          "cityId": "yokohama",
+          "name": "야마시타 공원"
+        },
+        {
+          "id": "yokohama-review-258fa4853c59",
+          "cityId": "yokohama",
+          "name": "오산바시 부두"
+        },
+        {
+          "id": "yokohama-review-37b6ce32c549",
+          "cityId": "yokohama",
+          "name": "히카와마루"
+        }
+      ],
+      "reviewScope": "해안 산책 · 공원·계류 여객선 외관과 부두에서 보는 야경",
+      "screeningNote": "본문의 장소·지점·방문 맥락과 링크를 검토했습니다. 협찬·예약 제휴 유도를 발견하지 못한 글을 골랐으며 숨은 광고와 현재 운영·가격을 보증하지 않습니다. 실제 이용하지 않고 다른 글을 소개한 카드·계획 언급·동명 호텔만 일치한 후보는 제외했습니다."
+    },
+    {
+      "url": "https://liih.tistory.com/186",
+      "resolvedUrl": "https://liih.tistory.com/186",
+      "httpStatus": 200,
+      "checkedAt": "2026-10-18",
+      "articleTextLength": 2353,
+      "articleTextSHA256": "21f3ed0e01e4ea9aaf92e72300ed02ff7cb8482d063fc9bf91cfa30d9fc75977",
+      "places": [
+        {
+          "id": "sapporo-review-56228a68e4e4",
+          "cityId": "sapporo",
+          "name": "오타루 운하"
+        },
+        {
+          "id": "sapporo-review-597158274130",
+          "cityId": "sapporo",
+          "name": "오타루 오르골당"
+        },
+        {
+          "id": "sapporo-review-fdb249de0cb0",
+          "cityId": "sapporo",
+          "name": "르타오"
+        }
+      ],
+      "reviewScope": "오타루 도보 여행 · 오르골당 구경과 르타오 카페·운하 산책",
+      "screeningNote": "본문의 장소·지점·방문 맥락과 링크를 검토했습니다. 협찬·예약 제휴 유도를 발견하지 못한 글을 골랐으며 숨은 광고와 현재 운영·가격을 보증하지 않습니다. 실제 이용하지 않고 다른 글을 소개한 카드·계획 언급·동명 호텔만 일치한 후보는 제외했습니다."
+    },
+    {
+      "url": "https://youngjun7.tistory.com/entry/0612-to-0613-Sapporo-Travel-Journal",
+      "resolvedUrl": "https://youngjun7.tistory.com/entry/0612-to-0613-Sapporo-Travel-Journal",
+      "httpStatus": 200,
+      "checkedAt": "2026-10-18",
+      "articleTextLength": 3669,
+      "articleTextSHA256": "601c398e9b7c65da1811e72c978e942cd68505e2bf885ff5914376cc43d17231",
+      "places": [
+        {
+          "id": "sapporo-review-7655df2da794",
+          "cityId": "sapporo",
+          "name": "삿포로 맥주박물관"
+        },
+        {
+          "id": "sapporo-review-abc4bcc667b3",
+          "cityId": "sapporo",
+          "name": "모이와산"
+        },
+        {
+          "id": "sapporo-review-f90535d7eb70",
+          "cityId": "sapporo",
+          "name": "나카지마 공원"
+        }
+      ],
+      "reviewScope": "박물관·시음·공원 산책과 모이와야마 케이블카 대기 경험",
+      "screeningNote": "본문의 장소·지점·방문 맥락과 링크를 검토했습니다. 협찬·예약 제휴 유도를 발견하지 못한 글을 골랐으며 숨은 광고와 현재 운영·가격을 보증하지 않습니다. 실제 이용하지 않고 다른 글을 소개한 카드·계획 언급·동명 호텔만 일치한 후보는 제외했습니다."
+    },
+    {
+      "url": "https://kiydoll.tistory.com/881",
+      "resolvedUrl": "https://kiydoll.tistory.com/881",
+      "httpStatus": 200,
+      "checkedAt": "2026-10-18",
+      "articleTextLength": 721,
+      "articleTextSHA256": "3bf8ca14fd326034fa9d94b8ead57da8deef1a126d074675b804797b30166c31",
+      "places": [
+        {
+          "id": "hiroshima-dome",
+          "cityId": "hiroshima",
+          "name": "원폭 돔"
+        }
+      ],
+      "reviewScope": "원폭 돔과 평화기념공원 주변을 둘러본 기록",
+      "screeningNote": "본문의 장소·지점·방문 맥락과 링크를 검토했습니다. 협찬·예약 제휴 유도를 발견하지 못한 글을 골랐으며 숨은 광고와 현재 운영·가격을 보증하지 않습니다. 실제 이용하지 않고 다른 글을 소개한 카드·계획 언급·동명 호텔만 일치한 후보는 제외했습니다."
+    },
+    {
+      "url": "https://hklee1111.tistory.com/275",
+      "resolvedUrl": "https://hklee1111.tistory.com/275",
+      "httpStatus": 200,
+      "checkedAt": "2026-10-18",
+      "articleTextLength": 2510,
+      "articleTextSHA256": "69599009b731512bb80a98323a1421bace4460d252485378789fd5dd5ea28ed5",
+      "places": [
+        {
+          "id": "oia",
+          "cityId": "santorini",
+          "name": "이아 마을"
+        },
+        {
+          "id": "fira",
+          "cityId": "santorini",
+          "name": "피라 마을"
+        }
+      ],
+      "reviewScope": "절벽 산책과 이아 일몰 · 마을 사이 이동 경험",
+      "screeningNote": "본문의 장소·지점·방문 맥락과 링크를 검토했습니다. 협찬·예약 제휴 유도를 발견하지 못한 글을 골랐으며 숨은 광고와 현재 운영·가격을 보증하지 않습니다. 실제 이용하지 않고 다른 글을 소개한 카드·계획 언급·동명 호텔만 일치한 후보는 제외했습니다."
+    },
+    {
+      "url": "https://kdharchive.tistory.com/1198",
+      "resolvedUrl": "https://kdharchive.tistory.com/1198",
+      "httpStatus": 200,
+      "checkedAt": "2026-10-18",
+      "articleTextLength": 1486,
+      "articleTextSHA256": "44a8a832f2c0f86262fe29a8d7a0fda4e9cc56cb1d2ea13526e54d2a1a88bd27",
+      "places": [
+        {
+          "id": "dubai-review-2d9db81044cf",
+          "cityId": "dubai",
+          "name": "두바이 몰"
+        },
+        {
+          "id": "dubai-review-cd947889b1f5",
+          "cityId": "dubai",
+          "name": "수크 마디나트 주메이라"
+        }
+      ],
+      "reviewScope": "몰에서의 긴 도보·카페 휴식과 수크의 디저트 방문",
+      "screeningNote": "본문의 장소·지점·방문 맥락과 링크를 검토했습니다. 협찬·예약 제휴 유도를 발견하지 못한 글을 골랐으며 숨은 광고와 현재 운영·가격을 보증하지 않습니다. 실제 이용하지 않고 다른 글을 소개한 카드·계획 언급·동명 호텔만 일치한 후보는 제외했습니다."
+    },
+    {
+      "url": "https://victoryjsm.tistory.com/310",
+      "resolvedUrl": "https://victoryjsm.tistory.com/310",
+      "httpStatus": 200,
+      "checkedAt": "2026-10-18",
+      "articleTextLength": 2057,
+      "articleTextSHA256": "eae9a10851c5394dadd051e429dc220d36a85a604ddceeaedf91841c7e5081c8",
+      "places": [
+        {
+          "id": "hongkong-guide-15b37b842ec3",
+          "cityId": "hongkong",
+          "name": "스타의 거리"
+        }
+      ],
+      "reviewScope": "침사추이에서 빵·커피를 사 바닷가 벤치에서 쉬어 간 기록",
+      "screeningNote": "본문의 장소·지점·방문 맥락과 링크를 검토했습니다. 협찬·예약 제휴 유도를 발견하지 못한 글을 골랐으며 숨은 광고와 현재 운영·가격을 보증하지 않습니다. 실제 이용하지 않고 다른 글을 소개한 카드·계획 언급·동명 호텔만 일치한 후보는 제외했습니다."
+    },
+    {
+      "url": "https://mcboiler.tistory.com/1606",
+      "resolvedUrl": "https://mcboiler.tistory.com/1606",
+      "httpStatus": 200,
+      "checkedAt": "2026-10-18",
+      "articleTextLength": 5031,
+      "articleTextSHA256": "e5764144c38cd9b7edb21ab45d0eff097f7802cf89178afccc592d48ef6c1aa7",
+      "places": [
+        {
+          "id": "singapore-guide-3e98c0bd3bdf",
+          "cityId": "singapore",
+          "name": "가든스 바이 더 베이"
+        }
+      ],
+      "reviewScope": "비가 온 날의 싱가포르 투어와 가든스 바이 더 베이 방문",
+      "screeningNote": "본문의 장소·지점·방문 맥락과 링크를 검토했습니다. 협찬·예약 제휴 유도를 발견하지 못한 글을 골랐으며 숨은 광고와 현재 운영·가격을 보증하지 않습니다. 실제 이용하지 않고 다른 글을 소개한 카드·계획 언급·동명 호텔만 일치한 후보는 제외했습니다."
+    },
+    {
+      "url": "https://hanaball.tistory.com/3",
+      "resolvedUrl": "https://hanaball.tistory.com/3",
+      "httpStatus": 200,
+      "checkedAt": "2026-10-18",
+      "articleTextLength": 1407,
+      "articleTextSHA256": "b4791864d9f0b04606960425498aa001c9b1da7212c2407781a344d698b5deed",
+      "places": [
+        {
+          "id": "saipan-managaha",
+          "cityId": "saipan",
+          "name": "마나가하섬"
+        }
+      ],
+      "reviewScope": "2018년 방문기 · 배편·물놀이와 패러세일링 경험",
+      "screeningNote": "본문의 장소·지점·방문 맥락과 링크를 검토했습니다. 협찬·예약 제휴 유도를 발견하지 못한 글을 골랐으며 숨은 광고와 현재 운영·가격을 보증하지 않습니다. 실제 이용하지 않고 다른 글을 소개한 카드·계획 언급·동명 호텔만 일치한 후보는 제외했습니다."
+    },
+    {
+      "url": "https://hanaball.tistory.com/2",
+      "resolvedUrl": "https://hanaball.tistory.com/2",
+      "httpStatus": 200,
+      "checkedAt": "2026-10-18",
+      "articleTextLength": 1210,
+      "articleTextSHA256": "e871b57b1a593cc32990d0c02b45df66c53fe00af1e0156811b78c94112168ba",
+      "places": [
+        {
+          "id": "saipan-grotto",
+          "cityId": "saipan",
+          "name": "그로토"
+        },
+        {
+          "id": "saipan-bird-island",
+          "cityId": "saipan",
+          "name": "버드아일랜드 전망대"
+        },
+        {
+          "id": "saipan-banzai-cliff",
+          "cityId": "saipan",
+          "name": "만세절벽"
+        }
+      ],
+      "reviewScope": "2018년 방문기 · 그로토 체험과 북부 전망 명소 동선",
+      "screeningNote": "본문의 장소·지점·방문 맥락과 링크를 검토했습니다. 협찬·예약 제휴 유도를 발견하지 못한 글을 골랐으며 숨은 광고와 현재 운영·가격을 보증하지 않습니다. 실제 이용하지 않고 다른 글을 소개한 카드·계획 언급·동명 호텔만 일치한 후보는 제외했습니다."
+    },
+    {
+      "url": "https://blog.naver.com/kkoung1001/224384209287",
+      "resolvedUrl": "https://m.blog.naver.com/kkoung1001/224384209287",
+      "httpStatus": 200,
+      "checkedAt": "2026-10-18",
+      "articleTextLength": 1678,
+      "articleTextSHA256": "8b403304b9096ff88b2ea8f527cc7a82d6f6716622643f378699db88cb3c4e9a",
+      "places": [
+        {
+          "id": "guam-two-lovers-point",
+          "cityId": "guam",
+          "name": "사랑의 절벽"
+        }
+      ],
+      "reviewScope": "태교여행 · 전망대에서 본 투몬 해안과 에메랄드 밸리 방문",
+      "screeningNote": "본문의 장소·지점·방문 맥락과 링크를 검토했습니다. 협찬·예약 제휴 유도를 발견하지 못한 글을 골랐으며 숨은 광고와 현재 운영·가격을 보증하지 않습니다. 실제 이용하지 않고 다른 글을 소개한 카드·계획 언급·동명 호텔만 일치한 후보는 제외했습니다."
+    },
+    {
+      "url": "https://blog.naver.com/uhg99144/223335390648",
+      "resolvedUrl": "https://m.blog.naver.com/uhg99144/223335390648",
+      "httpStatus": 200,
+      "checkedAt": "2026-10-18",
+      "articleTextLength": 1877,
+      "articleTextSHA256": "e26b68ba354d715fa461a543449473df44e1b27b4fcaa113047de9e50b57d796",
+      "places": [
+        {
+          "id": "guam-fort-santa-agueda",
+          "cityId": "guam",
+          "name": "산타아규다 요새"
+        }
+      ],
+      "reviewScope": "언덕 진입과 도심·해안 전망, 바람과 주차 경험",
+      "screeningNote": "본문의 장소·지점·방문 맥락과 링크를 검토했습니다. 협찬·예약 제휴 유도를 발견하지 못한 글을 골랐으며 숨은 광고와 현재 운영·가격을 보증하지 않습니다. 실제 이용하지 않고 다른 글을 소개한 카드·계획 언급·동명 호텔만 일치한 후보는 제외했습니다."
+    },
+    {
+      "url": "https://blog.naver.com/park_1995_/224314566502",
+      "resolvedUrl": "https://m.blog.naver.com/park_1995_/224314566502",
+      "httpStatus": 200,
+      "checkedAt": "2026-10-18",
+      "articleTextLength": 759,
+      "articleTextSHA256": "7b22d6966a3f83ace26f23238f3fd79eedf13726f4336f6a20fd9504d5fe3ee9",
+      "places": [
+        {
+          "id": "guam-talofofo-falls",
+          "cityId": "guam",
+          "name": "탈로포포 폭포"
+        }
+      ],
+      "reviewScope": "폭포공원 방문 · 케이블카·숲길과 요코이 동굴 관람 경험",
+      "screeningNote": "본문의 장소·지점·방문 맥락과 링크를 검토했습니다. 협찬·예약 제휴 유도를 발견하지 못한 글을 골랐으며 숨은 광고와 현재 운영·가격을 보증하지 않습니다. 실제 이용하지 않고 다른 글을 소개한 카드·계획 언급·동명 호텔만 일치한 후보는 제외했습니다."
+    },
+    {
+      "url": "https://blog.naver.com/hahammi/224188531053",
+      "resolvedUrl": "https://m.blog.naver.com/hahammi/224188531053",
+      "httpStatus": 200,
+      "checkedAt": "2026-10-18",
+      "articleTextLength": 559,
+      "articleTextSHA256": "d9b72e220b575d2bfa9f46d7ba7848f29901d542393ec8bd084a0edc00f8a6ab",
+      "places": [
+        {
+          "id": "guam-balance-8b21210470",
+          "cityId": "guam",
+          "name": "후지이치방 괌"
+        }
+      ],
+      "reviewScope": "늦은 저녁 식사 · 라멘의 양과 사이드·아이 동반 경험",
+      "screeningNote": "본문의 장소·지점·방문 맥락과 링크를 검토했습니다. 협찬·예약 제휴 유도를 발견하지 못한 글을 골랐으며 숨은 광고와 현재 운영·가격을 보증하지 않습니다. 실제 이용하지 않고 다른 글을 소개한 카드·계획 언급·동명 호텔만 일치한 후보는 제외했습니다."
+    }
+  ],
+  "excludedExamples": [
+    {
+      "url": "https://woof.tistory.com/1863",
+      "reason": "재열람 본문에 투어 앱 할인쿠폰 코드가 있어 새 장소 후기 연결에서 제외. 기존 도시 가이드 기록은 이번 장소 작업에서 변경하지 않음."
+    },
+    {
+      "url": "https://blog.naver.com/bin_sss/224396067583",
+      "reason": "예약 제휴 단축 링크 확인"
+    },
+    {
+      "url": "https://blog.naver.com/sevencong/224366790212",
+      "reason": "호텔 예약 제휴 단축 링크 확인"
+    },
+    {
+      "url": "https://blog.naver.com/mii__ya/224296189686",
+      "reason": "예약 할인쿠폰·제휴 링크 확인"
+    },
+    {
+      "url": "https://blog.naver.com/gywn7580242/224078881010",
+      "reason": "투어 예약 제휴 단축 링크 확인"
+    },
+    {
+      "url": "https://blog.naver.com/dmswls0920/224163758670",
+      "reason": "직접 방문 경험보다 이용 안내 위주"
+    },
+    {
+      "url": "https://blog.naver.com/ri_j00/223478271353",
+      "reason": "더 플라자 쇼핑센터와 다른 괌 플라자 호텔 후기"
+    },
+    {
+      "url": "https://blog.naver.com/ghyeon92/224337246976",
+      "reason": "투어 예약 유도 링크가 있어 제외"
+    }
+  ],
+  "totals": {
+    "posts": 33,
+    "places": 51,
+    "guamPlaces": 23
+  }
+}

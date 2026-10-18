@@ -1,5 +1,6 @@
 import { test, expect } from '@playwright/test'
 import { places, categoryOptions } from '../src/data'
+import { placeIntroduction } from '../src/place-introduction'
 import { withBlogNotes } from '../src/blog-place-notes'
 import { reviewSourceSchema } from '../src/review-source'
 import notes from '../src/blog-place-notes.json' with { type: 'json' }
@@ -50,7 +51,7 @@ test('가이드 분류는 전체가 먼저이며 분류별 목록·개수와 장
     ).toEqual(
       kyoto
         .filter((p) => p.category === category)
-        .map((p) => `${p.category} · ${p.duration}`),
+        .map((p) => `${p.category} · ${placeIntroduction(p)}`),
     )
   }
   await group.getByRole('button', { name: '관광', exact: true }).click()
@@ -63,10 +64,10 @@ test('가이드 분류는 전체가 먼저이며 분류별 목록·개수와 장
       .getByRole('link', { name: /교토 자유여행, 청수사/ }),
   ).toHaveAttribute('href', 'https://gnrlfhdns.tistory.com/201')
   await expect(page.locator('.place-review-sources')).toContainText(
-    '티스토리 방문 후기 · 확인 2026-10-16',
+    '방문 후기 · 링크 확인 2026-10-16',
   )
   await expect(page.locator('.place-review-sources')).toContainText(
-    '네이버 방문 후기',
+    '네이버 블로그',
   )
   await expect(page.getByText(notes[0].tip, { exact: true })).toBeVisible()
 })
@@ -115,7 +116,10 @@ test('블로그 보강은 실제 본문 확인 기록과 연결되며 사용자�
   const garden = places.find((p) => p.id === 'kyoto-review-3ad4fafd578f')!
   const corrected = withBlogNotes({
     ...garden,
-    reviewSources: [reviewSourceSchema.parse(notes[0].reviewSources[1]), ...(garden.reviewSources || [])],
+    reviewSources: [
+      reviewSourceSchema.parse(notes[0].reviewSources[1]),
+      ...(garden.reviewSources || []),
+    ],
   })
   expect(
     corrected.reviewSources?.some((source) => source.url.includes('alrg0411')),

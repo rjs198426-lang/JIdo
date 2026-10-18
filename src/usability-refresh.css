@@ -71,6 +71,50 @@
   width: 100%;
   min-height: 44px;
 }
+.detail-place-list > div > button:not(.icon-button) {
+  min-width: 0;
+  min-height: 52px;
+}
+.detail-place-list strong,
+.detail-place-list span:not(.detail-place-icon) {
+  overflow-wrap: anywhere;
+}
+.detail-place-list span:not(.detail-place-icon) {
+  color: #526057;
+  font-weight: 400;
+  word-break: keep-all;
+}
+.detail-place-list > div > .icon-button {
+  flex: 0 0 44px;
+}
+.place-blog-topic {
+  display: block;
+  margin-top: 6px;
+  color: #33443c;
+  font-size: 14px;
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+}
+.place-review-sources strong {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 700;
+}
+.place-review-sources small {
+  font-size: 13px;
+  color: #526057;
+  line-height: 1.6;
+}
+.place-description-sources {
+  margin-top: 12px;
+  border-top: 1px solid var(--line);
+}
+.place-description-sources summary {
+  min-height: 44px;
+  padding: 12px 0;
+  cursor: pointer;
+  color: #526057;
+}
 :root .money-overview strong {
   overflow-wrap: anywhere;
 }

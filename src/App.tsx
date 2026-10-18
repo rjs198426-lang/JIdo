@@ -1,4 +1,5 @@
 import { homeJourney } from './home-journey'
+import { meaningfulCost } from './place-introduction'
 import { balancedPlaces } from './category-balance'
 import CompanionCount from './CompanionCount'
 import DayTransfers from './DayTransfers'
@@ -2976,11 +2977,6 @@ export default function App() {
                   id={place.id}
                   name={place.name}
                 />
-                {!placeCoordinates(place) && (
-                  <p className="detail-footnote">
-                    정확한 지도 위치 확인이 필요한 장소입니다.
-                  </p>
-                )}
                 {place.english && (
                   <details className="place-original-name">
                     <summary>현지 이름 확인</summary>
@@ -2999,14 +2995,12 @@ export default function App() {
                     <MapPin size={17} />
                     <span>{place.address}</span>
                   </p>
-                  <p>
-                    <Clock3 size={17} />
-                    <span>추천 체류 시간 · {place.duration}</span>
-                  </p>
-                  <p>
-                    <Bookmark size={17} />
-                    <span>{place.cost}</span>
-                  </p>
+                  {meaningfulCost(place.cost) && (
+                    <p>
+                      <Bookmark size={17} />
+                      <span>{place.cost}</span>
+                    </p>
+                  )}
                 </div>
                 {place.tip !==
                   '영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.' && (
@@ -3018,8 +3012,8 @@ export default function App() {
                     </div>
                   </div>
                 )}
-                <NearbyPlaces place={place} onOpen={openPlace} />
                 <PlaceReviews place={place} />
+                <NearbyPlaces place={place} onOpen={openPlace} />
                 <a
                   className="button outline full map-link"
                   href={mapsSearch(placeMapQuery(place))}

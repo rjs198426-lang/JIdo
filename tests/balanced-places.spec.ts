@@ -190,6 +190,7 @@ test('오프라인 가이드의 첫 7곳에 모든 분류가 보이고 쇼핑·�
   await section
     .getByRole('button', { name: `${tea.name} 자세히 보기`, exact: true })
     .click()
+  await page.getByText('설명 자료 출처', { exact: true }).click()
   await expect(
     page
       .locator('.place-review-sources')

@@ -1779,7 +1779,7 @@ svg {
   inset: 0;
   background: linear-gradient(transparent, #1f392554);
 }
-.place-detail-photo > span {
+.place-detail-photo > span:not(.place-photo-empty) {
   position: absolute;
   left: 24px;
   bottom: 18px;
@@ -3289,7 +3289,7 @@ svg {
   .place-detail-photo {
     height: 190px;
   }
-  .place-detail-photo > span {
+  .place-detail-photo > span:not(.place-photo-empty) {
     left: 18px;
     bottom: 16px;
     font-size: 10px;

@@ -164,6 +164,7 @@ test('숙소를 관광지와 구분하고 실제 블로그·지도 출처를 장
   await expect(
     dialog.getByRole('link', { name: /신혼여행 9박 10일/ }),
   ).toHaveAttribute('href', 'https://blog.naver.com/janie-0919/224113221448')
+  await dialog.getByText('설명 자료 출처', { exact: true }).click()
   await expect(
     dialog.getByRole('link', { name: /OpenStreetMap/ }),
   ).toHaveAttribute('href', 'https://www.openstreetmap.org/way/150793976')

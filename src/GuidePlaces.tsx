@@ -12,6 +12,7 @@ import {
   Sparkles,
 } from 'lucide-react'
 import { places, categoryOptions, type Place } from './catalog'
+import { placeIntroduction } from './place-introduction'
 const icons = {
   관광: MapPin,
   맛집: Utensils,
@@ -103,7 +104,7 @@ export default function GuidePlaces({
               <button onClick={() => onOpen(place.id)}>
                 <strong>{place.name}</strong>
                 <span>
-                  {place.category} · {place.duration}
+                  {place.category} · {placeIntroduction(place)}
                 </span>
               </button>
               <button

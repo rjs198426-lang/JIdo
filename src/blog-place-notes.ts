@@ -1,4 +1,5 @@
 import curated from './curated-place-notes.json' with { type: 'json' }
+import stories from './place-story-updates.json' with { type: 'json' }
 import { z } from 'zod'
 import notes from './blog-place-notes.json' with { type: 'json' }
 import { reviewSourceSchema } from './review-source.ts'
@@ -17,7 +18,7 @@ const updates = z
       reviewSources: z.array(reviewSourceSchema).default([]),
     }),
   )
-  .parse([...notes, ...curated])
+  .parse([...notes, ...curated, ...stories])
 
 // Upgrade unchanged built-in text only. Custom guide text, coordinates and photos survive.
 export function withBlogNotes<T extends Place>(place: T): T {
@@ -34,24 +35,28 @@ export function withBlogNotes<T extends Place>(place: T): T {
       ),
     }
   }
-  const update = updates.find(
+  const matching = updates.filter(
     (item) =>
       item.id === place.id &&
       item.cityId === place.cityId &&
       item.name === place.name,
   )
-  if (!update) return place
-  const urls = new Set(update.reviewSources.map((source) => source.url))
-  return {
-    ...place,
-    description:
-      place.description === update.previousDescription
-        ? update.description
-        : place.description,
-    tip: place.tip === update.previousTip ? update.tip : place.tip,
-    reviewSources: [
-      ...update.reviewSources,
-      ...(place.reviewSources || []).filter((source) => !urls.has(source.url)),
-    ],
+  for (const update of matching) {
+    const urls = new Set(update.reviewSources.map((source) => source.url))
+    place = {
+      ...place,
+      description:
+        place.description === update.previousDescription
+          ? update.description
+          : place.description,
+      tip: place.tip === update.previousTip ? update.tip : place.tip,
+      reviewSources: [
+        ...update.reviewSources,
+        ...(place.reviewSources || []).filter(
+          (source) => !urls.has(source.url),
+        ),
+      ],
+    }
   }
+  return place
 }
