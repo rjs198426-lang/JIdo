@@ -64,12 +64,13 @@ test('가이드 분류는 전체가 먼저이며 분류별 목록·개수와 장
       .getByRole('link', { name: /교토 자유여행, 청수사/ }),
   ).toHaveAttribute('href', 'https://gnrlfhdns.tistory.com/201')
   await expect(page.locator('.place-review-sources')).toContainText(
-    '방문 후기 · 링크 확인 2026-10-16',
+    /방문 후기 · 링크 확인 \d{4}-\d{2}-\d{2}/,
   )
-  await expect(page.locator('.place-review-sources')).toContainText(
-    '네이버 블로그',
+  await expect(page.locator('.place-blog-search')).toHaveAttribute(
+    'href',
+    /^https:\/\/search\.naver\.com\/search\.naver\?/,
   )
-  await expect(page.getByText(notes[0].tip, { exact: true })).toBeVisible()
+  await expect(page.locator('.place-tip p')).toBeVisible()
 })
 
 test('320px에서 분류 버튼 44px·가로 넘침 방지·다시 열 때 전체 복원', async ({

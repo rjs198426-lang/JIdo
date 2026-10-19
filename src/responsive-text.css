@@ -154,3 +154,62 @@
     overflow-wrap: anywhere;
   }
 }
+
+/* Menu labels stay horizontal; move or scroll whole controls instead. */
+:root .filter,
+:root [role='tablist'] [role='tab'],
+:root [role='group'] > button,
+:root .category-row > button,
+:root .workspace-view-switch > button,
+:root .journey-filter-row > button,
+:root .schedule-status-filters > button,
+:root .readiness-filters > button,
+:root .desktop-nav > button,
+:root .bottom-nav > button,
+:root .day-add-actions > button,
+:root .travel-dialog-actions > button {
+  writing-mode: horizontal-tb;
+  white-space: nowrap;
+  word-break: normal;
+  overflow-wrap: normal;
+  flex-shrink: 0;
+  min-inline-size: max-content;
+}
+:root .filter-row {
+  display: flex;
+  flex-wrap: nowrap;
+  min-width: 0;
+  max-width: 100%;
+  margin-right: 0;
+  padding-block: 4px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  overscroll-behavior-x: contain;
+}
+:root .filter-row > .filter {
+  flex: 0 0 auto;
+}
+:root [role='tablist']:not(.day-tabs),
+:root .category-row,
+:root .guide-duration,
+:root .schedule-status-filters,
+:root .workspace-view-switch,
+:root .journey-filter-row,
+:root .readiness-filters,
+:root .day-add-actions,
+:root .travel-dialog-actions {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 0;
+  max-width: 100%;
+}
+:root [role='tablist']:not(.day-tabs) > [role='tab'],
+:root .schedule-status-filters > button,
+:root .travel-dialog-actions > button {
+  flex: 1 0 auto;
+}
+@media (max-width: 480px) {
+  :root .guide-tabs[role='tablist'] > [role='tab'] {
+    flex-basis: calc(50% - 4px);
+  }
+}
