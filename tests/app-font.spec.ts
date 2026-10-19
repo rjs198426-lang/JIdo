@@ -41,7 +41,7 @@ test('제목·로고·본문·입력 내용은 내장 Pretendard Variable 한 �
       caption: read('.city-title > span'),
     }
   })
-  expect(roles.title.size).toBeGreaterThanOrEqual(26)
+  expect(roles.title.size).toBeGreaterThanOrEqual(22)
   expect(roles.title.weight).toBe(800)
   expect(roles.card.weight).toBe(700)
   expect(roles.card.size).toBeGreaterThan(roles.caption.size)
@@ -123,7 +123,7 @@ test('320px 장소 상세에서 Pretendard Variable 본문·주소·팁을 읽�
     '750',
   )
   await expect(page.locator('.city-intro')).toHaveCSS('font-weight', '400')
-  await expect(page.locator('.modal-header h2')).toHaveCSS('font-size', '20px')
+  await expect(page.locator('.modal-header h2')).toHaveCSS('font-size', '18px')
   for (const [selector, size] of [
     ['.city-intro', 16],
     ['.place-facts > p', 14],

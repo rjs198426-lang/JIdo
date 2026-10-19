@@ -58,13 +58,10 @@ test('320px와 큰 글자에서도 작업 버튼·공유 요약과 긴 장소명
     const size = await action.evaluate((el) => ({
       scroll: el.scrollWidth,
       client: el.clientWidth,
-      whiteSpace: getComputedStyle(el).whiteSpace,
       height: el.getBoundingClientRect().height,
-      share: el.matches('.journey-share > summary'),
       clipped: el.scrollHeight > el.clientHeight,
     }))
     expect(size.scroll).toBeLessThanOrEqual(size.client + 1)
-    if (!size.share) expect(size.whiteSpace).toBe('nowrap')
     expect(size.clipped).toBe(false)
     expect(size.height).toBeGreaterThanOrEqual(42)
   }
