@@ -1,4 +1,4 @@
-import { openTrips, openWorkspace } from './navigation'
+import { openTrips, openWorkspace, openScheduleEditor } from './navigation'
 import { test, expect, type Page } from '@playwright/test'
 import { parseMapsShare, googleMapsLink } from '../src/google-maps'
 
@@ -151,30 +151,46 @@ test('구글 결과를 앱에서 선택하고 주소·좌표·장소 ID를 일�
     .click()
   await expect(page.getByLabel('장소 또는 일정 이름')).toHaveValue('에펠 카페')
   await expect(page.getByLabel('일정 유형')).toHaveValue('카페')
-  await page.getByText('주소·링크·메모', { exact: true }).click()
-  await expect(page.getByLabel('주소', { exact: true })).toHaveValue(
-    '7 Rue de Paris, Paris',
-  )
+  const form = page.getByRole('dialog')
+  await expect(form.getByLabel('메모', { exact: true })).toBeVisible()
+  await form.getByLabel('메모', { exact: true }).fill('창가 자리 부탁하기')
+  await form.getByLabel('방문 시간', { exact: true }).fill('11:00')
+  await form.getByLabel('일정 유형').selectOption('맛집')
+  await expect(form.getByLabel('주소', { exact: true })).toHaveCount(0)
+  await expect(form.getByLabel('장소 위도')).toHaveCount(0)
+  await expect(form.getByLabel('장소 경도')).toHaveCount(0)
+  await expect(form).not.toContainText('7 Rue de Paris, Paris')
   await page.getByRole('button', { name: '닫기', exact: true }).click()
   await page.reload()
   await openTrips(page)
   await page.getByRole('button', { name: '장소 추가', exact: true }).click()
   await page.getByRole('button', { name: '새 장소 추가', exact: true }).click()
   await expect(page.getByLabel('장소 또는 일정 이름')).toHaveValue('에펠 카페')
+  await expect(page.getByLabel('메모', { exact: true })).toHaveValue(
+    '창가 자리 부탁하기',
+  )
+  await expect(page.getByLabel('방문 시간', { exact: true })).toHaveValue(
+    '11:00',
+  )
+  await expect(page.getByLabel('일정 유형')).toHaveValue('맛집')
   await page
     .getByRole('button', { name: '내 일정에 추가', exact: true })
     .click()
   await context.setOffline(true)
+  await openScheduleEditor(page)
   await page.getByLabel('에펠 카페 방문 시간').fill('11:30')
   await context.setOffline(false)
   await page.reload()
   await openTrips(page)
+  await openScheduleEditor(page)
   await expect(page.getByLabel('에펠 카페 방문 시간')).toHaveValue('11:30')
   const saved = await page.evaluate(
     () =>
       JSON.parse(localStorage.getItem('jido-travel-v1')!).trips[0].days[0][0]
         .custom,
   )
+  expect(saved.address).toBe('7 Rue de Paris, Paris')
+  expect(saved.kind).toBe('맛집')
   expect(saved.googlePlaceId).toBe('eiffel-cafe')
   expect(saved.coordinates).toEqual({ lat: 48.85, lng: 2.29 })
   await openWorkspace(page, '동선')
@@ -229,18 +245,24 @@ test('느린 응답이 변경된 검색 결과를 덮어쓰지 않음', async ({
   ).toBeVisible()
 })
 
-test('등록된 장소가 없을 때 새 장소 추가를 거쳐 구글 결과를 선택해 저장', async ({ page }) => {
+test('등록된 장소가 없을 때 새 장소 추가를 거쳐 구글 결과를 선택해 저장', async ({
+  page,
+}) => {
   await sdkFixture(page)
   await tripPage(page)
   await page.getByRole('button', { name: '장소 추가', exact: true }).click()
   await page.getByLabel('일정에 추가할 장소 검색').fill('에펠탑')
   await page.getByRole('button', { name: '찾기', exact: true }).click()
   expect(await page.evaluate(() => (window as any).mapsRequests)).toEqual([])
-  await page.getByRole('button', { name: '‘에펠탑’ 새 장소 추가', exact: true }).click()
+  await page
+    .getByRole('button', { name: '‘에펠탑’ 새 장소 추가', exact: true })
+    .click()
   await expect(page.getByLabel('장소 또는 일정 이름')).toHaveValue('에펠탑')
   await page.getByRole('button', { name: '찾기', exact: true }).click()
   await page.getByRole('button', { name: '에펠탑 선택', exact: true }).click()
-  await page.getByRole('button', { name: '내 일정에 추가', exact: true }).click()
+  await page
+    .getByRole('button', { name: '내 일정에 추가', exact: true })
+    .click()
   await expect(page.getByRole('dialog')).toHaveCount(0)
   await expect(page.locator('.timeline-item')).toContainText('에펠탑')
   expect(await page.evaluate(() => (window as any).externalOpens)).toBe(0)

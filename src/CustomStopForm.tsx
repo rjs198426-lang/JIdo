@@ -54,25 +54,14 @@ export default function CustomStopForm({
   )
   const [coordinates, setCoordinates] = useState(stop?.custom?.coordinates)
   const [osmPlaceId, setOsmPlaceId] = useState(stop?.custom?.osmPlaceId)
-  const [latitude, setLatitude] = useState(
-    stop?.custom?.coordinates ? String(stop.custom.coordinates.lat) : '',
-  )
-  const [longitude, setLongitude] = useState(
-    stop?.custom?.coordinates ? String(stop.custom.coordinates.lng) : '',
-  )
   const [catalogPlaceId, setCatalogPlaceId] = useState(
     stop?.custom?.catalogPlaceId,
   )
-  function setPosition(value: CustomPlace['coordinates']) {
-    setCoordinates(value)
-    setLatitude(value ? String(value.lat) : '')
-    setLongitude(value ? String(value.lng) : '')
-  }
   function clearSelection() {
     setGooglePlaceId(undefined)
     setOsmPlaceId(undefined)
     setCatalogPlaceId(undefined)
-    setPosition(undefined)
+    setCoordinates(undefined)
     setLink('')
   }
   function chooseGoogle(place: SearchPlace) {
@@ -83,8 +72,9 @@ export default function CustomStopForm({
     setKind(place.kind)
     setGooglePlaceId(place.provider === 'google' ? place.id : undefined)
     setOsmPlaceId(place.provider === 'osm' ? place.id : undefined)
-    setPosition(place.coordinates)
+    setCoordinates(place.coordinates)
     setResults([])
+    google.reset()
   }
   function findPlace(source: 'auto' | 'google' = 'auto') {
     if (!name.trim()) return
@@ -107,7 +97,7 @@ export default function CustomStopForm({
     setCatalogPlaceId(place.id)
     setGooglePlaceId(undefined)
     setOsmPlaceId(undefined)
-    setPosition(placeCoordinates(place))
+    setCoordinates(placeCoordinates(place))
     setName(place.name)
     setAddress(place.address)
     setLink(mapsSearch(placeMapQuery(place)))
@@ -126,13 +116,23 @@ export default function CustomStopForm({
         if (parsed.success) {
           setGooglePlaceId(parsed.data.googlePlaceId)
           setOsmPlaceId(parsed.data.osmPlaceId)
-          setPosition(parsed.data.coordinates)
+          setCoordinates(parsed.data.coordinates)
         }
         if (typeof draft.address === 'string') setAddress(draft.address)
-        if (typeof draft.latitude === 'string' && draft.latitude.length <= 30)
-          setLatitude(draft.latitude)
-        if (typeof draft.longitude === 'string' && draft.longitude.length <= 30)
-          setLongitude(draft.longitude)
+        // Keep valid coordinates from older manual-position drafts. Partial or
+        // invalid drafts must not become a hidden validation error or (0, 0).
+        if (!parsed.success || !parsed.data.coordinates) {
+          const latitude =
+            typeof draft.latitude === 'string' ? draft.latitude.trim() : ''
+          const longitude =
+            typeof draft.longitude === 'string' ? draft.longitude.trim() : ''
+          const legacy = customPlaceSchema.shape.coordinates.safeParse(
+            latitude && longitude
+              ? { lat: Number(latitude), lng: Number(longitude) }
+              : undefined,
+          )
+          if (legacy.success && legacy.data) setCoordinates(legacy.data)
+        }
         if (typeof draft.note === 'string') setNote(draft.note)
         if (typeof draft.catalogPlaceId === 'string')
           setCatalogPlaceId(draft.catalogPlaceId)
@@ -165,8 +165,6 @@ export default function CustomStopForm({
           googlePlaceId,
           osmPlaceId,
           coordinates,
-          latitude,
-          longitude,
           catalogPlaceId,
         }),
       )
@@ -186,8 +184,6 @@ export default function CustomStopForm({
     googlePlaceId,
     osmPlaceId,
     coordinates,
-    latitude,
-    longitude,
     catalogPlaceId,
   ])
   function applyShare() {
@@ -197,7 +193,7 @@ export default function CustomStopForm({
       setGooglePlaceId(undefined)
       setOsmPlaceId(undefined)
       setCatalogPlaceId(undefined)
-      setPosition(undefined)
+      setCoordinates(undefined)
       setAddress('')
       if (place.name) setName(place.name)
       setError('')
@@ -210,20 +206,6 @@ export default function CustomStopForm({
     event.preventDefault()
     if (!stop && trip.days[day].length >= 200)
       return setError('하루 일정은 최대 200곳까지 담을 수 있어요.')
-    const position =
-      latitude.trim() || longitude.trim()
-        ? { lat: Number(latitude), lng: Number(longitude) }
-        : undefined
-    if (
-      position &&
-      (!latitude.trim() ||
-        !longitude.trim() ||
-        !Number.isFinite(position.lat) ||
-        !Number.isFinite(position.lng) ||
-        Math.abs(position.lat) > 90 ||
-        Math.abs(position.lng) > 180)
-    )
-      return setError('위도와 경도를 모두 올바르게 입력하세요.')
     const parsed = customPlaceSchema.safeParse({
       name,
       kind,
@@ -232,7 +214,7 @@ export default function CustomStopForm({
       destinationId,
       googlePlaceId,
       osmPlaceId,
-      coordinates: position,
+      coordinates,
       catalogPlaceId,
     })
     if (!parsed.success) return setError(parsed.error.issues[0].message)
@@ -260,8 +242,7 @@ export default function CustomStopForm({
             maxLength={160}
             value={name}
             onChange={(event) => {
-              if (googlePlaceId || osmPlaceId || catalogPlaceId || coordinates)
-                setAddress('')
+              setAddress('')
               clearSelection()
               setName(event.target.value)
               setResults([])
@@ -390,6 +371,17 @@ export default function CustomStopForm({
         </label>
       </div>
       <label className="field">
+        메모
+        <textarea
+          aria-label="메모"
+          maxLength={2000}
+          rows={3}
+          value={note}
+          onChange={(event) => setNote(event.target.value)}
+          placeholder="체크인 시간, 이동편, 준비할 것 등"
+        />
+      </label>
+      <label className="field">
         일정의 도시
         <select
           value={destinationId}
@@ -408,85 +400,6 @@ export default function CustomStopForm({
           ))}
         </select>
       </label>
-      <details>
-        <summary>주소·링크·메모</summary>
-        <label className="field">
-          주소
-          <input
-            maxLength={500}
-            value={address}
-            onChange={(event) => {
-              clearSelection()
-              setAddress(event.target.value)
-            }}
-            placeholder="지도에서 찾을 수 있는 주소"
-          />
-        </label>
-        <label className="field">
-          관련 링크
-          <input
-            type="url"
-            maxLength={1500}
-            value={link}
-            onChange={(event) => setLink(event.target.value)}
-            placeholder="https://"
-          />
-        </label>
-        <label className="field">
-          메모
-          <textarea
-            maxLength={2000}
-            value={note}
-            onChange={(event) => setNote(event.target.value)}
-            placeholder="체크인 시간, 이동편, 예약 정보 등"
-          />
-        </label>
-      </details>
-      <details className="manual-position">
-        <summary>
-          위치 직접 지정{latitude && longitude ? ' · 좌표 있음' : ''}
-        </summary>
-        <div className="form-row">
-          <label className="field">
-            위도
-            <input
-              aria-label="장소 위도"
-              type="number"
-              min="-90"
-              max="90"
-              step="any"
-              value={latitude}
-              onChange={(event) => {
-                setLatitude(event.target.value)
-                setGooglePlaceId(undefined)
-                setOsmPlaceId(undefined)
-                setCatalogPlaceId(undefined)
-                setCoordinates(undefined)
-                setLink('')
-              }}
-            />
-          </label>
-          <label className="field">
-            경도
-            <input
-              aria-label="장소 경도"
-              type="number"
-              min="-180"
-              max="180"
-              step="any"
-              value={longitude}
-              onChange={(event) => {
-                setLongitude(event.target.value)
-                setGooglePlaceId(undefined)
-                setOsmPlaceId(undefined)
-                setCatalogPlaceId(undefined)
-                setCoordinates(undefined)
-                setLink('')
-              }}
-            />
-          </label>
-        </div>
-      </details>
       {error && (
         <p role="alert" className="form-error">
           {error}

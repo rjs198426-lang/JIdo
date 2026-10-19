@@ -199,35 +199,53 @@ test('검색 실패·결과 없음에도 직접 추가를 막지 않고 빈 좌�
   expect((await saved(page))[0].custom.coordinates).toBeUndefined()
 })
 
-test('수동 좌표는 양쪽 입력이 필요하고 초안·오프라인 저장·0도 좌표를 보존', async ({
+test('주소·좌표는 숨기고 유효한 과거 초안·0도 좌표와 메모를 오프라인 보존', async ({
   page,
   context,
 }) => {
   await page.setViewportSize({ width: 320, height: 740 })
   await seed(page)
-  await add(page)
-  await page.getByLabel('장소 또는 일정 이름').fill('강변 만남')
-  await page.getByText('위치 직접 지정', { exact: true }).click()
-  await page.getByLabel('장소 위도').fill('48.85')
-  await page
-    .getByRole('button', { name: '내 일정에 추가', exact: true })
-    .click()
-  await expect(page.getByRole('alert')).toContainText('위도와 경도를 모두')
-  expect(await saved(page)).toHaveLength(0)
-  await page.getByRole('button', { name: '닫기', exact: true }).click()
-  await page.reload()
-  await openTrips(page)
+  await page.evaluate(() =>
+    localStorage.setItem(
+      'jdo-place-draft:free-trip:0:new',
+      JSON.stringify({
+        name: '강변 만남',
+        kind: '체험',
+        address: '과거 주소',
+        link: '',
+        destinationId: 'paris',
+        latitude: '48.85',
+        longitude: '0',
+        note: '강변에서 만나기',
+        time: '15:30',
+      }),
+    ),
+  )
   await context.setOffline(true)
   await add(page)
-  await page.locator('.manual-position summary').click()
-  await expect(page.getByLabel('장소 위도')).toHaveValue('48.85')
-  await page.getByLabel('장소 경도').fill('0')
-  await page
+  const form = page.getByRole('dialog')
+  await expect(form.getByLabel('메모', { exact: true })).toHaveValue(
+    '강변에서 만나기',
+  )
+  await expect(form.getByLabel('방문 시간', { exact: true })).toHaveValue(
+    '15:30',
+  )
+  await expect(form.getByLabel('일정 유형')).toHaveValue('체험')
+  await expect(form.getByLabel('주소', { exact: true })).toHaveCount(0)
+  await expect(form.getByLabel('장소 위도')).toHaveCount(0)
+  await expect(form.getByLabel('장소 경도')).toHaveCount(0)
+  await expect(form).not.toContainText('과거 주소')
+  await form
     .getByRole('button', { name: '내 일정에 추가', exact: true })
     .click()
-  expect((await saved(page))[0].custom.coordinates).toEqual({
-    lat: 48.85,
-    lng: 0,
+  expect((await saved(page))[0]).toMatchObject({
+    time: '15:30',
+    note: '강변에서 만나기',
+    custom: {
+      address: '과거 주소',
+      kind: '체험',
+      coordinates: { lat: 48.85, lng: 0 },
+    },
   })
   expect(
     await page.evaluate(
@@ -237,32 +255,58 @@ test('수동 좌표는 양쪽 입력이 필요하고 초안·오프라인 저장
   await context.setOffline(false)
 })
 
-test('장소 이름·주소·도시를 바꾸면 이전 위치·지도 링크·장소 ID로 안내하지 않음', async ({
+test('과거 초안의 부분 좌표는 숨겨진 오류나 0도 위치를 만들지 않음', async ({
   page,
 }) => {
-  for (const change of ['name', 'address', 'city']) {
+  await seed(page)
+  await page.evaluate(() =>
+    localStorage.setItem(
+      'jdo-place-draft:free-trip:0:new',
+      JSON.stringify({
+        name: '좌표 없는 약속',
+        kind: '기타',
+        address: '',
+        link: '',
+        destinationId: 'paris',
+        latitude: '48.85',
+        longitude: '',
+        note: '입력한 메모',
+        time: '10:00',
+      }),
+    ),
+  )
+  await add(page)
+  await page
+    .getByRole('button', { name: '내 일정에 추가', exact: true })
+    .click()
+  expect((await saved(page))[0].custom.coordinates).toBeUndefined()
+  expect((await saved(page))[0].note).toBe('입력한 메모')
+})
+
+test('장소 이름·도시를 바꾸면 이전 위치·지도 링크·장소 ID로 안내하지 않음', async ({
+  page,
+}) => {
+  for (const change of ['name', 'legacy-name', 'city']) {
     await seed(page, {
       name: 'Eiffel Tower',
       kind: '관광',
       address: 'Paris',
       link: 'https://www.openstreetmap.org/way/501',
       destinationId: 'paris',
-      osmPlaceId: 'way/501',
-      coordinates: { lat: 48.8584, lng: 2.2945 },
+      ...(change !== 'legacy-name'
+        ? { osmPlaceId: 'way/501', coordinates: { lat: 48.8584, lng: 2.2945 } }
+        : {}),
     })
     await page.locator('.stop-place button').click()
-    if (change === 'name')
+    if (change === 'name' || change === 'legacy-name')
       await page.getByLabel('장소 또는 일정 이름').fill('새 장소')
-    if (change === 'address') {
-      await page.getByText('주소·링크·메모', { exact: true }).click()
-      await page.getByLabel('주소', { exact: true }).fill('Rome new address')
-    }
     if (change === 'city')
       await page.getByLabel('일정의 도시').selectOption('rome')
     await page
       .getByRole('button', { name: '직접 추가한 일정 수정', exact: true })
       .click()
     const custom = (await saved(page))[0].custom
+    expect(custom.address).toBe('')
     expect(custom.osmPlaceId).toBeUndefined()
     expect(custom.coordinates).toBeUndefined()
     expect(custom.link).toBe('')
@@ -423,4 +467,59 @@ test('Android 브리지로 무료 검색을 요청하며 이름·주소·좌표�
     lat: 48.8584,
     lng: 2.2945,
   })
+})
+
+test('수정 화면에서 유형·시각·메모만 바꾸면 숨긴 위치와 기존 참조를 보존', async ({
+  page,
+}) => {
+  const custom = {
+    name: 'Eiffel Tower',
+    kind: '관광',
+    address: 'Paris hidden address',
+    link: 'https://www.google.com/maps/search/?api=1&query=Eiffel+Tower&query_place_id=eiffel',
+    destinationId: 'paris',
+    googlePlaceId: 'eiffel',
+    coordinates: { lat: 48.8584, lng: 2.2945 },
+  }
+  await seed(page, custom)
+  await page.evaluate(() => {
+    const state = JSON.parse(localStorage.getItem('jido-travel-v1')!)
+    Object.assign(state.trips[0].days[0][0], {
+      photoId: 'ec240e74-951b-41c1-94da-ffde24e24f5c',
+      status: 'done',
+      durationMinutes: 90,
+    })
+    localStorage.setItem('jido-travel-v1', JSON.stringify(state))
+  })
+  await page.reload()
+  await openTrips(page)
+  const before = (await saved(page))[0]
+  await page.locator('.stop-place button').click()
+  const form = page.getByRole('dialog')
+  await expect(form.getByLabel('메모', { exact: true })).toHaveValue('내 메모')
+  await expect(form).not.toContainText('Paris hidden address')
+  await form.getByLabel('일정 유형').selectOption('체험')
+  await form.getByLabel('방문 시간', { exact: true }).fill('14:20')
+  await form
+    .getByLabel('메모', { exact: true })
+    .fill('우천이면 실내 코스로 변경')
+  await form
+    .getByRole('button', { name: '직접 추가한 일정 수정', exact: true })
+    .click()
+  expect((await saved(page))[0]).toEqual({
+    ...before,
+    time: '14:20',
+    note: '우천이면 실내 코스로 변경',
+    custom: { ...before.custom, kind: '체험' },
+  })
+  await page.reload()
+  await openTrips(page)
+  await page.locator('.stop-place button').click()
+  await expect(page.getByLabel('메모', { exact: true })).toHaveValue(
+    '우천이면 실내 코스로 변경',
+  )
+  await expect(page.getByLabel('방문 시간', { exact: true })).toHaveValue(
+    '14:20',
+  )
+  await expect(page.getByLabel('일정 유형')).toHaveValue('체험')
 })

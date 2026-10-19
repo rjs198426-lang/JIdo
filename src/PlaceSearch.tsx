@@ -51,7 +51,7 @@ export function usePlaceSearch() {
             error instanceof Error &&
               /^(무료|구글|인터넷|검색)/.test(error.message)
               ? error.message
-              : '장소 검색에 연결할 수 없습니다. 다시 찾거나 주소를 직접 입력하세요.',
+              : '장소 검색에 연결할 수 없습니다. 다시 찾거나 장소 이름으로 추가하세요.',
           )
       } finally {
         if (current === request.current) setLoading(false)

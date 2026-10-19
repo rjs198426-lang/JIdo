@@ -173,7 +173,7 @@ test('지도에서 일정 순서 변경은 번호·선·일정을 함께 바꾸�
   ])
 })
 
-test('좌표 없는 장소는 번호를 유지하고 연결선을 끊으며 위치 입력 후 지도에 반영', async ({
+test('좌표 없는 장소는 번호를 유지하고 연결선을 끊으며 검색 장소 선택 후 지도에 반영', async ({
   page,
 }) => {
   await seed(page, [stops[0], custom('위치 없는 일정'), stops[1], stops[2]])
@@ -194,9 +194,13 @@ test('좌표 없는 장소는 번호를 유지하고 연결선을 끊으며 위�
     })
     .click()
   await page.getByRole('button', { name: '위치 추가', exact: true }).click()
-  await page.getByText('위치 직접 지정', { exact: true }).click()
-  await page.getByLabel('장소 위도').fill('35.01')
-  await page.getByLabel('장소 경도').fill('135.76')
+  await page.getByLabel('장소 또는 일정 이름').fill('기온 시라카와 산책')
+  await page.getByRole('button', { name: '찾기', exact: true }).click()
+  await page
+    .locator('.place-find-results button')
+    .filter({ hasText: '기온 시라카와 산책' })
+    .click()
+  await expect(page.getByRole('dialog').getByLabel('장소 위도')).toHaveCount(0)
   await page
     .getByRole('button', { name: '직접 추가한 일정 수정', exact: true })
     .click()

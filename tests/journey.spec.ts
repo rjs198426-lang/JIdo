@@ -1,4 +1,4 @@
-import { openWorkspace } from './navigation'
+import { openWorkspace, openScheduleEditor } from './navigation'
 import { expect, test, type Page } from '@playwright/test'
 
 async function navigate(page: Page, name: string) {
@@ -31,8 +31,6 @@ async function customStop(page: Page, name: string, kind = '관광') {
   const form = page.getByRole('dialog')
   await form.getByLabel('일정 유형').selectOption(kind)
   await form.getByLabel('장소 또는 일정 이름').fill(name)
-  await form.getByText('주소·링크·메모', { exact: true }).click()
-  await form.getByLabel('주소', { exact: true }).fill('5 Avenue Anatole France')
   await form.getByLabel('메모', { exact: true }).fill('예약 확인하고 출발')
   await form
     .getByRole('button', { name: '내 일정에 추가', exact: true })
@@ -47,7 +45,7 @@ test('가이드 없이 파리·로마 여행, 직접 장소 편집, 도시별 �
 }) => {
   await customTrip(page)
   await customStop(page, '에펠탑')
-  await page.getByRole('button', { name: /에펠탑.*직접 추가한 일정/ }).click()
+  await page.locator('.stop-place button').filter({ hasText: '에펠탑' }).click()
   await page
     .getByRole('dialog')
     .getByLabel('장소 또는 일정 이름')
@@ -90,6 +88,7 @@ test('가이드 없이 파리·로마 여행, 직접 장소 편집, 도시별 �
   await expect(
     page.getByRole('button', { name: '로마 경로에서 삭제' }),
   ).toBeDisabled()
+  await openScheduleEditor(page)
   await page
     .getByRole('button', { name: '로마 숙소 체크인 일정에서 삭제' })
     .click()
@@ -361,6 +360,7 @@ test('가이드 장소도 독립 백업으로 복원되고 일부 손상이 다�
   await page
     .getByRole('button', { name: '내 여행 만들기', exact: true })
     .click()
+  await openScheduleEditor(page)
   if (
     await page
       .locator('.stop-card')
