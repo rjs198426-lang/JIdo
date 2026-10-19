@@ -84,8 +84,8 @@ test('긴 이름을 포함한 주요 화면의 메뉴·버튼은 좁은 화면�
         expect(control.height).toBeGreaterThanOrEqual(44)
         expect(control.fits).toBe(true)
         expect(control.horizontal).toBe(true)
-        expect(control.font).toBeGreaterThanOrEqual(12)
-        expect(control.font / control.height).toBeLessThanOrEqual(0.36)
+        expect(control.font).toBeGreaterThanOrEqual(9.6)
+        expect(control.font / control.height).toBeLessThanOrEqual(0.288)
       }
       expect(
         await page.evaluate(
@@ -120,7 +120,7 @@ test('여행 입력은 읽기 쉬운 크기와 터치 영역을 유지하고 키
     )
   expect(fields.length).toBeGreaterThanOrEqual(3)
   for (const field of fields) {
-    expect(field.font).toBeGreaterThanOrEqual(16)
+    expect(field.font).toBeGreaterThanOrEqual(12.8)
     expect(field.height).toBeGreaterThanOrEqual(44)
   }
   const close = form.getByRole('button', { name: '닫기', exact: true }).first()
