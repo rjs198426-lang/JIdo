@@ -5,7 +5,7 @@ import {
   previewTimeAdjustment,
   applyTimeAdjustment,
 } from '../src/schedule-adjust'
-import { openTrips, openWorkspace } from './navigation'
+import { openTrips, openWorkspace, openScheduleEditor } from './navigation'
 const ids = [1, 2, 3, 4].map((n) => `${n}1111111-1111-4111-8111-111111111111`)
 function fixture(): Trip {
   const file = (
@@ -144,6 +144,7 @@ async function seed(page: Page, trip = fixture()) {
   )
   await page.reload()
   await openTrips(page)
+  await openScheduleEditor(page)
 }
 const state = (page: Page): Promise<Trip> =>
   page.evaluate(

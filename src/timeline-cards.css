@@ -1,0 +1,331 @@
+:root .itinerary .timeline-day-heading {
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+:root .timeline-day-heading > .day-add-actions {
+  width: auto;
+}
+:root .timeline-day-heading h3 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 5px 9px;
+}
+:root .timeline-day-heading h3 > span {
+  font-size: 17px;
+  color: #273d34;
+  white-space: nowrap;
+}
+:root .timeline-day-heading h3 > time {
+  font-size: 13px;
+  font-weight: 500;
+  color: #68766f;
+  white-space: nowrap;
+}
+.timeline-edit-tools {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 8px 0;
+}
+.timeline-find {
+  border-block: 1px solid #e9eee9;
+  margin: 8px 0 12px;
+}
+.timeline-find > summary {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 44px;
+  color: #526057;
+  font-size: 13px;
+  cursor: pointer;
+}
+.timeline-find > summary::before {
+  content: '▸';
+}
+.timeline-find[open] > summary::before {
+  content: '▾';
+}
+.timeline-find > summary > span {
+  margin-left: auto;
+  color: #6f7c74;
+}
+.timeline-find .schedule-tools {
+  margin: 0 0 12px;
+}
+:root .itinerary .timeline-workspace .timeline {
+  gap: 16px;
+}
+:root .itinerary .timeline-workspace .timeline-item {
+  --route-color: #7652bc;
+  padding-left: 66px;
+  min-height: 100px;
+}
+:root .itinerary .timeline-workspace .timeline-item::before {
+  content: '';
+  position: absolute;
+  left: 26px;
+  top: 0;
+  bottom: -16px;
+  border-left: 2px solid #e9ede9;
+}
+:root .itinerary .timeline-workspace .timeline-item:last-child::before {
+  bottom: 26px;
+}
+:root .itinerary .timeline-rail {
+  position: absolute;
+  inset: 0 auto auto 0;
+  width: 54px;
+  text-align: center;
+}
+:root .itinerary .timeline-rail .stop-number {
+  position: relative;
+  left: auto;
+  top: auto;
+  margin: 18px auto 7px;
+  width: 30px;
+  height: 30px;
+  background: var(--route-color, #287ca6);
+  color: white;
+  border-radius: 50%;
+  font-size: 14px;
+  font-weight: 700;
+  box-shadow: 0 0 0 4px #fff;
+}
+.timeline-visit-time {
+  display: block;
+  font-size: 12px;
+  color: #68766f;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.timeline-distance {
+  position: absolute;
+  left: 0;
+  top: -27px;
+  z-index: 2;
+  width: 54px;
+  padding: 3px 2px;
+  border: 1px solid #e1e7e1;
+  border-radius: 6px;
+  background: #fff;
+  color: #53635a;
+  font-size: 11px;
+  line-height: 1.2;
+}
+.timeline-distance small,
+.timeline-distance span {
+  display: block;
+  white-space: nowrap;
+}
+.timeline-distance small {
+  font-size: 10px;
+  color: #778278;
+}
+.timeline-a11y {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+}
+:root .itinerary .timeline-workspace .stop-card {
+  padding: 12px;
+  min-height: 100px;
+  border: 1px solid #e7ece7;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 3px 14px #183e2921;
+}
+:root .itinerary .timeline-workspace .stop-expand {
+  float: right;
+  font-size: 12px;
+  min-width: 44px;
+  min-height: 44px;
+  padding: 4px;
+  color: #63756a;
+}
+:root .itinerary .timeline-editing .stop-expand {
+  display: none;
+}
+:root .itinerary .timeline-workspace .stop-condensed > .stop-top,
+:root .itinerary .timeline-workspace .stop-condensed > .custom-stop-link,
+:root .itinerary .timeline-workspace .stop-condensed > .place-source,
+:root .itinerary .timeline-workspace .stop-condensed > .stop-progress-actions,
+:root .itinerary .timeline-workspace .stop-condensed .stop-place > img,
+:root
+  .itinerary
+  .timeline-workspace
+  .stop-condensed
+  .stop-place
+  > .place-photo-empty,
+:root .itinerary .timeline-workspace .stop-condensed .stop-place > svg {
+  display: none;
+}
+:root .itinerary .timeline-workspace .stop-condensed .stop-place {
+  display: block;
+  margin: 0;
+  padding: 4px 0 6px;
+}
+:root .itinerary .timeline-workspace .stop-condensed .stop-place > button {
+  display: block;
+  width: 100%;
+  text-align: left;
+  min-height: 48px;
+}
+:root .itinerary .timeline-workspace .stop-condensed .stop-place strong {
+  display: block;
+  font-size: 16px;
+  font-weight: 750;
+  line-height: 1.55;
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+}
+:root
+  .itinerary
+  .timeline-workspace
+  .stop-condensed
+  .stop-place
+  > button
+  > .timeline-card-category {
+  display: inline;
+  font-size: 12px;
+  color: #68766f;
+  line-height: 1.6;
+}
+:root .itinerary .timeline-workspace .stop-condensed .stop-city-name {
+  display: inline;
+  font-size: 12px;
+  color: #68766f;
+  line-height: 1.6;
+}
+:root .itinerary .timeline-workspace .stop-condensed .stop-city-name::before {
+  content: ' · ';
+}
+.timeline-card-category {
+  font-size: 13px;
+  color: #68766f;
+}
+:root .timeline-reading .stop-condensed .schedule-status.planned {
+  display: none;
+}
+:root .timeline-workspace .schedule-stop-info {
+  margin: 0;
+}
+:root .timeline-workspace .schedule-note-preview {
+  margin-top: 6px;
+  padding: 7px 8px;
+}
+:root .timeline-workspace .schedule-stop-badges > button {
+  min-height: 44px;
+}
+:root .timeline-workspace .timeline-item[data-category='맛집'] {
+  --route-color: #b94d57;
+}
+:root .timeline-workspace .timeline-item[data-category='카페'] {
+  --route-color: #916139;
+}
+:root .timeline-workspace .timeline-item[data-category='숙소'] {
+  --route-color: #278472;
+}
+:root .timeline-workspace .timeline-item[data-category='쇼핑'] {
+  --route-color: #a54c85;
+}
+:root .timeline-workspace .timeline-item[data-category='체험'] {
+  --route-color: #986a18;
+}
+:root .timeline-workspace .timeline-item[data-category='이동'] {
+  --route-color: #287ca6;
+}
+.timeline-bookings {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+.timeline-booking-card {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 100%;
+  min-width: 0;
+  min-height: 100px;
+  padding: 16px 12px;
+  border: 1px solid #e7ece7;
+  border-radius: 12px;
+  background: white;
+  box-shadow: 0 3px 14px #183e2921;
+  text-align: left;
+}
+.timeline-booking-card strong {
+  font-size: 16px;
+  line-height: 1.5;
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+}
+.timeline-booking-card > span {
+  font-size: 13px;
+  color: #68766f;
+}
+.timeline-booking-card p {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin: 4px 0 0;
+  font-size: 13px;
+  line-height: 1.6;
+}
+:root .itinerary .timeline-workspace .timeline-booking {
+  --route-color: #287ca6;
+}
+:root .timeline-workspace .timeline-edit-tools .button,
+:root .timeline-workspace .stop-expand {
+  white-space: nowrap;
+  word-break: normal;
+}
+@media (min-width: 700px) {
+  :root .itinerary .timeline-workspace .timeline-item {
+    padding-left: 82px;
+  }
+  :root .itinerary .timeline-rail {
+    width: 66px;
+  }
+  :root .itinerary .timeline-workspace .timeline-item::before {
+    left: 32px;
+  }
+  .timeline-distance {
+    left: 6px;
+  }
+}
+/* Reserve a small edit affordance without pushing the title down. */
+:root .itinerary .timeline-workspace .timeline-day-heading {
+  grid-template-columns: minmax(0, 1fr) auto;
+}
+:root .itinerary .timeline-workspace .timeline-day-heading > .day-add-actions {
+  width: auto;
+}
+:root .itinerary .timeline-workspace .stop-card {
+  position: relative;
+}
+:root .itinerary .timeline-workspace .stop-expand {
+  position: absolute;
+  top: 8px;
+  right: 6px;
+  float: none;
+}
+:root .itinerary .timeline-workspace .stop-condensed .stop-place {
+  padding-right: 38px;
+}
+:root
+  .itinerary
+  .timeline-workspace
+  .timeline-bookings
+  .timeline-item:last-child::before {
+  bottom: -16px;
+}

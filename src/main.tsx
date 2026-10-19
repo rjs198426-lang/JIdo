@@ -19,6 +19,7 @@ import './typography.css'
 import './trip-header.css'
 import './schedule-list.css'
 import './responsive-text.css'
+import './timeline-cards.css'
 import { Capacitor } from '@capacitor/core'
 const AdminApp = lazy(() => import('./AdminApp'))
 

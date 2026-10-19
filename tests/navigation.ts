@@ -50,3 +50,20 @@ export async function openWorkspace(page: Page, name: string) {
       .getByRole('button', { name: planning[name], exact: true })
       .click()
 }
+
+export async function openScheduleEditor(page: Page) {
+  const toggle = page.getByRole('button', {
+    name: '일정 목록 편집',
+    exact: true,
+  })
+  if ((await toggle.getAttribute('aria-pressed')) !== 'true')
+    await toggle.click()
+}
+export async function openScheduleFilters(page: Page) {
+  const panel = page.locator('.timeline-find')
+  if (
+    (await panel.count()) &&
+    !(await panel.evaluate((el) => (el as HTMLDetailsElement).open))
+  )
+    await panel.locator(':scope > summary').click()
+}

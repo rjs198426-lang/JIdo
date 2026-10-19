@@ -1,4 +1,4 @@
-import { openTrips, openWorkspace } from './navigation'
+import { openTrips, openWorkspace, openScheduleEditor } from './navigation'
 import { test, expect, type Page } from '@playwright/test'
 const png = Buffer.from(
   'iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+a4jIAAAAASUVORK5CYII=',
@@ -51,6 +51,7 @@ async function seed(page: Page, extra: Record<string, unknown> = {}) {
   )
   await page.reload()
   await openTrips(page)
+  await openScheduleEditor(page)
 }
 async function tab(page: Page, name: string) {
   await openWorkspace(page, name)

@@ -1,5 +1,10 @@
 import { test, expect, type Page } from '@playwright/test'
-import { openTrips, openWorkspace } from './navigation'
+import {
+  openTrips,
+  openWorkspace,
+  openScheduleEditor,
+  openScheduleFilters,
+} from './navigation'
 import { googleMapsFixture } from './google-maps-fixture'
 import { tripSchema, type Trip } from '../src/travel-model'
 import {
@@ -153,6 +158,8 @@ async function seed(page: Page, trip = fixture()) {
   await page.reload()
   await openTrips(page)
   await openWorkspace(page, '일정')
+  await openScheduleEditor(page)
+  await openScheduleFilters(page)
 }
 const state = (page: Page) =>
   page.evaluate(
@@ -308,7 +315,7 @@ test('간단 보기에서도 메모·연결 예약·자료가 보이며 원본 �
 }) => {
   await seed(page)
   await page
-    .getByRole('button', { name: '간단한 목록 보기', exact: true })
+    .getByRole('button', { name: '일정 목록 편집', exact: true })
     .click()
   const card = page.locator('[data-stop-id="lunch"]')
   await expect(card.locator('.schedule-note-preview')).toContainText(
@@ -340,6 +347,7 @@ test('다음 예정·지도에서 목록 복귀는 숨긴 필터를 해제하고
   await page
     .getByRole('button', { name: '선택한 장소 일정 보기', exact: true })
     .click()
+  await openScheduleFilters(page)
   await expect(
     filterGroup(page).getByRole('button', { name: '전체 5', exact: true }),
   ).toHaveAttribute('aria-pressed', 'true')

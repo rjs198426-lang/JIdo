@@ -1,7 +1,7 @@
 import { test, expect, type Page } from '@playwright/test'
 import { placeSignature } from '../src/transfer-planning'
 import { googleMapsFixture } from './google-maps-fixture'
-import { openTrips, openWorkspace } from './navigation'
+import { openTrips, openWorkspace, openScheduleEditor } from './navigation'
 async function seed(page: Page, missing = false, fixture = true) {
   if (fixture) await googleMapsFixture(page)
   else await page.route('https://**', (route) => route.abort())
@@ -244,6 +244,7 @@ test('늦은 응답·날짜 변경은 새 메모·다른 날짜·준비물을 �
     )
     .toBe(1)
   await openWorkspace(page, '일정')
+  await openScheduleEditor(page)
   await page
     .locator('[data-stop-id="temple"] .stop-edit-details > summary')
     .click()

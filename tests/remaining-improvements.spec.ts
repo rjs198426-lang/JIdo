@@ -186,9 +186,6 @@ test('선택 날짜의 숙소와 경비·현지 통화, 간단한 목록이 복�
 }) => {
   await seed(page)
   await openWorkspace(page, '일정')
-  await page
-    .getByRole('button', { name: '간단한 목록 보기', exact: true })
-    .click()
   await expect(page.locator('.stop-condensed')).toHaveCount(2)
   await page
     .getByRole('button', { name: '기요미즈데라 일정 상세 펼치기' })

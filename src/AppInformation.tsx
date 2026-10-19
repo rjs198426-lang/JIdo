@@ -62,6 +62,9 @@ export default function AppInformation({
         >
           <h2>앱 정보</h2>
           <p className="app-information-name">J★Do</p>
+          {__JIDO_APP_INFO__.version.startsWith('0.') && (
+            <p className="app-information-channel">개발판</p>
+          )}
           <p className="app-information-description">
             나와 동행자를 위한 자유여행 도구
           </p>

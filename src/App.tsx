@@ -1,3 +1,5 @@
+import TimelineRail, { timelineDistance } from './TimelineRail'
+import TimelineBookings from './TimelineBookings'
 import ScheduleToolbar from './ScheduleToolbar'
 import ScheduleStopInfo from './ScheduleStopInfo'
 import ScheduleOrderDialog from './ScheduleOrderDialog'
@@ -794,13 +796,7 @@ function Itinerary({
   const [searchOpen, setSearchOpen] = useState(false)
   const [targetRevision, setTargetRevision] = useState(0)
   const [focusedExpenseId, setFocusedExpenseId] = useState<string>()
-  const [compactStops, setCompactStops] = useState(() => {
-    try {
-      return localStorage.getItem('jido-compact-stops') === 'true'
-    } catch {
-      return false
-    }
-  })
+  const [scheduleEditing, setScheduleEditing] = useState(false)
   const [expandedStops, setExpandedStops] = useState<string[]>([])
   const [filterState, setFilterState] = useState<{
     day: number
@@ -1231,9 +1227,7 @@ function Itinerary({
               </div>
               <TripOverview trip={trip} onDay={onDayChange} />
               <JourneyRoute trip={trip} day={day} onUpdate={onUpdate} />
-              <div
-                className={`planning-shortcuts ${workspace === 'schedule' && stops.length > 0 ? 'has-density' : ''}`}
-              >
+              <div className="planning-shortcuts">
                 <button
                   className="button outline small"
                   onClick={() => {
@@ -1244,26 +1238,6 @@ function Itinerary({
                 >
                   여행 중 보기
                 </button>
-                {workspace === 'schedule' && stops.length > 0 && (
-                  <button
-                    className="button outline small schedule-density"
-                    aria-pressed={compactStops}
-                    aria-label={
-                      compactStops ? '상세 목록 보기' : '간단한 목록 보기'
-                    }
-                    onClick={() => {
-                      const next = !compactStops
-                      setCompactStops(next)
-                      try {
-                        localStorage.setItem('jido-compact-stops', String(next))
-                      } catch {
-                        /* Optional preference. */
-                      }
-                    }}
-                  >
-                    {compactStops ? '상세히 보기' : '간단히 보기'}
-                  </button>
-                )}
 
                 <JourneyShare trip={trip} day={day} />
               </div>
@@ -1285,18 +1259,36 @@ function Itinerary({
                 />
               ) : (
                 <div
-                  className="day-content"
+                  className={`day-content timeline-workspace ${scheduleEditing ? 'timeline-editing' : 'timeline-reading'}`}
                   role="tabpanel"
                   id="day-panel"
                   aria-labelledby={`day-tab-${day}`}
                 >
-                  <div className="section-heading">
+                  <div className="section-heading timeline-day-heading">
                     <div>
                       <h3>
-                        {formatDate(dateAt(trip.startDate, day), true)}의 여행
+                        <span>DAY {day + 1}</span>{' '}
+                        <time dateTime={dateAt(trip.startDate, day)}>
+                          {formatDate(dateAt(trip.startDate, day), true)}
+                        </time>
                       </h3>
                     </div>
                     <div className="day-add-actions">
+                      <button
+                        className="text-button"
+                        aria-label="일정 목록 편집"
+                        aria-pressed={scheduleEditing}
+                        onClick={() => {
+                          setScheduleEditing((value) => !value)
+                          setExpandedStops([])
+                        }}
+                      >
+                        {scheduleEditing ? '편집 완료' : '편집'}
+                      </button>
+                    </div>
+                  </div>
+                  {scheduleEditing && (
+                    <div className="timeline-edit-tools">
                       <button
                         className="button outline small"
                         onClick={() => setAdjustOpen(true)}
@@ -1304,23 +1296,28 @@ function Itinerary({
                       >
                         시간 변경
                       </button>
-                      <button className="button primary small" onClick={onAdd}>
-                        <Plus size={16} />
-                        장소 추가
-                      </button>
                     </div>
-                  </div>
+                  )}
                   {stops.length > 0 && (
-                    <ScheduleToolbar
-                      trip={trip}
-                      day={day}
-                      filter={scheduleFilter}
-                      onFilter={setScheduleFilter}
-                      visible={visibleStops.length}
-                      onNext={(stop) =>
-                        locate({ workspace: 'schedule', day, stopId: stop.id })
-                      }
-                    />
+                    <details className="timeline-find">
+                      <summary>
+                        일정 찾기·필터 <span>{stops.length}곳</span>
+                      </summary>
+                      <ScheduleToolbar
+                        trip={trip}
+                        day={day}
+                        filter={scheduleFilter}
+                        onFilter={setScheduleFilter}
+                        visible={visibleStops.length}
+                        onNext={(stop) =>
+                          locate({
+                            workspace: 'schedule',
+                            day,
+                            stopId: stop.id,
+                          })
+                        }
+                      />
+                    </details>
                   )}
                   {orderUndo && (
                     <div className="undo-strip" role="status">
@@ -1393,7 +1390,7 @@ function Itinerary({
                       ))}
                     </details>
                   )}
-                  {stops.length > 1 && (
+                  {scheduleEditing && stops.length > 1 && (
                     <div className="schedule-sort">
                       <span>
                         {stops.some(
@@ -1427,6 +1424,7 @@ function Itinerary({
                       </div>
                     </div>
                   )}
+                  <TimelineBookings trip={trip} day={day} onLocate={locate} />
                   {stops.length === 0 ? (
                     <EmptyState
                       icon={<MapIcon size={32} />}
@@ -1458,19 +1456,32 @@ function Itinerary({
                           <article
                             data-stop-id={stop.id}
                             tabIndex={-1}
+                            data-category={place.category}
                             className={`timeline-item ${selectedStop === stop.id ? 'stop-selected' : ''} ${stop.status === 'done' ? 'stop-completed' : stop.status === 'skipped' || cancelledReservation(trip, stop) ? 'stop-skipped' : ''}`}
                             key={stop.id}
                           >
-                            <span className="stop-number">{index + 1}</span>
+                            <TimelineRail
+                              trip={trip}
+                              stop={stop}
+                              index={index}
+                              distance={timelineDistance(
+                                trip,
+                                day,
+                                stop,
+                                visibleStops.map((item) => item.stop.id),
+                                legs,
+                              )}
+                            />
                             <div
-                              className={`stop-card ${compactStops && !expandedStops.includes(stop.id) ? 'stop-condensed' : ''}`}
+                              className={`stop-card ${!scheduleEditing && !expandedStops.includes(stop.id) ? 'stop-condensed' : ''}`}
                             >
-                              {compactStops && (
+                              {
                                 <button
                                   className="text-button stop-expand"
-                                  aria-expanded={expandedStops.includes(
-                                    stop.id,
-                                  )}
+                                  aria-expanded={
+                                    scheduleEditing ||
+                                    expandedStops.includes(stop.id)
+                                  }
                                   aria-label={`${place.name} 일정 상세 펼치기`}
                                   onClick={() =>
                                     setExpandedStops((items) =>
@@ -1482,9 +1493,9 @@ function Itinerary({
                                 >
                                   {expandedStops.includes(stop.id)
                                     ? '접기'
-                                    : '상세'}
+                                    : '편집'}
                                 </button>
-                              )}
+                              }
                               <div className="stop-top">
                                 <input
                                   className="stop-time"
@@ -1545,6 +1556,9 @@ function Itinerary({
                                   }
                                 >
                                   <strong>{place.name}</strong>
+                                  <span className="timeline-card-category">
+                                    {place.category}
+                                  </span>
                                   <span className="stop-city-name">
                                     {stop.custom
                                       ? tripDestinations(trip).find(
@@ -1735,15 +1749,15 @@ function Itinerary({
                       })}
                     </div>
                   )}
-                  {stops.length > 0 && (
+                  {
                     <button
                       className="button outline full schedule-add-bottom"
                       onClick={onAdd}
                     >
                       <Plus size={16} />
-                      장소 더하기
+                      장소 추가
                     </button>
-                  )}
+                  }
                   {removed && (
                     <div className="undo-strip" role="status">
                       일정에서 삭제했어요.

@@ -89,3 +89,13 @@
 .app-information-link svg {
   flex-shrink: 0;
 }
+.app-information-channel {
+  display: inline-block;
+  margin: 0 0 10px;
+  padding: 3px 8px;
+  border-radius: 6px;
+  background: #eaf5f0;
+  color: #176b59;
+  font-size: 12px;
+  font-weight: 650;
+}
