@@ -1,3 +1,4 @@
+import { openSearchOptions, openTravelManagement } from './navigation'
 import { openTrips } from './navigation'
 import { test, expect, type Page } from '@playwright/test'
 const feature = (
@@ -109,9 +110,7 @@ test('키·결제 없이 무료 검색이 기본이고 OSM 이름·주소·좌�
   await page
     .getByRole('button', { name: 'Eiffel Tower 선택', exact: true })
     .click()
-  await page
-    .getByRole('button', { name: '내 일정에 추가', exact: true })
-    .click()
+  await page.getByRole('button', { name: '일정에 추가', exact: true }).click()
   const custom = (await saved(page))[0].custom
   expect(custom.name).toBe('Eiffel Tower')
   expect(custom.address).toContain('Paris')
@@ -130,6 +129,7 @@ test('키·결제 없이 무료 검색이 기본이고 OSM 이름·주소·좌�
     'href',
     'https://www.openstreetmap.org/copyright',
   )
+  await openTravelManagement(page)
   await page
     .getByRole('button', { name: '여행 백업·공유', exact: true })
     .click()
@@ -169,9 +169,7 @@ test('입력만 할 때 요청하지 않고 같은 검색은 저장된 결과로
   await add(page)
   await page.getByRole('button', { name: '찾기', exact: true }).click()
   await page.getByRole('button', { name: 'Eiffel Tower 선택' }).click()
-  await page
-    .getByRole('button', { name: '내 일정에 추가', exact: true })
-    .click()
+  await page.getByRole('button', { name: '일정에 추가', exact: true }).click()
   expect((await saved(page))[0].custom.osmPlaceId).toBe('way/501')
   expect(calls).toBe(1)
   await context.setOffline(false)
@@ -193,9 +191,7 @@ test('검색 실패·결과 없음에도 직접 추가를 막지 않고 빈 좌�
   await expect(page.getByRole('status')).toContainText('영문·현지명')
   await find(page, '숙소')
   await expect(page.getByRole('alert')).toContainText('무료 장소 검색')
-  await page
-    .getByRole('button', { name: '내 일정에 추가', exact: true })
-    .click()
+  await page.getByRole('button', { name: '일정에 추가', exact: true }).click()
   expect((await saved(page))[0].custom.coordinates).toBeUndefined()
 })
 
@@ -235,9 +231,7 @@ test('주소·좌표는 숨기고 유효한 과거 초안·0도 좌표와 메모
   await expect(form.getByLabel('장소 위도')).toHaveCount(0)
   await expect(form.getByLabel('장소 경도')).toHaveCount(0)
   await expect(form).not.toContainText('과거 주소')
-  await form
-    .getByRole('button', { name: '내 일정에 추가', exact: true })
-    .click()
+  await form.getByRole('button', { name: '일정에 추가', exact: true }).click()
   expect((await saved(page))[0]).toMatchObject({
     time: '15:30',
     note: '강변에서 만나기',
@@ -276,9 +270,7 @@ test('과거 초안의 부분 좌표는 숨겨진 오류나 0도 위치를 만�
     ),
   )
   await add(page)
-  await page
-    .getByRole('button', { name: '내 일정에 추가', exact: true })
-    .click()
+  await page.getByRole('button', { name: '일정에 추가', exact: true }).click()
   expect((await saved(page))[0].custom.coordinates).toBeUndefined()
   expect((await saved(page))[0].note).toBe('입력한 메모')
 })
@@ -302,9 +294,7 @@ test('장소 이름·도시를 바꾸면 이전 위치·지도 링크·장소 ID
       await page.getByLabel('장소 또는 일정 이름').fill('새 장소')
     if (change === 'city')
       await page.getByLabel('일정의 도시').selectOption('rome')
-    await page
-      .getByRole('button', { name: '직접 추가한 일정 수정', exact: true })
-      .click()
+    await page.getByRole('button', { name: '저장', exact: true }).click()
     const custom = (await saved(page))[0].custom
     expect(custom.address).toBe('')
     expect(custom.osmPlaceId).toBeUndefined()
@@ -331,9 +321,7 @@ test('지도 공유 링크로 바꿀 때 이전 검색의 주소·좌표·ID를 
     .getByLabel('공유 링크 또는 공유 텍스트')
     .fill('다른 장소\nhttps://maps.app.goo.gl/Example')
   await page.getByRole('button', { name: '이 장소 적용', exact: true }).click()
-  await page
-    .getByRole('button', { name: '내 일정에 추가', exact: true })
-    .click()
+  await page.getByRole('button', { name: '일정에 추가', exact: true }).click()
   const custom = (await saved(page))[0].custom
   expect(custom.name).toBe('다른 장소')
   expect(custom.link).toBe('https://maps.app.goo.gl/Example')
@@ -358,6 +346,7 @@ test('늦게 도착한 무료 결과는 다른 검색어·서비스 선택을 �
   await find(page)
   await expect.poll(() => started).toBe(true)
   await page.getByLabel('장소 또는 일정 이름').fill('다른 장소')
+  await openSearchOptions(page)
   await page.getByLabel('장소 검색 서비스').selectOption('google')
   release()
   await expect
@@ -457,9 +446,7 @@ test('Android 브리지로 무료 검색을 요청하며 이름·주소·좌표�
   await add(page)
   await find(page)
   await page.getByRole('button', { name: 'Eiffel Tower 선택' }).click()
-  await page
-    .getByRole('button', { name: '내 일정에 추가', exact: true })
-    .click()
+  await page.getByRole('button', { name: '일정에 추가', exact: true }).click()
   const calls = await page.evaluate(() => (window as any).freeNativeCalls)
   expect(calls[0].options.url).toContain('https://photon.komoot.io/api/')
   expect(calls[0].options.headers['User-Agent']).toContain('JidoTravel')
@@ -503,9 +490,7 @@ test('수정 화면에서 유형·시각·메모만 바꾸면 숨긴 위치와 �
   await form
     .getByLabel('메모', { exact: true })
     .fill('우천이면 실내 코스로 변경')
-  await form
-    .getByRole('button', { name: '직접 추가한 일정 수정', exact: true })
-    .click()
+  await form.getByRole('button', { name: '저장', exact: true }).click()
   expect((await saved(page))[0]).toEqual({
     ...before,
     time: '14:20',

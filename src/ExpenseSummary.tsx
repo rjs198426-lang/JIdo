@@ -4,12 +4,10 @@ import { money, type Trip } from './travel-model'
 export default function ExpenseSummary({
   trip,
   day,
-  onBudget,
   onDate,
 }: {
   trip: Trip
   day: number
-  onBudget: () => void
   onDate: () => void
 }) {
   const conversion = convertedTotal(trip),
@@ -28,7 +26,7 @@ export default function ExpenseSummary({
     <>
       <div className="money-overview">
         <div>
-          <span>{comparable ? '총 순지출' : '환율 입력 필요'}</span>
+          <span>{comparable ? '사용한 금액' : '통화별 사용 금액'}</span>
           <strong>
             {comparable
               ? money(conversion.total, conversion.currency)
@@ -36,19 +34,9 @@ export default function ExpenseSummary({
                   .map((item) => money(item.total, item.currency))
                   .join(' · ')}
           </strong>
-          {!comparable && (
-            <>
-              <small>
-                전체 합계 환산 전 · {conversion.missing.join(' · ')} 환율 필요
-              </small>
-              <button className="text-button" onClick={onBudget}>
-                환율 입력하기
-              </button>
-            </>
-          )}
         </div>
-        <div>
-          {budget !== undefined ? (
+        {budget !== undefined && (
+          <div>
             <>
               <span>전체 예산 {money(budget, conversion.currency)}</span>
               <strong
@@ -77,16 +65,8 @@ export default function ExpenseSummary({
                 </>
               )}
             </>
-          ) : (
-            <>
-              <span>전체 여행 예산</span>
-              <strong>아직 설정하지 않았어요</strong>
-              <button className="text-button" onClick={onBudget}>
-                예산 설정하기
-              </button>
-            </>
-          )}
-        </div>
+          </div>
+        )}
       </div>
       <button
         className="expense-selected-day"

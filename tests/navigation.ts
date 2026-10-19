@@ -67,3 +67,21 @@ export async function openScheduleFilters(page: Page) {
   )
     await panel.locator(':scope > summary').click()
 }
+
+export async function openDisclosure(page: Page, selector: string) {
+  const panel = page.locator(selector)
+  if (
+    (await panel.count()) &&
+    !(await panel.evaluate((el) => (el as HTMLDetailsElement).open))
+  )
+    await panel.locator(':scope > summary').click()
+}
+export const openTripMore = (page: Page) => openDisclosure(page, '.trip-more')
+export const openCreateOptions = (page: Page) =>
+  openDisclosure(page, '.create-options')
+export const openExpenseTools = (page: Page) =>
+  openDisclosure(page, '.expense-more')
+export const openSearchOptions = (page: Page) =>
+  openDisclosure(page, '.search-options')
+export const openTravelManagement = (page: Page) =>
+  openDisclosure(page, '.trip-library-more')

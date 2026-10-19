@@ -10,7 +10,7 @@ import { portableTrip } from '../src/TravelBackup'
 import { companionBackup } from '../src/journey-personal'
 import { fullManifest, inspectFullBackup } from '../src/full-backup'
 import { zipSync, strToU8 } from 'fflate'
-import { openTrips, openWorkspace } from './navigation'
+import { openTrips, openWorkspace, openExpenseTools } from './navigation'
 function fixture(): Trip {
   return tripSchema.parse({
     id: 'expense-upgrade',
@@ -258,11 +258,13 @@ async function seed(page: Page, trip = fixture()) {
   await openTrips(page)
   await openWorkspace(page, '가계부')
 }
-const ledgerTab = (page: Page, name: string) =>
-  page
+const ledgerTab = async (page: Page, name: string) => {
+  await openExpenseTools(page)
+  await page
     .getByRole('tablist', { name: '가계부 보기' })
     .getByRole('tab', { name, exact: true })
     .click()
+}
 const state = (page: Page) =>
   page.evaluate(
     () => JSON.parse(localStorage.getItem('jido-travel-v1')!).trips[0],
@@ -278,7 +280,7 @@ test('빠른 기록·예산 진행률·선택일 내역이 실제 기록에 연�
   ).toHaveAttribute('value', '65000')
   await page.getByRole('button', { name: '선택일 지출 내역 보기' }).click()
   await expect(page.locator('.expense-list > article')).toHaveCount(1)
-  await page.getByRole('button', { name: '빠른 기록', exact: true }).click()
+  await page.getByRole('button', { name: '지출 추가', exact: true }).click()
   const dialog = page.getByRole('dialog', { name: '빠른 지출 기록' })
   await dialog.getByLabel('금액', { exact: true }).fill('350')
   await dialog.getByRole('button', { name: '지출 저장', exact: true }).click()
@@ -424,11 +426,13 @@ test('환율 미입력과 0 예산은 가짜 환산 합계·NaN 사용률을 표
   trip.exchangeRates = {}
   trip.totalBudget = 0
   await seed(page, trip)
-  await expect(page.locator('.money-overview')).toContainText('환율 입력 필요')
+  await expect(page.locator('.money-overview')).toContainText(
+    '통화별 사용 금액',
+  )
   await expect(page.locator('.money-overview')).toContainText(
     '환율 입력 후 비교',
   )
-  await page.getByRole('button', { name: '환율 입력하기' }).click()
+  await ledgerTab(page, '예산')
   await page.getByLabel('환율 통화').selectOption('JPY')
   await page.getByLabel('환율 값').fill('10')
   await page.getByRole('button', { name: '환율·전체 예산 저장' }).click()
@@ -544,18 +548,19 @@ test('같은 여행지의 마지막 결제수단을 빠른 기록과 상세 입�
   page,
 }) => {
   await seed(page)
-  await page.getByRole('button', { name: '빠른 기록', exact: true }).click()
+  await page.getByRole('button', { name: '지출 추가', exact: true }).click()
   let dialog = page.getByRole('dialog', { name: '빠른 지출 기록' })
   await dialog.getByLabel('금액', { exact: true }).fill('300')
-  await dialog.getByText('상세 입력', { exact: true }).click()
+  await dialog.getByText('더 입력하기', { exact: true }).click()
   await dialog.getByLabel('결제 수단').selectOption('현금')
   await dialog.getByRole('button', { name: '지출 저장', exact: true }).click()
-  await page.getByRole('button', { name: '빠른 기록', exact: true }).click()
+  await page.getByRole('button', { name: '지출 추가', exact: true }).click()
   dialog = page.getByRole('dialog', { name: '빠른 지출 기록' })
   await dialog.getByLabel('금액', { exact: true }).fill('400')
   await dialog.getByRole('button', { name: '지출 저장', exact: true }).click()
   expect((await state(page)).expenses.at(-1).paymentMethod).toBe('현금')
-  await page.getByRole('button', { name: '지출 추가', exact: true }).click()
+  await openExpenseTools(page)
+  await page.getByRole('button', { name: '자세히 기록', exact: true }).click()
   await expect(page.getByLabel('결제 수단', { exact: true })).toHaveValue(
     '현금',
   )

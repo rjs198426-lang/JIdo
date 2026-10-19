@@ -1,3 +1,4 @@
+import { openTravelManagement } from './navigation'
 import { openTrips, openWorkspace, openScheduleEditor } from './navigation'
 import { test, expect, type Page } from '@playwright/test'
 import { parseMapsShare, googleMapsLink } from '../src/google-maps'
@@ -173,9 +174,7 @@ test('구글 결과를 앱에서 선택하고 주소·좌표·장소 ID를 일�
     '11:00',
   )
   await expect(page.getByLabel('일정 유형')).toHaveValue('맛집')
-  await page
-    .getByRole('button', { name: '내 일정에 추가', exact: true })
-    .click()
+  await page.getByRole('button', { name: '일정에 추가', exact: true }).click()
   await context.setOffline(true)
   await openScheduleEditor(page)
   await page.getByLabel('에펠 카페 방문 시간').fill('11:30')
@@ -197,6 +196,7 @@ test('구글 결과를 앱에서 선택하고 주소·좌표·장소 ID를 일�
   await expect(
     page.getByRole('link', { name: '에펠 카페 지도 검색' }),
   ).toHaveAttribute('href', /query_place_id=eiffel-cafe/)
+  await openTravelManagement(page)
   await page.getByRole('button', { name: '여행 백업·공유' }).click()
   await page.locator('.legacy-backup > summary').click()
   await page.getByRole('button', { name: '전체 여행 백업 복사' }).click()
@@ -260,9 +260,7 @@ test('등록된 장소가 없을 때 새 장소 추가를 거쳐 구글 결과�
   await expect(page.getByLabel('장소 또는 일정 이름')).toHaveValue('에펠탑')
   await page.getByRole('button', { name: '찾기', exact: true }).click()
   await page.getByRole('button', { name: '에펠탑 선택', exact: true }).click()
-  await page
-    .getByRole('button', { name: '내 일정에 추가', exact: true })
-    .click()
+  await page.getByRole('button', { name: '일정에 추가', exact: true }).click()
   await expect(page.getByRole('dialog')).toHaveCount(0)
   await expect(page.locator('.timeline-item')).toContainText('에펠탑')
   expect(await page.evaluate(() => (window as any).externalOpens)).toBe(0)

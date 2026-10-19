@@ -397,7 +397,7 @@ function CreateTrip({
   const draft = useDraftFields(
     `jido-draft:create:${cityId || 'custom'}:${placeId || ''}:${course?.days ? course.id + ':' : ''}${course?.placeIds.join(',') || ''}${initialName ? ':' + initialName + ':' + initialCountry : ''}`,
     {
-      destination: cityId || 'custom',
+      destination: cityId || (initialName ? 'custom' : ''),
       customCity: initialName,
       customCountry: initialCountry,
       title: '',
@@ -423,6 +423,7 @@ function CreateTrip({
   }
   const submit = (event: FormEvent) => {
     event.preventDefault()
+    if (!destination) return setError('여행지를 골라주세요.')
     if (
       destination === 'custom' &&
       (!customCity.trim() || !customCountry.trim())
@@ -467,7 +468,7 @@ function CreateTrip({
     )
     const created: Trip = {
       id: crypto.randomUUID(),
-      title: title.trim() || `${selectedCity.name}, 나만의 여행`,
+      title: title.trim() || `${selectedCity.name} 여행`,
       cityId: targetId,
       destinations: [
         {
@@ -501,14 +502,26 @@ function CreateTrip({
     }
   }
   return (
-    <form className="create-form" onSubmit={submit}>
+    <form
+      className="create-form simple-create"
+      onSubmit={submit}
+      onInvalidCapture={(event) => {
+        const details = (event.target as HTMLElement).closest('details')
+        if (details) details.open = true
+      }}
+    >
+      <p className="form-intro">여행지와 날짜만 정하면 준비 끝이에요.</p>
       <label className="field">
         어디로 떠나세요?
         <select
+          required
           value={destination}
           onChange={(event) => setDestination(event.target.value)}
           disabled={!!placeId || !!course}
         >
+          <option value="" disabled>
+            여행지 선택
+          </option>
           {!cities.some((city) => city.id === destination) &&
             getCity(destination) && (
               <option value={destination}>
@@ -547,15 +560,6 @@ function CreateTrip({
           </label>
         </div>
       )}
-      <label className="field">
-        여행 이름 <span className="optional">선택</span>
-        <input
-          placeholder={`${selectedCity.name}, 나만의 여행`}
-          value={title}
-          maxLength={50}
-          onChange={(event) => setTitle(event.target.value)}
-        />
-      </label>
       <div className="form-row">
         <label className="field">
           출발일
@@ -584,7 +588,6 @@ function CreateTrip({
           />
         </label>
       </div>
-      <CompanionCount travelers={travelers} onChange={setTravelers} />
       {course && (
         <section className="course-create-preview">
           <h3>{course.title}</h3>
@@ -606,19 +609,34 @@ function CreateTrip({
           </p>
         </section>
       )}
-      {!placeId && !course && destination !== 'custom' && (
-        <label className="check-field">
+      <details className="simple-options create-options">
+        <summary>
+          여행 이름·동행 설정 <span>선택</span>
+        </summary>
+        <label className="field">
+          여행 이름 <span className="optional">선택</span>
           <input
-            type="checkbox"
-            checked={recommended}
-            onChange={(event) => setRecommended(event.target.checked)}
+            placeholder={`${selectedCity.name} 여행`}
+            value={title}
+            maxLength={50}
+            onChange={(event) => setTitle(event.target.value)}
           />
-          <span>
-            첫날에 추천 장소 3곳 넣어두기
-            <small>나중에 자유롭게 바꿀 수 있어요.</small>
-          </span>
         </label>
-      )}
+        <CompanionCount travelers={travelers} onChange={setTravelers} />
+        {!placeId && !course && destination && destination !== 'custom' && (
+          <label className="check-field">
+            <input
+              type="checkbox"
+              checked={recommended}
+              onChange={(event) => setRecommended(event.target.checked)}
+            />
+            <span>
+              첫날에 추천 장소 3곳 넣어두기
+              <small>나중에 자유롭게 바꿀 수 있어요.</small>
+            </span>
+          </label>
+        )}
+      </details>
       {error && (
         <p className="form-error" role="alert">
           {error}
@@ -1225,22 +1243,6 @@ function Itinerary({
                   </button>
                 ))}
               </div>
-              <TripOverview trip={trip} onDay={onDayChange} />
-              <JourneyRoute trip={trip} day={day} onUpdate={onUpdate} />
-              <div className="planning-shortcuts">
-                <button
-                  className="button outline small"
-                  onClick={() => {
-                    const current = travelDay(trip)
-                    if (current !== null) onDayChange(current)
-                    setWorkspace('field')
-                  }}
-                >
-                  여행 중 보기
-                </button>
-
-                <JourneyShare trip={trip} day={day} />
-              </div>
               {workspace === 'transfers' ? (
                 <DayTransfers trip={trip} day={day} routing={googleRouting} />
               ) : workspace === 'route' ? (
@@ -1271,6 +1273,9 @@ function Itinerary({
                         <time dateTime={dateAt(trip.startDate, day)}>
                           {formatDate(dateAt(trip.startDate, day), true)}
                         </time>
+                        <small className="timeline-city">
+                          {destinationForDay(trip, day).name}
+                        </small>
                       </h3>
                     </div>
                     <div className="day-add-actions">
@@ -1430,7 +1435,7 @@ function Itinerary({
                       icon={<MapIcon size={32} />}
                       title="아직 비어 있는 하루"
                       description="가고 싶은 곳을 더해 나만의 하루를 만들어보세요."
-                      action="첫 장소 추가하기"
+                      action="장소 추가"
                       onAction={onAdd}
                     />
                   ) : (
@@ -1749,15 +1754,15 @@ function Itinerary({
                       })}
                     </div>
                   )}
-                  {
+                  {stops.length > 0 && (
                     <button
-                      className="button outline full schedule-add-bottom"
+                      className="button primary full schedule-add-bottom"
                       onClick={onAdd}
                     >
                       <Plus size={16} />
                       장소 추가
                     </button>
-                  }
+                  )}
                   {removed && (
                     <div className="undo-strip" role="status">
                       일정에서 삭제했어요.
@@ -1790,6 +1795,12 @@ function Itinerary({
                   )}
                 </div>
               )}
+              <details className="simple-options trip-more">
+                <summary>여행 더보기</summary>
+                <JourneyRoute trip={trip} day={day} onUpdate={onUpdate} />
+                <TripOverview trip={trip} onDay={onDayChange} />
+                <JourneyShare trip={trip} day={day} />
+              </details>
             </>
           )}
           {workspace === 'files' && (
@@ -2585,12 +2596,15 @@ export default function App() {
             <div className="page-title trip-page-title">
               <div>
                 <h1>내 여행</h1>
-                <button
-                  className="text-button"
-                  onClick={() => setDialog({ type: 'backup' })}
-                >
-                  여행 백업·공유 <ExternalLink size={14} />
-                </button>
+                <details className="trip-library-more">
+                  <summary>여행 관리</summary>
+                  <button
+                    className="text-button"
+                    onClick={() => setDialog({ type: 'backup' })}
+                  >
+                    여행 백업·공유 <ExternalLink size={14} />
+                  </button>
+                </details>
               </div>
               <button
                 className="button primary"
@@ -2609,30 +2623,32 @@ export default function App() {
               />
             ) : (
               <>
-                <div className="trip-selector">
-                  <label htmlFor="trip-select">
-                    나의 여행 <span>{store.trips.length}</span>
-                  </label>
-                  <select
-                    id="trip-select"
-                    value={activeTrip.id}
-                    onChange={(event) => {
-                      setActiveTripId(event.target.value)
-                      const selected = store.trips.find(
-                        (trip) => trip.id === event.target.value,
-                      )
-                      setActiveDay(
-                        selected ? journeyPreference(selected).day : 0,
-                      )
-                    }}
-                  >
-                    {store.trips.map((trip) => (
-                      <option key={trip.id} value={trip.id}>
-                        {trip.title} · {trip.startDate}
-                      </option>
-                    ))}
-                  </select>
-                </div>
+                {store.trips.length > 1 && (
+                  <div className="trip-selector">
+                    <label htmlFor="trip-select">
+                      나의 여행 <span>{store.trips.length}</span>
+                    </label>
+                    <select
+                      id="trip-select"
+                      value={activeTrip.id}
+                      onChange={(event) => {
+                        setActiveTripId(event.target.value)
+                        const selected = store.trips.find(
+                          (trip) => trip.id === event.target.value,
+                        )
+                        setActiveDay(
+                          selected ? journeyPreference(selected).day : 0,
+                        )
+                      }}
+                    >
+                      {store.trips.map((trip) => (
+                        <option key={trip.id} value={trip.id}>
+                          {trip.title} · {trip.startDate}
+                        </option>
+                      ))}
+                    </select>
+                  </div>
+                )}
                 <Itinerary
                   key={activeTrip.id}
                   onQuickExpense={(stop) =>
@@ -2924,7 +2940,7 @@ export default function App() {
           )
           return (
             <Modal
-              title={stop ? '직접 추가한 일정 수정' : '장소 추가'}
+              title={stop ? '일정 수정' : '장소 추가'}
               onClose={() => setDialog(null)}
             >
               <CustomStopForm
@@ -3140,7 +3156,8 @@ export default function App() {
                   className="button primary full"
                   onClick={() => setDialog({ type: 'add', placeId: place.id })}
                 >
-                  <Plus size={17} />내 일정에 추가
+                  <Plus size={17} />
+                  일정에 추가
                 </button>
               </div>
             </Modal>

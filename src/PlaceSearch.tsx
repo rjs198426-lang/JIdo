@@ -76,19 +76,30 @@ export function PlaceSearchService({
   search: ReturnType<typeof usePlaceSearch>
 }) {
   return (
-    <label className="search-service">
-      검색{' '}
-      <select
-        aria-label="장소 검색 서비스"
-        value={search.service}
-        onChange={(event) =>
-          search.changeService(event.target.value as PlaceSearchService)
-        }
-      >
-        <option value="osm">무료 · OpenStreetMap</option>
-        <option value="google">Google · 과금 가능</option>
-      </select>
-    </label>
+    <details className="simple-options search-options">
+      <summary>
+        {search.service === 'google'
+          ? 'Google 지도로 찾기'
+          : '검색 방법 바꾸기'}
+      </summary>
+      <label className="search-service">
+        검색 방법
+        <select
+          aria-label="장소 검색 서비스"
+          value={search.service}
+          onChange={(event) =>
+            search.changeService(event.target.value as PlaceSearchService)
+          }
+        >
+          <option value="osm">기본 검색 · 무료</option>
+          <option value="google">Google 지도</option>
+        </select>
+      </label>
+      <p className="muted">
+        기본 검색은 OpenStreetMap을 사용해요. Google 검색은 사용량에 따라 비용이
+        발생할 수 있어요.
+      </p>
+    </details>
   )
 }
 export default function PlaceSearchResults({

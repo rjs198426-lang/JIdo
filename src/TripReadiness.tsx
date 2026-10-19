@@ -20,9 +20,7 @@ export default function TripReadiness({
       <div className="tool-heading">
         <h4>여행 점검</h4>
         <span>
-          {issues.length
-            ? `${issues.length}건 확인`
-            : '기록 기준 확인할 항목 없음'}
+          {issues.length ? `${issues.length}건 확인` : '확인할 항목이 없어요'}
         </span>
       </div>
       {issues.length > 0 && (

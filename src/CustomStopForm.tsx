@@ -381,32 +381,34 @@ export default function CustomStopForm({
           placeholder="체크인 시간, 이동편, 준비할 것 등"
         />
       </label>
-      <label className="field">
-        일정의 도시
-        <select
-          value={destinationId}
-          onChange={(event) => {
-            clearSelection()
-            setAddress('')
-            setDestinationId(event.target.value)
-            setResults([])
-            google.reset()
-          }}
-        >
-          {tripDestinations(trip).map((item) => (
-            <option key={item.id} value={item.id}>
-              {item.name} · {item.country}
-            </option>
-          ))}
-        </select>
-      </label>
+      {tripDestinations(trip).length > 1 && (
+        <label className="field">
+          일정의 도시
+          <select
+            value={destinationId}
+            onChange={(event) => {
+              clearSelection()
+              setAddress('')
+              setDestinationId(event.target.value)
+              setResults([])
+              google.reset()
+            }}
+          >
+            {tripDestinations(trip).map((item) => (
+              <option key={item.id} value={item.id}>
+                {item.name} · {item.country}
+              </option>
+            ))}
+          </select>
+        </label>
+      )}
       {error && (
         <p role="alert" className="form-error">
           {error}
         </p>
       )}
       <button className="button primary full" type="submit">
-        {stop ? '직접 추가한 일정 수정' : '내 일정에 추가'}
+        {stop ? '저장' : '일정에 추가'}
       </button>
     </form>
   )

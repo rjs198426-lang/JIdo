@@ -1,3 +1,4 @@
+import { openCreateOptions } from './navigation'
 import { test, expect, type Page } from '@playwright/test'
 import { openTrips } from './navigation'
 import { tripSchema, type Trip } from '../src/travel-model'
@@ -45,6 +46,7 @@ test('함께하는 인원은 나 제외 0명부터, 10명 선택·12명 직접 �
   await page
     .getByRole('button', { name: '첫 여행 만들기', exact: true })
     .click()
+  await openCreateOptions(page)
   await expect(page.getByLabel('함께하는 인원')).toHaveValue('0')
   await page.getByLabel('어디로 떠나세요?').selectOption('kyoto')
   await page
@@ -109,14 +111,10 @@ test('장소 추가 기본은 내장 가볼 곳, 검색은 기기 안에서 하�
   await expect(page.getByLabel('장소 또는 일정 이름')).toHaveValue(
     '골목의 작은 카페',
   )
-  await page
-    .getByRole('button', { name: '내 일정에 추가', exact: true })
-    .click()
+  await page.getByRole('button', { name: '일정에 추가', exact: true }).click()
   expect((await state(page)).days[0]).toHaveLength(2)
   await page.getByRole('tab', { name: /DAY 2/ }).click()
-  await page
-    .getByRole('button', { name: '첫 장소 추가하기', exact: true })
-    .click()
+  await page.getByRole('button', { name: '장소 추가', exact: true }).click()
   await page.getByLabel('일정에 추가할 장소 검색').fill('골목의 작은 카페')
   await page
     .getByRole('button', { name: '골목의 작은 카페 일정에 추가', exact: true })
@@ -245,8 +243,6 @@ test('여행 없이 없는 장소를 검색하면 여행 생성 후 검색어를
   await expect(page.getByLabel('장소 또는 일정 이름')).toHaveValue(
     '골목 전망대',
   )
-  await page
-    .getByRole('button', { name: '내 일정에 추가', exact: true })
-    .click()
+  await page.getByRole('button', { name: '일정에 추가', exact: true }).click()
   expect((await state(page)).days[0][0].custom.name).toBe('골목 전망대')
 })

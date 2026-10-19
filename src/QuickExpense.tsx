@@ -147,9 +147,16 @@ export default function QuickExpense({
         if (details) details.open = true
       }}
     >
-      <p className="quick-expense-context">
-        {title} · {formatDate(date)}
-      </p>
+      <p className="quick-expense-context">{formatDate(date)}</p>
+      <label className="field">
+        지출 이름
+        <input
+          required
+          maxLength={160}
+          value={title}
+          onChange={(event) => setTitle(event.target.value)}
+        />
+      </label>
       <div className="quick-expense-core">
         <label className="field">
           금액
@@ -177,46 +184,37 @@ export default function QuickExpense({
           </select>
         </label>
       </div>
-      {members.length ? (
-        <label className="field">
-          결제한 사람
-          <select
-            aria-label="결제한 사람"
-            value={payerId}
-            onChange={(event) => setPayerId(event.target.value)}
-          >
-            {members.map((member) => (
-              <option key={member.id} value={member.id}>
-                {member.name}
-              </option>
-            ))}
-          </select>
-        </label>
-      ) : (
-        <label className="field">
-          결제한 사람
-          <input
-            maxLength={80}
-            value={payer}
-            onChange={(event) => setPayer(event.target.value)}
-            placeholder="선택 입력"
-          />
-        </label>
-      )}
       <details className="quick-expense-details">
         <summary>
-          상세 입력
+          더 입력하기
           <ChevronRight size={16} aria-hidden="true" />
         </summary>
-        <label className="field">
-          지출 이름
-          <input
-            required
-            maxLength={160}
-            value={title}
-            onChange={(event) => setTitle(event.target.value)}
-          />
-        </label>
+        {members.length ? (
+          <label className="field">
+            결제한 사람
+            <select
+              aria-label="결제한 사람"
+              value={payerId}
+              onChange={(event) => setPayerId(event.target.value)}
+            >
+              {members.map((member) => (
+                <option key={member.id} value={member.id}>
+                  {member.name}
+                </option>
+              ))}
+            </select>
+          </label>
+        ) : (
+          <label className="field">
+            결제한 사람
+            <input
+              maxLength={80}
+              value={payer}
+              onChange={(event) => setPayer(event.target.value)}
+              placeholder="선택 입력"
+            />
+          </label>
+        )}
         <label className="field">
           지출 날짜
           <input

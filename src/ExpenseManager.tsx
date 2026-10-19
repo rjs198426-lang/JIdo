@@ -97,6 +97,7 @@ export default function ExpenseManager({
     [budget, setBudget] = useState(''),
     [error, setError] = useState(''),
     [removed, setRemoved] = useState<Expense | null>(null)
+  const [toolsOpen, setToolsOpen] = useState(false)
   const [filterDate, setFilterDate] = useState(''),
     [filterCategory, setFilterCategory] = useState('전체'),
     [filterCurrency, setFilterCurrency] = useState('전체'),
@@ -314,26 +315,18 @@ export default function ExpenseManager({
   return (
     <section className="workspace-panel expense-manager">
       <div className="tool-heading">
-        <h3>{trip.travelers > 1 ? '경비·정산' : '내 경비'}</h3>
+        <h3>가계부</h3>
         <div className="expense-add-actions">
-          {onQuickAdd && (
-            <button
-              className="button primary small"
-              onClick={() => {
-                clearFilters()
-                setView('지출')
-                onQuickAdd()
-              }}
-            >
-              빠른 기록
-            </button>
-          )}
           <button
-            className="button outline small"
+            className="button primary small"
             onClick={() => {
-              reset()
+              clearFilters()
               setView('지출')
-              setOpen(view === '지출' ? !open : true)
+              if (onQuickAdd) onQuickAdd()
+              else {
+                reset()
+                setOpen(true)
+              }
             }}
           >
             <Plus size={17} />
@@ -344,53 +337,8 @@ export default function ExpenseManager({
       <ExpenseSummary
         trip={trip}
         day={day}
-        onBudget={() => setView('예산')}
         onDate={() => drillDown({ date: dateAt(trip.startDate, day) })}
       />
-      <details className="currency-breakdown">
-        <summary>통화별 지출·예산</summary>
-        <div className="expense-totals">
-          {usedCurrencies.map((value) => {
-            const spent =
-                totals.find((item) => item.currency === value)?.total || 0,
-              limit = trip.budgets?.[value]
-            return (
-              <article key={value}>
-                <span>{value} 사용 금액</span>
-                <strong>{money(spent, value)}</strong>
-                {limit !== undefined && (
-                  <>
-                    <small className={spent > limit ? 'over-budget' : ''}>
-                      {spent > limit ? '예산 초과' : '남은 예산'}{' '}
-                      {money(Math.abs(limit - spent), value)}
-                    </small>
-                    <progress
-                      value={Math.max(0, Math.min(spent, limit))}
-                      max={limit || 1}
-                      aria-label={`${value} 예산 사용률`}
-                    />
-                  </>
-                )}
-              </article>
-            )
-          })}
-        </div>
-      </details>
-      <div className="inner-tabs" role="tablist" aria-label="가계부 보기">
-        {(trip.travelers > 1 || expenses.some((item) => item.splits)
-          ? ['지출', '통계', '정산', '예산']
-          : ['지출', '통계', '예산']
-        ).map((value) => (
-          <button
-            role="tab"
-            aria-selected={view === value}
-            key={value}
-            onClick={() => setView(value)}
-          >
-            {value}
-          </button>
-        ))}
-      </div>
       {view === '지출' && (
         <>
           {open && (
@@ -644,7 +592,7 @@ export default function ExpenseManager({
           <div className="tool-filters">
             <input
               aria-label="지출 검색"
-              placeholder="이름·메모·결제자 검색"
+              placeholder="지출 찾기"
               value={filterQuery}
               onChange={(event) => setFilterQuery(event.target.value)}
             />
@@ -723,7 +671,11 @@ export default function ExpenseManager({
               </button>
             )}
           </div>
-          <div className="expense-filter-summary" role="status">
+          <div
+            className="expense-filter-summary"
+            role="status"
+            hidden={!filtered}
+          >
             <span>
               {filtered ? '조회 내역' : '전체 내역'} {visible.length}건
             </span>
@@ -887,6 +839,72 @@ export default function ExpenseManager({
           )}
         </>
       )}
+      <details
+        className="simple-options expense-more"
+        open={toolsOpen || view !== '지출'}
+        onToggle={(event) => {
+          setToolsOpen(event.currentTarget.open)
+          if (!event.currentTarget.open && view !== '지출') setView('지출')
+        }}
+      >
+        <summary>
+          가계부 더보기 <span>통계·정산·예산</span>
+        </summary>
+        <button
+          className="text-button"
+          onClick={() => {
+            reset()
+            setView('지출')
+            setOpen(true)
+          }}
+        >
+          자세히 기록
+        </button>
+        <details className="currency-breakdown">
+          <summary>통화별 지출·예산</summary>
+          <div className="expense-totals">
+            {usedCurrencies.map((value) => {
+              const spent =
+                  totals.find((item) => item.currency === value)?.total || 0,
+                limit = trip.budgets?.[value]
+              return (
+                <article key={value}>
+                  <span>{value} 사용 금액</span>
+                  <strong>{money(spent, value)}</strong>
+                  {limit !== undefined && (
+                    <>
+                      <small className={spent > limit ? 'over-budget' : ''}>
+                        {spent > limit ? '예산 초과' : '남은 예산'}{' '}
+                        {money(Math.abs(limit - spent), value)}
+                      </small>
+                      <progress
+                        value={Math.max(0, Math.min(spent, limit))}
+                        max={limit || 1}
+                        aria-label={`${value} 예산 사용률`}
+                      />
+                    </>
+                  )}
+                </article>
+              )
+            })}
+          </div>
+        </details>
+        <div className="inner-tabs" role="tablist" aria-label="가계부 보기">
+          {(trip.travelers > 1 || expenses.some((item) => item.splits)
+            ? ['지출', '통계', '정산', '예산']
+            : ['지출', '통계', '예산']
+          ).map((value) => (
+            <button
+              role="tab"
+              aria-selected={view === value}
+              key={value}
+              onClick={() => setView(value)}
+            >
+              {value}
+            </button>
+          ))}
+        </div>
+      </details>
       {view === '통계' && (
         <div className="expense-statistics">
           <ExpenseInsights trip={trip} onFilter={drillDown} />

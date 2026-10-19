@@ -1,0 +1,213 @@
+/* Keep everyday actions visible and open optional tools only on request. */
+:root .simple-options {
+  min-width: 0;
+  margin: 16px 0 0;
+  padding: 8px 0;
+  border: 0;
+  border-top: 1px solid #e5ece7;
+  background: transparent;
+}
+:root .simple-options > summary {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 44px;
+  padding: 4px 0;
+  list-style: none;
+  cursor: pointer;
+  color: #52685e;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.5;
+  white-space: nowrap;
+}
+:root .simple-options > summary::-webkit-details-marker {
+  display: none;
+}
+:root .simple-options > summary::after {
+  content: '+';
+  flex: 0 0 18px;
+  margin-left: auto;
+  text-align: center;
+  color: #668478;
+  font-size: 20px;
+  font-weight: 400;
+}
+:root .simple-options[open] > summary::after {
+  content: '−';
+}
+:root .simple-options > summary > span {
+  color: #7a8a81;
+  font-size: 12px;
+  font-weight: 400;
+}
+:root .simple-options[open] > summary {
+  margin-bottom: 12px;
+}
+:root .simple-create .form-intro {
+  margin: 0 0 20px;
+  color: #52685e;
+  font-size: 15px;
+}
+:root .search-options {
+  margin: -12px 0 12px;
+  padding: 0;
+  border: 0;
+}
+:root .search-options > summary {
+  justify-content: flex-end;
+  font-size: 13px;
+}
+:root .search-options > summary::after {
+  margin-left: 0;
+}
+:root .search-options .search-service {
+  justify-content: space-between;
+}
+:root .search-options > p {
+  margin: 8px 0 16px;
+  font-size: 13px;
+}
+:root .trip-more {
+  margin-top: 24px;
+}
+:root .trip-more .journey-route,
+:root .trip-more .trip-overview {
+  margin: 8px 0 16px;
+}
+:root .timeline-day-heading .timeline-city {
+  display: block;
+  flex-basis: 100%;
+  padding-top: 4px;
+  color: #718178;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+:root .trip-library-more {
+  position: relative;
+  margin-top: 4px;
+  font-size: 13px;
+  color: #63766b;
+}
+:root .trip-library-more > summary {
+  display: flex;
+  align-items: center;
+  min-height: 44px;
+  cursor: pointer;
+}
+:root .trip-library-more[open] > button {
+  display: flex;
+  min-height: 44px;
+}
+:root .home-shortcuts {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+:root .home-status-grid > button {
+  min-width: 0;
+  padding: 16px 10px;
+}
+:root .home-status-grid > button > strong {
+  font-size: clamp(18px, 4.5vw, 24px);
+  overflow-wrap: anywhere;
+}
+:root .home-status-caption {
+  font-size: 12px;
+}
+:root .home-discover.expanded > summary {
+  display: none;
+}
+:root .home-discover.expanded {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+:root .home-discover .home-kicker,
+:root .home-other-trips .home-kicker {
+  display: none;
+}
+:root .home-discover .home-section,
+:root .home-other-trips .personal-home {
+  margin-top: 16px;
+}
+:root .money-overview {
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr));
+}
+:root .money-overview > div {
+  min-width: 0;
+  padding: 16px;
+}
+:root .money-overview strong {
+  font-size: clamp(22px, 5vw, 28px);
+  overflow-wrap: anywhere;
+}
+:root .expense-more {
+  margin: 12px 0;
+}
+:root .expense-more .inner-tabs {
+  margin-bottom: 0;
+}
+:root .preparation-people .travel-members,
+:root .preparation-people .travel-info {
+  margin-top: 12px;
+}
+:root .quick-add {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 10px;
+}
+:root .quick-add > .quick-add-options {
+  grid-column: 1 / -1;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+:root .quick-add-options > select {
+  width: 100%;
+  min-height: 44px;
+  margin-bottom: 8px;
+  font: inherit;
+}
+:root .basic-preparation {
+  margin-bottom: 16px;
+}
+/* Preserve the reading order in the existing flex-based workspace. */
+:root .itinerary .workspace-content > .trip-more {
+  order: 10;
+}
+:root .itinerary .workspace-view-switch {
+  margin: 8px 0;
+  padding: 0;
+}
+:root .itinerary .day-tabs {
+  padding: 6px 0;
+}
+:root .timeline-workspace .empty-state {
+  min-height: 0;
+  padding: 24px 12px;
+}
+:root .timeline-workspace .empty-icon {
+  width: 56px;
+  height: 56px;
+  margin: 0 auto 16px;
+}
+:root .timeline-workspace .empty-state h3 {
+  margin: 0 0 16px;
+  font-size: 18px;
+}
+:root .expense-manager .money-overview {
+  margin-bottom: 0;
+}
+:root .expense-manager .money-overview > div {
+  padding: 12px 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+}
+:root .expense-manager .expense-selected-day {
+  padding: 12px 0;
+  margin-bottom: 16px;
+}
+:root .expense-manager .expense-filter-summary[hidden] {
+  display: none;
+}

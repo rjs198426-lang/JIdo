@@ -107,6 +107,27 @@ export default function PreparationChecklist({
     setTitle('')
     setError('')
   }
+  function addTemplate(name: string) {
+    const added = templates[name]
+      .filter(
+        ([title]) =>
+          !items.some(
+            (item) =>
+              item.title === title && (item.assigneeId || '') === addAssignee,
+          ),
+      )
+      .map(([title, category]) => ({
+        id: crypto.randomUUID(),
+        title,
+        category,
+        assigneeId: addAssignee || undefined,
+        done: false,
+      }))
+    if (items.length + added.length > 500)
+      return setError('준비 항목은 최대 500개까지 저장할 수 있어요.')
+    onUpdate({ ...trip, checklist: [...items, ...added] })
+    setError('')
+  }
   const visible = [...items]
     .sort((a, b) => Number(a.done) - Number(b.done))
     .filter(
@@ -136,6 +157,14 @@ export default function PreparationChecklist({
         aria-label="여행 준비 진행률"
         className="wide-progress"
       />
+      {!items.length && (
+        <button
+          className="button outline full basic-preparation"
+          onClick={() => addTemplate('기본 여행')}
+        >
+          기본 준비물 담기
+        </button>
+      )}
       <form className="quick-add" onSubmit={add}>
         <input
           aria-label="새 준비물"
@@ -145,37 +174,40 @@ export default function PreparationChecklist({
           onChange={(event) => setTitle(event.target.value)}
           placeholder="할 일이나 챙길 물건"
         />
-        <select
-          aria-label="준비물 분류"
-          value={category}
-          onChange={(event) =>
-            setCategory(event.target.value as Item['category'])
-          }
-        >
-          {checklistCategories.map((value) => (
-            <option key={value}>{value}</option>
-          ))}
-        </select>
-        {!!trip.members?.length && trip.travelers > 1 && (
-          <select
-            aria-label="추가 항목 담당자"
-            value={addAssignee}
-            onChange={(event) => setAddAssignee(event.target.value)}
-          >
-            <option value="">함께 준비</option>
-            {trip.members.map((member) => (
-              <option value={member.id} key={member.id}>
-                {member.name}
-              </option>
-            ))}
-          </select>
-        )}
         <button className="button primary small" type="submit">
           <Plus size={16} />
           추가
         </button>
+        <details className="quick-add-options simple-options">
+          <summary>분류·담당자</summary>
+          <select
+            aria-label="준비물 분류"
+            value={category}
+            onChange={(event) =>
+              setCategory(event.target.value as Item['category'])
+            }
+          >
+            {checklistCategories.map((value) => (
+              <option key={value}>{value}</option>
+            ))}
+          </select>
+          {!!trip.members?.length && trip.travelers > 1 && (
+            <select
+              aria-label="추가 항목 담당자"
+              value={addAssignee}
+              onChange={(event) => setAddAssignee(event.target.value)}
+            >
+              <option value="">함께 준비</option>
+              {trip.members.map((member) => (
+                <option value={member.id} key={member.id}>
+                  {member.name}
+                </option>
+              ))}
+            </select>
+          )}
+        </details>
       </form>
-      <details className="preparation-options">
+      <details className="preparation-options simple-options">
         <summary>분류·담당자·기본 목록</summary>
         <div className="template-row">
           <select
@@ -187,31 +219,7 @@ export default function PreparationChecklist({
               <option key={name}>{name}</option>
             ))}
           </select>
-          <button
-            className="text-button"
-            onClick={() => {
-              const added = templates[template]
-                .filter(
-                  ([title]) =>
-                    !items.some(
-                      (item) =>
-                        item.title === title &&
-                        (item.assigneeId || '') === addAssignee,
-                    ),
-                )
-                .map(([title, category]) => ({
-                  id: crypto.randomUUID(),
-                  title,
-                  category,
-                  assigneeId: addAssignee || undefined,
-                  done: false,
-                }))
-              if (items.length + added.length > 500)
-                return setError('준비 항목은 최대 500개까지 저장할 수 있어요.')
-              onUpdate({ ...trip, checklist: [...items, ...added] })
-              setError('')
-            }}
-          >
+          <button className="text-button" onClick={() => addTemplate(template)}>
             {template} 준비 목록 넣기 <Plus size={15} />
           </button>
         </div>

@@ -1,3 +1,4 @@
+import { openDisclosure, openCreateOptions } from './navigation'
 import { test, expect, type Page } from '@playwright/test'
 import { homeJourney, journeyPhase } from '../src/home-journey'
 import { tripSchema, type Trip } from '../src/travel-model'
@@ -84,12 +85,14 @@ async function seed(
     { trips, activeId, savedDay },
   )
   await page.reload()
+  await openDisclosure(page, '.home-discover')
 }
 async function nav(page: Page, name: string) {
   await page
     .locator('.desktop-nav:visible, .bottom-nav:visible')
     .getByRole('button', { name, exact: true })
     .click()
+  if (name === '홈') await openDisclosure(page, '.home-discover')
 }
 
 test('진행 중인 여행 → 가장 가까운 예정 여행 → 과거 기록 순으로 선택하고 입력 순서와 기록을 보존', () => {
@@ -202,8 +205,8 @@ test('홈 바로가기와 더 보기는 같은 여행·날짜·도시로 연결�
   await expect(page.getByLabel('여행지와 장소 검색')).not.toBeFocused()
   await nav(page, '홈')
   await page
-    .getByRole('navigation', { name: '여행 바로가기' })
-    .getByRole('button', { name: '일정 계획', exact: true })
+    .locator('.home-next-day')
+    .getByRole('button', { name: '일정 보기', exact: true })
     .click()
   await expect(page.locator('.trip-banner')).toContainText(near.title)
   await expect(page.getByRole('tab', { name: /DAY 2/ })).toHaveAttribute(
@@ -215,8 +218,8 @@ test('홈 바로가기와 더 보기는 같은 여행·날짜·도시로 연결�
   ).toBe('next')
   await nav(page, '홈')
   await page
-    .getByRole('navigation', { name: '여행 바로가기' })
-    .getByRole('button', { name: '예약 확인', exact: true })
+    .locator('.home-status-grid')
+    .getByRole('button', { name: /예약/ })
     .click()
   await expect(
     page
@@ -307,12 +310,11 @@ test('새 여행을 만들거나 출발일을 바꾸면 재실행 없이 가장 
   page,
 }) => {
   await seed(page, [past])
-  await page
-    .getByRole('navigation', { name: '여행 바로가기' })
-    .getByRole('button', { name: '여행 만들기', exact: true })
-    .click()
+  await nav(page, '내 여행')
+  await page.getByRole('button', { name: '새 여행', exact: true }).click()
   let dialog = page.getByRole('dialog')
   await dialog.getByLabel('어디로 떠나세요?').selectOption('bangkok')
+  await openCreateOptions(page)
   await dialog.getByLabel(/여행 이름/).fill('새로 계획한 방콕 여행')
   await dialog.getByLabel('출발일', { exact: true }).fill('2026-11-05')
   await dialog.getByLabel('마지막 날', { exact: true }).fill('2026-11-06')
@@ -392,9 +394,7 @@ test('홈 추천 장소 담기는 같은 도시의 과거 여행이 있어도 �
     .first()
     .getByRole('button', { name: /자세히 보기/ })
     .click()
-  await page
-    .getByRole('button', { name: '내 일정에 추가', exact: true })
-    .click()
+  await page.getByRole('button', { name: '일정에 추가', exact: true }).click()
   await expect(
     page.getByRole('combobox', { name: '추가할 여행', exact: true }),
   ).toHaveValue(near.id)
