@@ -41,7 +41,7 @@ test('제목·로고·본문·입력 내용은 내장 Pretendard Variable 한 �
       caption: read('.city-title > span'),
     }
   })
-  expect(roles.title.size).toBeGreaterThanOrEqual(17.6)
+  expect(roles.title.size).toBeGreaterThanOrEqual(19.36)
   expect(roles.title.weight).toBe(700)
   expect(roles.card.weight).toBe(650)
   expect(roles.card.size).toBeGreaterThan(roles.caption.size)
@@ -116,18 +116,21 @@ test('320px 장소 상세에서 Pretendard Variable 본문·주소·팁을 읽�
   await page.evaluate(() => document.fonts.ready)
   await expect(page.locator('.place-detail-title')).toHaveCSS(
     'font-size',
-    '17.6px',
+    '19.36px',
   )
   await expect(page.locator('.place-detail-title')).toHaveCSS(
     'font-weight',
     '650',
   )
   await expect(page.locator('.city-intro')).toHaveCSS('font-weight', '400')
-  await expect(page.locator('.modal-header h2')).toHaveCSS('font-size', '16px')
+  await expect(page.locator('.modal-header h2')).toHaveCSS(
+    'font-size',
+    '17.6px',
+  )
   for (const [selector, size] of [
-    ['.city-intro', 12.8],
-    ['.place-facts > p', 11.2],
-    ['.place-tip p', 12],
+    ['.city-intro', 14.08],
+    ['.place-facts > p', 12.32],
+    ['.place-tip p', 13.2],
   ] as const) {
     const style = await page
       .locator(selector)

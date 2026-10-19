@@ -51,6 +51,34 @@ export async function typographyFlow(page: Page, width: number) {
   await page.evaluate(() => document.fonts.ready)
   const samples: Record<string, number> = {}
   const record = async (screen: string, selectors: string[]) => {
+    // Check rendered text lines, including labels that allow wrapping in CSS.
+    const wrapped = await page
+      .locator(
+        '.button, .text-button, .workspace-tabs > button, .workspace-view-switch > button, .filter, .guide-place-categories > button',
+      )
+      .evaluateAll((buttons) =>
+        buttons.flatMap((button) => {
+          // Closed native <details> descendants may still have offsetParent.
+          if (!button.checkVisibility()) return []
+          const walker = document.createTreeWalker(button, NodeFilter.SHOW_TEXT)
+          for (let node = walker.nextNode(); node; node = walker.nextNode()) {
+            if (!node.textContent?.trim()) continue
+            const range = document.createRange()
+            range.selectNodeContents(node)
+            const lines = new Set(
+              Array.from(range.getClientRects())
+                .filter((r) => r.width > 0.5)
+                .map((r) => Math.round(r.top)),
+            )
+            if (lines.size > 1) return [button.textContent?.trim()]
+          }
+          return []
+        }),
+      )
+    if (wrapped.length)
+      throw new Error(
+        `${screen}: wrapped action labels at ${width}px: ${wrapped.join(', ')}`,
+      )
     for (const selector of selectors) {
       samples[`${screen}:${selector}`] = await page
         .locator(selector)

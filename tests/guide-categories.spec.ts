@@ -90,7 +90,7 @@ test('320px에서 분류 버튼 44px·가로 넘침 방지·다시 열 때 전�
       .getByRole('button')
       .first()
       .evaluate((n) => parseFloat(getComputedStyle(n).fontSize)),
-  ).toBeGreaterThanOrEqual(11.2)
+  ).toBeGreaterThanOrEqual(12.32)
   await group.getByRole('button', { name: '카페', exact: true }).click()
   expect(
     await page

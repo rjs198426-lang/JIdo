@@ -19,7 +19,8 @@ const compactTypography: Plugin = {
         )
       )
         return
-      declaration.value = `calc(0.8 * (${value}))`
+      // 0.56: 10% above 0.55 (0.8 × 1.1), not ten percentage points.
+      declaration.value = `calc(0.88 * (${value}))`
     })
   },
 }
