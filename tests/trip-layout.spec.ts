@@ -1,7 +1,7 @@
-import { openTrips } from './navigation'
+import { openTrips, openTripMore } from './navigation'
 import { test, expect } from '@playwright/test'
 
-test('내 여행을 하나의 틀로 묶고 도시 선택·추가 버튼 정렬과 기능 보존', async ({
+test('내 여행의 열린 배치와 더보기 안 도시 선택·추가 버튼 정렬과 기능 보존', async ({
   page,
 }, testInfo) => {
   await page.goto('/')
@@ -60,6 +60,7 @@ test('내 여행을 하나의 틀로 묶고 도시 선택·추가 버튼 정렬�
   )
   await page.reload()
   await openTrips(page)
+  await openTripMore(page)
   for (const width of [320, 393, 655, 768, 1440]) {
     await page.setViewportSize({ width, height: 850 })
     await page.evaluate(() => document.fonts.ready)
@@ -83,21 +84,20 @@ test('내 여행을 하나의 틀로 묶고 도시 선택·추가 버튼 정렬�
         sections: [
           '.trip-banner',
           '.workspace-tabs',
+          '.workspace-view-switch',
           '.day-tabs',
-          '.journey-route',
           '.day-content',
-          '.trip-overview',
-          '.planning-shortcuts',
+          '.trip-more',
         ].map(rect),
       }
     })
     expect(Math.abs(boxes.city.y - boxes.add.y)).toBeLessThan(1)
     expect(Math.abs(boxes.city.height - boxes.add.height)).toBeLessThan(1)
     expect(boxes.add.x - boxes.city.right).toBeGreaterThanOrEqual(9)
-    expect(boxes.outer.border).toBeGreaterThan(0)
+    expect(boxes.outer.border).toBe(0)
     for (const section of boxes.sections) {
-      expect(section.x - boxes.outer.x).toBeGreaterThanOrEqual(12)
-      expect(boxes.outer.right - section.right).toBeGreaterThanOrEqual(12)
+      expect(section.x - boxes.outer.x).toBeGreaterThanOrEqual(0)
+      expect(boxes.outer.right - section.right).toBeGreaterThanOrEqual(0)
       expect(section.border).toBe(0)
       expect(Math.abs(section.x - boxes.sections[0].x)).toBeLessThan(1)
     }

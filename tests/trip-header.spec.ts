@@ -4,6 +4,8 @@ import { openTrips, openWorkspace } from './navigation'
 test('네 여행 화면의 제목·바로가기 위치 고정과 기록 보존', async ({
   page,
 }, info) => {
+  // This matrix visits 24 workspace/viewport combinations before editing.
+  test.setTimeout(60_000)
   await page.goto('/')
   await page.evaluate(() =>
     localStorage.setItem(
@@ -68,7 +70,6 @@ test('네 여행 화면의 제목·바로가기 위치 고정과 기록 보존',
         }
         return [
           '.trip-page-title',
-          '.trip-selector',
           '.trip-banner',
           '.trip-header-copy h2',
           '.trip-facts',
@@ -80,12 +81,12 @@ test('네 여행 화면의 제목·바로가기 위치 고정과 기록 보존',
       })
       baseline ??= geometry
       expect(geometry).toEqual(baseline)
-      const [, , , , , searchBox, editBox, deleteBox] = geometry
+      const [, , , , searchBox, editBox, deleteBox] = geometry
       expect(searchBox.y).toBe(editBox.y)
       expect(editBox.y).toBe(deleteBox.y)
       expect(searchBox.x).toBeLessThan(editBox.x)
       expect(editBox.x).toBeLessThan(deleteBox.x)
-      for (const box of geometry.slice(5, 8)) {
+      for (const box of geometry.slice(4, 7)) {
         expect(box.width).toBe(36)
         expect(box.height).toBe(36)
       }
@@ -134,8 +135,11 @@ test('네 여행 화면의 제목·바로가기 위치 고정과 기록 보존',
     original[0].title,
   )
   await page.keyboard.press('Escape')
+  await expect(page.getByRole('dialog')).toHaveCount(0)
   await page.getByRole('button', { name: '여행 삭제', exact: true }).click()
-  await page.getByRole('button', { name: '돌아가기', exact: true }).click()
+  const deletion = page.getByRole('dialog', { name: '이 여행을 삭제할까요?' })
+  await expect(deletion).toBeVisible()
+  await deletion.getByRole('button', { name: '돌아가기', exact: true }).click()
   await page.evaluate(() => window.dispatchEvent(new Event('jido:back')))
   await expect(
     page.getByRole('tab', { name: '일정', exact: true }),

@@ -132,7 +132,7 @@ export default function TravelHome(props: Props) {
                 )
               }
             >
-              {currentDay !== null ? '오늘 여행 시작' : '여행 이어서 보기'}
+              {currentDay !== null ? '오늘 일정' : '여행 보기'}
               <ArrowRight size={17} />
             </button>
           </div>

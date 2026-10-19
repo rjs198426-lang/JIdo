@@ -1,0 +1,849 @@
+/* 0.54: one visual system over the existing, deliberately simple flows.
+   Keep content-driven heights, horizontal menu labels and Android safe areas. */
+:root {
+  --green: #087f74;
+  --deep: #20323e;
+  --mint: #eaf5f2;
+  --muted: #5c707c;
+  --line: #e4eaee;
+  --paper: #fff;
+  --canvas: #f5f7f9;
+  --type-page-title: clamp(22px, 1.25rem + 0.3vw, 26px);
+  --type-section-title: 20px;
+  --type-subtitle: 17px;
+  color: var(--deep);
+  background: var(--canvas);
+  font-synthesis: none;
+}
+body {
+  color: var(--deep);
+  background: var(--canvas);
+  -webkit-font-smoothing: antialiased;
+}
+:root h1 {
+  font-weight: 700;
+  letter-spacing: -0.035em;
+}
+:root :is(h2, h3) {
+  font-weight: 650;
+  letter-spacing: -0.025em;
+}
+:root .muted {
+  color: var(--muted);
+}
+:root .lucide {
+  stroke-width: 1.75;
+}
+:root :is(button, a, summary):focus-visible {
+  outline: 3px solid #70bdb2;
+  outline-offset: 3px;
+}
+:root .header {
+  background: #fffffff2;
+  border-bottom-color: var(--line);
+}
+:root .header-inner {
+  height: 72px;
+}
+:root .brand {
+  min-height: 44px;
+}
+:root .brand-mark {
+  font-size: 34px;
+  letter-spacing: -1.6px;
+}
+:root .header-actions {
+  gap: 4px;
+}
+:root :is(.header-info, .header-search) {
+  color: #425762;
+}
+:root .button {
+  min-height: 44px;
+  padding: 11px 18px;
+  gap: 8px;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.5;
+  box-shadow: none;
+}
+:root .button:hover {
+  transform: none;
+}
+:root .button.primary {
+  background: var(--green);
+  color: #fff;
+  border-color: transparent;
+}
+:root .button.primary:hover {
+  background: #066e65;
+}
+:root .button.outline {
+  color: #415762;
+  background: #fff;
+  border-color: var(--line);
+}
+:root .button.small {
+  padding: 10px 14px;
+  font-size: 14px;
+}
+:root .text-button {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--green);
+  gap: 6px;
+}
+:root .icon-button {
+  border-radius: 10px;
+}
+:root .page-section {
+  padding-top: 28px;
+}
+:root .page-title {
+  margin-bottom: 24px;
+  gap: 16px;
+}
+:root .page-title > div > p {
+  color: var(--muted);
+}
+:root .trip-library-more {
+  font-weight: 400;
+  color: var(--muted);
+}
+:root .trip-library-more > summary {
+  font-size: 13px;
+}
+
+/* A calm photo-led home, with one grouped status strip. */
+:root .travel-home {
+  padding-top: 26px;
+}
+:root .home-heading {
+  margin-bottom: 22px;
+}
+:root .home-kicker {
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--muted);
+  letter-spacing: 1.2px;
+}
+:root .home-date {
+  font-size: 12px;
+  color: var(--muted);
+}
+:root :is(.home-journey-card, .home-start-card) {
+  border: 0;
+  border-radius: 22px;
+  background: #eaf2f2;
+}
+:root .home-journey-copy {
+  padding: 28px;
+}
+:root .home-journey-copy h2 {
+  font-size: clamp(20px, 1.15rem + 0.5vw, 25px);
+  font-weight: 650;
+  line-height: 1.4;
+  margin: 14px 0 12px;
+}
+:root .home-phase {
+  background: #fff9;
+  color: #196d66;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+:root :is(.home-journey-cities, .home-journey-dates, .home-journey-meta) {
+  color: #536b76;
+  font-size: 13px;
+}
+:root .home-journey-copy .button {
+  padding: 10px 14px;
+  font-size: 14px;
+}
+:root .home-trip-overview {
+  gap: 24px;
+  margin-top: 24px;
+}
+:root .home-status-grid {
+  background: #fff;
+  border-radius: 18px;
+  gap: 0;
+  padding: 16px 0;
+}
+:root .home-status-grid > button {
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  padding: 4px 18px;
+  grid-template-rows: 22px auto minmax(36px, 1fr) auto;
+  gap: 8px;
+}
+:root .home-status-grid > button + button {
+  border-left: 1px solid var(--line);
+}
+:root .home-status-grid svg {
+  width: 20px;
+  height: 20px;
+  color: #5e8a87;
+}
+:root .home-status-grid > button > span {
+  color: var(--muted);
+  font-size: 13px;
+}
+:root .home-status-grid > button > strong {
+  font-size: clamp(18px, 4vw, 22px);
+  font-weight: 600;
+  letter-spacing: -0.03em;
+}
+:root .home-status-grid small {
+  color: var(--muted);
+  font-size: 12px;
+}
+:root .home-next-day {
+  padding: 22px;
+  background: white;
+  border: 0;
+  border-radius: 18px;
+}
+/* Share rows when large currency values or captions need extra lines. */
+@supports (grid-template-rows: subgrid) {
+  :root .home-status-grid {
+    grid-template-rows: 22px auto minmax(36px, 1fr) auto;
+    row-gap: 8px;
+  }
+  :root .home-status-grid > button {
+    grid-row: span 4;
+    grid-template-rows: subgrid;
+    padding-block: 0;
+  }
+}
+:root .home-section-heading h2 {
+  font-size: 20px;
+  font-weight: 650;
+}
+:root .home-next-day .home-section-heading h2 {
+  font-size: 18px;
+}
+:root .home-next-day li strong {
+  font-size: 15px;
+  font-weight: 500;
+}
+:root .home-next-day li > span {
+  color: var(--muted);
+  font-size: 12px;
+}
+:root .home-next-day li > button {
+  border-left-color: #cce3df;
+}
+:root :is(.home-trip-tile, .home-custom-destination) {
+  background: #fff;
+  border: 0;
+  border-radius: 16px;
+}
+:root .home-shortcuts > button {
+  background: #fff;
+  border: 0;
+  border-radius: 16px;
+  padding: 16px;
+}
+:root .home-shortcuts strong {
+  font-size: 14px;
+  font-weight: 500;
+}
+:root .home-shortcut-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+}
+:root .home-start-card h2 {
+  font-size: clamp(22px, 2.4vw, 30px);
+  font-weight: 650;
+}
+:root .travel-home .home-search {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+}
+
+/* The trip is the page, not a box containing more boxes. */
+:root .trips-page .itinerary {
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+}
+:root .trips-page .itinerary .trip-banner {
+  /* Earlier workspace styles force a white banner with !important. */
+  background: transparent !important;
+  padding: 0 0 20px;
+  gap: 12px 10px;
+}
+:root .trips-page .itinerary .trip-banner h2 {
+  font-size: 20px;
+  font-weight: 650;
+  color: var(--deep);
+}
+:root .trips-page .itinerary .trip-facts {
+  font-size: 13px;
+  color: var(--muted);
+  gap: 6px 12px;
+}
+:root .trips-page .itinerary .trip-banner-controls > button {
+  background: #fff;
+  border-color: var(--line);
+  color: #526a76;
+  border-radius: 10px;
+}
+:root .itinerary .workspace-tabs {
+  padding: 4px;
+  gap: 4px;
+  background: #e9edf1;
+  border: 0;
+  border-radius: 14px;
+}
+:root .itinerary .workspace-tabs button {
+  min-height: 44px;
+  padding: 10px 12px;
+  border: 0;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #637580;
+  background: transparent;
+}
+:root .itinerary .workspace-tabs button[aria-selected='true'] {
+  color: var(--deep);
+  background: #fff;
+  font-weight: 650;
+  box-shadow: 0 2px 5px #20323e09;
+}
+:root .itinerary .workspace-tabs button::after {
+  display: none;
+}
+:root .itinerary .workspace-view-switch {
+  padding: 0;
+  margin: 12px 0 8px;
+  gap: 4px;
+}
+:root .itinerary .workspace-view-switch > button {
+  min-height: 44px;
+  padding: 10px 14px;
+  border: 0;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--muted);
+  background: transparent;
+}
+:root .itinerary .workspace-view-switch > button[aria-pressed='true'] {
+  background: #e3f1ed;
+  color: #086e64;
+  font-weight: 600;
+}
+:root .itinerary .day-tabs {
+  padding: 8px 0 12px;
+  margin: 0;
+  gap: 8px;
+  border-color: var(--line);
+}
+:root .itinerary .day-tab {
+  padding: 10px 12px;
+  gap: 3px;
+  border-radius: 12px;
+  background: transparent;
+  color: var(--muted);
+}
+:root .itinerary .day-tab.active {
+  background: #fff;
+  color: var(--green);
+}
+:root .itinerary .day-tab.active::after {
+  height: 2px;
+  left: 20px;
+  right: 20px;
+}
+:root .itinerary .day-tab strong {
+  font-size: 14px;
+  font-weight: 650;
+}
+:root .itinerary .day-tab span {
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--muted);
+}
+:root .itinerary .day-content {
+  padding-top: 18px;
+  border: 0;
+}
+:root .itinerary .timeline-day-heading {
+  margin-bottom: 12px;
+}
+:root .timeline-day-heading h3 > span {
+  font-size: 17px;
+  font-weight: 650;
+  color: var(--deep);
+}
+:root .timeline-day-heading h3 > time {
+  color: var(--muted);
+}
+:root .timeline-day-heading .timeline-city {
+  padding-top: 0;
+  color: var(--muted);
+}
+:root .timeline-find {
+  border: 0;
+  margin: 0 0 8px;
+}
+:root .timeline-find > summary {
+  color: var(--muted);
+  font-size: 13px;
+}
+:root .timeline-find > summary::before {
+  content: '+';
+  font-size: 17px;
+  font-weight: 400;
+}
+:root .timeline-find[open] > summary::before {
+  content: '−';
+}
+:root .day-progress {
+  font-size: 13px;
+  color: var(--muted);
+  margin: 4px 0 12px;
+}
+:root .itinerary .timeline-workspace .timeline {
+  gap: 20px;
+}
+:root .itinerary .timeline-workspace .timeline-item::before {
+  border-left: 1px solid #dce4e9;
+  bottom: -20px;
+}
+:root .itinerary .timeline-workspace .timeline-item:last-child::before {
+  bottom: 26px;
+}
+:root .itinerary .timeline-workspace .stop-card,
+:root .timeline-booking-card {
+  padding: 16px;
+  min-height: 104px;
+  border: 1px solid #edf0f3;
+  border-radius: 16px;
+  background: white;
+  box-shadow: 0 3px 12px #20323e05;
+}
+:root .itinerary .timeline-workspace .stop-condensed .stop-place strong {
+  font-size: 16px;
+  font-weight: 650;
+  line-height: 1.5;
+  color: var(--deep);
+}
+:root
+  .itinerary
+  .timeline-workspace
+  .stop-condensed
+  .stop-place
+  :is(.timeline-card-category, .stop-city-name) {
+  font-size: 13px;
+  color: var(--muted);
+}
+:root .itinerary .timeline-workspace .stop-condensed .stop-place > button {
+  font-weight: 400;
+}
+:root .itinerary .timeline-rail .stop-number {
+  width: 28px;
+  height: 28px;
+  font-size: 13px;
+  font-weight: 600;
+  box-shadow: 0 0 0 5px var(--canvas);
+}
+:root .timeline-visit-time {
+  font-size: 12px;
+  color: var(--muted);
+}
+:root .timeline-distance {
+  border-color: var(--line);
+  border-radius: 8px;
+  color: #5e727e;
+  background: var(--canvas);
+}
+:root .itinerary .timeline-workspace .stop-expand {
+  color: #607581;
+  font-size: 12px;
+  right: 8px;
+  top: 10px;
+}
+:root .timeline-workspace .schedule-note-preview {
+  padding: 10px 0 0;
+  margin-top: 8px;
+  border: 0;
+  border-top: 1px solid #f0f3f5;
+  border-radius: 0;
+  background: transparent;
+  color: #526773;
+}
+:root .timeline-workspace .schedule-note-preview svg {
+  width: 16px;
+  height: 16px;
+}
+:root .timeline-workspace .schedule-note-preview p {
+  font-size: 16px;
+  font-weight: 400;
+}
+:root .timeline-workspace .empty-state {
+  background: #fff;
+  border: 0;
+  border-radius: 18px;
+  padding: 36px 20px;
+}
+:root .timeline-workspace .empty-icon {
+  background: #edf5f2;
+  color: #6d9c91;
+  border-radius: 18px;
+}
+:root .timeline-workspace .empty-state h3 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* Forms share one comfortable scale. Secondary tools remain disclosures. */
+:root .modal-backdrop {
+  background: #172b3b55;
+  backdrop-filter: blur(7px);
+}
+:root .modal {
+  border-radius: 24px;
+  box-shadow: 0 24px 90px #122c3e29;
+}
+:root .modal-header {
+  padding: 14px 22px;
+  border-bottom-color: #edf1f4;
+}
+:root .modal-header > h2 {
+  font-size: 20px;
+  font-weight: 650;
+  color: var(--deep);
+}
+:root .modal-header > .icon-button {
+  color: var(--muted);
+  background: #f3f5f7;
+  border-radius: 50%;
+}
+:root :is(.modal-body, .create-form) {
+  padding: 24px;
+}
+:root .modal-body .modal-body {
+  padding: 0;
+}
+:root .field {
+  font-size: 13px;
+  font-weight: 600;
+  color: #536873;
+  margin-bottom: 22px;
+}
+:root .field :is(input, select, textarea),
+:root :is(.quick-add, .tool-filters) > :is(input, select),
+:root .input-search {
+  min-height: 48px;
+  border: 1px solid #dfe7ec;
+  border-radius: 12px;
+  background: #f9fafb;
+  color: var(--deep);
+  box-shadow: none;
+}
+:root .field :is(input, select, textarea) {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 12px;
+}
+:root .field :is(input, select, textarea):focus {
+  background: #fff;
+  outline: 2px solid #72b7ac;
+  outline-offset: 1px;
+}
+:root .input-search {
+  padding: 6px 8px 6px 14px;
+}
+:root .input-search > input {
+  font-size: 16px;
+  background: transparent;
+  color: var(--deep);
+}
+:root .input-search > svg {
+  color: #82939c;
+}
+:root :is(input, textarea)::placeholder {
+  color: #8a99a3;
+  font-weight: 400;
+  opacity: 1;
+}
+:root .simple-options {
+  border-color: var(--line);
+  padding: 8px 0;
+}
+:root .simple-options > summary {
+  color: #5c707c;
+  font-size: 14px;
+  font-weight: 500;
+}
+:root .simple-options > summary::after {
+  color: #7c919c;
+}
+:root .simple-create .form-intro {
+  font-size: 16px;
+  color: var(--muted);
+  line-height: 1.6;
+}
+:root .inline-form {
+  border-color: var(--line);
+  background: #fff;
+  border-radius: 16px;
+  padding: 18px;
+}
+:root .maps-import {
+  padding: 0;
+  margin: 0 0 12px;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+}
+:root .maps-import > summary {
+  min-height: 44px;
+  padding: 10px 0;
+  color: var(--muted);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* Reading surfaces, travel tools and discovery use the same quiet hierarchy. */
+:root .tool-heading h3 {
+  font-size: 18px;
+  font-weight: 650;
+  color: var(--deep);
+}
+:root .expense-manager .money-overview {
+  margin: 16px 0;
+  padding: 4px 20px;
+  background: #fff;
+  border-radius: 16px;
+}
+:root .expense-manager .money-overview strong {
+  font-size: clamp(24px, 5vw, 28px);
+  font-weight: 600;
+  letter-spacing: -0.035em;
+  color: var(--deep);
+}
+:root .expense-manager .money-overview :is(span, small) {
+  color: var(--muted);
+}
+:root .expense-manager .expense-selected-day {
+  border-color: var(--line);
+}
+:root .expense-manager .expense-list h4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--deep);
+}
+:root .expense-manager .expense-list > article {
+  border-color: var(--line);
+}
+:root .expense-day-heading h4 {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--muted);
+}
+:root .expense-manager .expense-list .row-actions {
+  color: #718590;
+}
+:root .dashboard-cards {
+  gap: 12px;
+}
+:root .dashboard-cards > button {
+  background: #fff;
+  border: 0;
+  border-radius: 16px;
+  padding: 20px;
+  gap: 8px;
+}
+:root .dashboard-cards strong {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--deep);
+}
+:root .dashboard-cards small {
+  font-size: 13px;
+  color: var(--muted);
+}
+:root :is(.checklist-row, .reservation-card, .attachment-library) {
+  border-color: var(--line);
+}
+:root :is(.filter, .category-row > button, .guide-place-categories > button) {
+  min-height: 44px;
+  padding: 10px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  background: #fff;
+  color: #607581;
+}
+:root
+  :is(
+    .filter,
+    .category-row > button,
+    .guide-place-categories > button
+  ).active {
+  background: var(--green);
+  border-color: var(--green);
+  color: #fff;
+}
+:root :is(.city-card, .place-card) {
+  border: 0;
+  border-radius: 18px;
+  box-shadow: 0 3px 14px #20323e05;
+}
+:root :is(.city-card-copy, .place-card-copy) {
+  padding: 18px;
+}
+:root .city-card .city-title > strong,
+:root .place-card .place-card-copy > strong {
+  font-size: 16px;
+  font-weight: 650;
+  color: var(--deep);
+}
+:root :is(.place-location, .place-meta, .city-title > span) {
+  color: var(--muted);
+  font-size: 12px;
+}
+:root .tags > span {
+  background: #f0f5f5;
+  color: #526c69;
+  border-radius: 6px;
+  font-size: 11px;
+}
+:root .place-detail-title {
+  color: var(--deep);
+  font-size: 22px;
+  font-weight: 650;
+}
+:root .detail-place-list strong {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--deep);
+}
+:root .detail-place-list span:not(.detail-place-icon) {
+  color: var(--muted);
+  font-size: 13px;
+}
+:root :is(.practical-guide, .place-review-sources, .photo-credit-entry) {
+  border-color: var(--line);
+  border-radius: 16px;
+}
+:root .app-information-panel {
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  box-shadow: 0 16px 60px #172b3b1f;
+  color: var(--deep);
+}
+:root .app-information-panel h2 {
+  font-weight: 650;
+}
+
+@media (max-width: 680px) {
+  :root .header-inner {
+    height: 64px;
+  }
+  :root .brand-mark {
+    font-size: 32px;
+  }
+  :root .main {
+    padding-inline: 20px;
+  }
+  :root :is(.travel-home, .page-section) {
+    padding-top: 24px;
+  }
+  :root .home-heading {
+    gap: 12px;
+  }
+  :root .home-heading h1 {
+    font-size: 23px;
+  }
+  :root .home-journey-copy {
+    padding: 22px 16px;
+  }
+  :root .home-journey-copy .button {
+    padding-inline: 12px;
+    font-size: 13px;
+  }
+  :root .trip-page-title > .button {
+    padding-inline: 14px;
+    font-size: 13px;
+  }
+  :root .home-status-grid > button {
+    padding-inline: 12px;
+  }
+  :root .home-next-day {
+    padding: 20px 18px;
+  }
+  :root .page-title {
+    margin-bottom: 24px;
+  }
+  :root .itinerary .workspace-tabs button {
+    padding-inline: 8px;
+  }
+  :root .itinerary .workspace-view-switch > button {
+    padding-inline: 12px;
+  }
+  :root .bottom-nav {
+    background: #fffffff5;
+    border-top-color: var(--line);
+    padding-top: 8px;
+  }
+  :root .bottom-nav > button {
+    gap: 3px;
+    color: #607581;
+    font-size: 11px;
+    font-weight: 500;
+  }
+  :root .bottom-nav > button > span:first-child {
+    padding: 4px 18px;
+    border-radius: 12px;
+  }
+  :root .bottom-nav > button.active {
+    color: var(--green);
+    font-weight: 600;
+  }
+  :root .bottom-nav > button.active > span:first-child {
+    background: #e7f3ef;
+  }
+  :root .bottom-nav > button.active::before {
+    display: none;
+  }
+  :root .bottom-nav svg {
+    width: 22px;
+    height: 22px;
+  }
+  :root :is(.city-card-copy, .place-card-copy) {
+    padding: 14px;
+  }
+}
+@media (max-width: 360px) {
+  :root .main {
+    padding-inline: 16px;
+  }
+  :root .itinerary .workspace-tabs button {
+    padding-inline: 6px;
+  }
+  :root .home-status-grid > button {
+    padding-inline: 10px;
+  }
+  :root .home-journey-copy {
+    padding-inline: 12px;
+  }
+  :root :is(.modal-body, .create-form) {
+    padding: 20px;
+  }
+  :root .modal-header {
+    padding-inline: 20px;
+  }
+}

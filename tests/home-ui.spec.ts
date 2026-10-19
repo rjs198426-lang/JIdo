@@ -88,7 +88,7 @@ test('첫 홈에 실물 도시·장소와 실행 가능한 바로가기를 표�
   await expect(page.locator('.home-status-grid')).toHaveCount(0)
   await page
     .getByRole('navigation', { name: '여행 바로가기' })
-    .getByRole('button', { name: '일정 가져오기' })
+    .getByRole('button', { name: '여행 가져오기' })
     .click()
   await expect(page.getByRole('dialog')).toContainText('여행 백업·공유')
   await page.getByRole('button', { name: '닫기', exact: true }).click()
@@ -109,7 +109,7 @@ test('여행지 탭·바로가기·상단 검색 이동은 입력창을 자동 �
   await navigate(page, '홈')
   await page
     .getByRole('navigation', { name: '여행 바로가기' })
-    .getByRole('button', { name: '여행지 보기' })
+    .getByRole('button', { name: '여행지 둘러보기' })
     .click()
   await expect(page.getByLabel('여행지와 장소 검색')).not.toBeFocused()
   await navigate(page, '홈')
@@ -280,7 +280,7 @@ test('긴 여행 이름과 큰 경비도 현황 정렬 및 하단 메뉴 여백�
   await page.evaluate(() =>
     window.scrollTo(0, document.documentElement.scrollHeight),
   )
-  const last = page.locator('.home-trip-tile').last()
+  const last = page.locator('.home-discover > summary')
   await expect
     .poll(async () => {
       const tile = await last.boundingBox(),
@@ -332,9 +332,7 @@ test('여행 중에는 기억한 다른 날짜 대신 오늘 일정을 열고 �
   await expect(page.locator('.home-next-day')).toContainText('DAY 1 · 도쿄')
   await expect(page.locator('.home-next-day')).not.toContainText('센소지')
   await expect(page.locator('.home-next-day')).toContainText('시부야')
-  await page
-    .getByRole('button', { name: '오늘 여행 시작', exact: true })
-    .click()
+  await page.getByRole('button', { name: '오늘 일정', exact: true }).click()
   await expect(
     page.getByRole('tab', { name: '여행 중', exact: true }),
   ).toHaveAttribute('aria-selected', 'true')

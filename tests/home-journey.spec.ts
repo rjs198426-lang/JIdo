@@ -336,9 +336,7 @@ test('새 여행을 만들거나 출발일을 바꾸면 재실행 없이 가장 
       .getByRole('region', { name: '방콕에서 더 가볼 곳' })
       .locator('.place-card'),
   ).toHaveCount(4)
-  await page
-    .getByRole('button', { name: '여행 이어서 보기', exact: true })
-    .click()
+  await page.getByRole('button', { name: '여행 보기', exact: true }).click()
   await page
     .getByRole('button', { name: '여행 정보 수정', exact: true })
     .click()
