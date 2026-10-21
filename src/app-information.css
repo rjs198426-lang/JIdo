@@ -99,3 +99,30 @@
   font-size: 12px;
   font-weight: 650;
 }
+.content-updates {
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid var(--line);
+}
+.content-updates h3 {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+.content-updates p {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-block: 6px;
+}
+.content-updates label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 44px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.content-updates input {
+  accent-color: var(--green);
+  width: 18px;
+  height: 18px;
+}

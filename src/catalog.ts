@@ -1,8 +1,8 @@
 import { currentPlaceCategory } from './category-balance'
 import { useState, useSyncExternalStore } from 'react'
 import {
-  cities as bundledCities,
-  places as bundledPlaces,
+  cities as embeddedCities,
+  places as embeddedPlaces,
   regions as bundledRegions,
   reviewedPlaceIds,
   type Region,
@@ -12,6 +12,13 @@ import { fetchGuides } from './guide-api'
 import { currentPlaceName } from './place-names'
 import { withBlogNotes } from './blog-place-notes'
 import { retiredBlogImages } from './blog-recency'
+import {
+  publicContent,
+  retainedPublicContent,
+  subscribePublicContent,
+} from './content-release'
+let bundledCities = publicContent()?.catalog.cities || embeddedCities
+let bundledPlaces = publicContent()?.catalog.places || embeddedPlaces
 export { categoryOptions } from './data'
 export type { City, Place, Region } from './data'
 
@@ -37,8 +44,16 @@ const listeners = new Set<() => void>()
 export let cities = [...bundledCities]
 export let places = [...bundledPlaces]
 export let regions: Region[] = [...bundledRegions]
-const cityRegistry = new Map(bundledCities.map((city) => [city.id, city]))
-const placeRegistry = new Map(bundledPlaces.map((place) => [place.id, place]))
+const cityRegistry = new Map(
+  [...embeddedCities, ...retainedPublicContent().cities, ...bundledCities].map(
+    (city) => [city.id, city],
+  ),
+)
+const placeRegistry = new Map(
+  [...embeddedPlaces, ...retainedPublicContent().places, ...bundledPlaces].map(
+    (place) => [place.id, place],
+  ),
+)
 // Older bundled guide caches used one city photo for every venue. Upgrade only
 // those known assets; preserve user-authored guide content and custom photos.
 const legacyImages = new Set([
@@ -87,6 +102,9 @@ function currentPlace(value: (typeof bundledPlaces)[number]) {
   return updated
 }
 function rebuild() {
+  // Update lookups as well as recommendation lists; existing stops use IDs.
+  for (const city of bundledCities) cityRegistry.set(city.id, city)
+  for (const place of bundledPlaces) placeRegistry.set(place.id, place)
   for (const guide of snapshot.retained) {
     cityRegistry.set(
       guide.id,
@@ -129,6 +147,17 @@ function rebuild() {
   ]
 }
 rebuild()
+subscribePublicContent(() => {
+  const content = publicContent()
+  if (!content) return
+  bundledCities = content.catalog.cities
+  bundledPlaces = content.catalog.places
+  for (const city of content.retainedCities) cityRegistry.set(city.id, city)
+  for (const place of content.retainedPlaces) placeRegistry.set(place.id, place)
+  rebuild()
+  snapshot = { ...snapshot }
+  for (const listener of listeners) listener()
+})
 export const getCity = (id: string) => cityRegistry.get(id)
 export const getPlace = (id: string) => placeRegistry.get(id)
 export const getGuide = (id: string) =>

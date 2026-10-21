@@ -1,8 +1,16 @@
-import { openTrips, openWorkspace } from './navigation'
+import {
+  openTrips,
+  openWorkspace,
+  openScheduleEditor,
+  openTravelManagement,
+  openCreateOptions,
+  openDisclosure,
+} from './navigation'
 import { test, expect, type Page } from '@playwright/test'
 import { cities, places } from '../src/data'
 import { japanGuideById } from '../src/japan-guides'
 import { tripSchema } from '../src/travel-model'
+import { optimizedImage } from './optimized-image'
 const png = Buffer.from(
   'iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+a4jIAAAAASUVORK5CYII=',
   'base64',
@@ -43,6 +51,7 @@ async function tab(page: Page, name: string) {
   await openWorkspace(page, name)
 }
 async function photos(page: Page, index = 0) {
+  await openScheduleEditor(page)
   const detail = page.locator('.stop-card .stop-photos').nth(index)
   await detail.locator('summary').click()
   return detail
@@ -102,6 +111,7 @@ test('장소별 실제 사진을 기기에 저장하고 대표 사진 선택·�
   expect(saved.days[0][1].photoId).toBeUndefined()
   await page.reload()
   await openTrips(page)
+  await openScheduleEditor(page)
   await context.setOffline(true)
   await expect
     .poll(() =>
@@ -155,7 +165,7 @@ test('대표 사진 삭제·문서 오선택이 다른 장소의 사진과 기�
   await expect(page.locator('.stop-place img')).toHaveCount(2)
   await expect(page.locator('.stop-place img').first()).toHaveAttribute(
     'src',
-    '/images/place-kiyomizu.jpg',
+    optimizedImage('/images/place-kiyomizu.jpg'),
   )
   await expect(page.locator('.stop-place img').nth(1)).toHaveAttribute(
     'src',
@@ -179,6 +189,7 @@ test('사진 파일과 대표 사진 참조는 일정 JSON 백업·동행자 파
   await panel
     .getByRole('button', { name: '개인사진.png 대표 사진으로 사용' })
     .click()
+  await openTravelManagement(page)
   await page
     .getByRole('button', { name: '여행 백업·공유', exact: true })
     .click()
@@ -202,6 +213,7 @@ test('긴 하단 바·Android 제스처 여백·작은 높이에서도 마지막
       ':root {--safe-area-inset-bottom:40px;} .bottom-nav {padding-top:25px;} ',
   })
   await tab(page, '여행 준비')
+  await openDisclosure(page, '.preparation-people')
   await page
     .locator('.travel-info')
     .getByRole('button', { name: '추가', exact: true })
@@ -280,6 +292,7 @@ test('일본 주요 10개 도시·500개 이상 장소의 기본 가이드와 �
   await dialog
     .getByRole('button', { name: '도쿄 여행 만들기', exact: true })
     .click()
+  await openCreateOptions(page)
   await page.getByLabel('첫날에 추천 장소 3곳 넣어두기').check()
   await page
     .getByRole('button', { name: '내 여행 만들기', exact: true })
@@ -287,6 +300,7 @@ test('일본 주요 10개 도시·500개 이상 장소의 기본 가이드와 �
   await expect(page.locator('.timeline-item')).toHaveCount(3)
   await page.reload()
   await openTrips(page)
+  await openScheduleEditor(page)
   await context.setOffline(true)
   await page.getByLabel('센소지 방문 시간').fill('09:30')
   await expect(page.locator('.timeline')).toContainText('센소지')
@@ -323,7 +337,7 @@ test('70개 장소의 사진 파일이 열리고 장소별로 구분되며 촬�
             }),
         ),
       ),
-    photographed.map((place) => place.image),
+    photographed.map((place) => optimizedImage(place.image)),
   )
   expect(loaded).toEqual(Array(70).fill(true))
   await page.getByLabel('도시 또는 나라 검색').fill('교토')
@@ -340,7 +354,7 @@ test('70개 장소의 사진 파일이 열리고 장소별로 구분되며 촬�
     page
       .getByRole('dialog')
       .getByRole('img', { name: '기요미즈데라', exact: true }),
-  ).toHaveAttribute('src', '/images/place-kiyomizu.jpg')
+  ).toHaveAttribute('src', optimizedImage('/images/place-kiyomizu.jpg'))
   await expect(dialog.locator('.photo-credit')).toHaveCount(0)
   await page.getByRole('button', { name: '닫기', exact: true }).click()
   await expect(page.getByRole('dialog')).toHaveCount(0)
@@ -407,9 +421,7 @@ test('Google SDK 모형: 기기 내 동명 장소가 있어도 Google 공식 이
   await page
     .getByRole('button', { name: 'Kiyomizu-dera 선택', exact: true })
     .click()
-  await page
-    .getByRole('button', { name: '내 일정에 추가', exact: true })
-    .click()
+  await page.getByRole('button', { name: '일정에 추가', exact: true }).click()
   const custom = await page.evaluate(
     () =>
       JSON.parse(localStorage.getItem('jido-travel-v1')!).trips[0].days[0].at(
@@ -544,18 +556,18 @@ test('이전 교토 가이드의 반복 사진은 갱신하면서 사용자가 �
   await seed(page)
   await expect(page.locator('.stop-place img').first()).toHaveAttribute(
     'src',
-    '/images/place-kiyomizu.jpg',
+    optimizedImage('/images/place-kiyomizu.jpg'),
   )
   await expect(page.locator('.stop-place img').nth(1)).toHaveAttribute(
     'src',
-    '/images/place-nishiki.jpg',
+    optimizedImage('/images/place-nishiki.jpg'),
   )
   await page.locator('.stop-place button').first().click()
   await expect(
     page
       .getByRole('dialog')
       .getByRole('img', { name: '기요미즈데라', exact: true }),
-  ).toHaveAttribute('src', '/images/place-kiyomizu.jpg')
+  ).toHaveAttribute('src', optimizedImage('/images/place-kiyomizu.jpg'))
   await page.getByRole('button', { name: '닫기', exact: true }).click()
   await page
     .locator('.desktop-nav:visible, .bottom-nav:visible')

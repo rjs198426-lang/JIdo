@@ -198,3 +198,40 @@ test('320px 장소 상세에서 Pretendard Variable 본문·주소·팁을 읽�
   ).toBe(true)
   await page.screenshot({ path: 'artifacts/pretendard-place-320.png' })
 })
+
+test('일본어·중국어 글자는 오프라인 시스템 CJK 글꼴로 표시', async ({
+  page,
+  context,
+}) => {
+  await page.route('https://**', (route) => route.abort())
+  await page.goto('/')
+  await page.evaluate(() => document.fonts.ready)
+  await context.setOffline(true)
+  await page.evaluate(() => {
+    const sample = document.createElement('p')
+    sample.id = 'cjk-font-check'
+    sample.textContent = '京都駅 ひらがな カタカナ 廣州體驗'
+    sample.style.fontFamily = getComputedStyle(document.body).fontFamily
+    document.body.append(sample)
+  })
+  const session = await context.newCDPSession(page)
+  await session.send('DOM.enable')
+  await session.send('CSS.enable')
+  const { root } = await session.send('DOM.getDocument')
+  const { nodeId } = await session.send('DOM.querySelector', {
+    nodeId: root.nodeId,
+    selector: '#cjk-font-check',
+  })
+  const { fonts } = await session.send('CSS.getPlatformFontsForNode', {
+    nodeId,
+  })
+  expect(
+    fonts.some(
+      (font) =>
+        !font.isCustomFont &&
+        /CJK/.test(font.familyName) &&
+        font.glyphCount > 0,
+    ),
+  ).toBe(true)
+  expect(fonts.some((font) => /LastResort/.test(font.familyName))).toBe(false)
+})

@@ -1,3 +1,5 @@
+import { bundledImage } from './bundled-image'
+import { startContentUpdates } from './content-release'
 import TimelineRail, { timelineDistance } from './TimelineRail'
 import TimelineBookings from './TimelineBookings'
 import ScheduleToolbar from './ScheduleToolbar'
@@ -1047,7 +1049,7 @@ function Itinerary({
         <div
           className="trip-banner"
           style={{
-            backgroundImage: `linear-gradient(90deg, rgba(12,36,31,.86),rgba(12,36,31,.3)), url(${cityCover})`,
+            backgroundImage: `linear-gradient(90deg, rgba(12,36,31,.86),rgba(12,36,31,.3)), url(${bundledImage(cityCover)})`,
           }}
         >
           <div className="trip-header-copy">
@@ -1865,6 +1867,7 @@ function Itinerary({
 
 export default function App() {
   useGuideCatalog()
+  useEffect(startContentUpdates, [])
   const { store, setStore, storageError } = useTravelStore()
   const attachmentStoreRef = useRef(store)
   attachmentStoreRef.current = store

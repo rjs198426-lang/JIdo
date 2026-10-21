@@ -1,4 +1,5 @@
 import { expect, test as base, type Page } from '@playwright/test'
+import { openCreateOptions, openScheduleEditor } from './navigation'
 import { spawn, type ChildProcess } from 'node:child_process'
 import { randomBytes } from 'node:crypto'
 import { mkdtemp, rm } from 'node:fs/promises'
@@ -143,12 +144,14 @@ test('요청 → AI 초안(테스트 응답) → 관리자 검토·게시 → �
   await page
     .getByRole('button', { name: '빈 여행 만들기', exact: true })
     .click()
+  await openCreateOptions(page)
   await page.getByLabel('첫날에 추천 장소 3곳 넣어두기').check()
   await page.getByLabel('여행 이름').fill('빈 검토 여행')
   await page
     .getByRole('button', { name: '내 여행 만들기', exact: true })
     .click()
   await expect(page.locator('.timeline-item')).toContainText('슈테판 대성당')
+  await openScheduleEditor(page)
   await page
     .locator('.stop-card')
     .filter({ has: page.getByLabel('슈테판 대성당 메모') })
@@ -158,6 +161,8 @@ test('요청 → AI 초안(테스트 응답) → 관리자 검토·게시 → �
   await page.reload()
   await navigate(page, '내 여행')
   await expect(page.locator('.trip-banner')).toContainText('빈 검토 여행')
+  await openScheduleEditor(page)
+  await page.locator('.stop-edit-details > summary').click()
   await expect(page.getByLabel('슈테판 대성당 메모')).toHaveValue(
     '출처 확인한 장소 방문',
   )
@@ -176,6 +181,7 @@ test('서버 게시 상태에 관계없이 로컬 가이드와 기존 일정 유
   await page
     .getByRole('button', { name: '빈 여행 만들기', exact: true })
     .click()
+  await openCreateOptions(page)
   await page.getByLabel('첫날에 추천 장소 3곳 넣어두기').check()
   await page.getByLabel('여행 이름').fill('남겨둘 여행')
   await page

@@ -413,6 +413,12 @@ export function createGuideServer({
   app.use('/api', (req, res) =>
     res.status(404).json({ error: '요청한 API를 찾을 수 없습니다.' }),
   )
+  if (serveStatic && existsSync(path.join(root, 'dist-admin/admin.html'))) {
+    app.get(['/admin', '/admin/'], (req, res) =>
+      res.sendFile(path.join(root, 'dist-admin/admin.html')),
+    )
+    app.use('/admin', express.static(path.join(root, 'dist-admin')))
+  }
   if (serveStatic && existsSync(path.join(root, 'dist/index.html'))) {
     app.use(express.static(path.join(root, 'dist')))
     app.get('/{*path}', (req, res) =>

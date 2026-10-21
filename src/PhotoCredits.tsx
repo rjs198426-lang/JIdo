@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { bundledImage } from './bundled-image'
 import { Search, ExternalLink } from 'lucide-react'
 import { cities, places, getCity, getPlace } from './catalog'
 import blogPhotos from './blog-photos.json'
@@ -68,10 +69,18 @@ export default function PhotoCredits({
               className="photo-credit-entry"
               key={`${credit.file}|${credit.sourceUrl}|${credit.author}|${credit.licenseUrl}`}
             >
-              <img src={source.image} alt="" loading="lazy" />
+              <img
+                src={bundledImage(source.image)}
+                alt=""
+                loading="lazy"
+                decoding="async"
+              />
               <div>
                 <h3>{[...names].join(' · ')}</h3>
                 <p>{credit.author || '작자 미상'}</p>
+                {bundledImage(source.image) !== source.image && (
+                  <p>배포용 WebP 변환·크기 조정·촬영정보 제거</p>
+                )}
                 <div className="photo-credit-links">
                   <a
                     href={credit.sourceUrl}

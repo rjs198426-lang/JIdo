@@ -1,9 +1,13 @@
 node_modules
 dist
+dist-admin
 .git
 .runtime
 .env*
-android
+android/**
+!android/app
+android/app/**
+!android/app/build.gradle
 ios
 artifacts
 test-results

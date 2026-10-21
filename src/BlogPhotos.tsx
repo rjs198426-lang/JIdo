@@ -2,6 +2,7 @@ import { ExternalLink } from 'lucide-react'
 import photos from './blog-photos.json'
 import { isRecentBlog } from './blog-recency'
 import './blog-photos.css'
+import { bundledImage } from './bundled-image'
 
 export default function BlogPhotos({
   cityId,
@@ -26,7 +27,12 @@ export default function BlogPhotos({
       <div className="blog-photo-grid">
         {selected.map((photo) => (
           <figure key={photo.id}>
-            <img src={photo.image} alt={photo.caption} loading="lazy" />
+            <img
+              src={bundledImage(photo.image)}
+              alt={photo.caption}
+              loading="lazy"
+              decoding="async"
+            />
             <figcaption>
               <h4>{photo.caption}</h4>
               <p>{photo.description}</p>

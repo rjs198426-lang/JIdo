@@ -7,7 +7,8 @@
   font-display: swap;
 }
 :root {
-  --app-body-font: 'Pretendard Variable', 'Noto Sans KR Variable', sans-serif;
+  --app-body-font:
+    'Pretendard Variable', 'Noto Sans CJK KR', 'Noto Sans CJK JP', sans-serif;
   --app-heading-font: var(--app-body-font);
   --app-font: var(--app-body-font);
   font-family: var(--app-body-font);

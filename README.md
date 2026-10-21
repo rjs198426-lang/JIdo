@@ -62,15 +62,18 @@ npm ci --cache /workspace/.cache/npm
 npm run dev -- --port 5173 --strictPort
 ```
 
-기기 내 여행 관리에는 서버가 필요하지 않습니다. 기본 무료 장소 검색에는 API 키가 필요하지 않습니다. Google 검색을 선택할 때만 Google Maps Platform API 키를 빌드 환경에 등록해야 합니다. 별도 가이드 관리 서버 코드는 보존했으며 [GUIDES.md](GUIDES.md)를 참고하세요. 설치형 앱은 가이드 서버 연결·요청·자동 갱신을 사용하지 않습니다.
+기기 내 여행 관리에는 서버가 필요하지 않습니다. 기본 무료 장소 검색에는 API 키가 필요하지 않습니다. Google 검색을 선택할 때만 Google Maps Platform API 키를 빌드 환경에 등록해야 합니다. 별도 가이드 관리 서버 코드는 보존했으며 [GUIDES.md](GUIDES.md)를 참고하세요. 설치형 앱은 가이드 관리 서버에 연결하지 않습니다. 0.57부터 GitHub의 공개 도시·장소 JSON만 하루 한 번 확인하며, ⓘ → 여행 정보에서 끌 수 있습니다. 개인 기록은 업로드하지 않습니다.
 
 ```bash
 npm run build            # TypeScript 검사 + 배포용 화면 빌드
+npm run build:admin      # 관리자 웹만 별도 dist-admin에 빌드 (APK에 미포함)
 npm run native:sync      # 화면 빌드 + Android에 최신 화면 복사
 npm run android:open     # Android Studio에서 열기
 ```
 
 화면을 수정한 뒤에는 `native:sync`를 실행해야 네이티브 앱에 반영됩니다. 앱은 `dist/`의 파일을 포함하므로 개발 서버에 연결하지 않아도 실행됩니다.
+
+빌드 시 글꼴 allowlist와 사진 WebP 변환·메타데이터 제거를 적용하고 관리자 코드 미포함을 자동 검사합니다. 원본 사진과 기존 개인 가이드는 보존합니다. 용량 측정과 공개 정보 배포 방법은 [PERFORMANCE-UPGRADE.md](PERFORMANCE-UPGRADE.md)를 확인하세요.
 
 ## Android 설치용 APK
 

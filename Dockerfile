@@ -6,7 +6,7 @@ RUN --mount=type=secret,id=build_ca \
     if [ -f /run/secrets/build_ca ]; then export NODE_EXTRA_CA_CERTS=/run/secrets/build_ca; fi; \
     npm ci
 COPY . .
-RUN npm run build
+RUN npm run build && npm run build:admin
 
 FROM node:24-bookworm-slim AS server
 WORKDIR /app
@@ -16,8 +16,9 @@ RUN --mount=type=secret,id=build_ca \
     if [ -f /run/secrets/build_ca ]; then export NODE_EXTRA_CA_CERTS=/run/secrets/build_ca; fi; \
     npm ci --omit=dev && mkdir /app/.runtime && chown node:node /app/.runtime
 COPY --from=build /app/dist ./dist
+COPY --from=build /app/dist-admin ./dist-admin
 COPY server ./server
-COPY src/data.ts src/guide-schema.ts ./src/
+COPY src ./src
 USER node
 VOLUME ["/app/.runtime"]
 EXPOSE 8787

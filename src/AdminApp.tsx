@@ -1,3 +1,4 @@
+import { bundledImage } from './bundled-image'
 import { useEffect, useRef, useState, type FormEvent } from 'react'
 import {
   ArrowLeft,
@@ -346,7 +347,7 @@ function Editor({
       {preview ? (
         <div className="admin-guide-preview">
           <div className="preview-title">
-            <img src={guide.city.image} alt="여행지 대표 이미지" />
+            <img src={bundledImage(guide.city.image)} alt="여행지 대표 이미지" />
             <div>
               <span>{guide.city.country}</span>
               <h2>{guide.city.name || '여행지 이름'}</h2>
@@ -1211,7 +1212,7 @@ export default function AdminApp() {
                   )
                   .map((guide) => (
                     <article className="admin-list-row" key={guide.id}>
-                      <img src={guide.city.image} alt="" />
+                      <img src={bundledImage(guide.city.image)} alt="" />
                       <div>
                         <h2>{guide.city.name}</h2>
                         <p>

@@ -1,6 +1,7 @@
 import { useEffect, useId, useRef } from 'react'
 import { ChevronRight, Image, Info } from 'lucide-react'
 import './app-information.css'
+import ContentUpdates from './ContentUpdates'
 
 export default function AppInformation({
   open,
@@ -115,6 +116,7 @@ export default function AppInformation({
           >
             개인정보 처리 안내
           </a>
+          <ContentUpdates />
         </section>
       )}
     </div>

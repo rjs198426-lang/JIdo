@@ -1,5 +1,7 @@
 # J★Do 가이드 서버와 관리자
 
+> 현재 설치형 앱의 갱신 경로는 0.57의 공개 JSON 방식입니다([PERFORMANCE-UPGRADE.md](PERFORMANCE-UPGRADE.md)). 아래 가이드 서버·관리자는 별도로 보존한 웹 도구이며 휴대폰 기본 흐름에 서버 연결·AI 요청을 표시하지 않습니다.
+
 국가 전체 또는 도시를 요청하면 **AI가 웹 조사 → 초안 작성 → 관리자가 검토·수정 → 앱에 게시**하는 흐름입니다. 새 가이드는 앱에서 받아 여행지 검색, 가이드 읽기, 장소 저장, 일정 만들기에 사용합니다. 가이드마다 앱을 다시 빌드할 필요는 없습니다.
 
 ## 실행과 관리자 설정
@@ -12,7 +14,7 @@ npm ci --cache /workspace/.cache/npm
 npm run server
 ```
 
-다른 터미널에서 `npm run dev -- --port 5173 --strictPort`를 실행합니다. 관리자 경로는 **`/admin`**입니다. 기본 API 포트는 8787이고, 개발 화면의 `/api`를 Vite가 서버에 전달합니다. 배포용 화면을 빌드하면 서버가 앱과 관리자 화면도 제공합니다.
+사용자 화면은 다른 터미널에서 `npm run dev -- --port 5173 --strictPort`, 관리자 화면은 `npm run dev:admin -- --port 5175 --strictPort`로 실행하고 `/admin/admin.html`을 엽니다. 기본 API 포트는 8787이고 개발 화면의 `/api`를 Vite가 서버에 전달합니다. 서버 배포 시 `npm run build`와 `npm run build:admin`을 각각 실행하면 서버가 사용자 화면과 `/admin`의 관리자 화면을 제공합니다. 관리자 번들은 Android APK에 포함하지 않습니다.
 
 첫 서버 실행 때 `.runtime/admin-setup-code`에 1회용 초기 설정 코드를 생성합니다. 본인 환경에서 파일을 열어 `/admin`에 입력하고 **12자 이상의 관리자 비밀번호**를 정하세요. 코드나 비밀번호는 로그에 출력하거나 Git에 저장하지 않습니다. 이후에는 비밀번호로 로그인합니다. 서버는 scrypt 해시와 HttpOnly·SameSite 세션 쿠키를 사용합니다.
 
@@ -66,6 +68,7 @@ HTTPS 프록시 뒤에서는 `GUIDE_HOST=0.0.0.0`, `GUIDE_SECURE_COOKIES=true`�
 
 ```bash
 npm run build
+npm run build:admin
 npm run test:server
 CHROMIUM_PATH=/usr/bin/chromium npm test
 ```

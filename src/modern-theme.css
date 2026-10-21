@@ -20,6 +20,24 @@ body {
   background: var(--canvas);
   -webkit-font-smoothing: antialiased;
 }
+.app-startup {
+  min-height: 65dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 24px;
+  color: var(--deep);
+  text-align: center;
+}
+.app-startup strong {
+  font-size: 24px;
+  color: var(--green);
+}
+.app-startup p {
+  font-size: 16px;
+}
 :root h1 {
   font-weight: 700;
   letter-spacing: -0.035em;

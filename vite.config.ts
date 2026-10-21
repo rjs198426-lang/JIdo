@@ -36,12 +36,36 @@ if (!version || !build)
     'Android versionName and versionCode are required for app information.',
   )
 
-export default defineConfig({
+export default defineConfig(({ mode }) => ({
   plugins: [react()],
+  base: mode === 'admin' ? '/admin/' : '/',
+  publicDir: '.runtime/public-assets/public',
+  build: {
+    outDir: mode === 'admin' ? 'dist-admin' : 'dist',
+    rollupOptions: { input: mode === 'admin' ? 'admin.html' : 'index.html' },
+  },
   css: { postcss: { plugins: [compactTypography] } },
   define: {
     __JIDO_APP_INFO__: JSON.stringify({ version, build: Number(build) }),
+    __JIDO_IMAGE_MAP__: JSON.stringify(
+      Object.fromEntries(
+        Object.entries(
+          JSON.parse(
+            readFileSync(
+              new URL(
+                './.runtime/public-assets/image-map.json',
+                import.meta.url,
+              ),
+              'utf8',
+            ),
+          ) as Record<string, string>,
+        ).map(([source, image]) => [
+          source,
+          mode === 'admin' ? '/admin' + image : image,
+        ]),
+      ),
+    ),
   },
   server: { proxy: { '/api': 'http://127.0.0.1:8787' } },
   preview: { proxy: { '/api': 'http://127.0.0.1:8787' } },
-})
+}))

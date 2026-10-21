@@ -1,4 +1,5 @@
 import { readFileSync } from 'node:fs'
+import { optimizedImage } from './optimized-image'
 import { createHash } from 'node:crypto'
 import { test, expect, type Page } from '@playwright/test'
 import photos from '../src/blog-photos.json' with { type: 'json' }
@@ -95,12 +96,14 @@ for (const destination of cities) {
     await context.route('**/images/**', (route) => {
       const file = new URL(route.request().url()).pathname
       return route.fulfill({
-        body: readFileSync(`public${file}`),
-        contentType: file.endsWith('.svg')
-          ? 'image/svg+xml'
-          : file.endsWith('.png')
-            ? 'image/png'
-            : 'image/jpeg',
+        body: readFileSync(`dist${file}`),
+        contentType: file.endsWith('.webp')
+          ? 'image/webp'
+          : file.endsWith('.svg')
+            ? 'image/svg+xml'
+            : file.endsWith('.png')
+              ? 'image/png'
+              : 'image/jpeg',
       })
     })
     await page.setViewportSize({ width: 320, height: 740 })
@@ -146,7 +149,7 @@ test('개인 대표 사진·기존 출처와 장소 소개의 새 사진을 함�
   const photo = photos.find((photo) => photo.cityId === 'tokyo')!
   await expect(dialog.locator('.blog-photos img')).toHaveAttribute(
     'src',
-    photo.image,
+    optimizedImage(photo.image),
   )
   await dialog.getByLabel('도쿄 타워 개인 사진 파일').setInputFiles({
     name: '내 사진.png',
@@ -162,7 +165,7 @@ test('개인 대표 사진·기존 출처와 장소 소개의 새 사진을 함�
   )
   await expect(dialog.locator('.blog-photos img')).toHaveAttribute(
     'src',
-    photo.image,
+    optimizedImage(photo.image),
   )
   await dialog.getByRole('button', { name: '닫기', exact: true }).click()
   await page.getByRole('button', { name: '앱 정보', exact: true }).click()
@@ -171,7 +174,9 @@ test('개인 대표 사진·기존 출처와 장소 소개의 새 사진을 함�
   for (const photo of photos) {
     const entry = page
       .locator('.photo-credit-entry')
-      .filter({ has: page.locator(`img[src="${photo.image}"]`) })
+      .filter({
+        has: page.locator(`img[src="${optimizedImage(photo.image)}"]`),
+      })
     await expect(entry).toContainText(photo.photoCredit.author)
     await expect(
       entry.getByRole('link', { name: '사진 원본', exact: true }),

@@ -14,6 +14,7 @@ import { AttachmentsContext } from './AttachmentsPanel'
 import { attachmentUrl } from './attachment-storage'
 import type { Stop } from './travel-model'
 import { getPlace, getCity, type Place } from './catalog'
+import { bundledImage } from './bundled-image'
 
 export default function PlacePhoto({
   stop,
@@ -81,7 +82,8 @@ export default function PlacePhoto({
     return (
       <img
         className={className}
-        src={source}
+        src={bundledImage(source)}
+        decoding="async"
         alt={alt || catalog?.name || stop?.custom?.name || '장소 사진'}
         loading="lazy"
         onError={() =>

@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { bundledImage } from './bundled-image'
 import type { City } from './catalog'
 import {
   personalPhotoKey,
@@ -21,7 +22,8 @@ export default function CityPhoto({
   const source = own && own !== failed ? own : city.image
   return (
     <img
-      src={source}
+      src={bundledImage(source)}
+      decoding="async"
       className={className}
       alt={alt || `${city.name}의 풍경`}
       loading="lazy"
