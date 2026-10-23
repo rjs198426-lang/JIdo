@@ -223,3 +223,64 @@ test('기간 합계는 준비 비용·날짜·환불·통화를 구분하고 정
     await page.evaluate(() => localStorage.getItem('jido-travel-v1')),
   ).toBe(before)
 })
+
+test('평소에는 수정·삭제를 감추고 명시적 편집·삭제 취소가 기록을 보존', async ({
+  page,
+}) => {
+  await seed(page)
+  const before = await page.evaluate(
+    () => JSON.parse(localStorage.getItem('jido-travel-v1')!).trips[0],
+  )
+  const links = page.getByRole('navigation', { name: '여행 도구 바로가기' })
+  await links.getByRole('button', { name: '준비물', exact: true }).click()
+  const remove = page.getByRole('button', {
+    name: '여권과 여권 사본 챙기기 준비물 삭제',
+    exact: true,
+  })
+  await expect(remove).toHaveCount(0)
+  await expect(
+    page.getByRole('checkbox', {
+      name: '여권과 여권 사본 챙기기',
+      exact: true,
+    }),
+  ).toBeVisible()
+  await page.getByRole('button', { name: '준비물 편집', exact: true }).click()
+  await expect(remove).toBeVisible()
+  expect(
+    await page.evaluate(
+      () => JSON.parse(localStorage.getItem('jido-travel-v1')!).trips[0],
+    ),
+  ).toEqual(before)
+  await remove.click()
+  await page.getByRole('button', { name: '실행 취소', exact: true }).click()
+  await page.getByRole('button', { name: '준비물 편집', exact: true }).click()
+  await expect(remove).toHaveCount(0)
+  expect(
+    await page.evaluate(
+      () => JSON.parse(localStorage.getItem('jido-travel-v1')!).trips[0],
+    ),
+  ).toEqual(before)
+  await links.getByRole('button', { name: '가계부', exact: true }).click()
+  const deleteExpense = page.getByRole('button', {
+    name: '숙소까지 택시 지출 삭제',
+    exact: true,
+  })
+  await expect(deleteExpense).toHaveCount(0)
+  await page.getByRole('button', { name: '지출 편집', exact: true }).click()
+  await expect(deleteExpense).toBeVisible()
+  expect(
+    await page.evaluate(
+      () => JSON.parse(localStorage.getItem('jido-travel-v1')!).trips[0],
+    ),
+  ).toEqual(before)
+  await deleteExpense.click()
+  await expect(page.getByLabel('조회 지출 합계')).toHaveCount(0)
+  await page.getByRole('button', { name: '실행 취소', exact: true }).click()
+  await page.getByRole('button', { name: '지출 편집', exact: true }).click()
+  await expect(deleteExpense).toHaveCount(0)
+  expect(
+    await page.evaluate(
+      () => JSON.parse(localStorage.getItem('jido-travel-v1')!).trips[0],
+    ),
+  ).toEqual(before)
+})

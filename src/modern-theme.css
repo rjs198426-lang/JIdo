@@ -1413,3 +1413,57 @@ body {
     margin-left: auto;
   }
 }
+
+/* 0.61: reading comes first; explicit editing exposes destructive controls. */
+:root :is(.checklist-row, .expense-list article) > .row-actions[hidden] {
+  display: none;
+}
+:root .preparation-heading-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+:root
+  :is(.preparation-heading-actions, .expense-add-actions)
+  .text-button[aria-pressed='true'] {
+  color: var(--green);
+  background: var(--mint);
+}
+:root .expense-manager .expense-list .expense-entry-title {
+  display: flex;
+  align-items: flex-start;
+  gap: 9px;
+}
+:root .expense-entry-title > .lucide {
+  flex: 0 0 18px;
+  color: var(--green);
+  margin-top: 3px;
+}
+:root .expense-entry-title > span {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+:root .preparation-group input[type='checkbox'] {
+  appearance: none;
+  border: 1.5px solid #b7c8cd;
+  border-radius: 50%;
+  background-color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+:root .preparation-group input[type='checkbox']:checked {
+  background-color: var(--green);
+  border-color: var(--green);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24'%3E%3Cpath d='m5 12 4 4 10-10' fill='none' stroke='%23fff' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+}
+:root .preparation-group input[type='checkbox']:focus-visible {
+  outline: 3px solid #70bdb2;
+  outline-offset: 3px;
+}
+@media (forced-colors: active) {
+  :root .preparation-group input[type='checkbox'] {
+    appearance: auto;
+  }
+}

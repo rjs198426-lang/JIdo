@@ -572,6 +572,7 @@ test('과거 결제수단 미지정 지출의 메모를 수정해도 카드 결�
   const trip = fixture()
   delete trip.expenses![0].paymentMethod
   await seed(page, trip)
+  await page.getByRole('button', { name: '지출 편집', exact: true }).click()
   await page
     .getByRole('button', { name: '저녁 식사 지출 수정', exact: true })
     .click()

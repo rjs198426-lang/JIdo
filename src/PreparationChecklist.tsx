@@ -75,6 +75,7 @@ export default function PreparationChecklist({
     [category, setCategory] = draft.field('category'),
     [addAssignee, setAddAssignee] = draft.field('addAssignee'),
     [editing, setEditing] = draft.field('editing')
+  const [managing, setManaging] = useState(!!editing)
   const [template, setTemplate] = useState('기본 여행'),
     [filter, setFilter] = useState('전체'),
     [categoryFilter, setCategoryFilter] = useState('전체'),
@@ -147,9 +148,22 @@ export default function PreparationChecklist({
     <section className="workspace-panel preparation-checklist">
       <div className="tool-heading">
         <h3>여행 준비물</h3>
-        <strong>
-          {done}/{items.length} 완료
-        </strong>
+        <div className="preparation-heading-actions">
+          <strong>
+            {done}/{items.length} 완료
+          </strong>
+          {!!items.length && (
+            <button
+              className="text-button"
+              aria-label="준비물 편집"
+              aria-pressed={managing}
+              disabled={!!editing}
+              onClick={() => setManaging(!managing)}
+            >
+              {managing ? '편집 마침' : '편집'}
+            </button>
+          )}
+        </div>
       </div>
       <p className="preparation-remaining">
         {items.length
@@ -434,7 +448,7 @@ export default function PreparationChecklist({
                     </small>
                     {item.note && <p>{item.note}</p>}
                   </div>
-                  <div className="row-actions">
+                  <div className="row-actions" hidden={!managing}>
                     <button
                       className="icon-button"
                       aria-label={`${item.title} 준비물 수정`}

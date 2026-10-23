@@ -317,6 +317,7 @@ test('준비는 예약·준비물·자료로 시작하고 준비물은 이름 �
     done: true,
     category: '기타',
   })
+  await page.getByRole('button', { name: '준비물 편집', exact: true }).click()
   await page
     .getByRole('button', { name: '보조 배터리 준비물 삭제', exact: true })
     .click()

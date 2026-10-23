@@ -2,7 +2,19 @@ import { expensePreferences, rememberExpense } from './expense-context'
 import { useDraftFields } from './form-draft'
 import AttachmentsPanel from './AttachmentsPanel'
 import { Fragment, useEffect, useRef, useState, type FormEvent } from 'react'
-import { Plus, Pencil, Trash2, Download, Copy } from 'lucide-react'
+import {
+  Plus,
+  Pencil,
+  Trash2,
+  Download,
+  Copy,
+  BedDouble,
+  Utensils,
+  Bus,
+  Ticket,
+  ShoppingBag,
+  Wallet,
+} from 'lucide-react'
 import {
   currencies,
   currencyStep,
@@ -97,6 +109,7 @@ export default function ExpenseManager({
     [budget, setBudget] = useState(''),
     [error, setError] = useState(''),
     [removed, setRemoved] = useState<Expense | null>(null)
+  const [managing, setManaging] = useState(false)
   const [toolsOpen, setToolsOpen] = useState(false)
   const [period, setPeriod] = useState('all')
   const [filterDate, setFilterDate] = useState(''),
@@ -345,6 +358,17 @@ export default function ExpenseManager({
       <div className="tool-heading">
         <h3>가계부</h3>
         <div className="expense-add-actions">
+          {view === '지출' && !!expenses.length && (
+            <button
+              className="text-button"
+              aria-label="지출 편집"
+              aria-pressed={managing}
+              disabled={open}
+              onClick={() => setManaging(!managing)}
+            >
+              {managing ? '편집 마침' : '편집'}
+            </button>
+          )}
           <button
             className="button primary small"
             onClick={() => {
@@ -806,7 +830,10 @@ export default function ExpenseManager({
                           ? ` · ${members.find((member) => member.id === item.payerId)?.name || item.payer} ${item.direction === 'refund' ? '환불 받음' : '결제'}`
                           : ''}
                       </small>
-                      <h4>{item.title}</h4>
+                      <h4 className="expense-entry-title">
+                        <ExpenseCategoryIcon category={item.category} />
+                        <span>{item.title}</span>
+                      </h4>
                       <strong
                         className={
                           item.direction === 'refund' ? 'refund-amount' : ''
@@ -831,7 +858,7 @@ export default function ExpenseManager({
                         <AttachmentsPanel expenseId={item.id} />
                       </details>
                     </div>
-                    <div className="row-actions">
+                    <div className="row-actions" hidden={!managing}>
                       <button
                         className="icon-button"
                         aria-label={`${item.title} 지출 수정`}
@@ -1252,4 +1279,17 @@ export default function ExpenseManager({
       )}
     </section>
   )
+}
+
+function ExpenseCategoryIcon({ category }: { category: Expense['category'] }) {
+  const icons = {
+    식비: Utensils,
+    교통: Bus,
+    숙박: BedDouble,
+    관광: Ticket,
+    쇼핑: ShoppingBag,
+    기타: Wallet,
+  }
+  const Icon = icons[category]
+  return <Icon size={18} aria-hidden="true" />
 }
