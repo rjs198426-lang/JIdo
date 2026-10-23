@@ -144,12 +144,37 @@ export default function PreparationChecklist({
           (filter === '기한 지남' && overdue(item))),
     )
   return (
-    <section className="workspace-panel">
+    <section className="workspace-panel preparation-checklist">
       <div className="tool-heading">
         <h3>여행 준비물</h3>
         <strong>
           {done}/{items.length} 완료
         </strong>
+      </div>
+      <p className="preparation-remaining">
+        {items.length
+          ? items.length === done
+            ? '여행 준비를 모두 마쳤어요'
+            : `출발 전, ${items.length - done}개만 더 챙기면 돼요`
+          : '챙길 것부터 하나씩 준비해요'}
+      </p>
+      <div
+        className="preparation-quick-filters"
+        role="group"
+        aria-label="준비물 빠른 보기"
+      >
+        <button
+          aria-pressed={filter === '전체'}
+          onClick={() => setFilter('전체')}
+        >
+          전체 {items.length}
+        </button>
+        <button
+          aria-pressed={filter === '미완료'}
+          onClick={() => setFilter('미완료')}
+        >
+          남은 준비물 {items.length - done}
+        </button>
       </div>
       <progress
         value={done}
@@ -359,76 +384,94 @@ export default function PreparationChecklist({
         </p>
       )}
       <div className="checklist">
-        {visible.map((item) => (
-          <div
-            key={item.id}
-            className="checklist-row"
-            data-checklist-id={item.id}
-            tabIndex={-1}
-          >
-            <div>
-              <label className={item.done ? 'done' : ''}>
-                <input
-                  aria-label={item.title}
-                  type="checkbox"
-                  checked={item.done}
-                  onChange={() =>
-                    onUpdate({
-                      ...trip,
-                      checklist: items.map((current) =>
-                        current.id === item.id
-                          ? { ...current, done: !current.done }
-                          : current,
-                      ),
-                    })
-                  }
-                />
-                <span>{item.title}</span>
-              </label>
-              <small className={overdue(item) ? 'over-budget' : ''}>
-                {item.category || '기타'}
-                {item.dueDate
-                  ? ` · ${formatDate(item.dueDate)}${overdue(item) ? ' 기한 지남' : ''}`
-                  : ''}
-                {item.assigneeId
-                  ? ` · ${trip.members?.find((member) => member.id === item.assigneeId)?.name || ''}`
-                  : ''}
-              </small>
-              {item.note && <p>{item.note}</p>}
-            </div>
-            <div className="row-actions">
-              <button
-                className="icon-button"
-                aria-label={`${item.title} 준비물 수정`}
-                onClick={() => {
-                  setEditing(item)
-                  setError('')
-                }}
-              >
-                <Pencil size={16} />
-              </button>
-              <button
-                className="icon-button"
-                aria-label={`${item.title} 준비물 삭제`}
-                onClick={() => {
-                  setRemoved({
-                    item,
-                    index: items.findIndex((current) => current.id === item.id),
-                  })
-                  onUpdate({
-                    ...trip,
-                    checklist: items.filter(
-                      (current) => current.id !== item.id,
-                    ),
-                  })
-                  if (editing?.id === item.id) setEditing(null)
-                }}
-              >
-                <Trash2 size={16} />
-              </button>
-            </div>
-          </div>
-        ))}
+        {checklistCategories.map((group) => {
+          const grouped = visible.filter(
+            (item) => (item.category || '기타') === group,
+          )
+          if (!grouped.length) return null
+          return (
+            <details open className="preparation-group" key={group}>
+              <summary>
+                <strong>{group}</strong>
+                <span>
+                  {grouped.filter((item) => item.done).length}/{grouped.length}
+                </span>
+              </summary>
+              {grouped.map((item) => (
+                <div
+                  key={item.id}
+                  className="checklist-row"
+                  data-checklist-id={item.id}
+                  tabIndex={-1}
+                >
+                  <div>
+                    <label className={item.done ? 'done' : ''}>
+                      <input
+                        aria-label={item.title}
+                        type="checkbox"
+                        checked={item.done}
+                        onChange={() =>
+                          onUpdate({
+                            ...trip,
+                            checklist: items.map((current) =>
+                              current.id === item.id
+                                ? { ...current, done: !current.done }
+                                : current,
+                            ),
+                          })
+                        }
+                      />
+                      <span>{item.title}</span>
+                    </label>
+                    <small className={overdue(item) ? 'over-budget' : ''}>
+                      {item.category || '기타'}
+                      {item.dueDate
+                        ? ` · ${formatDate(item.dueDate)}${overdue(item) ? ' 기한 지남' : ''}`
+                        : ''}
+                      {item.assigneeId
+                        ? ` · ${trip.members?.find((member) => member.id === item.assigneeId)?.name || ''}`
+                        : ''}
+                    </small>
+                    {item.note && <p>{item.note}</p>}
+                  </div>
+                  <div className="row-actions">
+                    <button
+                      className="icon-button"
+                      aria-label={`${item.title} 준비물 수정`}
+                      onClick={() => {
+                        setEditing(item)
+                        setError('')
+                      }}
+                    >
+                      <Pencil size={16} />
+                    </button>
+                    <button
+                      className="icon-button"
+                      aria-label={`${item.title} 준비물 삭제`}
+                      onClick={() => {
+                        setRemoved({
+                          item,
+                          index: items.findIndex(
+                            (current) => current.id === item.id,
+                          ),
+                        })
+                        onUpdate({
+                          ...trip,
+                          checklist: items.filter(
+                            (current) => current.id !== item.id,
+                          ),
+                        })
+                        if (editing?.id === item.id) setEditing(null)
+                      }}
+                    >
+                      <Trash2 size={16} />
+                    </button>
+                  </div>
+                </div>
+              ))}
+            </details>
+          )
+        })}
       </div>
       {removed && (
         <div className="undo-strip" role="status">

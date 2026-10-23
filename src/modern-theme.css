@@ -1185,3 +1185,231 @@ body {
     flex-basis: 64px;
   }
 }
+
+/* 0.60: everyday trip tools, grouped preparation and a readable ledger. */
+:root .trip-quick-links {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  padding: 4px 0 16px;
+}
+:root .trip-quick-links button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  min-height: 44px;
+  padding: 9px 12px;
+  border-radius: 24px;
+  background: #edf3f4;
+  color: var(--deep);
+  font-size: 14px;
+  font-weight: 550;
+  white-space: nowrap;
+}
+:root .trip-quick-links svg {
+  color: var(--green);
+  flex-shrink: 0;
+}
+:root .preparation-remaining {
+  margin: 8px 0 18px;
+  font-size: 18px;
+  line-height: 1.6;
+  color: var(--deep);
+}
+:root .preparation-quick-filters {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+:root .preparation-quick-filters button {
+  min-height: 44px;
+  padding: 10px 16px;
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  background: white;
+  color: var(--muted);
+  font-size: 14px;
+  white-space: nowrap;
+}
+:root .preparation-quick-filters button[aria-pressed='true'] {
+  background: var(--green);
+  border-color: var(--green);
+  color: white;
+}
+:root .preparation-group {
+  border-top: 1px solid var(--line);
+  margin-top: 24px;
+}
+:root .preparation-group > summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  min-height: 60px;
+  cursor: pointer;
+  list-style: none;
+}
+:root .preparation-group > summary::-webkit-details-marker {
+  display: none;
+}
+:root .preparation-group > summary strong {
+  font-size: 17px;
+  font-weight: 650;
+}
+:root .preparation-group > summary span {
+  font-size: 13px;
+  color: var(--muted);
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+:root .preparation-group > summary span::after {
+  content: '⌄';
+  font-size: 20px;
+  transform: rotate(-90deg);
+}
+:root .preparation-group[open] > summary span::after {
+  transform: none;
+}
+:root .preparation-group .checklist-row {
+  padding: 18px 0;
+  border-top: 1px solid #f0f3f5;
+  gap: 12px;
+}
+:root .preparation-group .checklist-row label {
+  min-height: 44px;
+  gap: 12px;
+  align-items: center;
+}
+:root .preparation-group input[type='checkbox'] {
+  width: 22px;
+  height: 22px;
+  flex: 0 0 22px;
+  accent-color: var(--green);
+}
+:root .preparation-group .checklist-row small {
+  color: var(--muted);
+}
+:root .expense-period {
+  max-width: 320px;
+  margin: 20px 0 12px;
+}
+:root .expense-period select {
+  width: 100%;
+  min-height: 48px;
+  background: white;
+  border-radius: 12px;
+  color: var(--green);
+  font-weight: 600;
+}
+:root .expense-day-heading {
+  padding: 24px 0 12px;
+  align-items: flex-start;
+  gap: 16px;
+}
+:root .expense-day-heading h4 {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+:root .expense-day-label {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--deep);
+}
+:root .expense-manager .expense-list > article {
+  padding: 20px 0;
+  align-items: flex-start;
+  gap: 8px;
+}
+:root .expense-manager .expense-list > article > div:first-child {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(60px, max-content);
+  gap: 8px 16px;
+  flex: 1;
+  min-width: 0;
+}
+:root .expense-manager .expense-list article h4 {
+  grid-column: 1;
+  grid-row: 1;
+  margin: 0;
+  line-height: 1.6;
+}
+:root .expense-manager .expense-list article > div:first-child > strong {
+  grid-column: 2;
+  grid-row: 1;
+  text-align: right;
+  font-size: 17px;
+  font-weight: 650;
+  line-height: 1.5;
+  max-width: 150px;
+  overflow-wrap: anywhere;
+}
+:root
+  .expense-manager
+  .expense-list
+  article
+  > div:first-child
+  > :is(small, p, details) {
+  grid-column: 1/-1;
+  margin: 0;
+}
+:root .expense-manager .expense-list article > div:first-child > small {
+  color: var(--muted);
+  line-height: 1.6;
+}
+:root .expense-manager.has-running-total {
+  padding-bottom: calc(var(--expense-total-height, 90px) + 20px);
+}
+:root .expense-running-total {
+  position: fixed;
+  bottom: calc(var(--jido-bottom-nav-height, 0px) + 12px);
+  z-index: 3;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% - 32px);
+  max-width: 1080px;
+  box-sizing: border-box;
+  max-height: 35dvh;
+  overflow-y: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px 20px;
+  padding: 18px 20px;
+  margin: 0;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  box-shadow: 0 6px 24px #20323e0d;
+}
+:root .expense-running-total > span {
+  font-size: 13px;
+  color: var(--muted);
+}
+:root .expense-running-total > strong {
+  font-size: 20px;
+  font-weight: 650;
+  overflow-wrap: anywhere;
+  min-width: 0;
+}
+@media (max-width: 400px) {
+  :root .trip-quick-links {
+    gap: 6px;
+  }
+  :root .trip-quick-links button {
+    padding: 8px 10px;
+  }
+  :root .expense-manager .expense-list > article {
+    flex-wrap: wrap;
+  }
+  :root .expense-manager .expense-list > article > div:first-child {
+    flex-basis: 100%;
+  }
+  :root .expense-manager .expense-list .row-actions {
+    margin-left: auto;
+  }
+}

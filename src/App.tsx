@@ -1,3 +1,4 @@
+import { Ticket, CheckSquare, Wallet } from 'lucide-react'
 import DayNavigation from './DayNavigation'
 import {
   moveScheduleStops,
@@ -1127,6 +1128,24 @@ function Itinerary({
             </button>
           </div>
         </div>
+        <nav className="trip-quick-links" aria-label="여행 도구 바로가기">
+          <button onClick={() => setWorkspace('reservations')}>
+            <Ticket size={16} />
+            항공·숙소 예약
+          </button>
+          <button onClick={() => setWorkspace('checklist')}>
+            <CheckSquare size={16} />
+            준비물
+          </button>
+          <button onClick={() => setWorkspace('expenses')}>
+            <Wallet size={16} />
+            가계부
+          </button>
+          <button onClick={() => setWorkspace('route')}>
+            <MapPin size={16} />
+            지도
+          </button>
+        </nav>
         <div className="workspace-tabs" role="tablist" aria-label="여행 관리">
           {[
             ['schedule', '일정'],

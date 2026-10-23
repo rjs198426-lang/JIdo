@@ -18,7 +18,7 @@ import {
   expensesCsv,
   splitEvenly,
 } from './finance'
-import { dateAt, formatDate } from './store'
+import { dateAt, formatDate, dayCount } from './store'
 import SettlementPanel from './SettlementPanel'
 import ExpenseInsights from './ExpenseInsights'
 import ExpenseSummary from './ExpenseSummary'
@@ -98,6 +98,7 @@ export default function ExpenseManager({
     [error, setError] = useState(''),
     [removed, setRemoved] = useState<Expense | null>(null)
   const [toolsOpen, setToolsOpen] = useState(false)
+  const [period, setPeriod] = useState('all')
   const [filterDate, setFilterDate] = useState(''),
     [filterCategory, setFilterCategory] = useState('전체'),
     [filterCurrency, setFilterCurrency] = useState('전체'),
@@ -107,7 +108,9 @@ export default function ExpenseManager({
     [filterDirection, setFilterDirection] = useState('전체'),
     [filtersOpen, setFiltersOpen] = useState(false)
   const expenseForm = useRef<HTMLFormElement>(null)
+  const totalRef = useRef<HTMLDivElement>(null)
   function clearFilters() {
+    setPeriod('all')
     setFilterDate('')
     setFilterCategory('전체')
     setFilterCurrency('전체')
@@ -167,6 +170,7 @@ export default function ExpenseManager({
   useEffect(
     () => setCsv(''),
     [
+      period,
       filterDate,
       filterCategory,
       filterCurrency,
@@ -193,7 +197,9 @@ export default function ExpenseManager({
     payer: filterPayer,
     direction: filterDirection,
   }
-  const visible = filterExpenses(trip, filters)
+  const visible = filterExpenses(trip, filters).filter(
+    (item) => period !== 'preparation' || item.date < trip.startDate,
+  )
   const dayGroups = new Map(
     expenseBreakdown(visible, 'date').map((group) => [
       group.label,
@@ -201,6 +207,7 @@ export default function ExpenseManager({
     ]),
   )
   const filtered = !!(
+    period !== 'all' ||
     filterDate ||
     filterQuery ||
     [
@@ -312,8 +319,29 @@ export default function ExpenseManager({
       setMessage('아래 CSV 내용을 선택해 복사하세요.')
     }
   }
+  const showRunningTotal =
+    view === '지출' && !!visible.length && !removed && !open
+  useEffect(() => {
+    const total = totalRef.current
+    const panel = total?.closest<HTMLElement>('.expense-manager')
+    if (!total || !panel) return
+    const measure = () =>
+      panel.style.setProperty(
+        '--expense-total-height',
+        `${total.getBoundingClientRect().height}px`,
+      )
+    const observer = new ResizeObserver(measure)
+    observer.observe(total)
+    measure()
+    return () => {
+      observer.disconnect()
+      panel.style.removeProperty('--expense-total-height')
+    }
+  }, [showRunningTotal])
   return (
-    <section className="workspace-panel expense-manager">
+    <section
+      className={`workspace-panel expense-manager ${showRunningTotal ? 'has-running-total' : ''}`}
+    >
       <div className="tool-heading">
         <h3>가계부</h3>
         <div className="expense-add-actions">
@@ -589,6 +617,41 @@ export default function ExpenseManager({
               </div>
             </form>
           )}
+          <label className="expense-period field">
+            기간
+            <select
+              aria-label="가계부 기간"
+              value={period === 'preparation' ? 'preparation' : filterDate}
+              onChange={(event) => {
+                setPeriod(
+                  event.target.value === 'preparation' ? 'preparation' : 'all',
+                )
+                setFilterDate(
+                  event.target.value === 'preparation'
+                    ? ''
+                    : event.target.value,
+                )
+              }}
+            >
+              <option value="">전체 기간</option>
+              <option value="preparation">여행 준비</option>
+              {[
+                ...new Set([
+                  ...trip.days.map((_, index) => dateAt(trip.startDate, index)),
+                  ...expenses.map((item) => item.date),
+                ]),
+              ]
+                .sort()
+                .map((value) => (
+                  <option value={value} key={value}>
+                    {value >= trip.startDate && value <= trip.endDate
+                      ? `DAY ${dayCount(trip.startDate, value)} · `
+                      : ''}
+                    {formatDate(value)}
+                  </option>
+                ))}
+            </select>
+          </label>
           <div className="tool-filters">
             <input
               aria-label="지출 검색"
@@ -613,7 +676,10 @@ export default function ExpenseManager({
                 aria-label="지출 날짜 필터"
                 type="date"
                 value={filterDate}
-                onChange={(event) => setFilterDate(event.target.value)}
+                onChange={(event) => {
+                  setPeriod('all')
+                  setFilterDate(event.target.value)
+                }}
               />
               <select
                 aria-label="지출 분류 필터"
@@ -711,7 +777,16 @@ export default function ExpenseManager({
                 <Fragment key={item.id}>
                   {(index === 0 || ordered[index - 1].date !== item.date) && (
                     <div className="expense-day-heading">
-                      <h4>{formatDate(item.date)}</h4>
+                      <h4>
+                        <span className="expense-day-label">
+                          {item.date < trip.startDate
+                            ? '여행 준비'
+                            : item.date <= trip.endDate
+                              ? `DAY ${dayCount(trip.startDate, item.date)}`
+                              : '여행 이후'}
+                        </span>
+                        {formatDate(item.date)}
+                      </h4>
                       <strong>
                         {dayGroups
                           .get(item.date)
@@ -817,6 +892,23 @@ export default function ExpenseManager({
                 </Fragment>
               ))}
           </div>
+          {showRunningTotal && (
+            <div
+              className="expense-running-total"
+              ref={totalRef}
+              aria-label="조회 지출 합계"
+              role="status"
+            >
+              <span>
+                {filtered ? '조회 합계' : '전체 지출'} · {visible.length}건
+              </span>
+              <strong>
+                {currencyTotals(visible)
+                  .map((item) => money(item.total, item.currency))
+                  .join(' · ')}
+              </strong>
+            </div>
+          )}
           {!visible.length && (
             <p className="workspace-empty">
               {expenses.length
