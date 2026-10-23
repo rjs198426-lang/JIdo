@@ -25,12 +25,14 @@ const icons = {
 export default function GuidePlaces({
   cityId,
   onOpen,
+  initialCategory = '전체',
 }: {
   cityId: string
+  initialCategory?: (typeof categoryOptions)[number]
   onOpen: (id: string) => void
 }) {
   const [category, setCategory] =
-    useState<(typeof categoryOptions)[number]>('전체')
+    useState<(typeof categoryOptions)[number]>(initialCategory)
   const [query, setQuery] = useState('')
   const all = balancedPlaces(places.filter((place) => place.cityId === cityId))
   const filtered = all.filter(
@@ -101,7 +103,10 @@ export default function GuidePlaces({
                   <Icon size={18} />
                 </span>
               )}
-              <button onClick={() => onOpen(place.id)}>
+              <button
+                aria-label={`${place.name} 자세히 보기`}
+                onClick={() => onOpen(place.id)}
+              >
                 <strong>{place.name}</strong>
                 <span>
                   {place.category} · {placeIntroduction(place)}

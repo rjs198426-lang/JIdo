@@ -1,8 +1,12 @@
 import CityPhoto from './CityPhoto'
+import type { CityGuideTab } from './CityGuide'
 import type { ReactNode } from 'react'
 import type { HomeJourney } from './home-journey'
 import {
   ArrowRight,
+  BookOpen,
+  Utensils,
+  Map,
   CalendarDays,
   CheckSquare,
   Compass,
@@ -32,6 +36,7 @@ type Props = {
   places: ReactNode
   placesTitle: string
   search: ReactNode
+  onGuide: (cityId: string, tab: CityGuideTab) => void
   onCreate: () => void
   onOpenTrip: (trip: Trip, workspace?: string, day?: number) => void
   onTrips: () => void
@@ -168,6 +173,34 @@ export default function TravelHome(props: Props) {
             <small>PLAN · GO · REMEMBER</small>
           </div>
         </section>
+      )}
+      {trip && journey && (
+        <nav className="home-context-nav" aria-label="이번 여행 바로가기">
+          {journey.city &&
+            (
+              [
+                ['ready', '여행 가이드', BookOpen],
+                ['tourism', '가볼 곳', Map],
+                ['dining', '맛집·카페', Utensils],
+              ] as const
+            ).map(([tab, label, Icon]) => (
+              <button
+                key={tab}
+                onClick={() => props.onGuide(journey.city!.id, tab)}
+              >
+                <Icon size={21} />
+                <span>{label}</span>
+              </button>
+            ))}
+          <button onClick={() => props.onOpenTrip(trip, 'reservations', day)}>
+            <Ticket size={21} />
+            <span>내 예약</span>
+          </button>
+          <button onClick={() => props.onOpenTrip(trip, 'checklist', day)}>
+            <CheckSquare size={21} />
+            <span>여행 준비</span>
+          </button>
+        </nav>
       )}
       {!focused && (
         <nav className="home-shortcuts" aria-label="여행 바로가기">

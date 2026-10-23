@@ -11,6 +11,14 @@ async function openKyoto(page: import('@playwright/test').Page) {
     .getByRole('button', { name: '교토 여행지 자세히 보기', exact: true })
     .first()
     .click()
+  await page
+    .getByRole('tablist', { name: '도시 가이드', exact: true })
+    .getByRole('tab', { name: '관광', exact: true })
+    .click()
+  await page
+    .getByRole('group', { name: '가볼 만한 곳 분류' })
+    .getByRole('button', { name: '전체', exact: true })
+    .click()
 }
 
 test('가이드 분류는 전체가 먼저이며 분류별 목록·개수와 장소 연결을 오프라인으로 유지', async ({

@@ -986,3 +986,202 @@ body {
   font-size: 12px;
   max-width: 90%;
 }
+
+/* 0.59: contextual trip actions and an editorial city guide. */
+:root .home-context-nav {
+  display: flex;
+  overflow-x: auto;
+  gap: 8px;
+  padding: 8px 0 20px;
+  scrollbar-width: thin;
+}
+:root .home-context-nav button {
+  flex: 1 0 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: 78px;
+  padding: 12px 8px;
+  border: 0;
+  border-radius: 16px;
+  color: var(--deep);
+  background: white;
+  font-size: 14px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+:root .home-context-nav .lucide {
+  color: var(--green);
+}
+:root .city-guide-tabs {
+  display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: white;
+  border-bottom: 1px solid var(--line);
+  margin: 0 -24px 24px;
+  padding: 0 16px;
+}
+:root .city-guide-tabs button {
+  flex: 1;
+  min-width: max-content;
+  min-height: 52px;
+  border: 0;
+  border-bottom: 3px solid transparent;
+  border-radius: 0;
+  background: white;
+  color: var(--muted);
+  font-size: 16px;
+  font-weight: 650;
+  white-space: nowrap;
+}
+:root .city-guide-tabs button[aria-selected='true'] {
+  color: var(--green);
+  border-bottom-color: var(--green);
+}
+:root .city-guide-heading {
+  margin: 28px 0 12px;
+}
+:root .city-guide-heading > span {
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  color: var(--green);
+  font-weight: 700;
+}
+:root .city-guide-heading h3 {
+  font-size: 23px;
+  margin: 8px 0;
+}
+:root .city-guide-heading p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--muted);
+  margin: 0;
+}
+:root .city-guide-article {
+  border-bottom: 1px solid var(--line);
+}
+:root .city-guide-article > summary {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 24px 0;
+  cursor: pointer;
+  list-style: none;
+}
+:root .city-guide-article > summary::-webkit-details-marker {
+  display: none;
+}
+:root .city-guide-article-copy {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+:root .city-guide-article-copy strong {
+  font-size: 18px;
+  font-weight: 650;
+  line-height: 1.45;
+}
+:root .city-guide-article-copy > span {
+  font-size: 15px;
+  color: var(--muted);
+  line-height: 1.5;
+}
+:root .city-guide-article-copy small {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--green);
+  font-size: 12px;
+}
+:root .city-guide-article summary > img,
+:root .city-guide-article-symbol {
+  width: 80px;
+  height: 80px;
+  flex: 0 0 80px;
+  border-radius: 14px;
+  object-fit: cover;
+}
+:root .city-guide-article-symbol {
+  display: grid;
+  place-items: center;
+  background: var(--mint);
+  color: var(--green);
+}
+:root .city-guide-article-body {
+  background: var(--canvas);
+  border-radius: 14px;
+  padding: 18px;
+  margin: 0 0 20px;
+  font-size: 16px;
+  line-height: 1.75;
+}
+:root .city-guide-article-body :is(ul, p, dl) {
+  margin: 0;
+}
+:root .city-guide-article-body ul {
+  padding-left: 20px;
+}
+:root .city-guide-article-body li + li {
+  margin-top: 10px;
+}
+:root .city-guide-article-body dt {
+  font-weight: 650;
+}
+:root .city-guide-article-body dd {
+  margin: 4px 0 16px;
+  color: var(--muted);
+}
+:root .city-guide-facts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+  padding: 24px 0;
+  border-bottom: 1px solid var(--line);
+}
+:root .city-guide-facts dt {
+  font-size: 13px;
+  color: var(--muted);
+}
+:root .city-guide-facts dd {
+  margin: 5px 0 0;
+  font-size: 16px;
+  line-height: 1.5;
+}
+:root .city-guide-more {
+  margin-top: 24px;
+}
+:root .city-guide-panel .detail-place-list > div {
+  flex-direction: row-reverse;
+  gap: 14px;
+  padding: 20px 0;
+}
+:root .city-guide-panel .detail-place-list > div > button:not(.icon-button) {
+  flex: 1;
+  min-width: 0;
+}
+:root .city-guide-panel .detail-place-list .icon-button {
+  display: none;
+}
+:root .city-guide-panel :is(.guide-place-thumb, .detail-place-icon) {
+  width: 76px;
+  height: 76px;
+  flex: 0 0 76px;
+  border-radius: 14px;
+}
+@media (max-width: 400px) {
+  :root .city-guide-article > summary {
+    gap: 14px;
+  }
+  :root .city-guide-article summary > img,
+  :root .city-guide-article-symbol {
+    width: 64px;
+    height: 64px;
+    flex-basis: 64px;
+  }
+}

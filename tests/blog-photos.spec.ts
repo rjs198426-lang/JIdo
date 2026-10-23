@@ -143,6 +143,10 @@ test('개인 대표 사진·기존 출처와 장소 소개의 새 사진을 함�
   await page.goto('/')
   let dialog = await city(page, '도쿄')
   await dialog
+    .getByRole('tablist', { name: '도시 가이드', exact: true })
+    .getByRole('tab', { name: '관광', exact: true })
+    .click()
+  await dialog
     .getByRole('button', { name: '도쿄 타워 자세히 보기', exact: true })
     .click()
   dialog = page.getByRole('dialog')
@@ -172,11 +176,9 @@ test('개인 대표 사진·기존 출처와 장소 소개의 새 사진을 함�
   await page.getByRole('button', { name: '사진 출처', exact: true }).click()
   await expect(page.locator('.photo-credit-entry')).toHaveCount(95)
   for (const photo of photos) {
-    const entry = page
-      .locator('.photo-credit-entry')
-      .filter({
-        has: page.locator(`img[src="${optimizedImage(photo.image)}"]`),
-      })
+    const entry = page.locator('.photo-credit-entry').filter({
+      has: page.locator(`img[src="${optimizedImage(photo.image)}"]`),
+    })
     await expect(entry).toContainText(photo.photoCredit.author)
     await expect(
       entry.getByRole('link', { name: '사진 원본', exact: true }),
@@ -258,6 +260,10 @@ test('이전 가이드의 기간 밖 사진만 교체하고 개인 소개·일�
     localStorage.getItem('jido-travel-v1'),
   )
   let dialog = await city(page, '오사카')
+  await dialog
+    .getByRole('tablist', { name: '도시 가이드', exact: true })
+    .getByRole('tab', { name: '관광', exact: true })
+    .click()
   await dialog
     .getByRole('button', { name: '쓰텐카쿠 자세히 보기', exact: true })
     .click()

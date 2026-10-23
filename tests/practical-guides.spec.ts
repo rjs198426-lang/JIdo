@@ -1,3 +1,4 @@
+import { openCreateOptions } from './navigation'
 import { test, expect, type Page } from '@playwright/test'
 import { cities, places } from '../src/data'
 import { practicalGuides, findGuideCourse } from '../src/practical-guides'
@@ -56,10 +57,11 @@ async function navigate(page: Page, name: string) {
     .click()
 }
 async function openKyoto(page: Page) {
-  await navigate(page, '홈')
+  await navigate(page, '여행지')
   await page
     .getByRole('button', { name: '교토 여행지 자세히 보기', exact: true })
     .click()
+  await page.getByText('추천 코스·블로그 후기', { exact: true }).click()
 }
 async function openFirstCourse(page: Page) {
   await page
@@ -262,6 +264,7 @@ test('여행이 없을 때 명시적으로 고른 코스만 새 여행 첫날에
     .getByRole('button', { name: '이 코스로 새 여행 만들기', exact: true })
     .click()
   await expect(page.getByLabel('첫날에 추천 장소 3곳 넣어두기')).toHaveCount(0)
+  await openCreateOptions(page)
   await page.getByLabel('여행 이름').fill('내가 고른 동쪽 코스')
   await page.getByLabel('첫날 첫 방문 시간', { exact: true }).fill('23:00')
   await page
@@ -293,6 +296,7 @@ test('여행이 없을 때 명시적으로 고른 코스만 새 여행 첫날에
   await expect(
     page.getByLabel('첫날에 추천 장소 3곳 넣어두기'),
   ).not.toBeChecked()
+  await openCreateOptions(page)
   await page.getByLabel('여행 이름').fill('빈 계획으로 시작')
   await page
     .getByRole('button', { name: '내 여행 만들기', exact: true })

@@ -9,7 +9,9 @@ export default function GuideContent({
   cityId,
   onCourse,
   onPlace,
+  compact = false,
 }: {
+  compact?: boolean
   guide?: Guide
   cityId?: string
   onCourse?: (course: CourseSelection) => void
@@ -23,9 +25,24 @@ export default function GuideContent({
   if (!guide && !basic && !practical) return null
   return (
     <div className="guide-content">
-      {practical && cityId && (
-        <PracticalGuide cityId={cityId} onCourse={onCourse} onPlace={onPlace} />
-      )}
+      {practical &&
+        cityId &&
+        (compact ? (
+          <details className="city-guide-more simple-options">
+            <summary>추천 코스·블로그 후기</summary>
+            <PracticalGuide
+              cityId={cityId}
+              onCourse={onCourse}
+              onPlace={onPlace}
+            />
+          </details>
+        ) : (
+          <PracticalGuide
+            cityId={cityId}
+            onCourse={onCourse}
+            onPlace={onPlace}
+          />
+        ))}
       {basic && !guide && (
         <a
           className="text-button"

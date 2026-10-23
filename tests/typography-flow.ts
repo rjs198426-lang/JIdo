@@ -181,6 +181,10 @@ export async function typographyFlow(page: Page, width: number) {
     .getByRole('button', { name: '교토 여행지 자세히 보기', exact: true })
     .first()
     .click()
+  await page
+    .getByRole('tablist', { name: '도시 가이드', exact: true })
+    .getByRole('tab', { name: '관광', exact: true })
+    .click()
   await record('guide', [
     '.modal-header h2',
     '.guide-place-categories button',

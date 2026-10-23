@@ -64,12 +64,13 @@ function fixture(): Trip {
 async function openPlan(page: Page, duration = 3) {
   await page
     .locator('.desktop-nav:visible,.bottom-nav:visible')
-    .getByRole('button', { name: '홈', exact: true })
+    .getByRole('button', { name: '여행지', exact: true })
     .click()
   await page
     .getByRole('button', { name: '교토 여행지 자세히 보기', exact: true })
     .first()
     .click()
+  await page.getByText('추천 코스·블로그 후기', { exact: true }).click()
   await page.getByRole('tab', { name: '지역별 코스', exact: true }).click()
   await page
     .getByRole('group', { name: '추천 일정 기간' })

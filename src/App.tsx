@@ -45,7 +45,7 @@ import NearbyPlaces from './NearbyPlaces'
 import { commitFullRestore } from './full-backup'
 import ReservationConflicts from './ReservationConflicts'
 import { useDraftFields } from './form-draft'
-import GuidePlaces from './GuidePlaces'
+import CityGuide, { type CityGuideTab } from './CityGuide'
 import TripOverview from './TripOverview'
 import {
   personalPhotoKey,
@@ -172,7 +172,7 @@ type Page = 'home' | 'trips' | 'explore'
 type Dialog =
   | { type: 'credits' }
   | { type: 'expense'; tripId: string; day: number; stopId?: string }
-  | { type: 'city'; id: string }
+  | { type: 'city'; id: string; guideTab?: CityGuideTab }
   | { type: 'place'; id: string }
   | {
       type: 'create'
@@ -2437,6 +2437,9 @@ export default function App() {
                 ? `${home.destination.name}에서 더 가볼 곳`
                 : '여행에 담아둘 장소'
             }
+            onGuide={(id, guideTab) =>
+              setDialog({ type: 'city', id, guideTab })
+            }
             onCreate={() => setDialog({ type: 'create' })}
             onTrips={() => navigate('trips')}
             onImport={() => setDialog({ type: 'backup' })}
@@ -3159,44 +3162,27 @@ export default function App() {
                 {(!practicalGuideById.has(city.id) || storedGuide) && (
                   <p className="city-intro">{city.description}</p>
                 )}
+                <CityGuide
+                  key={city.id}
+                  city={city}
+                  initialTab={dialog.guideTab}
+                  onPlace={openPlace}
+                >
+                  <GuideContent
+                    compact
+                    guide={storedGuide}
+                    cityId={city.id}
+                    onCourse={(course) => setDialog({ type: 'course', course })}
+                    onPlace={openPlace}
+                  />
+                </CityGuide>
                 <PersonalPhotoControl
                   kind="city"
                   id={city.id}
                   name={city.name}
                 />
                 <BlogPhotos cityId={city.id} />
-                <GuideContent
-                  guide={storedGuide}
-                  cityId={city.id}
-                  onCourse={(course) => setDialog({ type: 'course', course })}
-                  onPlace={openPlace}
-                />
-                <div className="city-facts">
-                  <div>
-                    <Plane size={19} />
-                    <span>
-                      공항·접근<strong>{city.flight}</strong>
-                    </span>
-                  </div>
-                  <div>
-                    <Clock3 size={19} />
-                    <span>
-                      시차<strong>{city.timeDifference}</strong>
-                    </span>
-                  </div>
-                  <div>
-                    <CalendarDays size={19} />
-                    <span>
-                      추천 시기<strong>{city.season}</strong>
-                    </span>
-                  </div>
-                  <div>
-                    <Earth size={19} />
-                    <span>
-                      통화<strong>{city.currency}</strong>
-                    </span>
-                  </div>
-                </div>
+
                 <button
                   className="button primary full city-plan-button"
                   onClick={() => setDialog({ type: 'create', cityId: city.id })}
@@ -3204,11 +3190,6 @@ export default function App() {
                   <Plus size={18} />
                   {city.name} 여행 만들기
                 </button>
-                <GuidePlaces
-                  key={city.id}
-                  cityId={city.id}
-                  onOpen={openPlace}
-                />
               </div>
             </Modal>
           )

@@ -1,3 +1,4 @@
+import { optimizedImage } from './optimized-image'
 import { openDisclosure, openCreateOptions } from './navigation'
 import { test, expect, type Page } from '@playwright/test'
 import { homeJourney, journeyPhase } from '../src/home-journey'
@@ -151,7 +152,7 @@ test('기억한 날짜의 도시·사진·새 추천을 사용하고 일정에 �
   )
   await expect(page.locator('.home-journey-photo')).toHaveAttribute(
     'src',
-    cities.find((c) => c.id === 'bali')!.image,
+    optimizedImage(cities.find((c) => c.id === 'bali')!.image),
   )
   const cards = page
     .getByRole('region', { name: '이번 여행의 도시' })

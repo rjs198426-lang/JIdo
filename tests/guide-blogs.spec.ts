@@ -48,6 +48,7 @@ test('새 탭은 오프라인에서 해당 도시 글을 보여주고 원문과 
     .getByRole('button', { name: '교토 여행지 자세히 보기', exact: true })
     .first()
     .click()
+  await page.getByText('추천 코스·블로그 후기', { exact: true }).click()
   const tabs = page.getByRole('tablist', { name: '실전 가이드', exact: true })
   await expect(tabs.getByRole('tab')).toHaveCount(4)
   await tabs.getByRole('tab', { name: '블로그 후기', exact: true }).click()
@@ -96,7 +97,9 @@ test('새 탭은 오프라인에서 해당 도시 글을 보여주고 원문과 
     .first()
     .click()
   await expect(
-    tabs.getByRole('tab', { name: '처음 가면', exact: true }),
+    page
+      .getByRole('tablist', { name: '도시 가이드', exact: true })
+      .getByRole('tab', { name: '준비', exact: true }),
   ).toHaveAttribute('aria-selected', 'true')
 })
 
@@ -113,6 +116,7 @@ test('320px 확대 글자에서도 네 탭·긴 제목·원문 버튼이 잘리�
     content:
       '.guide-tabs button, .guide-blog-copy strong, .guide-blog-copy small, .guide-blog-copy > span { font-size: 18px !important; }',
   })
+  await page.getByText('추천 코스·블로그 후기', { exact: true }).click()
   const tabs = page.getByRole('tablist', { name: '실전 가이드', exact: true })
   const first = tabs.getByRole('tab').first()
   await first.focus()
@@ -173,6 +177,7 @@ test('다른 여행지를 열면 그 도시의 글만 표시하고 이전 후기
         exact: true,
       })
       .click()
+    await page.getByText('추천 코스·블로그 후기', { exact: true }).click()
     await expect(
       page.getByRole('tab', { name: '처음 가면', exact: true }),
     ).toHaveAttribute('aria-selected', 'true')
