@@ -3,7 +3,12 @@ import { useState } from 'react'
 import { Check, Plus, Search, MapPin } from 'lucide-react'
 import { placeIntroduction } from './place-introduction'
 import { places, categoryOptions, getCity } from './catalog'
-import { destinationForDay, type Trip, type CustomPlace } from './travel-model'
+import {
+  destinationForDay,
+  stopName,
+  type Trip,
+  type CustomPlace,
+} from './travel-model'
 import { dateAt, formatDate } from './store'
 import { matchesPlace, matchesSearch } from './search'
 import PlacePhoto from './PlacePhoto'
@@ -22,6 +27,7 @@ export default function PlacePicker({
   onOpen,
   onCustom,
   onReuse,
+  onDone,
 }: {
   trip: Trip
   trips: Trip[]
@@ -29,8 +35,13 @@ export default function PlacePicker({
   onAdd: (placeId: string) => void
   onOpen: (placeId: string) => void
   onCustom: (name: string) => void
+  onDone: () => void
   onReuse: (place: CustomPlace) => void
 }) {
+  const [initialIds] = useState(
+    () => new Set(trip.days[day].map((stop) => stop.id)),
+  )
+  const addedStops = trip.days[day].filter((stop) => !initialIds.has(stop.id))
   const [category, setCategory] = useState('전체')
   const [query, setQuery] = useState('')
   const destination = destinationForDay(trip, day)
@@ -50,7 +61,7 @@ export default function PlacePicker({
     (place) => category === '전체' || place.custom.kind === category,
   )
   return (
-    <div className="modal-body">
+    <div className="modal-body place-picker-body">
       <p className="muted picker-description">
         DAY {day + 1} · {formatDate(dateAt(trip.startDate, day))}
       </p>
@@ -189,6 +200,28 @@ export default function PlacePicker({
           ? `‘${query.trim()}’ 새 장소 추가`
           : '새 장소 추가'}
       </button>
+      <div className="picker-confirm" aria-label="이날 담은 장소">
+        <div role="status">
+          <strong>
+            DAY {day + 1} · {trip.days[day].length}곳
+          </strong>
+          <span>
+            {addedStops.length
+              ? `이번에 ${addedStops.length}곳 추가했어요`
+              : '가고 싶은 곳을 차례로 담아보세요'}
+          </span>
+        </div>
+        {addedStops.length > 0 && (
+          <div className="picker-added-names" aria-label="이번에 추가한 장소">
+            {addedStops.map((stop) => (
+              <span key={stop.id}>{stopName(stop)}</span>
+            ))}
+          </div>
+        )}
+        <button className="button primary full" onClick={onDone}>
+          일정 보기
+        </button>
+      </div>
     </div>
   )
 }

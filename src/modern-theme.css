@@ -865,3 +865,124 @@ body {
     padding-inline: 20px;
   }
 }
+
+/* 0.58: keep the day, selection and completion actions close to the task. */
+:root .itinerary .day-navigation {
+  display: grid;
+  grid-template-columns: 44px minmax(0, 1fr) 44px;
+  align-items: center;
+  gap: 4px;
+  min-width: 0;
+}
+:root .itinerary .day-navigation > .icon-button {
+  width: 44px;
+  min-height: 44px;
+  border: 0;
+  background: transparent;
+}
+:root .itinerary .day-navigation .day-tabs {
+  display: flex;
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+  scrollbar-width: thin;
+  flex-wrap: nowrap;
+  min-width: 0;
+  position: relative;
+  padding: 6px 0 10px;
+}
+:root .itinerary .day-navigation .day-tab {
+  flex: 0 0 auto;
+  min-width: 86px;
+  padding: 8px 12px;
+}
+:root .itinerary .day-navigation .day-tab small {
+  display: block;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--muted);
+}
+:root .itinerary .day-navigation .day-tab.active small {
+  color: var(--green);
+}
+:root .schedule-batch {
+  margin: 12px 0 16px;
+  padding: 12px 0;
+  border-block: 1px solid var(--line);
+}
+:root .schedule-batch-heading,
+:root .schedule-batch-actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+:root .schedule-batch-heading {
+  justify-content: space-between;
+  font-size: 14px;
+}
+:root .schedule-batch-actions select {
+  flex: 1 1 160px;
+  min-width: 0;
+  max-width: 100%;
+  min-height: 48px;
+  font-size: 14px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: white;
+  padding: 10px;
+}
+:root .schedule-pick-stop {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 44px;
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: var(--muted);
+}
+:root .schedule-pick-stop input {
+  width: 20px;
+  height: 20px;
+  accent-color: var(--green);
+}
+:root .place-picker-body .picker-confirm {
+  position: sticky;
+  bottom: 0;
+  z-index: 2;
+  background: #fff;
+  border-top: 1px solid var(--line);
+  box-shadow: 0 -8px 16px #20323e06;
+  padding: 12px 0 max(12px, env(safe-area-inset-bottom));
+  margin-top: 16px;
+}
+:root .picker-confirm > div[role='status'] {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px 12px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+:root .picker-confirm > div[role='status'] span {
+  color: var(--muted);
+  font-size: 13px;
+}
+:root .picker-added-names {
+  display: flex;
+  gap: 6px;
+  overflow-x: auto;
+  margin: 0 0 12px;
+  padding-bottom: 4px;
+}
+:root .picker-added-names > span {
+  flex: 0 0 auto;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  padding: 6px 10px;
+  background: #e3f1ed;
+  color: #086e64;
+  border-radius: 8px;
+  font-size: 12px;
+  max-width: 90%;
+}

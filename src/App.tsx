@@ -1,3 +1,10 @@
+import DayNavigation from './DayNavigation'
+import {
+  moveScheduleStops,
+  scheduleMoveRecord,
+  undoScheduleMove,
+  type ScheduleMove,
+} from './schedule-move'
 import { bundledImage } from './bundled-image'
 import { startContentUpdates } from './content-release'
 import TimelineRail, { timelineDistance } from './TimelineRail'
@@ -785,7 +792,9 @@ function Itinerary({
   onAttachmentsChange,
   isAttachmentShared,
   onQuickExpense,
+  scheduleReturn,
 }: {
+  scheduleReturn?: { tripId: string; day: number; revision: number }
   onQuickExpense: (stop?: Stop) => void
   onAttachmentsChange: (change: (files: Attachment[]) => Attachment[]) => void
   isAttachmentShared: (id: string) => boolean
@@ -817,6 +826,15 @@ function Itinerary({
   const [targetRevision, setTargetRevision] = useState(0)
   const [focusedExpenseId, setFocusedExpenseId] = useState<string>()
   const [scheduleEditing, setScheduleEditing] = useState(false)
+  const [batchIds, setBatchIds] = useState<string[]>([])
+  const [batchTarget, setBatchTarget] = useState('')
+  const [batchError, setBatchError] = useState('')
+  const [batchUndo, setBatchUndo] = useState<ScheduleMove>()
+  useEffect(() => {
+    setBatchIds([])
+    setBatchTarget('')
+    setBatchError('')
+  }, [day, trip.id, scheduleEditing])
   const [expandedStops, setExpandedStops] = useState<string[]>([])
   const [filterState, setFilterState] = useState<{
     day: number
@@ -827,8 +845,11 @@ function Itinerary({
   }, [day, trip.id])
   const scheduleFilter =
     filterState.day === day ? filterState.value : { ...emptyScheduleFilter }
-  const setScheduleFilter = (value: ScheduleFilter) =>
+  const setScheduleFilter = (value: ScheduleFilter) => {
     setFilterState({ day, value })
+    setBatchIds([])
+    setBatchError('')
+  }
   const resetScheduleFilter = () =>
     setScheduleFilter({ ...emptyScheduleFilter })
   const [orderOpen, setOrderOpen] = useState(false)
@@ -912,6 +933,17 @@ function Itinerary({
     }
     navigation.go(target.workspace, target.day ?? day)
   }
+  const handledReturn = useRef(scheduleReturn?.revision)
+  useEffect(() => {
+    if (
+      !scheduleReturn ||
+      scheduleReturn.tripId !== trip.id ||
+      handledReturn.current === scheduleReturn.revision
+    )
+      return
+    handledReturn.current = scheduleReturn.revision
+    locate({ workspace: 'schedule', day: scheduleReturn.day })
+  }, [scheduleReturn])
   useEffect(() => {
     if (workspace !== 'schedule' || !pendingScroll.current) return
     const id = pendingScroll.current
@@ -1213,38 +1245,7 @@ function Itinerary({
           )}
           {mainWorkspace === 'schedule' && (
             <>
-              <label className="day-jump">
-                날짜{' '}
-                <select
-                  aria-label="일정 날짜 바로 이동"
-                  value={day}
-                  onChange={(event) => onDayChange(Number(event.target.value))}
-                >
-                  {trip.days.map((_, index) => (
-                    <option key={index} value={index}>
-                      DAY {index + 1} ·{' '}
-                      {formatDate(dateAt(trip.startDate, index))}
-                    </option>
-                  ))}
-                </select>
-              </label>
-              <div className="day-tabs" role="tablist" aria-label="여행 날짜">
-                {trip.days.map((_, index) => (
-                  <button
-                    role="tab"
-                    aria-selected={index === day}
-                    aria-controls="day-panel"
-                    id={`day-tab-${index}`}
-                    className={`day-tab ${index === day ? 'active' : ''}`}
-                    key={index}
-                    onClick={() => onDayChange(index)}
-                  >
-                    <strong>DAY {index + 1}</strong>
-                    <span>{formatDate(dateAt(trip.startDate, index))}</span>
-                    <small>{trip.days[index].length}곳</small>
-                  </button>
-                ))}
-              </div>
+              <DayNavigation trip={trip} day={day} onDay={onDayChange} />
               {workspace === 'transfers' ? (
                 <DayTransfers trip={trip} day={day} routing={googleRouting} />
               ) : workspace === 'route' ? (
@@ -1303,6 +1304,115 @@ function Itinerary({
                       >
                         시간 변경
                       </button>
+                    </div>
+                  )}
+                  {scheduleEditing &&
+                    trip.days.length > 1 &&
+                    stops.length > 0 && (
+                      <section
+                        className="schedule-batch"
+                        aria-label="선택한 일정 관리"
+                      >
+                        <div className="schedule-batch-heading">
+                          <strong>{batchIds.length}개 선택</strong>
+                          <button
+                            className="text-button"
+                            onClick={() => {
+                              setBatchIds(
+                                batchIds.length
+                                  ? []
+                                  : visibleStops.map(({ stop }) => stop.id),
+                              )
+                              setBatchError('')
+                            }}
+                          >
+                            {batchIds.length
+                              ? '선택 해제'
+                              : '보이는 일정 모두 선택'}
+                          </button>
+                        </div>
+                        <div className="schedule-batch-actions">
+                          <select
+                            aria-label="선택한 일정 옮길 날짜"
+                            value={batchTarget}
+                            onChange={(e) => {
+                              setBatchTarget(e.target.value)
+                              setBatchError('')
+                            }}
+                          >
+                            <option value="">옮길 날짜</option>
+                            {trip.days.map(
+                              (_, index) =>
+                                index !== day && (
+                                  <option key={index} value={index}>
+                                    DAY {index + 1} ·{' '}
+                                    {formatDate(dateAt(trip.startDate, index))}{' '}
+                                    · {destinationForDay(trip, index).name}
+                                  </option>
+                                ),
+                            )}
+                          </select>
+                          <button
+                            className="button outline small"
+                            disabled={!batchIds.length || batchTarget === ''}
+                            onClick={() => {
+                              try {
+                                const target = Number(batchTarget)
+                                const next = moveScheduleStops(
+                                  trip,
+                                  day,
+                                  target,
+                                  batchIds,
+                                )
+                                setBatchUndo(
+                                  scheduleMoveRecord(
+                                    trip,
+                                    next,
+                                    day,
+                                    target,
+                                    batchIds,
+                                  ),
+                                )
+                                onUpdate(next)
+                                setBatchIds([])
+                                setBatchError('')
+                                onDayChange(target)
+                              } catch (error) {
+                                setBatchError((error as Error).message)
+                              }
+                            }}
+                          >
+                            날짜로 이동
+                          </button>
+                        </div>
+                        {batchError && (
+                          <p className="form-error" role="alert">
+                            {batchError}
+                          </p>
+                        )}
+                      </section>
+                    )}
+                  {batchUndo && (
+                    <div className="undo-strip" role="status">
+                      {batchUndo.ids.length}개 일정을 DAY {batchUndo.to + 1}로
+                      옮겼어요.
+                      <button
+                        onClick={() => {
+                          try {
+                            onUpdate(undoScheduleMove(trip, batchUndo))
+                            onDayChange(batchUndo.from)
+                            setBatchUndo(undefined)
+                            setBatchError('')
+                          } catch (error) {
+                            setBatchError((error as Error).message)
+                          }
+                        }}
+                      >
+                        날짜 이동 되돌리기
+                      </button>
+                      {batchError && !scheduleEditing && (
+                        <p role="alert">{batchError}</p>
+                      )}
                     </div>
                   )}
                   {stops.length > 0 && (
@@ -1503,6 +1613,24 @@ function Itinerary({
                                     : '편집'}
                                 </button>
                               }
+                              {scheduleEditing && trip.days.length > 1 && (
+                                <label className="schedule-pick-stop">
+                                  <input
+                                    type="checkbox"
+                                    aria-label={`${place.name} 일정 선택`}
+                                    checked={batchIds.includes(stop.id)}
+                                    onChange={(e) => {
+                                      setBatchIds((ids) =>
+                                        e.target.checked
+                                          ? [...ids, stop.id]
+                                          : ids.filter((id) => id !== stop.id),
+                                      )
+                                      setBatchError('')
+                                    }}
+                                  />
+                                  일정 선택
+                                </label>
+                              )}
                               <div className="stop-top">
                                 <input
                                   className="stop-time"
@@ -1866,6 +1994,12 @@ function Itinerary({
 }
 
 export default function App() {
+  const [scheduleReturn, setScheduleReturn] = useState<{
+    tripId: string
+    day: number
+    revision: number
+  }>()
+  const scheduleReturnSequence = useRef(0)
   useGuideCatalog()
   useEffect(startContentUpdates, [])
   const { store, setStore, storageError } = useTravelStore()
@@ -2057,7 +2191,7 @@ export default function App() {
       setActiveDay(day)
       navigate('trips')
     }
-    setToast('일정에 장소를 추가했어요.')
+    setToast(close ? '일정에 장소를 추가했어요.' : '')
   }
   const addRegisteredPlace = (
     place: CustomPlace,
@@ -2107,7 +2241,7 @@ export default function App() {
       setDialog(null)
       navigate('trips')
     }
-    setToast('일정에 장소를 추가했어요.')
+    setToast(close ? '일정에 장소를 추가했어요.' : '')
   }
   const registered = registeredPlaces(store.trips)
   const startNewPlace = () => {
@@ -2707,6 +2841,7 @@ export default function App() {
                   }
                   day={Math.min(activeDay, activeTrip.days.length - 1)}
                   onDayChange={setActiveDay}
+                  scheduleReturn={scheduleReturn}
                   onAdd={() =>
                     setDialog({
                       type: 'picker',
@@ -3248,6 +3383,14 @@ export default function App() {
               onClose={() => setDialog(null)}
             >
               <PlacePicker
+                onDone={() => {
+                  setScheduleReturn({
+                    tripId: trip.id,
+                    day: dialog.day,
+                    revision: ++scheduleReturnSequence.current,
+                  })
+                  setDialog(null)
+                }}
                 trip={trip}
                 trips={store.trips}
                 onCustom={(name) =>
