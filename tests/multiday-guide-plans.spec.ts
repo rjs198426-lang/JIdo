@@ -228,7 +228,7 @@ test('오프라인 3·4·5일 전환과 320px 큰 글자에서도 일차·장소
             nodes.filter(
               (n) =>
                 n.scrollWidth > n.clientWidth + 1 ||
-                n.getBoundingClientRect().height < 44,
+                n.getBoundingClientRect().height < 44 * 0.9 - 0.1,
             ).length,
         )
       expect(bad, selector).toBe(0)

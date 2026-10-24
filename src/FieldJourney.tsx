@@ -1,4 +1,5 @@
 import PlaceSource from './PlaceSource'
+import { placeIntroduction } from './place-introduction'
 import { tripClock, destinationTimeZone } from './destination-time'
 import PlacePhoto from './PlacePhoto'
 import {
@@ -54,6 +55,7 @@ export default function FieldJourney({
   const pending = pendingStops(trip, day),
     next = pending[0],
     lodging = lodgingForDay(trip, day)
+  const nextPlace = next ? stopDetails(next) : undefined
   const selectedDate = dateAt(trip.startDate, day)
   const nextReservation = next?.reservationId
     ? trip.reservations?.find(
@@ -80,7 +82,7 @@ export default function FieldJourney({
   const clock = tripClock(trip, day, now)
   const zone = destinationTimeZone(destinationForDay(trip, day))
   const lateMinutes =
-    next && dateAt(trip.startDate, day) === clock.date
+    next && !!next.time && dateAt(trip.startDate, day) === clock.date
       ? Math.max(
           0,
           clock.minutes -
@@ -148,14 +150,24 @@ export default function FieldJourney({
       </div>
       {next ? (
         <article className="field-next">
-          <span className="eyebrow">다음 방문 · {next.time}</span>
+          <PlacePhoto
+            stop={next}
+            className="field-place-photo field-primary-photo"
+          />
+          <span className="eyebrow">
+            다음 방문{next.time ? ` · ${next.time}` : ''}
+          </span>
           {lateMinutes > 0 && (
             <span className="field-delay" role="status">
               예정 시각보다 {delay} 지났어요
             </span>
           )}
           <h2>{stopDetails(next).name}</h2>
-          <p>{stopDetails(next).address}</p>
+          {nextPlace && 'description' in nextPlace && (
+            <p className="field-place-introduction">
+              {placeIntroduction(nextPlace)}
+            </p>
+          )}
           <div className="field-actions">
             <a
               className="button primary"
@@ -202,10 +214,9 @@ export default function FieldJourney({
           <PlaceSource stop={next} />
           <details className="field-place-info stop-photos">
             <summary>
-              장소 사진
+              사진 더 보기
               <ChevronRight size={16} aria-hidden="true" />
             </summary>
-            <PlacePhoto stop={next} className="field-place-photo" />
             <AttachmentsPanel stopId={next.id} imagesOnly />
           </details>
           <button className="text-button" onClick={() => mark(next, 'skipped')}>
@@ -252,23 +263,27 @@ export default function FieldJourney({
           </button>
         </div>
       )}
-      <div className="field-shortcuts">
-        <button onClick={() => onExpense()}>
-          <Wallet size={19} />
-          지출 추가
-        </button>
-        <button onClick={() => onOpen('reservations')}>
-          <Ticket size={19} />
-          예약 확인
-        </button>
-        <button onClick={() => onOpen('files')}>
-          <FileText size={19} />
-          자료 열기
-        </button>
-        <button onClick={onAdd}>
-          <Plus size={19} />
-          장소 추가
-        </button>
+      <div className="field-shortcuts" aria-label="여행 중 도구">
+        <div className="field-secondary-tools">
+          <button onClick={() => onOpen('reservations')}>
+            <Ticket size={17} />
+            예약 확인
+          </button>
+          <button onClick={() => onOpen('files')}>
+            <FileText size={17} />
+            자료 열기
+          </button>
+        </div>
+        <div className="field-add-row">
+          <button onClick={() => onExpense()}>
+            <Wallet size={17} />
+            지출 추가
+          </button>
+          <button onClick={onAdd}>
+            <Plus size={17} />
+            장소 추가
+          </button>
+        </div>
       </div>
       {dayReservations.length > 0 && (
         <details
@@ -291,7 +306,8 @@ export default function FieldJourney({
         {pending.map((stop) => (
           <div key={stop.id}>
             <span>
-              {stop.time} · {stopDetails(stop).name}
+              {stop.time ? `${stop.time} · ` : ''}
+              {stopDetails(stop).name}
             </span>
             <a
               href={directionsTo(stop, trip)}

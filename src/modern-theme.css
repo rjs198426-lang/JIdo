@@ -1467,3 +1467,109 @@ body {
     appearance: auto;
   }
 }
+
+/* 0.62: the user requested 90% of the previous whole UI, not just text. */
+:root {
+  --jido-ui-scale: 0.9;
+}
+#root {
+  zoom: var(--jido-ui-scale);
+}
+:root .button {
+  min-height: calc(44px / var(--jido-ui-scale));
+}
+:root .field :is(input:not([type='checkbox']), select, textarea) {
+  min-height: calc(48px / var(--jido-ui-scale));
+}
+:root .field-next .field-primary-photo {
+  display: block;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 16px;
+  margin: 0 0 16px;
+}
+:root .field-next .field-place-introduction {
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--muted);
+}
+:root .field-actions {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 6px;
+}
+:root .field-actions > .button {
+  flex: 1;
+  min-width: 0;
+  min-height: 44px;
+  padding: 10px 6px;
+  gap: 5px;
+  font-size: 14px;
+  white-space: nowrap;
+}
+:root .field-actions > .button svg {
+  width: 16px;
+  height: 16px;
+  flex: 0 0 16px;
+}
+:root .field-shortcuts {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+:root :is(.field-secondary-tools, .field-add-row) {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 8px;
+}
+:root :is(.field-secondary-tools, .field-add-row) > button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  gap: 6px;
+  min-height: 48px;
+  padding: 10px 8px;
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  font-size: 14px;
+  white-space: nowrap;
+}
+:root .field-add-row > button {
+  background: var(--mint);
+  color: var(--green);
+  border-color: #cfe6df;
+}
+:root .reservation-schedule-setting {
+  margin: 8px 0;
+}
+@media (max-width: 680px) {
+  :root .bottom-nav {
+    padding-bottom: calc(
+      max(8px, env(safe-area-inset-bottom)) / var(--jido-ui-scale)
+    );
+  }
+}
+:root .field-next .place-photo-empty.field-primary-photo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+:root .trip-quick-links {
+  display: grid;
+  grid-template-columns: 1.6fr 1fr 1fr 0.8fr;
+  gap: 6px;
+}
+:root .trip-quick-links button {
+  min-width: 0;
+  padding: 8px 4px;
+  gap: 4px;
+  font-size: 13px;
+}
+:root .trip-quick-links svg {
+  width: 14px;
+  height: 14px;
+  flex: 0 0 14px;
+}

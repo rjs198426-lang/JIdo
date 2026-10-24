@@ -43,7 +43,7 @@ export default function CustomStopForm({
   const [destinationId, setDestinationId] = useState(
     stop?.custom?.destinationId || destinationForDay(trip, day).id,
   )
-  const [time, setTime] = useState(stop?.time || '10:00')
+  const [time, setTime] = useState(stop?.time ?? '')
   const [note, setNote] = useState(stop?.note || '')
   const [error, setError] = useState('')
   const [share, setShare] = useState('')
@@ -142,7 +142,11 @@ export default function CustomStopForm({
           tripDestinations(trip).some((item) => item.id === draft.destinationId)
         )
           setDestinationId(draft.destinationId)
-        if (/^([01]\d|2[0-3]):[0-5]\d$/.test(draft.time)) setTime(draft.time)
+        if (
+          stop &&
+          (draft.time === '' || /^([01]\d|2[0-3]):[0-5]\d$/.test(draft.time))
+        )
+          setTime(draft.time)
       }
     } catch {
       /* Drafts are optional. */
@@ -360,15 +364,16 @@ export default function CustomStopForm({
             ))}
           </select>
         </label>
-        <label className="field">
-          방문 시간
-          <input
-            required
-            type="time"
-            value={time}
-            onChange={(event) => setTime(event.target.value)}
-          />
-        </label>
+        {stop && (
+          <label className="field">
+            방문 시간
+            <input
+              type="time"
+              value={time}
+              onChange={(event) => setTime(event.target.value)}
+            />
+          </label>
+        )}
       </div>
       <label className="field">
         메모

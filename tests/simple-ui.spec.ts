@@ -327,7 +327,7 @@ test('준비는 예약·준비물·자료로 시작하고 준비물은 이름 �
   expect((await stored(page)).checklist).toHaveLength(8)
 })
 
-test('새 장소는 유형·시각·메모만 보이고 검색 방법은 원하는 때에만 변경', async ({
+test('새 장소는 유형·메모가 보이고 시각은 편집에서 정하며 검색 방법은 원하는 때에만 변경', async ({
   page,
 }) => {
   await seed(page)
@@ -340,7 +340,7 @@ test('새 장소는 유형·시각·메모만 보이고 검색 방법은 원하�
   await expect(form.getByLabel('메모', { exact: true })).toBeVisible()
   await form.getByLabel('장소 또는 일정 이름').fill('저녁 산책')
   await form.getByLabel('일정 유형').selectOption('체험')
-  await form.getByLabel('방문 시간', { exact: true }).fill('19:30')
+  await expect(form.getByLabel('방문 시간', { exact: true })).toHaveCount(0)
   await form.getByLabel('메모', { exact: true }).fill('우산 챙기기')
   await openSearchOptions(page)
   await expect(form.getByLabel('장소 검색 서비스')).toHaveValue('osm')
@@ -348,7 +348,7 @@ test('새 장소는 유형·시각·메모만 보이고 검색 방법은 원하�
   await form.getByRole('button', { name: '일정에 추가', exact: true }).click()
   const stop = (await stored(page)).days[0].at(-1)
   expect(stop).toMatchObject({
-    time: '19:30',
+    time: '',
     note: '우산 챙기기',
     custom: { kind: '체험', name: '저녁 산책' },
   })

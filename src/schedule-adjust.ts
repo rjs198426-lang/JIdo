@@ -3,6 +3,7 @@ import { cancelledReservation } from './journey-progress'
 import { type Stop, type Trip } from './travel-model'
 import { placeSignature } from './transfer-planning'
 export const canAdjustStop = (trip: Trip, stop: Stop) =>
+  !!stop.time &&
   stop.status !== 'done' &&
   stop.status !== 'skipped' &&
   !stop.reservationId &&

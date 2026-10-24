@@ -59,9 +59,11 @@ export default function TimelineRail({
           index + 1
         )}
       </span>
-      <time className="timeline-visit-time" dateTime={stop.time}>
-        {stop.time}
-      </time>
+      {stop.time && (
+        <time className="timeline-visit-time" dateTime={stop.time}>
+          {stop.time}
+        </time>
+      )}
     </div>
   )
 }

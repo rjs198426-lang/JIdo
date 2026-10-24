@@ -10,6 +10,7 @@ export function cancelledReservation(trip: Trip, stop: Stop) {
 export function timeConflicts(trip: Trip, day: number) {
   const stops = trip.days[day].filter(
     (stop) =>
+      !!stop.time &&
       stop.status !== 'done' &&
       stop.status !== 'skipped' &&
       !cancelledReservation(trip, stop),

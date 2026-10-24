@@ -1,3 +1,4 @@
+import { layoutHeight } from './ui-scale'
 import { expensePreferences, rememberExpense } from './expense-context'
 import { useDraftFields } from './form-draft'
 import AttachmentsPanel from './AttachmentsPanel'
@@ -341,7 +342,7 @@ export default function ExpenseManager({
     const measure = () =>
       panel.style.setProperty(
         '--expense-total-height',
-        `${total.getBoundingClientRect().height}px`,
+        `${layoutHeight(total)}px`,
       )
     const observer = new ResizeObserver(measure)
     observer.observe(total)

@@ -3,7 +3,6 @@ import { getCity, getPlace } from './catalog'
 import { tripDestinations, type Trip } from './travel-model'
 import { dateAt, formatDate } from './store'
 import {
-  courseStartTime,
   newCoursePlaceIds,
   appendGuideSelection,
   eligibleCourseDays,
@@ -46,13 +45,7 @@ export default function GuideCourseForm({
     eligible.includes(activeDay) ? activeDay : (eligible[0] ?? 0),
   )
   const effectiveDay = eligible.includes(day) ? day : eligible[0]
-  const initialTime = (target: Trip, index: number) =>
-    multiDay ? '09:00' : courseStartTime(target.days[index], course.placeIds)
-  const [time, setTime] = useState(
-    trip && effectiveDay !== undefined
-      ? initialTime(trip, effectiveDay)
-      : '09:00',
-  )
+  const [time, setTime] = useState('')
   const [error, setError] = useState('')
   const added =
     trip && effectiveDay !== undefined
@@ -104,9 +97,7 @@ export default function GuideCourseForm({
                 const nextDay = eligibleCourseDays(next, course)[0]
                 setSelected(next.id)
                 setDay(nextDay ?? 0)
-                setTime(
-                  nextDay === undefined ? '09:00' : initialTime(next, nextDay),
-                )
+                setTime('')
                 setError('')
               }}
             >
@@ -126,7 +117,7 @@ export default function GuideCourseForm({
                   onChange={(event) => {
                     const next = Number(event.target.value)
                     setDay(next)
-                    setTime(initialTime(trip, next))
+                    setTime('')
                     setError('')
                   }}
                 >
@@ -145,7 +136,6 @@ export default function GuideCourseForm({
                 {multiDay ? '매일 첫 방문 시간' : '첫 방문 시간'}
                 <input
                   type="time"
-                  required
                   value={time}
                   onChange={(event) => {
                     setTime(event.target.value)
@@ -157,8 +147,7 @@ export default function GuideCourseForm({
                 {multiDay
                   ? `${days.length}일에 나누어 기존 장소를 보존하며 추가합니다. `
                   : '기존 일정 뒤에 중복 없이 추가합니다. '}
-                방문 시간은 2시간 간격의 편집 가능한 계획값이며 이동·대기시간을
-                계산한 값은 아닙니다.
+                시간 없이 담고 나중에 일정 편집에서 정할 수 있어요.
               </p>
               {error && (
                 <p className="form-error" role="alert">

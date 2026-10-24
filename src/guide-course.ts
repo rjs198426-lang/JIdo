@@ -95,16 +95,20 @@ export function appendGuideCourse(
   if (!ids.length) return { trip, added: 0 }
   if (trip.days[day].length + ids.length > 200)
     throw new Error('하루 일정은 최대 200곳까지 담을 수 있어요.')
-  if (!/^([01]\d|2[0-3]):[0-5]\d$/.test(startTime))
+  if (startTime && !/^([01]\d|2[0-3]):[0-5]\d$/.test(startTime))
     throw new Error('첫 방문 시간을 확인해 주세요.')
   const first = Number(startTime.slice(0, 2)) * 60 + Number(startTime.slice(3))
-  if (first + (ids.length - 1) * 120 >= 1440)
+  if (startTime && first + (ids.length - 1) * 120 >= 1440)
     throw new Error('코스가 다음 날로 넘어가요. 첫 방문 시간을 앞당겨 주세요.')
   const times = ids.map((_, index) => {
+    if (!startTime) return ''
     const minutes = first + index * 120
     return `${String(Math.floor(minutes / 60)).padStart(2, '0')}:${String(minutes % 60).padStart(2, '0')}`
   })
-  if (times.some((time) => trip.days[day].some((stop) => stop.time === time)))
+  if (
+    startTime &&
+    times.some((time) => trip.days[day].some((stop) => stop.time === time))
+  )
     throw new Error(
       '기존 일정과 시작 시간이 겹쳐요. 첫 방문 시간을 바꿔 주세요.',
     )

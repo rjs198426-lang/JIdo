@@ -457,62 +457,65 @@ export function Reservations({ trip, onUpdate, day = 0 }: Props) {
                     지출로 기록
                   </button>
                 )}
-                <button
-                  className="text-button reservation-to-stop"
-                  aria-label={`${item.title} 일정에 복사`}
-                  disabled={
-                    item.status === 'cancelled' ||
-                    item.date < trip.startDate ||
-                    item.date > trip.endDate ||
-                    trip.days
-                      .flat()
-                      .some((stop) => stop.reservationId === item.id)
-                  }
-                  onClick={() => {
-                    const day = dayCount(trip.startDate, item.date) - 1
-                    if (
-                      !trip.days[day] ||
+                <details className="reservation-schedule-setting simple-options">
+                  <summary>일정에 반영 설정</summary>{' '}
+                  <button
+                    className="text-button reservation-to-stop"
+                    aria-label={`${item.title} 일정에 복사`}
+                    disabled={
+                      item.status === 'cancelled' ||
+                      item.date < trip.startDate ||
+                      item.date > trip.endDate ||
                       trip.days
                         .flat()
                         .some((stop) => stop.reservationId === item.id)
-                    )
-                      return
-                    onUpdate({
-                      ...trip,
-                      days: trip.days.map((stops, index) =>
-                        index === day
-                          ? [
-                              ...stops,
-                              {
-                                id: crypto.randomUUID(),
-                                placeId: `custom-${crypto.randomUUID()}`,
-                                reservationId: item.id,
-                                time: item.time,
-                                note: reservationNote(item),
-                                custom: {
-                                  name: item.title,
-                                  kind: reservationPlaceKind(item.kind),
-                                  address: item.address,
-                                  link: item.link,
-                                  destinationId: destinationForDay(trip, day)
-                                    .id,
+                    }
+                    onClick={() => {
+                      const day = dayCount(trip.startDate, item.date) - 1
+                      if (
+                        !trip.days[day] ||
+                        trip.days
+                          .flat()
+                          .some((stop) => stop.reservationId === item.id)
+                      )
+                        return
+                      onUpdate({
+                        ...trip,
+                        days: trip.days.map((stops, index) =>
+                          index === day
+                            ? [
+                                ...stops,
+                                {
+                                  id: crypto.randomUUID(),
+                                  placeId: `custom-${crypto.randomUUID()}`,
+                                  reservationId: item.id,
+                                  time: item.time,
+                                  note: reservationNote(item),
+                                  custom: {
+                                    name: item.title,
+                                    kind: reservationPlaceKind(item.kind),
+                                    address: item.address,
+                                    link: item.link,
+                                    destinationId: destinationForDay(trip, day)
+                                      .id,
+                                  },
                                 },
-                              },
-                            ]
-                          : stops,
-                      ),
-                    })
-                  }}
-                >
-                  {trip.days
-                    .flat()
-                    .some((stop) => stop.reservationId === item.id)
-                    ? '일정에 복사됨'
-                    : item.date < trip.startDate || item.date > trip.endDate
-                      ? '여행 기간 밖의 예약'
-                      : '이 날짜의 일정에 복사'}{' '}
-                  <Plus size={14} />
-                </button>
+                              ]
+                            : stops,
+                        ),
+                      })
+                    }}
+                  >
+                    {trip.days
+                      .flat()
+                      .some((stop) => stop.reservationId === item.id)
+                      ? '일정에 반영됨'
+                      : item.date < trip.startDate || item.date > trip.endDate
+                        ? '여행 기간 밖의 예약'
+                        : '이 날짜의 일정에 반영'}{' '}
+                    <Plus size={14} />
+                  </button>
+                </details>
               </div>
               <div className="row-actions">
                 <button

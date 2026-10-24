@@ -25,7 +25,9 @@ export function reservationConflicts(trip: Trip) {
             ? date >= reservation.date && date < reservation.endDate
             : date === reservation.date
         const timeMatches =
-          reservation.kind === '숙소' || stop.time === reservation.time
+          reservation.kind === '숙소' ||
+          !stop.time ||
+          stop.time === reservation.time
         if (!dateMatches || !timeMatches)
           result.push({
             id: `stop-${stop.id}`,

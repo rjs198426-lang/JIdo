@@ -76,12 +76,12 @@ test('긴 이름을 포함한 주요 화면의 메뉴·버튼은 좁은 화면�
                 horizontal:
                   s.writingMode === 'horizontal-tb' &&
                   s.whiteSpace === 'nowrap',
-                font: parseFloat(s.fontSize),
+                font: parseFloat(s.fontSize) * 0.9,
               }
             }),
         )
       for (const control of controls) {
-        expect(control.height).toBeGreaterThanOrEqual(44)
+        expect(control.height).toBeGreaterThanOrEqual(44 * 0.9 - 0.1)
         expect(control.fits).toBe(true)
         expect(control.horizontal).toBe(true)
         expect(control.font).toBeGreaterThanOrEqual(10.56)

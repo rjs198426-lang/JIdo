@@ -1,3 +1,4 @@
+import { layoutHeight } from './ui-scale'
 import { Ticket, CheckSquare, Wallet } from 'lucide-react'
 import DayNavigation from './DayNavigation'
 import {
@@ -9,7 +10,6 @@ import {
 import { bundledImage } from './bundled-image'
 import { startContentUpdates } from './content-release'
 import TimelineRail, { timelineDistance } from './TimelineRail'
-import TimelineBookings from './TimelineBookings'
 import ScheduleToolbar from './ScheduleToolbar'
 import ScheduleStopInfo from './ScheduleStopInfo'
 import ScheduleOrderDialog from './ScheduleOrderDialog'
@@ -415,7 +415,7 @@ function CreateTrip({
       end: dateAt(today(), course?.days ? course.days.length - 1 : 3),
       travelers: 1,
       recommended: false,
-      courseTime: '09:00',
+      courseTime: '',
     },
   )
   const [destination, setDestination] = draft.field('destination')
@@ -468,11 +468,11 @@ function CreateTrip({
         : recommended
           ? places.filter((place) => place.cityId === destination).slice(0, 3)
           : []
-    initialPlaces.forEach((place, index) =>
+    initialPlaces.forEach((place) =>
       days[0].push({
         id: crypto.randomUUID(),
         placeId: place.id,
-        time: `${String(10 + index * 2).padStart(2, '0')}:00`,
+        time: '',
         note: '',
       }),
     )
@@ -606,7 +606,6 @@ function CreateTrip({
             {course.days ? '매일 첫 방문 시간' : '첫날 첫 방문 시간'}
             <input
               type="time"
-              required
               value={courseTime}
               onChange={(event) => setCourseTime(event.target.value)}
             />
@@ -615,7 +614,8 @@ function CreateTrip({
             {course.days
               ? `선택한 ${courseDays(course).length}일 코스를 날짜별로 담습니다. `
               : '선택한 코스를 첫날에 담습니다. '}
-            방문 시간은 2시간 간격의 계획값이며 나중에 수정할 수 있어요.
+            시간을 정하지 않고 담아도 됩니다. 방문 시간은 일정 편집에서 정할 수
+            있어요.
           </p>
         </section>
       )}
@@ -1531,7 +1531,10 @@ function Itinerary({
                       <span>
                         {stops.some(
                           (stop, index) =>
-                            index > 0 && stops[index - 1].time > stop.time,
+                            index > 0 &&
+                            !!stop.time &&
+                            !!stops[index - 1].time &&
+                            stops[index - 1].time > stop.time,
                         )
                           ? '방문 순서와 시간이 달라요'
                           : `오늘 ${stops.length}개의 일정`}
@@ -1550,7 +1553,15 @@ function Itinerary({
                               day,
                               before: stops.map((stop) => stop.id),
                               after: [...stops]
-                                .sort((a, b) => a.time.localeCompare(b.time))
+                                .sort((a, b) =>
+                                  !a.time
+                                    ? b.time
+                                      ? 1
+                                      : 0
+                                    : !b.time
+                                      ? -1
+                                      : a.time.localeCompare(b.time),
+                                )
                                 .map((stop) => stop.id),
                             })
                           }
@@ -1560,7 +1571,6 @@ function Itinerary({
                       </div>
                     </div>
                   )}
-                  <TimelineBookings trip={trip} day={day} onLocate={locate} />
                   {stops.length === 0 ? (
                     <EmptyState
                       icon={<MapIcon size={32} />}
@@ -1657,10 +1667,9 @@ function Itinerary({
                                   value={stop.time}
                                   aria-label={`${place.name} 방문 시간`}
                                   onChange={(event) => {
-                                    if (event.target.value)
-                                      updateStop(stop.id, {
-                                        time: event.target.value,
-                                      })
+                                    updateStop(stop.id, {
+                                      time: event.target.value,
+                                    })
                                   }}
                                 />
                                 <span className="stop-category">
@@ -2053,7 +2062,7 @@ export default function App() {
     const measure = () =>
       document.documentElement.style.setProperty(
         '--jido-bottom-nav-height',
-        `${nav.getBoundingClientRect().height}px`,
+        `${layoutHeight(nav)}px`,
       )
     const observer = new ResizeObserver(measure)
     // Android gesture insets change padding, so observe the whole bar.
@@ -2180,7 +2189,7 @@ export default function App() {
         sameStopPlace(stop, {
           id: 'candidate',
           placeId,
-          time: '09:00',
+          time: '',
           note: '',
         }),
       )
@@ -2195,7 +2204,7 @@ export default function App() {
     const stop: Stop = {
       id: crypto.randomUUID(),
       placeId,
-      time: `${String(Math.min(10 + trip.days[day].length * 2, 22)).padStart(2, '0')}:00`,
+      time: '',
       note: '',
     }
     updateTrip({
@@ -2246,7 +2255,7 @@ export default function App() {
               {
                 id: crypto.randomUUID(),
                 placeId: `custom-${crypto.randomUUID()}`,
-                time: '10:00',
+                time: '',
                 note: '',
                 custom,
               },
@@ -3067,7 +3076,7 @@ export default function App() {
                           {
                             id: crypto.randomUUID(),
                             placeId: `custom-${crypto.randomUUID()}`,
-                            time: '10:00',
+                            time: '',
                             note: '',
                             custom: {
                               ...dialog.registeredPlace!,

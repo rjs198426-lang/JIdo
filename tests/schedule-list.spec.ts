@@ -491,7 +491,9 @@ test('320px·큰 글자·긴 메모에서도 요약·순서 편집의 버튼과 
     ),
   ).toBe(true)
   for (const button of await page.locator('.schedule-tools button').all())
-    expect((await button.boundingBox())!.height).toBeGreaterThanOrEqual(44)
+    expect((await button.boundingBox())!.height).toBeGreaterThanOrEqual(
+      44 * 0.9 - 0.1,
+    )
   await page.screenshot({ path: info.outputPath('schedule-320.png') })
   await page.getByRole('button', { name: '순서 편집', exact: true }).click()
   await page

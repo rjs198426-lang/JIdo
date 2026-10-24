@@ -87,8 +87,8 @@ test('네 여행 화면의 제목·바로가기 위치 고정과 기록 보존',
       expect(searchBox.x).toBeLessThan(editBox.x)
       expect(editBox.x).toBeLessThan(deleteBox.x)
       for (const box of geometry.slice(4, 7)) {
-        expect(box.width).toBe(36)
-        expect(box.height).toBe(36)
+        expect(box.width).toBeCloseTo(36 * 0.9, 1)
+        expect(box.height).toBeCloseTo(36 * 0.9, 1)
       }
       const facts = await page
         .locator('.trip-facts > span')

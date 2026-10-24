@@ -1,3 +1,4 @@
+import { googleMapsFixture } from './google-maps-fixture'
 import { expect, test, type Page } from '@playwright/test'
 import { tripSchema, type Trip } from '../src/travel-model'
 import {
@@ -6,7 +7,7 @@ import {
 } from '../src/field-reservations'
 import { tripReadiness } from '../src/trip-readiness'
 import { placeSignature } from '../src/transfer-planning'
-import { openTrips, openWorkspace } from './navigation'
+import { openTrips, openWorkspace, openDisclosure } from './navigation'
 const fileId = 'bbbb1111-1111-4111-8111-111111111111'
 function fixture(): Trip {
   const trip = tripSchema.parse({
@@ -131,6 +132,7 @@ function fixture(): Trip {
   return trip
 }
 async function seed(page: Page, trip = fixture()) {
+  await googleMapsFixture(page)
   await page.clock.install({ time: new Date('2026-11-01T12:00:00') })
   await page.route('https://**', (route) => route.abort())
   await page.goto('/')
@@ -285,6 +287,8 @@ test('점검 항목에서 해당 예약으로 이동하고 확정 후 항목이 
 }) => {
   await seed(page)
   await openWorkspace(page, '여행 준비')
+  await openDisclosure(page, '.preparation-review')
+  await openDisclosure(page, '.preparation-people')
   const readiness = page.getByRole('region', { name: '여행 점검' })
   await readiness.getByRole('button', { name: '예약', exact: true }).click()
   await readiness
@@ -295,6 +299,8 @@ test('점검 항목에서 해당 예약으로 이동하고 확정 후 항목이 
     .getByLabel('일정에 안 넣은 항공편 예약 상태', { exact: true })
     .selectOption('confirmed')
   await openWorkspace(page, '여행 준비')
+  await openDisclosure(page, '.preparation-review')
+  await openDisclosure(page, '.preparation-people')
   await expect(readiness).not.toContainText(
     '일정에 안 넣은 항공편 · 예약 확정 확인',
   )
@@ -313,14 +319,20 @@ test('위치 미지정·도착 부족 점검은 해당 날짜·장소와 이동 
 }) => {
   await seed(page)
   await openWorkspace(page, '여행 준비')
+  await openDisclosure(page, '.preparation-review')
+  await openDisclosure(page, '.preparation-people')
   const readiness = page.getByRole('region', { name: '여행 점검' })
   await readiness.getByRole('button', { name: '일정', exact: true }).click()
   await readiness
     .getByRole('button', { name: /위치 확인할 카페 · 지도 위치 미지정/ })
     .click()
   await expect(page.locator('[data-stop-id="cafe"]')).toBeFocused()
-  await expect(page.getByLabel('일정 날짜 바로 이동')).toHaveValue('1')
+  await expect(
+    page.getByRole('tablist', { name: '여행 날짜' }).getByRole('tab').nth(1),
+  ).toHaveAttribute('aria-selected', 'true')
   await openWorkspace(page, '여행 준비')
+  await openDisclosure(page, '.preparation-review')
+  await openDisclosure(page, '.preparation-people')
   await readiness.getByRole('button', { name: '일정', exact: true }).click()
   await readiness
     .getByRole('button', { name: /후시미 이나리 신사 도착 45분 부족/ })
@@ -361,6 +373,8 @@ test('500자를 넘는 여행 메모 초안도 준비 화면 이동·재시작 �
 }) => {
   await seed(page)
   await openWorkspace(page, '여행 준비')
+  await openDisclosure(page, '.preparation-review')
+  await openDisclosure(page, '.preparation-people')
   await page.locator('.travel-info .tool-heading button').click()
   const note = '동행자에게 전달할 긴 여행 메모입니다. '.repeat(40)
   await page.getByRole('textbox', { name: '여행 메모', exact: true }).fill(note)
@@ -368,6 +382,8 @@ test('500자를 넘는 여행 메모 초안도 준비 화면 이동·재시작 �
   await page.reload()
   await openTrips(page)
   await openWorkspace(page, '여행 준비')
+  await openDisclosure(page, '.preparation-review')
+  await openDisclosure(page, '.preparation-people')
   await expect(
     page.getByRole('textbox', { name: '여행 메모', exact: true }),
   ).toHaveValue(note)
@@ -393,7 +409,9 @@ test('320px·큰 글자·작은 높이에서도 현장 예약·주소 닫기·�
   const dialog = page.getByRole('dialog', { name: '보여줄 주소' })
   const close = dialog.getByRole('button', { name: '주소 화면 닫기' })
   await expect(close).toBeInViewport()
-  expect((await close.boundingBox())!.height).toBeGreaterThanOrEqual(44)
+  expect((await close.boundingBox())!.height).toBeGreaterThanOrEqual(
+    44 * 0.9 - 0.1,
+  )
   await dialog
     .getByRole('button', { name: '주소 복사', exact: true })
     .scrollIntoViewIfNeeded()

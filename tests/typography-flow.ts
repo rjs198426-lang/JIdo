@@ -83,7 +83,11 @@ export async function typographyFlow(page: Page, width: number) {
       samples[`${screen}:${selector}`] = await page
         .locator(selector)
         .first()
-        .evaluate((el) => parseFloat(getComputedStyle(el).fontSize))
+        .evaluate(
+          (el) =>
+            parseFloat(getComputedStyle(el).fontSize) *
+            Number(getComputedStyle(document.getElementById('root')!).zoom),
+        )
     }
     if (
       await page.evaluate(

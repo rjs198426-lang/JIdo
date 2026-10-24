@@ -23,7 +23,7 @@ export default function FieldReservation({
       ? item.date <= date && date < item.endDate
       : item.date === date
   const mismatch =
-    scheduledTime !== undefined &&
+    !!scheduledTime &&
     (!dateMatches || (item.kind !== '숙소' && item.time !== scheduledTime))
   return (
     <article className="field-booking" aria-label={`${item.title} 현장 예약`}>

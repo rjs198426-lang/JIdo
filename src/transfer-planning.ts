@@ -36,7 +36,7 @@ export function transferLegs(stops: Stop[]) {
     const minute = (time: string) =>
       Number(time.slice(0, 2)) * 60 + Number(time.slice(3))
     const arrival =
-      transfer && previous.durationMinutes !== undefined
+      transfer && !!previous.time && previous.durationMinutes !== undefined
         ? minute(previous.time) + previous.durationMinutes + transfer.minutes
         : undefined
     return {
@@ -45,7 +45,7 @@ export function transferLegs(stops: Stop[]) {
       transfer,
       arrival,
       lateMinutes:
-        arrival === undefined
+        arrival === undefined || !stop.time
           ? undefined
           : Math.max(0, arrival - minute(stop.time)),
       distance: points.length === 2 ? km(points[0], points[1]) : undefined,

@@ -62,6 +62,7 @@ export function scheduleSummary(trip: Trip, day: number) {
   const times = stops
     .filter((stop) => scheduleStatus(trip, stop) !== 'excluded')
     .map((stop) => stop.time)
+    .filter(Boolean)
     .sort()
   return {
     planned: planned.length,

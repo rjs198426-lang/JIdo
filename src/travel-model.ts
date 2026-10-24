@@ -72,7 +72,10 @@ export const customPlaceSchema = z.object({
 export const stopSchema = z.object({
   id,
   placeId: id,
-  time: z.string().regex(/^([01]\d|2[0-3]):[0-5]\d$/),
+  time: z
+    .string()
+    .regex(/^(?:([01]\d|2[0-3]):[0-5]\d)?$/)
+    .default(''),
   note: z.string().max(2000),
   custom: customPlaceSchema.optional(),
   reservationId: id.optional(),
