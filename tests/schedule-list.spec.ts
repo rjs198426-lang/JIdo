@@ -169,8 +169,6 @@ const ids = (page: Page) =>
   page
     .locator('.timeline [data-stop-id]')
     .evaluateAll((els) => els.map((el) => el.getAttribute('data-stop-id')))
-const filterGroup = (page: Page) =>
-  page.getByRole('group', { name: '일정 상태 필터' })
 
 test('하루 요약은 제외 일정을 분리하고 다음 예정은 실제 방문 순서로 고름', () => {
   const trip = fixture(),
@@ -266,50 +264,7 @@ test('중복·누락·다른 구간·이후 순서 변경은 적용 또는 과�
   changed.days[0] = changed.days[0].slice(1)
   expect(() => applyScheduleOrder(changed, change, true)).toThrow()
 })
-test('일정 상태·분류·검색 조합과 원래 순번, 빈 결과 초기화', async ({
-  page,
-}) => {
-  await seed(page)
-  await expect(page.locator('.schedule-day-summary')).toContainText(
-    '예정 2 · 완료 1 · 제외 2',
-  )
-  await expect(page.locator('.day-progress')).toContainText('1/3 방문 완료')
-  await filterGroup(page)
-    .getByRole('button', { name: '예정 2', exact: true })
-    .click()
-  expect(await ids(page)).toEqual(['lunch', 'cafe'])
-  await page.getByLabel('일정 분류', { exact: true }).selectOption('카페')
-  expect(await ids(page)).toEqual(['cafe'])
-  await expect(page.locator('.timeline .stop-number')).toHaveText('3')
-  await page
-    .getByRole('button', { name: '골목 카페 위로 이동', exact: true })
-    .click()
-  expect((await state(page)).days[0].map((stop: any) => stop.id)).toEqual([
-    'done',
-    'cafe',
-    'lunch',
-    'skipped',
-    'cancelled',
-  ])
-  await page
-    .getByRole('button', { name: '순서 변경 되돌리기', exact: true })
-    .click()
-  await expect(page.locator('.timeline .stop-number')).toHaveText('3')
 
-  await page.getByLabel('이날 일정 검색', { exact: true }).fill('없는 장소')
-  await expect(page.getByText('조건에 맞는 일정이 없어요.')).toBeVisible()
-  await page
-    .getByRole('button', { name: '모든 일정 보기', exact: true })
-    .click()
-  expect(await ids(page)).toEqual([
-    'done',
-    'lunch',
-    'cafe',
-    'skipped',
-    'cancelled',
-  ])
-  expect((await state(page)).days).toEqual(fixture().days)
-})
 test('간단 보기에서도 메모·연결 예약·자료가 보이며 원본 화면으로 이동', async ({
   page,
 }) => {
@@ -328,52 +283,22 @@ test('간단 보기에서도 메모·연결 예약·자료가 보이며 원본 �
   await expect(page.locator(`[data-attachment-id="${fileId}"]`)).toBeFocused()
   expect((await state(page)).attachments).toEqual(fixture().attachments)
 })
-test('다음 예정·지도에서 목록 복귀는 숨긴 필터를 해제하고 해당 카드로 이동', async ({
+
+test('날짜 이동은 그 날짜의 전체 기록을 표시', async ({
   page,
 }) => {
   await seed(page)
-  await page.getByLabel('이날 일정 검색', { exact: true }).fill('없는 장소')
-  await page
-    .getByRole('button', { name: '다음 예정 강변 점심 일정으로 이동' })
-    .click()
-  await expect(page.locator('[data-stop-id="lunch"]')).toBeFocused()
-  await expect(page.getByLabel('이날 일정 검색', { exact: true })).toHaveValue(
-    '',
-  )
-  await filterGroup(page)
-    .getByRole('button', { name: '완료 1', exact: true })
-    .click()
-  await openWorkspace(page, '동선')
-  await page
-    .getByRole('button', { name: '선택한 장소 일정 보기', exact: true })
-    .click()
-  await openScheduleFilters(page)
-  await expect(
-    filterGroup(page).getByRole('button', { name: '전체 5', exact: true }),
-  ).toHaveAttribute('aria-pressed', 'true')
-})
-test('날짜 이동은 검색·필터를 초기화하고 그 날짜의 기록만 표시', async ({
-  page,
-}) => {
-  await seed(page)
-  await page.getByLabel('이날 일정 검색', { exact: true }).fill('창가')
   await page
     .getByRole('tablist', { name: '여행 날짜' })
     .getByRole('tab')
     .nth(1)
     .click()
-  await expect(page.getByLabel('이날 일정 검색', { exact: true })).toHaveValue(
-    '',
-  )
   expect(await ids(page)).toEqual(['tomorrow'])
   await page
     .getByRole('tablist', { name: '여행 날짜' })
     .getByRole('tab')
     .nth(0)
     .click()
-  await expect(page.getByLabel('이날 일정 검색', { exact: true })).toHaveValue(
-    '',
-  )
   expect(await ids(page)).toHaveLength(5)
 })
 test('순서 편집 취소·임의 순번 적용·재시작에서 시각과 개인 기록 보존', async ({
@@ -444,31 +369,14 @@ test('시간순 정렬 되돌리기는 나중에 수정한 메모를 덮어쓰�
   ])
   expect((await state(page)).days[0][1].note).toBe('정렬 뒤 추가한 메모')
 })
-test('예정 필터에서 완료 처리하면 요약과 결과가 함께 갱신', async ({
-  page,
-}) => {
-  await seed(page)
-  await filterGroup(page)
-    .getByRole('button', { name: '예정 2', exact: true })
-    .click()
-  await page
-    .getByRole('button', { name: '강변 점심 방문 완료', exact: true })
-    .click()
-  expect(await ids(page)).toEqual(['cafe'])
-  await expect(page.locator('.schedule-day-summary')).toContainText(
-    '예정 1 · 완료 2 · 제외 2',
-  )
-  await expect(
-    page.getByRole('button', { name: '다음 예정 골목 카페 일정으로 이동' }),
-  ).toBeVisible()
-})
-test('일정 조회·로컬 검색은 오프라인에서도 가능하고 Google 경로를 자동 요청하지 않음', async ({
+
+test('전체 일정 조회는 오프라인에서도 가능하고 Google 경로를 자동 요청하지 않음', async ({
   page,
 }) => {
   await seed(page)
   await page.context().setOffline(true)
-  await page.getByLabel('이날 일정 검색', { exact: true }).fill('창가 확인서')
-  expect(await ids(page)).toEqual(['lunch'])
+  await expect(page.locator('.timeline-find')).toHaveCount(0)
+  expect(await ids(page)).toHaveLength(5)
   expect(await page.evaluate(() => (window as any).googleCalls.length)).toBe(0)
   await page.context().setOffline(false)
 })
@@ -482,15 +390,15 @@ test('320px·큰 글자·긴 메모에서도 요약·순서 편집의 버튼과 
   await seed(page, trip)
   await page.addStyleTag({
     content:
-      '.schedule-tools,.schedule-tools button,.schedule-order-dialog {font-size:18px!important}',
+      '.timeline-day-heading,.timeline-day-heading button,.schedule-order-dialog {font-size:18px!important}',
   })
-  await page.locator('.schedule-tools').scrollIntoViewIfNeeded()
+  await page.locator('.timeline-day-heading').scrollIntoViewIfNeeded()
   expect(
     await page.evaluate(
       () => document.documentElement.scrollWidth <= innerWidth,
     ),
   ).toBe(true)
-  for (const button of await page.locator('.schedule-tools button').all())
+  for (const button of await page.locator('.timeline-day-heading button').all())
     expect((await button.boundingBox())!.height).toBeGreaterThanOrEqual(
       44 * 0.9 - 0.1,
     )

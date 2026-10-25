@@ -9,7 +9,6 @@ import {
   openTrips,
   openScheduleEditor,
   openWorkspace,
-  openScheduleFilters,
 } from './navigation'
 import { googleMapsFixture } from './google-maps-fixture'
 function fixture(): Trip {
@@ -184,14 +183,14 @@ test('중복·다른 도시·한도 초과·변경된 목록은 부분 이동하
   expect(JSON.stringify(trip)).toBe(original)
 })
 
-test('14일 날짜 이동·키보드 탐색·개수 표시는 원본을 바꾸지 않음', async ({
+test('14일 날짜·요일 이동과 키보드 탐색은 원본을 바꾸지 않음', async ({
   page,
 }) => {
   await page.setViewportSize({ width: 320, height: 740 })
   await seed(page)
   const before = await current(page)
   const tabs = page.getByRole('tablist', { name: '여행 날짜', exact: true })
-  await expect(tabs.getByRole('tab').first().locator('small')).toHaveText('2곳')
+  await expect(tabs.getByRole('tab').first().locator('small')).toHaveCount(0)
   await page.addStyleTag({
     content:
       '.day-tab strong,.day-tab span,.day-tab small { font-size: 20px !important; }',
@@ -211,9 +210,7 @@ test('14일 날짜 이동·키보드 탐색·개수 표시는 원본을 바꾸�
     'true',
   )
   await page.getByRole('button', { name: '다음 여행일', exact: true }).click()
-  await expect(tabs.getByRole('tab').nth(1).locator('small')).toHaveText(
-    '비어 있음',
-  )
+  await expect(tabs.getByRole('tab').nth(1)).toHaveAttribute('aria-selected', 'true')
   expect(await current(page)).toEqual(before)
   expect(
     await page.evaluate(
@@ -294,7 +291,7 @@ test('편집에서 여러 일정을 선택·날짜 이동·메모 유지·최신
   expect((await current(page)).days[1]).toEqual([])
 })
 
-test('필터가 바뀌면 이전 선택을 해제해 숨은 일정까지 옮기지 않음', async ({
+test('날짜가 바뀌면 이전 선택을 해제하고 직접 선택한 일정만 이동', async ({
   page,
 }) => {
   await seed(page)
@@ -302,14 +299,12 @@ test('필터가 바뀌면 이전 선택을 해제해 숨은 일정까지 옮기�
   await page
     .getByRole('button', { name: '보이는 일정 모두 선택', exact: true })
     .click()
-  await openScheduleFilters(page)
-  await page.getByLabel('이날 일정 검색').fill('골목')
+  await page.getByLabel('일정 날짜 바로 이동').selectOption('1')
+  await page.getByLabel('일정 날짜 바로 이동').selectOption('0')
   await expect(
     page.getByRole('region', { name: '선택한 일정 관리' }),
   ).toContainText('0개 선택')
-  await page
-    .getByRole('button', { name: '보이는 일정 모두 선택', exact: true })
-    .click()
+  await page.getByRole('checkbox', { name: '내가 등록한 골목 카페 일정 선택', exact: true }).check()
   await page.getByLabel('선택한 일정 옮길 날짜').selectOption('1')
   await page.getByRole('button', { name: '날짜로 이동', exact: true }).click()
   const saved = await current(page)

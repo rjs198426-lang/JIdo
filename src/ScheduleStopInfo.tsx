@@ -1,3 +1,4 @@
+import { getPlace } from './catalog'
 import { FileText, Ticket, MessageSquare } from 'lucide-react'
 import { scheduleFiles, scheduleStatus } from './schedule-list'
 import { stopDetails, type Stop, type Trip } from './travel-model'
@@ -19,6 +20,7 @@ export default function ScheduleStopInfo({
   const files = scheduleFiles(trip, stop)
   const status = scheduleStatus(trip, stop)
   const name = stopDetails(stop).name
+  const preview = (stop.note.trim() || getPlace(stop.custom?.catalogPlaceId || stop.placeId)?.description || '').replace(/\s+/g, ' ')
   return (
     <div className="schedule-stop-info">
       <div className="schedule-stop-badges">
@@ -60,10 +62,10 @@ export default function ScheduleStopInfo({
           </button>
         )}
       </div>
-      {stop.note.trim() && (
+      {preview && (
         <div className="schedule-note-preview">
           <MessageSquare size={14} />
-          <p>{stop.note}</p>
+          <p title={preview}>{preview}</p>
         </div>
       )}
     </div>

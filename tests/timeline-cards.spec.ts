@@ -182,7 +182,7 @@ test('읽기 목록은 시간·번호·카드와 실제 예약·메모를 표시
   await expect(
     page.locator('[data-stop-id="station"] .schedule-note-preview'),
   ).toContainText('북쪽 출구')
-  await expect(page.locator('.timeline-find')).not.toHaveAttribute('open', '')
+  await expect(page.locator('.timeline-find')).toHaveCount(0)
   await expect(
     page.getByRole('button', { name: 'ICN 08:20 - CTS 11:00 예약 관리' }),
   ).toBeVisible()

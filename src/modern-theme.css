@@ -1826,3 +1826,64 @@ body {
   :root .home-journey-copy { padding: 14px 12px; }
   :root .home-status-grid > button { padding-inline: 10px; }
 }
+
+/* 0.66: compact trip headings, date-only tabs and a persistent settings entry. */
+:root .header-inner { height: 56px; }
+:root .brand-mark { font-size: 38px; }
+:root .trips-page { padding-top: 12px; }
+:root .trips-page .trip-page-title { margin-bottom: 12px; }
+:root .trips-page .trip-page-title h1 { font-size: 27px; }
+:root .trips-page .itinerary .trip-banner {
+  grid-template-columns: minmax(0, 1fr) 140px;
+  gap: 8px;
+  padding-bottom: 12px;
+}
+:root .trips-page .itinerary .trip-banner h2 { font-size: 24px; }
+:root .trips-page .itinerary .trip-banner-controls {
+  width: 140px;
+  grid-template-columns: repeat(3, 44px);
+  grid-template-rows: 44px;
+}
+:root .trips-page .itinerary .trip-banner-controls > button {
+  width: 44px; height: 44px; min-width: 44px; min-height: 44px;
+}
+:root .trip-banner-controls svg { width: 23px; height: 23px; }
+:root .itinerary .day-navigation .day-tab {
+  min-width: 100px;
+  min-height: 44px;
+  padding: 10px 12px;
+}
+:root .itinerary .day-navigation .day-tab > span {
+  font-size: 15px;
+  font-weight: 650;
+  white-space: nowrap;
+}
+:root .timeline-workspace .schedule-note-preview { min-width: 0; }
+:root .timeline-workspace .schedule-note-preview p {
+  min-width: 0;
+  display: block;
+  -webkit-line-clamp: unset;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0;
+  font-size: 14px;
+}
+:root .timeline-workspace .schedule-note-preview svg { flex-shrink: 0; }
+:root .bottom-nav { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+:root .settings-page { max-width: 760px; margin-inline: auto; }
+:root .settings-group {
+  padding: 16px;
+  margin-bottom: 16px;
+  border-radius: 16px;
+  background: white;
+}
+:root .settings-group h2 { margin: 0 0 8px; font-size: 18px; }
+:root .settings-group > :is(button, a) {
+  width: 100%; min-height: 48px;
+  display: flex; align-items: center; gap: 12px;
+  padding: 10px 0; border: 0; border-bottom: 1px solid var(--line);
+  background: transparent; color: var(--deep); text-align: left;
+}
+:root .settings-group > :is(button, a) > svg:last-child { margin-left: auto; flex-shrink: 0; }
+:root .settings-group p { color: var(--muted); font-size: 14px; line-height: 1.6; }

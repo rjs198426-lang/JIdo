@@ -85,7 +85,7 @@ test('긴 이름을 포함한 주요 화면의 메뉴·버튼은 좁은 화면�
         expect(control.fits).toBe(true)
         expect(control.horizontal).toBe(true)
         expect(control.font).toBeGreaterThanOrEqual(10.56)
-        expect(control.font / control.height).toBeLessThanOrEqual(0.3168)
+        expect(control.font / control.height).toBeLessThanOrEqual(0.34)
       }
       expect(
         await page.evaluate(

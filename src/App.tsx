@@ -13,7 +13,8 @@ import {
 import { bundledImage } from './bundled-image'
 import { startContentUpdates } from './content-release'
 import TimelineRail, { timelineDistance } from './TimelineRail'
-import ScheduleToolbar from './ScheduleToolbar'
+import SettingsPage from './SettingsPage'
+import { Settings } from 'lucide-react'
 import ScheduleStopInfo from './ScheduleStopInfo'
 import ScheduleOrderDialog from './ScheduleOrderDialog'
 import {
@@ -172,7 +173,7 @@ import {
   type Stop,
 } from './store'
 
-type Page = 'home' | 'trips' | 'explore'
+type Page = 'home' | 'trips' | 'explore' | 'settings'
 type Dialog =
   | { type: 'credits' }
   | { type: 'reminders' }
@@ -208,6 +209,7 @@ const navigation = [
   { id: 'home' as const, name: '홈', icon: Home },
   { id: 'trips' as const, name: '내 여행', icon: Luggage },
   { id: 'explore' as const, name: '여행지', icon: Compass },
+  { id: 'settings' as const, name: '설정', icon: Settings },
 ]
 const categoryIcon = {
   관광: MapPin,
@@ -1440,27 +1442,6 @@ function Itinerary({
                       )}
                     </div>
                   )}
-                  {stops.length > 0 && (
-                    <details className="timeline-find">
-                      <summary>
-                        일정 찾기·필터 <span>{stops.length}곳</span>
-                      </summary>
-                      <ScheduleToolbar
-                        trip={trip}
-                        day={day}
-                        filter={scheduleFilter}
-                        onFilter={setScheduleFilter}
-                        visible={visibleStops.length}
-                        onNext={(stop) =>
-                          locate({
-                            workspace: 'schedule',
-                            day,
-                            stopId: stop.id,
-                          })
-                        }
-                      />
-                    </details>
-                  )}
                   {orderUndo && (
                     <div className="undo-strip" role="status">
                       DAY {orderUndo.day + 1} · 방문 순서를 변경했어요.
@@ -2467,6 +2448,14 @@ export default function App() {
         </div>
       </header>
       <main className="main">
+        {page === 'settings' && (
+          <SettingsPage
+            onReminders={() => setDialog({ type: 'reminders' })}
+            onNearby={() => setDialog({ type: 'nearby' })}
+            onPhotoCredits={() => setDialog({ type: 'credits' })}
+            onBackup={() => setDialog({ type: 'backup' })}
+          />
+        )}
         {page === 'home' && (
           <TravelHome
             journey={home}

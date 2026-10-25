@@ -35,7 +35,7 @@ export default function DayNavigation({
         >
           {trip.days.map((_, i) => (
             <option key={i} value={i}>
-              DAY {i + 1} · {formatDate(dateAt(trip.startDate, i))}
+              {formatDate(dateAt(trip.startDate, i), true)}
             </option>
           ))}
         </select>
@@ -55,9 +55,10 @@ export default function DayNavigation({
           aria-label="여행 날짜"
           ref={tabs}
         >
-          {trip.days.map((stops, i) => (
+          {trip.days.map((_, i) => (
             <button
               role="tab"
+              aria-label={`DAY ${i + 1} · ${formatDate(dateAt(trip.startDate, i), true)}`}
               aria-selected={i === day}
               aria-controls="day-panel"
               id={`day-tab-${i}`}
@@ -85,9 +86,7 @@ export default function DayNavigation({
                 }
               }}
             >
-              <strong>DAY {i + 1}</strong>
-              <span>{formatDate(dateAt(trip.startDate, i))}</span>
-              <small>{stops.length ? `${stops.length}곳` : '비어 있음'}</small>
+              <span>{formatDate(dateAt(trip.startDate, i), true)}</span>
             </button>
           ))}
         </div>
