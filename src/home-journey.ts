@@ -105,6 +105,7 @@ export function homeJourney(
   return {
     ...selected,
     day,
+    scheduleDay: selected.currentDay ?? (selected.phase === 'upcoming' ? 0 : trip.days.length - 1),
     destination,
     city,
     heroCity,

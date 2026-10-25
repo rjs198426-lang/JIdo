@@ -174,7 +174,7 @@ test('기억한 날짜의 도시·사진·새 추천을 사용하고 일정에 �
     .allTextContents())
     expect(expected.some((p) => p.name === title)).toBe(true)
   await expect(recommendations).not.toContainText('뜨갈랄랑 라이스 테라스')
-  await expect(page.locator('.home-next-day')).toContainText('DAY 2 · 발리')
+  await expect(page.locator('.home-next-day')).toContainText('DAY 1 · 방콕')
   await expect(page.locator('.home-status-grid')).toContainText('5,000')
   await expect(page.locator('.home-status-grid .home-status-caption')).toHaveCount(0)
 })
@@ -210,7 +210,7 @@ test('홈 바로가기와 더 보기는 같은 여행·날짜·도시로 연결�
     .getByRole('button', { name: '일정 보기', exact: true })
     .click()
   await expect(page.locator('.trip-banner')).toContainText(near.title)
-  await expect(page.getByRole('tab', { name: /DAY 2/ })).toHaveAttribute(
+  await expect(page.getByRole('tab', { name: /DAY 1/ })).toHaveAttribute(
     'aria-selected',
     'true',
   )
@@ -427,4 +427,15 @@ test('홈을 열어 둔 채 현지 여행 날짜가 바뀌어 복귀해도 오�
   expect(
     await page.evaluate(() => localStorage.getItem('jido-travel-v1')),
   ).toBe(before)
+})
+
+
+test('홈 일정 날짜는 기억한 날짜 대신 오늘과 가장 가까운 체류일이며 현지 날짜를 따름', () => {
+  const trip = structuredClone(near)
+  const before = JSON.stringify(trip)
+  expect(homeJourney([trip], trip.id, now)!.scheduleDay).toBe(0)
+  expect(homeJourney([trip], trip.id, new Date('2026-11-10T03:00:00Z'))!.scheduleDay).toBe(0)
+  expect(homeJourney([trip], trip.id, new Date('2026-11-10T17:00:00Z'))!.scheduleDay).toBe(1)
+  expect(homeJourney([trip], trip.id, new Date('2026-11-12T03:00:00Z'))!.scheduleDay).toBe(1)
+  expect(JSON.stringify(trip)).toBe(before)
 })

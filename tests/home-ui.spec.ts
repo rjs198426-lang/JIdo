@@ -128,8 +128,8 @@ test('홈 현황은 실제 기록이며 바로가기는 기억한 날짜의 해�
 }) => {
   await seed(page)
   await expect(page.locator('.home-journey-card')).toContainText('도쿄 · 교토')
-  await expect(page.locator('.home-next-day')).toContainText('DAY 2 · 교토')
-  await expect(page.locator('.home-next-day')).toContainText('기요미즈데라')
+  await expect(page.locator('.home-next-day')).toContainText('DAY 1 · 도쿄')
+  await expect(page.locator('.home-next-day')).toContainText('센소지')
   const stats = page.locator('.home-status-grid')
   await expect(stats.getByRole('button', { name: /준비물/ })).toContainText(
     '1 / 2',
@@ -148,11 +148,11 @@ test('홈 현황은 실제 기록이며 바로가기는 기억한 날짜의 해�
     .locator('.home-next-day')
     .getByRole('button', { name: '일정 보기' })
     .click()
-  await expect(page.getByRole('tab', { name: /DAY 2/ })).toHaveAttribute(
+  await expect(page.getByRole('tab', { name: /DAY 1/ })).toHaveAttribute(
     'aria-selected',
     'true',
   )
-  await expect(page.locator('.timeline-item')).toContainText('기요미즈데라')
+  await expect(page.locator('.timeline-item')).toContainText('센소지')
   const value = await page.evaluate(
     () => JSON.parse(localStorage.getItem('jido-travel-v1')!).trips[0],
   )

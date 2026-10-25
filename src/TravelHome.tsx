@@ -20,7 +20,7 @@ import {
 } from 'lucide-react'
 import { convertedTotal, currencyTotals } from './finance'
 import { pendingStops } from './journey-personal'
-import { formatDate, today } from './store'
+import { dateAt, formatDate, today } from './store'
 import {
   destinationForDay,
   money,
@@ -52,6 +52,7 @@ export default function TravelHome(props: Props) {
   const focused = !!journey?.personalized
   const currentDay = journey?.currentDay ?? null
   const day = journey?.day ?? 0
+  const scheduleDay = journey?.scheduleDay ?? 0
   const phase = !journey
     ? ''
     : journey.phase === 'ongoing'
@@ -65,7 +66,7 @@ export default function TravelHome(props: Props) {
     (item) => item.status !== 'cancelled',
   )
   const conversion = trip ? convertedTotal(trip) : null
-  const next = trip ? pendingStops(trip, day).slice(0, 3) : []
+  const next = trip ? pendingStops(trip, scheduleDay).slice(0, 3) : []
   const shortcuts = [
     {
       label: '여행지 둘러보기',
@@ -254,13 +255,13 @@ export default function TravelHome(props: Props) {
             <div className="home-section-heading">
               <div>
                 <span className="home-kicker">
-                  DAY {day + 1} · {destinationForDay(trip, day).name}
+                  {formatDate(dateAt(trip.startDate, scheduleDay))} · DAY {scheduleDay + 1} · {destinationForDay(trip, scheduleDay).name}
                 </span>
                 <h2>{currentDay !== null ? '오늘의 일정' : '여행 일정'}</h2>
               </div>
               <button
                 className="text-button"
-                onClick={() => props.onOpenTrip(trip, 'schedule', day)}
+                onClick={() => props.onOpenTrip(trip, 'schedule', scheduleDay)}
               >
                 일정 보기
                 <ArrowRight size={16} />
@@ -272,7 +273,7 @@ export default function TravelHome(props: Props) {
                   <li key={stop.id}>
                     <span>{stop.time}</span>
                     <button
-                      onClick={() => props.onOpenTrip(trip, 'schedule', day)}
+                      onClick={() => props.onOpenTrip(trip, 'schedule', scheduleDay)}
                     >
                       <strong>{stopDetails(stop).name}</strong>
                       <Chevron />
@@ -283,10 +284,10 @@ export default function TravelHome(props: Props) {
             ) : (
               <button
                 className="home-empty-day"
-                onClick={() => props.onOpenTrip(trip, 'schedule', day)}
+                onClick={() => props.onOpenTrip(trip, 'schedule', scheduleDay)}
               >
                 <CalendarDays size={23} />
-                {trip.days[day].length
+                {trip.days[scheduleDay].length
                   ? '이날의 여행 기록 보기'
                   : '이날의 첫 장소 정하기'}
                 <ArrowRight size={17} />
