@@ -8,7 +8,7 @@ const android = readFileSync(
 const version = android.match(/^\s*versionName\s+"([^"]+)"/m)![1]
 const build = android.match(/^\s*versionCode\s+(\d+)/m)![1]
 
-test('앱 정보 토글에서 실제 Android 버전·저장 안내를 보고 다시 접을 수 있음', async ({
+test('앱 정보 토글에서 실제 Android 버전를 보고 다시 접을 수 있음', async ({
   page,
 }) => {
   await page.goto('/')
@@ -33,7 +33,7 @@ test('앱 정보 토글에서 실제 Android 버전·저장 안내를 보고 다
     info.locator('dl > div').filter({ hasText: '빌드 번호' }).locator('dd'),
   ).toHaveText(build)
   await expect(info).toContainText('Android')
-  await expect(info).toContainText('이 기기에 저장')
+  await expect(info.locator('button,a,.content-updates,.app-information-storage')).toHaveCount(0)
   await toggle.click()
   await expect(info).toHaveCount(0)
   expect(
@@ -71,14 +71,12 @@ test('키보드로 사진 출처를 열고 모든 출처와 검색·복귀 초�
 }) => {
   await page.goto('/')
   await context.setOffline(true)
-  const toggle = page.getByRole('button', { name: '앱 정보', exact: true })
-  await toggle.focus()
-  await page.keyboard.press('Enter')
-  await page.keyboard.press('Tab')
+  await page.locator('.desktop-nav:visible, .bottom-nav:visible').getByRole('button', { name: '설정', exact: true }).click()
   const credits = page.getByRole('button', { name: '사진 출처', exact: true })
+  await credits.focus()
   await expect(credits).toBeFocused()
   await page.keyboard.press('Enter')
-  await expect(page.getByRole('region', { name: '앱 정보' })).toHaveCount(0)
+  await expect(page.locator('.app-information-panel')).toHaveCount(0)
   const dialog = page.getByRole('dialog', { name: '사진 출처' })
   await expect(dialog).toBeVisible()
   await expect(dialog.locator('.photo-credit-entry')).toHaveCount(95)
@@ -88,11 +86,10 @@ test('키보드로 사진 출처를 열고 모든 출처와 검색·복귀 초�
     dialog.getByRole('link', { name: '사진 원본', exact: true }).first(),
   ).toBeVisible()
   await dialog.getByRole('button', { name: '닫기', exact: true }).click()
-  await expect(toggle).toBeFocused()
-  await expect(toggle).toHaveAttribute('aria-expanded', 'false')
+  await expect(credits).toBeFocused()
 })
 
-test('좁은 화면·큰 글자·가로 모드에서도 메뉴와 사진 출처 버튼이 화면 안에 위치', async ({
+test('좁은 화면·큰 글자·가로 모드에서도 간단한 앱 정보가 화면 안에 위치', async ({
   page,
 }) => {
   await page.goto('/')
@@ -116,13 +113,7 @@ test('좁은 화면·큰 글자·가로 모드에서도 메뉴와 사진 출처 
         (element) => element.scrollWidth <= element.clientWidth + 1,
       ),
     ).toBe(true)
-    const credits = panel.getByRole('button', {
-      name: '사진 출처',
-      exact: true,
-    })
-    await credits.scrollIntoViewIfNeeded()
-    expect((await credits.boundingBox())!.height).toBeGreaterThanOrEqual(44 * 0.9)
-    await expect(credits).toBeInViewport()
+    await expect(panel.locator('button,a,.content-updates')).toHaveCount(0)
     await page.screenshot({
       path: `/tmp/jido-app-information-${size.width}.png`,
     })

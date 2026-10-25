@@ -81,8 +81,7 @@ async function boot(page: Page, cache?: unknown, tripPlace = 'kiyomizu') {
   await expect(page.locator('.travel-home')).toBeVisible()
 }
 async function panel(page: Page) {
-  const info = page.getByRole('button', { name: '앱 정보', exact: true })
-  if ((await info.getAttribute('aria-expanded')) !== 'true') await info.click()
+  await page.locator('.desktop-nav:visible,.bottom-nav:visible').getByRole('button', { name: '설정', exact: true }).click()
   return page.getByRole('region', { name: '여행 정보 업데이트', exact: true })
 }
 async function update(page: Page) {
@@ -137,6 +136,7 @@ test('검증된 정보 적용·재실행·오프라인 사용과 개인 기록 �
     await page.evaluate(() => localStorage.getItem('jido-travel-v1')),
   ).toBe(personal)
   await page.keyboard.press('Escape')
+  await page.locator('.desktop-nav:visible,.bottom-nav:visible').getByRole('button', { name: '홈', exact: true }).click()
   await openTrips(page)
   await page.getByRole('button', { name: '장소 추가', exact: true }).click()
   await page
@@ -149,6 +149,7 @@ test('검증된 정보 적용·재실행·오프라인 사용과 개인 기록 �
   await expect(page.locator('.timeline-item').last()).toContainText(spot.name)
   await page.reload()
   await context.setOffline(true)
+  await page.locator('.desktop-nav:visible,.bottom-nav:visible').getByRole('button', { name: '홈', exact: true }).click()
   await openTrips(page)
   await expect(
     page.locator('.timeline-item').filter({ hasText: spot.name }),
@@ -168,6 +169,7 @@ test('삭제된 원격 장소도 기존 일정과 재실행에서 보존', async
   await boot(page)
   await expect(await update(page)).toContainText('저장했어요')
   await page.keyboard.press('Escape')
+  await page.locator('.desktop-nav:visible,.bottom-nav:visible').getByRole('button', { name: '홈', exact: true }).click()
   await openTrips(page)
   await page.getByRole('button', { name: '장소 추가', exact: true }).click()
   await page
@@ -181,6 +183,7 @@ test('삭제된 원격 장소도 기존 일정과 재실행에서 보존', async
   await expect(await update(page)).toContainText('저장했어요')
   expect(JSON.parse((await saved(page))!).retainedPlaces[0].id).toBe(spot.id)
   await page.reload()
+  await page.locator('.desktop-nav:visible,.bottom-nav:visible').getByRole('button', { name: '홈', exact: true }).click()
   await openTrips(page)
   await expect(
     page.locator('.timeline-item').filter({ hasText: spot.name }),
@@ -255,7 +258,8 @@ for (const failure of [
       await page.evaluate(() => localStorage.getItem('jido-travel-v1')),
     ).toBe(personal)
     await page.keyboard.press('Escape')
-    await openTrips(page)
+    await page.locator('.desktop-nav:visible,.bottom-nav:visible').getByRole('button', { name: '홈', exact: true }).click()
+  await openTrips(page)
     await expect(page.locator('.timeline-item')).toContainText(spot.name)
     await expect(page.locator('.timeline-item')).not.toContainText(
       '적용되면 안 되는',
@@ -281,6 +285,7 @@ test('새 APK가 오래된 공개 정보를 대체해도 과거 장소 참조 �
     page.getByRole('button', { name: '괌 여행지 자세히 보기', exact: true }),
   ).toBeVisible()
   await page.reload()
+  await page.locator('.desktop-nav:visible,.bottom-nav:visible').getByRole('button', { name: '홈', exact: true }).click()
   await openTrips(page)
   await expect(page.locator('.timeline-item')).toContainText(spot.name)
 })
@@ -375,6 +380,7 @@ test('공개 업데이트가 개인 가이드 설명·장소·사진을 덮어�
     await page.evaluate(() => localStorage.getItem('jdo-guide-catalog-v1')),
   ).toBe(before)
   await page.keyboard.press('Escape')
+  await page.locator('.desktop-nav:visible,.bottom-nav:visible').getByRole('button', { name: '홈', exact: true }).click()
   await openTrips(page)
   await expect(page.locator('.timeline-item')).toContainText(
     '개인 가이드의 장소',

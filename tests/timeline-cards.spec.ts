@@ -311,7 +311,7 @@ test('앱 정보의 0.x 개발판 표시와 업데이트 가능한 내부 빌드
   page,
 }) => {
   await seed(page)
-  await page.getByRole('button', { name: '앱 정보', exact: true }).click()
+  await page.locator('.desktop-nav:visible,.bottom-nav:visible').getByRole('button', { name: '설정', exact: true }).click()
   const panel = page.getByRole('region', { name: '앱 정보', exact: true })
   expect(version).toMatch(/^0\.\d+$/)
   expect(Number(build)).toBeGreaterThan(51)

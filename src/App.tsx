@@ -2414,18 +2414,6 @@ export default function App() {
               open={infoOpen}
               onToggle={() => setInfoOpen((value) => !value)}
               onClose={() => setInfoOpen(false)}
-              onReminders={() => {
-                setInfoOpen(false)
-                setDialog({ type: 'reminders' })
-              }}
-              onNearby={() => {
-                setInfoOpen(false)
-                setDialog({ type: 'nearby' })
-              }}
-              onPhotoCredits={() => {
-                setInfoOpen(false)
-                setDialog({ type: 'credits' })
-              }}
             />
             <button
               className="header-search icon-button"

@@ -172,7 +172,7 @@ test('개인 대표 사진·기존 출처와 장소 소개의 새 사진을 함�
     optimizedImage(photo.image),
   )
   await dialog.getByRole('button', { name: '닫기', exact: true }).click()
-  await page.getByRole('button', { name: '앱 정보', exact: true }).click()
+  await page.locator('.desktop-nav:visible,.bottom-nav:visible').getByRole('button', { name: '설정', exact: true }).click()
   await page.getByRole('button', { name: '사진 출처', exact: true }).click()
   await expect(page.locator('.photo-credit-entry')).toHaveCount(95)
   for (const photo of photos) {

@@ -1,22 +1,15 @@
 import { useEffect, useId, useRef } from 'react'
-import { ChevronRight, Image, Info } from 'lucide-react'
+import { Info } from 'lucide-react'
 import './app-information.css'
-import ContentUpdates from './ContentUpdates'
 
 export default function AppInformation({
   open,
   onToggle,
   onClose,
-  onPhotoCredits,
-  onReminders,
-  onNearby,
 }: {
   open: boolean
   onToggle: () => void
   onClose: () => void
-  onPhotoCredits: () => void
-  onReminders: () => void
-  onNearby: () => void
 }) {
   const root = useRef<HTMLDivElement>(null)
   const toggle = useRef<HTMLButtonElement>(null)
@@ -87,46 +80,6 @@ export default function AppInformation({
               <dd>Android</dd>
             </div>
           </dl>
-          <p className="app-information-storage">
-            여행 기록은 이 기기에 저장돼요. 내 여행의 여행 백업·공유에서
-            사진·파일과 함께 백업할 수 있어요.
-          </p>
-          <button
-            type="button"
-            className="app-information-link"
-            onClick={() => {
-              // Keep a persistent return target for the credits dialog.
-              toggle.current?.focus()
-              onPhotoCredits()
-            }}
-          >
-            <Image size={18} aria-hidden="true" />
-            <span>사진 출처</span>
-            <ChevronRight size={18} aria-hidden="true" />
-          </button>
-          <a
-            className="app-information-link"
-            href="https://github.com/rjs198426-lang/JIdo/blob/main/APP-TERMS.md"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            이용 안내
-          </a>
-          <a
-            className="app-information-link"
-            href="https://github.com/rjs198426-lang/JIdo/blob/main/PRIVACY.md"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            개인정보 처리 안내
-          </a>
-          <button className="app-information-link" onClick={onReminders}>
-            여행 알림 설정 <ChevronRight size={18} />
-          </button>
-          <button className="app-information-link" onClick={onNearby}>
-            내 주변 맛집·카페 <ChevronRight size={18} />
-          </button>
-          <ContentUpdates />
         </section>
       )}
     </div>

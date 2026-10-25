@@ -1,3 +1,4 @@
+import { readFileSync } from 'node:fs'
 import { test, expect } from '@playwright/test'
 import { openTrips } from './navigation'
 
@@ -38,7 +39,7 @@ test('설정 탭에서 앱 버전·알림·위치·출처를 열고 돌아오기
     await page.setViewportSize({ width, height: 850 })
     await page.locator('.bottom-nav:visible,.desktop-nav:visible').getByRole('button', { name: '설정', exact: true }).click()
     await expect(page.getByRole('heading', { name: '설정', exact: true })).toBeVisible()
-    await expect(page.locator('.settings-version')).toContainText('0.66')
+    await expect(page.locator('.settings-version')).toContainText(readFileSync(new URL('../android/app/build.gradle', import.meta.url), 'utf8').match(/versionName\s+"([^"]+)"/)![1])
     await page.getByRole('button', { name: '여행 알림 설정', exact: true }).click()
     await expect(page.getByRole('dialog')).toHaveAccessibleName('여행 알림 설정')
     await page.getByRole('dialog').getByRole('button', { name: '닫기', exact: true }).click()
