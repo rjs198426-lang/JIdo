@@ -176,7 +176,7 @@ test('기억한 날짜의 도시·사진·새 추천을 사용하고 일정에 �
   await expect(recommendations).not.toContainText('뜨갈랄랑 라이스 테라스')
   await expect(page.locator('.home-next-day')).toContainText('DAY 2 · 발리')
   await expect(page.locator('.home-status-grid')).toContainText('5,000')
-  await expect(page.locator('.home-status-grid')).toContainText('1개 남음')
+  await expect(page.locator('.home-status-grid .home-status-caption')).toHaveCount(0)
 })
 
 test('홈 바로가기와 더 보기는 같은 여행·날짜·도시로 연결하고 단순 홈 조회는 선택 기록을 바꾸지 않음', async ({

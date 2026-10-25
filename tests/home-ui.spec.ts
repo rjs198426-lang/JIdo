@@ -132,7 +132,7 @@ test('홈 현황은 실제 기록이며 바로가기는 기억한 날짜의 해�
   await expect(page.locator('.home-next-day')).toContainText('기요미즈데라')
   const stats = page.locator('.home-status-grid')
   await expect(stats.getByRole('button', { name: /준비물/ })).toContainText(
-    '1개 남음',
+    '1 / 2',
   )
   await expect(stats.getByRole('button', { name: /여행 경비/ })).toContainText(
     '15,000',
@@ -256,14 +256,12 @@ test('긴 여행 이름과 큰 경비도 현황 정렬 및 하단 메뉴 여백�
       nodes.map((node) => {
         const rect = node.getBoundingClientRect()
         const title = node.querySelector('span')!.getBoundingClientRect()
-        const caption = node
-          .querySelector('.home-status-caption')!
-          .getBoundingClientRect()
+        const amount = node.querySelector('strong')!.getBoundingClientRect()
         return {
           y: rect.y,
           height: rect.height,
           title: title.y,
-          caption: caption.y,
+          amount: amount.y,
         }
       }),
     )

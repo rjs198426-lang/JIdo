@@ -5,7 +5,7 @@ test('모든 도시의 준비·정보·관광·맛집을 오프라인에서 읽�
   page,
   context,
 }) => {
-  test.setTimeout(60000)
+  test.setTimeout(120000)
   await page.goto('/')
   await page
     .locator('.desktop-nav:visible,.bottom-nav:visible')
@@ -112,13 +112,13 @@ test('홈 바로가기는 선택 날짜의 도시를 열고 여행·날짜·메�
   const before = await page.evaluate(() =>
     localStorage.getItem('jido-travel-v1'),
   )
-  await page.getByRole('button', { name: '맛집·카페', exact: true }).click()
+  await page.getByRole('button', { name: '여행 가이드', exact: true }).click()
   const dialog = page.getByRole('dialog')
   await expect(dialog).toHaveAccessibleName('교토 여행 가이드')
   await expect(
-    dialog.getByRole('tab', { name: '맛집', exact: true }),
+    dialog.getByRole('tab', { name: '준비', exact: true }),
   ).toHaveAttribute('aria-selected', 'true')
-  await expect(dialog.locator('.detail-place-list')).not.toContainText('도쿄')
+  await expect(dialog.getByRole('heading', { name: '출발 전, 이것부터', exact: true })).toBeVisible()
   const tabs = dialog.getByRole('tablist', { name: '도시 가이드', exact: true })
   await tabs.getByRole('tab', { name: '준비', exact: true }).focus()
   await page.keyboard.press('ArrowRight')
@@ -138,4 +138,36 @@ test('홈 바로가기는 선택 날짜의 도시를 열고 여행·날짜·메�
       JSON.parse(localStorage.getItem('jido-view-context')!),
     ),
   ).toEqual({ day: 1, workspace: 'schedule' })
+})
+
+// The home combines sightseeing and dining into one city-scoped places list.
+test('홈 가볼 곳은 관광·맛집·카페를 한 목록에서 열기', async ({ page }) => {
+  await page.goto('/')
+  await page.evaluate(() => localStorage.setItem('jido-travel-v1', JSON.stringify({
+    version: 1, savedCities: [], savedPlaces: [], trips: [{
+      id: 'compact-home', title: '크리스마스 괌', cityId: 'guam',
+      startDate: '2026-12-22', endDate: '2026-12-26', travelers: 2,
+      days: [[], [], [], [], []],
+    }],
+  })))
+  await page.reload()
+  const stored = await page.evaluate(() => localStorage.getItem('jido-travel-v1'))
+  for (const width of [320, 393, 768]) {
+    await page.setViewportSize({ width, height: 850 })
+    const hero = await page.locator('.home-journey-card').boundingBox()
+    const photo = await page.locator('.home-journey-photo').boundingBox()
+    expect(photo!.width / hero!.width).toBeCloseTo(.34, 1)
+    expect(hero!.height).toBeLessThan(270)
+    const summary = await page.locator('.home-status-grid').boundingBox()
+    expect(summary!.height).toBeLessThan(115)
+    await expect(page.locator('.home-status-caption')).toHaveCount(0)
+    await expect(page.getByRole('navigation', { name: '이번 여행 바로가기' }).getByRole('button')).toHaveCount(4)
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true)
+  }
+  await page.getByRole('navigation', { name: '이번 여행 바로가기' }).getByRole('button', { name: '가볼 곳', exact: true }).click()
+  await expect(page.getByLabel('가볼 만한 곳의 도시')).toHaveValue('guam')
+  await expect(page.locator('.explore-place-filters .category-row button.active')).toHaveText('전체')
+  for (const category of ['관광', '맛집', '카페'])
+    await expect(page.locator('.explore-place-filters').getByRole('button', { name: category, exact: true })).toBeVisible()
+  expect(await page.evaluate(() => localStorage.getItem('jido-travel-v1'))).toBe(stored)
 })

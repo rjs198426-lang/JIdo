@@ -6,7 +6,6 @@ import type { HomeJourney } from './home-journey'
 import {
   ArrowRight,
   BookOpen,
-  Utensils,
   Map,
   CalendarDays,
   CheckSquare,
@@ -65,9 +64,6 @@ export default function TravelHome(props: Props) {
   const reservations = (trip?.reservations || []).filter(
     (item) => item.status !== 'cancelled',
   )
-  const unconfirmed = reservations.filter(
-    (item) => item.status !== 'confirmed',
-  ).length
   const conversion = trip ? convertedTotal(trip) : null
   const next = trip ? pendingStops(trip, day).slice(0, 3) : []
   const shortcuts = [
@@ -179,22 +175,18 @@ export default function TravelHome(props: Props) {
       )}
       {trip && journey && (
         <nav className="home-context-nav" aria-label="이번 여행 바로가기">
-          {journey.city &&
-            (
-              [
-                ['ready', '여행 가이드', BookOpen],
-                ['tourism', '가볼 곳', Map],
-                ['dining', '맛집·카페', Utensils],
-              ] as const
-            ).map(([tab, label, Icon]) => (
-              <button
-                key={tab}
-                onClick={() => props.onGuide(journey.city!.id, tab)}
-              >
-                <Icon size={21} />
-                <span>{label}</span>
+          {journey.city && (
+            <>
+              <button onClick={() => props.onGuide(journey.city!.id, 'ready')}>
+                <BookOpen size={21} />
+                <span>여행 가이드</span>
               </button>
-            ))}
+              <button onClick={() => props.onExplore(false, true, journey.city!.id)}>
+                <Map size={21} />
+                <span>가볼 곳</span>
+              </button>
+            </>
+          )}
           <button onClick={() => props.onOpenTrip(trip, 'reservations', day)}>
             <Ticket size={21} />
             <span>내 예약</span>
@@ -237,11 +229,6 @@ export default function TravelHome(props: Props) {
                 {completed}
                 <small> / {checklist.length}</small>
               </strong>
-              <span className="home-status-caption">
-                {checklist.length
-                  ? `${checklist.length - completed}개 남음`
-                  : '준비물 챙기기'}
-              </span>
             </button>
             <button onClick={() => props.onOpenTrip(trip, 'reservations', day)}>
               <Ticket size={20} />
@@ -250,11 +237,6 @@ export default function TravelHome(props: Props) {
                 {reservations.length}
                 <small>건</small>
               </strong>
-              <span className="home-status-caption">
-                {unconfirmed
-                  ? `${unconfirmed}건 확인 필요`
-                  : '미확인 예약 없음'}
-              </span>
             </button>
             <button onClick={() => props.onOpenTrip(trip, 'expenses', day)}>
               <Wallet size={20} />
@@ -266,9 +248,6 @@ export default function TravelHome(props: Props) {
                       .join(' · ')
                   : money(conversion!.total, conversion!.currency)}
               </strong>
-              <span className="home-status-caption">
-                {(trip.expenses || []).length}건 기록
-              </span>
             </button>
           </div>
           <div className="home-next-day">

@@ -1738,3 +1738,91 @@ body {
   align-items: center;
   cursor: pointer;
 }
+
+/* 0.64: compact home overview, with one destination places shortcut. */
+:root .travel-home {
+  padding-top: 18px;
+}
+:root .home-heading {
+  margin-bottom: 14px;
+}
+:root .home-journey-card {
+  position: relative;
+  grid-template-columns: minmax(0, 1fr) 34%;
+  border-radius: 18px;
+}
+:root .home-journey-copy {
+  padding: 16px;
+}
+:root .home-journey-copy h2 {
+  margin: 8px 0 6px;
+  font-size: clamp(19px, 1rem + .5vw, 23px);
+  line-height: 1.35;
+}
+:root .home-journey-cities {
+  margin-block: 0;
+}
+:root .home-journey-dates {
+  gap: 5px;
+  margin-top: 5px;
+}
+:root .home-journey-meta {
+  gap: 10px;
+  margin: 8px 0 12px;
+}
+:root .home-journey-photo {
+  position: absolute;
+  inset: 0 0 0 auto;
+  width: 34%;
+  height: 100%;
+  min-height: 0;
+  object-fit: cover;
+}
+:root .home-context-nav {
+  gap: 8px;
+  padding: 8px 0 12px;
+}
+:root .home-context-nav button {
+  flex-basis: 68px;
+  min-height: 66px;
+  gap: 7px;
+  padding: 10px 6px;
+  font-size: 13px;
+  border-radius: 14px;
+}
+:root .home-trip-overview {
+  margin-top: 16px;
+  gap: 16px;
+}
+:root .home-status-grid {
+  grid-template-rows: 20px auto minmax(24px, 1fr);
+  row-gap: 5px;
+  padding: 12px 0;
+  border-radius: 16px;
+}
+:root .home-status-grid > button {
+  grid-row: span 3;
+  grid-template-rows: 20px auto minmax(24px, 1fr);
+  gap: 5px;
+  padding: 0 12px;
+}
+:root .home-status-grid > button > strong {
+  font-size: clamp(17px, 3.5vw, 20px);
+  align-self: start;
+}
+:root .home-status-grid > button > span {
+  font-size: 12px;
+}
+:root .home-status-grid svg {
+  width: 18px;
+  height: 18px;
+}
+@supports (grid-template-rows: subgrid) {
+  :root .home-status-grid > button {
+    grid-template-rows: subgrid;
+  }
+}
+@media (max-width: 360px) {
+  :root .home-journey-copy { padding: 14px 12px; }
+  :root .home-status-grid > button { padding-inline: 10px; }
+}
