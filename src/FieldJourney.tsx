@@ -1,3 +1,4 @@
+import LiveNearby from './LiveNearby'
 import PlaceSource from './PlaceSource'
 import { placeIntroduction } from './place-introduction'
 import { tripClock, destinationTimeZone } from './destination-time'
@@ -42,6 +43,7 @@ export default function FieldJourney({
   onAdd,
   onExpense,
   onReservation,
+  onPlace,
 }: {
   trip: Trip
   day: number
@@ -51,6 +53,7 @@ export default function FieldJourney({
   onAdd: () => void
   onExpense: (stop?: Stop) => void
   onReservation: (id: string) => void
+  onPlace: (id: string) => void
 }) {
   const pending = pendingStops(trip, day),
     next = pending[0],
@@ -285,6 +288,7 @@ export default function FieldJourney({
           </button>
         </div>
       </div>
+      <LiveNearby next={next} onOpen={onPlace} />
       {dayReservations.length > 0 && (
         <details
           className="field-day-bookings"

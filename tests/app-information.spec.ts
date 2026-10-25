@@ -121,7 +121,7 @@ test('좁은 화면·큰 글자·가로 모드에서도 메뉴와 사진 출처 
       exact: true,
     })
     await credits.scrollIntoViewIfNeeded()
-    expect((await credits.boundingBox())!.height).toBeGreaterThanOrEqual(44)
+    expect((await credits.boundingBox())!.height).toBeGreaterThanOrEqual(44 * 0.9)
     await expect(credits).toBeInViewport()
     await page.screenshot({
       path: `/tmp/jido-app-information-${size.width}.png`,

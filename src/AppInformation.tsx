@@ -8,11 +8,15 @@ export default function AppInformation({
   onToggle,
   onClose,
   onPhotoCredits,
+  onReminders,
+  onNearby,
 }: {
   open: boolean
   onToggle: () => void
   onClose: () => void
   onPhotoCredits: () => void
+  onReminders: () => void
+  onNearby: () => void
 }) {
   const root = useRef<HTMLDivElement>(null)
   const toggle = useRef<HTMLButtonElement>(null)
@@ -116,6 +120,12 @@ export default function AppInformation({
           >
             개인정보 처리 안내
           </a>
+          <button className="app-information-link" onClick={onReminders}>
+            여행 알림 설정 <ChevronRight size={18} />
+          </button>
+          <button className="app-information-link" onClick={onNearby}>
+            내 주변 맛집·카페 <ChevronRight size={18} />
+          </button>
           <ContentUpdates />
         </section>
       )}

@@ -1,3 +1,4 @@
+import { Bell, LocateFixed } from 'lucide-react'
 import CityPhoto from './CityPhoto'
 import type { CityGuideTab } from './CityGuide'
 import type { ReactNode } from 'react'
@@ -30,6 +31,8 @@ import {
 } from './travel-model'
 
 type Props = {
+  onReminders: () => void
+  onNearby: () => void
   journey?: HomeJourney
   trips: Trip[]
   cities: ReactNode
@@ -202,6 +205,15 @@ export default function TravelHome(props: Props) {
           </button>
         </nav>
       )}
+      <div className="home-service-links">
+        <button onClick={props.onReminders}>
+          <Bell size={17} />
+          여행 알림 설정
+        </button>
+        <button onClick={props.onNearby}>
+          <LocateFixed size={17} />내 주변 맛집
+        </button>
+      </div>
       {!focused && (
         <nav className="home-shortcuts" aria-label="여행 바로가기">
           {shortcuts.map(({ label, icon: Icon, color, action }) => (

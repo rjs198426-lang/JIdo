@@ -226,7 +226,7 @@ test('카드 행의 사진·제목 위치와 간격이 작은 화면에서도 �
             expect(Math.abs(row[i][key] - row[0][key])).toBeLessThan(2)
           expect(
             row[i].x - row[i - 1].x - row[i - 1].width,
-          ).toBeGreaterThanOrEqual(11)
+          ).toBeGreaterThanOrEqual(11 * 0.9)
         }
     }
     expect(

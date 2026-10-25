@@ -1,3 +1,6 @@
+import ReminderSettings from './ReminderSettings'
+import LiveNearby from './LiveNearby'
+import { useTravelReminders } from './reminder-service'
 import { layoutHeight } from './ui-scale'
 import { Ticket, CheckSquare, Wallet } from 'lucide-react'
 import DayNavigation from './DayNavigation'
@@ -172,6 +175,8 @@ import {
 type Page = 'home' | 'trips' | 'explore'
 type Dialog =
   | { type: 'credits' }
+  | { type: 'reminders' }
+  | { type: 'nearby' }
   | { type: 'expense'; tripId: string; day: number; stopId?: string }
   | { type: 'city'; id: string; guideTab?: CityGuideTab }
   | { type: 'place'; id: string }
@@ -1248,6 +1253,7 @@ function Itinerary({
               onOpen={setWorkspace}
               onAdd={onAdd}
               onExpense={recordExpense}
+              onPlace={onOpen}
             />
           )}
           {workspace === 'overview' && (
@@ -2046,6 +2052,7 @@ export default function App() {
   useEffect(() => setInfoOpen(false), [page, dialog])
 
   const [toast, setToast] = useState('')
+  const [reminderRevision, setReminderRevision] = useState(0)
   const [activeTripId, setActiveTripId] = useState(() => {
     try {
       const previous = localStorage.getItem('jdo-active-trip-v1')
@@ -2077,6 +2084,21 @@ export default function App() {
   const [activeDay, setActiveDay] = useState(() => {
     const trip = store.trips.find((item) => item.id === activeTripId)
     return trip ? journeyPreference(trip).day : 0
+  })
+  useTravelReminders(store.trips, (target) => {
+    const trip = attachmentStoreRef.current.trips.find(
+      (item) => item.id === target.tripId,
+    )
+    if (!trip) return
+    const day = Math.max(0, Math.min(trip.days.length - 1, target.day))
+    saveJourneyPreference(trip, day, target.workspace)
+    setActiveTripId(trip.id)
+    setActiveDay(day)
+    setReminderRevision((value) => value + 1)
+    setDialog(null)
+    setInfoOpen(false)
+    setPage('trips')
+    window.scrollTo(0, 0)
   })
   const navigationRef = useRef({ page, dialog, closeDialog, infoOpen })
   navigationRef.current = { page, dialog, closeDialog, infoOpen }
@@ -2411,6 +2433,14 @@ export default function App() {
               open={infoOpen}
               onToggle={() => setInfoOpen((value) => !value)}
               onClose={() => setInfoOpen(false)}
+              onReminders={() => {
+                setInfoOpen(false)
+                setDialog({ type: 'reminders' })
+              }}
+              onNearby={() => {
+                setInfoOpen(false)
+                setDialog({ type: 'nearby' })
+              }}
               onPhotoCredits={() => {
                 setInfoOpen(false)
                 setDialog({ type: 'credits' })
@@ -2440,6 +2470,8 @@ export default function App() {
         {page === 'home' && (
           <TravelHome
             journey={home}
+            onReminders={() => setDialog({ type: 'reminders' })}
+            onNearby={() => setDialog({ type: 'nearby' })}
             trips={store.trips}
             cities={cityCards(
               home?.personalized
@@ -2818,7 +2850,7 @@ export default function App() {
                   </div>
                 )}
                 <Itinerary
-                  key={activeTrip.id}
+                  key={`${activeTrip.id}:${reminderRevision}`}
                   onQuickExpense={(stop) =>
                     setDialog({
                       type: 'expense',
@@ -2962,6 +2994,18 @@ export default function App() {
             </Modal>
           )
         })()}
+      {dialog?.type === 'reminders' && (
+        <Modal title="여행 알림 설정" onClose={() => setDialog(null)}>
+          <ReminderSettings trips={store.trips} />
+        </Modal>
+      )}
+      {dialog?.type === 'nearby' && (
+        <Modal title="내 주변 맛집·카페" onClose={() => setDialog(null)}>
+          <div className="modal-body">
+            <LiveNearby onOpen={openPlace} />
+          </div>
+        </Modal>
+      )}
       {dialog?.type === 'credits' && (
         <Modal title="사진 출처" onClose={() => setDialog(null)} wide>
           <PhotoCredits

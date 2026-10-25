@@ -1573,3 +1573,168 @@ body {
   height: 14px;
   flex: 0 0 14px;
 }
+
+/* 0.63: optional local reminders and foreground location. */
+:root .home-service-links {
+  display: flex;
+  gap: 8px;
+  margin: 0 0 20px;
+}
+:root .home-service-links > button {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  min-height: 44px;
+  padding: 10px 8px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: white;
+  color: var(--green);
+  font-size: 14px;
+  white-space: nowrap;
+}
+:root .reminder-options {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+}
+:root .reminder-options > label {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 18px 0;
+  border-bottom: 1px solid var(--line);
+  cursor: pointer;
+}
+:root .reminder-options input {
+  width: 22px;
+  height: 22px;
+  accent-color: var(--green);
+}
+:root .reminder-options label > span {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 0;
+}
+:root .reminder-options strong {
+  font-size: 16px;
+  font-weight: 650;
+}
+:root .reminder-options small {
+  font-size: 13px;
+  color: var(--muted);
+  line-height: 1.6;
+}
+:root .reminder-preview ul {
+  padding: 0;
+  list-style: none;
+}
+:root .reminder-preview li {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 16px 0;
+  border-bottom: 1px solid var(--line);
+}
+:root .reminder-preview li :is(span, small) {
+  font-size: 13px;
+  color: var(--muted);
+  line-height: 1.6;
+}
+:root .live-nearby {
+  margin: 24px 0;
+  padding: 20px;
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+}
+:root .live-nearby > .detail-section-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+:root .live-nearby h3 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 18px;
+  margin: 0;
+}
+:root .live-nearby p {
+  font-size: 15px;
+  line-height: 1.65;
+  color: var(--muted);
+}
+:root .location-accuracy {
+  font-size: 12px;
+  color: var(--muted);
+}
+:root .location-progress {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 18px;
+  margin: 16px 0;
+  background: var(--mint);
+  border-radius: 14px;
+}
+:root .location-progress strong {
+  font-size: 20px;
+  color: var(--green);
+}
+:root .location-progress p {
+  margin: 0;
+}
+:root .location-progress small {
+  font-size: 12px;
+  color: var(--muted);
+}
+:root .live-nearby-list {
+  padding: 0;
+  list-style: none;
+}
+:root .live-nearby-list li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--line);
+}
+:root .live-nearby-list li > :is(img, span) {
+  width: 58px;
+  height: 58px;
+  object-fit: cover;
+  border-radius: 12px;
+  flex: 0 0 58px;
+}
+:root .live-nearby-list li > button {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 7px;
+  align-items: flex-start;
+  text-align: left;
+  min-width: 0;
+  min-height: 44px;
+  background: transparent;
+}
+:root .live-nearby-list strong {
+  font-size: 16px;
+  line-height: 1.5;
+}
+:root .live-nearby-list small,
+:root .location-privacy {
+  font-size: 13px;
+  color: var(--muted);
+}
+:root .location-privacy summary {
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
