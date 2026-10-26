@@ -19,8 +19,9 @@ const compactTypography: Plugin = {
         )
       )
         return
-      // 0.56: 10% above 0.55 (0.8 × 1.1), not ten percentage points.
-      declaration.value = `calc(0.88 * (${value}))`
+      // 0.68 keeps the 0.88 hierarchy and floors small text at 12.5 CSS px.
+      // With the user-requested 0.9 root zoom this renders at least 11.25 px.
+      declaration.value = `max(12.5px, calc(0.88 * (${value})))`
     })
   },
 }

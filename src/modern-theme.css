@@ -1887,3 +1887,53 @@ body {
 }
 :root .settings-group > :is(button, a) > svg:last-child { margin-left: auto; flex-shrink: 0; }
 :root .settings-group p { color: var(--muted); font-size: 14px; line-height: 1.6; }
+
+/* 0.68: readable small type, quieter secondary surfaces and content-first tools. */
+:root { --type-page-title: 24px; --type-section-title: 20px; }
+:root .page-title h1, :root .home-heading h1, :root .trip-page-title h1 { font-size: 24px; }
+:root :is(.city-intro, .place-tip p, .field-introduction, .settings-group p) { font-size: 17px; }
+:root .bottom-nav > button { font-size: 14px; }
+:root :is(.home-kicker, .home-date, .home-journey-dates, .home-journey-meta, .trip-facts, .timeline-visit-time) { font-size: 14px; letter-spacing: 0; }
+:root .trips-page { padding-top: 8px; }
+:root .trips-page .trip-page-title { margin-bottom: 8px; }
+:root .trips-page .itinerary .trip-banner { padding-bottom: 8px; gap: 4px 8px; }
+:root .trips-page .itinerary .trip-facts { gap: 2px 10px; margin: 0; }
+:root .itinerary .workspace-tabs { margin-block: 8px; }
+:root .itinerary .workspace-view-switch { margin: 0 0 8px; gap: 4px; }
+:root .itinerary .day-navigation .day-tabs { padding-block: 2px 6px; }
+:root .timeline-workspace .timeline-day-heading { margin-bottom: 8px; padding-block: 6px; }
+:root .timeline-workspace .timeline { gap: 16px; }
+:root .timeline-workspace .stop-card { padding: 14px; }
+:root .timeline-workspace .stop-place strong { font-size: 17px; }
+:root .home-context-nav button { background: transparent; border-radius: 10px; }
+:root .home-service-links { gap: 0; border-block: 1px solid var(--line); }
+:root .home-service-links > button { background: transparent; border: 0; border-radius: 0; }
+:root .home-service-links > button + button { border-left: 1px solid var(--line); }
+:root .dashboard-cards { gap: 0; padding: 0 16px; border-radius: 16px; background: white; }
+:root .dashboard-cards > button { padding: 14px 0; border-radius: 0; background: transparent; gap: 6px; }
+:root .dashboard-cards > button + button { border-top: 1px solid var(--line); }
+:root .expense-summary-compact { background: white; border-radius: 16px; padding: 12px 16px; margin-block: 10px; }
+:root .expense-manager .money-overview { padding: 0; margin: 0; border: 0; background: transparent; min-height: 0; gap: 12px; }
+:root .expense-manager .money-overview strong { font-size: 23px; }
+:root .expense-manager .expense-selected-day { margin: 6px 0 0; padding: 8px 0 0; min-height: 36px; border-top: 1px solid var(--line); border-radius: 0; }
+:root .expense-manager .expense-selected-day > strong { font-size: 15px; }
+:root .expense-filter-toggle { min-height: 40px; margin: 0 0 8px; padding: 6px 0; }
+:root .expense-filter-panel { border: 1px solid var(--line); border-radius: 12px; padding: 12px; margin-bottom: 12px; background: white; }
+:root .expense-filter-panel[hidden] { display: none; }
+:root .expense-filter-panel .expense-period { margin-top: 0; }
+:root .expense-filter-panel .tool-filters { margin-block: 8px 0; }
+:root .expense-manager .expense-day-heading { margin-top: 12px; }
+:root .place-detail-title { display: none; }
+:root .city-guide-panel > .guide-places { padding-top: 12px; }
+:root :is(.modal-body, .settings-group) { --section-space: 16px; }
+:root .expense-manager .money-overview > div { padding: 0; }
+:root .expense-manager .expense-selected-day { grid-template-columns: minmax(0, 1fr) auto 12px; gap: 6px 8px; }
+:root .expense-manager .expense-selected-day > span:first-child { grid-column: 1; grid-row: 1; }
+:root .expense-manager .expense-selected-day > strong { grid-column: 2; grid-row: 1; }
+:root .expense-manager .expense-selected-day > span:last-child { grid-column: 3; grid-row: 1; }
+:root .expense-manager .expense-day-heading { margin-top: 8px; padding: 8px 0; }
+:root .expense-manager .expense-list > article { padding: 14px 0; }
+:root .trips-page .trip-page-title h1 { font-size: 24px; }
+:root .preparation-checklist .quick-add-options { border: 0; margin: 0; padding: 0; }
+:root .preparation-checklist .quick-add-options > summary { padding-block: 4px; min-height: 36px; }
+:root .preparation-checklist .preparation-options { margin-top: 16px; }

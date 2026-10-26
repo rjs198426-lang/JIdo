@@ -152,10 +152,7 @@ test('예약은 일정에 자동 노출하지 않고 예약 설정에서 선택�
   await expect(page.locator('.timeline-bookings')).toHaveCount(0)
   await expect(page.locator('.timeline-item')).toHaveCount(1)
   const before = await saved(page)
-  await page
-    .getByRole('navigation', { name: '여행 도구 바로가기' })
-    .getByRole('button', { name: '항공·숙소 예약', exact: true })
-    .click()
+  await openWorkspace(page, '예약')
   const booking = page.locator('[data-reservation-id="flight"]')
   await expect(booking).toContainText('따로 관리하는 항공 예약')
   await expect(
@@ -218,9 +215,6 @@ test('320px 여행 중 사진·소개를 기본 표시하고 버튼·추가 행�
     ),
   ).toBe(true)
   const before = await saved(page)
-  await page
-    .getByRole('navigation', { name: '여행 도구 바로가기' })
-    .getByRole('button', { name: '가계부', exact: true })
-    .click()
+  await openWorkspace(page, '가계부')
   expect((await saved(page)).days).toEqual(before.days)
 })

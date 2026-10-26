@@ -1,5 +1,5 @@
 import { test, expect, type Page } from '@playwright/test'
-import { openTrips } from './navigation'
+import { openTrips, openWorkspace, openExpenseFilters } from './navigation'
 import { tripSchema } from '../src/travel-model'
 const trip = tripSchema.parse({
   id: 'reference-tools',
@@ -111,13 +111,12 @@ test('여행 바로가기는 어느 작업에서도 같은 날짜와 기록을 �
   const before = await page.evaluate(() =>
     localStorage.getItem('jido-travel-v1'),
   )
-  const links = page.getByRole('navigation', { name: '여행 도구 바로가기' })
   for (const [name, target] of [
     ['준비물', '.preparation-checklist'],
     ['가계부', '.expense-manager'],
     ['항공·숙소 예약', '.workspace-reservations'],
   ] as const) {
-    await links.getByRole('button', { name, exact: true }).click()
+    await openWorkspace(page, name === '항공·숙소 예약' ? '예약' : name)
     await expect(page.locator(target)).toBeVisible()
     expect(
       await page.evaluate(
@@ -134,10 +133,7 @@ test('분류 접기와 남은 준비물 보기로 원본을 바꾸지 않고 완
   page,
 }) => {
   await seed(page)
-  await page
-    .getByRole('navigation', { name: '여행 도구 바로가기' })
-    .getByRole('button', { name: '준비물', exact: true })
-    .click()
+  await openWorkspace(page, '준비물')
   const before = await page.evaluate(
     () => JSON.parse(localStorage.getItem('jido-travel-v1')!).trips[0],
   )
@@ -184,10 +180,8 @@ test('기간 합계는 준비 비용·날짜·환불·통화를 구분하고 정
 }) => {
   await page.setViewportSize({ width: 320, height: 740 })
   await seed(page)
-  await page
-    .getByRole('navigation', { name: '여행 도구 바로가기' })
-    .getByRole('button', { name: '가계부', exact: true })
-    .click()
+  await openWorkspace(page, '가계부')
+  await openExpenseFilters(page)
   const before = await page.evaluate(() =>
     localStorage.getItem('jido-travel-v1'),
   )
@@ -231,8 +225,7 @@ test('평소에는 수정·삭제를 감추고 명시적 편집·삭제 취소�
   const before = await page.evaluate(
     () => JSON.parse(localStorage.getItem('jido-travel-v1')!).trips[0],
   )
-  const links = page.getByRole('navigation', { name: '여행 도구 바로가기' })
-  await links.getByRole('button', { name: '준비물', exact: true }).click()
+  await openWorkspace(page, '준비물')
   const remove = page.getByRole('button', {
     name: '여권과 여권 사본 챙기기 준비물 삭제',
     exact: true,
@@ -260,7 +253,7 @@ test('평소에는 수정·삭제를 감추고 명시적 편집·삭제 취소�
       () => JSON.parse(localStorage.getItem('jido-travel-v1')!).trips[0],
     ),
   ).toEqual(before)
-  await links.getByRole('button', { name: '가계부', exact: true }).click()
+  await openWorkspace(page, '가계부')
   const deleteExpense = page.getByRole('button', {
     name: '숙소까지 택시 지출 삭제',
     exact: true,

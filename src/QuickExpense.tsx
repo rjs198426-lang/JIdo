@@ -334,7 +334,7 @@ export default function QuickExpense({
       )}
       <div className="quick-expense-actions">
         <button className="button outline" type="button" onClick={onClose}>
-          닫기
+          취소
         </button>
         <button className="button primary" type="submit" disabled={saving}>
           지출 저장

@@ -45,7 +45,7 @@ export default function GuidePlaces({
   return (
     <section className="guide-places" aria-label="가이드 가볼 만한 곳">
       <div className="detail-section-heading">
-        <h3>이 도시에서 꼭 가볼 곳</h3>
+        <h3>장소 둘러보기</h3>
         <span aria-live="polite">
           {category === '전체'
             ? `${all.length}곳`

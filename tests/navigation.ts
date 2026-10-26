@@ -85,3 +85,8 @@ export const openSearchOptions = (page: Page) =>
   openDisclosure(page, '.search-options')
 export const openTravelManagement = (page: Page) =>
   openDisclosure(page, '.trip-library-more')
+
+export async function openExpenseFilters(page: Page) {
+  const toggle = page.locator('.expense-filter-toggle')
+  if (await toggle.getAttribute('aria-expanded') !== 'true') await toggle.click()
+}

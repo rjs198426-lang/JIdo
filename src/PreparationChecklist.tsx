@@ -218,7 +218,7 @@ export default function PreparationChecklist({
           추가
         </button>
         <details className="quick-add-options simple-options">
-          <summary>분류·담당자</summary>
+          <summary>새 준비물 상세</summary>
           <select
             aria-label="준비물 분류"
             value={category}
@@ -246,58 +246,6 @@ export default function PreparationChecklist({
           )}
         </details>
       </form>
-      <details className="preparation-options simple-options">
-        <summary>분류·담당자·기본 목록</summary>
-        <div className="template-row">
-          <select
-            aria-label="준비 목록 유형"
-            value={template}
-            onChange={(event) => setTemplate(event.target.value)}
-          >
-            {Object.keys(templates).map((name) => (
-              <option key={name}>{name}</option>
-            ))}
-          </select>
-          <button className="text-button" onClick={() => addTemplate(template)}>
-            {template} 준비 목록 넣기 <Plus size={15} />
-          </button>
-        </div>
-        <div className="tool-filters">
-          {trip.travelers > 1 && !!trip.members?.length && (
-            <select
-              aria-label="준비 담당자 필터"
-              value={assigneeFilter}
-              onChange={(event) => setAssigneeFilter(event.target.value)}
-            >
-              <option value="all">모두의 준비물</option>
-              <option value="shared">함께 준비</option>
-              {trip.members.map((member) => (
-                <option value={member.id} key={member.id}>
-                  {member.name}의 준비물
-                </option>
-              ))}
-            </select>
-          )}
-          <select
-            aria-label="준비 상태 필터"
-            value={filter}
-            onChange={(event) => setFilter(event.target.value)}
-          >
-            {['전체', '미완료', '완료', '기한 지남'].map((value) => (
-              <option key={value}>{value}</option>
-            ))}
-          </select>
-          <select
-            aria-label="준비 분류 필터"
-            value={categoryFilter}
-            onChange={(event) => setCategoryFilter(event.target.value)}
-          >
-            {['전체', ...checklistCategories].map((value) => (
-              <option key={value}>{value}</option>
-            ))}
-          </select>
-        </div>
-      </details>
       {editing && (
         <form
           className="inline-form"
@@ -487,6 +435,58 @@ export default function PreparationChecklist({
           )
         })}
       </div>
+      <details className="preparation-options simple-options">
+        <summary>목록 설정·기본 준비물</summary>
+        <div className="template-row">
+          <select
+            aria-label="준비 목록 유형"
+            value={template}
+            onChange={(event) => setTemplate(event.target.value)}
+          >
+            {Object.keys(templates).map((name) => (
+              <option key={name}>{name}</option>
+            ))}
+          </select>
+          <button className="text-button" onClick={() => addTemplate(template)}>
+            {template} 준비 목록 넣기 <Plus size={15} />
+          </button>
+        </div>
+        <div className="tool-filters">
+          {trip.travelers > 1 && !!trip.members?.length && (
+            <select
+              aria-label="준비 담당자 필터"
+              value={assigneeFilter}
+              onChange={(event) => setAssigneeFilter(event.target.value)}
+            >
+              <option value="all">모두의 준비물</option>
+              <option value="shared">함께 준비</option>
+              {trip.members.map((member) => (
+                <option value={member.id} key={member.id}>
+                  {member.name}의 준비물
+                </option>
+              ))}
+            </select>
+          )}
+          <select
+            aria-label="준비 상태 필터"
+            value={filter}
+            onChange={(event) => setFilter(event.target.value)}
+          >
+            {['전체', '미완료', '완료', '기한 지남'].map((value) => (
+              <option key={value}>{value}</option>
+            ))}
+          </select>
+          <select
+            aria-label="준비 분류 필터"
+            value={categoryFilter}
+            onChange={(event) => setCategoryFilter(event.target.value)}
+          >
+            {['전체', ...checklistCategories].map((value) => (
+              <option key={value}>{value}</option>
+            ))}
+          </select>
+        </div>
+      </details>
       {removed && (
         <div className="undo-strip" role="status">
           준비물을 삭제했어요.

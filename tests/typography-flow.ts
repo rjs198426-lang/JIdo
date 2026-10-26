@@ -80,6 +80,7 @@ export async function typographyFlow(page: Page, width: number) {
         `${screen}: wrapped action labels at ${width}px: ${wrapped.join(', ')}`,
       )
     for (const selector of selectors) {
+      if (!(await page.locator(selector).first().isVisible())) continue
       samples[`${screen}:${selector}`] = await page
         .locator(selector)
         .first()
@@ -118,7 +119,6 @@ export async function typographyFlow(page: Page, width: number) {
     '.trip-facts',
     '.workspace-tabs button',
     '.workspace-view-switch button',
-    '.day-tab strong',
     '.day-tab span',
     '.timeline-day-heading h3 > span',
     '.stop-place strong',

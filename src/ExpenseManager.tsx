@@ -357,7 +357,7 @@ export default function ExpenseManager({
       className={`workspace-panel expense-manager ${showRunningTotal ? 'has-running-total' : ''}`}
     >
       <div className="tool-heading">
-        <h3>가계부</h3>
+        <h3>지출 내역</h3>
         <div className="expense-add-actions">
           {view === '지출' && !!expenses.length && (
             <button
@@ -387,11 +387,13 @@ export default function ExpenseManager({
           </button>
         </div>
       </div>
+      <div className="expense-summary-compact">
       <ExpenseSummary
         trip={trip}
         day={day}
         onDate={() => drillDown({ date: dateAt(trip.startDate, day) })}
       />
+      </div>
       {view === '지출' && (
         <>
           {open && (
@@ -642,6 +644,15 @@ export default function ExpenseManager({
               </div>
             </form>
           )}
+          <button
+            className="text-button expense-filter-toggle"
+            aria-expanded={filtersOpen}
+            aria-controls="expense-filter-panel"
+            onClick={() => setFiltersOpen(!filtersOpen)}
+          >
+            필터{filtered ? ' · 적용 중' : ''}
+          </button>
+          <div id="expense-filter-panel" className="expense-filter-panel" hidden={!filtersOpen}>
           <label className="expense-period field">
             기간
             <select
@@ -684,14 +695,6 @@ export default function ExpenseManager({
               value={filterQuery}
               onChange={(event) => setFilterQuery(event.target.value)}
             />
-            <button
-              className="button outline small"
-              aria-expanded={filtersOpen}
-              aria-controls="expense-advanced-filters"
-              onClick={() => setFiltersOpen(!filtersOpen)}
-            >
-              필터{filtered ? ' · 적용 중' : ''}
-            </button>
             <div
               id="expense-advanced-filters"
               className="expense-advanced-filters"
@@ -761,6 +764,7 @@ export default function ExpenseManager({
                 필터 초기화
               </button>
             )}
+          </div>
           </div>
           <div
             className="expense-filter-summary"

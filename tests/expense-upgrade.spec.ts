@@ -10,7 +10,7 @@ import { portableTrip } from '../src/TravelBackup'
 import { companionBackup } from '../src/journey-personal'
 import { fullManifest, inspectFullBackup } from '../src/full-backup'
 import { zipSync, strToU8 } from 'fflate'
-import { openTrips, openWorkspace, openExpenseTools } from './navigation'
+import { openTrips, openWorkspace, openExpenseTools, openExpenseFilters } from './navigation'
 function fixture(): Trip {
   return tripSchema.parse({
     id: 'expense-upgrade',
@@ -297,6 +297,7 @@ test('빠른 기록·예산 진행률·선택일 내역이 실제 기록에 연�
 
 test('검색·추가 필터·조회 합계·CSV 범위와 초기화', async ({ page }) => {
   await seed(page)
+  await openExpenseFilters(page)
   await page.getByLabel('지출 검색').fill('공항')
   await expect(page.locator('.expense-list > article')).toHaveCount(1)
   await expect(page.locator('.expense-filter-summary')).toContainText(
@@ -306,7 +307,7 @@ test('검색·추가 필터·조회 합계·CSV 범위와 초기화', async ({ p
   await expect(page.getByLabel('조회 내역 CSV')).toHaveValue(/숙소 택시/)
   await expect(page.getByLabel('조회 내역 CSV')).not.toHaveValue(/저녁 식사/)
   await page.getByRole('button', { name: '필터 초기화', exact: true }).click()
-  await page.getByRole('button', { name: '필터', exact: true }).click()
+  await openExpenseFilters(page)
   await page.getByLabel('지출 유형 필터').selectOption('refund')
   await expect(page.locator('.expense-filter-summary')).toContainText(
     '-JP¥1,000',

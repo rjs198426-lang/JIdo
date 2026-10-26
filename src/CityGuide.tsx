@@ -207,21 +207,6 @@ export default function CityGuide({
         )}
         {(tab === 'tourism' || tab === 'dining') && (
           <>
-            <div className="city-guide-heading">
-              <span>
-                {tab === 'tourism' ? '나만의 여행' : '한 끼의 즐거움'}
-              </span>
-              <h3>
-                {tab === 'tourism'
-                  ? `${city.name}에서 가볼 곳`
-                  : `${city.name}에서 맛볼 것`}
-              </h3>
-              <p>
-                {tab === 'tourism'
-                  ? '명소부터 쇼핑·체험까지, 내 취향에 맞게 골라보세요.'
-                  : '맛집과 카페를 살펴보고 마음에 드는 장소를 일정에 담아보세요.'}
-              </p>
-            </div>
             <GuidePlaces
               key={`${city.id}-${tab}`}
               cityId={city.id}
