@@ -1,0 +1,22 @@
+{
+  "version": "0.69",
+  "versionCode": 70,
+  "webAssets": 235,
+  "bytes": 41201717,
+  "sha256": "7671ac9de34fccdb8a6168499e546e64d8eb3150ff3be86442028301149b1d19",
+  "certificateSha256": "0d1b1f20dae73d00626d9ebb4f460943c4f16c2266bc7bc58d124d13b32494ac",
+  "privateSigningFiles": 0,
+  "publicDownloadVerified": true,
+  "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/a3969e36c8296960a792587fdc07ee49c0434fb2/JDo-android-0.69.apk",
+  "httpStatus": 200,
+  "verifiedAt": "2026-10-27",
+  "mobileScenariosPassed": 59,
+  "photos": {
+    "destinations": 21,
+    "places": 177,
+    "newAssets": 105,
+    "existingPromotions": 2,
+    "missing": 889
+  },
+  "sourceCommit": "b3511c6d4afbbefdc10dd01646a7563008bc9e23"
+}
