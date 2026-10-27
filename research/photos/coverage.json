@@ -10,8 +10,8 @@
     {
       "kind": "place",
       "total": 1066,
-      "ready": 70,
-      "missing": 996
+      "ready": 177,
+      "missing": 889
     }
   ],
   "missing": [
@@ -125,27 +125,9 @@
     },
     {
       "kind": "place",
-      "id": "guam-talofofo-falls",
-      "name": "탈로포포 폭포",
-      "cityId": "guam",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
       "id": "guam-premier-outlets",
       "name": "괌 프리미어 아울렛",
       "cityId": "guam",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
-      "id": "saipan-managaha",
-      "name": "마나가하섬",
-      "cityId": "saipan",
       "image": "/images/place-placeholder.svg",
       "ready": false,
       "reason": "missing-licensed-photo"
@@ -188,15 +170,6 @@
     },
     {
       "kind": "place",
-      "id": "saipan-banzai-cliff",
-      "name": "만세절벽",
-      "cityId": "saipan",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
       "id": "saipan-suicide-cliff",
       "name": "자살절벽",
       "cityId": "saipan",
@@ -217,15 +190,6 @@
       "kind": "place",
       "id": "saipan-mount-tapochau",
       "name": "타포차우산",
-      "cityId": "saipan",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
-      "id": "saipan-forbidden-island",
-      "name": "포비든아일랜드 전망대",
       "cityId": "saipan",
       "image": "/images/place-placeholder.svg",
       "ready": false,
@@ -323,26 +287,8 @@
     },
     {
       "kind": "place",
-      "id": "kyoto-review-3ad4fafd578f",
-      "name": "쇼세이엔 정원",
-      "cityId": "kyoto",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
       "id": "kyoto-review-c9c8b0ef41be",
       "name": "교토시 교세라 미술관",
-      "cityId": "kyoto",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
-      "id": "kyoto-review-354ac9b67d4b",
-      "name": "난젠지",
       "cityId": "kyoto",
       "image": "/images/place-placeholder.svg",
       "ready": false,
@@ -359,26 +305,8 @@
     },
     {
       "kind": "place",
-      "id": "kyoto-review-abea75631b76",
-      "name": "야사카 신사",
-      "cityId": "kyoto",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
       "id": "kyoto-review-8f785e509bce",
       "name": "지온인",
-      "cityId": "kyoto",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
-      "id": "kyoto-review-cd801b84397d",
-      "name": "겐닌지",
       "cityId": "kyoto",
       "image": "/images/place-placeholder.svg",
       "ready": false,
@@ -413,35 +341,8 @@
     },
     {
       "kind": "place",
-      "id": "kyoto-review-67044d7dcd97",
-      "name": "덴류지",
-      "cityId": "kyoto",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
-      "id": "kyoto-review-8dce7ff01b89",
-      "name": "닌나지",
-      "cityId": "kyoto",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
       "id": "kyoto-review-46d3ae0aecc9",
       "name": "데라다야",
-      "cityId": "kyoto",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
-      "id": "kyoto-review-ed13761d9aeb",
-      "name": "니조성",
       "cityId": "kyoto",
       "image": "/images/place-placeholder.svg",
       "ready": false,
@@ -458,35 +359,8 @@
     },
     {
       "kind": "place",
-      "id": "kyoto-review-e714b5190a91",
-      "name": "다이토쿠지",
-      "cityId": "kyoto",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
       "id": "kyoto-review-dc3a3df10526",
       "name": "도후쿠지",
-      "cityId": "kyoto",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
-      "id": "kyoto-review-c60ba2a4ba1c",
-      "name": "니조진야",
-      "cityId": "kyoto",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
-      "id": "kyoto-review-586e5aef1657",
-      "name": "노노미야 신사",
       "cityId": "kyoto",
       "image": "/images/place-placeholder.svg",
       "ready": false,
@@ -755,15 +629,6 @@
     },
     {
       "kind": "place",
-      "id": "bali-review-b7e09d81c081",
-      "name": "가루다 위스누 끈짜나 문화공원",
-      "cityId": "bali",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
       "id": "bali-review-e352eefa1b53",
       "name": "발리 폭탄 테러 추모비",
       "cityId": "bali",
@@ -775,15 +640,6 @@
       "kind": "place",
       "id": "bali-review-38c25edfbabc",
       "name": "쁘띠뜽읏 사원",
-      "cityId": "bali",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
-      "id": "bali-review-0dd451ae2886",
-      "name": "르 마이어 미술관",
       "cityId": "bali",
       "image": "/images/place-placeholder.svg",
       "ready": false,
@@ -1133,35 +989,8 @@
     },
     {
       "kind": "place",
-      "id": "bangkok-review-aaba407c833d",
-      "name": "짐 톰슨 하우스",
-      "cityId": "bangkok",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
-      "id": "bangkok-review-12f3a2d501b2",
-      "name": "룸피니 공원",
-      "cityId": "bangkok",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
       "id": "bangkok-review-f47ebbf461a4",
       "name": "벤짜끼띠 공원",
-      "cityId": "bangkok",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
-      "id": "bangkok-review-e22ba9e57d6a",
-      "name": "왓 사켓·골든 마운트",
       "cityId": "bangkok",
       "image": "/images/place-placeholder.svg",
       "ready": false,
@@ -1187,15 +1016,6 @@
     },
     {
       "kind": "place",
-      "id": "bangkok-review-57de3e5e724a",
-      "name": "왓 트라이밋",
-      "cityId": "bangkok",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
       "id": "bangkok-review-a478d6995919",
       "name": "왓 벤짜마보핏",
       "cityId": "bangkok",
@@ -1207,15 +1027,6 @@
       "kind": "place",
       "id": "bangkok-review-142bb81e1d2b",
       "name": "왕실 선박 국립박물관",
-      "cityId": "bangkok",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
-      "id": "bangkok-review-0318ec0d7f21",
-      "name": "수안 파카드 궁전",
       "cityId": "bangkok",
       "image": "/images/place-placeholder.svg",
       "ready": false,
@@ -1594,24 +1405,6 @@
       "kind": "place",
       "id": "santorini-review-d07aa4e4afa4",
       "name": "테라 선사박물관",
-      "cityId": "santorini",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
-      "id": "santorini-review-1d219b4b7d6e",
-      "name": "레드 비치",
-      "cityId": "santorini",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
-      "id": "santorini-review-233784073870",
-      "name": "페리사 비치",
       "cityId": "santorini",
       "image": "/images/place-placeholder.svg",
       "ready": false,
@@ -2033,15 +1826,6 @@
     },
     {
       "kind": "place",
-      "id": "dubai-review-24ce1836f50d",
-      "name": "미래박물관",
-      "cityId": "dubai",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
       "id": "dubai-review-2da0fd74470a",
       "name": "두바이 아쿠아리움",
       "cityId": "dubai",
@@ -2062,51 +1846,6 @@
       "kind": "place",
       "id": "dubai-review-0f764fd7eb6c",
       "name": "골드 수크",
-      "cityId": "dubai",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
-      "id": "dubai-review-e3e7329faca7",
-      "name": "글로벌 빌리지",
-      "cityId": "dubai",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
-      "id": "dubai-review-7838c0204418",
-      "name": "두바이 사파리 파크",
-      "cityId": "dubai",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
-      "id": "dubai-review-b63c20009655",
-      "name": "두바이 미라클 가든",
-      "cityId": "dubai",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
-      "id": "dubai-review-cd947889b1f5",
-      "name": "수크 마디나트 주메이라",
-      "cityId": "dubai",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
-      "id": "dubai-review-117e360d3def",
-      "name": "무슈리프 공원",
       "cityId": "dubai",
       "image": "/images/place-placeholder.svg",
       "ready": false,
@@ -2852,15 +2591,6 @@
     },
     {
       "kind": "place",
-      "id": "tokyo-review-90d6c70e1e86",
-      "name": "신주쿠 교엔",
-      "cityId": "tokyo",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
       "id": "tokyo-review-f45327fa4942",
       "name": "황거 히가시교엔",
       "cityId": "tokyo",
@@ -2888,15 +2618,6 @@
     },
     {
       "kind": "place",
-      "id": "tokyo-review-9bc3e51d9cd3",
-      "name": "도쿄 타워",
-      "cityId": "tokyo",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
       "id": "tokyo-review-a759547eabbc",
       "name": "조조지",
       "cityId": "tokyo",
@@ -2908,24 +2629,6 @@
       "kind": "place",
       "id": "tokyo-review-5aadf4462382",
       "name": "네즈 미술관",
-      "cityId": "tokyo",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
-      "id": "tokyo-review-c0b8a061d5c7",
-      "name": "팀랩 보더리스",
-      "cityId": "tokyo",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
-      "id": "tokyo-review-4318d577a3dc",
-      "name": "국립신미술관",
       "cityId": "tokyo",
       "image": "/images/place-placeholder.svg",
       "ready": false,
@@ -2998,15 +2701,6 @@
       "kind": "place",
       "id": "tokyo-review-1ad89942ca8b",
       "name": "노기 저택·신사",
-      "cityId": "tokyo",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
-      "id": "tokyo-review-6ba0e6eeb463",
-      "name": "신바시 증기기관차 광장",
       "cityId": "tokyo",
       "image": "/images/place-placeholder.svg",
       "ready": false,
@@ -3275,15 +2969,6 @@
     },
     {
       "kind": "place",
-      "id": "osaka-review-b0660bf9b758",
-      "name": "쓰텐카쿠",
-      "cityId": "osaka",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
       "id": "osaka-review-ce04090fee74",
       "name": "일본 민가 취락박물관",
       "cityId": "osaka",
@@ -3293,26 +2978,8 @@
     },
     {
       "kind": "place",
-      "id": "osaka-review-9264d09dfcc7",
-      "name": "스미요시 타이샤",
-      "cityId": "osaka",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
       "id": "osaka-review-b1c4146a2335",
       "name": "덴포잔 하버빌리지",
-      "cityId": "osaka",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
-      "id": "osaka-review-a7d235646b8e",
-      "name": "구마타 신사",
       "cityId": "osaka",
       "image": "/images/place-placeholder.svg",
       "ready": false,
@@ -3347,35 +3014,8 @@
     },
     {
       "kind": "place",
-      "id": "osaka-review-c96670713187",
-      "name": "오사카 역사박물관",
-      "cityId": "osaka",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
-      "id": "osaka-review-a662f143191a",
-      "name": "가이유칸",
-      "cityId": "osaka",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
       "id": "osaka-review-7286c3c15094",
       "name": "센코지",
-      "cityId": "osaka",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
-      "id": "osaka-review-2378c205e94c",
-      "name": "오사카 조폐박물관",
       "cityId": "osaka",
       "image": "/images/place-placeholder.svg",
       "ready": false,
@@ -3392,53 +3032,8 @@
     },
     {
       "kind": "place",
-      "id": "osaka-review-9321449f0489",
-      "name": "피스 오사카 평화박물관",
-      "cityId": "osaka",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
       "id": "osaka-review-3a2aec26f2ba",
       "name": "덴포잔 대관람차",
-      "cityId": "osaka",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
-      "id": "osaka-review-08de55823f7b",
-      "name": "다이넨부쓰지",
-      "cityId": "osaka",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
-      "id": "osaka-review-33e85c9b87f5",
-      "name": "오사카 텐만구",
-      "cityId": "osaka",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
-      "id": "osaka-review-71281cae7993",
-      "name": "덴노지 동물원",
-      "cityId": "osaka",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
-      "id": "osaka-review-f2a95d63eb60",
-      "name": "오사카 시립미술관",
       "cityId": "osaka",
       "image": "/images/place-placeholder.svg",
       "ready": false,
@@ -3734,24 +3329,6 @@
     },
     {
       "kind": "place",
-      "id": "yokohama-review-258fa4853c59",
-      "name": "오산바시 부두",
-      "cityId": "yokohama",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
-      "id": "yokohama-review-f998dfd3c322",
-      "name": "쓰루가오카 하치만구",
-      "cityId": "yokohama",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
       "id": "yokohama-review-1b18ef5a0935",
       "name": "고토쿠인·가마쿠라 대불",
       "cityId": "yokohama",
@@ -3833,15 +3410,6 @@
     },
     {
       "kind": "place",
-      "id": "yokohama-review-37b6ce32c549",
-      "name": "히카와마루",
-      "cityId": "yokohama",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
       "id": "yokohama-review-9783ed4a6e9a",
       "name": "도케이지",
       "cityId": "yokohama",
@@ -3851,26 +3419,8 @@
     },
     {
       "kind": "place",
-      "id": "yokohama-review-0870e7f21066",
-      "name": "요코하마 랜드마크 타워",
-      "cityId": "yokohama",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
       "id": "yokohama-review-c8423da957d2",
       "name": "메이게쓰인",
-      "cityId": "yokohama",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
-      "id": "yokohama-review-9ddcf5517051",
-      "name": "게이오대학교 히요시 캠퍼스",
       "cityId": "yokohama",
       "image": "/images/place-placeholder.svg",
       "ready": false,
@@ -4130,15 +3680,6 @@
     },
     {
       "kind": "place",
-      "id": "nagoya-review-8a3e457eb555",
-      "name": "멘타이 파크 도코나메",
-      "cityId": "nagoya",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
       "id": "nagoya-review-50dd3b74c667",
       "name": "지브리 파크",
       "cityId": "nagoya",
@@ -4166,35 +3707,8 @@
     },
     {
       "kind": "place",
-      "id": "nagoya-review-df7b506c9769",
-      "name": "도요타 박물관",
-      "cityId": "nagoya",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
-      "id": "nagoya-review-49165d5e1af9",
-      "name": "우라쿠엔 정원",
-      "cityId": "nagoya",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
       "id": "nagoya-review-e10d1ac4135c",
       "name": "오노 해변",
-      "cityId": "nagoya",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
-      "id": "nagoya-review-7ca6d597ccd7",
-      "name": "나고야항 수족관",
       "cityId": "nagoya",
       "image": "/images/place-placeholder.svg",
       "ready": false,
@@ -4211,15 +3725,6 @@
     },
     {
       "kind": "place",
-      "id": "nagoya-review-3b51b7cfa06c",
-      "name": "도코냥",
-      "cityId": "nagoya",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
       "id": "nagoya-review-a05ea12c07b0",
       "name": "도요타 산업기술기념관",
       "cityId": "nagoya",
@@ -4229,26 +3734,8 @@
     },
     {
       "kind": "place",
-      "id": "nagoya-review-d26b946dc273",
-      "name": "나고야 시립미술관",
-      "cityId": "nagoya",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
       "id": "nagoya-review-ea0e9b513c37",
       "name": "시로토리 정원",
-      "cityId": "nagoya",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
-      "id": "nagoya-review-6aba8ef8b997",
-      "name": "닛타이지",
       "cityId": "nagoya",
       "image": "/images/place-placeholder.svg",
       "ready": false,
@@ -4285,15 +3772,6 @@
       "kind": "place",
       "id": "nagoya-review-96c928c5b629",
       "name": "시로야마 하쿠산 신사",
-      "cityId": "nagoya",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
-      "id": "nagoya-review-0e5aa9531381",
-      "name": "도간지",
       "cityId": "nagoya",
       "image": "/images/place-placeholder.svg",
       "ready": false,
@@ -4544,15 +4022,6 @@
     },
     {
       "kind": "place",
-      "id": "sapporo-review-56228a68e4e4",
-      "name": "오타루 운하",
-      "cityId": "sapporo",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
       "id": "sapporo-review-60dbdab4fca0",
       "name": "치토세 평화탑",
       "cityId": "sapporo",
@@ -4573,15 +4042,6 @@
       "kind": "place",
       "id": "sapporo-review-1bcbdd7d039f",
       "name": "오타루 증기시계",
-      "cityId": "sapporo",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
-      "id": "sapporo-review-2d40c676eec5",
-      "name": "시로이 코이비토 파크",
       "cityId": "sapporo",
       "image": "/images/place-placeholder.svg",
       "ready": false,
@@ -4634,15 +4094,6 @@
     },
     {
       "kind": "place",
-      "id": "sapporo-review-abc4bcc667b3",
-      "name": "모이와산",
-      "cityId": "sapporo",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
       "id": "sapporo-review-12f296fdd49a",
       "name": "일본은행 오타루 금융자료관",
       "cityId": "sapporo",
@@ -4679,15 +4130,6 @@
     },
     {
       "kind": "place",
-      "id": "sapporo-review-e1f33a5c223d",
-      "name": "제이알 타워",
-      "cityId": "sapporo",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
       "id": "sapporo-review-1fab36e53e0d",
       "name": "홋카이도립 근대미술관",
       "cityId": "sapporo",
@@ -4708,15 +4150,6 @@
       "kind": "place",
       "id": "sapporo-review-3751bc864063",
       "name": "삿포로 예술의 숲",
-      "cityId": "sapporo",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
-      "id": "sapporo-review-ea77f4d1d55d",
-      "name": "모에레누마 공원",
       "cityId": "sapporo",
       "image": "/images/place-placeholder.svg",
       "ready": false,
@@ -4886,15 +4319,6 @@
     },
     {
       "kind": "place",
-      "id": "sapporo-review-273aa4dab417",
-      "name": "니조 시장",
-      "cityId": "sapporo",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
       "id": "sapporo-review-443001d97449",
       "name": "아지노 도케이다이",
       "cityId": "sapporo",
@@ -4967,15 +4391,6 @@
     },
     {
       "kind": "place",
-      "id": "fukuoka-review-7c691bbfc87d",
-      "name": "다자이후 텐만구",
-      "cityId": "fukuoka",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
       "id": "fukuoka-review-62545a9d3b3c",
       "name": "규슈 국립박물관",
       "cityId": "fukuoka",
@@ -5003,15 +4418,6 @@
     },
     {
       "kind": "place",
-      "id": "fukuoka-review-6e06e038f245",
-      "name": "도초지",
-      "cityId": "fukuoka",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
       "id": "fukuoka-review-fdbdfe8afeac",
       "name": "쇼후쿠지",
       "cityId": "fukuoka",
@@ -5030,44 +4436,8 @@
     },
     {
       "kind": "place",
-      "id": "fukuoka-review-8249290872e6",
-      "name": "후쿠오카 타워",
-      "cityId": "fukuoka",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
       "id": "fukuoka-review-be6e41d9108f",
       "name": "아타고 신사",
-      "cityId": "fukuoka",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
-      "id": "fukuoka-review-77b91c6de319",
-      "name": "하카타 포트타워",
-      "cityId": "fukuoka",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
-      "id": "fukuoka-review-f106c7336fe4",
-      "name": "오호리 공원 일본정원",
-      "cityId": "fukuoka",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
-      "id": "fukuoka-review-52cd4e0c30d7",
-      "name": "마이즈루 공원",
       "cityId": "fukuoka",
       "image": "/images/place-placeholder.svg",
       "ready": false,
@@ -5111,26 +4481,8 @@
     },
     {
       "kind": "place",
-      "id": "fukuoka-review-b0bbf29a37ab",
-      "name": "하카타 마치야 민속관",
-      "cityId": "fukuoka",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
       "id": "fukuoka-review-2927acb1c037",
       "name": "후쿠오카 아시아미술관",
-      "cityId": "fukuoka",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
-      "id": "fukuoka-review-fb6cad49a1e5",
-      "name": "후쿠오카시 미술관",
       "cityId": "fukuoka",
       "image": "/images/place-placeholder.svg",
       "ready": false,
@@ -5399,24 +4751,6 @@
     },
     {
       "kind": "place",
-      "id": "hiroshima-review-9c122332e42e",
-      "name": "이쓰쿠시마 신사",
-      "cityId": "hiroshima",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
-      "id": "hiroshima-review-ad9d6c99b447",
-      "name": "센조카쿠",
-      "cityId": "hiroshima",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
       "id": "hiroshima-review-9952f4c09ec0",
       "name": "원폭 폭심지",
       "cityId": "hiroshima",
@@ -5435,35 +4769,8 @@
     },
     {
       "kind": "place",
-      "id": "hiroshima-review-7ab2797639cf",
-      "name": "원폭 어린이의 동상",
-      "cityId": "hiroshima",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
-      "id": "hiroshima-review-5f9d07e06ee2",
-      "name": "다이쇼인",
-      "cityId": "hiroshima",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
       "id": "hiroshima-review-cc4c4f3365a4",
       "name": "동원학도 위령탑",
-      "cityId": "hiroshima",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
-      "id": "hiroshima-review-b60ebf716826",
-      "name": "미야지마 수족관",
       "cityId": "hiroshima",
       "image": "/images/place-placeholder.svg",
       "ready": false,
@@ -5489,26 +4796,8 @@
     },
     {
       "kind": "place",
-      "id": "hiroshima-review-b732d8b5046d",
-      "name": "히로시마 평화기념자료관",
-      "cityId": "hiroshima",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
       "id": "hiroshima-review-e294e03dc02a",
       "name": "히로시마 국제회의장",
-      "cityId": "hiroshima",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
-      "id": "hiroshima-review-4a10a70ea5f6",
-      "name": "혼카와 초등학교 평화자료관",
       "cityId": "hiroshima",
       "image": "/images/place-placeholder.svg",
       "ready": false,
@@ -5534,15 +4823,6 @@
     },
     {
       "kind": "place",
-      "id": "hiroshima-review-5872a2c3d613",
-      "name": "미센산",
-      "cityId": "hiroshima",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
       "id": "hiroshima-review-93839d894a56",
       "name": "주오 공원",
       "cityId": "hiroshima",
@@ -5554,15 +4834,6 @@
       "kind": "place",
       "id": "hiroshima-review-0c7f8472aa7f",
       "name": "모미지다니 공원",
-      "cityId": "hiroshima",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
-      "id": "hiroshima-review-f2a22af18205",
-      "name": "히로시마성 주변",
       "cityId": "hiroshima",
       "image": "/images/place-placeholder.svg",
       "ready": false,
@@ -5831,24 +5102,6 @@
     },
     {
       "kind": "place",
-      "id": "kobe-review-2ab015099c7b",
-      "name": "히메지성",
-      "cityId": "kobe",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
-      "id": "kobe-review-34e9a13e2bca",
-      "name": "고코엔",
-      "cityId": "kobe",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
       "id": "kobe-review-ecfcc32657c3",
       "name": "고베 옛 외국인 거류지",
       "cityId": "kobe",
@@ -5968,15 +5221,6 @@
       "kind": "place",
       "id": "kobe-review-eaf9b6549d41",
       "name": "평화자료관",
-      "cityId": "kobe",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
-      "id": "kobe-review-fb65ccaa5148",
-      "name": "고베 포트타워",
       "cityId": "kobe",
       "image": "/images/place-placeholder.svg",
       "ready": false,
@@ -6263,24 +5507,6 @@
     },
     {
       "kind": "place",
-      "id": "sendai-review-e33e65db8ce8",
-      "name": "즈이간지",
-      "cityId": "sendai",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
-      "id": "sendai-review-03093db0a492",
-      "name": "이시노모리 만화관",
-      "cityId": "sendai",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
       "id": "sendai-review-fd6092c0e653",
       "name": "야마가타성 터",
       "cityId": "sendai",
@@ -6310,15 +5536,6 @@
       "kind": "place",
       "id": "sendai-review-6b6fa15ebb58",
       "name": "모가미 요시아키 역사관",
-      "cityId": "sendai",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
-      "id": "sendai-review-9b1df5a94ae2",
-      "name": "오사키 하치만구",
       "cityId": "sendai",
       "image": "/images/place-placeholder.svg",
       "ready": false,
@@ -6364,15 +5581,6 @@
       "kind": "place",
       "id": "sendai-review-7c5989477945",
       "name": "분쇼칸",
-      "cityId": "sendai",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
-      "id": "sendai-review-44f14b9a624d",
-      "name": "센다이 미디어테크",
       "cityId": "sendai",
       "image": "/images/place-placeholder.svg",
       "ready": false,
@@ -7595,15 +6803,6 @@
     },
     {
       "kind": "place",
-      "id": "singapore-balance-bcf81ddf84",
-      "name": "아이온 오차드",
-      "cityId": "singapore",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
       "id": "singapore-balance-4f3e474897",
       "name": "피플스 파크 컴플렉스",
       "cityId": "singapore",
@@ -8063,26 +7262,8 @@
     },
     {
       "kind": "place",
-      "id": "taipei-balance-3aa63e1483",
-      "name": "노치 카페",
-      "cityId": "taipei",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
       "id": "taipei-balance-fffb4a9d57",
       "name": "코스모스 호텔 타이베이",
-      "cityId": "taipei",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
-      "id": "taipei-balance-d163e6c1be",
-      "name": "쉐라톤 그랜드 타이베이",
       "cityId": "taipei",
       "image": "/images/place-placeholder.svg",
       "ready": false,
@@ -8126,15 +7307,6 @@
     },
     {
       "kind": "place",
-      "id": "hongkong-balance-7b184ee98a",
-      "name": "융키 레스토랑",
-      "cityId": "hongkong",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
       "id": "hongkong-balance-1af5535bda",
       "name": "로푸키",
       "cityId": "hongkong",
@@ -8146,15 +7318,6 @@
       "kind": "place",
       "id": "hongkong-balance-36ee82609d",
       "name": "브런치 클럽",
-      "cityId": "hongkong",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
-      "id": "hongkong-balance-3fa8f90c6b",
-      "name": "룩유 티하우스",
       "cityId": "hongkong",
       "image": "/images/place-placeholder.svg",
       "ready": false,
@@ -8191,15 +7354,6 @@
       "kind": "place",
       "id": "hongkong-balance-d0e16ee09a",
       "name": "스탠턴스 와인 바 앤 카페",
-      "cityId": "hongkong",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
-      "id": "hongkong-balance-8f2e5d8b09",
-      "name": "아이에프씨 몰",
       "cityId": "hongkong",
       "image": "/images/place-placeholder.svg",
       "ready": false,
@@ -8270,15 +7424,6 @@
     },
     {
       "kind": "place",
-      "id": "taipei-guide-3682822e1b06",
-      "name": "베이터우 온천박물관",
-      "cityId": "taipei",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
       "id": "taipei-guide-9a78bac6997e",
       "name": "용산사",
       "cityId": "taipei",
@@ -8306,35 +7451,8 @@
     },
     {
       "kind": "place",
-      "id": "taipei-guide-7d4eec8b2e13",
-      "name": "보안궁",
-      "cityId": "taipei",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
       "id": "taipei-guide-311190f31652",
       "name": "타이베이 공자묘",
-      "cityId": "taipei",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
-      "id": "taipei-guide-0195af2115b6",
-      "name": "다안 삼림공원",
-      "cityId": "taipei",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
-      "id": "taipei-guide-f8fa7026762b",
-      "name": "샹산 등산로",
       "cityId": "taipei",
       "image": "/images/place-placeholder.svg",
       "ready": false,
@@ -8468,33 +7586,6 @@
     },
     {
       "kind": "place",
-      "id": "hongkong-guide-15b37b842ec3",
-      "name": "스타의 거리",
-      "cityId": "hongkong",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
-      "id": "hongkong-guide-77da8ea9ec30",
-      "name": "웡타이신 사원",
-      "cityId": "hongkong",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
-      "id": "hongkong-guide-a9345e6d7bc6",
-      "name": "구룡채성공원",
-      "cityId": "hongkong",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
       "id": "hongkong-guide-f387af1e434c",
       "name": "홍콩 디즈니랜드",
       "cityId": "hongkong",
@@ -8506,15 +7597,6 @@
       "kind": "place",
       "id": "hongkong-guide-69e57ef5cd48",
       "name": "옹핑 케이블카 상부역",
-      "cityId": "hongkong",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
-      "id": "hongkong-guide-b6006fbf3c75",
-      "name": "타이오 어촌",
       "cityId": "hongkong",
       "image": "/images/place-placeholder.svg",
       "ready": false,
@@ -8630,15 +7712,6 @@
     },
     {
       "kind": "place",
-      "id": "singapore-guide-3e98c0bd3bdf",
-      "name": "가든스 바이 더 베이",
-      "cityId": "singapore",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
       "id": "singapore-guide-3e2d29af71a8",
       "name": "마리나베이 샌즈 스카이파크",
       "cityId": "singapore",
@@ -8668,15 +7741,6 @@
       "kind": "place",
       "id": "singapore-guide-c0ed2347fae2",
       "name": "국립 난초정원",
-      "cityId": "singapore",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
-      "id": "singapore-guide-f9acb420cb2d",
-      "name": "싱가포르 동물원",
       "cityId": "singapore",
       "image": "/images/place-placeholder.svg",
       "ready": false,
@@ -8810,24 +7874,6 @@
     },
     {
       "kind": "place",
-      "id": "danang-guide-e22744f96b4c",
-      "name": "린응사",
-      "cityId": "danang",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
-      "id": "danang-guide-fdbc49ddca56",
-      "name": "오행산",
-      "cityId": "danang",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
       "id": "danang-guide-51b8b7d35422",
       "name": "다낭 참 조각박물관",
       "cityId": "danang",
@@ -8866,15 +7912,6 @@
       "kind": "place",
       "id": "danang-guide-284e62f6baff",
       "name": "바나힐 케이블카 입구",
-      "cityId": "danang",
-      "image": "/images/place-placeholder.svg",
-      "ready": false,
-      "reason": "missing-licensed-photo"
-    },
-    {
-      "kind": "place",
-      "id": "danang-guide-3037568d722d",
-      "name": "호이안 내원교",
       "cityId": "danang",
       "image": "/images/place-placeholder.svg",
       "ready": false,

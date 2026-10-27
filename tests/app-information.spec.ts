@@ -33,7 +33,9 @@ test('앱 정보 토글에서 실제 Android 버전를 보고 다시 접을 수 
     info.locator('dl > div').filter({ hasText: '빌드 번호' }).locator('dd'),
   ).toHaveText(build)
   await expect(info).toContainText('Android')
-  await expect(info.locator('button,a,.content-updates,.app-information-storage')).toHaveCount(0)
+  await expect(
+    info.locator('button,a,.content-updates,.app-information-storage'),
+  ).toHaveCount(0)
   await toggle.click()
   await expect(info).toHaveCount(0)
   expect(
@@ -71,7 +73,10 @@ test('키보드로 사진 출처를 열고 모든 출처와 검색·복귀 초�
 }) => {
   await page.goto('/')
   await context.setOffline(true)
-  await page.locator('.desktop-nav:visible, .bottom-nav:visible').getByRole('button', { name: '설정', exact: true }).click()
+  await page
+    .locator('.desktop-nav:visible, .bottom-nav:visible')
+    .getByRole('button', { name: '설정', exact: true })
+    .click()
   const credits = page.getByRole('button', { name: '사진 출처', exact: true })
   await credits.focus()
   await expect(credits).toBeFocused()
@@ -79,7 +84,7 @@ test('키보드로 사진 출처를 열고 모든 출처와 검색·복귀 초�
   await expect(page.locator('.app-information-panel')).toHaveCount(0)
   const dialog = page.getByRole('dialog', { name: '사진 출처' })
   await expect(dialog).toBeVisible()
-  await expect(dialog.locator('.photo-credit-entry')).toHaveCount(95)
+  await expect(dialog.locator('.photo-credit-entry')).toHaveCount(199)
   await dialog.getByLabel('사진 출처 검색').fill('기요미즈데라')
   await expect(dialog.locator('.photo-credit-entry')).toHaveCount(2)
   await expect(

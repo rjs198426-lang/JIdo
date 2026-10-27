@@ -1,3 +1,4 @@
+import photos069 from './photos-069.json' with { type: 'json' }
 import photos136 from './photos-136.json' with { type: 'json' }
 import blogPhotos from './blog-photos.json' with { type: 'json' }
 import additional from './additional-photo-credits.json' with { type: 'json' }
@@ -471,7 +472,7 @@ export const photoCredits: Record<string, PhotoCreditInfo> = {
   },
 }
 
-Object.assign(photoCredits, additional, photos126, photos136)
+Object.assign(photoCredits, additional, photos126, photos136, photos069)
 for (const photo of blogPhotos) {
   if (photo.primaryPlaceId && !photoCredits[photo.primaryPlaceId])
     photoCredits[photo.primaryPlaceId] = photo.photoCredit

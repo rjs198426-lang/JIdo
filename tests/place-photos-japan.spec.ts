@@ -277,18 +277,22 @@ test('일본 주요 10개 도시·500개 이상 장소의 기본 가이드와 �
   await expect(page.locator('.city-card')).toHaveCount(1)
   await page.getByRole('button', { name: '도쿄 여행지 자세히 보기' }).click()
   const dialog = page.getByRole('dialog')
-  await expect(dialog).toContainText('하네다·나리타공항')
+  await expect(dialog).toContainText('하네다·나리타')
   await expect(
-    dialog.getByRole('tablist', { name: '실전 가이드', exact: true }),
+    dialog.getByRole('tablist', { name: '도시 가이드', exact: true }),
   ).toBeVisible()
   await expect(dialog).not.toContainText('상세 안내·기존 자료')
-  await expect(dialog).toContainText('센소지')
   await expect(
     dialog.getByRole('link', { name: '일본정부관광국 공식 안내' }),
   ).toHaveAttribute(
     'href',
     'https://www.japan.travel/en/destinations/kanto/tokyo/',
   )
+  await dialog
+    .getByRole('tablist', { name: '도시 가이드' })
+    .getByRole('tab', { name: '관광', exact: true })
+    .click()
+  await expect(dialog).toContainText('센소지')
   await dialog
     .getByRole('button', { name: '도쿄 여행 만들기', exact: true })
     .click()
@@ -308,16 +312,16 @@ test('일본 주요 10개 도시·500개 이상 장소의 기본 가이드와 �
   await context.setOffline(false)
 })
 
-test('70개 장소의 사진 파일이 열리고 장소별로 구분되며 촬영자·이용 조건을 연결', async ({
+test('177개 장소의 사진 파일이 열리고 장소별로 구분되며 촬영자·이용 조건을 연결', async ({
   page,
 }) => {
   const photographed = places.filter((place) => place.photoCredit)
-  expect(photographed).toHaveLength(70)
-  expect(new Set(photographed.map((place) => place.image)).size).toBe(70)
+  expect(photographed).toHaveLength(177)
+  expect(new Set(photographed.map((place) => place.image)).size).toBe(177)
   for (const place of photographed) {
     expect(place.photoCredit?.file).toBe(place.image)
     expect(place.photoCredit?.sourceUrl).toMatch(
-      /^https:\/\/(commons\.wikimedia\.org\/wiki\/File:|eundol-meow\.tistory\.com\/entry\/)/,
+      /^https:\/\/(commons\.wikimedia\.org\/wiki\/File:|(?:eundol-meow\.tistory\.com\/entry\/|jeesus\.tistory\.com\/481|geone\.tistory\.com\/645))/,
     )
     expect(place.photoCredit?.licenseUrl).toMatch(/^https:\/\//)
     expect(place.photoCredit?.author).toBeTruthy()
@@ -339,7 +343,7 @@ test('70개 장소의 사진 파일이 열리고 장소별로 구분되며 촬�
       ),
     photographed.map((place) => optimizedImage(place.image)),
   )
-  expect(loaded).toEqual(Array(70).fill(true))
+  expect(loaded).toEqual(Array(177).fill(true))
   await page.getByLabel('도시 또는 나라 검색').fill('교토')
   await page.getByRole('button', { name: '여행지 찾기', exact: true }).click()
   await page.getByRole('button', { name: '교토 여행지 자세히 보기' }).click()
@@ -347,6 +351,10 @@ test('70개 장소의 사진 파일이 열리고 장소별로 구분되며 촬�
   await expect(
     dialog.locator('.detail-place-list img[src="/images/kyoto.jpg"]'),
   ).toHaveCount(0)
+  await dialog
+    .getByRole('tablist', { name: '도시 가이드', exact: true })
+    .getByRole('tab', { name: '관광', exact: true })
+    .click()
   await dialog
     .getByRole('button', { name: '기요미즈데라 자세히 보기', exact: true })
     .click()
@@ -358,7 +366,10 @@ test('70개 장소의 사진 파일이 열리고 장소별로 구분되며 촬�
   await expect(dialog.locator('.photo-credit')).toHaveCount(0)
   await page.getByRole('button', { name: '닫기', exact: true }).click()
   await expect(page.getByRole('dialog')).toHaveCount(0)
-  await page.locator('.desktop-nav:visible,.bottom-nav:visible').getByRole('button', { name: '설정', exact: true }).click()
+  await page
+    .locator('.desktop-nav:visible,.bottom-nav:visible')
+    .getByRole('button', { name: '설정', exact: true })
+    .click()
   await page.getByRole('button', { name: '사진 출처', exact: true }).click()
   await page.getByLabel('사진 출처 검색').fill('기요미즈데라')
   const credit = page

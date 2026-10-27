@@ -151,10 +151,12 @@ test('개인 대표 사진·기존 출처와 장소 소개의 새 사진을 함�
     .click()
   dialog = page.getByRole('dialog')
   const photo = photos.find((photo) => photo.cityId === 'tokyo')!
-  await expect(dialog.locator('.blog-photos img')).toHaveAttribute(
+  // The exact venue photo is now the hero; do not render it twice.
+  await expect(dialog.locator('.place-detail-photo img')).toHaveAttribute(
     'src',
     optimizedImage(photo.image),
   )
+  await expect(dialog.locator('.blog-photos img')).toHaveCount(0)
   await dialog.getByLabel('도쿄 타워 개인 사진 파일').setInputFiles({
     name: '내 사진.png',
     mimeType: 'image/png',
@@ -167,14 +169,14 @@ test('개인 대표 사진·기존 출처와 장소 소개의 새 사진을 함�
     'src',
     /^blob:/,
   )
-  await expect(dialog.locator('.blog-photos img')).toHaveAttribute(
-    'src',
-    optimizedImage(photo.image),
-  )
+  await expect(dialog.locator('.blog-photos img')).toHaveCount(0)
   await dialog.getByRole('button', { name: '닫기', exact: true }).click()
-  await page.locator('.desktop-nav:visible,.bottom-nav:visible').getByRole('button', { name: '설정', exact: true }).click()
+  await page
+    .locator('.desktop-nav:visible,.bottom-nav:visible')
+    .getByRole('button', { name: '설정', exact: true })
+    .click()
   await page.getByRole('button', { name: '사진 출처', exact: true }).click()
-  await expect(page.locator('.photo-credit-entry')).toHaveCount(95)
+  await expect(page.locator('.photo-credit-entry')).toHaveCount(199)
   for (const photo of photos) {
     const entry = page.locator('.photo-credit-entry').filter({
       has: page.locator(`img[src="${optimizedImage(photo.image)}"]`),

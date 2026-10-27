@@ -18,7 +18,34 @@ import {
   subscribePublicContent,
 } from './content-release'
 let bundledCities = publicContent()?.catalog.cities || embeddedCities
-let bundledPlaces = publicContent()?.catalog.places || embeddedPlaces
+// Old public catalog releases can still contain placeholders for newly bundled
+// venue photos. Upgrade those paths only; authored/custom images remain intact.
+function withEmbeddedPhoto(value: (typeof embeddedPlaces)[number]) {
+  const embedded = embeddedPlaces.find((place) => place.id === value.id)
+  const oldPaths = new Set([
+    '/images/kyoto.jpg',
+    '/images/bali.jpg',
+    '/images/bangkok.jpg',
+    '/images/santorini.jpg',
+    '/images/dubai.jpg',
+    '/images/maldives.jpg',
+    '/images/place-placeholder.svg',
+    '/images/guide-placeholder.svg',
+  ])
+  if (
+    embedded?.photoCredit &&
+    (oldPaths.has(value.image) || retiredBlogImages.has(value.image))
+  )
+    return {
+      ...value,
+      image: embedded.image,
+      photoCredit: embedded.photoCredit,
+    }
+  return value
+}
+let bundledPlaces = (publicContent()?.catalog.places || embeddedPlaces).map(
+  withEmbeddedPhoto,
+)
 export { categoryOptions } from './data'
 export type { City, Place, Region } from './data'
 
@@ -151,7 +178,7 @@ subscribePublicContent(() => {
   const content = publicContent()
   if (!content) return
   bundledCities = content.catalog.cities
-  bundledPlaces = content.catalog.places
+  bundledPlaces = content.catalog.places.map(withEmbeddedPhoto)
   for (const city of content.retainedCities) cityRegistry.set(city.id, city)
   for (const place of content.retainedPlaces) placeRegistry.set(place.id, place)
   rebuild()

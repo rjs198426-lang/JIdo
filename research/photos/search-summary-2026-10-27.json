@@ -1,0 +1,2636 @@
+{
+  "checkedAt": "2026-10-27",
+  "queryRule": "First English venue name before ·, filetype:bitmap; namespace 6; first 12 results. Search matching alone is not venue approval. Sequential requests stopped on HTTP 429.",
+  "queries": [
+    {
+      "placeId": "kyoto-review-3ad4fafd578f",
+      "queryResults": 12,
+      "recentReusableCandidates": 12
+    },
+    {
+      "placeId": "bali-review-7baf35008c3b",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "bangkok-review-1d53593bca2c",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "santorini-review-f65abd003050",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "dubai-review-1ee5e0dc69a7",
+      "queryResults": 12,
+      "recentReusableCandidates": 1
+    },
+    {
+      "placeId": "maldives-review-780238e9cacd",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "tokyo-review-a3a4540c66ad",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "osaka-review-b0660bf9b758",
+      "queryResults": 12,
+      "recentReusableCandidates": 6
+    },
+    {
+      "placeId": "yokohama-review-040c8c2ae64e",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "nagoya-review-97fb403a3466",
+      "queryResults": 12,
+      "recentReusableCandidates": 10
+    },
+    {
+      "placeId": "sapporo-review-56228a68e4e4",
+      "queryResults": 12,
+      "recentReusableCandidates": 1
+    },
+    {
+      "placeId": "fukuoka-review-7c691bbfc87d",
+      "queryResults": 12,
+      "recentReusableCandidates": 1
+    },
+    {
+      "placeId": "hiroshima-review-9c122332e42e",
+      "queryResults": 12,
+      "recentReusableCandidates": 6
+    },
+    {
+      "placeId": "kobe-review-2ab015099c7b",
+      "queryResults": 12,
+      "recentReusableCandidates": 2
+    },
+    {
+      "placeId": "sendai-review-e33e65db8ce8",
+      "queryResults": 12,
+      "recentReusableCandidates": 1
+    },
+    {
+      "placeId": "taipei-balance-325ed7e361",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "hongkong-balance-7b184ee98a",
+      "queryResults": 12,
+      "recentReusableCandidates": 1
+    },
+    {
+      "placeId": "singapore-balance-5bcd5b3ca7",
+      "queryResults": 12,
+      "recentReusableCandidates": 1
+    },
+    {
+      "placeId": "danang-balance-20bd90eefc",
+      "queryResults": 1,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "guam-ypao-beach",
+      "queryResults": 7,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "saipan-managaha",
+      "queryResults": 12,
+      "recentReusableCandidates": 1
+    },
+    {
+      "placeId": "kyoto-review-c9c8b0ef41be",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "bali-review-7a45374550b0",
+      "queryResults": 12,
+      "recentReusableCandidates": 1
+    },
+    {
+      "placeId": "bangkok-review-aaba407c833d",
+      "queryResults": 12,
+      "recentReusableCandidates": 5
+    },
+    {
+      "placeId": "santorini-review-14b095fbd552",
+      "queryResults": 12,
+      "recentReusableCandidates": 1
+    },
+    {
+      "placeId": "dubai-review-92cdaffb7054",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "maldives-review-5487a27a6317",
+      "queryResults": 1,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "tokyo-review-90d6c70e1e86",
+      "queryResults": 12,
+      "recentReusableCandidates": 6
+    },
+    {
+      "placeId": "osaka-review-ce04090fee74",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "yokohama-review-563f511596a3",
+      "queryResults": 0,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "nagoya-review-8a3e457eb555",
+      "queryResults": 1,
+      "recentReusableCandidates": 1
+    },
+    {
+      "placeId": "sapporo-review-60dbdab4fca0",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "fukuoka-review-62545a9d3b3c",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "hiroshima-review-ad9d6c99b447",
+      "queryResults": 12,
+      "recentReusableCandidates": 6
+    },
+    {
+      "placeId": "kobe-review-34e9a13e2bca",
+      "queryResults": 12,
+      "recentReusableCandidates": 1
+    },
+    {
+      "placeId": "sendai-review-03093db0a492",
+      "queryResults": 12,
+      "recentReusableCandidates": 6
+    },
+    {
+      "placeId": "taipei-balance-23c04e6ea7",
+      "queryResults": 0,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "hongkong-balance-1af5535bda",
+      "queryResults": 12,
+      "recentReusableCandidates": 2
+    },
+    {
+      "placeId": "singapore-balance-e48d385859",
+      "queryResults": 12,
+      "recentReusableCandidates": 2
+    },
+    {
+      "placeId": "danang-balance-91764ab0aa",
+      "queryResults": 0,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "guam-gun-beach",
+      "queryResults": 12,
+      "recentReusableCandidates": 3
+    },
+    {
+      "placeId": "saipan-micro-beach",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "kyoto-review-354ac9b67d4b",
+      "queryResults": 12,
+      "recentReusableCandidates": 5
+    },
+    {
+      "placeId": "bali-review-c1b79571d9d4",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "bangkok-review-12f3a2d501b2",
+      "queryResults": 12,
+      "recentReusableCandidates": 2
+    },
+    {
+      "placeId": "santorini-review-d07aa4e4afa4",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "dubai-review-24ce1836f50d",
+      "queryResults": 12,
+      "recentReusableCandidates": 7
+    },
+    {
+      "placeId": "maldives-review-c92bd60e6699",
+      "queryResults": 12,
+      "recentReusableCandidates": 12
+    },
+    {
+      "placeId": "tokyo-review-f45327fa4942",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "osaka-review-9264d09dfcc7",
+      "queryResults": 12,
+      "recentReusableCandidates": 3
+    },
+    {
+      "placeId": "yokohama-review-f6e5358087f5",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "nagoya-review-50dd3b74c667",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "sapporo-review-597158274130",
+      "queryResults": 9,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "fukuoka-review-2a612b76d37a",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "hiroshima-review-9952f4c09ec0",
+      "queryResults": 12,
+      "recentReusableCandidates": 4
+    },
+    {
+      "placeId": "kobe-review-ecfcc32657c3",
+      "queryResults": 1,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "sendai-review-fd6092c0e653",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "taipei-balance-a5285b629d",
+      "queryResults": 12,
+      "recentReusableCandidates": 1
+    },
+    {
+      "placeId": "hongkong-balance-36ee82609d",
+      "queryResults": 12,
+      "recentReusableCandidates": 2
+    },
+    {
+      "placeId": "singapore-balance-eaf2d23af8",
+      "queryResults": 12,
+      "recentReusableCandidates": 6
+    },
+    {
+      "placeId": "danang-balance-8f5e0516b7",
+      "queryResults": 12,
+      "recentReusableCandidates": 5
+    },
+    {
+      "placeId": "guam-plaza-de-espana",
+      "queryResults": 12,
+      "recentReusableCandidates": 1
+    },
+    {
+      "placeId": "saipan-american-memorial",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "kyoto-review-b981c89f42b4",
+      "queryResults": 12,
+      "recentReusableCandidates": 2
+    },
+    {
+      "placeId": "bali-review-4aa0b066bd35",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "bangkok-review-f47ebbf461a4",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "santorini-review-1d219b4b7d6e",
+      "queryResults": 12,
+      "recentReusableCandidates": 1
+    },
+    {
+      "placeId": "dubai-review-2da0fd74470a",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "maldives-review-efa930904c60",
+      "queryResults": 0,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "tokyo-review-a45369c140d6",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "osaka-review-b1c4146a2335",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "yokohama-review-0a6982dc509e",
+      "queryResults": 9,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "nagoya-review-425453cbd16f",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "sapporo-review-1bcbdd7d039f",
+      "queryResults": 12,
+      "recentReusableCandidates": 1
+    },
+    {
+      "placeId": "fukuoka-review-e93ed741f863",
+      "queryResults": 12,
+      "recentReusableCandidates": 4
+    },
+    {
+      "placeId": "hiroshima-review-8c71adcadc1d",
+      "queryResults": 4,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "kobe-review-ef0ea1d30c8f",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "sendai-review-0ae07fee21b2",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "taipei-balance-3aa63e1483",
+      "queryResults": 5,
+      "recentReusableCandidates": 1
+    },
+    {
+      "placeId": "hongkong-balance-3fa8f90c6b",
+      "queryResults": 12,
+      "recentReusableCandidates": 3
+    },
+    {
+      "placeId": "singapore-balance-b0099cae82",
+      "queryResults": 1,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "danang-balance-e8a10261b1",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "guam-fort-santa-agueda",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "saipan-bird-island",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "kyoto-review-abea75631b76",
+      "queryResults": 12,
+      "recentReusableCandidates": 4
+    },
+    {
+      "placeId": "bali-review-c1af91b4a7e8",
+      "queryResults": 2,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "bangkok-review-e22ba9e57d6a",
+      "queryResults": 12,
+      "recentReusableCandidates": 8
+    },
+    {
+      "placeId": "santorini-review-233784073870",
+      "queryResults": 12,
+      "recentReusableCandidates": 1
+    },
+    {
+      "placeId": "dubai-review-b1f0843a3e06",
+      "queryResults": 12,
+      "recentReusableCandidates": 1
+    },
+    {
+      "placeId": "maldives-review-cfd3abb199bd",
+      "queryResults": 12,
+      "recentReusableCandidates": 11
+    },
+    {
+      "placeId": "tokyo-review-06cfc84fff67",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "osaka-review-a7d235646b8e",
+      "queryResults": 12,
+      "recentReusableCandidates": 4
+    },
+    {
+      "placeId": "yokohama-review-258fa4853c59",
+      "queryResults": 12,
+      "recentReusableCandidates": 11
+    },
+    {
+      "placeId": "nagoya-review-6dfee2547e8d",
+      "queryResults": 4,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "sapporo-review-2d40c676eec5",
+      "queryResults": 12,
+      "recentReusableCandidates": 12
+    },
+    {
+      "placeId": "fukuoka-review-6e06e038f245",
+      "queryResults": 12,
+      "recentReusableCandidates": 2
+    },
+    {
+      "placeId": "hiroshima-review-7ab2797639cf",
+      "queryResults": 12,
+      "recentReusableCandidates": 3
+    },
+    {
+      "placeId": "kobe-review-8609d81e834f",
+      "queryResults": 12,
+      "recentReusableCandidates": 1
+    },
+    {
+      "placeId": "sendai-review-5a648d9c156f",
+      "queryResults": 1,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "taipei-balance-fffb4a9d57",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "hongkong-balance-5004206737",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "singapore-balance-87a23b142a",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "danang-balance-adc9e1e833",
+      "queryResults": 1,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "guam-asan-beach",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "saipan-grotto",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "kyoto-review-8f785e509bce",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "bali-review-881e2aeb21dd",
+      "queryResults": 12,
+      "recentReusableCandidates": 6
+    },
+    {
+      "placeId": "bangkok-review-8b1f0624c7d0",
+      "queryResults": 12,
+      "recentReusableCandidates": 1
+    },
+    {
+      "placeId": "santorini-review-7ebd7d8d9fd7",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "dubai-review-0f764fd7eb6c",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "maldives-review-c0411d945ff6",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "tokyo-review-9bc3e51d9cd3",
+      "queryResults": 12,
+      "recentReusableCandidates": 1
+    },
+    {
+      "placeId": "osaka-review-7e5bbdf9692c",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "yokohama-review-f998dfd3c322",
+      "queryResults": 12,
+      "recentReusableCandidates": 1
+    },
+    {
+      "placeId": "nagoya-review-df7b506c9769",
+      "queryResults": 12,
+      "recentReusableCandidates": 2
+    },
+    {
+      "placeId": "sapporo-review-48c378f81c09",
+      "queryResults": 12,
+      "recentReusableCandidates": 3
+    },
+    {
+      "placeId": "fukuoka-review-fdbdfe8afeac",
+      "queryResults": 12,
+      "recentReusableCandidates": 8
+    },
+    {
+      "placeId": "hiroshima-review-5f9d07e06ee2",
+      "queryResults": 12,
+      "recentReusableCandidates": 8
+    },
+    {
+      "placeId": "kobe-review-124bfcc6015e",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "sendai-review-6b6fa15ebb58",
+      "queryResults": 6,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "taipei-balance-d163e6c1be",
+      "queryResults": 12,
+      "recentReusableCandidates": 9
+    },
+    {
+      "placeId": "hongkong-balance-73d0ec3275",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "singapore-balance-26f921970e",
+      "queryResults": 12,
+      "recentReusableCandidates": 1
+    },
+    {
+      "placeId": "danang-balance-c08389f08e",
+      "queryResults": 0,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "guam-newman-center",
+      "queryResults": 3,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "saipan-banzai-cliff",
+      "queryResults": 12,
+      "recentReusableCandidates": 2
+    },
+    {
+      "placeId": "kyoto-review-cd801b84397d",
+      "queryResults": 12,
+      "recentReusableCandidates": 2
+    },
+    {
+      "placeId": "bali-review-b7e09d81c081",
+      "queryResults": 12,
+      "recentReusableCandidates": 12
+    },
+    {
+      "placeId": "bangkok-review-5d192029724c",
+      "queryResults": 12,
+      "recentReusableCandidates": 3
+    },
+    {
+      "placeId": "santorini-review-c10c02d6cb8a",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "dubai-review-e3e7329faca7",
+      "queryResults": 12,
+      "recentReusableCandidates": 4
+    },
+    {
+      "placeId": "maldives-review-9cbc960fd274",
+      "queryResults": 0,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "tokyo-review-a759547eabbc",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "osaka-review-6c26a8388777",
+      "queryResults": 0,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "yokohama-review-1b18ef5a0935",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "nagoya-review-49165d5e1af9",
+      "queryResults": 12,
+      "recentReusableCandidates": 12
+    },
+    {
+      "placeId": "sapporo-review-7655df2da794",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "fukuoka-review-883af8ccd617",
+      "queryResults": 0,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "hiroshima-review-cc4c4f3365a4",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "kobe-review-876fb80fa0e5",
+      "queryResults": 2,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "sendai-review-9b1df5a94ae2",
+      "queryResults": 12,
+      "recentReusableCandidates": 1
+    },
+    {
+      "placeId": "taipei-balance-28a2288970",
+      "queryResults": 12,
+      "recentReusableCandidates": 1
+    },
+    {
+      "placeId": "hongkong-balance-d1a96e6289",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "singapore-balance-7a5374badf",
+      "queryResults": 12,
+      "recentReusableCandidates": 3
+    },
+    {
+      "placeId": "danang-balance-51bafad9bf",
+      "queryResults": 12,
+      "recentReusableCandidates": 1
+    },
+    {
+      "placeId": "guam-ritidian-beach",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "saipan-suicide-cliff",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "kyoto-review-84598141b54d",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "bali-review-e352eefa1b53",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "bangkok-review-57de3e5e724a",
+      "queryResults": 12,
+      "recentReusableCandidates": 1
+    },
+    {
+      "placeId": "santorini-review-57c138971237",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "dubai-review-7838c0204418",
+      "queryResults": 12,
+      "recentReusableCandidates": 12
+    },
+    {
+      "placeId": "maldives-review-546f19696adf",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "tokyo-review-5aadf4462382",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "osaka-review-a5288887f42e",
+      "queryResults": 12,
+      "recentReusableCandidates": 1
+    },
+    {
+      "placeId": "yokohama-review-8acf1732c325",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "nagoya-review-e10d1ac4135c",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "sapporo-review-b1b5a980d18f",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "fukuoka-review-8249290872e6",
+      "queryResults": 12,
+      "recentReusableCandidates": 7
+    },
+    {
+      "placeId": "hiroshima-review-b60ebf716826",
+      "queryResults": 11,
+      "recentReusableCandidates": 2
+    },
+    {
+      "placeId": "kobe-review-91453d878d01",
+      "queryResults": 10,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "sendai-review-5362a5b1a4b7",
+      "queryResults": 9,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "taipei-balance-78b718414c",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "hongkong-balance-d0e16ee09a",
+      "queryResults": 6,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "singapore-balance-f952c47087",
+      "queryResults": 12,
+      "recentReusableCandidates": 1
+    },
+    {
+      "placeId": "danang-balance-5335dcf3f0",
+      "queryResults": 12,
+      "recentReusableCandidates": 8
+    },
+    {
+      "placeId": "guam-fish-eye",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "saipan-last-command",
+      "queryResults": 9,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "kyoto-review-b94a619f6326",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "bali-review-38c25edfbabc",
+      "queryResults": 4,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "bangkok-review-a478d6995919",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "santorini-review-d42c993d51af",
+      "queryResults": 8,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "dubai-review-b63c20009655",
+      "queryResults": 12,
+      "recentReusableCandidates": 1
+    },
+    {
+      "placeId": "maldives-review-9b01188b564f",
+      "queryResults": 12,
+      "recentReusableCandidates": 1
+    },
+    {
+      "placeId": "tokyo-review-c0b8a061d5c7",
+      "queryResults": 12,
+      "recentReusableCandidates": 1
+    },
+    {
+      "placeId": "osaka-review-c96670713187",
+      "queryResults": 12,
+      "recentReusableCandidates": 2
+    },
+    {
+      "placeId": "yokohama-review-0ff8da5bb751",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "nagoya-review-7ca6d597ccd7",
+      "queryResults": 12,
+      "recentReusableCandidates": 11
+    },
+    {
+      "placeId": "sapporo-review-7b09b6096cc5",
+      "queryResults": 1,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "fukuoka-review-be6e41d9108f",
+      "queryResults": 12,
+      "recentReusableCandidates": 4
+    },
+    {
+      "placeId": "hiroshima-review-6ec916848150",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "kobe-review-06ac7b48ec95",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "sendai-review-a767baf65e2b",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "taipei-balance-712e241c3b",
+      "queryResults": 1,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "hongkong-balance-8f2e5d8b09",
+      "queryResults": 12,
+      "recentReusableCandidates": 1
+    },
+    {
+      "placeId": "singapore-balance-bcf81ddf84",
+      "queryResults": 12,
+      "recentReusableCandidates": 2
+    },
+    {
+      "placeId": "danang-balance-5d59aacbfa",
+      "queryResults": 12,
+      "recentReusableCandidates": 9
+    },
+    {
+      "placeId": "guam-emerald-valley",
+      "queryResults": 0,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "saipan-mount-tapochau",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "kyoto-review-8fb58dfc216f",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "bali-review-0dd451ae2886",
+      "queryResults": 12,
+      "recentReusableCandidates": 12
+    },
+    {
+      "placeId": "bangkok-review-142bb81e1d2b",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "santorini-review-70a7850daa36",
+      "queryResults": 12,
+      "recentReusableCandidates": 3
+    },
+    {
+      "placeId": "dubai-review-cd947889b1f5",
+      "queryResults": 12,
+      "recentReusableCandidates": 2
+    },
+    {
+      "placeId": "maldives-review-5f3b9879b230",
+      "queryResults": 12,
+      "recentReusableCandidates": 2
+    },
+    {
+      "placeId": "tokyo-review-4318d577a3dc",
+      "queryResults": 12,
+      "recentReusableCandidates": 1
+    },
+    {
+      "placeId": "osaka-review-a662f143191a",
+      "queryResults": 12,
+      "recentReusableCandidates": 2
+    },
+    {
+      "placeId": "yokohama-review-55b9a372dc6a",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "nagoya-review-6eef2e8d47d1",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "sapporo-review-dc6ca4c889c3",
+      "queryResults": 12,
+      "recentReusableCandidates": 7
+    },
+    {
+      "placeId": "fukuoka-review-77b91c6de319",
+      "queryResults": 12,
+      "recentReusableCandidates": 4
+    },
+    {
+      "placeId": "hiroshima-review-9ef4fce9fc97",
+      "queryResults": 6,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "kobe-review-6f1f250e0484",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "sendai-review-773aacc448d9",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "taipei-balance-84ce69e620",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "hongkong-balance-5367ec2fe0",
+      "queryResults": 12,
+      "recentReusableCandidates": 3
+    },
+    {
+      "placeId": "singapore-balance-4f3e474897",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "danang-balance-a8e0a78f39",
+      "queryResults": 0,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "guam-inarajan-pools",
+      "queryResults": 0,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "saipan-forbidden-island",
+      "queryResults": 3,
+      "recentReusableCandidates": 2
+    },
+    {
+      "placeId": "kyoto-review-67044d7dcd97",
+      "queryResults": 12,
+      "recentReusableCandidates": 8
+    },
+    {
+      "placeId": "bali-review-d6b67b255c7d",
+      "queryResults": 0,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "bangkok-review-0318ec0d7f21",
+      "queryResults": 12,
+      "recentReusableCandidates": 2
+    },
+    {
+      "placeId": "santorini-review-71a86b7895b3",
+      "queryResults": 6,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "dubai-review-117e360d3def",
+      "queryResults": 12,
+      "recentReusableCandidates": 3
+    },
+    {
+      "placeId": "maldives-review-035dfef27193",
+      "queryResults": 0,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "tokyo-review-c99cc24ca4bb",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "osaka-review-7286c3c15094",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "yokohama-review-1c3285434645",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "nagoya-review-3b51b7cfa06c",
+      "queryResults": 12,
+      "recentReusableCandidates": 7
+    },
+    {
+      "placeId": "sapporo-review-abc4bcc667b3",
+      "queryResults": 12,
+      "recentReusableCandidates": 3
+    },
+    {
+      "placeId": "fukuoka-review-f106c7336fe4",
+      "queryResults": 12,
+      "recentReusableCandidates": 4
+    },
+    {
+      "placeId": "hiroshima-review-b732d8b5046d",
+      "queryResults": 12,
+      "recentReusableCandidates": 9
+    },
+    {
+      "placeId": "kobe-review-ca5239e342c6",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "sendai-review-ef0263a8582c",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "taipei-guide-3682822e1b06",
+      "queryResults": 12,
+      "recentReusableCandidates": 3
+    },
+    {
+      "placeId": "hongkong-guide-ba6138c89ec7",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "singapore-balance-395da9e1a6",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "danang-guide-1cffff18d23e",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "guam-fort-soledad",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "saipan-ladder-beach",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "kyoto-review-8dce7ff01b89",
+      "queryResults": 12,
+      "recentReusableCandidates": 1
+    },
+    {
+      "placeId": "bali-review-e485271b167d",
+      "queryResults": 8,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "bangkok-review-93ee61e07ea5",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "santorini-review-1ba9549aec8a",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "dubai-review-dc533b69e3d0",
+      "queryResults": 12,
+      "recentReusableCandidates": 1
+    },
+    {
+      "placeId": "maldives-review-c909c12a24e1",
+      "queryResults": 0,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "tokyo-review-3633db0e05bd",
+      "queryResults": 12,
+      "recentReusableCandidates": 2
+    },
+    {
+      "placeId": "osaka-review-2378c205e94c",
+      "queryResults": 12,
+      "recentReusableCandidates": 2
+    },
+    {
+      "placeId": "yokohama-review-e1ed7eaa0a8b",
+      "queryResults": 9,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "nagoya-review-a05ea12c07b0",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "sapporo-review-12f296fdd49a",
+      "queryResults": 8,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "fukuoka-review-52cd4e0c30d7",
+      "queryResults": 12,
+      "recentReusableCandidates": 12
+    },
+    {
+      "placeId": "hiroshima-review-e294e03dc02a",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "kobe-review-c9a898a5865d",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "sendai-review-7c5989477945",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "taipei-guide-9a78bac6997e",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "hongkong-guide-fd5091deba63",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "singapore-guide-d56599727500",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "danang-guide-e22744f96b4c",
+      "queryResults": 11,
+      "recentReusableCandidates": 3
+    },
+    {
+      "placeId": "guam-merizo-pier",
+      "queryResults": 0,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "saipan-obyan-beach",
+      "queryResults": 2,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "kyoto-review-46d3ae0aecc9",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "bali-review-64d825c5f09b",
+      "queryResults": 5,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "bangkok-review-8be09893e6a6",
+      "queryResults": 12,
+      "recentReusableCandidates": 1
+    },
+    {
+      "placeId": "santorini-review-e58decbba9a4",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "dubai-review-ca675a267f90",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "maldives-review-617abc69c8f8",
+      "queryResults": 0,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "tokyo-review-1d57af2089ad",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "osaka-review-90bb9ca54308",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "yokohama-review-4f15aef30b25",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "nagoya-review-d26b946dc273",
+      "queryResults": 12,
+      "recentReusableCandidates": 10
+    },
+    {
+      "placeId": "sapporo-review-181e1840dbef",
+      "queryResults": 12,
+      "recentReusableCandidates": 2
+    },
+    {
+      "placeId": "fukuoka-review-72350575eabf",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "hiroshima-review-4a10a70ea5f6",
+      "queryResults": 9,
+      "recentReusableCandidates": 1
+    },
+    {
+      "placeId": "kobe-review-8eb383c7371c",
+      "queryResults": 5,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "sendai-review-44f14b9a624d",
+      "queryResults": 12,
+      "recentReusableCandidates": 1
+    },
+    {
+      "placeId": "taipei-guide-4873bb146512",
+      "queryResults": 12,
+      "recentReusableCandidates": 1
+    },
+    {
+      "placeId": "hongkong-guide-0d00a6d445a0",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "singapore-guide-3e98c0bd3bdf",
+      "queryResults": 12,
+      "recentReusableCandidates": 1
+    },
+    {
+      "placeId": "danang-guide-fdbc49ddca56",
+      "queryResults": 12,
+      "recentReusableCandidates": 4
+    },
+    {
+      "placeId": "guam-talofofo-falls",
+      "queryResults": 12,
+      "recentReusableCandidates": 2
+    },
+    {
+      "placeId": "saipan-tank-beach",
+      "queryResults": 12,
+      "recentReusableCandidates": 8
+    },
+    {
+      "placeId": "kyoto-review-ed13761d9aeb",
+      "queryResults": 12,
+      "recentReusableCandidates": 4
+    },
+    {
+      "placeId": "bali-review-30b557437d49",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "bangkok-review-44070ad35546",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "santorini-review-f7ab8a21c17a",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "dubai-review-4aa19d63d873",
+      "queryResults": 12,
+      "recentReusableCandidates": 4
+    },
+    {
+      "placeId": "maldives-review-6a899241d5fc",
+      "queryResults": 0,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "tokyo-review-a43000ec81b8",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "osaka-review-9321449f0489",
+      "queryResults": 12,
+      "recentReusableCandidates": 7
+    },
+    {
+      "placeId": "yokohama-review-2ae62d3dcbc1",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "nagoya-review-ea0e9b513c37",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "sapporo-review-dc3887920113",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "fukuoka-review-b80aae8094ea",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "hiroshima-review-903f25bba010",
+      "queryResults": 10,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "kobe-review-90e8a7be2dfc",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "sendai-review-9d8b55998c2b",
+      "queryResults": 0,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "taipei-guide-4e2b4d3547c8",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "hongkong-guide-15b37b842ec3",
+      "queryResults": 12,
+      "recentReusableCandidates": 1
+    },
+    {
+      "placeId": "singapore-guide-3e2d29af71a8",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "danang-guide-51b8b7d35422",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "guam-premier-outlets",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "saipan-marine-beach",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "kyoto-review-144b2db96983",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "bali-review-d3ac73af2077",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "bangkok-review-2679c7429ee4",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "santorini-review-69a8cbc47693",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "dubai-review-bec0ec0d798f",
+      "queryResults": 2,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "maldives-review-bd79fcf6d136",
+      "queryResults": 0,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "tokyo-review-adfa78e730d3",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "osaka-review-3a2aec26f2ba",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "yokohama-review-1fbd54f27a3d",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "nagoya-review-6aba8ef8b997",
+      "queryResults": 12,
+      "recentReusableCandidates": 11
+    },
+    {
+      "placeId": "sapporo-review-6f1fb60219bc",
+      "queryResults": 12,
+      "recentReusableCandidates": 1
+    },
+    {
+      "placeId": "fukuoka-review-505b01370725",
+      "queryResults": 12,
+      "recentReusableCandidates": 11
+    },
+    {
+      "placeId": "hiroshima-review-bfeba93a4f24",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "kobe-review-3cafaa7b38aa",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "sendai-review-264383ea809c",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "taipei-guide-7d4eec8b2e13",
+      "queryResults": 12,
+      "recentReusableCandidates": 3
+    },
+    {
+      "placeId": "hongkong-guide-77da8ea9ec30",
+      "queryResults": 12,
+      "recentReusableCandidates": 4
+    },
+    {
+      "placeId": "singapore-guide-b10fb9ddbad4",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "danang-guide-dce9a989753a",
+      "queryResults": 3,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "guam-balance-2c5bdea8cf",
+      "queryResults": 0,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "saipan-sugar-king",
+      "queryResults": 12,
+      "recentReusableCandidates": 1
+    },
+    {
+      "placeId": "kyoto-review-e714b5190a91",
+      "queryResults": 12,
+      "recentReusableCandidates": 11
+    },
+    {
+      "placeId": "bali-review-656c78b3c98e",
+      "queryResults": 0,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "bangkok-review-416c0c6b3e44",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "santorini-review-d90731535068",
+      "queryResults": 6,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "dubai-review-a9da29670cc5",
+      "queryResults": 12,
+      "recentReusableCandidates": 2
+    },
+    {
+      "placeId": "maldives-review-cc9b0c5280ed",
+      "queryResults": 0,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "tokyo-review-aa85e6696341",
+      "queryResults": 12,
+      "recentReusableCandidates": 1
+    },
+    {
+      "placeId": "osaka-review-08de55823f7b",
+      "queryResults": 12,
+      "recentReusableCandidates": 5
+    },
+    {
+      "placeId": "yokohama-review-37b6ce32c549",
+      "queryResults": 12,
+      "recentReusableCandidates": 7
+    },
+    {
+      "placeId": "nagoya-review-6864fbaf8d1a",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "sapporo-review-e1f33a5c223d",
+      "queryResults": 12,
+      "recentReusableCandidates": 2
+    },
+    {
+      "placeId": "fukuoka-review-bfb3f156eb3e",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "hiroshima-review-5872a2c3d613",
+      "queryResults": 12,
+      "recentReusableCandidates": 1
+    },
+    {
+      "placeId": "kobe-review-eaf9b6549d41",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "sendai-review-40bec75c034a",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "taipei-guide-311190f31652",
+      "queryResults": 12,
+      "recentReusableCandidates": 1
+    },
+    {
+      "placeId": "hongkong-guide-a9345e6d7bc6",
+      "queryResults": 12,
+      "recentReusableCandidates": 1
+    },
+    {
+      "placeId": "singapore-guide-b1d0fa56c267",
+      "queryResults": 12,
+      "recentReusableCandidates": 4
+    },
+    {
+      "placeId": "danang-guide-bfbc0f6a9a38",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "guam-balance-8b21210470",
+      "queryResults": 0,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "saipan-kristo-rai",
+      "queryResults": 2,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "kyoto-review-dc3a3df10526",
+      "queryResults": 12,
+      "recentReusableCandidates": 1
+    },
+    {
+      "placeId": "bali-review-579892169dd1",
+      "queryResults": 9,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "bangkok-review-06e05e78e8a4",
+      "queryResults": 5,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "santorini-review-a851ff3b16e4",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "dubai-review-d1c4b7f3e011",
+      "queryResults": 9,
+      "recentReusableCandidates": 2
+    },
+    {
+      "placeId": "maldives-review-fcce176fa9d1",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "tokyo-review-e9bf9837956b",
+      "queryResults": 3,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "osaka-review-33e85c9b87f5",
+      "queryResults": 12,
+      "recentReusableCandidates": 11
+    },
+    {
+      "placeId": "yokohama-review-9783ed4a6e9a",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "nagoya-review-ee1274401866",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "sapporo-review-1fab36e53e0d",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "fukuoka-review-b0bbf29a37ab",
+      "queryResults": 12,
+      "recentReusableCandidates": 10
+    },
+    {
+      "placeId": "hiroshima-review-93839d894a56",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "kobe-review-fb65ccaa5148",
+      "queryResults": 12,
+      "recentReusableCandidates": 1
+    },
+    {
+      "placeId": "sendai-review-5b4f677919ee",
+      "queryResults": 10,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "taipei-guide-0195af2115b6",
+      "queryResults": 12,
+      "recentReusableCandidates": 1
+    },
+    {
+      "placeId": "hongkong-guide-f387af1e434c",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "singapore-guide-c0ed2347fae2",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "danang-guide-c9deaa06b77b",
+      "queryResults": 0,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "guam-balance-0c3d42a097",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "saipan-paseo",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "kyoto-review-c60ba2a4ba1c",
+      "queryResults": 5,
+      "recentReusableCandidates": 4
+    },
+    {
+      "placeId": "bali-review-cbc05d9fbb0d",
+      "queryResults": 0,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "bangkok-review-b93647c6ed09",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "santorini-review-90a67c82ad42",
+      "queryResults": 5,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "dubai-review-eae27c8b9c6c",
+      "queryResults": 4,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "maldives-review-813fd63e9539",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "tokyo-review-1ad89942ca8b",
+      "queryResults": 2,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "osaka-review-71281cae7993",
+      "queryResults": 12,
+      "recentReusableCandidates": 5
+    },
+    {
+      "placeId": "yokohama-review-0870e7f21066",
+      "queryResults": 12,
+      "recentReusableCandidates": 2
+    },
+    {
+      "placeId": "nagoya-review-0f9d98a244bc",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "sapporo-review-2d92903a389a",
+      "queryResults": 0,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "fukuoka-review-2927acb1c037",
+      "queryResults": 12,
+      "recentReusableCandidates": 1
+    },
+    {
+      "placeId": "hiroshima-review-0c7f8472aa7f",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "kobe-review-c1a5ca74f9e2",
+      "queryResults": 12,
+      "recentReusableCandidates": 1
+    },
+    {
+      "placeId": "sendai-review-02727291eec4",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "taipei-guide-f8fa7026762b",
+      "queryResults": 12,
+      "recentReusableCandidates": 3
+    },
+    {
+      "placeId": "hongkong-guide-69e57ef5cd48",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "singapore-guide-f9acb420cb2d",
+      "queryResults": 12,
+      "recentReusableCandidates": 7
+    },
+    {
+      "placeId": "danang-guide-284e62f6baff",
+      "queryResults": 4,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "guam-balance-79d938ebb1",
+      "queryResults": 0,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "saipan-history-museum",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "kyoto-review-586e5aef1657",
+      "queryResults": 12,
+      "recentReusableCandidates": 5
+    },
+    {
+      "placeId": "bali-review-236a1e3447d5",
+      "queryResults": 0,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "bangkok-review-a6635ddb390c",
+      "queryResults": 1,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "santorini-review-7778db413872",
+      "queryResults": 0,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "dubai-review-9b889b60dd32",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "maldives-review-b2d70a180d96",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "tokyo-review-6ba0e6eeb463",
+      "queryResults": 12,
+      "recentReusableCandidates": 2
+    },
+    {
+      "placeId": "osaka-review-f2a95d63eb60",
+      "queryResults": 12,
+      "recentReusableCandidates": 2
+    },
+    {
+      "placeId": "yokohama-review-c8423da957d2",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "nagoya-review-96c928c5b629",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "sapporo-review-3751bc864063",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "fukuoka-review-fb6cad49a1e5",
+      "queryResults": 12,
+      "recentReusableCandidates": 11
+    },
+    {
+      "placeId": "hiroshima-review-f2a22af18205",
+      "queryResults": 12,
+      "recentReusableCandidates": 9
+    },
+    {
+      "placeId": "kobe-review-9501a46b9eb4",
+      "queryResults": 0,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "sendai-review-d0401e80b058",
+      "queryResults": 0,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "taipei-guide-fce11ef0e9f1",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "hongkong-guide-b6006fbf3c75",
+      "queryResults": 12,
+      "recentReusableCandidates": 4
+    },
+    {
+      "placeId": "singapore-guide-c4ca281387ad",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "danang-guide-3037568d722d",
+      "queryResults": 12,
+      "recentReusableCandidates": 7
+    },
+    {
+      "placeId": "guam-balance-f52c396229",
+      "queryResults": 2,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "saipan-jeffreys-beach",
+      "queryResults": 12,
+      "recentReusableCandidates": 1
+    },
+    {
+      "placeId": "kyoto-review-8f456c23b2ef",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "bali-review-ef55b677e219",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "bangkok-review-7d8950e8a627",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "santorini-review-541a0a7dc407",
+      "queryResults": 12,
+      "recentReusableCandidates": 1
+    },
+    {
+      "placeId": "dubai-review-5558a25e09cb",
+      "queryResults": 3,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "maldives-review-fd44dd2c60e5",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "tokyo-review-2f2d728a81c7",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "osaka-review-4e29bd7a0d28",
+      "queryResults": 10,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "yokohama-review-9ddcf5517051",
+      "queryResults": 12,
+      "recentReusableCandidates": 5
+    },
+    {
+      "placeId": "nagoya-review-0e5aa9531381",
+      "queryResults": 12,
+      "recentReusableCandidates": 12
+    },
+    {
+      "placeId": "sapporo-review-ea77f4d1d55d",
+      "queryResults": 12,
+      "recentReusableCandidates": 7
+    },
+    {
+      "placeId": "fukuoka-review-d451ff954e41",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "hiroshima-review-7b18069a79b4",
+      "queryResults": 12,
+      "recentReusableCandidates": 8
+    },
+    {
+      "placeId": "kobe-review-7cf13a3e558f",
+      "queryResults": 0,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "sendai-review-1995e85edc6e",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "taipei-guide-11658c833418",
+      "queryResults": 3,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "hongkong-guide-7758681a1269",
+      "queryResults": 12,
+      "recentReusableCandidates": 1
+    },
+    {
+      "placeId": "singapore-guide-2654a9fca3aa",
+      "queryResults": 12,
+      "recentReusableCandidates": 6
+    },
+    {
+      "placeId": "danang-guide-19149da8eee7",
+      "queryResults": 12,
+      "recentReusableCandidates": 3
+    },
+    {
+      "placeId": "guam-balance-97a4af1cf5",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "saipan-mount-carmel",
+      "queryResults": 7,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "kyoto-review-568990a36576",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "bali-review-12f84dcfe255",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "bangkok-review-aac483be78dc",
+      "queryResults": 0,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "santorini-review-69c4e48acaa8",
+      "queryResults": 0,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "dubai-review-9766209cd2ca",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "maldives-review-6f9033896412",
+      "queryResults": 3,
+      "recentReusableCandidates": 1
+    },
+    {
+      "placeId": "tokyo-review-6af4eecbbacf",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "osaka-review-4bcf6361338f",
+      "queryResults": 2,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "yokohama-review-4be34c1f3c77",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "nagoya-review-90c23f0ca4bf",
+      "queryResults": 12,
+      "recentReusableCandidates": 9
+    },
+    {
+      "placeId": "sapporo-review-14488690fdce",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "fukuoka-review-64e20739ff8a",
+      "queryResults": 12,
+      "recentReusableCandidates": 5
+    },
+    {
+      "placeId": "hiroshima-review-9d644bfafc4a",
+      "queryResults": 12,
+      "recentReusableCandidates": 1
+    },
+    {
+      "placeId": "kobe-review-85371518cff0",
+      "queryResults": 6,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "sendai-review-eae945a22a8d",
+      "queryResults": 12,
+      "recentReusableCandidates": 2
+    },
+    {
+      "placeId": "taipei-guide-f93a5b74783b",
+      "queryResults": 12,
+      "recentReusableCandidates": 1
+    },
+    {
+      "placeId": "hongkong-guide-84a5b5251631",
+      "queryResults": 12,
+      "recentReusableCandidates": 4
+    },
+    {
+      "placeId": "singapore-guide-7d3207aa3b9c",
+      "queryResults": 12,
+      "recentReusableCandidates": 2
+    },
+    {
+      "placeId": "danang-guide-1118ea125b72",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "guam-balance-98a5f46947",
+      "queryResults": 0,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "saipan-balance-159d858dad",
+      "queryResults": 12,
+      "recentReusableCandidates": 1
+    },
+    {
+      "placeId": "kyoto-review-cd6b7c1644cf",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "bali-review-b7e316dbb1c4",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "bangkok-review-dade2236930a",
+      "queryResults": 10,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "santorini-review-508dcc2205c7",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "dubai-review-ab9e154ce8f6",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "maldives-review-8769ba986db9",
+      "queryResults": 0,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "tokyo-review-3294637baa6c",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "osaka-review-ba6eb2a2d494",
+      "queryResults": 12,
+      "recentReusableCandidates": 4
+    },
+    {
+      "placeId": "yokohama-review-74cadf530470",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "nagoya-review-e59ec11f35da",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "sapporo-review-0eab69e8ee77",
+      "queryResults": 2,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "fukuoka-review-6723a754c607",
+      "queryResults": 0,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "hiroshima-review-d22da1836552",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "kobe-review-930aee210b94",
+      "queryResults": 0,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "sendai-review-634edee22d56",
+      "queryResults": 12,
+      "recentReusableCandidates": 2
+    },
+    {
+      "placeId": "taipei-guide-9a433dfcd6d7",
+      "queryResults": 12,
+      "recentReusableCandidates": 1
+    },
+    {
+      "placeId": "hongkong-guide-babcd84c03a8",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "singapore-guide-83ea0b1fb08a",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "danang-guide-aceb5b1cff2b",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "guam-balance-3bd2f9e185",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "saipan-balance-457279cc5d",
+      "queryResults": 12,
+      "recentReusableCandidates": 6
+    },
+    {
+      "placeId": "kyoto-review-2d8e48522bdf",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "bali-review-5f398f56ca9f",
+      "queryResults": 2,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "bangkok-review-e813616c761e",
+      "queryResults": 12,
+      "recentReusableCandidates": 6
+    },
+    {
+      "placeId": "santorini-review-d80027f157c1",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "dubai-review-e4c84589be4e",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "maldives-review-c4397f65f9d7",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "tokyo-review-8e1e6e4bd613",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "osaka-review-1dd74b62eb45",
+      "queryResults": 0,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "yokohama-review-7fca2f305550",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "nagoya-review-c9e60149a6d1",
+      "queryResults": 1,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "sapporo-review-80365c46346a",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "fukuoka-review-530980286e42",
+      "queryResults": 12,
+      "recentReusableCandidates": 1
+    },
+    {
+      "placeId": "hiroshima-review-7352e167e81b",
+      "queryResults": 3,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "kobe-review-f3538986b069",
+      "queryResults": 6,
+      "recentReusableCandidates": 2
+    },
+    {
+      "placeId": "sendai-review-b7a1f3a3966a",
+      "queryResults": 2,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "taipei-guide-7d7000a05bb1",
+      "queryResults": 12,
+      "recentReusableCandidates": 6
+    },
+    {
+      "placeId": "hongkong-guide-82ed7d620944",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "singapore-guide-9a40cce1ce7c",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "danang-guide-a038f991bb87",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "guam-balance-825eb8e850",
+      "queryResults": 12,
+      "recentReusableCandidates": 8
+    },
+    {
+      "placeId": "saipan-balance-68d6f4fe08",
+      "queryResults": 12,
+      "recentReusableCandidates": 2
+    },
+    {
+      "placeId": "kyoto-review-0e1bc316acc9",
+      "queryResults": 12,
+      "recentReusableCandidates": 7
+    },
+    {
+      "placeId": "bali-review-a4b2dc3455b3",
+      "queryResults": 12,
+      "recentReusableCandidates": 2
+    },
+    {
+      "placeId": "bangkok-review-72118eadb37b",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "santorini-review-30045380d508",
+      "queryResults": 12,
+      "recentReusableCandidates": 1
+    },
+    {
+      "placeId": "dubai-review-db68e77d201d",
+      "queryResults": 12,
+      "recentReusableCandidates": 5
+    },
+    {
+      "placeId": "maldives-review-eef5e97a9521",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "tokyo-review-29bc8a66c926",
+      "queryResults": 1,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "osaka-review-58411af3d281",
+      "queryResults": 2,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "yokohama-review-97fce6b457a2",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "nagoya-review-2a6c2d0a5b6c",
+      "queryResults": 12,
+      "recentReusableCandidates": 12
+    },
+    {
+      "placeId": "sapporo-review-49d6c207d864",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "fukuoka-review-19c354a87040",
+      "queryResults": 0,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "hiroshima-review-8ee97e23ccd0",
+      "queryResults": 4,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "kobe-review-5f32b37d4713",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "sendai-review-86a925eb47d0",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "taipei-guide-592c444ae51a",
+      "queryResults": 12,
+      "recentReusableCandidates": 1
+    },
+    {
+      "placeId": "hongkong-guide-a5674d78f5d1",
+      "queryResults": 12,
+      "recentReusableCandidates": 1
+    },
+    {
+      "placeId": "singapore-guide-fd44b733a471",
+      "queryResults": 12,
+      "recentReusableCandidates": 2
+    },
+    {
+      "placeId": "danang-guide-84f8a60fea72",
+      "queryResults": 4,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "saipan-balance-ad7a0a9b27",
+      "queryResults": 12,
+      "recentReusableCandidates": 1
+    },
+    {
+      "placeId": "kyoto-review-37b0b8476c9d",
+      "queryResults": 12,
+      "recentReusableCandidates": 1
+    },
+    {
+      "placeId": "bali-review-5324843a1740",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "bangkok-review-8d827b8ea328",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "santorini-review-842ffdb4782e",
+      "queryResults": 12,
+      "recentReusableCandidates": 10
+    },
+    {
+      "placeId": "dubai-review-6bc5c5875878",
+      "queryResults": 2,
+      "recentReusableCandidates": 1
+    },
+    {
+      "placeId": "maldives-review-ebb03354c0e0",
+      "queryResults": 12,
+      "recentReusableCandidates": 2
+    },
+    {
+      "placeId": "tokyo-review-9ca10e4dfc23",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "osaka-review-f24755b66f13",
+      "queryResults": 0,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "yokohama-review-21a8f8aa1370",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "nagoya-review-3df572f17106",
+      "queryResults": 9,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "sapporo-review-489e10ffdfb4",
+      "queryResults": 12,
+      "recentReusableCandidates": 1
+    },
+    {
+      "placeId": "fukuoka-review-19e12add235f",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "hiroshima-review-6577ec4c4553",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "kobe-review-f5231f099beb",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "sendai-review-d54da8e5eda4",
+      "queryResults": 0,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "taipei-guide-ba10a8dc504f",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "hongkong-guide-0f73d5aaabd9",
+      "queryResults": 12,
+      "recentReusableCandidates": 3
+    },
+    {
+      "placeId": "singapore-guide-832f8ce8c0ae",
+      "queryResults": 12,
+      "recentReusableCandidates": 4
+    },
+    {
+      "placeId": "danang-guide-c88286d57343",
+      "queryResults": 8,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "saipan-balance-1d18b3dfb9",
+      "queryResults": 0,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "kyoto-review-29b34e0acd04",
+      "queryResults": 12,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "bali-review-5ffa26f036ad",
+      "queryResults": 0,
+      "recentReusableCandidates": 0
+    },
+    {
+      "placeId": "bangkok-review-dccf852a1b0f",
+      "queryResults": 12,
+      "recentReusableCandidates": 1
+    }
+  ]
+}
