@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-28T05:07:12.733Z",
+  "updatedAt": "2026-10-28T17:19:14.408Z",
   "books": [
     {
       "id": "book-barcelona",
@@ -29,6 +29,20 @@
       "updatedAt": "2026-10-28T05:07:12.733Z",
       "minBuild": 73,
       "placeCount": 6
+    },
+    {
+      "id": "book-beppu",
+      "name": "벳푸",
+      "english": "Beppu",
+      "country": "일본",
+      "summary": "보는 온천과 몸을 담그는 온천을 구분하는 휴식 여행",
+      "region": "일본",
+      "revision": "a89a0039f1d9a5e9186e8b06de7845bd9f077994b291b504661344bd38e913aa",
+      "file": "book-beppu-a89a0039f1d9a5e9186e8b06de7845bd9f077994b291b504661344bd38e913aa.json",
+      "bytes": 10871,
+      "updatedAt": "2026-10-28T17:19:14.408Z",
+      "minBuild": 73,
+      "placeCount": 5
     },
     {
       "id": "book-bohol",
@@ -115,6 +129,20 @@
       "placeCount": 6
     },
     {
+      "id": "book-kagoshima",
+      "name": "가고시마",
+      "english": "Kagoshima",
+      "country": "일본",
+      "summary": "도시 산책과 사쿠라지마를 하루씩 나누는 여행",
+      "region": "일본",
+      "revision": "77463c136720953429f134c8aab590853ed486ac1df7cf29f3ca436c34fcef2b",
+      "file": "book-kagoshima-77463c136720953429f134c8aab590853ed486ac1df7cf29f3ca436c34fcef2b.json",
+      "bytes": 11151,
+      "updatedAt": "2026-10-28T17:19:14.408Z",
+      "minBuild": 73,
+      "placeCount": 5
+    },
+    {
       "id": "book-kaohsiung",
       "name": "가오슝",
       "english": "Kaohsiung",
@@ -157,6 +185,20 @@
       "placeCount": 6
     },
     {
+      "id": "book-kumamoto",
+      "name": "구마모토",
+      "english": "Kumamoto",
+      "country": "일본",
+      "summary": "성·정원·현대미술과 공예를 나눠 만나는 도시",
+      "region": "일본",
+      "revision": "48a594f9dccdb6efe76124cd895c4a411bcb471a18dd542846dad3cfe9d0c75d",
+      "file": "book-kumamoto-48a594f9dccdb6efe76124cd895c4a411bcb471a18dd542846dad3cfe9d0c75d.json",
+      "bytes": 11018,
+      "updatedAt": "2026-10-28T17:19:14.408Z",
+      "minBuild": 73,
+      "placeCount": 5
+    },
+    {
       "id": "book-london",
       "name": "런던",
       "english": "London",
@@ -183,6 +225,20 @@
       "updatedAt": "2026-10-28T05:07:12.733Z",
       "minBuild": 73,
       "placeCount": 6
+    },
+    {
+      "id": "book-nagasaki",
+      "name": "나가사키",
+      "english": "Nagasaki",
+      "country": "일본",
+      "summary": "항구의 역사와 평화의 기억을 구역별로 걷는 여행",
+      "region": "일본",
+      "revision": "83960239a5ce01ccde87a33a8a0e349d27c4d4097166015d337b7c73987964bf",
+      "file": "book-nagasaki-83960239a5ce01ccde87a33a8a0e349d27c4d4097166015d337b7c73987964bf.json",
+      "bytes": 11221,
+      "updatedAt": "2026-10-28T17:19:14.408Z",
+      "minBuild": 73,
+      "placeCount": 5
     },
     {
       "id": "book-newyork",
@@ -337,6 +393,20 @@
       "updatedAt": "2026-10-28T05:07:12.733Z",
       "minBuild": 73,
       "placeCount": 6
+    },
+    {
+      "id": "book-yufuin",
+      "name": "유후인",
+      "english": "Yufuin",
+      "country": "일본",
+      "summary": "호수·작은 미술관·온천 숙소에서 느긋하게 머물기",
+      "region": "일본",
+      "revision": "0f2956a94a62b204080c4fb7f8229d3cb425102750c6fafec5b5d83da180b5ba",
+      "file": "book-yufuin-0f2956a94a62b204080c4fb7f8229d3cb425102750c6fafec5b5d83da180b5ba.json",
+      "bytes": 12166,
+      "updatedAt": "2026-10-28T17:19:14.408Z",
+      "minBuild": 73,
+      "placeCount": 5
     }
   ]
 }

@@ -1,0 +1,187 @@
+{
+  "guide": {
+    "id": "book-yufuin",
+    "scope": "city",
+    "city": {
+      "id": "book-yufuin",
+      "name": "유후인",
+      "english": "Yufuin",
+      "country": "일본",
+      "region": "일본",
+      "image": "/images/guide-placeholder.svg",
+      "tagline": "호수·작은 미술관·온천 숙소에서 느긋하게 머물기",
+      "description": "유후인은 유후산 아래 분지에 자리한 온천 마을입니다. 유후인역에서 유노쓰보 거리·긴린코로 이어지는 산책과 작은 미술관, 숙소에서 쉬는 시간을 섞기 좋습니다. 벳푸와는 다른 목적지이며 유후시의 유노히라·쓰카하라 등도 중심 산책 구역과 거리가 다릅니다. 이동을 줄이려면 관광지 이름보다 실제 숙소가 어느 구역에 있는지부터 확인하세요.",
+      "tags": [
+        "도시 산책",
+        "여행 준비"
+      ],
+      "flight": "항공편·출발 공항과 계절에 따라 확인",
+      "currency": "일본 엔 · JPY",
+      "timeDifference": "한국과 시차 없음",
+      "timeZone": "Asia/Tokyo",
+      "season": "봄의 산책·초여름 녹음, 가을·겨울의 분지 풍경을 즐기되 아침저녁 추위와 비·눈에 대비하세요.",
+      "accent": "#e7f1ef"
+    },
+    "places": [
+      {
+        "id": "book-yufuin-kinrinko",
+        "cityId": "book-yufuin",
+        "name": "긴린코",
+        "english": "Lake Kinrin",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "유후인을 대표하는 작은 호수와 주변 산책로입니다. 물고기·물새와 계절 풍경을 천천히 보는 산책으로 선택하세요.",
+        "address": "大分県由布市湯布院町川上1561-1",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "가을·겨울 이른 시간의 물안개는 기상 조건에 따라 달라집니다. 호수 주변의 사유 공간과 보행 예절을 지키세요."
+      },
+      {
+        "id": "book-yufuin-yunotsubo-kaido",
+        "cityId": "book-yufuin",
+        "name": "유노쓰보 거리",
+        "english": "Yunotsubo Kaido",
+        "category": "쇼핑",
+        "image": "/images/place-placeholder.svg",
+        "description": "상점·간식 가게가 모인 마을의 산책 거리입니다. 붐비면 옆 골목이나 강변에서 쉬었다가 돌아오는 식으로 여유를 두세요.",
+        "address": "大分県由布市湯布院町川上",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "가게별 운영·매진이 다르며, 보행로에서 큰 짐이나 음식으로 통행을 막지 않도록 배려하세요."
+      },
+      {
+        "id": "book-yufuin-comico-art-museum",
+        "cityId": "book-yufuin",
+        "name": "COMICO 아트 뮤지엄 유후인",
+        "english": "COMICO Art Museum Yufuin",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "현대미술과 건축, 주변 산 풍경을 함께 만나는 미술관입니다. 산책 사이에 넣되 해당 날짜의 관람 방식·예약을 먼저 확인하세요.",
+        "address": "大分県由布市湯布院町川上2995-1",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "전시·투어·입장 조건은 달라질 수 있습니다. 작가별 모든 작품이 상시 공개된다고 가정하지 마세요."
+      },
+      {
+        "id": "book-yufuin-stained-glass-museum",
+        "cityId": "book-yufuin",
+        "name": "유후인 스테인드글라스 미술관",
+        "english": "Yufuin Stained Glass Museum",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "교회와 저택 형식의 공간에서 스테인드글라스를 감상하는 미술관입니다. 자연광과 조명에 따른 작품의 느낌을 비교해 보세요.",
+        "address": "大分県由布市湯布院町川上2461-3",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "제작 체험은 일반 입장과 다릅니다. 관광국 안내는 체험의 사전 예약을 받지 않는다고 하므로 당일 운영 여부는 시설에 확인하세요."
+      },
+      {
+        "id": "book-yufuin-tabimusubi",
+        "cityId": "book-yufuin",
+        "name": "오무스비 카페 TABIMUSUBI",
+        "english": "Omusubi Cafe TABIMUSUBI",
+        "category": "카페",
+        "image": "/images/place-placeholder.svg",
+        "description": "유후인역 앞의 주먹밥 중심 카페입니다. 도착·출발 때 간단히 먹거나 포장을 고려할 수 있는 개별 업소입니다.",
+        "address": "大分県由布市湯布院町川北6-6",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "메뉴·영업·휴무는 가게에서 확인하세요. 숙소 식사와 겹치지 않게 가볍게 선택하고 알레르기 재료를 물어보세요."
+      }
+    ],
+    "sections": [
+      {
+        "id": "book-yufuin-overview",
+        "title": "도시 한눈에",
+        "body": "유후인은 유후산 아래 분지에 자리한 온천 마을입니다. 유후인역에서 유노쓰보 거리·긴린코로 이어지는 산책과 작은 미술관, 숙소에서 쉬는 시간을 섞기 좋습니다. 벳푸와는 다른 목적지이며 유후시의 유노히라·쓰카하라 등도 중심 산책 구역과 거리가 다릅니다. 이동을 줄이려면 관광지 이름보다 실제 숙소가 어느 구역에 있는지부터 확인하세요."
+      },
+      {
+        "id": "book-yufuin-before",
+        "title": "출발 전에 챙길 것",
+        "body": "여권과 입국 허가·비자 요건은 국적·여행 목적과 일정에 맞춰 정부 안내로 확인하세요. 통신·결제 수단·여행자보험을 준비하고 항공·숙소 예약은 인터넷 없이도 볼 수 있게 보관하세요. 큰 짐의 보관, 동행자의 계단·목욕 이용 편의, 비 오는 날 대안을 먼저 정하면 현장 이동을 줄일 수 있습니다."
+      },
+      {
+        "id": "book-yufuin-arrival",
+        "title": "공항과 시내 이동",
+        "body": "오이타공항(OIT) 공식 안내에서 유후인행과 벳푸행을 구분하고, 유후인역 앞 도착 후 숙소까지의 이동을 확인하세요. 철도를 이용하면 원하는 날짜의 실제 연결편·좌석 예약을 확인해야 합니다. 유후시 공식 소개만으로 벳푸와 유후인 사이를 직통열차로 쉽게 오갈 수 있다고 단정하지 마세요. 큰 짐은 숙소·역 주변 보관 또는 배송 서비스를 확인한 뒤 가볍게 걷는 편이 좋습니다."
+      },
+      {
+        "id": "book-yufuin-stay",
+        "title": "숙소는 어느 동네에",
+        "body": "유후인역 주변은 도착·출발과 짐 이동, 유노쓰보·긴린코 주변은 산책 접근을 비교하기 좋습니다. 분지의 바깥이나 쓰카하라·유노히라 숙소는 조용한 체류에 맞을 수 있지만 중심가와의 교통이 필요합니다. 송영 시간·저녁 식사 포함 여부·체크인 마감을 예약 전에 확인하세요. 객실의 온천·대절탕·공용탕을 구분하고 이용 규칙은 숙소별로 확인하세요."
+      },
+      {
+        "id": "book-yufuin-food",
+        "title": "먹거리와 동네 쇼핑",
+        "body": "유노쓰보 거리에서는 간식과 선물을 골라 조금씩 나눠 즐기세요. 역 앞의 TABIMUSUBI는 주먹밥 중심의 카페로, 도착·출발 때 식사 후보로 비교할 수 있습니다. 상점의 마감·매진과 숙소 저녁 식사가 겹칠 수 있으니 계획을 비워 두세요. 거리 전체를 한 식당으로 생각하지 말고 가게별 재료·영업을 확인하세요."
+      },
+      {
+        "id": "book-yufuin-days",
+        "title": "처음 가는 3일 여행",
+        "body": "1일: 유후인역 도착 → 유노쓰보 거리 → 숙소 체크인과 온천. 숙소 식사 마감이 있으면 산책을 먼저 줄이세요.\n\n2일: 긴린코 산책 → COMICO 또는 스테인드글라스 미술관 중 관심 있는 곳. 미술관 예약과 운영에 맞춰 순서를 바꾸세요.\n\n3일: 남겨둔 골목·카페를 둘러본 뒤 출발합니다. 산 쪽 숙소라면 송영과 역·공항 교통 연결을 먼저 정하세요.\n\n관심사와 휴관·기상에 맞춰 고르는 여행 예시입니다. 전부 방문해야 하는 목록이 아니며 예약과 귀환 교통에 맞춰 순서를 바꾸세요."
+      },
+      {
+        "id": "book-yufuin-notes",
+        "title": "예약과 현장 팁",
+        "body": "긴린코의 물안개는 날씨와 기온에 따라 달라지므로 항상 볼 수 있는 장면으로 기대하지 마세요. 2026-10-09 관광국 안내와 운영사에서 확인한 벳푸–유후인 오픈톱 관광버스는 2026년 10월 7일~12월 13일의 기간 한정 코스로 사전 예약이 필요합니다. 다음 계절에도 같은 조건으로 운행한다고 생각하지 말고 예약 페이지를 확인하세요. 미술관은 관람과 만들기 체험의 예약 방식이 다를 수 있습니다."
+      }
+    ],
+    "sources": [
+      {
+        "title": "由布院エリア – YUFUINFO｜湯布院・庄内・挾間公式旅ガイド  由布院エリア – YUFUINFO｜湯布院・庄内・挾間公式旅ガイド",
+        "url": "https://yufuin.gr.jp/yufuin/",
+        "accessedAt": "2026-10-28"
+      },
+      {
+        "title": "アクセス – YUFUINFO｜湯布院・庄内・挾間公式旅ガイド  アクセス – YUFUINFO｜湯布院・庄内・挾間公式旅ガイド",
+        "url": "https://yufuin.gr.jp/access/",
+        "accessedAt": "2026-10-28"
+      },
+      {
+        "title": "金鱗湖 – YUFUINFO｜湯布院・庄内・挾間公式旅ガイド  金鱗湖 – YUFUINFO｜湯布院・庄内・挾間公式旅ガイド",
+        "url": "https://yufuin.gr.jp/spot/spot-1268/",
+        "accessedAt": "2026-10-28"
+      },
+      {
+        "title": "湯の坪街道 – YUFUINFO｜湯布院・庄内・挾間公式旅ガイド  湯の坪街道 – YUFUINFO｜湯布院・庄内・挾間公式旅ガイド",
+        "url": "https://yufuin.gr.jp/spot/spot-1277/",
+        "accessedAt": "2026-10-28"
+      },
+      {
+        "title": "COMICO ART MUSEUM YUFUIN – YUFUINFO｜湯布院・庄内・挾間公式旅ガイド  COMICO ART MUSEUM YUFUIN – YUFUINFO｜湯布院・庄内・挾間公式旅ガイド",
+        "url": "https://yufuin.gr.jp/spot/spot-1285/",
+        "accessedAt": "2026-10-28"
+      },
+      {
+        "title": "由布院ステンドグラス美術館 – YUFUINFO｜湯布院・庄内・挾間公式旅ガイド  由布院ステンドグラス美術館 – YUFUINFO｜湯布院・庄内・挾間公式旅ガイド",
+        "url": "https://yufuin.gr.jp/spot/spot-1182/",
+        "accessedAt": "2026-10-28"
+      },
+      {
+        "title": "おむすびcafé TABIMUSUBI – YUFUINFO｜湯布院・庄内・挾間公式旅ガイド  おむすびcafé TABIMUSUBI – YUFUINFO｜湯布院・庄内・挾間公式旅ガイド",
+        "url": "https://yufuin.gr.jp/spot/spot-1241/",
+        "accessedAt": "2026-10-28"
+      },
+      {
+        "title": "バス | 大分空港 Welcome to Oita Airport",
+        "url": "https://www.oita-airport.jp/access/bus/",
+        "accessedAt": "2026-10-28"
+      },
+      {
+        "title": "屋根なし2階建てバスで巡る『別府-湯布院コース』新登場！10月7日から毎日運行 – YUFUINFO｜湯布院・庄内・挾間公式旅ガイド  屋根なし2階建てバスで巡る『別府-湯布院コース』新登場！10月7日から毎日運行 – YUFUINFO｜湯布院・庄内・挾間公式旅ガイド",
+        "url": "https://yufuin.gr.jp/news/news-7044/",
+        "accessedAt": "2026-10-28"
+      },
+      {
+        "title": "亀の井オープントップバスのご案内",
+        "url": "https://kamenoibus.com/otb/",
+        "accessedAt": "2026-10-28"
+      }
+    ],
+    "status": "published",
+    "requestId": null,
+    "createdAt": "2026-10-28T17:19:14.408Z",
+    "updatedAt": "2026-10-28T17:19:14.408Z",
+    "publishedAt": "2026-10-28T17:19:14.408Z"
+  }
+}

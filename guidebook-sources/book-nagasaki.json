@@ -1,0 +1,170 @@
+{
+  "id": "book-nagasaki",
+  "scope": "city",
+  "city": {
+    "id": "book-nagasaki",
+    "name": "나가사키",
+    "english": "Nagasaki",
+    "country": "일본",
+    "region": "일본",
+    "image": "/images/guide-placeholder.svg",
+    "tagline": "항구의 역사와 평화의 기억을 구역별로 걷는 여행",
+    "description": "나가사키는 외국과의 교류 흔적이 남은 항구와 언덕, 원폭의 역사와 평화를 전하는 공간을 함께 품은 도시입니다. 남쪽의 미나미야마테·신치·데지마와 북쪽의 평화공원 주변은 하루씩 나누면 오르막과 이동 부담을 줄일 수 있습니다. 번화가 산책과 추모 공간 관람을 같은 속도로 서두르기보다 주제별로 시간을 남겨두세요.",
+    "tags": [
+      "도시 산책",
+      "여행 준비"
+    ],
+    "flight": "항공편·출발 공항과 계절에 따라 확인",
+    "currency": "일본 엔 · JPY",
+    "timeDifference": "한국과 시차 없음",
+    "timeZone": "Asia/Tokyo",
+    "season": "봄·가을은 언덕 산책을 섞기 좋고, 여름 더위·비와 해안 바람에 대비하세요.",
+    "accent": "#e7f1ef"
+  },
+  "places": [
+    {
+      "id": "book-nagasaki-glover-garden",
+      "cityId": "book-nagasaki",
+      "name": "글로버 가든",
+      "english": "Glover Garden",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "옛 외국인 주택과 항구 풍경을 함께 보는 야외 역사 공간입니다. 언덕을 오가는 관람이므로 출입구와 경사, 보수 중인 건물을 먼저 확인하세요.",
+      "address": "Minami-Yamate, Nagasaki",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "이동이 불편한 동행자가 있다면 운영기관의 접근 안내를 먼저 확인하세요. 야간 개장이나 의상 체험을 상시 이용으로 가정하지 마세요."
+    },
+    {
+      "id": "book-nagasaki-dejima",
+      "cityId": "book-nagasaki",
+      "name": "데지마",
+      "english": "Dejima",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "나가사키의 해외 교류와 무역 역사를 살펴보는 복원 구역입니다. 건물별 전시와 야외 산책을 함께 보되 정비 구역·상영 휴지를 구분하세요.",
+      "address": "Dejima-machi, Nagasaki",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "공식 사이트의 공사·상영·식당 공지를 방문일 기준으로 확인하세요. 한 시설의 휴지를 전체 구역 폐쇄로 해석하지 마세요."
+    },
+    {
+      "id": "book-nagasaki-peace-park",
+      "cityId": "book-nagasaki",
+      "name": "나가사키 평화공원",
+      "english": "Nagasaki Peace Park",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "원폭 희생자를 추모하고 평화를 생각하는 공원입니다. 도심 남쪽 관광과 분리해 북쪽 관람일로 묶으면 이동을 정리하기 좋습니다.",
+      "address": "Matsuyama-machi, Nagasaki",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "기념비 앞 사진 촬영과 단체 행동은 추모 공간의 분위기를 배려하세요."
+    },
+    {
+      "id": "book-nagasaki-atomic-bomb-museum",
+      "cityId": "book-nagasaki",
+      "name": "나가사키 원폭자료관",
+      "english": "Nagasaki Atomic Bomb Museum",
+      "category": "체험",
+      "image": "/images/place-placeholder.svg",
+      "description": "원폭 피해와 핵무기·평화에 관한 자료를 읽는 시립 박물관입니다. 전시 갱신에 따른 일부 공개 중지 안내가 있어 공개 범위를 확인한 뒤 선택하세요.",
+      "address": "Hirano-machi, Nagasaki",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "운영기관은 2026년 9월부터 2027년 3월 완료 예정의 일부 공개 중지를 안내합니다. 전시 내용이 무겁게 느껴질 수 있으므로 동행자와 관람 방식을 정하세요."
+    },
+    {
+      "id": "book-nagasaki-shinchi-chinatown",
+      "cityId": "book-nagasaki",
+      "name": "신치차이나타운",
+      "english": "Nagasaki Shinchi Chinatown",
+      "category": "맛집",
+      "image": "/images/place-placeholder.svg",
+      "description": "짬뽕·사라우동 등 나가사키 먹거리를 비교하는 식당·상점 구역입니다. 단일 업소를 지정한 추천이 아니며 주변 골목과 나눠 걷기 좋습니다.",
+      "address": "Shinchi-machi, Nagasaki",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "가게별 영업·대기·식재료가 다릅니다. 식사와 간식을 한꺼번에 주문하기보다 나눠 골라보세요."
+    }
+  ],
+  "sections": [
+    {
+      "id": "book-nagasaki-overview",
+      "title": "도시 한눈에",
+      "body": "나가사키는 외국과의 교류 흔적이 남은 항구와 언덕, 원폭의 역사와 평화를 전하는 공간을 함께 품은 도시입니다. 남쪽의 미나미야마테·신치·데지마와 북쪽의 평화공원 주변은 하루씩 나누면 오르막과 이동 부담을 줄일 수 있습니다. 번화가 산책과 추모 공간 관람을 같은 속도로 서두르기보다 주제별로 시간을 남겨두세요."
+    },
+    {
+      "id": "book-nagasaki-before",
+      "title": "출발 전에 챙길 것",
+      "body": "여권과 입국 허가·비자 요건은 국적·여행 목적과 일정에 맞춰 정부 안내로 확인하세요. 통신·결제 수단·여행자보험을 준비하고 항공·숙소 예약은 인터넷 없이도 볼 수 있게 보관하세요. 큰 짐의 보관, 동행자의 계단·목욕 이용 편의, 비 오는 날 대안을 먼저 정하면 현장 이동을 줄일 수 있습니다."
+    },
+    {
+      "id": "book-nagasaki-arrival",
+      "title": "공항과 시내 이동",
+      "body": "나가사키공항(NGS)에서 시내로 가는 버스는 신치차이나타운·나가사키역 방면과 쇼와마치·우라카미 경유편을 구분해야 합니다. 숙소에서 가까운 하차 지점을 먼저 고르고, 공항 공식 안내에서 당일 노선과 운행을 확인하세요. 후쿠오카에서 철도로 들어오면 예약 사이트에서 실제 연결편과 환승을 확인하고, 오래된 여행 글의 직통열차 설명만으로 표를 고르지 마세요. 시내는 노면전차와 도보를 조합하되 언덕 구간과 큰 짐 이동을 따로 생각하세요."
+    },
+    {
+      "id": "book-nagasaki-stay",
+      "title": "숙소는 어느 동네에",
+      "body": "나가사키역 주변은 도착·출발과 다른 도시 이동, 신치·하마노마치 주변은 저녁 식사와 도심 산책을 비교하기 좋습니다. 미나미야마테는 항구 풍경과 역사 건물에 가깝지만 숙소 진입의 경사·계단을 확인하세요. 평화공원 중심의 방문 목적이라면 우라카미 쪽의 접근도 비교할 수 있습니다. 도시 이름만 보고 숙소를 고르기보다 공항버스 하차 지점과 실제 출입구를 함께 확인하세요."
+    },
+    {
+      "id": "book-nagasaki-food",
+      "title": "먹거리와 동네 쇼핑",
+      "body": "신치차이나타운에서 짬뽕과 사라우동처럼 중국 음식에서 발전한 나가사키 음식을 비교해 보세요. 가쿠니만주 같은 간식은 식사를 대체할지, 가볍게 나눠 먹을지 먼저 정하면 좋습니다. 차이나타운은 한 식당의 이름이 아니라 여러 식당·가게가 모인 구역이며 휴무와 메뉴가 다릅니다. 해산물·육류 육수와 알레르기 재료는 주문할 때 확인하세요."
+    },
+    {
+      "id": "book-nagasaki-days",
+      "title": "처음 가는 3일 여행",
+      "body": "1일: 도착 → 데지마 → 신치차이나타운. 도착이 늦으면 데지마 관람을 다음 날로 넘기고 숙소 주변 식사만 남기세요.\n\n2일: 글로버 가든과 미나미야마테를 중심으로 걷습니다. 경사·정비 구역을 확인하고 항구 주변 휴식을 더하세요.\n\n3일: 평화공원 → 원폭자료관의 공개 중인 전시. 출국일에는 공항버스와 짐 회수 시간이 우선이며, 두 시설을 모두 보려고 서두르지 마세요.\n\n관심사와 휴관·기상에 맞춰 고르는 여행 예시입니다. 전부 방문해야 하는 목록이 아니며 예약과 귀환 교통에 맞춰 순서를 바꾸세요."
+    },
+    {
+      "id": "book-nagasaki-notes",
+      "title": "예약과 현장 팁",
+      "body": "2026-10-28 확인한 원폭자료관 안내에는 전시 갱신으로 일부 구역의 공개가 중지되며 2027년 3월 완료 예정이라고 적혀 있습니다. 전체 전시가 평소처럼 공개된다고 생각하지 말고 방문일의 공개 범위를 확인하세요. 데지마와 글로버 가든도 공사·시설별 휴지 공지가 있으므로 전체 입장과 개별 건물·상영 이용을 구분하세요. 추모 공간에서는 큰 소리·달리기를 피하고 현장 촬영 규칙을 따르세요."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Nagasaki | Nagasaki | Kyushu | Destinations | Travel Japan - Office national du tourisme japonais (site officiel)",
+      "url": "https://www.japan.travel/fr/destinations/kyushu/nagasaki/nagasaki-city-and-around/",
+      "accessedAt": "2026-10-28"
+    },
+    {
+      "title": "バス｜アクセス｜長崎空港",
+      "url": "https://nagasaki-airport.jp/access/bus/",
+      "accessedAt": "2026-10-28"
+    },
+    {
+      "title": "【公式】グラバー園｜世界遺産構成要素、旧グラバー住宅を中心として明治期の洋館を移築復元した長崎市の人気観光スポット",
+      "url": "https://glover-garden.jp/",
+      "accessedAt": "2026-10-28"
+    },
+    {
+      "title": "【公式】出島〜dejima〜【公式】出島〜dejima〜 – Just another WordPress site",
+      "url": "https://nagasakidejima.jp/",
+      "accessedAt": "2026-10-28"
+    },
+    {
+      "title": "Parc de la paix de Nagasaki | Travel Japan - Office national du tourisme japonais (site officiel)",
+      "url": "https://www.japan.travel/fr/spot/742/",
+      "accessedAt": "2026-10-28"
+    },
+    {
+      "title": "長崎原爆資料館・長崎市平和会館 – 長崎市への原子爆弾投下に関する資料を取り扱った長崎市立の資料館",
+      "url": "https://nabmuseum.jp/",
+      "accessedAt": "2026-10-28"
+    },
+    {
+      "title": "Quartier chinois de Nagasaki | Travel Japan - Office national du tourisme japonais (site officiel)",
+      "url": "https://www.japan.travel/fr/spot/740/",
+      "accessedAt": "2026-10-28"
+    }
+  ],
+  "status": "published",
+  "requestId": null,
+  "createdAt": "2026-10-28T17:19:14.408Z",
+  "updatedAt": "2026-10-28T17:19:14.408Z",
+  "publishedAt": "2026-10-28T17:19:14.408Z"
+}

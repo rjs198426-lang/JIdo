@@ -1,5 +1,5 @@
 import { test, expect, type Page } from '@playwright/test'
-import { readFileSync } from 'node:fs'
+import { readFileSync, readdirSync } from 'node:fs'
 import { createHash } from 'node:crypto'
 import { openTrips } from './navigation'
 const manifest = JSON.parse(readFileSync('guidebooks/manifest.json', 'utf8'))
@@ -67,15 +67,25 @@ async function row(page: Page) {
     .fill('하노이')
   return dialog.locator('.guidebook-row')
 }
-test('reviewed library is 24 cities and 14 countries; all immutable bodies match metadata', async () => {
-  expect(manifest.books).toHaveLength(24)
-  expect(new Set(manifest.books.map((b: any) => b.country)).size).toBe(14)
+test('reviewed library includes all authored cities; immutable bodies match metadata', async () => {
+  const sources = readdirSync('guidebook-sources')
+    .filter((name) => name.endsWith('.json'))
+    .map((name) =>
+      JSON.parse(readFileSync('guidebook-sources/' + name, 'utf8')),
+    )
+  expect(manifest.books.map((b: any) => b.id).sort()).toEqual(
+    sources.map((g) => g.id).sort(),
+  )
+  expect(new Set(manifest.books.map((b: any) => b.country))).toEqual(
+    new Set(sources.map((g) => g.city.country)),
+  )
   for (const b of manifest.books) {
     const bytes = readFileSync('guidebooks/' + b.file)
     expect(createHash('sha256').update(bytes).digest('hex')).toBe(b.revision)
     expect(bytes.length).toBe(b.bytes)
     const g = JSON.parse(bytes.toString())
-    expect(g.places).toHaveLength(6)
+    expect(g.places).toHaveLength(b.placeCount)
+    expect(g.places.length).toBeGreaterThanOrEqual(5)
     expect(g.sections.length).toBeGreaterThanOrEqual(6)
     expect(g.sources.length).toBeGreaterThan(0)
     expect(g.city.timeZone).toBeTruthy()
@@ -205,7 +215,7 @@ test('invalid remote list leaves bundled library available and 320px buttons hor
   const d = await library(page)
   await d.getByRole('button', { name: '목록 새로고침' }).click()
   await expect(d.getByRole('alert')).toBeVisible()
-  await expect(d.locator('.guidebook-row')).toHaveCount(24)
+  await expect(d.locator('.guidebook-row')).toHaveCount(manifest.books.length)
   expect(
     await d.evaluate((el) => el.scrollWidth <= el.clientWidth + 1),
   ).toBeTruthy()

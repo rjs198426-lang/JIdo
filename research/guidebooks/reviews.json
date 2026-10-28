@@ -1,4 +1,94 @@
 {
   "schemaVersion": 1,
-  "reviews": []
+  "reviews": [
+    {
+      "guideId": "book-nagasaki",
+      "checkedAt": "2026-10-28",
+      "contentHash": "cee380bbb8f55c429e9b816036644bd730bcf48682b477816ef2998aa25f35b8",
+      "result": "changed",
+      "urls": [
+        "https://www.japan.travel/fr/destinations/kyushu/nagasaki/nagasaki-city-and-around/",
+        "https://nagasaki-airport.jp/access/bus/",
+        "https://glover-garden.jp/",
+        "https://nagasakidejima.jp/",
+        "https://www.japan.travel/fr/spot/742/",
+        "https://nabmuseum.jp/",
+        "https://www.japan.travel/fr/spot/740/"
+      ],
+      "evidencePath": "research/guidebooks/runs/20261028T1700-new.json"
+    },
+    {
+      "guideId": "book-kumamoto",
+      "checkedAt": "2026-10-28",
+      "contentHash": "0f2b10334f726ea1ecab2012d5b8d4e2121a90d0a572d5f0fe055110b3f7c317",
+      "result": "changed",
+      "urls": [
+        "https://kumamoto-guide.jp/en/",
+        "https://castle.kumamoto-guide.jp/en/",
+        "https://kumamoto-guide.jp/en/spots/detail/75",
+        "https://kumamoto-guide.jp/en/spots/detail/12",
+        "https://kumamoto-guide.jp/en/spots/detail/1",
+        "https://kumamoto-guide.jp/en/spots/detail/109",
+        "https://kumamoto-guide.jp/en/foods/",
+        "https://kumamoto-guide.jp/en/access/city.html",
+        "https://www.kumamoto-airport.co.jp/facilities/bus-ticket/"
+      ],
+      "evidencePath": "research/guidebooks/runs/20261028T1700-new.json"
+    },
+    {
+      "guideId": "book-kagoshima",
+      "checkedAt": "2026-10-28",
+      "contentHash": "d5a8cdb7f6f2fa63733827ceeb81954fa7bd6b039beacbe942b953f13d5a65e4",
+      "result": "changed",
+      "urls": [
+        "https://www.kagoshima-yokanavi.jp/en",
+        "https://www.kagoshima-yokanavi.jp/en/transportation",
+        "https://www.kagoshima-yokanavi.jp/en/feature/sakurajima2",
+        "https://www.kagoshima-yokanavi.jp/en/spot/10006",
+        "https://www.kagoshima-yokanavi.jp/en/spot/10002",
+        "https://www.kagoshima-yokanavi.jp/en/spot/10027",
+        "https://www.kagoshima-yokanavi.jp/en/spot/10025",
+        "https://www.kagoshima-yokanavi.jp/en/spot/10092",
+        "https://www.kagoshima-yokanavi.jp/en/spot/10030"
+      ],
+      "evidencePath": "research/guidebooks/runs/20261028T1700-new.json"
+    },
+    {
+      "guideId": "book-beppu",
+      "checkedAt": "2026-10-28",
+      "contentHash": "aee4700f1bcb21bd718876dfb8c4b621b4f36fe5bb4e6b756bdc83a5112da267",
+      "result": "changed",
+      "urls": [
+        "https://www.beppu-jigoku.com/",
+        "https://www.beppu-jigoku.com/umi/index.html",
+        "https://www.beppu-jigoku.com/chinoike/index.html",
+        "https://www.beppu-jigoku.com/kamado/index.html",
+        "https://www.beppu-jigoku.com/shiraike/index.html",
+        "https://www.beppu-jigoku.com/bouzu/index.html",
+        "https://www.oita-airport.jp/access/bus/",
+        "https://www.japan.travel/fr/destinations/kyushu/oita/beppu-and-yufuin-around/",
+        "https://kamenoibus.com/otb/"
+      ],
+      "evidencePath": "research/guidebooks/runs/20261028T1700-new.json"
+    },
+    {
+      "guideId": "book-yufuin",
+      "checkedAt": "2026-10-28",
+      "contentHash": "6ef7779ea2a35cc9d70b96b20a598458878902b9fd0222ecabb2ad0165fd4aba",
+      "result": "changed",
+      "urls": [
+        "https://yufuin.gr.jp/yufuin/",
+        "https://yufuin.gr.jp/access/",
+        "https://yufuin.gr.jp/spot/spot-1268/",
+        "https://yufuin.gr.jp/spot/spot-1277/",
+        "https://yufuin.gr.jp/spot/spot-1285/",
+        "https://yufuin.gr.jp/spot/spot-1182/",
+        "https://yufuin.gr.jp/spot/spot-1241/",
+        "https://www.oita-airport.jp/access/bus/",
+        "https://yufuin.gr.jp/news/news-7044/",
+        "https://kamenoibus.com/otb/"
+      ],
+      "evidencePath": "research/guidebooks/runs/20261028T1700-new.json"
+    }
+  ]
 }

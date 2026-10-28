@@ -132,12 +132,12 @@ test('research batches select five to ten new cities, skip duplicates and reject
     assert.throws(() => planNewCities(queue, index, invalid))
   const duplicate = {
     cities: [
-      queue.cities[0],
-      queue.cities[0],
+      first.selected[0],
+      first.selected[0],
       {
         slug: 'alias',
-        name: queue.cities[0].name,
-        country: queue.cities[0].country,
+        name: first.selected[0].name,
+        country: first.selected[0].country,
       },
     ],
   }

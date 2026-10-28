@@ -1,0 +1,1460 @@
+{
+  "schemaVersion": 1,
+  "runType": "new",
+  "startedFromCommit": "9aeced5535eaffd681d59df78a9a091747fdc6e6",
+  "checkedAt": "2026-10-28T17:19:14.408Z",
+  "researchDateUtc": "2026-10-28",
+  "selection": {
+    "method": "npm run guides:plan -- new --limit=5",
+    "baselineGuides": 45,
+    "selected": [
+      {
+        "id": "book-nagasaki",
+        "name": "나가사키",
+        "country": "일본"
+      },
+      {
+        "id": "book-kumamoto",
+        "name": "구마모토",
+        "country": "일본"
+      },
+      {
+        "id": "book-kagoshima",
+        "name": "가고시마",
+        "country": "일본"
+      },
+      {
+        "id": "book-beppu",
+        "name": "벳푸",
+        "country": "일본"
+      },
+      {
+        "id": "book-yufuin",
+        "name": "유후인",
+        "country": "일본"
+      }
+    ],
+    "duplicateCheck": "JSON과 SQLite의 기존 ID·도시·국가 및 기존 합성 지역과 비교. 벳푸시와 유후시 유후인 권역은 별개 목적지이며 다른 별칭을 신규로 세지 않음."
+  },
+  "completedCities": 5,
+  "deferredCities": 0,
+  "newPlaces": 25,
+  "sources": [
+    {
+      "key": "nagasaki-city",
+      "requestedUrl": "https://www.at-nagasaki.jp/en/",
+      "checkedAt": "2026-10-28T17:03:34.413928+00:00",
+      "status": 503,
+      "error": "HTTP Error 503: Service Unavailable",
+      "publishedAt": null,
+      "publicationDateStatus": "페이지 게시일 확인 불가. 조회일·저작권 연도를 게시일로 사용하지 않음.",
+      "usedInGuides": false,
+      "publisherAssessment": "확인 이력만 보관; 가이드 출처로 미사용"
+    },
+    {
+      "key": "nagasaki-pref",
+      "requestedUrl": "https://www.discover-nagasaki.com/en/",
+      "checkedAt": "2026-10-28T17:03:34.414862+00:00",
+      "status": 503,
+      "error": "HTTP Error 503: Service Unavailable",
+      "publishedAt": null,
+      "publicationDateStatus": "페이지 게시일 확인 불가. 조회일·저작권 연도를 게시일로 사용하지 않음.",
+      "usedInGuides": false,
+      "publisherAssessment": "확인 이력만 보관; 가이드 출처로 미사용"
+    },
+    {
+      "key": "kumamoto-city",
+      "requestedUrl": "https://kumamoto-guide.jp/en/",
+      "checkedAt": "2026-10-28T17:03:34.415606+00:00",
+      "status": 200,
+      "url": "https://kumamoto-guide.jp/en/",
+      "title": "Kumamoto City Official Guide",
+      "bytes": 48708,
+      "sha256": "7e2a1f8fe1560e4ddebe9f753a143294e398d14c2f02a4b75f365bde357d7684",
+      "textLength": 4336,
+      "dateMetadata": [],
+      "publishedAt": null,
+      "publicationDateStatus": "페이지 게시일 확인 불가. 조회일·저작권 연도를 게시일로 사용하지 않음.",
+      "usedInGuides": true,
+      "publisherAssessment": "실제 본문·운영 주체·적용 범위를 수동 검토"
+    },
+    {
+      "key": "kumamoto-castle",
+      "requestedUrl": "https://castle.kumamoto-guide.jp/en/",
+      "checkedAt": "2026-10-28T17:03:34.416207+00:00",
+      "status": 200,
+      "url": "https://castle.kumamoto-guide.jp/en/",
+      "title": "Kumamoto Castle | 【公式】熊本城",
+      "bytes": 20998,
+      "sha256": "dbb72b29ed7977d824a793ed599877b9748eb5402881028977fe960168b811ad",
+      "textLength": 3284,
+      "dateMetadata": [],
+      "publishedAt": null,
+      "publicationDateStatus": "페이지 게시일 확인 불가. 조회일·저작권 연도를 게시일로 사용하지 않음.",
+      "usedInGuides": true,
+      "publisherAssessment": "실제 본문·운영 주체·적용 범위를 수동 검토"
+    },
+    {
+      "key": "kagoshima-city",
+      "requestedUrl": "https://www.kagoshima-yokanavi.jp/en/",
+      "checkedAt": "2026-10-28T17:03:35.527215+00:00",
+      "status": 200,
+      "url": "https://www.kagoshima-yokanavi.jp/en",
+      "title": "VISIT KAGOSHIMA CITY | Official Tourist Information Site",
+      "bytes": 134831,
+      "sha256": "9a75e05a0bdff0af714f40ee588e6eb91b4acba9453d463d17b09b752080e92f",
+      "textLength": 5052,
+      "dateMetadata": [],
+      "publishedAt": null,
+      "publicationDateStatus": "페이지 게시일 확인 불가. 조회일·저작권 연도를 게시일로 사용하지 않음.",
+      "usedInGuides": true,
+      "publisherAssessment": "실제 본문·운영 주체·적용 범위를 수동 검토"
+    },
+    {
+      "key": "kagoshima-pref",
+      "requestedUrl": "https://www.kagoshima-kankou.com/for",
+      "checkedAt": "2026-10-28T17:03:36.098126+00:00",
+      "status": 503,
+      "error": "HTTP Error 503: Service Unavailable",
+      "publishedAt": null,
+      "publicationDateStatus": "페이지 게시일 확인 불가. 조회일·저작권 연도를 게시일로 사용하지 않음.",
+      "usedInGuides": false,
+      "publisherAssessment": "확인 이력만 보관; 가이드 출처로 미사용"
+    },
+    {
+      "key": "beppu-city",
+      "requestedUrl": "https://beppu-tourism.com/en/",
+      "checkedAt": "2026-10-28T17:03:36.716093+00:00",
+      "status": 503,
+      "error": "HTTP Error 503: Service Unavailable",
+      "publishedAt": null,
+      "publicationDateStatus": "페이지 게시일 확인 불가. 조회일·저작권 연도를 게시일로 사용하지 않음.",
+      "usedInGuides": false,
+      "publisherAssessment": "확인 이력만 보관; 가이드 출처로 미사용"
+    },
+    {
+      "key": "oita-pref",
+      "requestedUrl": "https://www.visit-oita.jp/en/",
+      "checkedAt": "2026-10-28T17:03:36.799806+00:00",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found",
+      "publishedAt": null,
+      "publicationDateStatus": "페이지 게시일 확인 불가. 조회일·저작권 연도를 게시일로 사용하지 않음.",
+      "usedInGuides": false,
+      "publisherAssessment": "확인 이력만 보관; 가이드 출처로 미사용"
+    },
+    {
+      "key": "yufuin-association",
+      "requestedUrl": "https://yufuin.gr.jp/en/",
+      "checkedAt": "2026-10-28T17:03:37.155908+00:00",
+      "status": 200,
+      "url": "https://yufuin.gr.jp/",
+      "title": "YUFUINFO｜湯布院・庄内・挾間公式旅ガイド  YUFUINFO｜湯布院・庄内・挾間公式旅ガイド – 大分県由布市の【公式】観光サイト。由布院温泉をはじめとする人気スポットやお店をお気に入りに登録できたり、宿泊や体験の予約もできるなど、便利な機能が満載！塚原高原、湯平温泉、男池湧水群、由布川峡谷といった市内各エリアの観光情報など、由布市の旅をもっと楽しくする情報がたくさん揃っています。",
+      "bytes": 148476,
+      "sha256": "097f28eae17da4d9eaf54bc03ede4d054fe160f3f97a108627b31447ae13cb28",
+      "textLength": 2590,
+      "dateMetadata": [],
+      "publishedAt": null,
+      "publicationDateStatus": "페이지 게시일 확인 불가. 조회일·저작권 연도를 게시일로 사용하지 않음.",
+      "usedInGuides": false,
+      "publisherAssessment": "확인 이력만 보관; 가이드 출처로 미사용"
+    },
+    {
+      "key": "nagasaki-jnto",
+      "requestedUrl": "https://www.japan.travel/en/destinations/kyushu/nagasaki/nagasaki-city-and-around/",
+      "checkedAt": "2026-10-28T17:05:00.545822+00:00",
+      "status": 200,
+      "url": "https://www.japan.travel/fr/destinations/kyushu/nagasaki/nagasaki-city-and-around/",
+      "title": "Nagasaki | Nagasaki | Kyushu | Destinations | Travel Japan - Office national du tourisme japonais (site officiel)",
+      "bytes": 208467,
+      "sha256": "d9831d70bfba650a8850d709f9405fcad76e0420d7c98e038f06541a4400e89e",
+      "textLength": 13523,
+      "dateMetadata": [
+        {
+          "name": "pubdate",
+          "content": ""
+        }
+      ],
+      "publishedAt": null,
+      "publicationDateStatus": "페이지 게시일 확인 불가. 조회일·저작권 연도를 게시일로 사용하지 않음.",
+      "usedInGuides": true,
+      "publisherAssessment": "실제 본문·운영 주체·적용 범위를 수동 검토"
+    },
+    {
+      "key": "beppu-jnto",
+      "requestedUrl": "https://www.japan.travel/en/destinations/kyushu/oita/beppu-and-yufuin/",
+      "checkedAt": "2026-10-28T17:05:00.546666+00:00",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found",
+      "publishedAt": null,
+      "publicationDateStatus": "페이지 게시일 확인 불가. 조회일·저작권 연도를 게시일로 사용하지 않음.",
+      "usedInGuides": false,
+      "publisherAssessment": "확인 이력만 보관; 가이드 출처로 미사용"
+    },
+    {
+      "key": "beppu-jigoku",
+      "requestedUrl": "https://www.beppu-jigoku.com/english/",
+      "checkedAt": "2026-10-28T17:05:00.547214+00:00",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found",
+      "publishedAt": null,
+      "publicationDateStatus": "페이지 게시일 확인 불가. 조회일·저작권 연도를 게시일로 사용하지 않음.",
+      "usedInGuides": false,
+      "publisherAssessment": "확인 이력만 보관; 가이드 출처로 미사용"
+    },
+    {
+      "key": "oita-root",
+      "requestedUrl": "https://www.visit-oita.jp/",
+      "checkedAt": "2026-10-28T17:05:00.547894+00:00",
+      "status": 200,
+      "url": "https://www.visit-oita.jp/",
+      "title": "日本一の「おんせん県」大分県の観光情報公式サイト",
+      "bytes": 37082,
+      "sha256": "5402b83c54d8d906fe7a386c6d7dac4948dbd8afbdcbbb38c7806ad59e4d26a4",
+      "textLength": 1948,
+      "dateMetadata": [],
+      "publishedAt": null,
+      "publicationDateStatus": "페이지 게시일 확인 불가. 조회일·저작권 연도를 게시일로 사용하지 않음.",
+      "usedInGuides": false,
+      "publisherAssessment": "확인 이력만 보관; 가이드 출처로 미사용"
+    },
+    {
+      "key": "kumamoto-spots",
+      "requestedUrl": "https://kumamoto-guide.jp/en/spots/",
+      "checkedAt": "2026-10-28T17:05:02.189391+00:00",
+      "status": 200,
+      "url": "https://kumamoto-guide.jp/en/spots/",
+      "title": "Sightseeing        | Kumamoto City Official Guide",
+      "bytes": 42245,
+      "sha256": "e1e3df8b802025a38661b4a92cd04c7ca720e515244d98bbf160fd19b115a706",
+      "textLength": 3307,
+      "dateMetadata": [],
+      "publishedAt": null,
+      "publicationDateStatus": "페이지 게시일 확인 불가. 조회일·저작권 연도를 게시일로 사용하지 않음.",
+      "usedInGuides": false,
+      "publisherAssessment": "확인 이력만 보관; 가이드 출처로 미사용"
+    },
+    {
+      "key": "kumamoto-access",
+      "requestedUrl": "https://kumamoto-guide.jp/en/access/",
+      "checkedAt": "2026-10-28T17:05:02.234805+00:00",
+      "status": 200,
+      "url": "https://kumamoto-guide.jp/en/access/",
+      "title": "From overseas        | Kumamoto City Official Guide",
+      "bytes": 40466,
+      "sha256": "87d02d8c8312a4f558db80cd0d5261abe60e3ab4f7686f6243c34bb0d990ed54",
+      "textLength": 2775,
+      "dateMetadata": [],
+      "publishedAt": null,
+      "publicationDateStatus": "페이지 게시일 확인 불가. 조회일·저작권 연도를 게시일로 사용하지 않음.",
+      "usedInGuides": false,
+      "publisherAssessment": "확인 이력만 보관; 가이드 출처로 미사용"
+    },
+    {
+      "key": "kumamoto-transit",
+      "requestedUrl": "https://kumamoto-guide.jp/en/access/city.html",
+      "checkedAt": "2026-10-28T17:05:02.301687+00:00",
+      "status": 200,
+      "url": "https://kumamoto-guide.jp/en/access/city.html",
+      "title": "Inner City Transportation        | Kumamoto City Official Guide",
+      "bytes": 35540,
+      "sha256": "8161f94282ac3047c5d066a5785662192a02113954f0d2cd556d2e33f1220df8",
+      "textLength": 4822,
+      "dateMetadata": [],
+      "publishedAt": null,
+      "publicationDateStatus": "페이지 게시일 확인 불가. 조회일·저작권 연도를 게시일로 사용하지 않음.",
+      "usedInGuides": true,
+      "publisherAssessment": "실제 본문·운영 주체·적용 범위를 수동 검토"
+    },
+    {
+      "key": "kagoshima-spots",
+      "requestedUrl": "https://www.kagoshima-yokanavi.jp/en/spot",
+      "checkedAt": "2026-10-28T17:05:03.645822+00:00",
+      "status": 200,
+      "url": "https://www.kagoshima-yokanavi.jp/en/spot",
+      "title": "What to See & Do | VISIT KAGOSHIMA CITY | Official Tourist Information Site",
+      "bytes": 137280,
+      "sha256": "e7b704e53d0ae08de5ef351e6d20cb19701ca6b5cfe1902b65d8af8652f5b612",
+      "textLength": 5145,
+      "dateMetadata": [],
+      "publishedAt": null,
+      "publicationDateStatus": "페이지 게시일 확인 불가. 조회일·저작권 연도를 게시일로 사용하지 않음.",
+      "usedInGuides": false,
+      "publisherAssessment": "확인 이력만 보관; 가이드 출처로 미사용"
+    },
+    {
+      "key": "kagoshima-access",
+      "requestedUrl": "https://www.kagoshima-yokanavi.jp/en/transportation",
+      "checkedAt": "2026-10-28T17:05:03.814331+00:00",
+      "status": 200,
+      "url": "https://www.kagoshima-yokanavi.jp/en/transportation",
+      "title": "Transport | VISIT KAGOSHIMA CITY | Official Tourist Information Site",
+      "bytes": 65873,
+      "sha256": "4b4844a9de67f91d0e8c598b7fdeef9d3729f1a439f37077df3dbdbf940e0558",
+      "textLength": 1823,
+      "dateMetadata": [],
+      "publishedAt": null,
+      "publicationDateStatus": "페이지 게시일 확인 불가. 조회일·저작권 연도를 게시일로 사용하지 않음.",
+      "usedInGuides": true,
+      "publisherAssessment": "실제 본문·운영 주체·적용 범위를 수동 검토"
+    },
+    {
+      "key": "kagoshima-sakurajima",
+      "requestedUrl": "https://www.kagoshima-yokanavi.jp/en/feature/sakurajima2",
+      "checkedAt": "2026-10-28T17:05:03.836615+00:00",
+      "status": 200,
+      "url": "https://www.kagoshima-yokanavi.jp/en/feature/sakurajima2",
+      "title": "Set your foot on the ground of Sakurajima to discover more about the popular Kagoshima tourist attraction | Highlights | VISIT KAGOSHIMA CITY | Official Tourist Information Site",
+      "bytes": 108408,
+      "sha256": "aa6b419d5ffa4baf723be019bce11edaf32306e82f6474637d2e4a9620b32976",
+      "textLength": 5550,
+      "dateMetadata": [],
+      "publishedAt": null,
+      "publicationDateStatus": "페이지 게시일 확인 불가. 조회일·저작권 연도를 게시일로 사용하지 않음.",
+      "usedInGuides": true,
+      "publisherAssessment": "실제 본문·운영 주체·적용 범위를 수동 검토"
+    },
+    {
+      "key": "yufuin-spots",
+      "requestedUrl": "https://yufuin.gr.jp/spot",
+      "checkedAt": "2026-10-28T17:05:04.379155+00:00",
+      "status": 200,
+      "url": "https://yufuin.gr.jp/spot/",
+      "title": "スポット/お店/宿 – YUFUINFO｜湯布院・庄内・挾間公式旅ガイド  スポット/お店/宿 – YUFUINFO｜湯布院・庄内・挾間公式旅ガイド",
+      "bytes": 130938,
+      "sha256": "8ba5b4965938b9b080e79882784fccdf4b9bf2593a21ebc6eca6390d572bd9cc",
+      "textLength": 2040,
+      "dateMetadata": [],
+      "publishedAt": null,
+      "publicationDateStatus": "페이지 게시일 확인 불가. 조회일·저작권 연도를 게시일로 사용하지 않음.",
+      "usedInGuides": false,
+      "publisherAssessment": "확인 이력만 보관; 가이드 출처로 미사용"
+    },
+    {
+      "key": "yufuin-access",
+      "requestedUrl": "https://yufuin.gr.jp/access",
+      "checkedAt": "2026-10-28T17:05:05.487480+00:00",
+      "status": 200,
+      "url": "https://yufuin.gr.jp/access/",
+      "title": "アクセス – YUFUINFO｜湯布院・庄内・挾間公式旅ガイド  アクセス – YUFUINFO｜湯布院・庄内・挾間公式旅ガイド",
+      "bytes": 57243,
+      "sha256": "f344a049f9f3f9430a77f7d359dab95d390de2ebdfeee41b88c2f536697c3413",
+      "textLength": 755,
+      "dateMetadata": [],
+      "publishedAt": null,
+      "publicationDateStatus": "페이지 게시일 확인 불가. 조회일·저작권 연도를 게시일로 사용하지 않음.",
+      "usedInGuides": true,
+      "publisherAssessment": "실제 본문·운영 주체·적용 범위를 수동 검토"
+    },
+    {
+      "key": "yufuin-area",
+      "requestedUrl": "https://yufuin.gr.jp/yufuin",
+      "checkedAt": "2026-10-28T17:05:05.715593+00:00",
+      "status": 200,
+      "url": "https://yufuin.gr.jp/yufuin/",
+      "title": "由布院エリア – YUFUINFO｜湯布院・庄内・挾間公式旅ガイド  由布院エリア – YUFUINFO｜湯布院・庄内・挾間公式旅ガイド",
+      "bytes": 95800,
+      "sha256": "c36680031d6f6f383b6a9a6cce71bb5dad8f51ab8242c3fea1747e0954518c27",
+      "textLength": 1400,
+      "dateMetadata": [],
+      "publishedAt": null,
+      "publicationDateStatus": "페이지 게시일 확인 불가. 조회일·저작권 연도를 게시일로 사용하지 않음.",
+      "usedInGuides": true,
+      "publisherAssessment": "실제 본문·운영 주체·적용 범위를 수동 검토"
+    },
+    {
+      "key": "beppu-jnto-overview",
+      "requestedUrl": "https://www.japan.travel/en/destinations/kyushu/oita/beppu-and-yufuin-around/",
+      "checkedAt": "2026-10-28T17:06:13.714719+00:00",
+      "status": 200,
+      "url": "https://www.japan.travel/fr/destinations/kyushu/oita/beppu-and-yufuin-around/",
+      "title": "Beppu et Yufuin | Oita | Kyushu | Destinations | Travel Japan - Office national du tourisme japonais (site officiel)",
+      "bytes": 191137,
+      "sha256": "029c3dcafd589c93a17a0930aed4be796b31e0ebc212f3554484884f6ebc183c",
+      "textLength": 13924,
+      "dateMetadata": [
+        {
+          "name": "pubdate",
+          "content": ""
+        }
+      ],
+      "publishedAt": null,
+      "publicationDateStatus": "페이지 게시일 확인 불가. 조회일·저작권 연도를 게시일로 사용하지 않음.",
+      "usedInGuides": true,
+      "publisherAssessment": "실제 본문·운영 주체·적용 범위를 수동 검토"
+    },
+    {
+      "key": "beppu-jigoku-root",
+      "requestedUrl": "https://www.beppu-jigoku.com/",
+      "checkedAt": "2026-10-28T17:06:13.715679+00:00",
+      "status": 200,
+      "url": "https://www.beppu-jigoku.com/",
+      "title": "別府地獄めぐり公式サイト(別府地獄組合)",
+      "bytes": 31450,
+      "sha256": "7574e115cd3b9ac3b60fd324d7ebd4ddd8ab0a24171ee3c5dbf6c80a66953f60",
+      "textLength": 1120,
+      "dateMetadata": [],
+      "publishedAt": null,
+      "publicationDateStatus": "페이지 게시일 확인 불가. 조회일·저작권 연도를 게시일로 사용하지 않음.",
+      "usedInGuides": true,
+      "publisherAssessment": "실제 본문·운영 주체·적용 범위를 수동 검토"
+    },
+    {
+      "key": "nagasaki-airport",
+      "requestedUrl": "https://nagasaki-airport.jp/access/bus/",
+      "checkedAt": "2026-10-28T17:06:13.716345+00:00",
+      "status": 200,
+      "url": "https://nagasaki-airport.jp/access/bus/",
+      "title": "バス｜アクセス｜長崎空港",
+      "bytes": 34271,
+      "sha256": "085b67a813895cac9a75e214eef30b3cc06a1edc1f86cda966c8dc9046e9c9d2",
+      "textLength": 2888,
+      "dateMetadata": [],
+      "publishedAt": null,
+      "publicationDateStatus": "페이지 게시일 확인 불가. 조회일·저작권 연도를 게시일로 사용하지 않음.",
+      "usedInGuides": true,
+      "publisherAssessment": "실제 본문·운영 주체·적용 범위를 수동 검토"
+    },
+    {
+      "key": "nagasaki-glover",
+      "requestedUrl": "https://glover-garden.jp/",
+      "checkedAt": "2026-10-28T17:06:13.716754+00:00",
+      "status": 200,
+      "url": "https://glover-garden.jp/",
+      "title": "【公式】グラバー園｜世界遺産構成要素、旧グラバー住宅を中心として明治期の洋館を移築復元した長崎市の人気観光スポット",
+      "bytes": 155105,
+      "sha256": "f32b60f2dcd16635ea0dffb0902d467eea41212825b83717a0b4c86107d74a95",
+      "textLength": 3434,
+      "dateMetadata": [],
+      "publishedAt": null,
+      "publicationDateStatus": "페이지 게시일 확인 불가. 조회일·저작권 연도를 게시일로 사용하지 않음.",
+      "usedInGuides": true,
+      "publisherAssessment": "실제 본문·운영 주체·적용 범위를 수동 검토"
+    },
+    {
+      "key": "nagasaki-jr",
+      "requestedUrl": "https://www.jrkyushu.co.jp/english/train/kamome.html",
+      "checkedAt": "2026-10-28T17:06:15.106700+00:00",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found",
+      "publishedAt": null,
+      "publicationDateStatus": "페이지 게시일 확인 불가. 조회일·저작권 연도를 게시일로 사용하지 않음.",
+      "usedInGuides": false,
+      "publisherAssessment": "확인 이력만 보관; 가이드 출처로 미사용"
+    },
+    {
+      "key": "kumamoto-suizenji",
+      "requestedUrl": "https://kumamoto-guide.jp/en/spots/detail/75",
+      "checkedAt": "2026-10-28T17:06:15.371014+00:00",
+      "status": 200,
+      "url": "https://kumamoto-guide.jp/en/spots/detail/75",
+      "title": "Suizenji Jojuen Garden | Sightseeing        | Kumamoto City Official Guide",
+      "bytes": 44341,
+      "sha256": "76377d21534469e921e832ea40baacc811cbeb56e046830f80678df3b487bcfa",
+      "textLength": 5323,
+      "dateMetadata": [],
+      "publishedAt": null,
+      "publicationDateStatus": "페이지 게시일 확인 불가. 조회일·저작권 연도를 게시일로 사용하지 않음.",
+      "usedInGuides": true,
+      "publisherAssessment": "실제 본문·운영 주체·적용 범위를 수동 검토"
+    },
+    {
+      "key": "kumamoto-camk",
+      "requestedUrl": "https://kumamoto-guide.jp/en/spots/detail/12",
+      "checkedAt": "2026-10-28T17:06:15.626392+00:00",
+      "status": 200,
+      "url": "https://kumamoto-guide.jp/en/spots/detail/12",
+      "title": "Contemporary Art Museum, Kumamoto (CAMK) | Sightseeing        | Kumamoto City Official Guide",
+      "bytes": 35986,
+      "sha256": "1bb1a62b4754b4cbf306f92a5ebc03823d7217d888bfbb1ca29e4a24687c7e25",
+      "textLength": 3798,
+      "dateMetadata": [],
+      "publishedAt": null,
+      "publicationDateStatus": "페이지 게시일 확인 불가. 조회일·저작권 연도를 게시일로 사용하지 않음.",
+      "usedInGuides": true,
+      "publisherAssessment": "실제 본문·운영 주체·적용 범위를 수동 검토"
+    },
+    {
+      "key": "kumamoto-products",
+      "requestedUrl": "https://kumamoto-guide.jp/en/spots/detail/8",
+      "checkedAt": "2026-10-28T17:06:15.671853+00:00",
+      "status": 200,
+      "url": "https://kumamoto-guide.jp/en/spots/detail/8",
+      "title": "Kumamoto Prefectural Products Center | Sightseeing        | Kumamoto City Official Guide",
+      "bytes": 34189,
+      "sha256": "0729b6a6b57d8daa822c6794a7bcc42627c6b115e96d638b72c2a06024d0c9b9",
+      "textLength": 3206,
+      "dateMetadata": [],
+      "publishedAt": null,
+      "publicationDateStatus": "페이지 게시일 확인 불가. 조회일·저작권 연도를 게시일로 사용하지 않음.",
+      "usedInGuides": false,
+      "publisherAssessment": "확인 이력만 보관; 가이드 출처로 미사용"
+    },
+    {
+      "key": "kumamoto-crafts",
+      "requestedUrl": "https://kumamoto-guide.jp/en/spots/detail/1",
+      "checkedAt": "2026-10-28T17:06:15.673290+00:00",
+      "status": 200,
+      "url": "https://kumamoto-guide.jp/en/spots/detail/1",
+      "title": "Kumamoto City Handicrafts Promotion Center | Sightseeing        | Kumamoto City Official Guide",
+      "bytes": 34586,
+      "sha256": "fdae2e0b682936d16f3ff62ecd1dcf98f46709dde5978240d9f83906f1ca0ce0",
+      "textLength": 2990,
+      "dateMetadata": [],
+      "publishedAt": null,
+      "publicationDateStatus": "페이지 게시일 확인 불가. 조회일·저작권 연도를 게시일로 사용하지 않음.",
+      "usedInGuides": true,
+      "publisherAssessment": "실제 본문·운영 주체·적용 범위를 수동 검토"
+    },
+    {
+      "key": "kumamoto-ramen",
+      "requestedUrl": "https://kumamoto-guide.jp/en/column/detail/191",
+      "checkedAt": "2026-10-28T17:06:17.118440+00:00",
+      "status": 200,
+      "url": "https://kumamoto-guide.jp/en/column/detail/191",
+      "title": "What Makes Kumamoto Ramen Special? | Another Kumamoto        | Kumamoto City Official Guide",
+      "bytes": 39013,
+      "sha256": "4c2b03f7540c0544499516fa868dc842f237f71927d209e29e5a1833b613aadc",
+      "textLength": 6160,
+      "dateMetadata": [],
+      "publishedAt": "2022-05-25",
+      "publicationDateStatus": "본문 게시일이 최근 3년 밖이므로 사용하지 않음.",
+      "usedInGuides": false,
+      "publisherAssessment": "확인 이력만 보관; 가이드 출처로 미사용"
+    },
+    {
+      "key": "kagoshima-senganen",
+      "requestedUrl": "https://www.kagoshima-yokanavi.jp/en/spot/10006",
+      "checkedAt": "2026-10-28T17:06:17.153467+00:00",
+      "status": 200,
+      "url": "https://www.kagoshima-yokanavi.jp/en/spot/10006",
+      "title": "Sengan-en | What to See & Do | VISIT KAGOSHIMA CITY | Official Tourist Information Site",
+      "bytes": 177734,
+      "sha256": "5cdf3fac72135a60404e6a3f624dd0b12d77cb741d554421269a73283e756967",
+      "textLength": 5013,
+      "dateMetadata": [],
+      "publishedAt": null,
+      "publicationDateStatus": "페이지 게시일 확인 불가. 조회일·저작권 연도를 게시일로 사용하지 않음.",
+      "usedInGuides": true,
+      "publisherAssessment": "실제 본문·운영 주체·적용 범위를 수동 검토"
+    },
+    {
+      "key": "kagoshima-shiroyama",
+      "requestedUrl": "https://www.kagoshima-yokanavi.jp/en/spot/10002",
+      "checkedAt": "2026-10-28T17:06:17.214598+00:00",
+      "status": 200,
+      "url": "https://www.kagoshima-yokanavi.jp/en/spot/10002",
+      "title": "Shiroyama Observatory | What to See & Do | VISIT KAGOSHIMA CITY | Official Tourist Information Site",
+      "bytes": 164296,
+      "sha256": "9948f71cec11fc3cd9270cd27945370bdf36fea36a50f428a84503182433540a",
+      "textLength": 3677,
+      "dateMetadata": [],
+      "publishedAt": null,
+      "publicationDateStatus": "페이지 게시일 확인 불가. 조회일·저작권 연도를 게시일로 사용하지 않음.",
+      "usedInGuides": true,
+      "publisherAssessment": "실제 본문·운영 주체·적용 범위를 수동 검토"
+    },
+    {
+      "key": "kagoshima-tenmonkan",
+      "requestedUrl": "https://www.kagoshima-yokanavi.jp/en/spot/10027",
+      "checkedAt": "2026-10-28T17:06:17.335492+00:00",
+      "status": 200,
+      "url": "https://www.kagoshima-yokanavi.jp/en/spot/10027",
+      "title": "Tenmonkan | What to See & Do | VISIT KAGOSHIMA CITY | Official Tourist Information Site",
+      "bytes": 153575,
+      "sha256": "ab355eb505b3fd59f683bfc27384951bc7dec9495bc8b4ecbb01eb7910b9ed9d",
+      "textLength": 3795,
+      "dateMetadata": [],
+      "publishedAt": null,
+      "publicationDateStatus": "페이지 게시일 확인 불가. 조회일·저작권 연도를 게시일로 사용하지 않음.",
+      "usedInGuides": true,
+      "publisherAssessment": "실제 본문·운영 주체·적용 범위를 수동 검토"
+    },
+    {
+      "key": "kagoshima-aquarium",
+      "requestedUrl": "https://www.kagoshima-yokanavi.jp/en/spot/10030",
+      "checkedAt": "2026-10-28T17:06:17.762987+00:00",
+      "status": 200,
+      "url": "https://www.kagoshima-yokanavi.jp/en/spot/10030",
+      "title": "Io World Kagoshima City Aquarium | What to See & Do | VISIT KAGOSHIMA CITY | Official Tourist Information Site",
+      "bytes": 166920,
+      "sha256": "ef2b986b223c0721131f67811537c55acf593ed5294e624549fbc71d42e1cf85",
+      "textLength": 4807,
+      "dateMetadata": [],
+      "publishedAt": null,
+      "publicationDateStatus": "페이지 게시일 확인 불가. 조회일·저작권 연도를 게시일로 사용하지 않음.",
+      "usedInGuides": true,
+      "publisherAssessment": "실제 본문·운영 주체·적용 범위를 수동 검토"
+    },
+    {
+      "key": "kagoshima-yunohira",
+      "requestedUrl": "https://www.kagoshima-yokanavi.jp/en/spot/10025",
+      "checkedAt": "2026-10-28T17:06:19.138461+00:00",
+      "status": 200,
+      "url": "https://www.kagoshima-yokanavi.jp/en/spot/10025",
+      "title": "Yunohira Observatory | What to See & Do | VISIT KAGOSHIMA CITY | Official Tourist Information Site",
+      "bytes": 169161,
+      "sha256": "d3f4bd9983b5aa0f7970634111dd65b23cf47434e423d217e8ccd8ddc466503d",
+      "textLength": 4239,
+      "dateMetadata": [],
+      "publishedAt": null,
+      "publicationDateStatus": "페이지 게시일 확인 불가. 조회일·저작권 연도를 게시일로 사용하지 않음.",
+      "usedInGuides": true,
+      "publisherAssessment": "실제 본문·운영 주체·적용 범위를 수동 검토"
+    },
+    {
+      "key": "kagoshima-volcano",
+      "requestedUrl": "https://www.kagoshima-yokanavi.jp/en/spot/10092",
+      "checkedAt": "2026-10-28T17:06:19.213922+00:00",
+      "status": 200,
+      "url": "https://www.kagoshima-yokanavi.jp/en/spot/10092",
+      "title": "Information regarding Sakurajima’s volcanic activity | What to See & Do | VISIT KAGOSHIMA CITY | Official Tourist Information Site",
+      "bytes": 71992,
+      "sha256": "e3aa06854c3d8f35639a1e7491a392233504016d0b7c20036be13a25e87b7c8d",
+      "textLength": 2266,
+      "dateMetadata": [],
+      "publishedAt": null,
+      "publicationDateStatus": "페이지 게시일 확인 불가. 조회일·저작권 연도를 게시일로 사용하지 않음.",
+      "usedInGuides": true,
+      "publisherAssessment": "실제 본문·운영 주체·적용 범위를 수동 검토"
+    },
+    {
+      "key": "yufuin-kinrinko",
+      "requestedUrl": "https://yufuin.gr.jp/spot/spot-1268/",
+      "checkedAt": "2026-10-28T17:06:19.285463+00:00",
+      "status": 200,
+      "url": "https://yufuin.gr.jp/spot/spot-1268/",
+      "title": "金鱗湖 – YUFUINFO｜湯布院・庄内・挾間公式旅ガイド  金鱗湖 – YUFUINFO｜湯布院・庄内・挾間公式旅ガイド",
+      "bytes": 101030,
+      "sha256": "7bef271be9d11cb152afdd68880241e0289e616f0762e8818ee9d9b9aa14a57e",
+      "textLength": 1419,
+      "dateMetadata": [],
+      "publishedAt": null,
+      "publicationDateStatus": "페이지 게시일 확인 불가. 조회일·저작권 연도를 게시일로 사용하지 않음.",
+      "usedInGuides": true,
+      "publisherAssessment": "실제 본문·운영 주체·적용 범위를 수동 검토"
+    },
+    {
+      "key": "yufuin-yunotsubo",
+      "requestedUrl": "https://yufuin.gr.jp/spot/spot-1277/",
+      "checkedAt": "2026-10-28T17:06:19.434763+00:00",
+      "status": 200,
+      "url": "https://yufuin.gr.jp/spot/spot-1277/",
+      "title": "湯の坪街道 – YUFUINFO｜湯布院・庄内・挾間公式旅ガイド  湯の坪街道 – YUFUINFO｜湯布院・庄内・挾間公式旅ガイド",
+      "bytes": 101696,
+      "sha256": "c7d97c2fd24d028a175d7ef6ecc53edbe0d7c7d189ba955fbed5a1adbe3a9e1d",
+      "textLength": 1394,
+      "dateMetadata": [],
+      "publishedAt": null,
+      "publicationDateStatus": "페이지 게시일 확인 불가. 조회일·저작권 연도를 게시일로 사용하지 않음.",
+      "usedInGuides": true,
+      "publisherAssessment": "실제 본문·운영 주체·적용 범위를 수동 검토"
+    },
+    {
+      "key": "yufuin-comico",
+      "requestedUrl": "https://yufuin.gr.jp/spot/spot-1285/",
+      "checkedAt": "2026-10-28T17:06:20.440433+00:00",
+      "status": 200,
+      "url": "https://yufuin.gr.jp/spot/spot-1285/",
+      "title": "COMICO ART MUSEUM YUFUIN – YUFUINFO｜湯布院・庄内・挾間公式旅ガイド  COMICO ART MUSEUM YUFUIN – YUFUINFO｜湯布院・庄内・挾間公式旅ガイド",
+      "bytes": 105128,
+      "sha256": "4f094d05d10a42ace2c5d2c1117c4ebdcfb5c12483ed5e510cc3a3518f56f440",
+      "textLength": 1577,
+      "dateMetadata": [],
+      "publishedAt": null,
+      "publicationDateStatus": "페이지 게시일 확인 불가. 조회일·저작권 연도를 게시일로 사용하지 않음.",
+      "usedInGuides": true,
+      "publisherAssessment": "실제 본문·운영 주체·적용 범위를 수동 검토"
+    },
+    {
+      "key": "yufuin-stainedglass",
+      "requestedUrl": "https://yufuin.gr.jp/spot/spot-1182/",
+      "checkedAt": "2026-10-28T17:06:20.442129+00:00",
+      "status": 200,
+      "url": "https://yufuin.gr.jp/spot/spot-1182/",
+      "title": "由布院ステンドグラス美術館 – YUFUINFO｜湯布院・庄内・挾間公式旅ガイド  由布院ステンドグラス美術館 – YUFUINFO｜湯布院・庄内・挾間公式旅ガイド",
+      "bytes": 105102,
+      "sha256": "c9a19412d2afe6e7e7e8b001fe302ec0c5be1cb7d6497918b69e225979b91fd7",
+      "textLength": 2100,
+      "dateMetadata": [],
+      "publishedAt": null,
+      "publicationDateStatus": "페이지 게시일 확인 불가. 조회일·저작권 연도를 게시일로 사용하지 않음.",
+      "usedInGuides": true,
+      "publisherAssessment": "실제 본문·운영 주체·적용 범위를 수동 검토"
+    },
+    {
+      "key": "yufuin-sagiridai",
+      "requestedUrl": "https://yufuin.gr.jp/spot/spot-1269/",
+      "checkedAt": "2026-10-28T17:06:21.913606+00:00",
+      "status": 200,
+      "url": "https://yufuin.gr.jp/spot/spot-1269/",
+      "title": "狭霧台 – YUFUINFO｜湯布院・庄内・挾間公式旅ガイド  狭霧台 – YUFUINFO｜湯布院・庄内・挾間公式旅ガイド",
+      "bytes": 102466,
+      "sha256": "96de0e5c40b538a68254a88253ef1b28ba69f52f43d492a1b8e20b3abbbe47c5",
+      "textLength": 1329,
+      "dateMetadata": [],
+      "publishedAt": null,
+      "publicationDateStatus": "페이지 게시일 확인 불가. 조회일·저작권 연도를 게시일로 사용하지 않음.",
+      "usedInGuides": false,
+      "publisherAssessment": "확인 이력만 보관; 가이드 출처로 미사용"
+    },
+    {
+      "key": "yufuin-cafe",
+      "requestedUrl": "https://yufuin.gr.jp/spot/spot-1241/",
+      "checkedAt": "2026-10-28T17:06:22.284951+00:00",
+      "status": 200,
+      "url": "https://yufuin.gr.jp/spot/spot-1241/",
+      "title": "おむすびcafé TABIMUSUBI – YUFUINFO｜湯布院・庄内・挾間公式旅ガイド  おむすびcafé TABIMUSUBI – YUFUINFO｜湯布院・庄内・挾間公式旅ガイド",
+      "bytes": 106557,
+      "sha256": "64f45edfbddb553cc641e6b81f956cfa76715c0e8a6b9bfde753414b1656a1ab",
+      "textLength": 2105,
+      "dateMetadata": [],
+      "publishedAt": null,
+      "publicationDateStatus": "페이지 게시일 확인 불가. 조회일·저작권 연도를 게시일로 사용하지 않음.",
+      "usedInGuides": true,
+      "publisherAssessment": "실제 본문·운영 주체·적용 범위를 수동 검토"
+    },
+    {
+      "key": "yufuin-station",
+      "requestedUrl": "https://yufuin.gr.jp/spot/spot-1179/",
+      "checkedAt": "2026-10-28T17:06:22.656613+00:00",
+      "status": 200,
+      "url": "https://yufuin.gr.jp/spot/spot-1179/",
+      "title": "由布院駅 – YUFUINFO｜湯布院・庄内・挾間公式旅ガイド  由布院駅 – YUFUINFO｜湯布院・庄内・挾間公式旅ガイド",
+      "bytes": 105505,
+      "sha256": "aac1b9ee02a8ec9ba9b53e07bf37f4ae0143632cbfc6db14b2a1c107cfd3fcb4",
+      "textLength": 1794,
+      "dateMetadata": [],
+      "publishedAt": null,
+      "publicationDateStatus": "페이지 게시일 확인 불가. 조회일·저작권 연도를 게시일로 사용하지 않음.",
+      "usedInGuides": false,
+      "publisherAssessment": "확인 이력만 보관; 가이드 출처로 미사용"
+    },
+    {
+      "key": "beppu-umi",
+      "requestedUrl": "https://www.beppu-jigoku.com/umi/index.html",
+      "checkedAt": "2026-10-28T17:08:49.224254+00:00",
+      "status": 200,
+      "url": "https://www.beppu-jigoku.com/umi/index.html",
+      "title": "海地獄 | 別府地獄めぐり公式サイト(別府地獄組合)",
+      "bytes": 34066,
+      "sha256": "76d55c4ea0a952b49d804644ad8f78bd89ece0eabe8afcbdb2963fb2f764bc45",
+      "textLength": 2059,
+      "dateMetadata": [],
+      "publishedAt": null,
+      "publicationDateStatus": "페이지 게시일 확인 불가. 조회일·저작권 연도를 게시일로 사용하지 않음.",
+      "usedInGuides": true,
+      "publisherAssessment": "실제 본문·운영 주체·적용 범위를 수동 검토"
+    },
+    {
+      "key": "beppu-chinoike",
+      "requestedUrl": "https://www.beppu-jigoku.com/chinoike/index.html",
+      "checkedAt": "2026-10-28T17:08:49.225274+00:00",
+      "status": 200,
+      "url": "https://www.beppu-jigoku.com/chinoike/index.html",
+      "title": "血の池地獄 | 別府地獄めぐり公式サイト(別府地獄組合)",
+      "bytes": 27774,
+      "sha256": "f6e555c2780cbcea17d635710e4ca5126cacd6ea9e2b45187bde9093f7263f67",
+      "textLength": 1087,
+      "dateMetadata": [],
+      "publishedAt": null,
+      "publicationDateStatus": "페이지 게시일 확인 불가. 조회일·저작권 연도를 게시일로 사용하지 않음.",
+      "usedInGuides": true,
+      "publisherAssessment": "실제 본문·운영 주체·적용 범위를 수동 검토"
+    },
+    {
+      "key": "beppu-kamado",
+      "requestedUrl": "https://www.beppu-jigoku.com/kamado/index.html",
+      "checkedAt": "2026-10-28T17:08:49.226156+00:00",
+      "status": 200,
+      "url": "https://www.beppu-jigoku.com/kamado/index.html",
+      "title": "かまど地獄 | 別府地獄めぐり公式サイト(別府地獄組合)",
+      "bytes": 25994,
+      "sha256": "3e8659f1f4f2a2c654981a29eddd484fb26fc2953bc270f064bae3fefeafcee7",
+      "textLength": 1143,
+      "dateMetadata": [],
+      "publishedAt": null,
+      "publicationDateStatus": "페이지 게시일 확인 불가. 조회일·저작권 연도를 게시일로 사용하지 않음.",
+      "usedInGuides": true,
+      "publisherAssessment": "실제 본문·운영 주체·적용 범위를 수동 검토"
+    },
+    {
+      "key": "beppu-tatsumaki-notice",
+      "requestedUrl": "https://www.beppu-jigoku.com/news-detail.php?id=36",
+      "checkedAt": "2026-10-28T17:08:49.226983+00:00",
+      "status": 200,
+      "url": "https://www.beppu-jigoku.com/news-detail.php?id=36",
+      "title": "龍巻地獄の間欠泉についてお知らせ｜詳細ページ",
+      "bytes": 4169,
+      "sha256": "3155041a811dd012c25017de7804de55904889ce9f161fc35f37510c172cf335",
+      "textLength": 94,
+      "dateMetadata": [],
+      "publishedAt": "2026-01-15",
+      "publicationDateStatus": "본문에 공지 날짜 표기. 세부 사항이 이미지로 제시돼 텍스트만으로 검증하지 않음.",
+      "usedInGuides": false,
+      "publisherAssessment": "확인 이력만 보관; 가이드 출처로 미사용"
+    },
+    {
+      "key": "beppu-ropeway",
+      "requestedUrl": "https://www.beppu-ropeway.co.jp/en/",
+      "checkedAt": "2026-10-28T17:08:50.689824+00:00",
+      "status": 503,
+      "error": "HTTP Error 503: Service Unavailable",
+      "publishedAt": null,
+      "publicationDateStatus": "페이지 게시일 확인 불가. 조회일·저작권 연도를 게시일로 사용하지 않음.",
+      "usedInGuides": false,
+      "publisherAssessment": "확인 이력만 보관; 가이드 출처로 미사용"
+    },
+    {
+      "key": "oita-english",
+      "requestedUrl": "https://oita-tourism.com/en",
+      "checkedAt": "2026-10-28T17:08:50.690230+00:00",
+      "status": 200,
+      "url": "https://oita-tourism.com/en/",
+      "title": "Visit Oita - The Official Tourism Website of Oita,Kyushu,Japan",
+      "bytes": 21180,
+      "sha256": "6241c4b8d1cd040d115b447843eafeb9fc3772d0f0d83eecdffbf6edfdf24bd2",
+      "textLength": 4292,
+      "dateMetadata": [],
+      "publishedAt": null,
+      "publicationDateStatus": "페이지 게시일 확인 불가. 조회일·저작권 연도를 게시일로 사용하지 않음.",
+      "usedInGuides": false,
+      "publisherAssessment": "확인 이력만 보관; 가이드 출처로 미사용"
+    },
+    {
+      "key": "oita-airport",
+      "requestedUrl": "https://www.oita-airport.jp/access/",
+      "checkedAt": "2026-10-28T17:08:50.959780+00:00",
+      "status": 200,
+      "url": "https://www.oita-airport.jp/access/",
+      "title": "マップ＆各地へのアクセス | 大分空港 Welcome to Oita Airport",
+      "bytes": 23549,
+      "sha256": "bd4dca5ec1779ae53342bca02216d4a30caa40f8d7bf15ffed7b91b9422063ce",
+      "textLength": 1264,
+      "dateMetadata": [],
+      "publishedAt": null,
+      "publicationDateStatus": "페이지 게시일 확인 불가. 조회일·저작권 연도를 게시일로 사용하지 않음.",
+      "usedInGuides": false,
+      "publisherAssessment": "확인 이력만 보관; 가이드 출처로 미사용"
+    },
+    {
+      "key": "nagasaki-dejima",
+      "requestedUrl": "https://nagasakidejima.jp/",
+      "checkedAt": "2026-10-28T17:08:50.960413+00:00",
+      "status": 200,
+      "url": "https://nagasakidejima.jp/",
+      "title": "【公式】出島〜dejima〜【公式】出島〜dejima〜 – Just another WordPress site",
+      "bytes": 61238,
+      "sha256": "0a2e60811665369a45792add6007fb3a15c577b6ce72455434280e17e4ea345c",
+      "textLength": 4429,
+      "dateMetadata": [],
+      "publishedAt": null,
+      "publicationDateStatus": "페이지 게시일 확인 불가. 조회일·저작권 연도를 게시일로 사용하지 않음.",
+      "usedInGuides": true,
+      "publisherAssessment": "실제 본문·운영 주체·적용 범위를 수동 검토"
+    },
+    {
+      "key": "nagasaki-museum",
+      "requestedUrl": "https://nabmuseum.jp/",
+      "checkedAt": "2026-10-28T17:08:52.207875+00:00",
+      "status": 200,
+      "url": "https://nabmuseum.jp/",
+      "title": "長崎原爆資料館・長崎市平和会館 – 長崎市への原子爆弾投下に関する資料を取り扱った長崎市立の資料館",
+      "bytes": 324214,
+      "sha256": "028763b9b3fb02f09a4fdb9ee3fd97499eabfc91374e1c6efd2974b48fd0d988",
+      "textLength": 6304,
+      "dateMetadata": [],
+      "publishedAt": null,
+      "publicationDateStatus": "페이지 게시일 확인 불가. 조회일·저작권 연도를 게시일로 사용하지 않음.",
+      "usedInGuides": true,
+      "publisherAssessment": "실제 본문·운영 주체·적용 범위를 수동 검토"
+    },
+    {
+      "key": "nagasaki-peace-jnto",
+      "requestedUrl": "https://www.japan.travel/en/spot/742/",
+      "checkedAt": "2026-10-28T17:08:53.234850+00:00",
+      "status": 200,
+      "url": "https://www.japan.travel/fr/spot/742/",
+      "title": "Parc de la paix de Nagasaki | Travel Japan - Office national du tourisme japonais (site officiel)",
+      "bytes": 171792,
+      "sha256": "9058ecbf7ed04d38b7c9dd79cf6cb36b04989de758d244452e20fade7e4b45f5",
+      "textLength": 12207,
+      "dateMetadata": [
+        {
+          "name": "pubdate",
+          "content": ""
+        }
+      ],
+      "publishedAt": null,
+      "publicationDateStatus": "페이지 게시일 확인 불가. 조회일·저작권 연도를 게시일로 사용하지 않음.",
+      "usedInGuides": true,
+      "publisherAssessment": "실제 본문·운영 주체·적용 범위를 수동 검토"
+    },
+    {
+      "key": "nagasaki-chinatown-jnto",
+      "requestedUrl": "https://www.japan.travel/en/spot/740/",
+      "checkedAt": "2026-10-28T17:08:54.092219+00:00",
+      "status": 200,
+      "url": "https://www.japan.travel/fr/spot/740/",
+      "title": "Quartier chinois de Nagasaki | Travel Japan - Office national du tourisme japonais (site officiel)",
+      "bytes": 175186,
+      "sha256": "a0020ba1fd6911f9c5f57361579a3b7930ce0ccab9bca301737b4cea017e0230",
+      "textLength": 12469,
+      "dateMetadata": [
+        {
+          "name": "pubdate",
+          "content": ""
+        }
+      ],
+      "publishedAt": null,
+      "publicationDateStatus": "페이지 게시일 확인 불가. 조회일·저작권 연도를 게시일로 사용하지 않음.",
+      "usedInGuides": true,
+      "publisherAssessment": "실제 본문·운영 주체·적용 범위를 수동 검토"
+    },
+    {
+      "key": "kumamoto-reigando",
+      "requestedUrl": "https://kumamoto-guide.jp/en/spots/detail/109",
+      "checkedAt": "2026-10-28T17:08:54.487459+00:00",
+      "status": 200,
+      "url": "https://kumamoto-guide.jp/en/spots/detail/109",
+      "title": "Reigando Cave | Sightseeing        | Kumamoto City Official Guide",
+      "bytes": 35969,
+      "sha256": "f5dc4bfa62a1c0e4c6b5b92c77579bc62d08b23bd3454af7fee6796574208a6d",
+      "textLength": 4203,
+      "dateMetadata": [],
+      "publishedAt": null,
+      "publicationDateStatus": "페이지 게시일 확인 불가. 조회일·저작권 연도를 게시일로 사용하지 않음.",
+      "usedInGuides": true,
+      "publisherAssessment": "실제 본문·운영 주체·적용 범위를 수동 검토"
+    },
+    {
+      "key": "kumamoto-food",
+      "requestedUrl": "https://kumamoto-guide.jp/en/foods/",
+      "checkedAt": "2026-10-28T17:08:54.699794+00:00",
+      "status": 200,
+      "url": "https://kumamoto-guide.jp/en/foods/",
+      "title": "Gourmet        | Kumamoto City Official Guide",
+      "bytes": 97946,
+      "sha256": "7a2eee5293786b186cf07494aaf2cbca3c342355e73b15d516fbcb3498772667",
+      "textLength": 5285,
+      "dateMetadata": [],
+      "publishedAt": null,
+      "publicationDateStatus": "페이지 게시일 확인 불가. 조회일·저작권 연도를 게시일로 사용하지 않음.",
+      "usedInGuides": true,
+      "publisherAssessment": "실제 본문·운영 주체·적용 범위를 수동 검토"
+    },
+    {
+      "key": "yufuin-current-news",
+      "requestedUrl": "https://yufuin.gr.jp/news/news-7044/",
+      "checkedAt": "2026-10-28T17:08:55.482125+00:00",
+      "status": 200,
+      "url": "https://yufuin.gr.jp/news/news-7044/",
+      "title": "屋根なし2階建てバスで巡る『別府-湯布院コース』新登場！10月7日から毎日運行 – YUFUINFO｜湯布院・庄内・挾間公式旅ガイド  屋根なし2階建てバスで巡る『別府-湯布院コース』新登場！10月7日から毎日運行 – YUFUINFO｜湯布院・庄内・挾間公式旅ガイド",
+      "bytes": 56993,
+      "sha256": "c4f5e2334da9eaacae03cb572f50b58bd3edab63f85f320fd1a6030ef9087420",
+      "textLength": 1179,
+      "dateMetadata": [],
+      "publishedAt": null,
+      "publicationDateStatus": "본문은 更新日 2026.10.09로 표기. 최초 게시일은 미확인.",
+      "usedInGuides": true,
+      "publisherAssessment": "실제 본문·운영 주체·적용 범위를 수동 검토",
+      "updatedAt": "2026-10-09"
+    },
+    {
+      "key": "beppu-shiraike",
+      "requestedUrl": "https://www.beppu-jigoku.com/shiraike/index.html",
+      "checkedAt": "2026-10-28T17:10:11.654000+00:00",
+      "status": 200,
+      "url": "https://www.beppu-jigoku.com/shiraike/index.html",
+      "title": "白池地獄 | 別府地獄めぐり公式サイト(別府地獄組合)",
+      "bytes": 26189,
+      "sha256": "7ee03a68041b51c4d115a432befd0f56e08f17e446f4f10098c6b113e6c721b8",
+      "textLength": 1009,
+      "dateMetadata": [],
+      "publishedAt": null,
+      "publicationDateStatus": "페이지 게시일 확인 불가. 조회일·저작권 연도를 게시일로 사용하지 않음.",
+      "usedInGuides": true,
+      "publisherAssessment": "실제 본문·운영 주체·적용 범위를 수동 검토"
+    },
+    {
+      "key": "beppu-oniishibozu",
+      "requestedUrl": "https://www.beppu-jigoku.com/bouzu/index.html",
+      "checkedAt": "2026-10-28T17:10:11.655173+00:00",
+      "status": 200,
+      "url": "https://www.beppu-jigoku.com/bouzu/index.html",
+      "title": "鬼石坊主地獄 | 別府地獄めぐり公式サイト(別府地獄組合)",
+      "bytes": 28674,
+      "sha256": "164354711fe93f9d24a1de2bfe980262bd0c23a3a75f9b6e6978550bcf5bd17e",
+      "textLength": 1458,
+      "dateMetadata": [],
+      "publishedAt": null,
+      "publicationDateStatus": "페이지 게시일 확인 불가. 조회일·저작권 연도를 게시일로 사용하지 않음.",
+      "usedInGuides": true,
+      "publisherAssessment": "실제 본문·운영 주체·적용 범위를 수동 검토"
+    },
+    {
+      "key": "oita-bus",
+      "requestedUrl": "https://www.oita-airport.jp/access/bus/",
+      "checkedAt": "2026-10-28T17:10:11.656049+00:00",
+      "status": 200,
+      "url": "https://www.oita-airport.jp/access/bus/",
+      "title": "バス | 大分空港 Welcome to Oita Airport",
+      "bytes": 69602,
+      "sha256": "948ce274d5c9e90df8e61ff4aa7f83415d21d58ce6d4fedad21840f7adcd2fcf",
+      "textLength": 4983,
+      "dateMetadata": [],
+      "publishedAt": null,
+      "publicationDateStatus": "페이지 게시일 확인 불가. 조회일·저작권 연도를 게시일로 사용하지 않음.",
+      "usedInGuides": true,
+      "publisherAssessment": "실제 본문·운영 주체·적용 범위를 수동 검토"
+    },
+    {
+      "key": "kumamoto-airport",
+      "requestedUrl": "https://www.kumamoto-airport.co.jp/access/bus/",
+      "checkedAt": "2026-10-28T17:10:11.657027+00:00",
+      "status": 200,
+      "url": "https://www.kumamoto-airport.co.jp/facilities/bus-ticket/",
+      "title": "バス自動券売機｜阿蘇くまもと空港 オフィシャルサイト",
+      "bytes": 101715,
+      "sha256": "b5be07691e580a0fa0c53e071e62d1f56e3d173ecddbb13d843fcd8c9fee5818",
+      "textLength": 1884,
+      "dateMetadata": [],
+      "publishedAt": null,
+      "publicationDateStatus": "페이지 게시일 확인 불가. 조회일·저작권 연도를 게시일로 사용하지 않음.",
+      "usedInGuides": true,
+      "publisherAssessment": "실제 본문·운영 주체·적용 범위를 수동 검토"
+    },
+    {
+      "key": "yufuin-bus-current",
+      "requestedUrl": "https://kamenoibus.com/otb/",
+      "checkedAt": "2026-10-28T17:10:13.084075+00:00",
+      "status": 200,
+      "url": "https://kamenoibus.com/otb/",
+      "title": "亀の井オープントップバスのご案内",
+      "bytes": 27319,
+      "sha256": "a7bae24183edbcc749299f7618048581cb20d3cb5965a5344700ce14fe8bc040",
+      "textLength": 2980,
+      "dateMetadata": [],
+      "publishedAt": null,
+      "publicationDateStatus": "페이지 게시일 확인 불가. 조회일·저작권 연도를 게시일로 사용하지 않음.",
+      "usedInGuides": true,
+      "publisherAssessment": "실제 본문·운영 주체·적용 범위를 수동 검토"
+    }
+  ],
+  "placeEvidence": [
+    {
+      "guideId": "book-nagasaki",
+      "placeId": "book-nagasaki-glover-garden",
+      "name": "글로버 가든",
+      "sourceKeys": [
+        "nagasaki-glover"
+      ],
+      "urls": [
+        "https://glover-garden.jp/"
+      ],
+      "assessedFacts": "옛 외국인 주택과 항구 풍경을 함께 보는 야외 역사 공간입니다. 언덕을 오가는 관람이므로 출입구와 경사, 보수 중인 건물을 먼저 확인하세요.",
+      "limits": "좌표·영업시간·요금은 수집하지 않음. 세부 주소는 출처에 표기된 경우만, 나머지는 지리 구역. 사진은 미수집."
+    },
+    {
+      "guideId": "book-nagasaki",
+      "placeId": "book-nagasaki-dejima",
+      "name": "데지마",
+      "sourceKeys": [
+        "nagasaki-dejima"
+      ],
+      "urls": [
+        "https://nagasakidejima.jp/"
+      ],
+      "assessedFacts": "나가사키의 해외 교류와 무역 역사를 살펴보는 복원 구역입니다. 건물별 전시와 야외 산책을 함께 보되 정비 구역·상영 휴지를 구분하세요.",
+      "limits": "좌표·영업시간·요금은 수집하지 않음. 세부 주소는 출처에 표기된 경우만, 나머지는 지리 구역. 사진은 미수집."
+    },
+    {
+      "guideId": "book-nagasaki",
+      "placeId": "book-nagasaki-peace-park",
+      "name": "나가사키 평화공원",
+      "sourceKeys": [
+        "nagasaki-peace-jnto"
+      ],
+      "urls": [
+        "https://www.japan.travel/fr/spot/742/"
+      ],
+      "assessedFacts": "원폭 희생자를 추모하고 평화를 생각하는 공원입니다. 도심 남쪽 관광과 분리해 북쪽 관람일로 묶으면 이동을 정리하기 좋습니다.",
+      "limits": "좌표·영업시간·요금은 수집하지 않음. 세부 주소는 출처에 표기된 경우만, 나머지는 지리 구역. 사진은 미수집."
+    },
+    {
+      "guideId": "book-nagasaki",
+      "placeId": "book-nagasaki-atomic-bomb-museum",
+      "name": "나가사키 원폭자료관",
+      "sourceKeys": [
+        "nagasaki-museum"
+      ],
+      "urls": [
+        "https://nabmuseum.jp/"
+      ],
+      "assessedFacts": "원폭 피해와 핵무기·평화에 관한 자료를 읽는 시립 박물관입니다. 전시 갱신에 따른 일부 공개 중지 안내가 있어 공개 범위를 확인한 뒤 선택하세요.",
+      "limits": "좌표·영업시간·요금은 수집하지 않음. 세부 주소는 출처에 표기된 경우만, 나머지는 지리 구역. 사진은 미수집."
+    },
+    {
+      "guideId": "book-nagasaki",
+      "placeId": "book-nagasaki-shinchi-chinatown",
+      "name": "신치차이나타운",
+      "sourceKeys": [
+        "nagasaki-chinatown-jnto"
+      ],
+      "urls": [
+        "https://www.japan.travel/fr/spot/740/"
+      ],
+      "assessedFacts": "짬뽕·사라우동 등 나가사키 먹거리를 비교하는 식당·상점 구역입니다. 단일 업소를 지정한 추천이 아니며 주변 골목과 나눠 걷기 좋습니다.",
+      "limits": "좌표·영업시간·요금은 수집하지 않음. 세부 주소는 출처에 표기된 경우만, 나머지는 지리 구역. 사진은 미수집."
+    },
+    {
+      "guideId": "book-kumamoto",
+      "placeId": "book-kumamoto-castle",
+      "name": "구마모토성",
+      "sourceKeys": [
+        "kumamoto-castle"
+      ],
+      "urls": [
+        "https://castle.kumamoto-guide.jp/en/"
+      ],
+      "assessedFacts": "역사 건축과 지진 이후 복구 현장을 함께 살펴보는 성입니다. 운영기관이 안내하는 공개 구역과 관람로를 기준으로 방문하세요.",
+      "limits": "좌표·영업시간·요금은 수집하지 않음. 세부 주소는 출처에 표기된 경우만, 나머지는 지리 구역. 사진은 미수집."
+    },
+    {
+      "guideId": "book-kumamoto",
+      "placeId": "book-kumamoto-suizenji-jojuen",
+      "name": "스이젠지 조주엔",
+      "sourceKeys": [
+        "kumamoto-suizenji"
+      ],
+      "urls": [
+        "https://kumamoto-guide.jp/en/spots/detail/75"
+      ],
+      "assessedFacts": "연못과 인공 언덕을 중심으로 걸으며 보는 정원입니다. 구마모토성 주변과 떨어진 정원 관람으로 나누면 동선이 단순해집니다.",
+      "limits": "좌표·영업시간·요금은 수집하지 않음. 세부 주소는 출처에 표기된 경우만, 나머지는 지리 구역. 사진은 미수집."
+    },
+    {
+      "guideId": "book-kumamoto",
+      "placeId": "book-kumamoto-contemporary-art-museum",
+      "name": "구마모토시 현대미술관",
+      "sourceKeys": [
+        "kumamoto-camk"
+      ],
+      "urls": [
+        "https://kumamoto-guide.jp/en/spots/detail/12"
+      ],
+      "assessedFacts": "현대미술 전시와 시민 공간이 함께 있는 도심 미술관입니다. 방문일의 기획전과 이용 가능한 공간을 확인해 실내 일정으로 선택하세요.",
+      "limits": "좌표·영업시간·요금은 수집하지 않음. 세부 주소는 출처에 표기된 경우만, 나머지는 지리 구역. 사진은 미수집."
+    },
+    {
+      "guideId": "book-kumamoto",
+      "placeId": "book-kumamoto-handicrafts-center",
+      "name": "구마모토시 가와시리 공예회관",
+      "sourceKeys": [
+        "kumamoto-crafts"
+      ],
+      "urls": [
+        "https://kumamoto-guide.jp/en/spots/detail/1"
+      ],
+      "assessedFacts": "전통 공예의 전시와 판매를 살펴보는 공간입니다. 나무·금속·도자기 등 지역 공예에 관심이 있다면 도심과 분리한 방문 후보로 고르세요.",
+      "limits": "좌표·영업시간·요금은 수집하지 않음. 세부 주소는 출처에 표기된 경우만, 나머지는 지리 구역. 사진은 미수집."
+    },
+    {
+      "guideId": "book-kumamoto",
+      "placeId": "book-kumamoto-reigando-cave",
+      "name": "레이간도",
+      "sourceKeys": [
+        "kumamoto-reigando"
+      ],
+      "urls": [
+        "https://kumamoto-guide.jp/en/spots/detail/109"
+      ],
+      "assessedFacts": "운간젠지 사찰 경내에 있는 동굴로 미야모토 무사시의 말년과 관련된 역사 장소입니다. 도심과 떨어져 있어 왕복 이동을 먼저 계획하세요.",
+      "limits": "좌표·영업시간·요금은 수집하지 않음. 세부 주소는 출처에 표기된 경우만, 나머지는 지리 구역. 사진은 미수집."
+    },
+    {
+      "guideId": "book-kagoshima",
+      "placeId": "book-kagoshima-senganen",
+      "name": "센간엔",
+      "sourceKeys": [
+        "kagoshima-senganen"
+      ],
+      "urls": [
+        "https://www.kagoshima-yokanavi.jp/en/spot/10006"
+      ],
+      "assessedFacts": "시마즈 가문의 정원과 옛 저택, 사쿠라지마를 향한 풍경을 함께 보는 장소입니다. 정원과 주변 역사 시설의 관람 범위를 구분해 선택하세요.",
+      "limits": "좌표·영업시간·요금은 수집하지 않음. 세부 주소는 출처에 표기된 경우만, 나머지는 지리 구역. 사진은 미수집."
+    },
+    {
+      "guideId": "book-kagoshima",
+      "placeId": "book-kagoshima-shiroyama-observatory",
+      "name": "시로야마 전망대",
+      "sourceKeys": [
+        "kagoshima-shiroyama"
+      ],
+      "urls": [
+        "https://www.kagoshima-yokanavi.jp/en/spot/10002"
+      ],
+      "assessedFacts": "도시 쪽 언덕에서 긴코만과 사쿠라지마를 바라보는 전망 지점입니다. 산책로의 경사와 일몰 후 귀가를 함께 생각하세요.",
+      "limits": "좌표·영업시간·요금은 수집하지 않음. 세부 주소는 출처에 표기된 경우만, 나머지는 지리 구역. 사진은 미수집."
+    },
+    {
+      "guideId": "book-kagoshima",
+      "placeId": "book-kagoshima-tenmonkan",
+      "name": "덴몬칸",
+      "sourceKeys": [
+        "kagoshima-tenmonkan"
+      ],
+      "urls": [
+        "https://www.kagoshima-yokanavi.jp/en/spot/10027"
+      ],
+      "assessedFacts": "식당·카페·상점이 모인 도심 구역입니다. 흑돼지 요리와 빙수, 선물 구경을 나눠 즐기기 좋고 일부 구간은 아케이드로 이어집니다.",
+      "limits": "좌표·영업시간·요금은 수집하지 않음. 세부 주소는 출처에 표기된 경우만, 나머지는 지리 구역. 사진은 미수집."
+    },
+    {
+      "guideId": "book-kagoshima",
+      "placeId": "book-kagoshima-yunohira-observatory",
+      "name": "유노히라 전망대",
+      "sourceKeys": [
+        "kagoshima-yunohira",
+        "kagoshima-volcano"
+      ],
+      "urls": [
+        "https://www.kagoshima-yokanavi.jp/en/spot/10025",
+        "https://www.kagoshima-yokanavi.jp/en/spot/10092"
+      ],
+      "assessedFacts": "사쿠라지마 섬 안에서 화산 지형과 긴코만을 보는 전망 지점입니다. 페리 도착 후 별도의 섬 안 이동이 필요합니다.",
+      "limits": "좌표·영업시간·요금은 수집하지 않음. 세부 주소는 출처에 표기된 경우만, 나머지는 지리 구역. 사진은 미수집."
+    },
+    {
+      "guideId": "book-kagoshima",
+      "placeId": "book-kagoshima-aquarium",
+      "name": "이오월드 가고시마 수족관",
+      "sourceKeys": [
+        "kagoshima-aquarium"
+      ],
+      "urls": [
+        "https://www.kagoshima-yokanavi.jp/en/spot/10030"
+      ],
+      "assessedFacts": "쿠로시오 해류와 남서제도 등 바다를 주제로 관람하는 수족관입니다. 항구 주변과 묶거나 비 오는 날 실내 일정으로 선택할 수 있습니다.",
+      "limits": "좌표·영업시간·요금은 수집하지 않음. 세부 주소는 출처에 표기된 경우만, 나머지는 지리 구역. 사진은 미수집."
+    },
+    {
+      "guideId": "book-beppu",
+      "placeId": "book-beppu-umi-jigoku",
+      "name": "우미 지옥",
+      "sourceKeys": [
+        "beppu-umi"
+      ],
+      "urls": [
+        "https://www.beppu-jigoku.com/umi/index.html"
+      ],
+      "assessedFacts": "코발트빛 온천수와 증기를 관람하는 지옥메구리 시설입니다. 원천 관람과 별도 족욕·부대시설의 이용을 구분하세요.",
+      "limits": "좌표·영업시간·요금은 수집하지 않음. 세부 주소는 출처에 표기된 경우만, 나머지는 지리 구역. 사진은 미수집."
+    },
+    {
+      "guideId": "book-beppu",
+      "placeId": "book-beppu-chinoike-jigoku",
+      "name": "치노이케 지옥",
+      "sourceKeys": [
+        "beppu-chinoike"
+      ],
+      "urls": [
+        "https://www.beppu-jigoku.com/chinoike/index.html"
+      ],
+      "assessedFacts": "붉은 열탕·열진흙 풍경을 보는 별도 관람 시설입니다. 간나와의 다른 지옥들과는 이동 구역을 나눠 계획하세요.",
+      "limits": "좌표·영업시간·요금은 수집하지 않음. 세부 주소는 출처에 표기된 경우만, 나머지는 지리 구역. 사진은 미수집."
+    },
+    {
+      "guideId": "book-beppu",
+      "placeId": "book-beppu-kamado-jigoku",
+      "name": "가마도 지옥",
+      "sourceKeys": [
+        "beppu-kamado"
+      ],
+      "urls": [
+        "https://www.beppu-jigoku.com/kamado/index.html"
+      ],
+      "assessedFacts": "여러 온천 연못과 증기 풍경을 함께 보는 시설입니다. 실험·체험·족욕은 현장에서 허용한 공간과 방식만 이용하세요.",
+      "limits": "좌표·영업시간·요금은 수집하지 않음. 세부 주소는 출처에 표기된 경우만, 나머지는 지리 구역. 사진은 미수집."
+    },
+    {
+      "guideId": "book-beppu",
+      "placeId": "book-beppu-shiraike-jigoku",
+      "name": "시라이케 지옥",
+      "sourceKeys": [
+        "beppu-shiraike"
+      ],
+      "urls": [
+        "https://www.beppu-jigoku.com/shiraike/index.html"
+      ],
+      "assessedFacts": "담청백색 온천 연못과 정원 분위기를 보는 관람 시설입니다. 원천의 색과 모양을 비교하는 지옥메구리 후보로 선택하세요.",
+      "limits": "좌표·영업시간·요금은 수집하지 않음. 세부 주소는 출처에 표기된 경우만, 나머지는 지리 구역. 사진은 미수집."
+    },
+    {
+      "guideId": "book-beppu",
+      "placeId": "book-beppu-oniishibozu-jigoku",
+      "name": "오니이시보즈 지옥",
+      "sourceKeys": [
+        "beppu-oniishibozu"
+      ],
+      "urls": [
+        "https://www.beppu-jigoku.com/bouzu/index.html"
+      ],
+      "assessedFacts": "회색 열진흙이 끓어오르는 모습을 보는 시설로 우미 지옥 옆에 있습니다. 연못 풍경과 다른 지열 현상을 비교하기 좋습니다.",
+      "limits": "좌표·영업시간·요금은 수집하지 않음. 세부 주소는 출처에 표기된 경우만, 나머지는 지리 구역. 사진은 미수집."
+    },
+    {
+      "guideId": "book-yufuin",
+      "placeId": "book-yufuin-kinrinko",
+      "name": "긴린코",
+      "sourceKeys": [
+        "yufuin-kinrinko"
+      ],
+      "urls": [
+        "https://yufuin.gr.jp/spot/spot-1268/"
+      ],
+      "assessedFacts": "유후인을 대표하는 작은 호수와 주변 산책로입니다. 물고기·물새와 계절 풍경을 천천히 보는 산책으로 선택하세요.",
+      "limits": "좌표·영업시간·요금은 수집하지 않음. 세부 주소는 출처에 표기된 경우만, 나머지는 지리 구역. 사진은 미수집."
+    },
+    {
+      "guideId": "book-yufuin",
+      "placeId": "book-yufuin-yunotsubo-kaido",
+      "name": "유노쓰보 거리",
+      "sourceKeys": [
+        "yufuin-yunotsubo"
+      ],
+      "urls": [
+        "https://yufuin.gr.jp/spot/spot-1277/"
+      ],
+      "assessedFacts": "상점·간식 가게가 모인 마을의 산책 거리입니다. 붐비면 옆 골목이나 강변에서 쉬었다가 돌아오는 식으로 여유를 두세요.",
+      "limits": "좌표·영업시간·요금은 수집하지 않음. 세부 주소는 출처에 표기된 경우만, 나머지는 지리 구역. 사진은 미수집."
+    },
+    {
+      "guideId": "book-yufuin",
+      "placeId": "book-yufuin-comico-art-museum",
+      "name": "COMICO 아트 뮤지엄 유후인",
+      "sourceKeys": [
+        "yufuin-comico"
+      ],
+      "urls": [
+        "https://yufuin.gr.jp/spot/spot-1285/"
+      ],
+      "assessedFacts": "현대미술과 건축, 주변 산 풍경을 함께 만나는 미술관입니다. 산책 사이에 넣되 해당 날짜의 관람 방식·예약을 먼저 확인하세요.",
+      "limits": "좌표·영업시간·요금은 수집하지 않음. 세부 주소는 출처에 표기된 경우만, 나머지는 지리 구역. 사진은 미수집."
+    },
+    {
+      "guideId": "book-yufuin",
+      "placeId": "book-yufuin-stained-glass-museum",
+      "name": "유후인 스테인드글라스 미술관",
+      "sourceKeys": [
+        "yufuin-stainedglass"
+      ],
+      "urls": [
+        "https://yufuin.gr.jp/spot/spot-1182/"
+      ],
+      "assessedFacts": "교회와 저택 형식의 공간에서 스테인드글라스를 감상하는 미술관입니다. 자연광과 조명에 따른 작품의 느낌을 비교해 보세요.",
+      "limits": "좌표·영업시간·요금은 수집하지 않음. 세부 주소는 출처에 표기된 경우만, 나머지는 지리 구역. 사진은 미수집."
+    },
+    {
+      "guideId": "book-yufuin",
+      "placeId": "book-yufuin-tabimusubi",
+      "name": "오무스비 카페 TABIMUSUBI",
+      "sourceKeys": [
+        "yufuin-cafe"
+      ],
+      "urls": [
+        "https://yufuin.gr.jp/spot/spot-1241/"
+      ],
+      "assessedFacts": "유후인역 앞의 주먹밥 중심 카페입니다. 도착·출발 때 간단히 먹거나 포장을 고려할 수 있는 개별 업소입니다.",
+      "limits": "좌표·영업시간·요금은 수집하지 않음. 세부 주소는 출처에 표기된 경우만, 나머지는 지리 구역. 사진은 미수집."
+    }
+  ],
+  "excludedOrLimited": [
+    {
+      "key": "kumamoto-products",
+      "reason": "2018년 내진 공사 임시 휴점 문구가 남아 현재 시설 상태를 확인할 충분한 근거가 없음. 현재 휴업으로 단정하지 않고 추천에서 제외."
+    },
+    {
+      "key": "kumamoto-ramen",
+      "reason": "2022-05-25 게시로 최근 3년 밖. 음식 개요는 별도의 공식 Gourmet 페이지에서 확인한 사실만 사용."
+    },
+    {
+      "key": "nagasaki-jnto",
+      "scope": "transport only",
+      "reason": "하카타–나가사키 Kamome 특급 설명의 현재성을 확정할 수 없어 직통·시간 안내를 사용하지 않음. 도시 역사·지역 개요만 사용, 공항 버스는 공항 운영기관에서 확인."
+    },
+    {
+      "key": "beppu-jnto-overview",
+      "scope": "train and station gallery only",
+      "reason": "유후인 직통 접근과 역 갤러리 이용을 현재 운행·공개로 확정하지 않음. 별도 관광국 자료에 휴관 표기가 있는 역 아트홀은 추천하지 않음."
+    },
+    {
+      "key": "beppu-tatsumaki-notice",
+      "scope": "Tatsumaki venue",
+      "reason": "2026-01-15 공지의 세부가 이미지에 있어 분출 상태·주기를 검증하지 못함. 유명 간헐천 설명을 그대로 사용하지 않고 추천 후보에서 보류."
+    },
+    {
+      "key": "beppu-ropeway",
+      "scope": "ropeway venue",
+      "reason": "운영기관 본문이 503으로 확인되지 않아 이번 추천 후보에서 제외."
+    },
+    {
+      "key": "kumamoto-airport",
+      "scope": "route details",
+      "reason": "요청 URL이 노선 안내가 아닌 버스권 판매기 안내로 이동. 판매기 존재만 사용하고 운행 노선·시간의 출처로 사용하지 않음."
+    }
+  ],
+  "photos": {
+    "downloaded": 0,
+    "reason": "재사용 허락과 최근 3년·장소 일치를 확인한 사진을 확보한 것으로 표시하지 않음. 기존 placeholder만 사용."
+  },
+  "factsPolicy": "본문의 사실을 한국어로 새로 작성. 2026년 공지·운영기관을 우선하고 날짜 없는 공식 개요는 게시일 미상으로 표시. 요금·영업시간·좌표·입국 자격을 추정하지 않음. HTTP 200만으로 운영·현재성을 보증하지 않음.",
+  "validationStatus": "passed",
+  "publicationStatus": "pending",
+  "validation": {
+    "guidebookBuild": {
+      "cities": 29,
+      "places": 169,
+      "bytes": 251611
+    },
+    "database": {
+      "guides": 50,
+      "places": 1235,
+      "bundled": 21,
+      "downloadable": 29
+    },
+    "databaseTestsPassed": 6,
+    "browserTestsPassed": 19,
+    "browserScope": "393px Chromium: 신규 5개 각각 다운로드·연구 본문·장소 목록·재실행 후 오프라인 열람, 개인 기록 보존. 기존 라이브러리 회귀 18개 포함.",
+    "preservation": "기존 45개 record JSON과 내용 해시, 기존 불변 다운로드 24개를 원본 커밋과 바이트 단위 비교해 일치.",
+    "webBuild": "TypeScript·Vite 및 client asset audit 통과. Android APK·iOS·서명키는 변경하지 않음.",
+    "testMaintenance": "후보 큐 첫 항목이 언제나 신규라고 가정한 중복 fixture를 실제 다음 미처리 후보로 수정. 라이브러리의 고정 24개·6곳 가정을 원본 목록·각 가이드 장소 수 및 최소 5곳 기준으로 변경."
+  },
+  "currentConditions": [
+    {
+      "sourceKey": "nagasaki-museum",
+      "finding": "운영기관 본문에서 2026년 9월~2027년 3월 완료 예정의 전시 일부 공개 중지를 확인. 장소 설명·현장 팁·3일 예시에 제한 반영.",
+      "dateType": "운영 안내 기간; 페이지 게시일 미상"
+    },
+    {
+      "sourceKeys": [
+        "yufuin-current-news",
+        "yufuin-bus-current"
+      ],
+      "finding": "관광국의 매일 운행 제목만 사용하지 않고 운영사 원문에서 2026-10-07~2026-12-13 기간 한정·사전 예약 조건을 확인. 상시 노선으로 안내하지 않음.",
+      "dateType": "관광국 갱신일 2026-10-09, 운영사 운행 기간"
+    },
+    {
+      "sourceKey": "beppu-tatsumaki-notice",
+      "finding": "날짜가 있는 공지를 확인했으나 세부 정보가 이미지여서 분출 상태·주기를 단정하지 않고 장소 후보에서 제외.",
+      "dateType": "공지 표기일 2026-01-15"
+    }
+  ],
+  "requestCounts": {
+    "attemptedUrls": 64,
+    "http200": 55,
+    "citedUniqueUrls": 42
+  },
+  "validatedAt": "2026-10-28T17:27:32.849675+00:00"
+}

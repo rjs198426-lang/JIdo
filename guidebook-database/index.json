@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "description": "공개 여행 가이드만 수집한 데이터베이스. 개인 일정·사진·메모·기기 캐시는 포함하지 않음.",
-  "guideCount": 45,
+  "guideCount": 50,
   "countryCount": 22,
-  "placeCount": 1210,
+  "placeCount": 1235,
   "origins": {
     "bundled": 21,
-    "downloadable": 24
+    "downloadable": 29
   },
   "guides": [
     {
@@ -63,6 +63,20 @@
       "contentHash": "5c0a538186e7ec1c83667dc8edf17752a6cb46b4d635680b5b0c475336acc91c",
       "file": "records/book-beijing.json",
       "placeCount": 6,
+      "sectionCount": 7
+    },
+    {
+      "id": "book-beppu",
+      "name": "벳푸",
+      "country": "일본",
+      "origin": "downloadable",
+      "importedAt": "2026-10-28",
+      "sourceCheckedAt": "2026-10-28",
+      "latestSourceCheckedAt": "2026-10-28",
+      "lastReviewedAt": "2026-10-28",
+      "contentHash": "aee4700f1bcb21bd718876dfb8c4b621b4f36fe5bb4e6b756bdc83a5112da267",
+      "file": "records/book-beppu.json",
+      "placeCount": 5,
       "sectionCount": 7
     },
     {
@@ -150,6 +164,20 @@
       "sectionCount": 7
     },
     {
+      "id": "book-kagoshima",
+      "name": "가고시마",
+      "country": "일본",
+      "origin": "downloadable",
+      "importedAt": "2026-10-28",
+      "sourceCheckedAt": "2026-10-28",
+      "latestSourceCheckedAt": "2026-10-28",
+      "lastReviewedAt": "2026-10-28",
+      "contentHash": "d5a8cdb7f6f2fa63733827ceeb81954fa7bd6b039beacbe942b953f13d5a65e4",
+      "file": "records/book-kagoshima.json",
+      "placeCount": 5,
+      "sectionCount": 7
+    },
+    {
       "id": "book-kaohsiung",
       "name": "가오슝",
       "country": "대만",
@@ -192,6 +220,20 @@
       "sectionCount": 7
     },
     {
+      "id": "book-kumamoto",
+      "name": "구마모토",
+      "country": "일본",
+      "origin": "downloadable",
+      "importedAt": "2026-10-28",
+      "sourceCheckedAt": "2026-10-28",
+      "latestSourceCheckedAt": "2026-10-28",
+      "lastReviewedAt": "2026-10-28",
+      "contentHash": "0f2b10334f726ea1ecab2012d5b8d4e2121a90d0a572d5f0fe055110b3f7c317",
+      "file": "records/book-kumamoto.json",
+      "placeCount": 5,
+      "sectionCount": 7
+    },
+    {
       "id": "book-london",
       "name": "런던",
       "country": "영국",
@@ -217,6 +259,20 @@
       "contentHash": "bee96dc2f5a6e7bd1cb6d86223b1a375d850f47ba0f916216493c440710547fb",
       "file": "records/book-losangeles.json",
       "placeCount": 6,
+      "sectionCount": 7
+    },
+    {
+      "id": "book-nagasaki",
+      "name": "나가사키",
+      "country": "일본",
+      "origin": "downloadable",
+      "importedAt": "2026-10-28",
+      "sourceCheckedAt": "2026-10-28",
+      "latestSourceCheckedAt": "2026-10-28",
+      "lastReviewedAt": "2026-10-28",
+      "contentHash": "cee380bbb8f55c429e9b816036644bd730bcf48682b477816ef2998aa25f35b8",
+      "file": "records/book-nagasaki.json",
+      "placeCount": 5,
       "sectionCount": 7
     },
     {
@@ -371,6 +427,20 @@
       "contentHash": "92a0e71b78804318fac0baaaac5d931df07d4a8091011cab9f06fa45cd1bf3ef",
       "file": "records/book-tainan.json",
       "placeCount": 6,
+      "sectionCount": 7
+    },
+    {
+      "id": "book-yufuin",
+      "name": "유후인",
+      "country": "일본",
+      "origin": "downloadable",
+      "importedAt": "2026-10-28",
+      "sourceCheckedAt": "2026-10-28",
+      "latestSourceCheckedAt": "2026-10-28",
+      "lastReviewedAt": "2026-10-28",
+      "contentHash": "6ef7779ea2a35cc9d70b96b20a598458878902b9fd0222ecabb2ad0165fd4aba",
+      "file": "records/book-yufuin.json",
+      "placeCount": 5,
       "sectionCount": 7
     },
     {

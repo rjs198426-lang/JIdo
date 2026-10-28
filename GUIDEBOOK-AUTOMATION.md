@@ -11,7 +11,7 @@
 
 ## 한 곳에 모은 공개 데이터베이스
 
-`guidebook-database/guides.sqlite`에는 다음 자료를 모았다.
+`guidebook-database/guides.sqlite`에는 최초 수집 때 다음 자료를 모았다. 이후 신규 조사를 포함한 현재 개수는 `index.json`과 GUIDEBOOKS.md의 실행 기록을 확인한다.
 
 - 현재 Android 앱 내장 21개 지역·1,066곳
 - 다운로드 가이드북 24개 도시·144곳

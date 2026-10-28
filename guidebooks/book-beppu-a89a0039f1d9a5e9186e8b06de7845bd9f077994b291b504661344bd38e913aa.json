@@ -1,0 +1,180 @@
+{
+  "id": "book-beppu",
+  "scope": "city",
+  "city": {
+    "id": "book-beppu",
+    "name": "벳푸",
+    "english": "Beppu",
+    "country": "일본",
+    "region": "일본",
+    "image": "/images/guide-placeholder.svg",
+    "tagline": "보는 온천과 몸을 담그는 온천을 구분하는 휴식 여행",
+    "description": "벳푸는 해안의 역·기타하마 쪽과 산 쪽의 간나와 등 여러 온천 구역으로 나뉩니다. 지옥메구리는 뜨거운 원천과 증기를 보는 관광이며 입욕과는 다릅니다. 여러 지옥을 모두 채우기보다 관심 있는 시설을 골라 구경하고, 숙소 온천과 식사에 여유를 남기세요. 유후인은 이웃 목적지지만 별도의 도시 가이드로 다룹니다.",
+    "tags": [
+      "도시 산책",
+      "여행 준비"
+    ],
+    "flight": "항공편·출발 공항과 계절에 따라 확인",
+    "currency": "일본 엔 · JPY",
+    "timeDifference": "한국과 시차 없음",
+    "timeZone": "Asia/Tokyo",
+    "season": "온천 체류와 사계절 풍경을 즐기되 여름 더위·비, 겨울 산 쪽의 추위와 이동 조건을 확인하세요.",
+    "accent": "#e7f1ef"
+  },
+  "places": [
+    {
+      "id": "book-beppu-umi-jigoku",
+      "cityId": "book-beppu",
+      "name": "우미 지옥",
+      "english": "Umi Jigoku",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "코발트빛 온천수와 증기를 관람하는 지옥메구리 시설입니다. 원천 관람과 별도 족욕·부대시설의 이용을 구분하세요.",
+      "address": "Kannawa, Beppu, Oita",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "푸른 물은 수영하거나 몸을 담그는 공간이 아닙니다. 관람 난간과 현장 안내를 따르세요."
+    },
+    {
+      "id": "book-beppu-chinoike-jigoku",
+      "cityId": "book-beppu",
+      "name": "치노이케 지옥",
+      "english": "Chinoike Jigoku",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "붉은 열탕·열진흙 풍경을 보는 별도 관람 시설입니다. 간나와의 다른 지옥들과는 이동 구역을 나눠 계획하세요.",
+      "address": "Beppu, Oita",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "관람과 식사·부대시설 이용은 별도 조건일 수 있습니다. 실제 이동편과 재입장 조건을 확인하세요."
+    },
+    {
+      "id": "book-beppu-kamado-jigoku",
+      "cityId": "book-beppu",
+      "name": "가마도 지옥",
+      "english": "Kamado Jigoku",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "여러 온천 연못과 증기 풍경을 함께 보는 시설입니다. 실험·체험·족욕은 현장에서 허용한 공간과 방식만 이용하세요.",
+      "address": "Kannawa, Beppu, Oita",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "물을 임의로 마시거나 증기 분출구에 접근하지 마세요. 직원이 안내하는 체험과 관람을 구분하세요."
+    },
+    {
+      "id": "book-beppu-shiraike-jigoku",
+      "cityId": "book-beppu",
+      "name": "시라이케 지옥",
+      "english": "Shiraike Jigoku",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "담청백색 온천 연못과 정원 분위기를 보는 관람 시설입니다. 원천의 색과 모양을 비교하는 지옥메구리 후보로 선택하세요.",
+      "address": "Kannawa, Beppu, Oita",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "장내 전시와 부대시설의 공개는 방문일 안내를 확인하세요. 높은 온도의 원천에는 들어갈 수 없습니다."
+    },
+    {
+      "id": "book-beppu-oniishibozu-jigoku",
+      "cityId": "book-beppu",
+      "name": "오니이시보즈 지옥",
+      "english": "Oniishibozu Jigoku",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "회색 열진흙이 끓어오르는 모습을 보는 시설로 우미 지옥 옆에 있습니다. 연못 풍경과 다른 지열 현상을 비교하기 좋습니다.",
+      "address": "Kannawa, Beppu, Oita",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "시설 안의 별도 입욕 공간은 지옥 관람과 이용 조건이 다릅니다. 입욕·가족탕을 이용하려면 별도 운영 안내를 확인하세요."
+    }
+  ],
+  "sections": [
+    {
+      "id": "book-beppu-overview",
+      "title": "도시 한눈에",
+      "body": "벳푸는 해안의 역·기타하마 쪽과 산 쪽의 간나와 등 여러 온천 구역으로 나뉩니다. 지옥메구리는 뜨거운 원천과 증기를 보는 관광이며 입욕과는 다릅니다. 여러 지옥을 모두 채우기보다 관심 있는 시설을 골라 구경하고, 숙소 온천과 식사에 여유를 남기세요. 유후인은 이웃 목적지지만 별도의 도시 가이드로 다룹니다."
+    },
+    {
+      "id": "book-beppu-before",
+      "title": "출발 전에 챙길 것",
+      "body": "여권과 입국 허가·비자 요건은 국적·여행 목적과 일정에 맞춰 정부 안내로 확인하세요. 통신·결제 수단·여행자보험을 준비하고 항공·숙소 예약은 인터넷 없이도 볼 수 있게 보관하세요. 큰 짐의 보관, 동행자의 계단·목욕 이용 편의, 비 오는 날 대안을 먼저 정하면 현장 이동을 줄일 수 있습니다."
+    },
+    {
+      "id": "book-beppu-arrival",
+      "title": "공항과 시내 이동",
+      "body": "오이타공항(OIT)에서 벳푸 방면 버스를 고를 때는 관광항·기타하마·역 방향과 숙소의 마지막 이동을 함께 확인하세요. 공항 안내에는 벳푸행과 유후인행이 구분되어 있으므로 온천 여행이라는 이유로 같은 버스를 타지 않도록 주의하세요. 벳푸역·해안에서 간나와 지옥 구역까지는 시내 버스나 차량 이동을 따로 계획하세요. 공항행은 교통 혼잡을 고려해 여유를 두세요."
+    },
+    {
+      "id": "book-beppu-stay",
+      "title": "숙소는 어느 동네에",
+      "body": "벳푸역·기타하마 주변은 교통과 저녁 식사, 간나와 주변은 증기 풍경과 지옥 관람·온천 체류를 비교하기 좋습니다. 전망 좋은 산 쪽 숙소는 역과 멀 수 있으므로 송영·택시·버스와 저녁 식사 시간을 먼저 확인하세요. 온천 포함 숙박이라도 가족탕·대절탕·다른 시설의 입욕은 별도 조건일 수 있습니다."
+    },
+    {
+      "id": "book-beppu-food",
+      "title": "먹거리와 동네 쇼핑",
+      "body": "온천 증기를 활용한 지옥찜과 도리텐은 비교해 볼 지역 먹거리입니다. 시설 안의 간식·식당과 숙소 식사 시간을 나눠 과식하지 않도록 고르세요. 간식이나 조리 체험이 입장권에 모두 포함된다고 생각하지 말고 메뉴·추가 비용을 확인하세요. 뜨거운 증기·그릇은 직원의 안내를 따르고 음식 알레르기는 주문 전에 확인하세요."
+    },
+    {
+      "id": "book-beppu-days",
+      "title": "처음 가는 3일 여행",
+      "body": "1일: 벳푸 도착 → 숙소 주변 산책·온천·식사. 비행과 이동 뒤에 지옥 여러 곳을 급하게 넣지 마세요.\n\n2일: 간나와의 우미·가마도·시라이케·오니이시보즈 중 관심 있는 곳을 고릅니다. 각각 다른 시설이며 입욕 공간과 관람 구역은 구분하세요.\n\n3일: 치노이케 쪽을 별도 이동으로 선택하거나 숙소에서 여유를 보낸 뒤 출발하세요. 공항·철도 귀환을 먼저 정하고 가까워 보이는 지도만으로 모두 도보로 묶지 마세요.\n\n관심사와 휴관·기상에 맞춰 고르는 여행 예시입니다. 전부 방문해야 하는 목록이 아니며 예약과 귀환 교통에 맞춰 순서를 바꾸세요."
+    },
+    {
+      "id": "book-beppu-notes",
+      "title": "예약과 현장 팁",
+      "body": "지옥의 원천은 입욕용 탕이 아니며 뜨거운 물과 증기에 가까이 가지 마세요. 난간과 관람 동선을 지키고 어린이를 가까이 돌봐주세요. 목욕탕은 몸을 씻고 들어가기·수건을 탕에 넣지 않기 등 각 시설의 규칙을 확인하세요. 2026년 가을 안내의 벳푸–유후인 오픈톱 관광버스는 운영사 기준 기간 한정·사전 예약 상품이므로 상시 시내버스처럼 이용할 수 있다고 생각하지 마세요."
+    }
+  ],
+  "sources": [
+    {
+      "title": "別府地獄めぐり公式サイト(別府地獄組合)",
+      "url": "https://www.beppu-jigoku.com/",
+      "accessedAt": "2026-10-28"
+    },
+    {
+      "title": "海地獄 | 別府地獄めぐり公式サイト(別府地獄組合)",
+      "url": "https://www.beppu-jigoku.com/umi/index.html",
+      "accessedAt": "2026-10-28"
+    },
+    {
+      "title": "血の池地獄 | 別府地獄めぐり公式サイト(別府地獄組合)",
+      "url": "https://www.beppu-jigoku.com/chinoike/index.html",
+      "accessedAt": "2026-10-28"
+    },
+    {
+      "title": "かまど地獄 | 別府地獄めぐり公式サイト(別府地獄組合)",
+      "url": "https://www.beppu-jigoku.com/kamado/index.html",
+      "accessedAt": "2026-10-28"
+    },
+    {
+      "title": "白池地獄 | 別府地獄めぐり公式サイト(別府地獄組合)",
+      "url": "https://www.beppu-jigoku.com/shiraike/index.html",
+      "accessedAt": "2026-10-28"
+    },
+    {
+      "title": "鬼石坊主地獄 | 別府地獄めぐり公式サイト(別府地獄組合)",
+      "url": "https://www.beppu-jigoku.com/bouzu/index.html",
+      "accessedAt": "2026-10-28"
+    },
+    {
+      "title": "バス | 大分空港 Welcome to Oita Airport",
+      "url": "https://www.oita-airport.jp/access/bus/",
+      "accessedAt": "2026-10-28"
+    },
+    {
+      "title": "Beppu et Yufuin | Oita | Kyushu | Destinations | Travel Japan - Office national du tourisme japonais (site officiel)",
+      "url": "https://www.japan.travel/fr/destinations/kyushu/oita/beppu-and-yufuin-around/",
+      "accessedAt": "2026-10-28"
+    },
+    {
+      "title": "亀の井オープントップバスのご案内",
+      "url": "https://kamenoibus.com/otb/",
+      "accessedAt": "2026-10-28"
+    }
+  ],
+  "status": "published",
+  "requestId": null,
+  "createdAt": "2026-10-28T17:19:14.408Z",
+  "updatedAt": "2026-10-28T17:19:14.408Z",
+  "publishedAt": "2026-10-28T17:19:14.408Z"
+}

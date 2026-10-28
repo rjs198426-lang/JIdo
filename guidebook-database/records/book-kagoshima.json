@@ -1,0 +1,182 @@
+{
+  "guide": {
+    "id": "book-kagoshima",
+    "scope": "city",
+    "city": {
+      "id": "book-kagoshima",
+      "name": "가고시마",
+      "english": "Kagoshima",
+      "country": "일본",
+      "region": "일본",
+      "image": "/images/guide-placeholder.svg",
+      "tagline": "도시 산책과 사쿠라지마를 하루씩 나누는 여행",
+      "description": "가고시마는 긴코만과 사쿠라지마를 마주하는 도시입니다. 가고시마추오역·덴몬칸의 식사와 쇼핑, 센간엔의 정원, 페리로 건너는 사쿠라지마를 서로 다른 반나절·하루로 나누면 편합니다. 기리시마·이부스키·야쿠시마는 같은 도심 산책에 포함되는 곳이 아니므로 이동과 숙박을 별도로 판단하세요.",
+      "tags": [
+        "도시 산책",
+        "여행 준비"
+      ],
+      "flight": "항공편·출발 공항과 계절에 따라 확인",
+      "currency": "일본 엔 · JPY",
+      "timeDifference": "한국과 시차 없음",
+      "timeZone": "Asia/Tokyo",
+      "season": "봄·가을은 항구와 정원 산책, 여름은 더위·비·태풍과 해상 운항을 확인하세요.",
+      "accent": "#e7f1ef"
+    },
+    "places": [
+      {
+        "id": "book-kagoshima-senganen",
+        "cityId": "book-kagoshima",
+        "name": "센간엔",
+        "english": "Sengan-en",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "시마즈 가문의 정원과 옛 저택, 사쿠라지마를 향한 풍경을 함께 보는 장소입니다. 정원과 주변 역사 시설의 관람 범위를 구분해 선택하세요.",
+        "address": "鹿児島市吉野町9700-1",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "실내외 관람 구역과 입장권 범위, 방문일의 운영을 확인하세요. 전망은 날씨에 따라 달라집니다."
+      },
+      {
+        "id": "book-kagoshima-shiroyama-observatory",
+        "cityId": "book-kagoshima",
+        "name": "시로야마 전망대",
+        "english": "Shiroyama Observatory",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "도시 쪽 언덕에서 긴코만과 사쿠라지마를 바라보는 전망 지점입니다. 산책로의 경사와 일몰 후 귀가를 함께 생각하세요.",
+        "address": "鹿児島市城山町",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "사쿠라지마 섬의 유노히라 전망대와 혼동하지 마세요. 비·바람·시야에 따라 방문 여부를 바꾸세요."
+      },
+      {
+        "id": "book-kagoshima-tenmonkan",
+        "cityId": "book-kagoshima",
+        "name": "덴몬칸",
+        "english": "Tenmonkan",
+        "category": "쇼핑",
+        "image": "/images/place-placeholder.svg",
+        "description": "식당·카페·상점이 모인 도심 구역입니다. 흑돼지 요리와 빙수, 선물 구경을 나눠 즐기기 좋고 일부 구간은 아케이드로 이어집니다.",
+        "address": "Higashisengoku-cho, Kagoshima",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "단일 가게가 아닌 구역입니다. 식당·숙소별 소음·영업·대기 조건을 따로 확인하세요."
+      },
+      {
+        "id": "book-kagoshima-yunohira-observatory",
+        "cityId": "book-kagoshima",
+        "name": "유노히라 전망대",
+        "english": "Yunohira Observatory",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "사쿠라지마 섬 안에서 화산 지형과 긴코만을 보는 전망 지점입니다. 페리 도착 후 별도의 섬 안 이동이 필요합니다.",
+        "address": "鹿児島市桜島小池町1025",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "최신 화산 통제와 순환버스·귀환편을 확인하세요. 산 쪽으로 임의로 더 올라가지 마세요."
+      },
+      {
+        "id": "book-kagoshima-aquarium",
+        "cityId": "book-kagoshima",
+        "name": "이오월드 가고시마 수족관",
+        "english": "Io World Kagoshima City Aquarium",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "쿠로시오 해류와 남서제도 등 바다를 주제로 관람하는 수족관입니다. 항구 주변과 묶거나 비 오는 날 실내 일정으로 선택할 수 있습니다.",
+        "address": "鹿児島市本港新町3-1",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "공연·생물 전시와 행사 내용은 변동될 수 있습니다. 방문일의 운영과 입장 조건을 확인하세요."
+      }
+    ],
+    "sections": [
+      {
+        "id": "book-kagoshima-overview",
+        "title": "도시 한눈에",
+        "body": "가고시마는 긴코만과 사쿠라지마를 마주하는 도시입니다. 가고시마추오역·덴몬칸의 식사와 쇼핑, 센간엔의 정원, 페리로 건너는 사쿠라지마를 서로 다른 반나절·하루로 나누면 편합니다. 기리시마·이부스키·야쿠시마는 같은 도심 산책에 포함되는 곳이 아니므로 이동과 숙박을 별도로 판단하세요."
+      },
+      {
+        "id": "book-kagoshima-before",
+        "title": "출발 전에 챙길 것",
+        "body": "여권과 입국 허가·비자 요건은 국적·여행 목적과 일정에 맞춰 정부 안내로 확인하세요. 통신·결제 수단·여행자보험을 준비하고 항공·숙소 예약은 인터넷 없이도 볼 수 있게 보관하세요. 큰 짐의 보관, 동행자의 계단·목욕 이용 편의, 비 오는 날 대안을 먼저 정하면 현장 이동을 줄일 수 있습니다."
+      },
+      {
+        "id": "book-kagoshima-arrival",
+        "title": "공항과 시내 이동",
+        "body": "가고시마공항(KOJ)에서 숙소까지는 공항버스와 차량을 비교하고 가고시마추오역·덴몬칸 등 실제 하차 지점을 확인하세요. 시내는 노면전차·버스·도보를 조합할 수 있습니다. 사쿠라지마 방문은 페리 이동과 섬 안 교통을 따로 생각해야 하며, 페리 터미널에 도착했다고 전망대까지 걸어서 갈 수 있는 것은 아닙니다. 운영기관의 운항·버스 시간표와 귀환편을 확인하세요."
+      },
+      {
+        "id": "book-kagoshima-stay",
+        "title": "숙소는 어느 동네에",
+        "body": "가고시마추오역 주변은 철도·공항 이동과 쇼핑, 덴몬칸 주변은 식사와 상점·저녁 산책을 비교하기 좋습니다. 항구 쪽은 페리와 수족관 접근이 목적일 때 살펴보세요. 전망이 좋은 언덕 숙소는 노면전차 정류장과 같은 높이에 있지 않을 수 있으므로 셔틀·도보 경사를 확인하세요."
+      },
+      {
+        "id": "book-kagoshima-food",
+        "title": "먹거리와 동네 쇼핑",
+        "body": "흑돼지 돈가스·샤부샤부와 시로쿠마 빙수는 덴몬칸의 식당·카페에서 비교할 수 있는 지역 메뉴입니다. 덴몬칸은 여러 업소가 있는 구역이므로 가게 이름·메뉴·대기를 따로 확인하세요. 소주와 지역 차·공예품은 선물 선택지이지만 수하물·주류 반입 규정과 포장을 확인해야 합니다. 식사·음주를 전망대 이동이나 운전과 무리하게 묶지 마세요."
+      },
+      {
+        "id": "book-kagoshima-days",
+        "title": "처음 가는 3일 여행",
+        "body": "1일: 가고시마추오 도착 → 덴몬칸 식사·쇼핑. 시간이 남으면 시로야마 전망을 보되 귀가 교통을 먼저 확인하세요.\n\n2일: 사쿠라지마 페리 → 유노히라 전망대 등 공개 구역. 분화 경보·현장 통제와 섬 안 교통에 맞춰 범위를 줄일 수 있어야 합니다.\n\n3일: 센간엔 또는 가고시마 수족관을 중심으로 선택합니다. 비·시야·항공편에 맞춰 실내외 일정을 바꾸세요.\n\n관심사와 휴관·기상에 맞춰 고르는 여행 예시입니다. 전부 방문해야 하는 목록이 아니며 예약과 귀환 교통에 맞춰 순서를 바꾸세요."
+      },
+      {
+        "id": "book-kagoshima-notes",
+        "title": "예약과 현장 팁",
+        "body": "사쿠라지마는 활동 중인 화산입니다. 관광지 소개의 개방 문구만으로 여행 당일의 안전과 접근을 확정하지 말고 최신 분화 경보·통제·운항을 확인하세요. 화산재와 강풍에 대비하고 금지 구역으로 들어가지 마세요. 시로야마와 유노히라는 이름이 비슷한 전망대가 아니라 도시 쪽과 섬 쪽의 서로 다른 장소입니다. 두 곳의 이동을 구분하면 예약과 일정 혼동을 줄일 수 있습니다."
+      }
+    ],
+    "sources": [
+      {
+        "title": "VISIT KAGOSHIMA CITY | Official Tourist Information Site",
+        "url": "https://www.kagoshima-yokanavi.jp/en",
+        "accessedAt": "2026-10-28"
+      },
+      {
+        "title": "Transport | VISIT KAGOSHIMA CITY | Official Tourist Information Site",
+        "url": "https://www.kagoshima-yokanavi.jp/en/transportation",
+        "accessedAt": "2026-10-28"
+      },
+      {
+        "title": "Set your foot on the ground of Sakurajima to discover more about the popular Kagoshima tourist attraction | Highlights | VISIT KAGOSHIMA CITY | Offici",
+        "url": "https://www.kagoshima-yokanavi.jp/en/feature/sakurajima2",
+        "accessedAt": "2026-10-28"
+      },
+      {
+        "title": "Sengan-en | What to See & Do | VISIT KAGOSHIMA CITY | Official Tourist Information Site",
+        "url": "https://www.kagoshima-yokanavi.jp/en/spot/10006",
+        "accessedAt": "2026-10-28"
+      },
+      {
+        "title": "Shiroyama Observatory | What to See & Do | VISIT KAGOSHIMA CITY | Official Tourist Information Site",
+        "url": "https://www.kagoshima-yokanavi.jp/en/spot/10002",
+        "accessedAt": "2026-10-28"
+      },
+      {
+        "title": "Tenmonkan | What to See & Do | VISIT KAGOSHIMA CITY | Official Tourist Information Site",
+        "url": "https://www.kagoshima-yokanavi.jp/en/spot/10027",
+        "accessedAt": "2026-10-28"
+      },
+      {
+        "title": "Yunohira Observatory | What to See & Do | VISIT KAGOSHIMA CITY | Official Tourist Information Site",
+        "url": "https://www.kagoshima-yokanavi.jp/en/spot/10025",
+        "accessedAt": "2026-10-28"
+      },
+      {
+        "title": "Information regarding Sakurajima’s volcanic activity | What to See & Do | VISIT KAGOSHIMA CITY | Official Tourist Information Site",
+        "url": "https://www.kagoshima-yokanavi.jp/en/spot/10092",
+        "accessedAt": "2026-10-28"
+      },
+      {
+        "title": "Io World Kagoshima City Aquarium | What to See & Do | VISIT KAGOSHIMA CITY | Official Tourist Information Site",
+        "url": "https://www.kagoshima-yokanavi.jp/en/spot/10030",
+        "accessedAt": "2026-10-28"
+      }
+    ],
+    "status": "published",
+    "requestId": null,
+    "createdAt": "2026-10-28T17:19:14.408Z",
+    "updatedAt": "2026-10-28T17:19:14.408Z",
+    "publishedAt": "2026-10-28T17:19:14.408Z"
+  }
+}

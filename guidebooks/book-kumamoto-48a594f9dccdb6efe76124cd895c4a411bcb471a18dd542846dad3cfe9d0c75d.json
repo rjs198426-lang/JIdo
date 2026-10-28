@@ -1,0 +1,180 @@
+{
+  "id": "book-kumamoto",
+  "scope": "city",
+  "city": {
+    "id": "book-kumamoto",
+    "name": "구마모토",
+    "english": "Kumamoto",
+    "country": "일본",
+    "region": "일본",
+    "image": "/images/guide-placeholder.svg",
+    "tagline": "성·정원·현대미술과 공예를 나눠 만나는 도시",
+    "description": "구마모토는 구마모토성과 도심의 음식·상점을 중심으로, 스이젠지 정원이나 서쪽 유적을 다른 반나절로 붙이기 좋은 도시입니다. 구마모토역과 성·번화가는 같은 장소가 아니므로 숙소와 첫 이동을 먼저 정하세요. 아소 산악 지역은 도시의 성·정원 산책과 구분한 별도 여행이며, 이 가이드는 구마모토시 안의 방문을 중심으로 합니다.",
+    "tags": [
+      "도시 산책",
+      "여행 준비"
+    ],
+    "flight": "항공편·출발 공항과 계절에 따라 확인",
+    "currency": "일본 엔 · JPY",
+    "timeDifference": "한국과 시차 없음",
+    "timeZone": "Asia/Tokyo",
+    "season": "봄·가을 도심 산책을 중심으로 하고, 여름 더위·비에는 정원과 실내 전시를 나눠 계획하세요.",
+    "accent": "#e7f1ef"
+  },
+  "places": [
+    {
+      "id": "book-kumamoto-castle",
+      "cityId": "book-kumamoto",
+      "name": "구마모토성",
+      "english": "Kumamoto Castle",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "역사 건축과 지진 이후 복구 현장을 함께 살펴보는 성입니다. 운영기관이 안내하는 공개 구역과 관람로를 기준으로 방문하세요.",
+      "address": "Chuo-ku, Kumamoto",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "과거 지도나 사진만으로 모든 성벽·건물이 개방됐다고 생각하지 마세요. 보수 구역과 관람 입구를 확인하세요."
+    },
+    {
+      "id": "book-kumamoto-suizenji-jojuen",
+      "cityId": "book-kumamoto",
+      "name": "스이젠지 조주엔",
+      "english": "Suizenji Jojuen Garden",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "연못과 인공 언덕을 중심으로 걸으며 보는 정원입니다. 구마모토성 주변과 떨어진 정원 관람으로 나누면 동선이 단순해집니다.",
+      "address": "Suizenji, Chuo-ku, Kumamoto",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "원내 예배·관람 예절을 지키고 비가 온 뒤에는 돌다리와 보행로를 천천히 걸으세요."
+    },
+    {
+      "id": "book-kumamoto-contemporary-art-museum",
+      "cityId": "book-kumamoto",
+      "name": "구마모토시 현대미술관",
+      "english": "Contemporary Art Museum Kumamoto",
+      "category": "체험",
+      "image": "/images/place-placeholder.svg",
+      "description": "현대미술 전시와 시민 공간이 함께 있는 도심 미술관입니다. 방문일의 기획전과 이용 가능한 공간을 확인해 실내 일정으로 선택하세요.",
+      "address": "2-3 Kamitoricho, Chuo-ku, Kumamoto",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "도서·휴식 공간의 이용과 유료 전시 관람을 구분하고 촬영·입장 조건은 전시별로 확인하세요."
+    },
+    {
+      "id": "book-kumamoto-handicrafts-center",
+      "cityId": "book-kumamoto",
+      "name": "구마모토시 가와시리 공예회관",
+      "english": "Kumamoto City Handicrafts Promotion Center",
+      "category": "체험",
+      "image": "/images/place-placeholder.svg",
+      "description": "전통 공예의 전시와 판매를 살펴보는 공간입니다. 나무·금속·도자기 등 지역 공예에 관심이 있다면 도심과 분리한 방문 후보로 고르세요.",
+      "address": "1-3-58 Kawashiri, Minami-ku, Kumamoto",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "전시 관람과 만들기 체험은 다릅니다. 체험 여부·예약과 귀가 교통을 미리 확인하세요."
+    },
+    {
+      "id": "book-kumamoto-reigando-cave",
+      "cityId": "book-kumamoto",
+      "name": "레이간도",
+      "english": "Reigando Cave",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "운간젠지 사찰 경내에 있는 동굴로 미야모토 무사시의 말년과 관련된 역사 장소입니다. 도심과 떨어져 있어 왕복 이동을 먼저 계획하세요.",
+      "address": "Nishi-ku, Kumamoto",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "사찰과 석상 주변의 예절을 지키고 돌길·계단을 고려하세요. 도심 일정 사이에 짧게 끼워 넣기보다 별도 방향으로 선택하세요."
+    }
+  ],
+  "sections": [
+    {
+      "id": "book-kumamoto-overview",
+      "title": "도시 한눈에",
+      "body": "구마모토는 구마모토성과 도심의 음식·상점을 중심으로, 스이젠지 정원이나 서쪽 유적을 다른 반나절로 붙이기 좋은 도시입니다. 구마모토역과 성·번화가는 같은 장소가 아니므로 숙소와 첫 이동을 먼저 정하세요. 아소 산악 지역은 도시의 성·정원 산책과 구분한 별도 여행이며, 이 가이드는 구마모토시 안의 방문을 중심으로 합니다."
+    },
+    {
+      "id": "book-kumamoto-before",
+      "title": "출발 전에 챙길 것",
+      "body": "여권과 입국 허가·비자 요건은 국적·여행 목적과 일정에 맞춰 정부 안내로 확인하세요. 통신·결제 수단·여행자보험을 준비하고 항공·숙소 예약은 인터넷 없이도 볼 수 있게 보관하세요. 큰 짐의 보관, 동행자의 계단·목욕 이용 편의, 비 오는 날 대안을 먼저 정하면 현장 이동을 줄일 수 있습니다."
+    },
+    {
+      "id": "book-kumamoto-arrival",
+      "title": "공항과 시내 이동",
+      "body": "아소 구마모토공항(KMJ) 도착이면 공항 교통 안내와 버스 운행사를 확인하고 도심·사쿠라마치·구마모토역 중 숙소와 가까운 목적지를 고르세요. 공항 공식 사이트는 버스 승차권 판매기를 안내하지만 해당 페이지만으로 노선·배차를 확정할 수는 없습니다. 시내의 성·번화가·스이젠지 이동은 노면전차와 도보를 비교하고, 가와시리·레이간도는 도심과 별도 이동으로 계획하세요."
+    },
+    {
+      "id": "book-kumamoto-stay",
+      "title": "숙소는 어느 동네에",
+      "body": "사쿠라마치·가라시마초 주변은 버스와 번화가 접근, 도리초스지·가미도리 주변은 식사와 현대미술관·상점 산책, 구마모토역 주변은 철도 도착·출발을 비교하기 좋습니다. 성이 보이는 숙소라도 실제 관람 출입구와의 거리는 다를 수 있습니다. 렌터카를 쓰면 주차비와 숙소 출입 동선을 함께 확인하세요."
+    },
+    {
+      "id": "book-kumamoto-food",
+      "title": "먹거리와 동네 쇼핑",
+      "body": "구마모토 라멘은 돼지뼈 육수에 구운 마늘 풍미를 더한 스타일을 비교하기 좋고, 아카우시 소고기 덮밥도 지역 음식 선택지입니다. 공식 음식 소개는 장르를 고르는 참고이며 특정 가게의 당일 영업·가격을 보증하지 않습니다. 생식이나 덜 익힌 조리를 원하지 않으면 주문 전에 요청하세요. 도심 식사와 가와시리 공예 구경은 서로 다른 이동 구역으로 생각하세요."
+    },
+    {
+      "id": "book-kumamoto-days",
+      "title": "처음 가는 3일 여행",
+      "body": "1일: 구마모토성의 공개 구역 → 도심 식사와 상점. 복구 관람로와 출입구를 먼저 확인하세요.\n\n2일: 스이젠지 조주엔 → 구마모토시 현대미술관. 정원과 실내 전시를 섞어 더위·비에 맞춰 조절하세요.\n\n3일: 가와시리 공예회관 또는 레이간도 중 한 방향을 고릅니다. 두 외곽 구역을 급하게 묶지 말고 출발 교통과 돌아오는 편을 먼저 정하세요.\n\n관심사와 휴관·기상에 맞춰 고르는 여행 예시입니다. 전부 방문해야 하는 목록이 아니며 예약과 귀환 교통에 맞춰 순서를 바꾸세요."
+    },
+    {
+      "id": "book-kumamoto-notes",
+      "title": "예약과 현장 팁",
+      "body": "구마모토성은 복구가 계속되는 장소이므로 일반적인 성 공원처럼 모든 구역을 걸을 수 있다고 생각하지 마세요. 관람 가능한 구역과 우회 동선은 운영기관에서 확인하세요. 미술관의 상설 공간·기획전, 공예 전시·체험 예약은 서로 다릅니다. 레이간도는 사찰 경내와 돌길·계단을 포함하므로 이동 편의와 귀가 교통을 살펴보세요."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Kumamoto City Official Guide",
+      "url": "https://kumamoto-guide.jp/en/",
+      "accessedAt": "2026-10-28"
+    },
+    {
+      "title": "Kumamoto Castle | 【公式】熊本城",
+      "url": "https://castle.kumamoto-guide.jp/en/",
+      "accessedAt": "2026-10-28"
+    },
+    {
+      "title": "Suizenji Jojuen Garden | Sightseeing        | Kumamoto City Official Guide",
+      "url": "https://kumamoto-guide.jp/en/spots/detail/75",
+      "accessedAt": "2026-10-28"
+    },
+    {
+      "title": "Contemporary Art Museum, Kumamoto (CAMK) | Sightseeing        | Kumamoto City Official Guide",
+      "url": "https://kumamoto-guide.jp/en/spots/detail/12",
+      "accessedAt": "2026-10-28"
+    },
+    {
+      "title": "Kumamoto City Handicrafts Promotion Center | Sightseeing        | Kumamoto City Official Guide",
+      "url": "https://kumamoto-guide.jp/en/spots/detail/1",
+      "accessedAt": "2026-10-28"
+    },
+    {
+      "title": "Reigando Cave | Sightseeing        | Kumamoto City Official Guide",
+      "url": "https://kumamoto-guide.jp/en/spots/detail/109",
+      "accessedAt": "2026-10-28"
+    },
+    {
+      "title": "Gourmet        | Kumamoto City Official Guide",
+      "url": "https://kumamoto-guide.jp/en/foods/",
+      "accessedAt": "2026-10-28"
+    },
+    {
+      "title": "Inner City Transportation        | Kumamoto City Official Guide",
+      "url": "https://kumamoto-guide.jp/en/access/city.html",
+      "accessedAt": "2026-10-28"
+    },
+    {
+      "title": "バス自動券売機｜阿蘇くまもと空港 オフィシャルサイト",
+      "url": "https://www.kumamoto-airport.co.jp/facilities/bus-ticket/",
+      "accessedAt": "2026-10-28"
+    }
+  ],
+  "status": "published",
+  "requestId": null,
+  "createdAt": "2026-10-28T17:19:14.408Z",
+  "updatedAt": "2026-10-28T17:19:14.408Z",
+  "publishedAt": "2026-10-28T17:19:14.408Z"
+}
