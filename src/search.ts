@@ -23,6 +23,7 @@ export function matchesPlace(place: Place, city: City, query: string) {
     query,
     place.name,
     place.english,
+    place.address,
     place.category,
     place.area || '',
     city.name,

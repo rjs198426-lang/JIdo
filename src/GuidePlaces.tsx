@@ -3,6 +3,7 @@ import PlacePhoto from './PlacePhoto'
 import { useState } from 'react'
 import {
   ChevronRight,
+  Plus,
   MapPin,
   Utensils,
   Coffee,
@@ -25,11 +26,13 @@ const icons = {
 export default function GuidePlaces({
   cityId,
   onOpen,
+  onAdd,
   initialCategory = '전체',
 }: {
   cityId: string
   initialCategory?: (typeof categoryOptions)[number]
   onOpen: (id: string) => void
+  onAdd?: (id: string) => void
 }) {
   const [category, setCategory] =
     useState<(typeof categoryOptions)[number]>(initialCategory)
@@ -113,11 +116,11 @@ export default function GuidePlaces({
                 </span>
               </button>
               <button
-                className="icon-button"
-                aria-label={`${place.name} 자세히 보기`}
-                onClick={() => onOpen(place.id)}
+                className={`icon-button ${onAdd ? 'guide-place-add' : ''}`}
+                aria-label={`${place.name} ${onAdd ? '일정에 추가' : '자세히 보기'}`}
+                onClick={() => (onAdd ? onAdd(place.id) : onOpen(place.id))}
               >
-                <ChevronRight size={17} />
+                {onAdd ? <Plus size={20} /> : <ChevronRight size={17} />}
               </button>
             </div>
           )

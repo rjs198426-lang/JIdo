@@ -1,3 +1,8 @@
+import PlaceSearchResults, {
+  PlaceSearchService,
+  usePlaceSearch,
+} from './PlaceSearch'
+import TripLibrary from './TripLibrary'
 import GuidebookLibrary from './GuidebookLibrary'
 import { guidebookPlaceSnapshot } from './guidebook-trip'
 import { isManagedGuidebook } from './guidebook-store'
@@ -202,7 +207,11 @@ type Dialog =
   | { type: 'course'; course: CourseSelection }
   | { type: 'picker'; tripId: string; day: number }
   | { type: 'add'; placeId: string }
-  | { type: 'registered'; key: string }
+  | {
+      type: 'registered'
+      key: string
+      entry?: import('./registered-places').RegisteredPlace
+    }
   | { type: 'delete'; tripId: string }
   | { type: 'backup' }
   | { type: 'edit'; tripId: string }
@@ -352,7 +361,15 @@ function CityCard({
   )
 }
 
-function PlaceCard({ place, onOpen }: { place: Place; onOpen: () => void }) {
+function PlaceCard({
+  place,
+  onOpen,
+  onAdd,
+}: {
+  place: Place
+  onOpen: () => void
+  onAdd?: () => void
+}) {
   const Icon = categoryIcon[place.category]
   return (
     <article className="place-card">
@@ -383,6 +400,15 @@ function PlaceCard({ place, onOpen }: { place: Place; onOpen: () => void }) {
           )}
         </span>
       </button>
+      {onAdd && (
+        <button
+          className="icon-button place-card-add"
+          aria-label={`${place.name} 일정에 추가`}
+          onClick={onAdd}
+        >
+          <Plus size={20} />
+        </button>
+      )}
     </article>
   )
 }
@@ -2075,12 +2101,27 @@ export default function App() {
   const attachmentStoreRef = useRef(store)
   attachmentStoreRef.current = store
   const [page, setPage] = useState<Page>('home')
+  const [tripLibrary, setTripLibrary] = useState(true)
   const [query, setQuery] = useState('')
   const [region, setRegion] = useState<Region>('전체')
   const [category, setCategory] = useState<string>('전체')
   const [exploreCity, setExploreCity] = useState('전체')
   const [placeLimit, setPlaceLimit] = useState(24)
   const [exploreTab, setExploreTab] = useState<'cities' | 'places'>('cities')
+  const exploreSearch = usePlaceSearch()
+  useEffect(
+    () => exploreSearch.reset(),
+    [page, exploreTab, query, region, exploreCity, exploreSearch.reset],
+  )
+  const findExplorePlace = () => {
+    const city = getCity(exploreCity)
+    if (query.trim() && city && !exploreSearch.loading)
+      void exploreSearch.search(query.trim(), {
+        name: city.name,
+        country: city.country,
+        guideCityId: city.id,
+      })
+  }
   const [dialog, setDialog] = useState<Dialog | null>(null)
   const [infoOpen, setInfoOpen] = useState(false)
   const closeDialog = () => setDialog(null)
@@ -2132,11 +2173,26 @@ export default function App() {
     setReminderRevision((value) => value + 1)
     setDialog(null)
     setInfoOpen(false)
+    setTripLibrary(false)
     setPage('trips')
     window.scrollTo(0, 0)
   })
-  const navigationRef = useRef({ page, dialog, closeDialog, infoOpen })
-  navigationRef.current = { page, dialog, closeDialog, infoOpen }
+  const navigationRef = useRef({
+    page,
+    dialog,
+    closeDialog,
+    infoOpen,
+    tripLibrary,
+    multipleTrips: store.trips.length > 1,
+  })
+  navigationRef.current = {
+    page,
+    dialog,
+    closeDialog,
+    infoOpen,
+    tripLibrary,
+    multipleTrips: store.trips.length > 1,
+  }
   useEffect(() => {
     if (!toast) return
     const timer = window.setTimeout(() => setToast(''), 2600)
@@ -2174,6 +2230,12 @@ export default function App() {
         !window.dispatchEvent(new Event('jido:trip-back', { cancelable: true }))
       )
         return
+      else if (
+        navigationRef.current.page === 'trips' &&
+        navigationRef.current.multipleTrips &&
+        !navigationRef.current.tripLibrary
+      )
+        setTripLibrary(true)
       else if (navigationRef.current.page !== 'home') setPage('home')
       else if (Capacitor.isNativePlatform()) void NativeApp.exitApp()
     }
@@ -2186,7 +2248,8 @@ export default function App() {
       void listener?.then((handle) => handle.remove())
     }
   }, [])
-  const navigate = (target: Page) => {
+  const navigate = (target: Page, detail = false) => {
+    if (target === 'trips') setTripLibrary(!detail)
     setInfoOpen(false)
     setPage(target)
     window.scrollTo({ top: 0, behavior: 'smooth' })
@@ -2218,7 +2281,7 @@ export default function App() {
     setActiveTripId(trip.id)
     setActiveDay(0)
     setDialog(null)
-    navigate('trips')
+    navigate('trips', true)
     setToast('새로운 여행이 시작됐어요!')
   }
   const updateTrip = (trip: Trip) =>
@@ -2294,7 +2357,7 @@ export default function App() {
       setDialog(null)
       setActiveTripId(trip.id)
       setActiveDay(day)
-      navigate('trips')
+      navigate('trips', true)
     }
     setToast(close ? '일정에 장소를 추가했어요.' : '')
   }
@@ -2347,7 +2410,7 @@ export default function App() {
     setActiveDay(day)
     if (close) {
       setDialog(null)
-      navigate('trips')
+      navigate('trips', true)
     }
     setToast(close ? '일정에 장소를 추가했어요.' : '')
   }
@@ -2453,6 +2516,7 @@ export default function App() {
           place={place}
 
           onOpen={() => openPlace(place.id)}
+          onAdd={() => setDialog({ type: 'add', placeId: place.id })}
         />
       ))}
     </div>
@@ -2596,7 +2660,7 @@ export default function App() {
               if (workspace) saveJourneyPreference(trip, nextDay, workspace)
               setActiveTripId(trip.id)
               setActiveDay(nextDay)
-              navigate('trips')
+              navigate('trips', true)
             }}
             search={
               <form className="home-search" onSubmit={search}>
@@ -2649,7 +2713,10 @@ export default function App() {
             </div>
             <form
               className="explore-search input-search"
-              onSubmit={(event) => event.preventDefault()}
+              onSubmit={(event) => {
+                event.preventDefault()
+                if (exploreTab === 'places') findExplorePlace()
+              }}
             >
               <Search size={21} />
               <input
@@ -2659,11 +2726,14 @@ export default function App() {
                 onChange={(event) => {
                   const value = event.target.value
                   setQuery(value)
+                  if (exploreTab === 'places') setCategory('전체')
                   if (
                     value.trim() &&
                     !cities.some((city) => matchesCity(city, value))
-                  )
+                  ) {
                     setExploreTab('places')
+                    setRegion('전체')
+                  }
                 }}
               />
               {query && (
@@ -2674,6 +2744,23 @@ export default function App() {
                   onClick={() => setQuery('')}
                 >
                   <X size={18} />
+                </button>
+              )}
+              {exploreTab === 'places' && (
+                <button
+                  type="submit"
+                  className="button primary small"
+                  disabled={
+                    !query.trim() ||
+                    !getCity(exploreCity) ||
+                    exploreSearch.loading
+                  }
+                >
+                  {exploreSearch.loading
+                    ? '찾는 중…'
+                    : exploreSearch.service === 'google'
+                      ? 'Google 검색'
+                      : '지도 검색'}
                 </button>
               )}
             </form>
@@ -2690,26 +2777,41 @@ export default function App() {
                 role="tab"
                 aria-selected={exploreTab === 'places'}
                 className={exploreTab === 'places' ? 'active' : ''}
-                onClick={() => setExploreTab('places')}
+                onClick={() => {
+                  setExploreTab('places')
+                  setRegion('전체')
+                  setCategory('전체')
+                  if (exploreCity === '전체') {
+                    const cityId =
+                      activeTrip &&
+                      destinationForDay(
+                        activeTrip,
+                        Math.min(activeDay, activeTrip.days.length - 1),
+                      ).guideCityId
+                    if (cityId) setExploreCity(cityId)
+                  }
+                }}
               >
                 가볼 만한 곳{' '}
                 <span>{filteredPlaces.length + filteredRegistered.length}</span>
               </button>
             </div>
-            <div className="filter-row">
-              {regions.map((item) => (
-                <button
-                  key={item}
-                  className={`filter ${region === item ? 'active' : ''}`}
-                  onClick={() => {
-                    setRegion(item)
-                    setExploreCity('전체')
-                  }}
-                >
-                  {item}
-                </button>
-              ))}
-            </div>
+            {exploreTab === 'cities' && (
+              <div className="filter-row">
+                {regions.map((item) => (
+                  <button
+                    key={item}
+                    className={`filter ${region === item ? 'active' : ''}`}
+                    onClick={() => {
+                      setRegion(item)
+                      setExploreCity('전체')
+                    }}
+                  >
+                    {item}
+                  </button>
+                ))}
+              </div>
+            )}
             {exploreTab === 'places' && (
               <div className="explore-place-filters">
                 <label className="explore-city-filter">
@@ -2752,6 +2854,41 @@ export default function App() {
                 : filteredPlaces.length + filteredRegistered.length}
               개의 {exploreTab === 'cities' ? '여행지' : '장소'}
             </p>
+            {exploreTab === 'places' && (
+              <>
+                <PlaceSearchResults
+                  search={exploreSearch}
+                  actionLabel="일정에 추가"
+                  onSelect={(place) => {
+                    const city = getCity(exploreCity)
+                    if (!city) return
+                    const destination = {
+                      id: city.id,
+                      name: city.name,
+                      country: city.country,
+                      guideCityId: city.id,
+                    }
+                    const custom = {
+                      name: place.name,
+                      kind: place.kind,
+                      address: place.address,
+                      link: place.link,
+                      destinationId: city.id,
+                      coordinates: place.coordinates,
+                      ...(place.provider === 'osm'
+                        ? { osmPlaceId: place.id }
+                        : { googlePlaceId: place.id }),
+                    }
+                    setDialog({
+                      type: 'registered',
+                      key: `search:${place.provider}:${place.id}`,
+                      entry: { key: `search:${place.id}`, destination, custom },
+                    })
+                  }}
+                />
+                <PlaceSearchService search={exploreSearch} />
+              </>
+            )}
             {exploreTab === 'places' && filteredRegistered.length > 0 && (
               <div
                 className="picker-list registered-explore-list"
@@ -2895,7 +3032,16 @@ export default function App() {
                 <Plus size={17} />새 여행
               </button>
             </div>
-            {!activeTrip ? (
+            {store.trips.length > 1 && tripLibrary ? (
+              <TripLibrary
+                trips={store.trips}
+                onOpen={(trip) => {
+                  setActiveTripId(trip.id)
+                  setActiveDay(journeyPreference(trip).day)
+                  navigate('trips', true)
+                }}
+              />
+            ) : !activeTrip ? (
               <EmptyState
                 icon={<Luggage size={36} />}
                 title="설레는 여행을 시작해볼까요?"
@@ -2906,30 +3052,15 @@ export default function App() {
             ) : (
               <>
                 {store.trips.length > 1 && (
-                  <div className="trip-selector">
-                    <label htmlFor="trip-select">
-                      나의 여행 <span>{store.trips.length}</span>
-                    </label>
-                    <select
-                      id="trip-select"
-                      value={activeTrip.id}
-                      onChange={(event) => {
-                        setActiveTripId(event.target.value)
-                        const selected = store.trips.find(
-                          (trip) => trip.id === event.target.value,
-                        )
-                        setActiveDay(
-                          selected ? journeyPreference(selected).day : 0,
-                        )
-                      }}
-                    >
-                      {store.trips.map((trip) => (
-                        <option key={trip.id} value={trip.id}>
-                          {trip.title} · {trip.startDate}
-                        </option>
-                      ))}
-                    </select>
-                  </div>
+                  <button
+                    className="text-button trip-library-return"
+                    onClick={() => {
+                      setTripLibrary(true)
+                      window.scrollTo({ top: 0, behavior: 'instant' })
+                    }}
+                  >
+                    모든 여행 보기
+                  </button>
                 )}
                 <Itinerary
                   key={`${activeTrip.id}:${reminderRevision}`}
@@ -3153,7 +3284,7 @@ export default function App() {
             onOpenTrip={(id) => {
               setActiveTripId(id)
               setDialog(null)
-              navigate('trips')
+              navigate('trips', true)
             }}
             onApply={(tripId, day, time) => {
               const course = dialog.course
@@ -3180,7 +3311,7 @@ export default function App() {
               setActiveTripId(tripId)
               setActiveDay(day)
               setDialog(null)
-              navigate('trips')
+              navigate('trips', true)
               setToast(`${result.added}곳을 일정에 담았어요.`)
             }}
           />
@@ -3335,6 +3466,7 @@ export default function App() {
                   city={city}
                   initialTab={dialog.guideTab}
                   onPlace={openPlace}
+                  onAdd={(placeId) => setDialog({ type: 'add', placeId })}
                   overviewOnly={isManagedGuidebook(storedGuide)}
                 >
                   <GuideContent
@@ -3475,7 +3607,7 @@ export default function App() {
               }
               setActiveTripId(id)
               setDialog(null)
-              navigate('trips')
+              navigate('trips', true)
             }}
             onCreate={() =>
               setDialog({
@@ -3489,7 +3621,8 @@ export default function App() {
       )}
       {dialog?.type === 'registered' &&
         (() => {
-          const entry = registered.find((place) => place.key === dialog.key)
+          const entry =
+            dialog.entry || registered.find((place) => place.key === dialog.key)
           if (!entry) return null
           return (
             <Modal
@@ -3510,7 +3643,7 @@ export default function App() {
                   setActiveDay(0)
                   setActiveTripId(tripId)
                   setDialog(null)
-                  navigate('trips')
+                  navigate('trips', true)
                 }}
                 onCreate={() =>
                   setDialog({
@@ -3588,6 +3721,7 @@ export default function App() {
                     }))
                   )
                     return
+                  setTripLibrary(true)
                   setActiveTripId('')
                   setActiveDay(0)
                   setDialog(null)

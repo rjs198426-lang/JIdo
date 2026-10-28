@@ -106,10 +106,14 @@ export default function PlaceSearchResults({
   search,
   onSelect,
   selectedId,
+  actionLabel = '선택',
+  isAdded,
 }: {
   search: ReturnType<typeof usePlaceSearch>
   onSelect: (place: SearchPlace) => void
   selectedId?: string
+  actionLabel?: string
+  isAdded?: (place: SearchPlace) => boolean
 }) {
   return (
     <div
@@ -142,13 +146,14 @@ export default function PlaceSearchResults({
               <div key={place.id}>
                 <button
                   type="button"
-                  aria-label={`${place.name} 선택`}
+                  aria-label={`${place.name} ${isAdded?.(place) ? '추가됨' : actionLabel}`}
+                  disabled={isAdded?.(place)}
                   aria-pressed={selectedId === place.id}
                   onClick={() => onSelect(place)}
                 >
                   <strong>
                     {place.name}
-                    {selectedId === place.id && ' ✓'}
+                    {(selectedId === place.id || isAdded?.(place)) && ' ✓'}
                   </strong>
                   {place.originalName && place.originalName !== place.name && (
                     <span className="local-place-name">

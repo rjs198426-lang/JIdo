@@ -223,9 +223,7 @@ test('주소·좌표는 숨기고 유효한 과거 초안·0도 좌표와 메모
   await expect(form.getByLabel('메모', { exact: true })).toHaveValue(
     '강변에서 만나기',
   )
-  await expect(form.getByLabel('방문 시간', { exact: true })).toHaveValue(
-    '15:30',
-  )
+  await expect(form.getByLabel('방문 시간', { exact: true })).toHaveCount(0)
   await expect(form.getByLabel('일정 유형')).toHaveValue('체험')
   await expect(form.getByLabel('주소', { exact: true })).toHaveCount(0)
   await expect(form.getByLabel('장소 위도')).toHaveCount(0)
@@ -233,7 +231,7 @@ test('주소·좌표는 숨기고 유효한 과거 초안·0도 좌표와 메모
   await expect(form).not.toContainText('과거 주소')
   await form.getByRole('button', { name: '일정에 추가', exact: true }).click()
   expect((await saved(page))[0]).toMatchObject({
-    time: '15:30',
+    time: '',
     note: '강변에서 만나기',
     custom: {
       address: '과거 주소',

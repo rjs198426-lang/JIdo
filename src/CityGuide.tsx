@@ -25,12 +25,14 @@ export default function CityGuide({
   onPlace,
   children,
   overviewOnly = false,
+  onAdd,
 }: {
   city: City
   initialTab?: CityGuideTab
   onPlace: (id: string) => void
   children: ReactNode
   overviewOnly?: boolean
+  onAdd?: (id: string) => void
 }) {
   const [tab, setTab] = useState<CityGuideTab>(initialTab)
   const id = useId()
@@ -214,6 +216,7 @@ export default function CityGuide({
               cityId={city.id}
               initialCategory={tab === 'dining' ? '맛집' : '관광'}
               onOpen={onPlace}
+              onAdd={onAdd}
             />
           </>
         )}

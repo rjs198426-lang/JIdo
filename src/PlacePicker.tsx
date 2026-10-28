@@ -1,3 +1,7 @@
+import PlaceSearchResults, {
+  PlaceSearchService,
+  usePlaceSearch,
+} from './PlaceSearch'
 import { balancedPlaces } from './category-balance'
 import { useState } from 'react'
 import { Check, Plus, Search, MapPin } from 'lucide-react'
@@ -42,6 +46,13 @@ export default function PlacePicker({
     () => new Set(trip.days[day].map((stop) => stop.id)),
   )
   const addedStops = trip.days[day].filter((stop) => !initialIds.has(stop.id))
+  const remote = usePlaceSearch()
+  const findOnMap = () => {
+    if (query.trim() && !remote.loading) {
+      setCategory('전체')
+      void remote.search(query.trim(), destination)
+    }
+  }
   const [category, setCategory] = useState('전체')
   const [query, setQuery] = useState('')
   const destination = destinationForDay(trip, day)
@@ -71,6 +82,7 @@ export default function PlacePicker({
           value={query}
           onChange={(event) => {
             setQuery(event.target.value)
+            remote.reset()
             setCategory('전체')
           }}
           placeholder="등록된 장소 이름·주소 검색"
@@ -78,17 +90,21 @@ export default function PlacePicker({
           onKeyDown={(event) => {
             if (event.key === 'Enter') {
               event.preventDefault()
-              setCategory('전체')
+              findOnMap()
             }
           }}
         />
         <button
           className="button primary small"
           type="button"
-          disabled={!query.trim()}
-          onClick={() => setCategory('전체')}
+          disabled={!query.trim() || remote.loading}
+          onClick={findOnMap}
         >
-          찾기
+          {remote.loading
+            ? '찾는 중…'
+            : remote.service === 'google'
+              ? 'Google 검색'
+              : '지도 검색'}
         </button>
       </div>
       <div className="filter-row">
@@ -143,7 +159,7 @@ export default function PlacePicker({
             sameStopPlace(stop, {
               id: 'candidate',
               placeId: place.id,
-              time: '10:00',
+              time: '',
               note: '',
             }),
           )
@@ -190,6 +206,31 @@ export default function PlacePicker({
             전체 분류에서 보기
           </button>
         )}
+      <PlaceSearchResults
+        search={remote}
+        actionLabel="일정에 추가"
+        isAdded={(place) =>
+          trip.days[day].some((stop) =>
+            place.provider === 'osm'
+              ? stop.custom?.osmPlaceId === place.id
+              : stop.custom?.googlePlaceId === place.id,
+          )
+        }
+        onSelect={(place) =>
+          onReuse({
+            name: place.name,
+            kind: place.kind,
+            address: place.address,
+            link: place.link,
+            destinationId: destination.id,
+            coordinates: place.coordinates,
+            ...(place.provider === 'osm'
+              ? { osmPlaceId: place.id }
+              : { googlePlaceId: place.id }),
+          })
+        }
+      />
+      <PlaceSearchService search={remote} />
       <button
         type="button"
         className={`button ${known.length + saved.length ? 'outline' : 'primary'} full custom-stop-cta`}

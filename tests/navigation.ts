@@ -7,6 +7,26 @@ export async function openTrips(page: Page) {
     .locator('.desktop-nav:visible, .bottom-nav:visible')
     .getByRole('button', { name: '내 여행', exact: true })
     .click()
+  const library = page.locator('.trip-library')
+  if (await library.isVisible()) {
+    const id = await page.evaluate(() =>
+      localStorage.getItem('jdo-active-trip-v1'),
+    )
+    const cards = library.locator('[data-trip-id]')
+    const candidate = await library
+      .locator('[data-trip-id]')
+      .evaluateAll(
+        (els, id) =>
+          els.findIndex((el) => el.getAttribute('data-trip-id') === id),
+        id,
+      )
+    const chosen = cards.nth(candidate >= 0 ? candidate : 0)
+    await chosen.evaluate((el) => {
+      const d = el.closest('details')
+      if (d) d.open = true
+    })
+    await chosen.click()
+  }
 }
 
 // Follow the visible primary menu and its view controls.
@@ -88,5 +108,6 @@ export const openTravelManagement = (page: Page) =>
 
 export async function openExpenseFilters(page: Page) {
   const toggle = page.locator('.expense-filter-toggle')
-  if (await toggle.getAttribute('aria-expanded') !== 'true') await toggle.click()
+  if ((await toggle.getAttribute('aria-expanded')) !== 'true')
+    await toggle.click()
 }

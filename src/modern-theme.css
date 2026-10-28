@@ -1990,3 +1990,28 @@ body {
   margin: 12px 0 0;
   line-height: 1.7;
 }
+
+/* 0.73: choose a trip before editing; add places from the list. */
+:root .trip-library > section { margin-top: 24px; }
+:root .trip-library h2 { font-size: 19px; margin: 0 0 12px; }
+:root .trip-library h2 span { color: var(--muted); font-size: 14px; margin-left: 5px; }
+:root .trip-library-cards { display: grid; gap: 12px; }
+:root .trip-library-card { display: grid; grid-template-columns: 76px minmax(0,1fr) 18px; align-items: center; gap: 14px; padding: 12px; border: 1px solid var(--line); border-radius: 18px; background: white; text-align: left; width: 100%; }
+:root .trip-library-card > img { width: 76px; height: 88px; object-fit: cover; border-radius: 12px; }
+:root .trip-library-copy { display: grid; gap: 6px; min-width: 0; white-space: normal; overflow-wrap: anywhere; }
+:root .trip-library-copy strong { font-size: 18px; color: var(--deep); }
+:root .trip-library-copy small { color: var(--muted); }
+:root .trip-library-past { margin-top: 24px; }
+:root .trip-library-past > summary { padding: 16px 0; font-weight: 650; }
+:root .trip-library-return { margin: 0 0 12px; }
+:root .place-card { position: relative; }
+:root .place-card-add { position: absolute; right: 10px; bottom: 12px; background: #e7f4f1; color: var(--green); width: 44px; height: 44px; }
+:root .place-card:has(.place-card-add) .place-card-copy { padding-right: 62px; }
+:root .place-picker-body .search-options { margin: 10px 0; }
+@media (max-width: 360px) {
+  :root .trip-library-card { grid-template-columns: 60px minmax(0,1fr) 16px; gap: 10px; }
+  :root .trip-library-card > img { width: 60px; height: 80px; }
+}
+
+:root .city-guide-panel .detail-place-list > div:has(.guide-place-add) { flex-direction: row; }
+:root .city-guide-panel .detail-place-list .guide-place-add { display: inline-flex; flex: 0 0 44px; width: 44px; height: 44px; background: var(--mint); color: var(--green); }
