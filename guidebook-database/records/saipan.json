@@ -1,0 +1,747 @@
+{
+  "guide": {
+    "id": "saipan",
+    "scope": "city",
+    "city": {
+      "id": "saipan",
+      "name": "사이판",
+      "english": "SAIPAN",
+      "country": "북마리아나 제도",
+      "region": "휴양지",
+      "image": "/images/commons-069-saipan-managaha.jpg",
+      "photoCredit": {
+        "file": "/images/commons-069-saipan-managaha.jpg",
+        "author": "Gage Skidmore",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ma%C3%B1agaha_Island.jpg",
+        "verifiedAt": "2026-10-27"
+      },
+      "tagline": "가라판과 해변, 북부 전망을 잇는 섬 여행",
+      "description": "가라판·북부·남부를 나누고 마나가하섬은 배편·기상 조건에 맞춰 별도로 계획하세요.",
+      "tags": [
+        "해변 휴양",
+        "섬 여행"
+      ],
+      "flight": "사이판 국제공항 · 운항편 확인",
+      "currency": "미국 달러 · USD",
+      "timeDifference": "한국보다 1시간 빠름",
+      "season": "12–6월 · 기상·해양 조건 확인",
+      "accent": "#d7efef"
+    },
+    "places": [
+      {
+        "id": "saipan-managaha",
+        "cityId": "saipan",
+        "name": "마나가하섬",
+        "english": "Managaha Island",
+        "category": "관광",
+        "image": "/images/commons-069-saipan-managaha.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-saipan-managaha.jpg",
+          "author": "Gage Skidmore",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ma%C3%B1agaha_Island.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "사이판 석호에 있는 작은 섬입니다.",
+        "address": "근교 · 마나가하섬 · 사이판",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "배편과 기상·해양 조건, 돌아오는 시간을 먼저 확인하세요.",
+        "area": "근교 · 마나가하섬"
+      },
+      {
+        "id": "saipan-micro-beach",
+        "cityId": "saipan",
+        "name": "마이크로 비치",
+        "english": "Micro Beach",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "가라판 앞바다를 따라 걷는 해변입니다.",
+        "address": "가라판 · 사이판",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "해양 활동 전 조수와 현장 안내를 확인하세요.",
+        "area": "가라판"
+      },
+      {
+        "id": "saipan-american-memorial",
+        "cityId": "saipan",
+        "name": "아메리칸 메모리얼 파크",
+        "english": "American Memorial Park",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "태평양 전쟁의 희생자를 기리는 공원입니다.",
+        "address": "가라판 · 사이판",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "기념 공간을 존중하고 방문자센터 개관 여부를 확인하세요.",
+        "area": "가라판"
+      },
+      {
+        "id": "saipan-bird-island",
+        "cityId": "saipan",
+        "name": "버드아일랜드 전망대",
+        "english": "Bird Island Lookout",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "북부 해안과 버드아일랜드를 바라보는 전망 지점입니다.",
+        "address": "북부 · 사이판",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "전망대와 섬 자체의 출입 구역을 구분하세요.",
+        "area": "북부"
+      },
+      {
+        "id": "saipan-grotto",
+        "cityId": "saipan",
+        "name": "그로토",
+        "english": "The Grotto Saipan",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "사이판 북부의 석회암 동굴 해역입니다.",
+        "address": "북부 · 사이판",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "동굴·바다 진입은 해양 상태와 전문 가이드 안내를 따르세요.",
+        "area": "북부"
+      },
+      {
+        "id": "saipan-banzai-cliff",
+        "cityId": "saipan",
+        "name": "만세절벽",
+        "english": "Banzai Cliff",
+        "category": "관광",
+        "image": "/images/commons-069-saipan-banzai-cliff.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-saipan-banzai-cliff.jpg",
+          "author": "Gage Skidmore",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Banzai_Cliff_2025.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "사이판 전투의 역사와 관련된 북부 해안 절벽입니다.",
+        "address": "북부 · 사이판",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "추모 공간이며 절벽 가장자리와 높은 파도에 주의하세요.",
+        "area": "북부"
+      },
+      {
+        "id": "saipan-suicide-cliff",
+        "cityId": "saipan",
+        "name": "자살절벽",
+        "english": "Suicide Cliff",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "사이판 전투의 역사가 남아 있는 북부의 절벽 지점입니다.",
+        "address": "북부 · 사이판",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "해안의 만세절벽과 다른 위치이므로 동선을 구분하세요.",
+        "area": "북부"
+      },
+      {
+        "id": "saipan-last-command",
+        "cityId": "saipan",
+        "name": "최후의 사령부",
+        "english": "Last Command Post Saipan",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "사이판 전투 당시 지휘시설의 흔적을 볼 수 있는 유적입니다.",
+        "address": "북부 · 사이판",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "유구와 전시 장비에 올라가지 마세요.",
+        "area": "북부"
+      },
+      {
+        "id": "saipan-mount-tapochau",
+        "cityId": "saipan",
+        "name": "타포차우산",
+        "english": "Mount Tapochau",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "사이판 중심부에서 섬을 조망하는 산입니다.",
+        "address": "중부 · 사이판",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "도로·노면 상태와 차량 접근 가능 여부를 먼저 확인하세요.",
+        "area": "중부"
+      },
+      {
+        "id": "saipan-forbidden-island",
+        "cityId": "saipan",
+        "name": "포비든아일랜드 전망대",
+        "english": "Forbidden Island Lookout",
+        "category": "관광",
+        "image": "/images/commons-069-saipan-forbidden-island.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-saipan-forbidden-island.jpg",
+          "author": "Gage Skidmore",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Forbidden_Island_Lookout,_Saipan,_Northern_Mariana_Islands,_November_23,_2025.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "동부 해안의 포비든아일랜드를 바라보는 전망 구역입니다.",
+        "address": "동부 · 사이판",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "전망과 해안 하이킹을 구분하고 혼자 해안으로 내려가지 마세요.",
+        "area": "동부"
+      },
+      {
+        "id": "saipan-ladder-beach",
+        "cityId": "saipan",
+        "name": "래더 비치",
+        "english": "Ladder Beach",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "사이판 남부의 절벽 아래 해변입니다.",
+        "address": "남부 · 사이판",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "진입 계단·파도·귀환 시간을 확인하세요.",
+        "area": "남부"
+      },
+      {
+        "id": "saipan-obyan-beach",
+        "cityId": "saipan",
+        "name": "오비안 비치",
+        "english": "Obyan Beach",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "남부 해안의 산호 지형과 해변 구역입니다.",
+        "address": "남부 · 사이판",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "스노클링 진입·출수 지점과 해양 상태를 확인하세요.",
+        "area": "남부"
+      },
+      {
+        "id": "saipan-tank-beach",
+        "cityId": "saipan",
+        "name": "탱크 비치",
+        "english": "Tank Beach",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "사이판 동부의 해변입니다.",
+        "address": "동부 · 사이판",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "태평양 쪽 너울과 수영 금지 안내를 확인하세요.",
+        "area": "동부"
+      },
+      {
+        "id": "saipan-marine-beach",
+        "cityId": "saipan",
+        "name": "마린 비치",
+        "english": "Marine Beach Saipan",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "사이판 동부의 해변과 해안 풍경을 보는 구역입니다.",
+        "address": "동부 · 사이판",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "현장 개방·주차·해양 조건을 확인하세요.",
+        "area": "동부"
+      },
+      {
+        "id": "saipan-sugar-king",
+        "cityId": "saipan",
+        "name": "슈가킹 공원",
+        "english": "Sugar King Park",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "가라판의 사탕수수 산업 역사와 관련된 공원입니다.",
+        "address": "가라판 · 사이판",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "인근 역사 시설과 짧은 도보 코스로 묶으세요.",
+        "area": "가라판"
+      },
+      {
+        "id": "saipan-kristo-rai",
+        "cityId": "saipan",
+        "name": "가라판 크리스토라이 성당",
+        "english": "Kristo Rai Church",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "가라판에 있는 가톨릭 성당입니다.",
+        "address": "가라판 · 사이판",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "예배와 지역 행사 중에는 안내를 따르세요.",
+        "area": "가라판"
+      },
+      {
+        "id": "saipan-paseo",
+        "cityId": "saipan",
+        "name": "파세오 데 마리아나스",
+        "english": "Paseo de Marianas",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "가라판의 보행자 거리 일대입니다.",
+        "address": "가라판 · 사이판",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "개별 상점의 영업 여부는 현장에서 확인하세요.",
+        "area": "가라판"
+      },
+      {
+        "id": "saipan-history-museum",
+        "cityId": "saipan",
+        "name": "북마리아나 역사문화박물관",
+        "english": "Northern Mariana Islands Museum of History and Culture",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "북마리아나 제도의 역사와 문화를 다루는 박물관입니다.",
+        "address": "가라판 · 사이판",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "현재 전시·개관 여부를 확인한 뒤 방문하세요.",
+        "area": "가라판"
+      },
+      {
+        "id": "saipan-jeffreys-beach",
+        "cityId": "saipan",
+        "name": "제프리스 비치",
+        "english": "Jeffrey's Beach",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "동부 해안의 바위 지형과 해변을 보는 곳입니다.",
+        "address": "동부 · 사이판",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "진입로와 바닥 상태를 확인하고 파도에 가까이 가지 마세요.",
+        "area": "동부"
+      },
+      {
+        "id": "saipan-mount-carmel",
+        "cityId": "saipan",
+        "name": "카멜산 대성당",
+        "english": "Mount Carmel Cathedral Saipan",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "찰란카노아의 가톨릭 대성당입니다.",
+        "address": "찰란카노아 · 사이판",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "가라판의 성당과 다른 위치이며 예배 일정을 배려하세요.",
+        "area": "찰란카노아"
+      },
+      {
+        "id": "saipan-balance-159d858dad",
+        "cityId": "saipan",
+        "name": "에비스야 사이판",
+        "english": "Ebisuya",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "수수페에서 빵과 샌드위치, 스시를 고를 수 있는 가게입니다.",
+        "address": "Susupe",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "지점과 주문 방식, 식단 제한을 확인하고 식사 일정에 넣어 보세요. 메뉴·영업시간은 방문 전 확인하세요.",
+        "area": "사이판",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Saipan",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Saipan&oldid=5304456",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 eat 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "saipan-balance-457279cc5d",
+        "cityId": "saipan",
+        "name": "히마와리 사이판",
+        "english": "Himawari",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "가라판에서 스시와 빵, 면 요리를 고를 수 있는 가게입니다.",
+        "address": "Garapan",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "지점과 주문 방식, 식단 제한을 확인하고 식사 일정에 넣어 보세요. 메뉴·영업시간은 방문 전 확인하세요.",
+        "area": "사이판",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Saipan",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Saipan&oldid=5304456",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 eat 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "saipan-balance-68d6f4fe08",
+        "cityId": "saipan",
+        "name": "커피 케어",
+        "english": "Coffee Care",
+        "category": "카페",
+        "image": "/images/place-placeholder.svg",
+        "description": "캐피톨 힐에서 커피와 파스타, 샌드위치를 즐길 수 있는 카페입니다.",
+        "address": "Capitol Hill",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "산책이나 쇼핑 사이에 쉬어갈 후보입니다. 좌석 이용·마지막 주문 시간은 방문 전 확인하세요.",
+        "area": "사이판",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Saipan",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Saipan&oldid=5304456",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 eat 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "saipan-balance-ad7a0a9b27",
+        "cityId": "saipan",
+        "name": "자바 조스 사이판",
+        "english": "Java Joe's",
+        "category": "카페",
+        "image": "/images/place-placeholder.svg",
+        "description": "커피와 라테, 스무디를 고를 수 있는 작은 카페입니다.",
+        "address": "사이판, 사이판",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "산책이나 쇼핑 사이에 쉬어갈 후보입니다. 좌석 이용·마지막 주문 시간은 방문 전 확인하세요.",
+        "area": "사이판",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Saipan",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Saipan&oldid=5304456",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 eat 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "saipan-balance-1d18b3dfb9",
+        "cityId": "saipan",
+        "name": "사이판 스카이라인 디자이너스 호텔",
+        "english": "Saipan Skyline Designers Hotel",
+        "category": "숙소",
+        "image": "/images/place-placeholder.svg",
+        "description": "사이판 북부 산지에 자리한 소규모 호텔입니다.",
+        "address": "Mina Dr, As Matuis",
+        "duration": "숙박 일정에 맞춰 지정",
+        "cost": "숙박일·객실·공식 안내에서 확인",
+        "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+        "area": "사이판",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Saipan",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Saipan&oldid=5304456",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "saipan-balance-3dce60a0f0",
+        "cityId": "saipan",
+        "name": "사이판 월드 리조트",
+        "english": "Saipan World Resort",
+        "category": "숙소",
+        "image": "/images/place-placeholder.svg",
+        "description": "수수페 해변의 리조트 숙박 후보입니다.",
+        "address": "Beach Rd, Susupe",
+        "duration": "숙박 일정에 맞춰 지정",
+        "cost": "숙박일·객실·공식 안내에서 확인",
+        "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+        "lat": 15.1584,
+        "lng": 145.703341,
+        "area": "사이판",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Saipan",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Saipan&oldid=5304456",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "saipan-balance-ae61128d44",
+        "cityId": "saipan",
+        "name": "올레아이 비치 클럽",
+        "english": "Oleai Beach Club",
+        "category": "바·공연",
+        "image": "/images/place-placeholder.svg",
+        "description": "산호세 해변에서 일몰과 음료를 함께 즐길 수 있는 바입니다.",
+        "address": "사이판, 사이판",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "공연 일정·입장 연령·드레스 코드·입장료와 최소 주문 조건을 방문 전 확인하세요.",
+        "area": "사이판",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Saipan",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Saipan&oldid=5304456",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "saipan-balance-b5e4628204",
+        "cityId": "saipan",
+        "name": "스타 샌즈 플라자",
+        "english": "Star Sands Plaza",
+        "category": "쇼핑",
+        "image": "/images/place-placeholder.svg",
+        "description": "가라판에서 기념품과 생활용품을 살펴보는 쇼핑 공간입니다.",
+        "address": "가라판, 사이판",
+        "duration": "직접 체류시간 지정",
+        "cost": "구입 품목에 따라 다름",
+        "tip": "품목과 매장별 운영시간을 확인하고 구입할 물건을 정해 둘러보세요.",
+        "lat": 15.210885,
+        "lng": 145.718175,
+        "area": "가라판",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Saipan 쇼핑",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Saipan&oldid=5304456",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드 Buy 본문과 개별 상점 marker의 이름·좌표를 읽었습니다. 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "saipan-balance-f4362cec3f",
+        "cityId": "saipan",
+        "name": "조텐 가라판",
+        "english": "Joeten",
+        "category": "쇼핑",
+        "image": "/images/place-placeholder.svg",
+        "description": "가라판에서 생활용품과 지역 상품을 고를 수 있는 상점입니다.",
+        "address": "가라판, 사이판",
+        "duration": "직접 체류시간 지정",
+        "cost": "구입 품목에 따라 다름",
+        "tip": "품목과 매장별 운영시간을 확인하고 구입할 물건을 정해 둘러보세요.",
+        "lat": 15.210339,
+        "lng": 145.717392,
+        "area": "가라판",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Saipan 쇼핑",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Saipan&oldid=5304456",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드 Buy 본문과 개별 상점 marker의 이름·좌표를 읽었습니다. 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "id": "saipan-overview",
+        "title": "도시 소개",
+        "body": "가라판 휴식·북부 전망·마나가하섬 체험을 다른 시간대나 날짜로 나누세요. 해양 체험은 기상에 따라 바꿀 여유가 필요합니다."
+      },
+      {
+        "id": "saipan-before",
+        "title": "출발 전 준비",
+        "body": "입국 절차와 여행서류는 본인 국적·일정에 맞춰 공식 안내를 확인하세요.\n\n마나가하섬 체험은 보트·추가 비용·장비·취소 조건을 구분해 확인하세요."
+      },
+      {
+        "id": "saipan-arrival",
+        "title": "공항과 시내 이동",
+        "body": "공항에서 숙소: 도착 시간에 맞는 픽업·택시·렌터카를 먼저 확인하세요.\n\n북부·섬 체험: 차량 관광과 보트 이동을 구분하고 귀환편·기상 취소·픽업 범위를 확인하세요."
+      },
+      {
+        "id": "saipan-stay",
+        "title": "숙소 지역 선택",
+        "body": "가라판·마이크로 비치: 식사와 해안 산책·숙소 휴식 중심이면 비교하세요.\n\n다른 해안 숙소: 숙소 안에서 보내는 시간과 차량·픽업 비용을 함께 비교하세요. 도보 식사 접근을 확인하세요."
+      },
+      {
+        "id": "saipan-plan",
+        "title": "일정 계획",
+        "body": "짧은 여행: 가라판 휴식과 북부 전망을 중심으로 고르세요.\n\n여유 있는 여행: 섬 체험·드라이브·숙소 휴식을 분리하고 악천후 대안을 하루 남기세요."
+      },
+      {
+        "id": "saipan-notes",
+        "title": "현장 팁",
+        "body": "그로토는 사진 명소라는 이유로 단독 입수 계획을 세우지 마세요. 현지 안전·참가 조건을 확인해야 합니다.\n\n내장 장소의 정확한 좌표와 현재 접근 조건은 아직 검증되지 않았습니다."
+      },
+      {
+        "id": "saipan-rain",
+        "title": "비 오는 날",
+        "body": "북마리아나 역사문화박물관 등 실내 관람이나 숙소 휴식으로 바꾸고 절벽·해양 활동은 기상 조건을 우선하세요."
+      }
+    ],
+    "sources": [],
+    "status": "published",
+    "requestId": null,
+    "createdAt": "2026-10-28T00:00:00.000Z",
+    "updatedAt": "2026-10-28T00:00:00.000Z",
+    "publishedAt": "2026-10-28T00:00:00.000Z"
+  },
+  "practicalGuide": {
+    "cityId": "saipan",
+    "firstVisit": "가라판 휴식·북부 전망·마나가하섬 체험을 다른 시간대나 날짜로 나누세요. 해양 체험은 기상에 따라 바꿀 여유가 필요합니다.",
+    "bases": [
+      {
+        "name": "가라판·마이크로 비치",
+        "advice": "식사와 해안 산책·숙소 휴식 중심이면 비교하세요."
+      },
+      {
+        "name": "다른 해안 숙소",
+        "advice": "숙소 안에서 보내는 시간과 차량·픽업 비용을 함께 비교하세요. 도보 식사 접근을 확인하세요."
+      }
+    ],
+    "arrival": [
+      {
+        "name": "공항에서 숙소",
+        "advice": "도착 시간에 맞는 픽업·택시·렌터카를 먼저 확인하세요."
+      },
+      {
+        "name": "북부·섬 체험",
+        "advice": "차량 관광과 보트 이동을 구분하고 귀환편·기상 취소·픽업 범위를 확인하세요."
+      }
+    ],
+    "timePlan": [
+      {
+        "name": "짧은 여행",
+        "advice": "가라판 휴식과 북부 전망을 중심으로 고르세요."
+      },
+      {
+        "name": "여유 있는 여행",
+        "advice": "섬 체험·드라이브·숙소 휴식을 분리하고 악천후 대안을 하루 남기세요."
+      }
+    ],
+    "before": [
+      "입국 절차와 여행서류는 본인 국적·일정에 맞춰 공식 안내를 확인하세요.",
+      "마나가하섬 체험은 보트·추가 비용·장비·취소 조건을 구분해 확인하세요."
+    ],
+    "pitfalls": [
+      "그로토는 사진 명소라는 이유로 단독 입수 계획을 세우지 마세요. 현지 안전·참가 조건을 확인해야 합니다.",
+      "내장 장소의 정확한 좌표와 현재 접근 조건은 아직 검증되지 않았습니다."
+    ],
+    "rainPlan": "북마리아나 역사문화박물관 등 실내 관람이나 숙소 휴식으로 바꾸고 절벽·해양 활동은 기상 조건을 우선하세요.",
+    "courses": [
+      {
+        "id": "saipan-course-1",
+        "title": "가라판에서 천천히",
+        "pace": "반나절 · 도보",
+        "why": "가라판권의 해안과 공원을 묶는 가벼운 제안입니다.",
+        "placeIds": [
+          "saipan-micro-beach",
+          "saipan-american-memorial",
+          "saipan-paseo"
+        ]
+      },
+      {
+        "id": "saipan-course-2",
+        "title": "북부 전망 드라이브",
+        "pace": "반나절–하루 · 차량",
+        "why": "전망지 사이를 차량으로 이동하는 제안이며 도보 코스가 아닙니다.",
+        "placeIds": [
+          "saipan-bird-island",
+          "saipan-last-command",
+          "saipan-banzai-cliff"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "관광청 공식 사이트",
+        "url": "https://www.mymarianas.com/",
+        "checkedAt": "2026-10-15",
+        "status": "unavailable"
+      }
+    ],
+    "researchNote": "기존 내장 장소를 바탕으로 작성한 계획 제안입니다. 관광청 최신 교통·운영 조건은 본문 접근 제한으로 재확인하지 못했습니다. 내장 장소의 정확한 좌표와 원문 근거는 아직 미검증입니다."
+  },
+  "plans": {
+    "cityId": "saipan",
+    "days": [
+      {
+        "id": "saipan-day-1",
+        "title": "가라판에서 천천히",
+        "pace": "반나절 · 도보",
+        "why": "가라판권의 해안과 공원을 묶는 가벼운 제안입니다.",
+        "placeIds": [
+          "saipan-micro-beach",
+          "saipan-american-memorial",
+          "saipan-paseo"
+        ]
+      },
+      {
+        "id": "saipan-day-2",
+        "title": "북부 전망 드라이브",
+        "pace": "반나절–하루 · 차량",
+        "why": "전망지 사이를 차량으로 이동하는 제안이며 도보 코스가 아닙니다.",
+        "placeIds": [
+          "saipan-bird-island",
+          "saipan-last-command",
+          "saipan-banzai-cliff"
+        ]
+      },
+      {
+        "id": "saipan-day-3",
+        "title": "마나가하섬에서 하루",
+        "pace": "선박",
+        "why": "마나가하 왕복편과 입도 조건을 확인하고 섬에서 휴식·물놀이에 하루를 둡니다.",
+        "placeIds": [
+          "saipan-managaha"
+        ]
+      },
+      {
+        "id": "saipan-day-4",
+        "title": "남부 해변과 찰란카노아",
+        "pace": "렌터카",
+        "why": "남부 해변과 성당을 묶습니다. 파도가 높으면 물놀이 대신 전망만 봅니다.",
+        "placeIds": [
+          "saipan-mount-carmel",
+          "saipan-ladder-beach",
+          "saipan-obyan-beach"
+        ]
+      },
+      {
+        "id": "saipan-day-5",
+        "title": "타포차우 전망과 가라판 문화",
+        "pace": "렌터카·도보",
+        "why": "산길 상태를 확인한 뒤 타포차우산을 보고 가라판으로 돌아와 공원·박물관을 둘러봅니다.",
+        "placeIds": [
+          "saipan-mount-tapochau",
+          "saipan-sugar-king",
+          "saipan-history-museum"
+        ]
+      }
+    ]
+  }
+}

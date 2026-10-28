@@ -1,0 +1,160 @@
+{
+  "guide": {
+    "id": "book-shanghai",
+    "scope": "city",
+    "city": {
+      "id": "book-shanghai",
+      "name": "상하이",
+      "english": "Shanghai",
+      "country": "중국",
+      "region": "동아시아",
+      "image": "/images/guide-placeholder.svg",
+      "tagline": "와이탄의 강변과 오래된 골목을 함께 걷는 도시",
+      "description": "상하이는 황푸강 양쪽의 풍경을 비교하는 재미가 있는 대도시입니다. 와이탄과 난징루는 도심 산책으로, 예원과 톈쯔팡은 골목을 걷는 일정으로 묶으세요. 푸둥의 전망 공간은 날씨와 시야를 보고 골라 같은 전망대를 여러 곳 예약할 필요는 없습니다.",
+      "tags": [
+        "도시 산책",
+        "여행 준비"
+      ],
+      "flight": "항공편·출발 공항에 따라 다름",
+      "currency": "중국 위안 · CNY",
+      "timeDifference": "한국보다 1시간 느림",
+      "timeZone": "Asia/Shanghai",
+      "season": "봄·가을 산책, 여름 더위·우기 대비",
+      "accent": "#e7f1ef"
+    },
+    "places": [
+      {
+        "id": "book-shanghai-the-bund",
+        "cityId": "book-shanghai",
+        "name": "와이탄",
+        "english": "The Bund",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "황푸강 건너 푸둥 스카이라인을 바라보는 강변입니다. 야간 혼잡과 보행 통제를 살펴보세요.",
+        "address": "Huangpu, Shanghai",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      },
+      {
+        "id": "book-shanghai-yu-garden",
+        "cityId": "book-shanghai",
+        "name": "예원",
+        "english": "Yu Garden",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "전통 정원과 주변 상업 구역을 함께 둘러보는 곳입니다. 정원 관람과 주변 거리 방문을 구분하세요.",
+        "address": "Huangpu, Shanghai",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      },
+      {
+        "id": "book-shanghai-nanjing-road",
+        "cityId": "book-shanghai",
+        "name": "난징루",
+        "english": "Nanjing Road",
+        "category": "쇼핑",
+        "image": "/images/place-placeholder.svg",
+        "description": "백화점과 상점이 이어지는 도심 쇼핑 거리입니다. 긴 구간을 전부 걷기보다 목적 구역을 정하세요.",
+        "address": "Huangpu, Shanghai",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      },
+      {
+        "id": "book-shanghai-tianzifang",
+        "cityId": "book-shanghai",
+        "name": "톈쯔팡",
+        "english": "Tianzifang",
+        "category": "쇼핑",
+        "image": "/images/place-placeholder.svg",
+        "description": "좁은 골목에 상점이 모인 구역입니다. 주거 공간을 배려하며 둘러보세요.",
+        "address": "Huangpu, Shanghai",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      },
+      {
+        "id": "book-shanghai-shanghai-tower",
+        "cityId": "book-shanghai",
+        "name": "상하이 타워",
+        "english": "Shanghai Tower",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "고층 전망을 선택하는 후보입니다. 전망대 운영과 기상에 따른 시야를 확인하세요.",
+        "address": "Lujiazui, Pudong, Shanghai",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      },
+      {
+        "id": "book-shanghai-lujiazui-riverside",
+        "cityId": "book-shanghai",
+        "name": "루자쭈이 강변",
+        "english": "Lujiazui Riverside",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "와이탄 반대편에서 강변 풍경을 보는 산책 구역입니다. 이동 수단의 막차를 확인하세요.",
+        "address": "Pudong, Shanghai",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      }
+    ],
+    "sections": [
+      {
+        "id": "book-shanghai-overview",
+        "title": "도시 한눈에",
+        "body": "상하이는 황푸강 양쪽의 풍경을 비교하는 재미가 있는 대도시입니다. 와이탄과 난징루는 도심 산책으로, 예원과 톈쯔팡은 골목을 걷는 일정으로 묶으세요. 푸둥의 전망 공간은 날씨와 시야를 보고 골라 같은 전망대를 여러 곳 예약할 필요는 없습니다.\n\n통화: 중국 위안 · CNY\n시차: 한국보다 1시간 느림\n여행 계절: 봄·가을 산책, 여름 더위·우기 대비"
+      },
+      {
+        "id": "book-shanghai-before",
+        "title": "출발 전 준비",
+        "body": "여권과 입국 허가·비자 요건은 국적·방문 목적에 맞춰 정부 안내를 확인하세요. 해외 사용 가능한 결제 수단, 통신과 여행자보험을 준비하고 숙소·항공권은 오프라인에서도 확인할 수 있게 보관하세요."
+      },
+      {
+        "id": "book-shanghai-arrival",
+        "title": "공항에서 숙소까지",
+        "body": "푸둥공항(PVG)과 훙차오공항(SHA)을 구분하세요. 지하철·공항 교통과 차량 이동을 숙소 위치 및 도착 시각으로 비교하고, 중국어 숙소 주소와 결제 수단을 오프라인으로 준비하세요."
+      },
+      {
+        "id": "book-shanghai-stay",
+        "title": "어느 동네에 묵을까",
+        "body": "인민광장·난징루 주변은 도심 이동, 징안은 식사와 동네 산책, 루자쭈이는 강변 전망과 숙소 환경을 비교하기 좋습니다. 역 이름뿐 아니라 실제 출구와 숙소 사이 보행 거리를 확인하세요."
+      },
+      {
+        "id": "book-shanghai-food",
+        "title": "먹거리와 동네 쇼핑",
+        "body": "샤오롱바오와 생젠 등 서로 다른 만두 음식을 나눠 맛보세요. 난징루는 쇼핑 거리, 톈쯔팡은 골목 상점 구역입니다. 외국인 결제 등록과 사용 가능 카드를 출발 전에 확인하세요."
+      },
+      {
+        "id": "book-shanghai-days",
+        "title": "처음 가는 3일 여행",
+        "body": "1일: 인민광장 주변 → 난징루 → 와이탄. 강변 야경은 귀가 교통까지 생각하세요.\n\n2일: 예원 주변 → 톈쯔팡. 골목 산책 사이에 식사와 휴식을 넣으세요.\n\n3일: 루자쭈이 강변 또는 전망대. 출국 공항을 확인한 뒤 남는 시간을 정하세요.\n\n일정 초안이며 자동 경로·이동시간 계산 결과가 아닙니다. 운영과 취향에 맞춰 선택하세요."
+      },
+      {
+        "id": "book-shanghai-notes",
+        "title": "예약과 현장 팁",
+        "body": "입국 요건은 국적·방문 목적·시점에 따라 달라집니다. 휴대전화와 결제 서비스의 현지 이용 가능 여부를 확인하고 여권 정보를 요구하는 예약은 운영기관에서 진행하세요."
+      }
+    ],
+    "sources": [
+      {
+        "title": "SHANGHAI CHINA-International Services Shanghai",
+        "url": "https://english.shanghai.gov.cn/",
+        "accessedAt": "2026-10-28"
+      },
+      {
+        "title": "Shanghai Travel Guide | Official site for Shanghai Municipal Administration of Culture and Tourism",
+        "url": "https://www.meet-in-shanghai.net/",
+        "accessedAt": "2026-10-28"
+      }
+    ],
+    "status": "published",
+    "requestId": null,
+    "createdAt": "2026-10-28T05:07:12.733Z",
+    "updatedAt": "2026-10-28T05:07:12.733Z",
+    "publishedAt": "2026-10-28T05:07:12.733Z"
+  }
+}

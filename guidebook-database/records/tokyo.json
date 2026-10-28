@@ -1,0 +1,2122 @@
+{
+  "guide": {
+    "id": "tokyo",
+    "scope": "city",
+    "city": {
+      "id": "tokyo",
+      "name": "도쿄",
+      "english": "TOKYO · 東京",
+      "country": "일본",
+      "region": "일본",
+      "image": "/images/place-tokyo-sensoji.jpg",
+      "photoCredit": {
+        "file": "/images/place-tokyo-sensoji.jpg",
+        "author": "Akonnchiroll",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sensoji_2023.jpg",
+        "verifiedAt": "2026-10-14"
+      },
+      "tagline": "아사쿠사·하라주쿠·시부야",
+      "description": "아사쿠사·시부야·신주쿠 등 지역을 나눠 계획하기 좋은 도시입니다. 같은 날에는 가까운 지역을 묶으세요.",
+      "tags": [
+        "도시 산책",
+        "자유여행"
+      ],
+      "flight": "하네다·나리타공항",
+      "currency": "일본 엔 · JPY",
+      "timeDifference": "한국과 시차 없음",
+      "season": "계절별 일정 선택",
+      "accent": "#eaf4ef"
+    },
+    "places": [
+      {
+        "id": "tokyo-sensoji",
+        "cityId": "tokyo",
+        "name": "센소지",
+        "english": "Senso-ji · 浅草寺",
+        "category": "관광",
+        "image": "/images/place-tokyo-sensoji.jpg",
+        "photoCredit": {
+          "file": "/images/place-tokyo-sensoji.jpg",
+          "author": "Akonnchiroll",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sensoji_2023.jpg",
+          "verifiedAt": "2026-10-14"
+        },
+        "description": "아사쿠사의 오랜 불교 사찰입니다. 가미나리몬에서 나카미세 상점가를 지나 본당으로 이어지는 산책 동선입니다.",
+        "address": "2-3-1 Asakusa, Taito, Tokyo",
+        "duration": "1–2시간",
+        "cost": "시설별 입장 조건 확인",
+        "tip": "아사쿠사의 오랜 불교 사찰입니다. 가미나리몬에서 나카미세 상점가를 지나 본당으로 이어지는 산책 동선입니다.",
+        "lat": 35.71472222,
+        "lng": 139.79675
+      },
+      {
+        "id": "tokyo-meiji",
+        "cityId": "tokyo",
+        "name": "메이지 신궁",
+        "english": "Meiji Jingu · 明治神宮",
+        "category": "관광",
+        "image": "/images/place-tokyo-meiji.jpg",
+        "photoCredit": {
+          "file": "/images/place-tokyo-meiji.jpg",
+          "author": "Akonnchiroll",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Meiji_Jingu_2023-3.jpg",
+          "verifiedAt": "2026-10-14"
+        },
+        "description": "메이지 천황과 쇼켄 황태후를 모시는 신궁입니다. 하라주쿠 인근의 숲길을 걸은 뒤 오모테산도·시부야로 이어갈 수 있습니다.",
+        "address": "1-1 Yoyogikamizonocho, Shibuya, Tokyo",
+        "duration": "1–2시간",
+        "cost": "시설별 입장 조건 확인",
+        "tip": "메이지 천황과 쇼켄 황태후를 모시는 신궁입니다. 하라주쿠 인근의 숲길을 걸은 뒤 오모테산도·시부야로 이어갈 수 있습니다.",
+        "lat": 35.67611111,
+        "lng": 139.69916667
+      },
+      {
+        "id": "tokyo-shibuya",
+        "cityId": "tokyo",
+        "name": "시부야 스크램블 교차로",
+        "english": "Shibuya Crossing",
+        "category": "관광",
+        "image": "/images/place-tokyo-shibuya.jpg",
+        "photoCredit": {
+          "file": "/images/place-tokyo-shibuya.jpg",
+          "author": "David Kernan",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shibuya_Crossing,_Aerial.jpg",
+          "verifiedAt": "2026-10-14"
+        },
+        "description": "시부야의 둘러볼 수 있는 장소.",
+        "address": "시부야, 도쿄",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.659503,
+        "lng": 139.700544,
+        "area": "시부야",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Tokyo/Shibuya",
+            "url": "https://en.wikivoyage.org/wiki/Tokyo/Shibuya#Shibuya_Crossing",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "tokyo-review-a3a4540c66ad",
+        "cityId": "tokyo",
+        "name": "하치코 동상",
+        "english": "Hachikō · ハチ公",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "시부야역 앞 광장의 작은 하치코 동상이에요. 역 주변에서 만나는 장소이자 시부야 산책의 출발점으로 쓰여요.",
+        "address": "시부야, 도쿄",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "사람이 많은 역 앞이므로 동행자와 만날 출구·시간을 구체적으로 정하세요. 동상만 보고 떠나기보다 주변 횡단보도와 함께 둘러보기 좋아요.",
+        "lat": 35.659048,
+        "lng": 139.700579,
+        "area": "시부야",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Tokyo/Shibuya",
+            "url": "https://en.wikivoyage.org/wiki/Tokyo/Shibuya#Hachik%C5%8D",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "tokyo-review-90d6c70e1e86",
+        "cityId": "tokyo",
+        "name": "신주쿠 교엔",
+        "english": "Shinjuku Gyoen National Garden · 新宿御苑",
+        "category": "관광",
+        "image": "/images/commons-069-tokyo-review-90d6c70e1e86.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-tokyo-review-90d6c70e1e86.jpg",
+          "author": "Jakub Hałun",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shinjuku_Gyoen_National_Garden,_Tokyo,_20240822_1447_5457.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "일본식·영국식·프랑스식 정원과 온실을 갖춘 큰 공원이에요. 신주쿠 도심 일정 사이에 정원 산책을 넣을 수 있어요.",
+        "address": "신주쿠, 도쿄",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "넓은 정원을 걷는 일정이므로 출입구와 돌아갈 역을 먼저 정하세요. 마지막 입장과 폐원 시간은 서로 다를 수 있어 확인이 필요해요.",
+        "lat": 35.687258,
+        "lng": 139.713791,
+        "area": "신주쿠",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Tokyo/Shinjuku",
+            "url": "https://en.wikivoyage.org/wiki/Tokyo/Shinjuku#Shinjuku_Gyoen_National_Garden",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "tokyo-review-e4e7585206e4",
+        "cityId": "tokyo",
+        "name": "도쿄 도청 전망대",
+        "english": "Tokyo Metropolitan Government Center · 都庁 tochō",
+        "category": "관광",
+        "image": "/images/tokyo-review-e4e7585206e4.jpg",
+        "photoCredit": {
+          "file": "/images/tokyo-review-e4e7585206e4.jpg",
+          "author": "掬茶",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Night_view_from_the_Tokyo_Metropolitan_Government_Building,_20101002-005.jpg",
+          "verifiedAt": "2026-10-16"
+        },
+        "description": "단게 겐조가 설계한 도쿄도청 건물과 높은 층의 전망 시설을 볼 수 있는 곳이에요. 신주쿠 서쪽의 도심 전망을 비교하기 좋아요.",
+        "address": "2-8-1 Nishi-Shinjuku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "방문하려는 전망실과 개방 여부를 확인하세요. 두 전망실의 운영이 같다고 가정하지 말고 보고 싶은 시간대에 맞춰 계획하세요.",
+        "lat": 35.68951,
+        "lng": 139.69171,
+        "area": "신주쿠",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Tokyo/Shinjuku",
+            "url": "https://en.wikivoyage.org/wiki/Tokyo/Shinjuku#Tokyo_Metropolitan_Government_Center",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "tokyo-review-f45327fa4942",
+        "cityId": "tokyo",
+        "name": "황거 히가시교엔",
+        "english": "Imperial Palace East Garden",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "에도성의 옛 중심부와 천수대 터가 남은 황거 동쪽 정원이에요. 도쿄역·오테마치 일대와 함께 둘러볼 수 있어요.",
+        "address": "지요다, 도쿄",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "입장할 문과 나올 문을 정해 두면 역으로 돌아가기 편해요. 궁전 내부 관람과 동어원 산책을 혼동하지 마세요.",
+        "lat": 35.68703,
+        "lng": 139.75729,
+        "area": "지요다",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Tokyo/Chiyoda",
+            "url": "https://en.wikivoyage.org/wiki/Tokyo/Chiyoda#Imperial_Palace_East_Garden",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "tokyo-review-a45369c140d6",
+        "cityId": "tokyo",
+        "name": "쓰키지 장외시장",
+        "english": "Tsukiji Outer Market · 築地場外市場 Tsukiji jōgai shijō",
+        "category": "쇼핑",
+        "image": "/images/place-placeholder.svg",
+        "description": "생선·초밥·식료품·주방용품 가게가 모인 쓰키지 장외시장이에요. 이전한 도매시장과는 별개의 장소예요.",
+        "address": "5-2-1 Tsukiji",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "경매 관람을 기대하고 장외시장으로 가지 않도록 도요스와 구분하세요. 먹을 곳과 장 볼 곳을 골라 짧은 동선으로 돌아보세요.",
+        "lat": 35.661389,
+        "lng": 139.769722,
+        "area": "주오",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Tokyo/Chuo",
+            "url": "https://en.wikivoyage.org/wiki/Tokyo/Chuo#Tsukiji_Outer_Market",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "tokyo-review-06cfc84fff67",
+        "cityId": "tokyo",
+        "name": "하마리큐 정원",
+        "english": "Hama-rikyū Gardens · 浜離宮恩賜庭園",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "연못과 섬 위 찻집이 있는 도심 정원이에요. 쓰키지 주변의 시장·빌딩 풍경과 다른 산책을 즐길 수 있어요.",
+        "address": "1-1 Hama-rikyū Teien",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "시장 구경 뒤 정원에서 쉬는 일정으로 묶어 보세요. 가이드에 실린 옛 수상버스 노선은 현재 운항을 확인하기 전 이동편으로 잡지 마세요.",
+        "lat": 35.659955,
+        "lng": 139.762219,
+        "area": "주오",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Tokyo/Chuo",
+            "url": "https://en.wikivoyage.org/wiki/Tokyo/Chuo#Hama-riky%C5%AB_Gardens",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "tokyo-review-9bc3e51d9cd3",
+        "cityId": "tokyo",
+        "name": "도쿄 타워",
+        "english": "Tokyo Tower · 東京タワー Tōkyō Tawā",
+        "category": "관광",
+        "image": "/images/blog-tokyo-143.jpg",
+        "photoCredit": {
+          "file": "/images/blog-tokyo-143.jpg",
+          "author": "지수스",
+          "license": "CC BY-NC-ND 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ko",
+          "sourceUrl": "https://jeesus.tistory.com/481",
+          "verifiedAt": "2026-10-18"
+        },
+        "description": "도쿄의 대표 철탑으로, 외관을 보는 산책과 전망대 입장을 나눠 선택할 수 있어요. 주변 조조지에서도 탑을 바라볼 수 있어요.",
+        "address": "미나토, 도쿄",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "탑에 오를지 탑이 보이는 곳에서 사진을 찍을지 먼저 정하세요. 전망대별 높이·입장권이 다르므로 원하는 층을 확인하세요.",
+        "lat": 35.658611,
+        "lng": 139.745556,
+        "area": "미나토",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Tokyo/Minato",
+            "url": "https://en.wikivoyage.org/wiki/Tokyo/Minato#Tokyo_Tower",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "tokyo-review-a759547eabbc",
+        "cityId": "tokyo",
+        "name": "조조지",
+        "english": "Zōjō-ji Temple · 増上寺",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "도쿠가와 쇼군가와 관련된 사찰로, 도쿄타워 주변에서 역사 공간을 함께 둘러볼 수 있어요.",
+        "address": "Shibakoen 4-7-35",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도쿄타워 외관을 보는 산책과 묶어 보세요. 묘역·건물의 별도 관람 조건과 종교 행사 중 접근 범위를 확인하세요.",
+        "lat": 35.657479,
+        "lng": 139.748376,
+        "area": "미나토",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Tokyo/Minato",
+            "url": "https://en.wikivoyage.org/wiki/Tokyo/Minato#Z%C5%8Dj%C5%8D-ji_Temple",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "tokyo-review-5aadf4462382",
+        "cityId": "tokyo",
+        "name": "네즈 미술관",
+        "english": "Nezu Museum",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "네즈 가이치로의 개인 미술 수집을 바탕으로 한 미술관이에요. 전통 미술을 차분히 살펴보는 일정에 어울려요.",
+        "address": "6-5-1 Minamiaoyama",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "특정 작품을 보기 위해 간다면 방문 날짜의 전시 목록을 먼저 확인하세요. 소장품이 항상 모두 전시되는 것은 아니에요.",
+        "lat": 35.66216,
+        "lng": 139.717603,
+        "area": "미나토",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Tokyo/Minato",
+            "url": "https://en.wikivoyage.org/wiki/Tokyo/Minato#Nezu_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "tokyo-review-c0b8a061d5c7",
+        "cityId": "tokyo",
+        "name": "팀랩 보더리스",
+        "english": "Mori Building Digital Art Museum: teamLab Borderless · 森ビル デジタルアート ミュージアム：エプソン チームラボボーダレス (チームラボボーダレス, 麻布台ヒルズ, 東京)",
+        "category": "관광",
+        "image": "/images/commons-069-tokyo-review-c0b8a061d5c7.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-tokyo-review-c0b8a061d5c7.jpg",
+          "author": "DannyWithLove",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:TeamLab_Borderless_Azabudai_Hills.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "빛·영상이 공간과 어우러지는 몰입형 디지털 아트 미술관이에요. 작품 사이를 이동하며 관람하는 형태예요.",
+        "address": "Azabudai Hills Garden Plaza B B1 5-9, Toranomon, Minato-ku,",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "비슷한 이름의 다른 팀랩 전시와 혼동하지 않게 예약권의 지점·주소를 확인하세요. 예약 시간과 촬영·반입 조건도 함께 확인하세요.",
+        "lat": 35.660882,
+        "lng": 139.740657,
+        "area": "미나토",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Tokyo/Minato",
+            "url": "https://en.wikivoyage.org/wiki/Tokyo/Minato#Mori_Building_Digital_Art_Museum%3A_teamLab_Borderless",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "tokyo-review-4318d577a3dc",
+        "cityId": "tokyo",
+        "name": "국립신미술관",
+        "english": "National Art Center · 国立新美術館",
+        "category": "관광",
+        "image": "/images/commons-069-tokyo-review-4318d577a3dc.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-tokyo-review-4318d577a3dc.jpg",
+          "author": "Takipoint123",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:National_Art_Center_Tokyo_Interior_at_Dusk.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "물결 모양의 건축과 기획 전시가 특징인 국립신미술관이에요. 상설 소장품보다 방문 시점의 전시를 보고 선택하는 곳이에요.",
+        "address": "7-22-2 Roppongi",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "전시마다 일정과 입장 조건이 달라요. 건물 구경과 유료 전시 관람 중 목적을 정하고 방문하세요.",
+        "lat": 35.66528,
+        "lng": 139.72634,
+        "area": "롯폰기",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Tokyo/Roppongi",
+            "url": "https://en.wikivoyage.org/wiki/Tokyo/Roppongi#National_Art_Center",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "tokyo-review-c99cc24ca4bb",
+        "cityId": "tokyo",
+        "name": "모리 미술관",
+        "english": "Mori Art Museum · 森美術館",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "롯폰기의 박물관·전시 공간.",
+        "address": "Mori Tower, 53F",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.660901,
+        "lng": 139.729424,
+        "area": "롯폰기",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Tokyo/Roppongi",
+            "url": "https://en.wikivoyage.org/wiki/Tokyo/Roppongi#Mori_Art_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "tokyo-review-3633db0e05bd",
+        "cityId": "tokyo",
+        "name": "도쿄 시티뷰",
+        "english": "Tokyo City View",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "롯폰기의 박물관·전시 공간.",
+        "address": "Mori Tower, 52F",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.660901,
+        "lng": 139.729424,
+        "area": "롯폰기",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Tokyo/Roppongi",
+            "url": "https://en.wikivoyage.org/wiki/Tokyo/Roppongi#Tokyo_City_View",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "tokyo-review-1d57af2089ad",
+        "cityId": "tokyo",
+        "name": "일본과학미래관",
+        "english": "Miraikan · 日本科学未来館",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "오다이바의 박물관·전시 공간. 과학 전시를 살펴볼 수 있습니다.",
+        "address": "2-41 Aomi, Koto-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.61918,
+        "lng": 139.77662,
+        "area": "오다이바",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Tokyo/Odaiba",
+            "url": "https://en.wikivoyage.org/wiki/Tokyo/Odaiba#Miraikan",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "tokyo-review-a43000ec81b8",
+        "cityId": "tokyo",
+        "name": "오다이바 해변공원",
+        "english": "Odaiba Marine Park · お台場海浜公園, Odaiba Kaihin Kōen",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "오다이바의 해변.",
+        "address": "1-4 Daiba, Minato-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.63084,
+        "lng": 139.77672,
+        "area": "오다이바",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Tokyo/Odaiba",
+            "url": "https://en.wikivoyage.org/wiki/Tokyo/Odaiba#Odaiba_Marine_Park",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "tokyo-review-adfa78e730d3",
+        "cityId": "tokyo",
+        "name": "레인보우 브리지",
+        "english": "Rainbow Bridge",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "미나토의 수변·항구 산책 장소.",
+        "address": "미나토, 도쿄",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.636389,
+        "lng": 139.763611,
+        "area": "미나토",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Tokyo/Minato",
+            "url": "https://en.wikivoyage.org/wiki/Tokyo/Minato#Rainbow_Bridge",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "tokyo-review-aa85e6696341",
+        "cityId": "tokyo",
+        "name": "도쿄 장난감미술관",
+        "english": "Tokyo Toy Museum · 東京おもちゃ美術館 Tokyo omocha bijutsukan",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "신주쿠의 박물관·전시 공간.",
+        "address": "Yotsuya 4-20",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.689646,
+        "lng": 139.718064,
+        "area": "신주쿠",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Tokyo/Shinjuku",
+            "url": "https://en.wikivoyage.org/wiki/Tokyo/Shinjuku#Tokyo_Toy_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "tokyo-review-e9bf9837956b",
+        "cityId": "tokyo",
+        "name": "긴자 블로섬",
+        "english": "Ginza Blossom · 銀座ブロッサム",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "긴자의 둘러볼 수 있는 장소.",
+        "address": "Ginza 2-15-6",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.671199,
+        "lng": 139.771172,
+        "area": "긴자",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Tokyo/Ginza",
+            "url": "https://en.wikivoyage.org/wiki/Tokyo/Ginza#Ginza_Blossom",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "tokyo-review-1ad89942ca8b",
+        "cityId": "tokyo",
+        "name": "노기 저택·신사",
+        "english": "Nogi's house and shrine · 乃木神社",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "아카사카의 신사·사당.",
+        "address": "Akasaka 8-11-27",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.66836,
+        "lng": 139.72787,
+        "area": "아카사카",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Tokyo/Akasaka",
+            "url": "https://en.wikivoyage.org/wiki/Tokyo/Akasaka#Nogi%27s_house_and_shrine",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "tokyo-review-6ba0e6eeb463",
+        "cityId": "tokyo",
+        "name": "신바시 증기기관차 광장",
+        "english": "Shinbashi Steam Locomotive Square · 新橋SL広場",
+        "category": "관광",
+        "image": "/images/commons-069-tokyo-review-6ba0e6eeb463.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-tokyo-review-6ba0e6eeb463.jpg",
+          "author": "Photograph by Mike Peel (www.mikepeel.net).",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:At_Tokyo_2024_677.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "도쿄의 둘러볼 수 있는 장소.",
+        "address": "2-7 Shinbashi",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.667071,
+        "lng": 139.757591,
+        "area": "도쿄",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Tokyo/Shinbashi",
+            "url": "https://en.wikivoyage.org/wiki/Tokyo/Shinbashi#Shinbashi_Steam_Locomotive_Square",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "tokyo-review-2f2d728a81c7",
+        "cityId": "tokyo",
+        "name": "도쿄 광고박물관",
+        "english": "Advertising Museum Tokyo · 広告とマーケティングの資料館, kōkoku to māketingu no shiryōkan",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "시오도메의 박물관·전시 공간. 지역·역사 자료를 살펴볼 수 있습니다.",
+        "address": "B1F Caretta Shiodome, Higashi-Shinbashi 1-8-2",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.66469,
+        "lng": 139.76217,
+        "area": "시오도메",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Tokyo/Shiodome",
+            "url": "https://en.wikivoyage.org/wiki/Tokyo/Shiodome#Advertising_Museum_Tokyo",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "tokyo-review-6af4eecbbacf",
+        "cityId": "tokyo",
+        "name": "도쿄 국제포럼",
+        "english": "Tokyo International Forum · 東京国際フォーラム, Tōkyō Kokusai Fōramu",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "지요다의 성당·교회.",
+        "address": "located in front of Yurakuchō station",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.676925,
+        "lng": 139.7642,
+        "area": "지요다",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Tokyo/Chiyoda",
+            "url": "https://en.wikivoyage.org/wiki/Tokyo/Chiyoda#Tokyo_International_Forum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "tokyo-review-3294637baa6c",
+        "cityId": "tokyo",
+        "name": "도쿄 미드타운",
+        "english": "Tokyo Midtown",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "아카사카의 박물관·전시 공간.",
+        "address": "9-7-1 Akasaka",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.665833,
+        "lng": 139.731111,
+        "area": "아카사카",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Tokyo/Akasaka",
+            "url": "https://en.wikivoyage.org/wiki/Tokyo/Akasaka#Tokyo_Midtown",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "tokyo-review-8e1e6e4bd613",
+        "cityId": "tokyo",
+        "name": "가라스모리 신사",
+        "english": "Karasumori Shrine · 烏森神社",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "도쿄의 신사·사당.",
+        "address": "2-15-5 Shinbashi",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.666683,
+        "lng": 139.756748,
+        "area": "도쿄",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Tokyo/Shinbashi",
+            "url": "https://en.wikivoyage.org/wiki/Tokyo/Shinbashi#Karasumori_Shrine",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "tokyo-review-29bc8a66c926",
+        "cityId": "tokyo",
+        "name": "옛 신바시 정거장",
+        "english": "Old Shinbashi Railway Station · 旧新橋停車場, Kyū-shinbashi Teishajō",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "시오도메의 둘러볼 수 있는 장소.",
+        "address": "시오도메, 도쿄",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.6658,
+        "lng": 139.7614,
+        "area": "시오도메",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Tokyo/Shiodome",
+            "url": "https://en.wikivoyage.org/wiki/Tokyo/Shiodome#Old_Shinbashi_Railway_Station",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "tokyo-review-9ca10e4dfc23",
+        "cityId": "tokyo",
+        "name": "마치 에큐트 간다 만세이바시",
+        "english": "mAAch ecute Kanda Manseibashi · マーチエキュート神田万世橋",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "지요다의 시장·쇼핑 공간.",
+        "address": "Kanda-Sudachō 1-25-4",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.6972,
+        "lng": 139.7703,
+        "area": "지요다",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Tokyo/Chiyoda",
+            "url": "https://en.wikivoyage.org/wiki/Tokyo/Chiyoda#mAAch_ecute_Kanda_Manseibashi",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "tokyo-review-06f264a9b920",
+        "cityId": "tokyo",
+        "name": "쓰키지 혼간지",
+        "english": "Tsukiji Hongwanji · 築地本願寺",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "주오의 사찰.",
+        "address": "3-15-1 Tsukiji",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.666472,
+        "lng": 139.772317,
+        "area": "주오",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Tokyo/Chuo",
+            "url": "https://en.wikivoyage.org/wiki/Tokyo/Chuo#Tsukiji_Hongwanji",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "tokyo-review-8ae79d65d27b",
+        "cityId": "tokyo",
+        "name": "21·21 디자인 사이트",
+        "english": "21_21 Design Sight",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "아카사카의 둘러볼 수 있는 장소.",
+        "address": "Midtown Hinokichō Park",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.6675,
+        "lng": 139.73027,
+        "area": "아카사카",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Tokyo/Akasaka",
+            "url": "https://en.wikivoyage.org/wiki/Tokyo/Akasaka#21_21_Design_Sight",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "tokyo-review-1f1fae01955c",
+        "cityId": "tokyo",
+        "name": "시오가마 신사",
+        "english": "Shiogama Shrine",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "도쿄의 신사·사당.",
+        "address": "5-19-7 Shinbashi",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.66302,
+        "lng": 139.754892,
+        "area": "도쿄",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Tokyo/Shinbashi",
+            "url": "https://en.wikivoyage.org/wiki/Tokyo/Shinbashi#Shiogama_Shrine",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "tokyo-review-49114b953ec2",
+        "cityId": "tokyo",
+        "name": "후지 텔레비전 사옥",
+        "english": "Fuji TV Building",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "오다이바의 둘러볼 수 있는 장소.",
+        "address": "2-4 Daiba, Minato-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.62668,
+        "lng": 139.77418,
+        "area": "오다이바",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Tokyo/Odaiba",
+            "url": "https://en.wikivoyage.org/wiki/Tokyo/Odaiba#Fuji_TV_Building",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "tokyo-review-25afb49b9f0b",
+        "cityId": "tokyo",
+        "name": "파나소닉 시오도메 미술관",
+        "english": "Panasonic Shiodome Museum of Art · パナソニック汐留美術館",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "시오도메의 박물관·전시 공간.",
+        "address": "4F National Center",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.66582,
+        "lng": 139.76195,
+        "area": "시오도메",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Tokyo/Shiodome",
+            "url": "https://en.wikivoyage.org/wiki/Tokyo/Shiodome#Panasonic_Shiodome_Museum_of_Art",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "tokyo-review-e59901e7d169",
+        "cityId": "tokyo",
+        "name": "시부야 센터가이",
+        "english": "Center Gai · センター街 Sentaa-gai",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "시부야의 둘러볼 수 있는 장소.",
+        "address": "시부야, 도쿄",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.659835,
+        "lng": 139.700104,
+        "area": "시부야",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Tokyo/Shibuya",
+            "url": "https://en.wikivoyage.org/wiki/Tokyo/Shibuya#Center_Gai",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "tokyo-review-523262bcd08d",
+        "cityId": "tokyo",
+        "name": "도쿄 소방박물관",
+        "english": "Fire Museum · 消防博物館",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "신주쿠의 박물관·전시 공간.",
+        "address": "Yotsuya 4-10",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.68836,
+        "lng": 139.7202,
+        "area": "신주쿠",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Tokyo/Shinjuku",
+            "url": "https://en.wikivoyage.org/wiki/Tokyo/Shinjuku#Fire_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "tokyo-review-fb1a5df5620e",
+        "cityId": "tokyo",
+        "name": "일본 국회의사당",
+        "english": "National Diet Building · 国会議事堂",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "지요다의 둘러볼 수 있는 장소.",
+        "address": "지요다, 도쿄",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.676107,
+        "lng": 139.744587,
+        "area": "지요다",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Tokyo/Chiyoda",
+            "url": "https://en.wikivoyage.org/wiki/Tokyo/Chiyoda#National_Diet_Building",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "tokyo-review-03385fa41154",
+        "cityId": "tokyo",
+        "name": "니혼바시 다리",
+        "english": "Nihonbashi Bridge · 日本橋",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "주오의 수변·항구 산책 장소.",
+        "address": "주오, 도쿄",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.683696,
+        "lng": 139.774394,
+        "area": "주오",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Tokyo/Chuo",
+            "url": "https://en.wikivoyage.org/wiki/Tokyo/Chuo#Nihonbashi_Bridge",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "tokyo-review-0e6a34fdff06",
+        "cityId": "tokyo",
+        "name": "후지필름 스퀘어",
+        "english": "Fujifilm Square",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "아카사카의 온천·목욕 시설.",
+        "address": "Akasaka 9-7-3, Midtown West",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.665401,
+        "lng": 139.730268,
+        "area": "아카사카",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Tokyo/Akasaka",
+            "url": "https://en.wikivoyage.org/wiki/Tokyo/Akasaka#Fujifilm_Square",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "tokyo-review-a3563e13a0ef",
+        "cityId": "tokyo",
+        "name": "롯폰기 교차로",
+        "english": "Roppongi Crossing",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "롯폰기의 둘러볼 수 있는 장소.",
+        "address": "롯폰기, 도쿄",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.6633,
+        "lng": 139.7323,
+        "area": "롯폰기",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Tokyo/Roppongi",
+            "url": "https://en.wikivoyage.org/wiki/Tokyo/Roppongi#Roppongi_Crossing",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "tokyo-review-5dbbcfff1e2d",
+        "cityId": "tokyo",
+        "name": "오다이바 대형 건담상",
+        "english": "Giant Gundam robot",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "오다이바의 둘러볼 수 있는 장소.",
+        "address": "오다이바, 도쿄",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.6244,
+        "lng": 139.77543,
+        "area": "오다이바",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Tokyo/Odaiba",
+            "url": "https://en.wikivoyage.org/wiki/Tokyo/Odaiba#Giant_Gundam_robot",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "tokyo-review-7782aa3404b3",
+        "cityId": "tokyo",
+        "name": "덴쓰 시키극장 우미",
+        "english": "Dentsu Shiki Theater Umi · 電通四季劇場 [海], Dentsū shiki gekijō Umi",
+        "category": "바·공연",
+        "image": "/images/place-placeholder.svg",
+        "description": "시오도메의 공연장. 공연 일정에 따라 이용할 수 있습니다.",
+        "address": "시오도메, 도쿄",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "공연 일정·연령 제한·예약 여부를 방문 전에 확인하세요.",
+        "lat": 35.665028,
+        "lng": 139.762333,
+        "area": "시오도메",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Tokyo/Shiodome",
+            "url": "https://en.wikivoyage.org/wiki/Tokyo/Shiodome#Dentsu_Shiki_Theater_Umi",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "tokyo-review-bcbc453fd951",
+        "cityId": "tokyo",
+        "name": "모야이 동상",
+        "english": "Moyai statues · モヤイ像",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "시부야의 섬·바다 풍경.",
+        "address": "시부야, 도쿄",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.65731,
+        "lng": 139.69993,
+        "area": "시부야",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Tokyo/Shibuya",
+            "url": "https://en.wikivoyage.org/wiki/Tokyo/Shibuya#Moyai_statues",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "tokyo-review-99da82ca9ae5",
+        "cityId": "tokyo",
+        "name": "하나조노 신사",
+        "english": "Hanazono Shrine · 花園神社",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "신주쿠의 신사·사당.",
+        "address": "near the intersection of Meiji-dori and Yasukuni-dori",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.693553,
+        "lng": 139.705184,
+        "area": "신주쿠",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Tokyo/Shinjuku",
+            "url": "https://en.wikivoyage.org/wiki/Tokyo/Shinjuku#Hanazono_Shrine",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "tokyo-review-f86e5cc590f5",
+        "cityId": "tokyo",
+        "name": "황거",
+        "english": "Imperial Palace · 皇居 Kōkyo",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "지요다의 성·궁전 유적.",
+        "address": "지요다, 도쿄",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.6825,
+        "lng": 139.7521,
+        "area": "지요다",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Tokyo/Chiyoda",
+            "url": "https://en.wikivoyage.org/wiki/Tokyo/Chiyoda#Imperial_Palace",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "tokyo-review-dac03d2000e1",
+        "cityId": "tokyo",
+        "name": "도쿄 증권거래소",
+        "english": "Tokyo Stock Exchange · 東京証券取引所 Tokyo shoken torihikijo",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "주오의 박물관·전시 공간.",
+        "address": "2-1 Nihombashi Kabutocho",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.682667,
+        "lng": 139.778808,
+        "area": "주오",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Tokyo/Chuo",
+            "url": "https://en.wikivoyage.org/wiki/Tokyo/Chuo#Tokyo_Stock_Exchange",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "tokyo-review-ed196b1e6215",
+        "cityId": "tokyo",
+        "name": "산토리 미술관",
+        "english": "Suntory Museum of Art",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "아카사카의 박물관·전시 공간.",
+        "address": "Midtown Garden",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.666389,
+        "lng": 139.730278,
+        "area": "아카사카",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Tokyo/Akasaka",
+            "url": "https://en.wikivoyage.org/wiki/Tokyo/Akasaka#Suntory_Museum_of_Art",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "tokyo-review-f0d1e3673f9f",
+        "cityId": "tokyo",
+        "name": "스미토모 컬렉션",
+        "english": "Sumitomo Collection · 泉屋博古館, Sen-oku Hakuko kan",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "롯폰기의 둘러볼 수 있는 장소.",
+        "address": "1-5-1 Roppongi",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.665058,
+        "lng": 139.741072,
+        "area": "롯폰기",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Tokyo/Roppongi",
+            "url": "https://en.wikivoyage.org/wiki/Tokyo/Roppongi#Sumitomo_Collection",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "tokyo-review-28bf025cc346",
+        "cityId": "tokyo",
+        "name": "오다이바 자유의 여신상",
+        "english": "Odaiba Statue of Liberty",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "오다이바의 시장·쇼핑 공간.",
+        "address": "1-4 Daiba, Minato-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.627841,
+        "lng": 139.771825,
+        "area": "오다이바",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Tokyo/Odaiba",
+            "url": "https://en.wikivoyage.org/wiki/Tokyo/Odaiba#Odaiba_Statue_of_Liberty",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "tokyo-review-73907273e462",
+        "cityId": "tokyo",
+        "name": "시부야 히카리에",
+        "english": "Hikarie · 渋谷ヒカリエ",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "시부야의 둘러볼 수 있는 장소.",
+        "address": "시부야, 도쿄",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.658846,
+        "lng": 139.703049,
+        "area": "시부야",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Tokyo/Shibuya",
+            "url": "https://en.wikivoyage.org/wiki/Tokyo/Shibuya#Hikarie",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "tokyo-review-e87e437bc405",
+        "cityId": "tokyo",
+        "name": "신주쿠 서던테라스",
+        "english": "Shinjuku Southern Terrace · 新宿サザンテラス",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "신주쿠의 시장·쇼핑 공간.",
+        "address": "across from the South Exit of Shinjuku Station",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.686778,
+        "lng": 139.700694,
+        "area": "신주쿠",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Tokyo/Shinjuku",
+            "url": "https://en.wikivoyage.org/wiki/Tokyo/Shinjuku#Shinjuku_Southern_Terrace",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "tokyo-review-d7aaf7f3d7d1",
+        "cityId": "tokyo",
+        "name": "기타노마루 공원",
+        "english": "Kitanomaru Park · 北の丸公園, kita-no-maru kōen",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "지요다의 박물관·전시 공간. 과학 전시를 살펴볼 수 있습니다.",
+        "address": "지요다, 도쿄",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.691528,
+        "lng": 139.751059,
+        "area": "지요다",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Tokyo/Chiyoda",
+            "url": "https://en.wikivoyage.org/wiki/Tokyo/Chiyoda#Kitanomaru_Park",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "tokyo-dining-4259f04f2f",
+        "cityId": "tokyo",
+        "name": "아사쿠사 카게츠도",
+        "english": "Kagetsudo · 花月堂",
+        "category": "카페",
+        "image": "/images/tokyo-dining-4259f04f2f-126.jpg",
+        "photoCredit": {
+          "file": "/images/tokyo-dining-4259f04f2f-126.jpg",
+          "author": "bryan...",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%B3%A2%E8%98%BF%E9%BA%B5%E5%8C%85,_%E6%B5%85%E8%8D%89%E8%8A%B1%E6%9C%88%E5%A0%82,_%E6%B5%85%E8%8D%89,_%E6%9D%B1%E4%BA%AC,_%E6%97%A5%E6%9C%AC,_%E3%82%B8%E3%83%A3%E3%83%B3%E3%83%9C%E3%82%81%E3%82%8D%E3%82%93%E3%81%B1%E3%82%93,_%E3%81%82%E3%81%95%E3%81%8F%E3%81%95,_%E3%81%A8%E3%81%86%E3%81%8D%E3%82%87%E3%81%86,_%E3%81%AB%E3%81%A3%E3%81%BD%E3%82%93,_%E3%81%AB%E3%81%BB%E3%82%93,_Asakusa_Kagetsudo_Honten,_Asakusa,_Tokyo,_Japan,_Nippon,_Nihon_(22099257744).jpg",
+          "verifiedAt": "2026-10-17"
+        },
+        "description": "아사쿠사의 멜론빵으로 알려진 제과점입니다.",
+        "address": "Asakusa 1-18-11, Tokyo, Japan",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·공식 안내에서 확인",
+        "tip": "센소지 산책 중 간식 후보입니다. 본문에 나온 지점과 현재 본점 위치를 지도에서 대조하세요.",
+        "lat": 35.71152,
+        "lng": 139.796054,
+        "area": "아사쿠사",
+        "reviewSources": [
+          {
+            "title": "Tokyo/Asakusa · 식사·휴식",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Tokyo/Asakusa&oldid=5387494",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-17",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 eat/drink 항목을 확인했습니다. 광고 금지 편집 정책의 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "tokyo-dining-f6fccefcee",
+        "cityId": "tokyo",
+        "name": "나루토 타이야키 아사쿠사",
+        "english": "Naruto Taiyaki · 鳴門鯛焼",
+        "category": "카페",
+        "image": "/images/place-placeholder.svg",
+        "description": "팥·고구마 등의 소를 넣은 타이야키를 고를 수 있는 가게입니다.",
+        "address": "Asakusa 1-28-1, Tokyo, Japan",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·공식 안내에서 확인",
+        "tip": "테이크아웃 간식으로 비교하고 알레르기 성분을 확인하세요.",
+        "lat": 35.7121,
+        "lng": 139.7948,
+        "area": "아사쿠사",
+        "reviewSources": [
+          {
+            "title": "Tokyo/Asakusa · 식사·휴식",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Tokyo/Asakusa&oldid=5387494",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-17",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 eat/drink 항목을 확인했습니다. 광고 금지 편집 정책의 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "tokyo-dining-8c51c8587b",
+        "cityId": "tokyo",
+        "name": "아오이마루신",
+        "english": "Aoi-Marushin · 葵丸進",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "센소지 주변에서 덴푸라 식사를 할 수 있는 식당입니다.",
+        "address": "1-4-4 Asakusa, Tokyo, Japan",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·공식 안내에서 확인",
+        "tip": "관광 중 점심 후보입니다. 휴무·대기·메뉴는 공식 안내를 확인하세요.",
+        "lat": 35.711253,
+        "lng": 139.794981,
+        "area": "아사쿠사",
+        "reviewSources": [
+          {
+            "title": "Tokyo/Asakusa · 식사·휴식",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Tokyo/Asakusa&oldid=5387494",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-17",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 eat/drink 항목을 확인했습니다. 광고 금지 편집 정책의 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "tokyo-dining-a1030e9c66",
+        "cityId": "tokyo",
+        "name": "베니즈루",
+        "english": "Benizuru · 紅鶴",
+        "category": "카페",
+        "image": "/images/place-placeholder.svg",
+        "description": "니시아사쿠사의 수플레 팬케이크 가게입니다.",
+        "address": "Nishiasakusa 2-1-11, Tokyo, Japan",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·공식 안내에서 확인",
+        "tip": "예약·현장 접수 방식이 바뀔 수 있으므로 방문일의 매장 안내를 먼저 확인하세요.",
+        "lat": 35.712,
+        "lng": 139.792,
+        "area": "아사쿠사",
+        "reviewSources": [
+          {
+            "title": "Tokyo/Asakusa · 식사·휴식",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Tokyo/Asakusa&oldid=5387494",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-17",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 eat/drink 항목을 확인했습니다. 광고 금지 편집 정책의 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "tokyo-dining-40b32ed42a",
+        "cityId": "tokyo",
+        "name": "다이코쿠야 덴푸라",
+        "english": "Daikokuya · 大黒家",
+        "category": "맛집",
+        "image": "/images/tokyo-dining-40b32ed42a-126.jpg",
+        "photoCredit": {
+          "file": "/images/tokyo-dining-40b32ed42a-126.jpg",
+          "author": "clanchou from Tempura restaurant Daikokuya Tempura in Asakusa, Taito, Tokyo",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tempura_restaurant_by_clanchou_in_Asakusa,_Tokyo.jpg",
+          "verifiedAt": "2026-10-17"
+        },
+        "description": "아사쿠사의 덴푸라·덴동 식당입니다.",
+        "address": "1-38-10 Asakusa, Tokyo, Japan",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·공식 안내에서 확인",
+        "tip": "식사 시간 대기를 고려하고 본점과 별관의 운영을 구분해 확인하세요.",
+        "lat": 35.712764,
+        "lng": 139.795524,
+        "area": "아사쿠사",
+        "reviewSources": [
+          {
+            "title": "Tokyo/Asakusa · 식사·휴식",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Tokyo/Asakusa&oldid=5387494",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-17",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 eat/drink 항목을 확인했습니다. 광고 금지 편집 정책의 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "tokyo-dining-671d1c3968",
+        "cityId": "tokyo",
+        "name": "고마가타 도제우",
+        "english": "Komagata Dozeu · 駒形どぜう",
+        "category": "맛집",
+        "image": "/images/tokyo-dining-671d1c3968-126.jpg",
+        "photoCredit": {
+          "file": "/images/tokyo-dining-671d1c3968-126.jpg",
+          "author": "Aimaimyi",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Komagata_Dozeu_-01.jpg",
+          "verifiedAt": "2026-10-17"
+        },
+        "description": "아사쿠사에서 미꾸라지 전골 도제우 나베를 제공하는 전통 식당입니다.",
+        "address": "1-7-12 Asakusa, Tokyo, Japan",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·공식 안내에서 확인",
+        "tip": "생선 식감·뼈가 있는 메뉴이므로 취향과 동행자의 식단을 먼저 확인하세요.",
+        "lat": 35.70985,
+        "lng": 139.79689,
+        "area": "아사쿠사",
+        "reviewSources": [
+          {
+            "title": "Tokyo/Asakusa · 식사·휴식",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Tokyo/Asakusa&oldid=5387494",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-17",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 eat/drink 항목을 확인했습니다. 광고 금지 편집 정책의 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "tokyo-dining-a6e4a41e23",
+        "cityId": "tokyo",
+        "name": "아사쿠사 나니와야",
+        "english": "Asakusa Naniwaya",
+        "category": "카페",
+        "image": "/images/place-placeholder.svg",
+        "description": "타이야키와 일본식 디저트·차를 고를 수 있는 가게입니다.",
+        "address": "Asakusa 2-12-4, Tokyo, Japan",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·공식 안내에서 확인",
+        "tip": "센소지 북서쪽 산책 후 간식·휴식 후보입니다. 계절 메뉴와 운영일을 확인하세요.",
+        "lat": 35.714816,
+        "lng": 139.792788,
+        "area": "아사쿠사",
+        "reviewSources": [
+          {
+            "title": "Tokyo/Asakusa · 식사·휴식",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Tokyo/Asakusa&oldid=5387494",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-17",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 eat/drink 항목을 확인했습니다. 광고 금지 편집 정책의 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "tokyo-balance-66ca51339a",
+        "cityId": "tokyo",
+        "name": "아카시아 신주쿠",
+        "english": "Acacia Shinjuku",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "양배추 롤 스튜와 양식 정식을 내는 신주쿠의 식당입니다.",
+        "address": "Shinjuku 3-22-10",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "지점과 주문 방식, 식단 제한을 확인하고 식사 일정에 넣어 보세요. 메뉴·영업시간은 방문 전 확인하세요.",
+        "lat": 35.693096,
+        "lng": 139.701569,
+        "area": "신주쿠·가구라자카",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Tokyo/Shinjuku",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Tokyo/Shinjuku&oldid=5393104",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 eat 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "tokyo-balance-f5e9c0c11a",
+        "cityId": "tokyo",
+        "name": "갓포 나카지마",
+        "english": "Kappō Nakajima",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "정어리 요리와 일본식 정식을 고를 수 있는 식당입니다.",
+        "address": "Shinjuku 3-32-5 basement",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "지점과 주문 방식, 식단 제한을 확인하고 식사 일정에 넣어 보세요. 메뉴·영업시간은 방문 전 확인하세요.",
+        "area": "신주쿠·가구라자카",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Tokyo/Shinjuku",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Tokyo/Shinjuku&oldid=5393104",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 eat 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "tokyo-balance-9c6882656d",
+        "cityId": "tokyo",
+        "name": "아카 아마 커피",
+        "english": "Akha Ama",
+        "category": "카페",
+        "image": "/images/place-placeholder.svg",
+        "description": "가구라자카 산책 중 커피를 마실 수 있는 카페입니다.",
+        "address": "1-25 Akagi Motomachi",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "산책이나 쇼핑 사이에 쉬어갈 후보입니다. 좌석 이용·마지막 주문 시간은 방문 전 확인하세요.",
+        "lat": 35.704539,
+        "lng": 139.737249,
+        "area": "신주쿠·가구라자카",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Tokyo/Shinjuku",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Tokyo/Shinjuku&oldid=5393104",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "tokyo-balance-266f23d6a2",
+        "cityId": "tokyo",
+        "name": "호텔 선루트 플라자 신주쿠",
+        "english": "Hotel Sunroute Plaza Shinjuku",
+        "category": "숙소",
+        "image": "/images/place-placeholder.svg",
+        "description": "신주쿠역 주변의 이동을 고려해 비교할 수 있는 호텔입니다.",
+        "address": "2-3-1 Yoyogi, Shibuya-ku",
+        "duration": "숙박 일정에 맞춰 지정",
+        "cost": "숙박일·객실·공식 안내에서 확인",
+        "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+        "area": "신주쿠·가구라자카",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Tokyo/Shinjuku",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Tokyo/Shinjuku&oldid=5393104",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "tokyo-balance-737773ce21",
+        "cityId": "tokyo",
+        "name": "게이오 플라자 호텔",
+        "english": "Keio Plaza Hotel",
+        "category": "숙소",
+        "image": "/images/place-placeholder.svg",
+        "description": "신주쿠 서쪽 고층 건물 지구의 호텔 숙박 후보입니다.",
+        "address": "2-2-1 Nishi-Shinjuku",
+        "duration": "숙박 일정에 맞춰 지정",
+        "cost": "숙박일·객실·공식 안내에서 확인",
+        "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+        "lat": 35.689583,
+        "lng": 139.694466,
+        "area": "신주쿠·가구라자카",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Tokyo/Shinjuku",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Tokyo/Shinjuku&oldid=5393104",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "tokyo-balance-d5adffc4bb",
+        "cityId": "tokyo",
+        "name": "바 알바트로스 골든가이",
+        "english": "Bar Albatross-G",
+        "category": "바·공연",
+        "image": "/images/place-placeholder.svg",
+        "description": "골든가이에서 칵테일을 즐길 수 있는 작은 바입니다.",
+        "address": "#2F 5th Ave",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "공연 일정·입장 연령·드레스 코드·입장료와 최소 주문 조건을 방문 전 확인하세요.",
+        "area": "신주쿠·가구라자카",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Tokyo/Shinjuku",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Tokyo/Shinjuku&oldid=5393104",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "tokyo-balance-d11f30abc8",
+        "cityId": "tokyo",
+        "name": "뉴욕 바 앤 그릴",
+        "english": "New York Bar & Grill",
+        "category": "바·공연",
+        "image": "/images/place-placeholder.svg",
+        "description": "파크 하얏트 도쿄 상층의 전망과 함께 방문하는 바입니다.",
+        "address": "Nishi-Shinjuku 3-7-1",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "공연 일정·입장 연령·드레스 코드·입장료와 최소 주문 조건을 방문 전 확인하세요.",
+        "area": "신주쿠·가구라자카",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Tokyo/Shinjuku",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Tokyo/Shinjuku&oldid=5393104",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "tokyo-balance-22454d9923",
+        "cityId": "tokyo",
+        "name": "이세탄 신주쿠점",
+        "english": "Isetan",
+        "category": "쇼핑",
+        "image": "/images/place-placeholder.svg",
+        "description": "의류와 식품관을 함께 둘러볼 수 있는 신주쿠의 백화점입니다.",
+        "address": "Shinjuku 3-14-1",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "품목과 매장별 운영시간을 확인하고 구입할 물건을 정해 둘러보세요.",
+        "lat": 35.691381,
+        "lng": 139.70412,
+        "area": "신주쿠·가구라자카",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Tokyo/Shinjuku",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Tokyo/Shinjuku&oldid=5393104",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 buy 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "tokyo-balance-f569dc38a6",
+        "cityId": "tokyo",
+        "name": "기노쿠니야 서점 신주쿠",
+        "english": "Books Kinokuniya",
+        "category": "쇼핑",
+        "image": "/images/place-placeholder.svg",
+        "description": "일본어와 외국어 서적을 찾을 수 있는 신주쿠의 서점입니다.",
+        "address": "신주쿠·가구라자카, 도쿄",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "품목과 매장별 운영시간을 확인하고 구입할 물건을 정해 둘러보세요.",
+        "area": "신주쿠·가구라자카",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Tokyo/Shinjuku",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Tokyo/Shinjuku&oldid=5393104",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 buy 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "tokyo-balance-b43ed57afc",
+        "cityId": "tokyo",
+        "name": "신주쿠 피카딜리",
+        "english": "Shinjuku Piccadilly",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "신주쿠에서 상영작을 골라 관람할 수 있는 영화관입니다.",
+        "address": "Shinjuku 3-15-5",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "운영 회차·예약·참가 조건을 확인하세요. 물놀이와 야외 활동은 당일 날씨·안전 안내를 따르세요.",
+        "lat": 35.69272,
+        "lng": 139.70379,
+        "area": "신주쿠·가구라자카",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Tokyo/Shinjuku",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Tokyo/Shinjuku&oldid=5393104",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 do 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "tokyo-balance-98b1bed6ab",
+        "cityId": "tokyo",
+        "name": "하나야시키",
+        "english": "Hanayashiki · 花やしき",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "아사쿠사에 있는 놀이공원으로 가족 일정에 넣어볼 수 있습니다.",
+        "address": "아사쿠사, 도쿄",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "운영 회차·예약·참가 조건을 확인하세요. 물놀이와 야외 활동은 당일 날씨·안전 안내를 따르세요.",
+        "lat": 35.715497,
+        "lng": 139.794689,
+        "area": "아사쿠사",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Tokyo/Asakusa",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Tokyo/Asakusa&oldid=5387494",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 do 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "id": "tokyo-overview",
+        "title": "도시 소개",
+        "body": "숙소 주변 철도 노선과 방문 구역을 먼저 정하세요. 도쿄 동쪽과 서쪽을 매번 왕복하는 계획은 피하는 편이 좋습니다."
+      },
+      {
+        "id": "tokyo-before",
+        "title": "출발 전 준비",
+        "body": "전망대·체험 전시처럼 시간 지정 티켓이 있는 곳은 날짜·입장 시간·취소 조건을 확인하세요.\n\n공항으로 돌아가는 날에는 숙소의 짐 보관과 공항 노선 환승을 먼저 정하세요."
+      },
+      {
+        "id": "tokyo-arrival",
+        "title": "공항과 시내 이동",
+        "body": "하네다·나리타: 도착 공항을 구분하고 숙소 역에 맞는 철도·버스를 고르세요. 같은 도쿄행이어도 도착역이 다릅니다.\n\n시내 철도: JR·도쿄메트로·도에이 등 운영사가 달라 패스 적용 범위를 확인해야 합니다. 도시 안에서만 움직이면 전국 패스를 먼저 살 이유는 없습니다."
+      },
+      {
+        "id": "tokyo-stay",
+        "title": "숙소 지역 선택",
+        "body": "신주쿠·시부야: 서쪽 쇼핑·식사 일정이 많을 때 비교하세요. 역 출구와 숙소까지 실제 도보 경로가 중요합니다.\n\n우에노·아사쿠사: 동쪽 관광을 중심으로 잡을 때 비교하세요. 공항 노선에서 숙소까지 마지막 환승을 확인하세요."
+      },
+      {
+        "id": "tokyo-plan",
+        "title": "일정 계획",
+        "body": "하루: 동쪽 또는 서쪽 한 권역을 고르세요.\n\n3일 이상: 구역별 하루에 더해 취향 일정 하루를 남기고, 장거리 근교는 별도 날짜로 분리하세요."
+      },
+      {
+        "id": "tokyo-notes",
+        "title": "현장 팁",
+        "body": "신주쿠·시부야 등 큰 역에서는 출구가 달라지면 도보 동선도 달라집니다.\n\n아침부터 심야까지 전부 유료 명소로 채우지 말고 식사·대기 시간을 비워두세요."
+      },
+      {
+        "id": "tokyo-rain",
+        "title": "비 오는 날",
+        "body": "아사쿠사 같은 야외 산책을 줄이고 미술관·실내 전시로 한 구역만 이동하세요. 예약 전시의 시간 변경 가능 여부를 확인하세요."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Japan-guide · 도쿄",
+        "url": "https://www.japan-guide.com/e/e2164.html",
+        "accessedAt": "2026-10-15"
+      }
+    ],
+    "status": "published",
+    "requestId": null,
+    "createdAt": "2026-10-15T00:00:00.000Z",
+    "updatedAt": "2026-10-15T00:00:00.000Z",
+    "publishedAt": "2026-10-15T00:00:00.000Z"
+  },
+  "practicalGuide": {
+    "cityId": "tokyo",
+    "firstVisit": "숙소 주변 철도 노선과 방문 구역을 먼저 정하세요. 도쿄 동쪽과 서쪽을 매번 왕복하는 계획은 피하는 편이 좋습니다.",
+    "bases": [
+      {
+        "name": "신주쿠·시부야",
+        "advice": "서쪽 쇼핑·식사 일정이 많을 때 비교하세요. 역 출구와 숙소까지 실제 도보 경로가 중요합니다."
+      },
+      {
+        "name": "우에노·아사쿠사",
+        "advice": "동쪽 관광을 중심으로 잡을 때 비교하세요. 공항 노선에서 숙소까지 마지막 환승을 확인하세요."
+      }
+    ],
+    "arrival": [
+      {
+        "name": "하네다·나리타",
+        "advice": "도착 공항을 구분하고 숙소 역에 맞는 철도·버스를 고르세요. 같은 도쿄행이어도 도착역이 다릅니다."
+      },
+      {
+        "name": "시내 철도",
+        "advice": "JR·도쿄메트로·도에이 등 운영사가 달라 패스 적용 범위를 확인해야 합니다. 도시 안에서만 움직이면 전국 패스를 먼저 살 이유는 없습니다."
+      }
+    ],
+    "timePlan": [
+      {
+        "name": "하루",
+        "advice": "동쪽 또는 서쪽 한 권역을 고르세요."
+      },
+      {
+        "name": "3일 이상",
+        "advice": "구역별 하루에 더해 취향 일정 하루를 남기고, 장거리 근교는 별도 날짜로 분리하세요."
+      }
+    ],
+    "before": [
+      "전망대·체험 전시처럼 시간 지정 티켓이 있는 곳은 날짜·입장 시간·취소 조건을 확인하세요.",
+      "공항으로 돌아가는 날에는 숙소의 짐 보관과 공항 노선 환승을 먼저 정하세요."
+    ],
+    "pitfalls": [
+      "신주쿠·시부야 등 큰 역에서는 출구가 달라지면 도보 동선도 달라집니다.",
+      "아침부터 심야까지 전부 유료 명소로 채우지 말고 식사·대기 시간을 비워두세요."
+    ],
+    "rainPlan": "아사쿠사 같은 야외 산책을 줄이고 미술관·실내 전시로 한 구역만 이동하세요. 예약 전시의 시간 변경 가능 여부를 확인하세요.",
+    "courses": [
+      {
+        "id": "tokyo-course-1",
+        "title": "하라주쿠·시부야 산책",
+        "pace": "반나절–하루 · 도보",
+        "why": "메이지 신궁에서 시부야 방향으로 이어가는 서쪽 권역입니다.",
+        "placeIds": [
+          "tokyo-meiji",
+          "tokyo-shibuya",
+          "tokyo-review-a3a4540c66ad"
+        ]
+      },
+      {
+        "id": "tokyo-course-2",
+        "title": "쓰키지와 시오도메 정원",
+        "pace": "반나절 · 도보",
+        "why": "시장 식사와 정원을 묶고 이동을 짧게 유지하는 제안입니다.",
+        "placeIds": [
+          "tokyo-review-a45369c140d6",
+          "tokyo-review-06f264a9b920",
+          "tokyo-review-06cfc84fff67"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "Japan-guide · 도쿄",
+        "url": "https://www.japan-guide.com/e/e2164.html",
+        "checkedAt": "2026-10-15",
+        "status": "read"
+      }
+    ],
+    "researchNote": "여행 안내 본문을 읽고 지역별 계획을 편집했습니다. 코스는 직접 작성한 제안이며 이동시간·예약 가능 여부를 실시간 계산한 결과가 아닙니다."
+  },
+  "plans": {
+    "cityId": "tokyo",
+    "days": [
+      {
+        "id": "tokyo-day-1",
+        "title": "하라주쿠·시부야 산책",
+        "pace": "반나절–하루 · 도보",
+        "why": "메이지 신궁에서 시부야 방향으로 이어가는 서쪽 권역입니다.",
+        "placeIds": [
+          "tokyo-meiji",
+          "tokyo-shibuya",
+          "tokyo-review-a3a4540c66ad"
+        ]
+      },
+      {
+        "id": "tokyo-day-2",
+        "title": "쓰키지와 시오도메 정원",
+        "pace": "반나절 · 도보",
+        "why": "시장 식사와 정원을 묶고 이동을 짧게 유지하는 제안입니다.",
+        "placeIds": [
+          "tokyo-review-a45369c140d6",
+          "tokyo-review-06f264a9b920",
+          "tokyo-review-06cfc84fff67"
+        ]
+      },
+      {
+        "id": "tokyo-day-3",
+        "title": "아사쿠사 사찰과 먹거리",
+        "pace": "철도·도보",
+        "why": "센소지 주변에서 식사와 간식을 고릅니다. 인기 가게 대기 시간을 남깁니다.",
+        "placeIds": [
+          "tokyo-sensoji",
+          "tokyo-dining-4259f04f2f",
+          "tokyo-dining-671d1c3968"
+        ]
+      },
+      {
+        "id": "tokyo-day-4",
+        "title": "신주쿠의 정원과 전망",
+        "pace": "철도·도보",
+        "why": "공원 개방 시간에 맞춰 시작하고 신주쿠 구역 안에서 마무리합니다.",
+        "placeIds": [
+          "tokyo-review-90d6c70e1e86",
+          "tokyo-review-99da82ca9ae5",
+          "tokyo-review-e4e7585206e4"
+        ]
+      },
+      {
+        "id": "tokyo-day-5",
+        "title": "오다이바 해변과 실내 관람",
+        "pace": "철도·도보",
+        "why": "오다이바 안에서 과학관·건담·해변을 묶습니다. 전시 휴관일을 확인합니다.",
+        "placeIds": [
+          "tokyo-review-1d57af2089ad",
+          "tokyo-review-5dbbcfff1e2d",
+          "tokyo-review-a43000ec81b8"
+        ]
+      }
+    ]
+  }
+}

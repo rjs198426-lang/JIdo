@@ -1,0 +1,1773 @@
+{
+  "guide": {
+    "id": "osaka",
+    "scope": "city",
+    "city": {
+      "id": "osaka",
+      "name": "오사카",
+      "english": "OSAKA · 大阪",
+      "country": "일본",
+      "region": "일본",
+      "image": "/images/place-osaka-castle.jpg",
+      "photoCredit": {
+        "file": "/images/place-osaka-castle.jpg",
+        "author": "663highland",
+        "license": "CC BY 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Osaka_Castle_03bs3200.jpg",
+        "verifiedAt": "2026-10-14"
+      },
+      "tagline": "난바의 저녁과 우메다 전망",
+      "description": "난바·우메다·오사카성 주변을 나눠 계획하고, 교토·고베 이동을 이어갈 수 있습니다.",
+      "tags": [
+        "도시 산책",
+        "자유여행"
+      ],
+      "flight": "간사이·이타미공항",
+      "currency": "일본 엔 · JPY",
+      "timeDifference": "한국과 시차 없음",
+      "season": "계절별 일정 선택",
+      "accent": "#eaf4ef"
+    },
+    "places": [
+      {
+        "id": "osaka-castle",
+        "cityId": "osaka",
+        "name": "오사카성",
+        "english": "Osaka Castle · 大阪城 Osaka-jō",
+        "category": "관광",
+        "image": "/images/place-osaka-castle.jpg",
+        "photoCredit": {
+          "file": "/images/place-osaka-castle.jpg",
+          "author": "663highland",
+          "license": "CC BY 2.5",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Osaka_Castle_03bs3200.jpg",
+          "verifiedAt": "2026-10-14"
+        },
+        "description": "해자와 넓은 공원을 지나 천수각으로 향하는 오사카의 대표 명소예요. 공원 산책과 실내 관람을 나눠 계획할 수 있어요.",
+        "address": "오사카, 오사카",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "모리노미야역에서 공원에 도착해도 천수각까지는 더 걸어가야 해요. 큰 짐을 들고 성까지 이동하지 않도록 보관 장소를 먼저 확인하고 도보 시간을 넉넉히 잡으세요.",
+        "lat": 34.68722,
+        "lng": 135.52583,
+        "area": "오사카",
+        "reviewSources": [
+          {
+            "title": "[일본/오사카/관광지] 12월 7일. 오사카성에 가다. (관광 정보)",
+            "url": "https://strongestlonghairyoungman.tistory.com/118",
+            "kind": "visit-review",
+            "checkedAt": "2026-10-16",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "직접 방문한 동선·관람 경험의 본문과 본문 링크를 확인했습니다. 협찬·원고료·체험단 표시와 예약 제휴·할인 코드 유도가 발견되지 않았습니다. 오래된 요금·영업시간·공사 정보는 반영하지 않았습니다. 숨겨진 협찬 여부나 현재 운영을 보증하지 않습니다."
+          },
+          {
+            "title": "Wikivoyage · Osaka/Osaka castle",
+            "url": "https://en.wikivoyage.org/wiki/Osaka/Osaka_castle#Osaka_Castle",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "osaka-dotonbori",
+        "cityId": "osaka",
+        "name": "도톤보리",
+        "english": "Dōtonbori · 道頓堀",
+        "category": "관광",
+        "image": "/images/place-osaka-dotonbori.jpg",
+        "photoCredit": {
+          "file": "/images/place-osaka-dotonbori.jpg",
+          "author": "Type specimen",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Osaka_Dotonbori_Ebisu_Bridge.jpg",
+          "verifiedAt": "2026-10-14"
+        },
+        "description": "난바와 이어지는 강변 번화가. 간판과 상점, 오사카 간식을 구경하며 걷는 일정에 어울려요.",
+        "address": "Osaka, Chuo/Naniwa",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "실제 여름 방문 후기에는 인파와 더위·습도, 오래 걷는 피로가 언급돼요. 도착일에는 짐을 맡긴 뒤 짧게 둘러보고 식사·휴식 시간을 함께 잡으세요.",
+        "lat": 34.668708,
+        "lng": 135.501308,
+        "area": "미나미·난바",
+        "reviewSources": [
+          {
+            "title": "오사카 여행 후기 1일차 : 도톤보리",
+            "url": "https://blog.naver.com/ddxzzx/223566551305",
+            "kind": "visit-review",
+            "checkedAt": "2026-10-16",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "직접 방문한 동선·관람 경험의 본문과 본문 링크를 확인했습니다. 협찬·원고료·체험단 표시와 예약 제휴·할인 코드 유도가 발견되지 않았습니다. 오래된 요금·영업시간·공사 정보는 반영하지 않았습니다. 숨겨진 협찬 여부나 현재 운영을 보증하지 않습니다."
+          },
+          {
+            "title": "Wikivoyage · Osaka/Minami",
+            "url": "https://en.wikivoyage.org/wiki/Osaka/Minami#Buy",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "osaka-umeda-sky",
+        "cityId": "osaka",
+        "name": "우메다 스카이 빌딩",
+        "english": "Umeda Sky Building · 梅田スカイビル",
+        "category": "관광",
+        "image": "/images/place-osaka-umeda-sky.jpg",
+        "photoCredit": {
+          "file": "/images/place-osaka-umeda-sky.jpg",
+          "author": "Kakidai",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:2018_Umeda_Sky_Building.jpg",
+          "verifiedAt": "2026-10-14"
+        },
+        "description": "두 건물 위를 연결한 전망 시설이 특징인 우메다의 고층 건물이에요. 옥상 전망과 지하의 옛 거리 재현 공간을 구분해 볼 수 있어요.",
+        "address": "1-1-20 Oyodonaka, Kita-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "야외 전망이 목적이라면 날씨를 함께 확인하세요. 전망대 입장권과 건물 내 다른 공간의 이용 조건은 별도로 확인하세요.",
+        "lat": 34.705278,
+        "lng": 135.489722,
+        "area": "기타·우메다",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Osaka/Kita",
+            "url": "https://en.wikivoyage.org/wiki/Osaka/Kita#Umeda_Sky_Building",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "osaka-review-b0660bf9b758",
+        "cityId": "osaka",
+        "name": "쓰텐카쿠",
+        "english": "Tsūtenkaku · 通天閣",
+        "category": "관광",
+        "image": "/images/commons-069-osaka-review-b0660bf9b758.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-osaka-review-b0660bf9b758.jpg",
+          "author": "Sakai Yayoi",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Osaka_Tsutenkaku.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "신세카이 중심의 전망탑으로, 전후 오사카를 상징하는 건축물 중 하나예요. 주변 번화가와 함께 둘러보기 좋아요.",
+        "address": "덴노지, 오사카",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "전망탑 관람과 신세카이 식사·산책을 묶어 보세요. 전망 시설의 추가 체험은 기본 입장권과 구분해 확인하세요.",
+        "lat": 34.652222,
+        "lng": 135.506111,
+        "area": "덴노지",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Osaka/Tennoji",
+            "url": "https://en.wikivoyage.org/wiki/Osaka/Tennoji#Ts%C5%ABtenkaku",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "osaka-review-ce04090fee74",
+        "cityId": "osaka",
+        "name": "일본 민가 취락박물관",
+        "english": "Open Air Museum of Old Farmhouses · 日本民家集落博物館 (nihon minka shūraku hakubutsukan)",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "여러 지역의 옛 농가를 옮겨 보존한 야외 박물관이에요. 집 구조와 생활 도구를 통해 서민 생활을 살펴볼 수 있어요.",
+        "address": "Ryokuchi-koen",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "실내 전시만 보는 박물관과 달리 집 사이를 야외로 이동해요. 비·더위에 대비하고 공원 산책과 함께 계획하세요.",
+        "lat": 34.779167,
+        "lng": 135.488194,
+        "area": "북부",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Osaka/North",
+            "url": "https://en.wikivoyage.org/wiki/Osaka/North#Open_Air_Museum_of_Old_Farmhouses",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "osaka-review-9264d09dfcc7",
+        "cityId": "osaka",
+        "name": "스미요시 타이샤",
+        "english": "Sumiyoshi Grand Shrine · 住吉大社",
+        "category": "관광",
+        "image": "/images/commons-069-osaka-review-9264d09dfcc7.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-osaka-review-9264d09dfcc7.jpg",
+          "author": "Immanuelle",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sumiyoshi_Taisha-25.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "오랜 역사를 가진 신사로, 전통 건축과 연못 위 둥근 다리를 볼 수 있어요. 번화가와 다른 조용한 공간을 찾을 때 비교하기 좋아요.",
+        "address": "남부, 오사카",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "다리와 경내를 걷는 산책 일정으로 잡으세요. 종교 행사나 참배객의 동선을 막지 않는 곳에서 사진을 찍으세요.",
+        "lat": 34.612797,
+        "lng": 135.492942,
+        "area": "남부",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Osaka/South",
+            "url": "https://en.wikivoyage.org/wiki/Osaka/South#Sumiyoshi_Grand_Shrine",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "osaka-review-b1c4146a2335",
+        "cityId": "osaka",
+        "name": "덴포잔 하버빌리지",
+        "english": "Tempozan Harbor Village · 天保山ハーバービレッジ",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "수족관·관람차·쇼핑 시설이 모인 덴포잔 항만 구역이에요. 여러 시설 중 목적을 골라 방문하기 좋아요.",
+        "address": "베이 에어리어, 오사카",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "구역 전체와 가이유칸·관람차의 입장권은 별개예요. 모든 시설을 한 번에 넣기보다 우선순위를 정해 같은 지역으로 묶으세요.",
+        "lat": 34.655841,
+        "lng": 135.430235,
+        "area": "베이 에어리어",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Osaka/Bay Area",
+            "url": "https://en.wikivoyage.org/wiki/Osaka/Bay_Area#Tempozan_Harbor_Village",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "osaka-review-a7d235646b8e",
+        "cityId": "osaka",
+        "name": "구마타 신사",
+        "english": "Kumata Shrine · 杭全神社",
+        "category": "관광",
+        "image": "/images/commons-069-osaka-review-a7d235646b8e.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-osaka-review-a7d235646b8e.jpg",
+          "author": "Suikotei",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kumata_jinja_Haiden.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "히라노 구시가지의 신사로, 지역 축제와 전통 신앙 공간을 살펴볼 수 있어요.",
+        "address": "히라노, 오사카",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "여름 축제를 목적으로 간다면 해당 연도의 날짜·통행 안내를 확인하세요. 평소 경내 방문과 축제 관람의 혼잡도는 다를 수 있어요.",
+        "lat": 34.628944,
+        "lng": 135.554944,
+        "area": "히라노",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Osaka/Hirano",
+            "url": "https://en.wikivoyage.org/wiki/Osaka/Hirano#Kumata_Shrine",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "osaka-review-7e5bbdf9692c",
+        "cityId": "osaka",
+        "name": "오사카 시립과학관",
+        "english": "Osaka Science Museum · 大阪市立科学館",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "여러 층의 체험형 과학 전시와 천문 관련 시설이 있는 과학관이에요. 아이와 함께 관람할 때 비교하기 좋아요.",
+        "address": "기타·우메다, 오사카",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "전시 관람과 플라네타륨은 좌석·회차 조건을 나눠 확인하세요. 원하는 회차가 있다면 관람 순서를 먼저 정하세요.",
+        "lat": 34.69124,
+        "lng": 135.49152,
+        "area": "기타·우메다",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Osaka/Kita",
+            "url": "https://en.wikivoyage.org/wiki/Osaka/Kita#Osaka_Science_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "osaka-review-6c26a8388777",
+        "cityId": "osaka",
+        "name": "가미가타 우키요에관",
+        "english": "Kamigata Ukiyoe Museum",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "난바의 작은 우키요에 미술관으로, 일본 목판화에 관심이 있을 때 들러볼 수 있어요.",
+        "address": "1 Chome-6-4 Nanba",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "작품 설명의 제공 언어를 확인하세요. 목판화에 관심이 없다면 대형 미술관과 같은 규모를 기대하기보다 짧은 관람으로 계획하세요.",
+        "lat": 34.667977,
+        "lng": 135.5022,
+        "area": "미나미·난바",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Osaka/Minami",
+            "url": "https://en.wikivoyage.org/wiki/Osaka/Minami#Kamigata_Ukiyoe_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "osaka-review-a5288887f42e",
+        "cityId": "osaka",
+        "name": "시텐노지",
+        "english": "Shitennōji Temple · 四天王寺",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "오래된 가람 배치의 특징을 살펴볼 수 있는 사찰이에요. 현재 건물에는 전후 재건된 부분도 있어요.",
+        "address": "1-1-18 Shitennōji Tennōji-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "옛 건물 전체가 원형 그대로 남은 곳이라고 생각하기보다 배치와 종교 공간을 함께 보세요. 경내와 개별 관람 구역의 조건을 확인하세요.",
+        "lat": 34.6539,
+        "lng": 135.51645,
+        "area": "덴노지",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Osaka/Tennoji",
+            "url": "https://en.wikivoyage.org/wiki/Osaka/Tennoji#Shitenn%C5%8Dji_Temple",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "osaka-review-c96670713187",
+        "cityId": "osaka",
+        "name": "오사카 역사박물관",
+        "english": "Osaka Museum of History · 大阪歴史博物館",
+        "category": "관광",
+        "image": "/images/commons-069-osaka-review-c96670713187.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-osaka-review-c96670713187.jpg",
+          "author": "Sakai Yayoi",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Osaka_Museum_of_History_ao_01.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "오사카의 역사를 전시하며 오사카성 주변 풍경도 바라볼 수 있는 박물관이에요.",
+        "address": "1-32 Otemae 4-Chome Chuo-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "성 공원과 박물관을 같은 날 묶을지 비교해 보세요. 역사 전시와 전망 중 보고 싶은 내용을 정하면 체류 시간을 잡기 편해요.",
+        "lat": 34.682722,
+        "lng": 135.520806,
+        "area": "오사카",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Osaka/Osaka castle",
+            "url": "https://en.wikivoyage.org/wiki/Osaka/Osaka_castle#Osaka_Museum_of_History",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "osaka-review-a662f143191a",
+        "cityId": "osaka",
+        "name": "가이유칸",
+        "english": "Osaka Aquarium Kaiyukan · 海遊館",
+        "category": "관광",
+        "image": "/images/commons-069-osaka-review-a662f143191a.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-osaka-review-a662f143191a.jpg",
+          "author": "Sakai Yayoi",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kaiy%C5%ABkan.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "베이 에어리어의 수족관.",
+        "address": "1-1-10 Kaigan-dori Minato-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.654472,
+        "lng": 135.428889,
+        "area": "베이 에어리어",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Osaka/Bay Area",
+            "url": "https://en.wikivoyage.org/wiki/Osaka/Bay_Area#Osaka_Aquarium_Kaiyukan",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "osaka-review-7286c3c15094",
+        "cityId": "osaka",
+        "name": "센코지",
+        "english": "Senkō-ji Temple · 全興寺",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "히라노의 박물관·전시 공간.",
+        "address": "히라노, 오사카",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.6234,
+        "lng": 135.5553,
+        "area": "히라노",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Osaka/Hirano",
+            "url": "https://en.wikivoyage.org/wiki/Osaka/Hirano#Senk%C5%8D-ji_Temple",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "osaka-review-2378c205e94c",
+        "cityId": "osaka",
+        "name": "오사카 조폐박물관",
+        "english": "Japan Mint and Mint Museum · 造幣局",
+        "category": "관광",
+        "image": "/images/commons-069-osaka-review-2378c205e94c.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-osaka-review-2378c205e94c.jpg",
+          "author": "Mr.ちゅらさん",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Japan_Mint_Entrance_2026-04.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "기타·우메다의 박물관·전시 공간.",
+        "address": "1-1-79 Temma Kita-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.696833,
+        "lng": 135.521194,
+        "area": "기타·우메다",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Osaka/Kita",
+            "url": "https://en.wikivoyage.org/wiki/Osaka/Kita#Japan_Mint_and_Mint_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "osaka-review-90bb9ca54308",
+        "cityId": "osaka",
+        "name": "아베노 하루카스",
+        "english": "Abeno Harukas Tower",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "덴노지의 박물관·전시 공간.",
+        "address": "덴노지, 오사카",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.645947,
+        "lng": 135.514267,
+        "area": "덴노지",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Osaka/Tennoji",
+            "url": "https://en.wikivoyage.org/wiki/Osaka/Tennoji#Abeno_Harukas_Tower",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "osaka-review-9321449f0489",
+        "cityId": "osaka",
+        "name": "피스 오사카 평화박물관",
+        "english": "Peace Osaka · 大阪国際平和センター",
+        "category": "관광",
+        "image": "/images/commons-069-osaka-review-9321449f0489.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-osaka-review-9321449f0489.jpg",
+          "author": "Tokumeigakarinoaoshima",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Peace_Osaka.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "오사카의 박물관·전시 공간.",
+        "address": "오사카, 오사카",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.681667,
+        "lng": 135.53,
+        "area": "오사카",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Osaka/Osaka castle",
+            "url": "https://en.wikivoyage.org/wiki/Osaka/Osaka_castle#Peace_Osaka",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "osaka-review-3a2aec26f2ba",
+        "cityId": "osaka",
+        "name": "덴포잔 대관람차",
+        "english": "Tempozan Ferris Wheel · 天保山大観覧車",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "베이 에어리어의 산·언덕 산책 장소.",
+        "address": "베이 에어리어, 오사카",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.656166,
+        "lng": 135.431031,
+        "area": "베이 에어리어",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Osaka/Bay Area",
+            "url": "https://en.wikivoyage.org/wiki/Osaka/Bay_Area#Tempozan_Ferris_Wheel",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "osaka-review-08de55823f7b",
+        "cityId": "osaka",
+        "name": "다이넨부쓰지",
+        "english": "Dainenbutsu-ji Temple · 大念佛寺",
+        "category": "관광",
+        "image": "/images/commons-069-osaka-review-08de55823f7b.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-osaka-review-08de55823f7b.jpg",
+          "author": "Sakai Yayoi",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dainenbutsu-ji_ao_01.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "히라노의 사찰.",
+        "address": "히라노, 오사카",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.62725,
+        "lng": 135.550497,
+        "area": "히라노",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Osaka/Hirano",
+            "url": "https://en.wikivoyage.org/wiki/Osaka/Hirano#Dainenbutsu-ji_Temple",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "osaka-review-33e85c9b87f5",
+        "cityId": "osaka",
+        "name": "오사카 텐만구",
+        "english": "Osaka Tenmangū Shrine · 大阪天満宮",
+        "category": "관광",
+        "image": "/images/commons-069-osaka-review-33e85c9b87f5.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-osaka-review-33e85c9b87f5.jpg",
+          "author": "Sakai Yayoi",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Osaka_Tenmangu_Shrine_2026.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "기타·우메다의 신사·사당.",
+        "address": "2 Chome-1-8 Tenjinbashi",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.697423,
+        "lng": 135.51301,
+        "area": "기타·우메다",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Osaka/Kita",
+            "url": "https://en.wikivoyage.org/wiki/Osaka/Kita#Osaka_Tenmang%C5%AB_Shrine",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "osaka-review-71281cae7993",
+        "cityId": "osaka",
+        "name": "덴노지 동물원",
+        "english": "Tennoji Zoo · 天王寺動物園",
+        "category": "관광",
+        "image": "/images/commons-069-osaka-review-71281cae7993.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-osaka-review-71281cae7993.jpg",
+          "author": "Sakai Yayoi",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tennoji_zoo_entrance.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "덴노지의 동물 관람 시설.",
+        "address": "1-108 Chausuyamacho",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.6526,
+        "lng": 135.508,
+        "area": "덴노지",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Osaka/Tennoji",
+            "url": "https://en.wikivoyage.org/wiki/Osaka/Tennoji#Tennoji_Zoo",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "osaka-review-f2a95d63eb60",
+        "cityId": "osaka",
+        "name": "오사카 시립미술관",
+        "english": "Osaka City Museum of Fine Arts · 大阪市立美術館",
+        "category": "관광",
+        "image": "/images/commons-069-osaka-review-f2a95d63eb60.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-osaka-review-f2a95d63eb60.jpg",
+          "author": "Sakai Yayoi",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Keitakuen_and_Osaka_City_Museum_of_Fine_Arts_2026.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "덴노지의 박물관·전시 공간. 미술 작품 전시를 살펴볼 수 있습니다.",
+        "address": "1-82 Chausuyamacho",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.650111,
+        "lng": 135.510528,
+        "area": "덴노지",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Osaka/Tennoji",
+            "url": "https://en.wikivoyage.org/wiki/Osaka/Tennoji#Osaka_City_Museum_of_Fine_Arts",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "osaka-review-4e29bd7a0d28",
+        "cityId": "osaka",
+        "name": "국립 분라쿠 극장",
+        "english": "National Bunraku Theater",
+        "category": "바·공연",
+        "image": "/images/place-placeholder.svg",
+        "description": "미나미·난바의 공연장. 공연 일정에 따라 이용할 수 있습니다.",
+        "address": "1-12-１０ Nipponbashi",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "공연 일정·연령 제한·예약 여부를 방문 전에 확인하세요.",
+        "lat": 34.66751,
+        "lng": 135.508696,
+        "area": "미나미·난바",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Osaka/Minami",
+            "url": "https://en.wikivoyage.org/wiki/Osaka/Minami#National_Bunraku_Theater",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "osaka-review-4bcf6361338f",
+        "cityId": "osaka",
+        "name": "알오알 코미디",
+        "english": "ROR Comedy",
+        "category": "바·공연",
+        "image": "/images/place-placeholder.svg",
+        "description": "미나미·난바의 공연장. 공연 일정에 따라 이용할 수 있습니다.",
+        "address": "2−16−13 Nishi-Shinsaibashi, Chuo",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "공연 일정·연령 제한·예약 여부를 방문 전에 확인하세요.",
+        "lat": 34.6692777,
+        "lng": 135.4972095,
+        "area": "미나미·난바",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Osaka/Minami",
+            "url": "https://en.wikivoyage.org/wiki/Osaka/Minami#ROR_Comedy",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ],
+        "osmPlaceId": "node/5152809622"
+      },
+      {
+        "id": "osaka-review-ba6eb2a2d494",
+        "cityId": "osaka",
+        "name": "히라노 옛 거리",
+        "english": "Hirano Old City · 平野旧市街",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "히라노의 사찰.",
+        "address": "히라노, 오사카",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.623698,
+        "lng": 135.554877,
+        "area": "히라노",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Osaka/Hirano",
+            "url": "https://en.wikivoyage.org/wiki/Osaka/Hirano#Hirano_Old_City",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "osaka-review-1dd74b62eb45",
+        "cityId": "osaka",
+        "name": "오사카 시키극장",
+        "english": "Osaka Shiki Musical Theater · 大阪四季劇場",
+        "category": "바·공연",
+        "image": "/images/place-placeholder.svg",
+        "description": "기타·우메다의 공연장. 공연 일정에 따라 이용할 수 있습니다.",
+        "address": "기타·우메다, 오사카",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "공연 일정·연령 제한·예약 여부를 방문 전에 확인하세요.",
+        "lat": 34.6997,
+        "lng": 135.49452,
+        "area": "기타·우메다",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Osaka/Kita",
+            "url": "https://en.wikivoyage.org/wiki/Osaka/Kita#Osaka_Shiki_Musical_Theater",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "osaka-review-58411af3d281",
+        "cityId": "osaka",
+        "name": "실버볼 플래닛",
+        "english": "The Silver Ball Planet · ザ・シルバーボールプラネット",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "미나미·난바의 둘러볼 수 있는 장소.",
+        "address": "Chuo Ward, Nishishinsaibashi, 1 Chome−6−14 ３F",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.672533,
+        "lng": 135.498638,
+        "area": "미나미·난바",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Osaka/Minami",
+            "url": "https://en.wikivoyage.org/wiki/Osaka/Minami#The_Silver_Ball_Planet",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "osaka-review-f24755b66f13",
+        "cityId": "osaka",
+        "name": "기레 환호 취락",
+        "english": "Kire Moated Settlement · 喜連環濠集落",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "히라노의 둘러볼 수 있는 장소.",
+        "address": "히라노, 오사카",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.61258,
+        "lng": 135.55417,
+        "area": "히라노",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Osaka/Hirano",
+            "url": "https://en.wikivoyage.org/wiki/Osaka/Hirano#Kire_Moated_Settlement",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "osaka-review-aa829f856652",
+        "cityId": "osaka",
+        "name": "제프 난바",
+        "english": "Zepp Namba",
+        "category": "바·공연",
+        "image": "/images/place-placeholder.svg",
+        "description": "기타·우메다의 바·펍. 야간 일정에 넣을 수 있는 장소입니다.",
+        "address": "2-1-39 Shikitsuhigashi, Naniwa-ku",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "공연 일정·연령 제한·예약 여부를 방문 전에 확인하세요.",
+        "lat": 34.65742,
+        "lng": 135.50134,
+        "area": "미나미·난바",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Osaka/Kita",
+            "url": "https://en.wikivoyage.org/wiki/Osaka/Kita#Zepp_Namba",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "osaka-review-2907582a9780",
+        "cityId": "osaka",
+        "name": "스파월드",
+        "english": "Spa World",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "덴노지의 온천·목욕 시설.",
+        "address": "덴노지, 오사카",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.64996,
+        "lng": 135.50562,
+        "area": "덴노지",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Osaka/Tennoji",
+            "url": "https://en.wikivoyage.org/wiki/Osaka/Tennoji#Spa_World",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "osaka-review-168ded87b882",
+        "cityId": "osaka",
+        "name": "일본도 박물관",
+        "english": "Katana Museum · かたなの博物館",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "히라노의 박물관·전시 공간.",
+        "address": "히라노, 오사카",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.625123,
+        "lng": 135.554447,
+        "area": "히라노",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Osaka/Hirano",
+            "url": "https://en.wikivoyage.org/wiki/Osaka/Hirano#Katana_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "osaka-review-b62dacb478ba",
+        "cityId": "osaka",
+        "name": "빌보드 라이브 오사카",
+        "english": "Billboard Live Osaka · ビルボードライブ大阪",
+        "category": "바·공연",
+        "image": "/images/place-placeholder.svg",
+        "description": "기타·우메다의 공연장. 공연 일정에 따라 이용할 수 있습니다.",
+        "address": "Kita Ward, Umeda, 2 Chome−2−22 ハービスPLAZA ENT 地下 2階 B204 nuna 梅田",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "공연 일정·연령 제한·예약 여부를 방문 전에 확인하세요.",
+        "lat": 34.7056,
+        "lng": 135.5012,
+        "area": "기타·우메다",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Osaka/Kita",
+            "url": "https://en.wikivoyage.org/wiki/Osaka/Kita#Billboard_Live_Osaka",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "osaka-review-14d4434d093c",
+        "cityId": "osaka",
+        "name": "오사카 시립 덴노지 스포츠센터",
+        "english": "Osaka Municipal Tennoji Sports Center · 大阪市立天王寺スポーツセンター",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "덴노지의 수변·항구 산책 장소.",
+        "address": "5-109 Sanadayama Tennoji-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.67087,
+        "lng": 135.52851,
+        "area": "덴노지",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Osaka/Tennoji",
+            "url": "https://en.wikivoyage.org/wiki/Osaka/Tennoji#Osaka_Municipal_Tennoji_Sports_Center",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "osaka-review-12d45478b914",
+        "cityId": "osaka",
+        "name": "목화 마을 박물관",
+        "english": "Cotton City Museum · 綿とくらし博物館",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "히라노의 박물관·전시 공간.",
+        "address": "히라노, 오사카",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.622521,
+        "lng": 135.557272,
+        "area": "히라노",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Osaka/Hirano",
+            "url": "https://en.wikivoyage.org/wiki/Osaka/Hirano#Cotton_City_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "osaka-review-2ee7e4f01b93",
+        "cityId": "osaka",
+        "name": "구로몬 시장",
+        "english": "Kuromon Ichiba Market · 黒門市場",
+        "category": "쇼핑",
+        "image": "/images/place-placeholder.svg",
+        "description": "미나미·난바의 시장·쇼핑 공간.",
+        "address": "Osaka, Chuo/Naniwa",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "여행자 가이드에 관광객 대상 가격이 언급되어 있습니다. 가격을 확인하고 구매하세요.",
+        "lat": 34.6653277,
+        "lng": 135.5069795,
+        "area": "미나미·난바",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Osaka/Minami",
+            "url": "https://en.wikivoyage.org/wiki/Osaka/Minami#Buy",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ],
+        "osmPlaceId": "node/4161997589"
+      },
+      {
+        "id": "osaka-review-1cc764ea50b9",
+        "cityId": "osaka",
+        "name": "조테라스 오사카",
+        "english": "Jo-Terrace",
+        "category": "카페",
+        "image": "/images/place-placeholder.svg",
+        "description": "오사카의 커피·음료를 즐길 수 있는 카페.",
+        "address": "오사카, 오사카",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.6887,
+        "lng": 135.5329,
+        "area": "오사카",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Osaka/Osaka castle",
+            "url": "https://en.wikivoyage.org/wiki/Osaka/Osaka_castle#Jo-Terrace",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "osaka-review-e0e35470a0cb",
+        "cityId": "osaka",
+        "name": "신사이바시",
+        "english": "Shinsaibashi · 心斎橋",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "미나미·난바의 시장·쇼핑 공간.",
+        "address": "Osaka, Chuo/Naniwa",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.6725,
+        "lng": 135.5,
+        "area": "미나미·난바",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Osaka/Minami",
+            "url": "https://en.wikivoyage.org/wiki/Osaka/Minami#Buy",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "osaka-review-47c70650e824",
+        "cityId": "osaka",
+        "name": "아베노 큐즈몰",
+        "english": "Abeno Q's Mall · Abeno Cues Town",
+        "category": "쇼핑",
+        "image": "/images/place-placeholder.svg",
+        "description": "덴노지의 시장·쇼핑 공간.",
+        "address": "덴노지, 오사카",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.644972,
+        "lng": 135.511583,
+        "area": "덴노지",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Osaka/Tennoji",
+            "url": "https://en.wikivoyage.org/wiki/Osaka/Tennoji#Abeno_Q%27s_Mall",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "osaka-review-1850b76a628a",
+        "cityId": "osaka",
+        "name": "히라노 혼마치도리 상점가",
+        "english": "Hirano Hommachi Dōri Shopping Arcade · 平野本町通商店街",
+        "category": "쇼핑",
+        "image": "/images/place-placeholder.svg",
+        "description": "히라노의 시장·쇼핑 공간.",
+        "address": "히라노, 오사카",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.623945,
+        "lng": 135.552017,
+        "area": "히라노",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Osaka/Hirano",
+            "url": "https://en.wikivoyage.org/wiki/Osaka/Hirano#Hirano_Hommachi_D%C5%8Dri_Shopping_Arcade",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "osaka-review-810895971d65",
+        "cityId": "osaka",
+        "name": "아메리카무라",
+        "english": "Amerikamura · アメリカ村",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "미나미·난바의 둘러볼 수 있는 장소.",
+        "address": "Osaka, Chuo/Naniwa",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.672086,
+        "lng": 135.49796,
+        "area": "미나미·난바",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Osaka/Minami",
+            "url": "https://en.wikivoyage.org/wiki/Osaka/Minami#Buy",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "osaka-review-d96f9c9d7f59",
+        "cityId": "osaka",
+        "name": "닛폰바시 덴덴타운",
+        "english": "Nipponbashi Den-Den Town · 日本橋でんでんタウン",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "미나미·난바의 시장·쇼핑 공간.",
+        "address": "Osaka, Chuo/Naniwa",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.65972222,
+        "lng": 135.50583333,
+        "area": "미나미·난바",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Osaka/Minami",
+            "url": "https://en.wikivoyage.org/wiki/Osaka/Minami#Buy",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "osaka-review-1d1ace759027",
+        "cityId": "osaka",
+        "name": "하나다코",
+        "english": "Hanadako · はなだこ",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "기타·우메다의 식사 장소.",
+        "address": "기타·우메다, 오사카",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.703155,
+        "lng": 135.497984,
+        "area": "기타·우메다",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Osaka/Kita",
+            "url": "https://en.wikivoyage.org/wiki/Osaka/Kita#Hanadako",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "osaka-review-706eb6515ab3",
+        "cityId": "osaka",
+        "name": "엔도 스시",
+        "english": "Endo Sushi · ゑんどう寿司",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "기타·우메다의 스시을 다루는 식당.",
+        "address": "1 Chome-1-86 Noda, Fukushima Ward",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.684195,
+        "lng": 135.479544,
+        "area": "기타·우메다",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Osaka/Kita",
+            "url": "https://en.wikivoyage.org/wiki/Osaka/Kita#Endo_Sushi",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "osaka-review-3c43100c0de0",
+        "cityId": "osaka",
+        "name": "잔잔요코초 거리",
+        "english": "Jan-Jan Yokocho Street",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "덴노지의 식사 장소.",
+        "address": "덴노지, 오사카",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.649243,
+        "lng": 135.50588,
+        "area": "덴노지",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Osaka/Tennoji",
+            "url": "https://en.wikivoyage.org/wiki/Osaka/Tennoji#Jan-Jan_Yokocho_Street",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "osaka-review-506442da550e",
+        "cityId": "osaka",
+        "name": "간코 히라노고 저택",
+        "english": "Ganko Hirano-gō Yashiki · がんこ平野郷屋敷",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "히라노의 식사 장소.",
+        "address": "1-3-19 Kamikuratsukuri, Hirano-ku",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.626444,
+        "lng": 135.566167,
+        "area": "히라노",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Osaka/Hirano",
+            "url": "https://en.wikivoyage.org/wiki/Osaka/Hirano#Ganko_Hirano-g%C5%8D_Yashiki",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "osaka-review-53e6a672351d",
+        "cityId": "osaka",
+        "name": "아지노야",
+        "english": "Ajinoya",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "미나미·난바의 오코노미야키을 다루는 식당.",
+        "address": "Namba 1-7-16 現代こいさんビル2F",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.668,
+        "lng": 135.5009,
+        "area": "미나미·난바",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Osaka/Minami",
+            "url": "https://en.wikivoyage.org/wiki/Osaka/Minami#Ajinoya",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "osaka-review-31e6270c098c",
+        "cityId": "osaka",
+        "name": "쿠시카츠 다루마 신세카이 본점",
+        "english": "Kushikatsu Daruma Shinsekai Main Shop · 串かつだるま 新世界総本家",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "덴노지의 식사 장소.",
+        "address": "2-3-9 Ebisuhigashi, Naniwa",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.651579,
+        "lng": 135.506201,
+        "area": "덴노지",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Osaka/Tennoji",
+            "url": "https://en.wikivoyage.org/wiki/Osaka/Tennoji#Kushikatsu_Daruma_Shinsekai_Main_Shop",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "osaka-review-272e3770a2f1",
+        "cityId": "osaka",
+        "name": "멜버른 커피",
+        "english": "Melbourne Coffee",
+        "category": "카페",
+        "image": "/images/place-placeholder.svg",
+        "description": "미나미·난바의 커피·음료를 즐길 수 있는 카페.",
+        "address": "1st Floor Sanei Moor Building, 3-8-7 Minamisenba Chuo-ku",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.677737,
+        "lng": 135.502084,
+        "area": "미나미·난바",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Osaka/Minami",
+            "url": "https://en.wikivoyage.org/wiki/Osaka/Minami#Melbourne_Coffee",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "osaka-review-a8ce5cc258c2",
+        "cityId": "osaka",
+        "name": "이온 기레우리와리점",
+        "english": "AEON Kire-Uriwari · イオン喜連瓜破",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "히라노의 시장·쇼핑 공간.",
+        "address": "히라노, 오사카",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.608167,
+        "lng": 135.551917,
+        "area": "히라노",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Osaka/Hirano",
+            "url": "https://en.wikivoyage.org/wiki/Osaka/Hirano#AEON_Kire-Uriwari",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "osaka-review-bb6ecadc7926",
+        "cityId": "osaka",
+        "name": "루푸",
+        "english": "Lupu",
+        "category": "바·공연",
+        "image": "/images/place-placeholder.svg",
+        "description": "기타·우메다의 바·펍. 야간 일정에 넣을 수 있는 장소입니다.",
+        "address": "1F, Kansai-Chuo Bldg, 15-2 Doyama-cho",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "공연 일정·연령 제한·예약 여부를 방문 전에 확인하세요.",
+        "lat": 34.7044,
+        "lng": 135.503379,
+        "area": "기타·우메다",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Osaka/Kita",
+            "url": "https://en.wikivoyage.org/wiki/Osaka/Kita#Lupu",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "osaka-balance-313fe9f8be",
+        "cityId": "osaka",
+        "name": "힐튼 오사카",
+        "english": "Hilton Osaka",
+        "category": "숙소",
+        "image": "/images/place-placeholder.svg",
+        "description": "오사카역 주변의 숙박과 철도 이동을 함께 고려할 수 있는 호텔입니다.",
+        "address": "1-8-8, Umeda, Kita-ku",
+        "duration": "숙박 일정에 맞춰 지정",
+        "cost": "숙박일·객실·공식 안내에서 확인",
+        "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+        "area": "우메다",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Osaka/Kita",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Osaka/Kita&oldid=5385822",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "osaka-balance-4eb78162b8",
+        "cityId": "osaka",
+        "name": "스위소텔 난카이 오사카",
+        "english": "Swissôtel Nankai",
+        "category": "숙소",
+        "image": "/images/place-placeholder.svg",
+        "description": "난카이 난바역과 연결된 호텔입니다.",
+        "address": "5-1-60, Namba, Chuo-ku",
+        "duration": "숙박 일정에 맞춰 지정",
+        "cost": "숙박일·객실·공식 안내에서 확인",
+        "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+        "area": "난바·신사이바시",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Osaka/Minami",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Osaka/Minami&oldid=5385823",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "osaka-balance-703d753661",
+        "cityId": "osaka",
+        "name": "다이마루 우메다점",
+        "english": "Daimaru Umeda · 大丸 梅田店",
+        "category": "쇼핑",
+        "image": "/images/place-placeholder.svg",
+        "description": "오사카역 주변에서 식품관과 의류 매장을 둘러보는 백화점입니다.",
+        "address": "우메다, 오사카",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "품목과 매장별 운영시간을 확인하고 구입할 물건을 정해 둘러보세요.",
+        "area": "우메다",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Osaka/Kita",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Osaka/Kita&oldid=5385822",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 buy 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "osaka-balance-56c9c625ca",
+        "cityId": "osaka",
+        "name": "한큐 삼번가",
+        "english": "Hankyu Sanban-gai · 阪急三番街",
+        "category": "쇼핑",
+        "image": "/images/place-placeholder.svg",
+        "description": "한큐 오사카우메다역 주변의 상점과 식당을 둘러보는 복합 상가입니다.",
+        "address": "우메다, 오사카",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "품목과 매장별 운영시간을 확인하고 구입할 물건을 정해 둘러보세요.",
+        "area": "우메다",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Osaka/Kita",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Osaka/Kita&oldid=5385822",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 buy 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "id": "osaka-overview",
+        "title": "도시 소개",
+        "body": "난바 중심의 남쪽과 오사카·우메다 중심의 북쪽을 구분하면 숙소와 공항 교통을 고르기 쉬워집니다."
+      },
+      {
+        "id": "osaka-before",
+        "title": "출발 전 준비",
+        "body": "가이유칸·테마파크·전망대는 방문일의 입장·시간 지정 조건을 확인하세요.\n\n패스는 실제 갈 유료 시설과 철도 운영사를 정한 뒤 개별 요금 합계와 비교하세요."
+      },
+      {
+        "id": "osaka-arrival",
+        "title": "공항과 시내 이동",
+        "body": "간사이 공항 → 난바: 난카이는 난바로 바로 연결됩니다. 공항급행은 좌석 예약 없이 이용하는 선택지, 특급 라피트는 지정석 선택지입니다. 2026-10-15 확인 자료 기준 급행 970엔·라피트 전자표 1,520엔이며 구매 전 현재 요금과 표 조건을 확인하세요.\n\n간사이 공항 → 우메다·신오사카: JR 하루카는 덴노지·오사카·신오사카 방면을 비교할 때, 공항버스는 숙소 가까운 정류장이 있을 때 후보입니다. 우메다 숙소에 가는데 난바행 표부터 사면 시내 환승이 더 생길 수 있습니다."
+      },
+      {
+        "id": "osaka-stay",
+        "title": "숙소 지역 선택",
+        "body": "난바: 도톤보리·구로몬·신사이바시와 저녁 일정을 묶기 좋습니다. 난카이·JR·지하철 난바는 같은 승강장이 아닙니다.\n\n오사카·우메다: 다른 간사이 도시로 철도 이동을 많이 할 때 비교하세요. 신칸센은 오사카역이 아니라 신오사카역을 확인해야 합니다."
+      },
+      {
+        "id": "osaka-plan",
+        "title": "일정 계획",
+        "body": "하루: 난바·신세카이 또는 오사카성 권역 중 하나를 중심으로 잡으세요.\n\n2–3일: 남쪽 하루·성 주변 하루를 두고 교토·나라 등 다른 도시는 별도 날짜로 배치하세요."
+      },
+      {
+        "id": "osaka-notes",
+        "title": "현장 팁",
+        "body": "난바와 우메다를 번갈아 오가는 식당 예약은 이동을 늘립니다.\n\n간사이 공항행 노선의 막차와 숙소에서 승강장까지 가는 경로를 따로 확인하세요."
+      },
+      {
+        "id": "osaka-rain",
+        "title": "비 오는 날",
+        "body": "오사카 역사박물관·가이유칸처럼 실내 중심으로 줄이고 해당 시설의 휴관과 입장 조건을 확인하세요."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Japan-guide · 오사카",
+        "url": "https://www.japan-guide.com/e/e2157.html",
+        "accessedAt": "2026-10-15"
+      },
+      {
+        "title": "Japan-guide · 오사카 시내 교통",
+        "url": "https://www.japan-guide.com/e/e4006.html",
+        "accessedAt": "2026-10-15"
+      },
+      {
+        "title": "Japan-guide · 간사이 공항 이동·요금",
+        "url": "https://www.japan-guide.com/e/e2033.html",
+        "accessedAt": "2026-10-15"
+      }
+    ],
+    "status": "published",
+    "requestId": null,
+    "createdAt": "2026-10-15T00:00:00.000Z",
+    "updatedAt": "2026-10-15T00:00:00.000Z",
+    "publishedAt": "2026-10-15T00:00:00.000Z"
+  },
+  "practicalGuide": {
+    "cityId": "osaka",
+    "firstVisit": "난바 중심의 남쪽과 오사카·우메다 중심의 북쪽을 구분하면 숙소와 공항 교통을 고르기 쉬워집니다.",
+    "bases": [
+      {
+        "name": "난바",
+        "advice": "도톤보리·구로몬·신사이바시와 저녁 일정을 묶기 좋습니다. 난카이·JR·지하철 난바는 같은 승강장이 아닙니다."
+      },
+      {
+        "name": "오사카·우메다",
+        "advice": "다른 간사이 도시로 철도 이동을 많이 할 때 비교하세요. 신칸센은 오사카역이 아니라 신오사카역을 확인해야 합니다."
+      }
+    ],
+    "arrival": [
+      {
+        "name": "간사이 공항 → 난바",
+        "advice": "난카이는 난바로 바로 연결됩니다. 공항급행은 좌석 예약 없이 이용하는 선택지, 특급 라피트는 지정석 선택지입니다. 2026-10-15 확인 자료 기준 급행 970엔·라피트 전자표 1,520엔이며 구매 전 현재 요금과 표 조건을 확인하세요."
+      },
+      {
+        "name": "간사이 공항 → 우메다·신오사카",
+        "advice": "JR 하루카는 덴노지·오사카·신오사카 방면을 비교할 때, 공항버스는 숙소 가까운 정류장이 있을 때 후보입니다. 우메다 숙소에 가는데 난바행 표부터 사면 시내 환승이 더 생길 수 있습니다."
+      }
+    ],
+    "timePlan": [
+      {
+        "name": "하루",
+        "advice": "난바·신세카이 또는 오사카성 권역 중 하나를 중심으로 잡으세요."
+      },
+      {
+        "name": "2–3일",
+        "advice": "남쪽 하루·성 주변 하루를 두고 교토·나라 등 다른 도시는 별도 날짜로 배치하세요."
+      }
+    ],
+    "before": [
+      "가이유칸·테마파크·전망대는 방문일의 입장·시간 지정 조건을 확인하세요.",
+      "패스는 실제 갈 유료 시설과 철도 운영사를 정한 뒤 개별 요금 합계와 비교하세요."
+    ],
+    "pitfalls": [
+      "난바와 우메다를 번갈아 오가는 식당 예약은 이동을 늘립니다.",
+      "간사이 공항행 노선의 막차와 숙소에서 승강장까지 가는 경로를 따로 확인하세요."
+    ],
+    "rainPlan": "오사카 역사박물관·가이유칸처럼 실내 중심으로 줄이고 해당 시설의 휴관과 입장 조건을 확인하세요.",
+    "courses": [
+      {
+        "id": "osaka-course-1",
+        "title": "난바와 신세카이",
+        "pace": "하루 · 도보·지하철",
+        "why": "먹거리 지역을 남쪽에 모은 코스입니다. 식사와 대기 시간을 별도로 남기세요.",
+        "placeIds": [
+          "osaka-review-b0660bf9b758",
+          "osaka-review-2ee7e4f01b93",
+          "osaka-dotonbori"
+        ]
+      },
+      {
+        "id": "osaka-course-2",
+        "title": "오사카성 역사 산책",
+        "pace": "반나절 · 도보",
+        "why": "성 공원과 가까운 박물관을 한 구역으로 묶습니다.",
+        "placeIds": [
+          "osaka-review-c96670713187",
+          "osaka-castle",
+          "osaka-review-1cc764ea50b9"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "Japan-guide · 오사카",
+        "url": "https://www.japan-guide.com/e/e2157.html",
+        "checkedAt": "2026-10-15",
+        "status": "read"
+      },
+      {
+        "title": "Japan-guide · 오사카 시내 교통",
+        "url": "https://www.japan-guide.com/e/e4006.html",
+        "checkedAt": "2026-10-15",
+        "status": "read"
+      },
+      {
+        "title": "Japan-guide · 간사이 공항 이동·요금",
+        "url": "https://www.japan-guide.com/e/e2033.html",
+        "checkedAt": "2026-10-15",
+        "status": "read"
+      }
+    ],
+    "researchNote": "여행 안내 본문을 읽고 지역별 계획을 편집했습니다. 코스는 직접 작성한 제안이며 이동시간·예약 가능 여부를 실시간 계산한 결과가 아닙니다."
+  },
+  "plans": {
+    "cityId": "osaka",
+    "days": [
+      {
+        "id": "osaka-day-1",
+        "title": "난바와 신세카이",
+        "pace": "하루 · 도보·지하철",
+        "why": "먹거리 지역을 남쪽에 모은 코스입니다. 식사와 대기 시간을 별도로 남기세요.",
+        "placeIds": [
+          "osaka-review-b0660bf9b758",
+          "osaka-review-2ee7e4f01b93",
+          "osaka-dotonbori"
+        ]
+      },
+      {
+        "id": "osaka-day-2",
+        "title": "오사카성 역사 산책",
+        "pace": "반나절 · 도보",
+        "why": "성 공원과 가까운 박물관을 한 구역으로 묶습니다.",
+        "placeIds": [
+          "osaka-review-c96670713187",
+          "osaka-castle",
+          "osaka-review-1cc764ea50b9"
+        ]
+      },
+      {
+        "id": "osaka-day-3",
+        "title": "우메다와 나카노시마",
+        "pace": "철도·도보",
+        "why": "기타 지역의 과학관과 식사·전망을 묶고 남부로 왕복하지 않습니다.",
+        "placeIds": [
+          "osaka-review-7e5bbdf9692c",
+          "osaka-review-1d1ace759027",
+          "osaka-umeda-sky"
+        ]
+      },
+      {
+        "id": "osaka-day-4",
+        "title": "덴포잔 바닷가의 하루",
+        "pace": "철도·도보",
+        "why": "가이유칸 관람에 충분한 시간을 쓰고 같은 항구 구역에서 쉽니다.",
+        "placeIds": [
+          "osaka-review-a662f143191a",
+          "osaka-review-b1c4146a2335",
+          "osaka-review-3a2aec26f2ba"
+        ]
+      },
+      {
+        "id": "osaka-day-5",
+        "title": "덴노지 사찰과 아베노 전망",
+        "pace": "철도·도보",
+        "why": "덴노지·아베노에 집중하고 쇼핑과 전망을 뒤쪽에 배치합니다.",
+        "placeIds": [
+          "osaka-review-a5288887f42e",
+          "osaka-review-f2a95d63eb60",
+          "osaka-review-47c70650e824",
+          "osaka-review-90bb9ca54308"
+        ]
+      }
+    ]
+  }
+}

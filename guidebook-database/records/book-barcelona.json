@@ -1,0 +1,155 @@
+{
+  "guide": {
+    "id": "book-barcelona",
+    "scope": "city",
+    "city": {
+      "id": "book-barcelona",
+      "name": "바르셀로나",
+      "english": "Barcelona",
+      "country": "스페인",
+      "region": "유럽",
+      "image": "/images/guide-placeholder.svg",
+      "tagline": "가우디 건축과 골목, 바다를 나눠 즐기기",
+      "description": "바르셀로나는 가우디 건축과 구시가지 산책, 해변을 다른 반나절로 나누기 좋습니다. 사그라다 파밀리아와 구엘공원은 예약과 이동을 먼저 정하고 구시가지에는 일정 사이 여유를 남기세요.",
+      "tags": [
+        "도시 산책",
+        "여행 준비"
+      ],
+      "flight": "항공편·출발 공항에 따라 다름",
+      "currency": "유로 · EUR",
+      "timeDifference": "한국보다 겨울 8시간·서머타임 7시간 느림",
+      "timeZone": "Europe/Madrid",
+      "season": "봄·가을 산책, 여름 더위·혼잡 대비",
+      "accent": "#e7f1ef"
+    },
+    "places": [
+      {
+        "id": "book-barcelona-sagrada-fam-lia",
+        "cityId": "book-barcelona",
+        "name": "사그라다 파밀리아",
+        "english": "Sagrada Família",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "가우디 건축을 만나는 성당입니다. 관람 범위와 시간 지정 예약을 확인하세요.",
+        "address": "Eixample, Barcelona",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      },
+      {
+        "id": "book-barcelona-park-g-ell",
+        "cityId": "book-barcelona",
+        "name": "구엘공원",
+        "english": "Park Güell",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "건축과 언덕 풍경을 함께 보는 공원입니다. 출입구와 경사를 고려하세요.",
+        "address": "Gràcia, Barcelona",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      },
+      {
+        "id": "book-barcelona-casa-batll",
+        "cityId": "book-barcelona",
+        "name": "카사 바트요",
+        "english": "Casa Batlló",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "건축 내부 관람을 선택하는 후보입니다. 관람권 종류를 확인하세요.",
+        "address": "Passeig de Gràcia, Barcelona",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      },
+      {
+        "id": "book-barcelona-gothic-quarter",
+        "cityId": "book-barcelona",
+        "name": "고딕지구",
+        "english": "Gothic Quarter",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "오래된 골목과 광장을 걷는 구역입니다. 길 찾기와 소지품 관리에 신경 쓰세요.",
+        "address": "Ciutat Vella, Barcelona",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      },
+      {
+        "id": "book-barcelona-la-boqueria",
+        "cityId": "book-barcelona",
+        "name": "보케리아 시장",
+        "english": "La Boqueria",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "식재료와 먹거리를 구경하는 시장입니다. 개별 판매점 운영을 확인하세요.",
+        "address": "Ciutat Vella, Barcelona",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      },
+      {
+        "id": "book-barcelona-montju-c",
+        "cityId": "book-barcelona",
+        "name": "몬주익",
+        "english": "Montjuïc",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "공원과 문화시설이 모인 언덕 구역입니다. 목적 시설과 귀환 교통을 정하세요.",
+        "address": "Barcelona",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      }
+    ],
+    "sections": [
+      {
+        "id": "book-barcelona-overview",
+        "title": "도시 한눈에",
+        "body": "바르셀로나는 가우디 건축과 구시가지 산책, 해변을 다른 반나절로 나누기 좋습니다. 사그라다 파밀리아와 구엘공원은 예약과 이동을 먼저 정하고 구시가지에는 일정 사이 여유를 남기세요.\n\n통화: 유로 · EUR\n시차: 한국보다 겨울 8시간·서머타임 7시간 느림\n여행 계절: 봄·가을 산책, 여름 더위·혼잡 대비"
+      },
+      {
+        "id": "book-barcelona-before",
+        "title": "출발 전 준비",
+        "body": "여권과 입국 허가·비자 요건은 국적·방문 목적에 맞춰 정부 안내를 확인하세요. 해외 사용 가능한 결제 수단, 통신과 여행자보험을 준비하고 숙소·항공권은 오프라인에서도 확인할 수 있게 보관하세요."
+      },
+      {
+        "id": "book-barcelona-arrival",
+        "title": "공항에서 숙소까지",
+        "body": "바르셀로나 엘프라트(BCN) 도착이면 터미널을 확인하고 철도·지하철·공항버스를 비교하세요. 지로나·레우스 도착 항공권은 같은 공항으로 생각하지 마세요."
+      },
+      {
+        "id": "book-barcelona-stay",
+        "title": "어느 동네에 묵을까",
+        "body": "에이샴플라는 건축과 교통, 고딕지구는 골목 접근, 그라시아는 동네 산책을 비교하기 좋습니다. 숙소 주변 소음과 엘리베이터를 확인하세요."
+      },
+      {
+        "id": "book-barcelona-food",
+        "title": "먹거리와 동네 쇼핑",
+        "body": "타파스와 시장 먹거리를 나눠 맛보세요. 보케리아는 여러 판매점이 있는 시장입니다. 카페의 테라스·실내 주문 조건과 해산물 알레르기를 확인하세요."
+      },
+      {
+        "id": "book-barcelona-days",
+        "title": "처음 가는 3일 여행",
+        "body": "1일: 도착 → 숙소 주변 산책. 장거리 비행 뒤에는 충분히 쉬고 현지 날짜에 적응하세요.\n\n2일: 사그라다 파밀리아 중심으로 주변을 둘러보세요. 예약 시설은 운영기관의 방문 조건을 먼저 확인하세요.\n\n3일: 구엘공원 또는 카사 바트요 중 관심 있는 곳을 고르고 나머지는 식사와 동네 산책에 쓰세요. 출국일에는 공항 이동을 우선하세요.\n\n일정 초안이며 자동 경로·이동시간 계산 결과가 아닙니다. 운영과 취향에 맞춰 선택하세요."
+      },
+      {
+        "id": "book-barcelona-notes",
+        "title": "예약과 현장 팁",
+        "body": "건축물은 운영기관의 시간 지정 예약을 확인하세요. 시장·해변·대중교통에서 소지품을 관리하고 주거 골목의 소음과 촬영 예절을 지키세요."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Barcelona Tourism, Official Website | This is Barcelona",
+        "url": "https://thisisbarcelona.com/",
+        "accessedAt": "2026-10-28"
+      }
+    ],
+    "status": "published",
+    "requestId": null,
+    "createdAt": "2026-10-28T05:07:12.733Z",
+    "updatedAt": "2026-10-28T05:07:12.733Z",
+    "publishedAt": "2026-10-28T05:07:12.733Z"
+  }
+}

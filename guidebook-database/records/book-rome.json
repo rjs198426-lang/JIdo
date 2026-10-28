@@ -1,0 +1,155 @@
+{
+  "guide": {
+    "id": "book-rome",
+    "scope": "city",
+    "city": {
+      "id": "book-rome",
+      "name": "로마",
+      "english": "Rome",
+      "country": "이탈리아",
+      "region": "유럽",
+      "image": "/images/guide-placeholder.svg",
+      "tagline": "고대 유산과 광장을 하루씩 나눠 걷기",
+      "description": "로마는 유적·광장·성당이 이어지는 도시입니다. 콜로세움·포로 로마노는 큰 관람일로, 판테온·트레비 주변은 도보 일정으로 나누세요. 바티칸은 별도 국가에 있는 관람 구역으로 예약과 입장 시간을 따로 확인하세요.",
+      "tags": [
+        "도시 산책",
+        "여행 준비"
+      ],
+      "flight": "항공편·출발 공항에 따라 다름",
+      "currency": "유로 · EUR",
+      "timeDifference": "한국보다 겨울 8시간·서머타임 7시간 느림",
+      "timeZone": "Europe/Rome",
+      "season": "봄·가을 중심, 여름 더위와 보행량 고려",
+      "accent": "#e7f1ef"
+    },
+    "places": [
+      {
+        "id": "book-rome-colosseum",
+        "cityId": "book-rome",
+        "name": "콜로세움",
+        "english": "Colosseum",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "고대 원형경기장을 관람하는 유산입니다. 입장권의 관람 범위와 예약 시각을 확인하세요.",
+        "address": "Rome",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      },
+      {
+        "id": "book-rome-roman-forum",
+        "cityId": "book-rome",
+        "name": "포로 로마노",
+        "english": "Roman Forum",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "고대 도시 유적을 걷는 넓은 공간입니다. 그늘과 보행 환경을 고려하세요.",
+        "address": "Rome",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      },
+      {
+        "id": "book-rome-pantheon",
+        "cityId": "book-rome",
+        "name": "판테온",
+        "english": "Pantheon",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "고대 건축과 종교 공간이 이어지는 장소입니다. 예배·입장 규칙을 확인하세요.",
+        "address": "Historic Centre, Rome",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      },
+      {
+        "id": "book-rome-trevi-fountain",
+        "cityId": "book-rome",
+        "name": "트레비 분수",
+        "english": "Trevi Fountain",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "도심 산책 중 만나는 대표 분수입니다. 현장의 접근·촬영 안내를 따르세요.",
+        "address": "Trevi, Rome",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      },
+      {
+        "id": "book-rome-vatican-museums",
+        "cityId": "book-rome",
+        "name": "바티칸 박물관",
+        "english": "Vatican Museums",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "바티칸 시국의 박물관입니다. 로마 도심 일정과 분리해 예약·보안 검색 여유를 두세요.",
+        "address": "Vatican City",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      },
+      {
+        "id": "book-rome-trastevere",
+        "cityId": "book-rome",
+        "name": "트라스테베레",
+        "english": "Trastevere",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "골목과 식당을 함께 즐기는 동네입니다. 개별 식당의 메뉴와 운영을 확인하세요.",
+        "address": "Rome",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      }
+    ],
+    "sections": [
+      {
+        "id": "book-rome-overview",
+        "title": "도시 한눈에",
+        "body": "로마는 유적·광장·성당이 이어지는 도시입니다. 콜로세움·포로 로마노는 큰 관람일로, 판테온·트레비 주변은 도보 일정으로 나누세요. 바티칸은 별도 국가에 있는 관람 구역으로 예약과 입장 시간을 따로 확인하세요.\n\n통화: 유로 · EUR\n시차: 한국보다 겨울 8시간·서머타임 7시간 느림\n여행 계절: 봄·가을 중심, 여름 더위와 보행량 고려"
+      },
+      {
+        "id": "book-rome-before",
+        "title": "출발 전 준비",
+        "body": "여권과 입국 허가·비자 요건은 국적·방문 목적에 맞춰 정부 안내를 확인하세요. 해외 사용 가능한 결제 수단, 통신과 여행자보험을 준비하고 숙소·항공권은 오프라인에서도 확인할 수 있게 보관하세요."
+      },
+      {
+        "id": "book-rome-arrival",
+        "title": "공항에서 숙소까지",
+        "body": "피우미치노(FCO)와 참피노(CIA)를 구분하세요. 공항 철도·버스·차량을 숙소 위치로 비교하고 돌길과 계단에서 큰 짐을 이동할 수 있는지 생각하세요."
+      },
+      {
+        "id": "book-rome-stay",
+        "title": "어느 동네에 묵을까",
+        "body": "테르미니는 교통 연결, 역사 중심지는 도보 관람, 트라스테베레는 저녁 식사와 동네 분위기를 비교하기 좋습니다. 골목 소음과 야간 귀가를 확인하세요."
+      },
+      {
+        "id": "book-rome-food",
+        "title": "먹거리와 동네 쇼핑",
+        "body": "파스타·피자·젤라토를 작은 식사로 나눠 즐기세요. 트라스테베레는 여러 식당이 있는 동네이며 특정 가게를 지정하지 않습니다. 메뉴의 자리 요금과 주문 조건을 확인하세요."
+      },
+      {
+        "id": "book-rome-days",
+        "title": "처음 가는 3일 여행",
+        "body": "1일: 도착 → 숙소 주변 산책. 장거리 비행 뒤에는 충분히 쉬고 현지 날짜에 적응하세요.\n\n2일: 콜로세움 중심으로 주변을 둘러보세요. 예약 시설은 운영기관의 방문 조건을 먼저 확인하세요.\n\n3일: 포로 로마노 또는 판테온 중 관심 있는 곳을 고르고 나머지는 식사와 동네 산책에 쓰세요. 출국일에는 공항 이동을 우선하세요.\n\n일정 초안이며 자동 경로·이동시간 계산 결과가 아닙니다. 운영과 취향에 맞춰 선택하세요."
+      },
+      {
+        "id": "book-rome-notes",
+        "title": "예약과 현장 팁",
+        "body": "유적과 미술관은 공식 예약 종류를 확인하세요. 성당·종교 공간의 복장 규칙을 따르고 분수 안에 들어가거나 유산을 훼손하지 마세요."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Turismo Roma | Sito turistico ufficiale",
+        "url": "https://www.turismoroma.it/en",
+        "accessedAt": "2026-10-28"
+      }
+    ],
+    "status": "published",
+    "requestId": null,
+    "createdAt": "2026-10-28T05:07:12.733Z",
+    "updatedAt": "2026-10-28T05:07:12.733Z",
+    "publishedAt": "2026-10-28T05:07:12.733Z"
+  }
+}

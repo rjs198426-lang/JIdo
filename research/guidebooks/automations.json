@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "timezone": "Asia/Seoul",
+  "registeredAt": "2026-10-28",
+  "tasks": [
+    {
+      "title": "J★Do 새 도시 가이드북",
+      "isEnabled": true,
+      "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Seoul:20261029T020000\nRRULE:FREQ=DAILY;BYHOUR=2,8,14,20;BYMINUTE=0;BYSECOND=0\nEND:VEVENT",
+      "timingMode": "exact_schedule",
+      "registrationConfirmed": true,
+      "firstRunVerified": false
+    },
+    {
+      "title": "J★Do 가이드북 최신화",
+      "isEnabled": true,
+      "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Seoul:20261029T200000\nRRULE:FREQ=DAILY;BYHOUR=20;BYMINUTE=0;BYSECOND=0\nEND:VEVENT",
+      "timingMode": "exact_schedule",
+      "registrationConfirmed": true,
+      "firstRunVerified": false
+    }
+  ],
+  "note": "자동 작업 생성·활성화 확인. 첫 예정 실행은 아직 수행되지 않았으며, 저장소 접근·실제 조사·게시는 각 실행 결과로 확인한다. GitHub Actions의 빌드 검사와 별개다."
+}

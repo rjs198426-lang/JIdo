@@ -1,0 +1,1653 @@
+{
+  "guide": {
+    "id": "maldives",
+    "scope": "city",
+    "city": {
+      "id": "maldives",
+      "name": "몰디브",
+      "english": "MALDIVES",
+      "country": "몰디브",
+      "region": "휴양지",
+      "image": "/images/place-male.jpg",
+      "photoCredit": {
+        "file": "/images/place-male.jpg",
+        "author": "Shahee Ilyas",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mal%C3%A9.jpg",
+        "verifiedAt": "2026-10-14"
+      },
+      "tagline": "아무것도 하지 않아도 좋은 여행",
+      "description": "투명한 바다와 부드러운 모래, 수평선 너머로 지는 해. 일상의 소음을 내려놓고 바다 가까이 머물러보세요.",
+      "tags": [
+        "휴양",
+        "허니문"
+      ],
+      "flight": "경유 필요",
+      "currency": "몰디브 루피야 · MVR",
+      "timeDifference": "한국보다 4시간 느림",
+      "season": "11–4월",
+      "accent": "#d7efef"
+    },
+    "places": [
+      {
+        "id": "male",
+        "cityId": "maldives",
+        "name": "말레 시내 산책",
+        "english": "Male City",
+        "category": "관광",
+        "image": "/images/place-male.jpg",
+        "photoCredit": {
+          "file": "/images/place-male.jpg",
+          "author": "Shahee Ilyas",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mal%C3%A9.jpg",
+          "verifiedAt": "2026-10-14"
+        },
+        "description": "몰디브의 수도에서 시장과 항구 주변을 둘러보며 섬의 일상을 만나보세요.",
+        "address": "Male, Maldives",
+        "duration": "약 2시간",
+        "cost": "거리 산책 무료",
+        "tip": "이동 시간을 고려해 공항이나 숙소 복귀를 계획하세요.",
+        "lat": 4.1755,
+        "lng": 73.5093
+      },
+      {
+        "id": "hulhumale",
+        "cityId": "maldives",
+        "name": "훌루말레 비치",
+        "english": "Hulhumale Public Beach",
+        "category": "관광",
+        "image": "/images/place-hulhumale.jpg",
+        "photoCredit": {
+          "file": "/images/place-hulhumale.jpg",
+          "author": "Saaremees",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hulhumale_Beach-Maldives-Andres_Larin.jpg",
+          "verifiedAt": "2026-10-14"
+        },
+        "description": "훌루말레 동쪽의 해변. 개인 여행자가 산책하며 방문한 바닷가입니다.",
+        "address": "훌루말레, Maldives",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "로컬 섬의 복장 규정과 배편, 보호구역 출입 조건을 확인하세요. 야생동물에 먹이를 주거나 접촉하지 마세요.",
+        "lat": 4.2109716,
+        "lng": 73.5440983,
+        "area": "훌루말레",
+        "reviewSources": [
+          {
+            "title": "훌루말레 반나절 산책 후기 · 퍼블릭 비치와 센트럴파크",
+            "url": "https://blog.naver.com/joanna9570/224356323517",
+            "kind": "visit-review",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "방문·숙박 과정과 개인 경험을 담은 원문을 읽었습니다. 본문에서 협찬 표시·예약 제휴 링크·할인 코드가 발견되지 않았습니다. 숨겨진 협찬 여부나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ],
+        "osmPlaceId": "way/381697771"
+      },
+      {
+        "id": "male-market",
+        "cityId": "maldives",
+        "name": "말레 피시 마켓",
+        "english": "Fish Market",
+        "category": "쇼핑",
+        "image": "/images/place-male-market.jpg",
+        "photoCredit": {
+          "file": "/images/place-male-market.jpg",
+          "author": "Mark Fischer",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_fishmonger_prepares_to_clean_and_butcher_a_pair_of_large_fish_in_Mal%C3%A9.jpg",
+          "verifiedAt": "2026-10-14"
+        },
+        "description": "말레의 시장·쇼핑 공간.",
+        "address": "말레, 몰디브",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "로컬 섬의 복장 규정과 배편, 보호구역 출입 조건을 확인하세요. 야생동물에 먹이를 주거나 접촉하지 마세요.",
+        "lat": 4.180365,
+        "lng": 73.509858,
+        "area": "말레",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Malé",
+            "url": "https://en.wikivoyage.org/wiki/Mal%C3%A9#Fish_Market",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "maldives-review-780238e9cacd",
+        "cityId": "maldives",
+        "name": "푸시섬",
+        "english": "Fushi island · Ukulhas Picnic island",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "우쿨라스의 해변.",
+        "address": "우쿨라스, 몰디브",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "로컬 섬의 복장 규정과 배편, 보호구역 출입 조건을 확인하세요. 야생동물에 먹이를 주거나 접촉하지 마세요.",
+        "lat": 4.2156,
+        "lng": 72.8835,
+        "area": "우쿨라스",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Ukulhas",
+            "url": "https://en.wikivoyage.org/wiki/Ukulhas#Fushi_island",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "maldives-review-5487a27a6317",
+        "cityId": "maldives",
+        "name": "마푸시 비키니 비치",
+        "english": "Maafushi Bikini Beach",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "마푸시 북쪽의 관광객 해변. 카니 비치라는 이름으로도 알려진 같은 해변을 한 곳으로 묶었습니다.",
+        "address": "마푸시, Maldives",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "로컬 섬의 복장 규정과 배편, 보호구역 출입 조건을 확인하세요. 야생동물에 먹이를 주거나 접촉하지 마세요.",
+        "lat": 3.9454668,
+        "lng": 73.4911727,
+        "area": "마푸시",
+        "reviewSources": [
+          {
+            "title": "몰디브 로컬섬 마프시섬 여행 후기 2탄",
+            "url": "https://blog.naver.com/happy18206/223906158377",
+            "kind": "visit-review",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "방문·숙박 과정과 개인 경험을 담은 원문을 읽었습니다. 본문에서 협찬 표시·예약 제휴 링크·할인 코드가 발견되지 않았습니다. 숨겨진 협찬 여부나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ],
+        "osmPlaceId": "way/549664619"
+      },
+      {
+        "id": "maldives-review-c92bd60e6699",
+        "cityId": "maldives",
+        "name": "다라반두 섬",
+        "english": "Dharavandhoo Island",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "바아 환초의 로컬 섬. 방문 후기에서 섬 체류와 하니파루 베이 이동을 확인했습니다. 지도는 섬의 대표 위치입니다.",
+        "address": "바아 환초·다라반두, Maldives",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "로컬 섬의 복장 규정과 배편, 보호구역 출입 조건을 확인하세요. 야생동물에 먹이를 주거나 접촉하지 마세요.",
+        "lat": 5.15833333,
+        "lng": 73.13055556,
+        "area": "바아 환초·다라반두",
+        "reviewSources": [
+          {
+            "title": "몰디브 로컬섬 다라반두 여행 후기",
+            "url": "https://blog.naver.com/tayafan89/224422787293",
+            "kind": "visit-review",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "방문·숙박 과정과 개인 경험을 담은 원문을 읽었습니다. 본문에서 협찬 표시·예약 제휴 링크·할인 코드가 발견되지 않았습니다. 숨겨진 협찬 여부나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "maldives-review-efa930904c60",
+        "cityId": "maldives",
+        "name": "하니파루 베이 보호구역",
+        "english": "Hanifaru Bay Marine Protected Area",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "다라반두 근처의 해양 보호구역. 방문자는 만타가오리와 고래상어를 관찰했으나 야생동물 관찰은 보장되지 않습니다.",
+        "address": "바아 환초·하니파루, Maldives",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "로컬 섬의 복장 규정과 배편, 보호구역 출입 조건을 확인하세요. 야생동물에 먹이를 주거나 접촉하지 마세요.",
+        "lat": 5.1740371,
+        "lng": 73.1442046,
+        "area": "바아 환초·하니파루",
+        "reviewSources": [
+          {
+            "title": "몰디브 로컬섬 다라반두 여행 후기",
+            "url": "https://blog.naver.com/tayafan89/224422787293",
+            "kind": "visit-review",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "방문·숙박 과정과 개인 경험을 담은 원문을 읽었습니다. 본문에서 협찬 표시·예약 제휴 링크·할인 코드가 발견되지 않았습니다. 숨겨진 협찬 여부나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ],
+        "osmPlaceId": "node/9180047747"
+      },
+      {
+        "id": "maldives-review-cfd3abb199bd",
+        "cityId": "maldives",
+        "name": "굴히 섬",
+        "english": "Gulhi Island",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "마푸시에서 투어 중 들러 마을을 걸은 로컬 섬. 지도는 섬의 대표 위치이며 방문 당일 배편은 별도로 확인해야 합니다.",
+        "address": "카푸 환초·굴히, Maldives",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "로컬 섬의 복장 규정과 배편, 보호구역 출입 조건을 확인하세요. 야생동물에 먹이를 주거나 접촉하지 마세요.",
+        "lat": 3.98888889,
+        "lng": 73.50888889,
+        "area": "카푸 환초·굴히",
+        "reviewSources": [
+          {
+            "title": "몰디브 로컬섬 마푸시섬에서 투어한 후기",
+            "url": "https://blog.naver.com/zetai/224176122865",
+            "kind": "visit-review",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "방문·숙박 과정과 개인 경험을 담은 원문을 읽었습니다. 본문에서 협찬 표시·예약 제휴 링크·할인 코드가 발견되지 않았습니다. 숨겨진 협찬 여부나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "maldives-review-c0411d945ff6",
+        "cityId": "maldives",
+        "name": "토두 섬",
+        "english": "Thoddoo Island",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "장기 자유여행 중 머문 로컬 섬. 해변과 마을을 오가며 체류한 후기이며 지도는 섬의 대표 위치입니다.",
+        "address": "알리프 알리프 환초·토두, Maldives",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "로컬 섬의 복장 규정과 배편, 보호구역 출입 조건을 확인하세요. 야생동물에 먹이를 주거나 접촉하지 마세요.",
+        "lat": 4.43694444,
+        "lng": 72.95944444,
+        "area": "알리프 알리프 환초·토두",
+        "reviewSources": [
+          {
+            "title": "몰디브 토두섬 자유 여행",
+            "url": "https://blog.naver.com/soongni/224298890491",
+            "kind": "visit-review",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "방문·숙박 과정과 개인 경험을 담은 원문을 읽었습니다. 본문에서 협찬 표시·예약 제휴 링크·할인 코드가 발견되지 않았습니다. 숨겨진 협찬 여부나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "maldives-review-9cbc960fd274",
+        "cityId": "maldives",
+        "name": "릴리 비치 리조트",
+        "english": "Lily Beach Resort and Spa",
+        "category": "숙소",
+        "image": "/images/place-placeholder.svg",
+        "description": "신혼여행자가 실제 6박한 리조트. 사유 리조트로 일반 해변처럼 자유 입장하는 장소가 아닙니다.",
+        "address": "남아리 환초·후바헨두, Maldives",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "숙박객·예약자 이용 조건과 이동 수단을 먼저 확인하세요.",
+        "lat": 3.6536801,
+        "lng": 72.9539703,
+        "area": "남아리 환초·후바헨두",
+        "reviewSources": [
+          {
+            "title": "몰디브 신혼여행 9박 10일 · 실제 비용",
+            "url": "https://blog.naver.com/janie-0919/224113221448",
+            "kind": "visit-review",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "방문·숙박 과정과 개인 경험을 담은 원문을 읽었습니다. 본문에서 협찬 표시·예약 제휴 링크·할인 코드가 발견되지 않았습니다. 숨겨진 협찬 여부나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ],
+        "osmPlaceId": "way/150793976"
+      },
+      {
+        "id": "maldives-review-546f19696adf",
+        "cityId": "maldives",
+        "name": "마푸시 섬",
+        "english": "Maafushi Island",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "로컬 섬에서 일주일 머문 자유여행 후기를 확인했습니다. 마을 전체 산책을 위한 대표 위치이며 개별 해변과 숙소는 별도 표시합니다.",
+        "address": "카푸 환초·마푸시, Maldives",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "로컬 섬의 복장 규정과 배편, 보호구역 출입 조건을 확인하세요. 야생동물에 먹이를 주거나 접촉하지 마세요.",
+        "lat": 3.94027778,
+        "lng": 73.48888889,
+        "area": "카푸 환초·마푸시",
+        "reviewSources": [
+          {
+            "title": "몰디브 로컬섬 마프시섬 여행 후기 2탄",
+            "url": "https://blog.naver.com/happy18206/223906158377",
+            "kind": "visit-review",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "방문·숙박 과정과 개인 경험을 담은 원문을 읽었습니다. 본문에서 협찬 표시·예약 제휴 링크·할인 코드가 발견되지 않았습니다. 숨겨진 협찬 여부나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "maldives-review-9b01188b564f",
+        "cityId": "maldives",
+        "name": "말레 금요 모스크",
+        "english": "Friday Mosque · Hukuru Miskiy",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "말레의 모스크·종교 건축물.",
+        "address": "말레, 몰디브",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "로컬 섬의 복장 규정과 배편, 보호구역 출입 조건을 확인하세요. 야생동물에 먹이를 주거나 접촉하지 마세요.",
+        "lat": 4.178015,
+        "lng": 73.512375,
+        "area": "말레",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Malé",
+            "url": "https://en.wikivoyage.org/wiki/Mal%C3%A9#Friday_Mosque",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "maldives-review-5f3b9879b230",
+        "cityId": "maldives",
+        "name": "가간두",
+        "english": "Gaagandu",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "우쿨라스의 섬·바다 풍경.",
+        "address": "우쿨라스, 몰디브",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "로컬 섬의 복장 규정과 배편, 보호구역 출입 조건을 확인하세요. 야생동물에 먹이를 주거나 접촉하지 마세요.",
+        "lat": 4.2331,
+        "lng": 72.8765,
+        "area": "우쿨라스",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Ukulhas",
+            "url": "https://en.wikivoyage.org/wiki/Ukulhas#Gaagandu",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "maldives-review-035dfef27193",
+        "cityId": "maldives",
+        "name": "훌루말레 센트럴 파크",
+        "english": "Hulhumale Central Park",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "훌루말레 시가지의 공원. 퍼블릭 비치 산책과 함께 들른 방문 후기에서 확인했습니다.",
+        "address": "훌루말레, Maldives",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "로컬 섬의 복장 규정과 배편, 보호구역 출입 조건을 확인하세요. 야생동물에 먹이를 주거나 접촉하지 마세요.",
+        "lat": 4.2169686,
+        "lng": 73.5405287,
+        "area": "훌루말레",
+        "reviewSources": [
+          {
+            "title": "훌루말레 반나절 산책 후기 · 퍼블릭 비치와 센트럴파크",
+            "url": "https://blog.naver.com/joanna9570/224356323517",
+            "kind": "visit-review",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "방문·숙박 과정과 개인 경험을 담은 원문을 읽었습니다. 본문에서 협찬 표시·예약 제휴 링크·할인 코드가 발견되지 않았습니다. 숨겨진 협찬 여부나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ],
+        "osmPlaceId": "way/383750838"
+      },
+      {
+        "id": "maldives-review-c909c12a24e1",
+        "cityId": "maldives",
+        "name": "마푸시 벨라나 비치",
+        "english": "Velana Beach Maafushi",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "마푸시 동쪽의 해변. 개인 여행자는 주변 바다에서 스노클링한 경험을 기록했습니다.",
+        "address": "마푸시, Maldives",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "로컬 섬의 복장 규정과 배편, 보호구역 출입 조건을 확인하세요. 야생동물에 먹이를 주거나 접촉하지 마세요.",
+        "lat": 3.943329,
+        "lng": 73.4922169,
+        "area": "마푸시",
+        "reviewSources": [
+          {
+            "title": "몰디브 로컬섬 마프시섬 여행 후기 2탄",
+            "url": "https://blog.naver.com/happy18206/223906158377",
+            "kind": "visit-review",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "방문·숙박 과정과 개인 경험을 담은 원문을 읽었습니다. 본문에서 협찬 표시·예약 제휴 링크·할인 코드가 발견되지 않았습니다. 숨겨진 협찬 여부나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ],
+        "osmPlaceId": "node/6117494627"
+      },
+      {
+        "id": "maldives-review-617abc69c8f8",
+        "cityId": "maldives",
+        "name": "바이오스피어 인 다라반두",
+        "english": "Biosphere Inn Dharavandhoo",
+        "category": "숙소",
+        "image": "/images/place-placeholder.svg",
+        "description": "다라반두 여행자가 실제 숙박한 게스트하우스. 보호구역 방문을 준비하며 체류한 숙소로 관광지와 구분했습니다.",
+        "address": "바아 환초·다라반두, Maldives",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "숙박객·예약자 이용 조건과 이동 수단을 먼저 확인하세요.",
+        "lat": 5.1568939,
+        "lng": 73.1312282,
+        "area": "바아 환초·다라반두",
+        "reviewSources": [
+          {
+            "title": "몰디브 로컬섬 다라반두 여행 후기",
+            "url": "https://blog.naver.com/tayafan89/224422787293",
+            "kind": "visit-review",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "방문·숙박 과정과 개인 경험을 담은 원문을 읽었습니다. 본문에서 협찬 표시·예약 제휴 링크·할인 코드가 발견되지 않았습니다. 숨겨진 협찬 여부나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ],
+        "osmPlaceId": "node/8448381699"
+      },
+      {
+        "id": "maldives-review-6a899241d5fc",
+        "cityId": "maldives",
+        "name": "칼후 바카루 모스크",
+        "english": "Kalhu Vakaru Miskiy",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "말레의 모스크·종교 건축물.",
+        "address": "말레, 몰디브",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "로컬 섬의 복장 규정과 배편, 보호구역 출입 조건을 확인하세요. 야생동물에 먹이를 주거나 접촉하지 마세요.",
+        "lat": 4.177784,
+        "lng": 73.510188,
+        "area": "말레",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Malé",
+            "url": "https://en.wikivoyage.org/wiki/Mal%C3%A9#Kalhu_Vakaru_Miskiy",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "maldives-review-bd79fcf6d136",
+        "cityId": "maldives",
+        "name": "후반두마 힝군 거리",
+        "english": "Huvandhumaa Hingun",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "훌루말레 해변과 공원 사이를 걸으며 방문한 거리. 지도는 거리의 대표 구간입니다.",
+        "address": "훌루말레, Maldives",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "로컬 섬의 복장 규정과 배편, 보호구역 출입 조건을 확인하세요. 야생동물에 먹이를 주거나 접촉하지 마세요.",
+        "lat": 4.2161076,
+        "lng": 73.5433115,
+        "area": "훌루말레",
+        "reviewSources": [
+          {
+            "title": "훌루말레 반나절 산책 후기 · 퍼블릭 비치와 센트럴파크",
+            "url": "https://blog.naver.com/joanna9570/224356323517",
+            "kind": "visit-review",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "방문·숙박 과정과 개인 경험을 담은 원문을 읽었습니다. 본문에서 협찬 표시·예약 제휴 링크·할인 코드가 발견되지 않았습니다. 숨겨진 협찬 여부나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ],
+        "osmPlaceId": "way/1528844592"
+      },
+      {
+        "id": "maldives-review-cc9b0c5280ed",
+        "cityId": "maldives",
+        "name": "카니 그랜드 씨뷰",
+        "english": "Kaani Grand Seaview",
+        "category": "숙소",
+        "image": "/images/place-placeholder.svg",
+        "description": "마푸시에서 실제 3박한 여행자의 비용·일정 기록을 확인한 숙소. 객실 가격과 제공 서비스는 예약 시 확인해야 합니다.",
+        "address": "마푸시, Maldives",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "숙박객·예약자 이용 조건과 이동 수단을 먼저 확인하세요.",
+        "lat": 3.9449847,
+        "lng": 73.4911038,
+        "area": "마푸시",
+        "reviewSources": [
+          {
+            "title": "몰디브 신혼여행 9박 10일 · 실제 비용",
+            "url": "https://blog.naver.com/janie-0919/224113221448",
+            "kind": "visit-review",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "방문·숙박 과정과 개인 경험을 담은 원문을 읽었습니다. 본문에서 협찬 표시·예약 제휴 링크·할인 코드가 발견되지 않았습니다. 숨겨진 협찬 여부나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ],
+        "osmPlaceId": "node/6117494594"
+      },
+      {
+        "id": "maldives-review-fcce176fa9d1",
+        "cityId": "maldives",
+        "name": "말레 공화국 광장",
+        "english": "Republic Square · Jumhooree Maidhaan",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "말레의 공원·정원.",
+        "address": "Boduthakururufaanu Magu",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "로컬 섬의 복장 규정과 배편, 보호구역 출입 조건을 확인하세요. 야생동물에 먹이를 주거나 접촉하지 마세요.",
+        "lat": 4.17914,
+        "lng": 73.511064,
+        "area": "말레",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Malé",
+            "url": "https://en.wikivoyage.org/wiki/Mal%C3%A9#Republic_Square",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "maldives-review-813fd63e9539",
+        "cityId": "maldives",
+        "name": "말레 이슬람 센터",
+        "english": "Islamic Centre · Masjid Al-Sultan Muhammad Thakurufaanu al-Auzam",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "말레의 모스크·종교 건축물.",
+        "address": "말레, 몰디브",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "로컬 섬의 복장 규정과 배편, 보호구역 출입 조건을 확인하세요. 야생동물에 먹이를 주거나 접촉하지 마세요.",
+        "lat": 4.178505,
+        "lng": 73.510513,
+        "area": "말레",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Malé",
+            "url": "https://en.wikivoyage.org/wiki/Mal%C3%A9#Islamic_Centre",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "maldives-review-b2d70a180d96",
+        "cityId": "maldives",
+        "name": "토두 선셋 비치",
+        "english": "Bikini Beach",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "토두의 해변.",
+        "address": "토두, 몰디브",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "로컬 섬의 복장 규정과 배편, 보호구역 출입 조건을 확인하세요. 야생동물에 먹이를 주거나 접촉하지 마세요.",
+        "lat": 4.4353,
+        "lng": 72.9545,
+        "area": "토두",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Thoddoo",
+            "url": "https://en.wikivoyage.org/wiki/Thoddoo#Bikini_Beach",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "maldives-review-fd44dd2c60e5",
+        "cityId": "maldives",
+        "name": "술탄 공원·몰디브 국립박물관",
+        "english": "Sultan Park and National Museum",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "말레의 박물관·전시 공간. 지역·역사 자료를 살펴볼 수 있습니다.",
+        "address": "말레, 몰디브",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "로컬 섬의 복장 규정과 배편, 보호구역 출입 조건을 확인하세요. 야생동물에 먹이를 주거나 접촉하지 마세요.",
+        "lat": 4.17726,
+        "lng": 73.510162,
+        "area": "말레",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Malé",
+            "url": "https://en.wikivoyage.org/wiki/Mal%C3%A9#Sultan_Park_and_National_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "maldives-review-6f9033896412",
+        "cityId": "maldives",
+        "name": "메두 지야라이 묘역",
+        "english": "Medhu Ziyaaraiy",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "말레의 둘러볼 수 있는 장소.",
+        "address": "말레, 몰디브",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "로컬 섬의 복장 규정과 배편, 보호구역 출입 조건을 확인하세요. 야생동물에 먹이를 주거나 접촉하지 마세요.",
+        "lat": 4.177666,
+        "lng": 73.512501,
+        "area": "말레",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Malé",
+            "url": "https://en.wikivoyage.org/wiki/Mal%C3%A9#Medhu_Ziyaaraiy",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "maldives-review-8769ba986db9",
+        "cityId": "maldives",
+        "name": "다루마반타 모스크",
+        "english": "Dharumavantha Mosque",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "말레의 모스크·종교 건축물.",
+        "address": "말레, 몰디브",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "로컬 섬의 복장 규정과 배편, 보호구역 출입 조건을 확인하세요. 야생동물에 먹이를 주거나 접촉하지 마세요.",
+        "lat": 4.17739,
+        "lng": 73.511647,
+        "area": "말레",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Malé",
+            "url": "https://en.wikivoyage.org/wiki/Mal%C3%A9#Dharumavantha_Mosque",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "maldives-review-c4397f65f9d7",
+        "cityId": "maldives",
+        "name": "커피 올레",
+        "english": "Coffee Ole",
+        "category": "카페",
+        "image": "/images/place-placeholder.svg",
+        "description": "라스두의 커피·음료를 즐길 수 있는 카페.",
+        "address": "Bodu Magu",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 4.2633,
+        "lng": 72.99172,
+        "area": "라스두",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Rasdhoo",
+            "url": "https://en.wikivoyage.org/wiki/Rasdhoo#Coffee_Ole",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "maldives-review-eef5e97a9521",
+        "cityId": "maldives",
+        "name": "팜 섀도",
+        "english": "Palm Shadow",
+        "category": "카페",
+        "image": "/images/place-placeholder.svg",
+        "description": "라스두의 커피·음료를 즐길 수 있는 카페.",
+        "address": "Ghaazee Magu",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 4.2637,
+        "lng": 72.9904,
+        "area": "라스두",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Rasdhoo",
+            "url": "https://en.wikivoyage.org/wiki/Rasdhoo#Palm_Shadow",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "maldives-review-ebb03354c0e0",
+        "cityId": "maldives",
+        "name": "틴 아리",
+        "english": "Thin Ari",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "토두의 식사 장소.",
+        "address": "토두, 몰디브",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 4.4399,
+        "lng": 72.9638,
+        "area": "토두",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Thoddoo",
+            "url": "https://en.wikivoyage.org/wiki/Thoddoo#Thin_Ari",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "maldives-review-204ab7c3b35c",
+        "cityId": "maldives",
+        "name": "코코넛 가든",
+        "english": "Coconut Garden",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "라스두의 식사 장소.",
+        "address": "라스두, 몰디브",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "여행자 가이드에 추가 요금 관련 불만이 있습니다. 주문 전에 메뉴 가격과 총액을 확인하세요.",
+        "lat": 4.26321,
+        "lng": 72.99299,
+        "area": "라스두",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Rasdhoo",
+            "url": "https://en.wikivoyage.org/wiki/Rasdhoo#Coconut_Garden",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "maldives-review-cdea9c7d9d53",
+        "cityId": "maldives",
+        "name": "날라 비스트로",
+        "english": "Nala Bistro",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "우쿨라스의 해산물을 다루는 식당.",
+        "address": "우쿨라스, 몰디브",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 4.21246,
+        "lng": 72.86569,
+        "area": "우쿨라스",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Ukulhas",
+            "url": "https://en.wikivoyage.org/wiki/Ukulhas#Nala_Bistro",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "maldives-review-123be57bcd88",
+        "cityId": "maldives",
+        "name": "코코 메로",
+        "english": "Coco Mero",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "토두의 식사 장소.",
+        "address": "토두, 몰디브",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 4.4378,
+        "lng": 72.9605,
+        "area": "토두",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Thoddoo",
+            "url": "https://en.wikivoyage.org/wiki/Thoddoo#Coco_Mero",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "maldives-review-d9354b94ba41",
+        "cityId": "maldives",
+        "name": "아이코코",
+        "english": "Icoco",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "라스두의 식사 장소.",
+        "address": "Bodu Magu",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 4.26346,
+        "lng": 72.9914,
+        "area": "라스두",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Rasdhoo",
+            "url": "https://en.wikivoyage.org/wiki/Rasdhoo#Icoco",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "maldives-review-d4cbd158c0fd",
+        "cityId": "maldives",
+        "name": "포블라노",
+        "english": "Poblano",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "우쿨라스의 채식 메뉴을 다루는 식당.",
+        "address": "우쿨라스, 몰디브",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 4.21407,
+        "lng": 72.86595,
+        "area": "우쿨라스",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Ukulhas",
+            "url": "https://en.wikivoyage.org/wiki/Ukulhas#Poblano",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "maldives-review-b24ca6cb81fc",
+        "cityId": "maldives",
+        "name": "선라이즈 코넷",
+        "english": "Sunrise Cornet",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "토두의 식사 장소.",
+        "address": "토두, 몰디브",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 4.4372,
+        "lng": 72.9602,
+        "area": "토두",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Thoddoo",
+            "url": "https://en.wikivoyage.org/wiki/Thoddoo#Sunrise_Cornet",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "maldives-review-12139fcde64b",
+        "cityId": "maldives",
+        "name": "레몬 드롭",
+        "english": "Lemon Drop",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "라스두의 이탈리아 요리을 다루는 식당.",
+        "address": "Anboofannu Magu",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 4.26444,
+        "lng": 72.9914,
+        "area": "라스두",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Rasdhoo",
+            "url": "https://en.wikivoyage.org/wiki/Rasdhoo#Lemon_Drop",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "maldives-review-10ec7c4d6968",
+        "cityId": "maldives",
+        "name": "셰프 누르",
+        "english": "Chef Nur",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "우쿨라스의 커리을 다루는 식당.",
+        "address": "Jumhoree Magu",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 4.21547,
+        "lng": 72.86407,
+        "area": "우쿨라스",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Ukulhas",
+            "url": "https://en.wikivoyage.org/wiki/Ukulhas#Chef_Nur",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "maldives-review-45808412b4df",
+        "cityId": "maldives",
+        "name": "민트 가든",
+        "english": "Mint Garden",
+        "category": "카페",
+        "image": "/images/place-placeholder.svg",
+        "description": "토두의 커피·음료를 즐길 수 있는 카페.",
+        "address": "토두, 몰디브",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 4.4375,
+        "lng": 72.9591,
+        "area": "토두",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Thoddoo",
+            "url": "https://en.wikivoyage.org/wiki/Thoddoo#Mint_Garden",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "maldives-review-804b6637d6da",
+        "cityId": "maldives",
+        "name": "테이스트",
+        "english": "Taste",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "우쿨라스의 식사 장소.",
+        "address": "Vashaa Magu",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 4.21221,
+        "lng": 72.86586,
+        "area": "우쿨라스",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Ukulhas",
+            "url": "https://en.wikivoyage.org/wiki/Ukulhas#Taste",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "maldives-review-081d812abe23",
+        "cityId": "maldives",
+        "name": "블랙 솔트",
+        "english": "Black Salt",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "토두의 식사 장소.",
+        "address": "토두, 몰디브",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 4.4373,
+        "lng": 72.9614,
+        "area": "토두",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Thoddoo",
+            "url": "https://en.wikivoyage.org/wiki/Thoddoo#Black_Salt",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "maldives-review-52882bbbc1b0",
+        "cityId": "maldives",
+        "name": "에스티오 피플스 초이스 슈퍼마켓",
+        "english": "STO People's Choice Supermart",
+        "category": "쇼핑",
+        "image": "/images/place-placeholder.svg",
+        "description": "말레의 시장·쇼핑 공간.",
+        "address": "Orchid Magu",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "로컬 섬의 복장 규정과 배편, 보호구역 출입 조건을 확인하세요. 야생동물에 먹이를 주거나 접촉하지 마세요.",
+        "lat": 4.179128,
+        "lng": 73.509489,
+        "area": "말레",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Malé",
+            "url": "https://en.wikivoyage.org/wiki/Mal%C3%A9#STO_People%27s_Choice_Supermart",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "maldives-review-2def4cc35dad",
+        "cityId": "maldives",
+        "name": "남서쪽 항구 일대",
+        "english": "South West Harbour Area",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "말레의 섬·바다 풍경.",
+        "address": "말레, 몰디브",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "로컬 섬의 복장 규정과 배편, 보호구역 출입 조건을 확인하세요. 야생동물에 먹이를 주거나 접촉하지 마세요.",
+        "lat": 4.171975,
+        "lng": 73.503301,
+        "area": "말레",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Malé",
+            "url": "https://en.wikivoyage.org/wiki/Mal%C3%A9#South_West_Harbour_Area",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "maldives-review-f8d2f232423f",
+        "cityId": "maldives",
+        "name": "라스두 비키니 비치",
+        "english": "Bikini beach",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "라스두의 해변. 산호 주변 바다를 살펴볼 수 있습니다.",
+        "address": "라스두, 몰디브",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "로컬 섬의 복장 규정과 배편, 보호구역 출입 조건을 확인하세요. 야생동물에 먹이를 주거나 접촉하지 마세요.",
+        "lat": 4.2606,
+        "lng": 72.9915,
+        "area": "라스두",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Rasdhoo",
+            "url": "https://en.wikivoyage.org/wiki/Rasdhoo#Bikini_beach",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "maldives-review-39a0bb401598",
+        "cityId": "maldives",
+        "name": "라스두 피크닉 아일랜드",
+        "english": "Picnic Island · Madivaru Island",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "라스두의 섬·바다 풍경.",
+        "address": "라스두, 몰디브",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "로컬 섬의 복장 규정과 배편, 보호구역 출입 조건을 확인하세요. 야생동물에 먹이를 주거나 접촉하지 마세요.",
+        "lat": 4.2655,
+        "lng": 73.0003,
+        "area": "라스두",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Rasdhoo",
+            "url": "https://en.wikivoyage.org/wiki/Rasdhoo#Picnic_Island",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "maldives-review-8043965f3abd",
+        "cityId": "maldives",
+        "name": "비치 블렌즈",
+        "english": "Beach Blends",
+        "category": "바·공연",
+        "image": "/images/place-placeholder.svg",
+        "description": "우쿨라스의 바·펍. 야간 일정에 넣을 수 있는 장소입니다.",
+        "address": "우쿨라스, 몰디브",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "공연 일정·연령 제한·예약 여부를 방문 전에 확인하세요.",
+        "lat": 4.21383,
+        "lng": 72.86439,
+        "area": "우쿨라스",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Ukulhas",
+            "url": "https://en.wikivoyage.org/wiki/Ukulhas#Beach_Blends",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "maldives-review-da2bdf2e1442",
+        "cityId": "maldives",
+        "name": "제이드 비스트로",
+        "english": "Jade Bistro",
+        "category": "카페",
+        "image": "/images/place-placeholder.svg",
+        "description": "말레의 커피·음료를 즐길 수 있는 카페.",
+        "address": "In front of jetty #8",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 4.177965,
+        "lng": 73.515546,
+        "area": "말레",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Malé",
+            "url": "https://en.wikivoyage.org/wiki/Mal%C3%A9#Jade_Bistro",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "maldives-review-326288c7d42f",
+        "cityId": "maldives",
+        "name": "진저",
+        "english": "Ginger",
+        "category": "바·공연",
+        "image": "/images/place-placeholder.svg",
+        "description": "우쿨라스의 바·펍. 야간 일정에 넣을 수 있는 장소입니다.",
+        "address": "우쿨라스, 몰디브",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "공연 일정·연령 제한·예약 여부를 방문 전에 확인하세요.",
+        "lat": 4.21612,
+        "lng": 72.86235,
+        "area": "우쿨라스",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Ukulhas",
+            "url": "https://en.wikivoyage.org/wiki/Ukulhas#Ginger",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "maldives-review-a73c6d7f519c",
+        "cityId": "maldives",
+        "name": "라스두 후다 모스크",
+        "english": "Masjid Hudha",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "라스두의 모스크·종교 건축물.",
+        "address": "라스두, 몰디브",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "로컬 섬의 복장 규정과 배편, 보호구역 출입 조건을 확인하세요. 야생동물에 먹이를 주거나 접촉하지 마세요.",
+        "lat": 4.26307,
+        "lng": 72.99112,
+        "area": "라스두",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Rasdhoo",
+            "url": "https://en.wikivoyage.org/wiki/Rasdhoo#Masjid_Hudha",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "maldives-review-ffc9d8288a12",
+        "cityId": "maldives",
+        "name": "푸드뱅크",
+        "english": "FoodBank",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "말레의 해산물을 다루는 식당.",
+        "address": "Orchid magu",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 4.176978,
+        "lng": 73.515055,
+        "area": "말레",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Malé",
+            "url": "https://en.wikivoyage.org/wiki/Mal%C3%A9#FoodBank",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "maldives-review-420de242221c",
+        "cityId": "maldives",
+        "name": "파이미니 카마나",
+        "english": "Faiymini Kamana",
+        "category": "바·공연",
+        "image": "/images/place-placeholder.svg",
+        "description": "우쿨라스의 바·펍. 야간 일정에 넣을 수 있는 장소입니다.",
+        "address": "Jumhoree Magu",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "공연 일정·연령 제한·예약 여부를 방문 전에 확인하세요.",
+        "lat": 4.2156,
+        "lng": 72.86396,
+        "area": "우쿨라스",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Ukulhas",
+            "url": "https://en.wikivoyage.org/wiki/Ukulhas#Faiymini_Kamana",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "maldives-review-9e3c406f6057",
+        "cityId": "maldives",
+        "name": "브레이크워터",
+        "english": "Breakwater",
+        "category": "카페",
+        "image": "/images/place-placeholder.svg",
+        "description": "말레의 커피·음료를 즐길 수 있는 카페.",
+        "address": "Boduthankurufaanu Magu",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 4.173828,
+        "lng": 73.518233,
+        "area": "말레",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Malé",
+            "url": "https://en.wikivoyage.org/wiki/Mal%C3%A9#Breakwater",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "maldives-review-c010c8fc1a71",
+        "cityId": "maldives",
+        "name": "시걸 카페",
+        "english": "Seagull Café",
+        "category": "카페",
+        "image": "/images/place-placeholder.svg",
+        "description": "말레의 아이스크림·디저트 가게.",
+        "address": "Fareedhee Magu",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 4.177918,
+        "lng": 73.509911,
+        "area": "말레",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Malé",
+            "url": "https://en.wikivoyage.org/wiki/Mal%C3%A9#Seagull_Caf%C3%A9",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "maldives-balance-0d45bf3d37",
+        "cityId": "maldives",
+        "name": "웨일 서브마린",
+        "english": "Whale Submarine",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "말레 인근 바닷속을 잠수정으로 둘러보는 체험입니다.",
+        "address": "H. Abadhahfehi Magu",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "운영 회차·예약·참가 조건을 확인하세요. 물놀이와 야외 활동은 당일 날씨·안전 안내를 따르세요.",
+        "area": "말레",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Malé",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Malé&oldid=5368258",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 do 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "maldives-balance-629e99dc8c",
+        "cityId": "maldives",
+        "name": "말레 로컬 마켓",
+        "english": "Local Market",
+        "category": "쇼핑",
+        "image": "/images/place-placeholder.svg",
+        "description": "여러 환초에서 가져온 과일과 지역 생산물을 살펴보는 시장입니다.",
+        "address": "말레, 몰디브",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "품목과 매장별 운영시간을 확인하고 구입할 물건을 정해 둘러보세요.",
+        "area": "말레",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Malé",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Malé&oldid=5368258",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 buy 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "maldives-balance-28d36da638",
+        "cityId": "maldives",
+        "name": "바르셀로 나산두라",
+        "english": "Barceló Nasandhura",
+        "category": "숙소",
+        "image": "/images/place-placeholder.svg",
+        "description": "말레 항구와 가까운 호텔 숙박 후보입니다.",
+        "address": "말레, 몰디브",
+        "duration": "숙박 일정에 맞춰 지정",
+        "cost": "숙박일·객실·공식 안내에서 확인",
+        "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+        "lat": 4.177694,
+        "lng": 73.516548,
+        "area": "말레",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Malé",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Malé&oldid=5368258",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "id": "maldives-overview",
+        "title": "도시 소개",
+        "body": "리조트섬·로컬섬·말레권 중 숙박 형태를 먼저 정해야 합니다. 숙소에 가는 이동편이 예약의 핵심입니다."
+      },
+      {
+        "id": "maldives-before",
+        "title": "출발 전 준비",
+        "body": "숙박 결제 전에 왕복 이동비·운항 조건·지연 도착 시 대응을 숙소에 확인하세요.\n\n해양 체험은 운영 주체·기상 취소·안전 장비·포함 비용을 확인하세요."
+      },
+      {
+        "id": "maldives-arrival",
+        "title": "공항과 시내 이동",
+        "body": "국제선 도착 → 숙소: 숙소가 안내하는 보트·국내선·수상비행기의 연결과 짐 조건을 국제선 확정 전에 확인하세요.\n\n섬 사이 이동: 시간표·운항일·기상을 확인해야 합니다. 섬 사이를 자유로운 시내 교통처럼 계획하지 마세요."
+      },
+      {
+        "id": "maldives-stay",
+        "title": "숙소 지역 선택",
+        "body": "리조트섬: 숙소 휴식 중심이라면 총 숙박비에 왕복 이동·식사·세금이 무엇까지 포함되는지 비교하세요.\n\n로컬섬·말레권: 현지 생활과 개별 식사를 원할 때 비교하세요. 섬마다 숙박·교통·해변 규칙이 다릅니다."
+      },
+      {
+        "id": "maldives-plan",
+        "title": "일정 계획",
+        "body": "짧은 체류: 숙소 한 곳을 중심으로 섬 이동을 줄이세요.\n\n여유 있는 체류: 숙소를 옮기려면 이동편·결항 대안·국제선 연결을 먼저 확정하세요."
+      },
+      {
+        "id": "maldives-notes",
+        "title": "현장 팁",
+        "body": "다라반두·마푸시·말레를 같은 도보 코스로 묶지 마세요.\n\n로컬섬의 수영복 허용 해변과 현지 생활 구역 규칙을 구분하세요."
+      },
+      {
+        "id": "maldives-rain",
+        "title": "비 오는 날",
+        "body": "해상 이동·체험의 운항을 확인하고 숙소 안에서 쉴 수 있는 일정으로 남겨두세요."
+      }
+    ],
+    "sources": [],
+    "status": "published",
+    "requestId": null,
+    "createdAt": "2026-10-28T00:00:00.000Z",
+    "updatedAt": "2026-10-28T00:00:00.000Z",
+    "publishedAt": "2026-10-28T00:00:00.000Z"
+  },
+  "practicalGuide": {
+    "cityId": "maldives",
+    "firstVisit": "리조트섬·로컬섬·말레권 중 숙박 형태를 먼저 정해야 합니다. 숙소에 가는 이동편이 예약의 핵심입니다.",
+    "bases": [
+      {
+        "name": "리조트섬",
+        "advice": "숙소 휴식 중심이라면 총 숙박비에 왕복 이동·식사·세금이 무엇까지 포함되는지 비교하세요."
+      },
+      {
+        "name": "로컬섬·말레권",
+        "advice": "현지 생활과 개별 식사를 원할 때 비교하세요. 섬마다 숙박·교통·해변 규칙이 다릅니다."
+      }
+    ],
+    "arrival": [
+      {
+        "name": "국제선 도착 → 숙소",
+        "advice": "숙소가 안내하는 보트·국내선·수상비행기의 연결과 짐 조건을 국제선 확정 전에 확인하세요."
+      },
+      {
+        "name": "섬 사이 이동",
+        "advice": "시간표·운항일·기상을 확인해야 합니다. 섬 사이를 자유로운 시내 교통처럼 계획하지 마세요."
+      }
+    ],
+    "timePlan": [
+      {
+        "name": "짧은 체류",
+        "advice": "숙소 한 곳을 중심으로 섬 이동을 줄이세요."
+      },
+      {
+        "name": "여유 있는 체류",
+        "advice": "숙소를 옮기려면 이동편·결항 대안·국제선 연결을 먼저 확정하세요."
+      }
+    ],
+    "before": [
+      "숙박 결제 전에 왕복 이동비·운항 조건·지연 도착 시 대응을 숙소에 확인하세요.",
+      "해양 체험은 운영 주체·기상 취소·안전 장비·포함 비용을 확인하세요."
+    ],
+    "pitfalls": [
+      "다라반두·마푸시·말레를 같은 도보 코스로 묶지 마세요.",
+      "로컬섬의 수영복 허용 해변과 현지 생활 구역 규칙을 구분하세요."
+    ],
+    "rainPlan": "해상 이동·체험의 운항을 확인하고 숙소 안에서 쉴 수 있는 일정으로 남겨두세요.",
+    "courses": [
+      {
+        "id": "maldives-course-1",
+        "title": "말레 시내 산책",
+        "pace": "반나절 · 도보",
+        "why": "말레섬 안의 도심 장소만 묶었습니다. 종교 시설 방문 조건은 따로 확인하세요.",
+        "placeIds": [
+          "male-market",
+          "maldives-review-fcce176fa9d1",
+          "maldives-review-9b01188b564f"
+        ]
+      },
+      {
+        "id": "maldives-course-2",
+        "title": "훌루말레에서 쉬는 날",
+        "pace": "반나절 · 도보",
+        "why": "훌루말레 안에서 해변과 공원만 묶는 가벼운 제안입니다.",
+        "placeIds": [
+          "hulhumale",
+          "maldives-review-035dfef27193"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "관광청 공식 사이트",
+        "url": "https://visitmaldives.com/",
+        "checkedAt": "2026-10-15",
+        "status": "unavailable"
+      }
+    ],
+    "researchNote": "기존 내장 장소를 바탕으로 작성한 계획 제안입니다. 관광청 최신 교통·운영 조건은 본문 접근 제한으로 재확인하지 못했습니다."
+  },
+  "plans": {
+    "cityId": "maldives",
+    "days": [
+      {
+        "id": "maldives-day-1",
+        "title": "훌루말레에서 쉬며 도착",
+        "pace": "차량·도보",
+        "why": "장거리 비행 뒤 훌루말레에서 쉽니다. 숙소를 먼저 정하고 섬 이동은 다음 날부터 잡습니다.",
+        "placeIds": [
+          "hulhumale",
+          "maldives-review-035dfef27193"
+        ]
+      },
+      {
+        "id": "maldives-day-2",
+        "title": "말레 시내 문화 산책",
+        "pace": "차량·도보",
+        "why": "말레 시내에서 시장과 광장·박물관을 묶습니다. 마푸시행 배편이 있으면 승선 시간을 먼저 확보합니다.",
+        "placeIds": [
+          "male-market",
+          "maldives-review-fcce176fa9d1",
+          "maldives-review-fd44dd2c60e5"
+        ]
+      },
+      {
+        "id": "maldives-day-3",
+        "title": "마푸시로 이동해 바다에서 쉬기",
+        "pace": "예약 선박·도보",
+        "why": "마푸시 숙박과 왕복 스피드보트를 먼저 예약한 로컬섬 예시입니다. 도착 당일이라면 비행기 도착 시각에 맞는 배편이 있을 때만 선택합니다. 다른 환초 리조트와 섞지 않습니다.",
+        "placeIds": [
+          "maldives-review-546f19696adf",
+          "maldives-review-c909c12a24e1"
+        ]
+      },
+      {
+        "id": "maldives-day-4",
+        "title": "마푸시 해변에서 머무는 날",
+        "pace": "도보",
+        "why": "마푸시에서 물놀이와 휴식을 보냅니다. 출국 전날이면 오후 배편으로 훌루말레에 돌아와 마지막 밤을 보냅니다. 해양 활동은 현지 운영사와 날씨를 확인합니다.",
+        "placeIds": [
+          "maldives-review-5487a27a6317"
+        ]
+      },
+      {
+        "id": "maldives-day-5",
+        "title": "훌루말레 복귀와 출국 준비",
+        "pace": "차량·도보",
+        "why": "훌루말레로 복귀해 마지막 밤을 보낸 뒤 출국하는 날입니다. 귀국편에 맞춰 해변 일정은 생략하고 공항 이동 시간을 먼저 남깁니다.",
+        "placeIds": [
+          "maldives-review-bd79fcf6d136",
+          "hulhumale"
+        ]
+      }
+    ],
+    "dayOrder": {
+      "3": [
+        2,
+        3,
+        4
+      ],
+      "4": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "5": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  }
+}

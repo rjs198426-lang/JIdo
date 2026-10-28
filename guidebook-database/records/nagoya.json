@@ -1,0 +1,1683 @@
+{
+  "guide": {
+    "id": "nagoya",
+    "scope": "city",
+    "city": {
+      "id": "nagoya",
+      "name": "나고야",
+      "english": "NAGOYA · 名古屋",
+      "country": "일본",
+      "region": "일본",
+      "image": "/images/place-nagoya-castle.jpg",
+      "photoCredit": {
+        "file": "/images/place-nagoya-castle.jpg",
+        "author": "Bariston",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nagoya_Castle_7.jpg",
+        "verifiedAt": "2026-10-14"
+      },
+      "tagline": "성·상점가·숲속 신궁",
+      "description": "나고야성·오스·아쓰타 지역을 나눠 둘러보고 중부 지역 여행을 이어갈 수 있습니다.",
+      "tags": [
+        "도시 산책",
+        "자유여행"
+      ],
+      "flight": "주부 센트레아공항",
+      "currency": "일본 엔 · JPY",
+      "timeDifference": "한국과 시차 없음",
+      "season": "계절별 일정 선택",
+      "accent": "#eaf4ef"
+    },
+    "places": [
+      {
+        "id": "nagoya-castle",
+        "cityId": "nagoya",
+        "name": "나고야성",
+        "english": "Nagoya Castle · 名古屋城 Nagoya-jō",
+        "category": "관광",
+        "image": "/images/place-nagoya-castle.jpg",
+        "photoCredit": {
+          "file": "/images/place-nagoya-castle.jpg",
+          "author": "Bariston",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nagoya_Castle_7.jpg",
+          "verifiedAt": "2026-10-14"
+        },
+        "description": "금색 샤치 장식으로 알려진 성. 천수각 내부 관람과 혼마루 궁전 관람 조건은 구분하여 확인해야 합니다.",
+        "address": "나고야, 나고야",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.185555,
+        "lng": 136.898611,
+        "area": "나고야",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Nagoya",
+            "url": "https://en.wikivoyage.org/wiki/Nagoya#Nagoya_Castle",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "nagoya-osu",
+        "cityId": "nagoya",
+        "name": "오스 상점가",
+        "english": "Ōsu Shopping Arcade",
+        "category": "쇼핑",
+        "image": "/images/place-nagoya-osu.jpg",
+        "photoCredit": {
+          "file": "/images/place-nagoya-osu.jpg",
+          "author": "Bariston",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Osu1.JPG",
+          "verifiedAt": "2026-10-14"
+        },
+        "description": "나고야의 사찰.",
+        "address": "나고야, 나고야",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.15899,
+        "lng": 136.90342,
+        "area": "나고야",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Nagoya",
+            "url": "https://en.wikivoyage.org/wiki/Nagoya#%C5%8Csu_Shopping_Arcade",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "nagoya-atsuta",
+        "cityId": "nagoya",
+        "name": "아쓰타 신궁",
+        "english": "Atsuta Shrine · 熱田神宮 Atsuta Jingū",
+        "category": "관광",
+        "image": "/images/place-nagoya-atsuta.jpg",
+        "photoCredit": {
+          "file": "/images/place-nagoya-atsuta.jpg",
+          "author": "Bariston",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Atsuta_Shrine.jpg",
+          "verifiedAt": "2026-10-14"
+        },
+        "description": "나고야의 신사·사당.",
+        "address": "나고야, 나고야",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.1275,
+        "lng": 136.908333,
+        "area": "나고야",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Nagoya",
+            "url": "https://en.wikivoyage.org/wiki/Nagoya#Atsuta_Shrine",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "nagoya-review-97fb403a3466",
+        "cityId": "nagoya",
+        "name": "이누야마성",
+        "english": "Inuyama Castle · 犬山城 Inuyamajō",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 이누야마의 성·궁전 유적.",
+        "address": "근교 · 이누야마, 나고야",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 35.3883,
+        "lng": 136.9393,
+        "area": "근교 · 이누야마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Inuyama",
+            "url": "https://en.wikivoyage.org/wiki/Inuyama#Inuyama_Castle",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "nagoya-review-8a3e457eb555",
+        "cityId": "nagoya",
+        "name": "멘타이 파크 도코나메",
+        "english": "Mentai Park Tokoname · めんたいパークとこなめ",
+        "category": "관광",
+        "image": "/images/commons-069-nagoya-review-8a3e457eb555.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-nagoya-review-8a3e457eb555.jpg",
+          "author": "73479994@N00",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kanefuku_mentai_park_(55416771562).jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "근교 · 도코나메의 공원·정원.",
+        "address": "愛知県常滑市りんくう町1-25-4",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 34.890361,
+        "lng": 136.826087,
+        "area": "근교 · 도코나메",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Tokoname",
+            "url": "https://en.wikivoyage.org/wiki/Tokoname#Mentai_Park_Tokoname",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "nagoya-review-50dd3b74c667",
+        "cityId": "nagoya",
+        "name": "지브리 파크",
+        "english": "Ghibli Park · ジブリパーク",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 나가쿠테의 공원·정원.",
+        "address": "within Aichi Earth Expo Memorial Park, 1533-1 Ibaragabasama, Nagakute, Aichi",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 35.1726,
+        "lng": 137.089,
+        "area": "근교 · 나가쿠테",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Nagakute",
+            "url": "https://en.wikivoyage.org/wiki/Nagakute#Ghibli_Park",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "nagoya-review-425453cbd16f",
+        "cityId": "nagoya",
+        "name": "박물관 메이지무라",
+        "english": "Meiji Mura Museum · 明治村",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 이누야마의 박물관·전시 공간.",
+        "address": "근교 · 이누야마, 나고야",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 35.340598,
+        "lng": 136.98873,
+        "area": "근교 · 이누야마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Inuyama",
+            "url": "https://en.wikivoyage.org/wiki/Inuyama#Meiji_Mura_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "nagoya-review-6dfee2547e8d",
+        "cityId": "nagoya",
+        "name": "린쿠 해변",
+        "english": "Rinku Beach · りんくうビーチ",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 도코나메의 해변.",
+        "address": "愛知県常滑市りんくう町１丁目",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 34.885929,
+        "lng": 136.822824,
+        "area": "근교 · 도코나메",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Tokoname",
+            "url": "https://en.wikivoyage.org/wiki/Tokoname#Rinku_Beach",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "nagoya-review-df7b506c9769",
+        "cityId": "nagoya",
+        "name": "도요타 박물관",
+        "english": "Toyota Automobile Museum · トヨタ博物館 Toyota Hakubutsukan",
+        "category": "관광",
+        "image": "/images/commons-069-nagoya-review-df7b506c9769.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-nagoya-review-df7b506c9769.jpg",
+          "author": "先従隗始",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Toyota_Automobile_Museum_20250211_02.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "근교 · 나가쿠테의 박물관·전시 공간.",
+        "address": "愛知県長久手市横道41-100",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 35.1727,
+        "lng": 137.058,
+        "area": "근교 · 나가쿠테",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Nagakute",
+            "url": "https://en.wikivoyage.org/wiki/Nagakute#Toyota_Automobile_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "nagoya-review-49165d5e1af9",
+        "cityId": "nagoya",
+        "name": "우라쿠엔 정원",
+        "english": "Urakuen · 有楽苑",
+        "category": "관광",
+        "image": "/images/commons-069-nagoya-review-49165d5e1af9.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-nagoya-review-49165d5e1af9.jpg",
+          "author": "Hyppolyte de Saint-Rambert",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Urakuen_(Inuyama_Aichi)_VLux5_hdsr_09.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "근교 · 이누야마의 성·궁전 유적.",
+        "address": "근교 · 이누야마, 나고야",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 35.387899,
+        "lng": 136.942245,
+        "area": "근교 · 이누야마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Inuyama",
+            "url": "https://en.wikivoyage.org/wiki/Inuyama#Urakuen",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "nagoya-review-e10d1ac4135c",
+        "cityId": "nagoya",
+        "name": "오노 해변",
+        "english": "Ōno beach · 大野海水浴場",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 도코나메의 해변.",
+        "address": "근교 · 도코나메, 나고야",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 34.938333,
+        "lng": 136.825,
+        "area": "근교 · 도코나메",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Tokoname",
+            "url": "https://en.wikivoyage.org/wiki/Tokoname#%C5%8Cno_beach",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "nagoya-review-7ca6d597ccd7",
+        "cityId": "nagoya",
+        "name": "나고야항 수족관",
+        "english": "Port of Nagoya Aquarium · 名古屋港水族館 Nagoya-kō-suizoukan",
+        "category": "관광",
+        "image": "/images/commons-069-nagoya-review-7ca6d597ccd7.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-nagoya-review-7ca6d597ccd7.jpg",
+          "author": "Hyppolyte de Saint-Rambert",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Port_of_Nagoya_Public_Aquarium_(Minato-ku,_Nagoya)_VLux5_hdsr_04.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "나고야의 수족관.",
+        "address": "나고야, 나고야",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.0906,
+        "lng": 136.8782,
+        "area": "나고야",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Nagoya",
+            "url": "https://en.wikivoyage.org/wiki/Nagoya#Port_of_Nagoya_Aquarium",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "nagoya-review-6eef2e8d47d1",
+        "cityId": "nagoya",
+        "name": "가라쿠리 인형박물관",
+        "english": "Karakuri Museum · からくりミュージアム",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 이누야마의 박물관·전시 공간.",
+        "address": "근교 · 이누야마, 나고야",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 35.385894,
+        "lng": 136.939843,
+        "area": "근교 · 이누야마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Inuyama",
+            "url": "https://en.wikivoyage.org/wiki/Inuyama#Karakuri_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "nagoya-review-3b51b7cfa06c",
+        "cityId": "nagoya",
+        "name": "도코냥",
+        "english": "Tokonyan · とこにゃん",
+        "category": "관광",
+        "image": "/images/commons-069-nagoya-review-3b51b7cfa06c.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-nagoya-review-3b51b7cfa06c.jpg",
+          "author": "Hyppolyte de Saint-Rambert",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tokonyan_Tokoname_(Aichi)_VLux5_hdsr_to11.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "근교 · 도코나메의 기념물·역사 장소.",
+        "address": "근교 · 도코나메, 나고야",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 34.890057,
+        "lng": 136.838251,
+        "area": "근교 · 도코나메",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Tokoname",
+            "url": "https://en.wikivoyage.org/wiki/Tokoname#Tokonyan",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "nagoya-review-a05ea12c07b0",
+        "cityId": "nagoya",
+        "name": "도요타 산업기술기념관",
+        "english": "Toyota Commemorative Museum of Industry and Technology · トヨタ産業技術記念館 Toyota-sangyō-gijutsu-kinenkan",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "나고야의 박물관·전시 공간. 과학 전시를 살펴볼 수 있습니다.",
+        "address": "4-1-35 Noritake Shinmachi, Nishi-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.1832,
+        "lng": 136.876,
+        "area": "나고야",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Nagoya",
+            "url": "https://en.wikivoyage.org/wiki/Nagoya#Toyota_Commemorative_Museum_of_Industry_and_Technology",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "nagoya-review-d26b946dc273",
+        "cityId": "nagoya",
+        "name": "나고야 시립미술관",
+        "english": "Nagoya City Art Museum · 名古屋市美術館 Nagoya-shi-bijutsukan",
+        "category": "관광",
+        "image": "/images/commons-069-nagoya-review-d26b946dc273.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-nagoya-review-d26b946dc273.jpg",
+          "author": "Hyppolyte de Saint-Rambert",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nagoya_City_Art_Museum_VLux5_hdsr_10.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "나고야의 박물관·전시 공간.",
+        "address": "2-17-25 Sakae, Naka-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.163889,
+        "lng": 136.901111,
+        "area": "나고야",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Nagoya",
+            "url": "https://en.wikivoyage.org/wiki/Nagoya#Nagoya_City_Art_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "nagoya-review-ea0e9b513c37",
+        "cityId": "nagoya",
+        "name": "시로토리 정원",
+        "english": "Shirotori Garden · 白鳥庭園, Shirotori Teien",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "나고야의 폭포. 일본식 정원를 살펴볼 수 있습니다.",
+        "address": "나고야, 나고야",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.125878,
+        "lng": 136.900898,
+        "area": "나고야",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Nagoya",
+            "url": "https://en.wikivoyage.org/wiki/Nagoya#Shirotori_Garden",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "nagoya-review-6aba8ef8b997",
+        "cityId": "nagoya",
+        "name": "닛타이지",
+        "english": "Nittai-ji Temple · 覚王山日泰寺, kakuōzan nittai-ji",
+        "category": "관광",
+        "image": "/images/commons-069-nagoya-review-6aba8ef8b997.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-nagoya-review-6aba8ef8b997.jpg",
+          "author": "Hyppolyte de Saint-Rambert",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nittai-ji_(Chikusa-ku,_Nagoya)_VLux5_hdsr_jo02.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "나고야의 사찰.",
+        "address": "nittai-ji, 1-1 Hōhōchō, Chikusa-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.171667,
+        "lng": 136.955278,
+        "area": "나고야",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Nagoya",
+            "url": "https://en.wikivoyage.org/wiki/Nagoya#Nittai-ji_Temple",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "nagoya-review-6864fbaf8d1a",
+        "cityId": "nagoya",
+        "name": "시라카와 공원",
+        "english": "Shirakawa Park · 白川公園, shirakawa-kōen",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "나고야의 박물관·전시 공간. 미술 작품 전시를 살펴볼 수 있습니다.",
+        "address": "나고야, 나고야",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.163992,
+        "lng": 136.900022,
+        "area": "나고야",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Nagoya",
+            "url": "https://en.wikivoyage.org/wiki/Nagoya#Shirakawa_Park",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "nagoya-review-ee1274401866",
+        "cityId": "nagoya",
+        "name": "도쿠가와 미술관",
+        "english": "Tokugawa Art Museum · 徳川美術館",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "나고야의 박물관·전시 공간. 일본식 정원를 살펴볼 수 있습니다.",
+        "address": "1017, Tokugawa-cho, Higashi-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.183692,
+        "lng": 136.933189,
+        "area": "나고야",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Nagoya",
+            "url": "https://en.wikivoyage.org/wiki/Nagoya#Tokugawa_Art_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "nagoya-review-0f9d98a244bc",
+        "cityId": "nagoya",
+        "name": "고쇼지",
+        "english": "Kōshō-ji Temple · 興正寺",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "나고야의 사찰.",
+        "address": "나고야, 나고야",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.140556,
+        "lng": 136.9625,
+        "area": "나고야",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Nagoya",
+            "url": "https://en.wikivoyage.org/wiki/Nagoya#K%C5%8Dsh%C5%8D-ji_Temple",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "nagoya-review-96c928c5b629",
+        "cityId": "nagoya",
+        "name": "시로야마 하쿠산 신사",
+        "english": "Shiroyama Hakusan Shrine · 城山八幡宮, shiroyama hachiman-gū",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "나고야의 신사·사당.",
+        "address": "나고야, 나고야",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.1675,
+        "lng": 136.959722,
+        "area": "나고야",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Nagoya",
+            "url": "https://en.wikivoyage.org/wiki/Nagoya#Shiroyama_Hakusan_Shrine",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "nagoya-review-0e5aa9531381",
+        "cityId": "nagoya",
+        "name": "도간지",
+        "english": "Tōgan-ji Temple · 桃巌寺",
+        "category": "관광",
+        "image": "/images/commons-069-nagoya-review-0e5aa9531381.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-nagoya-review-0e5aa9531381.jpg",
+          "author": "Hyppolyte de Saint-Rambert",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:T%C5%8Dgan-ji_(Chikusa-ku,_Nagoya)_VLux5_hdsr_29.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "나고야의 사찰.",
+        "address": "나고야, 나고야",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.1613,
+        "lng": 136.965,
+        "area": "나고야",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Nagoya",
+            "url": "https://en.wikivoyage.org/wiki/Nagoya#T%C5%8Dgan-ji_Temple",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "nagoya-review-90c23f0ca4bf",
+        "cityId": "nagoya",
+        "name": "나고야시 과학관",
+        "english": "Nagoya City Science Museum · 名古屋市科学館, Nagoya-shi Kagakukan",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "나고야의 박물관·전시 공간. 과학 전시를 살펴볼 수 있습니다.",
+        "address": "나고야, 나고야",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.164772,
+        "lng": 136.899667,
+        "area": "나고야",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Nagoya",
+            "url": "https://en.wikivoyage.org/wiki/Nagoya#Nagoya_City_Science_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "nagoya-review-e59ec11f35da",
+        "cityId": "nagoya",
+        "name": "리니어·철도관",
+        "english": "SCMAGLEV and Railway Park · リニア・鉄道館 Rinia-Tetsudōkan",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "나고야의 박물관·전시 공간. 철도 관련 전시를 살펴볼 수 있습니다.",
+        "address": "3 Chome-2-2 Kinjofuto, Minato Ward",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.04735,
+        "lng": 136.849319,
+        "area": "나고야",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Nagoya",
+            "url": "https://en.wikivoyage.org/wiki/Nagoya#SCMAGLEV_and_Railway_Park",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "nagoya-review-c9e60149a6d1",
+        "cityId": "nagoya",
+        "name": "오쿠라모치",
+        "english": "Okuramochi · 大蔵餅",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 도코나메의 식사 장소.",
+        "address": "근교 · 도코나메, 나고야",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 34.894719,
+        "lng": 136.833128,
+        "area": "근교 · 도코나메",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Tokoname",
+            "url": "https://en.wikivoyage.org/wiki/Tokoname#Okuramochi",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "nagoya-review-2a6c2d0a5b6c",
+        "cityId": "nagoya",
+        "name": "아라코 관음사",
+        "english": "Arako Kannon Temple · 荒子観音",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "나고야의 사찰.",
+        "address": "Arako-cho, Nakagawa-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.136569,
+        "lng": 136.858225,
+        "area": "나고야",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Nagoya",
+            "url": "https://en.wikivoyage.org/wiki/Nagoya#Arako_Kannon_Temple",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "nagoya-review-3df572f17106",
+        "cityId": "nagoya",
+        "name": "이온몰 나가쿠테",
+        "english": "AEON MALL Nagakute · イオンモール長久手",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 나가쿠테의 박물관·전시 공간.",
+        "address": "愛知県長久手市勝入塚501番地",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 35.173472,
+        "lng": 137.050778,
+        "area": "근교 · 나가쿠테",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Nagakute",
+            "url": "https://en.wikivoyage.org/wiki/Nagakute#AEON_MALL_Nagakute",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "nagoya-review-46f9783cd558",
+        "cityId": "nagoya",
+        "name": "오스 관음사",
+        "english": "Ōsu Kannon Temple · 大須観音",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "나고야의 사찰.",
+        "address": "21-47 Osu 2-chome, Naka-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.1598,
+        "lng": 136.9,
+        "area": "나고야",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Nagoya",
+            "url": "https://en.wikivoyage.org/wiki/Nagoya#%C5%8Csu_Kannon_Temple",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "nagoya-review-34372bd2cc48",
+        "cityId": "nagoya",
+        "name": "후지가오카",
+        "english": "Fujigaoka",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "나고야의 시장·쇼핑 공간.",
+        "address": "나고야, 나고야",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.1822,
+        "lng": 137.022,
+        "area": "나고야",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Nagoya",
+            "url": "https://en.wikivoyage.org/wiki/Nagoya#Fujigaoka",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "nagoya-review-dd32f13f518d",
+        "cityId": "nagoya",
+        "name": "단푸산 고분",
+        "english": "Danpusan Kofun · 断夫山古墳",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "나고야 아쓰타 지역의 고분 유적. 여행자 가이드의 잘못된 좌표를 정확한 OSM 유적 위치로 수정했습니다.",
+        "address": "1 Chome-10-45 Hataya, Atsuta Ward",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.1308571,
+        "lng": 136.9032932,
+        "area": "나고야",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Nagoya",
+            "url": "https://en.wikivoyage.org/wiki/Nagoya#Danpusan_Kofun",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ],
+        "osmPlaceId": "way/128298471"
+      },
+      {
+        "id": "nagoya-review-44ca6fcbf80d",
+        "cityId": "nagoya",
+        "name": "이온몰 도코나메",
+        "english": "Aeon Mall Tokoname · イオンモール常滑",
+        "category": "쇼핑",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 도코나메의 시장·쇼핑 공간.",
+        "address": "愛知県常滑市りんくう町2丁目20番3",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 34.882996,
+        "lng": 136.826286,
+        "area": "근교 · 도코나메",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Tokoname",
+            "url": "https://en.wikivoyage.org/wiki/Tokoname#Aeon_Mall_Tokoname",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "nagoya-review-62b4d2479d7c",
+        "cityId": "nagoya",
+        "name": "주부전력 미라이 타워",
+        "english": "Nagoya TV Tower · 名古屋テレビ塔 Nagoya-terebi-tō",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "나고야의 공원·정원.",
+        "address": "Hisaya-ōdōri kōen, Naka-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.1724,
+        "lng": 136.908,
+        "area": "나고야",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Nagoya",
+            "url": "https://en.wikivoyage.org/wiki/Nagoya#Nagoya_TV_Tower",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "nagoya-review-2833c3bbd444",
+        "cityId": "nagoya",
+        "name": "코스트코 주부공항점",
+        "english": "Costco Wholesale Chubu Airport Warehouse · コストコホールセール 中部空港 倉庫店",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 도코나메의 수변·항구 산책 장소.",
+        "address": "愛知県常滑市りんくう町1-25-14",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 34.890133,
+        "lng": 136.826367,
+        "area": "근교 · 도코나메",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Tokoname",
+            "url": "https://en.wikivoyage.org/wiki/Tokoname#Costco_Wholesale_Chubu_Airport_Warehouse",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "nagoya-review-135538c9e28a",
+        "cityId": "nagoya",
+        "name": "히사야오도리 공원",
+        "english": "Hisaya-Odori Park · 久屋大通公園, hisaya-ōdōri kōen",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "나고야의 공원·정원.",
+        "address": "나고야, 나고야",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.168708,
+        "lng": 136.908383,
+        "area": "나고야",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Nagoya",
+            "url": "https://en.wikivoyage.org/wiki/Nagoya#Hisaya-Odori_Park",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "nagoya-review-1949cefca655",
+        "cityId": "nagoya",
+        "name": "아이치현 미술관",
+        "english": "Aichi Prefectural Museum of Art · 愛知県美術館 Aichi-ken-bijutsukan",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "나고야의 박물관·전시 공간. 미술 작품 전시를 살펴볼 수 있습니다.",
+        "address": "Aichi Arts Center, 10F, 1-13-2 Higashisakura, Higashi-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.17115,
+        "lng": 136.911308,
+        "area": "나고야",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Nagoya",
+            "url": "https://en.wikivoyage.org/wiki/Nagoya#Aichi_Prefectural_Museum_of_Art",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "nagoya-review-8bdd41779d56",
+        "cityId": "nagoya",
+        "name": "마루젠 서점",
+        "english": "Maruzen · 丸善",
+        "category": "쇼핑",
+        "image": "/images/place-placeholder.svg",
+        "description": "나고야의 온천·목욕 시설.",
+        "address": "나고야, 나고야",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.1672,
+        "lng": 136.90564,
+        "area": "나고야",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Nagoya",
+            "url": "https://en.wikivoyage.org/wiki/Nagoya#Maruzen",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "nagoya-review-d42c1437613f",
+        "cityId": "nagoya",
+        "name": "산세이도 서점",
+        "english": "Sanseido Books",
+        "category": "쇼핑",
+        "image": "/images/place-placeholder.svg",
+        "description": "나고야의 시장·쇼핑 공간.",
+        "address": "11F, JR Central Towers above JR Nagoya Station",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.17216,
+        "lng": 136.88287,
+        "area": "나고야",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Nagoya",
+            "url": "https://en.wikivoyage.org/wiki/Nagoya#Sanseido_Books",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "nagoya-review-cfe3da179ab2",
+        "cityId": "nagoya",
+        "name": "미들랜드 스퀘어 시네마",
+        "english": "Midland Square Cinemas · ミッドランドスクエア・シネマ",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "나고야의 영화관.",
+        "address": "Midland Square Bldg. 5F, Meieki 4 chome 7-1, Nakamura-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.16988,
+        "lng": 136.8852,
+        "area": "나고야",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Nagoya",
+            "url": "https://en.wikivoyage.org/wiki/Nagoya#Midland_Square_Cinemas",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "nagoya-review-30d540884687",
+        "cityId": "nagoya",
+        "name": "109 시네마 나고야",
+        "english": "109 Cinemas Nagoya",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "나고야의 영화관.",
+        "address": "La Vamo Sasashima 2F, 4-60-14 Hiraike-cho, Nakamura-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.16264,
+        "lng": 136.8848,
+        "area": "나고야",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Nagoya",
+            "url": "https://en.wikivoyage.org/wiki/Nagoya#109_Cinemas_Nagoya",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "nagoya-review-2a4d5969d702",
+        "cityId": "nagoya",
+        "name": "카페 드 메트로",
+        "english": "Café de Metro",
+        "category": "카페",
+        "image": "/images/place-placeholder.svg",
+        "description": "나고야의 커피·음료를 즐길 수 있는 카페.",
+        "address": "1F Kanayama station ( North Exit )",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.14414,
+        "lng": 136.90134,
+        "area": "나고야",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Nagoya",
+            "url": "https://en.wikivoyage.org/wiki/Nagoya#Caf%C3%A9_de_Metro",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "nagoya-review-0d3db56c6081",
+        "cityId": "nagoya",
+        "name": "제리스 우노",
+        "english": "Jerry's UNO",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "나고야의 식사 장소.",
+        "address": "나고야, 나고야",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.15832,
+        "lng": 136.90445,
+        "area": "나고야",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Nagoya",
+            "url": "https://en.wikivoyage.org/wiki/Nagoya#Jerry%27s_UNO",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "nagoya-review-d472fe9e41a8",
+        "cityId": "nagoya",
+        "name": "야바톤",
+        "english": "Yabaton",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "나고야의 돈가스을 다루는 식당.",
+        "address": "Osu, 3−6-18",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.161677,
+        "lng": 136.906247,
+        "area": "나고야",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Nagoya",
+            "url": "https://en.wikivoyage.org/wiki/Nagoya#Yabaton",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "nagoya-review-d76deb6a9d66",
+        "cityId": "nagoya",
+        "name": "데스페라도스",
+        "english": "Desperados · デスペラードス",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "나고야의 식사 장소.",
+        "address": "Fujimatsu Building 2 FL, 1-8-11 Shinsakae, Naka-ku",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.16838,
+        "lng": 136.91833,
+        "area": "나고야",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Nagoya",
+            "url": "https://en.wikivoyage.org/wiki/Nagoya#Desperados",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "nagoya-review-01a7b8e71a4a",
+        "cityId": "nagoya",
+        "name": "안티카 로마",
+        "english": "Antica Roma",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "나고야의 이탈리아 요리을 다루는 식당.",
+        "address": "Daikancho 39-18, Higashi-ku",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.17448,
+        "lng": 136.92212,
+        "area": "나고야",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Nagoya",
+            "url": "https://en.wikivoyage.org/wiki/Nagoya#Antica_Roma",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "nagoya-review-4ce5149dc33d",
+        "cityId": "nagoya",
+        "name": "가든 레스토랑 도쿠가와엔",
+        "english": "Garden Restaurant Tokugawa-en · ガーデンレストラン徳川園",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "나고야의 식사 장소.",
+        "address": "1001 Tokugawa-cho, Higashi-ku",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.18431,
+        "lng": 136.93216,
+        "area": "나고야",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Nagoya",
+            "url": "https://en.wikivoyage.org/wiki/Nagoya#Garden_Restaurant_Tokugawa-en",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "nagoya-review-0074d3660c38",
+        "cityId": "nagoya",
+        "name": "더 록 오지 스포츠 바 앤 그릴",
+        "english": "The Rock Aussie Sports Bar & Grill · ザ・ロック オージースポーツバー&グリル",
+        "category": "바·공연",
+        "image": "/images/place-placeholder.svg",
+        "description": "나고야의 공연장. 공연 일정에 따라 이용할 수 있습니다.",
+        "address": "Aster Plaza Bldg. 2F, 4-14-6 Sakae, Naka-ku",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "공연 일정·연령 제한·예약 여부를 방문 전에 확인하세요.",
+        "lat": 35.1677,
+        "lng": 136.91014,
+        "area": "나고야",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Nagoya",
+            "url": "https://en.wikivoyage.org/wiki/Nagoya#The_Rock_Aussie_Sports_Bar_%26_Grill",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "nagoya-review-f1db474f7565",
+        "cityId": "nagoya",
+        "name": "매버릭",
+        "english": "Maverick",
+        "category": "바·공연",
+        "image": "/images/place-placeholder.svg",
+        "description": "나고야의 바·펍. 야간 일정에 넣을 수 있는 장소입니다.",
+        "address": "나고야, 나고야",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "공연 일정·연령 제한·예약 여부를 방문 전에 확인하세요.",
+        "lat": 35.17058,
+        "lng": 136.90521,
+        "area": "나고야",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Nagoya",
+            "url": "https://en.wikivoyage.org/wiki/Nagoya#Maverick",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "nagoya-review-52fa5c857cf0",
+        "cityId": "nagoya",
+        "name": "스텝스",
+        "english": "STEPS",
+        "category": "바·공연",
+        "image": "/images/place-placeholder.svg",
+        "description": "나고야의 공연장. 공연 일정에 따라 이용할 수 있습니다.",
+        "address": "Hasegawa Bldg. 2F, 3-2-29 Sakae, Naka-ku",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "공연 일정·연령 제한·예약 여부를 방문 전에 확인하세요.",
+        "lat": 35.1677,
+        "lng": 136.9037,
+        "area": "나고야",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Nagoya",
+            "url": "https://en.wikivoyage.org/wiki/Nagoya#STEPS",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "nagoya-review-ac9c09997aa5",
+        "cityId": "nagoya",
+        "name": "재즈 인 러블리",
+        "english": "Jazz Inn Lovely",
+        "category": "바·공연",
+        "image": "/images/place-placeholder.svg",
+        "description": "나고야의 바·펍. 야간 일정에 넣을 수 있는 장소입니다.",
+        "address": "1-10-15 Higashisakura, Higashi-ku",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "공연 일정·연령 제한·예약 여부를 방문 전에 확인하세요.",
+        "lat": 35.17261,
+        "lng": 136.91014,
+        "area": "나고야",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Nagoya",
+            "url": "https://en.wikivoyage.org/wiki/Nagoya#Jazz_Inn_Lovely",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "nagoya-balance-59da07def6",
+        "cityId": "nagoya",
+        "name": "교야 료칸",
+        "english": "Kyoya Ryokan · 京屋旅館",
+        "category": "숙소",
+        "image": "/images/place-placeholder.svg",
+        "description": "나고야에서 일본식 숙박을 비교할 수 있는 료칸입니다.",
+        "address": "2-11-4 Habashita",
+        "duration": "숙박 일정에 맞춰 지정",
+        "cost": "숙박일·객실·공식 안내에서 확인",
+        "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+        "lat": 35.17822,
+        "lng": 136.89167,
+        "area": "나고야",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Nagoya",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Nagoya&oldid=5385494",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "nagoya-balance-dee23b43e5",
+        "cityId": "nagoya",
+        "name": "나고야 메리어트 아소시아 호텔",
+        "english": "Marriott Associa Hotel",
+        "category": "숙소",
+        "image": "/images/place-placeholder.svg",
+        "description": "나고야역 위에 자리한 호텔로 철도 이동과 함께 계획하기 좋습니다.",
+        "address": "Nagoya Station",
+        "duration": "숙박 일정에 맞춰 지정",
+        "cost": "숙박일·객실·공식 안내에서 확인",
+        "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+        "lat": 35.17084,
+        "lng": 136.88293,
+        "area": "나고야",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Nagoya",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Nagoya&oldid=5385494",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "nagoya-balance-hario-nagoya",
+        "cityId": "nagoya",
+        "name": "하리오 카페 나고야점",
+        "english": "HARIO CAFE & Lampwork Factory Nagoya Store",
+        "category": "카페",
+        "image": "/images/place-placeholder.svg",
+        "description": "커피를 마시고 드리퍼와 유리 공예품도 살펴볼 수 있는 하리오 직영 카페입니다.",
+        "address": "3 Chome-5-11 Nishiki, Naka Ward, Nagoya",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·공식 안내에서 확인",
+        "tip": "산책이나 쇼핑 사이에 쉬어갈 후보입니다. 좌석 이용·마지막 주문 시간은 방문 전 확인하세요.",
+        "reviewSources": [
+          {
+            "title": "나고야 여행기 · 하리오 카페",
+            "url": "https://jeesus.tistory.com/453",
+            "kind": "visit-review",
+            "checkedAt": "2026-10-18",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "커피·음식 주문과 매장 방문 과정을 담은 개인 후기 본문 및 링크를 읽었습니다. 협찬 표시·예약 제휴·할인 코드를 발견하지 못했습니다. 숨은 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "id": "nagoya-overview",
+        "title": "도시 소개",
+        "body": "도심 관광과 지브리 파크·이누야마 등 근교 중 무엇이 주목적인지에 따라 날짜와 숙소를 정하세요."
+      },
+      {
+        "id": "nagoya-before",
+        "title": "출발 전 준비",
+        "body": "지브리 파크는 방문일의 판매 방식과 입장권 구역을 먼저 확인하세요.\n\n자동차·철도 박물관은 위치가 서로 다르므로 운영일과 접근역을 각각 확인하세요."
+      },
+      {
+        "id": "nagoya-arrival",
+        "title": "공항과 시내 이동",
+        "body": "주부국제공항: 메이테쓰의 목적지·열차 등급과 숙소 역까지 환승을 확인하세요.\n\n도심·근교: 지하철 도심 이동과 근교 철도를 구분하세요. 근교 시설은 접근역에서 추가 교통이 필요할 수 있습니다."
+      },
+      {
+        "id": "nagoya-stay",
+        "title": "숙소 지역 선택",
+        "body": "나고야역: 공항·신칸센·근교 이동을 중심으로 비교하세요.\n\n사카에·오스 주변: 쇼핑과 도심 저녁 일정을 가까이 두고 싶을 때 비교하세요."
+      },
+      {
+        "id": "nagoya-plan",
+        "title": "일정 계획",
+        "body": "하루: 도심 성·상점가 위주로 줄이세요.\n\n2–3일: 도심 하루와 예약 시설 또는 근교 하루를 분리하세요."
+      },
+      {
+        "id": "nagoya-notes",
+        "title": "현장 팁",
+        "body": "목록의 이누야마·도코나메는 나고야 도심과 별도 이동 구간입니다.\n\n패스 구입 전에 실제 근교 노선의 운영사를 확인하세요."
+      },
+      {
+        "id": "nagoya-rain",
+        "title": "비 오는 날",
+        "body": "나고야시 과학관·도요타 산업기술기념관 중 접근이 편한 한 곳을 중심으로 바꾸세요."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Japan-guide · 나고야",
+        "url": "https://www.japan-guide.com/e/e2155.html",
+        "accessedAt": "2026-10-15"
+      }
+    ],
+    "status": "published",
+    "requestId": null,
+    "createdAt": "2026-10-15T00:00:00.000Z",
+    "updatedAt": "2026-10-15T00:00:00.000Z",
+    "publishedAt": "2026-10-15T00:00:00.000Z"
+  },
+  "practicalGuide": {
+    "cityId": "nagoya",
+    "firstVisit": "도심 관광과 지브리 파크·이누야마 등 근교 중 무엇이 주목적인지에 따라 날짜와 숙소를 정하세요.",
+    "bases": [
+      {
+        "name": "나고야역",
+        "advice": "공항·신칸센·근교 이동을 중심으로 비교하세요."
+      },
+      {
+        "name": "사카에·오스 주변",
+        "advice": "쇼핑과 도심 저녁 일정을 가까이 두고 싶을 때 비교하세요."
+      }
+    ],
+    "arrival": [
+      {
+        "name": "주부국제공항",
+        "advice": "메이테쓰의 목적지·열차 등급과 숙소 역까지 환승을 확인하세요."
+      },
+      {
+        "name": "도심·근교",
+        "advice": "지하철 도심 이동과 근교 철도를 구분하세요. 근교 시설은 접근역에서 추가 교통이 필요할 수 있습니다."
+      }
+    ],
+    "timePlan": [
+      {
+        "name": "하루",
+        "advice": "도심 성·상점가 위주로 줄이세요."
+      },
+      {
+        "name": "2–3일",
+        "advice": "도심 하루와 예약 시설 또는 근교 하루를 분리하세요."
+      }
+    ],
+    "before": [
+      "지브리 파크는 방문일의 판매 방식과 입장권 구역을 먼저 확인하세요.",
+      "자동차·철도 박물관은 위치가 서로 다르므로 운영일과 접근역을 각각 확인하세요."
+    ],
+    "pitfalls": [
+      "목록의 이누야마·도코나메는 나고야 도심과 별도 이동 구간입니다.",
+      "패스 구입 전에 실제 근교 노선의 운영사를 확인하세요."
+    ],
+    "rainPlan": "나고야시 과학관·도요타 산업기술기념관 중 접근이 편한 한 곳을 중심으로 바꾸세요.",
+    "courses": [
+      {
+        "id": "nagoya-course-1",
+        "title": "도심 역사와 상점가",
+        "pace": "하루 · 지하철·도보",
+        "why": "성에서 도심과 오스로 이동하는 날입니다.",
+        "placeIds": [
+          "nagoya-castle",
+          "nagoya-review-90c23f0ca4bf",
+          "nagoya-osu"
+        ]
+      },
+      {
+        "id": "nagoya-course-2",
+        "title": "아쓰타와 정원",
+        "pace": "반나절 · 도보",
+        "why": "남쪽의 신궁과 정원을 가까이 묶습니다.",
+        "placeIds": [
+          "nagoya-atsuta",
+          "nagoya-review-ea0e9b513c37"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "Japan-guide · 나고야",
+        "url": "https://www.japan-guide.com/e/e2155.html",
+        "checkedAt": "2026-10-15",
+        "status": "read"
+      }
+    ],
+    "researchNote": "여행 안내 본문을 읽고 지역별 계획을 편집했습니다. 코스는 직접 작성한 제안이며 이동시간·예약 가능 여부를 실시간 계산한 결과가 아닙니다."
+  },
+  "plans": {
+    "cityId": "nagoya",
+    "days": [
+      {
+        "id": "nagoya-day-1",
+        "title": "도심 역사와 상점가",
+        "pace": "하루 · 지하철·도보",
+        "why": "성에서 도심과 오스로 이동하는 날입니다.",
+        "placeIds": [
+          "nagoya-castle",
+          "nagoya-review-90c23f0ca4bf",
+          "nagoya-osu"
+        ]
+      },
+      {
+        "id": "nagoya-day-2",
+        "title": "아쓰타와 정원",
+        "pace": "반나절 · 도보",
+        "why": "남쪽의 신궁과 정원을 가까이 묶습니다.",
+        "placeIds": [
+          "nagoya-atsuta",
+          "nagoya-review-ea0e9b513c37"
+        ]
+      },
+      {
+        "id": "nagoya-day-3",
+        "title": "나고야항 수족관과 철도",
+        "pace": "철도",
+        "why": "수족관과 리니어·철도관을 이동 시간을 두고 연결합니다. 두 시설의 휴관일을 먼저 비교합니다.",
+        "placeIds": [
+          "nagoya-review-7ca6d597ccd7",
+          "nagoya-review-e59ec11f35da"
+        ]
+      },
+      {
+        "id": "nagoya-day-4",
+        "title": "이누야마 성하마을",
+        "pace": "철도·도보",
+        "why": "이누야마성 주변에서 하루를 보내고 멀리 떨어진 메이지무라는 따로 둡니다.",
+        "placeIds": [
+          "nagoya-review-97fb403a3466",
+          "nagoya-review-49165d5e1af9",
+          "nagoya-review-6eef2e8d47d1"
+        ]
+      },
+      {
+        "id": "nagoya-day-5",
+        "title": "산업 전시와 사카에의 저녁",
+        "pace": "철도·도보",
+        "why": "도요타 산업 전시 후 사카에로 이동해 공원과 전망을 즐깁니다.",
+        "placeIds": [
+          "nagoya-review-a05ea12c07b0",
+          "nagoya-review-135538c9e28a",
+          "nagoya-review-62b4d2479d7c"
+        ]
+      }
+    ]
+  }
+}

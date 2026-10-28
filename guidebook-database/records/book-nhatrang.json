@@ -1,0 +1,155 @@
+{
+  "guide": {
+    "id": "book-nhatrang",
+    "scope": "city",
+    "city": {
+      "id": "book-nhatrang",
+      "name": "나트랑",
+      "english": "Nha Trang",
+      "country": "베트남",
+      "region": "동남아",
+      "image": "/images/guide-placeholder.svg",
+      "tagline": "해변 휴식과 참파 유산을 함께",
+      "description": "나트랑은 해변을 따라 머물며 도심 유적과 바다 체험을 골라 넣기 좋은 도시입니다. 해변 앞 호텔과 공항 쪽 리조트는 이동 범위가 다르므로 숙소 이름보다 지도상 위치를 먼저 비교하세요.",
+      "tags": [
+        "도시 산책",
+        "여행 준비"
+      ],
+      "flight": "항공편·출발 공항에 따라 다름",
+      "currency": "베트남 동 · VND",
+      "timeDifference": "한국보다 2시간 느림",
+      "timeZone": "Asia/Ho_Chi_Minh",
+      "season": "해변 일정은 강우·파도와 방문월의 해상 상황 확인",
+      "accent": "#e7f1ef"
+    },
+    "places": [
+      {
+        "id": "book-nhatrang-po-nagar-cham-towers",
+        "cityId": "book-nhatrang",
+        "name": "포나가르 참탑",
+        "english": "Po Nagar Cham Towers",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "참파 문화를 살펴보는 유적입니다. 종교 공간의 복장과 출입 안내를 따르세요.",
+        "address": "Nha Trang, Khanh Hoa",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      },
+      {
+        "id": "book-nhatrang-long-son-pagoda",
+        "cityId": "book-nhatrang",
+        "name": "롱선사",
+        "english": "Long Son Pagoda",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "도시의 대표 사찰로 경내와 불상을 둘러보는 장소입니다. 계단과 더위를 고려하세요.",
+        "address": "Nha Trang, Khanh Hoa",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      },
+      {
+        "id": "book-nhatrang-tran-phu-beach",
+        "cityId": "book-nhatrang",
+        "name": "쩐푸 해변",
+        "english": "Tran Phu Beach",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "도심 숙소와 연결하기 쉬운 해변 구역입니다. 수영 가능 여부는 당일 현장 안내를 확인하세요.",
+        "address": "Tran Phu, Nha Trang",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      },
+      {
+        "id": "book-nhatrang-hon-chong-promontory",
+        "cityId": "book-nhatrang",
+        "name": "혼총 곶",
+        "english": "Hon Chong Promontory",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "바위와 해안 풍경을 보는 장소입니다. 젖은 바위에서는 무리하게 이동하지 마세요.",
+        "address": "Vinh Phuoc, Nha Trang",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      },
+      {
+        "id": "book-nhatrang-dam-market",
+        "cityId": "book-nhatrang",
+        "name": "담 시장",
+        "english": "Dam Market",
+        "category": "쇼핑",
+        "image": "/images/place-placeholder.svg",
+        "description": "현지 시장과 기념품 상점을 살펴보는 곳입니다. 특정 가게의 가격을 보장하지 않습니다.",
+        "address": "Nha Trang, Khanh Hoa",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      },
+      {
+        "id": "book-nhatrang-national-oceanographic-museum",
+        "cityId": "book-nhatrang",
+        "name": "나트랑 해양학 박물관",
+        "english": "National Oceanographic Museum",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "해양 생태와 연구 관련 전시를 보는 실내 후보입니다. 방문일의 운영 안내를 확인하세요.",
+        "address": "Cau Da, Nha Trang",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      }
+    ],
+    "sections": [
+      {
+        "id": "book-nhatrang-overview",
+        "title": "도시 한눈에",
+        "body": "나트랑은 해변을 따라 머물며 도심 유적과 바다 체험을 골라 넣기 좋은 도시입니다. 해변 앞 호텔과 공항 쪽 리조트는 이동 범위가 다르므로 숙소 이름보다 지도상 위치를 먼저 비교하세요.\n\n통화: 베트남 동 · VND\n시차: 한국보다 2시간 느림\n여행 계절: 해변 일정은 강우·파도와 방문월의 해상 상황 확인"
+      },
+      {
+        "id": "book-nhatrang-before",
+        "title": "출발 전 준비",
+        "body": "여권과 입국 허가·비자 요건은 국적·방문 목적에 맞춰 정부 안내를 확인하세요. 해외 사용 가능한 결제 수단, 통신과 여행자보험을 준비하고 숙소·항공권은 오프라인에서도 확인할 수 있게 보관하세요."
+      },
+      {
+        "id": "book-nhatrang-arrival",
+        "title": "공항에서 숙소까지",
+        "body": "깜라인공항(CXR)에서 숙소까지 공항버스·택시·예약 차량을 비교하세요. 예약한 숙소가 나트랑 도심인지 깜라인 리조트 권역인지 확인하고, 픽업 지점과 귀국편 도착 터미널을 따로 점검하세요."
+      },
+      {
+        "id": "book-nhatrang-stay",
+        "title": "어느 동네에 묵을까",
+        "body": "쩐푸 해변 주변은 식사·상점 접근이 편하고, 깜라인의 리조트는 숙소 안 휴식에 맞습니다. 시내 식당 방문을 자주 할 계획이면 리조트 가격만 보지 말고 왕복 이동도 함께 비교하세요."
+      },
+      {
+        "id": "book-nhatrang-food",
+        "title": "먹거리와 동네 쇼핑",
+        "body": "해산물은 중량·조리 방식·최종 가격을 주문 전에 확인하세요. 분까 같은 생선 국수와 로컬 커피도 선택지입니다. 담 시장은 상점별로 가격과 품질이 달라 비교해 보고, 현금 단위를 다시 확인하세요."
+      },
+      {
+        "id": "book-nhatrang-days",
+        "title": "처음 가는 3일 여행",
+        "body": "1일: 도착 → 숙소 주변 해변 산책 → 가까운 식사.\n\n2일: 포나가르 사원 → 혼총 곶 또는 롱선사 중 가까운 구역을 선택하세요.\n\n3일: 해양 체험 또는 해양학 박물관. 바람과 파도에 따라 실내 일정으로 바꿀 수 있게 비워두세요.\n\n일정 초안이며 자동 경로·이동시간 계산 결과가 아닙니다. 운영과 취향에 맞춰 선택하세요."
+      },
+      {
+        "id": "book-nhatrang-notes",
+        "title": "예약과 현장 팁",
+        "body": "섬 투어는 선박·구명장비·기상 취소 조건을 확인하세요. 사원에서는 복장과 관람 구역 안내를 따르고, 낮의 강한 햇볕과 도로 횡단에 주의하세요."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Nha Trang | Vietnam Tourism",
+        "url": "https://vietnam.travel/places-to-go/south-central-coast-central-highlands/nha-trang/",
+        "accessedAt": "2026-10-28"
+      }
+    ],
+    "status": "published",
+    "requestId": null,
+    "createdAt": "2026-10-28T05:07:12.733Z",
+    "updatedAt": "2026-10-28T05:07:12.733Z",
+    "publishedAt": "2026-10-28T05:07:12.733Z"
+  }
+}

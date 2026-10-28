@@ -1,0 +1,155 @@
+{
+  "guide": {
+    "id": "book-hochiminh",
+    "scope": "city",
+    "city": {
+      "id": "book-hochiminh",
+      "name": "호찌민",
+      "english": "Ho Chi Minh City",
+      "country": "베트남",
+      "region": "동남아",
+      "image": "/images/guide-placeholder.svg",
+      "tagline": "도심 역사와 시장·카페를 연결하는 남부 도시",
+      "description": "호찌민은 역사 전시·식민지기 건축·시장과 카페를 섞어 보는 대도시입니다. 구역을 자주 넘나들기보다 중심부를 묶고, 교통 혼잡과 낮 더위를 피할 휴식을 넣으세요.",
+      "tags": [
+        "도시 산책",
+        "여행 준비"
+      ],
+      "flight": "항공편·출발 공항에 따라 다름",
+      "currency": "베트남 동 · VND",
+      "timeDifference": "한국보다 2시간 느림",
+      "timeZone": "Asia/Ho_Chi_Minh",
+      "season": "더위는 연중 대비, 우기에는 실내 대안 준비",
+      "accent": "#e7f1ef"
+    },
+    "places": [
+      {
+        "id": "book-hochiminh-war-remnants-museum",
+        "cityId": "book-hochiminh",
+        "name": "전쟁박물관",
+        "english": "War Remnants Museum",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "전쟁 관련 역사 전시를 보는 박물관입니다. 전시의 강도와 동행인의 관람 부담을 고려하세요.",
+        "address": "District 3, Ho Chi Minh City",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      },
+      {
+        "id": "book-hochiminh-independence-palace",
+        "cityId": "book-hochiminh",
+        "name": "통일궁",
+        "english": "Independence Palace",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "베트남 현대사와 건축을 살펴보는 장소입니다. 내부 공개와 특별 운영 여부를 확인하세요.",
+        "address": "District 1, Ho Chi Minh City",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      },
+      {
+        "id": "book-hochiminh-saigon-central-post-office",
+        "cityId": "book-hochiminh",
+        "name": "사이공 중앙우체국",
+        "english": "Saigon Central Post Office",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "중심부 건축 산책에 묶기 좋은 우체국 건물입니다. 업무 이용자와 관람 동선을 배려하세요.",
+        "address": "District 1, Ho Chi Minh City",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      },
+      {
+        "id": "book-hochiminh-nguyen-hue-walking-street",
+        "cityId": "book-hochiminh",
+        "name": "응우옌후에 보행자 거리",
+        "english": "Nguyen Hue Walking Street",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "도심의 야외 산책 구역입니다. 행사와 혼잡에 따라 이동 여유를 두세요.",
+        "address": "District 1, Ho Chi Minh City",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      },
+      {
+        "id": "book-hochiminh-ben-thanh-market",
+        "cityId": "book-hochiminh",
+        "name": "벤탄 시장",
+        "english": "Ben Thanh Market",
+        "category": "쇼핑",
+        "image": "/images/place-placeholder.svg",
+        "description": "기념품·생활용품·먹거리를 둘러보는 시장입니다. 가게별 품질과 가격을 비교하세요.",
+        "address": "District 1, Ho Chi Minh City",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      },
+      {
+        "id": "book-hochiminh-saigon-opera-house",
+        "cityId": "book-hochiminh",
+        "name": "사이공 오페라하우스",
+        "english": "Saigon Opera House",
+        "category": "바·공연",
+        "image": "/images/place-placeholder.svg",
+        "description": "건축 외관과 공연을 구분해 계획하는 극장입니다. 내부 이용은 실제 공연·투어 일정을 확인하세요.",
+        "address": "District 1, Ho Chi Minh City",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      }
+    ],
+    "sections": [
+      {
+        "id": "book-hochiminh-overview",
+        "title": "도시 한눈에",
+        "body": "호찌민은 역사 전시·식민지기 건축·시장과 카페를 섞어 보는 대도시입니다. 구역을 자주 넘나들기보다 중심부를 묶고, 교통 혼잡과 낮 더위를 피할 휴식을 넣으세요.\n\n통화: 베트남 동 · VND\n시차: 한국보다 2시간 느림\n여행 계절: 더위는 연중 대비, 우기에는 실내 대안 준비"
+      },
+      {
+        "id": "book-hochiminh-before",
+        "title": "출발 전 준비",
+        "body": "여권과 입국 허가·비자 요건은 국적·방문 목적에 맞춰 정부 안내를 확인하세요. 해외 사용 가능한 결제 수단, 통신과 여행자보험을 준비하고 숙소·항공권은 오프라인에서도 확인할 수 있게 보관하세요."
+      },
+      {
+        "id": "book-hochiminh-arrival",
+        "title": "공항에서 숙소까지",
+        "body": "떤선녓공항(SGN)의 도착 터미널과 차량 픽업 장소를 확인하세요. 공항 이동은 숙소 구역과 교통 상황을 함께 비교하고, 철도·버스를 고르더라도 숙소까지 마지막 구간을 확인하세요."
+      },
+      {
+        "id": "book-hochiminh-stay",
+        "title": "어느 동네에 묵을까",
+        "body": "중심 관광을 걸어서 잇고 싶다면 1군 중심부를 비교하되 밤거리와 큰 도로의 소음을 보세요. 숙소 가격이 저렴해도 주 활동 구역과 멀면 왕복 이동이 늘어납니다."
+      },
+      {
+        "id": "book-hochiminh-food",
+        "title": "먹거리와 동네 쇼핑",
+        "body": "남부식 퍼·껌땀·반미와 베트남 커피를 선택해 보세요. 벤탄 시장은 구매 전 가격과 품질을 비교하는 곳이며, 시장 식사와 독립 식당을 한 가지 경험으로 단정하지 마세요."
+      },
+      {
+        "id": "book-hochiminh-days",
+        "title": "처음 가는 3일 여행",
+        "body": "1일: 중앙우체국 주변 → 응우옌후에 거리 → 근처 카페.\n\n2일: 전쟁박물관 → 통일궁. 전시 내용이 무거울 수 있으므로 관람 사이 휴식을 넣으세요.\n\n3일: 벤탄 시장과 남은 중심부 산책 또는 예매한 공연. 근교 투어를 넣는다면 별도 하루로 바꾸세요.\n\n일정 초안이며 자동 경로·이동시간 계산 결과가 아닙니다. 운영과 취향에 맞춰 선택하세요."
+      },
+      {
+        "id": "book-hochiminh-notes",
+        "title": "예약과 현장 팁",
+        "body": "도로 횡단과 오토바이 접근에 주의하고 휴대전화를 도로 쪽으로 길게 내밀지 마세요. 역사 전시는 방문 목적과 동행인의 관람 부담을 함께 고려하세요. 건물 외관 관람과 내부 입장은 구분해야 합니다."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Ho Chi Minh City | Vietnam Tourism",
+        "url": "https://vietnam.travel/places-to-go/southeastern-vietnam/ho-chi-minh-city/",
+        "accessedAt": "2026-10-28"
+      }
+    ],
+    "status": "published",
+    "requestId": null,
+    "createdAt": "2026-10-28T05:07:12.733Z",
+    "updatedAt": "2026-10-28T05:07:12.733Z",
+    "publishedAt": "2026-10-28T05:07:12.733Z"
+  }
+}

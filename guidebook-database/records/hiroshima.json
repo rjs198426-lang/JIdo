@@ -1,0 +1,1793 @@
+{
+  "guide": {
+    "id": "hiroshima",
+    "scope": "city",
+    "city": {
+      "id": "hiroshima",
+      "name": "히로시마",
+      "english": "HIROSHIMA · 広島",
+      "country": "일본",
+      "region": "일본",
+      "image": "/images/place-hiroshima-peace-park.jpg",
+      "photoCredit": {
+        "file": "/images/place-hiroshima-peace-park.jpg",
+        "author": "Balon Greyjoy",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:20181111_Hiroshima_Memorial_Cenotaph-1.jpg",
+        "verifiedAt": "2026-10-14"
+      },
+      "tagline": "평화기념공원과 정원",
+      "description": "평화기념공원 주변을 중심으로 계획하고, 시내 정원이나 근교 방문을 다른 시간에 배치할 수 있습니다.",
+      "tags": [
+        "도시 산책",
+        "자유여행"
+      ],
+      "flight": "히로시마공항",
+      "currency": "일본 엔 · JPY",
+      "timeDifference": "한국과 시차 없음",
+      "season": "계절별 일정 선택",
+      "accent": "#eaf4ef"
+    },
+    "places": [
+      {
+        "id": "hiroshima-peace-park",
+        "cityId": "hiroshima",
+        "name": "히로시마 평화기념공원",
+        "english": "Hiroshima Peace Memorial Park · 平和記念公園",
+        "category": "관광",
+        "image": "/images/place-hiroshima-peace-park.jpg",
+        "photoCredit": {
+          "file": "/images/place-hiroshima-peace-park.jpg",
+          "author": "Balon Greyjoy",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:20181111_Hiroshima_Memorial_Cenotaph-1.jpg",
+          "verifiedAt": "2026-10-14"
+        },
+        "description": "추모 공간입니다. 박물관 관람은 별도 시간과 입장 조건을 확인하세요.",
+        "address": "Nakajimacho, Naka, Hiroshima",
+        "duration": "1–2시간",
+        "cost": "시설별 입장 조건 확인",
+        "tip": "추모 공간입니다. 박물관 관람은 별도 시간과 입장 조건을 확인하세요.",
+        "lat": 34.3927,
+        "lng": 132.4524
+      },
+      {
+        "id": "hiroshima-dome",
+        "cityId": "hiroshima",
+        "name": "원폭 돔",
+        "english": "A-Bomb Dome · 原爆ドーム Genbaku Dōmu",
+        "category": "관광",
+        "image": "/images/place-hiroshima-dome.jpg",
+        "photoCredit": {
+          "file": "/images/place-hiroshima-dome.jpg",
+          "author": "Oilstreet",
+          "license": "CC BY 2.5",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Genbaku_Dome04-r.JPG",
+          "verifiedAt": "2026-10-14"
+        },
+        "description": "히로시마의 기념물·역사 장소. 세계유산 관련 장소를 살펴볼 수 있습니다.",
+        "address": "히로시마, 히로시마",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.395472,
+        "lng": 132.453528,
+        "area": "히로시마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Hiroshima",
+            "url": "https://en.wikivoyage.org/wiki/Hiroshima#A-Bomb_Dome",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hiroshima-shukkeien",
+        "cityId": "hiroshima",
+        "name": "슛케이엔",
+        "english": "Shukkeien · 縮景園",
+        "category": "관광",
+        "image": "/images/place-hiroshima-shukkeien.jpg",
+        "photoCredit": {
+          "file": "/images/place-hiroshima-shukkeien.jpg",
+          "author": "No machine-readable author provided. Fg2 assumed (based on copyright claims).",
+          "license": "Public domain",
+          "licenseUrl": "https://commons.wikimedia.org/wiki/File:Rainbow_bridge_in_Shukkei-en_Hiroshima.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rainbow_bridge_in_Shukkei-en_Hiroshima.jpg",
+          "verifiedAt": "2026-10-14"
+        },
+        "description": "히로시마의 박물관·전시 공간. 일본식 정원를 살펴볼 수 있습니다.",
+        "address": "2-11 Kami-noborimachi, Naka-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.400278,
+        "lng": 132.4675,
+        "area": "히로시마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Hiroshima",
+            "url": "https://en.wikivoyage.org/wiki/Hiroshima#Shukkeien",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hiroshima-review-9c122332e42e",
+        "cityId": "hiroshima",
+        "name": "이쓰쿠시마 신사",
+        "english": "Itsukushima Shrine · 厳島神社",
+        "category": "관광",
+        "image": "/images/commons-069-hiroshima-review-9c122332e42e.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-hiroshima-review-9c122332e42e.jpg",
+          "author": "Jakub Hałun",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Main_Shrine,_Itsukushima_Shinto_Shrine,_Miyajima,_20240816_1710_4026.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "근교 · 미야지마의 신사·사당. 세계유산 관련 장소를 살펴볼 수 있습니다.",
+        "address": "1-1 Miyajima-Cho",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 34.29583,
+        "lng": 132.31972,
+        "area": "근교 · 미야지마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Miyajima",
+            "url": "https://en.wikivoyage.org/wiki/Miyajima#Itsukushima_Shrine",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hiroshima-review-ad9d6c99b447",
+        "cityId": "hiroshima",
+        "name": "센조카쿠",
+        "english": "Senjokaku · 千畳閣",
+        "category": "관광",
+        "image": "/images/commons-069-hiroshima-review-ad9d6c99b447.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-hiroshima-review-ad9d6c99b447.jpg",
+          "author": "Hyppolyte de Saint-Rambert",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hokoku_jinja_(Miyajima_Hiroshima)_hdsr_Senjokaku_S5_04.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "근교 · 미야지마의 온천·목욕 시설.",
+        "address": "1-1 Miyajima-cho",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 34.297333,
+        "lng": 132.32025,
+        "area": "근교 · 미야지마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Miyajima",
+            "url": "https://en.wikivoyage.org/wiki/Miyajima#Senjokaku",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hiroshima-review-9952f4c09ec0",
+        "cityId": "hiroshima",
+        "name": "원폭 폭심지",
+        "english": "Hypocenter",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "히로시마의 둘러볼 수 있는 장소.",
+        "address": "히로시마, 히로시마",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.394791,
+        "lng": 132.454718,
+        "area": "히로시마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Hiroshima",
+            "url": "https://en.wikivoyage.org/wiki/Hiroshima#Hypocenter",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hiroshima-review-8c71adcadc1d",
+        "cityId": "hiroshima",
+        "name": "미야오성",
+        "english": "Miyao Castle · 宮尾城",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 미야지마의 신사·사당.",
+        "address": "근교 · 미야지마, 히로시마",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 34.300554,
+        "lng": 132.322415,
+        "area": "근교 · 미야지마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Miyajima",
+            "url": "https://en.wikivoyage.org/wiki/Miyajima#Miyao_Castle",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hiroshima-review-7ab2797639cf",
+        "cityId": "hiroshima",
+        "name": "원폭 어린이의 동상",
+        "english": "Children's Peace Monument · (原爆の子の像 Genbaku no ko no zō",
+        "category": "관광",
+        "image": "/images/commons-069-hiroshima-review-7ab2797639cf.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-hiroshima-review-7ab2797639cf.jpg",
+          "author": "Hyppolyte de Saint-Rambert",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hiroshima_Peace_Memorial_park_hdsr_Childrens_for_peace_S5_08.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "히로시마의 기념물·역사 장소.",
+        "address": "히로시마, 히로시마",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.394142,
+        "lng": 132.452776,
+        "area": "히로시마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Hiroshima",
+            "url": "https://en.wikivoyage.org/wiki/Hiroshima#Children%27s_Peace_Monument",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hiroshima-review-5f9d07e06ee2",
+        "cityId": "hiroshima",
+        "name": "다이쇼인",
+        "english": "Daisho-in · 大聖院",
+        "category": "관광",
+        "image": "/images/commons-069-hiroshima-review-5f9d07e06ee2.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-hiroshima-review-5f9d07e06ee2.jpg",
+          "author": "Iflwlou",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Daish%C5%8D-in_Temple_(2026-05)_01.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "근교 · 미야지마의 사찰.",
+        "address": "210, Miyajima-cho",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 34.29195,
+        "lng": 132.318475,
+        "area": "근교 · 미야지마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Miyajima",
+            "url": "https://en.wikivoyage.org/wiki/Miyajima#Daisho-in",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hiroshima-review-cc4c4f3365a4",
+        "cityId": "hiroshima",
+        "name": "동원학도 위령탑",
+        "english": "Memorial Tower to the Mobilized Students",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "히로시마의 기념물·역사 장소.",
+        "address": "히로시마, 히로시마",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.3949,
+        "lng": 132.4539,
+        "area": "히로시마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Hiroshima",
+            "url": "https://en.wikivoyage.org/wiki/Hiroshima#Memorial_Tower_to_the_Mobilized_Students",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hiroshima-review-b60ebf716826",
+        "cityId": "hiroshima",
+        "name": "미야지마 수족관",
+        "english": "Miyajima Public Aquarium · 宮島水族館",
+        "category": "관광",
+        "image": "/images/commons-069-hiroshima-review-b60ebf716826.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-hiroshima-review-b60ebf716826.jpg",
+          "author": "ノボホショコロトソ",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Miyajima_Public_Aquarium_01.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "근교 · 미야지마의 수족관.",
+        "address": "10-3 Miyajima-cho",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 34.295392,
+        "lng": 132.315356,
+        "area": "근교 · 미야지마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Miyajima",
+            "url": "https://en.wikivoyage.org/wiki/Miyajima#Miyajima_Public_Aquarium",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hiroshima-review-6ec916848150",
+        "cityId": "hiroshima",
+        "name": "국립 히로시마 원폭희생자 추도평화기념관",
+        "english": "Hiroshima National Peace Memorial Hall for the Atomic Bomb Victims",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "히로시마의 박물관·전시 공간.",
+        "address": "1-6 Nakajima-chō, Naka-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.39333,
+        "lng": 132.45349,
+        "area": "히로시마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Hiroshima",
+            "url": "https://en.wikivoyage.org/wiki/Hiroshima#Hiroshima_National_Peace_Memorial_Hall_for_the_Atomic_Bomb_Victims",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hiroshima-review-9ef4fce9fc97",
+        "cityId": "hiroshima",
+        "name": "미야지마 역사민속자료관",
+        "english": "Miyajima History and Folklore Museum · 宮島歴史民俗資料館",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 미야지마의 박물관·전시 공간. 지역·역사 자료를 살펴볼 수 있습니다.",
+        "address": "57 Miyajima-cho",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 34.295441,
+        "lng": 132.317323,
+        "area": "근교 · 미야지마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Miyajima",
+            "url": "https://en.wikivoyage.org/wiki/Miyajima#Miyajima_History_and_Folklore_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hiroshima-review-b732d8b5046d",
+        "cityId": "hiroshima",
+        "name": "히로시마 평화기념자료관",
+        "english": "Peace Memorial Museum · 平和記念資料館 Heiwa Kinen Shiryōkan",
+        "category": "관광",
+        "image": "/images/commons-069-hiroshima-review-b732d8b5046d.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-hiroshima-review-b732d8b5046d.jpg",
+          "author": "Ridiculopathy",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oct2025._Hiroshima_Peace_Memorial_Museum,_Japan_05.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "히로시마의 박물관·전시 공간.",
+        "address": "1-2 Nakajima-chō, Naka-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.39182,
+        "lng": 132.45209,
+        "area": "히로시마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Hiroshima",
+            "url": "https://en.wikivoyage.org/wiki/Hiroshima#Peace_Memorial_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hiroshima-review-e294e03dc02a",
+        "cityId": "hiroshima",
+        "name": "히로시마 국제회의장",
+        "english": "International Conference Center",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "히로시마의 공원·정원.",
+        "address": "1-5 Nakajima-chō, Naka-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.392083,
+        "lng": 132.451028,
+        "area": "히로시마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Hiroshima",
+            "url": "https://en.wikivoyage.org/wiki/Hiroshima#International_Conference_Center",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hiroshima-review-4a10a70ea5f6",
+        "cityId": "hiroshima",
+        "name": "혼카와 초등학교 평화자료관",
+        "english": "Honkawa Elementary School Peace Museum · 本川小学校平和資料館",
+        "category": "관광",
+        "image": "/images/commons-069-hiroshima-review-4a10a70ea5f6.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-hiroshima-review-4a10a70ea5f6.jpg",
+          "author": "かるちる",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Honkawa_Elementary_School_Peace_Museum_No.1.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "히로시마의 박물관·전시 공간.",
+        "address": "1-5-39 Honkawa-chō, Naka-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.395885,
+        "lng": 132.450606,
+        "area": "히로시마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Hiroshima",
+            "url": "https://en.wikivoyage.org/wiki/Hiroshima#Honkawa_Elementary_School_Peace_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hiroshima-review-903f25bba010",
+        "cityId": "hiroshima",
+        "name": "후쿠로마치 초등학교 평화자료관",
+        "english": "Fukuro-machi Elementary School Museum · 袋町小学校平和資料館",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "히로시마의 박물관·전시 공간.",
+        "address": "6-36 Fukuro-machi, Naka-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.39176,
+        "lng": 132.458706,
+        "area": "히로시마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Hiroshima",
+            "url": "https://en.wikivoyage.org/wiki/Hiroshima#Fukuro-machi_Elementary_School_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hiroshima-review-bfeba93a4f24",
+        "cityId": "hiroshima",
+        "name": "옛 일본은행 히로시마 지점",
+        "english": "Former Bank of Japan",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "히로시마의 둘러볼 수 있는 장소.",
+        "address": "5-16 Fukuro-machi, Naka-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.3915,
+        "lng": 132.4568,
+        "area": "히로시마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Hiroshima",
+            "url": "https://en.wikivoyage.org/wiki/Hiroshima#Former_Bank_of_Japan",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hiroshima-review-5872a2c3d613",
+        "cityId": "hiroshima",
+        "name": "미센산",
+        "english": "Mt. Misen · 弥山",
+        "category": "관광",
+        "image": "/images/commons-069-hiroshima-review-5872a2c3d613.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-hiroshima-review-5872a2c3d613.jpg",
+          "author": "BellaNYork",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:View_from_Mt_Misen,_Miyajama.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "근교 · 미야지마의 수족관.",
+        "address": "근교 · 미야지마, 히로시마",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 34.2825,
+        "lng": 132.315556,
+        "area": "근교 · 미야지마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Miyajima",
+            "url": "https://en.wikivoyage.org/wiki/Miyajima#Mt._Misen",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hiroshima-review-93839d894a56",
+        "cityId": "hiroshima",
+        "name": "주오 공원",
+        "english": "Chuo Park · 中央公園",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "히로시마의 성·궁전 유적.",
+        "address": "Naka-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.401389,
+        "lng": 132.454667,
+        "area": "히로시마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Hiroshima",
+            "url": "https://en.wikivoyage.org/wiki/Hiroshima#Chuo_Park",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hiroshima-review-0c7f8472aa7f",
+        "cityId": "hiroshima",
+        "name": "모미지다니 공원",
+        "english": "Momijidani Park · 紅葉谷公園",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 미야지마의 사찰.",
+        "address": "근교 · 미야지마, 히로시마",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 34.294191,
+        "lng": 132.324057,
+        "area": "근교 · 미야지마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Miyajima",
+            "url": "https://en.wikivoyage.org/wiki/Miyajima#Momijidani_Park",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hiroshima-review-f2a22af18205",
+        "cityId": "hiroshima",
+        "name": "히로시마성 주변",
+        "english": "Hiroshima Castle · 広島城 Hiroshima-jō",
+        "category": "관광",
+        "image": "/images/commons-069-hiroshima-review-f2a22af18205.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-hiroshima-review-f2a22af18205.jpg",
+          "author": "Jakub Hałun",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Main_Gate_of_Hiroshima_Castle,_20240817_1510_4303.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "성 주변 부지는 둘러볼 수 있으나 천수각은 구조 노후화로 2026년 3월 22일부터 폐쇄된 것으로 안내되어 있습니다.",
+        "address": "21-1 Moto-machi, Naka-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.402728,
+        "lng": 132.459047,
+        "area": "히로시마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Hiroshima",
+            "url": "https://en.wikivoyage.org/wiki/Hiroshima#Hiroshima_Castle",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hiroshima-review-7b18069a79b4",
+        "cityId": "hiroshima",
+        "name": "히로시마 호국신사",
+        "english": "Gokoku Shrine · 護国神社 Gokoku-jinja",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "히로시마의 신사·사당.",
+        "address": "2-21 Motomachi, Naka-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.401167,
+        "lng": 132.45875,
+        "area": "히로시마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Hiroshima",
+            "url": "https://en.wikivoyage.org/wiki/Hiroshima#Gokoku_Shrine",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hiroshima-review-9d644bfafc4a",
+        "cityId": "hiroshima",
+        "name": "히로시마 어린이문화과학관",
+        "english": "Hiroshima Children's Museum · 広島市こども文化科学館",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "히로시마의 박물관·전시 공간. 과학 전시를 살펴볼 수 있습니다.",
+        "address": "5-83 Motomachi, Naka-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.398667,
+        "lng": 132.453639,
+        "area": "히로시마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Hiroshima",
+            "url": "https://en.wikivoyage.org/wiki/Hiroshima#Hiroshima_Children%27s_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hiroshima-review-d22da1836552",
+        "cityId": "hiroshima",
+        "name": "히로시마 미술관",
+        "english": "Hiroshima Museum of Art · ひろしま美術館",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "히로시마의 박물관·전시 공간. 미술 작품 전시를 살펴볼 수 있습니다.",
+        "address": "3-2 Motomachi, Naka-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.398669,
+        "lng": 132.458061,
+        "area": "히로시마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Hiroshima",
+            "url": "https://en.wikivoyage.org/wiki/Hiroshima#Hiroshima_Museum_of_Art",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hiroshima-review-7352e167e81b",
+        "cityId": "hiroshima",
+        "name": "히지야마 공원",
+        "english": "Hijiyama Park · 比治山公園",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "히로시마의 공원·정원.",
+        "address": "Minami-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.384059,
+        "lng": 132.473484,
+        "area": "히로시마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Hiroshima",
+            "url": "https://en.wikivoyage.org/wiki/Hiroshima#Hijiyama_Park",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hiroshima-review-8ee97e23ccd0",
+        "cityId": "hiroshima",
+        "name": "히로시마시 만화도서관",
+        "english": "Hiroshima City Manga Library · 広島市立まんが図書館",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "히로시마의 박물관·전시 공간. 미술 작품 전시를 살펴볼 수 있습니다.",
+        "address": "1-4 Hijiyama-koen, Minami-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.387722,
+        "lng": 132.474444,
+        "area": "히로시마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Hiroshima",
+            "url": "https://en.wikivoyage.org/wiki/Hiroshima#Hiroshima_City_Manga_Library",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hiroshima-review-6577ec4c4553",
+        "cityId": "hiroshima",
+        "name": "히로시마시 현대미술관",
+        "english": "Hiroshima City Museum of Contemporary Art · 広島市現代美術館",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "히로시마의 박물관·전시 공간. 미술 작품 전시를 살펴볼 수 있습니다.",
+        "address": "1-1 Hijiyama-koen, Minami-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.38638,
+        "lng": 132.473365,
+        "area": "히로시마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Hiroshima",
+            "url": "https://en.wikivoyage.org/wiki/Hiroshima#Hiroshima_City_Museum_of_Contemporary_Art",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hiroshima-review-437de93cdc50",
+        "cityId": "hiroshima",
+        "name": "후도인",
+        "english": "Fudoin · 不動院",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "히로시마의 사찰.",
+        "address": "3-4-9 Ushita Shin-machi, Higashi-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.427036,
+        "lng": 132.637783,
+        "area": "히로시마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Hiroshima",
+            "url": "https://en.wikivoyage.org/wiki/Hiroshima#Fudoin",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hiroshima-review-d0b9bbe7c96c",
+        "cityId": "hiroshima",
+        "name": "누마지 교통뮤지엄",
+        "english": "Numaji Transportation Museum · ヌマジ交通ミュージアム",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "히로시마의 박물관·전시 공간. 철도 관련 전시를 살펴볼 수 있습니다.",
+        "address": "2-12-2 Chorakuji, Asaminami-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.470861,
+        "lng": 132.428641,
+        "area": "히로시마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Hiroshima",
+            "url": "https://en.wikivoyage.org/wiki/Hiroshima#Numaji_Transportation_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hiroshima-review-b4e77f3c59f0",
+        "cityId": "hiroshima",
+        "name": "히로시마현립 미술관",
+        "english": "Hiroshima Prefectural Museum of Art · 広島県立美術館",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "히로시마의 박물관·전시 공간.",
+        "address": "2-22 Kaminobori-cho, Naka-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.399908,
+        "lng": 132.466275,
+        "area": "히로시마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Hiroshima",
+            "url": "https://en.wikivoyage.org/wiki/Hiroshima#Hiroshima_Prefectural_Museum_of_Art",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hiroshima-review-0235d8858323",
+        "cityId": "hiroshima",
+        "name": "미야지마 브루어리",
+        "english": "Miyajima Brewery",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 미야지마의 시장·쇼핑 공간.",
+        "address": "459-2 Miyajima-cho",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 34.297886,
+        "lng": 132.320631,
+        "area": "근교 · 미야지마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Miyajima",
+            "url": "https://en.wikivoyage.org/wiki/Miyajima#Miyajima_Brewery",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hiroshima-review-a3bf3b9e4ce2",
+        "cityId": "hiroshima",
+        "name": "마쓰다 뮤지엄",
+        "english": "Mazda Museum · マツダミュージアム",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "히로시마의 박물관·전시 공간. 철도 관련 전시를 살펴볼 수 있습니다.",
+        "address": "3-1 Mukainada-chō, Fuchū",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.377058,
+        "lng": 132.503011,
+        "area": "히로시마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Hiroshima",
+            "url": "https://en.wikivoyage.org/wiki/Hiroshima#Mazda_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hiroshima-review-f3d6d9806610",
+        "cityId": "hiroshima",
+        "name": "가키야",
+        "english": "Kakiya · 牡蠣屋",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 미야지마의 둘러볼 수 있는 장소.",
+        "address": "539 Miyajima-cho",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 34.298532,
+        "lng": 132.321551,
+        "area": "근교 · 미야지마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Miyajima",
+            "url": "https://en.wikivoyage.org/wiki/Miyajima#Kakiya",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hiroshima-review-6e32718e3b23",
+        "cityId": "hiroshima",
+        "name": "미타키데라",
+        "english": "Mitaki-dera · 三瀧寺",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "히로시마의 사찰.",
+        "address": "411 Mitaki-yama, Nishi-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.420294,
+        "lng": 132.437617,
+        "area": "히로시마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Hiroshima",
+            "url": "https://en.wikivoyage.org/wiki/Hiroshima#Mitaki-dera",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hiroshima-review-08f1f4cd8bcc",
+        "cityId": "hiroshima",
+        "name": "레 클로",
+        "english": "les Clos · 宮島 レ・クロ",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 미야지마의 둘러볼 수 있는 장소.",
+        "address": "527-1 Miyajima-cho",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 34.298582,
+        "lng": 132.322646,
+        "area": "근교 · 미야지마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Miyajima",
+            "url": "https://en.wikivoyage.org/wiki/Miyajima#les_Clos",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hiroshima-review-2f46196661ae",
+        "cityId": "hiroshima",
+        "name": "한베 정원",
+        "english": "Hanbe Gardens · 半べえ",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "히로시마의 공원·정원.",
+        "address": "히로시마, 히로시마",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.37492,
+        "lng": 132.488,
+        "area": "히로시마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Hiroshima",
+            "url": "https://en.wikivoyage.org/wiki/Hiroshima#Hanbe_Gardens",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hiroshima-review-53fd83a987dd",
+        "cityId": "hiroshima",
+        "name": "라운드원",
+        "english": "Round One",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "히로시마의 둘러볼 수 있는 장소.",
+        "address": "3-11 Tatemachi, Naka Ward, 730-0032",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.39348,
+        "lng": 132.46005,
+        "area": "히로시마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Hiroshima",
+            "url": "https://en.wikivoyage.org/wiki/Hiroshima#Round_One",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hiroshima-review-bf3e5dd10e24",
+        "cityId": "hiroshima",
+        "name": "에디온",
+        "english": "EDiON · formerly DeoDeo",
+        "category": "쇼핑",
+        "image": "/images/place-placeholder.svg",
+        "description": "히로시마의 수변·항구 산책 장소.",
+        "address": "2-1-18 Kamiya-cho, Naka-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.3954,
+        "lng": 132.4561,
+        "area": "히로시마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Hiroshima",
+            "url": "https://en.wikivoyage.org/wiki/Hiroshima#EDiON",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hiroshima-review-91866f99358d",
+        "cityId": "hiroshima",
+        "name": "후쿠야 히로시마역 앞점",
+        "english": "Fukuya (Ekimae) · 福屋広島駅前店",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "히로시마의 둘러볼 수 있는 장소.",
+        "address": "9-1 Matsubara-cho, Minami-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.3965,
+        "lng": 132.4738,
+        "area": "히로시마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Hiroshima",
+            "url": "https://en.wikivoyage.org/wiki/Hiroshima#Fukuya_%28Ekimae%29",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hiroshima-review-a43e067d1dea",
+        "cityId": "hiroshima",
+        "name": "히로시마 파르코",
+        "english": "Hiroshima PARCO · 広島パルコ",
+        "category": "쇼핑",
+        "image": "/images/place-placeholder.svg",
+        "description": "히로시마의 온천·목욕 시설.",
+        "address": "10-1 Hon-dori, Naka-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.3921,
+        "lng": 132.4619,
+        "area": "히로시마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Hiroshima",
+            "url": "https://en.wikivoyage.org/wiki/Hiroshima#Hiroshima_PARCO",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hiroshima-review-e53e7f88bbf2",
+        "cityId": "hiroshima",
+        "name": "소고 백화점",
+        "english": "SOGO",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "히로시마의 공원·정원.",
+        "address": "6-27 Moto-machi, Naka-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.396,
+        "lng": 132.4571,
+        "area": "히로시마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Hiroshima",
+            "url": "https://en.wikivoyage.org/wiki/Hiroshima#SOGO",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hiroshima-review-fdb0caf8d968",
+        "cityId": "hiroshima",
+        "name": "선몰",
+        "english": "SunMall",
+        "category": "쇼핑",
+        "image": "/images/place-placeholder.svg",
+        "description": "히로시마의 시장·쇼핑 공간.",
+        "address": "2-2-18 Kamiya-cho, Naka-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.3943,
+        "lng": 132.4566,
+        "area": "히로시마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Hiroshima",
+            "url": "https://en.wikivoyage.org/wiki/Hiroshima#SunMall",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hiroshima-review-bae11aa3622c",
+        "cityId": "hiroshima",
+        "name": "핸즈",
+        "english": "Hands",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "히로시마의 둘러볼 수 있는 장소.",
+        "address": "16-10 Hatchobori, Naka-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.3945,
+        "lng": 132.462,
+        "area": "히로시마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Hiroshima",
+            "url": "https://en.wikivoyage.org/wiki/Hiroshima#Hands",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hiroshima-review-53771d74985c",
+        "cityId": "hiroshima",
+        "name": "다이소",
+        "english": "Daiso",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "히로시마의 둘러볼 수 있는 장소.",
+        "address": "Naka Ward, Hondori, 1−11 １階",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.392663,
+        "lng": 132.461848,
+        "area": "히로시마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Hiroshima",
+            "url": "https://en.wikivoyage.org/wiki/Hiroshima#Daiso",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hiroshima-review-a477dec7b23a",
+        "cityId": "hiroshima",
+        "name": "오코노미무라",
+        "english": "Okonomi-mura · お好み村",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "히로시마의 오코노미야키을 다루는 식당.",
+        "address": "3-3 Nakamachi, Naka-ku",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.391309,
+        "lng": 132.461928,
+        "area": "히로시마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Hiroshima",
+            "url": "https://en.wikivoyage.org/wiki/Hiroshima#Okonomi-mura",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hiroshima-review-1c4d1ae5b1d6",
+        "cityId": "hiroshima",
+        "name": "오르간자",
+        "english": "Organ-za · ヲルガン座",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "히로시마의 태국 요리을 다루는 식당.",
+        "address": "1-4-32 Tokaichi-machi, Naka-ku (Morimoto Building, 2F)",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.3968,
+        "lng": 132.4491,
+        "area": "히로시마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Hiroshima",
+            "url": "https://en.wikivoyage.org/wiki/Hiroshima#Organ-za",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hiroshima-review-ed9e863dd8f0",
+        "cityId": "hiroshima",
+        "name": "오티스",
+        "english": "Otis!",
+        "category": "카페",
+        "image": "/images/place-placeholder.svg",
+        "description": "히로시마의 커피·음료를 즐길 수 있는 카페.",
+        "address": "1-20 Kako-machi, Naka-ku",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.3889,
+        "lng": 132.4499,
+        "area": "히로시마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Hiroshima",
+            "url": "https://en.wikivoyage.org/wiki/Hiroshima#Otis%21",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hiroshima-review-87d66c3569f1",
+        "cityId": "hiroshima",
+        "name": "산카노",
+        "english": "Sankanou · 三冠王",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "히로시마의 오코노미야키을 다루는 식당.",
+        "address": "11-2 Ōsuga-cho, Higashi-ku",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.398042,
+        "lng": 132.473212,
+        "area": "히로시마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Hiroshima",
+            "url": "https://en.wikivoyage.org/wiki/Hiroshima#Sankanou",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hiroshima-review-73dd35877a1f",
+        "cityId": "hiroshima",
+        "name": "밋짱",
+        "english": "Micchan · お好み焼 みっちゃん総本店",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "히로시마의 오코노미야키을 다루는 식당.",
+        "address": "8-4 Komachi, Naka-ku",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.387077,
+        "lng": 132.459686,
+        "area": "히로시마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Hiroshima",
+            "url": "https://en.wikivoyage.org/wiki/Hiroshima#Micchan",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hiroshima-review-2a17cab3eda7",
+        "cityId": "hiroshima",
+        "name": "다치코마",
+        "english": "Tachikoma · たちこま",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "히로시마의 오코노미야키을 다루는 식당.",
+        "address": "1-3-9 Dambara, Minami-ku",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.390425,
+        "lng": 132.474537,
+        "area": "히로시마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Hiroshima",
+            "url": "https://en.wikivoyage.org/wiki/Hiroshima#Tachikoma",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hiroshima-balance-c04aef64d3",
+        "cityId": "hiroshima",
+        "name": "아쿠슈 카페 오가닉",
+        "english": "Akushu Cafe ORGANIC · 握手カフェ",
+        "category": "카페",
+        "image": "/images/place-placeholder.svg",
+        "description": "히로시마 도심에서 식사와 커피를 즐길 수 있는 카페입니다.",
+        "address": "1F Orizuru Tower 1-2-1 Otemachi Naka Ward",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "산책이나 쇼핑 사이에 쉬어갈 후보입니다. 좌석 이용·마지막 주문 시간은 방문 전 확인하세요.",
+        "lat": 34.3957,
+        "lng": 132.4548,
+        "area": "히로시마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Hiroshima",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Hiroshima&oldid=5383988",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 eat 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "hiroshima-balance-5ba46815ef",
+        "cityId": "hiroshima",
+        "name": "카페 폰테",
+        "english": "Caffe Ponte",
+        "category": "카페",
+        "image": "/images/place-placeholder.svg",
+        "description": "강변을 바라보며 커피와 이탈리아 음식을 고르는 카페입니다.",
+        "address": "Motoyasu-bashi, Ote-machi",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "산책이나 쇼핑 사이에 쉬어갈 후보입니다. 좌석 이용·마지막 주문 시간은 방문 전 확인하세요.",
+        "lat": 34.394,
+        "lng": 132.4543,
+        "area": "히로시마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Hiroshima",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Hiroshima&oldid=5383988",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 eat 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "hiroshima-balance-682aaad504",
+        "cityId": "hiroshima",
+        "name": "미쓰이 가든 호텔 히로시마",
+        "english": "Mitsui Garden Hotel Hiroshima · 三井ガーデンホテル広島",
+        "category": "숙소",
+        "image": "/images/place-placeholder.svg",
+        "description": "도심 관광과 식사 동선을 함께 계획할 수 있는 호텔입니다.",
+        "address": "9-12 Nakamachi, Naka-ku",
+        "duration": "숙박 일정에 맞춰 지정",
+        "cost": "숙박일·객실·공식 안내에서 확인",
+        "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+        "lat": 34.389436,
+        "lng": 132.45919,
+        "area": "히로시마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Hiroshima",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Hiroshima&oldid=5383988",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "hiroshima-balance-10688eb7ea",
+        "cityId": "hiroshima",
+        "name": "호텔 그란비아 히로시마",
+        "english": "Hotel Granvia · ホテルグランヴィア広島",
+        "category": "숙소",
+        "image": "/images/place-placeholder.svg",
+        "description": "히로시마역 주변의 호텔 숙박 후보입니다.",
+        "address": "1-5 Matsubara-cho, Minami-ku",
+        "duration": "숙박 일정에 맞춰 지정",
+        "cost": "숙박일·객실·공식 안내에서 확인",
+        "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+        "lat": 34.3992,
+        "lng": 132.4755,
+        "area": "히로시마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Hiroshima",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Hiroshima&oldid=5383988",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "hiroshima-balance-bb02ad8f68",
+        "cityId": "hiroshima",
+        "name": "히로시마 클럽 콰트로",
+        "english": "Club Quattro",
+        "category": "바·공연",
+        "image": "/images/place-placeholder.svg",
+        "description": "투어 중인 밴드의 록·팝 공연을 볼 수 있는 라이브 공간입니다.",
+        "address": "10-1 Hon-dori, Naka-ku (PARCO Building, 10F)",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "공연 일정·입장 연령·드레스 코드·입장료와 최소 주문 조건을 방문 전 확인하세요.",
+        "lat": 34.3921,
+        "lng": 132.4619,
+        "area": "히로시마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Hiroshima",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Hiroshima&oldid=5383988",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "hiroshima-balance-174f1cd16e",
+        "cityId": "hiroshima",
+        "name": "몰리 말론스 히로시마",
+        "english": "Molly Malone's",
+        "category": "바·공연",
+        "image": "/images/place-placeholder.svg",
+        "description": "스포츠 중계와 음료를 함께 즐기는 아일랜드식 펍입니다.",
+        "address": "1-20 Shintenchi, Naka-ku (Teigeki Building, 4F)",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "공연 일정·입장 연령·드레스 코드·입장료와 최소 주문 조건을 방문 전 확인하세요.",
+        "lat": 34.3918,
+        "lng": 132.4633,
+        "area": "히로시마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Hiroshima",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Hiroshima&oldid=5383988",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "id": "hiroshima-overview",
+        "title": "도시 소개",
+        "body": "평화기념공원 관람과 미야지마 섬 방문은 다른 날짜나 충분히 분리된 시간대로 잡으세요."
+      },
+      {
+        "id": "hiroshima-before",
+        "title": "출발 전 준비",
+        "body": "평화기념자료관의 입장 방식과 방문일 운영을 확인하고 관람 후 쉬는 시간을 두세요.\n\n미야지마 신사·페리의 방문일 운영과 조수 정보를 확인하세요."
+      },
+      {
+        "id": "hiroshima-arrival",
+        "title": "공항과 시내 이동",
+        "body": "공항·역에서 이동: 공항버스의 도착 지점과 역에서 숙소까지의 노면전차·버스를 확인하세요.\n\n미야지마: 철도와 페리를 각각 확인하세요. 섬에서 나오는 마지막 연결편과 기상 조건을 먼저 확인합니다."
+      },
+      {
+        "id": "hiroshima-stay",
+        "title": "숙소 지역 선택",
+        "body": "히로시마역: 신칸센 도착·출발과 다른 지역 이동이 많을 때 비교하세요.\n\n도심·평화공원 주변: 도심 산책과 식사에 집중할 때 비교하고 역까지 추가 이동을 계산하세요."
+      },
+      {
+        "id": "hiroshima-plan",
+        "title": "일정 계획",
+        "body": "하루: 평화기념공원과 가까운 도심 관람에 집중하세요.\n\n2일 이상: 도심 하루와 미야지마 하루를 분리하세요."
+      },
+      {
+        "id": "hiroshima-notes",
+        "title": "현장 팁",
+        "body": "자료관을 급하게 소비하는 일정은 피하고 동행자의 관람 속도를 존중하세요.\n\n미야지마의 바닷가 보행은 조수·날씨에 따라 달라집니다."
+      },
+      {
+        "id": "hiroshima-rain",
+        "title": "비 오는 날",
+        "body": "평화기념자료관·히로시마 미술관 등 실내 장소를 중심으로 조정하고 페리 운항을 확인하세요."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Japan-guide · 히로시마",
+        "url": "https://www.japan-guide.com/e/e2160.html",
+        "accessedAt": "2026-10-15"
+      }
+    ],
+    "status": "published",
+    "requestId": null,
+    "createdAt": "2026-10-15T00:00:00.000Z",
+    "updatedAt": "2026-10-15T00:00:00.000Z",
+    "publishedAt": "2026-10-15T00:00:00.000Z"
+  },
+  "practicalGuide": {
+    "cityId": "hiroshima",
+    "firstVisit": "평화기념공원 관람과 미야지마 섬 방문은 다른 날짜나 충분히 분리된 시간대로 잡으세요.",
+    "bases": [
+      {
+        "name": "히로시마역",
+        "advice": "신칸센 도착·출발과 다른 지역 이동이 많을 때 비교하세요."
+      },
+      {
+        "name": "도심·평화공원 주변",
+        "advice": "도심 산책과 식사에 집중할 때 비교하고 역까지 추가 이동을 계산하세요."
+      }
+    ],
+    "arrival": [
+      {
+        "name": "공항·역에서 이동",
+        "advice": "공항버스의 도착 지점과 역에서 숙소까지의 노면전차·버스를 확인하세요."
+      },
+      {
+        "name": "미야지마",
+        "advice": "철도와 페리를 각각 확인하세요. 섬에서 나오는 마지막 연결편과 기상 조건을 먼저 확인합니다."
+      }
+    ],
+    "timePlan": [
+      {
+        "name": "하루",
+        "advice": "평화기념공원과 가까운 도심 관람에 집중하세요."
+      },
+      {
+        "name": "2일 이상",
+        "advice": "도심 하루와 미야지마 하루를 분리하세요."
+      }
+    ],
+    "before": [
+      "평화기념자료관의 입장 방식과 방문일 운영을 확인하고 관람 후 쉬는 시간을 두세요.",
+      "미야지마 신사·페리의 방문일 운영과 조수 정보를 확인하세요."
+    ],
+    "pitfalls": [
+      "자료관을 급하게 소비하는 일정은 피하고 동행자의 관람 속도를 존중하세요.",
+      "미야지마의 바닷가 보행은 조수·날씨에 따라 달라집니다."
+    ],
+    "rainPlan": "평화기념자료관·히로시마 미술관 등 실내 장소를 중심으로 조정하고 페리 운항을 확인하세요.",
+    "courses": [
+      {
+        "id": "hiroshima-course-1",
+        "title": "평화기념공원 관람",
+        "pace": "반나절–하루 · 도보",
+        "why": "무리하게 유료 시설을 더 넣지 않고 관람과 휴식을 함께 두는 코스입니다.",
+        "placeIds": [
+          "hiroshima-dome",
+          "hiroshima-peace-park",
+          "hiroshima-review-b732d8b5046d"
+        ]
+      },
+      {
+        "id": "hiroshima-course-2",
+        "title": "근교 · 미야지마",
+        "pace": "하루 · 철도·페리 후 도보",
+        "why": "섬 안의 신사와 사찰을 묶습니다. 귀환 교통은 별도 확인하세요.",
+        "placeIds": [
+          "hiroshima-review-9c122332e42e",
+          "hiroshima-review-ad9d6c99b447",
+          "hiroshima-review-5f9d07e06ee2"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "Japan-guide · 히로시마",
+        "url": "https://www.japan-guide.com/e/e2160.html",
+        "checkedAt": "2026-10-15",
+        "status": "read"
+      }
+    ],
+    "researchNote": "여행 안내 본문을 읽고 지역별 계획을 편집했습니다. 코스는 직접 작성한 제안이며 이동시간·예약 가능 여부를 실시간 계산한 결과가 아닙니다."
+  },
+  "plans": {
+    "cityId": "hiroshima",
+    "days": [
+      {
+        "id": "hiroshima-day-1",
+        "title": "평화기념공원 관람",
+        "pace": "반나절–하루 · 도보",
+        "why": "무리하게 유료 시설을 더 넣지 않고 관람과 휴식을 함께 두는 코스입니다.",
+        "placeIds": [
+          "hiroshima-dome",
+          "hiroshima-peace-park",
+          "hiroshima-review-b732d8b5046d"
+        ]
+      },
+      {
+        "id": "hiroshima-day-2",
+        "title": "근교 · 미야지마",
+        "pace": "하루 · 철도·페리 후 도보",
+        "why": "섬 안의 신사와 사찰을 묶습니다. 귀환 교통은 별도 확인하세요.",
+        "placeIds": [
+          "hiroshima-review-9c122332e42e",
+          "hiroshima-review-ad9d6c99b447",
+          "hiroshima-review-5f9d07e06ee2"
+        ]
+      },
+      {
+        "id": "hiroshima-day-3",
+        "title": "히로시마 정원과 미술",
+        "pace": "전차·도보",
+        "why": "슛케이엔 주변 미술관과 도심 관람을 묶습니다.",
+        "placeIds": [
+          "hiroshima-shukkeien",
+          "hiroshima-review-b4e77f3c59f0",
+          "hiroshima-review-d22da1836552"
+        ]
+      },
+      {
+        "id": "hiroshima-day-4",
+        "title": "히지야마에서 현대미술",
+        "pace": "전차·도보",
+        "why": "언덕 위 공원과 현대미술관을 함께 보고 도심으로 돌아와 식사합니다.",
+        "placeIds": [
+          "hiroshima-review-7352e167e81b",
+          "hiroshima-review-6577ec4c4553",
+          "hiroshima-review-a477dec7b23a"
+        ]
+      },
+      {
+        "id": "hiroshima-day-5",
+        "title": "히로시마성 주변과 실내 체험",
+        "pace": "전차·도보",
+        "why": "성 주변 산책과 과학관을 가볍게 묶고 주오 공원에서 쉽니다.",
+        "placeIds": [
+          "hiroshima-review-f2a22af18205",
+          "hiroshima-review-9d644bfafc4a",
+          "hiroshima-review-93839d894a56"
+        ]
+      }
+    ]
+  }
+}

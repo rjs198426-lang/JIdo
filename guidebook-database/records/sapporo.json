@@ -1,0 +1,1696 @@
+{
+  "guide": {
+    "id": "sapporo",
+    "scope": "city",
+    "city": {
+      "id": "sapporo",
+      "name": "삿포로",
+      "english": "SAPPORO · 札幌",
+      "country": "일본",
+      "region": "일본",
+      "image": "/images/place-sapporo-odori.jpg",
+      "photoCredit": {
+        "file": "/images/place-sapporo-odori.jpg",
+        "author": "Nkns",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hokkaido_Sapporo_Odori_Park.jpg",
+        "verifiedAt": "2026-10-14"
+      },
+      "tagline": "오도리 공원에서 도심 산책",
+      "description": "도심의 오도리 공원과 주요 건물을 도보로 묶기 좋습니다. 겨울에는 눈과 빙판에 맞춰 이동을 여유 있게 잡으세요.",
+      "tags": [
+        "도시 산책",
+        "자유여행"
+      ],
+      "flight": "신치토세공항",
+      "currency": "일본 엔 · JPY",
+      "timeDifference": "한국과 시차 없음",
+      "season": "계절별 일정 선택",
+      "accent": "#eaf4ef"
+    },
+    "places": [
+      {
+        "id": "sapporo-odori",
+        "cityId": "sapporo",
+        "name": "오도리 공원",
+        "english": "Ōdōri Park · 大通公園, ōdōri-kōen",
+        "category": "관광",
+        "image": "/images/place-sapporo-odori.jpg",
+        "photoCredit": {
+          "file": "/images/place-sapporo-odori.jpg",
+          "author": "Nkns",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hokkaido_Sapporo_Odori_Park.jpg",
+          "verifiedAt": "2026-10-14"
+        },
+        "description": "삿포로의 공원·정원.",
+        "address": "삿포로, 삿포로",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 43.059722,
+        "lng": 141.346389,
+        "area": "삿포로",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Sapporo",
+            "url": "https://en.wikivoyage.org/wiki/Sapporo#%C5%8Cd%C5%8Dri_Park",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sapporo-clock",
+        "cityId": "sapporo",
+        "name": "삿포로 시계탑",
+        "english": "Clock Tower · 時計台 Tokeidai",
+        "category": "관광",
+        "image": "/images/place-sapporo-clock.jpg",
+        "photoCredit": {
+          "file": "/images/place-sapporo-clock.jpg",
+          "author": "Bjørn Christian Tørrissen",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sapporo-Clock-Tower-2018.jpg",
+          "verifiedAt": "2026-10-14"
+        },
+        "description": "삿포로의 시장·쇼핑 공간.",
+        "address": "삿포로, 삿포로",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 43.062602,
+        "lng": 141.353681,
+        "area": "삿포로",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Sapporo",
+            "url": "https://en.wikivoyage.org/wiki/Sapporo#Clock_Tower",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sapporo-tv-tower",
+        "cityId": "sapporo",
+        "name": "삿포로 텔레비전탑",
+        "english": "Sapporo TV Tower · さっぽろテレビ塔 · 삿포로 TV타워",
+        "category": "관광",
+        "image": "/images/place-sapporo-tv-tower.jpg",
+        "photoCredit": {
+          "file": "/images/place-sapporo-tv-tower.jpg",
+          "author": "AlphaBetaGamma",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sapporo-TV-Tower-2025.jpg",
+          "verifiedAt": "2026-10-14"
+        },
+        "description": "삿포로의 전망 장소.",
+        "address": "삿포로, 삿포로",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 43.061111,
+        "lng": 141.356389,
+        "area": "삿포로",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Sapporo",
+            "url": "https://en.wikivoyage.org/wiki/Sapporo#Sapporo_TV_Tower",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sapporo-review-56228a68e4e4",
+        "cityId": "sapporo",
+        "name": "오타루 운하",
+        "english": "Otaru Canal · 小樽運河",
+        "category": "관광",
+        "image": "/images/commons-069-sapporo-review-56228a68e4e4.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-sapporo-review-56228a68e4e4.jpg",
+          "author": "Fumikas Sagisavas",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Otaru_Canal_Cruise_(20240223).jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "근교 · 오타루의 둘러볼 수 있는 장소.",
+        "address": "色内１丁目",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 43.198004,
+        "lng": 141.003047,
+        "area": "근교 · 오타루",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Otaru",
+            "url": "https://en.wikivoyage.org/wiki/Otaru#Otaru_Canal",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sapporo-review-60dbdab4fca0",
+        "cityId": "sapporo",
+        "name": "치토세 평화탑",
+        "english": "Peace Pagoda",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 치토세의 사찰.",
+        "address": "근교 · 치토세, 삿포로",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 43.030385,
+        "lng": 141.330728,
+        "area": "근교 · 치토세",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Chitose",
+            "url": "https://en.wikivoyage.org/wiki/Chitose#Peace_Pagoda",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sapporo-review-597158274130",
+        "cityId": "sapporo",
+        "name": "오타루 오르골당",
+        "english": "Otaru Music Box Museum · 小樽オルゴール堂",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 오타루의 박물관·전시 공간.",
+        "address": "1-2-3 Irifune",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 43.19068,
+        "lng": 141.00766,
+        "area": "근교 · 오타루",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Otaru",
+            "url": "https://en.wikivoyage.org/wiki/Otaru#Otaru_Music_Box_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sapporo-review-1bcbdd7d039f",
+        "cityId": "sapporo",
+        "name": "오타루 증기시계",
+        "english": "Steam Clock · 蒸気時計 jōgi tokei",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 오타루의 박물관·전시 공간.",
+        "address": "근교 · 오타루, 삿포로",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 43.1909,
+        "lng": 141.00741,
+        "area": "근교 · 오타루",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Otaru",
+            "url": "https://en.wikivoyage.org/wiki/Otaru#Steam_Clock",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sapporo-review-2d40c676eec5",
+        "cityId": "sapporo",
+        "name": "시로이 코이비토 파크",
+        "english": "Shiroi Koibito Park · 白い恋人パーク",
+        "category": "관광",
+        "image": "/images/commons-069-sapporo-review-2d40c676eec5.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-sapporo-review-2d40c676eec5.jpg",
+          "author": "掬茶",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shiroi_Koibito_Park_20260703k.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "삿포로의 박물관·전시 공간.",
+        "address": "삿포로, 삿포로",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 43.08883,
+        "lng": 141.27132,
+        "area": "삿포로",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Sapporo",
+            "url": "https://en.wikivoyage.org/wiki/Sapporo#Shiroi_Koibito_Park",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sapporo-review-48c378f81c09",
+        "cityId": "sapporo",
+        "name": "오타루 덴구야마",
+        "english": "Mount Tengu · 天狗山",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 오타루의 박물관·전시 공간.",
+        "address": "근교 · 오타루, 삿포로",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 43.168409,
+        "lng": 140.969814,
+        "area": "근교 · 오타루",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Otaru",
+            "url": "https://en.wikivoyage.org/wiki/Otaru#Mount_Tengu",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sapporo-review-7655df2da794",
+        "cityId": "sapporo",
+        "name": "삿포로 맥주박물관",
+        "english": "Sapporo Beer Museum · サッポロビール博物館 Sapporo Biru Hakubutsukan",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "삿포로의 박물관·전시 공간. 지역·역사 자료를 살펴볼 수 있습니다.",
+        "address": "North 7, East 9",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 43.071666,
+        "lng": 141.368836,
+        "area": "삿포로",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Sapporo",
+            "url": "https://en.wikivoyage.org/wiki/Sapporo#Sapporo_Beer_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sapporo-review-b1b5a980d18f",
+        "cityId": "sapporo",
+        "name": "오타루 시립박물관",
+        "english": "Otaru City Museum",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 오타루의 박물관·전시 공간. 철도 관련 전시를 살펴볼 수 있습니다.",
+        "address": "1 Chome-3-6 Temiya",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 43.211153,
+        "lng": 141.001019,
+        "area": "근교 · 오타루",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Otaru",
+            "url": "https://en.wikivoyage.org/wiki/Otaru#Otaru_City_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sapporo-review-7b09b6096cc5",
+        "cityId": "sapporo",
+        "name": "홋카이도 개척촌",
+        "english": "Hokkaido Pioneer Village · 開拓の村",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "삿포로의 신사·사당.",
+        "address": "삿포로, 삿포로",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 43.048278,
+        "lng": 141.497056,
+        "area": "삿포로",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Sapporo",
+            "url": "https://en.wikivoyage.org/wiki/Sapporo#Hokkaido_Pioneer_Village",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sapporo-review-dc6ca4c889c3",
+        "cityId": "sapporo",
+        "name": "오타루 스테인드글라스 미술관",
+        "english": "Stained Glass Museum",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 오타루의 박물관·전시 공간. 지역·역사 자료를 살펴볼 수 있습니다.",
+        "address": "1 Chome-2-17 Ironai",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 43.198103,
+        "lng": 141.002253,
+        "area": "근교 · 오타루",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Otaru",
+            "url": "https://en.wikivoyage.org/wiki/Otaru#Stained_Glass_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sapporo-review-abc4bcc667b3",
+        "cityId": "sapporo",
+        "name": "모이와산",
+        "english": "Moiwayama · 藻岩山",
+        "category": "관광",
+        "image": "/images/commons-069-sapporo-review-abc4bcc667b3.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-sapporo-review-abc4bcc667b3.jpg",
+          "author": "ブルーノ・プラス",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Moiwayama_Ropeway2.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "삿포로의 산·언덕 산책 장소.",
+        "address": "삿포로, 삿포로",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 43.022139,
+        "lng": 141.322111,
+        "area": "삿포로",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Sapporo",
+            "url": "https://en.wikivoyage.org/wiki/Sapporo#Moiwayama",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sapporo-review-12f296fdd49a",
+        "cityId": "sapporo",
+        "name": "일본은행 오타루 금융자료관",
+        "english": "The Bank of Japan Otaru Museum · 日本銀行旧小樽支店",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 오타루의 박물관·전시 공간. 지역·역사 자료를 살펴볼 수 있습니다.",
+        "address": "1-11-16 Ironai, Otaru",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 43.19641,
+        "lng": 141.00038,
+        "area": "근교 · 오타루",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Otaru",
+            "url": "https://en.wikivoyage.org/wiki/Otaru#The_Bank_of_Japan_Otaru_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sapporo-review-181e1840dbef",
+        "cityId": "sapporo",
+        "name": "아사히야마 공원",
+        "english": "Asahiyama Park · 旭山記念公園 Asahiyama Kinen Kōen",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "삿포로의 공원·정원.",
+        "address": "삿포로, 삿포로",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 43.039667,
+        "lng": 141.315028,
+        "area": "삿포로",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Sapporo",
+            "url": "https://en.wikivoyage.org/wiki/Sapporo#Asahiyama_Park",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sapporo-review-dc3887920113",
+        "cityId": "sapporo",
+        "name": "홋카이도 신궁",
+        "english": "Hokkaido Shrine · 北海道神宮 Hokkaidō Jingū",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "삿포로의 신사·사당.",
+        "address": "삿포로, 삿포로",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 43.054235,
+        "lng": 141.307705,
+        "area": "삿포로",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Sapporo",
+            "url": "https://en.wikivoyage.org/wiki/Sapporo#Hokkaido_Shrine",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sapporo-review-6f1fb60219bc",
+        "cityId": "sapporo",
+        "name": "조잔케이",
+        "english": "Jōzankei · 定山渓",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "삿포로의 온천·목욕 시설.",
+        "address": "삿포로, 삿포로",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 42.915833,
+        "lng": 141.153611,
+        "area": "삿포로",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Sapporo",
+            "url": "https://en.wikivoyage.org/wiki/Sapporo#J%C5%8Dzankei",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sapporo-review-e1f33a5c223d",
+        "cityId": "sapporo",
+        "name": "제이알 타워",
+        "english": "JR Tower · JRタワー",
+        "category": "관광",
+        "image": "/images/commons-069-sapporo-review-e1f33a5c223d.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-sapporo-review-e1f33a5c223d.jpg",
+          "author": "ノボホショコロトソ",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:JR_Tower_2024_04.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "삿포로의 전망 장소.",
+        "address": "삿포로, 삿포로",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 43.06813,
+        "lng": 141.352528,
+        "area": "삿포로",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Sapporo",
+            "url": "https://en.wikivoyage.org/wiki/Sapporo#JR_Tower",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sapporo-review-1fab36e53e0d",
+        "cityId": "sapporo",
+        "name": "홋카이도립 근대미술관",
+        "english": "Hokkaido Museum of Modern Art · 北海道立近代美術館",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "삿포로의 박물관·전시 공간. 미술 작품 전시를 살펴볼 수 있습니다.",
+        "address": "North 1 West 17, Chuo",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 43.060062,
+        "lng": 141.330378,
+        "area": "삿포로",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Sapporo",
+            "url": "https://en.wikivoyage.org/wiki/Sapporo#Hokkaido_Museum_of_Modern_Art",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sapporo-review-2d92903a389a",
+        "cityId": "sapporo",
+        "name": "유키지루시 유업 역사관",
+        "english": "Snow Brand Milk Products Historical Museum",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "삿포로의 박물관·전시 공간. 지역·역사 자료를 살펴볼 수 있습니다.",
+        "address": "삿포로, 삿포로",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 43.07195,
+        "lng": 141.38492,
+        "area": "삿포로",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Sapporo",
+            "url": "https://en.wikivoyage.org/wiki/Sapporo#Snow_Brand_Milk_Products_Historical_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sapporo-review-3751bc864063",
+        "cityId": "sapporo",
+        "name": "삿포로 예술의 숲",
+        "english": "Sapporo Art Park · 札幌芸術の森, sapporo geijutsu no mori",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "삿포로의 공원·정원.",
+        "address": "南区芸術の森２丁目７５",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 42.940166,
+        "lng": 141.340849,
+        "area": "삿포로",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Sapporo",
+            "url": "https://en.wikivoyage.org/wiki/Sapporo#Sapporo_Art_Park",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sapporo-review-ea77f4d1d55d",
+        "cityId": "sapporo",
+        "name": "모에레누마 공원",
+        "english": "Moerenuma Park · モエレ沼公園, Moerenuma Kōen",
+        "category": "관광",
+        "image": "/images/commons-069-sapporo-review-ea77f4d1d55d.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-sapporo-review-ea77f4d1d55d.jpg",
+          "author": "掬茶",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Playmountain_in_Moerenuma_Park_202607.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "삿포로의 공원·정원.",
+        "address": "삿포로, 삿포로",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 43.124,
+        "lng": 141.43,
+        "area": "삿포로",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Sapporo",
+            "url": "https://en.wikivoyage.org/wiki/Sapporo#Moerenuma_Park",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sapporo-review-14488690fdce",
+        "cityId": "sapporo",
+        "name": "홋카이도대학교 식물원",
+        "english": "Hokkaido University Botanic Garden · 北海道大学植物園 Hokkaido Daigaku Shokubutsuen",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "삿포로의 박물관·전시 공간. 일본식 정원를 살펴볼 수 있습니다.",
+        "address": "North 3 West 8, Chuo",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 43.063667,
+        "lng": 141.342472,
+        "area": "삿포로",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Sapporo",
+            "url": "https://en.wikivoyage.org/wiki/Sapporo#Hokkaido_University_Botanic_Garden",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sapporo-review-0eab69e8ee77",
+        "cityId": "sapporo",
+        "name": "기타이치 글라스",
+        "english": "Kitaichi Glass · 北一硝子 Kitaichi Garasu",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 오타루의 둘러볼 수 있는 장소.",
+        "address": "堺町７−２６",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 43.192226,
+        "lng": 141.007394,
+        "area": "근교 · 오타루",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Otaru",
+            "url": "https://en.wikivoyage.org/wiki/Otaru#Kitaichi_Glass",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sapporo-review-80365c46346a",
+        "cityId": "sapporo",
+        "name": "홋카이도청 구 본청사",
+        "english": "Former Hokkaido Prefectural Government Building · 北海道府旧本府舎",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "삿포로의 둘러볼 수 있는 장소.",
+        "address": "Chuo-ku N3 W6",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 43.06431,
+        "lng": 141.34683,
+        "area": "삿포로",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Sapporo",
+            "url": "https://en.wikivoyage.org/wiki/Sapporo#Former_Hokkaido_Prefectural_Government_Building",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sapporo-review-49d6c207d864",
+        "cityId": "sapporo",
+        "name": "홋카이도 박물관",
+        "english": "Hokkaido Museum",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "삿포로의 박물관·전시 공간. 지역·역사 자료를 살펴볼 수 있습니다.",
+        "address": "삿포로, 삿포로",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 43.053,
+        "lng": 141.496611,
+        "area": "삿포로",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Sapporo",
+            "url": "https://en.wikivoyage.org/wiki/Sapporo#Hokkaido_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sapporo-review-489e10ffdfb4",
+        "cityId": "sapporo",
+        "name": "홋카이도 대학",
+        "english": "Hokkaido University",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "삿포로의 박물관·전시 공간. 과학 전시를 살펴볼 수 있습니다.",
+        "address": "삿포로, 삿포로",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 43.074722,
+        "lng": 141.340833,
+        "area": "삿포로",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Sapporo",
+            "url": "https://en.wikivoyage.org/wiki/Sapporo#Hokkaido_University",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sapporo-review-07d102ead010",
+        "cityId": "sapporo",
+        "name": "기타이치 홀",
+        "english": "Kitaichi Hall",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 오타루의 스시을 다루는 식당.",
+        "address": "근교 · 오타루, 삿포로",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 43.192156,
+        "lng": 141.007212,
+        "area": "근교 · 오타루",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Otaru",
+            "url": "https://en.wikivoyage.org/wiki/Otaru#Kitaichi_Hall",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sapporo-review-b4b80ef307c1",
+        "cityId": "sapporo",
+        "name": "호헤이칸",
+        "english": "Hōheikan",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "삿포로의 공원·정원.",
+        "address": "삿포로, 삿포로",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 43.046274,
+        "lng": 141.352584,
+        "area": "삿포로",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Sapporo",
+            "url": "https://en.wikivoyage.org/wiki/Sapporo#H%C5%8Dheikan",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sapporo-review-0e6f6cf6cab0",
+        "cityId": "sapporo",
+        "name": "와라쿠 회전초밥",
+        "english": "Waraku Kaiten Sushi · 回転寿し 和楽",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 오타루의 스시을 다루는 식당.",
+        "address": "3-1 Sakaimachi",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 43.196339,
+        "lng": 141.005073,
+        "area": "근교 · 오타루",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Otaru",
+            "url": "https://en.wikivoyage.org/wiki/Otaru#Waraku_Kaiten_Sushi",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sapporo-review-40d1876cd6a0",
+        "cityId": "sapporo",
+        "name": "삿포로 자료관",
+        "english": "Sapporo Shiryokan",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "삿포로의 공원·정원.",
+        "address": "삿포로, 삿포로",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 43.058556,
+        "lng": 141.337417,
+        "area": "삿포로",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Sapporo",
+            "url": "https://en.wikivoyage.org/wiki/Sapporo#Sapporo_Shiryokan",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sapporo-review-a37cd42c209e",
+        "cityId": "sapporo",
+        "name": "톳피 회전초밥",
+        "english": "Toppii Sushi · とっぴー",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 오타루의 스시을 다루는 식당.",
+        "address": "근교 · 오타루, 삿포로",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 43.1958,
+        "lng": 141.0075,
+        "area": "근교 · 오타루",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Otaru",
+            "url": "https://en.wikivoyage.org/wiki/Otaru#Toppii_Sushi",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sapporo-review-0b4ac09ab673",
+        "cityId": "sapporo",
+        "name": "삿포로 후시미 이나리 신사",
+        "english": "Sapporo Fushimi Inari Shrine",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "삿포로의 신사·사당.",
+        "address": "삿포로, 삿포로",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 43.034917,
+        "lng": 141.325333,
+        "area": "삿포로",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Sapporo",
+            "url": "https://en.wikivoyage.org/wiki/Sapporo#Sapporo_Fushimi_Inari_Shrine",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sapporo-review-fdb249de0cb0",
+        "cityId": "sapporo",
+        "name": "르타오",
+        "english": "LeTAO · ルタオ",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 오타루의 식사 장소.",
+        "address": "7-16 Sakaimachi",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 43.19131,
+        "lng": 141.007433,
+        "area": "근교 · 오타루",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Otaru",
+            "url": "https://en.wikivoyage.org/wiki/Otaru#LeTAO",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sapporo-review-f90535d7eb70",
+        "cityId": "sapporo",
+        "name": "나카지마 공원",
+        "english": "Nakajima Park",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "삿포로의 공원·정원.",
+        "address": "삿포로, 삿포로",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 43.047346,
+        "lng": 141.354378,
+        "area": "삿포로",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Sapporo",
+            "url": "https://en.wikivoyage.org/wiki/Sapporo#Nakajima_Park",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sapporo-review-a4f141f2cdde",
+        "cityId": "sapporo",
+        "name": "안디아모",
+        "english": "Andiamo · アンディアモ",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 오타루의 스시을 다루는 식당.",
+        "address": "2 Chome-16-11 Inaho",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 43.196207,
+        "lng": 140.99624,
+        "area": "근교 · 오타루",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Otaru",
+            "url": "https://en.wikivoyage.org/wiki/Otaru#Andiamo",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sapporo-review-2ef35116b312",
+        "cityId": "sapporo",
+        "name": "삿포로 팩토리·옛 개척사 맥주양조장",
+        "english": "Sapporo Factory / former Kaitakushi Brewery",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "삿포로의 시장·쇼핑 공간.",
+        "address": "삿포로, 삿포로",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 43.065556,
+        "lng": 141.363333,
+        "area": "삿포로",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Sapporo",
+            "url": "https://en.wikivoyage.org/wiki/Sapporo#Sapporo_Factory_/_former_Kaitakushi_Brewery",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sapporo-review-a5dce9d028a7",
+        "cityId": "sapporo",
+        "name": "삿포로 아이누 문화교류센터",
+        "english": "Sapporo Ainu Culture Promotion Center",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "삿포로의 박물관·전시 공간. 지역·역사 자료를 살펴볼 수 있습니다.",
+        "address": "삿포로, 삿포로",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 42.968977,
+        "lng": 141.219827,
+        "area": "삿포로",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Sapporo",
+            "url": "https://en.wikivoyage.org/wiki/Sapporo#Sapporo_Ainu_Culture_Promotion_Center",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sapporo-review-4fdea41a4388",
+        "cityId": "sapporo",
+        "name": "데이네산",
+        "english": "Mt. Teine · 手稲山 Teineyama",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "삿포로의 공원·정원.",
+        "address": "삿포로, 삿포로",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 43.0767,
+        "lng": 141.19263,
+        "area": "삿포로",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Sapporo",
+            "url": "https://en.wikivoyage.org/wiki/Sapporo#Mt._Teine",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sapporo-review-4ef88b16d995",
+        "cityId": "sapporo",
+        "name": "호헤이쿄 온천",
+        "english": "Hoheikyo Onsen · 豊平峡温泉",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "삿포로의 온천·목욕 시설.",
+        "address": "〒061-2301 札幌市南区定山渓608番地2",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 42.94958,
+        "lng": 141.15597,
+        "area": "삿포로",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Sapporo",
+            "url": "https://en.wikivoyage.org/wiki/Sapporo#Hoheikyo_Onsen",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sapporo-review-273aa4dab417",
+        "cityId": "sapporo",
+        "name": "니조 시장",
+        "english": "Nijō Ichiba · 二条市場",
+        "category": "맛집",
+        "image": "/images/blog-sapporo-143.png",
+        "photoCredit": {
+          "file": "/images/blog-sapporo-143.png",
+          "author": "지오네Blog",
+          "license": "CC BY-NC-ND 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ko",
+          "sourceUrl": "https://geone.tistory.com/645",
+          "verifiedAt": "2026-10-18"
+        },
+        "description": "삿포로의 스시을 다루는 식당.",
+        "address": "South 2-3, East 1-2",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 43.058306,
+        "lng": 141.358472,
+        "area": "삿포로",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Sapporo",
+            "url": "https://en.wikivoyage.org/wiki/Sapporo#Nij%C5%8D_Ichiba",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sapporo-review-443001d97449",
+        "cityId": "sapporo",
+        "name": "아지노 도케이다이",
+        "english": "Aji No Tokeidai · 味の時計台",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "삿포로의 라멘을 다루는 식당.",
+        "address": "삿포로, 삿포로",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 43.10586,
+        "lng": 141.33326,
+        "area": "삿포로",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Sapporo",
+            "url": "https://en.wikivoyage.org/wiki/Sapporo#Aji_No_Tokeidai",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sapporo-review-f9cad5caf6dd",
+        "cityId": "sapporo",
+        "name": "라멘 요코초",
+        "english": "Ramen Yokochō · ラーメン横丁",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "삿포로의 라멘을 다루는 식당.",
+        "address": "삿포로, 삿포로",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 43.05466,
+        "lng": 141.35434,
+        "area": "삿포로",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Sapporo",
+            "url": "https://en.wikivoyage.org/wiki/Sapporo#Ramen_Yokoch%C5%8D",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sapporo-review-ee17f72fe9f7",
+        "cityId": "sapporo",
+        "name": "삿포로 비어가든",
+        "english": "Sapporo Beer Garden",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "삿포로의 식사 장소.",
+        "address": "삿포로, 삿포로",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 43.07133,
+        "lng": 141.36907,
+        "area": "삿포로",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Sapporo",
+            "url": "https://en.wikivoyage.org/wiki/Sapporo#Sapporo_Beer_Garden",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sapporo-review-d520ea1187c6",
+        "cityId": "sapporo",
+        "name": "로만테이",
+        "english": "Romantei",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "삿포로의 식사 장소.",
+        "address": "삿포로, 삿포로",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 43.01647,
+        "lng": 141.36822,
+        "area": "삿포로",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Sapporo",
+            "url": "https://en.wikivoyage.org/wiki/Sapporo#Romantei",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sapporo-review-d1d7adc8d47d",
+        "cityId": "sapporo",
+        "name": "카페 피톤",
+        "english": "Cafe Phyton",
+        "category": "카페",
+        "image": "/images/place-placeholder.svg",
+        "description": "삿포로의 커피·음료를 즐길 수 있는 카페.",
+        "address": "South 2 East 1",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 43.058747,
+        "lng": 141.358498,
+        "area": "삿포로",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Sapporo",
+            "url": "https://en.wikivoyage.org/wiki/Sapporo#Cafe_Phyton",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sapporo-review-46abc96cbad5",
+        "cityId": "sapporo",
+        "name": "수프카레 가라쿠",
+        "english": "Soup Curry Garaku",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "삿포로의 수프 카레을 다루는 식당.",
+        "address": "Chuo, Minami 2 Jonishi, 2 Chome−６−1 B1F",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 43.0581,
+        "lng": 141.355,
+        "area": "삿포로",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Sapporo",
+            "url": "https://en.wikivoyage.org/wiki/Sapporo#Soup_Curry_Garaku",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sapporo-review-989bc7a33942",
+        "cityId": "sapporo",
+        "name": "야키니쿠 다이닝 메구미 미나미하치조점",
+        "english": "Yakiniku Dining MEGUMI Minamihachijoten",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "삿포로 미나미8조 지역의 야키니쿠 식당. 여행자 가이드에서 이름·주소·좌표를 확인했으며 방문 평점은 제공하지 않습니다.",
+        "address": "3-7-40, Minami 8 Jo Nishi, Chuo-ku",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 43.051128,
+        "lng": 141.354636,
+        "area": "삿포로",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Sapporo",
+            "url": "https://en.wikivoyage.org/wiki/Sapporo#Yakiniku_Dining_MEGUMI_Minamihachijoten",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sapporo-review-e7daa65c61f2",
+        "cityId": "sapporo",
+        "name": "폴스 카페",
+        "english": "Paul's Cafe",
+        "category": "카페",
+        "image": "/images/place-placeholder.svg",
+        "description": "삿포로의 커피·음료를 즐길 수 있는 카페.",
+        "address": "North 5 West 5",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 43.06682,
+        "lng": 141.34828,
+        "area": "삿포로",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Sapporo",
+            "url": "https://en.wikivoyage.org/wiki/Sapporo#Paul%27s_Cafe",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sapporo-balance-3e09b14c9c",
+        "cityId": "sapporo",
+        "name": "재즈 스폿 제리코",
+        "english": "Jazz Spot Jericho · ジェリコ",
+        "category": "바·공연",
+        "image": "/images/place-placeholder.svg",
+        "description": "스스키노 주변의 작은 라이브 재즈 바입니다.",
+        "address": "Minami 3 Jonishi, 3 Chome−1",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "공연 일정·입장 연령·드레스 코드·입장료와 최소 주문 조건을 방문 전 확인하세요.",
+        "area": "삿포로",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Sapporo",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Sapporo&oldid=5386813",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "sapporo-balance-bd4d171eba",
+        "cityId": "sapporo",
+        "name": "호텔 마이스테이스 삿포로 나카지마 파크",
+        "english": "HOTEL MSTAYS Sapporo Nakajima Park · ホテルマイステイズ札幌中島公園",
+        "category": "숙소",
+        "image": "/images/place-placeholder.svg",
+        "description": "나카지마 공원 주변을 거점으로 삼을 수 있는 호텔입니다.",
+        "address": "1 Chome-1-20 Minami 14 Jonishi, Chuo Ward",
+        "duration": "숙박 일정에 맞춰 지정",
+        "cost": "숙박일·객실·공식 안내에서 확인",
+        "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+        "lat": 43.042562,
+        "lng": 141.356858,
+        "area": "삿포로",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Sapporo",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Sapporo&oldid=5386813",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "sapporo-balance-7ef249728a",
+        "cityId": "sapporo",
+        "name": "삿포로 그랜드 호텔",
+        "english": "Sapporo Grand Hotel",
+        "category": "숙소",
+        "image": "/images/place-placeholder.svg",
+        "description": "삿포로 도심의 역사 있는 호텔 숙박 후보입니다.",
+        "address": "North 1, West 4, Chuo-ku",
+        "duration": "숙박 일정에 맞춰 지정",
+        "cost": "숙박일·객실·공식 안내에서 확인",
+        "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+        "lat": 43.06268,
+        "lng": 141.35095,
+        "area": "삿포로",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Sapporo",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Sapporo&oldid=5386813",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "sapporo-balance-tanukikoji",
+        "cityId": "sapporo",
+        "name": "다누키코지 상점가",
+        "english": "Tanuki Koji Shopping Arcade",
+        "category": "쇼핑",
+        "image": "/images/place-placeholder.svg",
+        "description": "도심에서 기념품과 여러 상점을 둘러볼 수 있는 지붕 있는 상점가입니다.",
+        "address": "삿포로 도심 다누키코지",
+        "duration": "직접 체류시간 지정",
+        "cost": "구입 품목에 따라 다름",
+        "tip": "품목과 매장별 운영시간을 확인하고 구입할 물건을 정해 둘러보세요.",
+        "area": "도심",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Sapporo 쇼핑",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Sapporo&oldid=5386813",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "Buy 본문에서 상점가 이름과 기념품 쇼핑 안내를 확인했습니다. 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "id": "sapporo-overview",
+        "title": "도시 소개",
+        "body": "도심·오타루·온천 중 하루의 중심을 하나씩 정하세요. 겨울에는 이동과 보행에 여유를 더 두는 편이 좋습니다."
+      },
+      {
+        "id": "sapporo-before",
+        "title": "출발 전 준비",
+        "body": "겨울 행사·인기 식당은 날짜 확정 후 예약 여부를 확인하세요.\n\n야경 장소는 당일 시야와 마지막 귀환 교통을 확인하세요."
+      },
+      {
+        "id": "sapporo-arrival",
+        "title": "공항과 시내 이동",
+        "body": "신치토세공항: 공항 철도와 버스를 숙소 위치·도착 시간에 맞춰 비교하세요.\n\n눈 오는 날: 철도·버스 운행과 노면 상태를 확인하고, 전망대·산 방문은 날씨에 맞춰 순서를 바꾸세요."
+      },
+      {
+        "id": "sapporo-stay",
+        "title": "숙소 지역 선택",
+        "body": "삿포로역: 공항과 오타루 등 철도 이동을 자주 할 때 비교하세요.\n\n오도리·스스키노: 도심 산책과 저녁 식사를 중심으로 비교하세요. 밤 소음도 함께 확인하세요."
+      },
+      {
+        "id": "sapporo-plan",
+        "title": "일정 계획",
+        "body": "하루: 오도리 주변의 도심에 집중하세요.\n\n2–3일: 도심 하루·오타루 하루를 먼저 나누고 온천·전망대는 여유에 맞춰 고르세요."
+      },
+      {
+        "id": "sapporo-notes",
+        "title": "현장 팁",
+        "body": "오타루와 조잔케이를 짧은 하루에 모두 넣지 마세요.\n\n겨울 도보 시간은 지도상의 평상시 소요보다 길어질 수 있습니다."
+      },
+      {
+        "id": "sapporo-rain",
+        "title": "비 오는 날",
+        "body": "삿포로 맥주박물관·홋카이도립 근대미술관 등 실내 관람을 후보로 두세요."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Japan-guide · 삿포로",
+        "url": "https://www.japan-guide.com/e/e2163.html",
+        "accessedAt": "2026-10-15"
+      }
+    ],
+    "status": "published",
+    "requestId": null,
+    "createdAt": "2026-10-15T00:00:00.000Z",
+    "updatedAt": "2026-10-15T00:00:00.000Z",
+    "publishedAt": "2026-10-15T00:00:00.000Z"
+  },
+  "practicalGuide": {
+    "cityId": "sapporo",
+    "firstVisit": "도심·오타루·온천 중 하루의 중심을 하나씩 정하세요. 겨울에는 이동과 보행에 여유를 더 두는 편이 좋습니다.",
+    "bases": [
+      {
+        "name": "삿포로역",
+        "advice": "공항과 오타루 등 철도 이동을 자주 할 때 비교하세요."
+      },
+      {
+        "name": "오도리·스스키노",
+        "advice": "도심 산책과 저녁 식사를 중심으로 비교하세요. 밤 소음도 함께 확인하세요."
+      }
+    ],
+    "arrival": [
+      {
+        "name": "신치토세공항",
+        "advice": "공항 철도와 버스를 숙소 위치·도착 시간에 맞춰 비교하세요."
+      },
+      {
+        "name": "눈 오는 날",
+        "advice": "철도·버스 운행과 노면 상태를 확인하고, 전망대·산 방문은 날씨에 맞춰 순서를 바꾸세요."
+      }
+    ],
+    "timePlan": [
+      {
+        "name": "하루",
+        "advice": "오도리 주변의 도심에 집중하세요."
+      },
+      {
+        "name": "2–3일",
+        "advice": "도심 하루·오타루 하루를 먼저 나누고 온천·전망대는 여유에 맞춰 고르세요."
+      }
+    ],
+    "before": [
+      "겨울 행사·인기 식당은 날짜 확정 후 예약 여부를 확인하세요.",
+      "야경 장소는 당일 시야와 마지막 귀환 교통을 확인하세요."
+    ],
+    "pitfalls": [
+      "오타루와 조잔케이를 짧은 하루에 모두 넣지 마세요.",
+      "겨울 도보 시간은 지도상의 평상시 소요보다 길어질 수 있습니다."
+    ],
+    "rainPlan": "삿포로 맥주박물관·홋카이도립 근대미술관 등 실내 관람을 후보로 두세요.",
+    "courses": [
+      {
+        "id": "sapporo-course-1",
+        "title": "오도리 도심 산책",
+        "pace": "반나절 · 도보",
+        "why": "서로 가까운 도심 표식을 잇는 가벼운 코스입니다.",
+        "placeIds": [
+          "sapporo-odori",
+          "sapporo-clock",
+          "sapporo-tv-tower"
+        ]
+      },
+      {
+        "id": "sapporo-course-2",
+        "title": "근교 · 오타루",
+        "pace": "하루 · 철도 이동 후 도보",
+        "why": "삿포로 도심과 다른 날짜로 분리해 여유 있게 다녀오는 제안입니다.",
+        "placeIds": [
+          "sapporo-review-56228a68e4e4",
+          "sapporo-review-0eab69e8ee77",
+          "sapporo-review-597158274130"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "Japan-guide · 삿포로",
+        "url": "https://www.japan-guide.com/e/e2163.html",
+        "checkedAt": "2026-10-15",
+        "status": "read"
+      }
+    ],
+    "researchNote": "여행 안내 본문을 읽고 지역별 계획을 편집했습니다. 코스는 직접 작성한 제안이며 이동시간·예약 가능 여부를 실시간 계산한 결과가 아닙니다."
+  },
+  "plans": {
+    "cityId": "sapporo",
+    "days": [
+      {
+        "id": "sapporo-day-1",
+        "title": "오도리 도심 산책",
+        "pace": "반나절 · 도보",
+        "why": "서로 가까운 도심 표식을 잇는 가벼운 코스입니다.",
+        "placeIds": [
+          "sapporo-odori",
+          "sapporo-clock",
+          "sapporo-tv-tower"
+        ]
+      },
+      {
+        "id": "sapporo-day-2",
+        "title": "근교 · 오타루",
+        "pace": "하루 · 철도 이동 후 도보",
+        "why": "삿포로 도심과 다른 날짜로 분리해 여유 있게 다녀오는 제안입니다.",
+        "placeIds": [
+          "sapporo-review-56228a68e4e4",
+          "sapporo-review-0eab69e8ee77",
+          "sapporo-review-597158274130"
+        ]
+      },
+      {
+        "id": "sapporo-day-3",
+        "title": "마루야마 신궁과 모이와산",
+        "pace": "철도·버스",
+        "why": "서쪽 구역을 중심으로 둘러보고 모이와산은 날씨를 보고 결정합니다.",
+        "placeIds": [
+          "sapporo-review-dc3887920113",
+          "sapporo-review-1fab36e53e0d",
+          "sapporo-review-abc4bcc667b3"
+        ]
+      },
+      {
+        "id": "sapporo-day-4",
+        "title": "홋카이도의 역사와 맥주",
+        "pace": "철도·버스",
+        "why": "개척촌에 반나절을 두고 시내로 돌아와 맥주박물관을 방문합니다.",
+        "placeIds": [
+          "sapporo-review-7b09b6096cc5",
+          "sapporo-review-7655df2da794",
+          "sapporo-review-ee17f72fe9f7"
+        ]
+      },
+      {
+        "id": "sapporo-day-5",
+        "title": "도심 시장과 대학 산책",
+        "pace": "철도·도보",
+        "why": "도심에서 식사·쇼핑·산책을 여유 있게 합니다. 공항 이동이 있으면 뒤쪽 장소를 줄입니다.",
+        "placeIds": [
+          "sapporo-review-273aa4dab417",
+          "sapporo-review-489e10ffdfb4",
+          "sapporo-review-e1f33a5c223d"
+        ]
+      }
+    ]
+  }
+}

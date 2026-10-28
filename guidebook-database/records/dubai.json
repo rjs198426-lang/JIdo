@@ -1,0 +1,1871 @@
+{
+  "guide": {
+    "id": "dubai",
+    "scope": "city",
+    "city": {
+      "id": "dubai",
+      "name": "두바이",
+      "english": "DUBAI",
+      "country": "아랍에미리트",
+      "region": "중동",
+      "image": "/images/place-burj.jpg",
+      "photoCredit": {
+        "file": "/images/place-burj.jpg",
+        "author": "imran shahabuddin",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Burj_Khalifa_(worlds_tallest_building)_and_the_Dubai_skyline_(25781049892).jpg",
+        "verifiedAt": "2026-10-14"
+      },
+      "tagline": "도시의 반짝임과 사막의 고요함",
+      "description": "하늘을 향한 스카이라인과 끝없이 펼쳐지는 사막. 서로 다른 두 풍경 사이에서 특별한 순간을 발견하세요.",
+      "tags": [
+        "도시 여행",
+        "사막"
+      ],
+      "flight": "약 10시간",
+      "currency": "UAE 디르함 · AED",
+      "timeDifference": "한국보다 5시간 느림",
+      "season": "11–3월",
+      "accent": "#f0e0d0"
+    },
+    "places": [
+      {
+        "id": "burj",
+        "cityId": "dubai",
+        "name": "부르즈 할리파",
+        "english": "Burj Khalifa · Khalifa Tower",
+        "category": "관광",
+        "image": "/images/place-burj.jpg",
+        "photoCredit": {
+          "file": "/images/place-burj.jpg",
+          "author": "imran shahabuddin",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Burj_Khalifa_(worlds_tallest_building)_and_the_Dubai_skyline_(25781049892).jpg",
+          "verifiedAt": "2026-10-14"
+        },
+        "description": "주메이라의 시장·쇼핑 공간.",
+        "address": "주메이라, 두바이",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 25.197222,
+        "lng": 55.274167,
+        "area": "주메이라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Dubai/Jumeirah",
+            "url": "https://en.wikivoyage.org/wiki/Dubai/Jumeirah#Burj_Khalifa",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "al-fahidi",
+        "cityId": "dubai",
+        "name": "알 파히디 역사 지구",
+        "english": "Al Fahidi Historical Neighbourhood · Bastakiya District",
+        "category": "관광",
+        "image": "/images/place-al-fahidi.jpg",
+        "photoCredit": {
+          "file": "/images/place-al-fahidi.jpg",
+          "author": "Delta.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Al_Fahidi_Historical_Neighbourhood,_Dubai.jpg",
+          "verifiedAt": "2026-10-14"
+        },
+        "description": "부르 두바이의 박물관·전시 공간. 지역·역사 자료를 살펴볼 수 있습니다.",
+        "address": "Al Fahidi (19th) St crossing ManKhool Rd, north-east of Al Souk Al Kabeer community",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 25.264,
+        "lng": 55.3,
+        "area": "부르 두바이",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Dubai/Bur Dubai",
+            "url": "https://en.wikivoyage.org/wiki/Dubai/Bur_Dubai#Al_Fahidi_Historical_Neighbourhood",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "dubai-souk",
+        "cityId": "dubai",
+        "name": "두바이 스파이스 수크",
+        "english": "Spice Souk",
+        "category": "관광",
+        "image": "/images/place-dubai-souk.jpg",
+        "photoCredit": {
+          "file": "/images/place-dubai-souk.jpg",
+          "author": "Frodlekis",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dubai_Spice_Souk_2018.jpg",
+          "verifiedAt": "2026-10-14"
+        },
+        "description": "데이라의 시장·쇼핑 공간.",
+        "address": "34 St, Al Ras community",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 25.26737,
+        "lng": 55.29707,
+        "area": "데이라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Dubai/Deira",
+            "url": "https://en.wikivoyage.org/wiki/Dubai/Deira#Spice_Souk",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "dubai-review-1ee5e0dc69a7",
+        "cityId": "dubai",
+        "name": "두바이 프레임",
+        "english": "Dubai Frame",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "부르 두바이의 박물관·전시 공간.",
+        "address": "Zabeel Park Jogging Track",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 25.23553,
+        "lng": 55.30032,
+        "area": "부르 두바이",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Dubai/Bur Dubai",
+            "url": "https://en.wikivoyage.org/wiki/Dubai/Bur_Dubai#Dubai_Frame",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "dubai-review-92cdaffb7054",
+        "cityId": "dubai",
+        "name": "두바이 마리나",
+        "english": "Dubai Marina",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "주메이라의 섬·바다 풍경.",
+        "address": "주메이라, 두바이",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 25.08135,
+        "lng": 55.144075,
+        "area": "주메이라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Dubai/Jumeirah",
+            "url": "https://en.wikivoyage.org/wiki/Dubai/Jumeirah#Dubai_Marina",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "dubai-review-24ce1836f50d",
+        "cityId": "dubai",
+        "name": "미래박물관",
+        "english": "Museum of the Future",
+        "category": "관광",
+        "image": "/images/commons-069-dubai-review-24ce1836f50d.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-dubai-review-24ce1836f50d.jpg",
+          "author": "Александр Сигачёв",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Museum_of_the_Future_(58918).jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "주메이라의 박물관·전시 공간.",
+        "address": "Emirates Towers, Sheikh Zayed Rd, Trade Center 2 community",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 25.21912,
+        "lng": 55.2821,
+        "area": "주메이라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Dubai/Jumeirah",
+            "url": "https://en.wikivoyage.org/wiki/Dubai/Jumeirah#Museum_of_the_Future",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "dubai-review-2da0fd74470a",
+        "cityId": "dubai",
+        "name": "두바이 아쿠아리움",
+        "english": "Dubai Aquarium and Underwater Zoo",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "주메이라의 수족관.",
+        "address": "Dubai Mall, Doha St, Sheikh Zayed Rd",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 25.1977,
+        "lng": 55.2788,
+        "area": "주메이라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Dubai/Jumeirah",
+            "url": "https://en.wikivoyage.org/wiki/Dubai/Jumeirah#Dubai_Aquarium_and_Underwater_Zoo",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "dubai-review-b1f0843a3e06",
+        "cityId": "dubai",
+        "name": "에티하드 박물관",
+        "english": "Etihad Museum · Union House",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "주메이라의 박물관·전시 공간.",
+        "address": "2nd December Rd crossing Jumeirah Rd, Jumeirah 1 community",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 25.241433,
+        "lng": 55.269331,
+        "area": "주메이라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Dubai/Jumeirah",
+            "url": "https://en.wikivoyage.org/wiki/Dubai/Jumeirah#Etihad_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "dubai-review-2d9db81044cf",
+        "cityId": "dubai",
+        "name": "두바이 몰",
+        "english": "The Dubai Mall",
+        "category": "쇼핑",
+        "image": "/images/dubai-review-2d9db81044cf.jpg",
+        "photoCredit": {
+          "file": "/images/dubai-review-2d9db81044cf.jpg",
+          "author": "Rohitshiv",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Waterfall%20%40Dubai%20Mall.jpg",
+          "verifiedAt": "2026-10-15"
+        },
+        "description": "주메이라의 수족관.",
+        "address": "Sheikh Zayed Rd, Downtown Burj-Khalifa",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 25.19714,
+        "lng": 55.28193,
+        "area": "주메이라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Dubai/Jumeirah",
+            "url": "https://en.wikivoyage.org/wiki/Dubai/Jumeirah#The_Dubai_Mall",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "dubai-review-0f764fd7eb6c",
+        "cityId": "dubai",
+        "name": "골드 수크",
+        "english": "Gold Souk",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "데이라의 시장·쇼핑 공간.",
+        "address": "106 Sikkat Al Khail Rd, Al Ras community",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 25.2701,
+        "lng": 55.29816,
+        "area": "데이라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Dubai/Deira",
+            "url": "https://en.wikivoyage.org/wiki/Dubai/Deira#Gold_Souk",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "dubai-review-e3e7329faca7",
+        "cityId": "dubai",
+        "name": "글로벌 빌리지",
+        "english": "Global Village",
+        "category": "관광",
+        "image": "/images/commons-069-dubai-review-e3e7329faca7.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-dubai-review-e3e7329faca7.jpg",
+          "author": "Philosographer",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Global_Village_1.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "두바이의 사찰.",
+        "address": "Exit #37 on Sh Mohammed Bin Zayed Rd",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 25.06632,
+        "lng": 55.30342,
+        "area": "두바이",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Dubai/Suburbs and Hatta",
+            "url": "https://en.wikivoyage.org/wiki/Dubai/Suburbs_and_Hatta#Global_Village",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "dubai-review-7838c0204418",
+        "cityId": "dubai",
+        "name": "두바이 사파리 파크",
+        "english": "Dubai Safari Park",
+        "category": "관광",
+        "image": "/images/commons-069-dubai-review-7838c0204418.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-dubai-review-7838c0204418.jpg",
+          "author": "Engr.IkramAbbas",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dubai_Safari_Main_Enterence.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "두바이의 공원·정원.",
+        "address": "Al Warqa 5",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 25.177509,
+        "lng": 55.450114,
+        "area": "두바이",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Dubai/Suburbs and Hatta",
+            "url": "https://en.wikivoyage.org/wiki/Dubai/Suburbs_and_Hatta#Dubai_Safari_Park",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "dubai-review-b63c20009655",
+        "cityId": "dubai",
+        "name": "두바이 미라클 가든",
+        "english": "Dubai Miracle Garden",
+        "category": "관광",
+        "image": "/images/commons-069-dubai-review-b63c20009655.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-dubai-review-b63c20009655.jpg",
+          "author": "Arwenmajer",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dubai_Miracle_Garden_Emirates_airplane.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "주메이라의 공원·정원.",
+        "address": "주메이라, 두바이",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 25.05981,
+        "lng": 55.24454,
+        "area": "주메이라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Dubai/Jumeirah",
+            "url": "https://en.wikivoyage.org/wiki/Dubai/Jumeirah#Dubai_Miracle_Garden",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "dubai-review-cd947889b1f5",
+        "cityId": "dubai",
+        "name": "수크 마디나트 주메이라",
+        "english": "Souk Madinat Jumeirah",
+        "category": "관광",
+        "image": "/images/commons-069-dubai-review-cd947889b1f5.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-dubai-review-cd947889b1f5.jpg",
+          "author": "Renek78",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dubai_in_January_2025_12.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "주메이라의 시장·쇼핑 공간.",
+        "address": "Jumeirah Rd, Al Sufouh 1 community",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 25.1333,
+        "lng": 55.186076,
+        "area": "주메이라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Dubai/Jumeirah",
+            "url": "https://en.wikivoyage.org/wiki/Dubai/Jumeirah#Souk_Madinat_Jumeirah",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "dubai-review-117e360d3def",
+        "cityId": "dubai",
+        "name": "무슈리프 공원",
+        "english": "Mushrif Park",
+        "category": "관광",
+        "image": "/images/commons-069-dubai-review-117e360d3def.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-dubai-review-117e360d3def.jpg",
+          "author": "Tashmetova808",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mushrif_park,_Dubai_city,_UAE.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "두바이의 공원·정원.",
+        "address": "두바이, 두바이",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 25.21713,
+        "lng": 55.45109,
+        "area": "두바이",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Dubai/Suburbs and Hatta",
+            "url": "https://en.wikivoyage.org/wiki/Dubai/Suburbs_and_Hatta#Mushrif_Park",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "dubai-review-dc533b69e3d0",
+        "cityId": "dubai",
+        "name": "아쿠아벤처 워터파크",
+        "english": "Aquaventure Waterpark",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "주메이라의 워터파크.",
+        "address": "Atlantis, Cresent Rd East, Palm Jumeirah",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 25.135,
+        "lng": 55.122,
+        "area": "주메이라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Dubai/Jumeirah",
+            "url": "https://en.wikivoyage.org/wiki/Dubai/Jumeirah#Aquaventure_Waterpark",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "dubai-review-ca675a267f90",
+        "cityId": "dubai",
+        "name": "스키 두바이",
+        "english": "Ski Dubai",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "주메이라의 시장·쇼핑 공간.",
+        "address": "Mall of Emirates, Sheikh Zayed Rd crossing Umm Suqueim Rd, Al Barsha 1",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 25.117222,
+        "lng": 55.198333,
+        "area": "주메이라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Dubai/Jumeirah",
+            "url": "https://en.wikivoyage.org/wiki/Dubai/Jumeirah#Ski_Dubai",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "dubai-review-4aa19d63d873",
+        "cityId": "dubai",
+        "name": "더 뷰 앳 더 팜",
+        "english": "The View at The Palm",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "주메이라의 전망 장소.",
+        "address": "주메이라, 두바이",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 25.11397,
+        "lng": 55.13982,
+        "area": "주메이라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Dubai/Jumeirah",
+            "url": "https://en.wikivoyage.org/wiki/Dubai/Jumeirah#The_View_at_The_Palm",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "dubai-review-bec0ec0d798f",
+        "cityId": "dubai",
+        "name": "알 아흐마디야 학교·헤리티지 하우스",
+        "english": "Al Ahmadiya School and Heritage House",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "데이라의 둘러볼 수 있는 장소.",
+        "address": "Al Ahmadiya St, Al Ras",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 25.268433,
+        "lng": 55.294919,
+        "area": "데이라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Dubai/Deira",
+            "url": "https://en.wikivoyage.org/wiki/Dubai/Deira#Al_Ahmadiya_School_and_Heritage_House",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "dubai-review-a9da29670cc5",
+        "cityId": "dubai",
+        "name": "크리크 공원",
+        "english": "Creek Park",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "부르 두바이의 공원·정원.",
+        "address": "Al Riyadh St, Umm Hurair 2",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 25.2408,
+        "lng": 55.3259,
+        "area": "부르 두바이",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Dubai/Bur Dubai",
+            "url": "https://en.wikivoyage.org/wiki/Dubai/Bur_Dubai#Creek_Park",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "dubai-review-d1c4b7f3e011",
+        "cityId": "dubai",
+        "name": "데이라 시계탑",
+        "english": "Deira Clocktower · Dubai Clocktower",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "데이라의 기념물·역사 장소.",
+        "address": "Abu Baker Al Siddiqe Rd 110 crossing Al Maktoum Rd 105",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 25.258659,
+        "lng": 55.326443,
+        "area": "데이라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Dubai/Deira",
+            "url": "https://en.wikivoyage.org/wiki/Dubai/Deira#Deira_Clocktower",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "dubai-review-eae27c8b9c6c",
+        "cityId": "dubai",
+        "name": "두바이 돌피나리움",
+        "english": "Dubai Dolphinarium",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "부르 두바이의 둘러볼 수 있는 장소.",
+        "address": "Creek Park gate 1",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 25.234654,
+        "lng": 55.326764,
+        "area": "부르 두바이",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Dubai/Bur Dubai",
+            "url": "https://en.wikivoyage.org/wiki/Dubai/Bur_Dubai#Dubai_Dolphinarium",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "dubai-review-9b889b60dd32",
+        "cityId": "dubai",
+        "name": "이매진 분수쇼",
+        "english": "Imagine",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "두바이의 둘러볼 수 있는 장소.",
+        "address": "Festival Bay, Dubai Festival City, Festival Blvd",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 25.221,
+        "lng": 55.35,
+        "area": "두바이",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Dubai/Suburbs and Hatta",
+            "url": "https://en.wikivoyage.org/wiki/Dubai/Suburbs_and_Hatta#Imagine",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "dubai-review-5558a25e09cb",
+        "cityId": "dubai",
+        "name": "다우 선착장",
+        "english": "Dhow Wharfage",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "데이라의 수변·항구 산책 장소.",
+        "address": "Baniyas Rd, Rigga Al Buteen community 125",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 25.2566,
+        "lng": 55.3182,
+        "area": "데이라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Dubai/Deira",
+            "url": "https://en.wikivoyage.org/wiki/Dubai/Deira#Dhow_Wharfage",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "dubai-review-9766209cd2ca",
+        "cityId": "dubai",
+        "name": "그랜드 모스크",
+        "english": "Grand Mosque",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "부르 두바이의 사찰.",
+        "address": "Ali bin Ali Taleb (11C) St, Al Souk Al Kabeer community",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 25.26439,
+        "lng": 55.29694,
+        "area": "부르 두바이",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Dubai/Bur Dubai",
+            "url": "https://en.wikivoyage.org/wiki/Dubai/Bur_Dubai#Grand_Mosque",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "dubai-review-ab9e154ce8f6",
+        "cityId": "dubai",
+        "name": "두바이 파크 앤 리조트",
+        "english": "Dubai Parks & Resorts",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "제벨 알리의 공원·정원.",
+        "address": "제벨 알리, 두바이",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 24.920758,
+        "lng": 55.010391,
+        "area": "제벨 알리",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Dubai/Jebel Ali",
+            "url": "https://en.wikivoyage.org/wiki/Dubai/Jebel_Ali#Dubai_Parks_%26_Resorts",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "dubai-review-e4c84589be4e",
+        "cityId": "dubai",
+        "name": "알 맘자르 공원",
+        "english": "Mamzar Park",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "데이라의 해변.",
+        "address": "104 Al Khaleej Rd, Al Mamzar community",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 25.32,
+        "lng": 55.35,
+        "area": "데이라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Dubai/Deira",
+            "url": "https://en.wikivoyage.org/wiki/Dubai/Deira#Mamzar_Park",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "dubai-review-db68e77d201d",
+        "cityId": "dubai",
+        "name": "헤리티지 빌리지",
+        "english": "Heritage Village",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "부르 두바이의 박물관·전시 공간.",
+        "address": "Shindagha District,",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 25.268,
+        "lng": 55.29,
+        "area": "부르 두바이",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Dubai/Bur Dubai",
+            "url": "https://en.wikivoyage.org/wiki/Dubai/Bur_Dubai#Heritage_Village",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "dubai-review-6bc5c5875878",
+        "cityId": "dubai",
+        "name": "두바이 시립박물관",
+        "english": "Dubai Municipality Museum",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "데이라의 박물관·전시 공간.",
+        "address": "Old Baladiya St crossing Al Souk Al Kabeer St, Al Buteen community",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 25.2679,
+        "lng": 55.2978,
+        "area": "데이라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Dubai/Deira",
+            "url": "https://en.wikivoyage.org/wiki/Dubai/Deira#Dubai_Municipality_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "dubai-review-c7f932de072d",
+        "cityId": "dubai",
+        "name": "이란 모스크",
+        "english": "Iranian mosque",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "부르 두바이의 모스크·종교 건축물.",
+        "address": "Ali bin Abi Taleb (11C) St, Al Souk Al Kabeer community",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 25.264,
+        "lng": 55.2946,
+        "area": "부르 두바이",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Dubai/Bur Dubai",
+            "url": "https://en.wikivoyage.org/wiki/Dubai/Bur_Dubai#Iranian_mosque",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "dubai-review-203e291fcce3",
+        "cityId": "dubai",
+        "name": "여성박물관",
+        "english": "Women's Museum",
+        "category": "관광",
+        "image": "/images/dubai-review-203e291fcce3.jpg",
+        "photoCredit": {
+          "file": "/images/dubai-review-203e291fcce3.jpg",
+          "author": "Lxs",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Entrance%20to%20Women%E2%80%99s%20Museum%20of%20Duba%C3%AF.jpg",
+          "verifiedAt": "2026-10-15"
+        },
+        "description": "데이라의 박물관·전시 공간.",
+        "address": "28 St, Al Dhagaya community, P.O. Box 1086",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 25.2718,
+        "lng": 55.2987,
+        "area": "데이라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Dubai/Deira",
+            "url": "https://en.wikivoyage.org/wiki/Dubai/Deira#Women%27s_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "dubai-review-7ba47279287f",
+        "cityId": "dubai",
+        "name": "셰이크 오바이드 빈 타니의 집",
+        "english": "Sheikh Obaid bin Thani House",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "부르 두바이의 박물관·전시 공간.",
+        "address": "부르 두바이, 두바이",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 25.2686,
+        "lng": 55.29076,
+        "area": "부르 두바이",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Dubai/Bur Dubai",
+            "url": "https://en.wikivoyage.org/wiki/Dubai/Bur_Dubai#Sheikh_Obaid_bin_Thani_House",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "dubai-review-208fc928205d",
+        "cityId": "dubai",
+        "name": "사이드 알 막툼의 집",
+        "english": "Saeed Al Maktoum House",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "부르 두바이의 박물관·전시 공간.",
+        "address": "along the Dubai Creek in Al Shindagha",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 25.26818,
+        "lng": 55.29036,
+        "area": "부르 두바이",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Dubai/Bur Dubai",
+            "url": "https://en.wikivoyage.org/wiki/Dubai/Bur_Dubai#Saeed_Al_Maktoum_House",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "dubai-review-7122c28fac79",
+        "cityId": "dubai",
+        "name": "두바이 오토드롬",
+        "english": "Dubai Autodrome",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "두바이의 수변·항구 산책 장소.",
+        "address": "On E-311, Dubailand",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 25.05008,
+        "lng": 55.24001,
+        "area": "두바이",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Dubai/Suburbs and Hatta",
+            "url": "https://en.wikivoyage.org/wiki/Dubai/Suburbs_and_Hatta#Dubai_Autodrome",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "dubai-review-7efbb1f4ba86",
+        "cityId": "dubai",
+        "name": "문명의 교차로 박물관",
+        "english": "Crossroad of Civilization Museum",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "부르 두바이의 박물관·전시 공간.",
+        "address": "Sheikh Hasher bin Maktoum Al Maktoum Home, Al Mina Rd, Shindagha Heritage area, POBox 46298",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 25.2675,
+        "lng": 55.2889,
+        "area": "부르 두바이",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Dubai/Bur Dubai",
+            "url": "https://en.wikivoyage.org/wiki/Dubai/Bur_Dubai#Crossroad_of_Civilization_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "dubai-review-9818738a4c7e",
+        "cityId": "dubai",
+        "name": "두바이 스포츠 시티",
+        "english": "Dubai Sports City (DSC)",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "두바이의 수변·항구 산책 장소.",
+        "address": "두바이, 두바이",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 25.041889,
+        "lng": 55.219585,
+        "area": "두바이",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Dubai/Suburbs and Hatta",
+            "url": "https://en.wikivoyage.org/wiki/Dubai/Suburbs_and_Hatta#Dubai_Sports_City_%28DSC%29",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "dubai-review-adf17002f079",
+        "cityId": "dubai",
+        "name": "옛 무기 박물관",
+        "english": "Old Weapons Museum",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "부르 두바이의 박물관·전시 공간.",
+        "address": "부르 두바이, 두바이",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 25.2672,
+        "lng": 55.2893,
+        "area": "부르 두바이",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Dubai/Bur Dubai",
+            "url": "https://en.wikivoyage.org/wiki/Dubai/Bur_Dubai#Old_Weapons_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "dubai-review-84fc4dc7d077",
+        "cityId": "dubai",
+        "name": "제벨 알리 사격클럽",
+        "english": "Jebel Ali Shooting Club",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "제벨 알리의 수변·항구 산책 장소.",
+        "address": "제벨 알리, 두바이",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 24.961111,
+        "lng": 55.034237,
+        "area": "제벨 알리",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Dubai/Jebel Ali",
+            "url": "https://en.wikivoyage.org/wiki/Dubai/Jebel_Ali#Jebel_Ali_Shooting_Club",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "dubai-review-17c8ce00a3f4",
+        "cityId": "dubai",
+        "name": "자빌 공원",
+        "english": "Zabeel Park",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "부르 두바이의 공원·정원.",
+        "address": "Sheik Khalifa Bin Zayed St and Sheik Rashid Rd, Al Kefaf community",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 25.2355,
+        "lng": 55.2977,
+        "area": "부르 두바이",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Dubai/Bur Dubai",
+            "url": "https://en.wikivoyage.org/wiki/Dubai/Bur_Dubai#Zabeel_Park",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "dubai-review-24fbc130f5ca",
+        "cityId": "dubai",
+        "name": "부르즈 알 아랍",
+        "english": "Burj al-Arab · Tower of the Arabs",
+        "category": "숙소",
+        "image": "/images/place-placeholder.svg",
+        "description": "주메이라의 호텔·리조트. 사유 시설로 숙박 또는 별도 예약 조건에 따라 이용합니다.",
+        "address": "주메이라, 두바이",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "숙박객·예약자 이용 조건과 이동 수단을 먼저 확인하세요.",
+        "lat": 25.14145,
+        "lng": 55.18547,
+        "area": "주메이라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Dubai/Jumeirah",
+            "url": "https://en.wikivoyage.org/wiki/Dubai/Jumeirah#Burj_al-Arab",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "dubai-review-865ee0a091b0",
+        "cityId": "dubai",
+        "name": "두바이 분수",
+        "english": "Dubai Fountain",
+        "category": "관광",
+        "image": "/images/dubai-review-865ee0a091b0.jpg",
+        "photoCredit": {
+          "file": "/images/dubai-review-865ee0a091b0.jpg",
+          "author": "Donaldytong",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:%28UAE%29%20The%20Dubai%20Fountain%20at%20Dusk%2002.jpg",
+          "verifiedAt": "2026-10-15"
+        },
+        "description": "주메이라의 시장·쇼핑 공간.",
+        "address": "Dubai Mall",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 25.195186,
+        "lng": 55.275061,
+        "area": "주메이라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Dubai/Jumeirah",
+            "url": "https://en.wikivoyage.org/wiki/Dubai/Jumeirah#Dubai_Fountain",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "dubai-review-a210d8e9f4cf",
+        "cityId": "dubai",
+        "name": "시네시티 알 구레르 센터",
+        "english": "Cinecity - Al Ghurair Centre · formerly the  Grand Cinemas",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "데이라의 영화관.",
+        "address": "Al Ghurair City, Al Riqqah St",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 25.267954,
+        "lng": 55.317396,
+        "area": "데이라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Dubai/Deira",
+            "url": "https://en.wikivoyage.org/wiki/Dubai/Deira#Cinecity_-_Al_Ghurair_Centre",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "dubai-review-38d6cde67159",
+        "cityId": "dubai",
+        "name": "라 폰타나",
+        "english": "La Fontana",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "제벨 알리의 식사 장소.",
+        "address": "JA Palm Tree Court, Ground Floor, next to the La Fontana Swimming Pool",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 24.987552,
+        "lng": 55.021925,
+        "area": "제벨 알리",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Dubai/Jebel Ali",
+            "url": "https://en.wikivoyage.org/wiki/Dubai/Jebel_Ali#La_Fontana",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "dubai-review-828a8341ea58",
+        "cityId": "dubai",
+        "name": "주메이라 비치",
+        "english": "Jumeirah Beach",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "주메이라의 해변.",
+        "address": "주메이라, 두바이",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 25.1647,
+        "lng": 55.2072,
+        "area": "주메이라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Dubai/Jumeirah",
+            "url": "https://en.wikivoyage.org/wiki/Dubai/Jumeirah#Jumeirah_Beach",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "dubai-review-c88f0443b0d2",
+        "cityId": "dubai",
+        "name": "복스 시네마 데이라 시티센터",
+        "english": "VOX Deira City Centre",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "데이라의 둘러볼 수 있는 장소.",
+        "address": "Deira City Centre",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 25.274335,
+        "lng": 55.347405,
+        "area": "데이라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Dubai/Deira",
+            "url": "https://en.wikivoyage.org/wiki/Dubai/Deira#VOX_Deira_City_Centre",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "dubai-review-da4efa91fdc8",
+        "cityId": "dubai",
+        "name": "주메이라 모스크",
+        "english": "Jumeirah Mosque",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "주메이라의 모스크·종교 건축물.",
+        "address": "Jumeirah Rd, Jumeirah 1",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 25.233972,
+        "lng": 55.265503,
+        "area": "주메이라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Dubai/Jumeirah",
+            "url": "https://en.wikivoyage.org/wiki/Dubai/Jumeirah#Jumeirah_Mosque",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "dubai-review-399054b7e63f",
+        "cityId": "dubai",
+        "name": "정글 베이 워터파크",
+        "english": "Jungle Bay Waterpark",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "데이라의 워터파크.",
+        "address": "Le Meridien Mina Seyahi Beach Resort & Marina",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 25.09295,
+        "lng": 55.14701,
+        "area": "데이라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Dubai/Deira",
+            "url": "https://en.wikivoyage.org/wiki/Dubai/Deira#Jungle_Bay_Waterpark",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "dubai-review-68857363e1b4",
+        "cityId": "dubai",
+        "name": "두바이 아웃렛몰",
+        "english": "Dubai Outlet Mall",
+        "category": "쇼핑",
+        "image": "/images/place-placeholder.svg",
+        "description": "두바이의 시장·쇼핑 공간.",
+        "address": "Route E 66 (the road to Al Ain)",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 25.07318,
+        "lng": 55.39975,
+        "area": "두바이",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Dubai/Suburbs and Hatta",
+            "url": "https://en.wikivoyage.org/wiki/Dubai/Suburbs_and_Hatta#Dubai_Outlet_Mall",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "dubai-review-60258c7efc5a",
+        "cityId": "dubai",
+        "name": "마즐리스 고르팟 움 알 셰이프",
+        "english": "Majlis Ghorfat Umm Al Sheif",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "주메이라의 둘러볼 수 있는 장소.",
+        "address": "17th St (Al Mehemal St), Jumeirah 2",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 25.18668,
+        "lng": 55.23077,
+        "area": "주메이라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Dubai/Jumeirah",
+            "url": "https://en.wikivoyage.org/wiki/Dubai/Jumeirah#Majlis_Ghorfat_Umm_Al_Sheif",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "dubai-review-7b119122d863",
+        "cityId": "dubai",
+        "name": "몰 오브 아라비아",
+        "english": "Mall of Arabia",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "두바이의 박물관·전시 공간. 과학 전시를 살펴볼 수 있습니다.",
+        "address": "두바이, 두바이",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 25.081451,
+        "lng": 55.323657,
+        "area": "두바이",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Dubai/Suburbs and Hatta",
+            "url": "https://en.wikivoyage.org/wiki/Dubai/Suburbs_and_Hatta#Mall_of_Arabia",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "dubai-balance-12ba4e2f15",
+        "cityId": "dubai",
+        "name": "모어 카페",
+        "english": "More Cafe",
+        "category": "카페",
+        "image": "/images/place-placeholder.svg",
+        "description": "두바이에서 커피와 식사를 함께 즐길 수 있는 카페입니다.",
+        "address": "Dubai Mall",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "산책이나 쇼핑 사이에 쉬어갈 후보입니다. 좌석 이용·마지막 주문 시간은 방문 전 확인하세요.",
+        "area": "주메이라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Dubai/Jumeirah",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Dubai/Jumeirah&oldid=5383401",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 eat 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "dubai-balance-4ba7a33430",
+        "cityId": "dubai",
+        "name": "필리 카페테리아",
+        "english": "Filli Cafeteria",
+        "category": "카페",
+        "image": "/images/place-placeholder.svg",
+        "description": "차와 간식을 고를 수 있는 데이라의 카페입니다.",
+        "address": "Al Mamzar",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "산책이나 쇼핑 사이에 쉬어갈 후보입니다. 좌석 이용·마지막 주문 시간은 방문 전 확인하세요.",
+        "area": "데이라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Dubai/Deira",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Dubai/Deira&oldid=5390000",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "dubai-balance-a3ac2d629a",
+        "cityId": "dubai",
+        "name": "알 파나르 레스토랑 앤 카페",
+        "english": "Al Fanar Restaurant & Cafe",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "에미라티 전통 음식을 고를 수 있는 두바이의 식당입니다.",
+        "address": "Canal Walk, Dubai Festival City Mall",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "지점과 주문 방식, 식단 제한을 확인하고 식사 일정에 넣어 보세요. 메뉴·영업시간은 방문 전 확인하세요.",
+        "area": "데이라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Dubai/Deira",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Dubai/Deira&oldid=5390000",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 eat 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "dubai-balance-14fcba1455",
+        "cityId": "dubai",
+        "name": "랄 킬라 두바이",
+        "english": "Lal Qila Dubai",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "파키스탄 음식을 고를 수 있는 두바이의 식당입니다.",
+        "address": "Diyafa St, Jumairah-1",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "지점과 주문 방식, 식단 제한을 확인하고 식사 일정에 넣어 보세요. 메뉴·영업시간은 방문 전 확인하세요.",
+        "area": "주메이라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Dubai/Jumeirah",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Dubai/Jumeirah&oldid=5383401",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 eat 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "dubai-balance-41b7a45ebf",
+        "cityId": "dubai",
+        "name": "아난타라 더 팜 두바이",
+        "english": "Anantara The Palm Dubai Resort",
+        "category": "숙소",
+        "image": "/images/place-placeholder.svg",
+        "description": "팜 주메이라의 리조트 숙박 후보입니다.",
+        "address": "East Crescent",
+        "duration": "숙박 일정에 맞춰 지정",
+        "cost": "숙박일·객실·공식 안내에서 확인",
+        "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+        "lat": 25.129496,
+        "lng": 55.153156,
+        "area": "주메이라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Dubai/Jumeirah",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Dubai/Jumeirah&oldid=5383401",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "dubai-balance-6af8d877a9",
+        "cityId": "dubai",
+        "name": "하얏트 리젠시 두바이",
+        "english": "Hyatt Regency Dubai",
+        "category": "숙소",
+        "image": "/images/place-placeholder.svg",
+        "description": "데이라 지역을 거점으로 삼을 수 있는 호텔입니다.",
+        "address": "Deira Corniche",
+        "duration": "숙박 일정에 맞춰 지정",
+        "cost": "숙박일·객실·공식 안내에서 확인",
+        "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+        "lat": 25.2788983,
+        "lng": 55.3046501,
+        "area": "데이라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Dubai/Deira",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Dubai/Deira&oldid=5390000",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "dubai-balance-812c10d8d9",
+        "cityId": "dubai",
+        "name": "바라스티",
+        "english": "Barasti",
+        "category": "바·공연",
+        "image": "/images/place-placeholder.svg",
+        "description": "해변 주변에서 음료와 음악을 즐기는 바입니다.",
+        "address": "주메이라, 두바이",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "공연 일정·입장 연령·드레스 코드·입장료와 최소 주문 조건을 방문 전 확인하세요.",
+        "lat": 25.091774,
+        "lng": 55.1458121,
+        "area": "주메이라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Dubai/Jumeirah",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Dubai/Jumeirah&oldid=5383401",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "dubai-balance-6df4f686ba",
+        "cityId": "dubai",
+        "name": "스카이뷰 바",
+        "english": "Skyview Bar",
+        "category": "바·공연",
+        "image": "/images/place-placeholder.svg",
+        "description": "버즈 알 아랍 호텔의 전망과 함께 음료를 즐기는 바입니다.",
+        "address": "주메이라, 두바이",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "공연 일정·입장 연령·드레스 코드·입장료와 최소 주문 조건을 방문 전 확인하세요.",
+        "lat": 25.1357038,
+        "lng": 55.1866875,
+        "area": "주메이라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Dubai/Jumeirah",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Dubai/Jumeirah&oldid=5383401",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "dubai-balance-440bb7c4d3",
+        "cityId": "dubai",
+        "name": "몰 오브 디 에미리츠",
+        "english": "Mall of the Emirates",
+        "category": "쇼핑",
+        "image": "/images/place-placeholder.svg",
+        "description": "상점과 실내 여가 시설을 함께 둘러보는 쇼핑몰입니다.",
+        "address": "Near 4th interchange on Sheikh Zayed Rd, Al Barsha 1 community",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "품목과 매장별 운영시간을 확인하고 구입할 물건을 정해 둘러보세요.",
+        "lat": 25.11825,
+        "lng": 55.20162,
+        "area": "주메이라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Dubai/Jumeirah",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Dubai/Jumeirah&oldid=5383401",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 buy 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "dubai-balance-2f57258d71",
+        "cityId": "dubai",
+        "name": "시티센터 데이라",
+        "english": "City Centre Deira",
+        "category": "쇼핑",
+        "image": "/images/place-placeholder.svg",
+        "description": "데이라 지역에서 쇼핑과 식사를 함께 계획할 수 있는 쇼핑몰입니다.",
+        "address": "Banyias Rd, Alittihad Rd, Port Saeed community",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "품목과 매장별 운영시간을 확인하고 구입할 물건을 정해 둘러보세요.",
+        "lat": 25.25241,
+        "lng": 55.3336,
+        "area": "데이라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Dubai/Deira",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Dubai/Deira&oldid=5390000",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 buy 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "id": "dubai-overview",
+        "title": "도시 소개",
+        "body": "올드 두바이·다운타운·마리나는 서로 다른 권역입니다. 날씨와 이동 수단을 고려해 하루의 중심을 고르세요."
+      },
+      {
+        "id": "dubai-before",
+        "title": "출발 전 준비",
+        "body": "부르즈 할리파·미래박물관 등 시간 지정 시설은 날짜·층·입장권 종류를 확인하세요.\n\n사막 체험은 이동·식사·차량·취소 조건과 숙소 픽업을 구분해 확인하세요."
+      },
+      {
+        "id": "dubai-arrival",
+        "title": "공항과 시내 이동",
+        "body": "공항에서 숙소: 도착 공항·터미널과 메트로·공식 차량 접근을 확인하세요.\n\n야외·도심 이동: 냉방이 되는 이동·실내 방문을 중간에 두고, 도로를 건널 수 있는 실제 경로를 확인하세요."
+      },
+      {
+        "id": "dubai-stay",
+        "title": "숙소 지역 선택",
+        "body": "메트로 접근 숙소: 역까지 실제 보행 경로와 최종 목적지의 역 접근을 함께 비교하세요.\n\n다운타운·마리나: 전망과 주변 식사·산책을 중시할 때 비교하되 다른 권역 왕복을 줄이세요."
+      },
+      {
+        "id": "dubai-plan",
+        "title": "일정 계획",
+        "body": "하루: 올드 두바이 또는 다운타운 한 권역을 고르세요.\n\n3일 이상: 올드 두바이·다운타운·해변/마리나를 다른 날에 배치하세요."
+      },
+      {
+        "id": "dubai-notes",
+        "title": "현장 팁",
+        "body": "분수쇼나 계절 시설은 현재 운영 공지를 확인하기 전 확정 일정으로 넣지 마세요.\n\n지도상 가까워도 넓은 도로와 큰 건물 때문에 도보 연결이 길어질 수 있습니다."
+      },
+      {
+        "id": "dubai-rain",
+        "title": "비 오는 날",
+        "body": "두바이 몰·박물관 등 실내 일정으로 바꾸고 야외 방문은 기온·시야를 보고 줄이세요."
+      }
+    ],
+    "sources": [],
+    "status": "published",
+    "requestId": null,
+    "createdAt": "2026-10-28T00:00:00.000Z",
+    "updatedAt": "2026-10-28T00:00:00.000Z",
+    "publishedAt": "2026-10-28T00:00:00.000Z"
+  },
+  "practicalGuide": {
+    "cityId": "dubai",
+    "firstVisit": "올드 두바이·다운타운·마리나는 서로 다른 권역입니다. 날씨와 이동 수단을 고려해 하루의 중심을 고르세요.",
+    "bases": [
+      {
+        "name": "메트로 접근 숙소",
+        "advice": "역까지 실제 보행 경로와 최종 목적지의 역 접근을 함께 비교하세요."
+      },
+      {
+        "name": "다운타운·마리나",
+        "advice": "전망과 주변 식사·산책을 중시할 때 비교하되 다른 권역 왕복을 줄이세요."
+      }
+    ],
+    "arrival": [
+      {
+        "name": "공항에서 숙소",
+        "advice": "도착 공항·터미널과 메트로·공식 차량 접근을 확인하세요."
+      },
+      {
+        "name": "야외·도심 이동",
+        "advice": "냉방이 되는 이동·실내 방문을 중간에 두고, 도로를 건널 수 있는 실제 경로를 확인하세요."
+      }
+    ],
+    "timePlan": [
+      {
+        "name": "하루",
+        "advice": "올드 두바이 또는 다운타운 한 권역을 고르세요."
+      },
+      {
+        "name": "3일 이상",
+        "advice": "올드 두바이·다운타운·해변/마리나를 다른 날에 배치하세요."
+      }
+    ],
+    "before": [
+      "부르즈 할리파·미래박물관 등 시간 지정 시설은 날짜·층·입장권 종류를 확인하세요.",
+      "사막 체험은 이동·식사·차량·취소 조건과 숙소 픽업을 구분해 확인하세요."
+    ],
+    "pitfalls": [
+      "분수쇼나 계절 시설은 현재 운영 공지를 확인하기 전 확정 일정으로 넣지 마세요.",
+      "지도상 가까워도 넓은 도로와 큰 건물 때문에 도보 연결이 길어질 수 있습니다."
+    ],
+    "rainPlan": "두바이 몰·박물관 등 실내 일정으로 바꾸고 야외 방문은 기온·시야를 보고 줄이세요.",
+    "courses": [
+      {
+        "id": "dubai-course-1",
+        "title": "크리크 양쪽의 옛 두바이",
+        "pace": "반나절–하루 · 도보·배편",
+        "why": "강 양쪽을 이동하므로 아브라 선착장과 운항을 따로 확인하세요.",
+        "placeIds": [
+          "al-fahidi",
+          "dubai-souk",
+          "dubai-review-0f764fd7eb6c"
+        ]
+      },
+      {
+        "id": "dubai-course-2",
+        "title": "다운타운에 집중",
+        "pace": "반나절–하루 · 도보",
+        "why": "전망대 예약과 몰 식사를 한 권역에 모은 제안입니다.",
+        "placeIds": [
+          "burj",
+          "dubai-review-2d9db81044cf",
+          "dubai-review-2da0fd74470a"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "관광청 공식 사이트",
+        "url": "https://www.visitdubai.com/",
+        "checkedAt": "2026-10-15",
+        "status": "unavailable"
+      }
+    ],
+    "researchNote": "기존 내장 장소를 바탕으로 작성한 계획 제안입니다. 관광청 최신 교통·운영 조건은 본문 접근 제한으로 재확인하지 못했습니다."
+  },
+  "plans": {
+    "cityId": "dubai",
+    "days": [
+      {
+        "id": "dubai-day-1",
+        "title": "크리크 양쪽의 옛 두바이",
+        "pace": "반나절–하루 · 도보·배편",
+        "why": "강 양쪽을 이동하므로 아브라 선착장과 운항을 따로 확인하세요.",
+        "placeIds": [
+          "al-fahidi",
+          "dubai-souk",
+          "dubai-review-0f764fd7eb6c"
+        ]
+      },
+      {
+        "id": "dubai-day-2",
+        "title": "다운타운에 집중",
+        "pace": "반나절–하루 · 도보",
+        "why": "전망대 예약과 몰 식사를 한 권역에 모은 제안입니다.",
+        "placeIds": [
+          "burj",
+          "dubai-review-2d9db81044cf",
+          "dubai-review-2da0fd74470a"
+        ]
+      },
+      {
+        "id": "dubai-day-3",
+        "title": "마리나와 팜 주메이라",
+        "pace": "철도·택시",
+        "why": "서쪽 해안에 집중하고 팜 진입·복귀 교통을 따로 잡습니다.",
+        "placeIds": [
+          "dubai-review-92cdaffb7054",
+          "dubai-review-4aa19d63d873"
+        ]
+      },
+      {
+        "id": "dubai-day-4",
+        "title": "주메이라 바닷가와 수크",
+        "pace": "택시",
+        "why": "주메이라 해안선을 따라 이동합니다. 해변과 수크에서 더위를 피할 여유를 둡니다.",
+        "placeIds": [
+          "dubai-review-828a8341ea58",
+          "dubai-review-cd947889b1f5",
+          "dubai-review-24fbc130f5ca"
+        ]
+      },
+      {
+        "id": "dubai-day-5",
+        "title": "자빌 공원과 미래박물관",
+        "pace": "철도·택시",
+        "why": "예약한 미래박물관 시간을 먼저 고정하고 자빌 공원권을 더합니다.",
+        "placeIds": [
+          "dubai-review-24ce1836f50d",
+          "dubai-review-17c8ce00a3f4",
+          "dubai-review-1ee5e0dc69a7"
+        ]
+      }
+    ]
+  }
+}

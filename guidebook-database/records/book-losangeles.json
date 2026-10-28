@@ -1,0 +1,155 @@
+{
+  "guide": {
+    "id": "book-losangeles",
+    "scope": "city",
+    "city": {
+      "id": "book-losangeles",
+      "name": "로스앤젤레스",
+      "english": "Los Angeles",
+      "country": "미국",
+      "region": "북미",
+      "image": "/images/guide-placeholder.svg",
+      "tagline": "넓은 도시를 하루 한 구역씩 둘러보기",
+      "description": "로스앤젤레스는 명소 간 거리가 멀어 할리우드·다운타운·해변을 하루씩 나누는 편이 좋습니다. 산타모니카와 유니버설시티 등 주변 도시를 함께 여행하더라도 같은 도심 구역으로 생각하지 마세요.",
+      "tags": [
+        "도시 산책",
+        "여행 준비"
+      ],
+      "flight": "항공편·출발 공항에 따라 다름",
+      "currency": "미국 달러 · USD",
+      "timeDifference": "한국보다 겨울 17시간·서머타임 16시간 느림",
+      "timeZone": "America/Los_Angeles",
+      "season": "강한 햇빛·큰 일교차 대비",
+      "accent": "#e7f1ef"
+    },
+    "places": [
+      {
+        "id": "book-losangeles-griffith-observatory",
+        "cityId": "book-losangeles",
+        "name": "그리피스 천문대",
+        "english": "Griffith Observatory",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "도시 전망과 천문 전시를 보는 곳입니다. 시설 운영과 주차·대중교통을 확인하세요.",
+        "address": "Griffith Park, Los Angeles",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      },
+      {
+        "id": "book-losangeles-getty-center",
+        "cityId": "book-losangeles",
+        "name": "게티센터",
+        "english": "Getty Center",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "미술과 정원·건축을 함께 보는 공간입니다. 예약과 주차 조건을 확인하세요.",
+        "address": "Brentwood, Los Angeles",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      },
+      {
+        "id": "book-losangeles-santa-monica-pier",
+        "cityId": "book-losangeles",
+        "name": "산타모니카 피어",
+        "english": "Santa Monica Pier",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "해변과 부두를 함께 둘러보는 곳입니다. 로스앤젤레스 도심과 이동 시간을 따로 고려하세요.",
+        "address": "Santa Monica, California",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      },
+      {
+        "id": "book-losangeles-hollywood-boulevard",
+        "cityId": "book-losangeles",
+        "name": "할리우드 대로",
+        "english": "Hollywood Boulevard",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "영화 관련 명소와 상점이 모인 거리입니다. 방문 구간을 정하고 혼잡을 살피세요.",
+        "address": "Hollywood, Los Angeles",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      },
+      {
+        "id": "book-losangeles-grand-central-market",
+        "cityId": "book-losangeles",
+        "name": "그랜드센트럴마켓",
+        "english": "Grand Central Market",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "여러 식당이 모인 시장입니다. 특정 한 식당의 추천이나 운영을 뜻하지 않습니다.",
+        "address": "Downtown Los Angeles",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      },
+      {
+        "id": "book-losangeles-universal-studios-hollywood",
+        "cityId": "book-losangeles",
+        "name": "유니버설 스튜디오 할리우드",
+        "english": "Universal Studios Hollywood",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "영화 테마파크 체험 후보입니다. 날짜별 운영과 티켓 범위를 확인하세요.",
+        "address": "Universal City, California",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      }
+    ],
+    "sections": [
+      {
+        "id": "book-losangeles-overview",
+        "title": "도시 한눈에",
+        "body": "로스앤젤레스는 명소 간 거리가 멀어 할리우드·다운타운·해변을 하루씩 나누는 편이 좋습니다. 산타모니카와 유니버설시티 등 주변 도시를 함께 여행하더라도 같은 도심 구역으로 생각하지 마세요.\n\n통화: 미국 달러 · USD\n시차: 한국보다 겨울 17시간·서머타임 16시간 느림\n여행 계절: 강한 햇빛·큰 일교차 대비"
+      },
+      {
+        "id": "book-losangeles-before",
+        "title": "출발 전 준비",
+        "body": "여권과 입국 허가·비자 요건은 국적·방문 목적에 맞춰 정부 안내를 확인하세요. 해외 사용 가능한 결제 수단, 통신과 여행자보험을 준비하고 숙소·항공권은 오프라인에서도 확인할 수 있게 보관하세요."
+      },
+      {
+        "id": "book-losangeles-arrival",
+        "title": "공항에서 숙소까지",
+        "body": "로스앤젤레스 국제공항(LAX)의 터미널과 숙소 위치를 확인하세요. 차량·공항 교통·대중교통을 비교하고 렌터카를 쓴다면 주차와 면허 서류·보험 조건을 확인하세요."
+      },
+      {
+        "id": "book-losangeles-stay",
+        "title": "어느 동네에 묵을까",
+        "body": "할리우드는 관광과 스튜디오 접근, 다운타운은 문화시설, 산타모니카는 바다 체류를 비교하기 좋습니다. 숙소 가격에 주차비와 이동비를 함께 고려하세요."
+      },
+      {
+        "id": "book-losangeles-food",
+        "title": "먹거리와 동네 쇼핑",
+        "body": "멕시코 음식·다양한 아시아 음식·시장 먹거리를 나눠 즐기세요. 그랜드센트럴마켓은 여러 식당이 모인 공간입니다. 세금과 팁을 포함해 예산을 생각하세요."
+      },
+      {
+        "id": "book-losangeles-days",
+        "title": "처음 가는 3일 여행",
+        "body": "1일: 도착 → 숙소 주변 산책. 장거리 비행 뒤에는 충분히 쉬고 현지 날짜에 적응하세요.\n\n2일: 그리피스 천문대 중심으로 주변을 둘러보세요. 예약 시설은 운영기관의 방문 조건을 먼저 확인하세요.\n\n3일: 게티센터 또는 산타모니카 피어 중 관심 있는 곳을 고르고 나머지는 식사와 동네 산책에 쓰세요. 출국일에는 공항 이동을 우선하세요.\n\n일정 초안이며 자동 경로·이동시간 계산 결과가 아닙니다. 운영과 취향에 맞춰 선택하세요."
+      },
+      {
+        "id": "book-losangeles-notes",
+        "title": "예약과 현장 팁",
+        "body": "실제 도로 이동시간은 교통에 따라 크게 달라집니다. 테마파크는 날짜별 운영·예약·티켓 범위를 확인하고, 낯선 동네의 야간 이동은 숙소와 교통 정보를 먼저 살피세요."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Visit Los Angeles. Find Things to Do in LA. California Travel Guides | Discover Los Angeles",
+        "url": "https://www.discoverlosangeles.com/",
+        "accessedAt": "2026-10-28"
+      }
+    ],
+    "status": "published",
+    "requestId": null,
+    "createdAt": "2026-10-28T05:07:12.733Z",
+    "updatedAt": "2026-10-28T05:07:12.733Z",
+    "publishedAt": "2026-10-28T05:07:12.733Z"
+  }
+}

@@ -1,0 +1,1069 @@
+{
+  "guide": {
+    "id": "hongkong",
+    "scope": "city",
+    "city": {
+      "id": "hongkong",
+      "name": "홍콩",
+      "english": "HONG KONG · 香港",
+      "country": "홍콩",
+      "region": "동아시아",
+      "image": "/images/city-hongkong.jpg",
+      "photoCredit": {
+        "file": "/images/city-hongkong.jpg",
+        "author": "ImMrDrake",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Victoria_Harbour_skyline,_Hong_Kong_(2008).jpg",
+        "verifiedAt": "2026-10-16"
+      },
+      "tagline": "항구 야경과 골목, 섬으로 이어지는 여행",
+      "description": "센트럴·침사추이·란타우를 하루에 왕복하기보다 지역별로 나누어 계획하는 도시 여행지입니다.",
+      "tags": [
+        "항구 야경",
+        "섬 산책"
+      ],
+      "flight": "홍콩국제공항 · 운항편 확인",
+      "currency": "홍콩 달러 · HKD",
+      "timeDifference": "한국보다 1시간 느림",
+      "season": "10–4월 · 여름 태풍 확인",
+      "accent": "#e8f3ef"
+    },
+    "places": [
+      {
+        "id": "hongkong-balance-7b184ee98a",
+        "cityId": "hongkong",
+        "name": "융키 레스토랑",
+        "english": "Yung Kee Restaurant",
+        "category": "맛집",
+        "image": "/images/commons-069-hongkong-balance-7b184ee98a.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-hongkong-balance-7b184ee98a.jpg",
+          "author": "LN9267",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yung_Kee_Restaurant_27-12-2023.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "센트럴에서 광둥식 구이 요리를 맛볼 수 있는 식당입니다.",
+        "address": "32-40 Wellington St",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "지점과 주문 방식, 식단 제한을 확인하고 식사 일정에 넣어 보세요. 메뉴·영업시간은 방문 전 확인하세요.",
+        "lat": 22.28131,
+        "lng": 114.15578,
+        "area": "센트럴·셩완",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Hong Kong/Central",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Hong_Kong/Central&oldid=5384017",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 eat 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "hongkong-balance-1af5535bda",
+        "cityId": "hongkong",
+        "name": "로푸키",
+        "english": "Law Fu Kee",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "죽과 완탕면 등 광둥식 간단한 식사를 고르는 가게입니다.",
+        "address": "50 Lyndhurst Terrace, Soho",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "지점과 주문 방식, 식단 제한을 확인하고 식사 일정에 넣어 보세요. 메뉴·영업시간은 방문 전 확인하세요.",
+        "area": "센트럴·셩완",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Hong Kong/Central",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Hong_Kong/Central&oldid=5384017",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 eat 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "hongkong-balance-36ee82609d",
+        "cityId": "hongkong",
+        "name": "브런치 클럽",
+        "english": "Brunch Club",
+        "category": "카페",
+        "image": "/images/place-placeholder.svg",
+        "description": "소호에서 브런치와 커피를 즐기는 카페입니다.",
+        "address": "70 Peel St, Soho",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "산책이나 쇼핑 사이에 쉬어갈 후보입니다. 좌석 이용·마지막 주문 시간은 방문 전 확인하세요.",
+        "area": "센트럴·셩완",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Hong Kong/Central",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Hong_Kong/Central&oldid=5384017",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 eat 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "hongkong-balance-3fa8f90c6b",
+        "cityId": "hongkong",
+        "name": "룩유 티하우스",
+        "english": "Luk Yu Tea House · 陸羽茶室",
+        "category": "카페",
+        "image": "/images/commons-069-hongkong-balance-3fa8f90c6b.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-hongkong-balance-3fa8f90c6b.jpg",
+          "author": "Homm BoUretak BAORP",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:HK_%E4%B8%AD%E7%92%B0_Central_%E5%A3%AB%E4%B8%B9%E5%88%A9%E8%A1%97_Stanley_Street_shop_Luk_Yu_Tea_House_March_2026_N13P_01.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "딤섬과 차를 즐길 수 있는 센트럴의 찻집입니다.",
+        "address": "26 Stanley St",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "산책이나 쇼핑 사이에 쉬어갈 후보입니다. 좌석 이용·마지막 주문 시간은 방문 전 확인하세요.",
+        "area": "센트럴·셩완",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Hong Kong/Central",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Hong_Kong/Central&oldid=5384017",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 eat 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "hongkong-balance-5004206737",
+        "cityId": "hongkong",
+        "name": "이비스 홍콩 센트럴 앤 셩완",
+        "english": "ibis Hong Kong Central & Sheung Wan",
+        "category": "숙소",
+        "image": "/images/place-placeholder.svg",
+        "description": "셩완 지역을 거점으로 삼을 수 있는 호텔입니다.",
+        "address": "28 Des Voeux Road West, Sheung Wan",
+        "duration": "숙박 일정에 맞춰 지정",
+        "cost": "숙박일·객실·공식 안내에서 확인",
+        "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+        "lat": 22.287697,
+        "lng": 114.147558,
+        "area": "센트럴·셩완",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Hong Kong/Central",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Hong_Kong/Central&oldid=5384017",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "hongkong-balance-73d0ec3275",
+        "cityId": "hongkong",
+        "name": "만다린 오리엔탈 홍콩",
+        "english": "Mandarin Oriental",
+        "category": "숙소",
+        "image": "/images/place-placeholder.svg",
+        "description": "센트럴에 자리한 호텔 숙박 후보입니다.",
+        "address": "5 Connaught Rd",
+        "duration": "숙박 일정에 맞춰 지정",
+        "cost": "숙박일·객실·공식 안내에서 확인",
+        "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+        "area": "센트럴·셩완",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Hong Kong/Central",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Hong_Kong/Central&oldid=5384017",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "hongkong-balance-d1a96e6289",
+        "cityId": "hongkong",
+        "name": "더 글로브",
+        "english": "The Globe",
+        "category": "바·공연",
+        "image": "/images/place-placeholder.svg",
+        "description": "여러 종류의 맥주와 음식을 고를 수 있는 소호의 펍입니다.",
+        "address": "45-53 Graham St, Soho",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "공연 일정·입장 연령·드레스 코드·입장료와 최소 주문 조건을 방문 전 확인하세요.",
+        "lat": 22.28238,
+        "lng": 114.152761,
+        "area": "센트럴·셩완",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Hong Kong/Central",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Hong_Kong/Central&oldid=5384017",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "hongkong-balance-d0e16ee09a",
+        "cityId": "hongkong",
+        "name": "스탠턴스 와인 바 앤 카페",
+        "english": "Staunton's Wine Bar & Cafe",
+        "category": "바·공연",
+        "image": "/images/place-placeholder.svg",
+        "description": "소호 골목에서 와인과 음료를 즐기는 바입니다.",
+        "address": "Staunton St, Soho",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "공연 일정·입장 연령·드레스 코드·입장료와 최소 주문 조건을 방문 전 확인하세요.",
+        "lat": 22.281787,
+        "lng": 114.1529,
+        "area": "센트럴·셩완",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Hong Kong/Central",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Hong_Kong/Central&oldid=5384017",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "hongkong-balance-8f2e5d8b09",
+        "cityId": "hongkong",
+        "name": "아이에프씨 몰",
+        "english": "IFC Mall",
+        "category": "쇼핑",
+        "image": "/images/commons-069-hongkong-balance-8f2e5d8b09.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-hongkong-balance-8f2e5d8b09.jpg",
+          "author": "HGoejyu WALGOI",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:HK_%E4%B8%AD%E7%92%B0_Central_%E5%9C%8B%E9%9A%9B%E9%87%91%E8%9E%8D%E4%B8%AD%E5%BF%83%E5%95%86%E5%A0%B4_IFC_mall_void_October_2024_R12S_01.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "홍콩역 주변에서 상점과 식당을 둘러볼 수 있는 쇼핑몰입니다.",
+        "address": "Central",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "품목과 매장별 운영시간을 확인하고 구입할 물건을 정해 둘러보세요.",
+        "lat": 22.28536,
+        "lng": 114.15847,
+        "area": "센트럴·셩완",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Hong Kong/Central",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Hong_Kong/Central&oldid=5384017",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 buy 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "hongkong-balance-5367ec2fe0",
+        "cityId": "hongkong",
+        "name": "캣 스트리트",
+        "english": "Cat Street",
+        "category": "쇼핑",
+        "image": "/images/place-placeholder.svg",
+        "description": "셩완에서 골동품과 기념품을 살펴보는 거리입니다.",
+        "address": "Sheung Wan",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "품목과 매장별 운영시간을 확인하고 구입할 물건을 정해 둘러보세요.",
+        "lat": 22.28443,
+        "lng": 114.15062,
+        "area": "센트럴·셩완",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Hong Kong/Central",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Hong_Kong/Central&oldid=5384017",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 buy 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "hongkong-guide-ba6138c89ec7",
+        "cityId": "hongkong",
+        "name": "만모사",
+        "english": "Man Mo Temple Compound",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "문무 두 신을 모시는 전통 사원입니다.",
+        "address": "셩완 · 홍콩",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "향 연기가 많은 실내에서는 참배객 동선을 존중하세요.",
+        "lat": 22.284,
+        "lng": 114.1502,
+        "area": "셩완",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 홍콩 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hongkong-guide-fd5091deba63",
+        "cityId": "hongkong",
+        "name": "홍콩 공원",
+        "english": "Hong Kong Park",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "고층 건물 사이의 녹지와 연못을 잇는 공원입니다.",
+        "address": "애드미럴티 · 홍콩",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "센트럴 일대 도보 일정 중 쉬어 가기 좋습니다.",
+        "lat": 22.27716,
+        "lng": 114.16146,
+        "area": "애드미럴티",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 홍콩 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hongkong-guide-0d00a6d445a0",
+        "cityId": "hongkong",
+        "name": "미드레벨 에스컬레이터",
+        "english": "Central-Mid-Levels Escalator",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "센트럴의 경사지를 연결하는 야외 에스컬레이터입니다.",
+        "address": "센트럴 · 홍콩",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "시간대에 따라 진행 방향이 바뀌므로 현장 안내를 보세요.",
+        "lat": 22.28101,
+        "lng": 114.15251,
+        "area": "센트럴",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 홍콩 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hongkong-guide-15b37b842ec3",
+        "cityId": "hongkong",
+        "name": "스타의 거리",
+        "english": "Avenue of Stars",
+        "category": "관광",
+        "image": "/images/commons-069-hongkong-guide-15b37b842ec3.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-hongkong-guide-15b37b842ec3.jpg",
+          "author": "Alexkom000",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:2024-12-27_Avenue_of_Stars,_Hong_Kong.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "빅토리아항을 따라 영화 관련 조형물을 만나는 산책로입니다.",
+        "address": "침사추이 · 홍콩",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "해 질 무렵부터 야경까지 볼 수 있게 시간을 잡으세요.",
+        "lat": 22.293,
+        "lng": 114.1748,
+        "area": "침사추이",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 홍콩 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hongkong-guide-77da8ea9ec30",
+        "cityId": "hongkong",
+        "name": "웡타이신 사원",
+        "english": "Sik Sik Yuen Wong Tai Sin Temple · 嗇色園黃大仙祠",
+        "category": "관광",
+        "image": "/images/commons-069-hongkong-guide-77da8ea9ec30.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-hongkong-guide-77da8ea9ec30.jpg",
+          "author": "Raita Futo from Tokyo, Japan",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sik_Sik_Yuen_Wong_Tai_Sin_Temple_(53629121611).jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "전통 신앙과 다채로운 건축을 볼 수 있는 사원입니다.",
+        "address": "웡타이신 · 홍콩",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "제례와 참배 공간에서는 촬영·출입 안내를 따르세요.",
+        "lat": 22.3428,
+        "lng": 114.1937,
+        "area": "웡타이신",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 홍콩 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hongkong-guide-a9345e6d7bc6",
+        "cityId": "hongkong",
+        "name": "구룡채성공원",
+        "english": "Kowloon Walled City Park",
+        "category": "관광",
+        "image": "/images/commons-069-hongkong-guide-a9345e6d7bc6.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-hongkong-guide-a9345e6d7bc6.jpg",
+          "author": "Alexkom000",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:2024-12-28_Kowloon_Walled_City_Park.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "옛 구룡채성 부지의 정원과 역사 흔적을 만나는 공원입니다.",
+        "address": "가우룽시티 · 홍콩",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "정원 산책과 역사 전시를 함께 둘러보세요.",
+        "lat": 22.332,
+        "lng": 114.19,
+        "area": "가우룽시티",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 홍콩 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hongkong-guide-f387af1e434c",
+        "cityId": "hongkong",
+        "name": "홍콩 디즈니랜드",
+        "english": "Hong Kong Disneyland",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "란타우섬의 테마파크입니다.",
+        "address": "란타우 · 홍콩",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "예약·입장권과 운영 달력을 확인하고 하루 단위로 계획하세요.",
+        "lat": 22.3128,
+        "lng": 114.0419,
+        "area": "란타우",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 홍콩 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hongkong-guide-69e57ef5cd48",
+        "cityId": "hongkong",
+        "name": "옹핑 케이블카 상부역",
+        "english": "Ngong Ping 360",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "옹핑 마을과 산악 풍경을 연결하는 케이블카의 상부 구역입니다.",
+        "address": "란타우 · 홍콩",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "저장 위치는 옹핑 쪽입니다. 탑승 출발역은 퉁충으로 구분하세요.",
+        "lat": 22.25634,
+        "lng": 113.90146,
+        "area": "란타우",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 홍콩 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hongkong-guide-b6006fbf3c75",
+        "cityId": "hongkong",
+        "name": "타이오 어촌",
+        "english": "Tai O · 大澳",
+        "category": "관광",
+        "image": "/images/commons-069-hongkong-guide-b6006fbf3c75.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-hongkong-guide-b6006fbf3c75.jpg",
+          "author": "Marym1718",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tai_O_fisherman%27s_village.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "수상 가옥과 골목으로 알려진 어촌입니다.",
+        "address": "란타우 · 홍콩",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "옹핑과 묶을 때 버스 이동·막차 시간을 확인하세요.",
+        "lat": 22.257,
+        "lng": 113.86,
+        "area": "란타우",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 홍콩 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hongkong-guide-7758681a1269",
+        "cityId": "hongkong",
+        "name": "라마섬",
+        "english": "Lamma Island · 南丫島",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "도보 산책과 해안 풍경을 즐기는 섬입니다.",
+        "address": "근교 · 라마섬 · 홍콩",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "출발·도착 선착장과 돌아오는 배 시간을 먼저 정하세요.",
+        "lat": 22.201116,
+        "lng": 114.131126,
+        "area": "근교 · 라마섬",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 홍콩 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hongkong-guide-84a5b5251631",
+        "cityId": "hongkong",
+        "name": "청차우섬",
+        "english": "Cheung Chau · 長洲",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "항구와 골목·해안 산책길이 있는 섬입니다.",
+        "address": "근교 · 청차우섬 · 홍콩",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "주말 배편과 골목 혼잡을 고려해 시간을 넉넉히 잡으세요.",
+        "lat": 22.208565,
+        "lng": 114.029331,
+        "area": "근교 · 청차우섬",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 홍콩 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hongkong-guide-babcd84c03a8",
+        "cityId": "hongkong",
+        "name": "머레이 하우스",
+        "english": "Murray House",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "스탠리 해안에 자리한 역사 건물입니다.",
+        "address": "스탠리 · 홍콩",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "스탠리 해안 산책과 함께 계획하세요.",
+        "lat": 22.218,
+        "lng": 114.21,
+        "area": "스탠리",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 홍콩 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hongkong-guide-82ed7d620944",
+        "cityId": "hongkong",
+        "name": "골든 보히니아 광장",
+        "english": "Golden Bauhinia Square",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "항구 쪽에 바우히니아 조형물이 있는 광장입니다.",
+        "address": "완차이 · 홍콩",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "완차이 해안 산책 동선과 연결하세요.",
+        "lat": 22.28445,
+        "lng": 114.17237,
+        "area": "완차이",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 홍콩 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hongkong-guide-a5674d78f5d1",
+        "cityId": "hongkong",
+        "name": "홍콩 미술관",
+        "english": "Hong Kong Museum of Art",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "중국과 홍콩 미술을 다루는 항구 옆 미술관입니다.",
+        "address": "침사추이 · 홍콩",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "스타의 거리와 가깝고 전시별 입장 조건은 다릅니다.",
+        "lat": 22.29354,
+        "lng": 114.17209,
+        "area": "침사추이",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 홍콩 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hongkong-guide-0f73d5aaabd9",
+        "cityId": "hongkong",
+        "name": "홍콩 우주박물관",
+        "english": "Hong Kong Space Museum",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "천문·우주 전시와 돔 상영 시설이 있는 박물관입니다.",
+        "address": "침사추이 · 홍콩",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "상영 프로그램은 전시 관람과 별도로 예약을 확인하세요.",
+        "lat": 22.29427,
+        "lng": 114.17196,
+        "area": "침사추이",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 홍콩 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hongkong-guide-dc6da3467116",
+        "cityId": "hongkong",
+        "name": "홍콩 과학박물관",
+        "english": "Hong Kong Science Museum",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "체험형 과학 전시를 둘러보는 박물관입니다.",
+        "address": "침사추이 · 홍콩",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "체험 전시는 대기 시간을 두고 천천히 둘러보세요.",
+        "lat": 22.30088,
+        "lng": 114.17767,
+        "area": "침사추이",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 홍콩 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hongkong-guide-9cee604f01aa",
+        "cityId": "hongkong",
+        "name": "홍콩 해사박물관",
+        "english": "Hong Kong Maritime Museum · 香港海事博物館",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "항구와 해상 교역의 역사를 소개하는 박물관입니다.",
+        "address": "센트럴 · 홍콩",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "센트럴 부두 산책과 묶기 좋습니다.",
+        "lat": 22.28669,
+        "lng": 114.16206,
+        "area": "센트럴",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 홍콩 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hongkong-guide-7ca0c9418dc5",
+        "cityId": "hongkong",
+        "name": "쑨원 박물관",
+        "english": "Dr Sun Yat-sen Museum",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "쑨원과 홍콩의 관계를 다루는 역사박물관입니다.",
+        "address": "미드레벨 · 홍콩",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "주변 경사가 있어 미드레벨 동선과 함께 계획하세요.",
+        "lat": 22.28213,
+        "lng": 114.15077,
+        "area": "미드레벨",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 홍콩 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hongkong-guide-69e2a031536a",
+        "cityId": "hongkong",
+        "name": "홍콩 마담 투소",
+        "english": "Madame Tussauds",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "빅토리아 피크 구역의 밀랍인형 전시관입니다.",
+        "address": "빅토리아 피크 · 홍콩",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "피크 이동과 관람권을 구분해 예약하세요.",
+        "lat": 22.27127,
+        "lng": 114.15,
+        "area": "빅토리아 피크",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 홍콩 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "hongkong-guide-607154550ace",
+        "cityId": "hongkong",
+        "name": "빅토리아 공원",
+        "english": "Victoria Park",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "코즈웨이베이 인근의 넓은 도심 공원입니다.",
+        "address": "코즈웨이베이 · 홍콩",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "도심 쇼핑 일정 사이에 산책·휴식 구간으로 넣으세요.",
+        "lat": 22.283,
+        "lng": 114.189,
+        "area": "코즈웨이베이",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 홍콩 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "id": "hongkong-overview",
+        "title": "도시 소개",
+        "body": "홍콩섬과 카오룽을 구분해 하루를 잡고 페리·철도를 이동 경험으로 선택하세요."
+      },
+      {
+        "id": "hongkong-before",
+        "title": "출발 전 준비",
+        "body": "디즈니랜드·전망 시설·케이블카는 방문일 운영과 입장권 조건을 확인하세요.\n\n태풍·호우 때 교통과 시설 공지를 확인할 경로를 준비하세요."
+      },
+      {
+        "id": "hongkong-arrival",
+        "title": "공항과 시내 이동",
+        "body": "공항에서 숙소: 공항철도·버스·공식 차량을 실제 숙소 접근과 인원·짐 기준으로 비교하세요.\n\n항구 건너기: MTR과 페리를 목적지·날씨에 맞게 선택하고 밤 귀환편을 확인하세요."
+      },
+      {
+        "id": "hongkong-stay",
+        "title": "숙소 지역 선택",
+        "body": "침사추이·카오룽: 항구 산책과 카오룽권 식사·쇼핑을 중심으로 비교하세요.\n\n센트럴·홍콩섬: 도심 경사길과 홍콩섬 일정을 중심으로 비교하고 숙소까지 계단·언덕을 확인하세요."
+      },
+      {
+        "id": "hongkong-plan",
+        "title": "일정 계획",
+        "body": "하루: 홍콩섬 또는 카오룽 한 권역을 중심으로 고르세요.\n\n3일 이상: 양쪽 도심과 란타우·섬 여행 중 하나를 날짜로 분리하세요."
+      },
+      {
+        "id": "hongkong-notes",
+        "title": "현장 팁",
+        "body": "에스컬레이터가 있다고 모든 언덕 이동이 편한 것은 아닙니다.\n\n오래된 장소 보관본을 현재 영업·전시 보장으로 생각하지 마세요."
+      },
+      {
+        "id": "hongkong-rain",
+        "title": "비 오는 날",
+        "body": "홍콩 미술관·우주박물관 등 실내 장소를 가까운 권역에서 고르고 페리·산 전망은 운항과 시야를 확인하세요."
+      }
+    ],
+    "sources": [],
+    "status": "published",
+    "requestId": null,
+    "createdAt": "2026-10-28T00:00:00.000Z",
+    "updatedAt": "2026-10-28T00:00:00.000Z",
+    "publishedAt": "2026-10-28T00:00:00.000Z"
+  },
+  "practicalGuide": {
+    "cityId": "hongkong",
+    "firstVisit": "홍콩섬과 카오룽을 구분해 하루를 잡고 페리·철도를 이동 경험으로 선택하세요.",
+    "bases": [
+      {
+        "name": "침사추이·카오룽",
+        "advice": "항구 산책과 카오룽권 식사·쇼핑을 중심으로 비교하세요."
+      },
+      {
+        "name": "센트럴·홍콩섬",
+        "advice": "도심 경사길과 홍콩섬 일정을 중심으로 비교하고 숙소까지 계단·언덕을 확인하세요."
+      }
+    ],
+    "arrival": [
+      {
+        "name": "공항에서 숙소",
+        "advice": "공항철도·버스·공식 차량을 실제 숙소 접근과 인원·짐 기준으로 비교하세요."
+      },
+      {
+        "name": "항구 건너기",
+        "advice": "MTR과 페리를 목적지·날씨에 맞게 선택하고 밤 귀환편을 확인하세요."
+      }
+    ],
+    "timePlan": [
+      {
+        "name": "하루",
+        "advice": "홍콩섬 또는 카오룽 한 권역을 중심으로 고르세요."
+      },
+      {
+        "name": "3일 이상",
+        "advice": "양쪽 도심과 란타우·섬 여행 중 하나를 날짜로 분리하세요."
+      }
+    ],
+    "before": [
+      "디즈니랜드·전망 시설·케이블카는 방문일 운영과 입장권 조건을 확인하세요.",
+      "태풍·호우 때 교통과 시설 공지를 확인할 경로를 준비하세요."
+    ],
+    "pitfalls": [
+      "에스컬레이터가 있다고 모든 언덕 이동이 편한 것은 아닙니다.",
+      "오래된 장소 보관본을 현재 영업·전시 보장으로 생각하지 마세요."
+    ],
+    "rainPlan": "홍콩 미술관·우주박물관 등 실내 장소를 가까운 권역에서 고르고 페리·산 전망은 운항과 시야를 확인하세요.",
+    "courses": [
+      {
+        "id": "hongkong-course-1",
+        "title": "센트럴의 경사길",
+        "pace": "반나절–하루 · 도보·MTR",
+        "why": "언덕이 있는 도심이므로 동행자의 보행량에 맞춰 줄이세요.",
+        "placeIds": [
+          "hongkong-guide-ba6138c89ec7",
+          "hongkong-guide-0d00a6d445a0",
+          "hongkong-guide-fd5091deba63"
+        ]
+      },
+      {
+        "id": "hongkong-course-2",
+        "title": "침사추이 해안과 박물관",
+        "pace": "반나절–하루 · 도보",
+        "why": "항구 가까운 박물관과 산책로를 한 권역에 묶었습니다.",
+        "placeIds": [
+          "hongkong-guide-0f73d5aaabd9",
+          "hongkong-guide-a5674d78f5d1",
+          "hongkong-guide-15b37b842ec3"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "관광청 공식 사이트",
+        "url": "https://www.discoverhongkong.com/",
+        "checkedAt": "2026-10-15",
+        "status": "unavailable"
+      }
+    ],
+    "researchNote": "기존 내장 장소를 바탕으로 작성한 계획 제안입니다. 관광청 최신 교통·운영 조건은 본문 접근 제한으로 재확인하지 못했습니다. 장소 목록은 2016년 보관본 기반이며 현재 운영은 별도 확인해야 합니다."
+  },
+  "plans": {
+    "cityId": "hongkong",
+    "days": [
+      {
+        "id": "hongkong-day-1",
+        "title": "센트럴의 경사길",
+        "pace": "반나절–하루 · 도보·MTR",
+        "why": "언덕이 있는 도심이므로 동행자의 보행량에 맞춰 줄이세요.",
+        "placeIds": [
+          "hongkong-guide-ba6138c89ec7",
+          "hongkong-guide-0d00a6d445a0",
+          "hongkong-guide-fd5091deba63"
+        ]
+      },
+      {
+        "id": "hongkong-day-2",
+        "title": "침사추이 해안과 박물관",
+        "pace": "반나절–하루 · 도보",
+        "why": "항구 가까운 박물관과 산책로를 한 권역에 묶었습니다.",
+        "placeIds": [
+          "hongkong-guide-0f73d5aaabd9",
+          "hongkong-guide-a5674d78f5d1",
+          "hongkong-guide-15b37b842ec3"
+        ]
+      },
+      {
+        "id": "hongkong-day-3",
+        "title": "란타우의 옹핑과 어촌",
+        "pace": "철도·버스·케이블카",
+        "why": "란타우 안에서 하루를 쓰고 타이오행 버스·복귀편을 확인합니다. 디즈니랜드를 같은 날에 넣지 않습니다.",
+        "placeIds": [
+          "hongkong-guide-69e57ef5cd48",
+          "hongkong-guide-b6006fbf3c75"
+        ]
+      },
+      {
+        "id": "hongkong-day-4",
+        "title": "구룡의 사원과 옛 성곽",
+        "pace": "철도·버스",
+        "why": "웡타이신과 가우룽시티를 묶어 구룡에서 하루를 보냅니다.",
+        "placeIds": [
+          "hongkong-guide-77da8ea9ec30",
+          "hongkong-guide-a9345e6d7bc6"
+        ]
+      },
+      {
+        "id": "hongkong-day-5",
+        "title": "완차이에서 코즈웨이베이까지",
+        "pace": "철도·도보",
+        "why": "홍콩섬 북쪽 해안을 따라 이동하고 공원 주변에서 쉽니다.",
+        "placeIds": [
+          "hongkong-guide-82ed7d620944",
+          "hongkong-guide-607154550ace"
+        ]
+      }
+    ]
+  }
+}

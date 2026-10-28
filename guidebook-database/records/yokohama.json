@@ -1,0 +1,1865 @@
+{
+  "guide": {
+    "id": "yokohama",
+    "scope": "city",
+    "city": {
+      "id": "yokohama",
+      "name": "요코하마",
+      "english": "YOKOHAMA · 横浜",
+      "country": "일본",
+      "region": "일본",
+      "image": "/images/place-yokohama-minatomirai.jpg",
+      "photoCredit": {
+        "file": "/images/place-yokohama-minatomirai.jpg",
+        "author": "akumach from Kawasaki City, Japan",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Minato_Mirai_In_Blue.jpg",
+        "verifiedAt": "2026-10-14"
+      },
+      "tagline": "항구 산책과 차이나타운",
+      "description": "항구 주변 산책과 차이나타운을 묶기 좋으며 도쿄에서 이어서 방문할 수 있습니다.",
+      "tags": [
+        "도시 산책",
+        "자유여행"
+      ],
+      "flight": "도쿄 공항에서 철도 이동",
+      "currency": "일본 엔 · JPY",
+      "timeDifference": "한국과 시차 없음",
+      "season": "계절별 일정 선택",
+      "accent": "#eaf4ef"
+    },
+    "places": [
+      {
+        "id": "yokohama-minatomirai",
+        "cityId": "yokohama",
+        "name": "미나토미라이",
+        "english": "Minato Mirai 21 · みなとみらい２１",
+        "category": "관광",
+        "image": "/images/place-yokohama-minatomirai.jpg",
+        "photoCredit": {
+          "file": "/images/place-yokohama-minatomirai.jpg",
+          "author": "akumach from Kawasaki City, Japan",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Minato_Mirai_In_Blue.jpg",
+          "verifiedAt": "2026-10-14"
+        },
+        "description": "요코하마의 시장·쇼핑 공간.",
+        "address": "요코하마, 요코하마",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.458,
+        "lng": 139.632,
+        "area": "요코하마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Yokohama",
+            "url": "https://en.wikivoyage.org/wiki/Yokohama#Minato_Mirai_21",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "yokohama-yamashita",
+        "cityId": "yokohama",
+        "name": "야마시타 공원",
+        "english": "Yamashita Park · 山下公園",
+        "category": "관광",
+        "image": "/images/place-yokohama-yamashita.jpg",
+        "photoCredit": {
+          "file": "/images/place-yokohama-yamashita.jpg",
+          "author": "外国人",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parque_Yamashita_2.JPG",
+          "verifiedAt": "2026-10-14"
+        },
+        "description": "요코하마의 공원·정원.",
+        "address": "요코하마, 요코하마",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.445778,
+        "lng": 139.64975,
+        "area": "요코하마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Yokohama",
+            "url": "https://en.wikivoyage.org/wiki/Yokohama#Yamashita_Park",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "yokohama-chinatown",
+        "cityId": "yokohama",
+        "name": "요코하마 차이나타운",
+        "english": "Chinatown · 中華街 Chūkagai",
+        "category": "관광",
+        "image": "/images/place-yokohama-chinatown.jpg",
+        "photoCredit": {
+          "file": "/images/place-yokohama-chinatown.jpg",
+          "author": "Wpcpey",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yokohama_Chinatown_signage_2015.jpg",
+          "verifiedAt": "2026-10-14"
+        },
+        "description": "요코하마의 둘러볼 수 있는 장소.",
+        "address": "요코하마, 요코하마",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.4428,
+        "lng": 139.646,
+        "area": "요코하마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Yokohama",
+            "url": "https://en.wikivoyage.org/wiki/Yokohama#Chinatown",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "yokohama-review-040c8c2ae64e",
+        "cityId": "yokohama",
+        "name": "요코하마 코스모월드",
+        "english": "Yokohama Cosmo World",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "요코하마의 공원·정원.",
+        "address": "요코하마, 요코하마",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.455203,
+        "lng": 139.636681,
+        "area": "요코하마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Yokohama",
+            "url": "https://en.wikivoyage.org/wiki/Yokohama#Yokohama_Cosmo_World",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "yokohama-review-563f511596a3",
+        "cityId": "yokohama",
+        "name": "요코하마 아카렌가 창고",
+        "english": "Yokohama Red Brick Warehouse \"Aka Renga Souko\" · 横浜赤レンガ倉庫",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "요코하마의 시장·쇼핑 공간.",
+        "address": "요코하마, 요코하마",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.452546,
+        "lng": 139.642468,
+        "area": "요코하마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Yokohama",
+            "url": "https://en.wikivoyage.org/wiki/Yokohama#Yokohama_Red_Brick_Warehouse_%22Aka_Renga_Souko%22",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "yokohama-review-f6e5358087f5",
+        "cityId": "yokohama",
+        "name": "컵누들 뮤지엄 요코하마",
+        "english": "Cup Noodles Museum Yokohama",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "요코하마의 박물관·전시 공간. 지역·역사 자료를 살펴볼 수 있습니다.",
+        "address": "2-3-4 Shinko, Naka-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.455459,
+        "lng": 139.638529,
+        "area": "요코하마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Yokohama",
+            "url": "https://en.wikivoyage.org/wiki/Yokohama#Cup_Noodles_Museum_Yokohama",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "yokohama-review-0a6982dc509e",
+        "cityId": "yokohama",
+        "name": "산케이엔",
+        "english": "Sankei-en Park",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "요코하마의 공원·정원.",
+        "address": "요코하마, 요코하마",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.41695,
+        "lng": 139.660042,
+        "area": "요코하마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Yokohama",
+            "url": "https://en.wikivoyage.org/wiki/Yokohama#Sankei-en_Park",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "yokohama-review-258fa4853c59",
+        "cityId": "yokohama",
+        "name": "오산바시 부두",
+        "english": "Ōsanbashi Pier · 大さん橋",
+        "category": "관광",
+        "image": "/images/commons-069-yokohama-review-258fa4853c59.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-yokohama-review-258fa4853c59.jpg",
+          "author": "Matthide127",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:20250102_Osanbashi_Pier,_Osanbashi_Pier_Building_night_204605.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "요코하마의 공원·정원.",
+        "address": "1-1-4, Kaigandori, Naka-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.4517,
+        "lng": 139.648,
+        "area": "요코하마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Yokohama",
+            "url": "https://en.wikivoyage.org/wiki/Yokohama#%C5%8Csanbashi_Pier",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "yokohama-review-f998dfd3c322",
+        "cityId": "yokohama",
+        "name": "쓰루가오카 하치만구",
+        "english": "Tsurugaoka Hachimangū Shrine · 鶴岡八幡宮",
+        "category": "관광",
+        "image": "/images/commons-069-yokohama-review-f998dfd3c322.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-yokohama-review-f998dfd3c322.jpg",
+          "author": "Syced",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tsurugaoka_Hachiman-g%C5%AB.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "근교 · 가마쿠라의 사찰.",
+        "address": "근교 · 가마쿠라, 요코하마",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 35.32605,
+        "lng": 139.556472,
+        "area": "근교 · 가마쿠라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kamakura",
+            "url": "https://en.wikivoyage.org/wiki/Kamakura#Tsurugaoka_Hachimang%C5%AB_Shrine",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "yokohama-review-1b18ef5a0935",
+        "cityId": "yokohama",
+        "name": "고토쿠인·가마쿠라 대불",
+        "english": "Kōtokuin · 高徳院",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 가마쿠라의 사찰.",
+        "address": "근교 · 가마쿠라, 요코하마",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 35.316837,
+        "lng": 139.535733,
+        "area": "근교 · 가마쿠라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kamakura",
+            "url": "https://en.wikivoyage.org/wiki/Kamakura#K%C5%8Dtokuin",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "yokohama-review-8acf1732c325",
+        "cityId": "yokohama",
+        "name": "가마쿠라 하세데라",
+        "english": "Hasedera · 長谷寺",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 가마쿠라의 사찰.",
+        "address": "근교 · 가마쿠라, 요코하마",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 35.312985,
+        "lng": 139.533931,
+        "area": "근교 · 가마쿠라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kamakura",
+            "url": "https://en.wikivoyage.org/wiki/Kamakura#Hasedera",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "yokohama-review-0ff8da5bb751",
+        "cityId": "yokohama",
+        "name": "묘혼지",
+        "english": "Myohonji Temple · 妙本寺",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 가마쿠라의 사찰.",
+        "address": "근교 · 가마쿠라, 요코하마",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 35.317563,
+        "lng": 139.55593,
+        "area": "근교 · 가마쿠라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kamakura",
+            "url": "https://en.wikivoyage.org/wiki/Kamakura#Myohonji_Temple",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "yokohama-review-55b9a372dc6a",
+        "cityId": "yokohama",
+        "name": "제니아라이 벤텐 신사",
+        "english": "Zeniarai Benten Shrine · 銭洗い弁天",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 가마쿠라의 신사·사당.",
+        "address": "근교 · 가마쿠라, 요코하마",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 35.32575,
+        "lng": 139.542248,
+        "area": "근교 · 가마쿠라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kamakura",
+            "url": "https://en.wikivoyage.org/wiki/Kamakura#Zeniarai_Benten_Shrine",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "yokohama-review-1c3285434645",
+        "cityId": "yokohama",
+        "name": "가마쿠라코코마에역",
+        "english": "Kamakurakōkōmae Station · 鎌倉高校前駅",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 가마쿠라의 둘러볼 수 있는 장소.",
+        "address": "근교 · 가마쿠라, 요코하마",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 35.306667,
+        "lng": 139.500556,
+        "area": "근교 · 가마쿠라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kamakura",
+            "url": "https://en.wikivoyage.org/wiki/Kamakura#Kamakurak%C5%8Dk%C5%8Dmae_Station",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "yokohama-review-e1ed7eaa0a8b",
+        "cityId": "yokohama",
+        "name": "가마쿠라 역사문화교류관",
+        "english": "Kamakura Museum of History and Culture · 鎌倉歴史文化交流館",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 가마쿠라의 박물관·전시 공간. 지역·역사 자료를 살펴볼 수 있습니다.",
+        "address": "근교 · 가마쿠라, 요코하마",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 35.322375,
+        "lng": 139.547653,
+        "area": "근교 · 가마쿠라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kamakura",
+            "url": "https://en.wikivoyage.org/wiki/Kamakura#Kamakura_Museum_of_History_and_Culture",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "yokohama-review-4f15aef30b25",
+        "cityId": "yokohama",
+        "name": "겐초지",
+        "english": "Kenchōji · 建長寺",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 가마쿠라의 사찰. 일본식 정원를 살펴볼 수 있습니다.",
+        "address": "근교 · 가마쿠라, 요코하마",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 35.331789,
+        "lng": 139.555347,
+        "area": "근교 · 가마쿠라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kamakura",
+            "url": "https://en.wikivoyage.org/wiki/Kamakura#Kench%C5%8Dji",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "yokohama-review-2ae62d3dcbc1",
+        "cityId": "yokohama",
+        "name": "요코하마 마린타워",
+        "english": "Marine Tower",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "요코하마의 전망 장소.",
+        "address": "15 Yamashitacho, Naka-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.44393,
+        "lng": 139.6509,
+        "area": "요코하마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Yokohama",
+            "url": "https://en.wikivoyage.org/wiki/Yokohama#Marine_Tower",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "yokohama-review-1fbd54f27a3d",
+        "cityId": "yokohama",
+        "name": "엔가쿠지",
+        "english": "Engakuji · 円覚寺",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 가마쿠라의 사찰.",
+        "address": "근교 · 가마쿠라, 요코하마",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 35.337704,
+        "lng": 139.547498,
+        "area": "근교 · 가마쿠라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kamakura",
+            "url": "https://en.wikivoyage.org/wiki/Kamakura#Engakuji",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "yokohama-review-37b6ce32c549",
+        "cityId": "yokohama",
+        "name": "히카와마루",
+        "english": "Hikawa Maru · 氷川丸",
+        "category": "관광",
+        "image": "/images/commons-069-yokohama-review-37b6ce32c549.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-yokohama-review-37b6ce32c549.jpg",
+          "author": "Matthide127",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:20250103_Hikawa_Maru_113538.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "요코하마의 둘러볼 수 있는 장소.",
+        "address": "Yamashita Park. Yamashita-cho, Naka-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.446682,
+        "lng": 139.651252,
+        "area": "요코하마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Yokohama",
+            "url": "https://en.wikivoyage.org/wiki/Yokohama#Hikawa_Maru",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "yokohama-review-9783ed4a6e9a",
+        "cityId": "yokohama",
+        "name": "도케이지",
+        "english": "Tōkeiji",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 가마쿠라의 사찰.",
+        "address": "근교 · 가마쿠라, 요코하마",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 35.335244,
+        "lng": 139.545636,
+        "area": "근교 · 가마쿠라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kamakura",
+            "url": "https://en.wikivoyage.org/wiki/Kamakura#T%C5%8Dkeiji",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "yokohama-review-0870e7f21066",
+        "cityId": "yokohama",
+        "name": "요코하마 랜드마크 타워",
+        "english": "Landmark Tower",
+        "category": "관광",
+        "image": "/images/commons-069-yokohama-review-0870e7f21066.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-yokohama-review-0870e7f21066.jpg",
+          "author": "Syced",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yokohama_Landmark_Tower_purple.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "요코하마의 전망 장소.",
+        "address": "MM21 Minato Mirai Station",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.454722,
+        "lng": 139.631667,
+        "area": "요코하마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Yokohama",
+            "url": "https://en.wikivoyage.org/wiki/Yokohama#Landmark_Tower",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "yokohama-review-c8423da957d2",
+        "cityId": "yokohama",
+        "name": "메이게쓰인",
+        "english": "Meigetsuin · 明月院",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 가마쿠라의 사찰.",
+        "address": "근교 · 가마쿠라, 요코하마",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 35.334856,
+        "lng": 139.551386,
+        "area": "근교 · 가마쿠라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kamakura",
+            "url": "https://en.wikivoyage.org/wiki/Kamakura#Meigetsuin",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "yokohama-review-9ddcf5517051",
+        "cityId": "yokohama",
+        "name": "게이오대학교 히요시 캠퍼스",
+        "english": "Keiō University - Hiyoshi Campus · 慶應義塾大学, Keiō Gijuku Daigaku",
+        "category": "관광",
+        "image": "/images/commons-069-yokohama-review-9ddcf5517051.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-yokohama-review-9ddcf5517051.jpg",
+          "author": "Kakidai",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Keio_University_Hiyoshi_Campus_(5).jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "요코하마의 둘러볼 수 있는 장소.",
+        "address": "요코하마, 요코하마",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.55414,
+        "lng": 139.64818,
+        "area": "요코하마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Yokohama",
+            "url": "https://en.wikivoyage.org/wiki/Yokohama#Kei%C5%8D_University_-_Hiyoshi_Campus",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "yokohama-review-4be34c1f3c77",
+        "cityId": "yokohama",
+        "name": "조묘지",
+        "english": "Jōmyōji · 浄妙寺",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 가마쿠라의 공원·정원.",
+        "address": "근교 · 가마쿠라, 요코하마",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 35.322839,
+        "lng": 139.571297,
+        "area": "근교 · 가마쿠라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kamakura",
+            "url": "https://en.wikivoyage.org/wiki/Kamakura#J%C5%8Dmy%C5%8Dji",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "yokohama-review-74cadf530470",
+        "cityId": "yokohama",
+        "name": "요코하마 베이브리지",
+        "english": "Yokohama Bay Bridge · 横浜ベイブリッジ",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "요코하마의 전망 장소.",
+        "address": "요코하마, 요코하마",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.454378,
+        "lng": 139.673907,
+        "area": "요코하마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Yokohama",
+            "url": "https://en.wikivoyage.org/wiki/Yokohama#Yokohama_Bay_Bridge",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "yokohama-review-7fca2f305550",
+        "cityId": "yokohama",
+        "name": "스기모토데라",
+        "english": "Sugimotodera · 杉本寺",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 가마쿠라의 사찰.",
+        "address": "근교 · 가마쿠라, 요코하마",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 35.322617,
+        "lng": 139.567447,
+        "area": "근교 · 가마쿠라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kamakura",
+            "url": "https://en.wikivoyage.org/wiki/Kamakura#Sugimotodera",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "yokohama-review-97fce6b457a2",
+        "cityId": "yokohama",
+        "name": "요코하마 개항기념회관",
+        "english": "Yokohama Port Opening Memorial Hall · 横浜市開港記念会館",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "요코하마의 온천·목욕 시설.",
+        "address": "요코하마, 요코하마",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.447648,
+        "lng": 139.641359,
+        "area": "요코하마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Yokohama",
+            "url": "https://en.wikivoyage.org/wiki/Yokohama#Yokohama_Port_Opening_Memorial_Hall",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "yokohama-review-21a8f8aa1370",
+        "cityId": "yokohama",
+        "name": "호코쿠지",
+        "english": "Hōkokuji · 報国寺",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 가마쿠라의 둘러볼 수 있는 장소. 대나무 풍경를 살펴볼 수 있습니다.",
+        "address": "근교 · 가마쿠라, 요코하마",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 35.32,
+        "lng": 139.5693,
+        "area": "근교 · 가마쿠라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kamakura",
+            "url": "https://en.wikivoyage.org/wiki/Kamakura#H%C5%8Dkokuji",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "yokohama-review-74171e79661d",
+        "cityId": "yokohama",
+        "name": "야마테 서양관 거리",
+        "english": "Yamate · 山手",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "항구 위쪽의 옛 외국인 거주지. 역사적인 서양식 주택과 공원을 연결해 걷는 구역이며 지도는 지역의 대표 위치입니다.",
+        "address": "요코하마, 요코하마",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.4381994,
+        "lng": 139.6535468,
+        "area": "요코하마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Yokohama",
+            "url": "https://en.wikivoyage.org/wiki/Yokohama#Yamate",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "yokohama-review-b62ddb924259",
+        "cityId": "yokohama",
+        "name": "옛 가초노미야 저택",
+        "english": "Former Residence of Marquis Kachō Hironobu · 旧華頂宮邸",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 가마쿠라의 둘러볼 수 있는 장소.",
+        "address": "근교 · 가마쿠라, 요코하마",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 35.318112,
+        "lng": 139.569805,
+        "area": "근교 · 가마쿠라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kamakura",
+            "url": "https://en.wikivoyage.org/wiki/Kamakura#Former_Residence_of_Marquis_Kach%C5%8D_Hironobu",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "yokohama-review-98a7023df4a8",
+        "cityId": "yokohama",
+        "name": "요코하마 역사박물관",
+        "english": "Yokohama History Museum · 横浜市歴史博物館",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "요코하마의 박물관·전시 공간. 지역·역사 자료를 살펴볼 수 있습니다.",
+        "address": "Tsuzuki-ku, Nakagawachuou 1-18-1",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.5502,
+        "lng": 139.578,
+        "area": "요코하마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Yokohama",
+            "url": "https://en.wikivoyage.org/wiki/Yokohama#Yokohama_History_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "yokohama-review-b19b419b463b",
+        "cityId": "yokohama",
+        "name": "호빵맨 어린이박물관",
+        "english": "Anpanman Children's Museum",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "요코하마의 박물관·전시 공간.",
+        "address": "6-2-9, Minato Mirai, Nishi-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.463235,
+        "lng": 139.62886,
+        "area": "요코하마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Yokohama",
+            "url": "https://en.wikivoyage.org/wiki/Yokohama#Anpanman_Children%27s_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "yokohama-review-20a7b3471a09",
+        "cityId": "yokohama",
+        "name": "일본 말 박물관",
+        "english": "Equine Museum of Japan · 馬の博物館",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "요코하마의 박물관·전시 공간. 지역·역사 자료를 살펴볼 수 있습니다.",
+        "address": "1-3 Negishidai, Naka-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.42267,
+        "lng": 139.639624,
+        "area": "요코하마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Yokohama",
+            "url": "https://en.wikivoyage.org/wiki/Yokohama#Equine_Museum_of_Japan",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "yokohama-review-6977183db05b",
+        "cityId": "yokohama",
+        "name": "가나가와 근대문학관",
+        "english": "Kanagawa Museum of Modern Literature · 神奈川近代文学館",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "요코하마의 박물관·전시 공간.",
+        "address": "110 Yamate, Naka-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.438639,
+        "lng": 139.656083,
+        "area": "요코하마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Yokohama",
+            "url": "https://en.wikivoyage.org/wiki/Yokohama#Kanagawa_Museum_of_Modern_Literature",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "yokohama-review-eabc87502db1",
+        "cityId": "yokohama",
+        "name": "기시네 공원",
+        "english": "Kishine Park · 岸根公園",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "요코하마의 공원·정원.",
+        "address": "요코하마, 요코하마",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.493797,
+        "lng": 139.615525,
+        "area": "요코하마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Yokohama",
+            "url": "https://en.wikivoyage.org/wiki/Yokohama#Kishine_Park",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "yokohama-review-205ba03d7b32",
+        "cityId": "yokohama",
+        "name": "유이가하마 해변",
+        "english": "Yuigahama · 由比ヶ浜",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 가마쿠라의 해변.",
+        "address": "근교 · 가마쿠라, 요코하마",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 35.309259,
+        "lng": 139.542257,
+        "area": "근교 · 가마쿠라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kamakura",
+            "url": "https://en.wikivoyage.org/wiki/Kamakura#Yuigahama",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "yokohama-review-e63788813bac",
+        "cityId": "yokohama",
+        "name": "가모이케 공원",
+        "english": "Kamoike Park · 鴨池公園",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "요코하마의 공원·정원.",
+        "address": "요코하마, 요코하마",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.54402,
+        "lng": 139.56203,
+        "area": "요코하마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Yokohama",
+            "url": "https://en.wikivoyage.org/wiki/Yokohama#Kamoike_Park",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "yokohama-review-149261f690e8",
+        "cityId": "yokohama",
+        "name": "이나무라가사키",
+        "english": "Inamuragasaki · 稲村ヶ崎",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 가마쿠라의 해변.",
+        "address": "근교 · 가마쿠라, 요코하마",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 35.301988,
+        "lng": 139.525611,
+        "area": "근교 · 가마쿠라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kamakura",
+            "url": "https://en.wikivoyage.org/wiki/Kamakura#Inamuragasaki",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "yokohama-review-88c498302cb9",
+        "cityId": "yokohama",
+        "name": "노구치 히데요 기념공원",
+        "english": "Hideyo Noguchi Memorial Park · 野口記念公園",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "요코하마의 공원·정원.",
+        "address": "Nagahama 114-4",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.357306,
+        "lng": 139.6365,
+        "area": "요코하마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Yokohama",
+            "url": "https://en.wikivoyage.org/wiki/Yokohama#Hideyo_Noguchi_Memorial_Park",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "yokohama-review-abbda79c0dd9",
+        "cityId": "yokohama",
+        "name": "시치리가하마 해변",
+        "english": "Shichirigahama · 七里ヶ浜",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 가마쿠라의 해변.",
+        "address": "근교 · 가마쿠라, 요코하마",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 35.304067,
+        "lng": 139.514201,
+        "area": "근교 · 가마쿠라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kamakura",
+            "url": "https://en.wikivoyage.org/wiki/Kamakura#Shichirigahama",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "yokohama-review-c601667fb879",
+        "cityId": "yokohama",
+        "name": "기쿠나 사쿠라야마 공원",
+        "english": "Kikuna Sakurayama Park · 菊名桜山公園",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "요코하마의 공원·정원.",
+        "address": "3-11 Kikuna, Kohoku-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.506153,
+        "lng": 139.636214,
+        "area": "요코하마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Yokohama",
+            "url": "https://en.wikivoyage.org/wiki/Yokohama#Kikuna_Sakurayama_Park",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "yokohama-review-814ff2f70834",
+        "cityId": "yokohama",
+        "name": "네기시 삼림공원",
+        "english": "Negishi Forest Park · 根岸森林公園",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "요코하마의 박물관·전시 공간.",
+        "address": "Negishidai, Naka-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.424104,
+        "lng": 139.638576,
+        "area": "요코하마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Yokohama",
+            "url": "https://en.wikivoyage.org/wiki/Yokohama#Negishi_Forest_Park",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "yokohama-review-66df45a6a331",
+        "cityId": "yokohama",
+        "name": "히요시 공원",
+        "english": "Hiyoshi Park · 日吉公園",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "요코하마의 공원·정원.",
+        "address": "2-31 Hiyoshi, Kouhoku-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.558984,
+        "lng": 139.647348,
+        "area": "요코하마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Yokohama",
+            "url": "https://en.wikivoyage.org/wiki/Yokohama#Hiyoshi_Park",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "yokohama-review-fac6043d7d90",
+        "cityId": "yokohama",
+        "name": "가라스야마강",
+        "english": "River Karasuyama · 烏山川",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "요코하마의 둘러볼 수 있는 장소.",
+        "address": "요코하마, 요코하마",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.651793,
+        "lng": 139.678947,
+        "area": "요코하마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Yokohama",
+            "url": "https://en.wikivoyage.org/wiki/Yokohama#River_Karasuyama",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "yokohama-review-48adf3fb5252",
+        "cityId": "yokohama",
+        "name": "모로오카 구마노 신사",
+        "english": "Moro-oka Kumano Shrine · 師岡熊野神社",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "요코하마의 신사·사당.",
+        "address": "요코하마, 요코하마",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.524167,
+        "lng": 139.635556,
+        "area": "요코하마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Yokohama",
+            "url": "https://en.wikivoyage.org/wiki/Yokohama#Moro-oka_Kumano_Shrine",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "yokohama-review-ce23dd6f8efb",
+        "cityId": "yokohama",
+        "name": "쇼묘지",
+        "english": "Shōmyō Temple · 称名寺",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "요코하마의 사찰.",
+        "address": "요코하마, 요코하마",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.344181,
+        "lng": 139.630392,
+        "area": "요코하마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Yokohama",
+            "url": "https://en.wikivoyage.org/wiki/Yokohama#Sh%C5%8Dmy%C5%8D_Temple",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "yokohama-review-e15ee36abc54",
+        "cityId": "yokohama",
+        "name": "소지지",
+        "english": "Soujiji · 總持寺",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "요코하마의 사찰.",
+        "address": "2-1-1 Tsurumi, Tsurumi-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.507778,
+        "lng": 139.670833,
+        "area": "요코하마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Yokohama",
+            "url": "https://en.wikivoyage.org/wiki/Yokohama#Soujiji",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "yokohama-review-bb54a70dc6a0",
+        "cityId": "yokohama",
+        "name": "가모이 스기야마 신사",
+        "english": "Kamoi Sugiyama Shrine · 杉山神社",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "요코하마의 신사·사당.",
+        "address": "4-13-1 Kamoi, Midori-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.507984,
+        "lng": 139.566578,
+        "area": "요코하마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Yokohama",
+            "url": "https://en.wikivoyage.org/wiki/Yokohama#Kamoi_Sugiyama_Shrine",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "yokohama-review-efb887ef9e0d",
+        "cityId": "yokohama",
+        "name": "기쿠나 신사",
+        "english": "Kikuna Shrine · 菊名神社",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "요코하마의 신사·사당.",
+        "address": "6-5-14 Kikuna, Kohoku-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.511996,
+        "lng": 139.632614,
+        "area": "요코하마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Yokohama",
+            "url": "https://en.wikivoyage.org/wiki/Yokohama#Kikuna_Shrine",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "yokohama-review-7aadd259580d",
+        "cityId": "yokohama",
+        "name": "요코하마 스타디움",
+        "english": "Yokohama Stadium",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "요코하마의 공원·정원.",
+        "address": "요코하마, 요코하마",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.443428,
+        "lng": 139.6401,
+        "area": "요코하마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Yokohama",
+            "url": "https://en.wikivoyage.org/wiki/Yokohama#Yokohama_Stadium",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "yokohama-balance-2e205e297c",
+        "cityId": "yokohama",
+        "name": "시타테야",
+        "english": "Shitateya · 仕立屋",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "생선과 해산물 요리를 내는 요코하마의 작은 식당입니다.",
+        "address": "요코하마, 요코하마",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "지점과 주문 방식, 식단 제한을 확인하고 식사 일정에 넣어 보세요. 메뉴·영업시간은 방문 전 확인하세요.",
+        "area": "요코하마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Yokohama",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Yokohama&oldid=5388687",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 eat 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "yokohama-balance-1b5c174cfe",
+        "cityId": "yokohama",
+        "name": "만친로",
+        "english": "Manchin-Ro",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "요코하마 차이나타운에서 광둥 요리를 맛볼 수 있는 식당입니다.",
+        "address": "156 Yamashitacho, Naka-ku",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "지점과 주문 방식, 식단 제한을 확인하고 식사 일정에 넣어 보세요. 메뉴·영업시간은 방문 전 확인하세요.",
+        "area": "요코하마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Yokohama",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Yokohama&oldid=5388687",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 eat 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "yokohama-balance-01c4e70616",
+        "cityId": "yokohama",
+        "name": "분노스케 차야 요코하마점",
+        "english": "Bunnosuke Chaya · 文の助茶屋",
+        "category": "카페",
+        "image": "/images/place-placeholder.svg",
+        "description": "일본식 디저트와 차를 고를 수 있는 찻집입니다.",
+        "address": "요코하마, 요코하마",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "산책이나 쇼핑 사이에 쉬어갈 후보입니다. 좌석 이용·마지막 주문 시간은 방문 전 확인하세요.",
+        "area": "요코하마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Yokohama",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Yokohama&oldid=5388687",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 eat 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "yokohama-balance-8cc03dc040",
+        "cityId": "yokohama",
+        "name": "차노마 요코하마",
+        "english": "Chano-ma",
+        "category": "카페",
+        "image": "/images/place-placeholder.svg",
+        "description": "붉은 벽돌 창고에서 식사와 휴식을 함께 즐길 수 있는 카페입니다.",
+        "address": "Akarenga Soko Bldg 2",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "산책이나 쇼핑 사이에 쉬어갈 후보입니다. 좌석 이용·마지막 주문 시간은 방문 전 확인하세요.",
+        "area": "요코하마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Yokohama",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Yokohama&oldid=5388687",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 eat 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "yokohama-balance-4669551414",
+        "cityId": "yokohama",
+        "name": "인터컨티넨탈 요코하마 그랜드",
+        "english": "InterContinental Yokohama Grand",
+        "category": "숙소",
+        "image": "/images/place-placeholder.svg",
+        "description": "미나토미라이 해안가의 호텔 숙박 후보입니다.",
+        "address": "1-1-1 Minatomirai, Nishi-Ku",
+        "duration": "숙박 일정에 맞춰 지정",
+        "cost": "숙박일·객실·공식 안내에서 확인",
+        "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+        "lat": 35.4574,
+        "lng": 139.637,
+        "area": "요코하마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Yokohama",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Yokohama&oldid=5388687",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "yokohama-balance-e8dc60870f",
+        "cityId": "yokohama",
+        "name": "호텔 뉴 그랜드",
+        "english": "Hotel New Grand",
+        "category": "숙소",
+        "image": "/images/place-placeholder.svg",
+        "description": "야마시타 공원과 가까운 클래식한 호텔입니다.",
+        "address": "10, Yamashita-cho",
+        "duration": "숙박 일정에 맞춰 지정",
+        "cost": "숙박일·객실·공식 안내에서 확인",
+        "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+        "lat": 35.4451,
+        "lng": 139.6495,
+        "area": "요코하마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Yokohama",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Yokohama&oldid=5388687",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "yokohama-balance-7c6f2de20d",
+        "cityId": "yokohama",
+        "name": "다운비트",
+        "english": "Downbeat",
+        "category": "바·공연",
+        "image": "/images/place-placeholder.svg",
+        "description": "레코드 컬렉션의 재즈 음악을 즐길 수 있는 바입니다.",
+        "address": "Miyamoto Bldg 2F 1-43 Hanabusacho, Naku-ku 231-0052 Sakuragicho",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "공연 일정·입장 연령·드레스 코드·입장료와 최소 주문 조건을 방문 전 확인하세요.",
+        "area": "요코하마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Yokohama",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Yokohama&oldid=5388687",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "yokohama-balance-5b5f770c23",
+        "cityId": "yokohama",
+        "name": "윈드재머",
+        "english": "Windjammer",
+        "category": "바·공연",
+        "image": "/images/place-placeholder.svg",
+        "description": "차이나타운 주변에서 재즈와 음료를 함께 즐기는 바입니다.",
+        "address": "Toraku Bldg 1F, Yamashita-cho, Naka-ku",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "공연 일정·입장 연령·드레스 코드·입장료와 최소 주문 조건을 방문 전 확인하세요.",
+        "area": "요코하마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Yokohama",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Yokohama&oldid=5388687",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "yokohama-balance-a79dcf0376",
+        "cityId": "yokohama",
+        "name": "미쓰이 아울렛 파크 요코하마 베이사이드",
+        "english": "Mitsui Outlet Park Yokohama Bayside · 三井アウトレットパーク横浜ベイサイド",
+        "category": "쇼핑",
+        "image": "/images/place-placeholder.svg",
+        "description": "요코하마 남쪽 해안의 아울렛 쇼핑 공간입니다.",
+        "address": "요코하마, 요코하마",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "품목과 매장별 운영시간을 확인하고 구입할 물건을 정해 둘러보세요.",
+        "lat": 35.3795,
+        "lng": 139.646389,
+        "area": "요코하마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Yokohama",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Yokohama&oldid=5388687",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 buy 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "yokohama-balance-79f267cf0d",
+        "cityId": "yokohama",
+        "name": "미나토미라이 도큐 스퀘어",
+        "english": "Minatomirai Tokyu Square · みなとみらい東急スクエア",
+        "category": "쇼핑",
+        "image": "/images/place-placeholder.svg",
+        "description": "미나토미라이역과 연결된 쇼핑 공간입니다.",
+        "address": "요코하마, 요코하마",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "품목과 매장별 운영시간을 확인하고 구입할 물건을 정해 둘러보세요.",
+        "area": "요코하마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Yokohama",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Yokohama&oldid=5388687",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 buy 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "yokohama-balance-2c62415a4f",
+        "cityId": "yokohama",
+        "name": "요코하마 미나토미라이 만요 클럽",
+        "english": "Manyou Club",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "미나토미라이에서 온천과 휴식을 즐길 수 있는 시설입니다.",
+        "address": "요코하마, 요코하마",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "운영 회차·예약·참가 조건을 확인하세요. 물놀이와 야외 활동은 당일 날씨·안전 안내를 따르세요.",
+        "area": "요코하마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Yokohama",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Yokohama&oldid=5388687",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 do 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "id": "yokohama-overview",
+        "title": "도시 소개",
+        "body": "도쿄에서 왕복할지 요코하마에 숙박할지부터 정하세요. 항구권과 가마쿠라 근교를 같은 짧은 하루에 넣지 않는 편이 좋습니다."
+      },
+      {
+        "id": "yokohama-before",
+        "title": "출발 전 준비",
+        "body": "컵누들 뮤지엄 체험은 전시 관람과 예약 조건이 다른지 확인하세요.\n\n크루즈·전망대는 날씨에 따른 변경과 취소 조건을 확인하세요."
+      },
+      {
+        "id": "yokohama-arrival",
+        "title": "공항과 시내 이동",
+        "body": "도쿄에서 이동: 출발역과 사쿠라기초·요코하마·모토마치추카가이 중 실제 목적지에 맞는 역을 확인하세요.\n\n항구 산책: 해안 동선을 한 방향으로 이어가고, 날씨가 나쁘면 철도와 실내 방문으로 바꾸세요."
+      },
+      {
+        "id": "yokohama-stay",
+        "title": "숙소 지역 선택",
+        "body": "사쿠라기초·미나토미라이: 항구와 야경을 중심으로 걸을 때 비교하세요.\n\n요코하마역 주변: 도쿄·공항 이동이 많을 때 편의를 비교하되 관광지까지 추가 이동을 계산하세요."
+      },
+      {
+        "id": "yokohama-plan",
+        "title": "일정 계획",
+        "body": "반나절: 미나토미라이와 가까운 창고 지역만 묶으세요.\n\n하루 이상: 항구 하루와 가마쿠라 같은 근교 하루를 분리하세요."
+      },
+      {
+        "id": "yokohama-notes",
+        "title": "현장 팁",
+        "body": "항구 전체를 걷는 거리는 생각보다 길 수 있어 동행자의 보행량을 기준으로 줄이세요.\n\n가마쿠라 장소도 목록에 있지만 요코하마 도심의 도보 명소는 아닙니다."
+      },
+      {
+        "id": "yokohama-rain",
+        "title": "비 오는 날",
+        "body": "컵누들 뮤지엄이나 아카렌가 창고 등 가까운 실내 장소를 중심으로 고르세요."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Japan-guide · 요코하마",
+        "url": "https://www.japan-guide.com/e/e2156.html",
+        "accessedAt": "2026-10-15"
+      }
+    ],
+    "status": "published",
+    "requestId": null,
+    "createdAt": "2026-10-15T00:00:00.000Z",
+    "updatedAt": "2026-10-15T00:00:00.000Z",
+    "publishedAt": "2026-10-15T00:00:00.000Z"
+  },
+  "practicalGuide": {
+    "cityId": "yokohama",
+    "firstVisit": "도쿄에서 왕복할지 요코하마에 숙박할지부터 정하세요. 항구권과 가마쿠라 근교를 같은 짧은 하루에 넣지 않는 편이 좋습니다.",
+    "bases": [
+      {
+        "name": "사쿠라기초·미나토미라이",
+        "advice": "항구와 야경을 중심으로 걸을 때 비교하세요."
+      },
+      {
+        "name": "요코하마역 주변",
+        "advice": "도쿄·공항 이동이 많을 때 편의를 비교하되 관광지까지 추가 이동을 계산하세요."
+      }
+    ],
+    "arrival": [
+      {
+        "name": "도쿄에서 이동",
+        "advice": "출발역과 사쿠라기초·요코하마·모토마치추카가이 중 실제 목적지에 맞는 역을 확인하세요."
+      },
+      {
+        "name": "항구 산책",
+        "advice": "해안 동선을 한 방향으로 이어가고, 날씨가 나쁘면 철도와 실내 방문으로 바꾸세요."
+      }
+    ],
+    "timePlan": [
+      {
+        "name": "반나절",
+        "advice": "미나토미라이와 가까운 창고 지역만 묶으세요."
+      },
+      {
+        "name": "하루 이상",
+        "advice": "항구 하루와 가마쿠라 같은 근교 하루를 분리하세요."
+      }
+    ],
+    "before": [
+      "컵누들 뮤지엄 체험은 전시 관람과 예약 조건이 다른지 확인하세요.",
+      "크루즈·전망대는 날씨에 따른 변경과 취소 조건을 확인하세요."
+    ],
+    "pitfalls": [
+      "항구 전체를 걷는 거리는 생각보다 길 수 있어 동행자의 보행량을 기준으로 줄이세요.",
+      "가마쿠라 장소도 목록에 있지만 요코하마 도심의 도보 명소는 아닙니다."
+    ],
+    "rainPlan": "컵누들 뮤지엄이나 아카렌가 창고 등 가까운 실내 장소를 중심으로 고르세요.",
+    "courses": [
+      {
+        "id": "yokohama-course-1",
+        "title": "미나토미라이에서 항구로",
+        "pace": "반나절–하루 · 도보",
+        "why": "항구를 따라 이동하는 방향으로 묶었습니다.",
+        "placeIds": [
+          "yokohama-minatomirai",
+          "yokohama-review-563f511596a3",
+          "yokohama-yamashita"
+        ]
+      },
+      {
+        "id": "yokohama-course-2",
+        "title": "차이나타운과 해안",
+        "pace": "반나절 · 도보",
+        "why": "식사 구역과 해안 산책을 가까이 묶습니다.",
+        "placeIds": [
+          "yokohama-chinatown",
+          "yokohama-review-37b6ce32c549",
+          "yokohama-review-258fa4853c59"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "Japan-guide · 요코하마",
+        "url": "https://www.japan-guide.com/e/e2156.html",
+        "checkedAt": "2026-10-15",
+        "status": "read"
+      }
+    ],
+    "researchNote": "여행 안내 본문을 읽고 지역별 계획을 편집했습니다. 코스는 직접 작성한 제안이며 이동시간·예약 가능 여부를 실시간 계산한 결과가 아닙니다."
+  },
+  "plans": {
+    "cityId": "yokohama",
+    "days": [
+      {
+        "id": "yokohama-day-1",
+        "title": "미나토미라이에서 항구로",
+        "pace": "반나절–하루 · 도보",
+        "why": "항구를 따라 이동하는 방향으로 묶었습니다.",
+        "placeIds": [
+          "yokohama-minatomirai",
+          "yokohama-review-563f511596a3",
+          "yokohama-yamashita"
+        ]
+      },
+      {
+        "id": "yokohama-day-2",
+        "title": "차이나타운과 해안",
+        "pace": "반나절 · 도보",
+        "why": "식사 구역과 해안 산책을 가까이 묶습니다.",
+        "placeIds": [
+          "yokohama-chinatown",
+          "yokohama-review-37b6ce32c549",
+          "yokohama-review-258fa4853c59"
+        ]
+      },
+      {
+        "id": "yokohama-day-3",
+        "title": "산케이엔과 야마테 언덕",
+        "pace": "버스·도보",
+        "why": "산케이엔을 먼저 보고 야마테로 이동합니다. 언덕과 정원 관람 사이 휴식을 둡니다.",
+        "placeIds": [
+          "yokohama-review-0a6982dc509e",
+          "yokohama-review-74171e79661d",
+          "yokohama-review-6977183db05b"
+        ]
+      },
+      {
+        "id": "yokohama-day-4",
+        "title": "근교 가마쿠라의 대불과 해안",
+        "pace": "철도·도보",
+        "why": "가마쿠라는 하루를 따로 잡습니다. 하세 구역 관람 후 유이가하마에서 쉽니다.",
+        "placeIds": [
+          "yokohama-review-1b18ef5a0935",
+          "yokohama-review-8acf1732c325",
+          "yokohama-review-205ba03d7b32"
+        ]
+      },
+      {
+        "id": "yokohama-day-5",
+        "title": "미나토미라이 체험과 전망",
+        "pace": "철도·도보",
+        "why": "실내 체험과 놀이·전망을 같은 구역에 묶고 컵누들 체험 예약을 먼저 확인합니다.",
+        "placeIds": [
+          "yokohama-review-f6e5358087f5",
+          "yokohama-review-040c8c2ae64e",
+          "yokohama-review-0870e7f21066"
+        ]
+      }
+    ]
+  }
+}

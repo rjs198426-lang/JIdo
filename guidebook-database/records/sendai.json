@@ -1,0 +1,1822 @@
+{
+  "guide": {
+    "id": "sendai",
+    "scope": "city",
+    "city": {
+      "id": "sendai",
+      "name": "센다이",
+      "english": "SENDAI · 仙台",
+      "country": "일본",
+      "region": "일본",
+      "image": "/images/place-sendai-castle.jpg",
+      "photoCredit": {
+        "file": "/images/place-sendai-castle.jpg",
+        "author": "掬茶",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Waki-yagura_of_Sendai_Castle_20220910b.jpg",
+        "verifiedAt": "2026-10-14"
+      },
+      "tagline": "가로수길과 다테 가문 유적",
+      "description": "센다이역을 거점으로 도심과 역사 유적을 나눠 계획할 수 있는 도호쿠의 주요 도시입니다.",
+      "tags": [
+        "도시 산책",
+        "자유여행"
+      ],
+      "flight": "센다이공항",
+      "currency": "일본 엔 · JPY",
+      "timeDifference": "한국과 시차 없음",
+      "season": "계절별 일정 선택",
+      "accent": "#eaf4ef"
+    },
+    "places": [
+      {
+        "id": "sendai-castle",
+        "cityId": "sendai",
+        "name": "센다이성 터",
+        "english": "Sendai (Aoba) Castle Ruins · 仙台城跡",
+        "category": "관광",
+        "image": "/images/place-sendai-castle.jpg",
+        "photoCredit": {
+          "file": "/images/place-sendai-castle.jpg",
+          "author": "掬茶",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Waki-yagura_of_Sendai_Castle_20220910b.jpg",
+          "verifiedAt": "2026-10-14"
+        },
+        "description": "센다이의 박물관·전시 공간.",
+        "address": "센다이, 센다이",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 38.252202,
+        "lng": 140.855978,
+        "area": "센다이",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Sendai",
+            "url": "https://en.wikivoyage.org/wiki/Sendai#Sendai_%28Aoba%29_Castle_Ruins",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sendai-jozenji",
+        "cityId": "sendai",
+        "name": "조젠지 거리",
+        "english": "Jozenji-dori · 定禅寺通",
+        "category": "관광",
+        "image": "/images/place-sendai-jozenji.jpg",
+        "photoCredit": {
+          "file": "/images/place-sendai-jozenji.jpg",
+          "author": "Los688",
+          "license": "Public domain",
+          "licenseUrl": "https://commons.wikimedia.org/wiki/File:Jozenji-dori_Avenue_2005.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jozenji-dori_Avenue_2005.jpg",
+          "verifiedAt": "2026-10-14"
+        },
+        "description": "도심의 가로수길입니다. 계절별 행사나 교통 통제는 별도로 확인하세요.",
+        "address": "Jozenjidori, Aoba, Sendai",
+        "duration": "1–2시간",
+        "cost": "시설별 입장 조건 확인",
+        "tip": "도심의 가로수길입니다. 계절별 행사나 교통 통제는 별도로 확인하세요.",
+        "lat": 38.2663,
+        "lng": 140.8678
+      },
+      {
+        "id": "sendai-zuihoden",
+        "cityId": "sendai",
+        "name": "즈이호덴",
+        "english": "Zuihoden · 瑞鳳殿",
+        "category": "관광",
+        "image": "/images/place-sendai-zuihoden.jpg",
+        "photoCredit": {
+          "file": "/images/place-sendai-zuihoden.jpg",
+          "author": "663highland",
+          "license": "CC BY 2.5",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zuiho-den17s3872.jpg",
+          "verifiedAt": "2026-10-14"
+        },
+        "description": "센다이의 박물관·전시 공간. 지역·역사 자료를 살펴볼 수 있습니다.",
+        "address": "23-2, Otamayashita, Aoba-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 38.250526,
+        "lng": 140.866425,
+        "area": "센다이",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Sendai",
+            "url": "https://en.wikivoyage.org/wiki/Sendai#Zuihoden",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sendai-review-e33e65db8ce8",
+        "cityId": "sendai",
+        "name": "즈이간지",
+        "english": "Zuigan-ji Temple · 瑞巌寺",
+        "category": "관광",
+        "image": "/images/commons-069-sendai-review-e33e65db8ce8.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-sendai-review-e33e65db8ce8.jpg",
+          "author": "先従隗始",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Densh%C5%ABzan_Zuigan-ji_Temple_20240505_02.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "근교 · 마쓰시마의 박물관·전시 공간. 지역·역사 자료를 살펴볼 수 있습니다.",
+        "address": "Chōnai-91",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 38.371966,
+        "lng": 141.060209,
+        "area": "근교 · 마쓰시마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Matsushima",
+            "url": "https://en.wikivoyage.org/wiki/Matsushima#Zuigan-ji_Temple",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sendai-review-03093db0a492",
+        "cityId": "sendai",
+        "name": "이시노모리 만화관",
+        "english": "Ishinomori Manga Museum · 石ノ森萬画館, Ishinomori Mangakan",
+        "category": "관광",
+        "image": "/images/commons-069-sendai-review-03093db0a492.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-sendai-review-03093db0a492.jpg",
+          "author": "Ymblanter",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ishinomaki_Mangattan_Museum_seen_from_the_southwest_01.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "근교 · 이시노마키의 박물관·전시 공간.",
+        "address": "2-7 Nakaze",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 38.429631,
+        "lng": 141.31069,
+        "area": "근교 · 이시노마키",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Ishinomaki",
+            "url": "https://en.wikivoyage.org/wiki/Ishinomaki#Ishinomori_Manga_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sendai-review-fd6092c0e653",
+        "cityId": "sendai",
+        "name": "야마가타성 터",
+        "english": "Yamagata Castle · 山形城",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 야마가타의 성·궁전 유적.",
+        "address": "근교 · 야마가타, 센다이",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 38.255272,
+        "lng": 140.330713,
+        "area": "근교 · 야마가타",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Yamagata",
+            "url": "https://en.wikivoyage.org/wiki/Yamagata#Yamagata_Castle",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sendai-review-0ae07fee21b2",
+        "cityId": "sendai",
+        "name": "시로이시성",
+        "english": "Shiroishi Castle · 白石城",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 시로이시의 성·궁전 유적.",
+        "address": "근교 · 시로이시, 센다이",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 38.002647,
+        "lng": 140.617147,
+        "area": "근교 · 시로이시",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Shiroishi",
+            "url": "https://en.wikivoyage.org/wiki/Shiroishi#Shiroishi_Castle",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sendai-review-5a648d9c156f",
+        "cityId": "sendai",
+        "name": "간란테이",
+        "english": "Kanran-tei Pavilion · 観瀾亭",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 마쓰시마의 둘러볼 수 있는 장소.",
+        "address": "근교 · 마쓰시마, 센다이",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 38.369458,
+        "lng": 141.061337,
+        "area": "근교 · 마쓰시마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Matsushima",
+            "url": "https://en.wikivoyage.org/wiki/Matsushima#Kanran-tei_Pavilion",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sendai-review-6b6fa15ebb58",
+        "cityId": "sendai",
+        "name": "모가미 요시아키 역사관",
+        "english": "Mogami Yoshiaki Historical Museum · 最上義光歴史館",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 야마가타의 박물관·전시 공간. 지역·역사 자료를 살펴볼 수 있습니다.",
+        "address": "1-53 Omotecho",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 38.25511,
+        "lng": 140.333394,
+        "area": "근교 · 야마가타",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Yamagata",
+            "url": "https://en.wikivoyage.org/wiki/Yamagata#Mogami_Yoshiaki_Historical_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sendai-review-9b1df5a94ae2",
+        "cityId": "sendai",
+        "name": "오사키 하치만구",
+        "english": "Ōsaki Hachiman Shrine · 大崎八幡宮",
+        "category": "관광",
+        "image": "/images/commons-069-sendai-review-9b1df5a94ae2.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-sendai-review-9b1df5a94ae2.jpg",
+          "author": "lumoplank",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sendai_-_Sendai6182.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "센다이의 신사·사당.",
+        "address": "센다이, 센다이",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 38.2722,
+        "lng": 140.845,
+        "area": "센다이",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Sendai",
+            "url": "https://en.wikivoyage.org/wiki/Sendai#%C5%8Csaki_Hachiman_Shrine",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sendai-review-5362a5b1a4b7",
+        "cityId": "sendai",
+        "name": "후쿠우라 섬",
+        "english": "Fukuura Island · 福浦島; Fukuura-jima",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 마쓰시마의 시장·쇼핑 공간.",
+        "address": "근교 · 마쓰시마, 센다이",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 38.366711,
+        "lng": 141.070945,
+        "area": "근교 · 마쓰시마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Matsushima",
+            "url": "https://en.wikivoyage.org/wiki/Matsushima#Fukuura_Island",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sendai-review-a767baf65e2b",
+        "cityId": "sendai",
+        "name": "야마가타현립 박물관",
+        "english": "Yamagata Prefectural Museum · 山形県立博物館",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 야마가타의 박물관·전시 공간. 지역·역사 자료를 살펴볼 수 있습니다.",
+        "address": "1-8 Kajo-machi",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 38.254407,
+        "lng": 140.329457,
+        "area": "근교 · 야마가타",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Yamagata",
+            "url": "https://en.wikivoyage.org/wiki/Yamagata#Yamagata_Prefectural_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sendai-review-773aacc448d9",
+        "cityId": "sendai",
+        "name": "센다이 대관음",
+        "english": "Statue of Kannon (the Bodhisattva of Compassion) · 仙台大観音, Sendai Daikannon",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "센다이의 사찰.",
+        "address": "Izumi-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 38.3007,
+        "lng": 140.8236,
+        "area": "센다이",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Sendai",
+            "url": "https://en.wikivoyage.org/wiki/Sendai#Statue_of_Kannon_%28the_Bodhisattva_of_Compassion%29",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sendai-review-ef0263a8582c",
+        "cityId": "sendai",
+        "name": "더 뮤지엄 마쓰시마",
+        "english": "The Museum Matsushima · ザ・ミュージアムMatsushima",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 마쓰시마의 박물관·전시 공간.",
+        "address": "근교 · 마쓰시마, 센다이",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 38.372209,
+        "lng": 141.066847,
+        "area": "근교 · 마쓰시마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Matsushima",
+            "url": "https://en.wikivoyage.org/wiki/Matsushima#The_Museum_Matsushima",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sendai-review-7c5989477945",
+        "cityId": "sendai",
+        "name": "분쇼칸",
+        "english": "Bunshōkan · 文翔館",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 야마가타의 둘러볼 수 있는 장소.",
+        "address": "근교 · 야마가타, 센다이",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 38.256897,
+        "lng": 140.341246,
+        "area": "근교 · 야마가타",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Yamagata",
+            "url": "https://en.wikivoyage.org/wiki/Yamagata#Bunsh%C5%8Dkan",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sendai-review-44f14b9a624d",
+        "cityId": "sendai",
+        "name": "센다이 미디어테크",
+        "english": "Sendai Mediatheque · せんだいメディアテーク",
+        "category": "관광",
+        "image": "/images/commons-069-sendai-review-44f14b9a624d.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-sendai-review-44f14b9a624d.jpg",
+          "author": "掬茶",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Interior_of_Sendai_Mediatheque_202512.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "센다이의 온천·목욕 시설.",
+        "address": "Aoba-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 38.26556,
+        "lng": 140.86556,
+        "area": "센다이",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Sendai",
+            "url": "https://en.wikivoyage.org/wiki/Sendai#Sendai_Mediatheque",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sendai-review-9d8b55998c2b",
+        "cityId": "sendai",
+        "name": "후지타 교헤이 유리미술관",
+        "english": "Kyohei Fujita Museum of Glass · 藤田喬平ガラス美術館",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 마쓰시마의 박물관·전시 공간.",
+        "address": "Hama-1-4 Takagi",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 38.376946,
+        "lng": 141.071972,
+        "area": "근교 · 마쓰시마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Matsushima",
+            "url": "https://en.wikivoyage.org/wiki/Matsushima#Kyohei_Fujita_Museum_of_Glass",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sendai-review-264383ea809c",
+        "cityId": "sendai",
+        "name": "야마가타 미술관",
+        "english": "Yamagata Museum of Art · 山形美術館 yamagata bijutsukan",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 야마가타의 박물관·전시 공간.",
+        "address": "근교 · 야마가타, 센다이",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 38.25588,
+        "lng": 140.332402,
+        "area": "근교 · 야마가타",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Yamagata",
+            "url": "https://en.wikivoyage.org/wiki/Yamagata#Yamagata_Museum_of_Art",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sendai-review-40bec75c034a",
+        "cityId": "sendai",
+        "name": "린노지",
+        "english": "Rinno-ji · 輪王寺",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "센다이의 사찰.",
+        "address": "1-14-1 Kitayama, Aoba-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 38.283114,
+        "lng": 140.858653,
+        "area": "센다이",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Sendai",
+            "url": "https://en.wikivoyage.org/wiki/Sendai#Rinno-ji",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sendai-review-5b4f677919ee",
+        "cityId": "sendai",
+        "name": "고다이도",
+        "english": "Godaido Hall · 五大堂",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 마쓰시마의 둘러볼 수 있는 장소.",
+        "address": "Chonai-111",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 38.369736,
+        "lng": 141.064258,
+        "area": "근교 · 마쓰시마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Matsushima",
+            "url": "https://en.wikivoyage.org/wiki/Matsushima#Godaido_Hall",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sendai-review-02727291eec4",
+        "cityId": "sendai",
+        "name": "교도칸",
+        "english": "Kyōdokan · 山形市郷土館",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 야마가타의 수변·항구 산책 장소.",
+        "address": "근교 · 야마가타, 센다이",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 38.253131,
+        "lng": 140.328503,
+        "area": "근교 · 야마가타",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Yamagata",
+            "url": "https://en.wikivoyage.org/wiki/Yamagata#Ky%C5%8Ddokan",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sendai-review-d0401e80b058",
+        "cityId": "sendai",
+        "name": "에스에스30 빌딩 전망라운지",
+        "english": "SS30 Building Observation Lounge",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "센다이의 전망 장소.",
+        "address": "Aoba-ku, Chūō, 4 Chome",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 38.256222,
+        "lng": 140.878059,
+        "area": "센다이",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Sendai",
+            "url": "https://en.wikivoyage.org/wiki/Sendai#SS30_Building_Observation_Lounge",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sendai-review-1995e85edc6e",
+        "cityId": "sendai",
+        "name": "엔쓰인",
+        "english": "Entsū-in",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 마쓰시마의 사찰.",
+        "address": "근교 · 마쓰시마, 센다이",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 38.371111,
+        "lng": 141.059722,
+        "area": "근교 · 마쓰시마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Matsushima",
+            "url": "https://en.wikivoyage.org/wiki/Matsushima#Ents%C5%AB-in",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sendai-review-eae945a22a8d",
+        "cityId": "sendai",
+        "name": "세이후소",
+        "english": "Seifū-sō · 清風荘",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 야마가타의 사찰.",
+        "address": "근교 · 야마가타, 센다이",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 38.245634,
+        "lng": 140.34458,
+        "area": "근교 · 야마가타",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Yamagata",
+            "url": "https://en.wikivoyage.org/wiki/Yamagata#Seif%C5%AB-s%C5%8D",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sendai-review-634edee22d56",
+        "cityId": "sendai",
+        "name": "센다이시 박물관",
+        "english": "Sendai City Museum · 仙台市博物館",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "센다이의 박물관·전시 공간. 지역·역사 자료를 살펴볼 수 있습니다.",
+        "address": "Kawauchi 26",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 38.2561,
+        "lng": 140.85694,
+        "area": "센다이",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Sendai",
+            "url": "https://en.wikivoyage.org/wiki/Sendai#Sendai_City_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sendai-review-b7a1f3a3966a",
+        "cityId": "sendai",
+        "name": "야마가타대학교 박물관",
+        "english": "Museum of Yamagata University · 山形大学附属博物館",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 야마가타의 박물관·전시 공간. 과학 전시를 살펴볼 수 있습니다.",
+        "address": "근교 · 야마가타, 센다이",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 38.246554,
+        "lng": 140.349061,
+        "area": "근교 · 야마가타",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Yamagata",
+            "url": "https://en.wikivoyage.org/wiki/Yamagata#Museum_of_Yamagata_University",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sendai-review-86a925eb47d0",
+        "cityId": "sendai",
+        "name": "야기야마 동물원",
+        "english": "Yagiyama Zoo · 八木山動物公園",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "센다이의 동물 관람 시설.",
+        "address": "센다이, 센다이",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 38.244797,
+        "lng": 140.845297,
+        "area": "센다이",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Sendai",
+            "url": "https://en.wikivoyage.org/wiki/Sendai#Yagiyama_Zoo",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sendai-review-d54da8e5eda4",
+        "cityId": "sendai",
+        "name": "가라마쓰 관음당",
+        "english": "Karamatsu Kannondo · 唐松観音堂",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 야마가타의 사찰.",
+        "address": "근교 · 야마가타, 센다이",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 38.244292,
+        "lng": 140.3913,
+        "area": "근교 · 야마가타",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Yamagata",
+            "url": "https://en.wikivoyage.org/wiki/Yamagata#Karamatsu_Kannondo",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sendai-review-91501ce96dc2",
+        "cityId": "sendai",
+        "name": "반스이 소도",
+        "english": "Bansui Sōdō · 晩翠草堂",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "센다이의 성·궁전 유적.",
+        "address": "〒980-0804 宮城県仙台市青葉区大町1-2-2",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 38.259461,
+        "lng": 140.86935,
+        "area": "센다이",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Sendai",
+            "url": "https://en.wikivoyage.org/wiki/Sendai#Bansui_S%C5%8Dd%C5%8D",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sendai-review-945455a2cef5",
+        "cityId": "sendai",
+        "name": "야마가타현 향토관 문학전시관",
+        "english": "Yamagata Prefectural Arts and Literature Museum · 山形県芸文美術館 yamagataken geibun bijutsukan",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 야마가타의 박물관·전시 공간.",
+        "address": "Nana Beans 6F",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 38.253586,
+        "lng": 140.339918,
+        "area": "근교 · 야마가타",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Yamagata",
+            "url": "https://en.wikivoyage.org/wiki/Yamagata#Yamagata_Prefectural_Arts_and_Literature_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sendai-review-ee4194bd113c",
+        "cityId": "sendai",
+        "name": "야지로 고케시 마을",
+        "english": "Yajiro Kokeshi Village · 弥治郎こけし村",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 시로이시의 시장·쇼핑 공간.",
+        "address": "근교 · 시로이시, 센다이",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 38.035397,
+        "lng": 140.572714,
+        "area": "근교 · 시로이시",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Shiroishi",
+            "url": "https://en.wikivoyage.org/wiki/Shiroishi#Yajiro_Kokeshi_Village",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sendai-review-1fcdf4dc2c51",
+        "cityId": "sendai",
+        "name": "센다이시 도미자와 유적 보존관",
+        "english": "The Museum of the Forest of Depths of the Earth · 地底の森ミュージアム",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "센다이의 박물관·전시 공간.",
+        "address": "4-2-1 Nagamachi-Minami, Taihaku-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 38.222991,
+        "lng": 140.872715,
+        "area": "센다이",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Sendai",
+            "url": "https://en.wikivoyage.org/wiki/Sendai#The_Museum_of_the_Forest_of_Depths_of_the_Earth",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sendai-review-ac158bb4e742",
+        "cityId": "sendai",
+        "name": "야마가타시 산업역사자료관",
+        "english": "Yamagata City Industrial History Museum · 山形市産業歴史資料館",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 야마가타의 박물관·전시 공간. 지역·역사 자료를 살펴볼 수 있습니다.",
+        "address": "10 Imono-machi",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 38.230587,
+        "lng": 140.289475,
+        "area": "근교 · 야마가타",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Yamagata",
+            "url": "https://en.wikivoyage.org/wiki/Yamagata#Yamagata_City_Industrial_History_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sendai-review-2eb4abaa586b",
+        "cityId": "sendai",
+        "name": "도호쿠대학교 식물원",
+        "english": "Tohoku University Botanical Gardens · 東北大学植物園",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "센다이의 공원·정원.",
+        "address": "센다이, 센다이",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 38.25597,
+        "lng": 140.85147,
+        "area": "센다이",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Sendai",
+            "url": "https://en.wikivoyage.org/wiki/Sendai#Tohoku_University_Botanical_Gardens",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sendai-review-1a3e76c0474b",
+        "cityId": "sendai",
+        "name": "구니이 세이카이 현대서예기념관",
+        "english": "Seikai Kunii Contemporary Calligraphy Memorial Museum · 國井誠海記念館",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 야마가타의 박물관·전시 공간.",
+        "address": "2-7-41 Kiyozumi-machi",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 38.258057,
+        "lng": 140.312974,
+        "area": "근교 · 야마가타",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Yamagata",
+            "url": "https://en.wikivoyage.org/wiki/Yamagata#Seikai_Kunii_Contemporary_Calligraphy_Memorial_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sendai-review-7c1ed4c32877",
+        "cityId": "sendai",
+        "name": "오타카모리",
+        "english": "Ōtakamori · 大高森",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 마쓰시마의 섬·바다 풍경.",
+        "address": "근교 · 마쓰시마, 센다이",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 38.340026,
+        "lng": 141.152288,
+        "area": "근교 · 마쓰시마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Matsushima",
+            "url": "https://en.wikivoyage.org/wiki/Matsushima#%C5%8Ctakamori",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sendai-review-1794574a8824",
+        "cityId": "sendai",
+        "name": "도호쿠대학교 자연사박물관",
+        "english": "Tohoku University Museum of Natural History · 東北大学総合学術博物館, Tōhoku Daigaku Sōgō Gakujutsu Hakubutsukan",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "센다이의 박물관·전시 공간. 지역·역사 자료를 살펴볼 수 있습니다.",
+        "address": "센다이, 센다이",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 38.257917,
+        "lng": 140.837333,
+        "area": "센다이",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Sendai",
+            "url": "https://en.wikivoyage.org/wiki/Sendai#Tohoku_University_Museum_of_Natural_History",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sendai-review-f294b1b3fd83",
+        "cityId": "sendai",
+        "name": "야마데라",
+        "english": "Yamadera · 山寺",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 야마가타의 사찰.",
+        "address": "근교 · 야마가타, 센다이",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 38.311849,
+        "lng": 140.434794,
+        "area": "근교 · 야마가타",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Yamagata",
+            "url": "https://en.wikivoyage.org/wiki/Yamagata#Yamadera",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sendai-review-2f370aa671fa",
+        "cityId": "sendai",
+        "name": "산쿄자와 전기백년관",
+        "english": "Sankyozawa Electric Centennial Museum (Sankyozawa 100 Year Electric Historical Center) · Tohokudenryoku Sankyozawa Denki Hyakunenkan, 東北電力 三居沢電気百年館",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "센다이의 박물관·전시 공간. 지역·역사 자료를 살펴볼 수 있습니다.",
+        "address": "16 aza Sankyozawa, Aramaki, Aoba-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 38.267057,
+        "lng": 140.840306,
+        "area": "센다이",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Sendai",
+            "url": "https://en.wikivoyage.org/wiki/Sendai#Sankyozawa_Electric_Centennial_Museum_%28Sankyozawa_100_Year_Electric_Historical_Center%29",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sendai-review-e5df83e7ad0f",
+        "cityId": "sendai",
+        "name": "다루미즈 유적",
+        "english": "Tarumizu Ruins · 垂水遺跡",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 야마가타의 산·언덕 산책 장소.",
+        "address": "근교 · 야마가타, 센다이",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 38.317249,
+        "lng": 140.442524,
+        "area": "근교 · 야마가타",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Yamagata",
+            "url": "https://en.wikivoyage.org/wiki/Yamagata#Tarumizu_Ruins",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sendai-review-16328300397b",
+        "cityId": "sendai",
+        "name": "쓰리엠 센다이시 과학관",
+        "english": "3M Sendai City Science Museum",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "센다이의 박물관·전시 공간. 지역·역사 자료를 살펴볼 수 있습니다.",
+        "address": "4-1 Daihara Forest Park, Aoba-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 38.298996,
+        "lng": 140.8834,
+        "area": "센다이",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Sendai",
+            "url": "https://en.wikivoyage.org/wiki/Sendai#3M_Sendai_City_Science_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sendai-review-1783c63e14c7",
+        "cityId": "sendai",
+        "name": "야마데라 고토 미술관",
+        "english": "Yamadera Goto Museum of Art · 山寺後藤美術館 yamadera goto bijutsukan",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 야마가타의 박물관·전시 공간.",
+        "address": "근교 · 야마가타, 센다이",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 38.308725,
+        "lng": 140.439563,
+        "area": "근교 · 야마가타",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Yamagata",
+            "url": "https://en.wikivoyage.org/wiki/Yamagata#Yamadera_Goto_Museum_of_Art",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sendai-review-50e59bf2d996",
+        "cityId": "sendai",
+        "name": "야마데라 바쇼 기념관",
+        "english": "Yamadera Bashō Museum · 山寺芭蕉記念館",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 야마가타의 박물관·전시 공간.",
+        "address": "근교 · 야마가타, 센다이",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 38.309551,
+        "lng": 140.438982,
+        "area": "근교 · 야마가타",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Yamagata",
+            "url": "https://en.wikivoyage.org/wiki/Yamagata#Yamadera_Bash%C5%8D_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sendai-review-236bb6299574",
+        "cityId": "sendai",
+        "name": "모미지가와 계곡",
+        "english": "Momijigawa Ravine · 紅葉川渓谷",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 야마가타의 폭포.",
+        "address": "근교 · 야마가타, 센다이",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 38.332987,
+        "lng": 140.496093,
+        "area": "근교 · 야마가타",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Yamagata",
+            "url": "https://en.wikivoyage.org/wiki/Yamagata#Momijigawa_Ravine",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sendai-review-c4879f13b214",
+        "cityId": "sendai",
+        "name": "마쓰시마 이탈리안 토토",
+        "english": "Matsushima Italian Toto · 松島イタリアン トト",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 마쓰시마의 스시을 다루는 식당.",
+        "address": "근교 · 마쓰시마, 센다이",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 38.368604,
+        "lng": 141.059153,
+        "area": "근교 · 마쓰시마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Matsushima",
+            "url": "https://en.wikivoyage.org/wiki/Matsushima#Matsushima_Italian_Toto",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sendai-review-8919f476c46e",
+        "cityId": "sendai",
+        "name": "베니랜드",
+        "english": "Benyland",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "센다이의 공원·정원.",
+        "address": "Yagiyama",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 38.2467,
+        "lng": 140.8486,
+        "area": "센다이",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Sendai",
+            "url": "https://en.wikivoyage.org/wiki/Sendai#Benyland",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sendai-review-08284bf31044",
+        "cityId": "sendai",
+        "name": "산쿄자와 교통공원",
+        "english": "Sankyozawa Traffic Park · 三居沢交通公園, Minamikoizumi Traffic Park",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "센다이의 공원·정원.",
+        "address": "1 Sankyozawa Aramakiaza, Aoba-ku, Sendai",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 38.266515,
+        "lng": 140.840983,
+        "area": "센다이",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Sendai",
+            "url": "https://en.wikivoyage.org/wiki/Sendai#Sankyozawa_Traffic_Park",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sendai-review-82b43b28c0fe",
+        "cityId": "sendai",
+        "name": "야마가타 전통 고케시관",
+        "english": "Yamagata Traditional Kokeshikan · やまがた伝統こけし館 yamagata dentō kokeshikan",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 야마가타의 둘러볼 수 있는 장소.",
+        "address": "Nana Beans 5F",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 38.253583,
+        "lng": 140.33991,
+        "area": "근교 · 야마가타",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Yamagata",
+            "url": "https://en.wikivoyage.org/wiki/Yamagata#Yamagata_Traditional_Kokeshikan",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sendai-review-47fc0f351268",
+        "cityId": "sendai",
+        "name": "히라가 고케시점",
+        "english": "Hiraga Kokeshi Store · 平賀こけし店",
+        "category": "쇼핑",
+        "image": "/images/place-placeholder.svg",
+        "description": "센다이의 둘러볼 수 있는 장소.",
+        "address": "센다이, 센다이",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 38.335804,
+        "lng": 140.612292,
+        "area": "센다이",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Sendai",
+            "url": "https://en.wikivoyage.org/wiki/Sendai#Hiraga_Kokeshi_Store",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sendai-review-b0d8f73d0257",
+        "cityId": "sendai",
+        "name": "주이치야",
+        "english": "Juichiya · 十一屋",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 야마가타의 시장·쇼핑 공간.",
+        "address": "1 Chome−4-32 Nanokamachi",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 38.253476,
+        "lng": 140.338906,
+        "area": "근교 · 야마가타",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Yamagata",
+            "url": "https://en.wikivoyage.org/wiki/Yamagata#Juichiya",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sendai-review-af0b95b98d2b",
+        "cityId": "sendai",
+        "name": "리큐",
+        "english": "Rikyu · 利久",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "센다이의 식사 장소.",
+        "address": "Aoba-ku Chuo 1-6-1",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 38.262684,
+        "lng": 140.880312,
+        "area": "센다이",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Sendai",
+            "url": "https://en.wikivoyage.org/wiki/Sendai#Rikyu",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "sendai-balance-f62377bd2a",
+        "cityId": "sendai",
+        "name": "오뎅 산키치",
+        "english": "Oden Sankichi · おでん三吉",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "여러 재료를 끓여 내는 일본식 오뎅을 맛볼 수 있는 식당입니다.",
+        "address": "4-10-8 Ichiban-cho, Aoba-ku",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "지점과 주문 방식, 식단 제한을 확인하고 식사 일정에 넣어 보세요. 메뉴·영업시간은 방문 전 확인하세요.",
+        "lat": 38.265437,
+        "lng": 140.869738,
+        "area": "센다이",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Sendai",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Sendai&oldid=5374266",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 eat 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "sendai-balance-5f652c3573",
+        "cityId": "sendai",
+        "name": "가키토쿠",
+        "english": "Kaki Toku · かき徳",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "미야기 지역의 굴 요리를 맛보는 식당입니다.",
+        "address": "4-0-1 Ichiban-cho, Aoba-ku",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "지점과 주문 방식, 식단 제한을 확인하고 식사 일정에 넣어 보세요. 메뉴·영업시간은 방문 전 확인하세요.",
+        "lat": 38.264754,
+        "lng": 140.870284,
+        "area": "센다이",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Sendai",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Sendai&oldid=5374266",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 eat 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "sendai-balance-9630f509fb",
+        "cityId": "sendai",
+        "name": "록 카페 피터팬",
+        "english": "Rock Cafe Peter Pan",
+        "category": "카페",
+        "image": "/images/place-placeholder.svg",
+        "description": "록 음악 컬렉션과 커피를 함께 즐길 수 있는 카페입니다.",
+        "address": "2 Chome-6-1 Kokubuncho, Aoba-ku",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "산책이나 쇼핑 사이에 쉬어갈 후보입니다. 좌석 이용·마지막 주문 시간은 방문 전 확인하세요.",
+        "area": "센다이",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Sendai",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Sendai&oldid=5374266",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "sendai-balance-36a0c66636",
+        "cityId": "sendai",
+        "name": "센다이 커피 스탠드",
+        "english": "Sendai Coffee Stand",
+        "category": "카페",
+        "image": "/images/place-placeholder.svg",
+        "description": "고쿠분초 골목에서 커피를 고를 수 있는 작은 카페입니다.",
+        "address": "Kokubuncho 1 Chome-3-１２, Aoba-ku",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "산책이나 쇼핑 사이에 쉬어갈 후보입니다. 좌석 이용·마지막 주문 시간은 방문 전 확인하세요.",
+        "area": "센다이",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Sendai",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Sendai&oldid=5374266",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "sendai-balance-71dac6a5fe",
+        "cityId": "sendai",
+        "name": "호텔 메트로폴리탄 센다이",
+        "english": "Hotel Metropolitan Sendai · ホテルメトロポリタン仙台",
+        "category": "숙소",
+        "image": "/images/place-placeholder.svg",
+        "description": "센다이역 주변의 호텔 숙박 후보입니다.",
+        "address": "1-1-1 Chuo, Aoba-ku",
+        "duration": "숙박 일정에 맞춰 지정",
+        "cost": "숙박일·객실·공식 안내에서 확인",
+        "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+        "area": "센다이",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Sendai",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Sendai&oldid=5374266",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "sendai-balance-ea6b21a419",
+        "cityId": "sendai",
+        "name": "웨스틴 센다이",
+        "english": "Westin Hotel Sendai",
+        "category": "숙소",
+        "image": "/images/place-placeholder.svg",
+        "description": "센다이 도심 고층 건물에 자리한 호텔입니다.",
+        "address": "1-9-1 Ichibancho, Aoba-ku",
+        "duration": "숙박 일정에 맞춰 지정",
+        "cost": "숙박일·객실·공식 안내에서 확인",
+        "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+        "lat": 38.256444,
+        "lng": 140.876194,
+        "area": "센다이",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Sendai",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Sendai&oldid=5374266",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "sendai-balance-0ac426a1ca",
+        "cityId": "sendai",
+        "name": "빌레반",
+        "english": "Vilevan",
+        "category": "바·공연",
+        "image": "/images/place-placeholder.svg",
+        "description": "재즈와 음료를 함께 즐길 수 있는 바입니다.",
+        "address": "센다이, 센다이",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "공연 일정·입장 연령·드레스 코드·입장료와 최소 주문 조건을 방문 전 확인하세요.",
+        "area": "센다이",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Sendai",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Sendai&oldid=5374266",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "sendai-balance-c13d6b9dbf",
+        "cityId": "sendai",
+        "name": "이즈 바",
+        "english": "E'z Bar",
+        "category": "바·공연",
+        "image": "/images/place-placeholder.svg",
+        "description": "고쿠분초에서 음료와 음악을 즐길 수 있는 지하 바입니다.",
+        "address": "2-12-19 daisankyoritsuBld. B1 kokubuncho-aobaku",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "공연 일정·입장 연령·드레스 코드·입장료와 최소 주문 조건을 방문 전 확인하세요.",
+        "area": "센다이",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Sendai",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Sendai&oldid=5374266",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "sendai-balance-f2ef0e05ac",
+        "cityId": "sendai",
+        "name": "닛카 미야기쿄 증류소 견학",
+        "english": "Nikka Whisky Distillery Tour",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "사쿠나미 지역에서 위스키 제조 과정을 살펴보는 견학 장소입니다.",
+        "address": "Nikka 1, Aoba-ku (Sakunami)",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "운영 회차·예약·참가 조건을 확인하세요. 물놀이와 야외 활동은 당일 날씨·안전 안내를 따르세요.",
+        "area": "센다이",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Sendai",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Sendai&oldid=5374266",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 do 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "id": "sendai-overview",
+        "title": "도시 소개",
+        "body": "센다이 도심과 마쓰시마 해안 근교를 구분하세요. 도심 성터도 언덕 이동이 포함됩니다."
+      },
+      {
+        "id": "sendai-before",
+        "title": "출발 전 준비",
+        "body": "전망·해안 유람은 기상과 운항 조건을 확인하세요.\n\n도호쿠 다른 도시로 이동한다면 마지막 열차와 지정석 여부를 먼저 정하세요."
+      },
+      {
+        "id": "sendai-arrival",
+        "title": "공항과 시내 이동",
+        "body": "센다이공항: 공항 철도와 숙소의 가까운 역·도보 구간을 함께 확인하세요.\n\n성터·근교: 도심 버스 관광과 마쓰시마행 철도를 따로 계획하세요. 성터 접근에는 경사가 있습니다."
+      },
+      {
+        "id": "sendai-stay",
+        "title": "숙소 지역 선택",
+        "body": "센다이역: 공항 철도·신칸센·마쓰시마 근교 이동이 많을 때 비교하세요.\n\n이치반초·조젠지 주변: 도심 식사와 산책을 중시할 때 비교하고 역까지 이동을 확인하세요."
+      },
+      {
+        "id": "sendai-plan",
+        "title": "일정 계획",
+        "body": "하루: 도심의 역사 장소와 식사에 집중하세요.\n\n2일 이상: 도심 하루·마쓰시마 하루로 나누고 다른 도호쿠 도시는 별도 날짜로 정하세요."
+      },
+      {
+        "id": "sendai-notes",
+        "title": "현장 팁",
+        "body": "목록의 야마가타·이시노마키는 센다이 도심의 도보 명소가 아닙니다.\n\n마쓰시마에서는 역 이름과 실제 방문할 해안·사찰의 위치를 함께 확인하세요."
+      },
+      {
+        "id": "sendai-rain",
+        "title": "비 오는 날",
+        "body": "센다이시 박물관·센다이 미디어테크 등 실내 장소로 조정하고 해안 방문은 날씨를 보고 정하세요."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Japan-guide · 센다이",
+        "url": "https://www.japan-guide.com/e/e5150.html",
+        "accessedAt": "2026-10-15"
+      }
+    ],
+    "status": "published",
+    "requestId": null,
+    "createdAt": "2026-10-15T00:00:00.000Z",
+    "updatedAt": "2026-10-15T00:00:00.000Z",
+    "publishedAt": "2026-10-15T00:00:00.000Z"
+  },
+  "practicalGuide": {
+    "cityId": "sendai",
+    "firstVisit": "센다이 도심과 마쓰시마 해안 근교를 구분하세요. 도심 성터도 언덕 이동이 포함됩니다.",
+    "bases": [
+      {
+        "name": "센다이역",
+        "advice": "공항 철도·신칸센·마쓰시마 근교 이동이 많을 때 비교하세요."
+      },
+      {
+        "name": "이치반초·조젠지 주변",
+        "advice": "도심 식사와 산책을 중시할 때 비교하고 역까지 이동을 확인하세요."
+      }
+    ],
+    "arrival": [
+      {
+        "name": "센다이공항",
+        "advice": "공항 철도와 숙소의 가까운 역·도보 구간을 함께 확인하세요."
+      },
+      {
+        "name": "성터·근교",
+        "advice": "도심 버스 관광과 마쓰시마행 철도를 따로 계획하세요. 성터 접근에는 경사가 있습니다."
+      }
+    ],
+    "timePlan": [
+      {
+        "name": "하루",
+        "advice": "도심의 역사 장소와 식사에 집중하세요."
+      },
+      {
+        "name": "2일 이상",
+        "advice": "도심 하루·마쓰시마 하루로 나누고 다른 도호쿠 도시는 별도 날짜로 정하세요."
+      }
+    ],
+    "before": [
+      "전망·해안 유람은 기상과 운항 조건을 확인하세요.",
+      "도호쿠 다른 도시로 이동한다면 마지막 열차와 지정석 여부를 먼저 정하세요."
+    ],
+    "pitfalls": [
+      "목록의 야마가타·이시노마키는 센다이 도심의 도보 명소가 아닙니다.",
+      "마쓰시마에서는 역 이름과 실제 방문할 해안·사찰의 위치를 함께 확인하세요."
+    ],
+    "rainPlan": "센다이시 박물관·센다이 미디어테크 등 실내 장소로 조정하고 해안 방문은 날씨를 보고 정하세요.",
+    "courses": [
+      {
+        "id": "sendai-course-1",
+        "title": "센다이 도심의 역사",
+        "pace": "하루 · 버스·도보",
+        "why": "언덕 이동을 포함하므로 버스·택시를 함께 고려하는 코스입니다.",
+        "placeIds": [
+          "sendai-castle",
+          "sendai-zuihoden",
+          "sendai-jozenji"
+        ]
+      },
+      {
+        "id": "sendai-course-2",
+        "title": "근교 · 마쓰시마",
+        "pace": "하루 · 철도 이동 후 도보",
+        "why": "마쓰시마 해안 가까운 사찰을 한 날에 묶습니다.",
+        "placeIds": [
+          "sendai-review-e33e65db8ce8",
+          "sendai-review-1995e85edc6e",
+          "sendai-review-5b4f677919ee"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "Japan-guide · 센다이",
+        "url": "https://www.japan-guide.com/e/e5150.html",
+        "checkedAt": "2026-10-15",
+        "status": "read"
+      }
+    ],
+    "researchNote": "여행 안내 본문을 읽고 지역별 계획을 편집했습니다. 코스는 직접 작성한 제안이며 이동시간·예약 가능 여부를 실시간 계산한 결과가 아닙니다."
+  },
+  "plans": {
+    "cityId": "sendai",
+    "days": [
+      {
+        "id": "sendai-day-1",
+        "title": "센다이 도심의 역사",
+        "pace": "하루 · 버스·도보",
+        "why": "언덕 이동을 포함하므로 버스·택시를 함께 고려하는 코스입니다.",
+        "placeIds": [
+          "sendai-castle",
+          "sendai-zuihoden",
+          "sendai-jozenji"
+        ]
+      },
+      {
+        "id": "sendai-day-2",
+        "title": "근교 · 마쓰시마",
+        "pace": "하루 · 철도 이동 후 도보",
+        "why": "마쓰시마 해안 가까운 사찰을 한 날에 묶습니다.",
+        "placeIds": [
+          "sendai-review-e33e65db8ce8",
+          "sendai-review-1995e85edc6e",
+          "sendai-review-5b4f677919ee"
+        ]
+      },
+      {
+        "id": "sendai-day-3",
+        "title": "센다이 북쪽의 사찰과 문화",
+        "pace": "버스·도보",
+        "why": "오사키 하치만구와 린노지를 묶고 도심 문화 공간에서 마무리합니다.",
+        "placeIds": [
+          "sendai-review-9b1df5a94ae2",
+          "sendai-review-40bec75c034a",
+          "sendai-review-44f14b9a624d"
+        ]
+      },
+      {
+        "id": "sendai-day-4",
+        "title": "야마데라 산사 나들이",
+        "pace": "철도·도보",
+        "why": "야마데라는 하루를 별도로 배정합니다. 계단과 마지막 귀환 열차 시간을 고려합니다.",
+        "placeIds": [
+          "sendai-review-f294b1b3fd83",
+          "sendai-review-50e59bf2d996",
+          "sendai-review-1783c63e14c7"
+        ]
+      },
+      {
+        "id": "sendai-day-5",
+        "title": "도호쿠대와 센다이 실내 관람",
+        "pace": "버스·도보",
+        "why": "아오바야마 주변 대학 전시와 박물관을 중심으로 돌아봅니다.",
+        "placeIds": [
+          "sendai-review-1794574a8824",
+          "sendai-review-2eb4abaa586b",
+          "sendai-review-634edee22d56"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "guide": {
+    "id": "book-london",
+    "scope": "city",
+    "city": {
+      "id": "book-london",
+      "name": "런던",
+      "english": "London",
+      "country": "영국",
+      "region": "유럽",
+      "image": "/images/guide-placeholder.svg",
+      "tagline": "박물관과 시장, 강변을 연결하는 여행",
+      "description": "런던은 박물관과 공원이 많아 관심 분야를 골라 하루씩 나누기 좋습니다. 웨스트민스터·시티·사우스뱅크 등 구역을 묶고, 같은 날 도시를 여러 번 가로지르지 않도록 하세요.",
+      "tags": [
+        "도시 산책",
+        "여행 준비"
+      ],
+      "flight": "항공편·출발 공항에 따라 다름",
+      "currency": "파운드 · GBP",
+      "timeDifference": "한국보다 겨울 9시간·서머타임 8시간 느림",
+      "timeZone": "Europe/London",
+      "season": "변덕스러운 비·바람 대비, 실내외 일정 혼합",
+      "accent": "#e7f1ef"
+    },
+    "places": [
+      {
+        "id": "book-london-british-museum",
+        "cityId": "book-london",
+        "name": "대영박물관",
+        "english": "British Museum",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "세계 여러 지역의 유물을 보는 박물관입니다. 관심 전시실을 골라 방문하세요.",
+        "address": "Bloomsbury, London",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      },
+      {
+        "id": "book-london-national-gallery",
+        "cityId": "book-london",
+        "name": "내셔널 갤러리",
+        "english": "National Gallery",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "회화 감상을 중심으로 한 미술관입니다. 전시·예약 조건을 확인하세요.",
+        "address": "Trafalgar Square, London",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      },
+      {
+        "id": "book-london-tower-of-london",
+        "cityId": "book-london",
+        "name": "런던탑",
+        "english": "Tower of London",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "왕실과 도시 역사를 살펴보는 유산입니다. 입장 동선과 보안 안내를 확인하세요.",
+        "address": "Tower Hill, London",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      },
+      {
+        "id": "book-london-tower-bridge",
+        "cityId": "book-london",
+        "name": "타워브리지",
+        "english": "Tower Bridge",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "템스강의 대표 다리입니다. 다리 통행과 내부 전시 관람을 구분하세요.",
+        "address": "River Thames, London",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      },
+      {
+        "id": "book-london-borough-market",
+        "cityId": "book-london",
+        "name": "버러마켓",
+        "english": "Borough Market",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "여러 식재료·음식 가게가 있는 시장입니다. 판매점별 운영을 확인하세요.",
+        "address": "Southwark, London",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      },
+      {
+        "id": "book-london-hyde-park",
+        "cityId": "book-london",
+        "name": "하이드파크",
+        "english": "Hyde Park",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "도심에서 쉬며 걷기 좋은 공원입니다. 넓은 구역 중 방문 방향을 정하세요.",
+        "address": "Central London",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      }
+    ],
+    "sections": [
+      {
+        "id": "book-london-overview",
+        "title": "도시 한눈에",
+        "body": "런던은 박물관과 공원이 많아 관심 분야를 골라 하루씩 나누기 좋습니다. 웨스트민스터·시티·사우스뱅크 등 구역을 묶고, 같은 날 도시를 여러 번 가로지르지 않도록 하세요.\n\n통화: 파운드 · GBP\n시차: 한국보다 겨울 9시간·서머타임 8시간 느림\n여행 계절: 변덕스러운 비·바람 대비, 실내외 일정 혼합"
+      },
+      {
+        "id": "book-london-before",
+        "title": "출발 전 준비",
+        "body": "여권과 입국 허가·비자 요건은 국적·방문 목적에 맞춰 정부 안내를 확인하세요. 해외 사용 가능한 결제 수단, 통신과 여행자보험을 준비하고 숙소·항공권은 오프라인에서도 확인할 수 있게 보관하세요."
+      },
+      {
+        "id": "book-london-arrival",
+        "title": "공항에서 숙소까지",
+        "body": "히스로(LHR)·개트윅(LGW) 등 도착 공항이 다양합니다. 항공권의 공항을 확인한 뒤 철도와 지하철을 비교하세요. 공항마다 도심 접근과 운행 시간이 다릅니다."
+      },
+      {
+        "id": "book-london-stay",
+        "title": "어느 동네에 묵을까",
+        "body": "킹스크로스는 철도 연결, 코벤트가든·소호는 식사와 공연, 사우스뱅크는 강변 산책을 비교하기 좋습니다. 지하철역 출구와 엘리베이터 여부를 확인하세요."
+      },
+      {
+        "id": "book-london-food",
+        "title": "먹거리와 동네 쇼핑",
+        "body": "버러마켓은 여러 판매점이 있는 시장입니다. 펍·카페·다양한 이민자 음식도 비교하고 공연 전 식사는 관람 시각에 맞춰 여유를 두세요."
+      },
+      {
+        "id": "book-london-days",
+        "title": "처음 가는 3일 여행",
+        "body": "1일: 도착 → 숙소 주변 산책. 장거리 비행 뒤에는 충분히 쉬고 현지 날짜에 적응하세요.\n\n2일: 대영박물관 중심으로 주변을 둘러보세요. 예약 시설은 운영기관의 방문 조건을 먼저 확인하세요.\n\n3일: 내셔널 갤러리 또는 런던탑 중 관심 있는 곳을 고르고 나머지는 식사와 동네 산책에 쓰세요. 출국일에는 공항 이동을 우선하세요.\n\n일정 초안이며 자동 경로·이동시간 계산 결과가 아닙니다. 운영과 취향에 맞춰 선택하세요."
+      },
+      {
+        "id": "book-london-notes",
+        "title": "예약과 현장 팁",
+        "body": "영국 입국 허가와 여권 조건은 공식 정부 안내에서 국적별로 확인하세요. 박물관 무료 상설전과 유료 특별전·예약 조건은 서로 다를 수 있습니다."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Visit London - We are London's Official Visitor Guide",
+        "url": "https://www.visitlondon.com/",
+        "accessedAt": "2026-10-28"
+      }
+    ],
+    "status": "published",
+    "requestId": null,
+    "createdAt": "2026-10-28T05:07:12.733Z",
+    "updatedAt": "2026-10-28T05:07:12.733Z",
+    "publishedAt": "2026-10-28T05:07:12.733Z"
+  }
+}

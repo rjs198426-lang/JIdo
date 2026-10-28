@@ -1,0 +1,1069 @@
+{
+  "guide": {
+    "id": "singapore",
+    "scope": "city",
+    "city": {
+      "id": "singapore",
+      "name": "싱가포르",
+      "english": "SINGAPORE · 新加坡",
+      "country": "싱가포르",
+      "region": "동남아",
+      "image": "/images/city-singapore.webp",
+      "photoCredit": {
+        "file": "/images/city-singapore.webp",
+        "author": "Basile Morin",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cricket_match_and_Marina_Bay_Sands_Hotel_in_Singapore.jpg",
+        "verifiedAt": "2026-10-16"
+      },
+      "tagline": "마리나베이에서 차이나타운과 센토사까지",
+      "description": "도심 정원·박물관·야경을 지역별로 묶고, 만다이 동물원과 센토사는 이동 시간을 따로 잡는 여행지입니다.",
+      "tags": [
+        "정원과 야경",
+        "가족 여행"
+      ],
+      "flight": "창이공항 · 운항편 확인",
+      "currency": "싱가포르 달러 · SGD",
+      "timeDifference": "한국보다 1시간 느림",
+      "season": "연중 고온다습 · 소나기 대비",
+      "accent": "#e8f3ef"
+    },
+    "places": [
+      {
+        "id": "singapore-balance-5bcd5b3ca7",
+        "cityId": "singapore",
+        "name": "티앤티앤 하이난 치킨라이스",
+        "english": "Tian Tian Hainanese Chicken Rice",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "맥스웰 푸드센터에서 하이난식 치킨라이스를 맛볼 수 있습니다.",
+        "address": "Maxwell Food Centre #01-10",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "지점과 주문 방식, 식단 제한을 확인하고 식사 일정에 넣어 보세요. 메뉴·영업시간은 방문 전 확인하세요.",
+        "area": "차이나타운",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Singapore/Chinatown",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Singapore/Chinatown&oldid=5373631",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 eat 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "singapore-balance-e48d385859",
+        "cityId": "singapore",
+        "name": "징화 샤오츠",
+        "english": "Jing Hua Xiao Chi",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "딤섬과 만두를 고를 수 있는 차이나타운의 식당입니다.",
+        "address": "21 Neil Rd",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "지점과 주문 방식, 식단 제한을 확인하고 식사 일정에 넣어 보세요. 메뉴·영업시간은 방문 전 확인하세요.",
+        "lat": 1.27995,
+        "lng": 103.84339,
+        "area": "차이나타운",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Singapore/Chinatown",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Singapore/Chinatown&oldid=5373631",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 eat 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "singapore-balance-eaf2d23af8",
+        "cityId": "singapore",
+        "name": "티 챕터",
+        "english": "Tea Chapter",
+        "category": "카페",
+        "image": "/images/place-placeholder.svg",
+        "description": "차를 고르고 중국식 다도 문화를 접할 수 있는 찻집입니다.",
+        "address": "9 Neil Rd",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "산책이나 쇼핑 사이에 쉬어갈 후보입니다. 좌석 이용·마지막 주문 시간은 방문 전 확인하세요.",
+        "lat": 1.2801,
+        "lng": 103.8436,
+        "area": "차이나타운",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Singapore/Chinatown",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Singapore/Chinatown&oldid=5373631",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "singapore-balance-b0099cae82",
+        "cityId": "singapore",
+        "name": "난양 올드 커피",
+        "english": "Nanyang Old Coffee",
+        "category": "카페",
+        "image": "/images/place-placeholder.svg",
+        "description": "차이나타운에서 현지식 커피와 간식을 즐기는 카페입니다.",
+        "address": "268 South Bridge Rd, Singapore 058817",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "산책이나 쇼핑 사이에 쉬어갈 후보입니다. 좌석 이용·마지막 주문 시간은 방문 전 확인하세요.",
+        "area": "차이나타운",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Singapore/Chinatown",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Singapore/Chinatown&oldid=5373631",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "singapore-balance-87a23b142a",
+        "cityId": "singapore",
+        "name": "파크로열 컬렉션 피커링",
+        "english": "Parkroyal on Pickering",
+        "category": "숙소",
+        "image": "/images/place-placeholder.svg",
+        "description": "차이나타운과 도심 사이의 호텔 숙박 후보입니다.",
+        "address": "3 Upper Pickering Street",
+        "duration": "숙박 일정에 맞춰 지정",
+        "cost": "숙박일·객실·공식 안내에서 확인",
+        "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+        "lat": 1.285777,
+        "lng": 103.846476,
+        "area": "차이나타운",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Singapore/Chinatown",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Singapore/Chinatown&oldid=5373631",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "singapore-balance-26f921970e",
+        "cityId": "singapore",
+        "name": "힐튼 싱가포르 오차드",
+        "english": "Hilton Singapore Orchard",
+        "category": "숙소",
+        "image": "/images/place-placeholder.svg",
+        "description": "오차드 로드의 쇼핑과 이동을 함께 고려할 수 있는 호텔입니다.",
+        "address": "333 Orchard Rd",
+        "duration": "숙박 일정에 맞춰 지정",
+        "cost": "숙박일·객실·공식 안내에서 확인",
+        "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+        "lat": 1.30205,
+        "lng": 103.83632,
+        "area": "오차드",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Singapore/Orchard",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Singapore/Orchard&oldid=5387052",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "singapore-balance-7a5374badf",
+        "cityId": "singapore",
+        "name": "앨리 바",
+        "english": "Alley Bar",
+        "category": "바·공연",
+        "image": "/images/place-placeholder.svg",
+        "description": "페라나칸 상가 사이에서 칵테일을 즐기는 바입니다.",
+        "address": "2 Emerald Hill",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "공연 일정·입장 연령·드레스 코드·입장료와 최소 주문 조건을 방문 전 확인하세요.",
+        "lat": 1.30145,
+        "lng": 103.83915,
+        "area": "오차드",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Singapore/Orchard",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Singapore/Orchard&oldid=5387052",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "singapore-balance-f952c47087",
+        "cityId": "singapore",
+        "name": "맨해튼 바",
+        "english": "Manhattan",
+        "category": "바·공연",
+        "image": "/images/place-placeholder.svg",
+        "description": "호텔 안에서 칵테일을 고를 수 있는 바입니다.",
+        "address": "1 Cuscaden Road",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "공연 일정·입장 연령·드레스 코드·입장료와 최소 주문 조건을 방문 전 확인하세요.",
+        "lat": 1.3047,
+        "lng": 103.825,
+        "area": "오차드",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Singapore/Orchard",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Singapore/Orchard&oldid=5387052",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "singapore-balance-bcf81ddf84",
+        "cityId": "singapore",
+        "name": "아이온 오차드",
+        "english": "ION Orchard",
+        "category": "쇼핑",
+        "image": "/images/commons-069-singapore-balance-bcf81ddf84.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-singapore-balance-bcf81ddf84.jpg",
+          "author": "Bobby.Creations",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ion_Orchard_7dec2025.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "오차드역과 연결된 대형 쇼핑몰입니다.",
+        "address": "2 Orchard Turn",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "품목과 매장별 운영시간을 확인하고 구입할 물건을 정해 둘러보세요.",
+        "lat": 1.30444,
+        "lng": 103.832,
+        "area": "오차드",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Singapore/Orchard",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Singapore/Orchard&oldid=5387052",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 buy 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "singapore-balance-4f3e474897",
+        "cityId": "singapore",
+        "name": "피플스 파크 컴플렉스",
+        "english": "People's Park Complex",
+        "category": "쇼핑",
+        "image": "/images/place-placeholder.svg",
+        "description": "차이나타운에서 생활용품과 기념품 등을 둘러보는 복합 상가입니다.",
+        "address": "1 Park Rd",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "품목과 매장별 운영시간을 확인하고 구입할 물건을 정해 둘러보세요.",
+        "lat": 1.28386,
+        "lng": 103.84241,
+        "area": "차이나타운",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Singapore/Chinatown",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Singapore/Chinatown&oldid=5373631",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 buy 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "singapore-balance-395da9e1a6",
+        "cityId": "singapore",
+        "name": "바운스 싱가포르",
+        "english": "Bounce",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "실내 트램펄린 활동을 즐길 수 있는 체험 시설입니다.",
+        "address": "8 Grange Rd",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "운영 회차·예약·참가 조건을 확인하세요. 물놀이와 야외 활동은 당일 날씨·안전 안내를 따르세요.",
+        "lat": 1.3014,
+        "lng": 103.8363,
+        "area": "오차드",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Singapore/Orchard",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Singapore/Orchard&oldid=5387052",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 do 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "singapore-guide-d56599727500",
+        "cityId": "singapore",
+        "name": "머라이언 공원",
+        "english": "Merlion",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "머라이언상과 마리나베이 풍경을 함께 보는 강변 명소입니다.",
+        "address": "마리나베이 · 싱가포르",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "주변 산책로로 이어가되 한낮에는 물과 그늘을 챙기세요.",
+        "lat": 1.2868,
+        "lng": 103.8545,
+        "area": "마리나베이",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 싱가포르 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "singapore-guide-3e98c0bd3bdf",
+        "cityId": "singapore",
+        "name": "가든스 바이 더 베이",
+        "english": "Gardens by the Bay",
+        "category": "관광",
+        "image": "/images/commons-069-singapore-guide-3e98c0bd3bdf.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-singapore-guide-3e98c0bd3bdf.jpg",
+          "author": "Mustang Joe",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Supertree_Grove,_Gardens_by_the_Bay,_Singapore1.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "수퍼트리와 여러 정원 구역을 잇는 대형 공원입니다.",
+        "address": "마리나베이 · 싱가포르",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "야외 정원과 유료 온실·전망 통로의 입장을 구분하세요.",
+        "lat": 1.283319,
+        "lng": 103.86527,
+        "area": "마리나베이",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 싱가포르 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "singapore-guide-3e2d29af71a8",
+        "cityId": "singapore",
+        "name": "마리나베이 샌즈 스카이파크",
+        "english": "Sands SkyPark",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "마리나베이 일대를 내려다보는 고층 전망 공간입니다.",
+        "address": "마리나베이 · 싱가포르",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "전망대 관람권과 호텔 투숙객 전용 시설을 혼동하지 마세요.",
+        "lat": 1.28489,
+        "lng": 103.86117,
+        "area": "마리나베이",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 싱가포르 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "singapore-guide-b10fb9ddbad4",
+        "cityId": "singapore",
+        "name": "아트사이언스 뮤지엄",
+        "english": "ArtScience Museum",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "예술과 과학을 주제로 전시하는 연꽃 모양 건축의 박물관입니다.",
+        "address": "마리나베이 · 싱가포르",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "전시별 예약 시간과 티켓 포함 범위를 확인하세요.",
+        "lat": 1.28611,
+        "lng": 103.859,
+        "area": "마리나베이",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 싱가포르 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "singapore-guide-b1d0fa56c267",
+        "cityId": "singapore",
+        "name": "싱가포르 보타닉가든",
+        "english": "Botanic Gardens",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "넓은 열대 정원과 산책로가 있는 식물원입니다.",
+        "address": "탕린 · 싱가포르",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "공원 출입구가 여러 곳이므로 만날 위치를 정하세요.",
+        "lat": 1.3151,
+        "lng": 103.8162,
+        "area": "탕린",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 싱가포르 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "singapore-guide-c0ed2347fae2",
+        "cityId": "singapore",
+        "name": "국립 난초정원",
+        "english": "National Orchid Garden",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "보타닉가든 안의 난초 전시 정원입니다.",
+        "address": "탕린 · 싱가포르",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "일반 식물원 구역과 별도 입장 조건을 확인하세요.",
+        "lat": 1.31249,
+        "lng": 103.8136,
+        "area": "탕린",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 싱가포르 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "singapore-guide-f9acb420cb2d",
+        "cityId": "singapore",
+        "name": "싱가포르 동물원",
+        "english": "Singapore Zoo",
+        "category": "관광",
+        "image": "/images/commons-069-singapore-guide-f9acb420cb2d.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-singapore-guide-f9acb420cb2d.jpg",
+          "author": "Jakub Hałun",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:White_tiger_at_Singapore_Zoo,_20240206_0831_6134.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "만다이 지역의 야생동물 관람 시설입니다.",
+        "address": "만다이 · 싱가포르",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "도심에서의 왕복 이동 시간을 따로 확보하세요.",
+        "lat": 1.40487,
+        "lng": 103.79056,
+        "area": "만다이",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 싱가포르 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "singapore-guide-c4ca281387ad",
+        "cityId": "singapore",
+        "name": "나이트 사파리",
+        "english": "Night Safari",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "저녁 시간대에 관람하는 야생동물 시설입니다.",
+        "address": "만다이 · 싱가포르",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "예약 시간과 야간 귀가 교통을 먼저 확인하세요.",
+        "lat": 1.40465,
+        "lng": 103.78533,
+        "area": "만다이",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 싱가포르 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "singapore-guide-2654a9fca3aa",
+        "cityId": "singapore",
+        "name": "불아사",
+        "english": "Buddha Tooth Relic Temple",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "불교 사찰과 전시 공간을 함께 둘러보는 명소입니다.",
+        "address": "차이나타운 · 싱가포르",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "사찰 복장과 촬영 규정을 따르세요.",
+        "lat": 1.2815,
+        "lng": 103.8443,
+        "area": "차이나타운",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 싱가포르 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "singapore-guide-7d3207aa3b9c",
+        "cityId": "singapore",
+        "name": "스리 마리암만 사원",
+        "english": "Sri Mariamman Temple",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "차이나타운의 힌두교 사원입니다.",
+        "address": "차이나타운 · 싱가포르",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "입장 전 신발·복장·촬영 안내를 확인하세요.",
+        "lat": 1.2827,
+        "lng": 103.8451,
+        "area": "차이나타운",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 싱가포르 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "singapore-guide-83ea0b1fb08a",
+        "cityId": "singapore",
+        "name": "티안혹켕 사원",
+        "english": "Thian Hock Keng Temple · 天福宫",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "해상 교역과 화교 공동체의 역사가 담긴 사원입니다.",
+        "address": "텔록아이어 · 싱가포르",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "주변 역사 거리와 짧은 도보 코스로 묶으세요.",
+        "lat": 1.281,
+        "lng": 103.8475,
+        "area": "텔록아이어",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 싱가포르 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "singapore-guide-9a40cce1ce7c",
+        "cityId": "singapore",
+        "name": "차이나타운 헤리티지 센터",
+        "english": "Chinatown Heritage Centre",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "차이나타운의 이주민 생활사를 다루는 전시 공간입니다.",
+        "address": "차이나타운 · 싱가포르",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "전시·운영 재개 여부와 예약을 방문 전에 확인하세요.",
+        "lat": 1.2836,
+        "lng": 103.8444,
+        "area": "차이나타운",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 싱가포르 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "singapore-guide-fd44b733a471",
+        "cityId": "singapore",
+        "name": "아시아 문명박물관",
+        "english": "Asian Civilisations Museum",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "아시아 여러 지역의 문화·교역 자료를 전시하는 박물관입니다.",
+        "address": "시빅지구 · 싱가포르",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "싱가포르강 주변 산책과 함께 묶기 좋습니다.",
+        "lat": 1.2875,
+        "lng": 103.851111,
+        "area": "시빅지구",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 싱가포르 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "singapore-guide-832f8ce8c0ae",
+        "cityId": "singapore",
+        "name": "페라나칸 박물관",
+        "english": "Peranakan Museum",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "페라나칸 문화의 생활·공예 자료를 소개하는 박물관입니다.",
+        "address": "시빅지구 · 싱가포르",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "특별전과 상설전의 입장 조건을 확인하세요.",
+        "lat": 1.2942,
+        "lng": 103.8492,
+        "area": "시빅지구",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 싱가포르 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "singapore-guide-d7771a02b158",
+        "cityId": "singapore",
+        "name": "싱가포르 국립박물관",
+        "english": "National Museum of Singapore",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "싱가포르의 역사와 문화를 다루는 박물관입니다.",
+        "address": "시빅지구 · 싱가포르",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "전시별 휴관·교체 일정을 확인하세요.",
+        "lat": 1.29672,
+        "lng": 103.849,
+        "area": "시빅지구",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 싱가포르 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "singapore-guide-4b7473a99ebf",
+        "cityId": "singapore",
+        "name": "옛 힐스트리트 경찰서",
+        "english": "Old Hill Street Police Station · MICA Building",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "색색의 창문이 특징인 옛 경찰서 건물입니다.",
+        "address": "리버사이드 · 싱가포르",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "업무 공간 출입과 외관 촬영을 구분하세요.",
+        "lat": 1.2907,
+        "lng": 103.8482,
+        "area": "리버사이드",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 싱가포르 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "singapore-guide-184320afc634",
+        "cityId": "singapore",
+        "name": "세인트 앤드루스 대성당",
+        "english": "St Andrew's Cathedral",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "시빅지구의 흰색 성공회 대성당입니다.",
+        "address": "시빅지구 · 싱가포르",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "예배와 행사 중에는 관람·촬영 안내를 따르세요.",
+        "lat": 1.292484,
+        "lng": 103.852348,
+        "area": "시빅지구",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 싱가포르 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "singapore-guide-d3ad5eafe270",
+        "cityId": "singapore",
+        "name": "실로소 요새",
+        "english": "Fort Siloso",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "센토사섬의 해안 방어 역사 유적입니다.",
+        "address": "센토사 · 싱가포르",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "야외 구간을 걷기 편한 신발과 물을 준비하세요.",
+        "lat": 1.258889,
+        "lng": 103.808056,
+        "area": "센토사",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 싱가포르 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "singapore-guide-7934802795a5",
+        "cityId": "singapore",
+        "name": "마리나 배라지",
+        "english": "Marina Barrage",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "저수지와 도심 풍경을 볼 수 있는 댐·공원 구역입니다.",
+        "address": "마리나베이 · 싱가포르",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "잔디와 해안은 한낮보다 늦은 오후 산책에 알맞습니다.",
+        "lat": 1.279479,
+        "lng": 103.871183,
+        "area": "마리나베이",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 싱가포르 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "singapore-guide-03704339df11",
+        "cityId": "singapore",
+        "name": "쿤셍 로드",
+        "english": "Koon Seng Road",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "파스텔색 전통 상점주택이 이어지는 거리입니다.",
+        "address": "주치앗 · 싱가포르",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "거주지이므로 문 앞을 막거나 사유지에 들어가지 마세요.",
+        "lat": 1.31027,
+        "lng": 103.90252,
+        "area": "주치앗",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 싱가포르 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "id": "singapore-overview",
+        "title": "도시 소개",
+        "body": "마리나베이·차이나타운·센토사·동물원권을 따로 묶어 한낮 야외 이동을 줄이세요."
+      },
+      {
+        "id": "singapore-before",
+        "title": "출발 전 준비",
+        "body": "정원 유료 온실·전망대는 구역별 입장권과 운영일을 확인하세요.\n\n야간 동물원·인기 체험은 지정 시간과 도심 귀환 교통을 함께 확인하세요."
+      },
+      {
+        "id": "singapore-arrival",
+        "title": "공항과 시내 이동",
+        "body": "창이공항: MRT 환승과 공항버스·차량을 도착 시간·짐·인원에 맞춰 비교하세요.\n\n시내 이동: 도심은 MRT와 도보를 조합하고 동물원·센토사는 별도 왕복 구간을 계산하세요."
+      },
+      {
+        "id": "singapore-stay",
+        "title": "숙소 지역 선택",
+        "body": "MRT 접근 숙소: 실제 역 출구까지의 도보 경로와 공항 환승을 우선 비교하세요.\n\n마리나·도심 숙소: 도심 전망과 저녁 산책을 중시할 때 비교하되 숙박비와 이동비를 함께 보세요."
+      },
+      {
+        "id": "singapore-plan",
+        "title": "일정 계획",
+        "body": "하루: 마리나베이 또는 차이나타운과 도심 한 구역을 고르세요.\n\n3일 이상: 도심·정원·센토사/동물원 중 하루의 중심을 분리하세요."
+      },
+      {
+        "id": "singapore-notes",
+        "title": "현장 팁",
+        "body": "지도가 작아 보여도 더위·소나기 때문에 야외 보행량을 줄일 필요가 있습니다.\n\n모든 입장권이 교통·왕복 셔틀까지 포함한다고 생각하지 말고 포함 항목을 확인하세요."
+      },
+      {
+        "id": "singapore-rain",
+        "title": "비 오는 날",
+        "body": "아트사이언스 뮤지엄·실내 박물관 등으로 옮기고 야외 정원·해안 산책은 강수 상황을 보고 정하세요."
+      }
+    ],
+    "sources": [],
+    "status": "published",
+    "requestId": null,
+    "createdAt": "2026-10-28T00:00:00.000Z",
+    "updatedAt": "2026-10-28T00:00:00.000Z",
+    "publishedAt": "2026-10-28T00:00:00.000Z"
+  },
+  "practicalGuide": {
+    "cityId": "singapore",
+    "firstVisit": "마리나베이·차이나타운·센토사·동물원권을 따로 묶어 한낮 야외 이동을 줄이세요.",
+    "bases": [
+      {
+        "name": "MRT 접근 숙소",
+        "advice": "실제 역 출구까지의 도보 경로와 공항 환승을 우선 비교하세요."
+      },
+      {
+        "name": "마리나·도심 숙소",
+        "advice": "도심 전망과 저녁 산책을 중시할 때 비교하되 숙박비와 이동비를 함께 보세요."
+      }
+    ],
+    "arrival": [
+      {
+        "name": "창이공항",
+        "advice": "MRT 환승과 공항버스·차량을 도착 시간·짐·인원에 맞춰 비교하세요."
+      },
+      {
+        "name": "시내 이동",
+        "advice": "도심은 MRT와 도보를 조합하고 동물원·센토사는 별도 왕복 구간을 계산하세요."
+      }
+    ],
+    "timePlan": [
+      {
+        "name": "하루",
+        "advice": "마리나베이 또는 차이나타운과 도심 한 구역을 고르세요."
+      },
+      {
+        "name": "3일 이상",
+        "advice": "도심·정원·센토사/동물원 중 하루의 중심을 분리하세요."
+      }
+    ],
+    "before": [
+      "정원 유료 온실·전망대는 구역별 입장권과 운영일을 확인하세요.",
+      "야간 동물원·인기 체험은 지정 시간과 도심 귀환 교통을 함께 확인하세요."
+    ],
+    "pitfalls": [
+      "지도가 작아 보여도 더위·소나기 때문에 야외 보행량을 줄일 필요가 있습니다.",
+      "모든 입장권이 교통·왕복 셔틀까지 포함한다고 생각하지 말고 포함 항목을 확인하세요."
+    ],
+    "rainPlan": "아트사이언스 뮤지엄·실내 박물관 등으로 옮기고 야외 정원·해안 산책은 강수 상황을 보고 정하세요.",
+    "courses": [
+      {
+        "id": "singapore-course-1",
+        "title": "마리나베이의 하루",
+        "pace": "하루 · MRT·도보",
+        "why": "해안과 전시·정원을 한 권역에 묶고 실내 휴식을 사이에 두세요.",
+        "placeIds": [
+          "singapore-guide-d56599727500",
+          "singapore-guide-b10fb9ddbad4",
+          "singapore-guide-3e98c0bd3bdf"
+        ]
+      },
+      {
+        "id": "singapore-course-2",
+        "title": "차이나타운 문화 산책",
+        "pace": "반나절 · 도보",
+        "why": "서로 가까운 종교·문화 공간을 중심으로 걷는 제안입니다.",
+        "placeIds": [
+          "singapore-guide-2654a9fca3aa",
+          "singapore-guide-7d3207aa3b9c",
+          "singapore-guide-83ea0b1fb08a"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "관광청 안내",
+        "url": "https://www.visitsingapore.com/travel-tips/essential-travel-information/",
+        "checkedAt": "2026-10-15",
+        "status": "partial"
+      }
+    ],
+    "researchNote": "기존 내장 장소를 바탕으로 작성한 계획 제안입니다. 관광청 최신 교통·운영 조건은 본문 접근 제한으로 재확인하지 못했습니다. 장소 목록은 2016년 보관본 기반이며 현재 운영은 별도 확인해야 합니다."
+  },
+  "plans": {
+    "cityId": "singapore",
+    "days": [
+      {
+        "id": "singapore-day-1",
+        "title": "마리나베이의 하루",
+        "pace": "하루 · MRT·도보",
+        "why": "해안과 전시·정원을 한 권역에 묶고 실내 휴식을 사이에 두세요.",
+        "placeIds": [
+          "singapore-guide-d56599727500",
+          "singapore-guide-b10fb9ddbad4",
+          "singapore-guide-3e98c0bd3bdf"
+        ]
+      },
+      {
+        "id": "singapore-day-2",
+        "title": "차이나타운 문화 산책",
+        "pace": "반나절 · 도보",
+        "why": "서로 가까운 종교·문화 공간을 중심으로 걷는 제안입니다.",
+        "placeIds": [
+          "singapore-guide-2654a9fca3aa",
+          "singapore-guide-7d3207aa3b9c",
+          "singapore-guide-83ea0b1fb08a"
+        ]
+      },
+      {
+        "id": "singapore-day-3",
+        "title": "보타닉가든과 국립 난초정원",
+        "pace": "철도·도보",
+        "why": "정원에 충분한 시간을 두고 더운 오후에는 휴식을 남깁니다.",
+        "placeIds": [
+          "singapore-guide-b1d0fa56c267",
+          "singapore-guide-c0ed2347fae2"
+        ]
+      },
+      {
+        "id": "singapore-day-4",
+        "title": "시빅지구의 역사와 박물관",
+        "pace": "철도·도보",
+        "why": "가까운 도심 박물관을 묶고 전시 관람 시간에 따라 한 곳을 줄여도 좋습니다.",
+        "placeIds": [
+          "singapore-guide-d7771a02b158",
+          "singapore-guide-832f8ce8c0ae",
+          "singapore-guide-184320afc634"
+        ]
+      },
+      {
+        "id": "singapore-day-5",
+        "title": "만다이 동물원과 나이트 사파리",
+        "pace": "철도·버스",
+        "why": "만다이 구역에서 하루를 보냅니다. 낮 관람과 저녁 사파리 사이 쉬는 시간을 충분히 둡니다.",
+        "placeIds": [
+          "singapore-guide-f9acb420cb2d",
+          "singapore-guide-c4ca281387ad"
+        ]
+      }
+    ]
+  }
+}

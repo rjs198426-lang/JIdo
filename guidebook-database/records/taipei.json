@@ -1,0 +1,1073 @@
+{
+  "guide": {
+    "id": "taipei",
+    "scope": "city",
+    "city": {
+      "id": "taipei",
+      "name": "타이베이",
+      "english": "TAIPEI · 臺北",
+      "country": "대만",
+      "region": "동아시아",
+      "image": "/images/city-taipei.webp",
+      "photoCredit": {
+        "file": "/images/city-taipei.webp",
+        "author": "AngMoKio",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Taipei_101_2009_amk.jpg",
+        "verifiedAt": "2026-10-16"
+      },
+      "tagline": "지하철로 잇는 시장·사찰·도심 산책",
+      "description": "신이·중정·시먼딩을 날짜별로 나누고, 베이터우는 별도 반나절로 잡기 좋은 도시입니다.",
+      "tags": [
+        "도심 산책",
+        "온천"
+      ],
+      "flight": "타오위안·쑹산공항 · 운항편 확인",
+      "currency": "신타이완 달러 · TWD",
+      "timeDifference": "한국보다 1시간 느림",
+      "season": "10–4월 · 여름 고온·태풍 확인",
+      "accent": "#e8f3ef"
+    },
+    "places": [
+      {
+        "id": "taipei-balance-325ed7e361",
+        "cityId": "taipei",
+        "name": "난지창 야시장",
+        "english": "Nanjichang Night Market · 南機場夜市",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "타이베이 남서쪽 주택가에서 현지 먹거리를 고르는 야시장입니다.",
+        "address": "중정·공관, 타이베이",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "지점과 주문 방식, 식단 제한을 확인하고 식사 일정에 넣어 보세요. 메뉴·영업시간은 방문 전 확인하세요.",
+        "lat": 25.02914,
+        "lng": 121.50596,
+        "area": "중정·공관",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Taipei/Zhongzheng",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Taipei/Zhongzheng&oldid=5393007",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 eat 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "taipei-balance-23c04e6ea7",
+        "cityId": "taipei",
+        "name": "해피 팜 채식 식당",
+        "english": "Happy Farm Vegetarian Restaurant · Kai Xing Nong Tsung (開心農場素食店)",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "채식 요리를 고를 수 있는 중정 구역의 식당입니다.",
+        "address": "2F, No 16, Lane 683, Roosevelt Road, Sec 3, Gongguang",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "지점과 주문 방식, 식단 제한을 확인하고 식사 일정에 넣어 보세요. 메뉴·영업시간은 방문 전 확인하세요.",
+        "lat": 25.018588,
+        "lng": 121.531771,
+        "area": "중정·공관",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Taipei/Zhongzheng",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Taipei/Zhongzheng&oldid=5393007",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 eat 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "taipei-balance-a5285b629d",
+        "cityId": "taipei",
+        "name": "커피 랩 타이베이",
+        "english": "Coffee Lab",
+        "category": "카페",
+        "image": "/images/place-placeholder.svg",
+        "description": "중정 구역에서 커피를 고를 수 있는 카페입니다.",
+        "address": "No. 6, Lane 64, Section 2, Zhōngxiào East Road",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "산책이나 쇼핑 사이에 쉬어갈 후보입니다. 좌석 이용·마지막 주문 시간은 방문 전 확인하세요.",
+        "area": "중정·공관",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Taipei/Zhongzheng",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Taipei/Zhongzheng&oldid=5393007",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "taipei-balance-3aa63e1483",
+        "cityId": "taipei",
+        "name": "노치 카페",
+        "english": "Notch Cafe",
+        "category": "카페",
+        "image": "/images/commons-069-taipei-balance-3aa63e1483.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-taipei-balance-3aa63e1483.jpg",
+          "author": "阿道",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:NOTCH%E5%92%96%E5%95%A1%E6%9C%AC%E7%94%BA%E5%BA%97.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "타이베이역 주변에서 커피와 간단한 음식을 고르는 카페입니다.",
+        "address": "35號, Section 1, Chongqing South Rd",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "산책이나 쇼핑 사이에 쉬어갈 후보입니다. 좌석 이용·마지막 주문 시간은 방문 전 확인하세요.",
+        "area": "중정·공관",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Taipei/Zhongzheng",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Taipei/Zhongzheng&oldid=5393007",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "taipei-balance-fffb4a9d57",
+        "cityId": "taipei",
+        "name": "코스모스 호텔 타이베이",
+        "english": "Cosmos Hotel · 天成大飯店",
+        "category": "숙소",
+        "image": "/images/place-placeholder.svg",
+        "description": "타이베이역을 거점으로 삼을 수 있는 호텔입니다.",
+        "address": "43 Zhongxiao West Rd, sec. 1",
+        "duration": "숙박 일정에 맞춰 지정",
+        "cost": "숙박일·객실·공식 안내에서 확인",
+        "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+        "lat": 25.046348,
+        "lng": 121.518348,
+        "area": "중정·공관",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Taipei/Zhongzheng",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Taipei/Zhongzheng&oldid=5393007",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "taipei-balance-d163e6c1be",
+        "cityId": "taipei",
+        "name": "쉐라톤 그랜드 타이베이",
+        "english": "Sheraton Grand Taipei Hotel · 台北喜來登大飯店",
+        "category": "숙소",
+        "image": "/images/commons-069-taipei-balance-d163e6c1be.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-taipei-balance-d163e6c1be.jpg",
+          "author": "阿道",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lobby_of_Sheraton_Grand_Taipei_Hotel-02.2024-12-11.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "중정 구역의 도심 호텔 숙박 후보입니다.",
+        "address": "12 Zhongxiao East Rd, Sec. 1",
+        "duration": "숙박 일정에 맞춰 지정",
+        "cost": "숙박일·객실·공식 안내에서 확인",
+        "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+        "lat": 25.044582,
+        "lng": 121.522227,
+        "area": "중정·공관",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Taipei/Zhongzheng",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Taipei/Zhongzheng&oldid=5393007",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "taipei-balance-28a2288970",
+        "cityId": "taipei",
+        "name": "더 월 라이브 하우스",
+        "english": "The Wall Live House",
+        "category": "바·공연",
+        "image": "/images/place-placeholder.svg",
+        "description": "공관 주변에서 밴드 공연을 볼 수 있는 라이브 공간입니다.",
+        "address": "200 Roosevelt Road B1, Sec 4",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "공연 일정·입장 연령·드레스 코드·입장료와 최소 주문 조건을 방문 전 확인하세요.",
+        "lat": 25.010832,
+        "lng": 121.536716,
+        "area": "중정·공관",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Taipei/Zhongzheng",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Taipei/Zhongzheng&oldid=5393007",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "taipei-balance-78b718414c",
+        "cityId": "taipei",
+        "name": "리볼버 타이베이",
+        "english": "Revolver",
+        "category": "바·공연",
+        "image": "/images/place-placeholder.svg",
+        "description": "바와 라이브 공연을 함께 즐기는 공간입니다.",
+        "address": "No. 1-2, Section 1, Roosevelt Rd",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "공연 일정·입장 연령·드레스 코드·입장료와 최소 주문 조건을 방문 전 확인하세요.",
+        "lat": 25.034273,
+        "lng": 121.51741,
+        "area": "중정·공관",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Taipei/Zhongzheng",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Taipei/Zhongzheng&oldid=5393007",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "taipei-balance-712e241c3b",
+        "cityId": "taipei",
+        "name": "광화 디지털 플라자",
+        "english": "Guanghua Digital Mall · 光華商場",
+        "category": "쇼핑",
+        "image": "/images/place-placeholder.svg",
+        "description": "전자제품과 컴퓨터 관련 매장을 비교할 수 있는 상가입니다.",
+        "address": "No 8, Civic Boulevard Sec 3,",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "품목과 매장별 운영시간을 확인하고 구입할 물건을 정해 둘러보세요.",
+        "lat": 25.045016,
+        "lng": 121.532258,
+        "area": "중정·공관",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Taipei/Zhongzheng",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Taipei/Zhongzheng&oldid=5393007",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 buy 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "taipei-balance-84ce69e620",
+        "cityId": "taipei",
+        "name": "타이베이 워터파크",
+        "english": "Taipei Water Park · 自來水園區",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "공관 지역에서 물놀이를 즐길 수 있는 시설입니다.",
+        "address": "No. 1, Siyuan St",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "운영 회차·예약·참가 조건을 확인하세요. 물놀이와 야외 활동은 당일 날씨·안전 안내를 따르세요.",
+        "lat": 25.0141177,
+        "lng": 121.5317319,
+        "area": "중정·공관",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Taipei/Zhongzheng",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Taipei/Zhongzheng&oldid=5393007",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 do 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "taipei-guide-3682822e1b06",
+        "cityId": "taipei",
+        "name": "베이터우 온천박물관",
+        "english": "Beitou Hot Springs Museum",
+        "category": "관광",
+        "image": "/images/commons-069-taipei-guide-3682822e1b06.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-taipei-guide-3682822e1b06.jpg",
+          "author": "Allervous",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beitou_Hot_Spring_Museum_-_1150403.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "옛 공중목욕탕 건축과 온천 문화를 살펴보는 박물관입니다.",
+        "address": "베이터우 · 타이베이",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "온천 지역 산책과 묶고 시설별 휴관일을 확인하세요.",
+        "lat": 25.13658,
+        "lng": 121.50715,
+        "area": "베이터우",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 타이베이 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "taipei-guide-9a78bac6997e",
+        "cityId": "taipei",
+        "name": "용산사",
+        "english": "Longshan Temple · 龍山寺",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "타이베이의 대표적인 불교·민간신앙 사찰입니다.",
+        "address": "완화 · 타이베이",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "참배 동선을 가로막지 않고 실내 촬영 규정을 따르세요.",
+        "lat": 25.0373,
+        "lng": 121.49988,
+        "area": "완화",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 타이베이 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "taipei-guide-4873bb146512",
+        "cityId": "taipei",
+        "name": "시먼 홍러우",
+        "english": "Red House · 紅樓劇場",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "시먼딩의 붉은 벽돌 역사 건물과 문화 공간입니다.",
+        "address": "시먼딩 · 타이베이",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "시먼딩 산책과 함께 배치하기 좋습니다.",
+        "lat": 25.04209,
+        "lng": 121.50648,
+        "area": "시먼딩",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 타이베이 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "taipei-guide-4e2b4d3547c8",
+        "cityId": "taipei",
+        "name": "디화제",
+        "english": "Dihua Street · 迪化街",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "오래된 상점 건축과 건어물·차 문화를 만나는 거리입니다.",
+        "address": "다다오청 · 타이베이",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "거리가 길어 방문할 구간을 정하고 걸으세요.",
+        "lat": 25.05747,
+        "lng": 121.50977,
+        "area": "다다오청",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 타이베이 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "taipei-guide-7d4eec8b2e13",
+        "cityId": "taipei",
+        "name": "보안궁",
+        "english": "Bao'an Temple · 保安宮",
+        "category": "관광",
+        "image": "/images/commons-069-taipei-guide-7d4eec8b2e13.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-taipei-guide-7d4eec8b2e13.jpg",
+          "author": "Allervous",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bao%27an_temple_garden1.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "전통 건축과 장식이 있는 도교 사원입니다.",
+        "address": "다룽둥 · 타이베이",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "인근 공자묘와 한 구역으로 묶으세요.",
+        "lat": 25.07321,
+        "lng": 121.51554,
+        "area": "다룽둥",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 타이베이 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "taipei-guide-311190f31652",
+        "cityId": "taipei",
+        "name": "타이베이 공자묘",
+        "english": "Confucius Temple · 孔廟",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "공자를 기리는 전통 사당입니다.",
+        "address": "다룽둥 · 타이베이",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "보안궁에서 걸어서 이어갈 수 있습니다.",
+        "lat": 25.07286,
+        "lng": 121.51625,
+        "area": "다룽둥",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 타이베이 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "taipei-guide-0195af2115b6",
+        "cityId": "taipei",
+        "name": "다안 삼림공원",
+        "english": "Daan Forest Park · 大安森林公園",
+        "category": "관광",
+        "image": "/images/commons-069-taipei-guide-0195af2115b6.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-taipei-guide-0195af2115b6.jpg",
+          "author": "燈火闌珊處",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_sidewalk_outside_Daan_Forest_Park_20250217.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "도심의 넓은 녹지와 산책로가 있는 공원입니다.",
+        "address": "다안 · 타이베이",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "낮에는 그늘과 물을 챙기고 쉬어 가세요.",
+        "lat": 25.0302,
+        "lng": 121.5357,
+        "area": "다안",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 타이베이 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "taipei-guide-f8fa7026762b",
+        "cityId": "taipei",
+        "name": "샹산 등산로",
+        "english": "Elephant Mountain Hiking Trail · 象山步道",
+        "category": "관광",
+        "image": "/images/commons-069-taipei-guide-f8fa7026762b.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-taipei-guide-f8fa7026762b.jpg",
+          "author": "4300streetcar",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Taipei_night_skyline_and_Elephant_Mountain_May_2025.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "도시와 타이베이 101을 바라보는 계단 산책길입니다.",
+        "address": "신이 · 타이베이",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "경사가 가파르므로 미끄럽지 않은 신발과 물을 준비하세요.",
+        "lat": 25.02738,
+        "lng": 121.57074,
+        "area": "신이",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 타이베이 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "taipei-guide-efbe7e846207",
+        "cityId": "taipei",
+        "name": "타이베이 101 쇼핑몰",
+        "english": "Taipei 101 Mall",
+        "category": "쇼핑",
+        "image": "/images/city-taipei.webp",
+        "photoCredit": {
+          "file": "/images/city-taipei.webp",
+          "author": "AngMoKio",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Taipei_101_2009_amk.jpg",
+          "verifiedAt": "2026-10-16"
+        },
+        "description": "타이베이 101 건물에 연결된 쇼핑 공간입니다.",
+        "address": "신이 · 타이베이",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "저장 좌표는 쇼핑몰 기준이며 전망대 입장·예약은 별도입니다.",
+        "lat": 25.03412,
+        "lng": 121.56437,
+        "area": "신이",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 타이베이 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "taipei-guide-fce11ef0e9f1",
+        "cityId": "taipei",
+        "name": "벨라비타 쇼핑몰",
+        "english": "Bellavita Mall",
+        "category": "쇼핑",
+        "image": "/images/place-placeholder.svg",
+        "description": "신이 지구의 쇼핑 공간입니다.",
+        "address": "신이 · 타이베이",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "타이베이 101 일대와 함께 둘러보세요.",
+        "lat": 25.03966,
+        "lng": 121.56779,
+        "area": "신이",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 타이베이 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "taipei-guide-11658c833418",
+        "cityId": "taipei",
+        "name": "젠궈 휴일 옥시장",
+        "english": "Jianguo Holiday Jade Market · 假日玉市",
+        "category": "쇼핑",
+        "image": "/images/place-placeholder.svg",
+        "description": "고가도로 아래에 열리는 옥·장신구 시장입니다.",
+        "address": "다안 · 타이베이",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "상설 매장처럼 생각하지 말고 실제 장날을 확인하세요.",
+        "lat": 25.0381,
+        "lng": 121.5379,
+        "area": "다안",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 타이베이 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "taipei-guide-f93a5b74783b",
+        "cityId": "taipei",
+        "name": "타이베이 시립미술관",
+        "english": "Taipei Fine Arts Museum · 台北市立美術館",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "대만과 해외 작가의 작품을 소개하는 미술관입니다.",
+        "address": "중산 · 타이베이",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "전시 교체와 휴관일을 확인한 뒤 방문하세요.",
+        "lat": 25.0721,
+        "lng": 121.5248,
+        "area": "중산",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 타이베이 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "taipei-guide-9a433dfcd6d7",
+        "cityId": "taipei",
+        "name": "중정기념당",
+        "english": "National Chiang Kai-shek Memorial Hall · 中正紀念堂",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "기념당과 넓은 광장으로 구성된 타이베이의 주요 명소입니다.",
+        "address": "중정 · 타이베이",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "그늘이 적은 광장에서는 햇볕을 피할 시간을 잡으세요.",
+        "lat": 25.0346,
+        "lng": 121.5217,
+        "area": "중정",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 타이베이 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "taipei-guide-7d7000a05bb1",
+        "cityId": "taipei",
+        "name": "국립역사박물관",
+        "english": "National Museum Of History · 國立歷史博物館",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "역사·미술 유물을 다루는 박물관입니다.",
+        "address": "중정 · 타이베이",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "식물원과 가깝지만 전시·입장 조건은 별도로 확인하세요.",
+        "lat": 25.03157,
+        "lng": 121.51119,
+        "area": "중정",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 타이베이 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "taipei-guide-592c444ae51a",
+        "cityId": "taipei",
+        "name": "국립대만박물관",
+        "english": "National Taiwan Museum · 國立台灣博物館",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "역사 건물에서 대만의 자연·문화 자료를 소개하는 박물관입니다.",
+        "address": "중정 · 타이베이",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "분관과 본관의 입장 위치를 구분하세요.",
+        "lat": 25.0427,
+        "lng": 121.5151,
+        "area": "중정",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 타이베이 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "taipei-guide-ba10a8dc504f",
+        "cityId": "taipei",
+        "name": "이이팔 기념관",
+        "english": "228 Memorial Museum",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "이이팔 사건을 기록하는 역사 전시 공간입니다.",
+        "address": "중정 · 타이베이",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "인근 평화기념공원과 함께 조용히 둘러보세요.",
+        "lat": 25.04038,
+        "lng": 121.51555,
+        "area": "중정",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 타이베이 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "taipei-guide-5838566958d3",
+        "cityId": "taipei",
+        "name": "이이팔 평화기념공원",
+        "english": "228 Peace Memorial Park · 二二八和平公園",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "도심의 산책로와 기념 시설이 있는 공원입니다.",
+        "address": "중정 · 타이베이",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "국립대만박물관·기념관을 같은 동선으로 묶기 좋습니다.",
+        "lat": 25.0416,
+        "lng": 121.515,
+        "area": "중정",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 타이베이 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "taipei-guide-d5df460eeaf1",
+        "cityId": "taipei",
+        "name": "타이베이 식물원",
+        "english": "Taipei Botanical Garden · 植物園",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "연못과 식물 컬렉션을 따라 걷는 도심 식물원입니다.",
+        "address": "중정 · 타이베이",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "야외 산책에 맞는 신발과 벌레 기피제를 준비하세요.",
+        "lat": 25.03214,
+        "lng": 121.50949,
+        "area": "중정",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 타이베이 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "taipei-guide-5196ef892dd6",
+        "cityId": "taipei",
+        "name": "화산 문화창의공원",
+        "english": "Hua Shan Cultural and Creative Industry Center · 華山創意文化園區",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "옛 산업 건물을 전시·공연·창작 공간으로 활용하는 문화 지구입니다.",
+        "address": "중정 · 타이베이",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "행사마다 표·운영 시간이 다르므로 관심 전시를 확인하세요.",
+        "lat": 25.0446,
+        "lng": 121.529,
+        "area": "중정",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 타이베이 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "taipei-guide-cc04d56a4659",
+        "cityId": "taipei",
+        "name": "보장암 국제예술촌",
+        "english": "Treasure Hill Artist Village · 寶藏巖國際藝術村",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "언덕의 옛 마을과 예술 공간이 어우러진 곳입니다.",
+        "address": "궁관 · 타이베이",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "주거 구역을 존중하고 언덕길을 걸을 시간을 확보하세요.",
+        "lat": 25.01052,
+        "lng": 121.53244,
+        "area": "궁관",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 타이베이 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "id": "taipei-overview",
+        "title": "도시 소개",
+        "body": "구시가지·동쪽 신이권·베이터우 등 권역별로 나누면 MRT 환승과 보행을 줄일 수 있습니다."
+      },
+      {
+        "id": "taipei-before",
+        "title": "출발 전 준비",
+        "body": "전망대·온천은 방문일 운영과 예약 조건을 확인하세요.\n\n귀국일에는 공항 이동과 숙소 짐 보관을 먼저 정하세요."
+      },
+      {
+        "id": "taipei-arrival",
+        "title": "공항과 시내 이동",
+        "body": "타오위안·쑹산: 도착 공항을 구분하고 공항 MRT·버스·시내 교통 연결을 확인하세요.\n\nMRT·도보: 역과 출구를 기준으로 구역을 묶으세요. 근교 온천은 도심 관광과 다른 시간대를 두세요."
+      },
+      {
+        "id": "taipei-stay",
+        "title": "숙소 지역 선택",
+        "body": "타이베이역: 공항·도시 간 철도 이동이 많다면 역 출구와 숙소 접근을 중심으로 비교하세요.\n\n시먼·중산: 저녁 식사와 도심 산책 중심으로 비교하고 공항 노선까지 환승을 확인하세요."
+      },
+      {
+        "id": "taipei-plan",
+        "title": "일정 계획",
+        "body": "하루: 구시가지 또는 신이권을 중심으로 잡으세요.\n\n3일 이상: 도심 두 권역과 온천·근교 중 하나를 날짜로 분리하세요."
+      },
+      {
+        "id": "taipei-notes",
+        "title": "현장 팁",
+        "body": "샹산은 평지 전망 산책이 아니라 계단·경사가 포함됩니다.\n\n이 가이드의 장소 목록은 오래된 보관본 기반이므로 개별 시설의 현재 운영을 확인하세요."
+      },
+      {
+        "id": "taipei-rain",
+        "title": "비 오는 날",
+        "body": "국립대만박물관·실내 전시를 중심으로 줄이고 야시장과 산책은 강수 상황에 맞춰 정하세요."
+      }
+    ],
+    "sources": [],
+    "status": "published",
+    "requestId": null,
+    "createdAt": "2026-10-28T00:00:00.000Z",
+    "updatedAt": "2026-10-28T00:00:00.000Z",
+    "publishedAt": "2026-10-28T00:00:00.000Z"
+  },
+  "practicalGuide": {
+    "cityId": "taipei",
+    "firstVisit": "구시가지·동쪽 신이권·베이터우 등 권역별로 나누면 MRT 환승과 보행을 줄일 수 있습니다.",
+    "bases": [
+      {
+        "name": "타이베이역",
+        "advice": "공항·도시 간 철도 이동이 많다면 역 출구와 숙소 접근을 중심으로 비교하세요."
+      },
+      {
+        "name": "시먼·중산",
+        "advice": "저녁 식사와 도심 산책 중심으로 비교하고 공항 노선까지 환승을 확인하세요."
+      }
+    ],
+    "arrival": [
+      {
+        "name": "타오위안·쑹산",
+        "advice": "도착 공항을 구분하고 공항 MRT·버스·시내 교통 연결을 확인하세요."
+      },
+      {
+        "name": "MRT·도보",
+        "advice": "역과 출구를 기준으로 구역을 묶으세요. 근교 온천은 도심 관광과 다른 시간대를 두세요."
+      }
+    ],
+    "timePlan": [
+      {
+        "name": "하루",
+        "advice": "구시가지 또는 신이권을 중심으로 잡으세요."
+      },
+      {
+        "name": "3일 이상",
+        "advice": "도심 두 권역과 온천·근교 중 하나를 날짜로 분리하세요."
+      }
+    ],
+    "before": [
+      "전망대·온천은 방문일 운영과 예약 조건을 확인하세요.",
+      "귀국일에는 공항 이동과 숙소 짐 보관을 먼저 정하세요."
+    ],
+    "pitfalls": [
+      "샹산은 평지 전망 산책이 아니라 계단·경사가 포함됩니다.",
+      "이 가이드의 장소 목록은 오래된 보관본 기반이므로 개별 시설의 현재 운영을 확인하세요."
+    ],
+    "rainPlan": "국립대만박물관·실내 전시를 중심으로 줄이고 야시장과 산책은 강수 상황에 맞춰 정하세요.",
+    "courses": [
+      {
+        "id": "taipei-course-1",
+        "title": "구시가지와 시먼",
+        "pace": "하루 · MRT·도보",
+        "why": "오래된 도심의 사찰·문화 공간·박물관을 묶습니다.",
+        "placeIds": [
+          "taipei-guide-9a78bac6997e",
+          "taipei-guide-4873bb146512",
+          "taipei-guide-592c444ae51a"
+        ]
+      },
+      {
+        "id": "taipei-course-2",
+        "title": "신이권 전망 산책",
+        "pace": "반나절 · 도보·계단",
+        "why": "쇼핑몰과 전망 산책을 묶되 비가 오면 산행을 빼세요.",
+        "placeIds": [
+          "taipei-guide-efbe7e846207",
+          "taipei-guide-f8fa7026762b"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "관광청 공식 사이트",
+        "url": "https://www.travel.taipei/",
+        "checkedAt": "2026-10-15",
+        "status": "unavailable"
+      }
+    ],
+    "researchNote": "기존 내장 장소를 바탕으로 작성한 계획 제안입니다. 관광청 최신 교통·운영 조건은 본문 접근 제한으로 재확인하지 못했습니다. 장소 목록은 2016년 보관본 기반이며 현재 운영은 별도 확인해야 합니다."
+  },
+  "plans": {
+    "cityId": "taipei",
+    "days": [
+      {
+        "id": "taipei-day-1",
+        "title": "구시가지와 시먼",
+        "pace": "하루 · MRT·도보",
+        "why": "오래된 도심의 사찰·문화 공간·박물관을 묶습니다.",
+        "placeIds": [
+          "taipei-guide-9a78bac6997e",
+          "taipei-guide-4873bb146512",
+          "taipei-guide-592c444ae51a"
+        ]
+      },
+      {
+        "id": "taipei-day-2",
+        "title": "신이권 전망 산책",
+        "pace": "반나절 · 도보·계단",
+        "why": "쇼핑몰과 전망 산책을 묶되 비가 오면 산행을 빼세요.",
+        "placeIds": [
+          "taipei-guide-efbe7e846207",
+          "taipei-guide-f8fa7026762b"
+        ]
+      },
+      {
+        "id": "taipei-day-3",
+        "title": "중정기념당과 창의공원",
+        "pace": "철도·도보",
+        "why": "중정기념당에서 시작해 다안과 화산으로 이동하며 도심 하루를 보냅니다.",
+        "placeIds": [
+          "taipei-guide-9a433dfcd6d7",
+          "taipei-guide-0195af2115b6",
+          "taipei-guide-5196ef892dd6"
+        ]
+      },
+      {
+        "id": "taipei-day-4",
+        "title": "다다오청에서 다룽둥까지",
+        "pace": "철도·도보",
+        "why": "디화제 거리와 북쪽 사찰 구역을 묶습니다. 시장·사찰 개방 시간에 맞춰 순서를 조절합니다.",
+        "placeIds": [
+          "taipei-guide-4e2b4d3547c8",
+          "taipei-guide-7d4eec8b2e13",
+          "taipei-guide-311190f31652"
+        ]
+      },
+      {
+        "id": "taipei-day-5",
+        "title": "베이터우 온천과 중산 미술관",
+        "pace": "철도",
+        "why": "북쪽 온천 지역을 먼저 보고 돌아오는 길 중산의 미술관을 방문합니다. 박물관 휴관일을 비교합니다.",
+        "placeIds": [
+          "taipei-guide-3682822e1b06",
+          "taipei-guide-f93a5b74783b"
+        ]
+      }
+    ]
+  }
+}

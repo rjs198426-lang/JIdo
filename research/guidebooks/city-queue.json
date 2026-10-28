@@ -1,0 +1,585 @@
+{
+  "schemaVersion": 1,
+  "selection": "한국인 자유여행 수요를 고려한 편집 후보 목록. 실측 방문 순위·조사 완료 목록이 아니며 조사 전에는 게시하지 않음. 합쳐 다루는 지역을 이름만 바꿔 중복 생성하지 않음.",
+  "batchTarget": 5,
+  "minBatch": 5,
+  "maxBatch": 10,
+  "whenExhausted": "기존 데이터베이스와 중복하지 않는 후보를 실제 조사해 보충. 근거가 부족하면 목표 개수를 맞추기 위해 내용을 만들지 않고 부족 사유 보고.",
+  "cities": [
+    {
+      "slug": "nagasaki",
+      "name": "나가사키",
+      "country": "일본"
+    },
+    {
+      "slug": "kumamoto",
+      "name": "구마모토",
+      "country": "일본"
+    },
+    {
+      "slug": "kagoshima",
+      "name": "가고시마",
+      "country": "일본"
+    },
+    {
+      "slug": "beppu",
+      "name": "벳푸",
+      "country": "일본"
+    },
+    {
+      "slug": "yufuin",
+      "name": "유후인",
+      "country": "일본"
+    },
+    {
+      "slug": "matsuyama",
+      "name": "마쓰야마",
+      "country": "일본"
+    },
+    {
+      "slug": "takamatsu",
+      "name": "다카마쓰",
+      "country": "일본"
+    },
+    {
+      "slug": "tottori",
+      "name": "돗토리",
+      "country": "일본"
+    },
+    {
+      "slug": "okayama",
+      "name": "오카야마",
+      "country": "일본"
+    },
+    {
+      "slug": "kanazawa",
+      "name": "가나자와",
+      "country": "일본"
+    },
+    {
+      "slug": "hakodate",
+      "name": "하코다테",
+      "country": "일본"
+    },
+    {
+      "slug": "asahikawa",
+      "name": "아사히카와",
+      "country": "일본"
+    },
+    {
+      "slug": "ishigaki",
+      "name": "이시가키",
+      "country": "일본"
+    },
+    {
+      "slug": "miyakojima",
+      "name": "미야코지마",
+      "country": "일본"
+    },
+    {
+      "slug": "boracay",
+      "name": "보라카이",
+      "country": "필리핀"
+    },
+    {
+      "slug": "manila",
+      "name": "마닐라",
+      "country": "필리핀"
+    },
+    {
+      "slug": "clark",
+      "name": "클락",
+      "country": "필리핀"
+    },
+    {
+      "slug": "puertoprincesa",
+      "name": "푸에르토프린세사",
+      "country": "필리핀"
+    },
+    {
+      "slug": "dalat",
+      "name": "달랏",
+      "country": "베트남"
+    },
+    {
+      "slug": "haiphong",
+      "name": "하이퐁",
+      "country": "베트남"
+    },
+    {
+      "slug": "hue",
+      "name": "후에",
+      "country": "베트남"
+    },
+    {
+      "slug": "quynhon",
+      "name": "꾸이년",
+      "country": "베트남"
+    },
+    {
+      "slug": "halong",
+      "name": "하롱",
+      "country": "베트남"
+    },
+    {
+      "slug": "pattaya",
+      "name": "파타야",
+      "country": "태국"
+    },
+    {
+      "slug": "krabi",
+      "name": "끄라비",
+      "country": "태국"
+    },
+    {
+      "slug": "kohsamui",
+      "name": "코사무이",
+      "country": "태국"
+    },
+    {
+      "slug": "huahin",
+      "name": "후아힌",
+      "country": "태국"
+    },
+    {
+      "slug": "chiangrai",
+      "name": "치앙라이",
+      "country": "태국"
+    },
+    {
+      "slug": "langkawi",
+      "name": "랑카위",
+      "country": "말레이시아"
+    },
+    {
+      "slug": "penang",
+      "name": "페낭",
+      "country": "말레이시아"
+    },
+    {
+      "slug": "johorbahru",
+      "name": "조호르바루",
+      "country": "말레이시아"
+    },
+    {
+      "slug": "melaka",
+      "name": "믈라카",
+      "country": "말레이시아"
+    },
+    {
+      "slug": "qingdao",
+      "name": "칭다오",
+      "country": "중국"
+    },
+    {
+      "slug": "zhangjiajie",
+      "name": "장자제",
+      "country": "중국"
+    },
+    {
+      "slug": "chengdu",
+      "name": "청두",
+      "country": "중국"
+    },
+    {
+      "slug": "chongqing",
+      "name": "충칭",
+      "country": "중국"
+    },
+    {
+      "slug": "xian",
+      "name": "시안",
+      "country": "중국"
+    },
+    {
+      "slug": "hangzhou",
+      "name": "항저우",
+      "country": "중국"
+    },
+    {
+      "slug": "shenzhen",
+      "name": "선전",
+      "country": "중국"
+    },
+    {
+      "slug": "guangzhou",
+      "name": "광저우",
+      "country": "중국"
+    },
+    {
+      "slug": "kunming",
+      "name": "쿤밍",
+      "country": "중국"
+    },
+    {
+      "slug": "dalian",
+      "name": "다롄",
+      "country": "중국"
+    },
+    {
+      "slug": "yantai",
+      "name": "옌타이",
+      "country": "중국"
+    },
+    {
+      "slug": "macau",
+      "name": "마카오",
+      "country": "마카오"
+    },
+    {
+      "slug": "taichung",
+      "name": "타이중",
+      "country": "대만"
+    },
+    {
+      "slug": "hualien",
+      "name": "화롄",
+      "country": "대만"
+    },
+    {
+      "slug": "yogyakarta",
+      "name": "욕야카르타",
+      "country": "인도네시아"
+    },
+    {
+      "slug": "jakarta",
+      "name": "자카르타",
+      "country": "인도네시아"
+    },
+    {
+      "slug": "lombok",
+      "name": "롬복",
+      "country": "인도네시아"
+    },
+    {
+      "slug": "vientiane",
+      "name": "비엔티안",
+      "country": "라오스"
+    },
+    {
+      "slug": "luangprabang",
+      "name": "루앙프라방",
+      "country": "라오스"
+    },
+    {
+      "slug": "vangvieng",
+      "name": "방비엥",
+      "country": "라오스"
+    },
+    {
+      "slug": "siemreap",
+      "name": "시엠레아프",
+      "country": "캄보디아"
+    },
+    {
+      "slug": "phnompenh",
+      "name": "프놈펜",
+      "country": "캄보디아"
+    },
+    {
+      "slug": "ulaanbaatar",
+      "name": "울란바토르",
+      "country": "몽골"
+    },
+    {
+      "slug": "tashkent",
+      "name": "타슈켄트",
+      "country": "우즈베키스탄"
+    },
+    {
+      "slug": "almaty",
+      "name": "알마티",
+      "country": "카자흐스탄"
+    },
+    {
+      "slug": "istanbul",
+      "name": "이스탄불",
+      "country": "튀르키예"
+    },
+    {
+      "slug": "cappadocia",
+      "name": "카파도키아",
+      "country": "튀르키예"
+    },
+    {
+      "slug": "antalya",
+      "name": "안탈리아",
+      "country": "튀르키예"
+    },
+    {
+      "slug": "vienna",
+      "name": "빈",
+      "country": "오스트리아"
+    },
+    {
+      "slug": "salzburg",
+      "name": "잘츠부르크",
+      "country": "오스트리아"
+    },
+    {
+      "slug": "budapest",
+      "name": "부다페스트",
+      "country": "헝가리"
+    },
+    {
+      "slug": "zurich",
+      "name": "취리히",
+      "country": "스위스"
+    },
+    {
+      "slug": "interlaken",
+      "name": "인터라켄",
+      "country": "스위스"
+    },
+    {
+      "slug": "lucerne",
+      "name": "루체른",
+      "country": "스위스"
+    },
+    {
+      "slug": "zermatt",
+      "name": "체르마트",
+      "country": "스위스"
+    },
+    {
+      "slug": "florence",
+      "name": "피렌체",
+      "country": "이탈리아"
+    },
+    {
+      "slug": "venice",
+      "name": "베네치아",
+      "country": "이탈리아"
+    },
+    {
+      "slug": "milan",
+      "name": "밀라노",
+      "country": "이탈리아"
+    },
+    {
+      "slug": "naples",
+      "name": "나폴리",
+      "country": "이탈리아"
+    },
+    {
+      "slug": "madrid",
+      "name": "마드리드",
+      "country": "스페인"
+    },
+    {
+      "slug": "seville",
+      "name": "세비야",
+      "country": "스페인"
+    },
+    {
+      "slug": "granada",
+      "name": "그라나다",
+      "country": "스페인"
+    },
+    {
+      "slug": "lisbon",
+      "name": "리스본",
+      "country": "포르투갈"
+    },
+    {
+      "slug": "porto",
+      "name": "포르투",
+      "country": "포르투갈"
+    },
+    {
+      "slug": "nice",
+      "name": "니스",
+      "country": "프랑스"
+    },
+    {
+      "slug": "lyon",
+      "name": "리옹",
+      "country": "프랑스"
+    },
+    {
+      "slug": "amsterdam",
+      "name": "암스테르담",
+      "country": "네덜란드"
+    },
+    {
+      "slug": "brussels",
+      "name": "브뤼셀",
+      "country": "벨기에"
+    },
+    {
+      "slug": "munich",
+      "name": "뮌헨",
+      "country": "독일"
+    },
+    {
+      "slug": "berlin",
+      "name": "베를린",
+      "country": "독일"
+    },
+    {
+      "slug": "frankfurt",
+      "name": "프랑크푸르트",
+      "country": "독일"
+    },
+    {
+      "slug": "athens",
+      "name": "아테네",
+      "country": "그리스"
+    },
+    {
+      "slug": "zagreb",
+      "name": "자그레브",
+      "country": "크로아티아"
+    },
+    {
+      "slug": "dubrovnik",
+      "name": "두브로브니크",
+      "country": "크로아티아"
+    },
+    {
+      "slug": "helsinki",
+      "name": "헬싱키",
+      "country": "핀란드"
+    },
+    {
+      "slug": "copenhagen",
+      "name": "코펜하겐",
+      "country": "덴마크"
+    },
+    {
+      "slug": "stockholm",
+      "name": "스톡홀름",
+      "country": "스웨덴"
+    },
+    {
+      "slug": "reykjavik",
+      "name": "레이캬비크",
+      "country": "아이슬란드"
+    },
+    {
+      "slug": "edinburgh",
+      "name": "에든버러",
+      "country": "영국"
+    },
+    {
+      "slug": "dublin",
+      "name": "더블린",
+      "country": "아일랜드"
+    },
+    {
+      "slug": "sanfrancisco",
+      "name": "샌프란시스코",
+      "country": "미국"
+    },
+    {
+      "slug": "lasvegas",
+      "name": "라스베이거스",
+      "country": "미국"
+    },
+    {
+      "slug": "seattle",
+      "name": "시애틀",
+      "country": "미국"
+    },
+    {
+      "slug": "boston",
+      "name": "보스턴",
+      "country": "미국"
+    },
+    {
+      "slug": "chicago",
+      "name": "시카고",
+      "country": "미국"
+    },
+    {
+      "slug": "washingtondc",
+      "name": "워싱턴 D.C.",
+      "country": "미국"
+    },
+    {
+      "slug": "sandiego",
+      "name": "샌디에이고",
+      "country": "미국"
+    },
+    {
+      "slug": "orlando",
+      "name": "올랜도",
+      "country": "미국"
+    },
+    {
+      "slug": "vancouver",
+      "name": "밴쿠버",
+      "country": "캐나다"
+    },
+    {
+      "slug": "toronto",
+      "name": "토론토",
+      "country": "캐나다"
+    },
+    {
+      "slug": "banff",
+      "name": "밴프",
+      "country": "캐나다"
+    },
+    {
+      "slug": "quebec",
+      "name": "퀘벡시티",
+      "country": "캐나다"
+    },
+    {
+      "slug": "cancun",
+      "name": "칸쿤",
+      "country": "멕시코"
+    },
+    {
+      "slug": "melbourne",
+      "name": "멜버른",
+      "country": "호주"
+    },
+    {
+      "slug": "brisbane",
+      "name": "브리즈번",
+      "country": "호주"
+    },
+    {
+      "slug": "goldcoast",
+      "name": "골드코스트",
+      "country": "호주"
+    },
+    {
+      "slug": "cairns",
+      "name": "케언스",
+      "country": "호주"
+    },
+    {
+      "slug": "perth",
+      "name": "퍼스",
+      "country": "호주"
+    },
+    {
+      "slug": "auckland",
+      "name": "오클랜드",
+      "country": "뉴질랜드"
+    },
+    {
+      "slug": "queenstown",
+      "name": "퀸스타운",
+      "country": "뉴질랜드"
+    },
+    {
+      "slug": "christchurch",
+      "name": "크라이스트처치",
+      "country": "뉴질랜드"
+    },
+    {
+      "slug": "abudhabi",
+      "name": "아부다비",
+      "country": "아랍에미리트"
+    },
+    {
+      "slug": "doha",
+      "name": "도하",
+      "country": "카타르"
+    }
+  ]
+}

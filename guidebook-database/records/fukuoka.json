@@ -1,0 +1,1750 @@
+{
+  "guide": {
+    "id": "fukuoka",
+    "scope": "city",
+    "city": {
+      "id": "fukuoka",
+      "name": "후쿠오카",
+      "english": "FUKUOKA · 福岡",
+      "country": "일본",
+      "region": "일본",
+      "image": "/images/place-fukuoka-ohori.jpg",
+      "photoCredit": {
+        "file": "/images/place-fukuoka-ohori.jpg",
+        "author": "Tzuhsun Hsu from Taipei, Taiwan",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E6%BF%A0%E5%85%AC%E5%9C%92_(3360365578).jpg",
+        "verifiedAt": "2026-10-14"
+      },
+      "tagline": "하카타·텐진과 호수 산책",
+      "description": "하카타·텐진과 오호리 공원을 나눠 계획하기 좋습니다. 하카타역에서 규슈 다른 도시로 여행을 이어갈 수 있습니다.",
+      "tags": [
+        "도시 산책",
+        "자유여행"
+      ],
+      "flight": "후쿠오카공항",
+      "currency": "일본 엔 · JPY",
+      "timeDifference": "한국과 시차 없음",
+      "season": "계절별 일정 선택",
+      "accent": "#eaf4ef"
+    },
+    "places": [
+      {
+        "id": "fukuoka-ohori",
+        "cityId": "fukuoka",
+        "name": "오호리 공원",
+        "english": "Ohori Park",
+        "category": "관광",
+        "image": "/images/place-fukuoka-ohori.jpg",
+        "photoCredit": {
+          "file": "/images/place-fukuoka-ohori.jpg",
+          "author": "Tzuhsun Hsu from Taipei, Taiwan",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E6%BF%A0%E5%85%AC%E5%9C%92_(3360365578).jpg",
+          "verifiedAt": "2026-10-14"
+        },
+        "description": "후쿠오카의 성·궁전 유적.",
+        "address": "후쿠오카, 후쿠오카",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 33.585861,
+        "lng": 130.37625,
+        "area": "후쿠오카",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Fukuoka",
+            "url": "https://en.wikivoyage.org/wiki/Fukuoka#Ohori_Park",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "fukuoka-kushida",
+        "cityId": "fukuoka",
+        "name": "구시다 신사",
+        "english": "Kushida Shrine",
+        "category": "관광",
+        "image": "/images/place-fukuoka-kushida.jpg",
+        "photoCredit": {
+          "file": "/images/place-fukuoka-kushida.jpg",
+          "author": "Pontafon",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kushidajinjafukuoka01.jpg",
+          "verifiedAt": "2026-10-14"
+        },
+        "description": "후쿠오카의 신사·사당.",
+        "address": "후쿠오카, 후쿠오카",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 33.592972,
+        "lng": 130.410472,
+        "area": "후쿠오카",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Fukuoka",
+            "url": "https://en.wikivoyage.org/wiki/Fukuoka#Kushida_Shrine",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "fukuoka-tenjin",
+        "cityId": "fukuoka",
+        "name": "텐진",
+        "english": "Tenjin · 天神",
+        "category": "관광",
+        "image": "/images/place-fukuoka-tenjin.jpg",
+        "photoCredit": {
+          "file": "/images/place-fukuoka-tenjin.jpg",
+          "author": "Hirho",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tenjin-nishi_D%C5%8Dri_the_ENE_view_from_Kon-ya-machi_Sh%C5%8Dji_Tenjin_2-ch%C5%8Dme_Ch%C5%AB%C5%8D-ku_Fukuoka_20231114.jpg",
+          "verifiedAt": "2026-10-14"
+        },
+        "description": "상점과 음식점이 모인 도심 지역입니다. 만날 건물이나 출구를 구체적으로 정하세요.",
+        "address": "Tenjin, Chuo, Fukuoka",
+        "duration": "1–2시간",
+        "cost": "시설별 입장 조건 확인",
+        "tip": "상점과 음식점이 모인 도심 지역입니다. 만날 건물이나 출구를 구체적으로 정하세요.",
+        "lat": 33.5903,
+        "lng": 130.3997
+      },
+      {
+        "id": "fukuoka-review-7c691bbfc87d",
+        "cityId": "fukuoka",
+        "name": "다자이후 텐만구",
+        "english": "Dazaifu Tenmangu Shrine · 太宰府天満宮",
+        "category": "관광",
+        "image": "/images/commons-069-fukuoka-review-7c691bbfc87d.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-fukuoka-review-7c691bbfc87d.jpg",
+          "author": "水だらけのプール",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dazaifu_tenmangu_shrine_temporary_main_hall.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "근교 · 다자이후의 신사·사당.",
+        "address": "4-7-1 Saifu",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 33.520918,
+        "lng": 130.53472,
+        "area": "근교 · 다자이후",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Dazaifu",
+            "url": "https://en.wikivoyage.org/wiki/Dazaifu#Dazaifu_Tenmangu_Shrine",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "fukuoka-review-62545a9d3b3c",
+        "cityId": "fukuoka",
+        "name": "규슈 국립박물관",
+        "english": "Kyushu National Museum · 九州国立博物館",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 다자이후의 박물관·전시 공간.",
+        "address": "근교 · 다자이후, 후쿠오카",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 33.518214,
+        "lng": 130.538455,
+        "area": "근교 · 다자이후",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Dazaifu",
+            "url": "https://en.wikivoyage.org/wiki/Dazaifu#Kyushu_National_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "fukuoka-review-2a612b76d37a",
+        "cityId": "fukuoka",
+        "name": "나카스",
+        "english": "Nakasu",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "후쿠오카의 공원·정원.",
+        "address": "후쿠오카, 후쿠오카",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 33.593249,
+        "lng": 130.405667,
+        "area": "후쿠오카",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Fukuoka",
+            "url": "https://en.wikivoyage.org/wiki/Fukuoka#Nakasu",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "fukuoka-review-e93ed741f863",
+        "cityId": "fukuoka",
+        "name": "기온",
+        "english": "Gion",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "후쿠오카의 사찰.",
+        "address": "후쿠오카, 후쿠오카",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 33.593807,
+        "lng": 130.413587,
+        "area": "후쿠오카",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Fukuoka",
+            "url": "https://en.wikivoyage.org/wiki/Fukuoka#Gion",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "fukuoka-review-6e06e038f245",
+        "cityId": "fukuoka",
+        "name": "도초지",
+        "english": "Tōchō-ji",
+        "category": "관광",
+        "image": "/images/commons-069-fukuoka-review-6e06e038f245.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-fukuoka-review-6e06e038f245.jpg",
+          "author": "Hirho",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:T%C5%8Dch%C5%8D-ji_the_sanmon_at_Setsubun_2-4_Gokushomachi_Hakata-ku_Fukuoka_20240125.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "후쿠오카의 사찰.",
+        "address": "후쿠오카, 후쿠오카",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 33.595,
+        "lng": 130.414167,
+        "area": "후쿠오카",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Fukuoka",
+            "url": "https://en.wikivoyage.org/wiki/Fukuoka#T%C5%8Dch%C5%8D-ji",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "fukuoka-review-fdbdfe8afeac",
+        "cityId": "fukuoka",
+        "name": "쇼후쿠지",
+        "english": "Shōfuku-ji",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "후쿠오카의 사찰.",
+        "address": "후쿠오카, 후쿠오카",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 33.597454,
+        "lng": 130.414458,
+        "area": "후쿠오카",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Fukuoka",
+            "url": "https://en.wikivoyage.org/wiki/Fukuoka#Sh%C5%8Dfuku-ji",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "fukuoka-review-883af8ccd617",
+        "cityId": "fukuoka",
+        "name": "아크로스 옥상정원",
+        "english": "ACROS rooftop garden",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "후쿠오카의 공원·정원.",
+        "address": "후쿠오카, 후쿠오카",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 33.591595,
+        "lng": 130.402349,
+        "area": "후쿠오카",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Fukuoka",
+            "url": "https://en.wikivoyage.org/wiki/Fukuoka#ACROS_rooftop_garden",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "fukuoka-review-8249290872e6",
+        "cityId": "fukuoka",
+        "name": "후쿠오카 타워",
+        "english": "Fukuoka Tower · 福岡タワー",
+        "category": "관광",
+        "image": "/images/commons-069-fukuoka-review-8249290872e6.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-fukuoka-review-8249290872e6.jpg",
+          "author": "Hirho",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fukuoka_Tower_the_view_from_Marizon_Momochi-hama_2-ch%C5%8Dme_Sawara-ku_Fukuoka_20231103.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "후쿠오카의 전망 장소.",
+        "address": "Sawara-ku Momochihama 2-3-26",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 33.59325,
+        "lng": 130.351472,
+        "area": "후쿠오카",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Fukuoka",
+            "url": "https://en.wikivoyage.org/wiki/Fukuoka#Fukuoka_Tower",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "fukuoka-review-be6e41d9108f",
+        "cityId": "fukuoka",
+        "name": "아타고 신사",
+        "english": "Atago Shrine · 愛宕神社",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "후쿠오카의 신사·사당.",
+        "address": "후쿠오카, 후쿠오카",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 33.58554,
+        "lng": 130.334851,
+        "area": "후쿠오카",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Fukuoka",
+            "url": "https://en.wikivoyage.org/wiki/Fukuoka#Atago_Shrine",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "fukuoka-review-77b91c6de319",
+        "cityId": "fukuoka",
+        "name": "하카타 포트타워",
+        "english": "Hakata Port Tower",
+        "category": "관광",
+        "image": "/images/commons-069-fukuoka-review-77b91c6de319.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-fukuoka-review-77b91c6de319.jpg",
+          "author": "S5A-0043",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:(JPN-Fukuoka)_Hakata_Port_Tower_2024-11-14_-_3.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "후쿠오카의 전망 장소.",
+        "address": "후쿠오카, 후쿠오카",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 33.604444,
+        "lng": 130.397778,
+        "area": "후쿠오카",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Fukuoka",
+            "url": "https://en.wikivoyage.org/wiki/Fukuoka#Hakata_Port_Tower",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "fukuoka-review-f106c7336fe4",
+        "cityId": "fukuoka",
+        "name": "오호리 공원 일본정원",
+        "english": "Ohori Park Japanese Garden · 大濠公園日本庭園",
+        "category": "관광",
+        "image": "/images/commons-069-fukuoka-review-f106c7336fe4.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-fukuoka-review-f106c7336fe4.jpg",
+          "author": "Hirho",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:%C5%8Chori_Terrace_The_box_office_for_the_%C5%8Chori_Park_Japanese_Garden_%C5%8Chori-k%C5%8Den_Ch%C5%AB%C5%8D-ku_Fukuoka_20260529_163436.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "후쿠오카의 공원·정원. 일본식 정원를 살펴볼 수 있습니다.",
+        "address": "후쿠오카, 후쿠오카",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 33.58303,
+        "lng": 130.378745,
+        "area": "후쿠오카",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Fukuoka",
+            "url": "https://en.wikivoyage.org/wiki/Fukuoka#Ohori_Park_Japanese_Garden",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "fukuoka-review-52cd4e0c30d7",
+        "cityId": "fukuoka",
+        "name": "마이즈루 공원",
+        "english": "Maizuru Park · 舞鶴公園",
+        "category": "관광",
+        "image": "/images/commons-069-fukuoka-review-52cd4e0c30d7.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-fukuoka-review-52cd4e0c30d7.jpg",
+          "author": "Hirho",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maizuru_Park_The_E_entrance_J%C5%8Dnai_Ch%C5%AB%C5%8D-ku_Fukuoka_20260721.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "후쿠오카의 성·궁전 유적.",
+        "address": "후쿠오카, 후쿠오카",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 33.586366,
+        "lng": 130.385192,
+        "area": "후쿠오카",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Fukuoka",
+            "url": "https://en.wikivoyage.org/wiki/Fukuoka#Maizuru_Park",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "fukuoka-review-72350575eabf",
+        "cityId": "fukuoka",
+        "name": "후쿠오카성 터",
+        "english": "Fukuoka Castle ruins",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "후쿠오카의 성·궁전 유적.",
+        "address": "후쿠오카, 후쿠오카",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 33.584381,
+        "lng": 130.383103,
+        "area": "후쿠오카",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Fukuoka",
+            "url": "https://en.wikivoyage.org/wiki/Fukuoka#Fukuoka_Castle_ruins",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "fukuoka-review-b80aae8094ea",
+        "cityId": "fukuoka",
+        "name": "니시 공원",
+        "english": "Nishi Park · 西公園",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "후쿠오카의 신사·사당.",
+        "address": "후쿠오카, 후쿠오카",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 33.598374,
+        "lng": 130.374915,
+        "area": "후쿠오카",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Fukuoka",
+            "url": "https://en.wikivoyage.org/wiki/Fukuoka#Nishi_Park",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "fukuoka-review-505b01370725",
+        "cityId": "fukuoka",
+        "name": "게고 공원",
+        "english": "Kego Koen",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "후쿠오카의 공원·정원.",
+        "address": "후쿠오카, 후쿠오카",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 33.5884,
+        "lng": 130.3991,
+        "area": "후쿠오카",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Fukuoka",
+            "url": "https://en.wikivoyage.org/wiki/Fukuoka#Kego_Koen",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "fukuoka-review-bfb3f156eb3e",
+        "cityId": "fukuoka",
+        "name": "후쿠오카시 박물관",
+        "english": "Fukuoka City Museum · 福岡市博物館",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "후쿠오카의 박물관·전시 공간. 지역·역사 자료를 살펴볼 수 있습니다.",
+        "address": "후쿠오카, 후쿠오카",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 33.589804,
+        "lng": 130.353093,
+        "area": "후쿠오카",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Fukuoka",
+            "url": "https://en.wikivoyage.org/wiki/Fukuoka#Fukuoka_City_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "fukuoka-review-b0bbf29a37ab",
+        "cityId": "fukuoka",
+        "name": "하카타 마치야 민속관",
+        "english": "Machiya Folk Museum · 博多町屋ふるさと館",
+        "category": "관광",
+        "image": "/images/commons-069-fukuoka-review-b0bbf29a37ab.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-fukuoka-review-b0bbf29a37ab.jpg",
+          "author": "Hirho",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hakata_Machiya_Folk_Museum_the_machiya_and_the_exhibition_building_6-10_Reisenmachi_Hakata-ku_Fukuoka_20231128.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "후쿠오카의 박물관·전시 공간.",
+        "address": "후쿠오카, 후쿠오카",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 33.59378,
+        "lng": 130.41162,
+        "area": "후쿠오카",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Fukuoka",
+            "url": "https://en.wikivoyage.org/wiki/Fukuoka#Machiya_Folk_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "fukuoka-review-2927acb1c037",
+        "cityId": "fukuoka",
+        "name": "후쿠오카 아시아미술관",
+        "english": "Asian Art Museum",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "후쿠오카의 박물관·전시 공간.",
+        "address": "Shimokawabatamachi, 3−1",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 33.595,
+        "lng": 130.4058,
+        "area": "후쿠오카",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Fukuoka",
+            "url": "https://en.wikivoyage.org/wiki/Fukuoka#Asian_Art_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "fukuoka-review-fb6cad49a1e5",
+        "cityId": "fukuoka",
+        "name": "후쿠오카시 미술관",
+        "english": "Fukuoka Art Museum",
+        "category": "관광",
+        "image": "/images/commons-069-fukuoka-review-fb6cad49a1e5.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-fukuoka-review-fb6cad49a1e5.jpg",
+          "author": "Hirho",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fukuoka_Art_Museum_The_nokiuchi_of_the_courtyard_%C5%8Chorik%C5%8Den_Ch%C5%AB%C5%8D-ku_Fukuoka_20260916_154545.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "후쿠오카의 박물관·전시 공간.",
+        "address": "후쿠오카, 후쿠오카",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 33.583889,
+        "lng": 130.379806,
+        "area": "후쿠오카",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Fukuoka",
+            "url": "https://en.wikivoyage.org/wiki/Fukuoka#Fukuoka_Art_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "fukuoka-review-d451ff954e41",
+        "cityId": "fukuoka",
+        "name": "베이사이드 플레이스 하카타 부두",
+        "english": "Bayside Place Hakata Pier",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "후쿠오카의 수족관.",
+        "address": "후쿠오카, 후쿠오카",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 33.6041,
+        "lng": 130.3988,
+        "area": "후쿠오카",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Fukuoka",
+            "url": "https://en.wikivoyage.org/wiki/Fukuoka#Bayside_Place_Hakata_Pier",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "fukuoka-review-64e20739ff8a",
+        "cityId": "fukuoka",
+        "name": "후쿠오카시 과학관",
+        "english": "Fukuoka City Science Museum · 福岡市科学館",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "후쿠오카의 박물관·전시 공간. 과학 전시를 살펴볼 수 있습니다.",
+        "address": "3-6F, 4-2-1 Ropponmatsu, Chuo-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 33.592569,
+        "lng": 130.35252,
+        "area": "후쿠오카",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Fukuoka",
+            "url": "https://en.wikivoyage.org/wiki/Fukuoka#Fukuoka_City_Science_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "fukuoka-review-6723a754c607",
+        "cityId": "fukuoka",
+        "name": "이치란 라멘박물관",
+        "english": "Ichiran Ramen Museum · Ichiran no Mori",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "후쿠오카의 박물관·전시 공간.",
+        "address": "256-10 Shimamatsuguma Itoshima-shi",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 33.5931,
+        "lng": 130.2022,
+        "area": "후쿠오카",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Fukuoka",
+            "url": "https://en.wikivoyage.org/wiki/Fukuoka#Ichiran_Ramen_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "fukuoka-review-530980286e42",
+        "cityId": "fukuoka",
+        "name": "마린월드 우미노나카미치",
+        "english": "Marine World Uminonakamichi · マリンワールド海の中道",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "후쿠오카의 수족관.",
+        "address": "18-28 Saitozaki, Higashi Ward",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 33.660922,
+        "lng": 130.363477,
+        "area": "후쿠오카",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Fukuoka",
+            "url": "https://en.wikivoyage.org/wiki/Fukuoka#Marine_World_Uminonakamichi",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "fukuoka-review-19c354a87040",
+        "cityId": "fukuoka",
+        "name": "이타즈케 유적 야요이관",
+        "english": "Itazuke Ruins Yayoi-kan Museum · 板付遺跡・板付遺跡弥生館",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "후쿠오카의 박물관·전시 공간. 지역·역사 자료를 살펴볼 수 있습니다.",
+        "address": "후쿠오카, 후쿠오카",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 33.565472,
+        "lng": 130.452806,
+        "area": "후쿠오카",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Fukuoka",
+            "url": "https://en.wikivoyage.org/wiki/Fukuoka#Itazuke_Ruins_Yayoi-kan_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "fukuoka-review-19e12add235f",
+        "cityId": "fukuoka",
+        "name": "하카타 가부키극장",
+        "english": "Kabuki theatre · Hakata-za",
+        "category": "바·공연",
+        "image": "/images/place-placeholder.svg",
+        "description": "후쿠오카의 공연장. 공연 일정에 따라 이용할 수 있습니다.",
+        "address": "후쿠오카, 후쿠오카",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "공연 일정·연령 제한·예약 여부를 방문 전에 확인하세요.",
+        "lat": 33.595703,
+        "lng": 130.406477,
+        "area": "후쿠오카",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Fukuoka",
+            "url": "https://en.wikivoyage.org/wiki/Fukuoka#Kabuki_theatre",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "fukuoka-review-3221922a2c81",
+        "cityId": "fukuoka",
+        "name": "후쿠오카 노가쿠당",
+        "english": "Noh theatre",
+        "category": "바·공연",
+        "image": "/images/place-placeholder.svg",
+        "description": "후쿠오카의 공연장. 공연 일정에 따라 이용할 수 있습니다.",
+        "address": "1-5 Ohorikoen, Chuo-ku",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "공연 일정·연령 제한·예약 여부를 방문 전에 확인하세요.",
+        "lat": 33.5896,
+        "lng": 130.3742,
+        "area": "후쿠오카",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Fukuoka",
+            "url": "https://en.wikivoyage.org/wiki/Fukuoka#Noh_theatre",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "fukuoka-review-21faa7978443",
+        "cityId": "fukuoka",
+        "name": "모모치 해변",
+        "english": "Momochihama",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "후쿠오카의 해변.",
+        "address": "후쿠오카, 후쿠오카",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 33.595389,
+        "lng": 130.352845,
+        "area": "후쿠오카",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Fukuoka",
+            "url": "https://en.wikivoyage.org/wiki/Fukuoka#Momochihama",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "fukuoka-review-15218f8266f0",
+        "cityId": "fukuoka",
+        "name": "노코노시마",
+        "english": "Nokonoshima · 能古島",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "후쿠오카의 시장·쇼핑 공간.",
+        "address": "후쿠오카, 후쿠오카",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 33.620983,
+        "lng": 130.30356,
+        "area": "후쿠오카",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Fukuoka",
+            "url": "https://en.wikivoyage.org/wiki/Fukuoka#Nokonoshima",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "fukuoka-review-0e67fb3ee7ea",
+        "cityId": "fukuoka",
+        "name": "니시도리",
+        "english": "Nishidori",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "후쿠오카의 둘러볼 수 있는 장소.",
+        "address": "후쿠오카, 후쿠오카",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 33.58881,
+        "lng": 130.39635,
+        "area": "후쿠오카",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Fukuoka",
+            "url": "https://en.wikivoyage.org/wiki/Fukuoka#Nishidori",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "fukuoka-review-57e1c9f39abf",
+        "cityId": "fukuoka",
+        "name": "캐널시티 하카타",
+        "english": "Canal City",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "후쿠오카의 시장·쇼핑 공간.",
+        "address": "후쿠오카, 후쿠오카",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 33.591111,
+        "lng": 130.410556,
+        "area": "후쿠오카",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Fukuoka",
+            "url": "https://en.wikivoyage.org/wiki/Fukuoka#Canal_City",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "fukuoka-review-7a964255b354",
+        "cityId": "fukuoka",
+        "name": "나카스 가와바타 상점가",
+        "english": "Nakasu Kawabata shopping arcade",
+        "category": "쇼핑",
+        "image": "/images/place-placeholder.svg",
+        "description": "후쿠오카의 시장·쇼핑 공간.",
+        "address": "Hakata",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 33.59367,
+        "lng": 130.4082,
+        "area": "후쿠오카",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Fukuoka",
+            "url": "https://en.wikivoyage.org/wiki/Fukuoka#Nakasu_Kawabata_shopping_arcade",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "fukuoka-review-85f9cc19f73c",
+        "cityId": "fukuoka",
+        "name": "하카타 시티",
+        "english": "Hakata City",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "후쿠오카의 시장·쇼핑 공간.",
+        "address": "후쿠오카, 후쿠오카",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 33.59,
+        "lng": 130.4198,
+        "area": "후쿠오카",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Fukuoka",
+            "url": "https://en.wikivoyage.org/wiki/Fukuoka#Hakata_City",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "fukuoka-review-034f141770d7",
+        "cityId": "fukuoka",
+        "name": "고노하몰 하시모토",
+        "english": "Konoha Mall Hashimoto · 木の葉モール橋本",
+        "category": "쇼핑",
+        "image": "/images/place-placeholder.svg",
+        "description": "후쿠오카의 시장·쇼핑 공간.",
+        "address": "후쿠오카, 후쿠오카",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 33.55637,
+        "lng": 130.32159,
+        "area": "후쿠오카",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Fukuoka",
+            "url": "https://en.wikivoyage.org/wiki/Fukuoka#Konoha_Mall_Hashimoto",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "fukuoka-review-4d6c928cd333",
+        "cityId": "fukuoka",
+        "name": "마크이즈 후쿠오카 모모치",
+        "english": "Markis (Fukuoka Momochi) · マークイズ福岡ももち mākuizu...",
+        "category": "쇼핑",
+        "image": "/images/place-placeholder.svg",
+        "description": "후쿠오카의 시장·쇼핑 공간.",
+        "address": "2 Chome-2-1 Jigyohama, Chuo Ward",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 33.5923,
+        "lng": 130.3641,
+        "area": "후쿠오카",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Fukuoka",
+            "url": "https://en.wikivoyage.org/wiki/Fukuoka#Markis_%28Fukuoka_Momochi%29",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "fukuoka-review-7c545f7be97b",
+        "cityId": "fukuoka",
+        "name": "카카바카 후쿠오카",
+        "english": "Kakavaka 福岡",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "후쿠오카의 둘러볼 수 있는 장소.",
+        "address": "Chuo Ward, Daimyo, 1 Chome−3−8, Daimyo631, ４F",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 33.586442,
+        "lng": 130.394584,
+        "area": "후쿠오카",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Fukuoka",
+            "url": "https://en.wikivoyage.org/wiki/Fukuoka#Kakavaka_%E7%A6%8F%E5%B2%A1",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "fukuoka-review-3b9784558692",
+        "cityId": "fukuoka",
+        "name": "나가하마",
+        "english": "Nagahama",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "후쿠오카의 라멘을 다루는 식당.",
+        "address": "후쿠오카, 후쿠오카",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 33.593501,
+        "lng": 130.393346,
+        "area": "후쿠오카",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Fukuoka",
+            "url": "https://en.wikivoyage.org/wiki/Fukuoka#Nagahama",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "fukuoka-review-159aa2cdb01a",
+        "cityId": "fukuoka",
+        "name": "이치란",
+        "english": "Ichiran · 一蘭",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "후쿠오카의 라멘을 다루는 식당.",
+        "address": "5-3-2 Nakasugawa, Hakata-ku",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 33.5933,
+        "lng": 130.4044,
+        "area": "후쿠오카",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Fukuoka",
+            "url": "https://en.wikivoyage.org/wiki/Fukuoka#Ichiran",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "fukuoka-review-747310914700",
+        "cityId": "fukuoka",
+        "name": "라멘 스타디움",
+        "english": "Ramen Stadium",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "후쿠오카의 라멘을 다루는 식당.",
+        "address": "후쿠오카, 후쿠오카",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 33.58913,
+        "lng": 130.41104,
+        "area": "후쿠오카",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Fukuoka",
+            "url": "https://en.wikivoyage.org/wiki/Fukuoka#Ramen_Stadium",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "fukuoka-review-367a160f8d4a",
+        "cityId": "fukuoka",
+        "name": "야마짱",
+        "english": "Yama-chan",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "후쿠오카의 라멘을 다루는 식당.",
+        "address": "후쿠오카, 후쿠오카",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 33.593276,
+        "lng": 130.393443,
+        "area": "후쿠오카",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Fukuoka",
+            "url": "https://en.wikivoyage.org/wiki/Fukuoka#Yama-chan",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "fukuoka-review-9066d4645d3b",
+        "cityId": "fukuoka",
+        "name": "아사히켄 교자",
+        "english": "Asahiken Gyoza",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "후쿠오카의 교자을 다루는 식당.",
+        "address": "2-15-22 Hakata Ekimae, Hakata-ku",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 33.59057,
+        "lng": 130.41662,
+        "area": "후쿠오카",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Fukuoka",
+            "url": "https://en.wikivoyage.org/wiki/Fukuoka#Asahiken_Gyoza",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "fukuoka-review-cfed75e73402",
+        "cityId": "fukuoka",
+        "name": "데쓰나베",
+        "english": "Tetsu-Nabe · 鉄なべ",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "후쿠오카의 식사 장소.",
+        "address": "후쿠오카, 후쿠오카",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 33.5925,
+        "lng": 130.4141,
+        "area": "후쿠오카",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Fukuoka",
+            "url": "https://en.wikivoyage.org/wiki/Fukuoka#Tetsu-Nabe",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "fukuoka-review-fe6cce9787f9",
+        "cityId": "fukuoka",
+        "name": "산초 판사",
+        "english": "Sancho Panza",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "후쿠오카의 식사 장소.",
+        "address": "Daimyo building 11511",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 33.5872,
+        "lng": 130.396,
+        "area": "후쿠오카",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Fukuoka",
+            "url": "https://en.wikivoyage.org/wiki/Fukuoka#Sancho_Panza",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "fukuoka-review-629dd570fdf5",
+        "cityId": "fukuoka",
+        "name": "히토쿠치 교자 다케토라",
+        "english": "Hitokuchi Gyoza Taketora",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "후쿠오카의 교자을 다루는 식당.",
+        "address": "3 Chome-26-27 Haruyoshi, Chuo Ward",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 33.588013,
+        "lng": 130.406617,
+        "area": "후쿠오카",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Fukuoka",
+            "url": "https://en.wikivoyage.org/wiki/Fukuoka#Hitokuchi_Gyoza_Taketora",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "fukuoka-review-30690129261b",
+        "cityId": "fukuoka",
+        "name": "신신",
+        "english": "ShinShin · 신신라면",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "후쿠오카의 라멘을 다루는 식당.",
+        "address": "3 Chome-2-19 Tenjin, Chuo Ward",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 33.59271,
+        "lng": 130.39689,
+        "area": "후쿠오카",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Fukuoka",
+            "url": "https://en.wikivoyage.org/wiki/Fukuoka#ShinShin",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "fukuoka-review-52d0f8cafe97",
+        "cityId": "fukuoka",
+        "name": "우사기요리카메",
+        "english": "Usagiyorikame · ウサギよりカメ もんじゃ焼き 春吉",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "후쿠오카의 오코노미야키을 다루는 식당.",
+        "address": "2 Chome-12-19 1F 101 Haruyoshi, Chuo Ward",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 33.586618,
+        "lng": 130.408107,
+        "area": "후쿠오카",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Fukuoka",
+            "url": "https://en.wikivoyage.org/wiki/Fukuoka#Usagiyorikame",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "fukuoka-review-bcb8a884577a",
+        "cityId": "fukuoka",
+        "name": "우메야마 텟페이 식당",
+        "english": "Umeyama tetpei shokudo · 梅山鉄平食堂 本店",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "후쿠오카의 식사 장소.",
+        "address": "일본 〒810-0004 Fukuoka, Chuo Ward",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 33.585748,
+        "lng": 130.404493,
+        "area": "후쿠오카",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Fukuoka",
+            "url": "https://en.wikivoyage.org/wiki/Fukuoka#Umeyama_tetpei_shokudo",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "fukuoka-review-a2cd81f00aa2",
+        "cityId": "fukuoka",
+        "name": "멘야 이시",
+        "english": "Menya Ishi · 麺屋 いしヰ",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "후쿠오카의 식사 장소.",
+        "address": "3 Chome−9−5, Hakata Ekimae, Hakata Ward",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 33.588406,
+        "lng": 130.416152,
+        "area": "후쿠오카",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Fukuoka",
+            "url": "https://en.wikivoyage.org/wiki/Fukuoka#Menya_Ishi",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "fukuoka-review-260d5661985d",
+        "cityId": "fukuoka",
+        "name": "요도바시 카메라",
+        "english": "Yodobashi Camera store",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "후쿠오카의 둘러볼 수 있는 장소.",
+        "address": "후쿠오카, 후쿠오카",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 33.5882,
+        "lng": 130.4217,
+        "area": "후쿠오카",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Fukuoka",
+            "url": "https://en.wikivoyage.org/wiki/Fukuoka#Yodobashi_Camera_store",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "fukuoka-balance-93c2de662a",
+        "cityId": "fukuoka",
+        "name": "에스페리아 호텔 하카타",
+        "english": "S-Peria Hotel Hakata · エスペリアホテル博多",
+        "category": "숙소",
+        "image": "/images/place-placeholder.svg",
+        "description": "하카타역 주변의 비즈니스호텔 숙박 후보입니다.",
+        "address": "2 Chome-11-4 Hakata Ekimae, Hakata Ward",
+        "duration": "숙박 일정에 맞춰 지정",
+        "cost": "숙박일·객실·공식 안내에서 확인",
+        "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+        "lat": 33.591488,
+        "lng": 130.41633,
+        "area": "후쿠오카",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Fukuoka",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Fukuoka&oldid=5383685",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "fukuoka-balance-f52726978f",
+        "cityId": "fukuoka",
+        "name": "그랜드 하얏트 후쿠오카",
+        "english": "Grand Hyatt Fukuoka",
+        "category": "숙소",
+        "image": "/images/place-placeholder.svg",
+        "description": "캐널시티 하카타에 자리한 호텔입니다.",
+        "address": "1-2-82 Sumiyoshi, Hakata-ku",
+        "duration": "숙박 일정에 맞춰 지정",
+        "cost": "숙박일·객실·공식 안내에서 확인",
+        "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+        "lat": 33.5898,
+        "lng": 130.4103,
+        "area": "후쿠오카",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Fukuoka",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Fukuoka&oldid=5383685",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "fukuoka-balance-0c7b4094ae",
+        "cityId": "fukuoka",
+        "name": "아뮤플라자 하카타",
+        "english": "Amu plaza Hakata · アミュプラザ博多",
+        "category": "쇼핑",
+        "image": "/images/place-placeholder.svg",
+        "description": "하카타역과 연결된 쇼핑몰입니다.",
+        "address": "1-1 Hakataekichuogai, Hakata Ward",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "품목과 매장별 운영시간을 확인하고 구입할 물건을 정해 둘러보세요.",
+        "lat": 33.589989,
+        "lng": 130.420753,
+        "area": "후쿠오카",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Fukuoka",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Fukuoka&oldid=5383685",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 buy 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "fukuoka-balance-rec-kitte",
+        "cityId": "fukuoka",
+        "name": "렉 커피 킷테 하카타점",
+        "english": "REC Coffee KITTE Hakata",
+        "category": "카페",
+        "image": "/images/place-placeholder.svg",
+        "description": "하카타역 쇼핑 사이에 커피를 마실 수 있는 킷테 하카타의 카페입니다.",
+        "address": "킷테 하카타 6층, 후쿠오카",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·공식 안내에서 확인",
+        "tip": "산책이나 쇼핑 사이에 쉬어갈 후보입니다. 좌석 이용·마지막 주문 시간은 방문 전 확인하세요.",
+        "reviewSources": [
+          {
+            "title": "후쿠오카 4박5일 여행 후기",
+            "url": "https://jamie-dev.tistory.com/218",
+            "kind": "visit-review",
+            "checkedAt": "2026-10-18",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "커피·음식 주문과 매장 방문 과정을 담은 개인 후기 본문 및 링크를 읽었습니다. 협찬 표시·예약 제휴·할인 코드를 발견하지 못했습니다. 숨은 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "fukuoka-balance-yamaha-y3t",
+        "cityId": "fukuoka",
+        "name": "야마하 쓰리 테라스",
+        "english": "Yamaha 3 Terrace (Y3T)",
+        "category": "카페",
+        "image": "/images/place-placeholder.svg",
+        "description": "창이 넓은 공간에서 프렌치토스트와 커피를 고를 수 있는 카페입니다.",
+        "address": "야쿠인, 후쿠오카",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·공식 안내에서 확인",
+        "tip": "산책이나 쇼핑 사이에 쉬어갈 후보입니다. 좌석 이용·마지막 주문 시간은 방문 전 확인하세요.",
+        "reviewSources": [
+          {
+            "title": "후쿠오카 4박5일 여행 후기",
+            "url": "https://jamie-dev.tistory.com/218",
+            "kind": "visit-review",
+            "checkedAt": "2026-10-18",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "커피·음식 주문과 매장 방문 과정을 담은 개인 후기 본문 및 링크를 읽었습니다. 협찬 표시·예약 제휴·할인 코드를 발견하지 못했습니다. 숨은 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "id": "fukuoka-overview",
+        "title": "도시 소개",
+        "body": "하카타·텐진 도심과 다자이후 근교를 나누면 짧은 여행에도 무리 없이 계획하기 좋습니다."
+      },
+      {
+        "id": "fukuoka-before",
+        "title": "출발 전 준비",
+        "body": "야타이는 날씨·영업 여부와 주문 규칙이 다를 수 있어 대안 식당을 함께 정하세요.\n\n다자이후와 국립박물관은 관람 가능한 날짜를 확인하세요."
+      },
+      {
+        "id": "fukuoka-arrival",
+        "title": "공항과 시내 이동",
+        "body": "후쿠오카공항: 국제선·국내선 터미널과 지하철 연결 방식을 구분하고 숙소까지 마지막 구간을 확인하세요.\n\n도심·다자이후: 도심 지하철과 다자이후행 서철 이동은 다른 구간입니다. 역과 환승을 따로 잡으세요."
+      },
+      {
+        "id": "fukuoka-stay",
+        "title": "숙소 지역 선택",
+        "body": "하카타: 공항·신칸센 이동과 하카타권 관광이 중심일 때 비교하세요.\n\n텐진: 쇼핑·저녁 식사와 서철 근교 이동을 중심으로 비교하세요."
+      },
+      {
+        "id": "fukuoka-plan",
+        "title": "일정 계획",
+        "body": "하루: 하카타 또는 오호리 권역 하나와 저녁 식사를 묶으세요.\n\n2–3일: 도심 하루·다자이후 반나절 이상을 분리하고 식사 대기 여유를 두세요."
+      },
+      {
+        "id": "fukuoka-notes",
+        "title": "현장 팁",
+        "body": "공항 국제선 도착을 곧바로 지하철 승강장 도착으로 계산하지 마세요.\n\n먹거리만 연속 예약하면 대기와 식사량 때문에 계획을 지키기 어렵습니다."
+      },
+      {
+        "id": "fukuoka-rain",
+        "title": "비 오는 날",
+        "body": "후쿠오카 아시아미술관·후쿠오카시 박물관 등 숙소에서 가까운 실내 장소를 고르세요."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Japan-guide · 후쿠오카",
+        "url": "https://www.japan-guide.com/e/e2161.html",
+        "accessedAt": "2026-10-15"
+      }
+    ],
+    "status": "published",
+    "requestId": null,
+    "createdAt": "2026-10-15T00:00:00.000Z",
+    "updatedAt": "2026-10-15T00:00:00.000Z",
+    "publishedAt": "2026-10-15T00:00:00.000Z"
+  },
+  "practicalGuide": {
+    "cityId": "fukuoka",
+    "firstVisit": "하카타·텐진 도심과 다자이후 근교를 나누면 짧은 여행에도 무리 없이 계획하기 좋습니다.",
+    "bases": [
+      {
+        "name": "하카타",
+        "advice": "공항·신칸센 이동과 하카타권 관광이 중심일 때 비교하세요."
+      },
+      {
+        "name": "텐진",
+        "advice": "쇼핑·저녁 식사와 서철 근교 이동을 중심으로 비교하세요."
+      }
+    ],
+    "arrival": [
+      {
+        "name": "후쿠오카공항",
+        "advice": "국제선·국내선 터미널과 지하철 연결 방식을 구분하고 숙소까지 마지막 구간을 확인하세요."
+      },
+      {
+        "name": "도심·다자이후",
+        "advice": "도심 지하철과 다자이후행 서철 이동은 다른 구간입니다. 역과 환승을 따로 잡으세요."
+      }
+    ],
+    "timePlan": [
+      {
+        "name": "하루",
+        "advice": "하카타 또는 오호리 권역 하나와 저녁 식사를 묶으세요."
+      },
+      {
+        "name": "2–3일",
+        "advice": "도심 하루·다자이후 반나절 이상을 분리하고 식사 대기 여유를 두세요."
+      }
+    ],
+    "before": [
+      "야타이는 날씨·영업 여부와 주문 규칙이 다를 수 있어 대안 식당을 함께 정하세요.",
+      "다자이후와 국립박물관은 관람 가능한 날짜를 확인하세요."
+    ],
+    "pitfalls": [
+      "공항 국제선 도착을 곧바로 지하철 승강장 도착으로 계산하지 마세요.",
+      "먹거리만 연속 예약하면 대기와 식사량 때문에 계획을 지키기 어렵습니다."
+    ],
+    "rainPlan": "후쿠오카 아시아미술관·후쿠오카시 박물관 등 숙소에서 가까운 실내 장소를 고르세요.",
+    "courses": [
+      {
+        "id": "fukuoka-course-1",
+        "title": "하카타 옛 거리",
+        "pace": "반나절 · 도보",
+        "why": "도심 사찰과 신사를 가까이 묶었습니다.",
+        "placeIds": [
+          "fukuoka-kushida",
+          "fukuoka-review-6e06e038f245",
+          "fukuoka-review-fdbdfe8afeac"
+        ]
+      },
+      {
+        "id": "fukuoka-course-2",
+        "title": "오호리 공원권",
+        "pace": "반나절 · 도보",
+        "why": "공원과 성터를 중심으로 걷는 날입니다.",
+        "placeIds": [
+          "fukuoka-ohori",
+          "fukuoka-review-52cd4e0c30d7",
+          "fukuoka-review-72350575eabf"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "Japan-guide · 후쿠오카",
+        "url": "https://www.japan-guide.com/e/e2161.html",
+        "checkedAt": "2026-10-15",
+        "status": "read"
+      }
+    ],
+    "researchNote": "여행 안내 본문을 읽고 지역별 계획을 편집했습니다. 코스는 직접 작성한 제안이며 이동시간·예약 가능 여부를 실시간 계산한 결과가 아닙니다."
+  },
+  "plans": {
+    "cityId": "fukuoka",
+    "days": [
+      {
+        "id": "fukuoka-day-1",
+        "title": "하카타 옛 거리",
+        "pace": "반나절 · 도보",
+        "why": "도심 사찰과 신사를 가까이 묶었습니다.",
+        "placeIds": [
+          "fukuoka-kushida",
+          "fukuoka-review-6e06e038f245",
+          "fukuoka-review-fdbdfe8afeac"
+        ]
+      },
+      {
+        "id": "fukuoka-day-2",
+        "title": "오호리 공원권",
+        "pace": "반나절 · 도보",
+        "why": "공원과 성터를 중심으로 걷는 날입니다.",
+        "placeIds": [
+          "fukuoka-ohori",
+          "fukuoka-review-52cd4e0c30d7",
+          "fukuoka-review-72350575eabf"
+        ]
+      },
+      {
+        "id": "fukuoka-day-3",
+        "title": "다자이후 역사 나들이",
+        "pace": "철도·도보",
+        "why": "다자이후에 하루를 배정해 신사와 박물관을 서두르지 않고 봅니다.",
+        "placeIds": [
+          "fukuoka-review-7c691bbfc87d",
+          "fukuoka-review-62545a9d3b3c"
+        ]
+      },
+      {
+        "id": "fukuoka-day-4",
+        "title": "모모치 바닷가와 전망",
+        "pace": "버스·도보",
+        "why": "박물관과 타워·모모치 해변을 같은 날에 묶습니다.",
+        "placeIds": [
+          "fukuoka-review-bfb3f156eb3e",
+          "fukuoka-review-8249290872e6",
+          "fukuoka-review-21faa7978443"
+        ]
+      },
+      {
+        "id": "fukuoka-day-5",
+        "title": "텐진에서 나카스까지",
+        "pace": "철도·도보",
+        "why": "쇼핑과 공원 산책 후 나카스 주변 저녁 식사로 이어갑니다.",
+        "placeIds": [
+          "fukuoka-tenjin",
+          "fukuoka-review-883af8ccd617",
+          "fukuoka-review-7a964255b354",
+          "fukuoka-review-2a612b76d37a"
+        ]
+      }
+    ]
+  }
+}

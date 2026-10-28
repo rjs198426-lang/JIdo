@@ -1,0 +1,1660 @@
+{
+  "guide": {
+    "id": "kobe",
+    "scope": "city",
+    "city": {
+      "id": "kobe",
+      "name": "고베",
+      "english": "KOBE · 神戸",
+      "country": "일본",
+      "region": "일본",
+      "image": "/images/place-kobe-harborland.jpg",
+      "photoCredit": {
+        "file": "/images/place-kobe-harborland.jpg",
+        "author": "Mass Ave 975 at English Wikipedia",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Harborland_district.jpg",
+        "verifiedAt": "2026-10-14"
+      },
+      "tagline": "항구에서 기타노 언덕으로",
+      "description": "항구·기타노·롯코 지역을 나눠 계획할 수 있습니다. 산과 항구 사이 이동에는 별도의 시간을 잡으세요.",
+      "tags": [
+        "도시 산책",
+        "자유여행"
+      ],
+      "flight": "고베·간사이공항",
+      "currency": "일본 엔 · JPY",
+      "timeDifference": "한국과 시차 없음",
+      "season": "계절별 일정 선택",
+      "accent": "#eaf4ef"
+    },
+    "places": [
+      {
+        "id": "kobe-harborland",
+        "cityId": "kobe",
+        "name": "고베 하버랜드",
+        "english": "Harbor Land",
+        "category": "관광",
+        "image": "/images/place-kobe-harborland.jpg",
+        "photoCredit": {
+          "file": "/images/place-kobe-harborland.jpg",
+          "author": "Mass Ave 975 at English Wikipedia",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Harborland_district.jpg",
+          "verifiedAt": "2026-10-14"
+        },
+        "description": "고베의 시장·쇼핑 공간.",
+        "address": "고베, 고베",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.67878,
+        "lng": 135.18058,
+        "area": "고베",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kobe",
+            "url": "https://en.wikivoyage.org/wiki/Kobe#Harbor_Land",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kobe-kitano",
+        "cityId": "kobe",
+        "name": "기타노 이진칸 거리",
+        "english": "Kitano Ijinkan · 異人館",
+        "category": "관광",
+        "image": "/images/place-kobe-kitano.jpg",
+        "photoCredit": {
+          "file": "/images/place-kobe-kitano.jpg",
+          "author": "663highland",
+          "license": "CC BY 2.5",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kobe_kitano_thomas_house07_2816.jpg",
+          "verifiedAt": "2026-10-14"
+        },
+        "description": "고베의 둘러볼 수 있는 장소.",
+        "address": "고베, 고베",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.698839,
+        "lng": 135.189245,
+        "area": "고베",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kobe",
+            "url": "https://en.wikivoyage.org/wiki/Kobe#Kitano_Ijinkan",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kobe-rokko",
+        "cityId": "kobe",
+        "name": "롯코산",
+        "english": "Mount Rokko · 六甲山",
+        "category": "관광",
+        "image": "/images/place-kobe-rokko.jpg",
+        "photoCredit": {
+          "file": "/images/place-kobe-rokko.jpg",
+          "author": "663highland",
+          "license": "CC BY 2.5",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mt_rokko01s2816.jpg",
+          "verifiedAt": "2026-10-14"
+        },
+        "description": "산악 지역입니다. 전망 시설의 정확한 위치와 왕복 교통편·기상 조건을 별도로 확인하세요.",
+        "address": "Rokkosancho, Nada, Kobe",
+        "duration": "1–2시간",
+        "cost": "시설별 입장 조건 확인",
+        "tip": "산악 지역입니다. 전망 시설의 정확한 위치와 왕복 교통편·기상 조건을 별도로 확인하세요.",
+        "lat": 34.7781,
+        "lng": 135.2632
+      },
+      {
+        "id": "kobe-review-2ab015099c7b",
+        "cityId": "kobe",
+        "name": "히메지성",
+        "english": "Himeji Castle · 姫路城 Himeji-jō",
+        "category": "관광",
+        "image": "/images/commons-069-kobe-review-2ab015099c7b.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-kobe-review-2ab015099c7b.jpg",
+          "author": "Yasuo Hamashima",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Himeji_castle_20241025-_YAS2703.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "근교 · 히메지의 성·궁전 유적. 세계유산 관련 장소를 살펴볼 수 있습니다.",
+        "address": "근교 · 히메지, 고베",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 34.839444,
+        "lng": 134.693889,
+        "area": "근교 · 히메지",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Himeji",
+            "url": "https://en.wikivoyage.org/wiki/Himeji#Himeji_Castle",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kobe-review-34e9a13e2bca",
+        "cityId": "kobe",
+        "name": "고코엔",
+        "english": "Kōkoen Garden · 好古園 kōko-en",
+        "category": "관광",
+        "image": "/images/commons-069-kobe-review-34e9a13e2bca.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-kobe-review-34e9a13e2bca.jpg",
+          "author": "Anagoria",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:20260429_K%C5%8Dko-en_Garten_02_Himeji,_Hy%C5%8Dgo,_Japan_anagoria.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "근교 · 히메지의 공원·정원.",
+        "address": "근교 · 히메지, 고베",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 34.83816,
+        "lng": 134.6898,
+        "area": "근교 · 히메지",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Himeji",
+            "url": "https://en.wikivoyage.org/wiki/Himeji#K%C5%8Dkoen_Garden",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kobe-review-ecfcc32657c3",
+        "cityId": "kobe",
+        "name": "고베 옛 외국인 거류지",
+        "english": "Kyu-kyoryuchi · 旧居留地",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "고베의 둘러볼 수 있는 장소.",
+        "address": "고베, 고베",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.686942,
+        "lng": 135.19245,
+        "area": "고베",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kobe",
+            "url": "https://en.wikivoyage.org/wiki/Kobe#Kyu-kyoryuchi",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kobe-review-ef0ea1d30c8f",
+        "cityId": "kobe",
+        "name": "효고현립 역사박물관",
+        "english": "Hyogo Prefectural Museum of History · 兵庫県立歴史博物館, hyōgoken-ritsu rekishi hakubutsukan",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 히메지의 박물관·전시 공간. 지역·역사 자료를 살펴볼 수 있습니다.",
+        "address": "근교 · 히메지, 고베",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 34.8411,
+        "lng": 134.697,
+        "area": "근교 · 히메지",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Himeji",
+            "url": "https://en.wikivoyage.org/wiki/Himeji#Hyogo_Prefectural_Museum_of_History",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kobe-review-8609d81e834f",
+        "cityId": "kobe",
+        "name": "고베 차이나타운",
+        "english": "Chinatown · 南京町, nankinmachi",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "고베의 둘러볼 수 있는 장소.",
+        "address": "고베, 고베",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.688006,
+        "lng": 135.18792,
+        "area": "고베",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kobe",
+            "url": "https://en.wikivoyage.org/wiki/Kobe#Chinatown",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kobe-review-124bfcc6015e",
+        "cityId": "kobe",
+        "name": "히메지 시립미술관",
+        "english": "Himeji City Museum of Art · 姫路市立美術館, himeji-shi ritsu bijutsukan",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 히메지의 박물관·전시 공간.",
+        "address": "근교 · 히메지, 고베",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 34.8397,
+        "lng": 134.6967,
+        "area": "근교 · 히메지",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Himeji",
+            "url": "https://en.wikivoyage.org/wiki/Himeji#Himeji_City_Museum_of_Art",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kobe-review-876fb80fa0e5",
+        "cityId": "kobe",
+        "name": "고베 화교역사박물관",
+        "english": "Kobe Overseas Chinese History Museum · 神戸華僑歴史博物館",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "고베의 박물관·전시 공간. 지역·역사 자료를 살펴볼 수 있습니다.",
+        "address": "2nd Floor, Kobe Chinese Chamber of Commerce Building, 3-1−1 Kaigandori, Chuo Ward (中央区海岸通3-1-1 神戸中華総商会ビル2F)",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.685991,
+        "lng": 135.187165,
+        "area": "고베",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kobe",
+            "url": "https://en.wikivoyage.org/wiki/Kobe#Kobe_Overseas_Chinese_History_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kobe-review-91453d878d01",
+        "cityId": "kobe",
+        "name": "센히메 신사",
+        "english": "Senhime Shrine · 千姫天満宮, senhime tenmangū",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 히메지의 신사·사당.",
+        "address": "근교 · 히메지, 고베",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 34.8415,
+        "lng": 134.6889,
+        "area": "근교 · 히메지",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Himeji",
+            "url": "https://en.wikivoyage.org/wiki/Himeji#Senhime_Shrine",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kobe-review-06ac7b48ec95",
+        "cityId": "kobe",
+        "name": "다케나카 목수도구관",
+        "english": "Takenaka Carpentry Tools Museum · 竹中大工道具館",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "고베의 박물관·전시 공간.",
+        "address": "고베, 고베",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.7069,
+        "lng": 135.1974,
+        "area": "고베",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kobe",
+            "url": "https://en.wikivoyage.org/wiki/Kobe#Takenaka_Carpentry_Tools_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kobe-review-6f1f250e0484",
+        "cityId": "kobe",
+        "name": "히메지 시립동물원",
+        "english": "Himeji City Zoo · 姫路市立動物園, himeji shihitsu dōbutsuen",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 히메지의 동물 관람 시설.",
+        "address": "68 Honmachi, Himeji, 670-0012",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 34.8368,
+        "lng": 134.6942,
+        "area": "근교 · 히메지",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Himeji",
+            "url": "https://en.wikivoyage.org/wiki/Himeji#Himeji_City_Zoo",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kobe-review-ca5239e342c6",
+        "cityId": "kobe",
+        "name": "고베 해양박물관",
+        "english": "Kobe Maritime Museum · 神戸海洋博物館 \"Kobe Kaiyo Hakubutsukan\"",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "고베의 박물관·전시 공간. 지역·역사 자료를 살펴볼 수 있습니다.",
+        "address": "고베, 고베",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.682778,
+        "lng": 135.188333,
+        "area": "고베",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kobe",
+            "url": "https://en.wikivoyage.org/wiki/Kobe#Kobe_Maritime_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kobe-review-c9a898a5865d",
+        "cityId": "kobe",
+        "name": "엔교지",
+        "english": "Engyō-ji Temple · 書寫山圓教寺, shoshazan engyō-ji",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 히메지의 사찰.",
+        "address": "Shosya2968",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 34.89159,
+        "lng": 134.65718,
+        "area": "근교 · 히메지",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Himeji",
+            "url": "https://en.wikivoyage.org/wiki/Himeji#Engy%C5%8D-ji_Temple",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kobe-review-8eb383c7371c",
+        "cityId": "kobe",
+        "name": "철인 28호 동상",
+        "english": "Tetsujin 28 statue · Kobe project",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "고베의 기념물·역사 장소.",
+        "address": "고베, 고베",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.6562,
+        "lng": 135.1441,
+        "area": "고베",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kobe",
+            "url": "https://en.wikivoyage.org/wiki/Kobe#Tetsujin_28_statue",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kobe-review-90e8a7be2dfc",
+        "cityId": "kobe",
+        "name": "데가라야마",
+        "english": "Tegarayama · 手柄山",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 히메지의 수족관.",
+        "address": "근교 · 히메지, 고베",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 34.819,
+        "lng": 134.6754,
+        "area": "근교 · 히메지",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Himeji",
+            "url": "https://en.wikivoyage.org/wiki/Himeji#Tegarayama",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kobe-review-3cafaa7b38aa",
+        "cityId": "kobe",
+        "name": "풍향계의 집",
+        "english": "Weathercock House",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "고베의 둘러볼 수 있는 장소.",
+        "address": "고베, 고베",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.70138,
+        "lng": 135.1895,
+        "area": "고베",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kobe",
+            "url": "https://en.wikivoyage.org/wiki/Kobe#Weathercock_House",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kobe-review-eaf9b6549d41",
+        "cityId": "kobe",
+        "name": "평화자료관",
+        "english": "Historical Peace Center · 平和資料館, heiwa shiryōkan",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 히메지의 박물관·전시 공간. 지역·역사 자료를 살펴볼 수 있습니다.",
+        "address": "근교 · 히메지, 고베",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 34.821889,
+        "lng": 134.674139,
+        "area": "근교 · 히메지",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Himeji",
+            "url": "https://en.wikivoyage.org/wiki/Himeji#Historical_Peace_Center",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kobe-review-fb65ccaa5148",
+        "cityId": "kobe",
+        "name": "고베 포트타워",
+        "english": "Kobe Port Tower",
+        "category": "관광",
+        "image": "/images/commons-069-kobe-review-fb65ccaa5148.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-kobe-review-fb65ccaa5148.jpg",
+          "author": "Naokijp",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:KOBE_PORT_TOWER_001.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "고베의 수변·항구 산책 장소.",
+        "address": "5-5 Hatobacho, Chuo Ward",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.6826,
+        "lng": 135.1867,
+        "area": "고베",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kobe",
+            "url": "https://en.wikivoyage.org/wiki/Kobe#Kobe_Port_Tower",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kobe-review-c1a5ca74f9e2",
+        "cityId": "kobe",
+        "name": "일본 장난감박물관",
+        "english": "Japan Toy Museum · 日本玩具博物館, nihon ganku hakubutsukan",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 히메지의 박물관·전시 공간.",
+        "address": "671-3 Nakanino Kodera-cho",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 34.907444,
+        "lng": 134.745389,
+        "area": "근교 · 히메지",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Himeji",
+            "url": "https://en.wikivoyage.org/wiki/Himeji#Japan_Toy_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kobe-review-9501a46b9eb4",
+        "cityId": "kobe",
+        "name": "고베 시청 24층 전망로비",
+        "english": "Observation deck on the 24th Floor of Kobe City Hall",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "고베의 전망 장소.",
+        "address": "6-5-1 Kano-cho, Chuo-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.68943,
+        "lng": 135.19574,
+        "area": "고베",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kobe",
+            "url": "https://en.wikivoyage.org/wiki/Kobe#Observation_deck_on_the_24th_Floor_of_Kobe_City_Hall",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kobe-review-7cf13a3e558f",
+        "cityId": "kobe",
+        "name": "사와노쓰루 자료관",
+        "english": "Sawa-no-Tsuru Museum · 沢の鶴資料館",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "고베의 박물관·전시 공간.",
+        "address": "고베, 고베",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.7036,
+        "lng": 135.2329,
+        "area": "고베",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kobe",
+            "url": "https://en.wikivoyage.org/wiki/Kobe#Sawa-no-Tsuru_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kobe-review-85371518cff0",
+        "cityId": "kobe",
+        "name": "하쿠쓰루 주조자료관",
+        "english": "Hakutsuru Sake Brewery Museum · 白鶴酒造資料館, hakutsuru shuzōshiryōkan",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "고베의 박물관·전시 공간.",
+        "address": "고베, 고베",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.7103,
+        "lng": 135.2611,
+        "area": "고베",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kobe",
+            "url": "https://en.wikivoyage.org/wiki/Kobe#Hakutsuru_Sake_Brewery_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kobe-review-930aee210b94",
+        "cityId": "kobe",
+        "name": "하마후쿠쓰루 긴조공방·매장",
+        "english": "Hamafukutsuru-Ginjo Brewery and Shop · 浜福鶴吟醸工房",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "고베의 박물관·전시 공간.",
+        "address": "고베, 고베",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.7096,
+        "lng": 135.2728,
+        "area": "고베",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kobe",
+            "url": "https://en.wikivoyage.org/wiki/Kobe#Hamafukutsuru-Ginjo_Brewery_and_Shop",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kobe-review-f3538986b069",
+        "cityId": "kobe",
+        "name": "기쿠마사무네 주조기념관",
+        "english": "Kiku-Masamune Sake Brewery Museum · 菊正宗酒造記念館, \"Kiku-Masamune Shuzo Kinenkan\"",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "고베의 박물관·전시 공간. 지역·역사 자료를 살펴볼 수 있습니다.",
+        "address": "Higashi Nada-ku Uozaki Nishimachi 1-9-1",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.7099,
+        "lng": 135.2581,
+        "area": "고베",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kobe",
+            "url": "https://en.wikivoyage.org/wiki/Kobe#Kiku-Masamune_Sake_Brewery_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kobe-review-5f32b37d4713",
+        "cityId": "kobe",
+        "name": "히메지 센트럴파크",
+        "english": "Himeji Central Park",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 히메지의 공원·정원.",
+        "address": "근교 · 히메지, 고베",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 34.867746,
+        "lng": 134.752064,
+        "area": "근교 · 히메지",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Himeji",
+            "url": "https://en.wikivoyage.org/wiki/Himeji#Himeji_Central_Park",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kobe-review-f5231f099beb",
+        "cityId": "kobe",
+        "name": "다이요 공원",
+        "english": "Taiyo Park · 太陽公園",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "근교 · 히메지의 성·궁전 유적.",
+        "address": "근교 · 히메지, 고베",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 밖의 장소입니다. 귀환 교통편을 확인한 뒤 하루 일정에 넣으세요.",
+        "lat": 34.89311,
+        "lng": 134.625503,
+        "area": "근교 · 히메지",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Himeji",
+            "url": "https://en.wikivoyage.org/wiki/Himeji#Taiyo_Park",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kobe-review-ba66498bf0cd",
+        "cityId": "kobe",
+        "name": "모자이크",
+        "english": "MOSAIC",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "고베의 공원·정원.",
+        "address": "고베, 고베",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.6802,
+        "lng": 135.1843,
+        "area": "고베",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kobe",
+            "url": "https://en.wikivoyage.org/wiki/Kobe#MOSAIC",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kobe-review-4d34a98a58f9",
+        "cityId": "kobe",
+        "name": "누노비키 폭포",
+        "english": "Nunobiki Falls · 布引の滝 , Nunobiki no taki",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "고베의 폭포.",
+        "address": "고베, 고베",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.709722,
+        "lng": 135.193889,
+        "area": "고베",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kobe",
+            "url": "https://en.wikivoyage.org/wiki/Kobe#Nunobiki_Falls",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kobe-review-d55e74fbf204",
+        "cityId": "kobe",
+        "name": "메리켄 파크",
+        "english": "Meriken Park · メリケンパーク",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "고베의 공원·정원.",
+        "address": "고베, 고베",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.6822,
+        "lng": 135.1891,
+        "area": "고베",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kobe",
+            "url": "https://en.wikivoyage.org/wiki/Kobe#Meriken_Park",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kobe-review-63091ed00bdd",
+        "cityId": "kobe",
+        "name": "프루트 플라워 파크",
+        "english": "Fruit Flower Park · フルーツ・フラワーパーク",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "고베의 공원·정원.",
+        "address": "고베, 고베",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.8465,
+        "lng": 135.1917,
+        "area": "고베",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kobe",
+            "url": "https://en.wikivoyage.org/wiki/Kobe#Fruit_Flower_Park",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kobe-review-7afab710acfc",
+        "cityId": "kobe",
+        "name": "소라쿠엔",
+        "english": "Sōraku-en Garden · 相楽園",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "고베의 공원·정원.",
+        "address": "고베, 고베",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.6926,
+        "lng": 135.1817,
+        "area": "고베",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kobe",
+            "url": "https://en.wikivoyage.org/wiki/Kobe#S%C5%8Draku-en_Garden",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kobe-review-c60ad8d2f412",
+        "cityId": "kobe",
+        "name": "누노비키 허브가든",
+        "english": "Nunobiki Herb Garden · 布引ハーブ園",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "고베의 공원·정원.",
+        "address": "고베, 고베",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.7171,
+        "lng": 135.1908,
+        "area": "고베",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kobe",
+            "url": "https://en.wikivoyage.org/wiki/Kobe#Nunobiki_Herb_Garden",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kobe-review-5b22495c3fd4",
+        "cityId": "kobe",
+        "name": "오지 동물원",
+        "english": "Oji Zoo · 王子動物園",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "고베의 동물 관람 시설.",
+        "address": "고베, 고베",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.7106,
+        "lng": 135.2145,
+        "area": "고베",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kobe",
+            "url": "https://en.wikivoyage.org/wiki/Kobe#Oji_Zoo",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kobe-review-16557f84c150",
+        "cityId": "kobe",
+        "name": "모던아크 팜카페",
+        "english": "Modern Ark Pharm Cafe",
+        "category": "카페",
+        "image": "/images/place-placeholder.svg",
+        "description": "고베의 커피·음료를 즐길 수 있는 카페.",
+        "address": "3 Chome-11-15 Kitanagasadōri",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.69197,
+        "lng": 135.18888,
+        "area": "고베",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kobe",
+            "url": "https://en.wikivoyage.org/wiki/Kobe#Modern_Ark_Pharm_Cafe",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kobe-review-f80d6f1e0528",
+        "cityId": "kobe",
+        "name": "나루토 타이야키 본점 한큐 산노미야역 앞점",
+        "english": "Naruto Taiyaki Honpo Hankyu Sannomiya-ekimae",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "고베의 식사 장소.",
+        "address": "1-9-6 Kitanagasakidori",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.69249,
+        "lng": 135.19158,
+        "area": "고베",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kobe",
+            "url": "https://en.wikivoyage.org/wiki/Kobe#Naruto_Taiyaki_Honpo_Hankyu_Sannomiya-ekimae",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kobe-review-af3601403b9a",
+        "cityId": "kobe",
+        "name": "류카소",
+        "english": "Ryukaso",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "고베의 식사 장소.",
+        "address": "1-4-8 Motomachidori, Chuo-Ku",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.68864,
+        "lng": 135.18888,
+        "area": "고베",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kobe",
+            "url": "https://en.wikivoyage.org/wiki/Kobe#Ryukaso",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kobe-review-9ecff8279bda",
+        "cityId": "kobe",
+        "name": "카페 테라스 드 파리",
+        "english": "Cafe Terrasse de Paris",
+        "category": "카페",
+        "image": "/images/place-placeholder.svg",
+        "description": "고베의 커피·음료를 즐길 수 있는 카페.",
+        "address": "4-9-2 Kitanocho, Chuo-ku",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.69816,
+        "lng": 135.18733,
+        "area": "고베",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kobe",
+            "url": "https://en.wikivoyage.org/wiki/Kobe#Cafe_Terrasse_de_Paris",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kobe-review-54f14f016b49",
+        "cityId": "kobe",
+        "name": "고베규 스테이크 이시다 기타노자카",
+        "english": "Kobe Beef Steak Ishida Kitanozaka",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "고베의 소고기·스테이크을 다루는 식당.",
+        "address": "4-7-11 Kanocho Chuo-Ku",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.69612,
+        "lng": 135.19263,
+        "area": "고베",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kobe",
+            "url": "https://en.wikivoyage.org/wiki/Kobe#Kobe_Beef_Steak_Ishida_Kitanozaka",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kobe-review-e49177ee7848",
+        "cityId": "kobe",
+        "name": "고베 포토피아 호텔 레스토랑",
+        "english": "Kobe Portopia Hotel Restaurants",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "고베의 식사 장소.",
+        "address": "10-1, 6 Chome, Minatojima Nakamachi, Chuo-ku",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.66524,
+        "lng": 135.21392,
+        "area": "고베",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kobe",
+            "url": "https://en.wikivoyage.org/wiki/Kobe#Kobe_Portopia_Hotel_Restaurants",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kobe-review-489a92f47e0b",
+        "cityId": "kobe",
+        "name": "고쿠부",
+        "english": "Kokubu",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "고베의 소고기·스테이크을 다루는 식당.",
+        "address": "1-21-2 Kitanagasadori, Chuo-ku",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.6942,
+        "lng": 135.19257,
+        "area": "고베",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kobe",
+            "url": "https://en.wikivoyage.org/wiki/Kobe#Kokubu",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kobe-review-352e772b68d9",
+        "cityId": "kobe",
+        "name": "오리엔탈 호텔 미디엄레어 스테이크하우스",
+        "english": "Medium Rare Steakhouse @ Oriental Hotel",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "고베의 소고기·스테이크을 다루는 식당.",
+        "address": "25 Kyomachi, Chuo-ku",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.68761,
+        "lng": 135.19312,
+        "area": "고베",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kobe",
+            "url": "https://en.wikivoyage.org/wiki/Kobe#Medium_Rare_Steakhouse_%40_Oriental_Hotel",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kobe-review-2d474e5b6a34",
+        "cityId": "kobe",
+        "name": "모리야",
+        "english": "Mouriya",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "고베의 소고기·스테이크을 다루는 식당.",
+        "address": "Daiichi Kishi Bldg. 3F, 9-9 1-chome, Kitanagasa Dori, Chuo-ku",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.69283,
+        "lng": 135.19159,
+        "area": "고베",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kobe",
+            "url": "https://en.wikivoyage.org/wiki/Kobe#Mouriya",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kobe-review-77a8e70ab643",
+        "cityId": "kobe",
+        "name": "와코쿠 신고베점",
+        "english": "Wakkoqu @ Shin-Kobe",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "고베의 소고기·스테이크을 다루는 식당.",
+        "address": "1-1 Kitanocho, Chuo-ku",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.70458,
+        "lng": 135.19524,
+        "area": "고베",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kobe",
+            "url": "https://en.wikivoyage.org/wiki/Kobe#Wakkoqu_%40_Shin-Kobe",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kobe-review-ae107d822cd7",
+        "cityId": "kobe",
+        "name": "치킨조지",
+        "english": "Chicken George",
+        "category": "바·공연",
+        "image": "/images/place-placeholder.svg",
+        "description": "고베의 공연장. 공연 일정에 따라 이용할 수 있습니다.",
+        "address": "고베, 고베",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "공연 일정·연령 제한·예약 여부를 방문 전에 확인하세요.",
+        "lat": 34.69415,
+        "lng": 135.19013,
+        "area": "고베",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kobe",
+            "url": "https://en.wikivoyage.org/wiki/Kobe#Chicken_George",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kobe-review-30a5d2aaeff6",
+        "cityId": "kobe",
+        "name": "뉴뮌헨 고베 대사관",
+        "english": "New Muenchen Kobe Taishikan",
+        "category": "바·공연",
+        "image": "/images/place-placeholder.svg",
+        "description": "고베의 바·펍. 야간 일정에 넣을 수 있는 장소입니다.",
+        "address": "Sannomiya-cho, 2-chome, 5-18",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "공연 일정·연령 제한·예약 여부를 방문 전에 확인하세요.",
+        "lat": 34.69064,
+        "lng": 135.19195,
+        "area": "고베",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kobe",
+            "url": "https://en.wikivoyage.org/wiki/Kobe#New_Muenchen_Kobe_Taishikan",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kobe-review-0d6c9db0b88c",
+        "cityId": "kobe",
+        "name": "소네",
+        "english": "Sone",
+        "category": "바·공연",
+        "image": "/images/place-placeholder.svg",
+        "description": "고베의 바·펍. 야간 일정에 넣을 수 있는 장소입니다.",
+        "address": "1-24-10 Nakayamate-dori",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "공연 일정·연령 제한·예약 여부를 방문 전에 확인하세요.",
+        "lat": 34.69737,
+        "lng": 135.19151,
+        "area": "고베",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kobe",
+            "url": "https://en.wikivoyage.org/wiki/Kobe#Sone",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kobe-review-948c46bd2f79",
+        "cityId": "kobe",
+        "name": "더 록",
+        "english": "The Rock",
+        "category": "바·공연",
+        "image": "/images/place-placeholder.svg",
+        "description": "고베의 바·펍. 야간 일정에 넣을 수 있는 장소입니다.",
+        "address": "FPB Bldg.2F, 3-5-6 Kanou-cho, Chuo-ku",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "공연 일정·연령 제한·예약 여부를 방문 전에 확인하세요.",
+        "lat": 34.69687,
+        "lng": 135.19226,
+        "area": "고베",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kobe",
+            "url": "https://en.wikivoyage.org/wiki/Kobe#The_Rock",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kobe-review-13dd69bbb13f",
+        "cityId": "kobe",
+        "name": "카페 프로인들리브",
+        "english": "Cafe Freundlieb",
+        "category": "카페",
+        "image": "/images/place-placeholder.svg",
+        "description": "고베의 커피·음료를 즐길 수 있는 카페.",
+        "address": "4-6-15 Ikutacho, Chuo-ku",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.7008,
+        "lng": 135.19516,
+        "area": "고베",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kobe",
+            "url": "https://en.wikivoyage.org/wiki/Kobe#Cafe_Freundlieb",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kobe-review-f33e5aaf9209",
+        "cityId": "kobe",
+        "name": "허브",
+        "english": "Hub · ハブ",
+        "category": "바·공연",
+        "image": "/images/place-placeholder.svg",
+        "description": "고베의 바·펍. 야간 일정에 넣을 수 있는 장소입니다.",
+        "address": "고베, 고베",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "공연 일정·연령 제한·예약 여부를 방문 전에 확인하세요.",
+        "lat": 34.69323,
+        "lng": 135.19138,
+        "area": "고베",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kobe",
+            "url": "https://en.wikivoyage.org/wiki/Kobe#Hub",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kobe-balance-0b43587f96",
+        "cityId": "kobe",
+        "name": "고베 포토피아 호텔",
+        "english": "Kobe Portopia Hotel · 神戸ポートピアホテル",
+        "category": "숙소",
+        "image": "/images/place-placeholder.svg",
+        "description": "포트아일랜드의 호텔 숙박 후보입니다.",
+        "address": "10-1,6 Chome, Minatojima Nakamachi, Chuo-ku. 650-0046",
+        "duration": "숙박 일정에 맞춰 지정",
+        "cost": "숙박일·객실·공식 안내에서 확인",
+        "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+        "lat": 34.6653,
+        "lng": 135.2138,
+        "area": "고베",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kobe",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Kobe&oldid=5390869",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "kobe-balance-43a27a251d",
+        "cityId": "kobe",
+        "name": "고베 메리켄 파크 오리엔탈 호텔",
+        "english": "Kobe Meriken Park Oriental Hotel",
+        "category": "숙소",
+        "image": "/images/place-placeholder.svg",
+        "description": "메리켄 파크 해안가의 호텔입니다.",
+        "address": "Chuo-ku Hatobamachi 5-6",
+        "duration": "숙박 일정에 맞춰 지정",
+        "cost": "숙박일·객실·공식 안내에서 확인",
+        "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+        "lat": 34.6797,
+        "lng": 135.1887,
+        "area": "고베",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kobe",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Kobe&oldid=5390869",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "kobe-balance-3e1eb37020",
+        "cityId": "kobe",
+        "name": "준쿠도 고베점",
+        "english": "Junkudo",
+        "category": "쇼핑",
+        "image": "/images/place-placeholder.svg",
+        "description": "책과 잡지를 고를 수 있는 고베의 서점입니다.",
+        "address": "고베, 고베",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "품목과 매장별 운영시간을 확인하고 구입할 물건을 정해 둘러보세요.",
+        "area": "고베",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kobe",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Kobe&oldid=5390869",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 buy 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "id": "kobe-overview",
+        "title": "도시 소개",
+        "body": "항구·기타노 시내와 롯코산·히메지 근교를 나누면 오르막과 장거리 이동을 줄일 수 있습니다."
+      },
+      {
+        "id": "kobe-before",
+        "title": "출발 전 준비",
+        "body": "고베규 식사는 메뉴·예산·취소 조건을 확인하고 예약 여부를 정하세요.\n\n롯코산 케이블카·버스 등 귀환 교통과 당일 기상을 확인하세요."
+      },
+      {
+        "id": "kobe-arrival",
+        "title": "공항과 시내 이동",
+        "body": "공항·다른 도시에서: 도착 공항과 산노미야·신고베의 차이를 확인하세요. 신칸센역과 시내 중심역은 다릅니다.\n\n언덕·산 이동: 기타노는 경사, 롯코산은 별도의 산 교통이 있습니다. 모두 평지 도보 구간으로 계산하지 마세요."
+      },
+      {
+        "id": "kobe-stay",
+        "title": "숙소 지역 선택",
+        "body": "산노미야: 오사카·교토 등 다른 도시 이동과 저녁 식사를 중심으로 비교하세요.\n\n하버랜드·항구: 바닷가 산책과 숙소에서의 시간을 중시할 때 비교하세요."
+      },
+      {
+        "id": "kobe-plan",
+        "title": "일정 계획",
+        "body": "하루: 항구와 시내 한 구역을 중심으로 잡으세요.\n\n2일 이상: 시내 하루와 롯코산 또는 히메지 하루를 나누세요."
+      },
+      {
+        "id": "kobe-notes",
+        "title": "현장 팁",
+        "body": "히메지성은 고베 시내 관광지가 아니라 별도 철도 이동이 필요한 근교입니다.\n\n기타노 언덕 산책과 장시간 쇼핑을 붙일 때 보행량을 조절하세요."
+      },
+      {
+        "id": "kobe-rain",
+        "title": "비 오는 날",
+        "body": "고베 해양박물관·다케나카 목수도구관 등 실내 방문을 우선하고 산 전망은 미루세요."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Japan-guide · 고베",
+        "url": "https://www.japan-guide.com/e/e2159.html",
+        "accessedAt": "2026-10-15"
+      }
+    ],
+    "status": "published",
+    "requestId": null,
+    "createdAt": "2026-10-15T00:00:00.000Z",
+    "updatedAt": "2026-10-15T00:00:00.000Z",
+    "publishedAt": "2026-10-15T00:00:00.000Z"
+  },
+  "practicalGuide": {
+    "cityId": "kobe",
+    "firstVisit": "항구·기타노 시내와 롯코산·히메지 근교를 나누면 오르막과 장거리 이동을 줄일 수 있습니다.",
+    "bases": [
+      {
+        "name": "산노미야",
+        "advice": "오사카·교토 등 다른 도시 이동과 저녁 식사를 중심으로 비교하세요."
+      },
+      {
+        "name": "하버랜드·항구",
+        "advice": "바닷가 산책과 숙소에서의 시간을 중시할 때 비교하세요."
+      }
+    ],
+    "arrival": [
+      {
+        "name": "공항·다른 도시에서",
+        "advice": "도착 공항과 산노미야·신고베의 차이를 확인하세요. 신칸센역과 시내 중심역은 다릅니다."
+      },
+      {
+        "name": "언덕·산 이동",
+        "advice": "기타노는 경사, 롯코산은 별도의 산 교통이 있습니다. 모두 평지 도보 구간으로 계산하지 마세요."
+      }
+    ],
+    "timePlan": [
+      {
+        "name": "하루",
+        "advice": "항구와 시내 한 구역을 중심으로 잡으세요."
+      },
+      {
+        "name": "2일 이상",
+        "advice": "시내 하루와 롯코산 또는 히메지 하루를 나누세요."
+      }
+    ],
+    "before": [
+      "고베규 식사는 메뉴·예산·취소 조건을 확인하고 예약 여부를 정하세요.",
+      "롯코산 케이블카·버스 등 귀환 교통과 당일 기상을 확인하세요."
+    ],
+    "pitfalls": [
+      "히메지성은 고베 시내 관광지가 아니라 별도 철도 이동이 필요한 근교입니다.",
+      "기타노 언덕 산책과 장시간 쇼핑을 붙일 때 보행량을 조절하세요."
+    ],
+    "rainPlan": "고베 해양박물관·다케나카 목수도구관 등 실내 방문을 우선하고 산 전망은 미루세요.",
+    "courses": [
+      {
+        "id": "kobe-course-1",
+        "title": "고베 항구 산책",
+        "pace": "반나절 · 도보",
+        "why": "항구의 박물관과 전망·산책 구역을 묶습니다.",
+        "placeIds": [
+          "kobe-harborland",
+          "kobe-review-ca5239e342c6",
+          "kobe-review-fb65ccaa5148"
+        ]
+      },
+      {
+        "id": "kobe-course-2",
+        "title": "기타노에서 도심으로",
+        "pace": "하루 · 도보·전철",
+        "why": "언덕에서 시내 쪽으로 내려오는 방향을 기준으로 조정하세요.",
+        "placeIds": [
+          "kobe-kitano",
+          "kobe-review-ecfcc32657c3",
+          "kobe-review-8609d81e834f"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "Japan-guide · 고베",
+        "url": "https://www.japan-guide.com/e/e2159.html",
+        "checkedAt": "2026-10-15",
+        "status": "read"
+      }
+    ],
+    "researchNote": "여행 안내 본문을 읽고 지역별 계획을 편집했습니다. 코스는 직접 작성한 제안이며 이동시간·예약 가능 여부를 실시간 계산한 결과가 아닙니다."
+  },
+  "plans": {
+    "cityId": "kobe",
+    "days": [
+      {
+        "id": "kobe-day-1",
+        "title": "고베 항구 산책",
+        "pace": "반나절 · 도보",
+        "why": "항구의 박물관과 전망·산책 구역을 묶습니다.",
+        "placeIds": [
+          "kobe-harborland",
+          "kobe-review-ca5239e342c6",
+          "kobe-review-fb65ccaa5148"
+        ]
+      },
+      {
+        "id": "kobe-day-2",
+        "title": "기타노에서 도심으로",
+        "pace": "하루 · 도보·전철",
+        "why": "언덕에서 시내 쪽으로 내려오는 방향을 기준으로 조정하세요.",
+        "placeIds": [
+          "kobe-kitano",
+          "kobe-review-ecfcc32657c3",
+          "kobe-review-8609d81e834f"
+        ]
+      },
+      {
+        "id": "kobe-day-3",
+        "title": "롯코산 전망과 자연",
+        "pace": "버스·케이블카",
+        "why": "산 이동과 전망에 하루를 남깁니다. 운행·기상 상황에 따라 산행 범위를 줄입니다.",
+        "placeIds": [
+          "kobe-rokko"
+        ]
+      },
+      {
+        "id": "kobe-day-4",
+        "title": "근교 히메지의 성과 정원",
+        "pace": "철도·도보",
+        "why": "히메지로 하루를 따로 잡고 성과 정원에 충분한 관람 시간을 둡니다.",
+        "placeIds": [
+          "kobe-review-2ab015099c7b",
+          "kobe-review-34e9a13e2bca",
+          "kobe-review-124bfcc6015e"
+        ]
+      },
+      {
+        "id": "kobe-day-5",
+        "title": "나다의 양조장 거리",
+        "pace": "철도·도보",
+        "why": "나다의 양조장 지역 안에서 자료관과 전시를 둘러봅니다. 시음 후 운전하지 않습니다.",
+        "placeIds": [
+          "kobe-review-85371518cff0",
+          "kobe-review-f3538986b069",
+          "kobe-review-7cf13a3e558f"
+        ]
+      }
+    ]
+  }
+}

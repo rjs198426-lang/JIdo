@@ -1,0 +1,160 @@
+{
+  "guide": {
+    "id": "book-chiangmai",
+    "scope": "city",
+    "city": {
+      "id": "book-chiangmai",
+      "name": "치앙마이",
+      "english": "Chiang Mai",
+      "country": "태국",
+      "region": "동남아",
+      "image": "/images/guide-placeholder.svg",
+      "tagline": "올드타운과 님만, 북부 산악 여행의 균형",
+      "description": "치앙마이는 올드타운의 사원·생활 골목과 님만의 카페, 시외 자연 체험을 나눠 즐기기 좋은 북부 도시입니다. 산과 정원은 지도상 가깝게 보여도 시내 산책과 다른 이동일로 잡는 편이 편합니다.",
+      "tags": [
+        "도시 산책",
+        "여행 준비"
+      ],
+      "flight": "항공편·출발 공항에 따라 다름",
+      "currency": "태국 바트 · THB",
+      "timeDifference": "한국보다 2시간 느림",
+      "timeZone": "Asia/Bangkok",
+      "season": "서늘한 시기와 별개로 대기질·우기·산악 기상 확인",
+      "accent": "#e7f1ef"
+    },
+    "places": [
+      {
+        "id": "book-chiangmai-wat-phra-that-doi-suthep",
+        "cityId": "book-chiangmai",
+        "name": "도이수텝 사원",
+        "english": "Wat Phra That Doi Suthep",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "산 위의 대표 사원입니다. 복장·계단·날씨와 이동 수단을 함께 고려하세요.",
+        "address": "Doi Suthep, Chiang Mai",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      },
+      {
+        "id": "book-chiangmai-tha-phae-walking-street",
+        "cityId": "book-chiangmai",
+        "name": "타패 워킹스트리트",
+        "english": "Tha Phae Walking Street",
+        "category": "쇼핑",
+        "image": "/images/place-placeholder.svg",
+        "description": "공예품과 먹거리를 둘러보는 거리 행사 구역입니다. 방문일의 운영을 확인하세요.",
+        "address": "Old City, Chiang Mai",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      },
+      {
+        "id": "book-chiangmai-nimmanhaemin-road",
+        "cityId": "book-chiangmai",
+        "name": "님만해민 카페 권역",
+        "english": "Nimmanhaemin Road",
+        "category": "카페",
+        "image": "/images/place-placeholder.svg",
+        "description": "여러 카페와 상점이 모인 구역입니다. 특정 카페 한 곳을 뜻하는 추천은 아닙니다.",
+        "address": "Nimman, Chiang Mai",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      },
+      {
+        "id": "book-chiangmai-royal-park-rajapruek",
+        "cityId": "book-chiangmai",
+        "name": "라차프륵 왕립공원",
+        "english": "Royal Park Rajapruek",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "정원과 식물을 둘러보는 야외 공간입니다. 넓은 동선과 더위를 고려하세요.",
+        "address": "Chiang Mai",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      },
+      {
+        "id": "book-chiangmai-doi-inthanon-national-park",
+        "cityId": "book-chiangmai",
+        "name": "도이인타논 국립공원",
+        "english": "Doi Inthanon National Park",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "산악 자연을 보는 시외 목적지입니다. 나들이 한 방향으로 계획하고 기상을 확인하세요.",
+        "address": "Chiang Mai Province",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      },
+      {
+        "id": "book-chiangmai-queen-sirikit-botanic-garden",
+        "cityId": "book-chiangmai",
+        "name": "퀸시리킷 식물원",
+        "english": "Queen Sirikit Botanic Garden",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "식물과 정원을 살펴보는 공간입니다. 시내 일정과 왕복 이동을 따로 계산하세요.",
+        "address": "Mae Rim, Chiang Mai",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      }
+    ],
+    "sections": [
+      {
+        "id": "book-chiangmai-overview",
+        "title": "도시 한눈에",
+        "body": "치앙마이는 올드타운의 사원·생활 골목과 님만의 카페, 시외 자연 체험을 나눠 즐기기 좋은 북부 도시입니다. 산과 정원은 지도상 가깝게 보여도 시내 산책과 다른 이동일로 잡는 편이 편합니다.\n\n통화: 태국 바트 · THB\n시차: 한국보다 2시간 느림\n여행 계절: 서늘한 시기와 별개로 대기질·우기·산악 기상 확인"
+      },
+      {
+        "id": "book-chiangmai-before",
+        "title": "출발 전 준비",
+        "body": "여권과 입국 허가·비자 요건은 국적·방문 목적에 맞춰 정부 안내를 확인하세요. 해외 사용 가능한 결제 수단, 통신과 여행자보험을 준비하고 숙소·항공권은 오프라인에서도 확인할 수 있게 보관하세요."
+      },
+      {
+        "id": "book-chiangmai-arrival",
+        "title": "공항에서 숙소까지",
+        "body": "치앙마이공항(CNX)에서 숙소까지 지정 택시·차량 호출·예약 픽업을 비교하세요. 붉은 썽태우 등 현지 교통을 이용하면 목적지와 총요금을 출발 전에 확인하세요."
+      },
+      {
+        "id": "book-chiangmai-stay",
+        "title": "어느 동네에 묵을까",
+        "body": "올드타운은 사원과 골목 걷기, 님만은 카페와 식사 중심에 맞는지 비교하세요. 외곽 숙소는 조용한 대신 늦은 식사와 시내 왕복 이동을 확인해야 합니다."
+      },
+      {
+        "id": "book-chiangmai-food",
+        "title": "먹거리와 동네 쇼핑",
+        "body": "카오소이·북부식 소시지와 지역 음식을 골라 보세요. 님만은 카페가 모인 권역이지 한 업소의 이름이 아닙니다. 야시장·워킹스트리트의 실제 개최일과 개별 상점 휴무를 확인하세요."
+      },
+      {
+        "id": "book-chiangmai-days",
+        "title": "처음 가는 3일 여행",
+        "body": "1일: 올드타운 산책 → 타패 일대. 시장은 개최일에 맞춰 바꾸세요.\n\n2일: 도이수텝 사원 → 님만 권역의 식사·카페.\n\n3일: 도이인타논·식물원·라차프륵 중 한 방향을 선택하세요. 시외 명소를 모두 묶지 마세요.\n\n일정 초안이며 자동 경로·이동시간 계산 결과가 아닙니다. 운영과 취향에 맞춰 선택하세요."
+      },
+      {
+        "id": "book-chiangmai-notes",
+        "title": "예약과 현장 팁",
+        "body": "대기질이 좋지 않은 날은 야외 산책 시간을 줄일 수 있게 하세요. 사원 복장과 신발 안내를 따르고, 산에서는 시내와 다른 기온·강우에 대비하세요. 동물 체험은 운영 방식과 동물 복지를 확인하세요."
+      }
+    ],
+    "sources": [
+      {
+        "title": "The official website of Tourism Authority of Thailand",
+        "url": "https://www.tourismthailand.org/Destinations/Provinces/Chiang-Mai/101",
+        "accessedAt": "2026-10-28"
+      },
+      {
+        "title": "Chiangmai International Airport | CNX",
+        "url": "https://chiangmai.airportthai.co.th/",
+        "accessedAt": "2026-10-28"
+      }
+    ],
+    "status": "published",
+    "requestId": null,
+    "createdAt": "2026-10-28T05:07:12.733Z",
+    "updatedAt": "2026-10-28T05:07:12.733Z",
+    "publishedAt": "2026-10-28T05:07:12.733Z"
+  }
+}

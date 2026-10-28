@@ -1,0 +1,155 @@
+{
+  "guide": {
+    "id": "book-kaohsiung",
+    "scope": "city",
+    "city": {
+      "id": "book-kaohsiung",
+      "name": "가오슝",
+      "english": "Kaohsiung",
+      "country": "대만",
+      "region": "동아시아",
+      "image": "/images/guide-placeholder.svg",
+      "tagline": "항구 산책과 야시장을 가볍게 연결하는 남부 도시",
+      "description": "가오슝은 항구·예술 구역과 야시장을 대중교통과 도보로 나누어 보기 좋은 도시입니다. 바다 쪽과 북쪽 연지담 권역을 묶어 왕복을 줄이고, 더운 낮에는 실내 관람과 휴식을 넣으세요.",
+      "tags": [
+        "도시 산책",
+        "여행 준비"
+      ],
+      "flight": "항공편·출발 공항에 따라 다름",
+      "currency": "대만 달러 · TWD",
+      "timeDifference": "한국보다 1시간 느림",
+      "timeZone": "Asia/Taipei",
+      "season": "더운 계절의 낮 기온·비와 태풍 소식 확인",
+      "accent": "#e7f1ef"
+    },
+    "places": [
+      {
+        "id": "book-kaohsiung-pier-2-art-center",
+        "cityId": "book-kaohsiung",
+        "name": "보얼예술특구",
+        "english": "Pier-2 Art Center",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "옛 항만 창고를 활용한 예술·전시 구역입니다. 전시별 운영과 입장을 구분하세요.",
+        "address": "Yancheng, Kaohsiung",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      },
+      {
+        "id": "book-kaohsiung-lotus-pond",
+        "cityId": "book-kaohsiung",
+        "name": "연지담",
+        "english": "Lotus Pond",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "호수와 종교 건축을 둘러보는 권역입니다. 현장 출입 안내를 지키세요.",
+        "address": "Zuoying, Kaohsiung",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      },
+      {
+        "id": "book-kaohsiung-dome-of-light-formosa-boulevard-station",
+        "cityId": "book-kaohsiung",
+        "name": "미려도역 빛의 돔",
+        "english": "Dome of Light, Formosa Boulevard Station",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "도시철도역 안의 공공 미술 공간입니다. 통행 동선을 방해하지 않도록 관람하세요.",
+        "address": "Sinsing, Kaohsiung",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      },
+      {
+        "id": "book-kaohsiung-cijin-island",
+        "cityId": "book-kaohsiung",
+        "name": "치진섬",
+        "english": "Cijin Island",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "바닷바람과 해안 산책을 즐기는 섬 권역입니다. 배편과 날씨를 먼저 확인하세요.",
+        "address": "Cijin, Kaohsiung",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      },
+      {
+        "id": "book-kaohsiung-ruifeng-night-market",
+        "cityId": "book-kaohsiung",
+        "name": "루이펑 야시장",
+        "english": "Ruifeng Night Market",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "여러 판매자의 먹거리를 고르는 야시장입니다. 실제 영업일과 업소별 결제를 확인하세요.",
+        "address": "Zuoying, Kaohsiung",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      },
+      {
+        "id": "book-kaohsiung-the-british-consulate-at-takow",
+        "cityId": "book-kaohsiung",
+        "name": "다거우 영국영사관 문화원구",
+        "english": "The British Consulate at Takow",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "항구 경관과 역사 건축을 살펴보는 장소입니다. 경사와 계단을 고려하세요.",
+        "address": "Gushan, Kaohsiung",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      }
+    ],
+    "sections": [
+      {
+        "id": "book-kaohsiung-overview",
+        "title": "도시 한눈에",
+        "body": "가오슝은 항구·예술 구역과 야시장을 대중교통과 도보로 나누어 보기 좋은 도시입니다. 바다 쪽과 북쪽 연지담 권역을 묶어 왕복을 줄이고, 더운 낮에는 실내 관람과 휴식을 넣으세요.\n\n통화: 대만 달러 · TWD\n시차: 한국보다 1시간 느림\n여행 계절: 더운 계절의 낮 기온·비와 태풍 소식 확인"
+      },
+      {
+        "id": "book-kaohsiung-before",
+        "title": "출발 전 준비",
+        "body": "여권과 입국 허가·비자 요건은 국적·방문 목적에 맞춰 정부 안내를 확인하세요. 해외 사용 가능한 결제 수단, 통신과 여행자보험을 준비하고 숙소·항공권은 오프라인에서도 확인할 수 있게 보관하세요."
+      },
+      {
+        "id": "book-kaohsiung-arrival",
+        "title": "공항에서 숙소까지",
+        "body": "가오슝공항(KHH)에서 MRT와 차량 이동을 숙소 역으로 비교하세요. 타이난 등 다른 도시에서 들어오면 고속철도역과 일반 철도역·도시철도의 연결을 따로 확인하세요."
+      },
+      {
+        "id": "book-kaohsiung-stay",
+        "title": "어느 동네에 묵을까",
+        "body": "미려도·중앙공원 등 역 주변은 식사와 교통 접근을, 옌청·항구 주변은 예술 구역과 산책 중심으로 비교하세요. 역 출구부터 숙소까지의 실제 보도와 짐 이동을 확인하세요."
+      },
+      {
+        "id": "book-kaohsiung-food",
+        "title": "먹거리와 동네 쇼핑",
+        "body": "야시장에서 소량씩 나눠 먹고 결제 방식·알레르기와 위생을 직접 확인하세요. 루이펑 야시장의 실제 영업일을 보고 일정을 정하세요. 항구의 상점과 카페는 전시 일정과 묶어 쉬기 좋습니다."
+      },
+      {
+        "id": "book-kaohsiung-days",
+        "title": "처음 가는 3일 여행",
+        "body": "1일: 보얼예술특구 → 항구 주변 산책.\n\n2일: 치진섬 또는 시내 실내 관람. 배편과 날씨를 확인하세요.\n\n3일: 연지담 → 취향에 맞는 야시장. 출국일에는 공항 이동을 우선하세요.\n\n일정 초안이며 자동 경로·이동시간 계산 결과가 아닙니다. 운영과 취향에 맞춰 선택하세요."
+      },
+      {
+        "id": "book-kaohsiung-notes",
+        "title": "예약과 현장 팁",
+        "body": "한낮의 더위와 갑작스러운 비에 대비하세요. 사찰과 종교 시설의 관람 안내를 따르고 치진 이동은 실제 운항과 귀환 시간을 확인하세요. 야시장 영업일을 매일로 가정하지 마세요."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Kaohsiung Travel website",
+        "url": "https://khh.travel/en/",
+        "accessedAt": "2026-10-28"
+      }
+    ],
+    "status": "published",
+    "requestId": null,
+    "createdAt": "2026-10-28T05:07:12.733Z",
+    "updatedAt": "2026-10-28T05:07:12.733Z",
+    "publishedAt": "2026-10-28T05:07:12.733Z"
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "guide": {
+    "id": "book-prague",
+    "scope": "city",
+    "city": {
+      "id": "book-prague",
+      "name": "프라하",
+      "english": "Prague",
+      "country": "체코",
+      "region": "유럽",
+      "image": "/images/guide-placeholder.svg",
+      "tagline": "구시가지와 강 건너 언덕을 나눠 걷는 여행",
+      "description": "프라하는 구시가지·카를교·프라하성의 축을 중심으로 여행하기 좋습니다. 돌길과 언덕이 많아 짐과 신발을 고려하고, 강변과 공원을 쉬는 일정으로 넣으세요.",
+      "tags": [
+        "도시 산책",
+        "여행 준비"
+      ],
+      "flight": "항공편·출발 공항에 따라 다름",
+      "currency": "체코 코루나 · CZK",
+      "timeDifference": "한국보다 겨울 8시간·서머타임 7시간 느림",
+      "timeZone": "Europe/Prague",
+      "season": "봄·가을 산책, 겨울 추위·짧은 낮 대비",
+      "accent": "#e7f1ef"
+    },
+    "places": [
+      {
+        "id": "book-prague-prague-castle",
+        "cityId": "book-prague",
+        "name": "프라하성",
+        "english": "Prague Castle",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "여러 건물과 뜰로 구성된 성 구역입니다. 입장권 범위와 보안 안내를 확인하세요.",
+        "address": "Hradčany, Prague",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      },
+      {
+        "id": "book-prague-charles-bridge",
+        "cityId": "book-prague",
+        "name": "카를교",
+        "english": "Charles Bridge",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "구시가지와 강 건너를 연결하는 보행 다리입니다. 혼잡한 시간에는 소지품을 관리하세요.",
+        "address": "Prague",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      },
+      {
+        "id": "book-prague-old-town-square",
+        "cityId": "book-prague",
+        "name": "구시가 광장",
+        "english": "Old Town Square",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "도시의 대표 건축과 거리를 보는 광장입니다. 주변 골목과 함께 걸으세요.",
+        "address": "Staré Město, Prague",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      },
+      {
+        "id": "book-prague-jewish-quarter",
+        "cityId": "book-prague",
+        "name": "유대인 지구",
+        "english": "Jewish Quarter",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "여러 역사 시설이 모인 구역입니다. 시설별 휴관일과 입장권을 확인하세요.",
+        "address": "Josefov, Prague",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      },
+      {
+        "id": "book-prague-letn-park",
+        "cityId": "book-prague",
+        "name": "레트나 공원",
+        "english": "Letná Park",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "강과 도시를 바라보는 언덕 공원입니다. 경사와 일몰 후 귀가를 고려하세요.",
+        "address": "Letná, Prague",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      },
+      {
+        "id": "book-prague-n-plavka",
+        "cityId": "book-prague",
+        "name": "나플라프카 강변",
+        "english": "Náplavka",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "강변을 산책하는 구역입니다. 시장·행사 운영은 날짜별로 확인하세요.",
+        "address": "New Town, Prague",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      }
+    ],
+    "sections": [
+      {
+        "id": "book-prague-overview",
+        "title": "도시 한눈에",
+        "body": "프라하는 구시가지·카를교·프라하성의 축을 중심으로 여행하기 좋습니다. 돌길과 언덕이 많아 짐과 신발을 고려하고, 강변과 공원을 쉬는 일정으로 넣으세요.\n\n통화: 체코 코루나 · CZK\n시차: 한국보다 겨울 8시간·서머타임 7시간 느림\n여행 계절: 봄·가을 산책, 겨울 추위·짧은 낮 대비"
+      },
+      {
+        "id": "book-prague-before",
+        "title": "출발 전 준비",
+        "body": "여권과 입국 허가·비자 요건은 국적·방문 목적에 맞춰 정부 안내를 확인하세요. 해외 사용 가능한 결제 수단, 통신과 여행자보험을 준비하고 숙소·항공권은 오프라인에서도 확인할 수 있게 보관하세요."
+      },
+      {
+        "id": "book-prague-arrival",
+        "title": "공항에서 숙소까지",
+        "body": "바츨라프 하벨 공항(PRG)에서 대중교통 연결과 차량을 비교하세요. 숙소의 트램·지하철 접근, 승차권 유효화 방식은 교통 운영기관에서 확인하세요."
+      },
+      {
+        "id": "book-prague-stay",
+        "title": "어느 동네에 묵을까",
+        "body": "구시가지는 도보 접근, 말라스트라나는 성 주변 분위기, 신시가지는 교통과 식사를 비교하기 좋습니다. 돌길에서 캐리어를 옮길 거리를 확인하세요."
+      },
+      {
+        "id": "book-prague-food",
+        "title": "먹거리와 동네 쇼핑",
+        "body": "체코식 육류 요리와 수프를 식사 후보로 비교하세요. 결제 시 현지 통화와 카드 환전 선택을 구분하고 메뉴의 추가 요금을 확인하세요."
+      },
+      {
+        "id": "book-prague-days",
+        "title": "처음 가는 3일 여행",
+        "body": "1일: 도착 → 숙소 주변 산책. 장거리 비행 뒤에는 충분히 쉬고 현지 날짜에 적응하세요.\n\n2일: 프라하성 중심으로 주변을 둘러보세요. 예약 시설은 운영기관의 방문 조건을 먼저 확인하세요.\n\n3일: 카를교 또는 구시가 광장 중 관심 있는 곳을 고르고 나머지는 식사와 동네 산책에 쓰세요. 출국일에는 공항 이동을 우선하세요.\n\n일정 초안이며 자동 경로·이동시간 계산 결과가 아닙니다. 운영과 취향에 맞춰 선택하세요."
+      },
+      {
+        "id": "book-prague-notes",
+        "title": "예약과 현장 팁",
+        "body": "성·성당·박물관의 관람 범위를 확인하세요. 관광지의 환전·현금 인출 수수료를 비교하고 트램 선로를 건널 때 주변을 살피세요."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Home | Prague City Tourism",
+        "url": "https://prague.eu/en/",
+        "accessedAt": "2026-10-28"
+      }
+    ],
+    "status": "published",
+    "requestId": null,
+    "createdAt": "2026-10-28T05:07:12.733Z",
+    "updatedAt": "2026-10-28T05:07:12.733Z",
+    "publishedAt": "2026-10-28T05:07:12.733Z"
+  }
+}

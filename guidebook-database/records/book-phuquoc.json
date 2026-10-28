@@ -1,0 +1,155 @@
+{
+  "guide": {
+    "id": "book-phuquoc",
+    "scope": "city",
+    "city": {
+      "id": "book-phuquoc",
+      "name": "푸꾸옥",
+      "english": "Phu Quoc",
+      "country": "베트남",
+      "region": "동남아",
+      "image": "/images/guide-placeholder.svg",
+      "tagline": "한 섬 안에서도 북부와 남부를 나눠 쉬기",
+      "description": "푸꾸옥은 숙소에서 쉬는 시간과 섬 안의 긴 이동을 함께 계획해야 하는 휴양지입니다. 북부·즈엉동·남부에 일정이 나뉘므로 같은 날 여러 권역을 왕복하기보다 숙소 가까운 장소를 묶으세요.",
+      "tags": [
+        "도시 산책",
+        "여행 준비"
+      ],
+      "flight": "항공편·출발 공항에 따라 다름",
+      "currency": "베트남 동 · VND",
+      "timeDifference": "한국보다 2시간 느림",
+      "timeZone": "Asia/Ho_Chi_Minh",
+      "season": "건기·우기 구분과 바다 체험 운항 여부 확인",
+      "accent": "#e7f1ef"
+    },
+    "places": [
+      {
+        "id": "book-phuquoc-sao-beach",
+        "cityId": "book-phuquoc",
+        "name": "사오 비치",
+        "english": "Sao Beach",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "섬 남쪽의 해변 휴식 후보입니다. 계절과 날씨에 따라 바다 상태가 달라집니다.",
+        "address": "An Thoi, Phu Quoc",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      },
+      {
+        "id": "book-phuquoc-phu-quoc-national-park",
+        "cityId": "book-phuquoc",
+        "name": "푸꾸옥 국립공원",
+        "english": "Phu Quoc National Park",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "섬의 숲과 자연을 살펴보는 권역입니다. 출입 가능 구간과 이동 수단을 확인하세요.",
+        "address": "Northern Phu Quoc",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      },
+      {
+        "id": "book-phuquoc-dinh-cau",
+        "cityId": "book-phuquoc",
+        "name": "딘꺼우 사원",
+        "english": "Dinh Cau",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "즈엉동 해안의 종교·경관 장소입니다. 해질 무렵에는 통행과 바위 구간에 주의하세요.",
+        "address": "Duong Dong, Phu Quoc",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      },
+      {
+        "id": "book-phuquoc-phu-quoc-night-market",
+        "cityId": "book-phuquoc",
+        "name": "즈엉동 야시장",
+        "english": "Phu Quoc Night Market",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "해산물과 기념품을 비교하는 야시장 구역입니다. 영업 중인 판매자를 현장에서 확인하세요.",
+        "address": "Duong Dong, Phu Quoc",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      },
+      {
+        "id": "book-phuquoc-an-thoi-port",
+        "cityId": "book-phuquoc",
+        "name": "안터이 항구",
+        "english": "An Thoi Port",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "남쪽 섬 체험의 출발 권역입니다. 예약한 배의 실제 승선 장소를 별도로 확인하세요.",
+        "address": "An Thoi, Phu Quoc",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      },
+      {
+        "id": "book-phuquoc-hon-thom-cable-car",
+        "cityId": "book-phuquoc",
+        "name": "혼똠 케이블카",
+        "english": "Hon Thom Cable Car",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "남부 섬 방향의 케이블카 체험입니다. 운행·점검·포함 시설 조건을 확인하세요.",
+        "address": "An Thoi, Phu Quoc",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      }
+    ],
+    "sections": [
+      {
+        "id": "book-phuquoc-overview",
+        "title": "도시 한눈에",
+        "body": "푸꾸옥은 숙소에서 쉬는 시간과 섬 안의 긴 이동을 함께 계획해야 하는 휴양지입니다. 북부·즈엉동·남부에 일정이 나뉘므로 같은 날 여러 권역을 왕복하기보다 숙소 가까운 장소를 묶으세요.\n\n통화: 베트남 동 · VND\n시차: 한국보다 2시간 느림\n여행 계절: 건기·우기 구분과 바다 체험 운항 여부 확인"
+      },
+      {
+        "id": "book-phuquoc-before",
+        "title": "출발 전 준비",
+        "body": "여권과 입국 허가·비자 요건은 국적·방문 목적에 맞춰 정부 안내를 확인하세요. 해외 사용 가능한 결제 수단, 통신과 여행자보험을 준비하고 숙소·항공권은 오프라인에서도 확인할 수 있게 보관하세요."
+      },
+      {
+        "id": "book-phuquoc-arrival",
+        "title": "공항에서 숙소까지",
+        "body": "푸꾸옥공항(PQC)에서 숙소 권역과 픽업 조건을 확인하세요. 리조트 셔틀을 이용할 때는 탑승 장소·예약 필요 여부·출국편 시간에 맞는 운행을 따로 확인하세요."
+      },
+      {
+        "id": "book-phuquoc-stay",
+        "title": "어느 동네에 묵을까",
+        "body": "즈엉동 주변은 야시장과 시내 식사를 섞기 좋고, 북부·남부 리조트는 숙소 시설과 해변 중심으로 비교하세요. 수영장·키즈 시설·해변 접근과 외부 식당까지의 이동을 함께 보세요."
+      },
+      {
+        "id": "book-phuquoc-food",
+        "title": "먹거리와 동네 쇼핑",
+        "body": "해산물과 후추·피시소스 등 지역 먹거리를 살펴보되 액체류는 기내 반입과 수하물 포장을 확인하세요. 야시장은 여러 판매자가 있는 구역이며 위생·가격·중량을 직접 비교해야 합니다."
+      },
+      {
+        "id": "book-phuquoc-days",
+        "title": "처음 가는 3일 여행",
+        "body": "1일: 도착 → 숙소 주변 휴식 → 가까우면 즈엉동 야시장.\n\n2일: 남부 해변과 안터이 권역 중 원하는 체험을 고르세요.\n\n3일: 북부 자연 또는 숙소 휴식. 출국일에는 섬 반대편의 긴 일정을 피하세요.\n\n일정 초안이며 자동 경로·이동시간 계산 결과가 아닙니다. 운영과 취향에 맞춰 선택하세요."
+      },
+      {
+        "id": "book-phuquoc-notes",
+        "title": "예약과 현장 팁",
+        "body": "해상 투어·케이블카는 기상과 점검에 따라 달라질 수 있습니다. 공연·놀이시설·리조트 입장 포함 여부를 구분해 결제하고, 해변에서는 현장 통제와 산호 보호 안내를 따르세요."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Phu Quoc | Vietnam Tourism",
+        "url": "https://vietnam.travel/places-to-go/mekong-delta/phu-quoc/",
+        "accessedAt": "2026-10-28"
+      }
+    ],
+    "status": "published",
+    "requestId": null,
+    "createdAt": "2026-10-28T05:07:12.733Z",
+    "updatedAt": "2026-10-28T05:07:12.733Z",
+    "publishedAt": "2026-10-28T05:07:12.733Z"
+  }
+}

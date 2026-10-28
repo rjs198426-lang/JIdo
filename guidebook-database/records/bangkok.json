@@ -1,0 +1,1964 @@
+{
+  "guide": {
+    "id": "bangkok",
+    "scope": "city",
+    "city": {
+      "id": "bangkok",
+      "name": "방콕",
+      "english": "BANGKOK",
+      "country": "태국",
+      "region": "동남아",
+      "image": "/images/place-wat-arun.jpg",
+      "photoCredit": {
+        "file": "/images/place-wat-arun.jpg",
+        "author": "Mastertongapollo",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E0%B9%80%E0%B8%88%E0%B8%94%E0%B8%B5%E0%B8%A2%E0%B9%8C%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%98%E0%B8%B2%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B8%87%E0%B8%9B%E0%B8%A3%E0%B8%B2%E0%B8%87%E0%B8%84%E0%B9%8C%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%AD%E0%B8%A3%E0%B8%B8%E0%B8%932.jpg",
+        "verifiedAt": "2026-10-14"
+      },
+      "tagline": "하루 종일 맛있고, 밤에는 더 빛나는",
+      "description": "황금빛 사원과 활기찬 시장, 향긋한 길거리 음식. 익숙한 듯 새로운 방콕에서 취향 가득한 하루를 보내세요.",
+      "tags": [
+        "미식 여행",
+        "야경"
+      ],
+      "flight": "약 5시간 40분",
+      "currency": "태국 바트 · THB",
+      "timeDifference": "한국보다 2시간 느림",
+      "season": "11–2월",
+      "accent": "#f4e5cf"
+    },
+    "places": [
+      {
+        "id": "wat-arun",
+        "cityId": "bangkok",
+        "name": "왓 아룬",
+        "english": "Wat Arun",
+        "category": "관광",
+        "image": "/images/place-wat-arun.jpg",
+        "photoCredit": {
+          "file": "/images/place-wat-arun.jpg",
+          "author": "Mastertongapollo",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E0%B9%80%E0%B8%88%E0%B8%94%E0%B8%B5%E0%B8%A2%E0%B9%8C%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%98%E0%B8%B2%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B8%87%E0%B8%9B%E0%B8%A3%E0%B8%B2%E0%B8%87%E0%B8%84%E0%B9%8C%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%AD%E0%B8%A3%E0%B8%B8%E0%B8%932.jpg",
+          "verifiedAt": "2026-10-14"
+        },
+        "description": "짜오프라야 강변에서 만나는 새벽의 사원. 섬세한 장식과 강 건너 풍경을 감상하세요.",
+        "address": "158 Wang Doem Road, Bangkok",
+        "duration": "약 1시간 30분",
+        "cost": "입장료 별도 · 공식 안내 확인",
+        "tip": "어깨와 무릎을 가리는 복장을 준비하세요.",
+        "lat": 13.7437,
+        "lng": 100.4889
+      },
+      {
+        "id": "grand-palace",
+        "cityId": "bangkok",
+        "name": "방콕 왕궁",
+        "english": "The Grand Palace",
+        "category": "관광",
+        "image": "/images/place-grand-palace.jpg",
+        "photoCredit": {
+          "file": "/images/place-grand-palace.jpg",
+          "author": "Preecha.MJ",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:0005574_-_Wat_Phra_Kaew_006.jpg",
+          "verifiedAt": "2026-10-14"
+        },
+        "description": "태국의 역사와 화려한 건축을 만나는 왕궁. 에메랄드 사원과 함께 둘러보세요.",
+        "address": "Na Phra Lan Road, Bangkok",
+        "duration": "약 2시간",
+        "cost": "입장료 별도 · 공식 안내 확인",
+        "tip": "엄격한 복장 규정과 운영 시간을 확인하세요.",
+        "lat": 13.75,
+        "lng": 100.4913
+      },
+      {
+        "id": "yaowarat",
+        "cityId": "bangkok",
+        "name": "야오와랏 야시장",
+        "english": "Yaowarat Road",
+        "category": "맛집",
+        "image": "/images/place-yaowarat.jpg",
+        "photoCredit": {
+          "file": "/images/place-yaowarat.jpg",
+          "author": "กสิณธร ราชโอรส",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:(2022)_%E0%B8%95%E0%B8%B6%E0%B8%81%E0%B9%81%E0%B8%96%E0%B8%A7%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%96%E0%B8%99%E0%B8%99%E0%B9%80%E0%B8%A2%E0%B8%B2%E0%B8%A7%E0%B8%A3%E0%B8%B2%E0%B8%8A_%E0%B9%80%E0%B8%82%E0%B8%95%E0%B8%AA%E0%B8%B1%E0%B8%A1%E0%B8%9E%E0%B8%B1%E0%B8%99%E0%B8%98%E0%B8%A7%E0%B8%87%E0%B8%A8%E0%B9%8C_%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3_(4).jpg",
+          "verifiedAt": "2026-10-14"
+        },
+        "description": "해가 지면 더 활기차지는 차이나타운. 다양한 길거리 음식으로 나만의 미식 코스를 만들어보세요.",
+        "address": "Yaowarat Road, Bangkok",
+        "duration": "약 2시간",
+        "cost": "메뉴에 따라 다름",
+        "tip": "현금을 준비하고 위생 상태를 확인해 가게를 선택하세요.",
+        "lat": 13.7397,
+        "lng": 100.5099
+      },
+      {
+        "id": "talat-noi",
+        "cityId": "bangkok",
+        "name": "딸랏 너이 카페 산책",
+        "english": "Talat Noi",
+        "category": "카페",
+        "image": "/images/place-talat-noi.jpg",
+        "photoCredit": {
+          "file": "/images/place-talat-noi.jpg",
+          "author": "Chainwit.",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rong_Kuak_Shrine_Talat_Noi_%E0%B8%A8%E0%B8%B2%E0%B8%A5%E0%B9%80%E0%B8%88%E0%B9%89%E0%B8%B2%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B9%80%E0%B8%81%E0%B8%B7%E0%B8%AD%E0%B8%81_%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%AD%E0%B8%A2_2021_June.jpg",
+          "verifiedAt": "2026-10-14"
+        },
+        "description": "오래된 골목 속 개성 있는 카페와 벽화. 방콕의 느긋한 오후를 만나보세요.",
+        "address": "Talat Noi, Samphanthawong, Bangkok",
+        "duration": "약 1시간 30분",
+        "cost": "선택한 카페의 메뉴에 따라 다름",
+        "tip": "주택가에서는 주민의 일상을 배려해 주세요.",
+        "lat": 13.7345,
+        "lng": 100.5135
+      },
+      {
+        "id": "bangkok-review-1d53593bca2c",
+        "cityId": "bangkok",
+        "name": "방콕 예술문화센터",
+        "english": "Bangkok Art and Culture Centre · หอศิลปวัฒนธรรมแห่งกรุงเทพมหานคร",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "태국과 해외 작가의 다양한 기획 전시·예술 활동을 접할 수 있는 방콕 도심 문화 공간이에요.",
+        "address": "939 Rama I Rd",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "방문 날짜의 전시·행사 목록을 보고 들러 보세요. 같은 건물에서도 전시별 관람 조건이 다를 수 있어요.",
+        "lat": 13.746701,
+        "lng": 100.530224,
+        "area": "시암",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bangkok/Siam Square",
+            "url": "https://en.wikivoyage.org/wiki/Bangkok/Siam_Square#Bangkok_Art_and_Culture_Centre",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bangkok-review-aaba407c833d",
+        "cityId": "bangkok",
+        "name": "짐 톰슨 하우스",
+        "english": "Jim Thompson's House · พิพิธภัณฑ์จิม ทอมป์สัน",
+        "category": "관광",
+        "image": "/images/commons-069-bangkok-review-aaba407c833d.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-bangkok-review-aaba407c833d.jpg",
+          "author": "Abogomazova",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jim_Thompson_House_interiors-002.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "태국 전통 가옥 여러 채를 조합한 짐 톰프슨의 집이에요. 실크 산업과 관련된 인물의 생활 공간을 살펴볼 수 있어요.",
+        "address": "6 Soi Kasemsan 2",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "가옥 내부의 안내 관람 방식과 제공 언어를 확인하세요. 대기할 수 있으니 더운 시간에는 물과 쉬는 시간을 준비하세요.",
+        "lat": 13.74924,
+        "lng": 100.52838,
+        "area": "시암",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bangkok/Siam Square",
+            "url": "https://en.wikivoyage.org/wiki/Bangkok/Siam_Square#Jim_Thompson%27s_House",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bangkok-review-12f3a2d501b2",
+        "cityId": "bangkok",
+        "name": "룸피니 공원",
+        "english": "Lumphini Park · สวนลุมพินี",
+        "category": "관광",
+        "image": "/images/commons-069-bangkok-review-12f3a2d501b2.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-bangkok-review-12f3a2d501b2.jpg",
+          "author": "WPPilot",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lumphini_Park_2025_by_Don_Ramey_Logan.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "도심의 호수와 산책길이 있는 큰 공원이에요. 아침 운동과 도심 일정 사이의 휴식 장소로 비교하기 좋아요.",
+        "address": "실롬, 방콕",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "낮 더위를 피해 산책 시간을 정하세요. 공원의 큰 도마뱀은 야생동물이므로 가까이 다가가거나 먹이를 주지 마세요.",
+        "lat": 13.73022,
+        "lng": 100.53834,
+        "area": "실롬",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bangkok/Silom",
+            "url": "https://en.wikivoyage.org/wiki/Bangkok/Silom#Lumphini_Park",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bangkok-review-f47ebbf461a4",
+        "cityId": "bangkok",
+        "name": "벤짜끼띠 공원",
+        "english": "Benjakiti Park",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "호수와 걷기·자전거 동선을 갖춘 도심 공원이에요. 퀸 시리킷 컨벤션센터 주변 일정과 비교해 볼 수 있어요.",
+        "address": "Ratchadaphisek Rd",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "산책길과 자전거 동선을 구분해 이용하세요. 햇빛이 강할 때에는 그늘·수분 보충과 돌아갈 교통편을 함께 생각하세요.",
+        "lat": 13.7294,
+        "lng": 100.5586,
+        "area": "수쿰윗",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bangkok/Sukhumvit",
+            "url": "https://en.wikivoyage.org/wiki/Bangkok/Sukhumvit#Benjakiti_Park",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bangkok-review-e22ba9e57d6a",
+        "cityId": "bangkok",
+        "name": "왓 사켓·골든 마운트",
+        "english": "Wat Saket and the Golden Mount · วัดสระเกศและภูเขาทอง",
+        "category": "관광",
+        "image": "/images/commons-069-bangkok-review-e22ba9e57d6a.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-bangkok-review-e22ba9e57d6a.jpg",
+          "author": "Radosław Botev",
+          "license": "CC BY 3.0 pl",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0/pl/deed.en",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Golden_Mount_of_Wat_Saket_(4).jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "인공 언덕 위의 탑까지 계단을 따라 올라가는 사찰이에요. 도심 전망과 불교 공간을 함께 볼 수 있어요.",
+        "address": "Boriphat Rd",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "계단 오르기가 포함되므로 더운 시간대와 동행자의 체력을 고려하세요. 축제 기간에는 평소와 운영·혼잡이 다를 수 있어요.",
+        "lat": 13.753895,
+        "lng": 100.506593,
+        "area": "라타나코신",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bangkok/Rattanakosin",
+            "url": "https://en.wikivoyage.org/wiki/Bangkok/Rattanakosin#Wat_Saket_and_the_Golden_Mount",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bangkok-review-8b1f0624c7d0",
+        "cityId": "bangkok",
+        "name": "시암 박물관",
+        "english": "Museum of Siam · มิวเซียมสยาม",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "태국의 역사·문화와 다른 나라와의 교류를 체험형 전시로 소개하는 박물관이에요.",
+        "address": "4 Sanam Chai Rd",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "사진만 찍고 지나가기보다 주제별 전시를 따라 둘러보세요. 설명 언어와 체험 공간의 운영 여부를 확인하면 관람 방식을 고르기 좋아요.",
+        "lat": 13.744133,
+        "lng": 100.494128,
+        "area": "라타나코신",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bangkok/Rattanakosin",
+            "url": "https://en.wikivoyage.org/wiki/Bangkok/Rattanakosin#Museum_of_Siam",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bangkok-review-5d192029724c",
+        "cityId": "bangkok",
+        "name": "방콕 국립박물관",
+        "english": "National Museum · พิพิธภัณฑสถานแห่งชาติ พระนคร",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "옛 왕궁 부지의 여러 건물에 태국 역사·미술 자료를 전시하는 국립박물관이에요.",
+        "address": "4 Na Phra That Rd",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "건물과 전시실이 나뉘어 있어 보고 싶은 주제를 먼저 고르세요. 가이드 투어를 이용하려면 현재 제공 언어·요일·시간을 확인하세요.",
+        "lat": 13.757826,
+        "lng": 100.492307,
+        "area": "라타나코신",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bangkok/Rattanakosin",
+            "url": "https://en.wikivoyage.org/wiki/Bangkok/Rattanakosin#National_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bangkok-review-57de3e5e724a",
+        "cityId": "bangkok",
+        "name": "왓 트라이밋",
+        "english": "Wat Traimit · วัดไตรมิตรวิทยารามวรวิหาร",
+        "category": "관광",
+        "image": "/images/commons-069-bangkok-review-57de3e5e724a.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-bangkok-review-57de3e5e724a.jpg",
+          "author": "Suicasmo",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wat_Traimit_20240917.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "차이나타운 주변에 있는 사찰로, 커다란 금불상을 볼 수 있어요.",
+        "address": "Tri Mit Rd",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "차이나타운 산책과 같은 구역으로 묶어 보세요. 불상 관람 구역의 입장과 복장 조건을 확인하고 종교 공간의 촬영 안내를 따르세요.",
+        "lat": 13.73799,
+        "lng": 100.51365,
+        "area": "야오와랏·파후랏",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bangkok/Yaowarat and Phahurat",
+            "url": "https://en.wikivoyage.org/wiki/Bangkok/Yaowarat_and_Phahurat#Wat_Traimit",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bangkok-review-a478d6995919",
+        "cityId": "bangkok",
+        "name": "왓 벤짜마보핏",
+        "english": "Wat Benchamabophit · วัดเบญจมบพิตร, also known as the Marble Temple",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "유럽 건축 요소와 불교 건축이 어우러진 사찰로, 회랑의 불상들도 볼 수 있어요.",
+        "address": "Si Ayutthaya Rd",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "건축과 회랑을 둘러보는 일정으로 잡으세요. 승려의 종교 활동과 방문객 관람 공간을 구분해 조용히 이동하세요.",
+        "lat": 13.766562,
+        "lng": 100.514139,
+        "area": "두싯",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bangkok/Dusit",
+            "url": "https://en.wikivoyage.org/wiki/Bangkok/Dusit#Wat_Benchamabophit",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bangkok-review-142bb81e1d2b",
+        "cityId": "bangkok",
+        "name": "왕실 선박 국립박물관",
+        "english": "Royal Barge National Museum · พิพิธภัณฑสถานแห่งชาติเรือพระราชพิธี",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "왕실 의식에 쓰이는 정교한 배들을 보관·전시하는 박물관이에요. 신화 속 동물 모양의 뱃머리를 비교해 볼 수 있어요.",
+        "address": "Arun-Amarin Rd",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "운하 투어에 포함된 방문인지 육로로 따로 가는지 먼저 정하세요. 입구 접근 경로와 관람 가능 여부를 확인하고 이동편을 잡으세요.",
+        "lat": 13.761667,
+        "lng": 100.484417,
+        "area": "톤부리",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bangkok/Thonburi",
+            "url": "https://en.wikivoyage.org/wiki/Bangkok/Thonburi#Royal_Barge_National_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bangkok-review-0318ec0d7f21",
+        "cityId": "bangkok",
+        "name": "수안 파카드 궁전",
+        "english": "Suan Pakkad Palace · วังสวนผักกาด",
+        "category": "관광",
+        "image": "/images/commons-069-bangkok-review-0318ec0d7f21.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-bangkok-review-0318ec0d7f21.jpg",
+          "author": "This Photo was taken by Supanut Arunoprayote.\n\nFeel free to use any of my images, but please mention me as the author and may send me a message.  (สามารถใช้ภาพได้อิสระ แต่กรุณาใส่เครดิตผู้ถ่ายและอาจส่งข้อความบอกกล่าวด้วย) \n\n\n\nPlease do not upload an updated image here without consultation with the Author. The author would like to make corrections only at his own source. This ensures that the changes are preserved.Please if you think that any changes should be required, please inform the author.Otherwise you can upload a new image with a new name. Please use one of the templates derivative or extract.",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Suan_Pakkad_Palace_(I).jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "태국 전통 가옥에 미술품·골동품 등을 모아 전시한 궁전 박물관이에요.",
+        "address": "352-354 Si Ayutthaya Rd",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "건물마다 전시 주제가 달라 관심 있는 자료를 먼저 정하세요. 무용·음악 관련 전시가 현재 열리는지도 확인하세요.",
+        "lat": 13.756667,
+        "lng": 100.5375,
+        "area": "쁘라뚜남",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bangkok/Pratunam",
+            "url": "https://en.wikivoyage.org/wiki/Bangkok/Pratunam#Suan_Pakkad_Palace",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bangkok-review-93ee61e07ea5",
+        "cityId": "bangkok",
+        "name": "아이콘시암",
+        "english": "Iconsiam",
+        "category": "쇼핑",
+        "image": "/images/place-placeholder.svg",
+        "description": "짜오프라야강변의 대형 쇼핑몰로, 브랜드 매장과 지역 음식·공예를 소개하는 구역이 있어요.",
+        "address": "톤부리, 방콕",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "쇼핑과 식사 중 목적을 정해 층별 동선을 줄이세요. 강을 건너는 이동편은 운행 시간과 돌아오는 편까지 함께 확인하세요.",
+        "lat": 13.72676,
+        "lng": 100.51026,
+        "area": "톤부리",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bangkok/Thonburi",
+            "url": "https://en.wikivoyage.org/wiki/Bangkok/Thonburi#Iconsiam",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bangkok-review-8be09893e6a6",
+        "cityId": "bangkok",
+        "name": "쁘라뚜남 시장",
+        "english": "Pratunam Market · ตลาดประตูน้ำ",
+        "category": "쇼핑",
+        "image": "/images/place-placeholder.svg",
+        "description": "쁘라뚜남의 시장·쇼핑 공간.",
+        "address": "Phetchaburi Soi 21",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 13.752,
+        "lng": 100.54087,
+        "area": "쁘라뚜남",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bangkok/Pratunam",
+            "url": "https://en.wikivoyage.org/wiki/Bangkok/Pratunam#Pratunam_Market",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bangkok-review-44070ad35546",
+        "cityId": "bangkok",
+        "name": "민주기념탑",
+        "english": "Democracy Monument · อนุสาวรีย์ประชาธิปไตย",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "카오산의 신사·사당.",
+        "address": "Ratchadamnoen Klang Rd",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 13.75669,
+        "lng": 100.50185,
+        "area": "카오산",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bangkok/Khao San Road",
+            "url": "https://en.wikivoyage.org/wiki/Bangkok/Khao_San_Road#Democracy_Monument",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bangkok-review-2679c7429ee4",
+        "cityId": "bangkok",
+        "name": "어린이 발견 박물관",
+        "english": "Children's Discovery Museum · พิพิธภัณฑ์เด็ก",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "파혼요틴의 박물관·전시 공간. 과학 전시를 살펴볼 수 있습니다.",
+        "address": "810 Kamphaeng Phet 4 Rd",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 13.803163,
+        "lng": 100.551362,
+        "area": "파혼요틴",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bangkok/Phahonyothin",
+            "url": "https://en.wikivoyage.org/wiki/Bangkok/Phahonyothin#Children%27s_Discovery_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bangkok-review-416c0c6b3e44",
+        "cityId": "bangkok",
+        "name": "태국 생활 상설전시관",
+        "english": "Thai Life Permanent Exhibition Hall · หอไทยนิทัศน์",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "랏차다피섹의 수변·항구 산책 장소.",
+        "address": "Thailand Cultural Centre, Walthana Tham Rd",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 13.7665,
+        "lng": 100.5734,
+        "area": "랏차다피섹",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bangkok/Ratchadaphisek",
+            "url": "https://en.wikivoyage.org/wiki/Bangkok/Ratchadaphisek#Thai_Life_Permanent_Exhibition_Hall",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bangkok-review-06e05e78e8a4",
+        "cityId": "bangkok",
+        "name": "라마 9세 공원",
+        "english": "Rama IX Royal Park · สวนหลวง ร. 9",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "람캄행의 공원·정원.",
+        "address": "Udom Suk Rd",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 13.6869,
+        "lng": 100.6628,
+        "area": "람캄행",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bangkok/Ramkhamhaeng",
+            "url": "https://en.wikivoyage.org/wiki/Bangkok/Ramkhamhaeng#Rama_IX_Royal_Park",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bangkok-review-b93647c6ed09",
+        "cityId": "bangkok",
+        "name": "벤자시리 공원",
+        "english": "Benchasiri Park · สวนเบญจศิริ",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "수쿰윗의 공원·정원.",
+        "address": "Sukhumvit Rd",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 13.73034,
+        "lng": 100.56732,
+        "area": "수쿰윗",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bangkok/Sukhumvit",
+            "url": "https://en.wikivoyage.org/wiki/Bangkok/Sukhumvit#Benchasiri_Park",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bangkok-review-a6635ddb390c",
+        "cityId": "bangkok",
+        "name": "마하나콘 전망대",
+        "english": "The Mahanakhon Observation Deck",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "실롬의 공원·정원.",
+        "address": "114 Narathiwas Road",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 13.72384,
+        "lng": 100.52599,
+        "area": "실롬",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bangkok/Silom",
+            "url": "https://en.wikivoyage.org/wiki/Bangkok/Silom#The_Mahanakhon_Observation_Deck",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bangkok-review-7d8950e8a627",
+        "cityId": "bangkok",
+        "name": "10월 14일 추모관",
+        "english": "October 14 Memorial · อนุสรณ์สถาน 14 ตุลา",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "카오산의 박물관·전시 공간. 지역·역사 자료를 살펴볼 수 있습니다.",
+        "address": "14/16 Ratchadamnoen Klang Rd",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 13.75678,
+        "lng": 100.49908,
+        "area": "카오산",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bangkok/Khao San Road",
+            "url": "https://en.wikivoyage.org/wiki/Bangkok/Khao_San_Road#October_14_Memorial",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bangkok-review-aac483be78dc",
+        "cityId": "bangkok",
+        "name": "구루 타완 시크교 사원",
+        "english": "Guru Tawan Sikh Temple · คุรุดวาราศรีคุรุสิงห์สภา Gurudwara Siri Guru Singh Sabha",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "야오와랏·파후랏의 사찰.",
+        "address": "565 Chakphet Rd",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 13.74417,
+        "lng": 100.50109,
+        "area": "야오와랏·파후랏",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bangkok/Yaowarat and Phahurat",
+            "url": "https://en.wikivoyage.org/wiki/Bangkok/Yaowarat_and_Phahurat#Guru_Tawan_Sikh_Temple",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bangkok-review-dade2236930a",
+        "cityId": "bangkok",
+        "name": "아피섹 두싯 알현실",
+        "english": "Abhisek Dusit Throne Hall · SUPPORT Museum",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "두싯의 박물관·전시 공간.",
+        "address": "두싯, 방콕",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 13.773472,
+        "lng": 100.513064,
+        "area": "두싯",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bangkok/Dusit",
+            "url": "https://en.wikivoyage.org/wiki/Bangkok/Dusit#Abhisek_Dusit_Throne_Hall",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bangkok-review-e813616c761e",
+        "cityId": "bangkok",
+        "name": "방콕 현대미술관",
+        "english": "Museum of Contemporary Art · พิพิฒภัณฑ์ศิลปะไทยร่วมสมัย",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "파혼요틴의 박물관·전시 공간. 미술 작품 전시를 살펴볼 수 있습니다.",
+        "address": "499/50 Viphavadi Rangsit Rd",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 13.8517,
+        "lng": 100.5628,
+        "area": "파혼요틴",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bangkok/Phahonyothin",
+            "url": "https://en.wikivoyage.org/wiki/Bangkok/Phahonyothin#Museum_of_Contemporary_Art",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bangkok-review-72118eadb37b",
+        "cityId": "bangkok",
+        "name": "왓 텝 릴라",
+        "english": "Wat Thep Lila · วัดเทพลีลา",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "람캄행의 사찰.",
+        "address": "Ramkhamhaeng Soi 41",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 13.7594,
+        "lng": 100.6145,
+        "area": "람캄행",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bangkok/Ramkhamhaeng",
+            "url": "https://en.wikivoyage.org/wiki/Bangkok/Ramkhamhaeng#Wat_Thep_Lila",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bangkok-review-8d827b8ea328",
+        "cityId": "bangkok",
+        "name": "에라완 사당",
+        "english": "Erawan Shrine · ศาลพระพรหม",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "시암의 신사·사당.",
+        "address": "494 Ratchadamri Rd",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 13.74429,
+        "lng": 100.54043,
+        "area": "시암",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bangkok/Siam Square",
+            "url": "https://en.wikivoyage.org/wiki/Bangkok/Siam_Square#Erawan_Shrine",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bangkok-review-dccf852a1b0f",
+        "cityId": "bangkok",
+        "name": "소이 아랍",
+        "english": "Soi Arab · Middle East Street",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "수쿰윗의 둘러볼 수 있는 장소.",
+        "address": "Sukhumvit Soi 3/1",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 13.7425,
+        "lng": 100.553556,
+        "area": "수쿰윗",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bangkok/Sukhumvit",
+            "url": "https://en.wikivoyage.org/wiki/Bangkok/Sukhumvit#Soi_Arab",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bangkok-review-2bf2be8af2d1",
+        "cityId": "bangkok",
+        "name": "라마 6세 동상",
+        "english": "King Rama VI Statue · พระบรมราชานุสาวรีย์พระบาทสมเด็จพระมงกุฏเกล้าเจ้าอยู่หัว",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "실롬의 공원·정원.",
+        "address": "실롬, 방콕",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 13.72997,
+        "lng": 100.53763,
+        "area": "실롬",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bangkok/Silom",
+            "url": "https://en.wikivoyage.org/wiki/Bangkok/Silom#King_Rama_VI_Statue",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bangkok-review-e7abfa983104",
+        "cityId": "bangkok",
+        "name": "프라 수멘 요새",
+        "english": "Phra Sumen Fort · ป้อมพระสุเมรุ",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "카오산의 공원·정원.",
+        "address": "Phra Athit Rd",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 13.76399,
+        "lng": 100.49573,
+        "area": "카오산",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bangkok/Khao San Road",
+            "url": "https://en.wikivoyage.org/wiki/Bangkok/Khao_San_Road#Phra_Sumen_Fort",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bangkok-review-a54b069c67b8",
+        "cityId": "bangkok",
+        "name": "왓 차이 차나 송크람",
+        "english": "Wat Chai Chana Songkhram · วัดชัยชนะสงคราม",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "야오와랏·파후랏의 사찰.",
+        "address": "83 Chakrawat Rd",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 13.744722,
+        "lng": 100.505833,
+        "area": "야오와랏·파후랏",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bangkok/Yaowarat and Phahurat",
+            "url": "https://en.wikivoyage.org/wiki/Bangkok/Yaowarat_and_Phahurat#Wat_Chai_Chana_Songkhram",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bangkok-review-c8e87f933302",
+        "cityId": "bangkok",
+        "name": "라마 5세 기마상",
+        "english": "King Rama V Equestrian Statue · พระบรมรูปทรงม้า",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "두싯의 성·궁전 유적.",
+        "address": "Uthong Nai Rd",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 13.769223,
+        "lng": 100.512031,
+        "area": "두싯",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bangkok/Dusit",
+            "url": "https://en.wikivoyage.org/wiki/Bangkok/Dusit#King_Rama_V_Equestrian_Statue",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bangkok-review-c8b67be14001",
+        "cityId": "bangkok",
+        "name": "산타크루즈 성당",
+        "english": "Santa Cruz Church · วัดซางตาครู้ส",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "톤부리의 신사·사당.",
+        "address": "112 Tesaban 1 Rd",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 13.738999,
+        "lng": 100.493764,
+        "area": "톤부리",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bangkok/Thonburi",
+            "url": "https://en.wikivoyage.org/wiki/Bangkok/Thonburi#Santa_Cruz_Church",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bangkok-review-967882844745",
+        "cityId": "bangkok",
+        "name": "바이욕 타워 2 전망대·회전 옥상",
+        "english": "Baiyoke Tower II Observatory and Revolving Roofdeck · ตึกใบหยก 2",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "쁘라뚜남의 전망 장소.",
+        "address": "77-84F, Baiyoke Tower II, 222 Ratchaprarop Rd",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 13.754308,
+        "lng": 100.54043,
+        "area": "쁘라뚜남",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bangkok/Pratunam",
+            "url": "https://en.wikivoyage.org/wiki/Bangkok/Pratunam#Baiyoke_Tower_II_Observatory_and_Revolving_Roofdeck",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bangkok-review-332b1454bea3",
+        "cityId": "bangkok",
+        "name": "우표박물관",
+        "english": "Philatelic Museum · พิพิธภัณฑ์และห้องสมุดตราไปรษณียากร",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "파혼요틴의 박물관·전시 공간. 지역·역사 자료를 살펴볼 수 있습니다.",
+        "address": "2F, Metropolitan Postal Bureau, 2 Phahonyothin Rd",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 13.7939,
+        "lng": 100.5491,
+        "area": "파혼요틴",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bangkok/Phahonyothin",
+            "url": "https://en.wikivoyage.org/wiki/Bangkok/Phahonyothin#Philatelic_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bangkok-review-46ba86bc0d16",
+        "cityId": "bangkok",
+        "name": "마담 투소 방콕",
+        "english": "Madame Tussaud's · พิพิธภัณฑ์หุ่นขี้ผึ้งมาดามทุสโซ",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "시암의 박물관·전시 공간.",
+        "address": "6F, Siam Discovery, 989 Rama I Rd",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 13.74649,
+        "lng": 100.53173,
+        "area": "시암",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bangkok/Siam Square",
+            "url": "https://en.wikivoyage.org/wiki/Bangkok/Siam_Square#Madame_Tussaud%27s",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bangkok-review-f619a76ba54f",
+        "cityId": "bangkok",
+        "name": "사오와파 왕비 기념연구소 뱀농장",
+        "english": "Queen Saovabha Memorial Institute Snake Farm · สถานเสาวภาสภากาชาดไทย",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "실롬의 기념물·역사 장소.",
+        "address": "1874 Rama IV Rd",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 13.73238,
+        "lng": 100.53266,
+        "area": "실롬",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bangkok/Silom",
+            "url": "https://en.wikivoyage.org/wiki/Bangkok/Silom#Queen_Saovabha_Memorial_Institute_Snake_Farm",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bangkok-review-f851b0dfe92e",
+        "cityId": "bangkok",
+        "name": "왕실 보물·훈장·태국 화폐 전시관",
+        "english": "Pavilion of Regalia, Royal Decorations and Thai Coins",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "라타나코신의 둘러볼 수 있는 장소.",
+        "address": "라타나코신, 방콕",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 13.751003,
+        "lng": 100.491782,
+        "area": "라타나코신",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bangkok/Rattanakosin",
+            "url": "https://en.wikivoyage.org/wiki/Bangkok/Rattanakosin#Pavilion_of_Regalia%2C_Royal_Decorations_and_Thai_Coins",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bangkok-review-1e0f18d6b5e1",
+        "cityId": "bangkok",
+        "name": "싼띠차이쁘라깐 공원",
+        "english": "Santichaiprakan Park · พระที่นั่งและสวนสาธารณะสันติชัยปราการ",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "카오산의 공원·정원.",
+        "address": "Phra Athit Rd",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 13.76408,
+        "lng": 100.49509,
+        "area": "카오산",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bangkok/Khao San Road",
+            "url": "https://en.wikivoyage.org/wiki/Bangkok/Khao_San_Road#Santichaiprakan_Park",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bangkok-review-0d84eef8c7b4",
+        "cityId": "bangkok",
+        "name": "왓 짜끄라왓",
+        "english": "Wat Chakrawat · วัดจักรวรรดิราชาวาสวรมหาวิหาร",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "야오와랏·파후랏의 사찰.",
+        "address": "Chakrawat Rd",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 13.742199,
+        "lng": 100.504158,
+        "area": "야오와랏·파후랏",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bangkok/Yaowarat and Phahurat",
+            "url": "https://en.wikivoyage.org/wiki/Bangkok/Yaowarat_and_Phahurat#Wat_Chakrawat",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bangkok-review-23f9f329ddf3",
+        "cityId": "bangkok",
+        "name": "왓 인타라위한",
+        "english": "Wat Intharawihan · วัดอินทรวิหาร",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "두싯의 사찰.",
+        "address": "114 Wisut Kasat Rd",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 13.766927,
+        "lng": 100.502947,
+        "area": "두싯",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bangkok/Dusit",
+            "url": "https://en.wikivoyage.org/wiki/Bangkok/Dusit#Wat_Intharawihan",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bangkok-review-7bec5502007e",
+        "cityId": "bangkok",
+        "name": "왓 깐라야나밋",
+        "english": "Wat Kanlayanamit · วัดกัลยาณมิตรวรมหาวิหาร",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "톤부리의 사찰.",
+        "address": "656 Tesaban 1 Rd",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 13.740003,
+        "lng": 100.491278,
+        "area": "톤부리",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bangkok/Thonburi",
+            "url": "https://en.wikivoyage.org/wiki/Bangkok/Thonburi#Wat_Kanlayanamit",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bangkok-review-6b661000f4af",
+        "cityId": "bangkok",
+        "name": "방콕 인형박물관",
+        "english": "Bangkok Dolls Museum · บ้านบางกอกดอลส์และตุ๊กตานานาชาติ",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "쁘라뚜남의 박물관·전시 공간.",
+        "address": "85 Soi Ratchataphan (Soi Mo Leng)",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 13.7594,
+        "lng": 100.54676,
+        "area": "쁘라뚜남",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bangkok/Pratunam",
+            "url": "https://en.wikivoyage.org/wiki/Bangkok/Pratunam#Bangkok_Dolls_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bangkok-review-5b1b2ac5ff12",
+        "cityId": "bangkok",
+        "name": "태국 왕립 공군박물관",
+        "english": "Royal Thai Air Force Museum · พิพิธภัณฑ์กองทัพอากาศ",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "파혼요틴의 박물관·전시 공간. 지역·역사 자료를 살펴볼 수 있습니다.",
+        "address": "171 Phahonyothin Rd",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 13.9196,
+        "lng": 100.622,
+        "area": "파혼요틴",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bangkok/Phahonyothin",
+            "url": "https://en.wikivoyage.org/wiki/Bangkok/Phahonyothin#Royal_Thai_Air_Force_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bangkok-review-0245590f6097",
+        "cityId": "bangkok",
+        "name": "사왕 왓타나 왕비 박물관",
+        "english": "Queen Savang Vadhana Museum · มูลนิธิสมเด็จพระพันวัสสาอัยยิกาเจ้า",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "시암의 박물관·전시 공간.",
+        "address": "Sra Pathum Palace, 195 Phaya Thai Rd",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 13.74804,
+        "lng": 100.53378,
+        "area": "시암",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bangkok/Siam Square",
+            "url": "https://en.wikivoyage.org/wiki/Bangkok/Siam_Square#Queen_Savang_Vadhana_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bangkok-review-60c834ccf4af",
+        "cityId": "bangkok",
+        "name": "어섬션 대성당",
+        "english": "Assumption Cathedral · อาสนวิหารอัสสัมชัญ",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "실롬의 성당·교회.",
+        "address": "23 Soi Oriental",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 13.7231,
+        "lng": 100.5152,
+        "area": "실롬",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bangkok/Silom",
+            "url": "https://en.wikivoyage.org/wiki/Bangkok/Silom#Assumption_Cathedral",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bangkok-review-66ea889014f0",
+        "cityId": "bangkok",
+        "name": "왓 라차보핏",
+        "english": "Wat Ratchabophit · วัดราชบพิตร",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "라타나코신의 사찰.",
+        "address": "2 Fuang Nakhon Rd",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 13.749133,
+        "lng": 100.497332,
+        "area": "라타나코신",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bangkok/Rattanakosin",
+            "url": "https://en.wikivoyage.org/wiki/Bangkok/Rattanakosin#Wat_Ratchabophit",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bangkok-review-c31c8d4a6071",
+        "cityId": "bangkok",
+        "name": "왓 보원니웻",
+        "english": "Wat Bowonniwet · วัดบวรนิเวศ",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "카오산의 사찰.",
+        "address": "Bowonniwet Rd",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 13.76025,
+        "lng": 100.49985,
+        "area": "카오산",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bangkok/Khao San Road",
+            "url": "https://en.wikivoyage.org/wiki/Bangkok/Khao_San_Road#Wat_Bowonniwet",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bangkok-review-c97b4d1c664c",
+        "cityId": "bangkok",
+        "name": "왓 가 부앙 킴",
+        "english": "Wat Ga Buang Kim",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "야오와랏·파후랏의 사찰.",
+        "address": "Soi Krai",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 13.7414,
+        "lng": 100.5053,
+        "area": "야오와랏·파후랏",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bangkok/Yaowarat and Phahurat",
+            "url": "https://en.wikivoyage.org/wiki/Bangkok/Yaowarat_and_Phahurat#Wat_Ga_Buang_Kim",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bangkok-review-1eb0608931af",
+        "cityId": "bangkok",
+        "name": "왓 쁘라윤",
+        "english": "Wat Prayoon · วัดประยุรวงศ์",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "톤부리의 박물관·전시 공간.",
+        "address": "24 Prachathipok Rd",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 13.737363,
+        "lng": 100.49537,
+        "area": "톤부리",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bangkok/Thonburi",
+            "url": "https://en.wikivoyage.org/wiki/Bangkok/Thonburi#Wat_Prayoon",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bangkok-review-32e3b4415f17",
+        "cityId": "bangkok",
+        "name": "파야타이 궁전",
+        "english": "Phaya Thai Palace · วังพญาไท",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "쁘라뚜남의 성·궁전 유적.",
+        "address": "315 Ratchawithi Rd",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 13.768666,
+        "lng": 100.532912,
+        "area": "쁘라뚜남",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bangkok/Pratunam",
+            "url": "https://en.wikivoyage.org/wiki/Bangkok/Pratunam#Phaya_Thai_Palace",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bangkok-review-c5303d5c91a9",
+        "cityId": "bangkok",
+        "name": "씨라이프 방콕 오션월드",
+        "english": "Bangkok Sea Life Ocean World · สยามโอเชี่ยนเวิลด์",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "시암의 수족관.",
+        "address": "1-2F, Siam Paragon, 991 Rama 1 Rd",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 13.74599,
+        "lng": 100.53515,
+        "area": "시암",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bangkok/Siam Square",
+            "url": "https://en.wikivoyage.org/wiki/Bangkok/Siam_Square#Bangkok_Sea_Life_Ocean_World",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bangkok-balance-94d9b6f7f8",
+        "cityId": "bangkok",
+        "name": "쏨땀 누아 시암점",
+        "english": "Som Tam Nua · Som Tam Paradise or Papaya Salad Restaurant",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "파파야 샐러드 쏨땀을 중심으로 태국 음식을 맛보는 식당입니다.",
+        "address": "392/14 Siam Square Soi 5",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "지점과 주문 방식, 식단 제한을 확인하고 식사 일정에 넣어 보세요. 메뉴·영업시간은 방문 전 확인하세요.",
+        "area": "시암",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bangkok/Siam Square",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Bangkok/Siam_Square&oldid=5382192",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 eat 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "bangkok-balance-097783e776",
+        "cityId": "bangkok",
+        "name": "쁘라짝 식당",
+        "english": "Prachak Restaurant · ประจักษ์เป็ดย่าง",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "구운 오리 요리로 소개된 방락 지역의 식당입니다.",
+        "address": "1415 Charoen Krung Rd",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "지점과 주문 방식, 식단 제한을 확인하고 식사 일정에 넣어 보세요. 메뉴·영업시간은 방문 전 확인하세요.",
+        "lat": 13.72033,
+        "lng": 100.51603,
+        "area": "실롬·방락",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bangkok/Silom",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Bangkok/Silom&oldid=5382193",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 eat 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "bangkok-balance-b1b0096d5b",
+        "cityId": "bangkok",
+        "name": "에이티티 나인틴 카페",
+        "english": "Att19 Cafe",
+        "category": "카페",
+        "image": "/images/place-placeholder.svg",
+        "description": "차롱끄룽의 예술 공간과 함께 둘러볼 수 있는 카페입니다.",
+        "address": "19 Charoen Krung Soi 30, Bang Rak",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "산책이나 쇼핑 사이에 쉬어갈 후보입니다. 좌석 이용·마지막 주문 시간은 방문 전 확인하세요.",
+        "area": "실롬·방락",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bangkok/Silom",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Bangkok/Silom&oldid=5382193",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "bangkok-balance-f2472c580f",
+        "cityId": "bangkok",
+        "name": "헤이지",
+        "english": "Heijii",
+        "category": "카페",
+        "image": "/images/place-placeholder.svg",
+        "description": "차롱끄룽 골목에서 커피와 디저트를 즐기는 카페입니다.",
+        "address": "415 Charoen Krung Road, Soi 43, Si Phraya, Bang Rak",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "산책이나 쇼핑 사이에 쉬어갈 후보입니다. 좌석 이용·마지막 주문 시간은 방문 전 확인하세요.",
+        "area": "실롬·방락",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bangkok/Silom",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Bangkok/Silom&oldid=5382193",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "bangkok-balance-fc2f5579cf",
+        "cityId": "bangkok",
+        "name": "그랜드 하얏트 에라완 방콕",
+        "english": "Grand Hyatt Erawan",
+        "category": "숙소",
+        "image": "/images/place-placeholder.svg",
+        "description": "에라완 사당과 가까운 도심 호텔입니다.",
+        "address": "494 Ratchadamri Rd",
+        "duration": "숙박 일정에 맞춰 지정",
+        "cost": "숙박일·객실·공식 안내에서 확인",
+        "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+        "lat": 13.743497,
+        "lng": 100.540427,
+        "area": "시암",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bangkok/Siam Square",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Bangkok/Siam_Square&oldid=5382192",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "bangkok-balance-db6b05e331",
+        "cityId": "bangkok",
+        "name": "만다린 오리엔탈 방콕",
+        "english": "Mandarin Oriental · โรงแรมแมนดาริน โอเรียนเต็ล",
+        "category": "숙소",
+        "image": "/images/place-placeholder.svg",
+        "description": "차오프라야 강변의 호텔 숙박 후보입니다.",
+        "address": "48 Oriental Rd",
+        "duration": "숙박 일정에 맞춰 지정",
+        "cost": "숙박일·객실·공식 안내에서 확인",
+        "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+        "lat": 13.72395,
+        "lng": 100.51418,
+        "area": "실롬·방락",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bangkok/Silom",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Bangkok/Silom&oldid=5382193",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "bangkok-balance-6c1385b65e",
+        "cityId": "bangkok",
+        "name": "뱀부 바",
+        "english": "Bamboo Bar",
+        "category": "바·공연",
+        "image": "/images/place-placeholder.svg",
+        "description": "만다린 오리엔탈 호텔의 재즈 바입니다.",
+        "address": "Oriental Hotel, 48 Oriental Rd",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "공연 일정·입장 연령·드레스 코드·입장료와 최소 주문 조건을 방문 전 확인하세요.",
+        "lat": 13.72377,
+        "lng": 100.51424,
+        "area": "실롬·방락",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bangkok/Silom",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Bangkok/Silom&oldid=5382193",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "bangkok-balance-d8aef2fdbd",
+        "cityId": "bangkok",
+        "name": "스카이 바 방콕",
+        "english": "Sky Bar Bangkok · Riverview Rooftop Bar",
+        "category": "바·공연",
+        "image": "/images/place-placeholder.svg",
+        "description": "스테이트 타워 상층에서 도시 전망을 함께 즐기는 바입니다.",
+        "address": "63F, State Tower, 1055/111 Silom Rd",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "공연 일정·입장 연령·드레스 코드·입장료와 최소 주문 조건을 방문 전 확인하세요.",
+        "lat": 13.72143,
+        "lng": 100.51686,
+        "area": "실롬·방락",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bangkok/Silom",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Bangkok/Silom&oldid=5382193",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "bangkok-balance-7761bbea37",
+        "cityId": "bangkok",
+        "name": "엠비케이 센터",
+        "english": "MBK Center · มาบุญครอง",
+        "category": "쇼핑",
+        "image": "/images/place-placeholder.svg",
+        "description": "작은 매장이 모여 의류와 전자제품 등을 비교할 수 있는 쇼핑몰입니다.",
+        "address": "444 Phaya Thai Rd",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "품목과 매장별 운영시간을 확인하고 구입할 물건을 정해 둘러보세요.",
+        "lat": 13.74447,
+        "lng": 100.52987,
+        "area": "시암",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bangkok/Siam Square",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Bangkok/Siam_Square&oldid=5382192",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 buy 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "bangkok-balance-71f236ff82",
+        "cityId": "bangkok",
+        "name": "시암 파라곤",
+        "english": "Siam Paragon · สยามพารากอน",
+        "category": "쇼핑",
+        "image": "/images/place-placeholder.svg",
+        "description": "시암역 주변에서 상점과 식음료 매장을 둘러보는 대형 쇼핑몰입니다.",
+        "address": "991 Rama I Rd",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "품목과 매장별 운영시간을 확인하고 구입할 물건을 정해 둘러보세요.",
+        "lat": 13.74686,
+        "lng": 100.535,
+        "area": "시암",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bangkok/Siam Square",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Bangkok/Siam_Square&oldid=5382192",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 buy 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "bangkok-balance-8d9e861786",
+        "cityId": "bangkok",
+        "name": "센터 포인트 마사지 앤 스파",
+        "english": "Center Point Massage & Spa",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "시암 스퀘어 원에서 마사지 프로그램을 고를 수 있는 공간입니다.",
+        "address": "6F, Siam Square One, 388 Rama I Rd",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "운영 회차·예약·참가 조건을 확인하세요. 물놀이와 야외 활동은 당일 날씨·안전 안내를 따르세요.",
+        "lat": 13.74532,
+        "lng": 100.53397,
+        "area": "시암",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bangkok/Siam Square",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Bangkok/Siam_Square&oldid=5382192",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 do 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "bangkok-balance-70b97ea9f7",
+        "cityId": "bangkok",
+        "name": "바디 튠 실롬",
+        "english": "BODY Tune",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "실롬에서 전통 태국 마사지를 받을 수 있는 공간입니다.",
+        "address": "2F, Yada Bldg, 56 Silom Rd",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "운영 회차·예약·참가 조건을 확인하세요. 물놀이와 야외 활동은 당일 날씨·안전 안내를 따르세요.",
+        "lat": 13.72891,
+        "lng": 100.53432,
+        "area": "실롬·방락",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bangkok/Silom",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Bangkok/Silom&oldid=5382193",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 do 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "id": "bangkok-overview",
+        "title": "도시 소개",
+        "body": "구시가지 사원권과 시암·도심권을 날짜로 나누고, 한낮 더위와 도로 정체를 줄이는 동선을 고르세요."
+      },
+      {
+        "id": "bangkok-before",
+        "title": "출발 전 준비",
+        "body": "왕궁·사원은 복장과 당일 입장 공지를 확인하세요.\n\n루프탑·체험·식당 예약은 최소 주문·포함 비용·취소 조건을 확인하세요."
+      },
+      {
+        "id": "bangkok-arrival",
+        "title": "공항과 시내 이동",
+        "body": "공항에서 숙소: 수완나품과 돈므앙을 구분하고 철도·공식 차량의 목적지와 환승을 비교하세요.\n\n시내 이동: BTS·MRT·배편을 관광 구역에 맞춰 고르고 도로 이동에는 정체 여유를 남기세요."
+      },
+      {
+        "id": "bangkok-stay",
+        "title": "숙소 지역 선택",
+        "body": "BTS·MRT 역 가까운 숙소: 방문할 노선과 실제 출구까지의 도보 접근을 우선 비교하세요.\n\n강변·구시가지: 사원과 강변 일정에 집중할 때 비교하세요. 야간 귀환 교통을 별도로 확인하세요."
+      },
+      {
+        "id": "bangkok-plan",
+        "title": "일정 계획",
+        "body": "하루: 구시가지 또는 시암권 한 구역에 집중하세요.\n\n3일 이상: 구시가지·도심·개인 취향 하루를 나누고 식사와 더위를 피할 시간을 남기세요."
+      },
+      {
+        "id": "bangkok-notes",
+        "title": "현장 팁",
+        "body": "시암 박물관은 시암 쇼핑 지구가 아니라 구시가지 쪽에 있습니다.\n\n맞은편 강변 장소라도 다리·선착장 위치에 따라 이동이 달라집니다."
+      },
+      {
+        "id": "bangkok-rain",
+        "title": "비 오는 날",
+        "body": "방콕 예술문화센터·짐 톰슨 하우스 등 한 구역의 실내 관람으로 줄이고 운영일을 확인하세요."
+      }
+    ],
+    "sources": [],
+    "status": "published",
+    "requestId": null,
+    "createdAt": "2026-10-28T00:00:00.000Z",
+    "updatedAt": "2026-10-28T00:00:00.000Z",
+    "publishedAt": "2026-10-28T00:00:00.000Z"
+  },
+  "practicalGuide": {
+    "cityId": "bangkok",
+    "firstVisit": "구시가지 사원권과 시암·도심권을 날짜로 나누고, 한낮 더위와 도로 정체를 줄이는 동선을 고르세요.",
+    "bases": [
+      {
+        "name": "BTS·MRT 역 가까운 숙소",
+        "advice": "방문할 노선과 실제 출구까지의 도보 접근을 우선 비교하세요."
+      },
+      {
+        "name": "강변·구시가지",
+        "advice": "사원과 강변 일정에 집중할 때 비교하세요. 야간 귀환 교통을 별도로 확인하세요."
+      }
+    ],
+    "arrival": [
+      {
+        "name": "공항에서 숙소",
+        "advice": "수완나품과 돈므앙을 구분하고 철도·공식 차량의 목적지와 환승을 비교하세요."
+      },
+      {
+        "name": "시내 이동",
+        "advice": "BTS·MRT·배편을 관광 구역에 맞춰 고르고 도로 이동에는 정체 여유를 남기세요."
+      }
+    ],
+    "timePlan": [
+      {
+        "name": "하루",
+        "advice": "구시가지 또는 시암권 한 구역에 집중하세요."
+      },
+      {
+        "name": "3일 이상",
+        "advice": "구시가지·도심·개인 취향 하루를 나누고 식사와 더위를 피할 시간을 남기세요."
+      }
+    ],
+    "before": [
+      "왕궁·사원은 복장과 당일 입장 공지를 확인하세요.",
+      "루프탑·체험·식당 예약은 최소 주문·포함 비용·취소 조건을 확인하세요."
+    ],
+    "pitfalls": [
+      "시암 박물관은 시암 쇼핑 지구가 아니라 구시가지 쪽에 있습니다.",
+      "맞은편 강변 장소라도 다리·선착장 위치에 따라 이동이 달라집니다."
+    ],
+    "rainPlan": "방콕 예술문화센터·짐 톰슨 하우스 등 한 구역의 실내 관람으로 줄이고 운영일을 확인하세요.",
+    "courses": [
+      {
+        "id": "bangkok-course-1",
+        "title": "구시가지와 강 건너 사원",
+        "pace": "하루 · 도보·배편",
+        "why": "왕궁과 구시가지 관람 뒤 강을 건너는 동선입니다. 선착장과 운항을 확인하세요.",
+        "placeIds": [
+          "grand-palace",
+          "bangkok-review-8b1f0624c7d0",
+          "wat-arun"
+        ]
+      },
+      {
+        "id": "bangkok-course-2",
+        "title": "시암권 문화 산책",
+        "pace": "반나절–하루 · 도보·BTS",
+        "why": "실내 관람을 도심에 모아 더위를 피하는 코스입니다.",
+        "placeIds": [
+          "bangkok-review-aaba407c833d",
+          "bangkok-review-1d53593bca2c",
+          "bangkok-review-8d827b8ea328"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "관광청 공식 사이트",
+        "url": "https://www.tourismthailand.org/",
+        "checkedAt": "2026-10-15",
+        "status": "unavailable"
+      }
+    ],
+    "researchNote": "기존 내장 장소를 바탕으로 작성한 계획 제안입니다. 관광청 최신 교통·운영 조건은 본문 접근 제한으로 재확인하지 못했습니다."
+  },
+  "plans": {
+    "cityId": "bangkok",
+    "days": [
+      {
+        "id": "bangkok-day-1",
+        "title": "구시가지와 강 건너 사원",
+        "pace": "하루 · 도보·배편",
+        "why": "왕궁과 구시가지 관람 뒤 강을 건너는 동선입니다. 선착장과 운항을 확인하세요.",
+        "placeIds": [
+          "grand-palace",
+          "bangkok-review-8b1f0624c7d0",
+          "wat-arun"
+        ]
+      },
+      {
+        "id": "bangkok-day-2",
+        "title": "시암권 문화 산책",
+        "pace": "반나절–하루 · 도보·BTS",
+        "why": "실내 관람을 도심에 모아 더위를 피하는 코스입니다.",
+        "placeIds": [
+          "bangkok-review-aaba407c833d",
+          "bangkok-review-1d53593bca2c",
+          "bangkok-review-8d827b8ea328"
+        ]
+      },
+      {
+        "id": "bangkok-day-3",
+        "title": "딸랏 너이와 차이나타운 저녁",
+        "pace": "도보·택시",
+        "why": "강변 골목을 먼저 걷고 야오와랏 저녁 식사로 마무리합니다.",
+        "placeIds": [
+          "talat-noi",
+          "bangkok-review-57de3e5e724a",
+          "yaowarat"
+        ]
+      },
+      {
+        "id": "bangkok-day-4",
+        "title": "실롬의 공원과 도심 전망",
+        "pace": "철도·도보",
+        "why": "더운 낮에는 휴식을 두고 해 질 무렵 전망대를 잡습니다.",
+        "placeIds": [
+          "bangkok-review-12f3a2d501b2",
+          "bangkok-review-f619a76ba54f",
+          "bangkok-review-a6635ddb390c"
+        ]
+      },
+      {
+        "id": "bangkok-day-5",
+        "title": "수쿰윗에서 여유 있게",
+        "pace": "철도·도보",
+        "why": "벤자시리와 벤짜끼띠를 도심 철도로 연결하고 가까운 식사 구역을 남깁니다.",
+        "placeIds": [
+          "bangkok-review-b93647c6ed09",
+          "bangkok-review-f47ebbf461a4",
+          "bangkok-review-dccf852a1b0f"
+        ]
+      }
+    ]
+  }
+}

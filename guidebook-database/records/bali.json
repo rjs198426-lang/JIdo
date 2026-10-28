@@ -1,0 +1,1894 @@
+{
+  "guide": {
+    "id": "bali",
+    "scope": "city",
+    "city": {
+      "id": "bali",
+      "name": "발리",
+      "english": "BALI",
+      "country": "인도네시아",
+      "region": "동남아",
+      "image": "/images/place-ubud.jpg",
+      "photoCredit": {
+        "file": "/images/place-ubud.jpg",
+        "author": "Vyacheslav Argenberg",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rice_terraces,_Bali.jpg",
+        "verifiedAt": "2026-10-14"
+      },
+      "tagline": "초록의 쉼표, 나를 위한 시간",
+      "description": "우붓의 푸른 풍경부터 바다에 내려앉는 석양까지. 자연과 일상 사이에서 나만의 여행 속도를 찾아보세요.",
+      "tags": [
+        "자연 속 휴식",
+        "선셋"
+      ],
+      "flight": "약 7시간",
+      "currency": "인도네시아 루피아 · IDR",
+      "timeDifference": "한국보다 1시간 느림",
+      "season": "5–9월",
+      "accent": "#d9ebe5"
+    },
+    "places": [
+      {
+        "id": "ubud",
+        "cityId": "bali",
+        "name": "뜨갈랄랑 라이스 테라스",
+        "english": "Tegallalang",
+        "category": "관광",
+        "image": "/images/place-ubud.jpg",
+        "photoCredit": {
+          "file": "/images/place-ubud.jpg",
+          "author": "Vyacheslav Argenberg",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rice_terraces,_Bali.jpg",
+          "verifiedAt": "2026-10-14"
+        },
+        "description": "우붓의 둘러볼 수 있는 장소.",
+        "address": "우붓, 발리",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": -8.447663,
+        "lng": 115.27721,
+        "area": "우붓",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Ubud",
+            "url": "https://en.wikivoyage.org/wiki/Ubud#Tegallalang",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "uluwatu",
+        "cityId": "bali",
+        "name": "울루와뚜 사원",
+        "english": "Uluwatu Temple · Pura Uluwatu",
+        "category": "관광",
+        "image": "/images/place-uluwatu.jpg",
+        "photoCredit": {
+          "file": "/images/place-uluwatu.jpg",
+          "author": "Paskuu",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pura_Luhur_Uluwatu_2017-08-17_(34).jpg",
+          "verifiedAt": "2026-10-14"
+        },
+        "description": "발리의 사찰.",
+        "address": "발리, 발리",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": -8.829167,
+        "lng": 115.084333,
+        "area": "발리",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bukit Peninsula",
+            "url": "https://en.wikivoyage.org/wiki/Bukit_Peninsula#Uluwatu_Temple",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "ubud-market",
+        "cityId": "bali",
+        "name": "우붓 시장",
+        "english": "Ubud Market",
+        "category": "쇼핑",
+        "image": "/images/place-ubud-market.jpg",
+        "photoCredit": {
+          "file": "/images/place-ubud-market.jpg",
+          "author": "Julia Kado",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ubud_Market_in_Bali.jpg",
+          "verifiedAt": "2026-10-14"
+        },
+        "description": "우붓의 시장·쇼핑 공간.",
+        "address": "우붓, 발리",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": -8.507755,
+        "lng": 115.263007,
+        "area": "우붓",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Ubud",
+            "url": "https://en.wikivoyage.org/wiki/Ubud#Ubud_Market",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "ubud-coffee",
+        "cityId": "bali",
+        "name": "우붓 카페 거리",
+        "english": "Ubud Cafe Walk",
+        "category": "카페",
+        "image": "/images/place-ubud-coffee.jpg",
+        "photoCredit": {
+          "file": "/images/place-ubud-coffee.jpg",
+          "author": "User: (WT-shared) Shoestring at wts wikivoyage",
+          "license": "CC BY-SA 1.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/1.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pundi-Pundi,_Ubud,_Bali.JPG",
+          "verifiedAt": "2026-10-14"
+        },
+        "description": "우붓 중심가에서 취향에 맞는 카페를 찾아보세요. 커피 한 잔과 여행 기록을 남기는 여유.",
+        "address": "Jl. Monkey Forest, Ubud, Bali",
+        "duration": "약 1시간",
+        "cost": "선택한 카페의 메뉴에 따라 다름",
+        "tip": "카페별 영업 시간은 방문 전에 확인하세요.",
+        "lat": -8.5125,
+        "lng": 115.2602
+      },
+      {
+        "id": "bali-review-7baf35008c3b",
+        "cityId": "bali",
+        "name": "우붓 몽키 포레스트",
+        "english": "Monkey Forest",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "우붓의 사찰.",
+        "address": "Jl Monkey Forest",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": -8.518735,
+        "lng": 115.258586,
+        "area": "우붓",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Ubud",
+            "url": "https://en.wikivoyage.org/wiki/Ubud#Monkey_Forest",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bali-review-7a45374550b0",
+        "cityId": "bali",
+        "name": "띠르따 엠풀",
+        "english": "Tirta Empul",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "우붓의 사찰.",
+        "address": "Tampaksiring",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": -8.41639,
+        "lng": 115.315,
+        "area": "우붓",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Ubud",
+            "url": "https://en.wikivoyage.org/wiki/Ubud#Tirta_Empul",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bali-review-c1b79571d9d4",
+        "cityId": "bali",
+        "name": "고아 가자",
+        "english": "Goa Gajah · Elephant Cave",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "우붓의 사찰. 세계유산 관련 장소를 살펴볼 수 있습니다.",
+        "address": "Jalan Goa Gajah",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": -8.523389,
+        "lng": 115.286333,
+        "area": "우붓",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Ubud",
+            "url": "https://en.wikivoyage.org/wiki/Ubud#Goa_Gajah",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bali-review-4aa0b066bd35",
+        "cityId": "bali",
+        "name": "멜라스티 비치",
+        "english": "Melasti Beach",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "발리의 해변.",
+        "address": "발리, 발리",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": -8.84823,
+        "lng": 115.15759,
+        "area": "발리",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bukit Peninsula",
+            "url": "https://en.wikivoyage.org/wiki/Bukit_Peninsula#Melasti_Beach",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bali-review-c1af91b4a7e8",
+        "cityId": "bali",
+        "name": "술루반 비치",
+        "english": "Suluban Beach",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "발리의 해변. 산호 주변 바다를 살펴볼 수 있습니다.",
+        "address": "발리, 발리",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": -8.8137,
+        "lng": 115.0924,
+        "area": "발리",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bukit Peninsula",
+            "url": "https://en.wikivoyage.org/wiki/Bukit_Peninsula#Suluban_Beach",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bali-review-881e2aeb21dd",
+        "cityId": "bali",
+        "name": "빠당빠당 비치",
+        "english": "Padang-Padang",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "발리의 사찰.",
+        "address": "발리, 발리",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": -8.8112,
+        "lng": 115.1036,
+        "area": "발리",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bukit Peninsula",
+            "url": "https://en.wikivoyage.org/wiki/Bukit_Peninsula#Padang-Padang",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bali-review-b7e09d81c081",
+        "cityId": "bali",
+        "name": "가루다 위스누 끈짜나 문화공원",
+        "english": "Garuda Wisnu Kencana Cultural Park · GWK",
+        "category": "관광",
+        "image": "/images/commons-069-bali-review-b7e09d81c081.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-bali-review-b7e09d81c081.jpg",
+          "author": "Terryosano1",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Garuda_Wisnu_Kencana_Cultural_Park_9.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "발리의 공원·정원.",
+        "address": "Ungasan",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": -8.809808,
+        "lng": 115.168055,
+        "area": "발리",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bukit Peninsula",
+            "url": "https://en.wikivoyage.org/wiki/Bukit_Peninsula#Garuda_Wisnu_Kencana_Cultural_Park",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bali-review-e352eefa1b53",
+        "cityId": "bali",
+        "name": "발리 폭탄 테러 추모비",
+        "english": "Bali Bomb Memorial",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "쿠타의 온천·목욕 시설.",
+        "address": "쿠타, 발리",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": -8.71727,
+        "lng": 115.17449,
+        "area": "쿠타",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kuta",
+            "url": "https://en.wikivoyage.org/wiki/Kuta#Bali_Bomb_Memorial",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bali-review-38c25edfbabc",
+        "cityId": "bali",
+        "name": "쁘띠뜽읏 사원",
+        "english": "Pura Petitenget",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "스미냑의 사찰.",
+        "address": "스미냑, 발리",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": -8.68184,
+        "lng": 115.15243,
+        "area": "스미냑",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Seminyak",
+            "url": "https://en.wikivoyage.org/wiki/Seminyak#Pura_Petitenget",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bali-review-0dd451ae2886",
+        "cityId": "bali",
+        "name": "르 마이어 미술관",
+        "english": "Le Mayeur Museum",
+        "category": "관광",
+        "image": "/images/commons-069-bali-review-0dd451ae2886.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-bali-review-0dd451ae2886.jpg",
+          "author": "Andy Mabbett",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Museum_Le_Mayeur_-_2025-02-17_-_Andy_Mabbett_-_71.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "사누르의 박물관·전시 공간.",
+        "address": "Jl Hangtuah",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": -8.67501,
+        "lng": 115.263727,
+        "area": "사누르",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Sanur",
+            "url": "https://en.wikivoyage.org/wiki/Sanur#Le_Mayeur_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bali-review-d6b67b255c7d",
+        "cityId": "bali",
+        "name": "푸푸탄 광장",
+        "english": "Alun-Alun Puputan · Puputan Square, Alun Alun Kota Denpasar, Lapangan Puputan Badung I Gusti Ngurah Made Agung",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "덴파사르의 기념물·역사 장소.",
+        "address": "Dauh Puri Kangin, Denpasar Barat",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": -8.657139,
+        "lng": 115.21767,
+        "area": "덴파사르",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Denpasar",
+            "url": "https://en.wikivoyage.org/wiki/Denpasar#Alun-Alun_Puputan",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bali-review-e485271b167d",
+        "cityId": "bali",
+        "name": "브라마 비하라 아라마 사원",
+        "english": "Brahma Vihara Arama",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "로비나의 사찰.",
+        "address": "Dencarik",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": -8.210577,
+        "lng": 114.973877,
+        "area": "로비나",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Lovina",
+            "url": "https://en.wikivoyage.org/wiki/Lovina#Brahma_Vihara_Arama",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bali-review-64d825c5f09b",
+        "cityId": "bali",
+        "name": "다르마야나 사원",
+        "english": "Dharmayana Temple · Wihara Dharmayana",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "쿠타의 사찰.",
+        "address": "쿠타, 발리",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": -8.72386,
+        "lng": 115.177899,
+        "area": "쿠타",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kuta",
+            "url": "https://en.wikivoyage.org/wiki/Kuta#Dharmayana_Temple",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bali-review-30b557437d49",
+        "cityId": "bali",
+        "name": "맹그로브 정보센터",
+        "english": "Mangrove Information Centre · Mangrove Forest Suwung Kawuh",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "사누르의 수변·항구 산책 장소.",
+        "address": "Jalan By Pass Ngurah Rai Km. 21, Suwung Kauh",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": -8.7237,
+        "lng": 115.192,
+        "area": "사누르",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Sanur",
+            "url": "https://en.wikivoyage.org/wiki/Sanur#Mangrove_Information_Centre",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bali-review-d3ac73af2077",
+        "cityId": "bali",
+        "name": "발리 박물관",
+        "english": "Bali Museum · Museum Negeri Propinsi Bali",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "덴파사르의 박물관·전시 공간. 지역·역사 자료를 살펴볼 수 있습니다.",
+        "address": "Jl Mayor Wisnu",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": -8.6575,
+        "lng": 115.218528,
+        "area": "덴파사르",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Denpasar",
+            "url": "https://en.wikivoyage.org/wiki/Denpasar#Bali_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bali-review-656c78b3c98e",
+        "cityId": "bali",
+        "name": "초바 바차 공공도서관",
+        "english": "Coba Baca Public Library",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "로비나의 둘러볼 수 있는 장소.",
+        "address": "로비나, 발리",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": -8.137975,
+        "lng": 115.05274,
+        "area": "로비나",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Lovina",
+            "url": "https://en.wikivoyage.org/wiki/Lovina#Coba_Baca_Public_Library",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bali-review-579892169dd1",
+        "cityId": "bali",
+        "name": "블란종 사원",
+        "english": "Pura Blanjong · Blanjong Temple",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "사누르의 사찰.",
+        "address": "Jl Danau Poso, Blanjong",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": -8.7058,
+        "lng": 115.2544,
+        "area": "사누르",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Sanur",
+            "url": "https://en.wikivoyage.org/wiki/Sanur#Pura_Blanjong",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bali-review-cbc05d9fbb0d",
+        "cityId": "bali",
+        "name": "푸푸탄 마르가라나 광장",
+        "english": "Lapangan Puputan Margarana · Puputan Park, Lapangan Puputan Renon",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "덴파사르의 공원·정원.",
+        "address": "Renon, Denpasar Selatan, Panjer, Denpasar Selatan",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": -8.671991,
+        "lng": 115.233936,
+        "area": "덴파사르",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Denpasar",
+            "url": "https://en.wikivoyage.org/wiki/Denpasar#Lapangan_Puputan_Margarana",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bali-review-236a1e3447d5",
+        "cityId": "bali",
+        "name": "스랑안섬 바다거북 보호센터",
+        "english": "Serangan Island Turtle Conservation Centre · Turtle Island",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "사누르의 섬·바다 풍경.",
+        "address": "사누르, 발리",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": -8.7237,
+        "lng": 115.236,
+        "area": "사누르",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Sanur",
+            "url": "https://en.wikivoyage.org/wiki/Sanur#Serangan_Island_Turtle_Conservation_Centre",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bali-review-ef55b677e219",
+        "cityId": "bali",
+        "name": "아궁 자갓나타 사원",
+        "english": "Pura Agung Jagatnata · Jagatnata Temple",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "덴파사르의 사찰.",
+        "address": "덴파사르, 발리",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": -8.6566,
+        "lng": 115.2188,
+        "area": "덴파사르",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Denpasar",
+            "url": "https://en.wikivoyage.org/wiki/Denpasar#Pura_Agung_Jagatnata",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bali-review-12f84dcfe255",
+        "cityId": "bali",
+        "name": "마오스파힛 사원",
+        "english": "Pura Maospahit · Maospahit Temple",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "덴파사르의 사찰.",
+        "address": "Jl Sutomo",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": -8.653794,
+        "lng": 115.210089,
+        "area": "덴파사르",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Denpasar",
+            "url": "https://en.wikivoyage.org/wiki/Denpasar#Pura_Maospahit",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bali-review-b7e316dbb1c4",
+        "cityId": "bali",
+        "name": "구눙 카위",
+        "english": "Gunung Kawi · Poet Mountain",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "우붓의 공원·정원.",
+        "address": "Tampaksiring",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": -8.423361,
+        "lng": 115.312333,
+        "area": "우붓",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Ubud",
+            "url": "https://en.wikivoyage.org/wiki/Ubud#Gunung_Kawi",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bali-review-5f398f56ca9f",
+        "cityId": "bali",
+        "name": "시딕 자리 미술관",
+        "english": "Sidik Jari Museum · Finger Painting Museum",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "덴파사르의 박물관·전시 공간. 미술 작품 전시를 살펴볼 수 있습니다.",
+        "address": "Jl Hayam Wuruk 175",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": -8.6633,
+        "lng": 115.2404,
+        "area": "덴파사르",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Denpasar",
+            "url": "https://en.wikivoyage.org/wiki/Denpasar#Sidik_Jari_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bali-review-a4b2dc3455b3",
+        "cityId": "bali",
+        "name": "사카 박물관",
+        "english": "SAKA Museum",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "발리의 박물관·전시 공간.",
+        "address": "within AYANA Bali, Jimbaran",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": -8.78956,
+        "lng": 115.1435,
+        "area": "발리",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bukit Peninsula",
+            "url": "https://en.wikivoyage.org/wiki/Bukit_Peninsula#SAKA_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bali-review-5324843a1740",
+        "cityId": "bali",
+        "name": "크헨 사원",
+        "english": "Pura Kehen · Kehen Temple",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "우붓의 사찰.",
+        "address": "Jl Sriwijaya, Bangli",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": -8.441827,
+        "lng": 115.359902,
+        "area": "우붓",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Ubud",
+            "url": "https://en.wikivoyage.org/wiki/Ubud#Pura_Kehen",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bali-review-5ffa26f036ad",
+        "cityId": "bali",
+        "name": "타만 웨디 부다야 문화센터",
+        "english": "Taman Wedhi Budaya Cultural Centre",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "덴파사르의 박물관·전시 공간. 미술 작품 전시를 살펴볼 수 있습니다.",
+        "address": "Jl Nusa Indah",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": -8.656,
+        "lng": 115.2339,
+        "area": "덴파사르",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Denpasar",
+            "url": "https://en.wikivoyage.org/wiki/Denpasar#Taman_Wedhi_Budaya_Cultural_Centre",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bali-review-ad3b621390cd",
+        "cityId": "bali",
+        "name": "판다와 해변",
+        "english": "Pandawa",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "발리의 해변.",
+        "address": "발리, 발리",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": -8.8458,
+        "lng": 115.1853,
+        "area": "발리",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bukit Peninsula",
+            "url": "https://en.wikivoyage.org/wiki/Bukit_Peninsula#Pandawa",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bali-review-8292daa93244",
+        "cityId": "bali",
+        "name": "파라디소 볼링센터",
+        "english": "Paradiso Bowling Centre",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "쿠타의 둘러볼 수 있는 장소.",
+        "address": "Jl Kartika Plaza No8X",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": -8.726768,
+        "lng": 115.170209,
+        "area": "쿠타",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kuta",
+            "url": "https://en.wikivoyage.org/wiki/Kuta#Paradiso_Bowling_Centre",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bali-review-54b9c601b806",
+        "cityId": "bali",
+        "name": "반자르 온천",
+        "english": "Banjar Hot Springs · Air Panas",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "로비나의 공원·정원.",
+        "address": "Dencarik",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": -8.210508,
+        "lng": 114.966988,
+        "area": "로비나",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Lovina",
+            "url": "https://en.wikivoyage.org/wiki/Lovina#Banjar_Hot_Springs",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bali-review-c4472d058a93",
+        "cityId": "bali",
+        "name": "우붓 왕궁",
+        "english": "Puri Saren Agung · Royal Palace, Water Palace, Ubud Palace",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "우붓의 성·궁전 유적.",
+        "address": "우붓, 발리",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": -8.50673,
+        "lng": 115.262622,
+        "area": "우붓",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Ubud",
+            "url": "https://en.wikivoyage.org/wiki/Ubud#Puri_Saren_Agung",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bali-review-f54a77d9bdf2",
+        "cityId": "bali",
+        "name": "바즈라 산디 기념탑",
+        "english": "Bajra Sandhi Monument · Bajra Sandhi",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "덴파사르의 기념물·역사 장소.",
+        "address": "Jl. Raya Puputan No.142, Panjer, Kec. Denpasar Sel",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": -8.671667,
+        "lng": 115.233889,
+        "area": "덴파사르",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Denpasar",
+            "url": "https://en.wikivoyage.org/wiki/Denpasar#Bajra_Sandhi_Monument",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bali-review-f947a33113e4",
+        "cityId": "bali",
+        "name": "발랑안 해변",
+        "english": "Balangan",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "발리의 해변.",
+        "address": "발리, 발리",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": -8.7914,
+        "lng": 115.1238,
+        "area": "발리",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bukit Peninsula",
+            "url": "https://en.wikivoyage.org/wiki/Bukit_Peninsula#Balangan",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bali-review-299050dddab0",
+        "cityId": "bali",
+        "name": "워터봄 발리",
+        "english": "Waterbom Park",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "쿠타의 해변.",
+        "address": "Jl Kartika Plaza",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": -8.72848,
+        "lng": 115.16952,
+        "area": "쿠타",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kuta",
+            "url": "https://en.wikivoyage.org/wiki/Kuta#Waterbom_Park",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bali-review-75b22d78705b",
+        "cityId": "bali",
+        "name": "예 풀루 유적",
+        "english": "Yeh Pulu",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "우붓의 사찰.",
+        "address": "Banjar Batulumbang, Bedulu nr Gianyar",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": -8.530064,
+        "lng": 115.293128,
+        "area": "우붓",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Ubud",
+            "url": "https://en.wikivoyage.org/wiki/Ubud#Yeh_Pulu",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bali-review-012152304a1f",
+        "cityId": "bali",
+        "name": "빙인 해변",
+        "english": "Bingin",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "발리의 해변.",
+        "address": "발리, 발리",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": -8.8055,
+        "lng": 115.1133,
+        "area": "발리",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bukit Peninsula",
+            "url": "https://en.wikivoyage.org/wiki/Bukit_Peninsula#Bingin",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bali-review-364bd04f3514",
+        "cityId": "bali",
+        "name": "사라스와티 사원",
+        "english": "Saraswati Temple · Pura Taman Saraswati",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "우붓의 사찰.",
+        "address": "Jl. Raya Ubud No. 4",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": -8.505951,
+        "lng": 115.261492,
+        "area": "우붓",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Ubud",
+            "url": "https://en.wikivoyage.org/wiki/Ubud#Saraswati_Temple",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bali-review-0afbe3eb2334",
+        "cityId": "bali",
+        "name": "드림랜드 해변",
+        "english": "Dreamland",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "발리의 해변.",
+        "address": "발리, 발리",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": -8.7995,
+        "lng": 115.1175,
+        "area": "발리",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bukit Peninsula",
+            "url": "https://en.wikivoyage.org/wiki/Bukit_Peninsula#Dreamland",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bali-review-ac8967073f5c",
+        "cityId": "bali",
+        "name": "구눙 르바 사원",
+        "english": "Pura Gunung Lebah",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "우붓의 사찰.",
+        "address": "우붓, 발리",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": -8.50531,
+        "lng": 115.26033,
+        "area": "우붓",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Ubud",
+            "url": "https://en.wikivoyage.org/wiki/Ubud#Pura_Gunung_Lebah",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bali-review-e10df5413ed1",
+        "cityId": "bali",
+        "name": "구눙 파융 해변",
+        "english": "Gunung Payung Beach",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "발리의 사찰.",
+        "address": "발리, 발리",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": -8.8408,
+        "lng": 115.1995,
+        "area": "발리",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bukit Peninsula",
+            "url": "https://en.wikivoyage.org/wiki/Bukit_Peninsula#Gunung_Payung_Beach",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bali-review-69ad603e26d0",
+        "cityId": "bali",
+        "name": "모아나 피시 이터리",
+        "english": "Moana Fish Eatery",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "짱구의 식사 장소.",
+        "address": "Pantai Batu Bolong St No.28",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": -8.649096,
+        "lng": 115.137695,
+        "area": "짱구",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Canggu",
+            "url": "https://en.wikivoyage.org/wiki/Canggu#Moana_Fish_Eatery",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bali-review-8a4477209807",
+        "cityId": "bali",
+        "name": "아궁 라이 미술관",
+        "english": "Agung Rai Museum of Art · ARMA",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "우붓의 박물관·전시 공간. 미술 작품 전시를 살펴볼 수 있습니다.",
+        "address": "Jl Pengosekan",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": -8.518353,
+        "lng": 115.262083,
+        "area": "우붓",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Ubud",
+            "url": "https://en.wikivoyage.org/wiki/Ubud#Agung_Rai_Museum_of_Art",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bali-review-802e7f4de17e",
+        "cityId": "bali",
+        "name": "냥냥 해변",
+        "english": "Nyang Nyang Beach",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "발리의 해변.",
+        "address": "Pecatu",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": -8.83968,
+        "lng": 115.09428,
+        "area": "발리",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bukit Peninsula",
+            "url": "https://en.wikivoyage.org/wiki/Bukit_Peninsula#Nyang_Nyang_Beach",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bali-review-4b60ebdfb8f9",
+        "cityId": "bali",
+        "name": "크레이트 카페",
+        "english": "CRATE Cafe",
+        "category": "카페",
+        "image": "/images/place-placeholder.svg",
+        "description": "짱구의 커피·음료를 즐길 수 있는 카페.",
+        "address": "Jl. Canggu Padang Linjong",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": -8.64839,
+        "lng": 115.137163,
+        "area": "짱구",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Canggu",
+            "url": "https://en.wikivoyage.org/wiki/Canggu#CRATE_Cafe",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bali-review-b46ac82bd279",
+        "cityId": "bali",
+        "name": "블랑코 르네상스 미술관",
+        "english": "Blanco Renaissance Museum",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "우붓의 박물관·전시 공간.",
+        "address": "Jl Raya Campuhan",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": -8.5058,
+        "lng": 115.2543,
+        "area": "우붓",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Ubud",
+            "url": "https://en.wikivoyage.org/wiki/Ubud#Blanco_Renaissance_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bali-review-9ee0d8498cb5",
+        "cityId": "bali",
+        "name": "그린볼 해변",
+        "english": "Green Bowl Beach",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "발리의 해변.",
+        "address": "발리, 발리",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": -8.848722,
+        "lng": 115.170936,
+        "area": "발리",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Bukit Peninsula",
+            "url": "https://en.wikivoyage.org/wiki/Bukit_Peninsula#Green_Bowl_Beach",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bali-review-1f9bc5563554",
+        "cityId": "bali",
+        "name": "위나 안경점",
+        "english": "Wina Optic",
+        "category": "쇼핑",
+        "image": "/images/place-placeholder.svg",
+        "description": "쿠타의 둘러볼 수 있는 장소.",
+        "address": "쿠타, 발리",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": -8.72271,
+        "lng": 115.1768,
+        "area": "쿠타",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kuta",
+            "url": "https://en.wikivoyage.org/wiki/Kuta#Wina_Optic",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bali-review-ec60946d5563",
+        "cityId": "bali",
+        "name": "아르타세다나",
+        "english": "Artasedana",
+        "category": "쇼핑",
+        "image": "/images/place-placeholder.svg",
+        "description": "사누르의 시장·쇼핑 공간.",
+        "address": "Jl Danua Tamblingan 193",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": -8.69491,
+        "lng": 115.26341,
+        "area": "사누르",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Sanur",
+            "url": "https://en.wikivoyage.org/wiki/Sanur#Artasedana",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "bali-balance-aeac2e2b37",
+        "cityId": "bali",
+        "name": "이부 오카 우붓 본점",
+        "english": "Warung Babi Guling Ibu Oka 1",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "발리식 통돼지구이 바비 굴링을 맛볼 수 있는 우붓의 식당입니다.",
+        "address": "Jl Suweta",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "지점과 주문 방식, 식단 제한을 확인하고 식사 일정에 넣어 보세요. 메뉴·영업시간은 방문 전 확인하세요.",
+        "lat": -8.505953,
+        "lng": 115.26434,
+        "area": "우붓",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Ubud",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Ubud&oldid=5371661",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 eat 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "bali-balance-c7219a638e",
+        "cityId": "bali",
+        "name": "나시 아얌 크데와탄 이부 망쿠",
+        "english": "Warung Nasi Ayam Kedewatan Ibu Mangku",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "발리식 닭고기 밥과 곁들임을 내는 식당입니다.",
+        "address": "Jl. Raya Kedewatan No.18",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "지점과 주문 방식, 식단 제한을 확인하고 식사 일정에 넣어 보세요. 메뉴·영업시간은 방문 전 확인하세요.",
+        "lat": -8.483562,
+        "lng": 115.246437,
+        "area": "우붓",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Ubud",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Ubud&oldid=5371661",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 eat 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "bali-balance-5d6cb631b0",
+        "cityId": "bali",
+        "name": "세니만 커피 스튜디오",
+        "english": "Seniman Coffee Studio",
+        "category": "카페",
+        "image": "/images/place-placeholder.svg",
+        "description": "여러 산지의 커피와 음식을 고를 수 있는 우붓의 카페입니다.",
+        "address": "Jl. Sri Wedari No.5, Banjar Taman Kelod",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "산책이나 쇼핑 사이에 쉬어갈 후보입니다. 좌석 이용·마지막 주문 시간은 방문 전 확인하세요.",
+        "lat": -8.506937,
+        "lng": 115.265062,
+        "area": "우붓",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Ubud",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Ubud&oldid=5371661",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "bali-balance-e65176a21c",
+        "cityId": "bali",
+        "name": "폴드 우붓",
+        "english": "Fold",
+        "category": "카페",
+        "image": "/images/place-placeholder.svg",
+        "description": "커피와 베이커리, 피자를 함께 고를 수 있는 공간입니다.",
+        "address": "Jl. Raya Pengosekan No.63 X",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "산책이나 쇼핑 사이에 쉬어갈 후보입니다. 좌석 이용·마지막 주문 시간은 방문 전 확인하세요.",
+        "lat": -8.51893,
+        "lng": 115.26318,
+        "area": "우붓",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Ubud",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Ubud&oldid=5371661",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "bali-balance-eb87e86095",
+        "cityId": "bali",
+        "name": "포시즌스 리조트 발리 앳 사얀",
+        "english": "Four Seasons Resort at Sayan",
+        "category": "숙소",
+        "image": "/images/place-placeholder.svg",
+        "description": "사얀 지역의 리조트 숙박 후보입니다.",
+        "address": "Jl Raya Kedewatan, Sayan",
+        "duration": "숙박 일정에 맞춰 지정",
+        "cost": "숙박일·객실·공식 안내에서 확인",
+        "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+        "lat": -8.5021,
+        "lng": 115.2438,
+        "area": "우붓",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Ubud",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Ubud&oldid=5371661",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "bali-balance-9495cfc198",
+        "cityId": "bali",
+        "name": "마야 우붓",
+        "english": "Maya Ubud",
+        "category": "숙소",
+        "image": "/images/place-placeholder.svg",
+        "description": "우붓의 리조트 숙박 후보로 시설과 이동 조건을 비교해 보세요.",
+        "address": "Jl Gunung Sari, Peliatan",
+        "duration": "숙박 일정에 맞춰 지정",
+        "cost": "숙박일·객실·공식 안내에서 확인",
+        "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+        "lat": -8.5098,
+        "lng": 115.2776,
+        "area": "우붓",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Ubud",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Ubud&oldid=5371661",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "bali-balance-96a3e580cb",
+        "cityId": "bali",
+        "name": "멜팅 팟 게임룸 앤 펍",
+        "english": "The Melting Pot Game Room and Pub",
+        "category": "바·공연",
+        "image": "/images/place-placeholder.svg",
+        "description": "당구와 게임을 즐길 수 있는 우붓의 펍입니다.",
+        "address": "Jl. Pengosekan",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "공연 일정·입장 연령·드레스 코드·입장료와 최소 주문 조건을 방문 전 확인하세요.",
+        "lat": -8.5194,
+        "lng": 115.2636,
+        "area": "우붓",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Ubud",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Ubud&oldid=5371661",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "bali-balance-e25d88287c",
+        "cityId": "bali",
+        "name": "파온 발리 쿠킹 클래스",
+        "english": "Paon Bali Cooking Class",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "발리 음식을 직접 준비해 보는 요리 체험 공간입니다.",
+        "address": "Laplapan Village",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "운영 회차·예약·참가 조건을 확인하세요. 물놀이와 야외 활동은 당일 날씨·안전 안내를 따르세요.",
+        "lat": -8.504016,
+        "lng": 115.278642,
+        "area": "우붓",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Ubud",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Ubud&oldid=5371661",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 do 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "bali-balance-aee57d160f",
+        "cityId": "bali",
+        "name": "요가 반",
+        "english": "The Yoga Barn",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "우붓에서 요가 수업을 선택할 수 있는 공간입니다.",
+        "address": "Jl Hanoman, Pengosekan",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "운영 회차·예약·참가 조건을 확인하세요. 물놀이와 야외 활동은 당일 날씨·안전 안내를 따르세요.",
+        "lat": -8.519387,
+        "lng": 115.26609,
+        "area": "우붓",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Ubud",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Ubud&oldid=5371661",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 do 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "bali-balance-6ef25c2053",
+        "cityId": "bali",
+        "name": "가네샤 서점",
+        "english": "Ganesha Bookstore",
+        "category": "쇼핑",
+        "image": "/images/place-placeholder.svg",
+        "description": "발리와 인도네시아 관련 책, 중고 서적을 둘러볼 수 있습니다.",
+        "address": "Jl Raya",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "품목과 매장별 운영시간을 확인하고 구입할 물건을 정해 둘러보세요.",
+        "lat": -8.509383,
+        "lng": 115.26681,
+        "area": "우붓",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Ubud",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Ubud&oldid=5371661",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 buy 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "bali-balance-36906e3097",
+        "cityId": "bali",
+        "name": "스레즈 오브 라이프",
+        "english": "Threads of Life",
+        "category": "쇼핑",
+        "image": "/images/place-placeholder.svg",
+        "description": "인도네시아 전통 직물을 살펴볼 수 있는 가게입니다.",
+        "address": "Jl Kajeng 24",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "품목과 매장별 운영시간을 확인하고 구입할 물건을 정해 둘러보세요.",
+        "lat": -8.5036,
+        "lng": 115.2627,
+        "area": "우붓",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Ubud",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Ubud&oldid=5371661",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 buy 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "id": "bali-overview",
+        "title": "도시 소개",
+        "body": "우붓의 내륙 문화와 남부 해변 중 숙박 중심을 먼저 정하세요. 둘을 매일 왕복하는 계획은 피하는 편이 좋습니다."
+      },
+      {
+        "id": "bali-before",
+        "title": "출발 전 준비",
+        "body": "체험·기사 차량은 포함 비용·대기 시간·입장료·취소 조건을 구분해 확인하세요.\n\n울루와뚜 공연은 사원 입장과 공연 입장 조건을 따로 확인하세요."
+      },
+      {
+        "id": "bali-arrival",
+        "title": "공항과 시내 이동",
+        "body": "공항 도착: 숙소까지 픽업·차량을 비교하고 도착 지점·짐·요금 범위를 확인하세요.\n\n권역 사이 이동: 우붓과 남부를 옮기는 날은 짐 이동일로 잡고 관광 예약을 줄이세요. 차량 정체에 여유를 둡니다."
+      },
+      {
+        "id": "bali-stay",
+        "title": "숙소 지역 선택",
+        "body": "우붓: 정원·시장·문화 체험과 숙소 휴식이 중심일 때 비교하세요.\n\n남부 해변권: 해변·일몰이 중심일 때 비교하세요. 공항과의 거리만으로 지역 간 이동이 짧다고 판단하지 마세요."
+      },
+      {
+        "id": "bali-plan",
+        "title": "일정 계획",
+        "body": "2–3일: 한 숙박 권역과 가까운 관광만 고르세요.\n\n4일 이상: 이동 횟수를 줄이는 조건으로 우붓과 해변 숙박을 나누는 계획을 비교하세요."
+      },
+      {
+        "id": "bali-notes",
+        "title": "현장 팁",
+        "body": "남부 절벽·해변 세 곳을 모두 짧은 도보 동선으로 생각하지 마세요.\n\n사원 복장 규칙과 해변 입수 조건은 장소별로 확인하세요."
+      },
+      {
+        "id": "bali-rain",
+        "title": "비 오는 날",
+        "body": "우붓의 미술관·실내 체험 또는 숙소 휴식으로 줄이세요. 장거리 차량 이동을 더 늘리는 대안은 피하세요."
+      }
+    ],
+    "sources": [],
+    "status": "published",
+    "requestId": null,
+    "createdAt": "2026-10-28T00:00:00.000Z",
+    "updatedAt": "2026-10-28T00:00:00.000Z",
+    "publishedAt": "2026-10-28T00:00:00.000Z"
+  },
+  "practicalGuide": {
+    "cityId": "bali",
+    "firstVisit": "우붓의 내륙 문화와 남부 해변 중 숙박 중심을 먼저 정하세요. 둘을 매일 왕복하는 계획은 피하는 편이 좋습니다.",
+    "bases": [
+      {
+        "name": "우붓",
+        "advice": "정원·시장·문화 체험과 숙소 휴식이 중심일 때 비교하세요."
+      },
+      {
+        "name": "남부 해변권",
+        "advice": "해변·일몰이 중심일 때 비교하세요. 공항과의 거리만으로 지역 간 이동이 짧다고 판단하지 마세요."
+      }
+    ],
+    "arrival": [
+      {
+        "name": "공항 도착",
+        "advice": "숙소까지 픽업·차량을 비교하고 도착 지점·짐·요금 범위를 확인하세요."
+      },
+      {
+        "name": "권역 사이 이동",
+        "advice": "우붓과 남부를 옮기는 날은 짐 이동일로 잡고 관광 예약을 줄이세요. 차량 정체에 여유를 둡니다."
+      }
+    ],
+    "timePlan": [
+      {
+        "name": "2–3일",
+        "advice": "한 숙박 권역과 가까운 관광만 고르세요."
+      },
+      {
+        "name": "4일 이상",
+        "advice": "이동 횟수를 줄이는 조건으로 우붓과 해변 숙박을 나누는 계획을 비교하세요."
+      }
+    ],
+    "before": [
+      "체험·기사 차량은 포함 비용·대기 시간·입장료·취소 조건을 구분해 확인하세요.",
+      "울루와뚜 공연은 사원 입장과 공연 입장 조건을 따로 확인하세요."
+    ],
+    "pitfalls": [
+      "남부 절벽·해변 세 곳을 모두 짧은 도보 동선으로 생각하지 마세요.",
+      "사원 복장 규칙과 해변 입수 조건은 장소별로 확인하세요."
+    ],
+    "rainPlan": "우붓의 미술관·실내 체험 또는 숙소 휴식으로 줄이세요. 장거리 차량 이동을 더 늘리는 대안은 피하세요.",
+    "courses": [
+      {
+        "id": "bali-course-1",
+        "title": "우붓 중심에서 천천히",
+        "pace": "하루 · 도보·차량",
+        "why": "우붓 중심의 시장·왕궁·숲을 묶습니다. 숙소 위치에 따라 차량을 조합하세요.",
+        "placeIds": [
+          "ubud-market",
+          "bali-review-c4472d058a93",
+          "bali-review-7baf35008c3b"
+        ]
+      },
+      {
+        "id": "bali-course-2",
+        "title": "남부 해안 드라이브",
+        "pace": "하루 · 차량 이동",
+        "why": "해변과 사원을 차량으로 잇는 제안이며 해변 사이 도보 코스가 아닙니다.",
+        "placeIds": [
+          "bali-review-4aa0b066bd35",
+          "bali-review-881e2aeb21dd",
+          "uluwatu"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "관광청 공식 사이트",
+        "url": "https://www.indonesia.travel/",
+        "checkedAt": "2026-10-15",
+        "status": "unavailable"
+      }
+    ],
+    "researchNote": "기존 내장 장소를 바탕으로 작성한 계획 제안입니다. 관광청 최신 교통·운영 조건은 본문 접근 제한으로 재확인하지 못했습니다."
+  },
+  "plans": {
+    "cityId": "bali",
+    "days": [
+      {
+        "id": "bali-day-1",
+        "title": "우붓 중심에서 천천히",
+        "pace": "하루 · 도보·차량",
+        "why": "우붓 중심의 시장·왕궁·숲을 묶습니다. 숙소 위치에 따라 차량을 조합하세요.",
+        "placeIds": [
+          "ubud-market",
+          "bali-review-c4472d058a93",
+          "bali-review-7baf35008c3b"
+        ]
+      },
+      {
+        "id": "bali-day-2",
+        "title": "남부 해안 드라이브",
+        "pace": "하루 · 차량 이동",
+        "why": "해변과 사원을 차량으로 잇는 제안이며 해변 사이 도보 코스가 아닙니다.",
+        "placeIds": [
+          "bali-review-4aa0b066bd35",
+          "bali-review-881e2aeb21dd",
+          "uluwatu"
+        ]
+      },
+      {
+        "id": "bali-day-3",
+        "title": "우붓 북쪽 논과 물의 사원",
+        "pace": "차량",
+        "why": "뜨갈랄랑과 탐팍시링을 한 방향으로 이동합니다. 사원 복장과 차량 대기 시간을 고려합니다.",
+        "placeIds": [
+          "ubud",
+          "bali-review-7a45374550b0",
+          "bali-review-b7e316dbb1c4"
+        ]
+      },
+      {
+        "id": "bali-day-4",
+        "title": "사누르의 미술과 바다",
+        "pace": "차량·도보",
+        "why": "사누르에 집중해 미술관과 해안 주변을 천천히 봅니다. 북부 로비나까지 왕복하지 않습니다.",
+        "placeIds": [
+          "bali-review-0dd451ae2886",
+          "bali-review-579892169dd1",
+          "bali-review-ec60946d5563"
+        ]
+      },
+      {
+        "id": "bali-day-5",
+        "title": "쿠타에서 물놀이와 가벼운 산책",
+        "pace": "차량·도보",
+        "why": "워터파크에 반나절 이상 남기고 쿠타 안에서 마무리합니다.",
+        "placeIds": [
+          "bali-review-299050dddab0",
+          "bali-review-64d825c5f09b",
+          "bali-review-e352eefa1b53"
+        ]
+      }
+    ],
+    "dayOrder": {
+      "3": [
+        0,
+        2,
+        1
+      ],
+      "4": [
+        0,
+        2,
+        3,
+        1
+      ],
+      "5": [
+        0,
+        2,
+        3,
+        1,
+        4
+      ]
+    }
+  }
+}

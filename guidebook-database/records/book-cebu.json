@@ -1,0 +1,160 @@
+{
+  "guide": {
+    "id": "book-cebu",
+    "scope": "city",
+    "city": {
+      "id": "book-cebu",
+      "name": "세부·막탄",
+      "english": "Cebu & Mactan",
+      "country": "필리핀",
+      "region": "동남아",
+      "image": "/images/guide-placeholder.svg",
+      "tagline": "막탄의 휴식과 세부 시내의 역사를 나눠 보기",
+      "description": "세부 시내와 막탄섬의 리조트는 같은 권역처럼 보여도 숙박 목적과 이동 동선이 다릅니다. 해양 체험·숙소 휴식과 역사 구역 산책을 구분해 계획하세요. 세부주 전체의 남부 투어를 시내의 짧은 일정으로 생각하지 않는 것이 좋습니다.",
+      "tags": [
+        "도시 산책",
+        "여행 준비"
+      ],
+      "flight": "항공편·출발 공항에 따라 다름",
+      "currency": "필리핀 페소 · PHP",
+      "timeDifference": "한국보다 1시간 느림",
+      "timeZone": "Asia/Manila",
+      "season": "우기·태풍·해양 체험 운항과 현지 기상 확인",
+      "accent": "#e7f1ef"
+    },
+    "places": [
+      {
+        "id": "book-cebu-magellan-s-cross",
+        "cityId": "book-cebu",
+        "name": "마젤란의 십자가",
+        "english": "Magellan's Cross",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "세부 시내 역사 구역의 대표 장소입니다. 주변 성당과 묶어 둘러볼 수 있습니다.",
+        "address": "Cebu City",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      },
+      {
+        "id": "book-cebu-basilica-minore-del-santo-nino",
+        "cityId": "book-cebu",
+        "name": "산토니뇨 성당",
+        "english": "Basilica Minore del Santo Nino",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "종교와 역사 의미가 있는 성당입니다. 예배·관람 구역과 복장 안내를 구분하세요.",
+        "address": "Cebu City",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      },
+      {
+        "id": "book-cebu-fort-san-pedro",
+        "cityId": "book-cebu",
+        "name": "산페드로 요새",
+        "english": "Fort San Pedro",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "시내 역사 산책에 넣기 좋은 요새입니다. 방문일 운영 안내를 확인하세요.",
+        "address": "Cebu City",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      },
+      {
+        "id": "book-cebu-cebu-taoist-temple",
+        "cityId": "book-cebu",
+        "name": "세부 도교 사원",
+        "english": "Cebu Taoist Temple",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "도시의 종교 문화를 살펴보는 장소입니다. 촬영·출입 예절과 이동 수단을 확인하세요.",
+        "address": "Beverly Hills, Cebu City",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      },
+      {
+        "id": "book-cebu-carbon-market",
+        "cityId": "book-cebu",
+        "name": "카본 시장",
+        "english": "Carbon Market",
+        "category": "쇼핑",
+        "image": "/images/place-placeholder.svg",
+        "description": "생활 시장을 살펴보는 구역입니다. 혼잡한 곳에서 소지품과 현금 관리를 신경 쓰세요.",
+        "address": "Cebu City",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      },
+      {
+        "id": "book-cebu-cebu-ocean-park",
+        "cityId": "book-cebu",
+        "name": "세부 오션파크",
+        "english": "Cebu Ocean Park",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "실내외 수족관 체험 후보입니다. 포함 시설과 운영일을 따로 확인하세요.",
+        "address": "South Road Properties, Cebu City",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      }
+    ],
+    "sections": [
+      {
+        "id": "book-cebu-overview",
+        "title": "도시 한눈에",
+        "body": "세부 시내와 막탄섬의 리조트는 같은 권역처럼 보여도 숙박 목적과 이동 동선이 다릅니다. 해양 체험·숙소 휴식과 역사 구역 산책을 구분해 계획하세요. 세부주 전체의 남부 투어를 시내의 짧은 일정으로 생각하지 않는 것이 좋습니다.\n\n통화: 필리핀 페소 · PHP\n시차: 한국보다 1시간 느림\n여행 계절: 우기·태풍·해양 체험 운항과 현지 기상 확인"
+      },
+      {
+        "id": "book-cebu-before",
+        "title": "출발 전 준비",
+        "body": "여권과 입국 허가·비자 요건은 국적·방문 목적에 맞춰 정부 안내를 확인하세요. 해외 사용 가능한 결제 수단, 통신과 여행자보험을 준비하고 숙소·항공권은 오프라인에서도 확인할 수 있게 보관하세요."
+      },
+      {
+        "id": "book-cebu-arrival",
+        "title": "공항에서 숙소까지",
+        "body": "막탄세부국제공항(CEB)은 막탄섬에 있습니다. 숙소가 막탄인지 세부 시내인지 확인하고 다리 구간의 교통을 고려하세요. 도착 터미널·차량 픽업과 귀국편 출발 위치를 따로 확인하세요."
+      },
+      {
+        "id": "book-cebu-stay",
+        "title": "어느 동네에 묵을까",
+        "body": "막탄은 숙소 시설·해변·보트 체험, 세부 시내는 쇼핑과 역사 장소 접근 중심으로 비교하세요. 남부 체험을 여러 날 할 계획이면 시내와 왕복만 반복하는 방식이 적절한지 먼저 보세요."
+      },
+      {
+        "id": "book-cebu-food",
+        "title": "먹거리와 동네 쇼핑",
+        "body": "레촌 등 지역 음식은 한 끼 분량과 동행인의 식성을 생각해 고르세요. 시장과 식당은 위생·가격·영업 상태를 직접 비교해야 하며, 리조트 식사와 시내 식사 이동도 함께 계획하세요."
+      },
+      {
+        "id": "book-cebu-days",
+        "title": "처음 가는 3일 여행",
+        "body": "1일: 도착 → 숙소 휴식. 막탄과 시내를 여러 차례 넘나들지 마세요.\n\n2일: 산토니뇨 성당 → 마젤란의 십자가 → 산페드로 요새 등 도심 역사 구역.\n\n3일: 막탄 휴식·허가된 해양 체험 또는 실내 시설. 남부 투어라면 별도 이동일로 바꾸세요.\n\n일정 초안이며 자동 경로·이동시간 계산 결과가 아닙니다. 운영과 취향에 맞춰 선택하세요."
+      },
+      {
+        "id": "book-cebu-notes",
+        "title": "예약과 현장 팁",
+        "body": "해양 체험은 구명장비와 날씨·취소 조건을 확인하세요. 공공장소에서 귀중품을 과하게 드러내지 말고 종교 공간 예절을 지키세요. 먼 투어의 야간 이동과 동물 체험 운영 방식을 확인하세요."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Cebu Tourism",
+        "url": "https://tourism.cebu.gov.ph/",
+        "accessedAt": "2026-10-28"
+      },
+      {
+        "title": "Province of Cebu: Official Website, Government & Tourism",
+        "url": "https://www.cebu.gov.ph/",
+        "accessedAt": "2026-10-28"
+      }
+    ],
+    "status": "published",
+    "requestId": null,
+    "createdAt": "2026-10-28T05:07:12.733Z",
+    "updatedAt": "2026-10-28T05:07:12.733Z",
+    "publishedAt": "2026-10-28T05:07:12.733Z"
+  }
+}

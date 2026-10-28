@@ -1,0 +1,1764 @@
+{
+  "guide": {
+    "id": "santorini",
+    "scope": "city",
+    "city": {
+      "id": "santorini",
+      "name": "산토리니",
+      "english": "SANTORINI",
+      "country": "그리스",
+      "region": "유럽",
+      "image": "/images/place-oia.jpg",
+      "photoCredit": {
+        "file": "/images/place-oia.jpg",
+        "author": "TomasEE",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oia_sunset_-_panoramio_(2).jpg",
+        "verifiedAt": "2026-10-14"
+      },
+      "tagline": "파란 바다 위, 하얀 꿈 같은 하루",
+      "description": "에게해를 바라보는 하얀 마을, 돌길 끝에서 만나는 노을. 그저 풍경을 바라보는 것만으로도 충분한 여행.",
+      "tags": [
+        "낭만 여행",
+        "바다"
+      ],
+      "flight": "경유 필요",
+      "currency": "유로 · EUR",
+      "timeDifference": "한국보다 6–7시간 느림",
+      "season": "5–6월, 9–10월",
+      "accent": "#dbe9f5"
+    },
+    "places": [
+      {
+        "id": "oia",
+        "cityId": "santorini",
+        "name": "이아 마을",
+        "english": "Oia Village",
+        "category": "관광",
+        "image": "/images/place-oia.jpg",
+        "photoCredit": {
+          "file": "/images/place-oia.jpg",
+          "author": "TomasEE",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oia_sunset_-_panoramio_(2).jpg",
+          "verifiedAt": "2026-10-14"
+        },
+        "description": "하얀 집과 파란 돔이 어우러진 마을. 골목마다 펼쳐지는 에게해의 풍경을 즐겨보세요.",
+        "address": "Oia, Santorini, Greece",
+        "duration": "약 3시간",
+        "cost": "마을 산책 무료",
+        "tip": "일몰 전에는 사람이 많아 여유 있게 도착하세요.",
+        "lat": 36.4618,
+        "lng": 25.3753
+      },
+      {
+        "id": "fira",
+        "cityId": "santorini",
+        "name": "피라 마을",
+        "english": "Fira",
+        "category": "관광",
+        "image": "/images/place-fira.jpg",
+        "photoCredit": {
+          "file": "/images/place-fira.jpg",
+          "author": "Tango7174",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Santorini_Fira3_tango7174.jpg",
+          "verifiedAt": "2026-10-14"
+        },
+        "description": "절벽 위 산책길과 바다 전망을 따라 걷는 산토리니의 중심 마을.",
+        "address": "Fira, Santorini, Greece",
+        "duration": "약 2시간",
+        "cost": "마을 산책 무료",
+        "tip": "돌길이 많으니 편한 신발을 신으세요.",
+        "lat": 36.4167,
+        "lng": 25.4322
+      },
+      {
+        "id": "ammoudi",
+        "cityId": "santorini",
+        "name": "아무디 베이",
+        "english": "Ammoudi Bay",
+        "category": "맛집",
+        "image": "/images/place-ammoudi.jpg",
+        "photoCredit": {
+          "file": "/images/place-ammoudi.jpg",
+          "author": "Anthony Baratier",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ammoudi_Bay.jpg",
+          "verifiedAt": "2026-10-14"
+        },
+        "description": "이아 아래의 작은 항구에서 바다를 바라보며 즐기는 식사.",
+        "address": "Ammoudi, Oia, Santorini",
+        "duration": "약 1시간 30분",
+        "cost": "선택한 식당의 메뉴에 따라 다름",
+        "tip": "계단 이동이 부담된다면 차량 접근 방법을 확인하세요.",
+        "lat": 36.4605,
+        "lng": 25.3701
+      },
+      {
+        "id": "santorini-review-f65abd003050",
+        "cityId": "santorini",
+        "name": "고대 테라 유적",
+        "english": "Ancient Thera",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "카마리의 산·언덕 산책 장소.",
+        "address": "카마리, 산토리니",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 36.363611,
+        "lng": 25.478056,
+        "area": "카마리",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kamari",
+            "url": "https://en.wikivoyage.org/wiki/Kamari#Ancient_Thera",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "santorini-review-14b095fbd552",
+        "cityId": "santorini",
+        "name": "아크로티리 고고학 유적",
+        "english": "Ancient Akrotiri · Ακρωτήρι",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "아크로티리의 섬·바다 풍경.",
+        "address": "아크로티리, 산토리니",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 36.35136,
+        "lng": 25.40356,
+        "area": "아크로티리",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Akrotiri",
+            "url": "https://en.wikivoyage.org/wiki/Akrotiri#Ancient_Akrotiri",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "santorini-review-d07aa4e4afa4",
+        "cityId": "santorini",
+        "name": "테라 선사박물관",
+        "english": "Museum of Prehistoric Thira",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "피라의 박물관·전시 공간.",
+        "address": "Τ.Κ. 84700",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 36.4185,
+        "lng": 25.437,
+        "area": "피라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Fira",
+            "url": "https://en.wikivoyage.org/wiki/Fira#Museum_of_Prehistoric_Thira",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "santorini-review-1d219b4b7d6e",
+        "cityId": "santorini",
+        "name": "레드 비치",
+        "english": "Red Beach · Κόκκινη Παραλία",
+        "category": "관광",
+        "image": "/images/commons-069-santorini-review-1d219b4b7d6e.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-santorini-review-1d219b4b7d6e.jpg",
+          "author": "Anthony Baratier",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Red_Beach_in_Santorini.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "아크로티리의 해변.",
+        "address": "아크로티리, 산토리니",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 36.34732,
+        "lng": 25.39459,
+        "area": "아크로티리",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Akrotiri",
+            "url": "https://en.wikivoyage.org/wiki/Akrotiri#Red_Beach",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "santorini-review-233784073870",
+        "cityId": "santorini",
+        "name": "페리사 비치",
+        "english": "Perissa Beach",
+        "category": "관광",
+        "image": "/images/commons-069-santorini-review-233784073870.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-santorini-review-233784073870.jpg",
+          "author": "PCN02WPS",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Perissa_Beach_and_M%C3%A9sa_Voun%C3%B3_at_sunset,_May_2024.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "페리사의 해변.",
+        "address": "페리사, 산토리니",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 36.3567,
+        "lng": 25.476,
+        "area": "페리사",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Perissa",
+            "url": "https://en.wikivoyage.org/wiki/Perissa#Perissa_Beach",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "santorini-review-0f324e659adb",
+        "cityId": "santorini",
+        "name": "네아 카메니",
+        "english": "Nea Kameni",
+        "category": "관광",
+        "image": "/images/santorini-review-0f324e659adb.jpg",
+        "photoCredit": {
+          "file": "/images/santorini-review-0f324e659adb.jpg",
+          "author": "Norbert Nagel",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caldera%20of%20Santorini%20-%20Nea%20Kameni%20-%20seen%20from%20Fira%20Thira.jpg",
+          "verifiedAt": "2026-10-16"
+        },
+        "description": "피라의 섬·바다 풍경.",
+        "address": "피라, 산토리니",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 36.4,
+        "lng": 25.4,
+        "area": "피라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Fira",
+            "url": "https://en.wikivoyage.org/wiki/Fira#Nea_Kameni",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "santorini-review-7ebd7d8d9fd7",
+        "cityId": "santorini",
+        "name": "팔레아 카메니",
+        "english": "Palea Kameni",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "피라의 성당·교회.",
+        "address": "피라, 산토리니",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 36.398,
+        "lng": 25.37863,
+        "area": "피라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Fira",
+            "url": "https://en.wikivoyage.org/wiki/Fira#Palea_Kameni",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "santorini-review-c10c02d6cb8a",
+        "cityId": "santorini",
+        "name": "아크로티리 등대",
+        "english": "Faros Lighthouse",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "아크로티리의 전망 장소.",
+        "address": "아크로티리, 산토리니",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 36.35779,
+        "lng": 25.35706,
+        "area": "아크로티리",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Akrotiri",
+            "url": "https://en.wikivoyage.org/wiki/Akrotiri#Faros_Lighthouse",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "santorini-review-57c138971237",
+        "cityId": "santorini",
+        "name": "아기아 이리니 교회",
+        "english": "Agia Irini",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "페리사의 둘러볼 수 있는 장소.",
+        "address": "페리사, 산토리니",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 36.35753,
+        "lng": 25.47561,
+        "area": "페리사",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Perissa",
+            "url": "https://en.wikivoyage.org/wiki/Perissa#Agia_Irini",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "santorini-review-d42c993d51af",
+        "cityId": "santorini",
+        "name": "티미우 스타브루 교회",
+        "english": "Timiou Stafrou",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "페리사의 성당·교회.",
+        "address": "페리사, 산토리니",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 36.35638,
+        "lng": 25.47483,
+        "area": "페리사",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Perissa",
+            "url": "https://en.wikivoyage.org/wiki/Perissa#Timiou_Stafrou",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "santorini-review-70a7850daa36",
+        "cityId": "santorini",
+        "name": "산토리니 민속박물관",
+        "english": "Folklore Museum",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "피라의 박물관·전시 공간.",
+        "address": "피라, 산토리니",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 36.42309,
+        "lng": 25.43456,
+        "area": "피라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Fira",
+            "url": "https://en.wikivoyage.org/wiki/Fira#Folklore_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "santorini-review-71a86b7895b3",
+        "cityId": "santorini",
+        "name": "파나기아 카테피아니 교회",
+        "english": "Panagia Katefiani",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "페리사의 산·언덕 산책 장소.",
+        "address": "페리사, 산토리니",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 36.360817,
+        "lng": 25.475216,
+        "area": "페리사",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Perissa",
+            "url": "https://en.wikivoyage.org/wiki/Perissa#Panagia_Katefiani",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "santorini-review-1ba9549aec8a",
+        "cityId": "santorini",
+        "name": "라 폰타 성",
+        "english": "La Ponta Castle",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "아크로티리의 성·궁전 유적.",
+        "address": "아크로티리, 산토리니",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 36.3582,
+        "lng": 25.39719,
+        "area": "아크로티리",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Akrotiri",
+            "url": "https://en.wikivoyage.org/wiki/Akrotiri#La_Ponta_Castle",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "santorini-review-e58decbba9a4",
+        "cityId": "santorini",
+        "name": "테라 고고학박물관",
+        "english": "Archaeological Museum of Thera",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "피라의 박물관·전시 공간. 지역·역사 자료를 살펴볼 수 있습니다.",
+        "address": "피라, 산토리니",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 36.4178,
+        "lng": 25.4317,
+        "area": "피라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Fira",
+            "url": "https://en.wikivoyage.org/wiki/Fira#Archaeological_Museum_of_Thera",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "santorini-review-f7ab8a21c17a",
+        "cityId": "santorini",
+        "name": "광물·화석 박물관",
+        "english": "Museum of Minerals and Fossils · Μουσείο ορυκτών και απολιθωμάτων Περίσσα Σαντορίνης",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "페리사의 박물관·전시 공간. 과학 전시를 살펴볼 수 있습니다.",
+        "address": "페리사, 산토리니",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 36.3568,
+        "lng": 25.474711,
+        "area": "페리사",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Perissa",
+            "url": "https://en.wikivoyage.org/wiki/Perissa#Museum_of_Minerals_and_Fossils",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "santorini-review-69a8cbc47693",
+        "cityId": "santorini",
+        "name": "옛 풍차",
+        "english": "Old Mill",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "아크로티리의 둘러볼 수 있는 장소.",
+        "address": "아크로티리, 산토리니",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 36.355779,
+        "lng": 25.396941,
+        "area": "아크로티리",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Akrotiri",
+            "url": "https://en.wikivoyage.org/wiki/Akrotiri#Old_Mill",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "santorini-review-d90731535068",
+        "cityId": "santorini",
+        "name": "메가로 기지 박물관",
+        "english": "Megaro Gyzi Museum",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "피라의 박물관·전시 공간. 미술 작품 전시를 살펴볼 수 있습니다.",
+        "address": "피라, 산토리니",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 36.42082,
+        "lng": 25.43089,
+        "area": "피라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Fira",
+            "url": "https://en.wikivoyage.org/wiki/Fira#Megaro_Gyzi_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "santorini-review-a851ff3b16e4",
+        "cityId": "santorini",
+        "name": "고대 채석장",
+        "english": "Ancient Quarry",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "페리사의 둘러볼 수 있는 장소.",
+        "address": "페리사, 산토리니",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 36.3655,
+        "lng": 25.4721,
+        "area": "페리사",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Perissa",
+            "url": "https://en.wikivoyage.org/wiki/Perissa#Ancient_Quarry",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "santorini-review-90a67c82ad42",
+        "cityId": "santorini",
+        "name": "성 에프스타티오스 교회",
+        "english": "Saint Efstathios Church · Άγιος Ευστάθιος",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "아크로티리의 성당·교회.",
+        "address": "아크로티리, 산토리니",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 36.360481,
+        "lng": 25.409868,
+        "area": "아크로티리",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Akrotiri",
+            "url": "https://en.wikivoyage.org/wiki/Akrotiri#Saint_Efstathios_Church",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "santorini-review-7778db413872",
+        "cityId": "santorini",
+        "name": "로제 투르트 전시관",
+        "english": "Roger Tourte Exposition",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "피라의 박물관·전시 공간.",
+        "address": "피라, 산토리니",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 36.42226,
+        "lng": 25.42847,
+        "area": "피라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Fira",
+            "url": "https://en.wikivoyage.org/wiki/Fira#Roger_Tourte_Exposition",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "santorini-review-541a0a7dc407",
+        "cityId": "santorini",
+        "name": "선돌 유적",
+        "english": "Menhir",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "아크로티리의 해변.",
+        "address": "아크로티리, 산토리니",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 36.353661,
+        "lng": 25.388296,
+        "area": "아크로티리",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Akrotiri",
+            "url": "https://en.wikivoyage.org/wiki/Akrotiri#Menhir",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "santorini-review-69c4e48acaa8",
+        "cityId": "santorini",
+        "name": "피라 세 개의 종 성당",
+        "english": "Catholic Church of the Dormition (The Three Bells of Fira) · Τρεις καμπάνες των Φηρών",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "피라의 성당·교회.",
+        "address": "피라, 산토리니",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 36.42333,
+        "lng": 25.42855,
+        "area": "피라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Fira",
+            "url": "https://en.wikivoyage.org/wiki/Fira#Catholic_Church_of_the_Dormition_%28The_Three_Bells_of_Fira%29",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "santorini-review-508dcc2205c7",
+        "cityId": "santorini",
+        "name": "아기오스 니콜라오스 교회",
+        "english": "Agios Nikolaos Church",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "아크로티리의 성당·교회.",
+        "address": "아크로티리, 산토리니",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 36.3475,
+        "lng": 25.39563,
+        "area": "아크로티리",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Akrotiri",
+            "url": "https://en.wikivoyage.org/wiki/Akrotiri#Agios_Nikolaos_Church",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "santorini-review-d80027f157c1",
+        "cityId": "santorini",
+        "name": "도미니코회 수녀원",
+        "english": "Dominican Convent",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "피라의 성당·교회.",
+        "address": "피라, 산토리니",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 36.42072,
+        "lng": 25.43065,
+        "area": "피라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Fira",
+            "url": "https://en.wikivoyage.org/wiki/Fira#Dominican_Convent",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "santorini-review-30045380d508",
+        "cityId": "santorini",
+        "name": "화이트 비치",
+        "english": "White Beach",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "아크로티리의 해변.",
+        "address": "아크로티리, 산토리니",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 36.35047,
+        "lng": 25.38237,
+        "area": "아크로티리",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Akrotiri",
+            "url": "https://en.wikivoyage.org/wiki/Akrotiri#White_Beach",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "santorini-review-842ffdb4782e",
+        "cityId": "santorini",
+        "name": "산토리니 정교회 대성당",
+        "english": "Orthodox Metropolitan Cathedral",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "피라의 성당·교회.",
+        "address": "피라, 산토리니",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 36.41678,
+        "lng": 25.43187,
+        "area": "피라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Fira",
+            "url": "https://en.wikivoyage.org/wiki/Fira#Orthodox_Metropolitan_Cathedral",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "santorini-review-a8fa34e21dff",
+        "cityId": "santorini",
+        "name": "칼데라 해변",
+        "english": "Caldera Beach",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "아크로티리의 수족관.",
+        "address": "아크로티리, 산토리니",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 36.36099,
+        "lng": 25.40781,
+        "area": "아크로티리",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Akrotiri",
+            "url": "https://en.wikivoyage.org/wiki/Akrotiri#Caldera_Beach",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "santorini-review-28027fc4ac90",
+        "cityId": "santorini",
+        "name": "세례자 성 요한 대성당",
+        "english": "Cathedral of Saint John the Baptist · Καθεδρικός ναός του Αγίου Ιωάννη του Βαπτιστή",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "피라의 성당·교회.",
+        "address": "피라, 산토리니",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 36.420528,
+        "lng": 25.430806,
+        "area": "피라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Fira",
+            "url": "https://en.wikivoyage.org/wiki/Fira#Cathedral_of_Saint_John_the_Baptist",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "santorini-review-31a442e9fbd0",
+        "cityId": "santorini",
+        "name": "해변 동굴",
+        "english": "Beach Cave",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "아크로티리의 해변.",
+        "address": "아크로티리, 산토리니",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 36.349402,
+        "lng": 25.39139,
+        "area": "아크로티리",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Akrotiri",
+            "url": "https://en.wikivoyage.org/wiki/Akrotiri#Beach_Cave",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "santorini-review-17b1bcb88a6f",
+        "cityId": "santorini",
+        "name": "카마리 야외영화관",
+        "english": "Santorini Open Air Cinema Kamari · Santorini Cine Kamari",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "카마리의 섬·바다 풍경.",
+        "address": "카마리, 산토리니",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 36.37923,
+        "lng": 25.47552,
+        "area": "카마리",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kamari",
+            "url": "https://en.wikivoyage.org/wiki/Kamari#Santorini_Open_Air_Cinema_Kamari",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "santorini-review-401028f085a8",
+        "cityId": "santorini",
+        "name": "캄피아 해변",
+        "english": "Kampia Beach",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "아크로티리의 해변.",
+        "address": "아크로티리, 산토리니",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 36.348104,
+        "lng": 25.386999,
+        "area": "아크로티리",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Akrotiri",
+            "url": "https://en.wikivoyage.org/wiki/Akrotiri#Kampia_Beach",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "santorini-review-f3ce30db03b5",
+        "cityId": "santorini",
+        "name": "알렉산더스 레스토랑",
+        "english": "Alexander's Restaurant",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "카마리의 소고기·스테이크을 다루는 식당.",
+        "address": "카마리, 산토리니",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 36.37257,
+        "lng": 25.48063,
+        "area": "카마리",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kamari",
+            "url": "https://en.wikivoyage.org/wiki/Kamari#Alexander%27s_Restaurant",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "santorini-review-1024819b74da",
+        "cityId": "santorini",
+        "name": "엘 그레코",
+        "english": "El Greco",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "카마리의 해산물을 다루는 식당.",
+        "address": "카마리, 산토리니",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 36.37815,
+        "lng": 25.48634,
+        "area": "카마리",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kamari",
+            "url": "https://en.wikivoyage.org/wiki/Kamari#El_Greco",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "santorini-review-e71c30954b08",
+        "cityId": "santorini",
+        "name": "올드 셀러 기념품점",
+        "english": "The Old Cellar Gift Shop",
+        "category": "쇼핑",
+        "image": "/images/place-placeholder.svg",
+        "description": "페리사의 둘러볼 수 있는 장소.",
+        "address": "페리사, 산토리니",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 36.356819,
+        "lng": 25.475664,
+        "area": "페리사",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Perissa",
+            "url": "https://en.wikivoyage.org/wiki/Perissa#The_Old_Cellar_Gift_Shop",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "santorini-review-2c475a8819c8",
+        "cityId": "santorini",
+        "name": "살리베로스",
+        "english": "Saliveros",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "카마리의 식사 장소.",
+        "address": "카마리, 산토리니",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 36.37197,
+        "lng": 25.48215,
+        "area": "카마리",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kamari",
+            "url": "https://en.wikivoyage.org/wiki/Kamari#Saliveros",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "santorini-review-bffde9b14f4d",
+        "cityId": "santorini",
+        "name": "화이트 도어 극장",
+        "english": "The White Door Theatro",
+        "category": "바·공연",
+        "image": "/images/place-placeholder.svg",
+        "description": "피라의 둘러볼 수 있는 장소.",
+        "address": "피라, 산토리니",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 36.419475,
+        "lng": 25.431549,
+        "area": "피라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Fira",
+            "url": "https://en.wikivoyage.org/wiki/Fira#The_White_Door_Theatro",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "santorini-review-2e4283ee58b6",
+        "cityId": "santorini",
+        "name": "산토리니 젠 스파",
+        "english": "Santorini Zen Spa",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "피라의 온천·목욕 시설.",
+        "address": "피라, 산토리니",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 36.422964,
+        "lng": 25.433869,
+        "area": "피라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Fira",
+            "url": "https://en.wikivoyage.org/wiki/Fira#Santorini_Zen_Spa",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "santorini-review-001bcd70af14",
+        "cityId": "santorini",
+        "name": "코칼로",
+        "english": "Kokkalo",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "피라의 둘러볼 수 있는 장소.",
+        "address": "25 Martiou Street",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 36.422737,
+        "lng": 25.431804,
+        "area": "피라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Fira",
+            "url": "https://en.wikivoyage.org/wiki/Fira#Kokkalo",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "santorini-review-6049a18ff33d",
+        "cityId": "santorini",
+        "name": "크레메리 비엔나",
+        "english": "Creamerie Vienna",
+        "category": "카페",
+        "image": "/images/place-placeholder.svg",
+        "description": "페리사의 아이스크림·디저트 가게.",
+        "address": "페리사, 산토리니",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 36.35335,
+        "lng": 25.472756,
+        "area": "페리사",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Perissa",
+            "url": "https://en.wikivoyage.org/wiki/Perissa#Creamerie_Vienna",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "santorini-review-f82af2eaef0d",
+        "cityId": "santorini",
+        "name": "볼케이노",
+        "english": "Volcano",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "페리사의 식사 장소.",
+        "address": "페리사, 산토리니",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 36.353048,
+        "lng": 25.472573,
+        "area": "페리사",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Perissa",
+            "url": "https://en.wikivoyage.org/wiki/Perissa#Volcano",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "santorini-review-0c8baa9fd843",
+        "cityId": "santorini",
+        "name": "후크 바",
+        "english": "Hook Bar",
+        "category": "바·공연",
+        "image": "/images/place-placeholder.svg",
+        "description": "카마리의 바·펍. 야간 일정에 넣을 수 있는 장소입니다.",
+        "address": "카마리, 산토리니",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "공연 일정·연령 제한·예약 여부를 방문 전에 확인하세요.",
+        "lat": 36.37126,
+        "lng": 25.48155,
+        "area": "카마리",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kamari",
+            "url": "https://en.wikivoyage.org/wiki/Kamari#Hook_Bar",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "santorini-review-12b33497b7f8",
+        "cityId": "santorini",
+        "name": "샬리나스",
+        "english": "Charlina's",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "페리사의 식사 장소.",
+        "address": "페리사, 산토리니",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 36.345982,
+        "lng": 25.464658,
+        "area": "페리사",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Perissa",
+            "url": "https://en.wikivoyage.org/wiki/Perissa#Charlina%27s",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "santorini-review-61661da056a5",
+        "cityId": "santorini",
+        "name": "프린스 바·레스토랑",
+        "english": "Prince Bar-Restaurant",
+        "category": "바·공연",
+        "image": "/images/place-placeholder.svg",
+        "description": "카마리의 바·펍. 야간 일정에 넣을 수 있는 장소입니다.",
+        "address": "카마리, 산토리니",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "공연 일정·연령 제한·예약 여부를 방문 전에 확인하세요.",
+        "lat": 36.37543,
+        "lng": 25.48468,
+        "area": "카마리",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kamari",
+            "url": "https://en.wikivoyage.org/wiki/Kamari#Prince_Bar-Restaurant",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "santorini-review-5e137b24a372",
+        "cityId": "santorini",
+        "name": "고대 아크로티리 박물관 기념품점",
+        "english": "Ancient Akrotiri Museum Shop",
+        "category": "쇼핑",
+        "image": "/images/place-placeholder.svg",
+        "description": "아크로티리의 박물관·전시 공간.",
+        "address": "아크로티리, 산토리니",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 36.35021,
+        "lng": 25.401695,
+        "area": "아크로티리",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Akrotiri",
+            "url": "https://en.wikivoyage.org/wiki/Akrotiri#Ancient_Akrotiri_Museum_Shop",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "santorini-review-85cacdd17517",
+        "cityId": "santorini",
+        "name": "아크로폴리스",
+        "english": "Acropolis",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "페리사의 식사 장소.",
+        "address": "페리사, 산토리니",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 36.35092,
+        "lng": 25.47027,
+        "area": "페리사",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Perissa",
+            "url": "https://en.wikivoyage.org/wiki/Perissa#Acropolis",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "santorini-review-f12541f35d87",
+        "cityId": "santorini",
+        "name": "스플래시 바·레스토랑",
+        "english": "Splash Bar - Restaurant",
+        "category": "바·공연",
+        "image": "/images/place-placeholder.svg",
+        "description": "카마리의 바·펍. 야간 일정에 넣을 수 있는 장소입니다.",
+        "address": "카마리, 산토리니",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "공연 일정·연령 제한·예약 여부를 방문 전에 확인하세요.",
+        "lat": 36.38043,
+        "lng": 25.48692,
+        "area": "카마리",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kamari",
+            "url": "https://en.wikivoyage.org/wiki/Kamari#Splash_Bar_-_Restaurant",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "santorini-review-4f1b2aa5bf57",
+        "cityId": "santorini",
+        "name": "크실로 우드 디자인 산토리니",
+        "english": "XξYLO Wood Design Santorini",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "아크로티리의 둘러볼 수 있는 장소.",
+        "address": "아크로티리, 산토리니",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 36.363901,
+        "lng": 25.423745,
+        "area": "아크로티리",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Akrotiri",
+            "url": "https://en.wikivoyage.org/wiki/Akrotiri#X%CE%BEYLO_Wood_Design_Santorini",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "santorini-review-dd6695749293",
+        "cityId": "santorini",
+        "name": "씨사이드 뷰",
+        "english": "Sea Side View",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "페리사의 식사 장소.",
+        "address": "페리사, 산토리니",
+        "duration": "일정에 맞게 선택",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 36.343207,
+        "lng": 25.460977,
+        "area": "페리사",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Perissa",
+            "url": "https://en.wikivoyage.org/wiki/Perissa#Sea_Side_View",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "santorini-review-decd39668a2f",
+        "cityId": "santorini",
+        "name": "마티 갤러리",
+        "english": "MATI Gallery",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "피라의 박물관·전시 공간.",
+        "address": "피라, 산토리니",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 36.4171,
+        "lng": 25.43171,
+        "area": "피라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Fira",
+            "url": "https://en.wikivoyage.org/wiki/Fira#MATI_Gallery",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "santorini-review-b026929375f5",
+        "cityId": "santorini",
+        "name": "안나스 미니마켓",
+        "english": "Anna's Mini Market",
+        "category": "쇼핑",
+        "image": "/images/place-placeholder.svg",
+        "description": "아크로티리의 시장·쇼핑 공간.",
+        "address": "아크로티리, 산토리니",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 36.359052,
+        "lng": 25.401141,
+        "area": "아크로티리",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Akrotiri",
+            "url": "https://en.wikivoyage.org/wiki/Akrotiri#Anna%27s_Mini_Market",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "santorini-balance-9c40bd9f19",
+        "cityId": "santorini",
+        "name": "넥타르 라운지",
+        "english": "Nektar Lounge",
+        "category": "카페",
+        "image": "/images/place-placeholder.svg",
+        "description": "칼데라 전망과 함께 커피나 음료를 고를 수 있는 카페 겸 바입니다.",
+        "address": "피라, 산토리니",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "산책이나 쇼핑 사이에 쉬어갈 후보입니다. 좌석 이용·마지막 주문 시간은 방문 전 확인하세요.",
+        "lat": 36.41685,
+        "lng": 25.431562,
+        "area": "피라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Fira",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Fira&oldid=5350912",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "santorini-balance-0c3247ff58",
+        "cityId": "santorini",
+        "name": "아다만트 스위츠",
+        "english": "Adamant Suites",
+        "category": "숙소",
+        "image": "/images/place-placeholder.svg",
+        "description": "피라의 절벽 전망 지역에서 비교할 수 있는 숙박 후보입니다.",
+        "address": "피라, 산토리니",
+        "duration": "숙박 일정에 맞춰 지정",
+        "cost": "숙박일·객실·공식 안내에서 확인",
+        "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+        "lat": 36.41546,
+        "lng": 25.431,
+        "area": "피라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Fira",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Fira&oldid=5350912",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "santorini-balance-e5a8ab97c8",
+        "cityId": "santorini",
+        "name": "페리볼라스",
+        "english": "Perivolas Traditional Houses",
+        "category": "숙소",
+        "image": "/images/place-placeholder.svg",
+        "description": "이아에서 전통 가옥 형태의 숙박을 비교할 수 있는 곳입니다.",
+        "address": "이아, 산토리니",
+        "duration": "숙박 일정에 맞춰 지정",
+        "cost": "숙박일·객실·공식 안내에서 확인",
+        "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+        "area": "이아",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Oia (Greece)",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Oia_(Greece)&oldid=5354534",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "santorini-balance-84c996ff69",
+        "cityId": "santorini",
+        "name": "안하이드러스 와이너리",
+        "english": "Anhydrous Winery",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "산토리니의 와인과 양조 문화를 접할 수 있는 와이너리입니다.",
+        "address": "피라, 산토리니",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "운영 회차·예약·참가 조건을 확인하세요. 물놀이와 야외 활동은 당일 날씨·안전 안내를 따르세요.",
+        "lat": 36.42213,
+        "lng": 25.43661,
+        "area": "피라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Fira",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Fira&oldid=5350912",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "santorini-balance-15819f66e2",
+        "cityId": "santorini",
+        "name": "므네모시네 갤러리",
+        "english": "Mnemossyne Gallery",
+        "category": "쇼핑",
+        "image": "/images/place-placeholder.svg",
+        "description": "이아에서 수공예 장신구를 둘러볼 수 있는 갤러리 겸 가게입니다.",
+        "address": "이아, 산토리니",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "품목과 매장별 운영시간을 확인하고 구입할 물건을 정해 둘러보세요.",
+        "lat": 36.46086,
+        "lng": 25.37385,
+        "area": "이아",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Oia (Greece)",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Oia_(Greece)&oldid=5354534",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 buy 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "santorini-balance-619fe790c9",
+        "cityId": "santorini",
+        "name": "아트 오브 더 룸 갤러리",
+        "english": "Art of the Loom Gallery",
+        "category": "쇼핑",
+        "image": "/images/place-placeholder.svg",
+        "description": "피라에서 유리 공예품과 장신구 기념품을 살펴보는 갤러리입니다.",
+        "address": "피라, 산토리니",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "품목과 매장별 운영시간을 확인하고 구입할 물건을 정해 둘러보세요.",
+        "lat": 36.42462,
+        "lng": 25.429,
+        "area": "피라",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Fira",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Fira&oldid=5350912",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 buy 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "id": "santorini-overview",
+        "title": "도시 소개",
+        "body": "도착·출발 배편과 숙소의 절벽·계단 접근을 먼저 확인하세요. 일몰 하나에 섬 전체 일정을 맞추지 않는 편이 좋습니다."
+      },
+      {
+        "id": "santorini-before",
+        "title": "출발 전 준비",
+        "body": "페리·투어는 결항과 취소 조건, 항구 도착 시간을 확인하세요.\n\n일몰 식사는 전망 자리·예약 보증금·숙소 복귀 교통을 함께 확인하세요."
+      },
+      {
+        "id": "santorini-arrival",
+        "title": "공항과 시내 이동",
+        "body": "공항·항구 도착: 도착편에 맞는 숙소 픽업·버스·차량과 항구에서 숙소까지의 마지막 구간을 확인하세요.\n\n섬 안 이동: 버스 환승 지점과 귀환편을 확인하세요. 절벽길 산책과 차량 이동 구간을 구분합니다."
+      },
+      {
+        "id": "santorini-stay",
+        "title": "숙소 지역 선택",
+        "body": "피라: 버스 이동과 식사 선택지를 중심으로 비교하세요.\n\n이아·칼데라 숙소: 전망과 숙소 시간을 중시할 때 비교하세요. 짐 운반·계단·차량 접근을 미리 확인하세요."
+      },
+      {
+        "id": "santorini-plan",
+        "title": "일정 계획",
+        "body": "하루: 피라 또는 이아 한 구역을 중심으로 고르세요.\n\n2–3일: 마을 산책·숙소 휴식·남부 유적 중 하루의 목적을 하나씩 나누세요."
+      },
+      {
+        "id": "santorini-notes",
+        "title": "현장 팁",
+        "body": "도착 당일 촘촘한 시간 지정 예약은 배편 지연에 취약합니다.\n\n절벽 계단과 노면이 젖은 길에서는 보행량을 줄이세요."
+      },
+      {
+        "id": "santorini-rain",
+        "title": "비 오는 날",
+        "body": "테라 선사박물관 등 실내 관람이나 숙소 휴식으로 바꾸고 해상 투어 운항을 확인하세요."
+      }
+    ],
+    "sources": [],
+    "status": "published",
+    "requestId": null,
+    "createdAt": "2026-10-28T00:00:00.000Z",
+    "updatedAt": "2026-10-28T00:00:00.000Z",
+    "publishedAt": "2026-10-28T00:00:00.000Z"
+  },
+  "practicalGuide": {
+    "cityId": "santorini",
+    "firstVisit": "도착·출발 배편과 숙소의 절벽·계단 접근을 먼저 확인하세요. 일몰 하나에 섬 전체 일정을 맞추지 않는 편이 좋습니다.",
+    "bases": [
+      {
+        "name": "피라",
+        "advice": "버스 이동과 식사 선택지를 중심으로 비교하세요."
+      },
+      {
+        "name": "이아·칼데라 숙소",
+        "advice": "전망과 숙소 시간을 중시할 때 비교하세요. 짐 운반·계단·차량 접근을 미리 확인하세요."
+      }
+    ],
+    "arrival": [
+      {
+        "name": "공항·항구 도착",
+        "advice": "도착편에 맞는 숙소 픽업·버스·차량과 항구에서 숙소까지의 마지막 구간을 확인하세요."
+      },
+      {
+        "name": "섬 안 이동",
+        "advice": "버스 환승 지점과 귀환편을 확인하세요. 절벽길 산책과 차량 이동 구간을 구분합니다."
+      }
+    ],
+    "timePlan": [
+      {
+        "name": "하루",
+        "advice": "피라 또는 이아 한 구역을 중심으로 고르세요."
+      },
+      {
+        "name": "2–3일",
+        "advice": "마을 산책·숙소 휴식·남부 유적 중 하루의 목적을 하나씩 나누세요."
+      }
+    ],
+    "before": [
+      "페리·투어는 결항과 취소 조건, 항구 도착 시간을 확인하세요.",
+      "일몰 식사는 전망 자리·예약 보증금·숙소 복귀 교통을 함께 확인하세요."
+    ],
+    "pitfalls": [
+      "도착 당일 촘촘한 시간 지정 예약은 배편 지연에 취약합니다.",
+      "절벽 계단과 노면이 젖은 길에서는 보행량을 줄이세요."
+    ],
+    "rainPlan": "테라 선사박물관 등 실내 관람이나 숙소 휴식으로 바꾸고 해상 투어 운항을 확인하세요.",
+    "courses": [
+      {
+        "id": "santorini-course-1",
+        "title": "피라의 역사와 전망",
+        "pace": "반나절 · 도보",
+        "why": "피라 안에서 박물관과 마을을 묶는 제안입니다.",
+        "placeIds": [
+          "santorini-review-d07aa4e4afa4",
+          "fira",
+          "santorini-review-69c4e48acaa8"
+        ]
+      },
+      {
+        "id": "santorini-course-2",
+        "title": "남부 유적과 등대",
+        "pace": "하루 · 차량 이동",
+        "why": "유적과 해안 끝 등대는 차량 이동을 전제로 분리해 계획하세요.",
+        "placeIds": [
+          "santorini-review-14b095fbd552",
+          "santorini-review-c10c02d6cb8a"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "관광청 공식 사이트",
+        "url": "https://www.visitgreece.gr/",
+        "checkedAt": "2026-10-15",
+        "status": "unavailable"
+      }
+    ],
+    "researchNote": "기존 내장 장소를 바탕으로 작성한 계획 제안입니다. 관광청 최신 교통·운영 조건은 본문 접근 제한으로 재확인하지 못했습니다."
+  },
+  "plans": {
+    "cityId": "santorini",
+    "days": [
+      {
+        "id": "santorini-day-1",
+        "title": "피라의 역사와 전망",
+        "pace": "반나절 · 도보",
+        "why": "피라 안에서 박물관과 마을을 묶는 제안입니다.",
+        "placeIds": [
+          "santorini-review-d07aa4e4afa4",
+          "fira",
+          "santorini-review-69c4e48acaa8"
+        ]
+      },
+      {
+        "id": "santorini-day-2",
+        "title": "남부 유적과 등대",
+        "pace": "하루 · 차량 이동",
+        "why": "유적과 해안 끝 등대는 차량 이동을 전제로 분리해 계획하세요.",
+        "placeIds": [
+          "santorini-review-14b095fbd552",
+          "santorini-review-c10c02d6cb8a"
+        ]
+      },
+      {
+        "id": "santorini-day-3",
+        "title": "이아 마을과 아무디의 일몰",
+        "pace": "버스·도보",
+        "why": "피라에서 이아로 이동한 뒤 한 구역에서 쉽니다. 아무디의 계단과 일몰 뒤 귀가 수단을 확인합니다.",
+        "placeIds": [
+          "oia",
+          "ammoudi"
+        ]
+      },
+      {
+        "id": "santorini-day-4",
+        "title": "카마리의 유적과 해변 마을",
+        "pace": "차량",
+        "why": "고대 테라를 먼저 보고 카마리에서 점심과 저녁을 보냅니다. 유적 접근 도로와 개방 여부를 확인합니다.",
+        "placeIds": [
+          "santorini-review-f65abd003050",
+          "santorini-review-f3ce30db03b5",
+          "santorini-review-17b1bcb88a6f"
+        ]
+      },
+      {
+        "id": "santorini-day-5",
+        "title": "페리사의 검은 모래 해변",
+        "pace": "버스·도보",
+        "why": "페리사 안에서 해변과 마을을 천천히 봅니다. 수영·휴식 시간을 넉넉히 남깁니다.",
+        "placeIds": [
+          "santorini-review-233784073870",
+          "santorini-review-d42c993d51af",
+          "santorini-review-f7ab8a21c17a"
+        ]
+      }
+    ]
+  }
+}

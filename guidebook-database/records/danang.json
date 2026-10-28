@@ -1,0 +1,1050 @@
+{
+  "guide": {
+    "id": "danang",
+    "scope": "city",
+    "city": {
+      "id": "danang",
+      "name": "다낭·호이안",
+      "english": "DA NANG · HOI AN",
+      "country": "베트남",
+      "region": "동남아",
+      "image": "/images/city-danang.jpg",
+      "photoCredit": {
+        "file": "/images/city-danang.jpg",
+        "author": "Nick",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dragon_Bridge,_Da_Nang,_Vietnam_(48944946922).jpg",
+        "verifiedAt": "2026-10-16"
+      },
+      "tagline": "해변의 다낭과 골목의 호이안을 함께",
+      "description": "다낭 해변·도심과 근교 호이안 구시가지를 함께 계획하는 여행권입니다. 두 지역 사이에는 차량 이동이 필요합니다.",
+      "tags": [
+        "해변과 골목",
+        "근교 여행"
+      ],
+      "flight": "다낭국제공항 · 운항편 확인",
+      "currency": "베트남 동 · VND",
+      "timeDifference": "한국보다 2시간 느림",
+      "season": "2–8월 · 우기·기상 확인",
+      "accent": "#e8f3ef"
+    },
+    "places": [
+      {
+        "id": "danang-balance-20bd90eefc",
+        "cityId": "danang",
+        "name": "미꽝 일에이",
+        "english": "Mi Quang 1A",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "다낭의 미꽝 국수를 맛볼 수 있는 식당입니다.",
+        "address": "1 Hải Phòng, Hải Châu 1, Q. Hải Châu",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "지점과 주문 방식, 식단 제한을 확인하고 식사 일정에 넣어 보세요. 메뉴·영업시간은 방문 전 확인하세요.",
+        "lat": 16.072454,
+        "lng": 108.219051,
+        "area": "다낭",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Da Nang",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Da_Nang&oldid=5383180",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 eat 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "danang-balance-91764ab0aa",
+        "cityId": "danang",
+        "name": "마담 칸 반미 퀸",
+        "english": "Madam Khanh - The Banh Mi Queen",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "속 재료를 고른 베트남식 샌드위치 반미를 맛보는 가게입니다.",
+        "address": "115 Trần Cao Vân",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "지점과 주문 방식, 식단 제한을 확인하고 식사 일정에 넣어 보세요. 메뉴·영업시간은 방문 전 확인하세요.",
+        "lat": 15.8805953,
+        "lng": 108.3279486,
+        "area": "호이안",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Hoi An",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Hoi_An&oldid=5390860",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 eat 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "danang-balance-8f5e0516b7",
+        "cityId": "danang",
+        "name": "롱 커피",
+        "english": "Long Coffee",
+        "category": "카페",
+        "image": "/images/place-placeholder.svg",
+        "description": "다낭에서 베트남식 커피를 마실 수 있는 카페입니다.",
+        "address": "123 Le Loi",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "산책이나 쇼핑 사이에 쉬어갈 후보입니다. 좌석 이용·마지막 주문 시간은 방문 전 확인하세요.",
+        "lat": 16.07486,
+        "lng": 108.21995,
+        "area": "다낭",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Da Nang",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Da_Nang&oldid=5383180",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "danang-balance-e8a10261b1",
+        "cityId": "danang",
+        "name": "로지스 카페 호이안",
+        "english": "Rosie's cafe",
+        "category": "카페",
+        "image": "/images/place-placeholder.svg",
+        "description": "호이안에서 커피와 브런치를 고를 수 있는 카페입니다.",
+        "address": "8/6 Nguyen Thi Minh Khai street",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "산책이나 쇼핑 사이에 쉬어갈 후보입니다. 좌석 이용·마지막 주문 시간은 방문 전 확인하세요.",
+        "area": "호이안",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Hoi An",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Hoi_An&oldid=5390860",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "danang-balance-adc9e1e833",
+        "cityId": "danang",
+        "name": "하얏트 리젠시 다낭",
+        "english": "Hyatt Regency Da Nang",
+        "category": "숙소",
+        "image": "/images/place-placeholder.svg",
+        "description": "다낭 해변 지역의 리조트 숙박 후보입니다.",
+        "address": "Truong Sa St, Hoa Hai Ward, Ngu Hanh Son District",
+        "duration": "숙박 일정에 맞춰 지정",
+        "cost": "숙박일·객실·공식 안내에서 확인",
+        "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+        "lat": 16.01139,
+        "lng": 108.26402,
+        "area": "다낭",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Da Nang",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Da_Nang&oldid=5383180",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "danang-balance-c08389f08e",
+        "cityId": "danang",
+        "name": "아난타라 호이안 리조트",
+        "english": "Anantara Hoi An Resort",
+        "category": "숙소",
+        "image": "/images/place-placeholder.svg",
+        "description": "호이안 강변을 거점으로 삼을 수 있는 리조트입니다.",
+        "address": "1 Pham Hong Thai St.",
+        "duration": "숙박 일정에 맞춰 지정",
+        "cost": "숙박일·객실·공식 안내에서 확인",
+        "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+        "lat": 15.877247,
+        "lng": 108.33686,
+        "area": "호이안",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Hoi An",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Hoi_An&oldid=5390860",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "danang-balance-51bafad9bf",
+        "cityId": "danang",
+        "name": "골든 파인",
+        "english": "Golden Pine",
+        "category": "바·공연",
+        "image": "/images/place-placeholder.svg",
+        "description": "한강 주변에서 음료와 음악을 즐기는 바입니다.",
+        "address": "다낭, 다낭·호이안",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "공연 일정·입장 연령·드레스 코드·입장료와 최소 주문 조건을 방문 전 확인하세요.",
+        "lat": 16.0726,
+        "lng": 108.2247,
+        "area": "다낭",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Da Nang",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Da_Nang&oldid=5383180",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "danang-balance-5335dcf3f0",
+        "cityId": "danang",
+        "name": "호이안 다이브 바",
+        "english": "Dive Bar Restaurant",
+        "category": "바·공연",
+        "image": "/images/place-placeholder.svg",
+        "description": "음료와 당구, 라이브 음악을 즐길 수 있는 바입니다.",
+        "address": "88 Nguyen Thai Hoc St",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "공연 일정·입장 연령·드레스 코드·입장료와 최소 주문 조건을 방문 전 확인하세요.",
+        "lat": 15.87662,
+        "lng": 108.32829,
+        "area": "호이안",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Hoi An",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Hoi_An&oldid=5390860",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "danang-balance-5d59aacbfa",
+        "cityId": "danang",
+        "name": "호이안 야시장",
+        "english": "Night Market",
+        "category": "쇼핑",
+        "image": "/images/place-placeholder.svg",
+        "description": "호이안에서 공예품과 기념품을 둘러보는 야시장입니다.",
+        "address": "호이안, 다낭·호이안",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "품목과 매장별 운영시간을 확인하고 구입할 물건을 정해 둘러보세요.",
+        "lat": 15.87578,
+        "lng": 108.32592,
+        "area": "호이안",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Hoi An",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Hoi_An&oldid=5390860",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 buy 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "danang-balance-a8e0a78f39",
+        "cityId": "danang",
+        "name": "호이안 실크 빌리지",
+        "english": "Hoi An Silk Village",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "견직물 제작 과정과 지역 공예를 접할 수 있는 공간입니다.",
+        "address": "28 Nguyen Tat Thanh St",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "운영 회차·예약·참가 조건을 확인하세요. 물놀이와 야외 활동은 당일 날씨·안전 안내를 따르세요.",
+        "lat": 15.8875,
+        "lng": 108.3192,
+        "area": "호이안",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Hoi An",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Hoi_An&oldid=5390860",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 do 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "danang-guide-1cffff18d23e",
+        "cityId": "danang",
+        "name": "미케 해변",
+        "english": "My Khe Beach · China Beach",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "다낭 도심 동쪽의 긴 모래 해변입니다.",
+        "address": "다낭 해안 · 다낭·호이안",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "파도·해류와 현장 수영 금지 안내를 확인하세요.",
+        "lat": 16.07035,
+        "lng": 108.24623,
+        "area": "다낭 해안",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 다낭·호이안 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "danang-guide-e22744f96b4c",
+        "cityId": "danang",
+        "name": "린응사",
+        "english": "Linh Ung Temple",
+        "category": "관광",
+        "image": "/images/commons-069-danang-guide-e22744f96b4c.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-danang-guide-e22744f96b4c.jpg",
+          "author": "Mustang Joe",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ch%C3%B9a_Linh_%E1%BB%A8ng_Buddhist_Temple,_Danang,_Vietnam_(54161781835).jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "바다를 내려다보는 선짜반도의 불교 사찰입니다.",
+        "address": "선짜반도 · 다낭·호이안",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "한낮에는 햇볕이 강하므로 물과 모자를 챙기세요.",
+        "lat": 16.10032,
+        "lng": 108.27799,
+        "area": "선짜반도",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 다낭·호이안 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "danang-guide-fdbc49ddca56",
+        "cityId": "danang",
+        "name": "오행산",
+        "english": "Marble Mountains · Ngu Hanh Son",
+        "category": "관광",
+        "image": "/images/commons-069-danang-guide-fdbc49ddca56.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-danang-guide-fdbc49ddca56.jpg",
+          "author": "Andre Hospers",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Marble_Mountain_Danang_Hoi_An.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "석회암 봉우리와 동굴·사찰이 모인 명소입니다.",
+        "address": "다낭 남부 · 다낭·호이안",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "계단과 미끄러운 바닥에 맞는 신발을 준비하세요.",
+        "lat": 16.00333,
+        "lng": 108.2637,
+        "area": "다낭 남부",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 다낭·호이안 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "danang-guide-51b8b7d35422",
+        "cityId": "danang",
+        "name": "다낭 참 조각박물관",
+        "english": "Museum of Cham Sculpture · Bảo Tàng Chăm",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "참파 문명의 석조 조각을 소개하는 박물관입니다.",
+        "address": "다낭 도심 · 다낭·호이안",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "한강 주변 도심 코스와 함께 묶기 좋습니다.",
+        "lat": 16.06006,
+        "lng": 108.22307,
+        "area": "다낭 도심",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 다낭·호이안 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "danang-guide-dce9a989753a",
+        "cityId": "danang",
+        "name": "한강 산책로",
+        "english": "Han River Promenade",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "한강을 따라 도심 풍경을 바라보는 산책 구간입니다.",
+        "address": "다낭 도심 · 다낭·호이안",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "저장 좌표는 산책로의 대표 지점입니다.",
+        "lat": 16.06491,
+        "lng": 108.22464,
+        "area": "다낭 도심",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 다낭·호이안 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "danang-guide-bfbc0f6a9a38",
+        "cityId": "danang",
+        "name": "한시장",
+        "english": "Han Market",
+        "category": "쇼핑",
+        "image": "/images/place-placeholder.svg",
+        "description": "식료품·의류·기념품 상점이 모인 도심 시장입니다.",
+        "address": "다낭 도심 · 다낭·호이안",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "가격·수량·포장을 확인하고 귀중품을 관리하세요.",
+        "lat": 16.06823,
+        "lng": 108.22432,
+        "area": "다낭 도심",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 다낭·호이안 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "danang-guide-c9deaa06b77b",
+        "cityId": "danang",
+        "name": "다낭 롯데마트",
+        "english": "Lotte Mart shopping centre",
+        "category": "쇼핑",
+        "image": "/images/place-placeholder.svg",
+        "description": "식료품과 생활용품을 살 수 있는 쇼핑 공간입니다.",
+        "address": "다낭 남부 · 다낭·호이안",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "일정 마지막에 넣을 때 짐과 숙소 이동을 고려하세요.",
+        "lat": 16.03506,
+        "lng": 108.22889,
+        "area": "다낭 남부",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 다낭·호이안 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "danang-guide-284e62f6baff",
+        "cityId": "danang",
+        "name": "바나힐 케이블카 입구",
+        "english": "Ba Na Hill Station",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "바나산 관광 구역으로 올라가는 케이블카 입구 일대입니다.",
+        "address": "근교 · 바나산 · 다낭·호이안",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "좌표는 산 정상 대신 입구 기준입니다. 입장·교통을 따로 확인하세요.",
+        "lat": 16.02577,
+        "lng": 108.0314,
+        "area": "근교 · 바나산",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 다낭·호이안 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "danang-guide-3037568d722d",
+        "cityId": "danang",
+        "name": "호이안 내원교",
+        "english": "Japanese Covered Bridge · Chua Cau ''or'' Lai Vien Kieu",
+        "category": "관광",
+        "image": "/images/commons-069-danang-guide-3037568d722d.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-danang-guide-3037568d722d.jpg",
+          "author": "Chainwit.",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:2024_H%E1%BB%99i_An_-_Japanese_Covered_Bridge_(Ch%C3%B9a_C%E1%BA%A7u)_after_renovation_-_img_11.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "호이안 구시가지의 지붕 있는 역사적 다리입니다.",
+        "address": "근교 · 호이안 · 다낭·호이안",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "구시가지 관람권과 다리의 출입 안내를 확인하세요.",
+        "lat": 15.87713,
+        "lng": 108.32605,
+        "area": "근교 · 호이안",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 다낭·호이안 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "danang-guide-19149da8eee7",
+        "cityId": "danang",
+        "name": "호이안 관공묘",
+        "english": "Quan Cong Temple",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "관우를 기리는 호이안 구시가지의 사당입니다.",
+        "address": "근교 · 호이안 · 다낭·호이안",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "참배객을 배려하고 구시가지 안에서 걸어 이동하세요.",
+        "lat": 15.87753,
+        "lng": 108.33106,
+        "area": "근교 · 호이안",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 다낭·호이안 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "danang-guide-1118ea125b72",
+        "cityId": "danang",
+        "name": "호이안 민속문화박물관",
+        "english": "Museum of Folk Culture",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "지역 주민의 생활·문화 자료를 전시하는 박물관입니다.",
+        "address": "근교 · 호이안 · 다낭·호이안",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "구시가지의 다른 박물관과 관람권 포함 여부를 확인하세요.",
+        "lat": 15.87647,
+        "lng": 108.32838,
+        "area": "근교 · 호이안",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 다낭·호이안 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "danang-guide-aceb5b1cff2b",
+        "cityId": "danang",
+        "name": "사후인 문화박물관",
+        "english": "Museum of Sa Huynh Culture",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "사후인 문화의 토기와 유물을 다루는 박물관입니다.",
+        "address": "근교 · 호이안 · 다낭·호이안",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "내원교 주변 역사 건물과 함께 둘러보세요.",
+        "lat": 15.87701,
+        "lng": 108.32641,
+        "area": "근교 · 호이안",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 다낭·호이안 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "danang-guide-a038f991bb87",
+        "cityId": "danang",
+        "name": "호이안 무역도자기박물관",
+        "english": "Museum of Trade Ceramics",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "옛 가옥에서 도자기와 무역 관련 자료를 전시하는 공간입니다.",
+        "address": "근교 · 호이안 · 다낭·호이안",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "전시물뿐 아니라 옛 가옥 구조도 살펴보세요.",
+        "lat": 15.87735,
+        "lng": 108.32944,
+        "area": "근교 · 호이안",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 다낭·호이안 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "danang-guide-84f8a60fea72",
+        "cityId": "danang",
+        "name": "풍흥 고가",
+        "english": "Old house of Phung Hung",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "호이안의 전통 목조 가옥입니다.",
+        "address": "근교 · 호이안 · 다낭·호이안",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "실제 생활 공간이 포함될 수 있어 안내 동선을 지키세요.",
+        "lat": 15.87722,
+        "lng": 108.32581,
+        "area": "근교 · 호이안",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 다낭·호이안 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "danang-guide-c88286d57343",
+        "cityId": "danang",
+        "name": "꽌탕 고가",
+        "english": "Old house of Quan Thang",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "구시가지 상인의 옛 가옥을 둘러보는 역사 공간입니다.",
+        "address": "근교 · 호이안 · 다낭·호이안",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "개방 구역과 관람권을 현장에서 확인하세요.",
+        "lat": 15.87711,
+        "lng": 108.32925,
+        "area": "근교 · 호이안",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 다낭·호이안 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "danang-guide-844e966c3b0e",
+        "cityId": "danang",
+        "name": "득안 고가",
+        "english": "Old house of Duc An",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "구시가지에 남아 있는 전통 가옥입니다.",
+        "address": "근교 · 호이안 · 다낭·호이안",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "주변 가옥과 거리가 가까워 도보로 묶기 좋습니다.",
+        "lat": 15.87706,
+        "lng": 108.32767,
+        "area": "근교 · 호이안",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 다낭·호이안 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "danang-guide-0672f96a46da",
+        "cityId": "danang",
+        "name": "떤키 고가",
+        "english": "Old house of Tan Ky",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "여러 문화의 건축 요소를 볼 수 있는 옛 상인 가옥입니다.",
+        "address": "근교 · 호이안 · 다낭·호이안",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "내부 관람 동선과 사진 촬영 안내를 따르세요.",
+        "lat": 15.87646,
+        "lng": 108.32776,
+        "area": "근교 · 호이안",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 다낭·호이안 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "danang-guide-3bdf58583d2f",
+        "cityId": "danang",
+        "name": "광조회관",
+        "english": "Quang Trieu Assembly Hall · Cantonese",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "정원과 장식 조각이 있는 광둥계 공동체 회관입니다.",
+        "address": "근교 · 호이안 · 다낭·호이안",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "구시가지 사원·회관을 걸어서 연결하세요.",
+        "lat": 15.8773,
+        "lng": 108.32645,
+        "area": "근교 · 호이안",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 다낭·호이안 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "danang-guide-02551715de7c",
+        "cityId": "danang",
+        "name": "복건회관",
+        "english": "Phuc Kien Meeting Hall",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "푸젠계 공동체의 역사와 신앙이 담긴 회관입니다.",
+        "address": "근교 · 호이안 · 다낭·호이안",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "참배 공간에서는 복장과 촬영 규정을 따르세요.",
+        "lat": 15.87806,
+        "lng": 108.33095,
+        "area": "근교 · 호이안",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 다낭·호이안 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "danang-guide-a9a6e8de1bcb",
+        "cityId": "danang",
+        "name": "조주회관",
+        "english": "Trieu Chau Meeting Hall",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "차오저우계 공동체가 세운 전통 회관입니다.",
+        "address": "근교 · 호이안 · 다낭·호이안",
+        "duration": "일정에 맞게 조절",
+        "cost": "공식·현장 안내 확인",
+        "tip": "관람권에 포함되는 회관을 확인하고 방문하세요.",
+        "lat": 15.87789,
+        "lng": 108.3331,
+        "area": "근교 · 호이안",
+        "reviewSources": [
+          {
+            "title": "위키보야지 · 다낭·호이안 · 2016년 보관본",
+            "url": "https://github.com/wikivoyage/wikivoyage.github.io/blob/ca7beff6d520938861a4a2c1373c6cb62ba00ea2/wikivoyage-listings-en.csv",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-15",
+            "license": "CC BY-SA 3.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "2016-10-27 공개 CSV 보관본의 장소 항목과 좌표를 읽었습니다. 선택 항목에서 협찬·제휴 고지를 발견하지 않았습니다. 현재 공식 사이트는 접속 제한으로 확인하지 못했으며 최신 인기 순위·영업·입장 조건이나 숨은 이해관계를 보증하지 않습니다."
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "id": "danang-overview",
+        "title": "도시 소개",
+        "body": "다낭 해변 휴식과 호이안 옛 도시는 별도 권역입니다. 숙박 위치와 이동일을 먼저 나누세요."
+      },
+      {
+        "id": "danang-before",
+        "title": "출발 전 준비",
+        "body": "바나힐·체험은 이동 포함 여부와 기상·취소 조건을 확인하세요.\n\n호이안 옛 도시의 시설 관람권과 방문일 개방 범위를 확인하세요."
+      },
+      {
+        "id": "danang-arrival",
+        "title": "공항과 시내 이동",
+        "body": "다낭공항: 숙소와 픽업 위치·짐·요금 포함 범위를 확인하고 공식 차량·호출 서비스를 비교하세요.\n\n호이안·근교 이동: 다낭 시내 도보 구간과 별도의 차량 왕복을 구분하세요. 늦은 귀환편도 함께 정합니다."
+      },
+      {
+        "id": "danang-stay",
+        "title": "숙소 지역 선택",
+        "body": "미케 해변권: 해변 산책과 숙소 휴식 중심이면 비교하세요. 도심 식사까지 이동을 따로 계산하세요.\n\n다낭 도심·호이안: 도심 식사와 문화 관람은 다낭, 옛 도시의 저녁 분위기는 호이안 숙박과 비교하세요."
+      },
+      {
+        "id": "danang-plan",
+        "title": "일정 계획",
+        "body": "2–3일: 다낭 도심·해변과 호이안 하루 중 우선순위를 정하세요.\n\n4일 이상: 숙소 휴식일과 호이안·산간 시설 방문일을 분리해 날씨에 맞춰 바꿀 여유를 두세요."
+      },
+      {
+        "id": "danang-notes",
+        "title": "현장 팁",
+        "body": "호이안의 여러 고가를 모두 도장 찍듯 방문하기보다 관심 시설을 고르세요.\n\n다낭 해변과 호이안 야경 사이 이동을 예약 시간 사이의 빈칸으로 계산하지 마세요."
+      },
+      {
+        "id": "danang-rain",
+        "title": "비 오는 날",
+        "body": "참 조각박물관·실내 식사·숙소 휴식으로 바꾸고 해안·산간 이동의 기상 조건을 확인하세요."
+      }
+    ],
+    "sources": [
+      {
+        "title": "관광청 안내",
+        "url": "https://vietnam.travel/places-to-go/south-central-coast-central-highlands/da-nang",
+        "accessedAt": "2026-10-15"
+      }
+    ],
+    "status": "published",
+    "requestId": null,
+    "createdAt": "2026-10-15T00:00:00.000Z",
+    "updatedAt": "2026-10-15T00:00:00.000Z",
+    "publishedAt": "2026-10-15T00:00:00.000Z"
+  },
+  "practicalGuide": {
+    "cityId": "danang",
+    "firstVisit": "다낭 해변 휴식과 호이안 옛 도시는 별도 권역입니다. 숙박 위치와 이동일을 먼저 나누세요.",
+    "bases": [
+      {
+        "name": "미케 해변권",
+        "advice": "해변 산책과 숙소 휴식 중심이면 비교하세요. 도심 식사까지 이동을 따로 계산하세요."
+      },
+      {
+        "name": "다낭 도심·호이안",
+        "advice": "도심 식사와 문화 관람은 다낭, 옛 도시의 저녁 분위기는 호이안 숙박과 비교하세요."
+      }
+    ],
+    "arrival": [
+      {
+        "name": "다낭공항",
+        "advice": "숙소와 픽업 위치·짐·요금 포함 범위를 확인하고 공식 차량·호출 서비스를 비교하세요."
+      },
+      {
+        "name": "호이안·근교 이동",
+        "advice": "다낭 시내 도보 구간과 별도의 차량 왕복을 구분하세요. 늦은 귀환편도 함께 정합니다."
+      }
+    ],
+    "timePlan": [
+      {
+        "name": "2–3일",
+        "advice": "다낭 도심·해변과 호이안 하루 중 우선순위를 정하세요."
+      },
+      {
+        "name": "4일 이상",
+        "advice": "숙소 휴식일과 호이안·산간 시설 방문일을 분리해 날씨에 맞춰 바꿀 여유를 두세요."
+      }
+    ],
+    "before": [
+      "바나힐·체험은 이동 포함 여부와 기상·취소 조건을 확인하세요.",
+      "호이안 옛 도시의 시설 관람권과 방문일 개방 범위를 확인하세요."
+    ],
+    "pitfalls": [
+      "호이안의 여러 고가를 모두 도장 찍듯 방문하기보다 관심 시설을 고르세요.",
+      "다낭 해변과 호이안 야경 사이 이동을 예약 시간 사이의 빈칸으로 계산하지 마세요."
+    ],
+    "rainPlan": "참 조각박물관·실내 식사·숙소 휴식으로 바꾸고 해안·산간 이동의 기상 조건을 확인하세요.",
+    "courses": [
+      {
+        "id": "danang-course-1",
+        "title": "다낭 도심 문화와 강변",
+        "pace": "반나절–하루 · 도보·차량",
+        "why": "시장·박물관·강변을 도심에 모으는 제안입니다.",
+        "placeIds": [
+          "danang-guide-bfbc0f6a9a38",
+          "danang-guide-51b8b7d35422",
+          "danang-guide-dce9a989753a"
+        ]
+      },
+      {
+        "id": "danang-course-2",
+        "title": "근교 · 호이안 옛 도시",
+        "pace": "하루 · 차량 이동 후 도보",
+        "why": "다낭에서의 왕복을 따로 두고 옛 도시 안을 걷습니다.",
+        "placeIds": [
+          "danang-guide-3037568d722d",
+          "danang-guide-02551715de7c",
+          "danang-guide-0672f96a46da"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "관광청 안내",
+        "url": "https://vietnam.travel/places-to-go/south-central-coast-central-highlands/da-nang",
+        "checkedAt": "2026-10-15",
+        "status": "read"
+      }
+    ],
+    "researchNote": "여행 안내 본문을 읽고 지역별 계획을 편집했습니다. 코스는 직접 작성한 제안이며 이동시간·예약 가능 여부를 실시간 계산한 결과가 아닙니다. 장소 목록은 2016년 보관본 기반이며 현재 운영은 별도 확인해야 합니다."
+  },
+  "plans": {
+    "cityId": "danang",
+    "days": [
+      {
+        "id": "danang-day-1",
+        "title": "다낭 도심 문화와 강변",
+        "pace": "반나절–하루 · 도보·차량",
+        "why": "시장·박물관·강변을 도심에 모으는 제안입니다.",
+        "placeIds": [
+          "danang-guide-bfbc0f6a9a38",
+          "danang-guide-51b8b7d35422",
+          "danang-guide-dce9a989753a"
+        ]
+      },
+      {
+        "id": "danang-day-2",
+        "title": "근교 · 호이안 옛 도시",
+        "pace": "하루 · 차량 이동 후 도보",
+        "why": "다낭에서의 왕복을 따로 두고 옛 도시 안을 걷습니다.",
+        "placeIds": [
+          "danang-guide-3037568d722d",
+          "danang-guide-02551715de7c",
+          "danang-guide-0672f96a46da"
+        ]
+      },
+      {
+        "id": "danang-day-3",
+        "title": "미케 해변과 선짜반도",
+        "pace": "차량",
+        "why": "해변에서 쉬고 선짜반도의 린응사로 이동합니다. 햇볕이 강한 시간은 숙소 휴식에 남깁니다.",
+        "placeIds": [
+          "danang-guide-1cffff18d23e",
+          "danang-guide-e22744f96b4c"
+        ]
+      },
+      {
+        "id": "danang-day-4",
+        "title": "오행산과 다낭 남부",
+        "pace": "차량",
+        "why": "오행산의 계단·관람 시간을 고려하고 시내로 돌아오는 길에 장을 봅니다.",
+        "placeIds": [
+          "danang-guide-fdbc49ddca56",
+          "danang-guide-c9deaa06b77b"
+        ]
+      },
+      {
+        "id": "danang-day-5",
+        "title": "호이안 옛집과 거리 산책",
+        "pace": "차량·도보",
+        "why": "호이안에 하루를 더 두어 옛집과 작은 박물관을 천천히 봅니다. 통합 입장권의 방문 범위를 확인합니다.",
+        "placeIds": [
+          "danang-guide-84f8a60fea72",
+          "danang-guide-a038f991bb87",
+          "danang-guide-1118ea125b72"
+        ]
+      }
+    ]
+  }
+}

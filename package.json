@@ -24,7 +24,10 @@
     "content:publish": "node --experimental-strip-types scripts/publish-content.mjs",
     "postbuild": "node scripts/audit-client-build.mjs",
     "guidebooks:build": "node --experimental-strip-types scripts/build-guidebooks.mjs",
-    "guidebooks:check": "node --experimental-strip-types scripts/build-guidebooks.mjs --check"
+    "guidebooks:check": "node --experimental-strip-types scripts/build-guidebooks.mjs --check",
+    "guides:db:build": "node --experimental-strip-types scripts/build-guide-database.mjs",
+    "guides:db:check": "node --experimental-strip-types scripts/build-guide-database.mjs --check",
+    "guides:plan": "node scripts/plan-guide-research.mjs"
   },
   "engines": {
     "node": ">=24"

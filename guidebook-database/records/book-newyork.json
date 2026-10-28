@@ -1,0 +1,155 @@
+{
+  "guide": {
+    "id": "book-newyork",
+    "scope": "city",
+    "city": {
+      "id": "book-newyork",
+      "name": "뉴욕",
+      "english": "New York City",
+      "country": "미국",
+      "region": "북미",
+      "image": "/images/guide-placeholder.svg",
+      "tagline": "맨해튼과 브루클린을 구역별로 즐기는 도시",
+      "description": "뉴욕은 업타운·미드타운·다운타운·브루클린을 묶어 이동하면 일정이 단순해집니다. 미술관과 공연은 관심 있는 한 곳을 중심으로 고르고, 공원과 강변에 쉬는 시간을 넣으세요.",
+      "tags": [
+        "도시 산책",
+        "여행 준비"
+      ],
+      "flight": "항공편·출발 공항에 따라 다름",
+      "currency": "미국 달러 · USD",
+      "timeDifference": "한국보다 겨울 14시간·서머타임 13시간 느림",
+      "timeZone": "America/New_York",
+      "season": "계절별 기온차 큼, 실내외 일정 혼합",
+      "accent": "#e7f1ef"
+    },
+    "places": [
+      {
+        "id": "book-newyork-central-park",
+        "cityId": "book-newyork",
+        "name": "센트럴파크",
+        "english": "Central Park",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "넓은 도심 공원입니다. 하루에 전부 걷기보다 방문 구역을 정하세요.",
+        "address": "Manhattan, New York City",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      },
+      {
+        "id": "book-newyork-metropolitan-museum-of-art",
+        "cityId": "book-newyork",
+        "name": "메트로폴리탄 미술관",
+        "english": "Metropolitan Museum of Art",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "규모가 큰 미술관입니다. 관심 전시실과 방문할 관을 먼저 정하세요.",
+        "address": "Manhattan, New York City",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      },
+      {
+        "id": "book-newyork-9-11-memorial",
+        "cityId": "book-newyork",
+        "name": "9·11 메모리얼",
+        "english": "9/11 Memorial",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "추모 공간입니다. 야외 메모리얼과 박물관 관람을 구분하고 예절을 지키세요.",
+        "address": "Lower Manhattan, New York City",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      },
+      {
+        "id": "book-newyork-statue-of-liberty",
+        "cityId": "book-newyork",
+        "name": "자유의 여신상",
+        "english": "Statue of Liberty",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "섬으로 이동해 관람하는 유산입니다. 공식 선박과 관람 범위를 확인하세요.",
+        "address": "Liberty Island, New York Harbor",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      },
+      {
+        "id": "book-newyork-brooklyn-bridge",
+        "cityId": "book-newyork",
+        "name": "브루클린 브리지",
+        "english": "Brooklyn Bridge",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "강을 건너는 대표 다리입니다. 보행 구역과 혼잡을 고려하세요.",
+        "address": "Manhattan–Brooklyn, New York City",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      },
+      {
+        "id": "book-newyork-chelsea-market",
+        "cityId": "book-newyork",
+        "name": "첼시마켓",
+        "english": "Chelsea Market",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "여러 먹거리·상점이 모인 공간입니다. 개별 가게의 메뉴와 운영을 확인하세요.",
+        "address": "Chelsea, Manhattan",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+      }
+    ],
+    "sections": [
+      {
+        "id": "book-newyork-overview",
+        "title": "도시 한눈에",
+        "body": "뉴욕은 업타운·미드타운·다운타운·브루클린을 묶어 이동하면 일정이 단순해집니다. 미술관과 공연은 관심 있는 한 곳을 중심으로 고르고, 공원과 강변에 쉬는 시간을 넣으세요.\n\n통화: 미국 달러 · USD\n시차: 한국보다 겨울 14시간·서머타임 13시간 느림\n여행 계절: 계절별 기온차 큼, 실내외 일정 혼합"
+      },
+      {
+        "id": "book-newyork-before",
+        "title": "출발 전 준비",
+        "body": "여권과 입국 허가·비자 요건은 국적·방문 목적에 맞춰 정부 안내를 확인하세요. 해외 사용 가능한 결제 수단, 통신과 여행자보험을 준비하고 숙소·항공권은 오프라인에서도 확인할 수 있게 보관하세요."
+      },
+      {
+        "id": "book-newyork-arrival",
+        "title": "공항에서 숙소까지",
+        "body": "JFK·뉴어크(EWR)·라과디아(LGA)는 접근 교통이 다릅니다. 공항과 터미널을 확인하고 철도·지하철·버스·차량을 비교하세요. 장거리 비행 도착일은 짧게 잡으세요."
+      },
+      {
+        "id": "book-newyork-stay",
+        "title": "어느 동네에 묵을까",
+        "body": "미드타운은 공연과 교통, 어퍼웨스트는 공원과 생활 동선, 다운타운과 브루클린은 각 동네의 식사·산책을 비교하기 좋습니다. 숙박 부대요금과 역 접근을 확인하세요."
+      },
+      {
+        "id": "book-newyork-food",
+        "title": "먹거리와 동네 쇼핑",
+        "body": "베이글·피자·다양한 이민자 음식을 나눠 맛보세요. 첼시마켓은 여러 상점이 있는 공간입니다. 세금과 팁을 포함한 실제 지출을 고려하세요."
+      },
+      {
+        "id": "book-newyork-days",
+        "title": "처음 가는 3일 여행",
+        "body": "1일: 도착 → 숙소 주변 산책. 장거리 비행 뒤에는 충분히 쉬고 현지 날짜에 적응하세요.\n\n2일: 센트럴파크 중심으로 주변을 둘러보세요. 예약 시설은 운영기관의 방문 조건을 먼저 확인하세요.\n\n3일: 메트로폴리탄 미술관 또는 9·11 메모리얼 중 관심 있는 곳을 고르고 나머지는 식사와 동네 산책에 쓰세요. 출국일에는 공항 이동을 우선하세요.\n\n일정 초안이며 자동 경로·이동시간 계산 결과가 아닙니다. 운영과 취향에 맞춰 선택하세요."
+      },
+      {
+        "id": "book-newyork-notes",
+        "title": "예약과 현장 팁",
+        "body": "입국 허가·여권 요건은 공식 정부 안내로 확인하세요. 자유의 여신상은 선박과 관람 구역을 구분하고 공연은 날짜·좌석·취소 조건을 확인하세요."
+      }
+    ],
+    "sources": [
+      {
+        "title": "NYC Tourism + Conventions | Explore the Best Things to Do in NYC",
+        "url": "https://www.nyctourism.com/",
+        "accessedAt": "2026-10-28"
+      }
+    ],
+    "status": "published",
+    "requestId": null,
+    "createdAt": "2026-10-28T05:07:12.733Z",
+    "updatedAt": "2026-10-28T05:07:12.733Z",
+    "publishedAt": "2026-10-28T05:07:12.733Z"
+  }
+}

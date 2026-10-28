@@ -1,0 +1,2143 @@
+{
+  "guide": {
+    "id": "kyoto",
+    "scope": "city",
+    "city": {
+      "id": "kyoto",
+      "name": "교토",
+      "english": "KYOTO · 京都",
+      "country": "일본",
+      "region": "일본",
+      "image": "/images/place-kiyomizu.jpg",
+      "photoCredit": {
+        "file": "/images/place-kiyomizu.jpg",
+        "author": "Jordy Meow",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kiyomizu.jpg",
+        "verifiedAt": "2026-10-14"
+      },
+      "tagline": "느리게 걸을수록, 더 좋아지는 도시",
+      "description": "오래된 골목과 고요한 사원, 작은 찻집이 기다리는 교토. 서두르지 않고 걷는 하루가 가장 특별한 여행이 됩니다.",
+      "tags": [
+        "골목 산책",
+        "문화 여행"
+      ],
+      "flight": "간사이·이타미공항에서 교토 이동",
+      "currency": "일본 엔 · JPY",
+      "timeDifference": "한국과 시차 없음",
+      "season": "3–5월, 10–11월",
+      "accent": "#dae8d5"
+    },
+    "places": [
+      {
+        "id": "kiyomizu",
+        "cityId": "kyoto",
+        "name": "기요미즈데라",
+        "english": "Kiyomizu Temple · 清水寺",
+        "category": "관광",
+        "image": "/images/place-kiyomizu.jpg",
+        "photoCredit": {
+          "file": "/images/place-kiyomizu.jpg",
+          "author": "Jordy Meow",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kiyomizu.jpg",
+          "verifiedAt": "2026-10-14"
+        },
+        "description": "히가시야마 언덕 위의 사찰. 본당과 주변 산책길에서 교토 풍경을 보고 니넨자카·산넨자카 거리로 이어 걸을 수 있어요.",
+        "address": "1-chome, Kiyomizu, Higashiyama-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "접근로에 오르막과 혼잡한 구간이 있어 편한 신발과 물을 준비하세요. 본당 앞에서만 머물기보다 관람로를 따라 이동하며 다른 전망도 확인해 보세요.",
+        "lat": 34.994831,
+        "lng": 135.785003,
+        "area": "히가시야마",
+        "reviewSources": [
+          {
+            "title": "교토 자유여행, 청수사(기요미즈데라) 구경하기",
+            "url": "https://gnrlfhdns.tistory.com/201",
+            "kind": "visit-review",
+            "checkedAt": "2026-10-16",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "직접 방문한 동선·관람 경험의 본문과 본문 링크를 확인했습니다. 협찬·원고료·체험단 표시와 예약 제휴·할인 코드 유도가 발견되지 않았습니다. 오래된 요금·영업시간·공사 정보는 반영하지 않았습니다. 숨겨진 협찬 여부나 현재 운영을 보증하지 않습니다."
+          },
+          {
+            "title": "순동이와 함께한 교토🎋☔️",
+            "url": "https://blog.naver.com/alrg0411/224439356860",
+            "kind": "visit-review",
+            "checkedAt": "2026-10-16",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "직접 방문한 동선·관람 경험의 본문과 본문 링크를 확인했습니다. 협찬·원고료·체험단 표시와 예약 제휴·할인 코드 유도가 발견되지 않았습니다. 오래된 요금·영업시간·공사 정보는 반영하지 않았습니다. 숨겨진 협찬 여부나 현재 운영을 보증하지 않습니다."
+          },
+          {
+            "title": "Wikivoyage · Kyoto/Higashiyama",
+            "url": "https://en.wikivoyage.org/wiki/Kyoto/Higashiyama#Kiyomizu_Temple",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "fushimi",
+        "cityId": "kyoto",
+        "name": "후시미 이나리 신사",
+        "english": "Fushimi Inari Taisha · 伏見稲荷大社",
+        "category": "관광",
+        "image": "/images/place-fushimi.jpg",
+        "photoCredit": {
+          "file": "/images/place-fushimi.jpg",
+          "author": "Basile Morin",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Torii_path_with_lantern_at_Fushimi_Inari_Taisha_Shrine,_Kyoto,_Japan.jpg",
+          "verifiedAt": "2026-10-14"
+        },
+        "description": "붉은 도리이가 이나리산 산길을 따라 이어지는 신사예요. 평지 참배와 산길 걷기를 나눠 계획할 수 있어요.",
+        "address": "남부, 교토",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "입구 사진만 찍을지 산길까지 오를지 먼저 정하세요. 경사가 이어져 체력과 일몰 시간을 고려해 돌아갈 지점을 정하는 편이 좋아요.",
+        "lat": 34.967222,
+        "lng": 135.772778,
+        "area": "남부",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kyoto/South",
+            "url": "https://en.wikivoyage.org/wiki/Kyoto/South#Fushimi_Inari_Taisha",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "nishiki",
+        "cityId": "kyoto",
+        "name": "니시키 시장",
+        "english": "Nishiki Market",
+        "category": "쇼핑",
+        "image": "/images/place-nishiki.jpg",
+        "photoCredit": {
+          "file": "/images/place-nishiki.jpg",
+          "author": "matsuyuki",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nishiki_Ichiba_by_matsuyuki.jpg",
+          "verifiedAt": "2026-10-14"
+        },
+        "description": "지붕이 있는 골목에 식재료·간식·생활용품 가게가 이어지는 교토 도심 시장이에요. 동쪽 끝은 데라마치 상점가와 연결돼요.",
+        "address": "Nishikikoji-dori and Takakura-dori",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "식사 한 끼와 간식 구경 중 목적을 정하고 들러 보세요. 동쪽 출구에서 데라마치로 이어 걸으면 도심 쇼핑 동선을 묶기 좋아요.",
+        "lat": 35.005028,
+        "lng": 135.766139,
+        "area": "도심",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kyoto/Central",
+            "url": "https://en.wikivoyage.org/wiki/Kyoto/Central#Nishiki_Market",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "gion",
+        "cityId": "kyoto",
+        "name": "기온 시라카와 산책",
+        "english": "Gion Shirakawa",
+        "category": "관광",
+        "image": "/images/place-gion.jpg",
+        "photoCredit": {
+          "file": "/images/place-gion.jpg",
+          "author": "Moja",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kyoto_gion01.jpg",
+          "verifiedAt": "2026-10-14"
+        },
+        "description": "작은 물길 옆으로 이어지는 버드나무와 전통 가옥. 교토의 차분한 저녁을 느껴보세요.",
+        "address": "교토시 히가시야마구 시라카와 주변",
+        "duration": "약 45분",
+        "cost": "무료",
+        "tip": "주민을 배려하고 사유지 촬영 제한 안내를 확인하세요.",
+        "lat": 35.0057,
+        "lng": 135.7746
+      },
+      {
+        "id": "kyoto-cafe",
+        "cityId": "kyoto",
+        "name": "히가시야마 찻집 산책",
+        "english": "Higashiyama Tea Walk",
+        "category": "카페",
+        "image": "/images/place-kyoto-cafe.jpg",
+        "photoCredit": {
+          "file": "/images/place-kyoto-cafe.jpg",
+          "author": "Andrea Schaffer from Sydney, Australia",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sannenzaka_street,_Kyoto_(3811257874).jpg",
+          "verifiedAt": "2026-10-14"
+        },
+        "description": "산넨자카 주변의 작은 찻집에서 말차 한 잔과 함께 잠시 쉬어가세요. 마음에 드는 가게를 직접 골라보는 코스예요.",
+        "address": "교토시 히가시야마구 산넨자카 주변",
+        "duration": "약 1시간",
+        "cost": "선택한 가게의 메뉴에 따라 다름",
+        "tip": "찻집 영업 시간과 대기 여부를 방문 전에 확인하세요.",
+        "lat": 34.998,
+        "lng": 135.7807
+      },
+      {
+        "id": "kyoto-review-3ad4fafd578f",
+        "cityId": "kyoto",
+        "name": "쇼세이엔 정원",
+        "english": "Shōseien Garden · 渉成園; Kikoku-tei; Karatachi tei",
+        "category": "관광",
+        "image": "/images/commons-069-kyoto-review-3ad4fafd578f.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-kyoto-review-3ad4fafd578f.jpg",
+          "author": "Hyppolyte de Saint-Rambert",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sh%C5%8Dsei-en_(Shimogyo_Kyoto)_hdsrGarden_S5_4054.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "연못을 중심으로 옛 정원 건물과 산책길이 배치된 도심 정원이에요. 사찰 건물 관람과 다른 정원 풍경을 볼 수 있어요.",
+        "address": "300 higashitamamizu-chō, Shimojyuzuyamachi-dōri Aidanochō-higashiru, Shimogyō-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "연못과 정원 건물을 함께 둘러보는 산책 일정으로 잡으세요. 쇼세이엔과 이름이 비슷한 다른 사찰을 혼동하지 않도록 주소를 확인하세요.",
+        "lat": 34.991395,
+        "lng": 135.763238,
+        "area": "도심",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kyoto/Central",
+            "url": "https://en.wikivoyage.org/wiki/Kyoto/Central#Sh%C5%8Dseien_Garden",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kyoto-review-c9c8b0ef41be",
+        "cityId": "kyoto",
+        "name": "교토시 교세라 미술관",
+        "english": "Kyoto Municipal Museum of Art · 京都市美術館",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "오카자키의 미술관. 전시 관람과 건축 구경, 주변 카페 방문을 같은 구역의 일정으로 묶기 좋아요.",
+        "address": "Okazaki Park, Sakyō-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "후기에는 전시를 보지 않고 건물 주변에서 쉬어 간 경험도 있어요. 보고 싶은 전시와 입장 조건을 먼저 확인하고 관람 시간을 정하세요.",
+        "lat": 35.012836,
+        "lng": 135.783569,
+        "area": "히가시야마",
+        "reviewSources": [
+          {
+            "title": "순동이와 함께한 교토🎋☔️",
+            "url": "https://blog.naver.com/alrg0411/224439356860",
+            "kind": "visit-review",
+            "checkedAt": "2026-10-16",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "직접 방문한 동선·관람 경험의 본문과 본문 링크를 확인했습니다. 협찬·원고료·체험단 표시와 예약 제휴·할인 코드 유도가 발견되지 않았습니다. 오래된 요금·영업시간·공사 정보는 반영하지 않았습니다. 숨겨진 협찬 여부나 현재 운영을 보증하지 않습니다."
+          },
+          {
+            "title": "Wikivoyage · Kyoto/Higashiyama",
+            "url": "https://en.wikivoyage.org/wiki/Kyoto/Higashiyama#Kyoto_Municipal_Museum_of_Art",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kyoto-review-87a373e9da3f",
+        "cityId": "kyoto",
+        "name": "킨카쿠지",
+        "english": "Kinkaku-ji Temple · 金閣寺",
+        "category": "관광",
+        "image": "/images/kyoto-review-87a373e9da3f-126.jpg",
+        "photoCredit": {
+          "file": "/images/kyoto-review-87a373e9da3f-126.jpg",
+          "author": "User:Fbjon",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kinkakuji_panorama.jpg",
+          "verifiedAt": "2026-10-17"
+        },
+        "description": "연못과 금빛 누각을 중심으로 정원 관람로가 이어지는 교토 북서부의 사찰이에요.",
+        "address": "1 Kinkakuji-cho, Kita-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "도심 동쪽 명소와 떨어져 있어 이동 시간을 따로 잡으세요. 연못 앞 사진만 찍고 끝내기보다 누각 뒤편과 정원 관람로까지 이어 둘러보세요.",
+        "lat": 35.0395,
+        "lng": 135.7285,
+        "area": "북부",
+        "reviewSources": [
+          {
+            "title": "[일본여행] 교토#4 - 금각사",
+            "url": "https://woof.tistory.com/1433",
+            "kind": "visit-review",
+            "checkedAt": "2026-10-16",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "직접 방문한 동선·관람 경험의 본문과 본문 링크를 확인했습니다. 협찬·원고료·체험단 표시와 예약 제휴·할인 코드 유도가 발견되지 않았습니다. 오래된 요금·영업시간·공사 정보는 반영하지 않았습니다. 숨겨진 협찬 여부나 현재 운영을 보증하지 않습니다."
+          },
+          {
+            "title": "Wikivoyage · Kyoto/North",
+            "url": "https://en.wikivoyage.org/wiki/Kyoto/North#Kinkaku-ji_Temple",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kyoto-review-b0667fd6a6fb",
+        "cityId": "kyoto",
+        "name": "긴카쿠지",
+        "english": "Ginkakuji · 銀閣寺, or Jishoji 慈照寺",
+        "category": "관광",
+        "image": "/images/kyoto-review-b0667fd6a6fb.jpg",
+        "photoCredit": {
+          "file": "/images/kyoto-review-b0667fd6a6fb.jpg",
+          "author": "Cun Cun",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Summer_in_Ginkakuji_Temple,_Kyoto.jpg",
+          "verifiedAt": "2026-10-16"
+        },
+        "description": "철학의 길 북쪽에 있는 사찰로, 은각과 모래 정원·이끼 정원을 함께 볼 수 있어요. 이름과 달리 누각에 은이 입혀져 있지는 않아요.",
+        "address": "Ginkakuji-chō",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "철학의 길과 같은 구역으로 묶어 걸어 보세요. 정원 관람로가 붐빌 수 있으니 사진을 찍으며 멈출 때 통행 공간을 남겨 두세요.",
+        "lat": 35.026667,
+        "lng": 135.798333,
+        "area": "히가시야마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kyoto/Higashiyama",
+            "url": "https://en.wikivoyage.org/wiki/Kyoto/Higashiyama#Ginkakuji",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kyoto-review-354ac9b67d4b",
+        "cityId": "kyoto",
+        "name": "난젠지",
+        "english": "Nanzenji Temple · 南禅寺",
+        "category": "관광",
+        "image": "/images/commons-069-kyoto-review-354ac9b67d4b.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-kyoto-review-354ac9b67d4b.jpg",
+          "author": "Jakub Hałun",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sanmon_gate,_Nanzenji_Temple,_Kyoto,_20240820_1205_5050.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "큰 산문과 붉은 벽돌 수로각이 인상적인 사찰이에요. 경내 산책과 개별 건물·정원 관람을 구분할 수 있어요.",
+        "address": "Fukuchi-cho, Nanzenji, Sakyo-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "수로각만 볼지 산문·정원까지 들어갈지 정하세요. 시설별 입장 조건이 달라 한 장의 입장권으로 모두 볼 수 있다고 생각하지 않는 편이 좋아요.",
+        "lat": 35.01127,
+        "lng": 135.79308,
+        "area": "히가시야마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kyoto/Higashiyama",
+            "url": "https://en.wikivoyage.org/wiki/Kyoto/Higashiyama#Nanzenji_Temple",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kyoto-review-b981c89f42b4",
+        "cityId": "kyoto",
+        "name": "에이칸도",
+        "english": "Eikandō Temple · 永観堂禅林寺",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "뒤를 돌아보는 아미타불상과 연못·탑이 있는 사찰이에요. 단풍철 풍경으로도 알려져 있어요.",
+        "address": "48 Eikandō-chō, Sakyō-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "가을에는 낮 관람과 야간 관람의 운영이 구분될 수 있어요. 방문 날짜의 시간·입장 조건을 따로 확인하세요.",
+        "lat": 35.01437,
+        "lng": 135.79557,
+        "area": "히가시야마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kyoto/Higashiyama",
+            "url": "https://en.wikivoyage.org/wiki/Kyoto/Higashiyama#Eikand%C5%8D_Temple",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kyoto-review-abea75631b76",
+        "cityId": "kyoto",
+        "name": "야사카 신사",
+        "english": "Yasaka Shrine · 八坂神社",
+        "category": "관광",
+        "image": "/images/commons-069-kyoto-review-abea75631b76.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-kyoto-review-abea75631b76.jpg",
+          "author": "Jakub Hałun",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:South_Tower_Gate_of_Yasaka_Shrine_in_Kyoto,_20240820_1706_5167.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "기온 동쪽에 있는 신사로 등불과 경내 풍경을 볼 수 있어요. 기온 마쓰리와 관련된 장소예요.",
+        "address": "625 Gion-machi, Kitagawa-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "기온 산책 뒤 마루야마 공원으로 이어 걷는 동선을 비교해 보세요. 축제 기간에는 평소 관람 동선과 통행 조건이 달라질 수 있어요.",
+        "lat": 35.003645,
+        "lng": 135.778529,
+        "area": "히가시야마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kyoto/Higashiyama",
+            "url": "https://en.wikivoyage.org/wiki/Kyoto/Higashiyama#Yasaka_Shrine",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kyoto-review-d2c00ef25973",
+        "cityId": "kyoto",
+        "name": "마루야마 공원",
+        "english": "Maruyama Park · 円山公園 Maruyama Kōen",
+        "category": "관광",
+        "image": "/images/kyoto-review-d2c00ef25973.jpg",
+        "photoCredit": {
+          "file": "/images/kyoto-review-d2c00ef25973.jpg",
+          "author": "tanohei",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kyoto-maruyama.jpg",
+          "verifiedAt": "2026-10-16"
+        },
+        "description": "히가시야마를 둘러보다 쉬어 가기 좋은 공원이에요. 큰 수양벚나무와 계절 풍경으로 알려져 있어요.",
+        "address": "625 Gion-machi, Kitagawa-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "야사카 신사 쪽에서 이어 들어갈 수 있어요. 벚꽃철에는 휴식 장소도 붐빌 수 있어 식사·휴식 시간을 여유 있게 두세요.",
+        "lat": 35.003503,
+        "lng": 135.779519,
+        "area": "히가시야마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kyoto/Higashiyama",
+            "url": "https://en.wikivoyage.org/wiki/Kyoto/Higashiyama#Maruyama_Park",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kyoto-review-8f785e509bce",
+        "cityId": "kyoto",
+        "name": "지온인",
+        "english": "Chion-in · 知恩院",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "큰 산문과 넓은 경내가 있는 정토종 사찰이에요. 히가시야마의 다른 사찰과 함께 비교해 보기 좋아요.",
+        "address": "히가시야마, 교토",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "경내 산책과 건물 내부 관람의 개방 범위를 구분하세요. 모든 건물에 자유롭게 들어갈 수 있다고 가정하지 마세요.",
+        "lat": 35.006168,
+        "lng": 135.78328,
+        "area": "히가시야마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kyoto/Higashiyama",
+            "url": "https://en.wikivoyage.org/wiki/Kyoto/Higashiyama#Chion-in",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kyoto-review-cd801b84397d",
+        "cityId": "kyoto",
+        "name": "겐닌지",
+        "english": "Kenninji Temple · 建仁寺",
+        "category": "관광",
+        "image": "/images/commons-069-kyoto-review-cd801b84397d.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-kyoto-review-cd801b84397d.jpg",
+          "author": "Piet Parkiet",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kennin-ji,_Moosgarten.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "히가시야마의 사찰.",
+        "address": "584 Komatsu-chō, Higashiyama-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.001187,
+        "lng": 135.773929,
+        "area": "히가시야마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kyoto/Higashiyama",
+            "url": "https://en.wikivoyage.org/wiki/Kyoto/Higashiyama#Kenninji_Temple",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kyoto-review-84598141b54d",
+        "cityId": "kyoto",
+        "name": "아라시야마 대나무숲",
+        "english": "Bamboo Forest",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "아라시야마의 사찰. 대나무 풍경를 살펴볼 수 있습니다.",
+        "address": "아라시야마, 교토",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.016845,
+        "lng": 135.6716,
+        "area": "아라시야마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kyoto/Arashiyama",
+            "url": "https://en.wikivoyage.org/wiki/Kyoto/Arashiyama#Bamboo_Forest",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kyoto-review-e6ed09efb32b",
+        "cityId": "kyoto",
+        "name": "도게츠교",
+        "english": "Togetsukyō Bridge · 渡月橋",
+        "category": "관광",
+        "image": "/images/kyoto-review-e6ed09efb32b.jpg",
+        "photoCredit": {
+          "file": "/images/kyoto-review-e6ed09efb32b.jpg",
+          "author": "shankar s. from Poona (pune), India, India",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Back%20outside%20this%20is%20the%20Togetsukyo%20Bridge%20or%20moon%20crossing%20bridge%20%2848743510701%29.jpg",
+          "verifiedAt": "2026-10-16"
+        },
+        "description": "아라시야마의 온천·목욕 시설.",
+        "address": "아라시야마, 교토",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.012758,
+        "lng": 135.677741,
+        "area": "아라시야마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kyoto/Arashiyama",
+            "url": "https://en.wikivoyage.org/wiki/Kyoto/Arashiyama#Togetsuky%C5%8D_Bridge",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kyoto-review-8ce5c3eb4590",
+        "cityId": "kyoto",
+        "name": "료안지",
+        "english": "Ryōan-ji · 龍安寺",
+        "category": "관광",
+        "image": "/images/kyoto-review-8ce5c3eb4590-126.jpg",
+        "photoCredit": {
+          "file": "/images/kyoto-review-8ce5c3eb4590-126.jpg",
+          "author": "Stephane D'Alu",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:RyoanJi-Dry_garden.jpg",
+          "verifiedAt": "2026-10-17"
+        },
+        "description": "북부의 사찰. 일본식 정원를 살펴볼 수 있습니다.",
+        "address": "북부, 교토",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.034444,
+        "lng": 135.718333,
+        "area": "북부",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kyoto/North",
+            "url": "https://en.wikivoyage.org/wiki/Kyoto/North#Ry%C5%8Dan-ji",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kyoto-review-b94a619f6326",
+        "cityId": "kyoto",
+        "name": "후시미 모모야마성",
+        "english": "Fushimi Momoyama Castle · 桃山城, Momoyama-jō; officially 伏見城, Fushimi-jō",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "남부의 박물관·전시 공간.",
+        "address": "남부, 교토",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.939501,
+        "lng": 135.77686,
+        "area": "남부",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kyoto/South",
+            "url": "https://en.wikivoyage.org/wiki/Kyoto/South#Fushimi_Momoyama_Castle",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kyoto-review-8fb58dfc216f",
+        "cityId": "kyoto",
+        "name": "신센엔 정원",
+        "english": "Shinsen-en Garden · 神泉苑",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "도심의 공원·정원.",
+        "address": "167 Monzen-cho, Nakagyo-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.011382,
+        "lng": 135.748369,
+        "area": "도심",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kyoto/Central",
+            "url": "https://en.wikivoyage.org/wiki/Kyoto/Central#Shinsen-en_Garden",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kyoto-review-67044d7dcd97",
+        "cityId": "kyoto",
+        "name": "덴류지",
+        "english": "Tenryū-ji · 天龍寺",
+        "category": "관광",
+        "image": "/images/commons-069-kyoto-review-67044d7dcd97.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-kyoto-review-67044d7dcd97.jpg",
+          "author": "Epicgenius",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tenry%C5%AB-ji_Mar_2025_26.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "아라시야마의 사찰. 대나무 풍경·세계유산 관련 장소를 살펴볼 수 있습니다.",
+        "address": "68 Saga Tenryū-ji Susukinobaba-chō",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.015833,
+        "lng": 135.673693,
+        "area": "아라시야마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kyoto/Arashiyama",
+            "url": "https://en.wikivoyage.org/wiki/Kyoto/Arashiyama#Tenry%C5%AB-ji",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kyoto-review-8dce7ff01b89",
+        "cityId": "kyoto",
+        "name": "닌나지",
+        "english": "Ninnaji Temple · 仁和寺",
+        "category": "관광",
+        "image": "/images/commons-069-kyoto-review-8dce7ff01b89.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-kyoto-review-8dce7ff01b89.jpg",
+          "author": "Photograph by Don Ramey Logan",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ninnaji_Temple_Kyoto_by_Don_Ramey_Logan.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "북부의 사찰.",
+        "address": "북부, 교토",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.031111,
+        "lng": 135.713889,
+        "area": "북부",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kyoto/North",
+            "url": "https://en.wikivoyage.org/wiki/Kyoto/North#Ninnaji_Temple",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kyoto-review-46d3ae0aecc9",
+        "cityId": "kyoto",
+        "name": "데라다야",
+        "english": "Teradaya · 寺田屋",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "남부의 둘러볼 수 있는 장소.",
+        "address": "남부, 교토",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.930406,
+        "lng": 135.759577,
+        "area": "남부",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kyoto/South",
+            "url": "https://en.wikivoyage.org/wiki/Kyoto/South#Teradaya",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kyoto-review-ed13761d9aeb",
+        "cityId": "kyoto",
+        "name": "니조성",
+        "english": "Nijō Castle · 二条城 nijō-jō",
+        "category": "관광",
+        "image": "/images/commons-069-kyoto-review-ed13761d9aeb.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-kyoto-review-ed13761d9aeb.jpg",
+          "author": "Jakub Hałun",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Southeast_Watchtower_of_the_Nij%C5%8D_Castle_in_Kyoto,_20240820_1617_5145.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "도심의 박물관·전시 공간.",
+        "address": "541 Nijojo-cho, Horikawa-nishiiru, Nijo-dori, Nakagyo-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.014167,
+        "lng": 135.7475,
+        "area": "도심",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kyoto/Central",
+            "url": "https://en.wikivoyage.org/wiki/Kyoto/Central#Nij%C5%8D_Castle",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kyoto-review-144b2db96983",
+        "cityId": "kyoto",
+        "name": "오코치 산소",
+        "english": "Ōkōchi Sansō · 大河内山荘",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "아라시야마의 박물관·전시 공간.",
+        "address": "아라시야마, 교토",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.017281,
+        "lng": 135.669355,
+        "area": "아라시야마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kyoto/Arashiyama",
+            "url": "https://en.wikivoyage.org/wiki/Kyoto/Arashiyama#%C5%8Ck%C5%8Dchi_Sans%C5%8D",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kyoto-review-e714b5190a91",
+        "cityId": "kyoto",
+        "name": "다이토쿠지",
+        "english": "Daitokuji Temple · 大徳寺",
+        "category": "관광",
+        "image": "/images/commons-069-kyoto-review-e714b5190a91.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-kyoto-review-e714b5190a91.jpg",
+          "author": "Hyppolyte de Saint-Rambert",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Daitokuji_area_(Kita-Ku_Kyoto)_temple_hdsr_S5_05.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "북부의 사찰. 일본식 정원를 살펴볼 수 있습니다.",
+        "address": "53 Murasakino",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.043891,
+        "lng": 135.74603,
+        "area": "북부",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kyoto/North",
+            "url": "https://en.wikivoyage.org/wiki/Kyoto/North#Daitokuji_Temple",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kyoto-review-dc3a3df10526",
+        "cityId": "kyoto",
+        "name": "도후쿠지",
+        "english": "Tōfuku-ji · 東福寺",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "남부의 사찰.",
+        "address": "15-778 Honmachi, Higashiyama-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.975707,
+        "lng": 135.773676,
+        "area": "남부",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kyoto/South",
+            "url": "https://en.wikivoyage.org/wiki/Kyoto/South#T%C5%8Dfuku-ji",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kyoto-review-c60ba2a4ba1c",
+        "cityId": "kyoto",
+        "name": "니조진야",
+        "english": "Nijō-Jinya · 二条陣屋",
+        "category": "관광",
+        "image": "/images/commons-069-kyoto-review-c60ba2a4ba1c.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-kyoto-review-c60ba2a4ba1c.jpg",
+          "author": "Hyppolyte de Saint-Rambert",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nijo_Jinya_residence_(Kyoto)_Minka_hdsr_S5_03.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "도심의 둘러볼 수 있는 장소.",
+        "address": "Just south of Nijo Castle",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.010282,
+        "lng": 135.748658,
+        "area": "도심",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kyoto/Central",
+            "url": "https://en.wikivoyage.org/wiki/Kyoto/Central#Nij%C5%8D-Jinya",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kyoto-review-586e5aef1657",
+        "cityId": "kyoto",
+        "name": "노노미야 신사",
+        "english": "Nonomiya Shrine · 野宮神社, Nonomiya-jinja",
+        "category": "관광",
+        "image": "/images/commons-069-kyoto-review-586e5aef1657.jpg",
+        "photoCredit": {
+          "file": "/images/commons-069-kyoto-review-586e5aef1657.jpg",
+          "author": "Hyppolyte de Saint-Rambert",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nonomiya-jinja_(Uky%C5%8D-ku_Kyoto)_Shrine_hdsr_S5_02.jpg",
+          "verifiedAt": "2026-10-27"
+        },
+        "description": "아라시야마의 신사·사당. 대나무 풍경를 살펴볼 수 있습니다.",
+        "address": "아라시야마, 교토",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.017731,
+        "lng": 135.674184,
+        "area": "아라시야마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kyoto/Arashiyama",
+            "url": "https://en.wikivoyage.org/wiki/Kyoto/Arashiyama#Nonomiya_Shrine",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kyoto-review-8f456c23b2ef",
+        "cityId": "kyoto",
+        "name": "이마미야 신사",
+        "english": "Imamiya Shrine · 今宮神社, Imamiya-jinja",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "북부의 신사·사당.",
+        "address": "21 Imamiya-cho Murasakino Kita-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.046008,
+        "lng": 135.742039,
+        "area": "북부",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kyoto/North",
+            "url": "https://en.wikivoyage.org/wiki/Kyoto/North#Imamiya_Shrine",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kyoto-review-568990a36576",
+        "cityId": "kyoto",
+        "name": "조난구 신사",
+        "english": "Jōnan-gū Shrine",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "남부의 신사·사당.",
+        "address": "7 Nakashima Tobarikyū-chō, Fushimi-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.951119,
+        "lng": 135.746556,
+        "area": "남부",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kyoto/South",
+            "url": "https://en.wikivoyage.org/wiki/Kyoto/South#J%C5%8Dnan-g%C5%AB_Shrine",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kyoto-review-cd6b7c1644cf",
+        "cityId": "kyoto",
+        "name": "후나오카 온천",
+        "english": "Funaoka Onsen · 船岡温泉",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "교토의 온천·목욕 시설.",
+        "address": "Kyoto, Kita Ward, Murasakino Minamifunaokacho 82-1",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.036912,
+        "lng": 135.744581,
+        "area": "교토",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kyoto",
+            "url": "https://en.wikivoyage.org/wiki/Kyoto#Funaoka_Onsen",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kyoto-review-2d8e48522bdf",
+        "cityId": "kyoto",
+        "name": "교토 문화박물관",
+        "english": "The Museum of Kyoto · 京都文化博物館, kyōto bunka hakubutsukan; 通称, bunpaku",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "도심의 박물관·전시 공간. 지역·역사 자료를 살펴볼 수 있습니다.",
+        "address": "Sanjo Takakura, Nakagyo-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.009389,
+        "lng": 135.762333,
+        "area": "도심",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kyoto/Central",
+            "url": "https://en.wikivoyage.org/wiki/Kyoto/Central#The_Museum_of_Kyoto",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kyoto-review-0e1bc316acc9",
+        "cityId": "kyoto",
+        "name": "이와타야마 원숭이공원",
+        "english": "Iwatayama Monkey Park",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "아라시야마의 동물 관람 시설.",
+        "address": "아라시야마, 교토",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.011061,
+        "lng": 135.676626,
+        "area": "아라시야마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kyoto/Arashiyama",
+            "url": "https://en.wikivoyage.org/wiki/Kyoto/Arashiyama#Iwatayama_Monkey_Park",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kyoto-review-37b0b8476c9d",
+        "cityId": "kyoto",
+        "name": "도지인",
+        "english": "Tōji-in · 等持院",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "북부의 사찰.",
+        "address": "북부, 교토",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.03155,
+        "lng": 135.723469,
+        "area": "북부",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kyoto/North",
+            "url": "https://en.wikivoyage.org/wiki/Kyoto/North#T%C5%8Dji-in",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kyoto-review-29b34e0acd04",
+        "cityId": "kyoto",
+        "name": "다이고지",
+        "english": "Daigo-ji · 醍醐寺",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "남부의 박물관·전시 공간. 지역·역사 자료·세계유산 관련 장소를 살펴볼 수 있습니다.",
+        "address": "22 Higashioji-cho, Daigo",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.951111,
+        "lng": 135.819444,
+        "area": "남부",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kyoto/South",
+            "url": "https://en.wikivoyage.org/wiki/Kyoto/South#Daigo-ji",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kyoto-review-d06e0564f87b",
+        "cityId": "kyoto",
+        "name": "도에이 우즈마사 영화마을",
+        "english": "Toei Kyoto Studio Park · 東映太秦映画村 tōei uzumasa eigamura",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "교토의 공원·정원.",
+        "address": "Kyoto, Ukyo Ward, Uzumasa Higashihachiokacho 10",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.016389,
+        "lng": 135.708333,
+        "area": "교토",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kyoto",
+            "url": "https://en.wikivoyage.org/wiki/Kyoto#Toei_Kyoto_Studio_Park",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kyoto-review-eb58ef6b3823",
+        "cityId": "kyoto",
+        "name": "교토 국제만화박물관",
+        "english": "Kyoto International Manga Museum · 京都国際マンガミュージアム, Kyōto Kokusai Manga Myūjiamu",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "도심의 박물관·전시 공간. 미술 작품 전시를 살펴볼 수 있습니다.",
+        "address": "Kinbuki cho 452, Nagakyō-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.010807,
+        "lng": 135.760009,
+        "area": "도심",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kyoto/Central",
+            "url": "https://en.wikivoyage.org/wiki/Kyoto/Central#Kyoto_International_Manga_Museum",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kyoto-review-67cf0c320956",
+        "cityId": "kyoto",
+        "name": "오타기 넨부쓰지",
+        "english": "Otagi Nenbutsu-ji Temple · 愛宕念仏寺",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "아라시야마의 사찰.",
+        "address": "2-5 Fukatani-chō",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.03135,
+        "lng": 135.661131,
+        "area": "아라시야마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kyoto/Arashiyama",
+            "url": "https://en.wikivoyage.org/wiki/Kyoto/Arashiyama#Otagi_Nenbutsu-ji_Temple",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kyoto-review-68bc9e75ea4c",
+        "cityId": "kyoto",
+        "name": "히라노 신사",
+        "english": "Hirano Shrine · 平野神社",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "북부의 신사·사당.",
+        "address": "Hirano Miyamoto-cho, Kita-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.032448,
+        "lng": 135.732271,
+        "area": "북부",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kyoto/North",
+            "url": "https://en.wikivoyage.org/wiki/Kyoto/North#Hirano_Shrine",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kyoto-review-58b33f07fa06",
+        "cityId": "kyoto",
+        "name": "즈이신인",
+        "english": "Zuishin-in · 随心院",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "남부의 둘러볼 수 있는 장소.",
+        "address": "남부, 교토",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.959494,
+        "lng": 135.816286,
+        "area": "남부",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kyoto/South",
+            "url": "https://en.wikivoyage.org/wiki/Kyoto/South#Zuishin-in",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kyoto-review-0962554e1a2f",
+        "cityId": "kyoto",
+        "name": "니시혼간지",
+        "english": "Nishi Honganji · 西本願寺; “Western Temple of the Original Vow”",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "도심의 사찰. 세계유산 관련 장소를 살펴볼 수 있습니다.",
+        "address": "60 Horikawa-dōri Hanaya-chō Kudaru Honganji Monzen-machi, Shimogyō-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.991778,
+        "lng": 135.751694,
+        "area": "도심",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kyoto/Central",
+            "url": "https://en.wikivoyage.org/wiki/Kyoto/Central#Nishi_Honganji",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kyoto-review-e9e87ec94792",
+        "cityId": "kyoto",
+        "name": "다이카쿠지",
+        "english": "Daikakuji Temple · 大覚寺",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "아라시야마의 사찰.",
+        "address": "4 Saga-Osawa-cho",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.028325,
+        "lng": 135.677803,
+        "area": "아라시야마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kyoto/Arashiyama",
+            "url": "https://en.wikivoyage.org/wiki/Kyoto/Arashiyama#Daikakuji_Temple",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kyoto-review-92e65fe472f5",
+        "cityId": "kyoto",
+        "name": "기타노 텐만구",
+        "english": "Kitano Tenman-gū · 北野天満宮",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "북부의 신사·사당.",
+        "address": "북부, 교토",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.029195,
+        "lng": 135.735008,
+        "area": "북부",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kyoto/North",
+            "url": "https://en.wikivoyage.org/wiki/Kyoto/North#Kitano_Tenman-g%C5%AB",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kyoto-review-4110f2b2d822",
+        "cityId": "kyoto",
+        "name": "간슈지",
+        "english": "Kajū-ji · 勧修寺",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "남부의 사찰.",
+        "address": "27-6 Kanshujiniōdō-chō, Yamashina-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.961214,
+        "lng": 135.807558,
+        "area": "남부",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kyoto/South",
+            "url": "https://en.wikivoyage.org/wiki/Kyoto/South#Kaj%C5%AB-ji",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kyoto-review-c41dc17bb092",
+        "cityId": "kyoto",
+        "name": "히가시혼간지",
+        "english": "Higashi Honganji · 東本願寺 Higashi Honganji; Eastern Temple of the Original Vow",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "도심의 사찰.",
+        "address": "Karasuma Shichi-jō Agaru, Shimogyō-ku, Kyoto 600-8505",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.99143,
+        "lng": 135.75854,
+        "area": "도심",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kyoto/Central",
+            "url": "https://en.wikivoyage.org/wiki/Kyoto/Central#Higashi_Honganji",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kyoto-review-4022d90dd1e7",
+        "cityId": "kyoto",
+        "name": "아다시노 넨부쓰지",
+        "english": "Adashino Nenbutsu-ji · 化野念仏寺",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "아라시야마의 사찰. 대나무 풍경를 살펴볼 수 있습니다.",
+        "address": "아라시야마, 교토",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.026817,
+        "lng": 135.664545,
+        "area": "아라시야마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kyoto/Arashiyama",
+            "url": "https://en.wikivoyage.org/wiki/Kyoto/Arashiyama#Adashino_Nenbutsu-ji",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kyoto-review-b471d5e8e351",
+        "cityId": "kyoto",
+        "name": "묘신지",
+        "english": "Myōshin-ji Temple",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "북부의 사찰.",
+        "address": "64 Hanazono Myōshin-chō, Ukyō-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.02317,
+        "lng": 135.720184,
+        "area": "북부",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kyoto/North",
+            "url": "https://en.wikivoyage.org/wiki/Kyoto/North#My%C5%8Dshin-ji_Temple",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kyoto-review-375dbcb62310",
+        "cityId": "kyoto",
+        "name": "오하라노 신사",
+        "english": "Oharano Shrine · 大原野神社 Ōharano jinja",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "남부의 신사·사당.",
+        "address": "1152 Minami Kasuga-cho Oharano",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.960278,
+        "lng": 135.656111,
+        "area": "남부",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kyoto/South",
+            "url": "https://en.wikivoyage.org/wiki/Kyoto/South#Oharano_Shrine",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kyoto-review-dccde152c855",
+        "cityId": "kyoto",
+        "name": "도지",
+        "english": "Tō-ji · 東寺 Tō-ji; East Temple; Kyō-ō-gokoku-ji (教王護国寺)",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "도심의 사찰.",
+        "address": "Kujyomachi, Minami-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.980556,
+        "lng": 135.747778,
+        "area": "도심",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kyoto/Central",
+            "url": "https://en.wikivoyage.org/wiki/Kyoto/Central#T%C5%8D-ji",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kyoto-review-d98ccf90f5a9",
+        "cityId": "kyoto",
+        "name": "기오지",
+        "english": "Giōji Temple · 祇王寺",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "아라시야마의 사찰.",
+        "address": "아라시야마, 교토",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 35.023363,
+        "lng": 135.666765,
+        "area": "아라시야마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kyoto/Arashiyama",
+            "url": "https://en.wikivoyage.org/wiki/Kyoto/Arashiyama#Gi%C5%8Dji_Temple",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kyoto-review-c1b661113628",
+        "cityId": "kyoto",
+        "name": "로쿠하라미쓰지",
+        "english": "Rokuharamitsu-ji · 六波羅蜜寺",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "히가시야마의 박물관·전시 공간.",
+        "address": "81-1 Rokuro-cho 2-chome, Matsubara-dori, Higashiyama-ku",
+        "duration": "자유롭게 관람",
+        "cost": "현장·공식 안내에서 확인",
+        "tip": "영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.",
+        "lat": 34.99711,
+        "lng": 135.773329,
+        "area": "히가시야마",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kyoto/Higashiyama",
+            "url": "https://en.wikivoyage.org/wiki/Kyoto/Higashiyama#Rokuharamitsu-ji",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-14",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 공동 편집 가이드의 장소 항목·위치 정보를 확인했습니다. 광고 금지 정책을 읽고 판매 유도·제휴 링크·계절 행사·폐업 안내 항목을 제외했습니다. 개인 블로그 방문 후기와 구분하며 숨겨진 이해관계나 현재 영업 상태를 보증하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "kyoto-dining-14b86ecf1d",
+        "cityId": "kyoto",
+        "name": "토랸세",
+        "english": "Toryanse · 通りゃんせ",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "철학의 길 주변의 비건 선택지가 있는 식당입니다.",
+        "address": "철학의 길 주변, 교토",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·공식 안내에서 확인",
+        "tip": "철학의 길 산책 중 식사 후보입니다. 식단 제한을 주문 전에 확인하세요.",
+        "lat": 35.015371,
+        "lng": 135.794939,
+        "area": "히가시야마·기온",
+        "reviewSources": [
+          {
+            "title": "Kyoto/Higashiyama · 식사·휴식",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Kyoto/Higashiyama&oldid=5384571",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-17",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 eat/drink 항목을 확인했습니다. 광고 금지 편집 정책의 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "kyoto-dining-9b8932b2ac",
+        "cityId": "kyoto",
+        "name": "사료 츠지리 기온 본점",
+        "english": "Saryou Tsuriji · 茶寮都路里",
+        "category": "카페",
+        "image": "/images/place-placeholder.svg",
+        "description": "기온에서 말차 파르페와 디저트를 고를 수 있는 찻집입니다.",
+        "address": "573-3 Minami-gawa, Gion-cho, Kyoto, Japan",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·공식 안내에서 확인",
+        "tip": "야사카 신사·기온 산책 뒤 휴식 후보입니다. 혼잡 시 대기와 마지막 주문 시간을 확인하세요.",
+        "lat": 35.002991,
+        "lng": 135.776407,
+        "area": "히가시야마·기온",
+        "reviewSources": [
+          {
+            "title": "Kyoto/Higashiyama · 식사·휴식",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Kyoto/Higashiyama&oldid=5384571",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-17",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 eat/drink 항목을 확인했습니다. 광고 금지 편집 정책의 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "kyoto-dining-20a211e4df",
+        "cityId": "kyoto",
+        "name": "스위츠 파라다이스 시조카와라마치점",
+        "english": "Sweets Paradise · スイーツパラダイス",
+        "category": "카페",
+        "image": "/images/place-placeholder.svg",
+        "description": "시조카와라마치의 케이크·디저트 뷔페 매장입니다.",
+        "address": "392 Komeya-cho, Nakagyo-ku (Koto Cross Hankyu Kawaramachi, 6th Floor), Kyoto, Japan",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·공식 안내에서 확인",
+        "tip": "이용 코스·제한 시간·예약 여부는 매장 공식 안내를 확인하세요.",
+        "lat": 35.004023,
+        "lng": 135.769618,
+        "area": "히가시야마·기온",
+        "reviewSources": [
+          {
+            "title": "Kyoto/Higashiyama · 식사·휴식",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Kyoto/Higashiyama&oldid=5384571",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-17",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 eat/drink 항목을 확인했습니다. 광고 금지 편집 정책의 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "kyoto-dining-86fb62f22b",
+        "cityId": "kyoto",
+        "name": "기온 택",
+        "english": "Gion TAC · 祇園TAC",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "기온 골목에 있는 이탈리아 음식점입니다.",
+        "address": "京都市東山区末吉町８８−１, Kyoto, Japan",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·공식 안내에서 확인",
+        "tip": "기온에서 저녁을 먹을 때 비교할 후보입니다. 예약·운영일을 먼저 확인하세요.",
+        "lat": 35.00492,
+        "lng": 135.774344,
+        "area": "히가시야마·기온",
+        "reviewSources": [
+          {
+            "title": "Kyoto/Higashiyama · 식사·휴식",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Kyoto/Higashiyama&oldid=5384571",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-17",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 eat/drink 항목을 확인했습니다. 광고 금지 편집 정책의 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "kyoto-dining-7c2da3eeec",
+        "cityId": "kyoto",
+        "name": "기쿠노이 본점",
+        "english": "Kikunoi (main restaurant) · 菊乃井本店",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "히가시야마에서 제철 가이세키 코스를 제공하는 요정입니다.",
+        "address": "459 Shimokawara-cho, Yasakatoriimae-sagaru, Shimokawara-dori, Kyoto, Japan",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·공식 안내에서 확인",
+        "tip": "예약을 우선 확인하고 코스·복장·식이 제한·취소 조건을 함께 확인하세요.",
+        "lat": 35.001797,
+        "lng": 135.781991,
+        "area": "히가시야마·기온",
+        "reviewSources": [
+          {
+            "title": "Kyoto/Higashiyama · 식사·휴식",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Kyoto/Higashiyama&oldid=5384571",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-17",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 eat/drink 항목을 확인했습니다. 광고 금지 편집 정책의 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "kyoto-dining-5e1341e7fd",
+        "cityId": "kyoto",
+        "name": "기온 갓파",
+        "english": "Gion Kappa Restaurant",
+        "category": "맛집",
+        "image": "/images/kyoto-dining-5e1341e7fd-126.jpg",
+        "photoCredit": {
+          "file": "/images/kyoto-dining-5e1341e7fd-126.jpg",
+          "author": "Mx. Granger",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gion_Kappa_Restaurant_in_Kyoto.jpg",
+          "verifiedAt": "2026-10-17"
+        },
+        "description": "기온에서 일본식 안주와 식사를 고를 수 있는 이자카야입니다.",
+        "address": "Higashiyama-ku, Sueyoshichō, 八坂新地末吉町77, Kyoto, Japan",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·공식 안내에서 확인",
+        "tip": "예약 가능 여부와 좌석·금연 조건을 확인하세요.",
+        "lat": 35.005004,
+        "lng": 135.77304,
+        "area": "히가시야마·기온",
+        "reviewSources": [
+          {
+            "title": "Kyoto/Higashiyama · 식사·휴식",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Kyoto/Higashiyama&oldid=5384571",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-17",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 eat/drink 항목을 확인했습니다. 광고 금지 편집 정책의 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "kyoto-balance-a399aaa2bc",
+        "cityId": "kyoto",
+        "name": "무사시 스시 산조점",
+        "english": "Musashi Sushi",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "회전초밥을 고를 수 있는 산조의 초밥집입니다.",
+        "address": "도심, 교토",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "지점과 주문 방식, 식단 제한을 확인하고 식사 일정에 넣어 보세요. 메뉴·영업시간은 방문 전 확인하세요.",
+        "area": "도심",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kyoto/Central",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Kyoto/Central&oldid=5380622",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 eat 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "kyoto-balance-9b756093a0",
+        "cityId": "kyoto",
+        "name": "호텔 몬토레 교토",
+        "english": "Hotel Monterey Kyoto",
+        "category": "숙소",
+        "image": "/images/place-placeholder.svg",
+        "description": "도심에서 교토 여행의 숙박 거점을 비교할 수 있는 호텔입니다.",
+        "address": "3 Jyo Minami Karasuma-dori, Nakagyo-ku",
+        "duration": "숙박 일정에 맞춰 지정",
+        "cost": "숙박일·객실·공식 안내에서 확인",
+        "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+        "area": "도심",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kyoto/Central",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Kyoto/Central&oldid=5380622",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "kyoto-balance-8c96335a64",
+        "cityId": "kyoto",
+        "name": "마루후쿠로",
+        "english": "Marufukuro",
+        "category": "숙소",
+        "image": "/images/place-placeholder.svg",
+        "description": "옛 닌텐도 본사 건물을 활용한 소규모 호텔입니다.",
+        "address": "No. 342, Kagiyamachi, Kamogawa Nishiiri, Maedori",
+        "duration": "숙박 일정에 맞춰 지정",
+        "cost": "숙박일·객실·공식 안내에서 확인",
+        "tip": "숙박일의 객실·취소 조건·체크인 시간과 공항·역에서의 이동 동선을 비교하세요.",
+        "lat": 34.99173,
+        "lng": 135.76627,
+        "area": "도심",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kyoto/Central",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Kyoto/Central&oldid=5380622",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 sleep 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "kyoto-balance-602ff118c5",
+        "cityId": "kyoto",
+        "name": "사케 바 요라무",
+        "english": "Sake Bar Yoramu · 酒ＢＡＲよらむ",
+        "category": "바·공연",
+        "image": "/images/place-placeholder.svg",
+        "description": "여러 종류의 사케를 비교하며 맛볼 수 있는 바입니다.",
+        "address": "Nijo-dori east of Karasuma",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "공연 일정·입장 연령·드레스 코드·입장료와 최소 주문 조건을 방문 전 확인하세요.",
+        "area": "도심",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kyoto/Central",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Kyoto/Central&oldid=5380622",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "kyoto-balance-73122530a7",
+        "cityId": "kyoto",
+        "name": "케이야",
+        "english": "K-ya · K Bar, Bar K",
+        "category": "바·공연",
+        "image": "/images/place-placeholder.svg",
+        "description": "교토 도심 골목의 칵테일 바입니다.",
+        "address": "105 Yaoya-cho, Gokomachi-nishiiru, Rokkaku-dori, Nakagyo-ku",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "공연 일정·입장 연령·드레스 코드·입장료와 최소 주문 조건을 방문 전 확인하세요.",
+        "area": "도심",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kyoto/Central",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Kyoto/Central&oldid=5380622",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 drink 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "kyoto-balance-287d25639a",
+        "cityId": "kyoto",
+        "name": "카멜리아 다도 체험",
+        "english": "Camellia, Tea Ceremony · 茶道体験カメリア",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "전통 가옥에서 다도 시연과 차 준비 과정을 경험하는 공간입니다.",
+        "address": "349 Masuya-cho, Higashiyama-ku, Kyoto 6050826",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "운영 회차·예약·참가 조건을 확인하세요. 물놀이와 야외 활동은 당일 날씨·안전 안내를 따르세요.",
+        "lat": 34.998281,
+        "lng": 135.780819,
+        "area": "히가시야마·기온",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kyoto/Higashiyama",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Kyoto/Higashiyama&oldid=5384571",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 do 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "kyoto-balance-a3c44f2870",
+        "cityId": "kyoto",
+        "name": "니시진 직물센터",
+        "english": "Nishijin Textile Center · 西陣織会館 Nishijin-ori Kaikan",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "니시진 직물과 직조 문화를 접할 수 있는 공간입니다.",
+        "address": "Horikawa-Imadegawa",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "운영 회차·예약·참가 조건을 확인하세요. 물놀이와 야외 활동은 당일 날씨·안전 안내를 따르세요.",
+        "area": "도심",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kyoto/Central",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Kyoto/Central&oldid=5380622",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 do 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "kyoto-balance-76f15f0d0d",
+        "cityId": "kyoto",
+        "name": "라쿠시샤 종이공예점",
+        "english": "Rakushisha Paper Crafts · 洛紙舎",
+        "category": "쇼핑",
+        "image": "/images/place-placeholder.svg",
+        "description": "종이공예품과 일본풍 그림을 살펴볼 수 있는 기념품 가게입니다.",
+        "address": "549-2 Nishinomon-cho",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "품목과 매장별 운영시간을 확인하고 구입할 물건을 정해 둘러보세요.",
+        "lat": 34.989114,
+        "lng": 135.771067,
+        "area": "히가시야마·기온",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kyoto/Higashiyama",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Kyoto/Higashiyama&oldid=5384571",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 buy 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "kyoto-balance-71c92f0cf7",
+        "cityId": "kyoto",
+        "name": "준쿠도 교토점",
+        "english": "Junkudo",
+        "category": "쇼핑",
+        "image": "/images/place-placeholder.svg",
+        "description": "여행 서적과 다양한 분야의 책을 찾을 수 있는 서점입니다.",
+        "address": "도심, 교토",
+        "duration": "직접 체류시간 지정",
+        "cost": "메뉴·이용 조건·공식 안내에서 확인",
+        "tip": "품목과 매장별 운영시간을 확인하고 구입할 물건을 정해 둘러보세요.",
+        "area": "도심",
+        "reviewSources": [
+          {
+            "title": "Wikivoyage · Kyoto/Central",
+            "url": "https://en.wikivoyage.org/w/index.php?title=Kyoto/Central&oldid=5380622",
+            "kind": "traveler-guide",
+            "checkedAt": "2026-10-18",
+            "license": "CC BY-SA 4.0",
+            "sponsorshipCheck": "no-disclosure-found",
+            "screeningNote": "여행자 가이드의 실제 buy 항목에서 이름·지점·주소·설명을 읽고 분류했습니다. 광고 금지 편집 정책의 공동 편집 자료이며 현재 영업·가격·예약 가능 여부는 별도로 확인하지 않았습니다."
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "id": "kyoto-overview",
+        "title": "도시 소개",
+        "body": "동쪽 히가시야마와 서쪽 아라시야마를 날짜로 나누면 이동에 쓰는 시간을 줄일 수 있습니다."
+      },
+      {
+        "id": "kyoto-before",
+        "title": "출발 전 준비",
+        "body": "인기 사찰 특별관람·미술관은 여행 날짜의 휴관·입장 조건을 확인하세요.\n\n기모노·체험 예약이 있으면 반납 장소와 마지막 시간을 동선의 끝에 맞추세요."
+      },
+      {
+        "id": "kyoto-arrival",
+        "title": "공항과 시내 이동",
+        "body": "간사이 공항 도착: 교토까지 가는 철도·공항버스를 숙소의 가까운 역·정류장 기준으로 비교하세요. 오사카 시내를 불필요하게 경유하지 않도록 환승 경로를 확인합니다.\n\n시내 이동: 동서로 긴 이동은 철도와 도보를 조합하고, 버스 혼잡 시간에는 방문 구역 자체를 줄이세요."
+      },
+      {
+        "id": "kyoto-stay",
+        "title": "숙소 지역 선택",
+        "body": "교토역: 간사이 공항과 다른 도시로 이동하는 날이 많거나 큰 짐이 있으면 우선 비교하세요.\n\n가와라마치·기온 주변: 저녁 식사와 동쪽 골목 산책에 편합니다. 숙소 앞 도로의 야간 소음·버스 접근을 확인하세요."
+      },
+      {
+        "id": "kyoto-plan",
+        "title": "일정 계획",
+        "body": "하루: 히가시야마 또는 아라시야마 중 한 구역에 집중하세요.\n\n2–3일: 동쪽 하루·서쪽 하루를 먼저 잡고 후시미나 도심을 남는 날에 배치하세요."
+      },
+      {
+        "id": "kyoto-notes",
+        "title": "현장 팁",
+        "body": "아라시야마·킨카쿠지·기요미즈데라를 반나절에 모두 넣지 마세요.\n\n언덕·계단이 있는 히가시야마는 짐 보관을 먼저 정하고 편한 신발로 이동하세요."
+      },
+      {
+        "id": "kyoto-rain",
+        "title": "비 오는 날",
+        "body": "교토시 교세라 미술관 등 실내 관람을 먼저 정하고 가까운 산책만 남기세요. 휴관일과 전시별 입장권은 확인이 필요합니다."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Japan-guide · 교토",
+        "url": "https://www.japan-guide.com/e/e2158.html",
+        "accessedAt": "2026-10-15"
+      }
+    ],
+    "status": "published",
+    "requestId": null,
+    "createdAt": "2026-10-15T00:00:00.000Z",
+    "updatedAt": "2026-10-15T00:00:00.000Z",
+    "publishedAt": "2026-10-15T00:00:00.000Z"
+  },
+  "practicalGuide": {
+    "cityId": "kyoto",
+    "firstVisit": "동쪽 히가시야마와 서쪽 아라시야마를 날짜로 나누면 이동에 쓰는 시간을 줄일 수 있습니다.",
+    "bases": [
+      {
+        "name": "교토역",
+        "advice": "간사이 공항과 다른 도시로 이동하는 날이 많거나 큰 짐이 있으면 우선 비교하세요."
+      },
+      {
+        "name": "가와라마치·기온 주변",
+        "advice": "저녁 식사와 동쪽 골목 산책에 편합니다. 숙소 앞 도로의 야간 소음·버스 접근을 확인하세요."
+      }
+    ],
+    "arrival": [
+      {
+        "name": "간사이 공항 도착",
+        "advice": "교토까지 가는 철도·공항버스를 숙소의 가까운 역·정류장 기준으로 비교하세요. 오사카 시내를 불필요하게 경유하지 않도록 환승 경로를 확인합니다."
+      },
+      {
+        "name": "시내 이동",
+        "advice": "동서로 긴 이동은 철도와 도보를 조합하고, 버스 혼잡 시간에는 방문 구역 자체를 줄이세요."
+      }
+    ],
+    "timePlan": [
+      {
+        "name": "하루",
+        "advice": "히가시야마 또는 아라시야마 중 한 구역에 집중하세요."
+      },
+      {
+        "name": "2–3일",
+        "advice": "동쪽 하루·서쪽 하루를 먼저 잡고 후시미나 도심을 남는 날에 배치하세요."
+      }
+    ],
+    "before": [
+      "인기 사찰 특별관람·미술관은 여행 날짜의 휴관·입장 조건을 확인하세요.",
+      "기모노·체험 예약이 있으면 반납 장소와 마지막 시간을 동선의 끝에 맞추세요."
+    ],
+    "pitfalls": [
+      "아라시야마·킨카쿠지·기요미즈데라를 반나절에 모두 넣지 마세요.",
+      "언덕·계단이 있는 히가시야마는 짐 보관을 먼저 정하고 편한 신발로 이동하세요."
+    ],
+    "rainPlan": "교토시 교세라 미술관 등 실내 관람을 먼저 정하고 가까운 산책만 남기세요. 휴관일과 전시별 입장권은 확인이 필요합니다.",
+    "courses": [
+      {
+        "id": "kyoto-course-1",
+        "title": "히가시야마에서 기온까지",
+        "pace": "반나절–하루 · 도보",
+        "why": "동쪽 사찰과 골목을 한 방향으로 이어 걷는 제안입니다.",
+        "placeIds": [
+          "kiyomizu",
+          "kyoto-review-abea75631b76",
+          "gion"
+        ]
+      },
+      {
+        "id": "kyoto-course-2",
+        "title": "아라시야마에 집중하는 날",
+        "pace": "반나절 · 철도 이동 후 도보",
+        "why": "아라시야마 안의 정원·대나무숲·강변만 묶습니다.",
+        "placeIds": [
+          "kyoto-review-67044d7dcd97",
+          "kyoto-review-84598141b54d",
+          "kyoto-review-e6ed09efb32b"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "Japan-guide · 교토",
+        "url": "https://www.japan-guide.com/e/e2158.html",
+        "checkedAt": "2026-10-15",
+        "status": "read"
+      }
+    ],
+    "researchNote": "여행 안내 본문을 읽고 지역별 계획을 편집했습니다. 코스는 직접 작성한 제안이며 이동시간·예약 가능 여부를 실시간 계산한 결과가 아닙니다."
+  },
+  "plans": {
+    "cityId": "kyoto",
+    "days": [
+      {
+        "id": "kyoto-day-1",
+        "title": "히가시야마에서 기온까지",
+        "pace": "반나절–하루 · 도보",
+        "why": "동쪽 사찰과 골목을 한 방향으로 이어 걷는 제안입니다.",
+        "placeIds": [
+          "kiyomizu",
+          "kyoto-review-abea75631b76",
+          "gion"
+        ]
+      },
+      {
+        "id": "kyoto-day-2",
+        "title": "아라시야마에 집중하는 날",
+        "pace": "반나절 · 철도 이동 후 도보",
+        "why": "아라시야마 안의 정원·대나무숲·강변만 묶습니다.",
+        "placeIds": [
+          "kyoto-review-67044d7dcd97",
+          "kyoto-review-84598141b54d",
+          "kyoto-review-e6ed09efb32b"
+        ]
+      },
+      {
+        "id": "kyoto-day-3",
+        "title": "후시미의 붉은 도리이와 도심 시장",
+        "pace": "철도·도보",
+        "why": "후시미 이나리는 오전에 보고 도심으로 돌아와 시장에서 식사합니다.",
+        "placeIds": [
+          "fushimi",
+          "kyoto-review-dc3a3df10526",
+          "nishiki"
+        ]
+      },
+      {
+        "id": "kyoto-day-4",
+        "title": "북부 사찰과 정원",
+        "pace": "버스·도보",
+        "why": "킨카쿠지와 료안지를 같은 날에 묶습니다. 버스 이동과 정원 관람에 여유를 둡니다.",
+        "placeIds": [
+          "kyoto-review-87a373e9da3f",
+          "kyoto-review-8ce5c3eb4590",
+          "kyoto-review-8dce7ff01b89"
+        ]
+      },
+      {
+        "id": "kyoto-day-5",
+        "title": "니조성과 교토 도심 문화",
+        "pace": "철도·도보",
+        "why": "도심 실내 관람을 중심으로 쉬어 가는 날입니다. 박물관 휴관일에 맞춰 날짜를 바꾸세요.",
+        "placeIds": [
+          "kyoto-review-ed13761d9aeb",
+          "kyoto-review-eb58ef6b3823",
+          "kyoto-review-2d8e48522bdf"
+        ]
+      }
+    ]
+  }
+}
