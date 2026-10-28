@@ -1,0 +1,22 @@
+{
+  "version": "0.73",
+  "versionCode": 74,
+  "webAssets": 235,
+  "bytes": 41209389,
+  "sha256": "d52cb5057966f11debe50a099a744fb9a04e9947d4bb17bce10d34a0fef19a05",
+  "certificateSha256": "0d1b1f20dae73d00626d9ebb4f460943c4f16c2266bc7bc58d124d13b32494ac",
+  "privateSigningFiles": 0,
+  "publicUrl": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/c3ac96a1a31a4733a4954c373b4e249d5cc814e8/JDo-android-0.73.apk",
+  "publicHttp": 200,
+  "publicDownloadSha256": "d52cb5057966f11debe50a099a744fb9a04e9947d4bb17bce10d34a0fef19a05",
+  "sourceCommit": "a54ee42",
+  "checks": {
+    "newFlowMobile": 10,
+    "newFlowDesktop": 10,
+    "existingMobileRegression": 65,
+    "traceFolderCollision": "Parallel test processes shared the trace folder; final new-flow and affected regression cases rerun separately and passed.",
+    "legacyDraftTimeTest": "Aligned one pre-0.62 new-draft time expectation to the existing untimed-add contract; coordinates and memo preservation still checked."
+  },
+  "deviceInstallVerified": false,
+  "liveExternalSearchQualityVerified": false
+}
