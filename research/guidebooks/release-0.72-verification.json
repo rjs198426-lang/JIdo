@@ -1,0 +1,28 @@
+{
+  "version": "0.72",
+  "versionCode": 73,
+  "webAssets": 235,
+  "bytes": 41208613,
+  "sha256": "36d820f5e709c00b434f3e6bd8ff5f62a1346757f8fa64a91172a4a4c95c3080",
+  "certificateSha256": "0d1b1f20dae73d00626d9ebb4f460943c4f16c2266bc7bc58d124d13b32494ac",
+  "privateSigningFiles": 0,
+  "publicUrl": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/50929e8c6fe14f730fd51d33c4dd0e9ddc70f5ae/JDo-android-0.72.apk",
+  "publicHttp": 200,
+  "publicDownloadSha256": "36d820f5e709c00b434f3e6bd8ff5f62a1346757f8fa64a91172a4a4c95c3080",
+  "sourceCommit": "71dcc0b",
+  "guidebookCheckWorkflow": "https://github.com/rjs198426-lang/JIdo/actions/runs/40636486847",
+  "guidebookCheckConclusion": "success",
+  "publicGuidebooks": {
+    "manifestHttp": 200,
+    "manifestSha256": "7ae3a3f7d657fa39c3f5f3ad82e478bd35fae2d42cee366d028dc87d4647f961",
+    "verifiedCityFiles": 24,
+    "verifiedPlaceCount": 144
+  },
+  "checks": {
+    "guidebookMobile": 18,
+    "guidebookDesktop": 18,
+    "existingMobileRegression": 45,
+    "rebuiltPreview404": "One desktop case rerun successfully after preview index was replaced during build."
+  },
+  "deviceInstallVerified": false
+}
