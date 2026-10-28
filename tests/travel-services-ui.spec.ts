@@ -67,6 +67,7 @@ async function seed(page: Page) {
 async function openNativeSettings(page: Page) {
   await nativeServicesFixture(page)
   await seed(page)
+  await page.locator('.bottom-nav:visible,.desktop-nav:visible').getByRole('button', { name: '설정', exact: true }).click()
   await page
     .getByRole('button', { name: '여행 알림 설정', exact: true })
     .click()
@@ -336,6 +337,7 @@ test('여행 날짜 수정·삭제 후에는 이전 알림을 남기지 않음',
     .getByRole('dialog')
     .getByRole('button', { name: '닫기', exact: true })
     .click()
+  await page.locator('.bottom-nav:visible,.desktop-nav:visible').getByRole('button', { name: '홈', exact: true }).click()
   await openTrips(page)
   await page
     .getByRole('button', { name: '여행 정보 수정', exact: true })

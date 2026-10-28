@@ -37,6 +37,10 @@ test('설정 탭에서 앱 버전·알림·위치·출처를 열고 돌아오기
   await page.goto('/')
   for (const width of [320, 393, 1440]) {
     await page.setViewportSize({ width, height: 850 })
+    await page.locator('.bottom-nav:visible,.desktop-nav:visible').getByRole('button', { name: '홈', exact: true }).click()
+    await expect(page.getByRole('button', { name: '여행 알림 설정', exact: true })).toHaveCount(0)
+    await expect(page.getByRole('button', { name: '내 주변 맛집', exact: true })).toHaveCount(0)
+    await expect(page.locator('.home-service-links')).toHaveCount(0)
     await page.locator('.bottom-nav:visible,.desktop-nav:visible').getByRole('button', { name: '설정', exact: true }).click()
     await expect(page.getByRole('heading', { name: '설정', exact: true })).toBeVisible()
     await expect(page.locator('.settings-version')).toContainText(readFileSync(new URL('../android/app/build.gradle', import.meta.url), 'utf8').match(/versionName\s+"([^"]+)"/)![1])

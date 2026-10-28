@@ -1575,26 +1575,6 @@ body {
 }
 
 /* 0.63: optional local reminders and foreground location. */
-:root .home-service-links {
-  display: flex;
-  gap: 8px;
-  margin: 0 0 20px;
-}
-:root .home-service-links > button {
-  display: flex;
-  flex: 1;
-  align-items: center;
-  justify-content: center;
-  gap: 6px;
-  min-height: 44px;
-  padding: 10px 8px;
-  border: 1px solid var(--line);
-  border-radius: 12px;
-  background: white;
-  color: var(--green);
-  font-size: 14px;
-  white-space: nowrap;
-}
 :root .reminder-options {
   display: flex;
   flex-direction: column;
@@ -1906,9 +1886,6 @@ body {
 :root .timeline-workspace .stop-card { padding: 14px; }
 :root .timeline-workspace .stop-place strong { font-size: 17px; }
 :root .home-context-nav button { background: transparent; border-radius: 10px; }
-:root .home-service-links { gap: 0; border-block: 1px solid var(--line); }
-:root .home-service-links > button { background: transparent; border: 0; border-radius: 0; }
-:root .home-service-links > button + button { border-left: 1px solid var(--line); }
 :root .dashboard-cards { gap: 0; padding: 0 16px; border-radius: 16px; background: white; }
 :root .dashboard-cards > button { padding: 14px 0; border-radius: 0; background: transparent; gap: 6px; }
 :root .dashboard-cards > button + button { border-top: 1px solid var(--line); }

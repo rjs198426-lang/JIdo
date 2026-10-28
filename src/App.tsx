@@ -2429,8 +2429,6 @@ export default function App() {
         {page === 'home' && (
           <TravelHome
             journey={home}
-            onReminders={() => setDialog({ type: 'reminders' })}
-            onNearby={() => setDialog({ type: 'nearby' })}
             trips={store.trips}
             cities={cityCards(
               home?.personalized
