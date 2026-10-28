@@ -1,3 +1,4 @@
+import { getCity } from './catalog'
 import { destinationForDay, type Trip, type Destination } from './travel-model'
 const cityZones: Record<string, string> = {
   kyoto: 'Asia/Tokyo',
@@ -49,6 +50,7 @@ export function validTimeZone(zone: string) {
 export function destinationTimeZone(destination: Destination) {
   return (
     destination.timeZone ||
+    getCity(destination.guideCityId || '')?.timeZone ||
     cityZones[destination.guideCityId || ''] ||
     countryZones[destination.country]
   )

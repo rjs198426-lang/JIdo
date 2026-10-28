@@ -1,0 +1,158 @@
+{
+  "id": "book-kualalumpur",
+  "scope": "city",
+  "city": {
+    "id": "book-kualalumpur",
+    "name": "쿠알라룸푸르",
+    "english": "Kuala Lumpur",
+    "country": "말레이시아",
+    "region": "동남아",
+    "image": "/images/guide-placeholder.svg",
+    "tagline": "도심 철도와 시장·다문화 식사를 함께",
+    "description": "쿠알라룸푸르는 고층 건물의 도심과 역사 지구·시장·종교 공간을 함께 볼 수 있는 도시입니다. KLCC·부킷빈탕·구도심을 구역별로 나누고 낮 더위와 소나기를 피할 실내 후보를 정해두세요.",
+    "tags": [
+      "도시 산책",
+      "여행 준비"
+    ],
+    "flight": "항공편·출발 공항에 따라 다름",
+    "currency": "말레이시아 링깃 · MYR",
+    "timeDifference": "한국보다 1시간 느림",
+    "timeZone": "Asia/Kuala_Lumpur",
+    "season": "연중 더위·습도와 오후 강우에 대비",
+    "accent": "#e7f1ef"
+  },
+  "places": [
+    {
+      "id": "book-kualalumpur-petronas-twin-towers",
+      "cityId": "book-kualalumpur",
+      "name": "페트로나스 트윈타워",
+      "english": "PETRONAS Twin Towers",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "도심의 대표적인 고층 건물입니다. 외관 감상과 유료 관람의 조건을 구분하세요.",
+      "address": "KLCC, Kuala Lumpur",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+    },
+    {
+      "id": "book-kualalumpur-klcc-park",
+      "cityId": "book-kualalumpur",
+      "name": "KLCC 공원",
+      "english": "KLCC Park",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "타워 주변에서 쉬며 산책하는 공원입니다. 날씨와 현장 이용 안내를 확인하세요.",
+      "address": "Kuala Lumpur",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+    },
+    {
+      "id": "book-kualalumpur-batu-caves",
+      "cityId": "book-kualalumpur",
+      "name": "바투동굴",
+      "english": "Batu Caves",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "쿠알라룸푸르 근교의 종교 공간입니다. 시내 한복판 장소로 생각하지 말고 복장과 계단을 고려하세요.",
+      "address": "Gombak, Selangor",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+    },
+    {
+      "id": "book-kualalumpur-merdeka-square",
+      "cityId": "book-kualalumpur",
+      "name": "메르데카 광장",
+      "english": "Merdeka Square",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "역사 건축과 함께 둘러보는 중심부 광장입니다.",
+      "address": "Kuala Lumpur",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+    },
+    {
+      "id": "book-kualalumpur-central-market",
+      "cityId": "book-kualalumpur",
+      "name": "센트럴마켓",
+      "english": "Central Market",
+      "category": "쇼핑",
+      "image": "/images/place-placeholder.svg",
+      "description": "공예품과 기념품을 비교해 보는 상업 공간입니다. 가게별 가격·품질을 확인하세요.",
+      "address": "Kuala Lumpur",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+    },
+    {
+      "id": "book-kualalumpur-jalan-alor",
+      "cityId": "book-kualalumpur",
+      "name": "잘란알로 먹거리 거리",
+      "english": "Jalan Alor",
+      "category": "맛집",
+      "image": "/images/place-placeholder.svg",
+      "description": "여러 식당이 모인 거리입니다. 특정 업소 추천이나 매일의 영업 보장은 아닙니다.",
+      "address": "Bukit Bintang, Kuala Lumpur",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+    }
+  ],
+  "sections": [
+    {
+      "id": "book-kualalumpur-overview",
+      "title": "도시 한눈에",
+      "body": "쿠알라룸푸르는 고층 건물의 도심과 역사 지구·시장·종교 공간을 함께 볼 수 있는 도시입니다. KLCC·부킷빈탕·구도심을 구역별로 나누고 낮 더위와 소나기를 피할 실내 후보를 정해두세요.\n\n통화: 말레이시아 링깃 · MYR\n시차: 한국보다 1시간 느림\n여행 계절: 연중 더위·습도와 오후 강우에 대비"
+    },
+    {
+      "id": "book-kualalumpur-before",
+      "title": "출발 전 준비",
+      "body": "여권과 입국 허가·비자 요건은 국적·방문 목적에 맞춰 정부 안내를 확인하세요. 해외 사용 가능한 결제 수단, 통신과 여행자보험을 준비하고 숙소·항공권은 오프라인에서도 확인할 수 있게 보관하세요."
+    },
+    {
+      "id": "book-kualalumpur-arrival",
+      "title": "공항에서 숙소까지",
+      "body": "항공권의 공항 코드를 확인하고 KLIA의 터미널도 구분하세요. 철도·버스·예약 차량은 숙소까지의 환승과 마지막 도보를 포함해 비교하세요. 공항역과 도심 역 이름을 혼동하지 마세요."
+    },
+    {
+      "id": "book-kualalumpur-stay",
+      "title": "어느 동네에 묵을까",
+      "body": "KLCC는 도심 경관과 공원, 부킷빈탕은 식사와 쇼핑 접근을 비교하기 좋습니다. 이동을 자주 한다면 철도역 출구와 숙소 보행 연결을 먼저 보고, 숙소의 도로 건너편 이동이 쉬운지도 확인하세요."
+    },
+    {
+      "id": "book-kualalumpur-food",
+      "title": "먹거리와 동네 쇼핑",
+      "body": "나시르막·로티차나이 등 다양한 음식을 고를 수 있습니다. 잘란알로는 먹거리 구역이며 상점별 영업·가격이 다릅니다. 종교·식문화가 다양하므로 할랄·주류·식재료 조건은 업소별로 확인하세요."
+    },
+    {
+      "id": "book-kualalumpur-days",
+      "title": "처음 가는 3일 여행",
+      "body": "1일: KLCC 공원 → 트윈타워 주변. 전망대는 예약 시간에 맞춰 별도로 계획하세요.\n\n2일: 메르데카 광장 → 센트럴마켓 → 구도심 식사.\n\n3일: 바투동굴 또는 도심 쇼핑·실내 관람. 시외 방문과 공항 이동을 과하게 묶지 마세요.\n\n일정 초안이며 자동 경로·이동시간 계산 결과가 아닙니다. 운영과 취향에 맞춰 선택하세요."
+    },
+    {
+      "id": "book-kualalumpur-notes",
+      "title": "예약과 현장 팁",
+      "body": "종교 공간은 복장과 신발·촬영 안내를 따르세요. 바투동굴은 계단과 더위를 고려하고 큰 비에는 야외 동선을 줄이세요. 카드와 소액 현금을 함께 준비하되 업소별 결제 가능 여부를 확인하세요."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Malaysia Truly Asia - Top Place to Visit in Kuala Lumpur",
+      "url": "https://www.malaysia.travel/explore/top-places-to-visit-in-kuala-lumpur",
+      "accessedAt": "2026-10-28"
+    },
+    {
+      "title": "Malaysia Truly Asia - Home - Malaysia.travel",
+      "url": "https://www.malaysia.travel/",
+      "accessedAt": "2026-10-28"
+    }
+  ],
+  "status": "published",
+  "requestId": null,
+  "createdAt": "2026-10-28T05:07:12.733Z",
+  "updatedAt": "2026-10-28T05:07:12.733Z",
+  "publishedAt": "2026-10-28T05:07:12.733Z"
+}

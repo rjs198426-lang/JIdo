@@ -1,0 +1,153 @@
+{
+  "id": "book-bohol",
+  "scope": "city",
+  "city": {
+    "id": "book-bohol",
+    "name": "보홀·팡라오",
+    "english": "Bohol & Panglao",
+    "country": "필리핀",
+    "region": "동남아",
+    "image": "/images/guide-placeholder.svg",
+    "tagline": "팡라오에서 쉬고 보홀 내륙을 하루 골라 보기",
+    "description": "보홀은 팡라오의 해변·리조트와 본섬의 내륙 자연을 함께 즐기는 여행지입니다. 해변 숙소에서 초콜릿힐스 등 내륙을 다녀오는 날은 별도로 구분하고, 바다 체험과 긴 차량 투어를 무리하게 연달아 넣지 마세요.",
+    "tags": [
+      "도시 산책",
+      "여행 준비"
+    ],
+    "flight": "항공편·출발 공항에 따라 다름",
+    "currency": "필리핀 페소 · PHP",
+    "timeDifference": "한국보다 1시간 느림",
+    "timeZone": "Asia/Manila",
+    "season": "해상 체험은 우기·태풍·일별 기상에 따라 조정",
+    "accent": "#e7f1ef"
+  },
+  "places": [
+    {
+      "id": "book-bohol-chocolate-hills",
+      "cityId": "book-bohol",
+      "name": "초콜릿힐스",
+      "english": "Chocolate Hills",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "보홀 내륙의 대표적인 언덕 경관입니다. 팡라오 해변과는 별도 차량 이동을 생각하세요.",
+      "address": "Carmen, Bohol",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+    },
+    {
+      "id": "book-bohol-loboc-river",
+      "cityId": "book-bohol",
+      "name": "로복강",
+      "english": "Loboc River",
+      "category": "체험",
+      "image": "/images/place-placeholder.svg",
+      "description": "강 풍경과 선박 체험을 선택하는 권역입니다. 예약한 승선 장소와 포함 조건을 확인하세요.",
+      "address": "Loboc, Bohol",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+    },
+    {
+      "id": "book-bohol-alona-beach",
+      "cityId": "book-bohol",
+      "name": "알로나 비치",
+      "english": "Alona Beach",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "숙소와 식사를 연결하기 좋은 해변 구역입니다. 해양 체험의 출발 지점은 별도로 확인하세요.",
+      "address": "Panglao, Bohol",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+    },
+    {
+      "id": "book-bohol-philippine-tarsier-sanctuary",
+      "cityId": "book-bohol",
+      "name": "필리핀 안경원숭이 보호구역",
+      "english": "Philippine Tarsier Sanctuary",
+      "category": "체험",
+      "image": "/images/place-placeholder.svg",
+      "description": "보호구역의 관람 규칙을 지키며 야생동물 보전을 이해하는 장소입니다.",
+      "address": "Corella, Bohol",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+    },
+    {
+      "id": "book-bohol-baclayon-church",
+      "cityId": "book-bohol",
+      "name": "바클라욘 성당",
+      "english": "Baclayon Church",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "보홀의 역사와 종교 건축을 보는 성당입니다. 예배와 관람 안내를 존중하세요.",
+      "address": "Baclayon, Bohol",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+    },
+    {
+      "id": "book-bohol-anda-beach",
+      "cityId": "book-bohol",
+      "name": "안다 비치 권역",
+      "english": "Anda Beach",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "본섬 동쪽 해변 휴식 후보입니다. 팡라오와 가까운 해변으로 혼동하지 마세요.",
+      "address": "Anda, Bohol",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+    }
+  ],
+  "sections": [
+    {
+      "id": "book-bohol-overview",
+      "title": "도시 한눈에",
+      "body": "보홀은 팡라오의 해변·리조트와 본섬의 내륙 자연을 함께 즐기는 여행지입니다. 해변 숙소에서 초콜릿힐스 등 내륙을 다녀오는 날은 별도로 구분하고, 바다 체험과 긴 차량 투어를 무리하게 연달아 넣지 마세요.\n\n통화: 필리핀 페소 · PHP\n시차: 한국보다 1시간 느림\n여행 계절: 해상 체험은 우기·태풍·일별 기상에 따라 조정"
+    },
+    {
+      "id": "book-bohol-before",
+      "title": "출발 전 준비",
+      "body": "여권과 입국 허가·비자 요건은 국적·방문 목적에 맞춰 정부 안내를 확인하세요. 해외 사용 가능한 결제 수단, 통신과 여행자보험을 준비하고 숙소·항공권은 오프라인에서도 확인할 수 있게 보관하세요."
+    },
+    {
+      "id": "book-bohol-arrival",
+      "title": "공항에서 숙소까지",
+      "body": "항공권의 도착 공항과 항만을 먼저 구분하세요. 보홀팡라오공항(TAG) 도착과 세부에서 배로 도착하는 경우의 픽업 지점은 다릅니다. 배를 이용하면 운항·취소·연결 이동을 함께 확인하세요."
+    },
+    {
+      "id": "book-bohol-stay",
+      "title": "어느 동네에 묵을까",
+      "body": "알로나 주변은 식사와 해변 접근을, 다른 팡라오 리조트는 숙소 휴식과 외부 이동을 비교하세요. 조용한 숙소를 골라도 투어 픽업과 저녁 식사까지의 이동을 확인해야 합니다."
+    },
+    {
+      "id": "book-bohol-food",
+      "title": "먹거리와 동네 쇼핑",
+      "body": "해산물과 필리핀 가정식 등을 메뉴·양·가격을 보고 고르세요. 리조트 바깥 식사를 계획한다면 귀가 차량을 함께 정하고, 현금 인출과 결제 가능 여부를 업소마다 확인하세요."
+    },
+    {
+      "id": "book-bohol-days",
+      "title": "처음 가는 3일 여행",
+      "body": "1일: 도착 → 팡라오 숙소와 가까운 해변.\n\n2일: 초콜릿힐스·보호구역·로복강 중 예약한 내륙 동선을 선택하세요.\n\n3일: 해양 체험 또는 숙소 휴식. 운항이 취소되면 해변·문화 방문으로 바꿀 여유를 남기세요.\n\n일정 초안이며 자동 경로·이동시간 계산 결과가 아닙니다. 운영과 취향에 맞춰 선택하세요."
+    },
+    {
+      "id": "book-bohol-notes",
+      "title": "예약과 현장 팁",
+      "body": "안경원숭이 보호구역에서는 조용히 관람하고 동물을 만지거나 플래시를 사용하지 마세요. 보호구역·해양 생태 규칙과 현장 통제를 따르며, 기상 취소 시 환불 범위를 확인하세요."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Behold Bohol 2026 - Behold Bohol",
+      "url": "https://tourism.bohol.gov.ph/",
+      "accessedAt": "2026-10-28"
+    }
+  ],
+  "status": "published",
+  "requestId": null,
+  "createdAt": "2026-10-28T05:07:12.733Z",
+  "updatedAt": "2026-10-28T05:07:12.733Z",
+  "publishedAt": "2026-10-28T05:07:12.733Z"
+}

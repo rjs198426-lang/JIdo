@@ -1,4 +1,11 @@
-import { Bell, LocateFixed, Image, FileDown, ChevronRight } from 'lucide-react'
+import {
+  BookOpen,
+  Bell,
+  LocateFixed,
+  Image,
+  FileDown,
+  ChevronRight,
+} from 'lucide-react'
 import ContentUpdates from './ContentUpdates'
 export default function SettingsPage({
   onReminders,
@@ -6,12 +13,14 @@ export default function SettingsPage({
   onPhotoCredits,
   onBackup,
   onRecovery,
+  onGuidebooks,
 }: {
   onReminders: () => void
   onNearby: () => void
   onPhotoCredits: () => void
   onBackup: () => void
   onRecovery?: () => void
+  onGuidebooks: () => void
 }) {
   return (
     <section className="page-section settings-page" aria-label="설정">
@@ -20,6 +29,11 @@ export default function SettingsPage({
       </div>
       <section className="settings-group" aria-label="여행과 기기">
         <h2>여행과 기기</h2>
+        <button onClick={onGuidebooks}>
+          <BookOpen size={21} />
+          <span>가이드북</span>
+          <ChevronRight size={18} />
+        </button>
         {onRecovery && (
           <button onClick={onRecovery}>
             <FileDown size={21} />

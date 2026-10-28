@@ -1,0 +1,153 @@
+{
+  "id": "book-tainan",
+  "scope": "city",
+  "city": {
+    "id": "book-tainan",
+    "name": "타이난",
+    "english": "Tainan",
+    "country": "대만",
+    "region": "동아시아",
+    "image": "/images/guide-placeholder.svg",
+    "tagline": "옛 거리와 사원, 작은 식사를 이어가는 여행",
+    "description": "타이난은 큰 명소를 빠르게 찍기보다 사원과 골목 사이에서 먹거리를 나눠 즐기는 도시입니다. 중서구 도심과 안핑을 따로 묶으면 이동이 단순해집니다. 한낮에는 실내 관람과 휴식을 넣고, 밤에는 시장과 골목의 운영 상황을 보고 움직이세요.",
+    "tags": [
+      "도시 산책",
+      "여행 준비"
+    ],
+    "flight": "항공편·출발 공항에 따라 다름",
+    "currency": "대만 달러 · TWD",
+    "timeDifference": "한국보다 1시간 느림",
+    "timeZone": "Asia/Taipei",
+    "season": "더위·소나기 대비, 사원과 먹거리 산책",
+    "accent": "#e7f1ef"
+  },
+  "places": [
+    {
+      "id": "book-tainan-anping-old-fort",
+      "cityId": "book-tainan",
+      "name": "안핑고보",
+      "english": "Anping Old Fort",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "안핑의 역사와 주변 옛 거리를 살펴보는 곳입니다. 공개 구역과 정비 상황을 확인하세요.",
+      "address": "Anping, Tainan",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+    },
+    {
+      "id": "book-tainan-chihkan-tower",
+      "cityId": "book-tainan",
+      "name": "츠칸러우",
+      "english": "Chihkan Tower",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "도심의 역사 유적입니다. 복원 공사와 공개 범위는 방문 전에 확인하세요.",
+      "address": "West Central, Tainan",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+    },
+    {
+      "id": "book-tainan-tainan-confucius-temple",
+      "cityId": "book-tainan",
+      "name": "타이난 공자묘",
+      "english": "Tainan Confucius Temple",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "교육과 유교 문화의 흔적을 보는 공간입니다. 예배·관람 안내를 따르세요.",
+      "address": "West Central, Tainan",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+    },
+    {
+      "id": "book-tainan-shennong-street",
+      "cityId": "book-tainan",
+      "name": "선눙제",
+      "english": "Shennong Street",
+      "category": "쇼핑",
+      "image": "/images/place-placeholder.svg",
+      "description": "옛 건물과 작은 상점이 이어지는 골목입니다. 주거 공간과 촬영 예절을 배려하세요.",
+      "address": "West Central, Tainan",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+    },
+    {
+      "id": "book-tainan-tainan-art-museum",
+      "cityId": "book-tainan",
+      "name": "타이난시 미술관",
+      "english": "Tainan Art Museum",
+      "category": "체험",
+      "image": "/images/place-placeholder.svg",
+      "description": "전시와 건축을 함께 보는 실내 후보입니다. 방문할 관과 전시 일정을 확인하세요.",
+      "address": "West Central, Tainan",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+    },
+    {
+      "id": "book-tainan-guohua-street",
+      "cityId": "book-tainan",
+      "name": "궈화제",
+      "english": "Guohua Street",
+      "category": "맛집",
+      "image": "/images/place-placeholder.svg",
+      "description": "여러 먹거리 가게가 이어지는 거리입니다. 특정 한 식당의 위치나 영업을 뜻하지 않습니다.",
+      "address": "West Central, Tainan",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+    }
+  ],
+  "sections": [
+    {
+      "id": "book-tainan-overview",
+      "title": "도시 한눈에",
+      "body": "타이난은 큰 명소를 빠르게 찍기보다 사원과 골목 사이에서 먹거리를 나눠 즐기는 도시입니다. 중서구 도심과 안핑을 따로 묶으면 이동이 단순해집니다. 한낮에는 실내 관람과 휴식을 넣고, 밤에는 시장과 골목의 운영 상황을 보고 움직이세요.\n\n통화: 대만 달러 · TWD\n시차: 한국보다 1시간 느림\n여행 계절: 더위·소나기 대비, 사원과 먹거리 산책"
+    },
+    {
+      "id": "book-tainan-before",
+      "title": "출발 전 준비",
+      "body": "여권과 입국 허가·비자 요건은 국적·방문 목적에 맞춰 정부 안내를 확인하세요. 해외 사용 가능한 결제 수단, 통신과 여행자보험을 준비하고 숙소·항공권은 오프라인에서도 확인할 수 있게 보관하세요."
+    },
+    {
+      "id": "book-tainan-arrival",
+      "title": "공항에서 숙소까지",
+      "body": "고속철도 타이난역은 도심의 일반철도 타이난역과 다릅니다. 고속철도 도착이면 연결 철도·버스·차량을 비교하고, 가오슝 공항에서 이동하는 경우 항공편과 육상 구간을 따로 확인하세요."
+    },
+    {
+      "id": "book-tainan-stay",
+      "title": "어느 동네에 묵을까",
+      "body": "타이난역 주변은 도착과 출발, 중서구는 사원·골목·식사, 안핑은 역사 구역과 조용한 체류를 비교하기 좋습니다. 주말 소음과 도보 접근을 숙소 후기에서 확인하세요."
+    },
+    {
+      "id": "book-tainan-food",
+      "title": "먹거리와 동네 쇼핑",
+      "body": "단짜이미엔·우육탕·관차이반 등 지역 음식을 조금씩 나눠 맛보세요. 궈화제는 여러 가게가 있는 거리이며 개별 가게의 휴무와 소진 여부가 다릅니다. 야시장은 운영 요일을 확인하고 선택하세요."
+    },
+    {
+      "id": "book-tainan-days",
+      "title": "처음 가는 3일 여행",
+      "body": "1일: 도심 도착 → 츠칸러우 주변 → 선눙제 골목.\n\n2일: 공자묘 → 미술관 → 궈화제 먹거리. 휴식과 식사를 나눠 넣으세요.\n\n3일: 안핑 역사 구역. 출발역까지 되돌아갈 시간을 확보하세요.\n\n일정 초안이며 자동 경로·이동시간 계산 결과가 아닙니다. 운영과 취향에 맞춰 선택하세요."
+    },
+    {
+      "id": "book-tainan-notes",
+      "title": "예약과 현장 팁",
+      "body": "사원은 관광 시설이면서 종교 공간입니다. 복장·사진 촬영 안내를 지키고 향과 혼잡에 민감한 동행자를 배려하세요. 보행로와 차도가 섞인 골목에서는 차량과 스쿠터를 살피세요."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Tainan Travel",
+      "url": "https://www.twtainan.net/en/",
+      "accessedAt": "2026-10-28"
+    }
+  ],
+  "status": "published",
+  "requestId": null,
+  "createdAt": "2026-10-28T05:07:12.733Z",
+  "updatedAt": "2026-10-28T05:07:12.733Z",
+  "publishedAt": "2026-10-28T05:07:12.733Z"
+}

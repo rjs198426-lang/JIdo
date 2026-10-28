@@ -1,0 +1,153 @@
+{
+  "id": "book-paris",
+  "scope": "city",
+  "city": {
+    "id": "book-paris",
+    "name": "파리",
+    "english": "Paris",
+    "country": "프랑스",
+    "region": "유럽",
+    "image": "/images/guide-placeholder.svg",
+    "tagline": "미술관과 동네 산책을 나눠 즐기는 도시",
+    "description": "파리는 미술관 한 곳과 주변 동네를 하루의 중심으로 정하면 편합니다. 센강을 기준으로 루브르·오르세·에펠탑 주변을 나눠 보고, 몽마르트르는 별도의 언덕 산책으로 계획하세요.",
+    "tags": [
+      "도시 산책",
+      "여행 준비"
+    ],
+    "flight": "항공편·출발 공항에 따라 다름",
+    "currency": "유로 · EUR",
+    "timeDifference": "한국보다 겨울 8시간·서머타임 7시간 느림",
+    "timeZone": "Europe/Paris",
+    "season": "봄·가을 산책, 여름 성수기·겨울 짧은 낮 고려",
+    "accent": "#e7f1ef"
+  },
+  "places": [
+    {
+      "id": "book-paris-eiffel-tower",
+      "cityId": "book-paris",
+      "name": "에펠탑",
+      "english": "Eiffel Tower",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "파리의 대표 전망 후보입니다. 전망층 예약과 주변 공원 산책을 구분하세요.",
+      "address": "7th arrondissement, Paris",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+    },
+    {
+      "id": "book-paris-louvre-museum",
+      "cityId": "book-paris",
+      "name": "루브르 박물관",
+      "english": "Louvre Museum",
+      "category": "체험",
+      "image": "/images/place-placeholder.svg",
+      "description": "소장품 규모가 큰 미술관입니다. 관심 전시 구역을 먼저 정하세요.",
+      "address": "1st arrondissement, Paris",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+    },
+    {
+      "id": "book-paris-mus-e-d-orsay",
+      "cityId": "book-paris",
+      "name": "오르세 미술관",
+      "english": "Musée d'Orsay",
+      "category": "체험",
+      "image": "/images/place-placeholder.svg",
+      "description": "옛 역 건물에서 미술 작품을 만나는 공간입니다. 전시와 휴관일을 확인하세요.",
+      "address": "7th arrondissement, Paris",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+    },
+    {
+      "id": "book-paris-montmartre",
+      "cityId": "book-paris",
+      "name": "몽마르트르",
+      "english": "Montmartre",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "언덕과 골목을 걷는 구역입니다. 계단·경사와 혼잡을 고려하세요.",
+      "address": "18th arrondissement, Paris",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+    },
+    {
+      "id": "book-paris-luxembourg-gardens",
+      "cityId": "book-paris",
+      "name": "뤽상부르 공원",
+      "english": "Luxembourg Gardens",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "관람 사이에 쉬기 좋은 정원입니다. 출입 시간과 현장 규칙을 따르세요.",
+      "address": "6th arrondissement, Paris",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+    },
+    {
+      "id": "book-paris-seine-riverside",
+      "cityId": "book-paris",
+      "name": "센강변",
+      "english": "Seine Riverside",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "강변 풍경을 즐기는 산책 구역입니다. 수위와 보행 통제에 따라 동선을 조정하세요.",
+      "address": "Central Paris",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+    }
+  ],
+  "sections": [
+    {
+      "id": "book-paris-overview",
+      "title": "도시 한눈에",
+      "body": "파리는 미술관 한 곳과 주변 동네를 하루의 중심으로 정하면 편합니다. 센강을 기준으로 루브르·오르세·에펠탑 주변을 나눠 보고, 몽마르트르는 별도의 언덕 산책으로 계획하세요.\n\n통화: 유로 · EUR\n시차: 한국보다 겨울 8시간·서머타임 7시간 느림\n여행 계절: 봄·가을 산책, 여름 성수기·겨울 짧은 낮 고려"
+    },
+    {
+      "id": "book-paris-before",
+      "title": "출발 전 준비",
+      "body": "여권과 입국 허가·비자 요건은 국적·방문 목적에 맞춰 정부 안내를 확인하세요. 해외 사용 가능한 결제 수단, 통신과 여행자보험을 준비하고 숙소·항공권은 오프라인에서도 확인할 수 있게 보관하세요."
+    },
+    {
+      "id": "book-paris-arrival",
+      "title": "공항에서 숙소까지",
+      "body": "샤를드골(CDG)과 오를리(ORY)를 구분하고 공항 철도·버스·차량을 숙소 위치와 도착 시각으로 비교하세요. 역의 계단과 큰 짐 이동까지 고려하세요."
+    },
+    {
+      "id": "book-paris-stay",
+      "title": "어느 동네에 묵을까",
+      "body": "오페라 주변은 교통과 쇼핑, 마레는 골목과 식사, 생제르맹은 카페와 미술관 접근을 비교하기 좋습니다. 엘리베이터와 야간 귀가 동선을 확인하세요."
+    },
+    {
+      "id": "book-paris-food",
+      "title": "먹거리와 동네 쇼핑",
+      "body": "빵집·카페·비스트로를 식사마다 나눠 즐기세요. 테라스와 실내 가격, 주문 방식, 알레르기 재료를 메뉴에서 확인하세요."
+    },
+    {
+      "id": "book-paris-days",
+      "title": "처음 가는 3일 여행",
+      "body": "1일: 도착 → 숙소 주변 산책. 장거리 비행 뒤에는 충분히 쉬고 현지 날짜에 적응하세요.\n\n2일: 에펠탑 중심으로 주변을 둘러보세요. 예약 시설은 운영기관의 방문 조건을 먼저 확인하세요.\n\n3일: 루브르 박물관 또는 오르세 미술관 중 관심 있는 곳을 고르고 나머지는 식사와 동네 산책에 쓰세요. 출국일에는 공항 이동을 우선하세요.\n\n일정 초안이며 자동 경로·이동시간 계산 결과가 아닙니다. 운영과 취향에 맞춰 선택하세요."
+    },
+    {
+      "id": "book-paris-notes",
+      "title": "예약과 현장 팁",
+      "body": "주요 미술관과 전망 시설은 공식 예약 방식·휴관일·보안 검색을 확인하세요. 혼잡한 교통수단에서는 휴대전화와 가방을 관리하세요."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Paris Tourist Office - official website",
+      "url": "https://parisjetaime.com/eng/",
+      "accessedAt": "2026-10-28"
+    }
+  ],
+  "status": "published",
+  "requestId": null,
+  "createdAt": "2026-10-28T05:07:12.733Z",
+  "updatedAt": "2026-10-28T05:07:12.733Z",
+  "publishedAt": "2026-10-28T05:07:12.733Z"
+}

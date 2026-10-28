@@ -24,11 +24,13 @@ export default function CityGuide({
   initialTab = 'ready',
   onPlace,
   children,
+  overviewOnly = false,
 }: {
   city: City
   initialTab?: CityGuideTab
   onPlace: (id: string) => void
   children: ReactNode
+  overviewOnly?: boolean
 }) {
   const [tab, setTab] = useState<CityGuideTab>(initialTab)
   const id = useId()
@@ -216,7 +218,7 @@ export default function CityGuide({
           </>
         )}
       </div>
-      {children}
+      {(!overviewOnly || tab === 'ready' || tab === 'info') && children}
     </section>
   )
 }

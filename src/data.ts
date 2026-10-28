@@ -41,6 +41,7 @@ export interface City {
   flight: string
   currency: string
   timeDifference: string
+  timeZone?: string
   season: string
   accent: string
 }

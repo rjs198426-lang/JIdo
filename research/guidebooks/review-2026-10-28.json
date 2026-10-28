@@ -1,0 +1,372 @@
+{
+  "checkedAt": "2026-10-28",
+  "selection": "한국 여행자에게 익숙한 단거리 휴양·도시 여행과 주요 장거리 목적지를 우선한 편집 선정이며 통계상 인기 순위가 아닙니다.",
+  "countries": 14,
+  "cities": 24,
+  "places": 144,
+  "method": "공식 관광 운영기관 페이지를 확인한 뒤 한국어로 새로 작성한 여행 개요. 확인일은 게시일이 아님. 최신 요금·영업시간·좌표를 추정하지 않음. 주소는 지리 구역이며 정확한 지도 좌표가 아님. 사진과 원문 전체를 복제하지 않음.",
+  "sources": [
+    {
+      "city": "okinawa",
+      "requestedUrl": "https://visitokinawajapan.com/",
+      "url": "https://visitokinawajapan.com/",
+      "status": 200,
+      "title": "VISIT OKINAWA JAPAN | Official Okinawa Travel Guide",
+      "bytes": 423171,
+      "sha256": "194c3d164a4f51c16e3d55cb7dd34a9bdb0b318e26af80ee8eacd7377dfb676a",
+      "textLength": 4098,
+      "checkedAt": "2026-10-28"
+    },
+    {
+      "city": "okinawa-main",
+      "requestedUrl": "https://visitokinawajapan.com/destinations/okinawa-main-island/",
+      "url": "https://visitokinawajapan.com/destinations/okinawa-main-island/",
+      "status": 200,
+      "title": "Okinawa Main Island | VISIT OKINAWA JAPAN | Official Okinawa Travel Guide",
+      "bytes": 424023,
+      "sha256": "c9048d3e3dc3026385280bc23fb7856addc87b0c803459d319bb28b73eb3e9c9",
+      "textLength": 3314,
+      "checkedAt": "2026-10-28"
+    },
+    {
+      "city": "okinawa-naha",
+      "requestedUrl": "https://visitokinawajapan.com/destinations/okinawa-main-island/southern-okinawa-main-island/naha/",
+      "url": "https://visitokinawajapan.com/destinations/okinawa-main-island/southern-okinawa-main-island/naha/",
+      "status": 200,
+      "title": "Naha | VISIT OKINAWA JAPAN | Official Okinawa Travel Guide",
+      "bytes": 383420,
+      "sha256": "a204b704bda17f1de2c5cd1499d94343e0fca0e4f1de3b4a32186ad1eaac7b54",
+      "textLength": 6984,
+      "checkedAt": "2026-10-28"
+    },
+    {
+      "city": "nhatrang",
+      "requestedUrl": "https://vietnam.travel/places-to-go/central-vietnam/nha-trang",
+      "url": "https://vietnam.travel/places-to-go/south-central-coast-central-highlands/nha-trang/",
+      "status": 200,
+      "title": "Nha Trang | Vietnam Tourism",
+      "bytes": 46555,
+      "sha256": "7ed692a53913ad5d66cd3e28cf0a13501310d3fccc900c48b000e0228b55007a",
+      "textLength": 3990,
+      "checkedAt": "2026-10-28"
+    },
+    {
+      "city": "phuquoc",
+      "requestedUrl": "https://vietnam.travel/places-to-go/southern-vietnam/phu-quoc",
+      "url": "https://vietnam.travel/places-to-go/mekong-delta/phu-quoc/",
+      "status": 200,
+      "title": "Phu Quoc | Vietnam Tourism",
+      "bytes": 44593,
+      "sha256": "2ae796ea8568de40d26888368b4c857c12a3cf5fdd61c7d4bc3b19de57ed85c1",
+      "textLength": 3511,
+      "checkedAt": "2026-10-28"
+    },
+    {
+      "city": "hanoi",
+      "requestedUrl": "https://vietnam.travel/places-to-go/northern-vietnam/ha-noi",
+      "url": "https://vietnam.travel/places-to-go/red-river-delta/ha-noi/",
+      "status": 200,
+      "title": "Ha Noi | Vietnam Tourism",
+      "bytes": 48255,
+      "sha256": "391b617c456405daf578354f4445e478f506b09ec2541303be633b3fc7a4c5bb",
+      "textLength": 5908,
+      "checkedAt": "2026-10-28"
+    },
+    {
+      "city": "hochiminh",
+      "requestedUrl": "https://vietnam.travel/places-to-go/southern-vietnam/ho-chi-minh-city",
+      "url": "https://vietnam.travel/places-to-go/southeastern-vietnam/ho-chi-minh-city/",
+      "status": 200,
+      "title": "Ho Chi Minh City | Vietnam Tourism",
+      "bytes": 46341,
+      "sha256": "d5a7be7d9c0463299b8520a9a7f6c4907f86e6c974f4fa463a8da96aa7141039",
+      "textLength": 4167,
+      "checkedAt": "2026-10-28"
+    },
+    {
+      "city": "chiangmai",
+      "requestedUrl": "https://www.tourismthailand.org/Destinations/Provinces/Chiang-Mai/101",
+      "url": "https://www.tourismthailand.org/Destinations/Provinces/Chiang-Mai/101",
+      "status": 200,
+      "title": "The official website of Tourism Authority of Thailand",
+      "bytes": 798401,
+      "sha256": "e44fc2e7775a90fb9df30d6556cfcf205bbcfbed50c3ca0f858e1f72da2d25be",
+      "textLength": 1869,
+      "checkedAt": "2026-10-28"
+    },
+    {
+      "city": "chiangmai-airport",
+      "requestedUrl": "https://chiangmai.airportthai.co.th/",
+      "url": "https://chiangmai.airportthai.co.th/",
+      "status": 200,
+      "title": "Chiangmai International Airport | CNX",
+      "bytes": 358412,
+      "sha256": "b992a332379fd9813fe77d2be966c3104487f827709d49369e5d8d1fe0084e27",
+      "textLength": 4253,
+      "checkedAt": "2026-10-28"
+    },
+    {
+      "city": "phuket",
+      "requestedUrl": "https://www.tourismthailand.org/Destinations/Provinces/Phuket/350",
+      "url": "https://www.tourismthailand.org/Destinations/Provinces/Phuket/350",
+      "status": 200,
+      "title": "The official website of Tourism Authority of Thailand",
+      "bytes": 803217,
+      "sha256": "2bdc36109d3061f74faf99299d16ea977512a4e79c23e4d8182f47f9a075e547",
+      "textLength": 2201,
+      "checkedAt": "2026-10-28"
+    },
+    {
+      "city": "phuket-airport",
+      "requestedUrl": "https://phuket.airportthai.co.th/",
+      "url": "https://phuket.airportthai.co.th/",
+      "status": 200,
+      "title": "Phuket International Airport | HKT",
+      "bytes": 321640,
+      "sha256": "f9ad77b5f4794def22cc840b677899bc5fba499285c541cd55a569b88499cff6",
+      "textLength": 4819,
+      "checkedAt": "2026-10-28"
+    },
+    {
+      "city": "cebu-tourism",
+      "requestedUrl": "https://www.cebu.gov.ph/tourism/",
+      "url": "https://tourism.cebu.gov.ph/",
+      "status": 200,
+      "title": "Cebu Tourism",
+      "bytes": 113362,
+      "sha256": "83a91a74800b369036f8abc58ee7359f1cbeb82aba48bdef5d5ac9cf5ce8cd50",
+      "textLength": 10026,
+      "checkedAt": "2026-10-28"
+    },
+    {
+      "city": "cebu-gov",
+      "requestedUrl": "https://www.cebu.gov.ph/",
+      "url": "https://www.cebu.gov.ph/",
+      "status": 200,
+      "title": "Province of Cebu: Official Website, Government & Tourism",
+      "bytes": 341763,
+      "sha256": "fed04e40d884973e9067879717324176a3ee2ca1ccb618fa31ece682fff9f034",
+      "textLength": 7838,
+      "checkedAt": "2026-10-28"
+    },
+    {
+      "city": "bohol-gov",
+      "requestedUrl": "https://tourism.bohol.gov.ph/",
+      "url": "https://tourism.bohol.gov.ph/",
+      "status": 200,
+      "title": "Behold Bohol 2026 - Behold Bohol",
+      "bytes": 310490,
+      "sha256": "2f9ee63e6db61aa11151b21c60c9e0ba9a0e322924980e193735f87b24e1ad5f",
+      "textLength": 3034,
+      "checkedAt": "2026-10-28"
+    },
+    {
+      "city": "kaohsiung",
+      "requestedUrl": "https://khh.travel/en",
+      "url": "https://khh.travel/en/",
+      "status": 200,
+      "title": "Kaohsiung Travel website",
+      "bytes": 61454,
+      "sha256": "70f9412ec4e8a0a62ea2569f3238b32f06b6e4914666b92d9b1ca56272fb64a6",
+      "textLength": 5438,
+      "checkedAt": "2026-10-28"
+    },
+    {
+      "city": "kuala-overview",
+      "requestedUrl": "https://www.malaysia.travel/explore/top-places-to-visit-in-kuala-lumpur",
+      "url": "https://www.malaysia.travel/explore/top-places-to-visit-in-kuala-lumpur",
+      "status": 200,
+      "title": "Malaysia Truly Asia - Top Place to Visit in Kuala Lumpur",
+      "bytes": 162129,
+      "sha256": "e9ced78c507027031313ed1b72a830c2f3ae527ccef183554b73475a00a294de",
+      "textLength": 29044,
+      "checkedAt": "2026-10-28"
+    },
+    {
+      "city": "kl-official",
+      "requestedUrl": "https://www.malaysia.travel/",
+      "url": "https://www.malaysia.travel/",
+      "status": 200,
+      "title": "Malaysia Truly Asia - Home - Malaysia.travel",
+      "bytes": 261716,
+      "sha256": "3ff2e8109c45a6087ec16fbeba7173c04698b6afa42773585b8cb91b134ca01b",
+      "textLength": 4503,
+      "checkedAt": "2026-10-28"
+    },
+    {
+      "city": "sabah-official",
+      "requestedUrl": "https://sabahtourism.com/",
+      "url": "https://sabahtourism.com/",
+      "status": 200,
+      "title": "Sabah Tourism Board",
+      "bytes": 387038,
+      "sha256": "3c9b1bf0c5b05ddd31752034ce0234915990ca5a941128583a1d4ed11501a81b",
+      "textLength": 4515,
+      "checkedAt": "2026-10-28"
+    },
+    {
+      "city": "kotakinabalu",
+      "requestedUrl": "https://sabahtourism.com/destination/kota-kinabalu/",
+      "url": "https://sabahtourism.com/destination/kota-kinabalu-wetlands/",
+      "status": 200,
+      "title": "Kota Kinabalu Wetlands – Sabah Tourism Board",
+      "bytes": 32836,
+      "sha256": "38036c0a2462791add777cd0aaa28ae1e500e3be73d24856d88b4fa4edfeb680",
+      "textLength": 2883,
+      "checkedAt": "2026-10-28"
+    },
+    {
+      "city": "shanghai-official",
+      "requestedUrl": "https://english.shanghai.gov.cn/",
+      "url": "https://english.shanghai.gov.cn/",
+      "status": 200,
+      "title": "SHANGHAI CHINA-International Services Shanghai",
+      "bytes": 51836,
+      "sha256": "e823c6d677c2a8035d7055d775c73214c656c0892961c892a6d3efb7dcfcb737",
+      "textLength": 3236,
+      "checkedAt": "2026-10-28"
+    },
+    {
+      "city": "shanghai-official",
+      "requestedUrl": "https://www.meet-in-shanghai.net/",
+      "url": "https://www.meet-in-shanghai.net/",
+      "status": 200,
+      "title": "Shanghai Travel Guide | Official site for Shanghai Municipal Administration of Culture and Tourism",
+      "bytes": 123362,
+      "sha256": "2ee541005b33d8de4da9396e474b8b8f43445c7cbd85b3d498b958a5133c1ff8",
+      "textLength": 8194,
+      "checkedAt": "2026-10-28"
+    },
+    {
+      "city": "beijing",
+      "requestedUrl": "https://english.beijing.gov.cn/travellinginbeijing/",
+      "url": "https://english.beijing.gov.cn/travellinginbeijing/",
+      "status": 200,
+      "title": "Travelling in Beijing",
+      "bytes": 132048,
+      "sha256": "856f34ce20630d9c9f7f2c7b001e210fac76bb7ae643629bb9b3eb562c5d46a0",
+      "textLength": 8360,
+      "checkedAt": "2026-10-28"
+    },
+    {
+      "city": "tainan",
+      "requestedUrl": "https://www.twtainan.net/en",
+      "url": "https://www.twtainan.net/en/",
+      "status": 200,
+      "title": "Tainan Travel",
+      "bytes": 75758,
+      "sha256": "e36ed4d9da71ab912cb5a12e2624e8f8d3543f75c586b106249e1449e632a30d",
+      "textLength": 3167,
+      "checkedAt": "2026-10-28"
+    },
+    {
+      "city": "paris",
+      "requestedUrl": "https://parisjetaime.com/eng/",
+      "url": "https://parisjetaime.com/eng/",
+      "status": 200,
+      "title": "Paris Tourist Office - official website",
+      "bytes": 418744,
+      "sha256": "9b3191cbce5ad3354ce3a5e05b5ee6dee45f042f92b11e7b9fca02da68dc24d6",
+      "textLength": 10866,
+      "checkedAt": "2026-10-28"
+    },
+    {
+      "city": "london",
+      "requestedUrl": "https://www.visitlondon.com/",
+      "url": "https://www.visitlondon.com/",
+      "status": 200,
+      "title": "Visit London - We are London's Official Visitor Guide",
+      "bytes": 73178,
+      "sha256": "7dc28c080ac13f13282fc1aaac181effc200f9a3ed36b9bdee7431842e2fe973",
+      "textLength": 5389,
+      "checkedAt": "2026-10-28"
+    },
+    {
+      "city": "rome",
+      "requestedUrl": "https://www.turismoroma.it/en",
+      "url": "https://www.turismoroma.it/en",
+      "status": 200,
+      "title": "Turismo Roma | Sito turistico ufficiale",
+      "bytes": 226638,
+      "sha256": "f2af817280bcd4ef5cd547dc4a5f7b2453e224b279a66dd2a971e16a7b14df3c",
+      "textLength": 15617,
+      "checkedAt": "2026-10-28"
+    },
+    {
+      "city": "barcelona",
+      "requestedUrl": "https://www.barcelonaturisme.com/wv3/en/",
+      "url": "https://thisisbarcelona.com/",
+      "status": 200,
+      "title": "Barcelona Tourism, Official Website | This is Barcelona",
+      "bytes": 182913,
+      "sha256": "7417193d44c26698f0ec1ff208e984e22e427d5f2c8ad51c66167d2d2795b484",
+      "textLength": 6834,
+      "checkedAt": "2026-10-28"
+    },
+    {
+      "city": "prague",
+      "requestedUrl": "https://prague.eu/en/",
+      "url": "https://prague.eu/en/",
+      "status": 200,
+      "title": "Home | Prague City Tourism",
+      "bytes": 988257,
+      "sha256": "ac8cc46ec5b58039945e4ef95a12a89369547b91a90fa1b9c5f3edebe8456065",
+      "textLength": 17639,
+      "checkedAt": "2026-10-28"
+    },
+    {
+      "city": "newyork",
+      "requestedUrl": "https://www.nyctourism.com/",
+      "url": "https://www.nyctourism.com/",
+      "status": 200,
+      "title": "NYC Tourism + Conventions | Explore the Best Things to Do in NYC",
+      "bytes": 767047,
+      "sha256": "77410dc2188e37bb8dfb52505be54e362dd4de3a747a4a709103edcc9082c2b6",
+      "textLength": 5478,
+      "checkedAt": "2026-10-28"
+    },
+    {
+      "city": "losangeles",
+      "requestedUrl": "https://www.discoverlosangeles.com/",
+      "url": "https://www.discoverlosangeles.com/",
+      "status": 200,
+      "title": "Visit Los Angeles. Find Things to Do in LA. California Travel Guides | Discover Los Angeles",
+      "bytes": 715352,
+      "sha256": "593ff49caeb980fce8193df6009407162066be812d81f46e2d137c2441ac00da",
+      "textLength": 8805,
+      "checkedAt": "2026-10-28"
+    },
+    {
+      "city": "honolulu",
+      "requestedUrl": "https://www.gohawaii.com/islands/oahu",
+      "url": "https://www.gohawaii.com/islands/oahu",
+      "status": 200,
+      "title": "Oahu Official Travel Site: Find Vacation & Travel Information | Go Hawaii",
+      "bytes": 108191,
+      "sha256": "5412457a7982b8fa748c45c2fc0fead907f14afe5455f4f1212ec439e1101258",
+      "textLength": 11435,
+      "checkedAt": "2026-10-28"
+    },
+    {
+      "city": "sydney",
+      "requestedUrl": "https://www.sydney.com/",
+      "url": "https://www.sydney.com/",
+      "status": 200,
+      "title": "Sydney, Australia | Official Sydney Tourism Website",
+      "bytes": 647729,
+      "sha256": "407dcd2099bd4cc767219113d828b4217f55f4601e8b39042b7e77e6adb0f88b",
+      "textLength": 8102,
+      "checkedAt": "2026-10-28"
+    }
+  ],
+  "excluded": [
+    {
+      "target": "Cebu / Bohol / Boracay on philippines.travel",
+      "reason": "HTTP 200이지만 도박·스팸 내용으로 관광 자료와 불일치. 출처·본문에서 제외하고 세부·보홀은 지방정부 관광 자료로 교체."
+    },
+    {
+      "target": "Qingdao / Boracay",
+      "reason": "이번 검토에서 신뢰 가능한 본문 확인 실패. 첫 배포에서 제외하고 가오슝·타이난으로 대체."
+    }
+  ]
+}

@@ -10,8 +10,10 @@ export default function GuideContent({
   onCourse,
   onPlace,
   compact = false,
+  library = false,
 }: {
   compact?: boolean
+  library?: boolean
   guide?: Guide
   cityId?: string
   onCourse?: (course: CourseSelection) => void
@@ -55,12 +57,21 @@ export default function GuideContent({
       )}
       {guide && (
         <div className="guide-custom-content">
-          {guide.sections.map((section) => (
-            <section key={section.id}>
-              <h3>{section.title}</h3>
-              <p>{section.body}</p>
-            </section>
-          ))}
+          {guide.sections.map((section) =>
+            library ? (
+              <details className="city-guide-article" key={section.id}>
+                <summary>
+                  <strong>{section.title}</strong>
+                </summary>
+                <p className="guidebook-section-body">{section.body}</p>
+              </details>
+            ) : (
+              <section key={section.id}>
+                <h3>{section.title}</h3>
+                <p>{section.body}</p>
+              </section>
+            ),
+          )}
           {guide && guide.sources.length > 0 && (
             <section className="guide-sources">
               <h3>참고 출처</h3>

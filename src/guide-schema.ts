@@ -56,6 +56,18 @@ export const citySchema = z.object({
   flight: required(200),
   currency: required(200),
   timeDifference: required(200),
+  timeZone: z
+    .string()
+    .max(100)
+    .refine((zone) => {
+      try {
+        new Intl.DateTimeFormat('en', { timeZone: zone }).format()
+        return true
+      } catch {
+        return false
+      }
+    }, '지원하는 시간대를 입력하세요.')
+    .optional(),
   season: required(200),
   accent: z.string().regex(/^#[0-9a-fA-F]{6}$/),
 })

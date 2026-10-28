@@ -1,0 +1,163 @@
+{
+  "id": "book-okinawa",
+  "scope": "city",
+  "city": {
+    "id": "book-okinawa",
+    "name": "오키나와·나하",
+    "english": "Okinawa & Naha",
+    "country": "일본",
+    "region": "일본",
+    "image": "/images/guide-placeholder.svg",
+    "tagline": "나하의 골목과 본섬 바다를 나눠 즐기는 여행",
+    "description": "나하는 오키나와 본섬 남쪽의 도시 여행 거점입니다. 국제거리·시장·슈리 지역은 남부 일정으로 묶고, 북부 수족관과 리조트 지역은 별도 이동일로 생각하면 계획이 단순해집니다. 미야코·이시가키는 같은 본섬 일정이 아니라 항공·숙박을 따로 정할 섬입니다.",
+    "tags": [
+      "도시 산책",
+      "여행 준비"
+    ],
+    "flight": "항공편·출발 공항에 따라 다름",
+    "currency": "일본 엔 · JPY",
+    "timeDifference": "한국과 시차 없음",
+    "timeZone": "Asia/Tokyo",
+    "season": "봄·가을은 산책 중심, 여름은 더위·태풍과 해상 상황 확인",
+    "accent": "#e7f1ef"
+  },
+  "places": [
+    {
+      "id": "book-okinawa-shurijo-castle-park",
+      "cityId": "book-okinawa",
+      "name": "슈리성 공원",
+      "english": "Shurijo Castle Park",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "류큐 역사와 건축의 흔적을 살펴보는 공원입니다. 복원·정비에 따른 공개 구역을 확인하세요.",
+      "address": "Shuri, Naha, Okinawa",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+    },
+    {
+      "id": "book-okinawa-kokusai-dori",
+      "cityId": "book-okinawa",
+      "name": "국제거리",
+      "english": "Kokusai Dori",
+      "category": "쇼핑",
+      "image": "/images/place-placeholder.svg",
+      "description": "식당과 상점이 이어지는 도심 거리입니다. 주변 골목과 묶어 걷기 좋습니다.",
+      "address": "Naha, Okinawa",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+    },
+    {
+      "id": "book-okinawa-first-makishi-public-market",
+      "cityId": "book-okinawa",
+      "name": "제1 마키시 공설시장",
+      "english": "First Makishi Public Market",
+      "category": "맛집",
+      "image": "/images/place-placeholder.svg",
+      "description": "시장 구경과 먹거리 선택을 함께 하는 장소입니다. 특정 식당을 지정한 추천은 아닙니다.",
+      "address": "Matsuo, Naha, Okinawa",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+    },
+    {
+      "id": "book-okinawa-tsuboya-yachimun-street",
+      "cityId": "book-okinawa",
+      "name": "쓰보야 야치문 거리",
+      "english": "Tsuboya Yachimun Street",
+      "category": "쇼핑",
+      "image": "/images/place-placeholder.svg",
+      "description": "오키나와 도자기를 구경하는 거리입니다. 가게별 휴무와 구매품 포장을 살펴보세요.",
+      "address": "Tsuboya, Naha, Okinawa",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+    },
+    {
+      "id": "book-okinawa-naminoue-beach",
+      "cityId": "book-okinawa",
+      "name": "나미노우에 비치",
+      "english": "Naminoue Beach",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "나하에서 바다를 잠깐 둘러보기 좋은 해변입니다. 수영 허용 여부는 현장 안내를 따르세요.",
+      "address": "Wakasa, Naha, Okinawa",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+    },
+    {
+      "id": "book-okinawa-okinawa-churaumi-aquarium",
+      "cityId": "book-okinawa",
+      "name": "오키나와 추라우미 수족관",
+      "english": "Okinawa Churaumi Aquarium",
+      "category": "체험",
+      "image": "/images/place-placeholder.svg",
+      "description": "본섬 북부의 대표 수족관입니다. 나하 도심 산책과 같은 짧은 일정으로 취급하지 마세요.",
+      "address": "Motobu, Okinawa",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+    }
+  ],
+  "sections": [
+    {
+      "id": "book-okinawa-overview",
+      "title": "도시 한눈에",
+      "body": "나하는 오키나와 본섬 남쪽의 도시 여행 거점입니다. 국제거리·시장·슈리 지역은 남부 일정으로 묶고, 북부 수족관과 리조트 지역은 별도 이동일로 생각하면 계획이 단순해집니다. 미야코·이시가키는 같은 본섬 일정이 아니라 항공·숙박을 따로 정할 섬입니다.\n\n통화: 일본 엔 · JPY\n시차: 한국과 시차 없음\n여행 계절: 봄·가을은 산책 중심, 여름은 더위·태풍과 해상 상황 확인"
+    },
+    {
+      "id": "book-okinawa-before",
+      "title": "출발 전 준비",
+      "body": "여권과 입국 허가·비자 요건은 국적·방문 목적에 맞춰 정부 안내를 확인하세요. 해외 사용 가능한 결제 수단, 통신과 여행자보험을 준비하고 숙소·항공권은 오프라인에서도 확인할 수 있게 보관하세요."
+    },
+    {
+      "id": "book-okinawa-arrival",
+      "title": "공항에서 숙소까지",
+      "body": "나하공항(OKA) 도착이면 유이레일과 차량 이동을 숙소 위치로 비교하세요. 나하 도심에서만 머물면 렌터카가 꼭 필요한지부터 생각하고, 북부를 넣을 때 차량·버스·투어를 비교하세요. 차량 이용 시 숙소 주차와 일본에서 운전할 수 있는 면허 서류를 출발 전에 확인하세요."
+    },
+    {
+      "id": "book-okinawa-stay",
+      "title": "어느 동네에 묵을까",
+      "body": "국제거리 주변은 식사와 쇼핑을 걸어서 잇기 좋고, 아사히바시·오모로마치 등 역 주변은 대중교통 접근을 비교하기 좋습니다. 온나·모토부 숙소는 바다 휴양에 맞지만 나하 중심의 저녁 일정과 왕복 이동을 함께 계산해야 합니다."
+    },
+    {
+      "id": "book-okinawa-food",
+      "title": "먹거리와 동네 쇼핑",
+      "body": "오키나와 소바·고야참푸루·타코라이스를 나눠 맛보세요. 마키시 시장은 식당 한 곳이 아니라 시장과 먹거리 구역입니다. 야치문은 도자기 산책과 쇼핑에 어울리며, 유리·도자기는 귀국 수하물 포장까지 생각해 고르세요."
+    },
+    {
+      "id": "book-okinawa-days",
+      "title": "처음 가는 3일 여행",
+      "body": "1일: 나하 도착 → 국제거리 → 마키시 시장 주변. 도착일에는 짧은 도심 일정만 잡으세요.\n\n2일: 슈리성 공원 → 쓰보야 도자기 거리. 공개 구역과 오르막을 확인하고 쉬는 시간을 넣으세요.\n\n3일: 북부 수족관 또는 해변 중 한 방향을 선택하세요. 출국일이라면 공항으로 되돌아올 여유를 우선하세요.\n\n일정 초안이며 자동 경로·이동시간 계산 결과가 아닙니다. 운영과 취향에 맞춰 선택하세요."
+    },
+    {
+      "id": "book-okinawa-notes",
+      "title": "예약과 현장 팁",
+      "body": "슈리성은 복원·정비에 따라 볼 수 있는 구역이 달라질 수 있습니다. 바다가 맑아 보여도 수영 가능 구역·이안류·현장 통제를 따르세요. 태풍이나 강풍에는 섬 이동과 해상 체험을 무리하게 이어 붙이지 마세요."
+    }
+  ],
+  "sources": [
+    {
+      "title": "VISIT OKINAWA JAPAN | Official Okinawa Travel Guide",
+      "url": "https://visitokinawajapan.com/",
+      "accessedAt": "2026-10-28"
+    },
+    {
+      "title": "Okinawa Main Island | VISIT OKINAWA JAPAN | Official Okinawa Travel Guide",
+      "url": "https://visitokinawajapan.com/destinations/okinawa-main-island/",
+      "accessedAt": "2026-10-28"
+    },
+    {
+      "title": "Naha | VISIT OKINAWA JAPAN | Official Okinawa Travel Guide",
+      "url": "https://visitokinawajapan.com/destinations/okinawa-main-island/southern-okinawa-main-island/naha/",
+      "accessedAt": "2026-10-28"
+    }
+  ],
+  "status": "published",
+  "requestId": null,
+  "createdAt": "2026-10-28T05:07:12.733Z",
+  "updatedAt": "2026-10-28T05:07:12.733Z",
+  "publishedAt": "2026-10-28T05:07:12.733Z"
+}

@@ -1,0 +1,153 @@
+{
+  "id": "book-sydney",
+  "scope": "city",
+  "city": {
+    "id": "book-sydney",
+    "name": "시드니",
+    "english": "Sydney",
+    "country": "호주",
+    "region": "오세아니아",
+    "image": "/images/guide-placeholder.svg",
+    "tagline": "항구와 동네, 해변을 나눠 보는 여행",
+    "description": "시드니는 서큘러키·록스의 항구 산책과 본다이 해변을 다른 날로 나누기 좋습니다. 페리 자체도 풍경을 즐기는 이동이지만 날씨와 운항을 확인하세요. 블루마운틴은 도심 산책과 구분한 별도 당일 일정입니다.",
+    "tags": [
+      "도시 산책",
+      "여행 준비"
+    ],
+    "flight": "항공편·출발 공항에 따라 다름",
+    "currency": "호주 달러 · AUD",
+    "timeDifference": "한국보다 표준시 1시간·서머타임 2시간 빠름",
+    "timeZone": "Australia/Sydney",
+    "season": "남반구 계절, 강한 자외선·해상 기상 대비",
+    "accent": "#e7f1ef"
+  },
+  "places": [
+    {
+      "id": "book-sydney-sydney-opera-house",
+      "cityId": "book-sydney",
+      "name": "시드니 오페라하우스",
+      "english": "Sydney Opera House",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "항구의 대표 건축물입니다. 외부 산책과 공연·내부 투어를 구분하세요.",
+      "address": "Bennelong Point, Sydney",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+    },
+    {
+      "id": "book-sydney-sydney-harbour-bridge",
+      "cityId": "book-sydney",
+      "name": "시드니 하버브리지",
+      "english": "Sydney Harbour Bridge",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "항구를 가로지르는 대표 다리입니다. 보행 산책과 별도 체험 예약을 구분하세요.",
+      "address": "Sydney Harbour",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+    },
+    {
+      "id": "book-sydney-royal-botanic-garden-sydney",
+      "cityId": "book-sydney",
+      "name": "로열 보타닉 가든",
+      "english": "Royal Botanic Garden Sydney",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "항구 옆 정원 산책 후보입니다. 출입 시간과 현장 보호 규칙을 따르세요.",
+      "address": "Sydney CBD",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+    },
+    {
+      "id": "book-sydney-the-rocks",
+      "cityId": "book-sydney",
+      "name": "록스",
+      "english": "The Rocks",
+      "category": "쇼핑",
+      "image": "/images/place-placeholder.svg",
+      "description": "역사 거리와 상점이 모인 구역입니다. 시장·가게의 운영일을 확인하세요.",
+      "address": "Sydney",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+    },
+    {
+      "id": "book-sydney-bondi-beach",
+      "cityId": "book-sydney",
+      "name": "본다이 비치",
+      "english": "Bondi Beach",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "시내 동쪽의 해변입니다. 수영 깃발·파도와 귀환 교통을 확인하세요.",
+      "address": "Bondi, Sydney",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+    },
+    {
+      "id": "book-sydney-taronga-zoo-sydney",
+      "cityId": "book-sydney",
+      "name": "타롱가 동물원",
+      "english": "Taronga Zoo Sydney",
+      "category": "체험",
+      "image": "/images/place-placeholder.svg",
+      "description": "항구 건너의 동물원입니다. 방문일 운영과 페리·버스 연결을 확인하세요.",
+      "address": "Mosman, Sydney",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+    }
+  ],
+  "sections": [
+    {
+      "id": "book-sydney-overview",
+      "title": "도시 한눈에",
+      "body": "시드니는 서큘러키·록스의 항구 산책과 본다이 해변을 다른 날로 나누기 좋습니다. 페리 자체도 풍경을 즐기는 이동이지만 날씨와 운항을 확인하세요. 블루마운틴은 도심 산책과 구분한 별도 당일 일정입니다.\n\n통화: 호주 달러 · AUD\n시차: 한국보다 표준시 1시간·서머타임 2시간 빠름\n여행 계절: 남반구 계절, 강한 자외선·해상 기상 대비"
+    },
+    {
+      "id": "book-sydney-before",
+      "title": "출발 전 준비",
+      "body": "여권과 입국 허가·비자 요건은 국적·방문 목적에 맞춰 정부 안내를 확인하세요. 해외 사용 가능한 결제 수단, 통신과 여행자보험을 준비하고 숙소·항공권은 오프라인에서도 확인할 수 있게 보관하세요."
+    },
+    {
+      "id": "book-sydney-arrival",
+      "title": "공항에서 숙소까지",
+      "body": "시드니 킹스퍼드스미스 공항(SYD)의 국제선·국내선 터미널을 확인하세요. 철도·버스·차량을 숙소 위치와 짐으로 비교하고 교통요금의 공항 구간 조건을 확인하세요."
+    },
+    {
+      "id": "book-sydney-stay",
+      "title": "어느 동네에 묵을까",
+      "body": "CBD·서큘러키는 항구와 교통, 서리힐스는 식사와 카페, 본다이는 바다 체류를 비교하기 좋습니다. 밤 소음과 실제 역·정류장 접근을 확인하세요."
+    },
+    {
+      "id": "book-sydney-food",
+      "title": "먹거리와 동네 쇼핑",
+      "body": "카페 식사·다양한 아시아 음식·해산물을 나눠 즐기세요. 록스의 시장·가게는 운영일이 다르며 주말·공휴일 추가 요금은 메뉴에서 확인하세요."
+    },
+    {
+      "id": "book-sydney-days",
+      "title": "처음 가는 3일 여행",
+      "body": "1일: 도착 → 숙소 주변 산책. 장거리 비행 뒤에는 충분히 쉬고 현지 날짜에 적응하세요.\n\n2일: 시드니 오페라하우스 중심으로 주변을 둘러보세요. 예약 시설은 운영기관의 방문 조건을 먼저 확인하세요.\n\n3일: 시드니 하버브리지 또는 로열 보타닉 가든 중 관심 있는 곳을 고르고 나머지는 식사와 동네 산책에 쓰세요. 출국일에는 공항 이동을 우선하세요.\n\n일정 초안이며 자동 경로·이동시간 계산 결과가 아닙니다. 운영과 취향에 맞춰 선택하세요."
+    },
+    {
+      "id": "book-sydney-notes",
+      "title": "예약과 현장 팁",
+      "body": "입국 허가와 식품·의약품 반입 신고는 호주 정부 안내를 확인하세요. 해변은 구조대와 깃발 안내를 따르고 자외선·이안류를 가볍게 보지 마세요."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Sydney, Australia | Official Sydney Tourism Website",
+      "url": "https://www.sydney.com/",
+      "accessedAt": "2026-10-28"
+    }
+  ],
+  "status": "published",
+  "requestId": null,
+  "createdAt": "2026-10-28T05:07:12.733Z",
+  "updatedAt": "2026-10-28T05:07:12.733Z",
+  "publishedAt": "2026-10-28T05:07:12.733Z"
+}

@@ -1,0 +1,153 @@
+{
+  "id": "book-honolulu",
+  "scope": "city",
+  "city": {
+    "id": "book-honolulu",
+    "name": "호놀룰루·오아후",
+    "english": "Honolulu & Oahu",
+    "country": "미국",
+    "region": "북미",
+    "image": "/images/guide-placeholder.svg",
+    "tagline": "와이키키 휴양과 오아후 섬 여행을 나눠 즐기기",
+    "description": "호놀룰루는 오아후섬의 도시이며 와이키키는 대표 숙박 구역입니다. 와이키키·도심·섬 북부를 나눠 계획하고, 다른 하와이섬으로 이동하려면 항공과 숙박을 별도로 준비하세요.",
+    "tags": [
+      "도시 산책",
+      "여행 준비"
+    ],
+    "flight": "항공편·출발 공항에 따라 다름",
+    "currency": "미국 달러 · USD",
+    "timeDifference": "한국보다 19시간 느림 · 서머타임 없음",
+    "timeZone": "Pacific/Honolulu",
+    "season": "연중 휴양, 해상 기상과 파도 확인",
+    "accent": "#e7f1ef"
+  },
+  "places": [
+    {
+      "id": "book-honolulu-waikiki-beach",
+      "cityId": "book-honolulu",
+      "name": "와이키키 비치",
+      "english": "Waikiki Beach",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "숙박·식사 구역과 가까운 해변입니다. 수영 구역과 해상 안전 안내를 따르세요.",
+      "address": "Honolulu, Oahu",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+    },
+    {
+      "id": "book-honolulu-diamond-head-state-monument",
+      "cityId": "book-honolulu",
+      "name": "다이아몬드헤드",
+      "english": "Diamond Head State Monument",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "분화구 지형과 전망을 보는 곳입니다. 예약·입장 규칙과 오르막·더위를 고려하세요.",
+      "address": "Honolulu, Oahu",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+    },
+    {
+      "id": "book-honolulu-pearl-harbor-national-memorial",
+      "cityId": "book-honolulu",
+      "name": "진주만 국립기념지",
+      "english": "Pearl Harbor National Memorial",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "추모와 역사 관람을 위한 공간입니다. 프로그램별 예약과 소지품 규칙을 확인하세요.",
+      "address": "Honolulu, Oahu",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+    },
+    {
+      "id": "book-honolulu-hanauma-bay-nature-preserve",
+      "cityId": "book-honolulu",
+      "name": "하나우마베이",
+      "english": "Hanauma Bay Nature Preserve",
+      "category": "체험",
+      "image": "/images/place-placeholder.svg",
+      "description": "해양 보호구역입니다. 공식 예약과 보호 교육·수영 규칙을 확인하세요.",
+      "address": "East Honolulu, Oahu",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+    },
+    {
+      "id": "book-honolulu-iolani-palace",
+      "cityId": "book-honolulu",
+      "name": "이올라니 궁전",
+      "english": "Iolani Palace",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "하와이 왕국 역사를 살펴보는 궁전입니다. 관람 방식과 촬영 안내를 확인하세요.",
+      "address": "Downtown Honolulu, Oahu",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+    },
+    {
+      "id": "book-honolulu-haleiwa-town",
+      "cityId": "book-honolulu",
+      "name": "할레이바",
+      "english": "Haleiwa Town",
+      "category": "쇼핑",
+      "image": "/images/place-placeholder.svg",
+      "description": "북쪽 해안 여행의 상점·식사 구역입니다. 와이키키와의 왕복 이동을 따로 계획하세요.",
+      "address": "North Shore, Oahu",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+    }
+  ],
+  "sections": [
+    {
+      "id": "book-honolulu-overview",
+      "title": "도시 한눈에",
+      "body": "호놀룰루는 오아후섬의 도시이며 와이키키는 대표 숙박 구역입니다. 와이키키·도심·섬 북부를 나눠 계획하고, 다른 하와이섬으로 이동하려면 항공과 숙박을 별도로 준비하세요.\n\n통화: 미국 달러 · USD\n시차: 한국보다 19시간 느림 · 서머타임 없음\n여행 계절: 연중 휴양, 해상 기상과 파도 확인"
+    },
+    {
+      "id": "book-honolulu-before",
+      "title": "출발 전 준비",
+      "body": "여권과 입국 허가·비자 요건은 국적·방문 목적에 맞춰 정부 안내를 확인하세요. 해외 사용 가능한 결제 수단, 통신과 여행자보험을 준비하고 숙소·항공권은 오프라인에서도 확인할 수 있게 보관하세요."
+    },
+    {
+      "id": "book-honolulu-arrival",
+      "title": "공항에서 숙소까지",
+      "body": "다니엘 K. 이노우에 국제공항(HNL)에서 숙소까지 차량·셔틀·대중교통을 비교하세요. 날짜변경선 때문에 도착 날짜와 호텔 체크인 날짜를 항공권 기준으로 확인하세요."
+    },
+    {
+      "id": "book-honolulu-stay",
+      "title": "어느 동네에 묵을까",
+      "body": "와이키키는 해변과 식사 접근, 알라모아나 주변은 쇼핑과 이동, 코올리나·노스쇼어는 다른 분위기의 휴양을 비교하기 좋습니다. 주차·리조트 부대요금을 확인하세요."
+    },
+    {
+      "id": "book-honolulu-food",
+      "title": "먹거리와 동네 쇼핑",
+      "body": "포케·플레이트런치 등 음식을 나눠 즐기세요. 할레이바는 여러 가게가 있는 마을입니다. 세금·팁과 음식 보관 환경을 고려하세요."
+    },
+    {
+      "id": "book-honolulu-days",
+      "title": "처음 가는 3일 여행",
+      "body": "1일: 도착 → 숙소 주변 산책. 장거리 비행 뒤에는 충분히 쉬고 현지 날짜에 적응하세요.\n\n2일: 와이키키 비치 중심으로 주변을 둘러보세요. 예약 시설은 운영기관의 방문 조건을 먼저 확인하세요.\n\n3일: 다이아몬드헤드 또는 진주만 국립기념지 중 관심 있는 곳을 고르고 나머지는 식사와 동네 산책에 쓰세요. 출국일에는 공항 이동을 우선하세요.\n\n일정 초안이며 자동 경로·이동시간 계산 결과가 아닙니다. 운영과 취향에 맞춰 선택하세요."
+    },
+    {
+      "id": "book-honolulu-notes",
+      "title": "예약과 현장 팁",
+      "body": "다이아몬드헤드·하나우마베이 등은 공식 방문 예약과 보호 규칙을 확인하세요. 겨울 북쪽 해안의 큰 파도와 현장 수영 통제를 따르고 야생동물에 접근하지 마세요."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Oahu Official Travel Site: Find Vacation & Travel Information | Go Hawaii",
+      "url": "https://www.gohawaii.com/islands/oahu",
+      "accessedAt": "2026-10-28"
+    }
+  ],
+  "status": "published",
+  "requestId": null,
+  "createdAt": "2026-10-28T05:07:12.733Z",
+  "updatedAt": "2026-10-28T05:07:12.733Z",
+  "publishedAt": "2026-10-28T05:07:12.733Z"
+}

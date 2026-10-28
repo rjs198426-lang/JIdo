@@ -1,3 +1,4 @@
+import { guidebooksSnapshot, subscribeGuidebooks } from './guidebook-store'
 import { currentPlaceCategory } from './category-balance'
 import { useState, useSyncExternalStore } from 'react'
 import {
@@ -132,6 +133,12 @@ function rebuild() {
   // Update lookups as well as recommendation lists; existing stops use IDs.
   for (const city of bundledCities) cityRegistry.set(city.id, city)
   for (const place of bundledPlaces) placeRegistry.set(place.id, place)
+  const books = guidebooksSnapshot()
+  for (const place of books.retainedPlaces) placeRegistry.set(place.id, place)
+  for (const { guide } of books.books) {
+    cityRegistry.set(guide.id, guide.city)
+    for (const place of guide.places) placeRegistry.set(place.id, place)
+  }
   for (const guide of snapshot.retained) {
     cityRegistry.set(
       guide.id,
@@ -147,6 +154,10 @@ function rebuild() {
   const availablePlaces = new Map(
     bundledPlaces.map((place) => [place.id, place]),
   )
+  for (const { guide } of books.books) {
+    availableCities.set(guide.id, guide.city)
+    for (const place of guide.places) availablePlaces.set(place.id, place)
+  }
   for (const guide of snapshot.available) {
     const city = currentPhoto(
       guide.city,
@@ -189,7 +200,13 @@ export const getCity = (id: string) => cityRegistry.get(id)
 export const getPlace = (id: string) => placeRegistry.get(id)
 export const getGuide = (id: string) =>
   snapshot.available.find((guide) => guide.id === id) ||
-  snapshot.retained.find((guide) => guide.id === id)
+  snapshot.retained.find((guide) => guide.id === id) ||
+  guidebooksSnapshot().books.find((book) => book.guide.id === id)?.guide
+subscribeGuidebooks(() => {
+  rebuild()
+  snapshot = { ...snapshot }
+  for (const listener of listeners) listener()
+})
 export function installGuides(guides: Guide[]) {
   const retained = new Map(snapshot.retained.map((guide) => [guide.id, guide]))
   for (const guide of guides) {

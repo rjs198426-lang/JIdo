@@ -45,7 +45,12 @@ export default function JourneyRoute({
       id: crypto.randomUUID(),
       name: city?.name || name.trim(),
       country: city?.country || country.trim(),
-      ...(city ? { guideCityId: city.id } : {}),
+      ...(city
+        ? {
+            guideCityId: city.id,
+            ...(city.timeZone ? { timeZone: city.timeZone } : {}),
+          }
+        : {}),
     }
     if (!next.name || !next.country)
       return setError('도시와 국가를 입력해 주세요.')

@@ -22,7 +22,9 @@
     "dev:admin": "vite --mode admin --open /admin/admin.html",
     "predev:admin": "node --use-env-proxy scripts/setup-fonts.mjs && npm run assets:prepare",
     "content:publish": "node --experimental-strip-types scripts/publish-content.mjs",
-    "postbuild": "node scripts/audit-client-build.mjs"
+    "postbuild": "node scripts/audit-client-build.mjs",
+    "guidebooks:build": "node --experimental-strip-types scripts/build-guidebooks.mjs",
+    "guidebooks:check": "node --experimental-strip-types scripts/build-guidebooks.mjs --check"
   },
   "engines": {
     "node": ">=24"

@@ -1,3 +1,6 @@
+import GuidebookLibrary from './GuidebookLibrary'
+import { guidebookPlaceSnapshot } from './guidebook-trip'
+import { isManagedGuidebook } from './guidebook-store'
 import { createContext, useContext } from 'react'
 import RecoveryPanel from './RecoveryPanel'
 import { SAVE_ERROR_MESSAGE } from './store'
@@ -5,7 +8,7 @@ import ReminderSettings from './ReminderSettings'
 import LiveNearby from './LiveNearby'
 import { useTravelReminders } from './reminder-service'
 import { layoutHeight } from './ui-scale'
-import { Ticket, CheckSquare, Wallet } from 'lucide-react'
+import { BookOpen, Ticket, CheckSquare, Wallet } from 'lucide-react'
 import DayNavigation from './DayNavigation'
 import {
   moveScheduleStops,
@@ -182,6 +185,7 @@ type Dialog =
   | { type: 'reminders' }
   | { type: 'nearby' }
   | { type: 'recovery' }
+  | { type: 'guidebooks' }
   | { type: 'expense'; tripId: string; day: number; stopId?: string }
   | { type: 'city'; id: string; guideTab?: CityGuideTab }
   | { type: 'place'; id: string }
@@ -493,6 +497,9 @@ function CreateTrip({
         placeId: place.id,
         time: '',
         note: '',
+        ...(guidebookPlaceSnapshot(place, targetId)
+          ? { custom: guidebookPlaceSnapshot(place, targetId) }
+          : {}),
       }),
     )
     const created: Trip = {
@@ -507,7 +514,14 @@ function CreateTrip({
             destination === 'custom'
               ? customCountry.trim()
               : getCity(destination)!.country,
-          ...(destination !== 'custom' ? { guideCityId: destination } : {}),
+          ...(destination !== 'custom'
+            ? {
+                guideCityId: destination,
+                ...(getCity(destination)?.timeZone
+                  ? { timeZone: getCity(destination)!.timeZone }
+                  : {}),
+              }
+            : {}),
         },
       ],
       startDate: start,
@@ -2255,6 +2269,17 @@ export default function App() {
       placeId,
       time: '',
       note: '',
+      ...(guidebookPlaceSnapshot(
+        getPlace(placeId)!,
+        destinationForDay(trip, day).id,
+      )
+        ? {
+            custom: guidebookPlaceSnapshot(
+              getPlace(placeId)!,
+              destinationForDay(trip, day).id,
+            ),
+          }
+        : {}),
     }
     if (
       !updateTrip({
@@ -2511,6 +2536,7 @@ export default function App() {
             onNearby={() => setDialog({ type: 'nearby' })}
             onPhotoCredits={() => setDialog({ type: 'credits' })}
             onBackup={() => setDialog({ type: 'backup' })}
+            onGuidebooks={() => setDialog({ type: 'guidebooks' })}
             onRecovery={
               recoveries.length
                 ? () => setDialog({ type: 'recovery' })
@@ -2613,6 +2639,13 @@ export default function App() {
           <section className="page-section">
             <div className="page-title">
               <h1>도시·장소 찾기</h1>
+              <button
+                className="text-button"
+                onClick={() => setDialog({ type: 'guidebooks' })}
+              >
+                <BookOpen size={17} />
+                가이드북 추가
+              </button>
             </div>
             <form
               className="explore-search input-search"
@@ -3036,6 +3069,11 @@ export default function App() {
             </Modal>
           )
         })()}
+      {dialog?.type === 'guidebooks' && (
+        <Modal title="가이드북" onClose={() => setDialog(null)}>
+          <GuidebookLibrary onOpen={openCity} />
+        </Modal>
+      )}
       {dialog?.type === 'recovery' && (
         <Modal title="기록 복구 안내" onClose={() => setDialog(null)}>
           <RecoveryPanel
@@ -3297,8 +3335,10 @@ export default function App() {
                   city={city}
                   initialTab={dialog.guideTab}
                   onPlace={openPlace}
+                  overviewOnly={isManagedGuidebook(storedGuide)}
                 >
                   <GuideContent
+                    library={isManagedGuidebook(storedGuide)}
                     compact
                     guide={storedGuide}
                     cityId={city.id}

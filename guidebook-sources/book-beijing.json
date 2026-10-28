@@ -1,0 +1,153 @@
+{
+  "id": "book-beijing",
+  "scope": "city",
+  "city": {
+    "id": "book-beijing",
+    "name": "베이징",
+    "english": "Beijing",
+    "country": "중국",
+    "region": "동아시아",
+    "image": "/images/guide-placeholder.svg",
+    "tagline": "궁궐과 공원, 후퉁을 하루씩 나누는 여행",
+    "description": "베이징의 주요 유산은 규모가 커 지도에서 가까워 보여도 걷는 양이 많습니다. 자금성 주변·천단·이화원·만리장성을 각각 중심 일정으로 나누고 하루에 큰 유산을 여러 곳 넣지 않는 편이 좋습니다. 골목과 식사 시간을 사이에 넣어 이동 부담을 줄이세요.",
+    "tags": [
+      "도시 산책",
+      "여행 준비"
+    ],
+    "flight": "항공편·출발 공항에 따라 다름",
+    "currency": "중국 위안 · CNY",
+    "timeDifference": "한국보다 1시간 느림",
+    "timeZone": "Asia/Shanghai",
+    "season": "봄·가을 중심, 한여름 더위·겨울 추위 대비",
+    "accent": "#e7f1ef"
+  },
+  "places": [
+    {
+      "id": "book-beijing-palace-museum",
+      "cityId": "book-beijing",
+      "name": "자금성",
+      "english": "Palace Museum",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "명·청 시대 궁궐을 살펴보는 큰 관람 구역입니다. 여권 기반 예약과 입장 방향을 확인하세요.",
+      "address": "Dongcheng, Beijing",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+    },
+    {
+      "id": "book-beijing-jingshan-park",
+      "cityId": "book-beijing",
+      "name": "징산공원",
+      "english": "Jingshan Park",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "궁궐 주변을 내려다보는 언덕 공원입니다. 계단과 날씨를 고려하세요.",
+      "address": "Xicheng, Beijing",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+    },
+    {
+      "id": "book-beijing-temple-of-heaven",
+      "cityId": "book-beijing",
+      "name": "천단공원",
+      "english": "Temple of Heaven",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "제례 건축과 공원을 함께 둘러보는 곳입니다. 공원과 주요 건축 관람 범위를 구분하세요.",
+      "address": "Dongcheng, Beijing",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+    },
+    {
+      "id": "book-beijing-summer-palace",
+      "cityId": "book-beijing",
+      "name": "이화원",
+      "english": "Summer Palace",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "호수와 궁원 구역이 넓게 펼쳐진 유산입니다. 방문할 출입구와 귀가 교통을 정하세요.",
+      "address": "Haidian, Beijing",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+    },
+    {
+      "id": "book-beijing-nanluoguxiang",
+      "cityId": "book-beijing",
+      "name": "난뤄구샹",
+      "english": "Nanluoguxiang",
+      "category": "쇼핑",
+      "image": "/images/place-placeholder.svg",
+      "description": "후퉁 골목과 상점이 모인 구역입니다. 관광 거리 밖 생활 공간을 배려하세요.",
+      "address": "Dongcheng, Beijing",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+    },
+    {
+      "id": "book-beijing-mutianyu-great-wall",
+      "cityId": "book-beijing",
+      "name": "무톈위 장성",
+      "english": "Mutianyu Great Wall",
+      "category": "체험",
+      "image": "/images/place-placeholder.svg",
+      "description": "베이징 외곽의 만리장성 방문 구간입니다. 왕복 교통과 경사·기상 조건을 확인하세요.",
+      "address": "Huairou, Beijing",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "영업·입장·예약 조건은 변동될 수 있습니다. 출발 전 운영기관 안내를 확인하세요."
+    }
+  ],
+  "sections": [
+    {
+      "id": "book-beijing-overview",
+      "title": "도시 한눈에",
+      "body": "베이징의 주요 유산은 규모가 커 지도에서 가까워 보여도 걷는 양이 많습니다. 자금성 주변·천단·이화원·만리장성을 각각 중심 일정으로 나누고 하루에 큰 유산을 여러 곳 넣지 않는 편이 좋습니다. 골목과 식사 시간을 사이에 넣어 이동 부담을 줄이세요.\n\n통화: 중국 위안 · CNY\n시차: 한국보다 1시간 느림\n여행 계절: 봄·가을 중심, 한여름 더위·겨울 추위 대비"
+    },
+    {
+      "id": "book-beijing-before",
+      "title": "출발 전 준비",
+      "body": "여권과 입국 허가·비자 요건은 국적·방문 목적에 맞춰 정부 안내를 확인하세요. 해외 사용 가능한 결제 수단, 통신과 여행자보험을 준비하고 숙소·항공권은 오프라인에서도 확인할 수 있게 보관하세요."
+    },
+    {
+      "id": "book-beijing-arrival",
+      "title": "공항에서 숙소까지",
+      "body": "서우두공항(PEK)과 다싱공항(PKX)은 서로 다른 공항입니다. 공항철도와 지하철 연결, 도착 시각의 운행 여부를 확인하세요. 여권의 영문 이름과 예약 정보가 일치하는지 점검하세요."
+    },
+    {
+      "id": "book-beijing-stay",
+      "title": "어느 동네에 묵을까",
+      "body": "왕푸징·둥청은 도심 관광, 둥즈먼은 교통 연결, 차오양은 숙소와 식당 선택을 비교하기 좋습니다. 중심지라는 이름보다 역 접근과 실제 방문지를 기준으로 고르세요."
+    },
+    {
+      "id": "book-beijing-food",
+      "title": "먹거리와 동네 쇼핑",
+      "body": "베이징 카오야와 면 요리를 식사 후보로 비교하세요. 난뤄구샹은 특정 식당이 아니라 골목 상점 구역입니다. 대기·예약 방식과 음식 양을 확인하고 동행자와 주문을 나누세요."
+    },
+    {
+      "id": "book-beijing-days",
+      "title": "처음 가는 3일 여행",
+      "body": "1일: 도착 → 숙소 주변 산책과 식사. 공항에 맞춰 이동 여유를 두세요.\n\n2일: 자금성 → 징산공원. 자금성 예약과 입장 방향을 먼저 확인하세요.\n\n3일: 이화원·천단 중 하나 또는 무톈위 장성 당일 이동을 선택하세요.\n\n일정 초안이며 자동 경로·이동시간 계산 결과가 아닙니다. 운영과 취향에 맞춰 선택하세요."
+    },
+    {
+      "id": "book-beijing-notes",
+      "title": "예약과 현장 팁",
+      "body": "궁궐·박물관·일부 공공 구역은 여권 기반 예약과 보안 검색이 필요할 수 있습니다. 공식 예약을 먼저 확인하고, 만리장성은 방문 구간과 귀환 교통을 명확히 정하세요."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Travelling in Beijing",
+      "url": "https://english.beijing.gov.cn/travellinginbeijing/",
+      "accessedAt": "2026-10-28"
+    }
+  ],
+  "status": "published",
+  "requestId": null,
+  "createdAt": "2026-10-28T05:07:12.733Z",
+  "updatedAt": "2026-10-28T05:07:12.733Z",
+  "publishedAt": "2026-10-28T05:07:12.733Z"
+}

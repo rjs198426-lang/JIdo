@@ -1939,3 +1939,54 @@ body {
   color: #75431f;
   overflow-wrap: anywhere;
 }
+
+/* Downloaded guidebooks keep long articles out of the default APK. */
+:root .guidebook-library > p {
+  margin: 0 0 12px;
+}
+:root .guidebook-library-status {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin: 14px 0;
+}
+:root .guidebook-country {
+  margin-top: 22px;
+}
+:root .guidebook-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 0;
+  border-bottom: 1px solid var(--line);
+}
+:root .guidebook-row > div {
+  min-width: 0;
+}
+:root .guidebook-row p {
+  margin: 5px 0;
+  color: var(--muted);
+  overflow-wrap: anywhere;
+}
+:root .guidebook-row small,
+:root .guidebook-saved {
+  color: var(--muted);
+}
+:root .guidebook-row-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: stretch;
+}
+:root .guidebook-row-actions .button {
+  white-space: nowrap;
+}
+:root .guidebook-section-body {
+  white-space: pre-line;
+  overflow-wrap: anywhere;
+  margin: 12px 0 0;
+  line-height: 1.7;
+}
