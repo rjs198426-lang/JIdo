@@ -1411,7 +1411,7 @@
   },
   "factsPolicy": "본문의 사실을 한국어로 새로 작성. 2026년 공지·운영기관을 우선하고 날짜 없는 공식 개요는 게시일 미상으로 표시. 요금·영업시간·좌표·입국 자격을 추정하지 않음. HTTP 200만으로 운영·현재성을 보증하지 않음.",
   "validationStatus": "passed",
-  "publicationStatus": "pending",
+  "publicationStatus": "verified",
   "validation": {
     "guidebookBuild": {
       "cities": 29,
@@ -1429,7 +1429,8 @@
     "browserScope": "393px Chromium: 신규 5개 각각 다운로드·연구 본문·장소 목록·재실행 후 오프라인 열람, 개인 기록 보존. 기존 라이브러리 회귀 18개 포함.",
     "preservation": "기존 45개 record JSON과 내용 해시, 기존 불변 다운로드 24개를 원본 커밋과 바이트 단위 비교해 일치.",
     "webBuild": "TypeScript·Vite 및 client asset audit 통과. Android APK·iOS·서명키는 변경하지 않음.",
-    "testMaintenance": "후보 큐 첫 항목이 언제나 신규라고 가정한 중복 fixture를 실제 다음 미처리 후보로 수정. 라이브러리의 고정 24개·6곳 가정을 원본 목록·각 가이드 장소 수 및 최소 5곳 기준으로 변경."
+    "testMaintenance": "후보 큐 첫 항목이 언제나 신규라고 가정한 중복 fixture를 실제 다음 미처리 후보로 수정. 라이브러리의 고정 24개·6곳 가정을 원본 목록·각 가이드 장소 수 및 최소 5곳 기준으로 변경.",
+    "githubActions": "https://github.com/rjs198426-lang/JIdo/actions/runs/40736236564 (success)"
   },
   "currentConditions": [
     {
@@ -1456,5 +1457,7 @@
     "http200": 55,
     "citedUniqueUrls": 42
   },
-  "validatedAt": "2026-10-28T17:27:32.849675+00:00"
+  "validatedAt": "2026-10-28T17:27:32.849675+00:00",
+  "publicVerification": "research/guidebooks/runs/20261028T1700-public-verification.json",
+  "publishedSourceCommit": "716360da51226f90517e9d8f967b98227b1d4bb1"
 }
