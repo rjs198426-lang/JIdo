@@ -6,7 +6,7 @@ export default function TravelMembers({
   onUpdate,
 }: {
   trip: Trip
-  onUpdate: (trip: Trip) => void
+  onUpdate: (trip: Trip) => boolean | void
 }) {
   const [open, setOpen] = useState(false)
   const initial = () =>
@@ -65,7 +65,7 @@ export default function TravelMembers({
             const parsed = tripSchema.safeParse(next)
             if (!parsed.success)
               return setError('동행인 이름은 비우거나 중복할 수 없어요.')
-            onUpdate(next)
+            if (onUpdate(next) === false) return
             setOpen(false)
             setError('')
           }}

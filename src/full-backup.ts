@@ -17,7 +17,10 @@ import { tripSchema, type Trip } from './travel-model'
 import type { TravelStore } from './store'
 
 export const NativeBackup = registerPlugin<{
-  saveDocument(options: { text: string }): Promise<{ cancelled: boolean }>
+  saveDocument(options: {
+    text: string
+    format?: 'recovery'
+  }): Promise<{ cancelled: boolean }>
   exportArchive(options: { manifest: string }): Promise<{ cancelled: boolean }>
   inspectArchive(): Promise<{
     cancelled?: boolean
@@ -327,6 +330,8 @@ export function commitFullRestore(
   current: TravelStore,
   trips: Trip[],
   restoredPhotos: Record<string, Attachment>,
+  persist: (next: TravelStore) => void = (next) =>
+    localStorage.setItem('jido-travel-v1', JSON.stringify(next)),
 ): TravelStore {
   if (current.trips.length + trips.length > 500)
     throw new Error('여행은 최대 500개까지 보관할 수 있어요.')
@@ -338,7 +343,7 @@ export function commitFullRestore(
   try {
     replacePersonalPhotos(photos)
     changed = true
-    localStorage.setItem('jido-travel-v1', JSON.stringify(next))
+    persist(next)
   } catch (error) {
     if (changed) {
       try {

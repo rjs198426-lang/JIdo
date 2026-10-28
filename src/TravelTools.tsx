@@ -18,7 +18,11 @@ import {
 } from './travel-model'
 import { formatDate, dayCount, dateAt } from './store'
 
-type Props = { trip: Trip; onUpdate: (trip: Trip) => void; day?: number }
+type Props = {
+  trip: Trip
+  onUpdate: (trip: Trip) => boolean | void
+  day?: number
+}
 export { default as Checklist } from './PreparationChecklist'
 
 export { default as Expenses } from './ExpenseManager'
@@ -88,13 +92,16 @@ export function Reservations({ trip, onUpdate, day = 0 }: Props) {
       currency: form?.cost !== undefined ? form.currency || 'KRW' : undefined,
     })
     if (!parsed.success) return setError(parsed.error.issues[0].message)
-    onUpdate(
-      syncReservation(
-        trip,
-        items.find((item) => item.id === parsed.data.id),
-        parsed.data,
-      ),
+    if (
+      onUpdate(
+        syncReservation(
+          trip,
+          items.find((item) => item.id === parsed.data.id),
+          parsed.data,
+        ),
+      ) === false
     )
+      return
     setForm(null)
     setError('')
   }
@@ -427,30 +434,33 @@ export function Reservations({ trip, onUpdate, day = 0 }: Props) {
                         )
                       )
                         return
-                      onUpdate({
-                        ...trip,
-                        expenses: [
-                          ...(trip.expenses || []),
-                          {
-                            id: crypto.randomUUID(),
-                            title: item.title,
-                            amount: item.cost!,
-                            currency: item.currency!,
-                            date: item.paymentDate || item.date,
-                            category:
-                              item.kind === '숙소'
-                                ? '숙박'
-                                : item.kind === '항공' || item.kind === '교통'
-                                  ? '교통'
-                                  : item.kind === '체험'
-                                    ? '관광'
-                                    : '기타',
-                            payer: '',
-                            reservationId: item.id,
-                            direction: 'expense',
-                          },
-                        ],
-                      })
+                      if (
+                        onUpdate({
+                          ...trip,
+                          expenses: [
+                            ...(trip.expenses || []),
+                            {
+                              id: crypto.randomUUID(),
+                              title: item.title,
+                              amount: item.cost!,
+                              currency: item.currency!,
+                              date: item.paymentDate || item.date,
+                              category:
+                                item.kind === '숙소'
+                                  ? '숙박'
+                                  : item.kind === '항공' || item.kind === '교통'
+                                    ? '교통'
+                                    : item.kind === '체험'
+                                      ? '관광'
+                                      : '기타',
+                              payer: '',
+                              reservationId: item.id,
+                              direction: 'expense',
+                            },
+                          ],
+                        }) === false
+                      )
+                        return
                       setMessage('가계부에 예약 비용을 기록했어요.')
                     }}
                   >
@@ -479,31 +489,36 @@ export function Reservations({ trip, onUpdate, day = 0 }: Props) {
                           .some((stop) => stop.reservationId === item.id)
                       )
                         return
-                      onUpdate({
-                        ...trip,
-                        days: trip.days.map((stops, index) =>
-                          index === day
-                            ? [
-                                ...stops,
-                                {
-                                  id: crypto.randomUUID(),
-                                  placeId: `custom-${crypto.randomUUID()}`,
-                                  reservationId: item.id,
-                                  time: item.time,
-                                  note: reservationNote(item),
-                                  custom: {
-                                    name: item.title,
-                                    kind: reservationPlaceKind(item.kind),
-                                    address: item.address,
-                                    link: item.link,
-                                    destinationId: destinationForDay(trip, day)
-                                      .id,
+                      if (
+                        onUpdate({
+                          ...trip,
+                          days: trip.days.map((stops, index) =>
+                            index === day
+                              ? [
+                                  ...stops,
+                                  {
+                                    id: crypto.randomUUID(),
+                                    placeId: `custom-${crypto.randomUUID()}`,
+                                    reservationId: item.id,
+                                    time: item.time,
+                                    note: reservationNote(item),
+                                    custom: {
+                                      name: item.title,
+                                      kind: reservationPlaceKind(item.kind),
+                                      address: item.address,
+                                      link: item.link,
+                                      destinationId: destinationForDay(
+                                        trip,
+                                        day,
+                                      ).id,
+                                    },
                                   },
-                                },
-                              ]
-                            : stops,
-                        ),
-                      })
+                                ]
+                              : stops,
+                          ),
+                        }) === false
+                      )
+                        return
                     }}
                   >
                     {trip.days
@@ -533,12 +548,15 @@ export function Reservations({ trip, onUpdate, day = 0 }: Props) {
                   aria-label={`${item.title} 예약 삭제`}
                   onClick={() => {
                     setRemoved(item)
-                    onUpdate({
-                      ...trip,
-                      reservations: items.filter(
-                        (current) => current.id !== item.id,
-                      ),
-                    })
+                    if (
+                      onUpdate({
+                        ...trip,
+                        reservations: items.filter(
+                          (current) => current.id !== item.id,
+                        ),
+                      }) === false
+                    )
+                      return
                     if (form?.id === item.id) setForm(null)
                   }}
                 >
@@ -553,7 +571,11 @@ export function Reservations({ trip, onUpdate, day = 0 }: Props) {
           예약 정보를 삭제했어요.
           <button
             onClick={() => {
-              onUpdate({ ...trip, reservations: [...items, removed] })
+              if (
+                onUpdate({ ...trip, reservations: [...items, removed] }) ===
+                false
+              )
+                return
               setRemoved(null)
             }}
           >

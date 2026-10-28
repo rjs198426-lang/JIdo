@@ -1,3 +1,4 @@
+import { SAVE_ERROR_MESSAGE } from './store'
 import { useEffect, useRef, useState } from 'react'
 import { ArrowUp, ArrowDown, X } from 'lucide-react'
 import { stopDetails, type Trip } from './travel-model'
@@ -10,7 +11,7 @@ export default function ScheduleOrderDialog({
 }: {
   trip: Trip
   day: number
-  onApply: (change: ScheduleOrder) => void
+  onApply: (change: ScheduleOrder) => boolean | void
   onClose: () => void
 }) {
   const dialog = useRef<HTMLDialogElement>(null)
@@ -119,7 +120,8 @@ export default function ScheduleOrderDialog({
           disabled={JSON.stringify(ids) === JSON.stringify(before)}
           onClick={() => {
             try {
-              onApply({ day, before, after: ids })
+              if (onApply({ day, before, after: ids }) === false)
+                return setError(SAVE_ERROR_MESSAGE)
               onClose()
             } catch (reason) {
               setError((reason as Error).message)

@@ -83,21 +83,33 @@ export default function TripEditor({
         name = `${base} (${suffix++})`
       members.push({ id: crypto.randomUUID(), name })
     }
-    draft.clear()
-    onSave({
-      ...trip,
-      title: title.trim(),
-      startDate: start,
-      endDate: end,
-      travelers,
-      members,
-      days: Array.from({ length: count }, (_, index) => trip.days[index] || []),
-      dayDestinationIds: Array.from(
-        { length: count },
-        (_, index) =>
-          destinationForDay(trip, Math.min(index, trip.days.length - 1)).id,
-      ),
-    })
+    try {
+      onSave({
+        ...trip,
+        title: title.trim(),
+        startDate: start,
+        endDate: end,
+        travelers,
+        members,
+        days: Array.from(
+          { length: count },
+          (_, index) => trip.days[index] || [],
+        ),
+        dayDestinationIds: Array.from(
+          { length: count },
+          (_, index) =>
+            destinationForDay(trip, Math.min(index, trip.days.length - 1)).id,
+        ),
+      })
+      draft.clear()
+      setError('')
+    } catch (reason) {
+      setError(
+        reason instanceof Error
+          ? reason.message
+          : '저장하지 못했어요. 다시 시도해 주세요.',
+      )
+    }
   }
   return (
     <form className="create-form" onSubmit={submit}>

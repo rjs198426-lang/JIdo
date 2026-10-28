@@ -43,7 +43,7 @@ export default function PreparationChecklist({
   onUpdate,
 }: {
   trip: Trip
-  onUpdate: (trip: Trip) => void
+  onUpdate: (trip: Trip) => boolean | void
 }) {
   const items = trip.checklist || []
   const draft = useDraftFields(
@@ -92,19 +92,22 @@ export default function PreparationChecklist({
     if (!title.trim()) return
     if (items.length >= 500)
       return setError('준비 항목은 최대 500개까지 저장할 수 있어요.')
-    onUpdate({
-      ...trip,
-      checklist: [
-        ...items,
-        {
-          id: crypto.randomUUID(),
-          title: title.trim(),
-          done: false,
-          category,
-          assigneeId: addAssignee || undefined,
-        },
-      ],
-    })
+    if (
+      onUpdate({
+        ...trip,
+        checklist: [
+          ...items,
+          {
+            id: crypto.randomUUID(),
+            title: title.trim(),
+            done: false,
+            category,
+            assigneeId: addAssignee || undefined,
+          },
+        ],
+      }) === false
+    )
+      return
     setTitle('')
     setError('')
   }
@@ -126,7 +129,7 @@ export default function PreparationChecklist({
       }))
     if (items.length + added.length > 500)
       return setError('준비 항목은 최대 500개까지 저장할 수 있어요.')
-    onUpdate({ ...trip, checklist: [...items, ...added] })
+    if (onUpdate({ ...trip, checklist: [...items, ...added] }) === false) return
     setError('')
   }
   const visible = [...items]
@@ -254,12 +257,15 @@ export default function PreparationChecklist({
             const parsed = checklistSchema.safeParse(editing)
             if (!parsed.success)
               return setError('준비물 이름과 날짜를 확인하세요.')
-            onUpdate({
-              ...trip,
-              checklist: items.map((item) =>
-                item.id === editing.id ? parsed.data : item,
-              ),
-            })
+            if (
+              onUpdate({
+                ...trip,
+                checklist: items.map((item) =>
+                  item.id === editing.id ? parsed.data : item,
+                ),
+              }) === false
+            )
+              return
             setEditing(null)
             setError('')
           }}
@@ -411,16 +417,19 @@ export default function PreparationChecklist({
                       className="icon-button"
                       aria-label={`${item.title} 준비물 삭제`}
                       onClick={() => {
+                        if (
+                          onUpdate({
+                            ...trip,
+                            checklist: items.filter(
+                              (current) => current.id !== item.id,
+                            ),
+                          }) === false
+                        )
+                          return
                         setRemoved({
                           item,
                           index: items.findIndex(
                             (current) => current.id === item.id,
-                          ),
-                        })
-                        onUpdate({
-                          ...trip,
-                          checklist: items.filter(
-                            (current) => current.id !== item.id,
                           ),
                         })
                         if (editing?.id === item.id) setEditing(null)
@@ -492,14 +501,17 @@ export default function PreparationChecklist({
           준비물을 삭제했어요.
           <button
             onClick={() => {
-              onUpdate({
-                ...trip,
-                checklist: [
-                  ...items.slice(0, removed.index),
-                  removed.item,
-                  ...items.slice(removed.index),
-                ],
-              })
+              if (
+                onUpdate({
+                  ...trip,
+                  checklist: [
+                    ...items.slice(0, removed.index),
+                    removed.item,
+                    ...items.slice(removed.index),
+                  ],
+                }) === false
+              )
+                return
               setRemoved(null)
             }}
           >

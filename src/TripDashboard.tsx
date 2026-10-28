@@ -23,7 +23,7 @@ import type { JourneyTarget } from './trip-readiness'
 type Props = {
   trip: Trip
   day: number
-  onUpdate: (trip: Trip) => void
+  onUpdate: (trip: Trip) => boolean | void
   onOpen: (workspace: string, day?: number) => void
   onExpense: () => void
   onLocate: (target: JourneyTarget) => void
@@ -122,7 +122,7 @@ export default function TripDashboard({
   const [message, setMessage] = useState('')
   function saveInfo(event: FormEvent) {
     event.preventDefault()
-    onUpdate({ ...trip, travelInfo: info })
+    if (onUpdate({ ...trip, travelInfo: info }) === false) return
     setInfoOpen(false)
     setMessage('여행 메모를 저장했어요.')
   }

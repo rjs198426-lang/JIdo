@@ -1,3 +1,4 @@
+import { SAVE_ERROR_MESSAGE } from './store'
 import { useEffect, useRef, useState } from 'react'
 import { X } from 'lucide-react'
 import {
@@ -17,7 +18,7 @@ export default function DayScheduleAdjust({
 }: {
   trip: Trip
   day: number
-  onApply: (value: TimeAdjustment) => void
+  onApply: (value: TimeAdjustment) => boolean | void
   onClose: () => void
 }) {
   const dialog = useRef<HTMLDialogElement>(null),
@@ -152,7 +153,8 @@ export default function DayScheduleAdjust({
           onClick={() => {
             if (!preview) return
             try {
-              onApply(preview)
+              if (onApply(preview) === false)
+                return setError(SAVE_ERROR_MESSAGE)
               onClose()
             } catch (reason) {
               setError((reason as Error).message)

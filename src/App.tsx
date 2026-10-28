@@ -1,3 +1,6 @@
+import { createContext, useContext } from 'react'
+import RecoveryPanel from './RecoveryPanel'
+import { SAVE_ERROR_MESSAGE } from './store'
 import ReminderSettings from './ReminderSettings'
 import LiveNearby from './LiveNearby'
 import { useTravelReminders } from './reminder-service'
@@ -178,6 +181,7 @@ type Dialog =
   | { type: 'credits' }
   | { type: 'reminders' }
   | { type: 'nearby' }
+  | { type: 'recovery' }
   | { type: 'expense'; tripId: string; day: number; stopId?: string }
   | { type: 'city'; id: string; guideTab?: CityGuideTab }
   | { type: 'place'; id: string }
@@ -221,6 +225,8 @@ const categoryIcon = {
   체험: Sparkles,
 }
 
+const StorageErrorContext = createContext('')
+
 function Modal({
   title,
   children,
@@ -232,6 +238,7 @@ function Modal({
   onClose: () => void
   wide?: boolean
 }) {
+  const storageMessage = useContext(StorageErrorContext)
   const ref = useRef<HTMLDivElement>(null)
   const titleId = useId()
   const closeRef = useRef(onClose)
@@ -292,6 +299,11 @@ function Modal({
             <X size={21} />
           </button>
         </div>
+        {storageMessage && (
+          <p className="modal-save-error" role="alert">
+            {storageMessage}
+          </p>
+        )}
         {children}
       </div>
     </div>
@@ -804,7 +816,9 @@ function Itinerary({
 }: {
   scheduleReturn?: { tripId: string; day: number; revision: number }
   onQuickExpense: (stop?: Stop) => void
-  onAttachmentsChange: (change: (files: Attachment[]) => Attachment[]) => void
+  onAttachmentsChange: (
+    change: (files: Attachment[]) => Attachment[],
+  ) => boolean | void
   isAttachmentShared: (id: string) => boolean
   trip: Trip
   day: number
@@ -813,7 +827,7 @@ function Itinerary({
   onDeleteTrip: () => void
   onEditTrip: () => void
   onCustom: (stopId?: string) => void
-  onUpdate: (trip: Trip) => void
+  onUpdate: (trip: Trip) => boolean | void
   onOpen: (placeId: string) => void
 }) {
   const city = tripCity(trip)
@@ -989,9 +1003,10 @@ function Itinerary({
     .map((stop, index) => ({ stop, index }))
     .filter(({ stop }) => matchesSchedule(trip, stop, scheduleFilter))
   const changeOrder = (change: ScheduleOrder) => {
-    onUpdate(applyScheduleOrder(trip, change))
+    if (onUpdate(applyScheduleOrder(trip, change)) === false) return false
     setOrderUndo(change)
     setOrderError('')
+    return true
   }
 
   const updateStop = (id: string, change: Partial<Stop>) =>
@@ -1007,13 +1022,16 @@ function Itinerary({
     })
   const removeStop = (id: string) => {
     const index = stops.findIndex((stop) => stop.id === id)
+    if (
+      onUpdate({
+        ...trip,
+        days: trip.days.map((items, index) =>
+          index === day ? items.filter((stop) => stop.id !== id) : items,
+        ),
+      }) === false
+    )
+      return
     if (index >= 0) setRemoved({ stop: stops[index], day, index })
-    onUpdate({
-      ...trip,
-      days: trip.days.map((items, index) =>
-        index === day ? items.filter((stop) => stop.id !== id) : items,
-      ),
-    })
   }
   const moveToDay = (stop: Stop, target: number) => {
     if (
@@ -1023,16 +1041,19 @@ function Itinerary({
       trip.days[target].length >= 200
     )
       return
-    onUpdate({
-      ...trip,
-      days: trip.days.map((items, index) =>
-        index === day
-          ? items.filter((item) => item.id !== stop.id)
-          : index === target
-            ? [...items, stop]
-            : items,
-      ),
-    })
+    if (
+      onUpdate({
+        ...trip,
+        days: trip.days.map((items, index) =>
+          index === day
+            ? items.filter((item) => item.id !== stop.id)
+            : index === target
+              ? [...items, stop]
+              : items,
+        ),
+      }) === false
+    )
+      return
     onDayChange(target)
   }
   const moveStop = (index: number, direction: number) => {
@@ -1048,19 +1069,27 @@ function Itinerary({
     <AttachmentsContext.Provider
       value={{
         files: trip.attachments || [],
-        add: (files) =>
-          onAttachmentsChange((current) =>
-            [
-              ...current,
-              ...files.filter(
-                (file) => !current.some((item) => item.id === file.id),
-              ),
-            ].slice(0, 300),
-          ),
-        remove: (id) =>
-          onAttachmentsChange((current) =>
-            current.filter((file) => file.id !== id),
-          ),
+        add: (files) => {
+          if (
+            onAttachmentsChange((current) =>
+              [
+                ...current,
+                ...files.filter(
+                  (file) => !current.some((item) => item.id === file.id),
+                ),
+              ].slice(0, 300),
+            ) === false
+          )
+            throw new Error(SAVE_ERROR_MESSAGE)
+        },
+        remove: (id) => {
+          if (
+            onAttachmentsChange((current) =>
+              current.filter((file) => file.id !== id),
+            ) === false
+          )
+            throw new Error(SAVE_ERROR_MESSAGE)
+        },
         isShared: isAttachmentShared,
         coverFor: (id) =>
           trip.days.flat().find((stop) => stop.id === id)?.photoId,
@@ -1074,14 +1103,17 @@ function Itinerary({
             )
           )
             return
-          onUpdate({
-            ...trip,
-            days: trip.days.map((items) =>
-              items.map((stop) =>
-                stop.id === stopId ? { ...stop, photoId: id } : stop,
+          if (
+            onUpdate({
+              ...trip,
+              days: trip.days.map((items) =>
+                items.map((stop) =>
+                  stop.id === stopId ? { ...stop, photoId: id } : stop,
+                ),
               ),
-            ),
-          })
+            }) === false
+          )
+            return
         },
       }}
     >
@@ -1382,7 +1414,7 @@ function Itinerary({
                                     batchIds,
                                   ),
                                 )
-                                onUpdate(next)
+                                if (onUpdate(next) === false) return
                                 setBatchIds([])
                                 setBatchError('')
                                 onDayChange(target)
@@ -1408,7 +1440,11 @@ function Itinerary({
                       <button
                         onClick={() => {
                           try {
-                            onUpdate(undoScheduleMove(trip, batchUndo))
+                            if (
+                              onUpdate(undoScheduleMove(trip, batchUndo)) ===
+                              false
+                            )
+                              return
                             onDayChange(batchUndo.from)
                             setBatchUndo(undefined)
                             setBatchError('')
@@ -1430,7 +1466,12 @@ function Itinerary({
                       <button
                         onClick={() => {
                           try {
-                            onUpdate(applyScheduleOrder(trip, orderUndo, true))
+                            if (
+                              onUpdate(
+                                applyScheduleOrder(trip, orderUndo, true),
+                              ) === false
+                            )
+                              return
                             setOrderError('')
                           } catch (reason) {
                             setOrderError((reason as Error).message)
@@ -1467,7 +1508,12 @@ function Itinerary({
                       <button
                         onClick={() => {
                           try {
-                            onUpdate(applyTimeAdjustment(trip, timeUndo, true))
+                            if (
+                              onUpdate(
+                                applyTimeAdjustment(trip, timeUndo, true),
+                              ) === false
+                            )
+                              return
                             setTimeUndo(undefined)
                             setAdjustError('')
                           } catch (reason) {
@@ -1901,18 +1947,21 @@ function Itinerary({
                           )
                         }
                         onClick={() => {
-                          onUpdate({
-                            ...trip,
-                            days: trip.days.map((items, index) =>
-                              index === removed.day
-                                ? [
-                                    ...items.slice(0, removed.index),
-                                    removed.stop,
-                                    ...items.slice(removed.index),
-                                  ]
-                                : items,
-                            ),
-                          })
+                          if (
+                            onUpdate({
+                              ...trip,
+                              days: trip.days.map((items, index) =>
+                                index === removed.day
+                                  ? [
+                                      ...items.slice(0, removed.index),
+                                      removed.stop,
+                                      ...items.slice(removed.index),
+                                    ]
+                                  : items,
+                              ),
+                            }) === false
+                          )
+                            return
                           setRemoved(null)
                         }}
                       >
@@ -1978,9 +2027,11 @@ function Itinerary({
               day={day}
               onClose={() => setAdjustOpen(false)}
               onApply={(value) => {
-                onUpdate(applyTimeAdjustment(trip, value))
+                if (onUpdate(applyTimeAdjustment(trip, value)) === false)
+                  return false
                 setTimeUndo(value)
                 setAdjustError('')
+                return true
               }}
             />
           )}
@@ -1999,7 +2050,14 @@ export default function App() {
   const scheduleReturnSequence = useRef(0)
   useGuideCatalog()
   useEffect(startContentUpdates, [])
-  const { store, setStore, storageError } = useTravelStore()
+  const {
+    store,
+    setStore,
+    storageError,
+    saveError,
+    recoveries,
+    acknowledgeRecovery,
+  } = useTravelStore()
   const attachmentStoreRef = useRef(store)
   attachmentStoreRef.current = store
   const [page, setPage] = useState<Page>('home')
@@ -2136,7 +2194,13 @@ export default function App() {
     navigate('explore')
   }
   const createTrip = (trip: Trip) => {
-    setStore((previous) => ({ ...previous, trips: [...previous.trips, trip] }))
+    if (
+      !setStore((previous) => ({
+        ...previous,
+        trips: [...previous.trips, trip],
+      }))
+    )
+      throw new Error(SAVE_ERROR_MESSAGE)
     setActiveTripId(trip.id)
     setActiveDay(0)
     setDialog(null)
@@ -2192,12 +2256,15 @@ export default function App() {
       time: '',
       note: '',
     }
-    updateTrip({
-      ...trip,
-      days: trip.days.map((items, index) =>
-        index === day ? [...items, stop] : items,
-      ),
-    })
+    if (
+      !updateTrip({
+        ...trip,
+        days: trip.days.map((items, index) =>
+          index === day ? [...items, stop] : items,
+        ),
+      })
+    )
+      return
     if (close) {
       setDialog(null)
       setActiveTripId(trip.id)
@@ -2231,23 +2298,26 @@ export default function App() {
       setToast('하루 일정은 최대 200곳까지 담을 수 있어요.')
       return
     }
-    updateTrip({
-      ...trip,
-      days: trip.days.map((items, index) =>
-        index === day
-          ? [
-              ...items,
-              {
-                id: crypto.randomUUID(),
-                placeId: `custom-${crypto.randomUUID()}`,
-                time: '',
-                note: '',
-                custom,
-              },
-            ]
-          : items,
-      ),
-    })
+    if (
+      updateTrip({
+        ...trip,
+        days: trip.days.map((items, index) =>
+          index === day
+            ? [
+                ...items,
+                {
+                  id: crypto.randomUUID(),
+                  placeId: `custom-${crypto.randomUUID()}`,
+                  time: '',
+                  note: '',
+                  custom,
+                },
+              ]
+            : items,
+        ),
+      }) === false
+    )
+      return
     setActiveTripId(trip.id)
     setActiveDay(day)
     if (close) {
@@ -2364,7 +2434,9 @@ export default function App() {
   )
 
   return (
-    <>
+    <StorageErrorContext.Provider
+      value={storageError ? saveError || SAVE_ERROR_MESSAGE : ''}
+    >
       <header className="header">
         <div className="header-inner">
           <button
@@ -2418,12 +2490,32 @@ export default function App() {
         </div>
       </header>
       <main className="main">
+        {recoveries.some((record) => !record.acknowledged) && (
+          <aside className="recovery-notice" role="alert">
+            <strong>일부 기록을 복구했어요</strong>
+            <p>
+              읽지 못한 기록은 목록에서 제외했어요. 복구 내용에서 원본 보관
+              상태를 확인하고 파일로 내보낼 수 있어요.
+            </p>
+            <button
+              className="button outline"
+              onClick={() => setDialog({ type: 'recovery' })}
+            >
+              복구 내용 확인
+            </button>
+          </aside>
+        )}
         {page === 'settings' && (
           <SettingsPage
             onReminders={() => setDialog({ type: 'reminders' })}
             onNearby={() => setDialog({ type: 'nearby' })}
             onPhotoCredits={() => setDialog({ type: 'credits' })}
             onBackup={() => setDialog({ type: 'backup' })}
+            onRecovery={
+              recoveries.length
+                ? () => setDialog({ type: 'recovery' })
+                : undefined
+            }
           />
         )}
         {page === 'home' && (
@@ -2903,9 +2995,9 @@ export default function App() {
           {toast}
         </div>
       )}
-      {storageError && (
+      {storageError && !dialog && (
         <div className="storage-warning" role="alert">
-          이 기기에 저장할 수 없어요. 브라우저의 저장 공간 설정을 확인하세요.
+          {saveError || SAVE_ERROR_MESSAGE}
         </div>
       )}
       {dialog?.type === 'expense' &&
@@ -2936,14 +3028,7 @@ export default function App() {
                       item.id === trip.id ? updated : item,
                     ),
                   }
-                  try {
-                    localStorage.setItem('jido-travel-v1', JSON.stringify(next))
-                  } catch {
-                    throw new Error(
-                      '지출을 저장하지 못했어요. 저장 공간을 확인하고 다시 시도하세요.',
-                    )
-                  }
-                  setStore(next)
+                  if (!setStore(next)) throw new Error(SAVE_ERROR_MESSAGE)
                   setDialog(null)
                   setToast('지출을 저장했어요.')
                 }}
@@ -2951,6 +3036,14 @@ export default function App() {
             </Modal>
           )
         })()}
+      {dialog?.type === 'recovery' && (
+        <Modal title="기록 복구 안내" onClose={() => setDialog(null)}>
+          <RecoveryPanel
+            records={recoveries}
+            onAcknowledge={acknowledgeRecovery}
+          />
+        </Modal>
+      )}
       {dialog?.type === 'reminders' && (
         <Modal title="여행 알림 설정" onClose={() => setDialog(null)}>
           <ReminderSettings trips={store.trips} />
@@ -2979,12 +3072,14 @@ export default function App() {
             trips={store.trips}
             activeTrip={activeTrip}
             onFullRestore={(trips, photos) => {
-              const next = commitFullRestore(
+              commitFullRestore(
                 attachmentStoreRef.current,
                 trips,
                 photos,
+                (value) => {
+                  if (!setStore(value)) throw new Error(SAVE_ERROR_MESSAGE)
+                },
               )
-              setStore(next)
               if (trips.length) {
                 setActiveTripId(trips[0].id)
                 setActiveDay(0)
@@ -2995,8 +3090,7 @@ export default function App() {
               if (current.trips.length + trips.length > 500)
                 throw new Error('여행은 최대 500개까지 보관할 수 있어요.')
               const next = { ...current, trips: [...current.trips, ...trips] }
-              localStorage.setItem('jido-travel-v1', JSON.stringify(next))
-              setStore(next)
+              if (!setStore(next)) throw new Error(SAVE_ERROR_MESSAGE)
               setActiveTripId(trips[0]?.id || '')
               setActiveDay(0)
             }}
@@ -3036,12 +3130,15 @@ export default function App() {
                 time,
                 getPlace,
               )
-              setStore({
-                ...current,
-                trips: current.trips.map((trip) =>
-                  trip.id === tripId ? result.trip : trip,
-                ),
-              })
+              if (
+                !setStore({
+                  ...current,
+                  trips: current.trips.map((trip) =>
+                    trip.id === tripId ? result.trip : trip,
+                  ),
+                })
+              )
+                throw new Error(SAVE_ERROR_MESSAGE)
               setActiveTripId(tripId)
               setActiveDay(day)
               setDialog(null)
@@ -3126,18 +3223,21 @@ export default function App() {
                 day={dialog.day}
                 stop={stop}
                 onSave={(value) => {
-                  updateTrip({
-                    ...trip,
-                    days: trip.days.map((items, index) =>
-                      index === dialog.day
-                        ? stop
-                          ? items.map((item) =>
-                              item.id === stop.id ? value : item,
-                            )
-                          : [...items, value]
-                        : items,
-                    ),
-                  })
+                  if (
+                    !updateTrip({
+                      ...trip,
+                      days: trip.days.map((items, index) =>
+                        index === dialog.day
+                          ? stop
+                            ? items.map((item) =>
+                                item.id === stop.id ? value : item,
+                              )
+                            : [...items, value]
+                          : items,
+                      ),
+                    })
+                  )
+                    throw new Error(SAVE_ERROR_MESSAGE)
                   setDialog(null)
                   setToast(
                     stop ? '일정을 수정했어요.' : '나만의 일정을 추가했어요.',
@@ -3156,7 +3256,8 @@ export default function App() {
                 <TripEditor
                   trip={trip}
                   onSave={(updated) => {
-                    updateTrip(updated)
+                    if (!updateTrip(updated))
+                      throw new Error(SAVE_ERROR_MESSAGE)
                     setActiveDay((day) =>
                       Math.min(day, updated.days.length - 1),
                     )
@@ -3438,12 +3539,15 @@ export default function App() {
               <button
                 className="button danger"
                 onClick={() => {
-                  setStore((previous) => ({
-                    ...previous,
-                    trips: previous.trips.filter(
-                      (trip) => trip.id !== dialog.tripId,
-                    ),
-                  }))
+                  if (
+                    !setStore((previous) => ({
+                      ...previous,
+                      trips: previous.trips.filter(
+                        (trip) => trip.id !== dialog.tripId,
+                      ),
+                    }))
+                  )
+                    return
                   setActiveTripId('')
                   setActiveDay(0)
                   setDialog(null)
@@ -3456,6 +3560,6 @@ export default function App() {
           </div>
         </Modal>
       )}
-    </>
+    </StorageErrorContext.Provider>
   )
 }

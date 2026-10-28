@@ -1914,3 +1914,28 @@ body {
 :root .preparation-checklist .quick-add-options { border: 0; margin: 0; padding: 0; }
 :root .preparation-checklist .quick-add-options > summary { padding-block: 4px; min-height: 36px; }
 :root .preparation-checklist .preparation-options { margin-top: 16px; }
+
+/* 0.71: persistent recovery notice and local original export. */
+:root .recovery-notice {
+  display: grid;
+  gap: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+  border: 1px solid #b3d9d1;
+  border-radius: 16px;
+  background: #edf7f4;
+}
+:root .recovery-notice p { margin: 0; }
+:root .recovery-notice .button { justify-self: start; }
+:root .recovery-record { padding-block: 16px; border-bottom: 1px solid var(--line); }
+:root .recovery-actions { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+:root .recovery-panel p { overflow-wrap: anywhere; }
+:root .modal-save-error {
+  flex: 0 0 auto;
+  margin: 0;
+  padding: 12px 20px;
+  border-bottom: 1px solid #efd7bc;
+  background: #fff5e9;
+  color: #75431f;
+  overflow-wrap: anywhere;
+}

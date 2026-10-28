@@ -223,18 +223,27 @@ export default function CustomStopForm({
     })
     if (!parsed.success) return setError(parsed.error.issues[0].message)
     try {
-      localStorage.removeItem(draftKey)
-    } catch {
-      /* Optional draft. */
+      onSave({
+        ...stop,
+        id: stop?.id || crypto.randomUUID(),
+        placeId: stop?.placeId || `custom-${crypto.randomUUID()}`,
+        time,
+        note,
+        custom: parsed.data,
+      })
+      try {
+        localStorage.removeItem(draftKey)
+      } catch {
+        /* Optional draft. */
+      }
+      setError('')
+    } catch (reason) {
+      setError(
+        reason instanceof Error
+          ? reason.message
+          : '저장하지 못했어요. 다시 시도해 주세요.',
+      )
     }
-    onSave({
-      ...stop,
-      id: stop?.id || crypto.randomUUID(),
-      placeId: stop?.placeId || `custom-${crypto.randomUUID()}`,
-      time,
-      note,
-      custom: parsed.data,
-    })
   }
   return (
     <form className="create-form" onSubmit={submit}>

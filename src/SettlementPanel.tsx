@@ -17,7 +17,7 @@ export default function SettlementPanel({
   onUpdate,
 }: {
   trip: Trip
-  onUpdate: (trip: Trip) => void
+  onUpdate: (trip: Trip) => boolean | void
 }) {
   const members = trip.members || [],
     result = settlements(trip)
@@ -82,7 +82,7 @@ export default function SettlementPanel({
         '서로 다른 동행인과 통화에 맞는 송금 금액·날짜를 확인하세요.',
       )
     try {
-      onUpdate(next)
+      if (onUpdate(next) === false) return
       draft.clear()
       setMessage('송금 기록을 저장했어요. 남은 정산 금액을 갱신했습니다.')
       setError('')
@@ -292,12 +292,15 @@ export default function SettlementPanel({
                   className="text-button"
                   aria-label={`${name(item.from)}에서 ${name(item.to)} ${item.currency} 송금 기록 삭제`}
                   onClick={() => {
-                    onUpdate({
-                      ...trip,
-                      settlementPayments: trip.settlementPayments?.filter(
-                        (payment) => payment.id !== item.id,
-                      ),
-                    })
+                    if (
+                      onUpdate({
+                        ...trip,
+                        settlementPayments: trip.settlementPayments?.filter(
+                          (payment) => payment.id !== item.id,
+                        ),
+                      }) === false
+                    )
+                      return
                     setRemoved(item)
                     setMessage('')
                   }}
@@ -313,13 +316,16 @@ export default function SettlementPanel({
           송금 기록을 삭제했어요.
           <button
             onClick={() => {
-              onUpdate({
-                ...trip,
-                settlementPayments: [
-                  ...(trip.settlementPayments || []),
-                  removed,
-                ],
-              })
+              if (
+                onUpdate({
+                  ...trip,
+                  settlementPayments: [
+                    ...(trip.settlementPayments || []),
+                    removed,
+                  ],
+                }) === false
+              )
+                return
               setRemoved(null)
             }}
           >

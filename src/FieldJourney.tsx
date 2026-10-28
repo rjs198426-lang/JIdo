@@ -48,7 +48,7 @@ export default function FieldJourney({
   trip: Trip
   day: number
   onDay: (day: number) => void
-  onUpdate: (trip: Trip) => void
+  onUpdate: (trip: Trip) => boolean | void
   onOpen: (workspace: string) => void
   onAdd: () => void
   onExpense: (stop?: Stop) => void
@@ -103,17 +103,20 @@ export default function FieldJourney({
     status: Stop['status']
   } | null>(null)
   const mark = (stop: Stop, status: Stop['status']) => {
+    if (
+      onUpdate({
+        ...trip,
+        days: trip.days.map((items, index) =>
+          index === day
+            ? items.map((item) =>
+                item.id === stop.id ? { ...item, status } : item,
+              )
+            : items,
+        ),
+      }) === false
+    )
+      return
     setUndo({ id: stop.id, day, status: stop.status })
-    onUpdate({
-      ...trip,
-      days: trip.days.map((items, index) =>
-        index === day
-          ? items.map((item) =>
-              item.id === stop.id ? { ...item, status } : item,
-            )
-          : items,
-      ),
-    })
   }
   const phone = (value?: string) => {
     const clean = value?.replace(/[ ()-]/g, '')
@@ -247,18 +250,21 @@ export default function FieldJourney({
           방문 상태를 바꿨어요.
           <button
             onClick={() => {
-              onUpdate({
-                ...trip,
-                days: trip.days.map((items, index) =>
-                  index === undo.day
-                    ? items.map((item) =>
-                        item.id === undo.id
-                          ? { ...item, status: undo.status }
-                          : item,
-                      )
-                    : items,
-                ),
-              })
+              if (
+                onUpdate({
+                  ...trip,
+                  days: trip.days.map((items, index) =>
+                    index === undo.day
+                      ? items.map((item) =>
+                          item.id === undo.id
+                            ? { ...item, status: undo.status }
+                            : item,
+                        )
+                      : items,
+                  ),
+                }) === false
+              )
+                return
               setUndo(null)
             }}
           >

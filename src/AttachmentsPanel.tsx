@@ -317,9 +317,11 @@ export default function AttachmentsPanel({
                 setBusy(true)
                 setError('')
                 try {
-                  if (!context.isShared(remove.id))
-                    await deleteStoredAttachment(remove)
+                  const shared = context.isShared(remove.id)
+                  // Persist the removal first; a quota failure must not delete bytes
+                  // that the saved trip still references. Keep the dialog for retry.
                   context.remove(remove.id)
+                  if (!shared) await deleteStoredAttachment(remove)
                   if (active.current) setRemove(null)
                 } catch (error) {
                   if (active.current) setError((error as Error).message)

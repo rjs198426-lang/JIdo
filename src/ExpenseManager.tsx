@@ -49,7 +49,7 @@ export type ExpenseDraft = {
 }
 type Props = {
   trip: Trip
-  onUpdate: (trip: Trip) => void
+  onUpdate: (trip: Trip) => boolean | void
   initialExpense?: ExpenseDraft
   day?: number
   focusExpenseId?: string
@@ -309,7 +309,7 @@ export default function ExpenseManager({
           ? '부담 금액 합계와 통화별 소수 자릿수를 확인하세요.'
           : '지출 이름·날짜·금액과 분담 항목을 확인하세요.',
       )
-    onUpdate(next)
+    if (onUpdate(next) === false) return
     rememberExpense(trip, nextExpense)
     reset()
     setOpen(false)
@@ -388,11 +388,11 @@ export default function ExpenseManager({
         </div>
       </div>
       <div className="expense-summary-compact">
-      <ExpenseSummary
-        trip={trip}
-        day={day}
-        onDate={() => drillDown({ date: dateAt(trip.startDate, day) })}
-      />
+        <ExpenseSummary
+          trip={trip}
+          day={day}
+          onDate={() => drillDown({ date: dateAt(trip.startDate, day) })}
+        />
       </div>
       {view === '지출' && (
         <>
@@ -652,119 +652,127 @@ export default function ExpenseManager({
           >
             필터{filtered ? ' · 적용 중' : ''}
           </button>
-          <div id="expense-filter-panel" className="expense-filter-panel" hidden={!filtersOpen}>
-          <label className="expense-period field">
-            기간
-            <select
-              aria-label="가계부 기간"
-              value={period === 'preparation' ? 'preparation' : filterDate}
-              onChange={(event) => {
-                setPeriod(
-                  event.target.value === 'preparation' ? 'preparation' : 'all',
-                )
-                setFilterDate(
-                  event.target.value === 'preparation'
-                    ? ''
-                    : event.target.value,
-                )
-              }}
-            >
-              <option value="">전체 기간</option>
-              <option value="preparation">여행 준비</option>
-              {[
-                ...new Set([
-                  ...trip.days.map((_, index) => dateAt(trip.startDate, index)),
-                  ...expenses.map((item) => item.date),
-                ]),
-              ]
-                .sort()
-                .map((value) => (
-                  <option value={value} key={value}>
-                    {value >= trip.startDate && value <= trip.endDate
-                      ? `DAY ${dayCount(trip.startDate, value)} · `
-                      : ''}
-                    {formatDate(value)}
-                  </option>
-                ))}
-            </select>
-          </label>
-          <div className="tool-filters">
-            <input
-              aria-label="지출 검색"
-              placeholder="지출 찾기"
-              value={filterQuery}
-              onChange={(event) => setFilterQuery(event.target.value)}
-            />
-            <div
-              id="expense-advanced-filters"
-              className="expense-advanced-filters"
-              hidden={!filtersOpen}
-            >
-              <input
-                aria-label="지출 날짜 필터"
-                type="date"
-                value={filterDate}
+          <div
+            id="expense-filter-panel"
+            className="expense-filter-panel"
+            hidden={!filtersOpen}
+          >
+            <label className="expense-period field">
+              기간
+              <select
+                aria-label="가계부 기간"
+                value={period === 'preparation' ? 'preparation' : filterDate}
                 onChange={(event) => {
-                  setPeriod('all')
-                  setFilterDate(event.target.value)
+                  setPeriod(
+                    event.target.value === 'preparation'
+                      ? 'preparation'
+                      : 'all',
+                  )
+                  setFilterDate(
+                    event.target.value === 'preparation'
+                      ? ''
+                      : event.target.value,
+                  )
                 }}
+              >
+                <option value="">전체 기간</option>
+                <option value="preparation">여행 준비</option>
+                {[
+                  ...new Set([
+                    ...trip.days.map((_, index) =>
+                      dateAt(trip.startDate, index),
+                    ),
+                    ...expenses.map((item) => item.date),
+                  ]),
+                ]
+                  .sort()
+                  .map((value) => (
+                    <option value={value} key={value}>
+                      {value >= trip.startDate && value <= trip.endDate
+                        ? `DAY ${dayCount(trip.startDate, value)} · `
+                        : ''}
+                      {formatDate(value)}
+                    </option>
+                  ))}
+              </select>
+            </label>
+            <div className="tool-filters">
+              <input
+                aria-label="지출 검색"
+                placeholder="지출 찾기"
+                value={filterQuery}
+                onChange={(event) => setFilterQuery(event.target.value)}
               />
-              <select
-                aria-label="지출 분류 필터"
-                value={filterCategory}
-                onChange={(event) => setFilterCategory(event.target.value)}
+              <div
+                id="expense-advanced-filters"
+                className="expense-advanced-filters"
+                hidden={!filtersOpen}
               >
-                {['전체', ...expenseCategoryOptions].map((value) => (
-                  <option key={value}>{value}</option>
-                ))}
-              </select>
-              <select
-                aria-label="지출 통화 필터"
-                value={filterCurrency}
-                onChange={(event) => setFilterCurrency(event.target.value)}
-              >
-                {['전체', ...currencies].map((value) => (
-                  <option key={value}>{value}</option>
-                ))}
-              </select>
-              <select
-                aria-label="지출 결제수단 필터"
-                value={filterPayment}
-                onChange={(event) => setFilterPayment(event.target.value)}
-              >
-                {['전체', '카드', '현금', '기타', '미지정'].map((value) => (
-                  <option key={value}>{value}</option>
-                ))}
-              </select>
-              <select
-                aria-label="지출 결제자 필터"
-                value={filterPayer}
-                onChange={(event) => setFilterPayer(event.target.value)}
-              >
-                <option value="전체">결제자 전체</option>
-                {members.map((member) => (
-                  <option key={member.id} value={member.id}>
-                    {member.name}
-                  </option>
-                ))}
-                <option value="미지정">결제자 미지정</option>
-              </select>
-              <select
-                aria-label="지출 유형 필터"
-                value={filterDirection}
-                onChange={(event) => setFilterDirection(event.target.value)}
-              >
-                <option value="전체">지출·환불 전체</option>
-                <option value="expense">지출만</option>
-                <option value="refund">환불만</option>
-              </select>
+                <input
+                  aria-label="지출 날짜 필터"
+                  type="date"
+                  value={filterDate}
+                  onChange={(event) => {
+                    setPeriod('all')
+                    setFilterDate(event.target.value)
+                  }}
+                />
+                <select
+                  aria-label="지출 분류 필터"
+                  value={filterCategory}
+                  onChange={(event) => setFilterCategory(event.target.value)}
+                >
+                  {['전체', ...expenseCategoryOptions].map((value) => (
+                    <option key={value}>{value}</option>
+                  ))}
+                </select>
+                <select
+                  aria-label="지출 통화 필터"
+                  value={filterCurrency}
+                  onChange={(event) => setFilterCurrency(event.target.value)}
+                >
+                  {['전체', ...currencies].map((value) => (
+                    <option key={value}>{value}</option>
+                  ))}
+                </select>
+                <select
+                  aria-label="지출 결제수단 필터"
+                  value={filterPayment}
+                  onChange={(event) => setFilterPayment(event.target.value)}
+                >
+                  {['전체', '카드', '현금', '기타', '미지정'].map((value) => (
+                    <option key={value}>{value}</option>
+                  ))}
+                </select>
+                <select
+                  aria-label="지출 결제자 필터"
+                  value={filterPayer}
+                  onChange={(event) => setFilterPayer(event.target.value)}
+                >
+                  <option value="전체">결제자 전체</option>
+                  {members.map((member) => (
+                    <option key={member.id} value={member.id}>
+                      {member.name}
+                    </option>
+                  ))}
+                  <option value="미지정">결제자 미지정</option>
+                </select>
+                <select
+                  aria-label="지출 유형 필터"
+                  value={filterDirection}
+                  onChange={(event) => setFilterDirection(event.target.value)}
+                >
+                  <option value="전체">지출·환불 전체</option>
+                  <option value="expense">지출만</option>
+                  <option value="refund">환불만</option>
+                </select>
+              </div>
+              {filtered && (
+                <button className="text-button" onClick={clearFilters}>
+                  필터 초기화
+                </button>
+              )}
             </div>
-            {filtered && (
-              <button className="text-button" onClick={clearFilters}>
-                필터 초기화
-              </button>
-            )}
-          </div>
           </div>
           <div
             className="expense-filter-summary"
@@ -905,12 +913,15 @@ export default function ExpenseManager({
                         aria-label={`${item.title} 지출 삭제`}
                         onClick={() => {
                           setRemoved(item)
-                          onUpdate({
-                            ...trip,
-                            expenses: expenses.filter(
-                              (current) => current.id !== item.id,
-                            ),
-                          })
+                          if (
+                            onUpdate({
+                              ...trip,
+                              expenses: expenses.filter(
+                                (current) => current.id !== item.id,
+                              ),
+                            }) === false
+                          )
+                            return
                           if (editing === item.id) {
                             reset()
                             setOpen(false)
@@ -953,7 +964,11 @@ export default function ExpenseManager({
               지출을 삭제했어요.
               <button
                 onClick={() => {
-                  onUpdate({ ...trip, expenses: [...expenses, removed] })
+                  if (
+                    onUpdate({ ...trip, expenses: [...expenses, removed] }) ===
+                    false
+                  )
+                    return
                   setRemoved(null)
                 }}
               >
@@ -1109,7 +1124,7 @@ export default function ExpenseManager({
                   return setError(
                     '환율은 0보다 크게, 예산은 통화에 맞는 금액으로 입력하세요.',
                   )
-                onUpdate(next)
+                if (onUpdate(next) === false) return
                 setRate('')
                 setMessage('환율과 전체 예산을 저장했어요.')
               }}
@@ -1204,7 +1219,10 @@ export default function ExpenseManager({
                         onClick={() => {
                           const next = { ...trip.exchangeRates }
                           delete next[value as Currency]
-                          onUpdate({ ...trip, exchangeRates: next })
+                          if (
+                            onUpdate({ ...trip, exchangeRates: next }) === false
+                          )
+                            return
                         }}
                       >
                         ×
@@ -1233,10 +1251,13 @@ export default function ExpenseManager({
                   ) > 0.0001
                 )
                   return setError('통화에 맞는 예산 금액을 입력하세요.')
-                onUpdate({
-                  ...trip,
-                  budgets: { ...trip.budgets, [budgetCurrency]: value },
-                })
+                if (
+                  onUpdate({
+                    ...trip,
+                    budgets: { ...trip.budgets, [budgetCurrency]: value },
+                  }) === false
+                )
+                  return
                 setBudget('')
                 setError('')
               }}

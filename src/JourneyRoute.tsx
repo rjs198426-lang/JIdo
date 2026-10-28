@@ -24,7 +24,7 @@ export default function JourneyRoute({
 }: {
   trip: Trip
   day: number
-  onUpdate: (trip: Trip) => void
+  onUpdate: (trip: Trip) => boolean | void
 }) {
   const [adding, setAdding] = useState(false)
   const [guideId, setGuideId] = useState('custom')
@@ -59,17 +59,20 @@ export default function JourneyRoute({
       return setError('이미 여행 경로에 있는 도시예요.')
     if (destinations.length >= 30)
       return setError('한 여행에 최대 30개 도시를 담을 수 있어요.')
-    onUpdate({
-      ...trip,
-      destinations: [...destinations, next],
-      dayDestinationIds: assignments.map((id, index) =>
-        assignFrom !== 'none' &&
-        index >= Number(assignFrom) &&
-        index <= Number(assignTo)
-          ? next.id
-          : id,
-      ),
-    })
+    if (
+      onUpdate({
+        ...trip,
+        destinations: [...destinations, next],
+        dayDestinationIds: assignments.map((id, index) =>
+          assignFrom !== 'none' &&
+          index >= Number(assignFrom) &&
+          index <= Number(assignTo)
+            ? next.id
+            : id,
+        ),
+      }) === false
+    )
+      return
     setAdding(false)
     setName('')
     setCountry('')
@@ -137,14 +140,17 @@ export default function JourneyRoute({
                   return
                 }
                 setError('')
-                onUpdate({
-                  ...trip,
-                  destinations: destinations.map((item) =>
-                    item.id === selected.id
-                      ? { ...item, timeZone: zone || undefined }
-                      : item,
-                  ),
-                })
+                if (
+                  onUpdate({
+                    ...trip,
+                    destinations: destinations.map((item) =>
+                      item.id === selected.id
+                        ? { ...item, timeZone: zone || undefined }
+                        : item,
+                    ),
+                  }) === false
+                )
+                  return
               }}
             />
           </label>
@@ -307,7 +313,7 @@ export function DayRoute({
   routing: GoogleRouting
   trip: Trip
   day: number
-  onUpdate: (trip: Trip) => void
+  onUpdate: (trip: Trip) => boolean | void
   onEdit: (id: string) => void
   onAdd: () => void
   selectedId?: string
@@ -330,10 +336,15 @@ export function DayRoute({
       ordered[next],
       ordered[selectedIndex],
     ]
-    onUpdate({
-      ...trip,
-      days: trip.days.map((items, index) => (index === day ? ordered : items)),
-    })
+    if (
+      onUpdate({
+        ...trip,
+        days: trip.days.map((items, index) =>
+          index === day ? ordered : items,
+        ),
+      }) === false
+    )
+      return
   }
   const activeStops = activeDayStops(trip, day)
   const queries = activeStops.slice(0, 5).map((stop) => mapQuery(stop, trip))

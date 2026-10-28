@@ -31,7 +31,7 @@ public class TravelBackupPlugin extends Plugin {
     }
     @PluginMethod public void saveDocument(PluginCall call) {
         if(busy){call.reject("진행 중인 백업을 먼저 마쳐 주세요.");return;}busy=true;
-        worker.execute(()->{File root=null;try{String text=call.getString("text","");byte[] bytes=text.getBytes(StandardCharsets.UTF_8);if(bytes.length>MAX_MANIFEST)throw new IOException("일정 파일이 너무 큽니다.");root=temp("jido-export-");File f=new File(root,"backup.json");try(FileOutputStream o=new FileOutputStream(f)){o.write(bytes);o.getFD().sync();}boolean csv="csv".equals(call.getString("format"));chooser(call,f,csv?"JDo-expenses.csv":"JDo-trips.json",csv?"text/csv":"application/json");}catch(Exception e){remove(root);busy=false;call.reject("일정 백업을 저장하지 못했습니다.");}});
+        worker.execute(()->{File root=null;try{String text=call.getString("text","");byte[] bytes=text.getBytes(StandardCharsets.UTF_8);if(bytes.length>MAX_MANIFEST)throw new IOException("일정 파일이 너무 큽니다.");root=temp("jido-export-");File f=new File(root,"backup.json");try(FileOutputStream o=new FileOutputStream(f)){o.write(bytes);o.getFD().sync();}boolean csv="csv".equals(call.getString("format"));boolean recovery="recovery".equals(call.getString("format"));chooser(call,f,csv?"JDo-expenses.csv":recovery?"JDo-recovery-original.json":"JDo-trips.json",csv?"text/csv":"application/json");}catch(Exception e){remove(root);busy=false;call.reject("일정 백업을 저장하지 못했습니다.");}});
     }
     @PluginMethod public void exportArchive(PluginCall call) {
         if(busy){call.reject("진행 중인 백업을 먼저 마쳐 주세요.");return;}busy=true;
