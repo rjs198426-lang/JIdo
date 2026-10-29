@@ -1171,6 +1171,22 @@
     "browserInitialFailure": "preview listen EPERM in restricted sandbox; reran with network permission, passed"
   },
   "publication": {
-    "status": "validated-ready-to-push"
+    "status": "verified",
+    "commit": "4ff37f322f2c4f4d7ce90eccef845fd2017097e1",
+    "verification": "research/guidebooks/runs/20261029T1700-public-verification.json",
+    "fileCount": 47,
+    "result": "HTTP200・bytes・SHA256 all match"
+  },
+  "githubGuidebookCI": {
+    "conclusion": "success",
+    "headSha": "4ff37f322f2c4f4d7ce90eccef845fd2017097e1",
+    "name": "Prepare reviewed guidebooks",
+    "status": "completed",
+    "url": "https://github.com/rjs198426-lang/JIdo/actions/runs/40920014048"
+  },
+  "appChecksAtVerification": {
+    "status": "in_progress",
+    "url": "https://github.com/rjs198426-lang/JIdo/actions/runs/40920013953",
+    "note": "별도 전체 앱 검사. 로컬 이번 범위19개 통과와 구분."
   }
 }
