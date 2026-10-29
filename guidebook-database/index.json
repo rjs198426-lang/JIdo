@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "description": "공개 여행 가이드만 수집한 데이터베이스. 개인 일정·사진·메모·기기 캐시는 포함하지 않음.",
-  "guideCount": 60,
+  "guideCount": 65,
   "countryCount": 22,
-  "placeCount": 1285,
+  "placeCount": 1310,
   "origins": {
     "bundled": 21,
-    "downloadable": 39
+    "downloadable": 44
   },
   "guides": [
     {
@@ -206,6 +206,20 @@
       "sectionCount": 7
     },
     {
+      "id": "book-hue",
+      "name": "후에",
+      "country": "베트남",
+      "origin": "downloadable",
+      "importedAt": "2026-10-29",
+      "sourceCheckedAt": "2026-10-29",
+      "latestSourceCheckedAt": "2026-10-29",
+      "lastReviewedAt": "2026-10-29",
+      "contentHash": "b68889934cbda9c4ba593139255b4da34680965a9bba3841c20e55b68abc2aa4",
+      "file": "records/book-hue.json",
+      "placeCount": 5,
+      "sectionCount": 7
+    },
+    {
       "id": "book-ishigaki",
       "name": "이시가키",
       "country": "일본",
@@ -304,6 +318,20 @@
       "sectionCount": 7
     },
     {
+      "id": "book-langkawi",
+      "name": "랑카위",
+      "country": "말레이시아",
+      "origin": "downloadable",
+      "importedAt": "2026-10-29",
+      "sourceCheckedAt": "2026-10-29",
+      "latestSourceCheckedAt": "2026-10-29",
+      "lastReviewedAt": "2026-10-29",
+      "contentHash": "58356a6361ecb6c684c659374e79da687366d731dfb79bd0571ba14465cf5c94",
+      "file": "records/book-langkawi.json",
+      "placeCount": 5,
+      "sectionCount": 7
+    },
+    {
       "id": "book-london",
       "name": "런던",
       "country": "영국",
@@ -329,6 +357,20 @@
       "contentHash": "bee96dc2f5a6e7bd1cb6d86223b1a375d850f47ba0f916216493c440710547fb",
       "file": "records/book-losangeles.json",
       "placeCount": 6,
+      "sectionCount": 7
+    },
+    {
+      "id": "book-manila",
+      "name": "마닐라",
+      "country": "필리핀",
+      "origin": "downloadable",
+      "importedAt": "2026-10-29",
+      "sourceCheckedAt": "2026-10-29",
+      "latestSourceCheckedAt": "2026-10-29",
+      "lastReviewedAt": "2026-10-29",
+      "contentHash": "6438ac7726703b68d79f2f402b292f58cc2c74705469ddd7aa1848669bb514ac",
+      "file": "records/book-manila.json",
+      "placeCount": 5,
       "sectionCount": 7
     },
     {
@@ -444,6 +486,20 @@
       "sectionCount": 7
     },
     {
+      "id": "book-penang",
+      "name": "페낭",
+      "country": "말레이시아",
+      "origin": "downloadable",
+      "importedAt": "2026-10-29",
+      "sourceCheckedAt": "2026-10-29",
+      "latestSourceCheckedAt": "2026-10-29",
+      "lastReviewedAt": "2026-10-29",
+      "contentHash": "6923778e701c6ea9aa193627e9f78a1df46de0cb07ff19dfaf9e7b0d5f1265e2",
+      "file": "records/book-penang.json",
+      "placeCount": 5,
+      "sectionCount": 7
+    },
+    {
       "id": "book-phuket",
       "name": "푸껫",
       "country": "태국",
@@ -483,6 +539,20 @@
       "contentHash": "cf6a1e015744e3b211c819cb0519872fc2d5f493d9ccfa94398be91cf1adc884",
       "file": "records/book-prague.json",
       "placeCount": 6,
+      "sectionCount": 7
+    },
+    {
+      "id": "book-puertoprincesa",
+      "name": "푸에르토프린세사",
+      "country": "필리핀",
+      "origin": "downloadable",
+      "importedAt": "2026-10-29",
+      "sourceCheckedAt": "2026-10-29",
+      "latestSourceCheckedAt": "2026-10-29",
+      "lastReviewedAt": "2026-10-29",
+      "contentHash": "400914fe097ec1160bd9d638b97795051d2477a35647af9b21ac97f0545264ab",
+      "file": "records/book-puertoprincesa.json",
+      "placeCount": 5,
       "sectionCount": 7
     },
     {

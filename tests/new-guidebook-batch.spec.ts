@@ -19,6 +19,11 @@ const ids = [
   'book-ishigaki',
   'book-miyakojima',
   'book-dalat',
+  'book-manila',
+  'book-puertoprincesa',
+  'book-hue',
+  'book-langkawi',
+  'book-penang',
 ]
 test('researched city guide batches download one by one, render researched text offline, and preserve personal records', async ({
   page,

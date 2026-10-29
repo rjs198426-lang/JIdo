@@ -1,0 +1,162 @@
+{
+  "guide": {
+    "id": "book-penang",
+    "scope": "city",
+    "city": {
+      "id": "book-penang",
+      "name": "페낭",
+      "english": "Penang",
+      "country": "말레이시아",
+      "region": "동남아",
+      "image": "/images/guide-placeholder.svg",
+      "tagline": "조지타운의 생활 유산과 다문화 거리 음식",
+      "description": "페낭은 말레이·중국·인도·페라나칸 문화가 거리와 음식에 함께 남아 있는 여행지입니다. 이번 가이드는 페낭섬의 조지타운 유산 지구를 중심으로 항구 산책·클랜 하우스·주거 박물관을 나눠 소개합니다. 페낭은 섬과 본토 세베랑프라이를 포함하지만 조지타운을 별도 신규 도시로 중복 생성하지 않습니다. 생활하는 주민이 있는 지역이므로 관광 동선에서도 사적인 공간을 존중하세요.",
+      "tags": [
+        "도시 산책",
+        "여행 준비"
+      ],
+      "flight": "항공편·운항일은 예약 시 항공사에서 확인",
+      "currency": "말레이시아 링깃 · MYR",
+      "timeDifference": "한국보다 1시간 느림",
+      "timeZone": "Asia/Kuala_Lumpur",
+      "season": "방문일의 비·더위·강풍과 시설 공지를 확인하고 야외 일정에 실내 대안을 준비하세요.",
+      "accent": "#e7f1ef"
+    },
+    "places": [
+      {
+        "id": "book-penang-esplanade",
+        "cityId": "book-penang",
+        "name": "조지타운 에스플러네이드",
+        "english": "Esplanade / Padang Kota Lama",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "해협을 마주한 해안 산책 공간으로 주변 식민지 시대 건축과 항구의 역사를 함께 보는 출발점입니다.",
+        "address": "George Town, Penang",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "햇빛·비와 도로 횡단을 고려해 짧게 나눠 걷고 행사 통제를 확인하세요."
+      },
+      {
+        "id": "book-penang-fort-cornwallis",
+        "cityId": "book-penang",
+        "name": "콘월리스 요새",
+        "english": "Fort Cornwallis",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "옛 항구 방어시설의 보루·대포·유구를 통해 페낭 초기 정착 역사를 살펴보는 장소입니다.",
+        "address": "George Town, Penang",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "실제 공개 구역과 관람권을 방문일에 확인하세요. 성벽·대포에 임의로 오르지 마세요."
+      },
+      {
+        "id": "book-penang-peranakan-mansion",
+        "cityId": "book-penang",
+        "name": "피낭 페라나칸 맨션",
+        "english": "Pinang Peranakan Mansion",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "가구·도자기·의상과 집 안 공간을 통해 페라나칸 공동체의 생활 문화를 살펴보는 저택 박물관입니다.",
+        "address": "George Town, Penang",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "관람권·촬영 규칙을 확인하고 전시물에 손대지 마세요."
+      },
+      {
+        "id": "book-penang-khoo-kongsi",
+        "cityId": "book-penang",
+        "name": "쿠콩시",
+        "english": "Leong San Tong Khoo Kongsi",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "정교한 조각과 장식을 갖춘 중국계 클랜 하우스로 이주 공동체의 연결과 역사를 보여 줍니다.",
+        "address": "George Town, Penang",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "예배·의례 공간을 존중하고 공연이나 모든 부속 건물의 상시 공개를 가정하지 마세요."
+      },
+      {
+        "id": "book-penang-clan-jetties",
+        "cityId": "book-penang",
+        "name": "클랜 제티",
+        "english": "Clan Jetties",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "바다 위 목조 보행로와 가옥이 이어지는 생활 유산으로 여러 세대의 주민이 거주합니다.",
+        "address": "George Town waterfront, Penang",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "공개 통로만 이용하고 주거 공간에 들어가거나 주민을 허락 없이 촬영하지 마세요."
+      }
+    ],
+    "sections": [
+      {
+        "id": "book-penang-overview",
+        "title": "도시 한눈에",
+        "body": "페낭은 말레이·중국·인도·페라나칸 문화가 거리와 음식에 함께 남아 있는 여행지입니다. 이번 가이드는 페낭섬의 조지타운 유산 지구를 중심으로 항구 산책·클랜 하우스·주거 박물관을 나눠 소개합니다. 페낭은 섬과 본토 세베랑프라이를 포함하지만 조지타운을 별도 신규 도시로 중복 생성하지 않습니다. 생활하는 주민이 있는 지역이므로 관광 동선에서도 사적인 공간을 존중하세요."
+      },
+      {
+        "id": "book-penang-before",
+        "title": "출발 전에 챙길 것",
+        "body": "여권·입국 요건은 국적·여행 목적과 경유지에 맞춰 출입국 당국에서 확인하세요. 통신·결제·보험과 항공권·숙소 예약의 오프라인 사본을 준비하세요. 유산 지구는 도보로 볼 부분이 많으므로 햇빛·비·도로 횡단에 대비하세요. 종교시설·클랜 하우스의 복장·촬영 규칙과 박물관 휴관을 먼저 확인하세요. 배·버스·철도로 이동할 때 페낭섬과 버터워스가 같은 터미널이 아니라는 점을 예약에서 확인하세요."
+      },
+      {
+        "id": "book-penang-arrival",
+        "title": "공항과 시내 이동",
+        "body": "주 관광국은 페낭 국제공항을 항공 관문으로 안내하며 공항 택시의 목적지 구역별 요금 방식을 소개합니다. 탑승 전에 목적지·요금·짐 조건을 확인하세요. 공항에서 숙소까지 차량이나 버스를 비교하되 현재 노선·운임은 Rapid Penang 등 실제 운영사에서 확인하세요. 버터워스역과 페낭 센트럴은 본토에 있으며 조지타운으로는 페리 또는 도로 이동이 추가됩니다. 부두와 철도역을 같은 장소로 생각하지 마세요."
+      },
+      {
+        "id": "book-penang-stay",
+        "title": "숙소는 어느 동네에",
+        "body": "조지타운 유산 지구는 박물관·거리 음식·항구 산책 중심 체류에, 거니 드라이브 일대는 해안과 식사·쇼핑 중심 체류에 맞춰 비교하세요. 바투페링기 등 북부 해변 숙소를 선택하면 이번 도심 코스와의 왕복 이동을 별도로 잡으세요. 오래된 건물의 숙소는 엘리베이터·방음·차량 하차 장소를 확인하면 큰 짐을 옮기기 편합니다. 현재 호텔 등급·개별 객실 상태는 검증하지 않았습니다."
+      },
+      {
+        "id": "book-penang-food",
+        "title": "먹거리와 동네 쇼핑",
+        "body": "차퀘테오·아삼 락사·나시칸다르·첸돌을 소량씩 나눠 먹으면 페낭의 다양한 음식 문화를 비교할 수 있습니다. 주 관광국은 거니 드라이브·뉴레인·출리아 스트리트 등 호커 문화를 소개합니다. 장소마다 개점 시간이 다르고 한 가게가 한 메뉴에 집중하기도 하므로 식사 시간에 실제 영업을 확인하세요. 새우·땅콩·육류·생선 육수 등 재료와 할랄·채식 조건을 상호 이름만으로 판단하지 마세요. 별점·수상·특정 가게의 현재 가격은 추천 근거로 사용하지 않았습니다."
+      },
+      {
+        "id": "book-penang-days",
+        "title": "처음 가는 3일 여행",
+        "body": "1일: 도착 → 조지타운 숙소 → 에스플러네이드 해안 산책과 식사.\n\n2일: 콘월리스 요새 → 피낭 페라나칸 맨션. 더운 시간에는 실내 관람과 휴식을 섞고 긴 도보를 줄입니다.\n\n3일: 쿠콩시와 클랜 제티를 둘러보며 이주 공동체의 건축·생활을 비교합니다. 출발 시간이 이르면 한 곳만 고르고 공항·본토 연결을 우선하세요.\n\n동선은 관심과 기상에 맞춰 고르는 편집 제안입니다. 자동 방문 시각이나 실제 지도 경로가 아니며 모든 곳을 방문할 필요는 없습니다."
+      },
+      {
+        "id": "book-penang-notes",
+        "title": "예약과 현장 팁",
+        "body": "클랜 제티는 주민이 사는 생활 유산입니다. 공개 보행로와 사유 공간을 구분하고 인물·집 안 촬영은 허락을 구하세요. 클랜 하우스의 공연·의례를 매일 볼 수 있다고 가정하지 마세요. 트라이쇼를 이용하면 출발 전 경로·요금·종료 지점을 합의하세요. 박물관과 유산 지구의 고정 관람 시간·가격을 만들지 않았으며 실제 교통 시간은 예약일과 도로 상황에 따라 확인해야 합니다."
+      }
+    ],
+    "sources": [
+      {
+        "title": "MyPenang",
+        "url": "https://www.mypenang.gov.my/",
+        "accessedAt": "2026-10-29"
+      },
+      {
+        "title": "GEORGE TOWN CULTURE & HERITAGE TRAIL",
+        "url": "https://mypenang.gov.my/view_itenary.php?id=THVMRHBRb2V2ODlQc3hRTEkvalB4QT09",
+        "accessedAt": "2026-10-29"
+      },
+      {
+        "title": "FOOD",
+        "url": "https://www.mypenang.gov.my/page.php?id=WWV6MXdpeDhnNXphWGhDL1VZRmVZQT09&subid=ZHorMUxudjRGak5TOGdlMUpudElUdz09&thirdid=ZHJuTEsydnhXR2IwSmJSSm5QbXZsUT09&subtext=food&thirdtext=street-food&cTab=ec0080",
+        "accessedAt": "2026-10-29"
+      },
+      {
+        "title": "GETTING TO PENANG",
+        "url": "https://www.mypenang.gov.my/abt_png.php?id=NGx1SFc0M3E5OW03UUkrRjYvNmczdz09",
+        "accessedAt": "2026-10-29"
+      },
+      {
+        "title": "GETTING AROUND PENANG",
+        "url": "https://www.mypenang.gov.my/abt_png.php?id=WjRiaEVUSWxRdERPNzFRYnlxNEdBdz09",
+        "accessedAt": "2026-10-29"
+      }
+    ],
+    "status": "published",
+    "requestId": null,
+    "createdAt": "2026-10-29T17:11:22.801Z",
+    "updatedAt": "2026-10-29T17:11:22.801Z",
+    "publishedAt": "2026-10-29T17:11:22.801Z"
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "id": "book-hue",
+  "scope": "city",
+  "city": {
+    "id": "book-hue",
+    "name": "후에",
+    "english": "Hue",
+    "country": "베트남",
+    "region": "동남아",
+    "image": "/images/guide-placeholder.svg",
+    "tagline": "왕궁과 황제릉, 흐엉강 곁의 작은 음식들",
+    "description": "후에는 응우옌 왕조의 수도였던 도시로 왕궁·황제릉·사찰과 섬세한 음식 문화가 여행의 중심입니다. 흐엉강과 도심 왕궁, 외곽 황제릉을 나눠 보면 비슷한 유적을 급하게 반복하지 않아도 됩니다. 기존 다낭·호이안 가이드와 별개로 숙박과 이동을 정하는 목적지입니다. 이 가이드는 왕궁과 대표 황제릉 두 곳, 티엔무 사원·동바 시장을 중심으로 구성했습니다.",
+    "tags": [
+      "도시 산책",
+      "여행 준비"
+    ],
+    "flight": "항공편·운항일은 예약 시 항공사에서 확인",
+    "currency": "베트남 동 · VND",
+    "timeDifference": "한국보다 2시간 느림",
+    "timeZone": "Asia/Ho_Chi_Minh",
+    "season": "방문일의 비·더위·강풍과 시설 공지를 확인하고 야외 일정에 실내 대안을 준비하세요.",
+    "accent": "#e7f1ef"
+  },
+  "places": [
+    {
+      "id": "book-hue-imperial-city",
+      "cityId": "book-hue",
+      "name": "후에 왕궁",
+      "english": "Hue Imperial City",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "응우옌 왕조 궁정과 행정·종교 공간의 흔적을 살펴보는 성벽 안 유산 구역입니다.",
+      "address": "Hue Citadel, Hue",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "전체 성곽과 유료 왕궁 구역을 구분하고 방문일 공개 범위·복원 공지를 확인하세요."
+    },
+    {
+      "id": "book-hue-tu-duc",
+      "cityId": "book-hue",
+      "name": "뜨득 황제릉",
+      "english": "Tu Duc Tomb",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "시와 예술을 즐겼던 황제의 성격을 반영한 정원·호수 중심의 능역입니다.",
+      "address": "Hue outskirts",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "도심과 별도 교통을 정하고 물가·계단의 미끄럼에 주의하세요."
+    },
+    {
+      "id": "book-hue-khai-dinh",
+      "cityId": "book-hue",
+      "name": "카이딘 황제릉",
+      "english": "Khai Dinh Tomb",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "동서양 건축 요소와 장식이 섞인 능역으로 여러 단의 계단을 오르는 관람이 특징입니다.",
+      "address": "Hue outskirts",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "보행이 불편한 동행이 있다면 계단 부담과 공개 구역을 먼저 확인하세요."
+    },
+    {
+      "id": "book-hue-thien-mu",
+      "cityId": "book-hue",
+      "name": "티엔무 사원",
+      "english": "Thien Mu Pagoda",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "흐엉강 곁에서 칠층탑과 사찰 분위기를 함께 살펴보는 불교 유적입니다.",
+      "address": "Perfume River, Hue",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "예배 공간의 복장·촬영 안내를 지키고 보트 이용 여부는 별도 확인하세요."
+    },
+    {
+      "id": "book-hue-dong-ba",
+      "cityId": "book-hue",
+      "name": "동바 시장",
+      "english": "Dong Ba Market",
+      "category": "쇼핑",
+      "image": "/images/place-placeholder.svg",
+      "description": "지역 농산물과 음식 재료를 보며 후에의 일상을 만나는 시장 구역입니다.",
+      "address": "Hue",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "시장 전체가 한 식당이 아닙니다. 가게별 가격·재료·영업을 확인하세요."
+    }
+  ],
+  "sections": [
+    {
+      "id": "book-hue-overview",
+      "title": "도시 한눈에",
+      "body": "후에는 응우옌 왕조의 수도였던 도시로 왕궁·황제릉·사찰과 섬세한 음식 문화가 여행의 중심입니다. 흐엉강과 도심 왕궁, 외곽 황제릉을 나눠 보면 비슷한 유적을 급하게 반복하지 않아도 됩니다. 기존 다낭·호이안 가이드와 별개로 숙박과 이동을 정하는 목적지입니다. 이 가이드는 왕궁과 대표 황제릉 두 곳, 티엔무 사원·동바 시장을 중심으로 구성했습니다."
+    },
+    {
+      "id": "book-hue-before",
+      "title": "출발 전에 챙길 것",
+      "body": "여권·입국 요건은 국적·여행 목적과 경유지에 맞춰 출입국 당국에서 확인하세요. 통신·결제·보험과 항공권·숙소 예약의 오프라인 사본을 준비하세요. 야외 유적에 그늘이 항상 충분하지 않으므로 물·모자·우산을 준비하세요. 관광청은 가을철 폭우와 태풍 가능성을 안내하므로 방문일 강수·도로·시설 공지를 확인하세요. 사찰에서는 복장·촬영·참배 공간 규칙을 지키고 유적의 계단이 부담된다면 황제릉 수를 줄이세요."
+    },
+    {
+      "id": "book-hue-arrival",
+      "title": "공항과 시내 이동",
+      "body": "관광청은 푸바이공항을 후에의 항공 관문으로 안내합니다. 숙소까지 차량·픽업의 출구·도착 지연·짐과 요금 범위를 예약처에서 확인하세요. 다낭에서 들어올 때는 철도와 하이반 고개를 지나는 도로 이동의 출도착 지점·수하물·날씨를 각각 비교하세요. 도심 왕궁 산책과 외곽 황제릉 방문에는 다른 이동 계획이 필요하며 실제 운행 시간이나 직항편을 이 가이드에서 확정하지 않습니다."
+    },
+    {
+      "id": "book-hue-stay",
+      "title": "숙소는 어느 동네에",
+      "body": "왕궁 주변은 유산을 가까이 둘러보고 싶은 여행, 흐엉강 남쪽 도심은 강변 산책과 식사를 섞고 싶은 여행에 맞춰 비교할 수 있습니다. 티엔무 사원 방향의 킴롱은 도심 왕복과 밤 식사를 먼저 확인하세요. 외곽 황제릉을 많이 보려면 숙소를 옮기기보다 하루 차량과 귀환 조건을 비교해 보세요. 특정 호텔의 현재 영업·등급·전망을 확인한 추천 목록은 아닙니다."
+    },
+    {
+      "id": "book-hue-food",
+      "title": "먹거리와 동네 쇼핑",
+      "body": "분보후에 외에도 반베오·반남·반봇록 같은 작은 쌀·타피오카 음식과 바삭한 반코아이를 나눠 먹어 보세요. 관광청 음식 설명에는 새우·돼지고기·생선 소스·땅콩 등이 등장하므로 알레르기나 채식 요구가 있으면 이름만으로 판단하지 말고 재료를 확인하세요. 동바 시장은 농산물과 지역의 일상을 보는 곳입니다. 날짜가 불명확한 기사 속 개별 음식점 주소를 현재 영업 보장으로 옮기지 않았습니다."
+    },
+    {
+      "id": "book-hue-days",
+      "title": "처음 가는 3일 여행",
+      "body": "1일: 도착 → 흐엉강과 동바 시장 주변 산책·식사. 날씨가 좋으면 티엔무 사원을 선택합니다.\n\n2일: 후에 왕궁을 여유 있게 관람하고 더운 시간에는 휴식. 무리하게 모든 궁궐 공간을 한 번에 돌지 마세요.\n\n3일: 뜨득릉과 카이딘릉을 비교해 한 곳 또는 두 곳을 방문합니다. 뜨득릉은 정원·호수, 카이딘릉은 계단과 장식이 중심이므로 체력에 맞춰 선택하세요.\n\n동선은 관심과 기상에 맞춰 고르는 편집 제안입니다. 자동 방문 시각이나 실제 지도 경로가 아니며 모든 곳을 방문할 필요는 없습니다."
+    },
+    {
+      "id": "book-hue-notes",
+      "title": "예약과 현장 팁",
+      "body": "왕릉을 전부 방문해야 하는 여행은 아닙니다. 각각의 조경·건축 차이를 보고 관심 있는 곳을 고르세요. 공식 옛 코스 기사에 적힌 사유 정원 방문·카페 영업·임시 다리 경로는 현재 접근을 확인하지 못해 사용하지 않았습니다. 유산 관리기관 사이트는 리다이렉트 오류로 읽지 못했으므로 현행 입장권 묶음·가격·복원 공사·정확한 공개 시간을 새로 확정하지 않았습니다."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Hue | Vietnam Tourism",
+      "url": "https://vietnam.travel/places-to-go/north-central-coast/hue/",
+      "accessedAt": "2026-10-29"
+    },
+    {
+      "title": "3 days in Hue for culture seekers  | Vietnam Tourism",
+      "url": "https://vietnam.travel/things-to-do/hue-itinerary/",
+      "accessedAt": "2026-10-29"
+    },
+    {
+      "title": "An inside guide to the Hue Tombs | Vietnam Tourism",
+      "url": "https://vietnam.travel/things-to-do/an-inside-guide-hue-tombs/",
+      "accessedAt": "2026-10-29"
+    },
+    {
+      "title": "How to eat like a local in Hue | Vietnam Tourism",
+      "url": "https://vietnam.travel/things-to-do/how-eat-local-hue/",
+      "accessedAt": "2026-10-29"
+    }
+  ],
+  "status": "published",
+  "requestId": null,
+  "createdAt": "2026-10-29T17:11:22.801Z",
+  "updatedAt": "2026-10-29T17:11:22.801Z",
+  "publishedAt": "2026-10-29T17:11:22.801Z"
+}

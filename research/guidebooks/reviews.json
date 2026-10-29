@@ -296,6 +296,84 @@
         "https://www.mtr.com.hk/en/customer/services/complom_checkin.html"
       ],
       "evidencePath": "research/guidebooks/runs/20261029T1608-refresh.json"
+    },
+    {
+      "guideId": "book-manila",
+      "checkedAt": "2026-10-29",
+      "contentHash": "6438ac7726703b68d79f2f402b292f58cc2c74705469ddd7aa1848669bb514ac",
+      "result": "changed",
+      "urls": [
+        "https://intramuros.gov.ph/bsd/",
+        "https://intramuros.gov.ph/mdi/",
+        "https://intramuros.gov.ph/fs/",
+        "https://intramuros.gov.ph/cmm/",
+        "https://intramuros.gov.ph/hours/",
+        "https://intramuros.gov.ph/faq/",
+        "https://intramuros.gov.ph/2026/10/06/calendar-of-events-october-2026/"
+      ],
+      "evidencePath": "research/guidebooks/runs/20261029T1700-new.json"
+    },
+    {
+      "guideId": "book-puertoprincesa",
+      "checkedAt": "2026-10-29",
+      "contentHash": "400914fe097ec1160bd9d638b97795051d2477a35647af9b21ac97f0545264ab",
+      "result": "changed",
+      "urls": [
+        "https://undergroundriver.puertoprincesa.ph/",
+        "https://citytourism.puertoprincesa.ph/getting-to-puerto-princesa/",
+        "https://citytourism.puertoprincesa.ph/cbst-destinations/",
+        "https://citytourism.puertoprincesa.ph/",
+        "https://puertoprincesa.ph/underground-river/",
+        "https://undergroundriver.puertoprincesa.ph/notice-to-the-public/public-advisory/",
+        "https://undergroundriver.puertoprincesa.ph/notice-to-the-public/notice-to-the-public/",
+        "https://undergroundriver.puertoprincesa.ph/travel-advisory/travel-advisory-2/",
+        "https://puertoprincesa.ph/balayong-park/"
+      ],
+      "evidencePath": "research/guidebooks/runs/20261029T1700-new.json"
+    },
+    {
+      "guideId": "book-hue",
+      "checkedAt": "2026-10-29",
+      "contentHash": "b68889934cbda9c4ba593139255b4da34680965a9bba3841c20e55b68abc2aa4",
+      "result": "changed",
+      "urls": [
+        "https://vietnam.travel/things-to-do/hue-itinerary/",
+        "https://vietnam.travel/things-to-do/an-inside-guide-hue-tombs/",
+        "https://vietnam.travel/things-to-do/how-eat-local-hue/",
+        "https://vietnam.travel/places-to-go/north-central-coast/hue/"
+      ],
+      "evidencePath": "research/guidebooks/runs/20261029T1700-new.json"
+    },
+    {
+      "guideId": "book-langkawi",
+      "checkedAt": "2026-10-29",
+      "contentHash": "58356a6361ecb6c684c659374e79da687366d731dfb79bd0571ba14465cf5c94",
+      "result": "changed",
+      "urls": [
+        "https://panoramalangkawi.com/skycab/",
+        "https://panoramalangkawi.com/operation-calendar/",
+        "https://panoramalangkawi.com/telaga-tujuh/",
+        "https://naturallylangkawi.my/about-langkawi/",
+        "https://naturallylangkawi.my/getting-here-2/",
+        "https://naturallylangkawi.my/portfolio/tanjung-rhu/",
+        "https://naturallylangkawi.my/portfolio/laman-padi/",
+        "https://naturallylangkawi.my/portfolio/durian-perangin-waterfall/"
+      ],
+      "evidencePath": "research/guidebooks/runs/20261029T1700-new.json"
+    },
+    {
+      "guideId": "book-penang",
+      "checkedAt": "2026-10-29",
+      "contentHash": "6923778e701c6ea9aa193627e9f78a1df46de0cb07ff19dfaf9e7b0d5f1265e2",
+      "result": "changed",
+      "urls": [
+        "https://www.mypenang.gov.my/page.php?id=WWV6MXdpeDhnNXphWGhDL1VZRmVZQT09&subid=ZHorMUxudjRGak5TOGdlMUpudElUdz09&thirdid=ZHJuTEsydnhXR2IwSmJSSm5QbXZsUT09&subtext=food&thirdtext=street-food&cTab=ec0080",
+        "https://www.mypenang.gov.my/abt_png.php?id=NGx1SFc0M3E5OW03UUkrRjYvNmczdz09",
+        "https://www.mypenang.gov.my/abt_png.php?id=WjRiaEVUSWxRdERPNzFRYnlxNEdBdz09",
+        "https://mypenang.gov.my/view_itenary.php?id=THVMRHBRb2V2ODlQc3hRTEkvalB4QT09",
+        "https://www.mypenang.gov.my/"
+      ],
+      "evidencePath": "research/guidebooks/runs/20261029T1700-new.json"
     }
   ]
 }

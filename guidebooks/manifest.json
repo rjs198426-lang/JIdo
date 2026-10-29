@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-29T11:14:56.783Z",
+  "updatedAt": "2026-10-29T17:11:22.801Z",
   "books": [
     {
       "id": "book-asahikawa",
@@ -171,6 +171,20 @@
       "placeCount": 6
     },
     {
+      "id": "book-hue",
+      "name": "후에",
+      "english": "Hue",
+      "country": "베트남",
+      "summary": "왕궁과 황제릉, 흐엉강 곁의 작은 음식들",
+      "region": "동남아",
+      "revision": "856ec6093a2862389c81aa661e1f617896f2a2aa622639fdb79210ccc0e9d8e4",
+      "file": "book-hue-856ec6093a2862389c81aa661e1f617896f2a2aa622639fdb79210ccc0e9d8e4.json",
+      "bytes": 9651,
+      "updatedAt": "2026-10-29T17:11:22.801Z",
+      "minBuild": 73,
+      "placeCount": 5
+    },
+    {
       "id": "book-ishigaki",
       "name": "이시가키",
       "english": "Ishigaki",
@@ -269,6 +283,20 @@
       "placeCount": 5
     },
     {
+      "id": "book-langkawi",
+      "name": "랑카위",
+      "english": "Langkawi",
+      "country": "말레이시아",
+      "summary": "해변과 산 전망, 논과 폭포를 나눠 즐기는 섬",
+      "region": "동남아",
+      "revision": "96067a792261bd39ab65f4179506bf9b3416f72b1cc85b67d20c33854c56d6cb",
+      "file": "book-langkawi-96067a792261bd39ab65f4179506bf9b3416f72b1cc85b67d20c33854c56d6cb.json",
+      "bytes": 11003,
+      "updatedAt": "2026-10-29T17:11:22.801Z",
+      "minBuild": 73,
+      "placeCount": 5
+    },
+    {
       "id": "book-london",
       "name": "런던",
       "english": "London",
@@ -295,6 +323,20 @@
       "updatedAt": "2026-10-28T05:07:12.733Z",
       "minBuild": 73,
       "placeCount": 6
+    },
+    {
+      "id": "book-manila",
+      "name": "마닐라",
+      "english": "Manila",
+      "country": "필리핀",
+      "summary": "인트라무로스의 성벽과 박물관, 리살 공원 산책",
+      "region": "동남아",
+      "revision": "31ef4b0f9ca548c23fbd6fd184b5e53500d61b905e508b61f4176494728fdbdd",
+      "file": "book-manila-31ef4b0f9ca548c23fbd6fd184b5e53500d61b905e508b61f4176494728fdbdd.json",
+      "bytes": 10453,
+      "updatedAt": "2026-10-29T17:11:22.801Z",
+      "minBuild": 73,
+      "placeCount": 5
     },
     {
       "id": "book-matsuyama",
@@ -409,6 +451,20 @@
       "placeCount": 6
     },
     {
+      "id": "book-penang",
+      "name": "페낭",
+      "english": "Penang",
+      "country": "말레이시아",
+      "summary": "조지타운의 생활 유산과 다문화 거리 음식",
+      "region": "동남아",
+      "revision": "e04fe2e08cefa659f09618698f2fb495f2381e11ca9efc8784144e0fd1c869c5",
+      "file": "book-penang-e04fe2e08cefa659f09618698f2fb495f2381e11ca9efc8784144e0fd1c869c5.json",
+      "bytes": 10369,
+      "updatedAt": "2026-10-29T17:11:22.801Z",
+      "minBuild": 73,
+      "placeCount": 5
+    },
+    {
       "id": "book-phuket",
       "name": "푸껫",
       "english": "Phuket",
@@ -449,6 +505,20 @@
       "updatedAt": "2026-10-28T05:07:12.733Z",
       "minBuild": 73,
       "placeCount": 6
+    },
+    {
+      "id": "book-puertoprincesa",
+      "name": "푸에르토프린세사",
+      "english": "Puerto Princesa",
+      "country": "필리핀",
+      "summary": "팔라완의 도심 산책과 지하강·지역 생태 체험",
+      "region": "동남아",
+      "revision": "a1733ec86e81c57ef9af93d680818661662967ae1854e57e462bc1e454d57c57",
+      "file": "book-puertoprincesa-a1733ec86e81c57ef9af93d680818661662967ae1854e57e462bc1e454d57c57.json",
+      "bytes": 11818,
+      "updatedAt": "2026-10-29T17:11:22.801Z",
+      "minBuild": 73,
+      "placeCount": 5
     },
     {
       "id": "book-rome",

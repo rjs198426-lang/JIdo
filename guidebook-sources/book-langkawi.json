@@ -1,0 +1,175 @@
+{
+  "id": "book-langkawi",
+  "scope": "city",
+  "city": {
+    "id": "book-langkawi",
+    "name": "랑카위",
+    "english": "Langkawi",
+    "country": "말레이시아",
+    "region": "동남아",
+    "image": "/images/guide-placeholder.svg",
+    "tagline": "해변과 산 전망, 논과 폭포를 나눠 즐기는 섬",
+    "description": "랑카위는 말레이시아 북서쪽의 군도로 해변 휴식과 지질 경관·폭포·농경 문화를 함께 즐기는 목적지입니다. 이 가이드는 본섬을 중심으로 체낭·북부 해변·마친창 산 일대를 나눠 소개합니다. 페낭과는 별도 항공·선박 이동과 숙박이 필요한 목적지이며 섬들을 각각 신규 도시로 세지 않습니다. 바다와 산의 날씨가 달라 하루에 모든 활동을 묶지 않는 편이 좋습니다.",
+    "tags": [
+      "도시 산책",
+      "여행 준비"
+    ],
+    "flight": "항공편·운항일은 예약 시 항공사에서 확인",
+    "currency": "말레이시아 링깃 · MYR",
+    "timeDifference": "한국보다 1시간 느림",
+    "timeZone": "Asia/Kuala_Lumpur",
+    "season": "방문일의 비·더위·강풍과 시설 공지를 확인하고 야외 일정에 실내 대안을 준비하세요.",
+    "accent": "#e7f1ef"
+  },
+  "places": [
+    {
+      "id": "book-langkawi-skycab",
+      "cityId": "book-langkawi",
+      "name": "랑카위 스카이캡",
+      "english": "Langkawi SkyCab",
+      "category": "체험",
+      "image": "/images/place-placeholder.svg",
+      "description": "산기슭에서 마친창 산의 전망 지점으로 오르며 숲과 섬 경관을 보는 케이블카입니다.",
+      "address": "Machinchang Mountain, Langkawi",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "방문일 운영 달력·기상과 표 포함 시설을 확인하세요. 오래된 관광청의 고정 영업시간은 적용하지 않았습니다."
+    },
+    {
+      "id": "book-langkawi-telaga-tujuh",
+      "cityId": "book-langkawi",
+      "name": "텔라가 투주 폭포",
+      "english": "Telaga Tujuh Waterfall",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "여러 자연 풀과 폭포를 잇는 지형으로 아래쪽 관람과 위쪽 계단 산행의 부담이 다릅니다.",
+      "address": "Machinchang area, Langkawi",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "강한 물살·젖은 바위가 위험합니다. 통제 구역에 들어가지 말고 폭우에는 물가 접근을 피하세요."
+    },
+    {
+      "id": "book-langkawi-tanjung-rhu",
+      "cityId": "book-langkawi",
+      "name": "탄중루 해변",
+      "english": "Tanjung Rhu Beach",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "랑카위 북쪽의 해변으로 모래사장과 주변 섬·석회암 풍경을 바라보는 휴식 후보입니다.",
+      "address": "Northern Langkawi",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "모래톱이 보인다고 섬으로 건너지 마세요. 조수·바람·현장 접근 안내를 확인하세요."
+    },
+    {
+      "id": "book-langkawi-laman-padi",
+      "cityId": "book-langkawi",
+      "name": "라만 파디",
+      "english": "Laman Padi",
+      "category": "체험",
+      "image": "/images/place-placeholder.svg",
+      "description": "논·농기구 전시와 정원을 통해 말레이시아의 쌀 재배 문화를 접하는 공간입니다.",
+      "address": "Pantai Cenang, Langkawi",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "직접 모내기·가이드 체험은 상시 제공을 보장하지 않으므로 일정과 예약을 확인하세요."
+    },
+    {
+      "id": "book-langkawi-durian-perangin",
+      "cityId": "book-langkawi",
+      "name": "두리안 페랑인 폭포",
+      "english": "Durian Perangin Waterfall",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "구눙라야 경사면에서 여러 단으로 흐르는 폭포로 숲과 계곡 풍경을 보는 장소입니다.",
+      "address": "Northeastern Langkawi",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "폭포 위쪽 산행과 아래쪽 휴식은 다릅니다. 비·수량·통제에 따라 접근을 줄이고 물에 들어가는 것을 기본 일정으로 삼지 마세요."
+    }
+  ],
+  "sections": [
+    {
+      "id": "book-langkawi-overview",
+      "title": "도시 한눈에",
+      "body": "랑카위는 말레이시아 북서쪽의 군도로 해변 휴식과 지질 경관·폭포·농경 문화를 함께 즐기는 목적지입니다. 이 가이드는 본섬을 중심으로 체낭·북부 해변·마친창 산 일대를 나눠 소개합니다. 페낭과는 별도 항공·선박 이동과 숙박이 필요한 목적지이며 섬들을 각각 신규 도시로 세지 않습니다. 바다와 산의 날씨가 달라 하루에 모든 활동을 묶지 않는 편이 좋습니다."
+    },
+    {
+      "id": "book-langkawi-before",
+      "title": "출발 전에 챙길 것",
+      "body": "여권·입국 요건은 국적·여행 목적과 경유지에 맞춰 출입국 당국에서 확인하세요. 통신·결제·보험과 항공권·숙소 예약의 오프라인 사본을 준비하세요. 케이블카는 운영사의 방문일 달력과 기상에 따른 안내를 먼저 확인하세요. 폭포에는 미끄럽지 않은 신발과 물, 해변에는 햇빛 차단을 준비하세요. 렌터카를 생각한다면 본인의 면허·보험·운전 조건을 운영사에 확인하고 관광청의 오래된 일반 안내만으로 운전 가능 여부를 판단하지 마세요."
+    },
+    {
+      "id": "book-langkawi-arrival",
+      "title": "공항과 시내 이동",
+      "body": "랑카위로 들어가는 항공편은 실제 운항일과 도착 공항을 확인하고 숙소 픽업의 출구·짐·지연 대응을 정하세요. LADA의 입도 안내는 항공과 쿠아 선착장으로 들어오는 여객선을 구분합니다. 차량을 싣는 배는 다른 부두·예약 조건이 있으므로 일반 여객선과 혼동하지 마세요. 공항·부두 도착 뒤에는 숙소와 차량 이동을 먼저 정하고, 오래된 페이지의 택시 요금·항공편 횟수·매일 동일한 배 간격은 사용하지 않았습니다."
+    },
+    {
+      "id": "book-langkawi-stay",
+      "title": "숙소는 어느 동네에",
+      "body": "체낭은 해변과 라만 파디 방문·식사를 함께 계획하기 좋은 권역, 탄중루는 북쪽 해변 중심 체류, 쿠아는 선박 도착과 도시 기능을 고려하는 권역으로 비교하세요. 조용한 리조트는 다른 권역 식당까지 왕복이 필요할 수 있으므로 식사 포함·귀환 차량을 확인하세요. 마친창 쪽 케이블카와 북동부 폭포를 같은 날 빡빡하게 붙이지 말고 숙소 위치에 맞춰 나누세요."
+    },
+    {
+      "id": "book-langkawi-food",
+      "title": "먹거리와 동네 쇼핑",
+      "body": "라만 파디에서 쌀 재배 문화와 도구를 본 뒤 체낭 주변에서 식사를 연결하면 섬의 농경 문화를 음식과 함께 이해하기 좋습니다. LADA는 라만 파디 옆 Kerisik Restaurant도 소개하지만 이번 조사에서 현재 영업·메뉴·예약까지 검증한 것은 아닙니다. 해변 식당은 메뉴·가격·알레르기 재료를 확인하고 면세 쇼핑은 반출입 한도를 세관 원문에서 따로 확인하세요. 면세 섬이라는 이유로 모든 물품이 무제한 면세가 되는 것은 아닙니다."
+    },
+    {
+      "id": "book-langkawi-days",
+      "title": "처음 가는 3일 여행",
+      "body": "1일: 도착 → 체낭 주변 휴식 → 라만 파디. 참여형 농사 체험은 운영 여부를 확인한 경우에만 선택합니다.\n\n2일: 운영 달력과 기상이 맞으면 스카이캡. 남는 시간과 체력에 따라 텔라가 투주 폭포의 안전한 공개 구역을 선택하며 정상까지 오를 필요는 없습니다.\n\n3일: 탄중루 해변과 두리안 페랑인 폭포 중 기상과 귀환에 맞는 곳을 고릅니다. 비가 강하거나 물이 불면 물가·폭포 방문을 취소하고 휴식으로 바꾸세요.\n\n동선은 관심과 기상에 맞춰 고르는 편집 제안입니다. 자동 방문 시각이나 실제 지도 경로가 아니며 모든 곳을 방문할 필요는 없습니다."
+    },
+    {
+      "id": "book-langkawi-notes",
+      "title": "예약과 현장 팁",
+      "body": "운영사의 2026년 10월 달력에 주간 정비 항목이 있어 케이블카 운영이 매일 동일하다고 안내하지 않았습니다. 스카이브리지 등 부가 시설과 케이블카 표의 포함 범위를 구분하세요. 폭포 운영사 설명도 강한 물살과 젖은 바위의 위험을 언급합니다. 자연 풀·모래톱을 안전한 수영장이나 상시 건널 수 있는 길로 생각하지 말고 현장 통제에 따르세요. 야생동물에게 먹이를 주거나 소지품을 노출하지 마세요."
+    }
+  ],
+  "sources": [
+    {
+      "title": "About Langkawi – Naturally Langkawi",
+      "url": "https://naturallylangkawi.my/about-langkawi/",
+      "accessedAt": "2026-10-29"
+    },
+    {
+      "title": "Getting Here – Naturally Langkawi",
+      "url": "https://naturallylangkawi.my/getting-here-2/",
+      "accessedAt": "2026-10-29"
+    },
+    {
+      "title": "SkyCab | Official Website for Langkawi Cable Car",
+      "url": "https://panoramalangkawi.com/skycab/",
+      "accessedAt": "2026-10-29"
+    },
+    {
+      "title": "Events | Official Website for Langkawi Cable Car",
+      "url": "https://panoramalangkawi.com/operation-calendar/",
+      "accessedAt": "2026-10-29"
+    },
+    {
+      "title": "Telaga Tujuh | Official Website for Langkawi Cable Car",
+      "url": "https://panoramalangkawi.com/telaga-tujuh/",
+      "accessedAt": "2026-10-29"
+    },
+    {
+      "title": "Tanjung Rhu – Naturally Langkawi",
+      "url": "https://naturallylangkawi.my/portfolio/tanjung-rhu/",
+      "accessedAt": "2026-10-29"
+    },
+    {
+      "title": "Laman Padi – Naturally Langkawi",
+      "url": "https://naturallylangkawi.my/portfolio/laman-padi/",
+      "accessedAt": "2026-10-29"
+    },
+    {
+      "title": "Durian Perangin Waterfall – Naturally Langkawi",
+      "url": "https://naturallylangkawi.my/portfolio/durian-perangin-waterfall/",
+      "accessedAt": "2026-10-29"
+    }
+  ],
+  "status": "published",
+  "requestId": null,
+  "createdAt": "2026-10-29T17:11:22.801Z",
+  "updatedAt": "2026-10-29T17:11:22.801Z",
+  "publishedAt": "2026-10-29T17:11:22.801Z"
+}

@@ -1,0 +1,170 @@
+{
+  "id": "book-manila",
+  "scope": "city",
+  "city": {
+    "id": "book-manila",
+    "name": "마닐라",
+    "english": "Manila",
+    "country": "필리핀",
+    "region": "동남아",
+    "image": "/images/guide-placeholder.svg",
+    "tagline": "인트라무로스의 성벽과 박물관, 리살 공원 산책",
+    "description": "마닐라는 오래된 성벽 도시 인트라무로스에서 식민지 시대의 생활·종교·전쟁과 복원의 흔적을 차례로 읽는 여행지입니다. 이 가이드는 마닐라 시의 역사 지구와 남쪽 리살 공원에 집중합니다. 메트로 마닐라 전체나 별도 목적지 클락을 같은 구역으로 묶지 않습니다. 박물관을 몰아서 보기보다 성벽 산책 사이에 실내 관람과 식사를 배치하세요.",
+    "tags": [
+      "도시 산책",
+      "여행 준비"
+    ],
+    "flight": "항공편·운항일은 예약 시 항공사에서 확인",
+    "currency": "필리핀 페소 · PHP",
+    "timeDifference": "한국보다 1시간 느림",
+    "timeZone": "Asia/Manila",
+    "season": "방문일의 비·더위·강풍과 시설 공지를 확인하고 야외 일정에 실내 대안을 준비하세요.",
+    "accent": "#e7f1ef"
+  },
+  "places": [
+    {
+      "id": "book-manila-fort-santiago",
+      "cityId": "book-manila",
+      "name": "산티아고 요새",
+      "english": "Fort Santiago",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "파시그강 입구의 전략적 위치에 세워진 요새로 전쟁과 자유를 위한 희생을 기억하는 공간입니다.",
+      "address": "Intramuros, Manila",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "방문자센터에서 관람 방향을 확인하고 기념 공간에서 조용히 이동하세요."
+    },
+    {
+      "id": "book-manila-casa-manila",
+      "cityId": "book-manila",
+      "name": "카사 마닐라",
+      "english": "Casa Manila Museum",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "스페인 식민지 말기 부유한 필리핀 가정의 가구·장식·생활 공간을 재현한 박물관입니다.",
+      "address": "Plaza San Luis Complex, Intramuros, Manila",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "현재 월요일 휴관 안내가 있습니다. 안뜰 접근과 실내 전시 입장 조건을 구분하세요."
+    },
+    {
+      "id": "book-manila-baluarte-san-diego",
+      "cityId": "book-manila",
+      "name": "발루아르테 데 산디에고",
+      "english": "Baluarte de San Diego",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "옛 원형 석조 요새 흔적과 이후 방어시설, 정원을 함께 보는 고고학 공원입니다.",
+      "address": "Intramuros, Manila",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "정원 행사가 있을 수 있어 이용 구역을 확인하고 유구 위에 오르지 마세요."
+    },
+    {
+      "id": "book-manila-museo-intramuros",
+      "cityId": "book-manila",
+      "name": "무세오 데 인트라무로스",
+      "english": "Museo de Intramuros",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "재건한 산이그나시오 교회와 예수회 미션 하우스 공간에서 종교 유산을 만나는 박물관입니다.",
+      "address": "Intramuros, Manila",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "현재 월요일 휴관 안내가 있습니다. 센트로 데 투리스모의 무료 방문자 안내 공간과 유료 전시를 혼동하지 마세요."
+    },
+    {
+      "id": "book-manila-rizal-park",
+      "cityId": "book-manila",
+      "name": "리살 공원",
+      "english": "Rizal Park",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "인트라무로스 남쪽에 자리한 공원으로 호세 리살을 기리는 역사적 장소입니다.",
+      "address": "South of Intramuros, Manila",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "야외 산책 길이와 더위·비를 고려하세요. 개별 시설·행사 이용은 별도로 확인하세요."
+    }
+  ],
+  "sections": [
+    {
+      "id": "book-manila-overview",
+      "title": "도시 한눈에",
+      "body": "마닐라는 오래된 성벽 도시 인트라무로스에서 식민지 시대의 생활·종교·전쟁과 복원의 흔적을 차례로 읽는 여행지입니다. 이 가이드는 마닐라 시의 역사 지구와 남쪽 리살 공원에 집중합니다. 메트로 마닐라 전체나 별도 목적지 클락을 같은 구역으로 묶지 않습니다. 박물관을 몰아서 보기보다 성벽 산책 사이에 실내 관람과 식사를 배치하세요."
+    },
+    {
+      "id": "book-manila-before",
+      "title": "출발 전에 챙길 것",
+      "body": "여권·입국 요건은 국적·여행 목적과 경유지에 맞춰 출입국 당국에서 확인하세요. 통신·결제·보험과 항공권·숙소 예약의 오프라인 사본을 준비하세요. 인트라무로스 관리청의 현재 안내에서 카사 마닐라와 무세오 데 인트라무로스는 월요일 휴관으로 표시됩니다. 방문일 공지와 마지막 입장 시간을 먼저 보고 여행 순서를 정하세요. 더위·비를 피할 모자·물·미끄럽지 않은 신발을 준비하고 작은 가방으로 관람하면 편합니다."
+    },
+    {
+      "id": "book-manila-arrival",
+      "title": "공항과 시내 이동",
+      "body": "마닐라 항공권의 NAIA 도착 터미널과 픽업 출구를 항공사·예약처에 확인하세요. 도착일에는 숙소로 바로 이동할 차량의 대기·지연 대응·짐·요금 포함 범위를 먼저 정하는 편이 단순합니다. 이번 조사에서 공항 사이트의 교통 상세 본문은 읽지 못했으므로 특정 버스 노선·요금·터미널 간 이동 시간을 확정하지 않습니다. 공항 이동일에 박물관 마지막 입장이나 출국편을 촘촘히 붙이지 마세요."
+    },
+    {
+      "id": "book-manila-stay",
+      "title": "숙소는 어느 동네에",
+      "body": "이번 코스를 중심으로 한다면 인트라무로스 안이나 리살 공원에 접근하기 쉬운 숙소를 비교하세요. 역사 지구 도보 접근과 공항 차량 접근은 별개입니다. 예약 지도에서 입구·짐을 내릴 곳·밤 귀환 경로를 확인하고, 다른 메트로 마닐라 지역에 숙박한다면 왕복 이동을 별도 일정으로 잡으세요. 특정 숙소의 현재 시설이나 안전 수준을 보증하는 목록은 아닙니다."
+    },
+    {
+      "id": "book-manila-food",
+      "title": "먹거리와 동네 쇼핑",
+      "body": "성벽 관람을 시작하기 전에 식사 장소와 물을 살 곳을 정해 두세요. 관리청은 산티아고 요새 방문자센터의 음료·간식 판매와 기념품점을 안내합니다. 이를 점심 식사나 특정 업소의 영업 보장으로 생각하지 말고, 현장에서 메뉴·가격·알레르기 재료를 확인하세요. 카사 마닐라는 옛 부유층의 식생활과 주거를 보는 박물관이지 식당이 아닙니다. 기념품은 관람 동선 끝에서 골라 짐을 줄이는 편이 편합니다."
+    },
+    {
+      "id": "book-manila-days",
+      "title": "처음 가는 3일 여행",
+      "body": "1일: 도착 후 숙소에 짐을 두고 시간이 남으면 리살 공원 산책. 공항 지연 시 산책은 생략합니다.\n\n2일: 산티아고 요새에서 역사 지구 이해 → 식사와 휴식 → 카사 마닐라. 월요일이라면 박물관 일정을 다른 날로 옮깁니다.\n\n3일: 무세오 데 인트라무로스와 발루아르테 데 산디에고 중 관심 장소부터 관람하고, 출국 교통에 맞춰 나머지를 줄입니다.\n\n동선은 관심과 기상에 맞춰 고르는 편집 제안입니다. 자동 방문 시각이나 실제 지도 경로가 아니며 모든 곳을 방문할 필요는 없습니다."
+    },
+    {
+      "id": "book-manila-notes",
+      "title": "예약과 현장 팁",
+      "body": "카사 마닐라의 생활 전시, 무세오의 종교 유산, 요새의 전쟁·기억을 서로 다른 관점으로 읽어 보세요. 공식 페이지의 운영 시간과 마지막 입장은 서로 다르므로 폐관 직전 도착을 피하세요. 가이드 투어는 관리청이 안내하는 공인 가이드 창구와 조건을 확인하세요. 촬영 행사·장비 사용은 일반 관람과 별도 규정이 있으며 원문 전체의 요금표를 일반 여행자에게 적용하지 않았습니다."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Welcome to Fort Santiago! | Intramuros Administration",
+      "url": "https://intramuros.gov.ph/fs/",
+      "accessedAt": "2026-10-29"
+    },
+    {
+      "title": "Welcome to Casa Manila! | Intramuros Administration",
+      "url": "https://intramuros.gov.ph/cmm/",
+      "accessedAt": "2026-10-29"
+    },
+    {
+      "title": "Welcome to Baluarte de San Diego! | Intramuros Administration",
+      "url": "https://intramuros.gov.ph/bsd/",
+      "accessedAt": "2026-10-29"
+    },
+    {
+      "title": "Welcome to Museo de Intramuros! | Intramuros Administration",
+      "url": "https://intramuros.gov.ph/mdi/",
+      "accessedAt": "2026-10-29"
+    },
+    {
+      "title": "Intramuros Sites – Hours and Fees | Intramuros Administration",
+      "url": "https://intramuros.gov.ph/hours/",
+      "accessedAt": "2026-10-29"
+    },
+    {
+      "title": "FAQ | Intramuros Administration",
+      "url": "https://intramuros.gov.ph/faq/",
+      "accessedAt": "2026-10-29"
+    },
+    {
+      "title": "CALENDAR OF EVENTS OCTOBER 2026 | Intramuros Administration",
+      "url": "https://intramuros.gov.ph/2026/10/06/calendar-of-events-october-2026/",
+      "accessedAt": "2026-10-29"
+    }
+  ],
+  "status": "published",
+  "requestId": null,
+  "createdAt": "2026-10-29T17:11:22.801Z",
+  "updatedAt": "2026-10-29T17:11:22.801Z",
+  "publishedAt": "2026-10-29T17:11:22.801Z"
+}
