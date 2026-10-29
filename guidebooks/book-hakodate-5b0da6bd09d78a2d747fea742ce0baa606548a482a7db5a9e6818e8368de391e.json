@@ -1,0 +1,160 @@
+{
+  "id": "book-hakodate",
+  "scope": "city",
+  "city": {
+    "id": "book-hakodate",
+    "name": "하코다테",
+    "english": "Hakodate",
+    "country": "일본",
+    "region": "일본",
+    "image": "/images/guide-placeholder.svg",
+    "tagline": "항구·언덕·아침 시장을 날짜별로 걷는 여행",
+    "description": "하코다테는 홋카이도 남쪽의 항구 도시로 역 앞 아침 시장과 붉은 벽돌 창고, 모토마치의 언덕, 고료카쿠를 나눠 볼 수 있습니다. 하코다테산 전망은 날씨와 교통에 따라 선택하고 야경 하나 때문에 하루 전체를 서두르지 마세요. 삿포로의 도심 여행과 별도 목적지이며 오누마·다른 홋카이도 지역을 이 도시의 신규 장소로 더 세지 않았습니다.",
+    "tags": [
+      "도시 산책",
+      "여행 준비"
+    ],
+    "flight": "항공편·운항일은 예약 시 공항·항공사에서 확인",
+    "currency": "일본 엔 · JPY",
+    "timeDifference": "한국과 시차 없음",
+    "timeZone": "Asia/Tokyo",
+    "season": "방문 계절의 기온·비·바람과 시설 공개 일정을 확인하고 실내·야외 방문을 조합하세요.",
+    "accent": "#e7f1ef"
+  },
+  "places": [
+    {
+      "id": "book-hakodate-mount-hakodate",
+      "cityId": "book-hakodate",
+      "name": "하코다테산 전망 구역",
+      "english": "Mount Hakodate",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "항구 도시의 지형과 야경을 내려다보는 산정 전망 구역입니다. 전망이 보이는 날씨와 실제 운행 교통을 먼저 확인하세요.",
+      "address": "Hakodate, Hokkaido",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "로프웨이는 2026년10월20일~11월8일 점검 운휴 공지가 있습니다. 다른 교통편이나 겨울 도로 개방도 별도 확인이 필요합니다."
+    },
+    {
+      "id": "book-hakodate-goryokaku-tower",
+      "cityId": "book-hakodate",
+      "name": "고료카쿠 타워",
+      "english": "Goryokaku Tower",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "별 모양 고료카쿠의 윤곽과 계절 풍경을 위에서 보는 전망 타워입니다. 공원 산책과 타워 입장은 구분하세요.",
+      "address": "Hakodate, Hokkaido",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "노면전차 정류장에서 타워까지 도보 이동이 남습니다. 눈·빙판·실제 입장 마감을 확인하세요."
+    },
+    {
+      "id": "book-hakodate-morning-market",
+      "cityId": "book-hakodate",
+      "name": "하코다테 아침 시장",
+      "english": "Hakodate Morning Market",
+      "category": "맛집",
+      "image": "/images/place-placeholder.svg",
+      "description": "역 주변에 식당·해산물·선물 가게가 모인 시장입니다. 아침 식사와 구경을 함께 고를 수 있는 구역입니다.",
+      "address": "Near Hakodate Station, Hakodate",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "개별 가게의 휴무·재고·가격이 다릅니다. 생식 재료와 체험의 당일 운영을 확인하세요."
+    },
+    {
+      "id": "book-hakodate-kanemori",
+      "cityId": "book-hakodate",
+      "name": "가네모리 붉은 벽돌 창고",
+      "english": "Kanemori Red Brick Warehouse",
+      "category": "쇼핑",
+      "image": "/images/place-placeholder.svg",
+      "description": "옛 창고를 식당·선물 가게 등으로 활용하는 항구의 상업 구역입니다. 해안 산책과 쇼핑을 함께 계획할 수 있습니다.",
+      "address": "Bay Area, Hakodate",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "건물과 가게의 영업 조건을 나눠 확인하세요. 겨울 행사·조명을 상시 운영으로 생각하지 마세요."
+    },
+    {
+      "id": "book-hakodate-motomachi",
+      "cityId": "book-hakodate",
+      "name": "모토마치",
+      "english": "Motomachi, Hakodate",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "항구 개방의 역사와 일본·서양 건축의 흔적을 골목과 언덕에서 보는 동네입니다.",
+      "address": "Motomachi, Hakodate",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "동네 산책과 개별 역사 건물 내부 관람은 다릅니다. 경사·계단과 사유지·촬영 규칙을 배려하세요."
+    }
+  ],
+  "sections": [
+    {
+      "id": "book-hakodate-overview",
+      "title": "도시 한눈에",
+      "body": "하코다테는 홋카이도 남쪽의 항구 도시로 역 앞 아침 시장과 붉은 벽돌 창고, 모토마치의 언덕, 고료카쿠를 나눠 볼 수 있습니다. 하코다테산 전망은 날씨와 교통에 따라 선택하고 야경 하나 때문에 하루 전체를 서두르지 마세요. 삿포로의 도심 여행과 별도 목적지이며 오누마·다른 홋카이도 지역을 이 도시의 신규 장소로 더 세지 않았습니다."
+    },
+    {
+      "id": "book-hakodate-before",
+      "title": "출발 전에 챙길 것",
+      "body": "여권·입국 자격·비자 요건은 국적과 여행 목적에 맞춰 정부 안내로 확인하세요. 통신·결제·보험과 예약 내역의 오프라인 사본을 준비하세요. 숙소의 짐 보관·식사 마감, 동행자의 계단·장거리 걷기 부담을 먼저 확인하면 도착일을 단순하게 만들 수 있습니다. 이 가이드는 입국 허가·실시간 운항·운영 시간을 확정하지 않습니다."
+    },
+    {
+      "id": "book-hakodate-arrival",
+      "title": "공항과 시내 이동",
+      "body": "하코다테공항(HKD)에서 숙소까지는 공항 공식 교통 안내의 버스·택시·렌터카와 목적지를 비교하세요. 역·베이 에어리어·유노카와 숙소는 첫 이동이 다릅니다. 신하코다테호쿠토역과 하코다테역을 같은 역으로 생각하지 말고 철도 연결을 확인하세요. 시내는 노면전차·도보를 조합하되 모토마치와 로프웨이 산기슭의 오르막, 고료카쿠 정류장에서의 마지막 도보를 더하세요. 겨울 산정 버스와 도로를 연중 같은 방식으로 이용할 수 있다고 가정하지 마세요."
+    },
+    {
+      "id": "book-hakodate-stay",
+      "title": "숙소는 어느 동네에",
+      "body": "하코다테역 주변은 철도·버스 도착과 아침 시장, 베이 에어리어·모토마치 주변은 항구와 역사 거리 산책, 유노카와는 온천과 숙소 휴식을 비교하기 좋습니다. 유노카와에 머문다면 도심 야경 뒤 돌아오는 교통과 숙소 저녁 식사 마감을 함께 확인하세요. 언덕의 경관보다 큰 짐을 옮길 실제 경사·정류장 접근을 먼저 보세요."
+    },
+    {
+      "id": "book-hakodate-food",
+      "title": "먹거리와 동네 쇼핑",
+      "body": "하코다테 아침 시장의 해산물 덮밥·계절 식재료, 소금 라멘, 항구 주변의 과자·디저트를 비교해 보세요. 아침 시장은 여러 가게가 모인 구역으로 한 업소의 영업·가격을 보증하지 않습니다. 오징어 낚시나 생식은 재고·운영과 동행자의 식사 취향을 확인한 뒤 선택하세요. 신선 해산물과 냉장 선물은 보관·귀국 반입 조건을 따로 확인하세요."
+    },
+    {
+      "id": "book-hakodate-days",
+      "title": "처음 가는 3일 여행",
+      "body": "1일: 도착 → 베이 에어리어의 가네모리 창고와 모토마치 산책. 해가 진 뒤에는 언덕·노면 상태에 따라 걷는 구간을 줄입니다.\n\n2일: 아침 시장 → 고료카쿠 타워. 하코다테산 전망은 날씨와 실제 이용 가능한 교통이 확보되는 경우에만 더하세요.\n\n3일: 전날 놓친 항구 구역이나 온천 숙소에서 여유를 보낸 뒤 출발합니다. 귀환 교통과 짐 회수를 먼저 정하고 먼 지역을 추가하지 마세요.\n\n관심·휴관·기상에 맞춰 고르는 예시입니다. 자동 방문 시각이나 실제 지도 경로가 아니며 모든 장소를 방문할 필요는 없습니다."
+    },
+    {
+      "id": "book-hakodate-notes",
+      "title": "예약과 현장 팁",
+      "body": "로프웨이 운영사는 2026년10월20일~11월8일 법정 점검 운휴를 안내합니다. 그 기간에는 로프웨이를 탈 수 있다고 계획하지 말고, 다른 산정 교통도 별도로 운행·기상·계절 조건을 확인하세요. 운휴를 산 전체 폐쇄로 해석하지 않았습니다. 야경은 구름과 바람에 따라 보이지 않을 수 있으며 도로·보행로의 겨울 통제를 따르세요."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Places You'll Want to Revisit! Hakodate's Most Popular 7 Destinations | Travel Hakodate",
+      "url": "https://www.hakodate.travel/en/top7/",
+      "accessedAt": "2026-10-29"
+    },
+    {
+      "title": "Welcome to a city of overflowing lights. Enjoy the dramatic night view from the best location. | Mt.HAKODATE ROPEWAY",
+      "url": "https://334.co.jp/en/",
+      "accessedAt": "2026-10-29"
+    },
+    {
+      "title": "Transportation｜Hakodate Airport",
+      "url": "https://www.hokkaido-airports.com/en/hakodate/access/",
+      "accessedAt": "2026-10-29"
+    },
+    {
+      "title": "Gourmet | Experience | Travel Hakodate",
+      "url": "https://www.hakodate.travel/en/experience/gourmet/",
+      "accessedAt": "2026-10-29"
+    },
+    {
+      "title": "Accommodation | Information | Travel Hakodate",
+      "url": "https://www.hakodate.travel/en/information/accommodation/",
+      "accessedAt": "2026-10-29"
+    }
+  ],
+  "status": "published",
+  "requestId": null,
+  "createdAt": "2026-10-29T11:14:56.783Z",
+  "updatedAt": "2026-10-29T11:14:56.783Z",
+  "publishedAt": "2026-10-29T11:14:56.783Z"
+}

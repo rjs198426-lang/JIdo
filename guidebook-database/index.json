@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "description": "공개 여행 가이드만 수집한 데이터베이스. 개인 일정·사진·메모·기기 캐시는 포함하지 않음.",
-  "guideCount": 55,
+  "guideCount": 60,
   "countryCount": 22,
-  "placeCount": 1260,
+  "placeCount": 1285,
   "origins": {
     "bundled": 21,
-    "downloadable": 34
+    "downloadable": 39
   },
   "guides": [
     {
@@ -35,6 +35,20 @@
       "contentHash": "c313cb150f1dbbcdd30e5232ab6f7ae9d05a45a63e5964ea9d67879c82d94a54",
       "file": "records/bangkok.json",
       "placeCount": 66,
+      "sectionCount": 7
+    },
+    {
+      "id": "book-asahikawa",
+      "name": "아사히카와",
+      "country": "일본",
+      "origin": "downloadable",
+      "importedAt": "2026-10-29",
+      "sourceCheckedAt": "2026-10-29",
+      "latestSourceCheckedAt": "2026-10-29",
+      "lastReviewedAt": "2026-10-29",
+      "contentHash": "1f658f0a3a1d5b091a0ddca0666f94e981fdce10c3c52155406d7ca48acf23ae",
+      "file": "records/book-asahikawa.json",
+      "placeCount": 5,
       "sectionCount": 7
     },
     {
@@ -122,6 +136,34 @@
       "sectionCount": 7
     },
     {
+      "id": "book-dalat",
+      "name": "달랏",
+      "country": "베트남",
+      "origin": "downloadable",
+      "importedAt": "2026-10-29",
+      "sourceCheckedAt": "2026-10-29",
+      "latestSourceCheckedAt": "2026-10-29",
+      "lastReviewedAt": "2026-10-29",
+      "contentHash": "6f5b096e7670ddbbde88004d1da4ecf36760bc8caa51491824d28d1b0089d99b",
+      "file": "records/book-dalat.json",
+      "placeCount": 5,
+      "sectionCount": 7
+    },
+    {
+      "id": "book-hakodate",
+      "name": "하코다테",
+      "country": "일본",
+      "origin": "downloadable",
+      "importedAt": "2026-10-29",
+      "sourceCheckedAt": "2026-10-29",
+      "latestSourceCheckedAt": "2026-10-29",
+      "lastReviewedAt": "2026-10-29",
+      "contentHash": "932f0348948baf71e3b98e946ebd4a5af34fd40bc10dae20c69425b828ffbbff",
+      "file": "records/book-hakodate.json",
+      "placeCount": 5,
+      "sectionCount": 7
+    },
+    {
       "id": "book-hanoi",
       "name": "하노이",
       "country": "베트남",
@@ -161,6 +203,20 @@
       "contentHash": "8cd75484ea8f068260fa721e18583a75a93b505261793d05f60054500cb2190b",
       "file": "records/book-honolulu.json",
       "placeCount": 6,
+      "sectionCount": 7
+    },
+    {
+      "id": "book-ishigaki",
+      "name": "이시가키",
+      "country": "일본",
+      "origin": "downloadable",
+      "importedAt": "2026-10-29",
+      "sourceCheckedAt": "2026-10-29",
+      "latestSourceCheckedAt": "2026-10-29",
+      "lastReviewedAt": "2026-10-29",
+      "contentHash": "08fd69c372a0efee7cd79ae889aca0032d5459573d43a8da2c391c9ddc47cbbc",
+      "file": "records/book-ishigaki.json",
+      "placeCount": 5,
       "sectionCount": 7
     },
     {
@@ -286,6 +342,20 @@
       "lastReviewedAt": "2026-10-29",
       "contentHash": "3a04e70842a0c9b14188dbb76232751d61c64b9fd71a1b2b257287e49d4b1228",
       "file": "records/book-matsuyama.json",
+      "placeCount": 5,
+      "sectionCount": 7
+    },
+    {
+      "id": "book-miyakojima",
+      "name": "미야코지마",
+      "country": "일본",
+      "origin": "downloadable",
+      "importedAt": "2026-10-29",
+      "sourceCheckedAt": "2026-10-29",
+      "latestSourceCheckedAt": "2026-10-29",
+      "lastReviewedAt": "2026-10-29",
+      "contentHash": "06bd05405374874def2bf6cd7fdf112b26b5ad26e2a581ef8d3a8907fdb995f5",
+      "file": "records/book-miyakojima.json",
       "placeCount": 5,
       "sectionCount": 7
     },

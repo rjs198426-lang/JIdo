@@ -220,7 +220,9 @@ test('invalid remote list leaves bundled library available and 320px buttons hor
     await d.evaluate((el) => el.scrollWidth <= el.clientWidth + 1),
   ).toBeTruthy()
   await d.getByRole('textbox').fill('베트남')
-  await expect(d.locator('.guidebook-row')).toHaveCount(4)
+  await expect(d.locator('.guidebook-row')).toHaveCount(
+    manifest.books.filter((b: any) => b.country === '베트남').length,
+  )
 })
 test('a trip snapshot survives missing downloaded cache, including timezone and memo', async ({
   page,

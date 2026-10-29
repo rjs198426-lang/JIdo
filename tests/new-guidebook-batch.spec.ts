@@ -14,6 +14,11 @@ const ids = [
   'book-tottori',
   'book-okayama',
   'book-kanazawa',
+  'book-hakodate',
+  'book-asahikawa',
+  'book-ishigaki',
+  'book-miyakojima',
+  'book-dalat',
 ]
 test('researched city guide batches download one by one, render researched text offline, and preserve personal records', async ({
   page,

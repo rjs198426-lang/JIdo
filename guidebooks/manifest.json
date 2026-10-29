@@ -1,7 +1,21 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-29T04:13:17.595Z",
+  "updatedAt": "2026-10-29T11:14:56.783Z",
   "books": [
+    {
+      "id": "book-asahikawa",
+      "name": "아사히카와",
+      "english": "Asahikawa",
+      "country": "일본",
+      "summary": "동물 관찰과 과학·박물관·공원 산책의 조합",
+      "region": "일본",
+      "revision": "8ca96497280be5748c26d52f6f06f3c9a0f9b9a6f0ecf5be090bf9fb46deac0a",
+      "file": "book-asahikawa-8ca96497280be5748c26d52f6f06f3c9a0f9b9a6f0ecf5be090bf9fb46deac0a.json",
+      "bytes": 11363,
+      "updatedAt": "2026-10-29T11:14:56.783Z",
+      "minBuild": 73,
+      "placeCount": 5
+    },
     {
       "id": "book-barcelona",
       "name": "바르셀로나",
@@ -87,6 +101,34 @@
       "placeCount": 6
     },
     {
+      "id": "book-dalat",
+      "name": "달랏",
+      "english": "Da Lat",
+      "country": "베트남",
+      "summary": "고원 호수·시장·철도와 커피 문화를 천천히",
+      "region": "동남아",
+      "revision": "40e89165bfeb9d2d0941f34b69b3e10836bc80dd27ee22be1475b7738c654437",
+      "file": "book-dalat-40e89165bfeb9d2d0941f34b69b3e10836bc80dd27ee22be1475b7738c654437.json",
+      "bytes": 10031,
+      "updatedAt": "2026-10-29T11:14:56.783Z",
+      "minBuild": 73,
+      "placeCount": 5
+    },
+    {
+      "id": "book-hakodate",
+      "name": "하코다테",
+      "english": "Hakodate",
+      "country": "일본",
+      "summary": "항구·언덕·아침 시장을 날짜별로 걷는 여행",
+      "region": "일본",
+      "revision": "5b0da6bd09d78a2d747fea742ce0baa606548a482a7db5a9e6818e8368de391e",
+      "file": "book-hakodate-5b0da6bd09d78a2d747fea742ce0baa606548a482a7db5a9e6818e8368de391e.json",
+      "bytes": 10225,
+      "updatedAt": "2026-10-29T11:14:56.783Z",
+      "minBuild": 73,
+      "placeCount": 5
+    },
+    {
       "id": "book-hanoi",
       "name": "하노이",
       "english": "Hanoi",
@@ -127,6 +169,20 @@
       "updatedAt": "2026-10-28T05:07:12.733Z",
       "minBuild": 73,
       "placeCount": 6
+    },
+    {
+      "id": "book-ishigaki",
+      "name": "이시가키",
+      "english": "Ishigaki",
+      "country": "일본",
+      "summary": "전망·항구·섬 문화를 나누는 야에야마의 거점",
+      "region": "일본",
+      "revision": "a9979a08bf3c7324f8ae23b7bc80ccb0e2083d2188b793e055259adbe16e602f",
+      "file": "book-ishigaki-a9979a08bf3c7324f8ae23b7bc80ccb0e2083d2188b793e055259adbe16e602f.json",
+      "bytes": 9970,
+      "updatedAt": "2026-10-29T11:14:56.783Z",
+      "minBuild": 73,
+      "placeCount": 5
     },
     {
       "id": "book-kagoshima",
@@ -251,6 +307,20 @@
       "file": "book-matsuyama-2092d44d3b9a2d3ae444baa26cec54e0385570a152ca9f796059bbd452f78f7c.json",
       "bytes": 11739,
       "updatedAt": "2026-10-29T04:13:17.595Z",
+      "minBuild": 73,
+      "placeCount": 5
+    },
+    {
+      "id": "book-miyakojima",
+      "name": "미야코지마",
+      "english": "Miyakojima",
+      "country": "일본",
+      "summary": "해변 산책과 곶의 전망을 여유롭게 고르는 섬",
+      "region": "일본",
+      "revision": "c879fe0c1a1efb170e172d7bb7b831c3e338545a2cccb6840390a1d9a1b4878b",
+      "file": "book-miyakojima-c879fe0c1a1efb170e172d7bb7b831c3e338545a2cccb6840390a1d9a1b4878b.json",
+      "bytes": 10067,
+      "updatedAt": "2026-10-29T11:14:56.783Z",
       "minBuild": 73,
       "placeCount": 5
     },

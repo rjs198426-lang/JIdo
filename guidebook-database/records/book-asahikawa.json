@@ -1,0 +1,182 @@
+{
+  "guide": {
+    "id": "book-asahikawa",
+    "scope": "city",
+    "city": {
+      "id": "book-asahikawa",
+      "name": "아사히카와",
+      "english": "Asahikawa",
+      "country": "일본",
+      "region": "일본",
+      "image": "/images/guide-placeholder.svg",
+      "tagline": "동물 관찰과 과학·박물관·공원 산책의 조합",
+      "description": "아사히카와는 홋카이도 내륙의 도시로 아사히야마동물원과 시내 박물관·과학관, 공원과 지역 식사를 나눠 즐기기 좋습니다. 동물원은 도심에서 별도 이동이 필요한 목적지이므로 시내 명소를 같은 도보 코스로 붙이지 마세요. 비에이·후라노·다이세쓰산은 이웃 지역의 별도 여행이며 이 가이드의 신규 도시·장소 수에 포함하지 않았습니다.",
+      "tags": [
+        "도시 산책",
+        "여행 준비"
+      ],
+      "flight": "항공편·운항일은 예약 시 공항·항공사에서 확인",
+      "currency": "일본 엔 · JPY",
+      "timeDifference": "한국과 시차 없음",
+      "timeZone": "Asia/Tokyo",
+      "season": "방문 계절의 기온·비·바람과 시설 공개 일정을 확인하고 실내·야외 방문을 조합하세요.",
+      "accent": "#e7f1ef"
+    },
+    "places": [
+      {
+        "id": "book-asahikawa-asahiyama-zoo",
+        "cityId": "book-asahikawa",
+        "name": "아사히야마동물원",
+        "english": "Asahiyama Zoo",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "동물의 생활과 행동을 관찰하며 생물과 환경을 생각하는 시립 동물원입니다.",
+        "address": "Higashi-Asahikawacho Kuranuma, Asahikawa",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "계절별 개원과 시설·동물의 공개 상황을 확인하세요. 펭귄 산책 등 특정 행사나 모든 동물 관람을 연중 보장하지 않습니다."
+      },
+      {
+        "id": "book-asahikawa-city-museum",
+        "cityId": "book-asahikawa",
+        "name": "아사히카와시박물관",
+        "english": "Asahikawa City Museum",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "다이세쓰 크리스털홀의 시립 박물관으로 지역 자료와 기획전·교육 프로그램을 살펴볼 수 있습니다.",
+        "address": "Kagura, Asahikawa",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "상설 전시·기획전·강좌의 조건이 다릅니다. 강좌가 공지돼 있어도 당일 자유 참가를 의미하지 않습니다."
+      },
+      {
+        "id": "book-asahikawa-science",
+        "cityId": "book-asahikawa",
+        "name": "과학관 사이팔",
+        "english": "Asahikawa Science Center Sci-Pal",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "북국·지구·우주를 주제로 전시와 과학 체험을 선택하는 시립 과학관입니다. 플라네타륨은 별도 프로그램입니다.",
+        "address": "Miyamae, Asahikawa",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "2027년3월2~5일 플라네타륨 투영 중지 공지가 있습니다. 전시실·투영·행사 이용 조건을 구분하세요."
+      },
+      {
+        "id": "book-asahikawa-tokiwa",
+        "cityId": "book-asahikawa",
+        "name": "도키와공원 조각 산책",
+        "english": "Tokiwa Park Sculptures",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "도심 공원에서 아사히카와와 관련된 조각가들의 야외 작품과 녹지를 함께 보는 산책 후보입니다.",
+        "address": "Tokiwa Park, Asahikawa",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "계절별 노면·제설 상태를 확인하고 작품에 오르거나 만지지 마세요. 인근 미술관 내부 관람은 별도입니다."
+      },
+      {
+        "id": "book-asahikawa-takasago",
+        "cityId": "book-asahikawa",
+        "name": "다카사고 주조 메이지주조장 직매장",
+        "english": "Takasago Shuzo Meiji Sakagura",
+        "category": "쇼핑",
+        "image": "/images/place-placeholder.svg",
+        "description": "역사적인 주조장 건물의 자료 전시와 지역 술·관련 상품을 보는 직매장입니다.",
+        "address": "Miyashitadori, Asahikawa",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "직매장 방문과 공장 견학은 다릅니다. 공장 견학은 사전 예약·언어·연령 등 조건을 확인해야 하며 운전자는 시음하지 마세요."
+      }
+    ],
+    "sections": [
+      {
+        "id": "book-asahikawa-overview",
+        "title": "도시 한눈에",
+        "body": "아사히카와는 홋카이도 내륙의 도시로 아사히야마동물원과 시내 박물관·과학관, 공원과 지역 식사를 나눠 즐기기 좋습니다. 동물원은 도심에서 별도 이동이 필요한 목적지이므로 시내 명소를 같은 도보 코스로 붙이지 마세요. 비에이·후라노·다이세쓰산은 이웃 지역의 별도 여행이며 이 가이드의 신규 도시·장소 수에 포함하지 않았습니다."
+      },
+      {
+        "id": "book-asahikawa-before",
+        "title": "출발 전에 챙길 것",
+        "body": "여권·입국 자격·비자 요건은 국적과 여행 목적에 맞춰 정부 안내로 확인하세요. 통신·결제·보험과 예약 내역의 오프라인 사본을 준비하세요. 숙소의 짐 보관·식사 마감, 동행자의 계단·장거리 걷기 부담을 먼저 확인하면 도착일을 단순하게 만들 수 있습니다. 이 가이드는 입국 허가·실시간 운항·운영 시간을 확정하지 않습니다."
+      },
+      {
+        "id": "book-asahikawa-arrival",
+        "title": "공항과 시내 이동",
+        "body": "아사히카와공항(AKJ)의 공식 교통 안내에서 JR 아사히카와역 방면 버스·택시·렌터카를 비교하세요. 공항 주변 비에이·후라노 방면과 아사히카와 시내는 같은 목적지가 아닙니다. 동물원 이동은 방문 날짜의 개원과 버스 연결을 먼저 정하고 돌아오는 교통도 확인하세요. 겨울에는 눈길과 지연에 여유를 두고 시내 도보와 장거리 차량 이동을 같은 속도로 계산하지 마세요."
+      },
+      {
+        "id": "book-asahikawa-stay",
+        "title": "숙소는 어느 동네에",
+        "body": "아사히카와역·도심 상업 구역은 도착·출발과 식당 선택, 가구라 쪽은 박물관과 강 주변 이동을 비교할 수 있습니다. 동물원 가까운 숙소라고 도심 저녁 식사가 쉬운 것은 아니므로 실제 버스·택시·식사 조건을 확인하세요. 겨울에는 방의 가격보다 짐을 끌고 걷는 거리와 제설된 접근로, 철도·공항 이동을 함께 보세요."
+      },
+      {
+        "id": "book-asahikawa-food",
+        "title": "먹거리와 동네 쇼핑",
+        "body": "관광협회 식당 목록을 참고해 아사히카와 라멘과 지역 음식·카페를 취향에 맞춰 고르세요. 목록은 개별 업소의 당일 영업과 좌석을 보증하지 않습니다. 다카사고 주조의 직매장에서는 지역 술과 가공품을 비교할 수 있지만 공장 견학은 별도 사전 예약 프로그램입니다. 운전자는 시음하지 말고 술·유제품·밀 등 알레르기와 선물 보관 방법을 확인하세요."
+      },
+      {
+        "id": "book-asahikawa-days",
+        "title": "처음 가는 3일 여행",
+        "body": "1일: 도착 → 도심에서 식사 → 도키와공원 조각 산책. 날씨가 나쁘면 시내 실내 관람으로 바꿉니다.\n\n2일: 개원일을 확인한 아사히야마동물원 중심으로 하루를 구성합니다. 모든 동물의 야외 활동·특정 행사를 보장하지 않으며 귀환 버스를 먼저 정합니다.\n\n3일: 시립박물관 또는 과학관 사이팔을 관심에 맞춰 고르고, 여유가 있으면 다카사고 메이지주조장 직매장을 더합니다. 예약하지 않은 공장 견학을 당연히 할 수 있다고 생각하지 마세요.\n\n관심·휴관·기상에 맞춰 고르는 예시입니다. 자동 방문 시각이나 실제 지도 경로가 아니며 모든 장소를 방문할 필요는 없습니다."
+      },
+      {
+        "id": "book-asahikawa-notes",
+        "title": "예약과 현장 팁",
+        "body": "시 관광협회는 2026년9월30일 공지에서 10월 이후 관광시설 요금 개정과 시설별 적용 시기 차이를 안내했습니다. 오래된 여행 글의 입장료를 고정해 사용하지 마세요. 사이팔은 2027년3월2~5일 플라네타륨 점검에 따른 투영 중지를 안내하며 과학관 전체 휴관과는 다릅니다. 동물원은 계절별 개원·휴원과 관람 규칙, 겨울 이동 조건을 확인하세요."
+      }
+    ],
+    "sources": [
+      {
+        "title": "旭川市 旭山動物園",
+        "url": "https://www.city.asahikawa.hokkaido.jp/asahiyamazoo/",
+        "accessedAt": "2026-10-29"
+      },
+      {
+        "title": "旭川市内の観光施設等の料金改定について（令和8年10月1日（木）～） – 一般社団法人　旭川観光コンベンション協会",
+        "url": "https://www.atca.jp/%e6%97%ad%e5%b7%9d%e5%b8%82%e5%86%85%e3%81%ae%e8%a6%b3%e5%85%89%e6%96%bd%e8%a8%ad%e7%ad%89%e3%81%ae%e6%96%99%e9%87%91%e6%94%b9%e5%ae%9a%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6/",
+        "accessedAt": "2026-10-29"
+      },
+      {
+        "title": "博物館 | 旭川市",
+        "url": "https://www.city.asahikawa.hokkaido.jp/hakubutukan/",
+        "accessedAt": "2026-10-29"
+      },
+      {
+        "title": "旭川市科学館　サイパル – 一般社団法人　旭川観光コンベンション協会",
+        "url": "https://www.atca.jp/kankouspoy/%e6%97%ad%e5%b7%9d%e5%b8%82%e7%a7%91%e5%ad%a6%e9%a4%a8%e3%80%80%e3%82%b5%e3%82%a4%e3%83%91%e3%83%ab/",
+        "accessedAt": "2026-10-29"
+      },
+      {
+        "title": "科学館サイパル | 旭川市",
+        "url": "https://www.city.asahikawa.hokkaido.jp/science/index.html",
+        "accessedAt": "2026-10-29"
+      },
+      {
+        "title": "常磐公園の彫刻群 – 一般社団法人　旭川観光コンベンション協会",
+        "url": "https://www.atca.jp/kankouspoy/%e5%b8%b8%e7%a3%90%e5%85%ac%e5%9c%92%e3%81%ae%e5%bd%ab%e5%88%bb%e7%be%a4/",
+        "accessedAt": "2026-10-29"
+      },
+      {
+        "title": "直売店・工場見学 | 髙砂酒造株式会社",
+        "url": "https://takasagoshuzo.com/meiji-sakagura/",
+        "accessedAt": "2026-10-29"
+      },
+      {
+        "title": "交通アクセス｜旭川空港",
+        "url": "https://www.hokkaido-airports.com/ja/asahikawa/access/",
+        "accessedAt": "2026-10-29"
+      },
+      {
+        "title": "飲食 – 一般社団法人　旭川観光コンベンション協会",
+        "url": "https://www.atca.jp/members/eat/",
+        "accessedAt": "2026-10-29"
+      }
+    ],
+    "status": "published",
+    "requestId": null,
+    "createdAt": "2026-10-29T11:14:56.783Z",
+    "updatedAt": "2026-10-29T11:14:56.783Z",
+    "publishedAt": "2026-10-29T11:14:56.783Z"
+  }
+}

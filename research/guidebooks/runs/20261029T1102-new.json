@@ -1,0 +1,1153 @@
+{
+  "schemaVersion": 1,
+  "mode": "new",
+  "startedAt": "2026-10-29T11:02:00Z",
+  "authoredAt": "2026-10-29T11:17:31.466145+00:00",
+  "baseCommit": "e02455b136884c1cbf24743c66b03f5d72306f33",
+  "selectionCommand": "npm run guides:plan -- new --limit=5",
+  "initialCandidates": [
+    "hakodate",
+    "asahikawa",
+    "ishigaki",
+    "miyakojima",
+    "boracay"
+  ],
+  "completedCities": [
+    {
+      "id": "book-hakodate",
+      "name": "하코다테"
+    },
+    {
+      "id": "book-asahikawa",
+      "name": "아사히카와"
+    },
+    {
+      "id": "book-ishigaki",
+      "name": "이시가키"
+    },
+    {
+      "id": "book-miyakojima",
+      "name": "미야코지마"
+    },
+    {
+      "id": "book-dalat",
+      "name": "달랏"
+    }
+  ],
+  "completedCount": 5,
+  "newPlaces": 25,
+  "deferredCandidates": [
+    {
+      "id": "boracay",
+      "reason": "HTTP 200이지만 다른 도메인의 온라인 게임·도박 콘텐츠로 연결돼 관광 원문으로 배제. 후보를 보류하고 달랏으로 교체.",
+      "replacement": "dalat"
+    }
+  ],
+  "deferredCount": 1,
+  "demandBasis": "한국인 단거리 일본 여행과 베트남 고원 여행을 고려한 승인된 후보 큐. 통계상 인기순위 주장은 하지 않음. 보라카이 근거 부족으로 다음 베트남 후보 달랏으로 교체.",
+  "duplicateCheck": {
+    "indexGuidesBefore": 55,
+    "sqliteGuidesBefore": 55,
+    "existingNames": [
+      "발리",
+      "방콕",
+      "바르셀로나",
+      "베이징",
+      "벳푸",
+      "보홀·팡라오",
+      "세부·막탄",
+      "치앙마이",
+      "하노이",
+      "호찌민",
+      "호놀룰루·오아후",
+      "가고시마",
+      "가나자와",
+      "가오슝",
+      "코타키나발루",
+      "쿠알라룸푸르",
+      "구마모토",
+      "런던",
+      "로스앤젤레스",
+      "마쓰야마",
+      "나가사키",
+      "뉴욕",
+      "나트랑",
+      "오카야마",
+      "오키나와·나하",
+      "파리",
+      "푸껫",
+      "푸꾸옥",
+      "프라하",
+      "로마",
+      "상하이",
+      "시드니",
+      "타이난",
+      "다카마쓰",
+      "돗토리",
+      "유후인",
+      "다낭·호이안",
+      "두바이",
+      "후쿠오카",
+      "괌",
+      "히로시마",
+      "홍콩",
+      "고베",
+      "교토",
+      "몰디브",
+      "나고야",
+      "오사카",
+      "사이판",
+      "산토리니",
+      "삿포로",
+      "센다이",
+      "싱가포르",
+      "타이베이",
+      "도쿄",
+      "요코하마"
+    ],
+    "decision": "삿포로 원문과 장소에서 하코다테·아사히카와 포함 없음 확인. 오키나와·나하 가이드는 본섬이며 미야코·이시가키를 별도 항공·숙박 대상으로 명시. 달랏은 기존 베트남 도시·다낭호이안 합본과 구분. 오누마·비에이·후라노·이리오모테·다케토미·이라부를 추가 신규 도시로 세지 않음."
+  },
+  "sources": [
+    {
+      "key": "hakodate",
+      "requestedUrl": "https://www.hakodate.travel/en/",
+      "url": "https://www.hakodate.travel/en/",
+      "status": 200,
+      "title": "Travel Hakodate - Hakodate Official Travel Guide Hokkaido, Japan",
+      "bytes": 98367,
+      "sha256": "11a323c9ab651d6024ee71039e457a888d51d8aa401fc0b0e1838155f8458c1c",
+      "textLength": 4373,
+      "checkedAt": "2026-10-29T11:03:35.093864+00:00",
+      "publicationDate": null,
+      "modifiedDate": null,
+      "dateBasis": "게시일 미상. HTTP200·확인일·본문 행사일·하위 기사일·copyright를 게시일로 쓰지 않음.",
+      "used": false,
+      "judgment": "탐색 자료이며 완성 가이드의 근거로 미채택.",
+      "deferredReason": null
+    },
+    {
+      "key": "asahikawa",
+      "requestedUrl": "https://www.atca.jp/",
+      "url": "https://www.atca.jp/",
+      "status": 200,
+      "title": "一般社団法人　旭川観光コンベンション協会 – Asahikawa Tourist & Convention Association",
+      "bytes": 62270,
+      "sha256": "b887491167a4546c882050499e52b0ef9059d731401f1f06c2fb9be312f5ca99",
+      "textLength": 1926,
+      "checkedAt": "2026-10-29T11:03:35.094808+00:00",
+      "publicationDate": null,
+      "modifiedDate": null,
+      "dateBasis": "게시일 미상. HTTP200·확인일·본문 행사일·하위 기사일·copyright를 게시일로 쓰지 않음.",
+      "used": false,
+      "judgment": "탐색 자료이며 완성 가이드의 근거로 미채택.",
+      "deferredReason": null
+    },
+    {
+      "key": "ishigaki",
+      "requestedUrl": "https://yaeyama.or.jp/",
+      "url": "https://yaeyama.or.jp/",
+      "status": 200,
+      "title": "石垣市観光交流協会 | 石垣島の観光総合情報サイト",
+      "bytes": 77066,
+      "sha256": "876c38ffc3b863260c6251872b329381fec34d74e45e8a5eda0d68b1e0bb137e",
+      "textLength": 2904,
+      "checkedAt": "2026-10-29T11:03:35.095463+00:00",
+      "publicationDate": null,
+      "modifiedDate": null,
+      "dateBasis": "게시일 미상. HTTP200·확인일·본문 행사일·하위 기사일·copyright를 게시일로 쓰지 않음.",
+      "used": false,
+      "judgment": "탐색 자료이며 완성 가이드의 근거로 미채택.",
+      "deferredReason": null
+    },
+    {
+      "key": "miyakojima",
+      "requestedUrl": "https://miyako-guide.net/",
+      "url": "https://miyako-guide.net/",
+      "status": 200,
+      "title": "一般社団法人 宮古島観光協会 公式WEBサイト | ようこそ、日本一美しい海・至高のリゾート《宮古島》へ。",
+      "bytes": 103616,
+      "sha256": "70bfa700ec0f6e55eb819cce5593bd1bd484c990c926a3c76e4c40978dbb0b0d",
+      "textLength": 1345,
+      "checkedAt": "2026-10-29T11:03:35.095887+00:00",
+      "publicationDate": null,
+      "modifiedDate": null,
+      "dateBasis": "게시일 미상. HTTP200·확인일·본문 행사일·하위 기사일·copyright를 게시일로 쓰지 않음.",
+      "used": false,
+      "judgment": "탐색 자료이며 완성 가이드의 근거로 미채택.",
+      "deferredReason": null
+    },
+    {
+      "key": "boracay",
+      "requestedUrl": "https://philippines.travel/destinations/boracay",
+      "url": "https://pafitapteng.org/",
+      "status": 200,
+      "title": "OKE25 | Platform Login Game Online untuk Komunitas Game yang terus Bertumbuh",
+      "bytes": 144487,
+      "sha256": "d58881c936b70b7a2a856195af83ec32ee7c93f1ea5bdde329ebacd50273d19a",
+      "textLength": 7970,
+      "checkedAt": "2026-10-29T11:03:36.859402+00:00",
+      "publicationDate": null,
+      "modifiedDate": null,
+      "dateBasis": "게시일 미상. HTTP200·확인일·본문 행사일·하위 기사일·copyright를 게시일로 쓰지 않음.",
+      "used": false,
+      "judgment": "HTTP 200이지만 다른 도메인의 온라인 게임·도박 콘텐츠로 연결돼 관광 원문으로 배제. 후보를 보류하고 달랏으로 교체.",
+      "deferredReason": "HTTP 200이지만 다른 도메인의 온라인 게임·도박 콘텐츠로 연결돼 관광 원문으로 배제. 후보를 보류하고 달랏으로 교체."
+    },
+    {
+      "key": "ph-dot",
+      "requestedUrl": "https://beta.tourism.gov.ph/",
+      "status": 503,
+      "checkedAt": "2026-10-29T11:03:37.028755+00:00",
+      "error": "HTTP Error 503: Service Unavailable",
+      "publicationDate": null,
+      "modifiedDate": null,
+      "dateBasis": "게시일 미상. HTTP200·확인일·본문 행사일·하위 기사일·copyright를 게시일로 쓰지 않음.",
+      "used": false,
+      "judgment": "503으로 본문 확인 불가. 보라카이 장소의 근거로 사용하지 않음.",
+      "deferredReason": "503으로 본문 확인 불가. 보라카이 장소의 근거로 사용하지 않음."
+    },
+    {
+      "key": "malay",
+      "requestedUrl": "https://malay.gov.ph/",
+      "status": null,
+      "checkedAt": "2026-10-29T11:03:37.465805+00:00",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "publicationDate": null,
+      "modifiedDate": null,
+      "dateBasis": "게시일 미상. HTTP200·확인일·본문 행사일·하위 기사일·copyright를 게시일로 쓰지 않음.",
+      "used": false,
+      "judgment": "연결 403. 제한을 우회하지 않고 보류.",
+      "deferredReason": "연결 403. 제한을 우회하지 않고 보류."
+    },
+    {
+      "key": "hk-airport",
+      "requestedUrl": "https://www.hokkaido-airports.com/en/hakodate/access/",
+      "url": "https://www.hokkaido-airports.com/en/hakodate/access/",
+      "status": 200,
+      "title": "Transportation｜Hakodate Airport",
+      "bytes": 73092,
+      "sha256": "b57c51f07d56a6c888df68ecfa8b9dfcac0198e7cc19579edca30e14f0e98bdd",
+      "textLength": 5751,
+      "checkedAt": "2026-10-29T11:03:37.486360+00:00",
+      "publicationDate": null,
+      "modifiedDate": null,
+      "dateBasis": "게시일 미상. HTTP200·확인일·본문 행사일·하위 기사일·copyright를 게시일로 쓰지 않음.",
+      "used": true,
+      "judgment": "기관과 본문의 대상·성격을 읽은 범위에서 한국어로 작성. 날짜 없는 공식 개요는 최근 기사로 표시하지 않음.",
+      "deferredReason": null
+    },
+    {
+      "key": "as-airport",
+      "requestedUrl": "https://www.aapb.co.jp/",
+      "url": "https://www.hokkaido-airports.com/ja/asahikawa/",
+      "status": 200,
+      "title": "旭川空港",
+      "bytes": 74540,
+      "sha256": "d1cd8bc98b944dc0a7b28311708fc2232788c4972bbf59e8543a9b365bd61dde",
+      "textLength": 1735,
+      "checkedAt": "2026-10-29T11:03:38.036819+00:00",
+      "publicationDate": null,
+      "modifiedDate": null,
+      "dateBasis": "게시일 미상. HTTP200·확인일·본문 행사일·하위 기사일·copyright를 게시일로 쓰지 않음.",
+      "used": false,
+      "judgment": "탐색 자료이며 완성 가이드의 근거로 미채택.",
+      "deferredReason": null
+    },
+    {
+      "key": "is-airport",
+      "requestedUrl": "https://www.ishigaki-airport.co.jp/",
+      "url": "https://www.ishigaki-airport.co.jp/",
+      "status": 200,
+      "title": "南ぬ島石垣空港公式ウェブサイト",
+      "bytes": 65438,
+      "sha256": "253eba994b773b50f66dfdb1e008895bec59808d3faf5ab5ad0c3dfd33445295",
+      "textLength": 1573,
+      "checkedAt": "2026-10-29T11:03:38.326019+00:00",
+      "publicationDate": null,
+      "modifiedDate": null,
+      "dateBasis": "게시일 미상. HTTP200·확인일·본문 행사일·하위 기사일·copyright를 게시일로 쓰지 않음.",
+      "used": false,
+      "judgment": "탐색 자료이며 완성 가이드의 근거로 미채택.",
+      "deferredReason": null
+    },
+    {
+      "key": "mi-airport",
+      "requestedUrl": "https://miyakoap.co.jp/",
+      "url": "https://miyakoap.co.jp/",
+      "status": 200,
+      "title": "宮古空港ターミナルビル",
+      "bytes": 288255,
+      "sha256": "7c4204d71a244a9c3fdc99608a252f3e1dfabf3326ac8ee0939bc29cb5ed3c57",
+      "textLength": 3361,
+      "checkedAt": "2026-10-29T11:03:39.289225+00:00",
+      "publicationDate": null,
+      "modifiedDate": null,
+      "dateBasis": "게시일 미상. HTTP200·확인일·본문 행사일·하위 기사일·copyright를 게시일로 쓰지 않음.",
+      "used": true,
+      "judgment": "기관과 본문의 대상·성격을 읽은 범위에서 한국어로 작성. 날짜 없는 공식 개요는 최근 기사로 표시하지 않음.",
+      "deferredReason": null
+    },
+    {
+      "key": "hk-top",
+      "requestedUrl": "https://www.hakodate.travel/en/top7",
+      "url": "https://www.hakodate.travel/en/top7/",
+      "status": 200,
+      "title": "Places You'll Want to Revisit! Hakodate's Most Popular 7 Destinations | Travel Hakodate",
+      "bytes": 79665,
+      "sha256": "0139ccd858c61d0e2a2c1b80f0c5101c3dbc0239a808dc977fea26eeca5fd779",
+      "textLength": 9052,
+      "checkedAt": "2026-10-29T11:05:05.028549+00:00",
+      "publicationDate": null,
+      "modifiedDate": null,
+      "dateBasis": "게시일 미상. HTTP200·확인일·본문 행사일·하위 기사일·copyright를 게시일로 쓰지 않음.",
+      "used": true,
+      "judgment": "시 공식 관광 원문에서 아침 시장·고료카쿠 타워·창고·모토마치·산의 특성 확인. 겨울 산정 버스·오누마 별도 지역·개별 체험을 확정하지 않음.",
+      "deferredReason": null
+    },
+    {
+      "key": "hk-ropeway",
+      "requestedUrl": "https://334.co.jp/eng/",
+      "url": "https://334.co.jp/en/",
+      "status": 200,
+      "title": "Welcome to a city of overflowing lights. Enjoy the dramatic night view from the best location. | Mt.HAKODATE ROPEWAY",
+      "bytes": 31727,
+      "sha256": "b9b2bdb90a839107cec84a858290ccea2e0642e6ebe71d379a9223ccd4f3063b",
+      "textLength": 1518,
+      "checkedAt": "2026-10-29T11:05:05.029529+00:00",
+      "publicationDate": null,
+      "modifiedDate": null,
+      "dateBasis": "게시일 미상. HTTP200·확인일·본문 행사일·하위 기사일·copyright를 게시일로 쓰지 않음.",
+      "used": true,
+      "judgment": "운영사 본문의 2026-10-20~11-08 법정 점검 운휴를 확인. 산 전체 폐쇄와 구분. 가격·시간표는 고정하지 않음.",
+      "deferredReason": null
+    },
+    {
+      "key": "as-kankou",
+      "requestedUrl": "https://www.atca.jp/kankou/",
+      "url": "https://www.atca.jp/kankou/",
+      "status": 200,
+      "title": "観光情報 – 一般社団法人　旭川観光コンベンション協会",
+      "bytes": 56153,
+      "sha256": "adeffe819eda2300959ad0d34f3dc2d9b3d298bc9f73707f658b120f28607dbc",
+      "textLength": 1187,
+      "checkedAt": "2026-10-29T11:05:05.030109+00:00",
+      "publicationDate": null,
+      "modifiedDate": null,
+      "dateBasis": "게시일 미상. HTTP200·확인일·본문 행사일·하위 기사일·copyright를 게시일로 쓰지 않음.",
+      "used": false,
+      "judgment": "탐색 자료이며 완성 가이드의 근거로 미채택.",
+      "deferredReason": null
+    },
+    {
+      "key": "as-zoo",
+      "requestedUrl": "https://www.city.asahikawa.hokkaido.jp/asahiyamazoo/",
+      "url": "https://www.city.asahikawa.hokkaido.jp/asahiyamazoo/",
+      "status": 200,
+      "title": "旭川市 旭山動物園",
+      "bytes": 65248,
+      "sha256": "ff8b22edcd2814482cd533ba2cb146b659b4e4e90abd1f4bfafbced19eeb48bf",
+      "textLength": 2348,
+      "checkedAt": "2026-10-29T11:05:05.030571+00:00",
+      "publicationDate": null,
+      "modifiedDate": null,
+      "dateBasis": "게시일 미상. HTTP200·확인일·본문 행사일·하위 기사일·copyright를 게시일로 쓰지 않음.",
+      "used": true,
+      "judgment": "2026년10월 동물 이동·입장료 개정·현재 개원 안내 확인. 홈페이지 현재 날짜는 게시일이 아님. 특정 동물·겨울 행사를 보장하지 않음.",
+      "deferredReason": null
+    },
+    {
+      "key": "as-access",
+      "requestedUrl": "https://www.hokkaido-airports.com/ja/asahikawa/access/",
+      "url": "https://www.hokkaido-airports.com/ja/asahikawa/access/",
+      "status": 200,
+      "title": "交通アクセス｜旭川空港",
+      "bytes": 49194,
+      "sha256": "58a213c690a9130484e4e8dadbe7f6d4ae512a7a61f70ccaecec5569e83e0f19",
+      "textLength": 1365,
+      "checkedAt": "2026-10-29T11:05:06.900058+00:00",
+      "publicationDate": null,
+      "modifiedDate": null,
+      "dateBasis": "게시일 미상. HTTP200·확인일·본문 행사일·하위 기사일·copyright를 게시일로 쓰지 않음.",
+      "used": true,
+      "judgment": "기관과 본문의 대상·성격을 읽은 범위에서 한국어로 작성. 날짜 없는 공식 개요는 최근 기사로 표시하지 않음.",
+      "deferredReason": null
+    },
+    {
+      "key": "is-nature",
+      "requestedUrl": "https://yaeyama.or.jp/watch/nature/",
+      "url": "https://yaeyama.or.jp/watch/nature/",
+      "status": 200,
+      "title": "自然 | 石垣市観光交流協会",
+      "bytes": 81966,
+      "sha256": "86e017f4a644989d476d4ea9cb24c8839b11647c667c9a92049f4e911ad6f395",
+      "textLength": 2674,
+      "checkedAt": "2026-10-29T11:05:07.261978+00:00",
+      "publicationDate": null,
+      "modifiedDate": null,
+      "dateBasis": "게시일 미상. HTTP200·확인일·본문 행사일·하위 기사일·copyright를 게시일로 쓰지 않음.",
+      "used": true,
+      "judgment": "기관과 본문의 대상·성격을 읽은 범위에서 한국어로 작성. 날짜 없는 공식 개요는 최근 기사로 표시하지 않음.",
+      "deferredReason": null
+    },
+    {
+      "key": "is-food",
+      "requestedUrl": "https://yaeyama.or.jp/food/localfood/",
+      "url": "https://yaeyama.or.jp/food/localfood/",
+      "status": 200,
+      "title": "郷土料理 | 石垣市観光交流協会",
+      "bytes": 75828,
+      "sha256": "598749fbd6294d57ca8c5057aa348871ac1c581f713e5599e1f7154aa72e0f1d",
+      "textLength": 2479,
+      "checkedAt": "2026-10-29T11:05:07.550499+00:00",
+      "publicationDate": null,
+      "modifiedDate": null,
+      "dateBasis": "게시일 미상. HTTP200·확인일·본문 행사일·하위 기사일·copyright를 게시일로 쓰지 않음.",
+      "used": true,
+      "judgment": "공식 협회 회원 목록의 2025-08-05·2024-07-23 개별 업소 갱신과 2019년 항목을 구분. 당일 영업·공연은 보증하지 않음.",
+      "deferredReason": null
+    },
+    {
+      "key": "is-bus",
+      "requestedUrl": "https://www.ishigaki-airport.co.jp/access/bus.html",
+      "status": 404,
+      "checkedAt": "2026-10-29T11:05:07.793447+00:00",
+      "error": "HTTP Error 404: Not Found",
+      "publicationDate": null,
+      "modifiedDate": null,
+      "dateBasis": "게시일 미상. HTTP200·확인일·본문 행사일·하위 기사일·copyright를 게시일로 쓰지 않음.",
+      "used": false,
+      "judgment": "404. 공항의 실제 링크에서 본문 확인.",
+      "deferredReason": "404. 공항의 실제 링크에서 본문 확인."
+    },
+    {
+      "key": "mi-kankou",
+      "requestedUrl": "https://miyako-guide.net/",
+      "url": "https://miyako-guide.net/",
+      "status": 200,
+      "title": "一般社団法人 宮古島観光協会 公式WEBサイト | ようこそ、日本一美しい海・至高のリゾート《宮古島》へ。",
+      "bytes": 103614,
+      "sha256": "18f86adf395fcf3c1e128d440298bdc1943235e6395b7878ef41a2e357e41708",
+      "textLength": 1345,
+      "checkedAt": "2026-10-29T11:05:08.052502+00:00",
+      "publicationDate": null,
+      "modifiedDate": null,
+      "dateBasis": "게시일 미상. HTTP200·확인일·본문 행사일·하위 기사일·copyright를 게시일로 쓰지 않음.",
+      "used": false,
+      "judgment": "탐색 자료이며 완성 가이드의 근거로 미채택.",
+      "deferredReason": null
+    },
+    {
+      "key": "mi-okinawa",
+      "requestedUrl": "https://visitokinawajapan.com/destinations/miyako-islands/miyako-island/",
+      "url": "https://visitokinawajapan.com/destinations/miyako-islands/miyako-island/",
+      "status": 200,
+      "title": "Miyako Island | VISIT OKINAWA JAPAN | Official Okinawa Travel Guide",
+      "bytes": 381493,
+      "sha256": "3943bf916eebb77d5adef7db41e96fc677a3b18e8a3f72eaaed2e83ea816a9f6",
+      "textLength": 6186,
+      "checkedAt": "2026-10-29T11:05:08.912720+00:00",
+      "publicationDate": null,
+      "modifiedDate": null,
+      "dateBasis": "게시일 미상. HTTP200·확인일·본문 행사일·하위 기사일·copyright를 게시일로 쓰지 않음.",
+      "used": true,
+      "judgment": "현 공식 관광 원문에서 마에하마·스나야마·동서 곶·아라구스쿠를 별도 지점으로 확인. 두 공항 관계 확인. 해변 입수 안전·암석 아래 접근을 보장하지 않음.",
+      "deferredReason": null
+    },
+    {
+      "key": "is-okinawa",
+      "requestedUrl": "https://visitokinawajapan.com/destinations/yaeyama-islands/ishigaki-island/",
+      "url": "https://visitokinawajapan.com/destinations/yaeyama-islands/ishigaki-island/",
+      "status": 200,
+      "title": "Ishigaki Island | VISIT OKINAWA JAPAN | Official Okinawa Travel Guide",
+      "bytes": 381298,
+      "sha256": "1a9bfe3214b7a86c0f77dc144e8838121ec0538a1c7f9e0053a16507ccc3af41",
+      "textLength": 6838,
+      "checkedAt": "2026-10-29T11:05:09.113046+00:00",
+      "publicationDate": null,
+      "modifiedDate": null,
+      "dateBasis": "게시일 미상. HTTP200·확인일·본문 행사일·하위 기사일·copyright를 게시일로 쓰지 않음.",
+      "used": true,
+      "judgment": "현 공식 관광기관 본문에서 가비라만 해변 수영·스노클링 금지, 전망지·반나공원·숙소 구역 확인. 만타·별 관측 보장 및 과거 국제선 정보 배제.",
+      "deferredReason": null
+    },
+    {
+      "key": "dalat",
+      "requestedUrl": "https://vietnam.travel/places-to-go/central-vietnam/da-lat",
+      "url": "https://vietnam.travel/places-to-go/south-central-coast-central-highlands/dalat/",
+      "status": 200,
+      "title": "Da Lat | Vietnam Tourism",
+      "bytes": 46241,
+      "sha256": "bd4762b670b2d9fae78c4b2b70a9f86fb3f9b86bb0ada3c03da63b7984ba23c2",
+      "textLength": 3915,
+      "checkedAt": "2026-10-29T11:05:09.506258+00:00",
+      "publicationDate": null,
+      "modifiedDate": null,
+      "dateBasis": "게시일 미상. HTTP200·확인일·본문 행사일·하위 기사일·copyright를 게시일로 쓰지 않음.",
+      "used": true,
+      "judgment": "국가관광청 본문에서 호수·시장·건축·역·짜이맛 린프억 사원 확인. 남북 본선과 관광철도 구분, 공항 실제 운항은 별도 확인 사항.",
+      "deferredReason": null
+    },
+    {
+      "key": "dalat-tourism",
+      "requestedUrl": "https://dalat-info.gov.vn/",
+      "url": "https://dalat-info.gov.vn/",
+      "status": 200,
+      "title": "Lamdongconnection | TRUNG TÂM XÚC TIẾN ĐẦU TƯ, THƯƠNG MẠI VÀ DU LỊCH",
+      "bytes": 122789,
+      "sha256": "598540f4dbd99c7cd3e15de849569fb7ab22e994bf375000107ae529cdcbad95",
+      "textLength": 5640,
+      "checkedAt": "2026-10-29T11:05:10.198354+00:00",
+      "publicationDate": null,
+      "modifiedDate": null,
+      "dateBasis": "게시일 미상. HTTP200·확인일·본문 행사일·하위 기사일·copyright를 게시일로 쓰지 않음.",
+      "used": false,
+      "judgment": "탐색 자료이며 완성 가이드의 근거로 미채택.",
+      "deferredReason": null
+    },
+    {
+      "key": "dalat-airport",
+      "requestedUrl": "https://vietnamairport.vn/lienkhuongairport/en/",
+      "url": "https://acv.vn/",
+      "status": 200,
+      "title": "Request Rejected",
+      "bytes": 161,
+      "sha256": "5bd1d176a71391dfa68ec7852133b73c06bb6f301745f84ac9c3520528c1f223",
+      "textLength": 122,
+      "checkedAt": "2026-10-29T11:05:10.246498+00:00",
+      "publicationDate": null,
+      "modifiedDate": null,
+      "dateBasis": "게시일 미상. HTTP200·확인일·본문 행사일·하위 기사일·copyright를 게시일로 쓰지 않음.",
+      "used": false,
+      "judgment": "200이지만 acv.vn의 Request Rejected 화면. 실제 공항 운영·항공편·버스 확인으로 처리하지 않음.",
+      "deferredReason": "200이지만 acv.vn의 Request Rejected 화면. 실제 공항 운영·항공편·버스 확인으로 처리하지 않음."
+    },
+    {
+      "key": "as-fees",
+      "requestedUrl": "https://www.atca.jp/%e6%97%ad%e5%b7%9d%e5%b8%82%e5%86%85%e3%81%ae%e8%a6%b3%e5%85%89%e6%96%bd%e8%a8%ad%e7%ad%89%e3%81%ae%e6%96%99%e9%87%91%e6%94%b9%e5%ae%9a%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6/",
+      "url": "https://www.atca.jp/%e6%97%ad%e5%b7%9d%e5%b8%82%e5%86%85%e3%81%ae%e8%a6%b3%e5%85%89%e6%96%bd%e8%a8%ad%e7%ad%89%e3%81%ae%e6%96%99%e9%87%91%e6%94%b9%e5%ae%9a%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6/",
+      "status": 200,
+      "title": "旭川市内の観光施設等の料金改定について（令和8年10月1日（木）～） – 一般社団法人　旭川観光コンベンション協会",
+      "bytes": 50416,
+      "sha256": "75c89190b9a60e4a41154d859e6ad2f02fcfa55e7bc38a1ca08af09ef0eacf96",
+      "textLength": 1040,
+      "checkedAt": "2026-10-29T11:05:10.250084+00:00",
+      "publicationDate": "2026-09-30",
+      "modifiedDate": null,
+      "dateBasis": "원문의 실제 기사 게시일",
+      "used": true,
+      "judgment": "실제 게시일 2026-09-30. 관광시설별 요금 개정 시기가 다르다는 원문 확인. 모든 시설이 같은 금액·같은 날부터 바뀐다고 쓰지 않음.",
+      "deferredReason": null
+    },
+    {
+      "key": "is-bus-final",
+      "requestedUrl": "https://www.ishigaki-airport.co.jp/access/bus-taxi/index.html",
+      "url": "https://www.ishigaki-airport.co.jp/access/bus-taxi/index.html",
+      "status": 200,
+      "title": "バス・タクシー | 交通案内 | 南ぬ島石垣空港公式ウェブサイト",
+      "bytes": 53665,
+      "sha256": "ba28cc5583bb8cec4b509ab03bd10197e826cfdf49d7cbaf67303f95b149474d",
+      "textLength": 1972,
+      "checkedAt": "2026-10-29T11:10:48.242958+00:00",
+      "publicationDate": null,
+      "modifiedDate": null,
+      "dateBasis": "게시일 미상. HTTP200·확인일·본문 행사일·하위 기사일·copyright를 게시일로 쓰지 않음.",
+      "used": true,
+      "judgment": "공항 공식 실제 링크의 계통4·10 등과 시가지·항구/가비라 방향 구분. 택시의 예상 가격·시간은 고정하지 않음.",
+      "deferredReason": null
+    },
+    {
+      "key": "dalat-coffee-final",
+      "requestedUrl": "https://vietnam.travel/things-to-do/da-lat-tour-coffee-lovers/",
+      "url": "https://vietnam.travel/things-to-do/da-lat-tour-coffee-lovers/",
+      "status": 200,
+      "title": "A tour for coffee lovers in Da Lat | Vietnam Tourism",
+      "bytes": 49564,
+      "sha256": "909c977602268e49d698e5396b64cbb66fcdcf49e88b40ea1bf4b59ff8b6aa42",
+      "textLength": 7232,
+      "checkedAt": "2026-10-29T11:10:48.244012+00:00",
+      "publicationDate": null,
+      "modifiedDate": null,
+      "dateBasis": "게시일 미상. HTTP200·확인일·본문 행사일·하위 기사일·copyright를 게시일로 쓰지 않음.",
+      "used": true,
+      "judgment": "국가관광청 기사에서 K’Ho 농장·로스터리가 랑비앙 쪽 교외임을 확인. 도심 카페와 구분하고 과거 워크숍의 현재 동일 운영을 보장하지 않음.",
+      "deferredReason": null
+    },
+    {
+      "key": "dalat-food",
+      "requestedUrl": "https://vietnam.travel/things-to-do/eating-dalat-chef-peter/",
+      "url": "https://vietnam.travel/things-to-do/eating-dalat-chef-peter/",
+      "status": 200,
+      "title": "Eating Da Lat with Chef Peter  | Vietnam Tourism",
+      "bytes": 49506,
+      "sha256": "436a99e60595b655bfb0f9b55855e0bb98280349bf6361cb5b5e244c7fc02b14",
+      "textLength": 6667,
+      "checkedAt": "2026-10-29T11:10:48.244564+00:00",
+      "publicationDate": null,
+      "modifiedDate": null,
+      "dateBasis": "게시일 미상. HTTP200·확인일·본문 행사일·하위 기사일·copyright를 게시일로 쓰지 않음.",
+      "used": true,
+      "judgment": "국가관광청 기사에서 농산물·기후와 음식 문화 확인. 특정 업소의 가격·판매·수확 시기는 보증하지 않음.",
+      "deferredReason": null
+    },
+    {
+      "key": "as-science-current",
+      "requestedUrl": "https://www.city.asahikawa.hokkaido.jp/science/index.html",
+      "url": "https://www.city.asahikawa.hokkaido.jp/science/index.html",
+      "status": 200,
+      "title": "科学館サイパル | 旭川市",
+      "bytes": 23704,
+      "sha256": "c29e14d7bc04e02e224bb5d66c99d23ef971bfdd4f4d2993c1b50f88d517bc01",
+      "textLength": 1235,
+      "checkedAt": "2026-10-29T11:10:48.245664+00:00",
+      "publicationDate": null,
+      "modifiedDate": null,
+      "dateBasis": "게시일 미상. HTTP200·확인일·본문 행사일·하위 기사일·copyright를 게시일로 쓰지 않음.",
+      "used": true,
+      "judgment": "시 공식 본문에서 2027-03-02~05 플라네타륨 점검에 따른 투영 중지 확인. 과학관 전체 휴관과 구분.",
+      "deferredReason": null
+    },
+    {
+      "key": "as-zoo-calendar",
+      "requestedUrl": "https://www.city.asahikawa.hokkaido.jp/asahiyamazoo/generalinformation/d055159.html",
+      "status": 404,
+      "checkedAt": "2026-10-29T11:10:49.482838+00:00",
+      "error": "HTTP Error 404: Not Found",
+      "publicationDate": null,
+      "modifiedDate": null,
+      "dateBasis": "게시일 미상. HTTP200·확인일·본문 행사일·하위 기사일·copyright를 게시일로 쓰지 않음.",
+      "used": false,
+      "judgment": "404. 동물원 본문에서 실제 이용 안내 링크를 찾아 확인.",
+      "deferredReason": "404. 동물원 본문에서 실제 이용 안내 링크를 찾아 확인."
+    },
+    {
+      "key": "as-tokiwa",
+      "requestedUrl": "https://www.atca.jp/kankouspoy/%e5%b8%b8%e7%a3%90%e5%85%ac%e5%9c%92%e3%81%ae%e5%bd%ab%e5%88%bb%e7%be%a4/",
+      "url": "https://www.atca.jp/kankouspoy/%e5%b8%b8%e7%a3%90%e5%85%ac%e5%9c%92%e3%81%ae%e5%bd%ab%e5%88%bb%e7%be%a4/",
+      "status": 200,
+      "title": "常磐公園の彫刻群 – 一般社団法人　旭川観光コンベンション協会",
+      "bytes": 52849,
+      "sha256": "b89f8a6a06c4e06dddc50a022f4caea0502fa0ae830733969d27ae5c5a4caa9f",
+      "textLength": 1061,
+      "checkedAt": "2026-10-29T11:09:04.116471+00:00",
+      "publicationDate": null,
+      "modifiedDate": null,
+      "dateBasis": "게시일 미상. HTTP200·확인일·본문 행사일·하위 기사일·copyright를 게시일로 쓰지 않음.",
+      "used": true,
+      "judgment": "기관과 본문의 대상·성격을 읽은 범위에서 한국어로 작성. 날짜 없는 공식 개요는 최근 기사로 표시하지 않음.",
+      "deferredReason": null
+    },
+    {
+      "key": "as-science",
+      "requestedUrl": "https://www.atca.jp/kankouspoy/%e6%97%ad%e5%b7%9d%e5%b8%82%e7%a7%91%e5%ad%a6%e9%a4%a8%e3%80%80%e3%82%b5%e3%82%a4%e3%83%91%e3%83%ab/",
+      "url": "https://www.atca.jp/kankouspoy/%e6%97%ad%e5%b7%9d%e5%b8%82%e7%a7%91%e5%ad%a6%e9%a4%a8%e3%80%80%e3%82%b5%e3%82%a4%e3%83%91%e3%83%ab/",
+      "status": 200,
+      "title": "旭川市科学館　サイパル – 一般社団法人　旭川観光コンベンション協会",
+      "bytes": 54348,
+      "sha256": "4600f6b9477fedda27f343abc24dad1d79c34c8560902773c94657d861c53af7",
+      "textLength": 1429,
+      "checkedAt": "2026-10-29T11:09:04.120057+00:00",
+      "publicationDate": null,
+      "modifiedDate": null,
+      "dateBasis": "게시일 미상. HTTP200·확인일·본문 행사일·하위 기사일·copyright를 게시일로 쓰지 않음.",
+      "used": true,
+      "judgment": "기관과 본문의 대상·성격을 읽은 범위에서 한국어로 작성. 날짜 없는 공식 개요는 최근 기사로 표시하지 않음.",
+      "deferredReason": null
+    },
+    {
+      "key": "as-museum",
+      "requestedUrl": "https://www.city.asahikawa.hokkaido.jp/hakubutukan/",
+      "url": "https://www.city.asahikawa.hokkaido.jp/hakubutukan/",
+      "status": 200,
+      "title": "博物館 | 旭川市",
+      "bytes": 22697,
+      "sha256": "df5aeff6931192d4a18b8ad08a121474497c95c1a030cbd23baa305ef1e1f6e3",
+      "textLength": 1994,
+      "checkedAt": "2026-10-29T11:09:04.120796+00:00",
+      "publicationDate": null,
+      "modifiedDate": null,
+      "dateBasis": "게시일 미상. HTTP200·확인일·본문 행사일·하위 기사일·copyright를 게시일로 쓰지 않음.",
+      "used": true,
+      "judgment": "기관과 본문의 대상·성격을 읽은 범위에서 한국어로 작성. 날짜 없는 공식 개요는 최근 기사로 표시하지 않음.",
+      "deferredReason": null
+    },
+    {
+      "key": "as-brewery",
+      "requestedUrl": "https://www.takasagoshuzo.com/",
+      "url": "https://www.takasagoshuzo.com/",
+      "status": 200,
+      "title": "北海道の地酒、北海道の日本酒、「国士無双」髙砂酒造株式会社ホームページ",
+      "bytes": 13200,
+      "sha256": "b9b3504dd0dde2f372d2db49a62412acad140d0533c03848f4d82e538ac0c7bb",
+      "textLength": 887,
+      "checkedAt": "2026-10-29T11:09:04.123462+00:00",
+      "publicationDate": null,
+      "modifiedDate": null,
+      "dateBasis": "게시일 미상. HTTP200·확인일·본문 행사일·하위 기사일·copyright를 게시일로 쓰지 않음.",
+      "used": false,
+      "judgment": "탐색 자료이며 완성 가이드의 근거로 미채택.",
+      "deferredReason": null
+    },
+    {
+      "key": "as-food",
+      "requestedUrl": "https://www.atca.jp/members/eat/",
+      "url": "https://www.atca.jp/members/eat/",
+      "status": 200,
+      "title": "飲食 – 一般社団法人　旭川観光コンベンション協会",
+      "bytes": 323607,
+      "sha256": "f4c0bbfdb93fa1e5d62d2e6770beb14e40abece6a88dd82a566f94ea0d6f2a5f",
+      "textLength": 10134,
+      "checkedAt": "2026-10-29T11:09:05.568996+00:00",
+      "publicationDate": null,
+      "modifiedDate": null,
+      "dateBasis": "게시일 미상. HTTP200·확인일·본문 행사일·하위 기사일·copyright를 게시일로 쓰지 않음.",
+      "used": true,
+      "judgment": "기관과 본문의 대상·성격을 읽은 범위에서 한국어로 작성. 날짜 없는 공식 개요는 최근 기사로 표시하지 않음.",
+      "deferredReason": null
+    },
+    {
+      "key": "dalat-coffee",
+      "requestedUrl": "https://vietnam.travel/things-to-do/tour-coffee-lovers-da-lat",
+      "status": 404,
+      "checkedAt": "2026-10-29T11:09:05.647200+00:00",
+      "error": "HTTP Error 404: Not Found",
+      "publicationDate": null,
+      "modifiedDate": null,
+      "dateBasis": "게시일 미상. HTTP200·확인일·본문 행사일·하위 기사일·copyright를 게시일로 쓰지 않음.",
+      "used": false,
+      "judgment": "404. 관광청의 실제 기사 링크로 대체.",
+      "deferredReason": "404. 관광청의 실제 기사 링크로 대체."
+    },
+    {
+      "key": "mi-news",
+      "requestedUrl": "https://miyako-guide.net/news/",
+      "url": "https://miyako-guide.net/news/",
+      "status": 200,
+      "title": "一般社団法人 宮古島観光協会 公式WEBサイト | 宮古島観光協会からのお知らせ",
+      "bytes": 121177,
+      "sha256": "e7277eced4dde6d98fd349e4f10449c6e8e77f49b0c91bf3d7cb9090b8906142",
+      "textLength": 3237,
+      "checkedAt": "2026-10-29T11:09:06.228544+00:00",
+      "publicationDate": null,
+      "modifiedDate": null,
+      "dateBasis": "게시일 미상. HTTP200·확인일·본문 행사일·하위 기사일·copyright를 게시일로 쓰지 않음.",
+      "used": false,
+      "judgment": "목록의 2026-09-24 보호구역·출입금지 예절 공지, 10-22 폭풍 경보에 따른 업무 정지 확인. 개별 본문 미검토로 전 섬·모든 시설이 현재 닫혔다고 단정하지 않음.",
+      "deferredReason": null
+    },
+    {
+      "key": "as-spots",
+      "requestedUrl": "https://www.atca.jp/miru_asobu/",
+      "url": "https://www.atca.jp/miru_asobu/",
+      "status": 200,
+      "title": "見る遊ぶ – 一般社団法人　旭川観光コンベンション協会",
+      "bytes": 77161,
+      "sha256": "9f9ed49b9e32706f135132b2ca118f9c40f2b17abf321402ab9bfb62f569d05c",
+      "textLength": 1036,
+      "checkedAt": "2026-10-29T11:06:44.571919+00:00",
+      "publicationDate": null,
+      "modifiedDate": null,
+      "dateBasis": "게시일 미상. HTTP200·확인일·본문 행사일·하위 기사일·copyright를 게시일로 쓰지 않음.",
+      "used": false,
+      "judgment": "탐색 자료이며 완성 가이드의 근거로 미채택.",
+      "deferredReason": null
+    },
+    {
+      "key": "mi-spots",
+      "requestedUrl": "https://miyako-island.net/",
+      "url": "https://miyako-island.net/",
+      "status": 200,
+      "title": "宮古島観光協会公式情報サイト | Meets More MIYAKOJIMA",
+      "bytes": 94970,
+      "sha256": "a334973999001e753392f350dafd4074a8b90968714577f83323f6388a10a62f",
+      "textLength": 5315,
+      "checkedAt": "2026-10-29T11:06:44.572824+00:00",
+      "publicationDate": null,
+      "modifiedDate": null,
+      "dateBasis": "게시일 미상. HTTP200·확인일·본문 행사일·하위 기사일·copyright를 게시일로 쓰지 않음.",
+      "used": false,
+      "judgment": "탐색 자료이며 완성 가이드의 근거로 미채택.",
+      "deferredReason": null
+    },
+    {
+      "key": "mi-safety",
+      "requestedUrl": "https://miyako-guide.net/about/caution/",
+      "url": "https://miyako-guide.net/about/caution/",
+      "status": 200,
+      "title": "一般社団法人 宮古島観光協会 公式WEBサイト | 宮古島観光時の注意点",
+      "bytes": 107791,
+      "sha256": "2a8adb4ce602ae3522e9e78cd1121a46de8b9c66fcd2a79af866282a702065f2",
+      "textLength": 3062,
+      "checkedAt": "2026-10-29T11:06:44.573379+00:00",
+      "publicationDate": null,
+      "modifiedDate": null,
+      "dateBasis": "게시일 미상. HTTP200·확인일·본문 행사일·하위 기사일·copyright를 게시일로 쓰지 않음.",
+      "used": true,
+      "judgment": "협회 본문에서 이안류·위험 생물·자외선·태풍 중 및 통과 뒤의 해상 영향, 위험한 주정차 주의 확인.",
+      "deferredReason": null
+    },
+    {
+      "key": "mi-access",
+      "requestedUrl": "https://miyako-island.net/access/",
+      "url": "https://miyako-island.net/access/",
+      "status": 200,
+      "title": "アクセス - 宮古島観光協会公式情報サイト | Meets More MIYAKOJIMA",
+      "bytes": 46344,
+      "sha256": "f9b86eda69fe0338820c701bba63d6680970a8efe4b09bdde374219ee05690ee",
+      "textLength": 2265,
+      "checkedAt": "2026-10-29T11:06:44.573815+00:00",
+      "publicationDate": null,
+      "modifiedDate": null,
+      "dateBasis": "게시일 미상. HTTP200·확인일·본문 행사일·하위 기사일·copyright를 게시일로 쓰지 않음.",
+      "used": true,
+      "judgment": "기관과 본문의 대상·성격을 읽은 범위에서 한국어로 작성. 날짜 없는 공식 개요는 최근 기사로 표시하지 않음.",
+      "deferredReason": null
+    },
+    {
+      "key": "is-bus2",
+      "requestedUrl": "https://www.ishigaki-airport.co.jp/access/",
+      "url": "https://www.ishigaki-airport.co.jp/access/",
+      "status": 200,
+      "title": "交通案内 | 南ぬ島石垣空港公式ウェブサイト",
+      "bytes": 41943,
+      "sha256": "23c20c33f86ab8e4c702320022ccbdede4c36be76702a011e72929f1772de681",
+      "textLength": 1049,
+      "checkedAt": "2026-10-29T11:06:46.473094+00:00",
+      "publicationDate": null,
+      "modifiedDate": null,
+      "dateBasis": "게시일 미상. HTTP200·확인일·본문 행사일·하위 기사일·copyright를 게시일로 쓰지 않음.",
+      "used": false,
+      "judgment": "탐색 자료이며 완성 가이드의 근거로 미채택.",
+      "deferredReason": null
+    },
+    {
+      "key": "hk-food",
+      "requestedUrl": "https://www.hakodate.travel/en/experience/gourmet/",
+      "url": "https://www.hakodate.travel/en/experience/gourmet/",
+      "status": 200,
+      "title": "Gourmet | Experience | Travel Hakodate",
+      "bytes": 84945,
+      "sha256": "f43809e975963f55c9b37d780d92f68d2d274fa35e2fd2a3e1c25968831a4b3a",
+      "textLength": 8978,
+      "checkedAt": "2026-10-29T11:06:46.499012+00:00",
+      "publicationDate": null,
+      "modifiedDate": null,
+      "dateBasis": "게시일 미상. HTTP200·확인일·본문 행사일·하위 기사일·copyright를 게시일로 쓰지 않음.",
+      "used": true,
+      "judgment": "기관과 본문의 대상·성격을 읽은 범위에서 한국어로 작성. 날짜 없는 공식 개요는 최근 기사로 표시하지 않음.",
+      "deferredReason": null
+    },
+    {
+      "key": "hk-stay",
+      "requestedUrl": "https://www.hakodate.travel/en/information/accommodation/",
+      "url": "https://www.hakodate.travel/en/information/accommodation/",
+      "status": 200,
+      "title": "Accommodation | Information | Travel Hakodate",
+      "bytes": 94164,
+      "sha256": "19e1f984db12cfe10af8d3967f3029f417f47126b996c4a0c5132eb0961a7c32",
+      "textLength": 5782,
+      "checkedAt": "2026-10-29T11:06:46.707709+00:00",
+      "publicationDate": null,
+      "modifiedDate": null,
+      "dateBasis": "게시일 미상. HTTP200·확인일·본문 행사일·하위 기사일·copyright를 게시일로 쓰지 않음.",
+      "used": true,
+      "judgment": "숙소 구역 구분만 채택. 2012년 미쉐린 평가·개별 호텔의 과거 이름·현재 영업 보증은 채택하지 않음.",
+      "deferredReason": null
+    },
+    {
+      "key": "as-zoo-dates",
+      "requestedUrl": "https://www.city.asahikawa.hokkaido.jp/asahiyamazoo/generalinformation/d052849.html",
+      "url": "https://www.city.asahikawa.hokkaido.jp/asahiyamazoo/generalinformation/d052849.html",
+      "status": 200,
+      "title": "旭川市 旭山動物園 開園期間・入園料・チケット",
+      "bytes": 54550,
+      "sha256": "101e3e2c97547108e65c819c7d6c0d357f1abec9491a8623f5935205b6606377",
+      "textLength": 4224,
+      "checkedAt": "2026-10-29T11:15:58.149887+00:00",
+      "publicationDate": null,
+      "modifiedDate": "2026-10-01",
+      "dateBasis": "원문의 실제 수정일. 최초 게시일 미상.",
+      "used": true,
+      "judgment": "실제 수정일 2026-10-01. 표·권종과 이용 규칙을 읽음. 표 구매를 우선 입장·예약 보장으로 쓰지 않고 개원일은 별도 달력에서 확인하도록 안내.",
+      "deferredReason": null
+    },
+    {
+      "key": "as-brewery-shop",
+      "requestedUrl": "https://takasagoshuzo.com/meiji-sakagura/",
+      "url": "https://takasagoshuzo.com/meiji-sakagura/",
+      "status": 200,
+      "title": "直売店・工場見学 | 髙砂酒造株式会社",
+      "bytes": 15350,
+      "sha256": "706f582c588a8e7e27021c6d28645ef922b36a0439afb7e1f6230c690046c423",
+      "textLength": 1986,
+      "checkedAt": "2026-10-29T11:11:02.954873+00:00",
+      "publicationDate": null,
+      "modifiedDate": null,
+      "dateBasis": "게시일 미상. HTTP200·확인일·본문 행사일·하위 기사일·copyright를 게시일로 쓰지 않음.",
+      "used": true,
+      "judgment": "운영사 본문에서 직매장·자료관과 사전 예약이 필요한 공장 견학 구분. 연령·언어·예약 조건은 재확인, 고정 가격·시각 미기재.",
+      "deferredReason": null
+    },
+    {
+      "key": "hk-news",
+      "requestedUrl": "https://www.hakodate.travel/en/news/",
+      "url": "https://www.hakodate.travel/en/news/",
+      "status": 200,
+      "title": "News | Travel Hakodate",
+      "bytes": 65265,
+      "sha256": "d78230fe26e8670eb64751bfeea95bfac8a9dd0bee67e3575c83ee48a10388bb",
+      "textLength": 4294,
+      "checkedAt": "2026-10-29T11:11:02.955746+00:00",
+      "publicationDate": null,
+      "modifiedDate": null,
+      "dateBasis": "게시일 미상. HTTP200·확인일·본문 행사일·하위 기사일·copyright를 게시일로 쓰지 않음.",
+      "used": false,
+      "judgment": "탐색 자료이며 완성 가이드의 근거로 미채택.",
+      "deferredReason": null
+    }
+  ],
+  "places": [
+    {
+      "placeId": "book-hakodate-mount-hakodate",
+      "sourceKeys": [
+        "hk-top",
+        "hk-ropeway"
+      ],
+      "judgment": "실제 공식 본문에서 장소와 특성을 확인. 좌표·가격·시각·당일 운영은 만들지 않음.",
+      "photo": "기존 placeholder. 새 사진 복제 없음."
+    },
+    {
+      "placeId": "book-hakodate-goryokaku-tower",
+      "sourceKeys": [
+        "hk-top"
+      ],
+      "judgment": "실제 공식 본문에서 장소와 특성을 확인. 좌표·가격·시각·당일 운영은 만들지 않음.",
+      "photo": "기존 placeholder. 새 사진 복제 없음."
+    },
+    {
+      "placeId": "book-hakodate-morning-market",
+      "sourceKeys": [
+        "hk-top",
+        "hk-food"
+      ],
+      "judgment": "실제 공식 본문에서 장소와 특성을 확인. 좌표·가격·시각·당일 운영은 만들지 않음.",
+      "photo": "기존 placeholder. 새 사진 복제 없음."
+    },
+    {
+      "placeId": "book-hakodate-kanemori",
+      "sourceKeys": [
+        "hk-top"
+      ],
+      "judgment": "실제 공식 본문에서 장소와 특성을 확인. 좌표·가격·시각·당일 운영은 만들지 않음.",
+      "photo": "기존 placeholder. 새 사진 복제 없음."
+    },
+    {
+      "placeId": "book-hakodate-motomachi",
+      "sourceKeys": [
+        "hk-top"
+      ],
+      "judgment": "실제 공식 본문에서 장소와 특성을 확인. 좌표·가격·시각·당일 운영은 만들지 않음.",
+      "photo": "기존 placeholder. 새 사진 복제 없음."
+    },
+    {
+      "placeId": "book-asahikawa-asahiyama-zoo",
+      "sourceKeys": [
+        "as-zoo",
+        "as-fees"
+      ],
+      "judgment": "실제 공식 본문에서 장소와 특성을 확인. 좌표·가격·시각·당일 운영은 만들지 않음.",
+      "photo": "기존 placeholder. 새 사진 복제 없음."
+    },
+    {
+      "placeId": "book-asahikawa-city-museum",
+      "sourceKeys": [
+        "as-museum"
+      ],
+      "judgment": "실제 공식 본문에서 장소와 특성을 확인. 좌표·가격·시각·당일 운영은 만들지 않음.",
+      "photo": "기존 placeholder. 새 사진 복제 없음."
+    },
+    {
+      "placeId": "book-asahikawa-science",
+      "sourceKeys": [
+        "as-science",
+        "as-science-current"
+      ],
+      "judgment": "실제 공식 본문에서 장소와 특성을 확인. 좌표·가격·시각·당일 운영은 만들지 않음.",
+      "photo": "기존 placeholder. 새 사진 복제 없음."
+    },
+    {
+      "placeId": "book-asahikawa-tokiwa",
+      "sourceKeys": [
+        "as-tokiwa"
+      ],
+      "judgment": "실제 공식 본문에서 장소와 특성을 확인. 좌표·가격·시각·당일 운영은 만들지 않음.",
+      "photo": "기존 placeholder. 새 사진 복제 없음."
+    },
+    {
+      "placeId": "book-asahikawa-takasago",
+      "sourceKeys": [
+        "as-brewery-shop"
+      ],
+      "judgment": "실제 공식 본문에서 장소와 특성을 확인. 좌표·가격·시각·당일 운영은 만들지 않음.",
+      "photo": "기존 placeholder. 새 사진 복제 없음."
+    },
+    {
+      "placeId": "book-ishigaki-kabira-bay",
+      "sourceKeys": [
+        "is-okinawa"
+      ],
+      "judgment": "실제 공식 본문에서 장소와 특성을 확인. 좌표·가격·시각·당일 운영은 만들지 않음.",
+      "photo": "기존 placeholder. 새 사진 복제 없음."
+    },
+    {
+      "placeId": "book-ishigaki-tamatorizaki",
+      "sourceKeys": [
+        "is-okinawa"
+      ],
+      "judgment": "실제 공식 본문에서 장소와 특성을 확인. 좌표·가격·시각·당일 운영은 만들지 않음.",
+      "photo": "기존 placeholder. 새 사진 복제 없음."
+    },
+    {
+      "placeId": "book-ishigaki-hirakubozaki",
+      "sourceKeys": [
+        "is-okinawa",
+        "is-nature"
+      ],
+      "judgment": "실제 공식 본문에서 장소와 특성을 확인. 좌표·가격·시각·당일 운영은 만들지 않음.",
+      "photo": "기존 placeholder. 새 사진 복제 없음."
+    },
+    {
+      "placeId": "book-ishigaki-oganzaki",
+      "sourceKeys": [
+        "is-okinawa"
+      ],
+      "judgment": "실제 공식 본문에서 장소와 특성을 확인. 좌표·가격·시각·당일 운영은 만들지 않음.",
+      "photo": "기존 placeholder. 새 사진 복제 없음."
+    },
+    {
+      "placeId": "book-ishigaki-banna-park",
+      "sourceKeys": [
+        "is-okinawa"
+      ],
+      "judgment": "실제 공식 본문에서 장소와 특성을 확인. 좌표·가격·시각·당일 운영은 만들지 않음.",
+      "photo": "기존 placeholder. 새 사진 복제 없음."
+    },
+    {
+      "placeId": "book-miyakojima-yonaha-maehama",
+      "sourceKeys": [
+        "mi-okinawa",
+        "mi-safety"
+      ],
+      "judgment": "실제 공식 본문에서 장소와 특성을 확인. 좌표·가격·시각·당일 운영은 만들지 않음.",
+      "photo": "기존 placeholder. 새 사진 복제 없음."
+    },
+    {
+      "placeId": "book-miyakojima-sunayama",
+      "sourceKeys": [
+        "mi-okinawa",
+        "mi-safety"
+      ],
+      "judgment": "실제 공식 본문에서 장소와 특성을 확인. 좌표·가격·시각·당일 운영은 만들지 않음.",
+      "photo": "기존 placeholder. 새 사진 복제 없음."
+    },
+    {
+      "placeId": "book-miyakojima-higashi-hennazaki",
+      "sourceKeys": [
+        "mi-okinawa"
+      ],
+      "judgment": "실제 공식 본문에서 장소와 특성을 확인. 좌표·가격·시각·당일 운영은 만들지 않음.",
+      "photo": "기존 placeholder. 새 사진 복제 없음."
+    },
+    {
+      "placeId": "book-miyakojima-nishi-hennazaki",
+      "sourceKeys": [
+        "mi-okinawa",
+        "mi-safety"
+      ],
+      "judgment": "실제 공식 본문에서 장소와 특성을 확인. 좌표·가격·시각·당일 운영은 만들지 않음.",
+      "photo": "기존 placeholder. 새 사진 복제 없음."
+    },
+    {
+      "placeId": "book-miyakojima-aragusuku",
+      "sourceKeys": [
+        "mi-okinawa",
+        "mi-safety"
+      ],
+      "judgment": "실제 공식 본문에서 장소와 특성을 확인. 좌표·가격·시각·당일 운영은 만들지 않음.",
+      "photo": "기존 placeholder. 새 사진 복제 없음."
+    },
+    {
+      "placeId": "book-dalat-xuan-huong",
+      "sourceKeys": [
+        "dalat"
+      ],
+      "judgment": "실제 공식 본문에서 장소와 특성을 확인. 좌표·가격·시각·당일 운영은 만들지 않음.",
+      "photo": "기존 placeholder. 새 사진 복제 없음."
+    },
+    {
+      "placeId": "book-dalat-central-market",
+      "sourceKeys": [
+        "dalat",
+        "dalat-food"
+      ],
+      "judgment": "실제 공식 본문에서 장소와 특성을 확인. 좌표·가격·시각·당일 운영은 만들지 않음.",
+      "photo": "기존 placeholder. 새 사진 복제 없음."
+    },
+    {
+      "placeId": "book-dalat-railway-station",
+      "sourceKeys": [
+        "dalat"
+      ],
+      "judgment": "실제 공식 본문에서 장소와 특성을 확인. 좌표·가격·시각·당일 운영은 만들지 않음.",
+      "photo": "기존 placeholder. 새 사진 복제 없음."
+    },
+    {
+      "placeId": "book-dalat-linh-phuoc",
+      "sourceKeys": [
+        "dalat"
+      ],
+      "judgment": "실제 공식 본문에서 장소와 특성을 확인. 좌표·가격·시각·당일 운영은 만들지 않음.",
+      "photo": "기존 placeholder. 새 사진 복제 없음."
+    },
+    {
+      "placeId": "book-dalat-kho-coffee",
+      "sourceKeys": [
+        "dalat-coffee-final"
+      ],
+      "judgment": "실제 공식 본문에서 장소와 특성을 확인. 좌표·가격·시각·당일 운영은 만들지 않음.",
+      "photo": "기존 placeholder. 새 사진 복제 없음."
+    }
+  ],
+  "photoDecision": "명시적 허락·최근3년·장소 일치를 모두 확보한 새 사진이 없어 복제 없음. 기존 사진·출처 보존. 사진 검색 완료를 주장하지 않음.",
+  "limits": [
+    "공식 개요의 게시일 미상은 미상으로 기록. 최근3년의 날짜 있는 운영 공지 우선.",
+    "공항·교통 확인 불가 부분은 확정하지 않음. 입국 자격·정가·영업시간·좌표·시각·지도경로 추정 없음.",
+    "신규 도시·장소 ID 안정 유지. 개인 자료를 조사·전송하지 않음.",
+    "이 작업 중 기존 가이드 부분 재검토가 main에 먼저 게시돼 최신 원본을 ff로 반영. 생성 결과는 최신 상태에서 다시 검증."
+  ],
+  "validation": {
+    "guidebooksBuild": "39 cities,219 places,360636 body bytes",
+    "guidebooksCheck": "passed",
+    "databaseBuild": "60 guides,1285 places",
+    "databaseCheck": "passed",
+    "databaseTests": {
+      "passed": 6,
+      "failed": 0
+    },
+    "webBuild": "TypeScript/Vite/client audit passed;235 assets;204 existing photos;1 font;no admin/metadata",
+    "browser": {
+      "initialPassed": 18,
+      "initialFailed": 1,
+      "failureReason": "베트남 4개라는 과거 검사 고정값. 달랏 추가로 실제 목록은 5개. 기대값을 manifest의 국가별 수로 수정 후 해당 검사 통과. 앱 필터는 정상 동작.",
+      "affectedRetestPassed": 1,
+      "effectivePassed": 19,
+      "batchCitiesDownloadedAndReopenedOffline": 15,
+      "newBatchCities": 5,
+      "privateRecordPreserved": true
+    },
+    "priorFilesByteIdentical": 123,
+    "latestMain": "e02455b;0 ahead/0 behind before final generation"
+  },
+  "publication": {
+    "status": "not-published"
+  }
+}

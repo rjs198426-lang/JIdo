@@ -1,0 +1,155 @@
+{
+  "id": "book-miyakojima",
+  "scope": "city",
+  "city": {
+    "id": "book-miyakojima",
+    "name": "미야코지마",
+    "english": "Miyakojima",
+    "country": "일본",
+    "region": "일본",
+    "image": "/images/guide-placeholder.svg",
+    "tagline": "해변 산책과 곶의 전망을 여유롭게 고르는 섬",
+    "description": "미야코지마는 오키나와 본섬과 떨어진 미야코 제도의 목적지입니다. 하얀 모래 해변과 곶의 전망을 즐기되 수영 가능한 조건과 풍경을 보는 조건은 다릅니다. 히라라 시가지·숙소 해변·동쪽과 북쪽 곶을 나눠 계획하세요. 이웃 섬의 다리 드라이브는 선택 사항이며 시모지시마·이라부를 별도 신규 도시로 더 세지 않았습니다. 나하에서 같은 본섬 버스를 타고 가는 여행지가 아닙니다.",
+    "tags": [
+      "도시 산책",
+      "여행 준비"
+    ],
+    "flight": "항공편·운항일은 예약 시 공항·항공사에서 확인",
+    "currency": "일본 엔 · JPY",
+    "timeDifference": "한국과 시차 없음",
+    "timeZone": "Asia/Tokyo",
+    "season": "방문 계절의 기온·비·바람과 시설 공개 일정을 확인하고 실내·야외 방문을 조합하세요.",
+    "accent": "#e7f1ef"
+  },
+  "places": [
+    {
+      "id": "book-miyakojima-yonaha-maehama",
+      "cityId": "book-miyakojima",
+      "name": "요나하마에하마 비치",
+      "english": "Yonaha Maehama Beach",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "긴 흰 모래사장과 바다 풍경을 즐기는 미야코섬의 해변입니다. 수영보다 휴식·산책 중심으로도 고를 수 있습니다.",
+      "address": "Miyakojima, Okinawa",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "수영 가능 여부와 구역은 당일 확인하세요. 그늘·수분·자외선 대비와 귀환 교통을 준비하세요."
+    },
+    {
+      "id": "book-miyakojima-sunayama",
+      "cityId": "book-miyakojima",
+      "name": "스나야마 비치",
+      "english": "Sunayama Beach",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "나무 사이 길을 지나 작은 만의 모래 해변을 만나는 곳으로 암석 지형이 알려져 있습니다.",
+      "address": "Miyakojima, Okinawa",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "암석 아래나 통제된 구역에 들어가지 마세요. 모래 경사와 높은 파도·입수 조건을 확인하세요."
+    },
+    {
+      "id": "book-miyakojima-higashi-hennazaki",
+      "cityId": "book-miyakojima",
+      "name": "히가시헨나자키",
+      "english": "Higashi-Hennazaki Cape",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "동쪽의 길게 뻗은 곶과 등대 주변에서 거친 해안 지형을 조망하는 곳입니다.",
+      "address": "Eastern Miyako Island",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "등대 내부·계단 개방과 입장은 별도입니다. 강풍 때 가장자리나 통제 구역으로 나가지 마세요."
+    },
+    {
+      "id": "book-miyakojima-nishi-hennazaki",
+      "cityId": "book-miyakojima",
+      "name": "니시헨나자키",
+      "english": "Nishi-Hennazaki Cape",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "북서쪽 곶에서 이웃 섬과 바다를 보는 전망 구역입니다. 동쪽 곶과 다른 이동 구역입니다.",
+      "address": "Northern Miyako Island",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "전망지 도로에 임의로 차를 세우지 마세요. 바람·기상과 공항 귀환을 고려해 선택하세요."
+    },
+    {
+      "id": "book-miyakojima-aragusuku",
+      "cityId": "book-miyakojima",
+      "name": "아라구스쿠 비치",
+      "english": "Aragusuku Beach",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "맑은 바다 풍경과 해변 휴식을 비교해 볼 수 있는 해안입니다. 바다 체험은 별도 조건으로 선택하세요.",
+      "address": "Miyakojima, Okinawa",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "얕아 보여도 해류와 위험 생물에 대비해야 합니다. 당일 관리·안전 상태를 확인하지 못하면 해변 산책으로 바꾸세요."
+    }
+  ],
+  "sections": [
+    {
+      "id": "book-miyakojima-overview",
+      "title": "도시 한눈에",
+      "body": "미야코지마는 오키나와 본섬과 떨어진 미야코 제도의 목적지입니다. 하얀 모래 해변과 곶의 전망을 즐기되 수영 가능한 조건과 풍경을 보는 조건은 다릅니다. 히라라 시가지·숙소 해변·동쪽과 북쪽 곶을 나눠 계획하세요. 이웃 섬의 다리 드라이브는 선택 사항이며 시모지시마·이라부를 별도 신규 도시로 더 세지 않았습니다. 나하에서 같은 본섬 버스를 타고 가는 여행지가 아닙니다."
+    },
+    {
+      "id": "book-miyakojima-before",
+      "title": "출발 전에 챙길 것",
+      "body": "여권·입국 자격·비자 요건은 국적과 여행 목적에 맞춰 정부 안내로 확인하세요. 통신·결제·보험과 예약 내역의 오프라인 사본을 준비하세요. 숙소의 짐 보관·식사 마감, 동행자의 계단·장거리 걷기 부담을 먼저 확인하면 도착일을 단순하게 만들 수 있습니다. 이 가이드는 입국 허가·실시간 운항·운영 시간을 확정하지 않습니다."
+    },
+    {
+      "id": "book-miyakojima-arrival",
+      "title": "공항과 시내 이동",
+      "body": "항공권의 도착 공항이 미야코공항(MMY)인지 미야코 시모지시마공항(SHI)인지 먼저 확인하세요. 관광협회 접근 안내는 두 공항과 버스·택시 등 섬 안 교통을 구분합니다. 숙소의 픽업 대상 공항과 실제 정류장, 렌터카 수령·반납 장소를 확인하세요. 다리로 연결된 구역도 도보 산책과 같은 이동으로 계산하지 말고 공항·숙소·반납에 여유를 두세요."
+    },
+    {
+      "id": "book-miyakojima-stay",
+      "title": "숙소는 어느 동네에",
+      "body": "히라라 시가지 주변은 식사와 상점, 해변 리조트는 숙소에서 바다를 보는 휴식을 비교할 수 있습니다. 외곽 빌라·펜션은 저녁 식사·장보기·야간 이동을 먼저 확인하세요. 바다가 보이는 객실이라고 안전한 입수 구역과 바로 연결되는 것은 아닙니다. 운전하지 않는 여행이라면 실제 숙소 송영·버스의 날짜별 운행부터 정한 뒤 관광지를 선택하세요."
+    },
+    {
+      "id": "book-miyakojima-food",
+      "title": "먹거리와 동네 쇼핑",
+      "body": "미야코 소바, 지역 소고기, 망고와 과일 가공품을 비교해 보세요. 관광 안내는 망고에 계절이 있음을 설명하므로 모든 시기의 생과일 판매를 보장하지 않습니다. 숙소 식사와 외부 식당을 겹치지 않게 정하고 인기 가게의 실제 휴무·재료 소진을 확인하세요. 해수욕 뒤에는 몸과 옷을 말리고 모래를 턴 뒤 식당·상점·렌터카를 이용해 주세요."
+    },
+    {
+      "id": "book-miyakojima-days",
+      "title": "처음 가는 3일 여행",
+      "body": "1일: 도착 → 숙소에서 휴식 → 가까운 시가지 식사나 해변 산책. 장거리 해변 순례를 더하지 않습니다.\n\n2일: 요나하마에하마와 스나야마 중 숙소·날씨에 맞는 해변을 고릅니다. 바다에 들어가는 일정은 관리 상태와 현장 안전을 확인했을 때만 선택하세요.\n\n3일: 히가시헨나자키 또는 니시헨나자키 전망을 선택합니다. 아라구스쿠 해변까지 모두 채우기보다 바람·교통과 공항 귀환에 맞춰 줄이세요.\n\n관심·휴관·기상에 맞춰 고르는 예시입니다. 자동 방문 시각이나 실제 지도 경로가 아니며 모든 장소를 방문할 필요는 없습니다."
+    },
+    {
+      "id": "book-miyakojima-notes",
+      "title": "예약과 현장 팁",
+      "body": "관광협회는 이안류·위험 생물·강한 자외선과 렌터카 안전, 태풍 중 해수욕 금지를 안내합니다. 태풍이 지나 날이 맑아도 너울·해류 영향이 남을 수 있으므로 바다 체험을 바로 재개하지 마세요. 관리 인력·안전 구역을 확인하지 못하면 물놀이는 생략하고 산책으로 바꾸세요. 사진을 위해 도로·다리의 위험한 곳에 주정차하지 말고 사유지·암석 아래 통제 구역에 들어가지 마세요."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Miyako Island | VISIT OKINAWA JAPAN | Official Okinawa Travel Guide",
+      "url": "https://visitokinawajapan.com/destinations/miyako-islands/miyako-island/",
+      "accessedAt": "2026-10-29"
+    },
+    {
+      "title": "一般社団法人 宮古島観光協会 公式WEBサイト | 宮古島観光時の注意点",
+      "url": "https://miyako-guide.net/about/caution/",
+      "accessedAt": "2026-10-29"
+    },
+    {
+      "title": "アクセス - 宮古島観光協会公式情報サイト | Meets More MIYAKOJIMA",
+      "url": "https://miyako-island.net/access/",
+      "accessedAt": "2026-10-29"
+    },
+    {
+      "title": "宮古空港ターミナルビル",
+      "url": "https://miyakoap.co.jp/",
+      "accessedAt": "2026-10-29"
+    }
+  ],
+  "status": "published",
+  "requestId": null,
+  "createdAt": "2026-10-29T11:14:56.783Z",
+  "updatedAt": "2026-10-29T11:14:56.783Z",
+  "publishedAt": "2026-10-29T11:14:56.783Z"
+}
