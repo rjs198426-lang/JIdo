@@ -536,7 +536,11 @@
     }
   ],
   "publication": {
-    "status": "not-published"
+    "status": "verified",
+    "commit": "bde99ddaf6db27073d29d146fac2422edee79d38",
+    "verification": "research/guidebooks/runs/20261029T1102-public-verification.json",
+    "fileCount": 46,
+    "result": "HTTP200・bytes・SHA256 all match"
   },
   "validation": {
     "contentPublish": "실행 시 기존 src/data와 이전 catalog의 차이로 sequence2가 생성됨. 이번 수정은 practical-guides뿐이고 cities/places 변경 없음. 이 작업에서 만든 catalog/manifest 변경만 되돌려 기존 공개 content를 그대로 보존. 실용 본문은 APK 전달이므로 content catalog로 전달되지 않음.",
@@ -549,7 +553,13 @@
       "failed": 0
     },
     "typescript": "passed",
-    "blockedNotReviewed": true
+    "blockedNotReviewed": true,
+    "githubActions": {
+      "conclusion": "success",
+      "headSha": "e02455b136884c1cbf24743c66b03f5d72306f33",
+      "status": "completed",
+      "url": "https://github.com/rjs198426-lang/JIdo/actions/runs/40863238192"
+    }
   },
   "photoDecision": "새 사진을 조사·복제하지 않음. 기존 사진·사진 출처 그대로 보존.",
   "lastReviewedDecision": "세 도시 모두 부분 검토이므로 reviews에는 blocked로 범위와 사유를 남기고 도시 전체 lastReviewedAt을 올리지 않음. contentHash는 재생성 후 실제 현재 해시 사용.",

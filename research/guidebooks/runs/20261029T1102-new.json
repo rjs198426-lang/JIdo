@@ -1145,9 +1145,19 @@
       "privateRecordPreserved": true
     },
     "priorFilesByteIdentical": 123,
-    "latestMain": "e02455b;0 ahead/0 behind before final generation"
+    "latestMain": "e02455b;0 ahead/0 behind before final generation",
+    "githubActions": {
+      "conclusion": "success",
+      "headSha": "bde99ddaf6db27073d29d146fac2422edee79d38",
+      "status": "completed",
+      "url": "https://github.com/rjs198426-lang/JIdo/actions/runs/40864703916"
+    }
   },
   "publication": {
-    "status": "not-published"
+    "status": "verified",
+    "commit": "bde99ddaf6db27073d29d146fac2422edee79d38",
+    "verification": "research/guidebooks/runs/20261029T1102-public-verification.json",
+    "fileCount": 46,
+    "result": "HTTP200・bytes・SHA256 all match"
   }
 }
