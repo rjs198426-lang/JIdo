@@ -9,8 +9,13 @@ const ids = [
   'book-kagoshima',
   'book-beppu',
   'book-yufuin',
+  'book-matsuyama',
+  'book-takamatsu',
+  'book-tottori',
+  'book-okayama',
+  'book-kanazawa',
 ]
-test('new Kyushu guides download one by one, render researched text offline, and preserve personal records', async ({
+test('researched city guide batches download one by one, render researched text offline, and preserve personal records', async ({
   page,
   context,
 }) => {

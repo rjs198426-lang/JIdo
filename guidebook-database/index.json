@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "description": "공개 여행 가이드만 수집한 데이터베이스. 개인 일정·사진·메모·기기 캐시는 포함하지 않음.",
-  "guideCount": 50,
+  "guideCount": 55,
   "countryCount": 22,
-  "placeCount": 1235,
+  "placeCount": 1260,
   "origins": {
     "bundled": 21,
-    "downloadable": 29
+    "downloadable": 34
   },
   "guides": [
     {
@@ -178,6 +178,20 @@
       "sectionCount": 7
     },
     {
+      "id": "book-kanazawa",
+      "name": "가나자와",
+      "country": "일본",
+      "origin": "downloadable",
+      "importedAt": "2026-10-29",
+      "sourceCheckedAt": "2026-10-29",
+      "latestSourceCheckedAt": "2026-10-29",
+      "lastReviewedAt": "2026-10-29",
+      "contentHash": "20e1df0e881595b4e0375d0925c0f5c07fa95821cff1ff4a6578c49a3d471a83",
+      "file": "records/book-kanazawa.json",
+      "placeCount": 5,
+      "sectionCount": 7
+    },
+    {
       "id": "book-kaohsiung",
       "name": "가오슝",
       "country": "대만",
@@ -262,6 +276,20 @@
       "sectionCount": 7
     },
     {
+      "id": "book-matsuyama",
+      "name": "마쓰야마",
+      "country": "일본",
+      "origin": "downloadable",
+      "importedAt": "2026-10-29",
+      "sourceCheckedAt": "2026-10-29",
+      "latestSourceCheckedAt": "2026-10-29",
+      "lastReviewedAt": "2026-10-29",
+      "contentHash": "3a04e70842a0c9b14188dbb76232751d61c64b9fd71a1b2b257287e49d4b1228",
+      "file": "records/book-matsuyama.json",
+      "placeCount": 5,
+      "sectionCount": 7
+    },
+    {
       "id": "book-nagasaki",
       "name": "나가사키",
       "country": "일본",
@@ -301,6 +329,20 @@
       "contentHash": "8d36c827455e26482deba235f30dbf9f588173c1eb36eb2b9dd106bcd6eade3c",
       "file": "records/book-nhatrang.json",
       "placeCount": 6,
+      "sectionCount": 7
+    },
+    {
+      "id": "book-okayama",
+      "name": "오카야마",
+      "country": "일본",
+      "origin": "downloadable",
+      "importedAt": "2026-10-29",
+      "sourceCheckedAt": "2026-10-29",
+      "latestSourceCheckedAt": "2026-10-29",
+      "lastReviewedAt": "2026-10-29",
+      "contentHash": "f6dec780fe61e27d03c799f83de3a88321012daa427df567550a2755e96472b8",
+      "file": "records/book-okayama.json",
+      "placeCount": 5,
       "sectionCount": 7
     },
     {
@@ -427,6 +469,34 @@
       "contentHash": "92a0e71b78804318fac0baaaac5d931df07d4a8091011cab9f06fa45cd1bf3ef",
       "file": "records/book-tainan.json",
       "placeCount": 6,
+      "sectionCount": 7
+    },
+    {
+      "id": "book-takamatsu",
+      "name": "다카마쓰",
+      "country": "일본",
+      "origin": "downloadable",
+      "importedAt": "2026-10-29",
+      "sourceCheckedAt": "2026-10-29",
+      "latestSourceCheckedAt": "2026-10-29",
+      "lastReviewedAt": "2026-10-29",
+      "contentHash": "ed399003a38bd2e4cab8bfa1947e47c8c65f4ed86bda71311ce7dce7a25090d0",
+      "file": "records/book-takamatsu.json",
+      "placeCount": 5,
+      "sectionCount": 7
+    },
+    {
+      "id": "book-tottori",
+      "name": "돗토리",
+      "country": "일본",
+      "origin": "downloadable",
+      "importedAt": "2026-10-29",
+      "sourceCheckedAt": "2026-10-29",
+      "latestSourceCheckedAt": "2026-10-29",
+      "lastReviewedAt": "2026-10-29",
+      "contentHash": "e8e02b2de5427146641c52b177b154ac5ca02f7ce6d829b933be52526d1b8534",
+      "file": "records/book-tottori.json",
+      "placeCount": 5,
       "sectionCount": 7
     },
     {

@@ -1,0 +1,165 @@
+{
+  "id": "book-okayama",
+  "scope": "city",
+  "city": {
+    "id": "book-okayama",
+    "name": "오카야마",
+    "english": "Okayama",
+    "country": "일본",
+    "region": "일본",
+    "image": "/images/guide-placeholder.svg",
+    "tagline": "성·정원·모모타로 이야기를 연결하는 산책",
+    "description": "오카야마는 철도 교차점인 역 주변과 아사히강 양쪽의 성·고라쿠엔을 나눠 걷기 좋은 도시입니다. 기비쓰·기비쓰히코 신사는 모모타로 전설과 연결해 보는 별도 교외 방문으로 고르세요. 구라시키는 가까운 다른 도시이며 이 가이드의 신규 도시나 장소 수에 포함하지 않았습니다. 첫 방문에는 성과 정원을 한 날에, 교외 신사는 다른 날에 배치하면 짐과 이동을 줄일 수 있습니다.",
+    "tags": [
+      "도시 산책",
+      "여행 준비"
+    ],
+    "flight": "항공편·운항일은 예약 시 공항·항공사에서 확인",
+    "currency": "일본 엔 · JPY",
+    "timeDifference": "한국과 시차 없음",
+    "timeZone": "Asia/Tokyo",
+    "season": "방문 계절의 기온·비·바람과 시설 공개 일정을 확인하고 실내·야외 방문을 조합하세요.",
+    "accent": "#e7f1ef"
+  },
+  "places": [
+    {
+      "id": "book-okayama-castle",
+      "cityId": "book-okayama",
+      "name": "오카야마성",
+      "english": "Okayama Castle",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "검은 외관과 성곽 역사를 살펴보는 오카야마시의 성입니다. 강 건너 고라쿠엔과 연결해 방문하되 각각의 입장 조건을 확인하세요.",
+      "address": "Marunouchi, Okayama",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "특별 야간 공개를 상시 운영으로 생각하지 마세요. 공사·행사와 공개 구역은 성 운영사 공지를 확인하세요."
+    },
+    {
+      "id": "book-okayama-korakuen",
+      "cityId": "book-okayama",
+      "name": "오카야마 고라쿠엔",
+      "english": "Okayama Korakuen Garden",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "연못·잔디·계절 풍경이 어우러진 넓은 정원입니다. 성 관람과 함께 계획하되 앉아 쉬는 여유를 남기세요.",
+      "address": "Korakuen, Okayama",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "계절과 행사에 따라 개원·폐원 조건이 달라집니다. 야간 특별 개장은 별도 행사입니다."
+    },
+    {
+      "id": "book-okayama-kibitsu",
+      "cityId": "book-okayama",
+      "name": "기비쓰 신사",
+      "english": "Kibitsu-jinja Shrine",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "모모타로 전설과 관련해 소개되는 신사로 긴 회랑과 본전의 건축을 살펴볼 수 있습니다.",
+      "address": "Kibitsu, Okayama",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "기비쓰히코 신사와 다른 곳입니다. 종교 공간의 촬영·참배 규칙을 따르고 교외 귀환 교통을 확인하세요."
+    },
+    {
+      "id": "book-okayama-kibitsuhiko",
+      "cityId": "book-okayama",
+      "name": "기비쓰히코 신사",
+      "english": "Kibitsuhiko-jinja Shrine",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "기비쓰히코노미코토를 모시는 별도 신사로 숲과 전통 건축을 함께 보는 방문 후보입니다.",
+      "address": "Ichinomiya, Okayama",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "비슷한 이름의 기비쓰 신사와 지도 검색 결과를 구분하세요. 두 곳이 같은 입구나 역이라고 가정하지 마세요."
+    },
+    {
+      "id": "book-okayama-yumeji",
+      "cityId": "book-okayama",
+      "name": "유메지 향토미술관 본관",
+      "english": "Yumeji Art Museum Main Building",
+      "category": "체험",
+      "image": "/images/place-placeholder.svg",
+      "description": "다케히사 유메지의 회화·디자인 등 작품 세계를 살펴보는 본관으로 고라쿠엔 바깥쪽에 있습니다.",
+      "address": "Hama, Okayama",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "세토우치시의 생가 기념관·소년산장과 다른 장소입니다. 본관 기획전과 휴관일을 확인하세요."
+    }
+  ],
+  "sections": [
+    {
+      "id": "book-okayama-overview",
+      "title": "도시 한눈에",
+      "body": "오카야마는 철도 교차점인 역 주변과 아사히강 양쪽의 성·고라쿠엔을 나눠 걷기 좋은 도시입니다. 기비쓰·기비쓰히코 신사는 모모타로 전설과 연결해 보는 별도 교외 방문으로 고르세요. 구라시키는 가까운 다른 도시이며 이 가이드의 신규 도시나 장소 수에 포함하지 않았습니다. 첫 방문에는 성과 정원을 한 날에, 교외 신사는 다른 날에 배치하면 짐과 이동을 줄일 수 있습니다."
+    },
+    {
+      "id": "book-okayama-before",
+      "title": "출발 전에 챙길 것",
+      "body": "여권·입국 자격·비자 요건은 국적과 여행 목적에 맞춰 정부 안내로 확인하세요. 통신·결제·보험과 예약 내역의 오프라인 사본을 준비하세요. 숙소의 짐 보관·식사 마감, 동행자의 계단·장거리 걷기 부담을 먼저 확인하면 도착일을 단순하게 만들 수 있습니다. 이 가이드는 입국 허가·실시간 운항·운영 시간을 확정하지 않습니다."
+    },
+    {
+      "id": "book-okayama-arrival",
+      "title": "공항과 시내 이동",
+      "body": "오카야마 모모타로공항(OKJ)에서 시내는 주테쓰·오카덴의 공항 리무진 안내로 실제 운행을 확인하세요. 운영사는 공항 출발편이 오카야마역 서쪽 출구에 도착한다고 안내하므로 동쪽 출구 쪽 숙소는 역을 통과하는 이동을 더해야 합니다. 2026년10월부터 모리노마치 정류장은 휴지 공지가 있습니다. 운항편 변경·항공 지연에 따라 버스가 달라질 수 있어 예약한 항공편 날짜의 안내를 확인하세요. 성·정원과 기비쓰 지역으로 가는 교통은 따로 계획하세요."
+    },
+    {
+      "id": "book-okayama-stay",
+      "title": "숙소는 어느 동네에",
+      "body": "오카야마역 주변은 공항버스와 철도 도착·출발, 오모테초·성 주변은 정원·박물관·시내 식사 동선을 비교하기 좋습니다. 역 동·서쪽 출구와 버스 승하차 위치가 다르므로 역 이름만으로 숙소의 편리함을 판단하지 마세요. 기비쓰 신사 방문은 시내 숙소에서 당일 이동 후보로 생각하되 역에서 신사까지 마지막 이동과 귀환 열차를 확인하세요. 확인하지 않은 개별 호텔 등급·가격·조식은 추천 조건으로 넣지 않았습니다."
+    },
+    {
+      "id": "book-okayama-food",
+      "title": "먹거리와 동네 쇼핑",
+      "body": "오카야마식 데미카쓰동, 해산물을 얹는 바라즈시, 기비당고와 복숭아·포도 가공품을 비교해 보세요. 생과일과 과일따기는 계절·예약·수확 상태에 따라 달라집니다. 역의 도시락은 좋은 이동식사 후보지만 오래된 기사에 나온 상품이 계속 판매된다고 가정하지 마세요. 알레르기·냉장 보관·귀국 반입 조건은 주문과 구매 전에 따로 확인하세요."
+    },
+    {
+      "id": "book-okayama-days",
+      "title": "처음 가는 3일 여행",
+      "body": "1일: 도착 → 숙소 주변 산책과 지역 음식. 역 앞 모모타로 동상은 공사에 따른 임시 이동 안내가 있어 고정 만남 장소로 약속하지 마세요.\n\n2일: 오카야마성 → 고라쿠엔 → 유메지 향토미술관 본관 중 관심 있는 전시. 강 양쪽의 실제 보행 동선과 마지막 입장 시간을 확인하세요.\n\n3일: 기비쓰 신사와 기비쓰히코 신사 중 관심과 교통에 맞춰 선택합니다. 공항 출발일이면 교외 두 곳을 모두 채우려 하지 말고 시내 휴식으로 바꾸세요.\n\n관심·휴관·기상에 맞춰 고르는 예시입니다. 자동 방문 시각이나 실제 지도 경로가 아니며 모든 장소를 방문할 필요는 없습니다."
+    },
+    {
+      "id": "book-okayama-notes",
+      "title": "예약과 현장 팁",
+      "body": "관광연맹의 모모타로 기사에는 역 앞 동상이 노면전차 공사로 임시 이동하고 2027년3월 무렵 재설치 예정이라고 적혀 있습니다. 예정일을 확정 복귀로 단정하지 않았습니다. 고라쿠엔 야간 특별 개장은 기간 한정이므로 정원과 성을 밤에 항상 볼 수 있다고 생각하지 마세요. 유메지 미술관 본관은 오카야마시에 있고 생가·소년산장은 세토우치시의 다른 장소입니다. 두 신사는 이름이 비슷하지만 서로 다른 곳이므로 지도 검색에서 구분하세요."
+    }
+  ],
+  "sources": [
+    {
+      "title": "【公式】岡山城ウェブサイト",
+      "url": "https://okayama-castle.jp/",
+      "accessedAt": "2026-10-29"
+    },
+    {
+      "title": "Okayama Korakuen Garden - Okayama Prefecture Official Tourism Guide Explore Okayama, the Land of Sunshine",
+      "url": "https://www.okayama-japan.jp/en/spot/10672",
+      "accessedAt": "2026-10-29"
+    },
+    {
+      "title": "Momotaro in Okayama: The Legend & Where to Experience It - Okayama Prefecture Official Tourism Guide Explore Okayama, the Land of Sunshine",
+      "url": "https://www.okayama-japan.jp/en/24107",
+      "accessedAt": "2026-10-29"
+    },
+    {
+      "title": "夢二郷土美術館夢二郷土美術館 | 竹久夢二のふるさと岡山にある美術館。岡山市内の「夢二郷土美術館 本館」、夢二が生まれ育った瀬戸内市邑久町の「夢二生家記念館」と同敷地内に復元したアトリエ兼住居「少年山荘」があります。年４回の企画展で日本画の軸や屏風、油彩画など様々な作品を鑑賞できます。",
+      "url": "https://yumeji-art-museum.com/",
+      "accessedAt": "2026-10-29"
+    },
+    {
+      "title": "中鉄バス 岡山桃太郎空港リムジンバス（原文Shift_JISで確認）",
+      "url": "https://www.chutetsu-bus.co.jp/rosen/rimujin.htm",
+      "accessedAt": "2026-10-29"
+    },
+    {
+      "title": "Local gourmet food - Okayama Prefecture Official Tourism Guide Explore Okayama, the Land of Sunshine",
+      "url": "https://www.okayama-japan.jp/en/gourmet",
+      "accessedAt": "2026-10-29"
+    }
+  ],
+  "status": "published",
+  "requestId": null,
+  "createdAt": "2026-10-29T04:13:17.595Z",
+  "updatedAt": "2026-10-29T04:13:17.595Z",
+  "publishedAt": "2026-10-29T04:13:17.595Z"
+}

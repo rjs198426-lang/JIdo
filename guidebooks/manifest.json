@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-28T17:19:14.408Z",
+  "updatedAt": "2026-10-29T04:13:17.595Z",
   "books": [
     {
       "id": "book-barcelona",
@@ -143,6 +143,20 @@
       "placeCount": 5
     },
     {
+      "id": "book-kanazawa",
+      "name": "가나자와",
+      "english": "Kanazawa",
+      "country": "일본",
+      "summary": "정원·성곽·찻집 거리와 현대미술의 만남",
+      "region": "일본",
+      "revision": "0006258ead84b612ffb815e101b65b259e99245e099b0a4e4b63ed8cff9f5bec",
+      "file": "book-kanazawa-0006258ead84b612ffb815e101b65b259e99245e099b0a4e4b63ed8cff9f5bec.json",
+      "bytes": 11658,
+      "updatedAt": "2026-10-29T04:13:17.595Z",
+      "minBuild": 73,
+      "placeCount": 5
+    },
+    {
       "id": "book-kaohsiung",
       "name": "가오슝",
       "english": "Kaohsiung",
@@ -227,6 +241,20 @@
       "placeCount": 6
     },
     {
+      "id": "book-matsuyama",
+      "name": "마쓰야마",
+      "english": "Matsuyama",
+      "country": "일본",
+      "summary": "성 아래의 산책과 도고의 목욕을 여유롭게",
+      "region": "일본",
+      "revision": "2092d44d3b9a2d3ae444baa26cec54e0385570a152ca9f796059bbd452f78f7c",
+      "file": "book-matsuyama-2092d44d3b9a2d3ae444baa26cec54e0385570a152ca9f796059bbd452f78f7c.json",
+      "bytes": 11739,
+      "updatedAt": "2026-10-29T04:13:17.595Z",
+      "minBuild": 73,
+      "placeCount": 5
+    },
+    {
       "id": "book-nagasaki",
       "name": "나가사키",
       "english": "Nagasaki",
@@ -267,6 +295,20 @@
       "updatedAt": "2026-10-28T05:07:12.733Z",
       "minBuild": 73,
       "placeCount": 6
+    },
+    {
+      "id": "book-okayama",
+      "name": "오카야마",
+      "english": "Okayama",
+      "country": "일본",
+      "summary": "성·정원·모모타로 이야기를 연결하는 산책",
+      "region": "일본",
+      "revision": "f817eb93bb2c1bfb34f8764dacc47e0cbe1ef70dc95c0da88850cb79f7bb95e5",
+      "file": "book-okayama-f817eb93bb2c1bfb34f8764dacc47e0cbe1ef70dc95c0da88850cb79f7bb95e5.json",
+      "bytes": 11241,
+      "updatedAt": "2026-10-29T04:13:17.595Z",
+      "minBuild": 73,
+      "placeCount": 5
     },
     {
       "id": "book-okinawa",
@@ -393,6 +435,34 @@
       "updatedAt": "2026-10-28T05:07:12.733Z",
       "minBuild": 73,
       "placeCount": 6
+    },
+    {
+      "id": "book-takamatsu",
+      "name": "다카마쓰",
+      "english": "Takamatsu",
+      "country": "일본",
+      "summary": "정원·우동·야시마를 하루씩 나누는 세토우치 여행",
+      "region": "일본",
+      "revision": "815a22a3b7186f7569626641fd30e382f0241687d81acd53bdc0fcd5546cc9f7",
+      "file": "book-takamatsu-815a22a3b7186f7569626641fd30e382f0241687d81acd53bdc0fcd5546cc9f7.json",
+      "bytes": 11189,
+      "updatedAt": "2026-10-29T04:13:17.595Z",
+      "minBuild": 73,
+      "placeCount": 5
+    },
+    {
+      "id": "book-tottori",
+      "name": "돗토리",
+      "english": "Tottori",
+      "country": "일본",
+      "summary": "사구의 자연과 모래·장난감 전시를 함께 보는 도시",
+      "region": "일본",
+      "revision": "0473c2d184fef91ada9305b31bd3fa4612a60fa4d337d9a3d8bd901bcf707860",
+      "file": "book-tottori-0473c2d184fef91ada9305b31bd3fa4612a60fa4d337d9a3d8bd901bcf707860.json",
+      "bytes": 11542,
+      "updatedAt": "2026-10-29T04:13:17.595Z",
+      "minBuild": 73,
+      "placeCount": 5
     },
     {
       "id": "book-yufuin",

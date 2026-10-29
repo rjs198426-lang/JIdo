@@ -1,0 +1,172 @@
+{
+  "guide": {
+    "id": "book-takamatsu",
+    "scope": "city",
+    "city": {
+      "id": "book-takamatsu",
+      "name": "다카마쓰",
+      "english": "Takamatsu",
+      "country": "일본",
+      "region": "일본",
+      "image": "/images/guide-placeholder.svg",
+      "tagline": "정원·우동·야시마를 하루씩 나누는 세토우치 여행",
+      "description": "다카마쓰는 가가와현의 항구 도시로 리쓰린공원과 사누키 우동, 야시마의 문화 공간을 조합하기 좋습니다. 역·항구와 중심 상점가, 정원, 동쪽 야시마는 서로 다른 이동 구역입니다. 섬 여행의 출발점이기도 하지만 나오시마·쇼도시마 전체를 이 도시 가이드에 합치지 않았습니다. 첫 방문에는 시내와 야시마를 먼저 나누고 섬은 배편·미술관 예약을 따로 확인하세요.",
+      "tags": [
+        "도시 산책",
+        "여행 준비"
+      ],
+      "flight": "항공편·운항일은 예약 시 공항·항공사에서 확인",
+      "currency": "일본 엔 · JPY",
+      "timeDifference": "한국과 시차 없음",
+      "timeZone": "Asia/Tokyo",
+      "season": "방문 계절의 기온·비·바람과 시설 공개 일정을 확인하고 실내·야외 방문을 조합하세요.",
+      "accent": "#e7f1ef"
+    },
+    "places": [
+      {
+        "id": "book-takamatsu-ritsurin",
+        "cityId": "book-takamatsu",
+        "name": "리쓰린공원",
+        "english": "Ritsurin Garden",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "연못·소나무·차경을 따라 걷는 다이묘 정원입니다. 빠르게 통과하기보다 산책과 휴식을 중심으로 고르세요.",
+        "address": "Takamatsu, Kagawa",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "야간 조명과 배편은 상시가 아닙니다. 2026년 가을 야간 조명은 11월20~29일 한정 공지이며 승선은 별도 조건입니다."
+      },
+      {
+        "id": "book-takamatsu-shikokumura",
+        "cityId": "book-takamatsu",
+        "name": "시코쿠무라 뮤지엄",
+        "english": "Shikokumura Museum",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "시코쿠 각지의 옛 주택·작업장 등을 옮겨 복원한 야외 박물관입니다. 건물과 생활 도구를 보며 지역의 생활문화를 살펴봅니다.",
+        "address": "Yashima Nakamachi, Takamatsu",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "넓은 야외 산책과 갤러리 관람을 구분하고 편한 신발을 준비하세요. 갤러리·식당·카페의 휴무가 다를 수 있습니다."
+      },
+      {
+        "id": "book-takamatsu-yashimaji",
+        "cityId": "book-takamatsu",
+        "name": "야시마지",
+        "english": "Yashimaji Temple",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "야시마 남쪽 능선에 있는 시코쿠 88개소 순례의 제84번 사찰입니다. 관광과 참배가 함께 이루어지는 공간입니다.",
+        "address": "Yashima Higashimachi, Takamatsu",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "산기슭의 시코쿠무라와 같은 평지 구역이 아닙니다. 오르는 방법과 귀환 교통을 따로 확인하고 참배 동선을 배려하세요."
+      },
+      {
+        "id": "book-takamatsu-art-museum",
+        "cityId": "book-takamatsu",
+        "name": "다카마쓰시미술관",
+        "english": "Takamatsu Art Museum",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "도심에서 컬렉션전과 기획전을 골라 보는 시립 미술관입니다. 정원 산책 뒤나 비 오는 날의 실내 방문 후보입니다.",
+        "address": "Konya-machi, Takamatsu",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "기획전과 컬렉션전의 관람 조건은 다릅니다. 2026년 전시 일정이 확인되지만 방문일의 전시 교체·임시 휴관을 다시 확인하세요."
+      },
+      {
+        "id": "book-takamatsu-port",
+        "cityId": "book-takamatsu",
+        "name": "다카마쓰항",
+        "english": "Takamatsu Port",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "다카마쓰역과 가까운 세토내해 섬 여행의 출발 항구입니다. 배를 타지 않더라도 항구 주변을 가볍게 걷는 후보로 고를 수 있습니다.",
+        "address": "Takamatsu, Kagawa",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "항구 산책과 배 승선은 별도입니다. 섬별 터미널·운항사·결항·귀환편을 확인하고 작업구역에는 들어가지 마세요."
+      }
+    ],
+    "sections": [
+      {
+        "id": "book-takamatsu-overview",
+        "title": "도시 한눈에",
+        "body": "다카마쓰는 가가와현의 항구 도시로 리쓰린공원과 사누키 우동, 야시마의 문화 공간을 조합하기 좋습니다. 역·항구와 중심 상점가, 정원, 동쪽 야시마는 서로 다른 이동 구역입니다. 섬 여행의 출발점이기도 하지만 나오시마·쇼도시마 전체를 이 도시 가이드에 합치지 않았습니다. 첫 방문에는 시내와 야시마를 먼저 나누고 섬은 배편·미술관 예약을 따로 확인하세요."
+      },
+      {
+        "id": "book-takamatsu-before",
+        "title": "출발 전에 챙길 것",
+        "body": "여권·입국 자격·비자 요건은 국적과 여행 목적에 맞춰 정부 안내로 확인하세요. 통신·결제·보험과 예약 내역의 오프라인 사본을 준비하세요. 숙소의 짐 보관·식사 마감, 동행자의 계단·장거리 걷기 부담을 먼저 확인하면 도착일을 단순하게 만들 수 있습니다. 이 가이드는 입국 허가·실시간 운항·운영 시간을 확정하지 않습니다."
+      },
+      {
+        "id": "book-takamatsu-arrival",
+        "title": "공항과 시내 이동",
+        "body": "다카마쓰공항(TAK) 공식 버스 안내에서 시내 방면은 고토덴버스이며 리쓰린공원 앞·가와라마치·다카마쓰칫코·다카마쓰역 방면 정류장이 구분됩니다. 일부 공항행은 가와라마치를 지나지 않는다고 하므로 왕복이 같은 경유지라고 생각하지 마세요. 공항은 항공편에 맞춰 월별 시각이 바뀐다고 안내합니다. 실제 탑승일 운행을 확인하고 숙소 출입구에서 정류장까지의 이동을 더하세요. 야시마 산기슭과 정상은 같은 정류장이 아닙니다."
+      },
+      {
+        "id": "book-takamatsu-stay",
+        "title": "숙소는 어느 동네에",
+        "body": "JR 다카마쓰역·항구 주변은 철도 도착·출발과 배편 연결, 가와라마치·중심 상점가 주변은 저녁 식사와 시내 쇼핑을 비교하기 좋습니다. 리쓰린공원 가까운 숙소는 정원 방문에 편하지만 항구와 같은 구역은 아닙니다. 야시마를 방문한다면 역·박물관·산 위 사찰 사이의 이동과 돌아오는 교통을 먼저 정하세요. 도보 분수만 보고 숙소의 접근성을 판단하지 마세요."
+      },
+      {
+        "id": "book-takamatsu-food",
+        "title": "먹거리와 동네 쇼핑",
+        "body": "사누키 우동은 면의 식감과 육수·먹는 방식을 비교하는 지역 음식입니다. 셀프 주문·계산·반납 방식은 가게마다 다르므로 입구의 안내를 먼저 보세요. 여러 집을 무리하게 돌기보다 식사 한 끼와 가벼운 간식으로 나누면 정원·전시 관람에 여유가 생깁니다. 시코쿠무라에는 별도 우동점·카페가 있지만 박물관 입장과 식음료가 모두 포함된다고 생각하지 마세요. 생선 육수·달걀·밀 알레르기는 주문 전에 확인하세요."
+      },
+      {
+        "id": "book-takamatsu-days",
+        "title": "처음 가는 3일 여행",
+        "body": "1일: 도착 → 숙소 주변 식사 → 다카마쓰항 산책. 선박 승선은 별도 계획이며 날씨가 나쁘면 시내 상점가로 바꿉니다.\n\n2일: 리쓰린공원 → 중심부 식사 → 다카마쓰시미술관. 정원과 전시의 공개 일정을 확인하고 우동집의 실제 휴무·품절에 따라 식사 순서를 조정합니다.\n\n3일: 시코쿠무라 뮤지엄과 야시마지 중 관심·체력에 맞춰 선택합니다. 산기슭에서 정상까지의 교통을 확보하지 못하면 박물관만 보고 돌아오는 편이 낫습니다.\n\n관심·휴관·기상에 맞춰 고르는 예시입니다. 자동 방문 시각이나 실제 지도 경로가 아니며 모든 장소를 방문할 필요는 없습니다."
+      },
+      {
+        "id": "book-takamatsu-notes",
+        "title": "예약과 현장 팁",
+        "body": "가가와현의 2026-10-27 공지상 리쓰린공원 가을 야간 조명은 2026-11-20~11-29의 한정 행사입니다. 일반 야간 상시 개장으로 생각하지 마세요. 야간 남호 배편은 별도 예약·입장 조건이 있으며 공원 입장만으로 승선이 확보되지 않습니다. 시코쿠무라 갤러리 전시 교체와 카페 대관은 박물관 전체 휴관과 구분하세요. 항구의 배편은 날씨·운항사·목적지를 따로 확인하고 당일 막배에만 의존하지 마세요."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Takamatsu | Kagawa | Shikoku | Destinations | Travel Japan - Office national du tourisme japonais (site officiel)",
+        "url": "https://www.japan.travel/fr/destinations/shikoku/kagawa/takamatsu-area/",
+        "accessedAt": "2026-10-29"
+      },
+      {
+        "title": "バスのご案内 | アクセスガイド | 高松空港",
+        "url": "https://www.takamatsu-airport.com/access/bus/index.php",
+        "accessedAt": "2026-10-29"
+      },
+      {
+        "title": "栗林公園観光事務所｜香川県",
+        "url": "https://www.pref.kagawa.lg.jp/ritsurin/",
+        "accessedAt": "2026-10-29"
+      },
+      {
+        "title": "令和８年栗林公園秋のライトアップの内容について｜香川県",
+        "url": "https://www.pref.kagawa.lg.jp/ritsurin/r8_a_lightup.html",
+        "accessedAt": "2026-10-29"
+      },
+      {
+        "title": "四国村ミウゼアム 公式サイト（四国民家博物館）",
+        "url": "https://www.shikokumura.or.jp/",
+        "accessedAt": "2026-10-29"
+      },
+      {
+        "title": "南面山 千光院 屋島寺 – （一社）四国八十八ヶ所霊場会",
+        "url": "https://88shikokuhenro.jp/84yashimaji/",
+        "accessedAt": "2026-10-29"
+      },
+      {
+        "title": "高松市美術館公式サイト",
+        "url": "https://www.city.takamatsu.kagawa.jp/museum/takamatsu/",
+        "accessedAt": "2026-10-29"
+      }
+    ],
+    "status": "published",
+    "requestId": null,
+    "createdAt": "2026-10-29T04:13:17.595Z",
+    "updatedAt": "2026-10-29T04:13:17.595Z",
+    "publishedAt": "2026-10-29T04:13:17.595Z"
+  }
+}

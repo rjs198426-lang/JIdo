@@ -1,0 +1,182 @@
+{
+  "guide": {
+    "id": "book-tottori",
+    "scope": "city",
+    "city": {
+      "id": "book-tottori",
+      "name": "돗토리",
+      "english": "Tottori",
+      "country": "일본",
+      "region": "일본",
+      "image": "/images/guide-placeholder.svg",
+      "tagline": "사구의 자연과 모래·장난감 전시를 함께 보는 도시",
+      "description": "돗토리시 여행은 해안 사구 구역과 역 북쪽의 시내 전시 구역을 나누면 이해하기 쉽습니다. 사구는 바람·빛·기온에 따라 걷는 경험이 달라지고, 모래미술관과 비지터센터는 자연을 다른 방식으로 이해하게 해줍니다. 시내에서는 와라베관과 현립박물관을 관심에 맞춰 고르세요. 이 가이드는 돗토리시 중심이며 요나고·사카이미나토·구라요시를 같은 도시로 세지 않습니다.",
+      "tags": [
+        "도시 산책",
+        "여행 준비"
+      ],
+      "flight": "항공편·운항일은 예약 시 공항·항공사에서 확인",
+      "currency": "일본 엔 · JPY",
+      "timeDifference": "한국과 시차 없음",
+      "timeZone": "Asia/Tokyo",
+      "season": "방문 계절의 기온·비·바람과 시설 공개 일정을 확인하고 실내·야외 방문을 조합하세요.",
+      "accent": "#e7f1ef"
+    },
+    "places": [
+      {
+        "id": "book-tottori-sand-dunes",
+        "cityId": "book-tottori",
+        "name": "돗토리 사구",
+        "english": "Tottori Sand Dunes",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "바다와 모래 언덕, 바람이 만든 지형을 만나는 자연 공간입니다. 한 바퀴를 채우기보다 날씨와 체력에 맞춰 돌아올 길을 정하세요.",
+        "address": "Fukube-cho Yuyama, Tottori",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "모래 낙서와 사구 앞바다 수영은 금지돼 있습니다. 폭염·강풍과 모래 속 발빠짐에 대비하세요."
+      },
+      {
+        "id": "book-tottori-sand-museum",
+        "cityId": "book-tottori",
+        "name": "돗토리 사구 모래미술관",
+        "english": "The Sand Museum",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "모래로 만든 대형 조각을 전시하는 미술관입니다. 자연 사구 산책과 별개의 전시 관람으로 계획하세요.",
+        "address": "Fukube-cho Yuyama, Tottori",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "전시는 기수별 주제와 기간이 있습니다. 전시 교체 중에도 늘 입장할 수 있다고 가정하지 마세요."
+      },
+      {
+        "id": "book-tottori-visitor-center",
+        "cityId": "book-tottori",
+        "name": "돗토리 사구 비지터센터",
+        "english": "Tottori Sand Dunes Visitor Center",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "사구의 형성과 생물·사람의 관계를 영상과 전시로 배우고 관광·자연 이용 안내를 받는 별도 시설입니다.",
+        "address": "Fukube-cho Yuyama, Tottori",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "사구에 들어가기 전 지도와 현장 안전 정보를 확인하세요. 상설 전시와 가이드 투어·체험의 이용 조건은 다릅니다."
+      },
+      {
+        "id": "book-tottori-warabekan",
+        "cityId": "book-tottori",
+        "name": "와라베관",
+        "english": "Warabekan",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "동요·창가와 장난감 전시를 함께 보는 박물관입니다. 아이 동반이나 음악·옛 장난감에 관심 있는 여행의 실내 후보입니다.",
+        "address": "Nishimachi, Tottori",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "2026년7월22일~2027년5월초 예정 공사 중 정면 현관을 막고 폭포광장 쪽으로 입장합니다. 소음·동선 변경 가능성을 고려하세요."
+      },
+      {
+        "id": "book-tottori-pref-museum",
+        "cityId": "book-tottori",
+        "name": "돗토리현립박물관",
+        "english": "Tottori Prefectural Museum",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "돗토리의 역사·민속·자연과 기획전을 살펴보는 현립박물관입니다. 시내 전시 관람을 원하는 날에 선택하세요.",
+        "address": "Higashimachi, Tottori",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "2026년12월7일~2027년3월5일 니노쿠라·산노쿠라 일부 전시실 휴실 공지가 있습니다. 박물관 전체 폐관과 구분하세요."
+      }
+    ],
+    "sections": [
+      {
+        "id": "book-tottori-overview",
+        "title": "도시 한눈에",
+        "body": "돗토리시 여행은 해안 사구 구역과 역 북쪽의 시내 전시 구역을 나누면 이해하기 쉽습니다. 사구는 바람·빛·기온에 따라 걷는 경험이 달라지고, 모래미술관과 비지터센터는 자연을 다른 방식으로 이해하게 해줍니다. 시내에서는 와라베관과 현립박물관을 관심에 맞춰 고르세요. 이 가이드는 돗토리시 중심이며 요나고·사카이미나토·구라요시를 같은 도시로 세지 않습니다."
+      },
+      {
+        "id": "book-tottori-before",
+        "title": "출발 전에 챙길 것",
+        "body": "여권·입국 자격·비자 요건은 국적과 여행 목적에 맞춰 정부 안내로 확인하세요. 통신·결제·보험과 예약 내역의 오프라인 사본을 준비하세요. 숙소의 짐 보관·식사 마감, 동행자의 계단·장거리 걷기 부담을 먼저 확인하면 도착일을 단순하게 만들 수 있습니다. 이 가이드는 입국 허가·실시간 운항·운영 시간을 확정하지 않습니다."
+      },
+      {
+        "id": "book-tottori-arrival",
+        "title": "공항과 시내 이동",
+        "body": "돗토리 사구 코난공항(TTJ)의 교통·접근 안내에서 버스·택시·렌터카와 실제 목적지를 먼저 확인하세요. 공항에서 바로 사구로 간다는 가정으로 계획하지 말고 돗토리역·숙소·사구 중 첫 목적지를 정해 연결편을 찾으세요. 사구는 도심과 떨어져 있으므로 왕복 버스 정류장과 돌아오는 편을 확인한 뒤 걷기 시작하세요. 한국 출발 직항이나 운항일을 이 가이드가 보장하지 않으므로 항공권은 공항과 항공사의 실제 판매편으로 확인하세요."
+      },
+      {
+        "id": "book-tottori-stay",
+        "title": "숙소는 어느 동네에",
+        "body": "돗토리역 주변은 도착·출발과 시내 식사, 사구 주변은 자연 관찰 중심의 체류를 비교할 수 있습니다. 사구 가까운 숙소는 저녁 식사·대중교통 종료 후 이동까지 확인하세요. 와라베관·현립박물관을 중심으로 방문한다면 역에서의 실제 버스·도보 연결과 짐 보관을 함께 검토하세요. 날씨가 나쁜 날 실내 전시로 바꿀 수 있도록 숙소를 기준으로 두 구역의 이동을 구분해 두세요."
+      },
+      {
+        "id": "book-tottori-food",
+        "title": "먹거리와 동네 쇼핑",
+        "body": "돗토리 공식 음식 안내에는 마쓰바가니와 배, 호루소바 등 지역 먹거리가 소개됩니다. 게 요리는 계절·산지·어종에 따라 메뉴가 달라지므로 모든 식당에서 연중 같은 게를 먹을 수 있다고 생각하지 마세요. 호루소바는 내장을 넣은 볶음면으로 재료와 양념을 확인하고 고르세요. 배 가공품·간식은 계절과 휴대·보관 조건을 비교하면 선물을 고르기 좋습니다. 현 전체의 음식 소개를 시내 특정 맛집의 영업 확인으로 사용하지 않았습니다."
+      },
+      {
+        "id": "book-tottori-days",
+        "title": "처음 가는 3일 여행",
+        "body": "1일: 도착 → 역 주변 식사 → 와라베관 또는 현립박물관. 늦게 도착하면 실내 관람은 다음 날로 옮깁니다.\n\n2일: 사구 비지터센터에서 지형·안전 안내 → 날씨에 맞춰 돗토리 사구 산책 → 모래미술관. 강풍·폭염이면 긴 야외 걷기를 줄이고 귀환 교통을 먼저 확보하세요.\n\n3일: 전날 보지 못한 시내 박물관을 선택하거나 숙소 주변에서 쉬고 출발합니다. 같은 전시관을 모두 볼 필요는 없고 실제 휴관일에 맞춰 바꾸세요.\n\n관심·휴관·기상에 맞춰 고르는 예시입니다. 자동 방문 시각이나 실제 지도 경로가 아니며 모든 장소를 방문할 필요는 없습니다."
+      },
+      {
+        "id": "book-tottori-notes",
+        "title": "예약과 현장 팁",
+        "body": "사구에 글씨·그림을 남기는 행위와 사구 앞바다 수영은 비지터센터가 금지 사항으로 안내합니다. 모래 위 오르막은 지도상 거리보다 힘들 수 있고 강풍·뜨거운 모래·한랭에 대비해야 합니다. 와라베관은 2026-07-22~2027년5월초 예정 공사 중에도 운영하되 정면 현관 대신 폭포광장 쪽 출입구를 사용한다고 공지했습니다. 현립박물관은 2026-12-07~2027-03-05 일부 전시실 휴실을 공지했으므로 겨울 방문은 공개 범위를 확인하세요."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Tottori Sand Dunes | Tottori Tourism Guide",
+        "url": "https://www.tottori-tour.jp/en/sightseeing/456/",
+        "accessedAt": "2026-10-29"
+      },
+      {
+        "title": "鳥取砂丘の総合案内・観光ガイド｜鳥取砂丘ビジターセンター",
+        "url": "https://www.sakyu-vc.com/jp/",
+        "accessedAt": "2026-10-29"
+      },
+      {
+        "title": "山陰海岸国立公園 鳥取砂丘ビジターセンター オフィシャルサイト",
+        "url": "https://www.sakyu-vc.com/jp/visitor/",
+        "accessedAt": "2026-10-29"
+      },
+      {
+        "title": "鳥取砂丘 砂の美術館 - 世界初、「砂」を素材にした彫刻作品を展示する美術館",
+        "url": "https://www.sand-museum.jp/",
+        "accessedAt": "2026-10-29"
+      },
+      {
+        "title": "わらべ館 [童謡・唱歌とおもちゃのミュージアム]",
+        "url": "https://warabe.or.jp/",
+        "accessedAt": "2026-10-29"
+      },
+      {
+        "title": "【外壁等改修工事のお知らせ】R8年7月22日-R9年5月上旬 | わらべ館 [童謡・唱歌とおもちゃのミュージアム]",
+        "url": "https://warabe.or.jp/%e7%a9%ba%e8%aa%bf%e5%b7%a5%e4%ba%8b%e4%ba%88%e5%91%8a/",
+        "accessedAt": "2026-10-29"
+      },
+      {
+        "title": "鳥取県立博物館/とりネット/鳥取県公式サイト",
+        "url": "https://www.pref.tottori.lg.jp/museum/",
+        "accessedAt": "2026-10-29"
+      },
+      {
+        "title": "鳥取砂丘コナン空港",
+        "url": "https://www.ttj-ap-bld.co.jp/access",
+        "accessedAt": "2026-10-29"
+      },
+      {
+        "title": "Food | Tottori Tourism Guide",
+        "url": "https://www.tottori-tour.jp/en/food/",
+        "accessedAt": "2026-10-29"
+      }
+    ],
+    "status": "published",
+    "requestId": null,
+    "createdAt": "2026-10-29T04:13:17.595Z",
+    "updatedAt": "2026-10-29T04:13:17.595Z",
+    "publishedAt": "2026-10-29T04:13:17.595Z"
+  }
+}

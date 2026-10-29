@@ -89,6 +89,89 @@
         "https://kamenoibus.com/otb/"
       ],
       "evidencePath": "research/guidebooks/runs/20261028T1700-new.json"
+    },
+    {
+      "guideId": "book-matsuyama",
+      "checkedAt": "2026-10-29",
+      "contentHash": "3a04e70842a0c9b14188dbb76232751d61c64b9fd71a1b2b257287e49d4b1228",
+      "result": "changed",
+      "urls": [
+        "https://matsuyama-sightseeing.com/topics/relaxed_travel/",
+        "https://matsuyama-sightseeing.com/topics/shiki-soseki-matsuyama/",
+        "https://www.matsuyama-airport.co.jp/access/bus.html",
+        "https://dogo.jp/onsen/honkan",
+        "https://dogo.jp/onsen/asuka",
+        "https://matsuyama-sightseeing.com/spot/23-2/",
+        "https://matsuyama-sightseeing.com/appeal/castle/",
+        "https://matsuyama-sightseeing.com/appeal/food/"
+      ],
+      "evidencePath": "research/guidebooks/runs/20261029T0404-new.json"
+    },
+    {
+      "guideId": "book-takamatsu",
+      "checkedAt": "2026-10-29",
+      "contentHash": "ed399003a38bd2e4cab8bfa1947e47c8c65f4ed86bda71311ce7dce7a25090d0",
+      "result": "changed",
+      "urls": [
+        "https://www.japan.travel/fr/destinations/shikoku/kagawa/takamatsu-area/",
+        "https://www.takamatsu-airport.com/access/bus/index.php",
+        "https://www.pref.kagawa.lg.jp/ritsurin/",
+        "https://www.pref.kagawa.lg.jp/ritsurin/r8_a_lightup.html",
+        "https://www.shikokumura.or.jp/",
+        "https://88shikokuhenro.jp/84yashimaji/",
+        "https://www.city.takamatsu.kagawa.jp/museum/takamatsu/"
+      ],
+      "evidencePath": "research/guidebooks/runs/20261029T0404-new.json"
+    },
+    {
+      "guideId": "book-tottori",
+      "checkedAt": "2026-10-29",
+      "contentHash": "e8e02b2de5427146641c52b177b154ac5ca02f7ce6d829b933be52526d1b8534",
+      "result": "changed",
+      "urls": [
+        "https://www.tottori-tour.jp/en/sightseeing/456/",
+        "https://www.sakyu-vc.com/jp/",
+        "https://www.sakyu-vc.com/jp/visitor/",
+        "https://www.sand-museum.jp/",
+        "https://warabe.or.jp/",
+        "https://warabe.or.jp/%e7%a9%ba%e8%aa%bf%e5%b7%a5%e4%ba%8b%e4%ba%88%e5%91%8a/",
+        "https://www.pref.tottori.lg.jp/museum/",
+        "https://www.ttj-ap-bld.co.jp/access",
+        "https://www.tottori-tour.jp/en/food/"
+      ],
+      "evidencePath": "research/guidebooks/runs/20261029T0404-new.json"
+    },
+    {
+      "guideId": "book-okayama",
+      "checkedAt": "2026-10-29",
+      "contentHash": "f6dec780fe61e27d03c799f83de3a88321012daa427df567550a2755e96472b8",
+      "result": "changed",
+      "urls": [
+        "https://okayama-castle.jp/",
+        "https://www.okayama-japan.jp/en/spot/10672",
+        "https://www.okayama-japan.jp/en/24107",
+        "https://yumeji-art-museum.com/",
+        "https://www.chutetsu-bus.co.jp/rosen/rimujin.htm",
+        "https://www.okayama-japan.jp/en/gourmet"
+      ],
+      "evidencePath": "research/guidebooks/runs/20261029T0404-new.json"
+    },
+    {
+      "guideId": "book-kanazawa",
+      "checkedAt": "2026-10-29",
+      "contentHash": "20e1df0e881595b4e0375d0925c0f5c07fa95821cff1ff4a6578c49a3d471a83",
+      "result": "changed",
+      "urls": [
+        "https://www.japan.travel/fr/destinations/hokuriku-shinetsu/ishikawa/kanazawa-and-around/",
+        "https://shiro-niwa.pref.ishikawa.lg.jp/kenrokuen-garden/",
+        "https://shiro-niwa.pref.ishikawa.lg.jp/kanazawa-castle/",
+        "https://www.kanazawa21.jp/",
+        "https://www.kanazawa21.jp/data_list.php?g=151&d=48",
+        "https://www.kanazawa21.jp/data_list.php?g=61&d=503",
+        "https://ohmicho-ichiba.com/",
+        "https://www.hokutetsu.co.jp/airport-bus"
+      ],
+      "evidencePath": "research/guidebooks/runs/20261029T0404-new.json"
     }
   ]
 }

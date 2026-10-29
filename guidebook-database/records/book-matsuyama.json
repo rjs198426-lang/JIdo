@@ -1,0 +1,177 @@
+{
+  "guide": {
+    "id": "book-matsuyama",
+    "scope": "city",
+    "city": {
+      "id": "book-matsuyama",
+      "name": "마쓰야마",
+      "english": "Matsuyama",
+      "country": "일본",
+      "region": "일본",
+      "image": "/images/guide-placeholder.svg",
+      "tagline": "성 아래의 산책과 도고의 목욕을 여유롭게",
+      "description": "마쓰야마는 언덕 위의 성을 중심으로 한 시내와 도고온천을 나눠 즐기는 에히메현의 도시입니다. 성 주변에서는 역사·문학 전시와 상점 산책, 도고에서는 목욕과 온천 마을의 식사를 조합하기 좋습니다. 한 번에 여러 탕을 채우기보다 숙소의 목욕 시설과 원하는 외탕 하나를 먼저 고르세요. 이 가이드는 마쓰야마 시내·도고를 다루며 이마바리·시마나미카이도 전체를 같은 도시로 묶지 않습니다.",
+      "tags": [
+        "도시 산책",
+        "여행 준비"
+      ],
+      "flight": "항공편·운항일은 예약 시 공항·항공사에서 확인",
+      "currency": "일본 엔 · JPY",
+      "timeDifference": "한국과 시차 없음",
+      "timeZone": "Asia/Tokyo",
+      "season": "방문 계절의 기온·비·바람과 시설 공개 일정을 확인하고 실내·야외 방문을 조합하세요.",
+      "accent": "#e7f1ef"
+    },
+    "places": [
+      {
+        "id": "book-matsuyama-castle",
+        "cityId": "book-matsuyama",
+        "name": "마쓰야마성",
+        "english": "Matsuyama Castle",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "도심의 가쓰야마 언덕 위에 남은 성곽과 시가지 풍경을 보는 곳입니다. 본마루 산책과 천수 관람을 구분해 고르세요.",
+        "address": "Marunouchi, Matsuyama",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "로프웨이나 리프트를 타더라도 경사·계단 이동이 남을 수 있습니다. 운행과 공개 구역을 방문일에 확인하세요."
+      },
+      {
+        "id": "book-matsuyama-dogo-honkan",
+        "cityId": "book-matsuyama",
+        "name": "도고온천 본관",
+        "english": "Dogo Onsen Honkan",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "역사적인 목조 건물에서 목욕과 건축을 경험하는 공중온천입니다. 입욕만 하는 코스와 휴게 공간을 포함한 코스를 구분하세요.",
+        "address": "Dogo Yunomachi, Matsuyama",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "별관과 같은 이용권이라고 생각하지 마세요. 개실·견학·목욕의 예약 및 이용 조건은 운영사에서 확인하세요."
+      },
+      {
+        "id": "book-matsuyama-asuka",
+        "cityId": "book-matsuyama",
+        "name": "도고온천 별관 아스카노유",
+        "english": "Dogo Onsen Annex Asuka-no-Yu",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "아스카 시대를 모티브로 한 건축과 에히메 공예 장식을 함께 보는 별도 온천 시설입니다. 본관과 비교해 원하는 목욕 경험을 선택하세요.",
+        "address": "Dogo Yunomachi, Matsuyama",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "입욕·휴게실·특별실 이용은 서로 다른 코스입니다. 장식과 예술품을 만지거나 촬영하기 전 현장 안내를 따르세요."
+      },
+      {
+        "id": "book-matsuyama-shiki",
+        "cityId": "book-matsuyama",
+        "name": "마쓰야마 시립 시키기념박물관",
+        "english": "Matsuyama Municipal Shiki Memorial Museum",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "도고공원에 있는 문학 박물관으로 마사오카 시키의 삶과 하이쿠, 마쓰야마와 문학의 관계를 살펴봅니다.",
+        "address": "Dogo Koen, Matsuyama",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "문학 전시가 중심이므로 동행자의 관심에 맞춰 선택하세요. 기획전과 휴관일을 확인하세요."
+      },
+      {
+        "id": "book-matsuyama-sakanoue",
+        "cityId": "book-matsuyama",
+        "name": "사카노우에노쿠모 뮤지엄",
+        "english": "Saka no Ue no Kumo Museum",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "소설 『언덕 위의 구름』과 근대 마쓰야마의 역사를 살펴보는 뮤지엄입니다. 성 주변 산책에 실내 전시를 더할 수 있습니다.",
+        "address": "Ichibancho, Matsuyama",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "전시실과 라운지 등 공간별 이용 조건이 다릅니다. 공식 행사와 휴관일을 확인하고 모든 자료가 한국어라고 가정하지 마세요."
+      }
+    ],
+    "sections": [
+      {
+        "id": "book-matsuyama-overview",
+        "title": "도시 한눈에",
+        "body": "마쓰야마는 언덕 위의 성을 중심으로 한 시내와 도고온천을 나눠 즐기는 에히메현의 도시입니다. 성 주변에서는 역사·문학 전시와 상점 산책, 도고에서는 목욕과 온천 마을의 식사를 조합하기 좋습니다. 한 번에 여러 탕을 채우기보다 숙소의 목욕 시설과 원하는 외탕 하나를 먼저 고르세요. 이 가이드는 마쓰야마 시내·도고를 다루며 이마바리·시마나미카이도 전체를 같은 도시로 묶지 않습니다."
+      },
+      {
+        "id": "book-matsuyama-before",
+        "title": "출발 전에 챙길 것",
+        "body": "여권·입국 자격·비자 요건은 국적과 여행 목적에 맞춰 정부 안내로 확인하세요. 통신·결제·보험과 예약 내역의 오프라인 사본을 준비하세요. 숙소의 짐 보관·식사 마감, 동행자의 계단·장거리 걷기 부담을 먼저 확인하면 도착일을 단순하게 만들 수 있습니다. 이 가이드는 입국 허가·실시간 운항·운영 시간을 확정하지 않습니다."
+      },
+      {
+        "id": "book-matsuyama-arrival",
+        "title": "공항과 시내 이동",
+        "body": "마쓰야마공항(MYJ) 공식 안내에는 JR 마쓰야마역·마쓰야마시역·오카이도·도고온천역 앞 방면 리무진과 일반 노선버스가 구분돼 있습니다. JR 마쓰야마역과 마쓰야마시역은 다른 역이므로 예약한 숙소와 가까운 정류장을 고르세요. 항공편 도착과 연결되는 실제 운행은 공항·이요테쓰버스 안내를 다시 확인하세요. 시내는 노면전차와 도보를 조합하고, 성의 로프웨이·리프트 이용은 별도로 판단하세요. 관광열차가 일반 노면전차와 같은 빈도로 다닌다고 가정하지 마세요."
+      },
+      {
+        "id": "book-matsuyama-stay",
+        "title": "숙소는 어느 동네에",
+        "body": "오카이도 주변은 성·상점·저녁 식사, 도고온천 주변은 숙소 목욕과 온천 마을 산책을 비교하기 좋습니다. JR 마쓰야마역 주변은 철도 입출발, 마쓰야마시역 주변은 버스·상업시설 접근을 중심으로 고르세요. 도고의 식사 포함 숙박은 체크인·저녁 식사 마감과 외탕 이용이 겹치지 않는지 확인하세요. 이름에 온천이 있어도 객실탕·대욕장·대절탕의 조건은 다릅니다."
+      },
+      {
+        "id": "book-matsuyama-food",
+        "title": "먹거리와 동네 쇼핑",
+        "body": "도미와 쌀을 함께 지어 내는 다이메시, 생선과 해산물을 곁들인 마쓰야마 스시, 감귤 주스·디저트를 비교해 보세요. 같은 다이메시라는 이름에도 조리 방식이 다를 수 있으니 사진·메뉴를 보고 고르세요. 오카이도·로프웨이 상점가·도고 상점가는 여러 가게가 모인 구역이며 한 업소의 추천이 아닙니다. 선물로는 감귤 가공품과 타르트·봇짱당고를 보되 보관 방법·유통기한을 확인하세요."
+      },
+      {
+        "id": "book-matsuyama-days",
+        "title": "처음 가는 3일 여행",
+        "body": "1일: 도착 → 숙소에 짐 보관 → 오카이도·로프웨이 상점가 산책과 지역 음식. 도착이 늦으면 성 관람은 다음 날로 넘깁니다.\n\n2일: 마쓰야마성 → 사카노우에노쿠모 뮤지엄 중 관심 있는 전시. 성의 경사·계단과 실제 공개 구역을 확인하고 카페에서 쉬는 여유를 둡니다.\n\n3일: 도고의 시키기념박물관 → 도고온천 본관 또는 아스카노유 중 한 곳. 공항 출발일에는 목욕·짐 회수와 귀환 교통을 먼저 정하세요.\n\n관심·휴관·기상에 맞춰 고르는 예시입니다. 자동 방문 시각이나 실제 지도 경로가 아니며 모든 장소를 방문할 필요는 없습니다."
+      },
+      {
+        "id": "book-matsuyama-notes",
+        "title": "예약과 현장 팁",
+        "body": "도고온천 본관과 별관 아스카노유는 서로 다른 시설이며 휴게실·개실·입욕 코스의 조건도 다릅니다. 시 관광 개요에 남아 있는 과거 보수공사 문장 대신 현재 온천 운영사 안내를 확인하세요. 박물관의 전시 교체·휴관일, 성의 계단과 날씨를 고려해 비 오는 날에는 실내 전시 중심으로 바꿀 수 있습니다. 목욕 전 몸을 씻고 수건을 탕에 넣지 않는 등 각 탕의 규칙을 지키세요."
+      }
+    ],
+    "sources": [
+      {
+        "title": "無理しない、疲れない、ゆったり旅が似合う街、松山。 | 松山市公式観光情報サイト｜四国松山 瀬戸内松山",
+        "url": "https://matsuyama-sightseeing.com/topics/relaxed_travel/",
+        "accessedAt": "2026-10-29"
+      },
+      {
+        "title": "松山・子規と漱石が歩いた道を、私も歩いてみた | 松山市公式観光情報サイト｜四国松山 瀬戸内松山",
+        "url": "https://matsuyama-sightseeing.com/topics/shiki-soseki-matsuyama/",
+        "accessedAt": "2026-10-29"
+      },
+      {
+        "title": "リムジンバス・路線バス｜交通アクセス｜松山空港",
+        "url": "https://www.matsuyama-airport.co.jp/access/bus.html",
+        "accessedAt": "2026-10-29"
+      },
+      {
+        "title": "道後温泉本館 | 外湯紹介 | 【公式サイト】道後温泉",
+        "url": "https://dogo.jp/onsen/honkan",
+        "accessedAt": "2026-10-29"
+      },
+      {
+        "title": "道後温泉別館 飛鳥乃湯泉(あすかのゆ) ｜外湯紹介｜【公式サイト】道後温泉",
+        "url": "https://dogo.jp/onsen/asuka",
+        "accessedAt": "2026-10-29"
+      },
+      {
+        "title": "松山市立子規記念博物館 | 松山市公式観光情報サイト｜四国松山 瀬戸内松山",
+        "url": "https://matsuyama-sightseeing.com/spot/23-2/",
+        "accessedAt": "2026-10-29"
+      },
+      {
+        "title": "松山城の城下町を散策する | 松山市公式観光情報サイト｜四国松山 瀬戸内松山",
+        "url": "https://matsuyama-sightseeing.com/appeal/castle/",
+        "accessedAt": "2026-10-29"
+      },
+      {
+        "title": "松山の絶品グルメに舌鼓 | 松山市公式観光情報サイト｜四国松山 瀬戸内松山",
+        "url": "https://matsuyama-sightseeing.com/appeal/food/",
+        "accessedAt": "2026-10-29"
+      }
+    ],
+    "status": "published",
+    "requestId": null,
+    "createdAt": "2026-10-29T04:13:17.595Z",
+    "updatedAt": "2026-10-29T04:13:17.595Z",
+    "publishedAt": "2026-10-29T04:13:17.595Z"
+  }
+}
