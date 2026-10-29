@@ -73,3 +73,5 @@ Android 0.72/versionCode 73 release를 기존 키로 빌드했다. 기존 패키
 [실제 조사·판단·제외 기록](research/guidebooks/runs/20261029T0404-new.json)에 요청·최종 URL·원문 해시·게시일/수정일/확인일·판단을 구분해 남겼다. 새 사진·좌표·고정 요금·영업시간·방문 시각은 추가하지 않았다. 앱·Android 버전·서명키·iOS는 변경하지 않은 데이터 배포다. 기존 앱에서 설정 → 가이드북 → 목록 새로고침으로 선택해서 받을 수 있다.
 
 검증: 가이드북 빌드·재현 검사, SQLite/JSON 무결성·DB 검사 6개, 웹 빌드·자산 검사, 모바일 브라우저 검사 19개를 통과했다. 이번·직전 두 묶음 10개 도시의 선택 다운로드·재실행 후 오프라인 열람과 개인 기록 보존을 확인했다.
+
+공개 게시 확인: 목록·다운로드 본문 34개·DB 색인·SQLite 총 37개를 인증 없는 GET으로 확인해 HTTP 200·바이트·SHA-256이 모두 일치했다. [GitHub 자동 검증](https://github.com/rjs198426-lang/JIdo/actions/runs/40816883859)도 성공했다. [공개 전달 확인 기록](research/guidebooks/runs/20261029T0404-public-verification.json)을 보존한다.

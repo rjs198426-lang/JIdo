@@ -1335,9 +1335,21 @@
     "webBuild": "TypeScript/Vite/client-asset audit passed;235 assets;204 existing optimized photos;1 font;no admin/metadata",
     "priorFilesByteIdentical": 108,
     "initialBrowserStartupFailure": "Network-isolated shell could not start preview server; rerun with supported network permission passed.",
-    "latestMainCheck": "adba4bf;0 ahead/0 behind before final regeneration"
+    "latestMainCheck": "adba4bf;0 ahead/0 behind before final regeneration",
+    "githubActions": {
+      "status": "completed",
+      "conclusion": "success",
+      "headSha": "2b67f1059c2fa79dc4718ecb497690152e588164",
+      "url": "https://github.com/rjs198426-lang/JIdo/actions/runs/40816883859"
+    }
   },
   "publication": {
-    "status": "not-published"
-  }
+    "status": "verified",
+    "commit": "2b67f1059c2fa79dc4718ecb497690152e588164",
+    "publicFileCount": 37,
+    "httpBytesSha256": "all matched"
+  },
+  "publicationStatus": "verified",
+  "publicVerification": "research/guidebooks/runs/20261029T0404-public-verification.json",
+  "publishedSourceCommit": "2b67f1059c2fa79dc4718ecb497690152e588164"
 }
