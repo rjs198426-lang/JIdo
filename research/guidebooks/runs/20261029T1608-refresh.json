@@ -1105,7 +1105,10 @@
     "contentPublish": "not applicable: only bundled practical text changed, no city/place catalog change"
   },
   "publication": {
-    "status": "validated-ready-to-push",
+    "status": "published-and-verified",
+    "commit": "3b8735094d81c22af42660c7c677e3c3bacc14d6",
+    "verificationPath": "research/guidebooks/runs/20261029T1608-public-verification.json",
+    "filesVerified": 6,
     "appDelivery": "next Android release required for bundled practical text"
   },
   "remainingGuideIds": [

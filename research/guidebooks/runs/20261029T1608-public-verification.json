@@ -1,0 +1,48 @@
+{
+  "checkedAt": "2026-10-29T16:11:32.809937+00:00",
+  "commit": "3b8735094d81c22af42660c7c677e3c3bacc14d6",
+  "files": [
+    {
+      "path": "guidebook-database/index.json",
+      "http": 200,
+      "bytes": 27513,
+      "sha256": "d44e3ae6fb97f8fd1d241f402623094ec8bafe909039631bc6024d5da08d50f2",
+      "matchesLocal": true
+    },
+    {
+      "path": "guidebook-database/guides.sqlite",
+      "http": 200,
+      "bytes": 4157440,
+      "sha256": "7537701d4c760a5244765d1f13e61c42b787cc28f5889da85a5c79b572c43c9b",
+      "matchesLocal": true
+    },
+    {
+      "path": "guidebook-database/records/dubai.json",
+      "http": 200,
+      "bytes": 97100,
+      "sha256": "491411656f05c6c6cbc9fe259af94428e730114fe5b326c5a14b5b8310436438",
+      "matchesLocal": true
+    },
+    {
+      "path": "guidebook-database/records/hongkong.json",
+      "http": 200,
+      "bytes": 57991,
+      "sha256": "76b81bcc6bb78094fb2c33309bf1387f6d061bd34301db15f58947191431987d",
+      "matchesLocal": true
+    },
+    {
+      "path": "src/practical-guides.json",
+      "http": 200,
+      "bytes": 72713,
+      "sha256": "b396d362e01a43643a9d46b53c1524f92f96a9e1051e10149b1309933a5ac5d8",
+      "matchesLocal": true
+    },
+    {
+      "path": "guidebooks/manifest.json",
+      "http": 200,
+      "bytes": 20939,
+      "sha256": "30188433a2ef5676c42df7cceb81d0f36046225eabb7eb7413e781112f8e1530",
+      "matchesLocal": true
+    }
+  ]
+}
