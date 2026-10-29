@@ -24,6 +24,11 @@ const ids = [
   'book-hue',
   'book-langkawi',
   'book-penang',
+  'book-halong',
+  'book-pattaya',
+  'book-krabi',
+  'book-macau',
+  'book-taichung',
 ]
 test('researched city guide batches download one by one, render researched text offline, and preserve personal records', async ({
   page,

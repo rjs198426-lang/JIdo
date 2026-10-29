@@ -1,0 +1,175 @@
+{
+  "id": "book-halong",
+  "scope": "city",
+  "city": {
+    "id": "book-halong",
+    "name": "하롱",
+    "english": "Ha Long",
+    "country": "베트남",
+    "region": "동남아",
+    "image": "/images/guide-placeholder.svg",
+    "tagline": "석회암 섬 사이의 항해와 동굴·수상 생활 문화",
+    "description": "하롱은 바다 위 석회암 섬과 동굴을 배로 만나는 목적지입니다. 하노이 시내 관광과 달리 승선 부두·선박·운항 노선 선택이 여행의 중심입니다. 이 가이드는 하롱만 관리기관이 안내하는 하롱만 명소를 다루며 깟바·란하만이나 바이뜨롱만을 별도 신규 도시로 덧붙이지 않습니다. 같은 하롱 상품이라도 들르는 동굴과 선상 숙박 여부가 다르므로 장소 이름을 보고 선택하세요.",
+    "tags": [
+      "도시 산책",
+      "여행 준비"
+    ],
+    "flight": "항공편·운항일은 예약 시 항공사에서 확인",
+    "currency": "베트남 동 · VND",
+    "timeDifference": "한국보다 2시간 느림",
+    "timeZone": "Asia/Ho_Chi_Minh",
+    "season": "방문일의 비·더위·강풍과 시설 공지를 확인하고 야외 일정에 실내 대안을 준비하세요.",
+    "accent": "#e7f1ef"
+  },
+  "places": [
+    {
+      "id": "book-halong-sung-sot",
+      "cityId": "book-halong",
+      "name": "승솟 동굴",
+      "english": "Sung Sot Cave",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "보혼섬의 카르스트 동굴로 다양한 종유석과 석순이 만드는 내부 공간을 살펴보는 곳입니다.",
+      "address": "Bo Hon Island, Ha Long Bay",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "상품의 실제 기항지와 동굴 보행 부담을 확인하고 지형·석순에 손대지 마세요."
+    },
+    {
+      "id": "book-halong-luon",
+      "cityId": "book-halong",
+      "name": "루온 동굴",
+      "english": "Luon Cave",
+      "category": "체험",
+      "image": "/images/place-placeholder.svg",
+      "description": "바다와 절벽으로 둘러싸인 작은 호수를 잇는 물길로 작은 배나 카약을 이용하는 장소입니다.",
+      "address": "Bo Hon Island, Ha Long Bay",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "구명조끼를 착용하고 조수·기상 통제에 따르세요. 원숭이에게 먹이를 주지 마세요."
+    },
+    {
+      "id": "book-halong-me-cung",
+      "cityId": "book-halong",
+      "name": "메꿍 동굴",
+      "english": "Me Cung Grotto",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "옛 사람들의 생활 흔적과 석회암 지형·식생을 함께 이해하는 동굴 유산입니다.",
+      "address": "Ha Long Bay",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "일반 관람에서 볼 수 있는 구역과 배의 실제 방문 여부를 먼저 확인하세요."
+    },
+    {
+      "id": "book-halong-cua-van",
+      "cityId": "book-halong",
+      "name": "끄어반 수상 문화센터",
+      "english": "Cua Van Floating Cultural Center",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "바다에서 살던 어업 공동체의 도구·사진·생활 문화를 소개하는 수상 전시 공간입니다.",
+      "address": "Cua Van area, Ha Long Bay",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "공연·어업 체험이 항상 열리는 것은 아닙니다. 예약한 크루즈의 포함 활동을 확인하세요."
+    },
+    {
+      "id": "book-halong-tien-ong",
+      "cityId": "book-halong",
+      "name": "띠엔옹 동굴",
+      "english": "Tien Ong Cave",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "종유석·석순과 발굴된 선사 생활 흔적으로 자연과 인간의 역사를 함께 보는 동굴입니다.",
+      "address": "Ha Long Bay",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "끄어반 방면 노선의 실제 정박 여부를 확인하고 유물·자연 지형을 보존하세요."
+    }
+  ],
+  "sections": [
+    {
+      "id": "book-halong-overview",
+      "title": "도시 한눈에",
+      "body": "하롱은 바다 위 석회암 섬과 동굴을 배로 만나는 목적지입니다. 하노이 시내 관광과 달리 승선 부두·선박·운항 노선 선택이 여행의 중심입니다. 이 가이드는 하롱만 관리기관이 안내하는 하롱만 명소를 다루며 깟바·란하만이나 바이뜨롱만을 별도 신규 도시로 덧붙이지 않습니다. 같은 하롱 상품이라도 들르는 동굴과 선상 숙박 여부가 다르므로 장소 이름을 보고 선택하세요."
+    },
+    {
+      "id": "book-halong-before",
+      "title": "출발 전에 챙길 것",
+      "body": "여권·입국 요건은 국적·여행 목적과 경유지에 맞춰 출입국 당국에서 확인하세요. 통신·결제·보험과 항공권·숙소 예약의 오프라인 사본을 준비하세요. 크루즈 예약에서 승선 항구·체크인 마감·픽업 출발지·짐 보관·식사·활동·기상 취소 조건을 확인하세요. 동굴 관람용 미끄럽지 않은 신발과 물, 배에서 쓸 햇빛 차단·멀미 대비를 준비하세요. 관리기관의 2026년 점검 기사는 구명 장비·기상 경보·해상 비상 대응을 강조합니다. 맑은 날도 구명조끼와 승무원 지시를 따르세요."
+    },
+    {
+      "id": "book-halong-arrival",
+      "title": "공항과 시내 이동",
+      "body": "국가 관광청은 하노이에서 고속도로로 이동해 뚜언쩌우 또는 바이짜이 쪽 항구에서 승선하는 접근을 안내합니다. 공항에서 바로 합류할 때는 도착 공항과 픽업 가능 여부를 예약처에 먼저 확인하세요. 하노이 시내 픽업 상품이 공항 픽업도 포함하는 것은 아닙니다. 항공편 지연과 입국 수속을 고려해 승선 당일의 촉박한 연결을 피하세요. 이번에 공항별 직행 노선·정류장·운임까지 확인한 것은 아니므로 고정값을 넣지 않았습니다."
+    },
+    {
+      "id": "book-halong-stay",
+      "title": "숙소는 어느 동네에",
+      "body": "승선 전후 숙박은 뚜언쩌우와 바이짜이 중 예약한 부두에 접근하기 쉬운 권역을 먼저 비교하세요. 선상 숙박은 육상 숙소와 달리 운항 노선·객실 위치·식사·상륙 활동이 묶일 수 있습니다. 출항항과 귀항항, 픽업 포함 지역을 확인하면 숙소와 배를 따로 예약할 때의 혼동을 줄일 수 있습니다. 전망 사진만 보고 모든 객실에서 같은 풍경을 보장한다고 생각하지 마세요."
+    },
+    {
+      "id": "book-halong-food",
+      "title": "먹거리와 동네 쇼핑",
+      "body": "크루즈 식사는 포함된 끼니와 음료·추가 주문 범위를 먼저 확인하는 것이 편합니다. 해산물이나 생선 소스를 피해야 한다면 출항 전에 식단 변경 가능 여부를 물어보세요. 수상 문화센터는 어업 공동체의 도구와 생활 문화를 이해하는 곳이지 식사가 항상 제공되는 식당은 아닙니다. 육상 식당을 고를 때는 메뉴와 중량·조리비를 포함한 최종 금액을 확인하세요. 특정 음식점의 현행 메뉴나 가격을 검증한 추천 목록은 아닙니다."
+    },
+    {
+      "id": "book-halong-days",
+      "title": "처음 가는 3일 여행",
+      "body": "1일: 하롱 도착 → 승선 부두와 예약 확인 → 육상 숙소에서 휴식.\n\n2일: 예약 노선에 따라 승솟 동굴·루온 동굴·메꿍 동굴이 포함된 코스 또는 끄어반 문화센터·띠엔옹 동굴이 포함된 코스를 선택합니다. 이 다섯 곳을 한 번의 운항에서 모두 방문한다고 가정하지 않습니다.\n\n3일: 숙박 크루즈라면 하선과 귀환, 당일 크루즈를 탔다면 육상 휴식 후 이동. 날씨로 운항이 취소되면 별도 배를 무리하게 찾아 타지 말고 환불·대체 조건을 확인합니다.\n\n동선은 관심과 기상에 맞춰 고르는 편집 제안입니다. 자동 방문 시각이나 실제 지도 경로가 아니며 모든 곳을 방문할 필요는 없습니다."
+    },
+    {
+      "id": "book-halong-notes",
+      "title": "예약과 현장 팁",
+      "body": "루온 동굴은 작은 배나 카약으로 통과하는 수로여서 도보 동굴과 다릅니다. 조수·기상·운영 허가에 따라 활동이 달라집니다. 원숭이 관찰이나 전통 공연을 매일 보장하지 않습니다. 관리기관의 2026년 6월 기사는 소이심 해변을 향후 개발 준비 대상으로 설명하므로 상시 개방 해변으로 코스에 넣지 않았습니다. 최근 기사 목록의 날짜와 본문의 실제 수정일을 구분해 검토했습니다."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ha Long | Vietnam Tourism",
+      "url": "https://vietnam.travel/places-to-go/red-river-delta/ha-long/",
+      "accessedAt": "2026-10-29"
+    },
+    {
+      "title": "HA LONG BAY - A WORLD NATURAL HERITAGE SITE",
+      "url": "https://halongbay.com.vn/en",
+      "accessedAt": "2026-10-29"
+    },
+    {
+      "title": "Sung Sot Cave",
+      "url": "https://halongbay.com.vn/en/places/28-sung-sot-cave",
+      "accessedAt": "2026-10-29"
+    },
+    {
+      "title": "Luon Cave",
+      "url": "https://halongbay.com.vn/en/places/31-luon-cave",
+      "accessedAt": "2026-10-29"
+    },
+    {
+      "title": "Me Cung Grotto",
+      "url": "https://halongbay.com.vn/en/places/30-me-cung-grotto",
+      "accessedAt": "2026-10-29"
+    },
+    {
+      "title": "Cua Van Floating Cutural Center",
+      "url": "https://halongbay.com.vn/en/places/37-cua-van-floating-cutural-center",
+      "accessedAt": "2026-10-29"
+    },
+    {
+      "title": "Tien Ong Cave",
+      "url": "https://halongbay.com.vn/en/places/35-tien-ong-cave",
+      "accessedAt": "2026-10-29"
+    },
+    {
+      "title": "Stepping Up Inspections to Ensure Quality Tourist Services on Ha Long Bay During Peak Season",
+      "url": "https://halongbay.com.vn/en/p/917-tang-cuong-kiem-tra-dieu-kien-phuc-vu-du-khach-tren-vinh-ha-long-mua-cao-diem",
+      "accessedAt": "2026-10-29"
+    }
+  ],
+  "status": "published",
+  "requestId": null,
+  "createdAt": "2026-10-29T23:23:22.253Z",
+  "updatedAt": "2026-10-29T23:23:22.253Z",
+  "publishedAt": "2026-10-29T23:23:22.253Z"
+}

@@ -1,0 +1,157 @@
+{
+  "guide": {
+    "id": "book-krabi",
+    "scope": "city",
+    "city": {
+      "id": "book-krabi",
+      "name": "끄라비",
+      "english": "Krabi",
+      "country": "태국",
+      "region": "동남아",
+      "image": "/images/guide-placeholder.svg",
+      "tagline": "석회암 절벽 아래 해변과 끄라비 타운의 저녁",
+      "description": "끄라비는 석회암 절벽과 해변, 배로 연결되는 만을 함께 만나는 태국 남부 여행지입니다. 이 가이드는 아오낭·라일레이·놉파랏타라와 끄라비 타운 주변에 집중합니다. 피피섬이나 코란타를 별도 신규 도시로 덧붙이거나 푸껫 코스를 복제하지 않습니다. 해변 숙소에서 쉬는 날과 타운·사원 방문을 나누면 이동을 줄일 수 있습니다.",
+      "tags": [
+        "도시 산책",
+        "여행 준비"
+      ],
+      "flight": "항공편·운항일은 예약 시 항공사에서 확인",
+      "currency": "태국 바트 · THB",
+      "timeDifference": "한국보다 2시간 느림",
+      "timeZone": "Asia/Bangkok",
+      "season": "방문일의 비·더위·강풍과 시설 공지를 확인하고 야외 일정에 실내 대안을 준비하세요.",
+      "accent": "#e7f1ef"
+    },
+    "places": [
+      {
+        "id": "book-krabi-ao-nang",
+        "cityId": "book-krabi",
+        "name": "아오낭 해변",
+        "english": "Ao Nang Beach",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "석회암 경관과 해변 도로의 숙소·식당, 주변 해변으로 떠나는 보트가 모이는 권역입니다.",
+        "address": "Ao Nang, Krabi",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "보트 승하선 구역과 물놀이 구역을 구분하고 예약한 선착장을 확인하세요."
+      },
+      {
+        "id": "book-krabi-railay",
+        "cityId": "book-krabi",
+        "name": "라일레이 해변",
+        "english": "Railay Beach",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "석회암 절벽 아래 동쪽과 서쪽 해변의 분위기가 다른 보트 접근형 휴양지입니다.",
+        "address": "Railay, Krabi",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "차량 도착지와 보트 구간을 구분하고 기상에 따른 귀환편 변경에 대비하세요."
+      },
+      {
+        "id": "book-krabi-noppharat-thara",
+        "cityId": "book-krabi",
+        "name": "놉파랏타라 해변",
+        "english": "Noppharat Thara Beach",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "아오낭과 함께 해안 휴식을 계획할 수 있는 그늘과 해변 경관의 방문지입니다.",
+        "address": "Ao Nang area, Krabi",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "조수·기상·현장 통제에 따르고 드러난 모래길을 상시 건널 수 있다고 생각하지 마세요."
+      },
+      {
+        "id": "book-krabi-wat-tham-suea",
+        "cityId": "book-krabi",
+        "name": "왓탐쓰아",
+        "english": "Wat Tham Suea, Krabi",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "숲과 동굴의 사원 공간, 계단 위 전망 구역을 갖춘 끄라비의 불교 사찰입니다.",
+        "address": "Khao Kaeo, Krabi Noi, Krabi",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "정상까지 오르는 것은 선택입니다. 더위·건강·복장을 고려하고 예배 공간을 존중하세요."
+      },
+      {
+        "id": "book-krabi-chao-fah-market",
+        "cityId": "book-krabi",
+        "name": "차오파 부두 야시장",
+        "english": "Chao Fah Pier Night Market",
+        "category": "맛집",
+        "image": "/images/place-placeholder.svg",
+        "description": "끄라비 타운에서 여러 노점의 지역 먹거리를 둘러보고 골라 먹는 시장 구역입니다.",
+        "address": "Krabi Town",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "전체 시장이 한 식당은 아닙니다. 방문일 영업·가격·알레르기 재료를 가게별로 확인하세요."
+      }
+    ],
+    "sections": [
+      {
+        "id": "book-krabi-overview",
+        "title": "도시 한눈에",
+        "body": "끄라비는 석회암 절벽과 해변, 배로 연결되는 만을 함께 만나는 태국 남부 여행지입니다. 이 가이드는 아오낭·라일레이·놉파랏타라와 끄라비 타운 주변에 집중합니다. 피피섬이나 코란타를 별도 신규 도시로 덧붙이거나 푸껫 코스를 복제하지 않습니다. 해변 숙소에서 쉬는 날과 타운·사원 방문을 나누면 이동을 줄일 수 있습니다."
+      },
+      {
+        "id": "book-krabi-before",
+        "title": "출발 전에 챙길 것",
+        "body": "여권·입국 요건은 국적·여행 목적과 경유지에 맞춰 출입국 당국에서 확인하세요. 통신·결제·보험과 항공권·숙소 예약의 오프라인 사본을 준비하세요. 라일레이는 보트 접근이 필요한 해변이므로 도착·귀환 승선 장소와 짐 운반·기상 취소 조건을 확인하세요. 종교시설에는 단정한 복장, 해변에는 햇빛 차단, 계단과 젖은 바닥에는 미끄럽지 않은 신발을 준비하세요. 절벽을 보는 것과 암벽등반 참여는 다릅니다. 등반은 경험·장비·보험·전문 안내 조건을 확인한 경우에만 선택하세요."
+      },
+      {
+        "id": "book-krabi-arrival",
+        "title": "공항과 시내 이동",
+        "body": "공항 도착 후에는 예약한 숙소가 끄라비 타운인지 아오낭인지, 라일레이처럼 추가 보트가 필요한 곳인지 먼저 확인하세요. 픽업 예약에는 항공편·도착 출구·짐·지연 대응·최종 하차 장소를 알려 주세요. 이번 조사에서 끄라비 공항 공식 페이지는 503 오류로 상세 교통을 읽지 못해 특정 셔틀 노선·운임·운행 간격을 확정하지 않았습니다. 늦은 도착이라면 마지막 보트가 연결된다고 가정하지 말고 숙소와 대안을 정하세요."
+      },
+      {
+        "id": "book-krabi-stay",
+        "title": "숙소는 어느 동네에",
+        "body": "아오낭은 식당·상점과 보트 나들이를 함께 계획하기 쉬운 권역입니다. 라일레이는 절벽과 해변 중심 체류에 맞지만 육상 차량이 객실 앞까지 연결된다고 생각하면 안 됩니다. 끄라비 타운은 야시장과 도심 식사 중심으로 비교하고 해변 왕복은 별도로 잡으세요. 놉파랏타라 주변도 숙소의 실제 해변 접근과 선착장을 확인하세요. 특정 리조트의 등급·서비스를 검증한 추천 목록은 아닙니다."
+      },
+      {
+        "id": "book-krabi-food",
+        "title": "먹거리와 동네 쇼핑",
+        "body": "국가 관광청은 차오파 부두 야시장과 마하랏 워킹스트리트를 지역 식사를 만나는 장소로 소개합니다. 이번 장소 목록에는 차오파 야시장 구역을 넣되 하나의 식당이나 매일 모든 노점이 여는 장소로 표현하지 않습니다. 해산물·고기·육수·땅콩 등 알레르기 재료와 조리 방식을 확인하세요. 아오낭에는 여러 식당이 있어 보트 출발 전에 식사·물을 준비하기 좋지만 특정 가게의 영업시간은 방문일에 확인하세요."
+      },
+      {
+        "id": "book-krabi-days",
+        "title": "처음 가는 3일 여행",
+        "body": "1일: 도착 → 아오낭 또는 타운 숙소 → 가까운 곳에서 식사와 휴식. 타운에 있다면 차오파 야시장 구역을 선택합니다.\n\n2일: 보트 운영과 기상을 확인한 뒤 라일레이를 방문합니다. 바다 상태가 좋지 않으면 아오낭·놉파랏타라의 안전한 육상 구역에서 쉬고 물놀이를 생략합니다.\n\n3일: 왓탐쓰아 방문 또는 해변 휴식 중 하나를 선택합니다. 정상 계단 오르기는 필수가 아니며 출국 교통과 체력에 맞춰 줄이세요.\n\n동선은 관심과 기상에 맞춰 고르는 편집 제안입니다. 자동 방문 시각이나 실제 지도 경로가 아니며 모든 곳을 방문할 필요는 없습니다."
+      },
+      {
+        "id": "book-krabi-notes",
+        "title": "예약과 현장 팁",
+        "body": "왓탐쓰아는 끄라비노이의 숲·동굴 사원으로 다른 지역의 같은 이름 사원과 구분했습니다. 정상 전망 구역은 긴 계단이 있어 더위·건강 상태에 맞춰 선택하세요. 관광청 개요의 2019년 주변 기사와 오래된 보트 운임은 현재 운영 근거로 사용하지 않았습니다. 해변의 수영 가능 여부는 날씨·표지·현장 통제가 우선이며 직선 거리로 실제 보트 시간이나 차량 시간을 만들지 않았습니다."
+      }
+    ],
+    "sources": [
+      {
+        "title": "The official website of Tourism Authority of Thailand",
+        "url": "https://www.tourismthailand.org/Destinations/Provinces/Krabi/344",
+        "accessedAt": "2026-10-29"
+      },
+      {
+        "title": "Ao Nang",
+        "url": "https://www.tourismthailand.org/Attraction/ao-nang",
+        "accessedAt": "2026-10-29"
+      },
+      {
+        "title": "Railay Beach",
+        "url": "https://www.tourismthailand.org/Attraction/railay-beach",
+        "accessedAt": "2026-10-29"
+      },
+      {
+        "title": "Wat Tham Suea",
+        "url": "https://www.tourismthailand.org/Attraction/wat-tham-suea",
+        "accessedAt": "2026-10-29"
+      }
+    ],
+    "status": "published",
+    "requestId": null,
+    "createdAt": "2026-10-29T23:23:22.253Z",
+    "updatedAt": "2026-10-29T23:23:22.253Z",
+    "publishedAt": "2026-10-29T23:23:22.253Z"
+  }
+}

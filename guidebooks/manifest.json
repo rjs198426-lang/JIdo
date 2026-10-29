@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-29T17:11:22.801Z",
+  "updatedAt": "2026-10-29T23:23:22.253Z",
   "books": [
     {
       "id": "book-asahikawa",
@@ -125,6 +125,20 @@
       "file": "book-hakodate-5b0da6bd09d78a2d747fea742ce0baa606548a482a7db5a9e6818e8368de391e.json",
       "bytes": 10225,
       "updatedAt": "2026-10-29T11:14:56.783Z",
+      "minBuild": 73,
+      "placeCount": 5
+    },
+    {
+      "id": "book-halong",
+      "name": "하롱",
+      "english": "Ha Long",
+      "country": "베트남",
+      "summary": "석회암 섬 사이의 항해와 동굴·수상 생활 문화",
+      "region": "동남아",
+      "revision": "03a15b7966fa54e14f451f2fc08dee54351841b43e6415ef68f29c3d4805a79c",
+      "file": "book-halong-03a15b7966fa54e14f451f2fc08dee54351841b43e6415ef68f29c3d4805a79c.json",
+      "bytes": 10863,
+      "updatedAt": "2026-10-29T23:23:22.253Z",
       "minBuild": 73,
       "placeCount": 5
     },
@@ -255,6 +269,20 @@
       "placeCount": 6
     },
     {
+      "id": "book-krabi",
+      "name": "끄라비",
+      "english": "Krabi",
+      "country": "태국",
+      "summary": "석회암 절벽 아래 해변과 끄라비 타운의 저녁",
+      "region": "동남아",
+      "revision": "1df98bbf5c9f14b53d0d02a890eb0bc387ba91bf655928144cfe1b1d364af524",
+      "file": "book-krabi-1df98bbf5c9f14b53d0d02a890eb0bc387ba91bf655928144cfe1b1d364af524.json",
+      "bytes": 9963,
+      "updatedAt": "2026-10-29T23:23:22.253Z",
+      "minBuild": 73,
+      "placeCount": 5
+    },
+    {
       "id": "book-kualalumpur",
       "name": "쿠알라룸푸르",
       "english": "Kuala Lumpur",
@@ -323,6 +351,20 @@
       "updatedAt": "2026-10-28T05:07:12.733Z",
       "minBuild": 73,
       "placeCount": 6
+    },
+    {
+      "id": "book-macau",
+      "name": "마카오",
+      "english": "Macao",
+      "country": "마카오",
+      "summary": "광장과 사원, 동서 문화가 겹치는 역사 도심",
+      "region": "동아시아",
+      "revision": "c7370d62d437bd637017b4980c6d5a559baf1b1b5753feee1b2409adeaa3d3ff",
+      "file": "book-macau-c7370d62d437bd637017b4980c6d5a559baf1b1b5753feee1b2409adeaa3d3ff.json",
+      "bytes": 9625,
+      "updatedAt": "2026-10-29T23:23:22.253Z",
+      "minBuild": 73,
+      "placeCount": 5
     },
     {
       "id": "book-manila",
@@ -451,6 +493,20 @@
       "placeCount": 6
     },
     {
+      "id": "book-pattaya",
+      "name": "파타야",
+      "english": "Pattaya",
+      "country": "태국",
+      "summary": "해변 산책과 섬 나들이, 남쪽 정원으로 나눈 휴양",
+      "region": "동남아",
+      "revision": "871119f04bd2ffead1de042111ad94df82a12f98e0a3286028fa7765710998c9",
+      "file": "book-pattaya-871119f04bd2ffead1de042111ad94df82a12f98e0a3286028fa7765710998c9.json",
+      "bytes": 10350,
+      "updatedAt": "2026-10-29T23:23:22.253Z",
+      "minBuild": 73,
+      "placeCount": 5
+    },
+    {
       "id": "book-penang",
       "name": "페낭",
       "english": "Penang",
@@ -561,6 +617,20 @@
       "updatedAt": "2026-10-28T05:07:12.733Z",
       "minBuild": 73,
       "placeCount": 6
+    },
+    {
+      "id": "book-taichung",
+      "name": "타이중",
+      "english": "Taichung",
+      "country": "대만",
+      "summary": "옛 건물의 새 쓰임과 야시장, 해안 습지 여행",
+      "region": "동아시아",
+      "revision": "e9471d3ee251412b8f8549e257f0140f3e123e7120bb2725a259887ab584ebb2",
+      "file": "book-taichung-e9471d3ee251412b8f8549e257f0140f3e123e7120bb2725a259887ab584ebb2.json",
+      "bytes": 10657,
+      "updatedAt": "2026-10-29T23:23:22.253Z",
+      "minBuild": 73,
+      "placeCount": 5
     },
     {
       "id": "book-tainan",

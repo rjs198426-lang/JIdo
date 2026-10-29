@@ -374,6 +374,79 @@
         "https://www.mypenang.gov.my/"
       ],
       "evidencePath": "research/guidebooks/runs/20261029T1700-new.json"
+    },
+    {
+      "guideId": "book-halong",
+      "checkedAt": "2026-10-29",
+      "contentHash": "9ef14c6bb1a21fe1c29e01b2fd6055fa47b8035cc6fdaf8145bc84ebb157df31",
+      "result": "changed",
+      "urls": [
+        "https://vietnam.travel/places-to-go/red-river-delta/ha-long/",
+        "https://halongbay.com.vn/en",
+        "https://halongbay.com.vn/en/places/28-sung-sot-cave",
+        "https://halongbay.com.vn/en/places/31-luon-cave",
+        "https://halongbay.com.vn/en/places/30-me-cung-grotto",
+        "https://halongbay.com.vn/en/places/37-cua-van-floating-cutural-center",
+        "https://halongbay.com.vn/en/places/35-tien-ong-cave",
+        "https://halongbay.com.vn/en/p/917-tang-cuong-kiem-tra-dieu-kien-phuc-vu-du-khach-tren-vinh-ha-long-mua-cao-diem"
+      ],
+      "evidencePath": "research/guidebooks/runs/20261029T2305-new.json"
+    },
+    {
+      "guideId": "book-pattaya",
+      "checkedAt": "2026-10-29",
+      "contentHash": "2fa83d49636c4e3290254a93d9c508620726a2193d4d1c5b11559a207a054666",
+      "result": "changed",
+      "urls": [
+        "https://www.tourismthailand.org/Destinations/Provinces/Pattaya/469",
+        "https://www.tourismthailand.org/Attraction/pattaya-beach",
+        "https://www.tourismthailand.org/Attraction/ko-lan",
+        "https://www.tourismthailand.org/Attraction/jomtien-beach",
+        "https://www.nongnoochpattaya.com/en/",
+        "https://airportpattayabus.com/"
+      ],
+      "evidencePath": "research/guidebooks/runs/20261029T2305-new.json"
+    },
+    {
+      "guideId": "book-krabi",
+      "checkedAt": "2026-10-29",
+      "contentHash": "aeba3817596291390b6c2fcf8726efbd0ed8b3d4392a317e720df85cdeee95fd",
+      "result": "changed",
+      "urls": [
+        "https://www.tourismthailand.org/Destinations/Provinces/Krabi/344",
+        "https://www.tourismthailand.org/Attraction/ao-nang",
+        "https://www.tourismthailand.org/Attraction/railay-beach",
+        "https://www.tourismthailand.org/Attraction/wat-tham-suea"
+      ],
+      "evidencePath": "research/guidebooks/runs/20261029T2305-new.json"
+    },
+    {
+      "guideId": "book-macau",
+      "checkedAt": "2026-10-29",
+      "contentHash": "ad507f94d4e5e828eb42a48e108782718676bb4ce52041b7abec65614798bec8",
+      "result": "changed",
+      "urls": [
+        "https://www.macaotourism.gov.mo/en/sightseeing/macao-world-heritage",
+        "https://www.macaotourism.gov.mo/en/dining",
+        "https://www.macau-airport.com/en/transportation"
+      ],
+      "evidencePath": "research/guidebooks/runs/20261029T2305-new.json"
+    },
+    {
+      "guideId": "book-taichung",
+      "checkedAt": "2026-10-29",
+      "contentHash": "2fb56473ea99ba1c3da2e0dc86719357b7397013bcf9581780c77dcb3917ea9e",
+      "result": "changed",
+      "urls": [
+        "https://travel.taichung.gov.tw/en/traffic/gettinghere",
+        "https://travel.taichung.gov.tw/en/attractions/intro/850",
+        "https://travel.taichung.gov.tw/en/attractions/intro/886",
+        "https://travel.taichung.gov.tw/en/attractions/intro/1239",
+        "https://travel.taichung.gov.tw/en/attractions/intro/1222",
+        "https://www.npac-ntt.org/en/",
+        "https://www.npac-ntt.org/en/about/architecture/design"
+      ],
+      "evidencePath": "research/guidebooks/runs/20261029T2305-new.json"
     }
   ]
 }

@@ -1,0 +1,150 @@
+{
+  "id": "book-macau",
+  "scope": "city",
+  "city": {
+    "id": "book-macau",
+    "name": "마카오",
+    "english": "Macao",
+    "country": "마카오",
+    "region": "동아시아",
+    "image": "/images/guide-placeholder.svg",
+    "tagline": "광장과 사원, 동서 문화가 겹치는 역사 도심",
+    "description": "마카오는 중국과 포르투갈 문화가 골목·종교시설·광장·음식에 겹쳐 있는 여행지입니다. 이번 가이드는 마카오 반도의 역사 도심을 중심으로 구성합니다. 홍콩과는 다른 도착·입경 절차를 가진 별개 목적지이며 타이파·코타이를 다시 신규 도시로 세지 않습니다. 대형 리조트 체류와 유산 도보 여행은 숙소 선택과 이동 계획이 다릅니다.",
+    "tags": [
+      "도시 산책",
+      "여행 준비"
+    ],
+    "flight": "항공편·운항일은 예약 시 항공사에서 확인",
+    "currency": "마카오 파타카 · MOP",
+    "timeDifference": "한국보다 1시간 느림",
+    "timeZone": "Asia/Macau",
+    "season": "방문일의 비·더위·강풍과 시설 공지를 확인하고 야외 일정에 실내 대안을 준비하세요.",
+    "accent": "#e7f1ef"
+  },
+  "places": [
+    {
+      "id": "book-macau-a-ma",
+      "cityId": "book-macau",
+      "name": "아마 사원",
+      "english": "A-Ma Temple",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "마카오의 오래된 신앙과 전통 건축을 만나는 사원 유산입니다.",
+      "address": "Macao Peninsula",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "기도 공간의 복장·촬영 안내를 지키고 방문일 공개 구역을 확인하세요."
+    },
+    {
+      "id": "book-macau-mandarins-house",
+      "cityId": "book-macau",
+      "name": "정가대옥",
+      "english": "Mandarin’s House",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "문인 정관잉의 집으로 알려진 중국 전통 주거 유산으로 생활 공간과 건축을 살펴보는 곳입니다.",
+      "address": "Macao Peninsula",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "실내 공개·휴관과 촬영 규칙을 확인하고 주거 전시물에 손대지 마세요."
+    },
+    {
+      "id": "book-macau-senado",
+      "cityId": "book-macau",
+      "name": "세나도 광장",
+      "english": "Senado Square",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "도시의 중심 기능과 행사·생활이 오랫동안 이어진 역사 광장입니다.",
+      "address": "Macao historic centre",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "행사와 혼잡에 따라 통행이 달라질 수 있어 골목과 도로 횡단에 주의하세요."
+    },
+    {
+      "id": "book-macau-st-pauls",
+      "cityId": "book-macau",
+      "name": "성 바울 유적",
+      "english": "Ruins of St. Paul’s",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "화재 뒤 남은 옛 성모 교회의 정면과 대학 유구를 통해 마카오의 종교·교류 역사를 읽는 장소입니다.",
+      "address": "Macao historic centre",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "계단·외관 관람과 부속 전시의 공개 조건을 구분하세요."
+    },
+    {
+      "id": "book-macau-mount-fortress",
+      "cityId": "book-macau",
+      "name": "몬테 요새",
+      "english": "Mount Fortress",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "도시의 주요 군사 방어시설이었던 요새로 마카오의 항구 방어 역사를 이해하는 곳입니다.",
+      "address": "Macao historic centre",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "경사·더위에 맞춰 관람하고 요새와 박물관 입장 조건을 같은 것으로 생각하지 마세요."
+    }
+  ],
+  "sections": [
+    {
+      "id": "book-macau-overview",
+      "title": "도시 한눈에",
+      "body": "마카오는 중국과 포르투갈 문화가 골목·종교시설·광장·음식에 겹쳐 있는 여행지입니다. 이번 가이드는 마카오 반도의 역사 도심을 중심으로 구성합니다. 홍콩과는 다른 도착·입경 절차를 가진 별개 목적지이며 타이파·코타이를 다시 신규 도시로 세지 않습니다. 대형 리조트 체류와 유산 도보 여행은 숙소 선택과 이동 계획이 다릅니다."
+    },
+    {
+      "id": "book-macau-before",
+      "title": "출발 전에 챙길 것",
+      "body": "여권·입국 요건은 국적·여행 목적과 경유지에 맞춰 출입국 당국에서 확인하세요. 통신·결제·보험과 항공권·숙소 예약의 오프라인 사본을 준비하세요. 마카오만 방문하는지 홍콩·중국 본토를 함께 거치는지에 따라 각 구간의 서류와 이동 조건을 따로 확인하세요. 더위·비를 피할 준비와 돌길에서 걷기 편한 신발을 챙기세요. 관광청 목록에는 성 도미니크 성당과 돔 페드로 5세 극장이 임시 폐쇄로 표시되어 있어 실내 관람을 기본 코스에서 제외했습니다. 다른 유산도 방문일 공개 범위를 확인하세요."
+    },
+    {
+      "id": "book-macau-arrival",
+      "title": "공항과 시내 이동",
+      "body": "마카오 국제공항의 교통 안내는 대중교통·리무진·국경 간 연결을 구분합니다. 공항에 도착하면 숙소가 마카오 반도인지 타이파·코타이인지 먼저 확인하고 해당 목적지의 차량이나 대중교통을 선택하세요. 이번 조사에서 세부 노선·운임까지 확인한 것은 아니므로 번호와 시간을 고정하지 않았습니다. 홍콩에서 들어올 때는 이동수단의 출발 터미널·도착 지점과 별도 입경 절차를 확인하고 공항 도착과 같은 경로로 생각하지 마세요."
+    },
+    {
+      "id": "book-macau-stay",
+      "title": "숙소는 어느 동네에",
+      "body": "세나도 광장 등 반도 역사 도심에 가까운 숙소는 이번 유산 산책을 우선할 때 비교하기 좋습니다. 타이파·코타이 숙소를 선택하면 반도까지의 왕복과 마지막 귀환 교통을 따로 정하세요. 숙소 이름이나 리조트 규모만으로 무료 셔틀·짐 보관·특정 정류장 운행을 보장하지 마세요. 돌길·경사 구간을 오래 걷기 어려운 동행이 있으면 하차 지점과 휴식 장소를 먼저 확인하세요."
+    },
+    {
+      "id": "book-macau-food",
+      "title": "먹거리와 동네 쇼핑",
+      "body": "관광청은 마카니즈·포르투갈 음식, 중국식 딤섬과 여러 국제 음식이 공존하는 도시로 소개합니다. 한 끼는 마카니즈 또는 포르투갈 메뉴, 다른 끼니는 딤섬으로 나누면 식문화의 차이를 느끼기 좋습니다. 요리 이름만으로 육류·해산물·유제품·술 사용을 판단하지 말고 알레르기와 식단 요구를 알리세요. 관광청의 인증 식당 목록과 본인의 예약일 영업·메뉴는 별도로 확인해야 합니다."
+    },
+    {
+      "id": "book-macau-days",
+      "title": "처음 가는 3일 여행",
+      "body": "1일: 도착 → 숙소 → 세나도 광장 주변 산책과 식사.\n\n2일: 성 바울 유적의 외관과 계단 → 몬테 요새. 더위와 경사에 맞춰 쉬고 실내 전시는 별도 입장 조건을 확인합니다.\n\n3일: 아마 사원과 정가대옥을 중심으로 중국 전통 신앙·주거 문화를 살펴봅니다. 휴관·공개 구역이 맞지 않으면 한 곳만 방문하고 출발 교통을 우선하세요.\n\n동선은 관심과 기상에 맞춰 고르는 편집 제안입니다. 자동 방문 시각이나 실제 지도 경로가 아니며 모든 곳을 방문할 필요는 없습니다."
+    },
+    {
+      "id": "book-macau-notes",
+      "title": "예약과 현장 팁",
+      "body": "성 바울 유적은 온전한 옛 교회 실내가 아니라 화재 뒤 남은 정면과 관련 유구를 보는 장소입니다. 정가대옥은 주거 유산, 몬테 요새는 방어시설로 관람 성격이 다릅니다. 관광청의 일부 개별 상세 URL은 본문 대신 메뉴만 반환해 사실 근거로 쓰지 않고 실제 설명이 나온 세계유산 목록을 사용했습니다. 임시 폐쇄의 시작일·재개일은 확인되지 않아 추정하지 않았습니다."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Macao World Heritage - Macao Government Tourism Office",
+      "url": "https://www.macaotourism.gov.mo/en/sightseeing/macao-world-heritage",
+      "accessedAt": "2026-10-29"
+    },
+    {
+      "title": "Dining Out - Macao Government Tourism Office",
+      "url": "https://www.macaotourism.gov.mo/en/dining",
+      "accessedAt": "2026-10-29"
+    },
+    {
+      "title": "Macau International Airport",
+      "url": "https://www.macau-airport.com/en/transportation",
+      "accessedAt": "2026-10-29"
+    }
+  ],
+  "status": "published",
+  "requestId": null,
+  "createdAt": "2026-10-29T23:23:22.253Z",
+  "updatedAt": "2026-10-29T23:23:22.253Z",
+  "publishedAt": "2026-10-29T23:23:22.253Z"
+}

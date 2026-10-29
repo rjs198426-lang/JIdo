@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "description": "공개 여행 가이드만 수집한 데이터베이스. 개인 일정·사진·메모·기기 캐시는 포함하지 않음.",
-  "guideCount": 65,
-  "countryCount": 22,
-  "placeCount": 1310,
+  "guideCount": 70,
+  "countryCount": 23,
+  "placeCount": 1335,
   "origins": {
     "bundled": 21,
-    "downloadable": 44
+    "downloadable": 49
   },
   "guides": [
     {
@@ -164,6 +164,20 @@
       "sectionCount": 7
     },
     {
+      "id": "book-halong",
+      "name": "하롱",
+      "country": "베트남",
+      "origin": "downloadable",
+      "importedAt": "2026-10-29",
+      "sourceCheckedAt": "2026-10-29",
+      "latestSourceCheckedAt": "2026-10-29",
+      "lastReviewedAt": "2026-10-29",
+      "contentHash": "9ef14c6bb1a21fe1c29e01b2fd6055fa47b8035cc6fdaf8145bc84ebb157df31",
+      "file": "records/book-halong.json",
+      "placeCount": 5,
+      "sectionCount": 7
+    },
+    {
       "id": "book-hanoi",
       "name": "하노이",
       "country": "베트남",
@@ -290,6 +304,20 @@
       "sectionCount": 7
     },
     {
+      "id": "book-krabi",
+      "name": "끄라비",
+      "country": "태국",
+      "origin": "downloadable",
+      "importedAt": "2026-10-29",
+      "sourceCheckedAt": "2026-10-29",
+      "latestSourceCheckedAt": "2026-10-29",
+      "lastReviewedAt": "2026-10-29",
+      "contentHash": "aeba3817596291390b6c2fcf8726efbd0ed8b3d4392a317e720df85cdeee95fd",
+      "file": "records/book-krabi.json",
+      "placeCount": 5,
+      "sectionCount": 7
+    },
+    {
       "id": "book-kualalumpur",
       "name": "쿠알라룸푸르",
       "country": "말레이시아",
@@ -357,6 +385,20 @@
       "contentHash": "bee96dc2f5a6e7bd1cb6d86223b1a375d850f47ba0f916216493c440710547fb",
       "file": "records/book-losangeles.json",
       "placeCount": 6,
+      "sectionCount": 7
+    },
+    {
+      "id": "book-macau",
+      "name": "마카오",
+      "country": "마카오",
+      "origin": "downloadable",
+      "importedAt": "2026-10-29",
+      "sourceCheckedAt": "2026-10-29",
+      "latestSourceCheckedAt": "2026-10-29",
+      "lastReviewedAt": "2026-10-29",
+      "contentHash": "ad507f94d4e5e828eb42a48e108782718676bb4ce52041b7abec65614798bec8",
+      "file": "records/book-macau.json",
+      "placeCount": 5,
       "sectionCount": 7
     },
     {
@@ -486,6 +528,20 @@
       "sectionCount": 7
     },
     {
+      "id": "book-pattaya",
+      "name": "파타야",
+      "country": "태국",
+      "origin": "downloadable",
+      "importedAt": "2026-10-29",
+      "sourceCheckedAt": "2026-10-29",
+      "latestSourceCheckedAt": "2026-10-29",
+      "lastReviewedAt": "2026-10-29",
+      "contentHash": "2fa83d49636c4e3290254a93d9c508620726a2193d4d1c5b11559a207a054666",
+      "file": "records/book-pattaya.json",
+      "placeCount": 5,
+      "sectionCount": 7
+    },
+    {
       "id": "book-penang",
       "name": "페낭",
       "country": "말레이시아",
@@ -595,6 +651,20 @@
       "contentHash": "b865fdb7c9f444f067607082cee9c360e8d3a14c719beb93c45bec04243554ac",
       "file": "records/book-sydney.json",
       "placeCount": 6,
+      "sectionCount": 7
+    },
+    {
+      "id": "book-taichung",
+      "name": "타이중",
+      "country": "대만",
+      "origin": "downloadable",
+      "importedAt": "2026-10-29",
+      "sourceCheckedAt": "2026-10-29",
+      "latestSourceCheckedAt": "2026-10-29",
+      "lastReviewedAt": "2026-10-29",
+      "contentHash": "2fb56473ea99ba1c3da2e0dc86719357b7397013bcf9581780c77dcb3917ea9e",
+      "file": "records/book-taichung.json",
+      "placeCount": 5,
       "sectionCount": 7
     },
     {
