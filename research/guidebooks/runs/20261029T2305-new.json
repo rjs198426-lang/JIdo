@@ -1150,9 +1150,18 @@
       "viewport": "393x851",
       "privatePriorityAndSnapshotPreserved": true
     },
-    "prePublishMain": "Fetched latest origin/main; 0 ahead/0 behind; regenerated immutable manifest and DB, checks passed"
+    "prePublishMain": "Fetched latest origin/main; 0 ahead/0 behind; regenerated immutable manifest and DB, checks passed",
+    "githubGuidebookWorkflow": {
+      "id": 40973312062,
+      "conclusion": "success",
+      "url": "https://github.com/rjs198426-lang/JIdo/actions/runs/40973312062"
+    }
   },
   "publication": {
-    "status": "not-published"
+    "status": "verified",
+    "commit": "a59b9229f98b56ca2283bc3cf124b51810d7a0dc",
+    "verification": "research/guidebooks/runs/20261029T2305-public-verification.json",
+    "fileCount": 52,
+    "result": "HTTP200・bytes・SHA256 all match"
   }
 }

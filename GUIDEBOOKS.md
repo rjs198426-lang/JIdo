@@ -129,3 +129,5 @@ Android 0.72/versionCode 73 release를 기존 키로 빌드했다. 기존 패키
 [실제 원문·날짜·장소별 판단·보류 기록](research/guidebooks/runs/20261029T2305-new.json). 새 가이드는 설정 → 가이드북 → 목록 새로고침으로 선택해 받는다. Android APK·iOS·서명키는 변경하지 않는 데이터 배포다.
 
 검증: 가이드북/DB 빌드·일치 검사, DB 테스트6개, 웹 빌드·자산 검사, 모바일 브라우저19개 통과. 신규 포함25개 도시의 선택 다운로드·재시작 후 오프라인 본문·테스트용 개인기록 보존을 확인했다. 게시 직전 최신 main을 다시 확인하고 생성 산출물을 재생성해 검사했다.
+
+공개 게시 확인: main의 목록·49개 불변 본문·중앙 DB 색인·SQLite 총52개 파일을 인증 없는 GET으로 받아 HTTP200·바이트·SHA-256이 모두 일치했다. [가이드북 자동 검증](https://github.com/rjs198426-lang/JIdo/actions/runs/40973312062)도 성공했다. [공개 전달 확인 기록](research/guidebooks/runs/20261029T2305-public-verification.json)을 보존한다.
