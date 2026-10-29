@@ -1,0 +1,557 @@
+{
+  "schemaVersion": 1,
+  "mode": "refresh",
+  "startedAt": "2026-10-29T11:04:00Z",
+  "checkedAt": "2026-10-29T11:08:25.784756+00:00",
+  "baseCommit": "81e587a5f010e239d09ea6037e97320e42b67df5",
+  "databaseAtStart": {
+    "guides": 55,
+    "places": 1260,
+    "sqliteGuides": 55
+  },
+  "selectionCommand": "npm run guides:plan -- refresh",
+  "priority": [
+    {
+      "id": "bali",
+      "name": "발리",
+      "reviewPriorityDate": null
+    },
+    {
+      "id": "bangkok",
+      "name": "방콕",
+      "reviewPriorityDate": null
+    },
+    {
+      "id": "dubai",
+      "name": "두바이",
+      "reviewPriorityDate": null
+    },
+    {
+      "id": "guam",
+      "name": "괌",
+      "reviewPriorityDate": null
+    },
+    {
+      "id": "hongkong",
+      "name": "홍콩",
+      "reviewPriorityDate": null
+    },
+    {
+      "id": "maldives",
+      "name": "몰디브",
+      "reviewPriorityDate": null
+    },
+    {
+      "id": "saipan",
+      "name": "사이판",
+      "reviewPriorityDate": null
+    },
+    {
+      "id": "santorini",
+      "name": "산토리니",
+      "reviewPriorityDate": null
+    },
+    {
+      "id": "singapore",
+      "name": "싱가포르",
+      "reviewPriorityDate": null
+    },
+    {
+      "id": "taipei",
+      "name": "타이베이",
+      "reviewPriorityDate": null
+    },
+    {
+      "id": "danang",
+      "name": "다낭·호이안",
+      "reviewPriorityDate": "2026-10-15"
+    },
+    {
+      "id": "fukuoka",
+      "name": "후쿠오카",
+      "reviewPriorityDate": "2026-10-15"
+    },
+    {
+      "id": "hiroshima",
+      "name": "히로시마",
+      "reviewPriorityDate": "2026-10-15"
+    },
+    {
+      "id": "kobe",
+      "name": "고베",
+      "reviewPriorityDate": "2026-10-15"
+    },
+    {
+      "id": "kyoto",
+      "name": "교토",
+      "reviewPriorityDate": "2026-10-15"
+    },
+    {
+      "id": "nagoya",
+      "name": "나고야",
+      "reviewPriorityDate": "2026-10-15"
+    },
+    {
+      "id": "osaka",
+      "name": "오사카",
+      "reviewPriorityDate": "2026-10-15"
+    },
+    {
+      "id": "sapporo",
+      "name": "삿포로",
+      "reviewPriorityDate": "2026-10-15"
+    },
+    {
+      "id": "sendai",
+      "name": "센다이",
+      "reviewPriorityDate": "2026-10-15"
+    },
+    {
+      "id": "tokyo",
+      "name": "도쿄",
+      "reviewPriorityDate": "2026-10-15"
+    },
+    {
+      "id": "yokohama",
+      "name": "요코하마",
+      "reviewPriorityDate": "2026-10-15"
+    },
+    {
+      "id": "book-barcelona",
+      "name": "바르셀로나",
+      "reviewPriorityDate": "2026-10-28"
+    },
+    {
+      "id": "book-beijing",
+      "name": "베이징",
+      "reviewPriorityDate": "2026-10-28"
+    },
+    {
+      "id": "book-beppu",
+      "name": "벳푸",
+      "reviewPriorityDate": "2026-10-28"
+    },
+    {
+      "id": "book-bohol",
+      "name": "보홀·팡라오",
+      "reviewPriorityDate": "2026-10-28"
+    },
+    {
+      "id": "book-cebu",
+      "name": "세부·막탄",
+      "reviewPriorityDate": "2026-10-28"
+    },
+    {
+      "id": "book-chiangmai",
+      "name": "치앙마이",
+      "reviewPriorityDate": "2026-10-28"
+    },
+    {
+      "id": "book-hanoi",
+      "name": "하노이",
+      "reviewPriorityDate": "2026-10-28"
+    },
+    {
+      "id": "book-hochiminh",
+      "name": "호찌민",
+      "reviewPriorityDate": "2026-10-28"
+    },
+    {
+      "id": "book-honolulu",
+      "name": "호놀룰루·오아후",
+      "reviewPriorityDate": "2026-10-28"
+    },
+    {
+      "id": "book-kagoshima",
+      "name": "가고시마",
+      "reviewPriorityDate": "2026-10-28"
+    },
+    {
+      "id": "book-kaohsiung",
+      "name": "가오슝",
+      "reviewPriorityDate": "2026-10-28"
+    },
+    {
+      "id": "book-kotakinabalu",
+      "name": "코타키나발루",
+      "reviewPriorityDate": "2026-10-28"
+    },
+    {
+      "id": "book-kualalumpur",
+      "name": "쿠알라룸푸르",
+      "reviewPriorityDate": "2026-10-28"
+    },
+    {
+      "id": "book-kumamoto",
+      "name": "구마모토",
+      "reviewPriorityDate": "2026-10-28"
+    },
+    {
+      "id": "book-london",
+      "name": "런던",
+      "reviewPriorityDate": "2026-10-28"
+    },
+    {
+      "id": "book-losangeles",
+      "name": "로스앤젤레스",
+      "reviewPriorityDate": "2026-10-28"
+    },
+    {
+      "id": "book-nagasaki",
+      "name": "나가사키",
+      "reviewPriorityDate": "2026-10-28"
+    },
+    {
+      "id": "book-newyork",
+      "name": "뉴욕",
+      "reviewPriorityDate": "2026-10-28"
+    },
+    {
+      "id": "book-nhatrang",
+      "name": "나트랑",
+      "reviewPriorityDate": "2026-10-28"
+    },
+    {
+      "id": "book-okinawa",
+      "name": "오키나와·나하",
+      "reviewPriorityDate": "2026-10-28"
+    },
+    {
+      "id": "book-paris",
+      "name": "파리",
+      "reviewPriorityDate": "2026-10-28"
+    },
+    {
+      "id": "book-phuket",
+      "name": "푸껫",
+      "reviewPriorityDate": "2026-10-28"
+    },
+    {
+      "id": "book-phuquoc",
+      "name": "푸꾸옥",
+      "reviewPriorityDate": "2026-10-28"
+    },
+    {
+      "id": "book-prague",
+      "name": "프라하",
+      "reviewPriorityDate": "2026-10-28"
+    },
+    {
+      "id": "book-rome",
+      "name": "로마",
+      "reviewPriorityDate": "2026-10-28"
+    },
+    {
+      "id": "book-shanghai",
+      "name": "상하이",
+      "reviewPriorityDate": "2026-10-28"
+    },
+    {
+      "id": "book-sydney",
+      "name": "시드니",
+      "reviewPriorityDate": "2026-10-28"
+    },
+    {
+      "id": "book-tainan",
+      "name": "타이난",
+      "reviewPriorityDate": "2026-10-28"
+    },
+    {
+      "id": "book-yufuin",
+      "name": "유후인",
+      "reviewPriorityDate": "2026-10-28"
+    },
+    {
+      "id": "book-kanazawa",
+      "name": "가나자와",
+      "reviewPriorityDate": "2026-10-29"
+    },
+    {
+      "id": "book-matsuyama",
+      "name": "마쓰야마",
+      "reviewPriorityDate": "2026-10-29"
+    },
+    {
+      "id": "book-okayama",
+      "name": "오카야마",
+      "reviewPriorityDate": "2026-10-29"
+    },
+    {
+      "id": "book-takamatsu",
+      "name": "다카마쓰",
+      "reviewPriorityDate": "2026-10-29"
+    },
+    {
+      "id": "book-tottori",
+      "name": "돗토리",
+      "reviewPriorityDate": "2026-10-29"
+    }
+  ],
+  "scope": "미확인 내장 도시 중 변동이 큰 입국·신고 준비 항목을 발리·방콕·괌에서 우선 점검. 도시 전체 완료 아님.",
+  "cities": [
+    {
+      "guideId": "bali",
+      "result": "changed",
+      "reviewScope": "출발 전 입국·신고 준비 항목에 한정",
+      "wholeGuideComplete": false,
+      "changedFields": [
+        "before",
+        "sources",
+        "researchNote"
+      ],
+      "preservedFields": [
+        "city and place IDs",
+        "all places",
+        "photos and credits",
+        "coordinates",
+        "courses",
+        "plans",
+        "existing source dates"
+      ],
+      "remaining": "관광시설·교통·예약·코스·숙소 등 도시 전체 재검토 필요",
+      "contentHash": "c24935f0af337b62aefc8d954ebf7400f10cda73cc1ebdfa6a54e9faf72e7868"
+    },
+    {
+      "guideId": "bangkok",
+      "result": "changed",
+      "reviewScope": "출발 전 입국·신고 준비 항목에 한정",
+      "wholeGuideComplete": false,
+      "changedFields": [
+        "before",
+        "sources",
+        "researchNote"
+      ],
+      "preservedFields": [
+        "city and place IDs",
+        "all places",
+        "photos and credits",
+        "coordinates",
+        "courses",
+        "plans",
+        "existing source dates"
+      ],
+      "remaining": "관광시설·교통·예약·코스·숙소 등 도시 전체 재검토 필요",
+      "contentHash": "c313cb150f1dbbcdd30e5232ab6f7ae9d05a45a63e5964ea9d67879c82d94a54"
+    },
+    {
+      "guideId": "guam",
+      "result": "changed",
+      "reviewScope": "출발 전 입국·신고 준비 항목에 한정",
+      "wholeGuideComplete": false,
+      "changedFields": [
+        "before",
+        "sources",
+        "researchNote"
+      ],
+      "preservedFields": [
+        "city and place IDs",
+        "all places",
+        "photos and credits",
+        "coordinates",
+        "courses",
+        "plans",
+        "existing source dates"
+      ],
+      "remaining": "관광시설·교통·예약·코스·숙소 등 도시 전체 재검토 필요",
+      "contentHash": "eaa77ebe9a1522cebc98d61d5dfa1733c8610bc376c0174e141052b7dd5158c2"
+    }
+  ],
+  "counts": {
+    "citiesTouched": 3,
+    "changedCities": 3,
+    "unchangedCities": 0,
+    "blockedWholeGuideReviews": 3,
+    "wholeGuideCompleted": 0,
+    "untouchedExistingCities": 52,
+    "wholeGuidesStillPending": 55
+  },
+  "sources": [
+    {
+      "key": "bali-levy",
+      "requestedUrl": "https://lovebali.baliprov.go.id/",
+      "url": "https://lovebali.baliprov.go.id/",
+      "status": 200,
+      "title": "Welcome to Bali, the Island of Gods - Love Bali",
+      "checkedAt": "2026-10-29T11:04:25.782730+00:00",
+      "bytes": 357613,
+      "sha256": "a90d65c6c068ccb96a3ae9a971bac13485b8acbeb0b7b5c4beefa9c8c193c650",
+      "textLength": 27999,
+      "publicationDate": null,
+      "publicationDateBasis": "원문 게시일 확인 불명. 확인일·시행일·버전일·copyright와 구분",
+      "judgment": "정부 운영 도메인의 현재 결제액과 2025년 개정 규정 언급을 읽음. 페이지 게시일 미상. footer의 2024년 coming soon 문구와 2026년copyright를 게시일로 사용하지 않음.",
+      "used": true,
+      "deferredReason": null
+    },
+    {
+      "key": "indonesia-entry",
+      "requestedUrl": "https://allindonesia.imigrasi.go.id/",
+      "url": "https://allindonesia.imigrasi.go.id/",
+      "status": 200,
+      "title": "All Indonesia",
+      "checkedAt": "2026-10-29T11:04:25.783654+00:00",
+      "bytes": 471,
+      "sha256": "f59c521c99194b400f2d7ee8361bca66baaa49a7aaadb8d316605184b650ced4",
+      "textLength": 13,
+      "publicationDate": null,
+      "publicationDateBasis": "원문 게시일 확인 불명. 확인일·시행일·버전일·copyright와 구분",
+      "judgment": "200이나 JS 앱 껍데기만 확인. 실제 입국신고 절차·적용일 근거로 사용하지 않음.",
+      "used": false,
+      "deferredReason": "본문 미확인 또는 접근 실패"
+    },
+    {
+      "key": "thai-tdac",
+      "requestedUrl": "https://tdac.immigration.go.th/",
+      "url": "https://tdac.immigration.go.th/arrival-card/",
+      "status": 200,
+      "title": "Official Thailand Digital Arrival Card (TDAC) – No Fees Required",
+      "checkedAt": "2026-10-29T11:04:25.784220+00:00",
+      "bytes": 52009,
+      "sha256": "9da0b291b3eaa69f86773f575016272ddd5f7a6d898ed6043503e555de1501e4",
+      "textLength": 64,
+      "publicationDate": null,
+      "publicationDateBasis": "원문 게시일 확인 불명. 확인일·시행일·버전일·copyright와 구분",
+      "judgment": "공식 무료 사이트 제목·주소만 확인. JS 껍데기로 세부 의무·시점 검증했다고 표시하지 않음.",
+      "used": false,
+      "deferredReason": "본문 미확인 또는 접근 실패"
+    },
+    {
+      "key": "thai-tdac-manual",
+      "requestedUrl": "https://tdac.immigration.go.th/manual/en/",
+      "url": "https://tdac.immigration.go.th/manual/en/",
+      "status": 200,
+      "title": "Official Thailand Digital Arrival Card (TDAC) – No Fees Required",
+      "checkedAt": "2026-10-29T11:04:25.785141+00:00",
+      "bytes": 21339,
+      "sha256": "1b5a224fc522c9bf6f8f0ae1d1790d0ceaec52a1b8046c52d2238346e722056d",
+      "textLength": 6121,
+      "publicationDate": null,
+      "publicationDateBasis": "원문 게시일 확인 불명. 확인일·시행일·버전일·copyright와 구분",
+      "judgment": "실제 영문 사용법에서 준비 정보·QR 결과·비자와 구분 확인. 사용자 가이드1.21·앱2026.10.00은 버전이며 페이지 게시일 아님.",
+      "used": true,
+      "deferredReason": null
+    },
+    {
+      "key": "guam-eta",
+      "requestedUrl": "https://www.cbp.gov/travel/international-visitors/guam-cnmi-visa-waiver-program",
+      "status": 403,
+      "checkedAt": "2026-10-29T11:04:27.034541+00:00",
+      "error": "HTTP Error 403: Forbidden",
+      "publicationDate": null,
+      "publicationDateBasis": "원문 게시일 확인 불명. 확인일·시행일·버전일·copyright와 구분",
+      "judgment": "403 접근 실패. 우회하지 않음. CBP의 자격·승인 소요시간을 원문 검증했다고 쓰지 않음.",
+      "used": false,
+      "deferredReason": "본문 미확인 또는 접근 실패"
+    },
+    {
+      "key": "guam-tourism",
+      "requestedUrl": "https://www.visitguam.com/entry/",
+      "status": 404,
+      "checkedAt": "2026-10-29T11:04:27.558356+00:00",
+      "error": "HTTP Error 404: Not Found",
+      "publicationDate": null,
+      "publicationDateBasis": "원문 게시일 확인 불명. 확인일·시행일·버전일·copyright와 구분",
+      "judgment": "404. 실제 관광청 Entry Formalities 경로로 대체.",
+      "used": false,
+      "deferredReason": "본문 미확인 또는 접근 실패"
+    },
+    {
+      "key": "guam-entry",
+      "requestedUrl": "https://www.visitguam.com/about-guam/entry-and-exit-formalities/",
+      "url": "https://www.visitguam.com/about-guam/entry-and-exit-formalities/",
+      "status": 200,
+      "title": "Getting In and Out of Guam | Requirements & Formalities",
+      "checkedAt": "2026-10-29T11:05:47.147395+00:00",
+      "bytes": 275601,
+      "sha256": "b51a54047cae6028df0d0d4fddf806964b6f2eaca15044a0f71cdac7d4253b88",
+      "textLength": 13629,
+      "publicationDate": null,
+      "publicationDateBasis": "원문 게시일 확인 불명. 확인일·시행일·버전일·copyright와 구분",
+      "judgment": "괌 관광청 본문에서 ETA 프로그램 대상과 별도 EDF·72시간 전·2025-02-04 전자 방식 확인. 본문의 ETA2024-11-29는 시행일이며 페이지 게시일 아님. 본인 자격·경유·승인을 확정하지 않음.",
+      "used": true,
+      "deferredReason": null
+    },
+    {
+      "key": "bali-faq",
+      "requestedUrl": "https://lovebali.baliprov.go.id/faq",
+      "url": "https://lovebali.baliprov.go.id/faq",
+      "status": 200,
+      "title": "FAQ (frequently asked questions) -  Love Bali",
+      "checkedAt": "2026-10-29T11:05:47.148916+00:00",
+      "bytes": 106382,
+      "sha256": "62c49986dc33cc4036ddf3b6713e792f77e81d4dfb896790d981a2f48773c2e9",
+      "textLength": 6156,
+      "publicationDate": null,
+      "publicationDateBasis": "원문 게시일 확인 불명. 확인일·시행일·버전일·copyright와 구분",
+      "judgment": "현재 FAQ의 1인 Rp150000·면제 유형·공식 비현금 결제·이메일 QR 바우처와 2025년 관련 규정 확인. 면제 대상 전체를 앱에서 판정하지 않음.",
+      "used": true,
+      "deferredReason": null
+    },
+    {
+      "key": "thai-faq",
+      "requestedUrl": "https://tdac.immigration.go.th/manual/en/faq.html",
+      "url": "https://tdac.immigration.go.th/manual/en/faq.html",
+      "status": 200,
+      "title": "Official Thailand Digital Arrival Card (TDAC) – No Fees Required",
+      "checkedAt": "2026-10-29T11:07:09.062909+00:00",
+      "bytes": 68742,
+      "sha256": "6884dfce45e3f1a2cbba2c299a444695905cedc1baf21ac1fce027d6506cee18",
+      "textLength": 20852,
+      "publicationDate": null,
+      "publicationDateBasis": "원문 게시일 확인 불명. 확인일·시행일·버전일·copyright와 구분",
+      "judgment": "도착일 포함 도착 전3일 이내·어린이 포함·심사 통과 없는 환승/승무원 예외·무료·비자 아님·정정 절차를 본문에서 확인. 버전 변경내역은 2026.10.00 October15,2026이나 페이지 최초 게시일과 구분.",
+      "used": true,
+      "deferredReason": null
+    },
+    {
+      "key": "guam-customs",
+      "requestedUrl": "https://cqa.guam.gov/",
+      "url": "https://cqa.guam.gov/",
+      "status": 200,
+      "title": "CQA | Customs and Quarantine Agency",
+      "checkedAt": "2026-10-29T11:07:09.063817+00:00",
+      "bytes": 105187,
+      "sha256": "7d3e80ede657112b173b8fdd606acc842a7f48d5ed694e537da6aff0c274af4d",
+      "textLength": 3148,
+      "publicationDate": null,
+      "publicationDateBasis": "원문 게시일 확인 불명. 확인일·시행일·버전일·copyright와 구분",
+      "judgment": "실제 세관 공공 사이트와 공식 EDF 링크 확인. 게시일 미상. 정부 사이트 시간·항만 별도 공지를 여행자 신고의 새로운 날짜로 해석하지 않음.",
+      "used": true,
+      "deferredReason": null
+    },
+    {
+      "key": "guam-eta-portal",
+      "requestedUrl": "https://g-cnmi-eta.cbp.dhs.gov/",
+      "url": "https://g-cnmi-eta.cbp.dhs.gov/",
+      "status": 200,
+      "title": "Official G-CNMI ETA Application Website, U.S. Customs and Border Protection",
+      "checkedAt": "2026-10-29T11:07:09.064498+00:00",
+      "bytes": 7033,
+      "sha256": "a2b7a8a2cc76dc28abae84d36d3c01f3ceb12305a254adcd3cd3ac84b00a8e3c",
+      "textLength": 75,
+      "publicationDate": null,
+      "publicationDateBasis": "원문 게시일 확인 불명. 확인일·시행일·버전일·copyright와 구분",
+      "judgment": "공식 CBP ETA 도메인·제목만 확인, SPA 본문 부족. 자격 상세의 검증 근거로 사용하지 않음.",
+      "used": false,
+      "deferredReason": "본문 미확인 또는 접근 실패"
+    }
+  ],
+  "publication": {
+    "status": "not-published"
+  },
+  "validation": {
+    "contentPublish": "실행 시 기존 src/data와 이전 catalog의 차이로 sequence2가 생성됨. 이번 수정은 practical-guides뿐이고 cities/places 변경 없음. 이 작업에서 만든 catalog/manifest 변경만 되돌려 기존 공개 content를 그대로 보존. 실용 본문은 APK 전달이므로 content catalog로 전달되지 않음.",
+    "guidebooksBuild": "passed;34/194 unchanged",
+    "guidebooksCheck": "passed",
+    "databaseBuild": "passed;55/1260",
+    "databaseCheck": "passed",
+    "databaseTests": {
+      "passed": 6,
+      "failed": 0
+    },
+    "typescript": "passed",
+    "blockedNotReviewed": true
+  },
+  "photoDecision": "새 사진을 조사·복제하지 않음. 기존 사진·사진 출처 그대로 보존.",
+  "lastReviewedDecision": "세 도시 모두 부분 검토이므로 reviews에는 blocked로 범위와 사유를 남기고 도시 전체 lastReviewedAt을 올리지 않음. contentHash는 재생성 후 실제 현재 해시 사용.",
+  "appDelivery": "수정한 src/practical-guides.json은 APK 본문. 중앙DB에는 게시되지만 설치된 APK의 실용 본문은 다음 Android 배포 필요. 개인 가이드 우선순위·런타임 참조 코드는 변경하지 않음."
+}

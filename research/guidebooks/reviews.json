@@ -172,6 +172,39 @@
         "https://www.hokutetsu.co.jp/airport-bus"
       ],
       "evidencePath": "research/guidebooks/runs/20261029T0404-new.json"
+    },
+    {
+      "guideId": "bali",
+      "checkedAt": "2026-10-29",
+      "contentHash": "c24935f0af337b62aefc8d954ebf7400f10cda73cc1ebdfa6a54e9faf72e7868",
+      "result": "blocked",
+      "urls": [
+        "https://lovebali.baliprov.go.id/",
+        "https://lovebali.baliprov.go.id/faq"
+      ],
+      "evidencePath": "research/guidebooks/runs/20261029T1104-refresh.json"
+    },
+    {
+      "guideId": "bangkok",
+      "checkedAt": "2026-10-29",
+      "contentHash": "c313cb150f1dbbcdd30e5232ab6f7ae9d05a45a63e5964ea9d67879c82d94a54",
+      "result": "blocked",
+      "urls": [
+        "https://tdac.immigration.go.th/manual/en/",
+        "https://tdac.immigration.go.th/manual/en/faq.html"
+      ],
+      "evidencePath": "research/guidebooks/runs/20261029T1104-refresh.json"
+    },
+    {
+      "guideId": "guam",
+      "checkedAt": "2026-10-29",
+      "contentHash": "eaa77ebe9a1522cebc98d61d5dfa1733c8610bc376c0174e141052b7dd5158c2",
+      "result": "blocked",
+      "urls": [
+        "https://www.visitguam.com/about-guam/entry-and-exit-formalities/",
+        "https://cqa.guam.gov/"
+      ],
+      "evidencePath": "research/guidebooks/runs/20261029T1104-refresh.json"
     }
   ]
 }

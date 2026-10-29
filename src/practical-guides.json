@@ -805,7 +805,9 @@
     ],
     "before": [
       "체험·기사 차량은 포함 비용·대기 시간·입장료·취소 조건을 구분해 확인하세요.",
-      "울루와뚜 공연은 사원 입장과 공연 입장 조건을 따로 확인하세요."
+      "울루와뚜 공연은 사원 입장과 공연 입장 조건을 따로 확인하세요.",
+      "발리 주정부 Love Bali의 외국인 관광부담금은 2026-10-29 확인 기준 1인 Rp 150,000입니다. 면제 대상·신청 여부는 공식 FAQ에서 확인하고, 공식 Love Bali 결제 뒤 이메일로 받은 QR 바우처를 보관하세요. 환율·은행 수수료는 별도일 수 있습니다.",
+      "관광부담금 납부를 비자·입국 자격 확인으로 대신하지 마세요. 입국 신고·비자 요건은 국적·경로에 맞춰 인도네시아 출입국 당국에서 별도로 확인하세요."
     ],
     "pitfalls": [
       "남부 절벽·해변 세 곳을 모두 짧은 도보 동선으로 생각하지 마세요.",
@@ -842,9 +844,21 @@
         "url": "https://www.indonesia.travel/",
         "checkedAt": "2026-10-15",
         "status": "unavailable"
+      },
+      {
+        "title": "Welcome to Bali, the Island of Gods - Love Bali",
+        "url": "https://lovebali.baliprov.go.id/",
+        "checkedAt": "2026-10-29",
+        "status": "read"
+      },
+      {
+        "title": "FAQ (frequently asked questions) -  Love Bali",
+        "url": "https://lovebali.baliprov.go.id/faq",
+        "checkedAt": "2026-10-29",
+        "status": "read"
       }
     ],
-    "researchNote": "기존 내장 장소를 바탕으로 작성한 계획 제안입니다. 관광청 최신 교통·운영 조건은 본문 접근 제한으로 재확인하지 못했습니다."
+    "researchNote": "기존 내장 장소를 바탕으로 작성한 계획 제안입니다. 관광청 최신 교통·운영 조건은 본문 접근 제한으로 재확인하지 못했습니다. 2026-10-29에는 출발 전 입국·신고 준비 항목만 관련 공식 원문으로 보강했습니다. 모든 장소·교통·코스를 재검토한 것은 아니며 기존 미검증 범위는 남아 있습니다. 개별 장소 좌표·사진 출처·코스·메모는 변경하지 않았습니다."
   },
   {
     "cityId": "bangkok",
@@ -881,7 +895,9 @@
     ],
     "before": [
       "왕궁·사원은 복장과 당일 입장 공지를 확인하세요.",
-      "루프탑·체험·식당 예약은 최소 주문·포함 비용·취소 조건을 확인하세요."
+      "루프탑·체험·식당 예약은 최소 주문·포함 비용·취소 조건을 확인하세요.",
+      "태국 입국이 필요한 외국인 여행자는 출입국청 공식 TDAC 사이트에서 도착일을 포함한 도착 전 3일 이내에 디지털 입국신고를 준비하세요. 어린이도 대상이며, 출입국 심사를 통과하지 않는 환승·승무원 등 예외는 공식 FAQ에서 확인하세요.",
+      "TDAC는 무료이며 비자가 아닙니다. 여권·항공편·태국 숙소·이메일 정보를 준비하고 제출 후 QR 문서를 내려받아 보관하세요. 일정이나 숙소가 바뀌면 입국 전 수정·재제출 안내를 확인하세요."
     ],
     "pitfalls": [
       "시암 박물관은 시암 쇼핑 지구가 아니라 구시가지 쪽에 있습니다.",
@@ -918,9 +934,21 @@
         "url": "https://www.tourismthailand.org/",
         "checkedAt": "2026-10-15",
         "status": "unavailable"
+      },
+      {
+        "title": "Official Thailand Digital Arrival Card (TDAC) – No Fees Required",
+        "url": "https://tdac.immigration.go.th/manual/en/",
+        "checkedAt": "2026-10-29",
+        "status": "read"
+      },
+      {
+        "title": "Official Thailand Digital Arrival Card (TDAC) – No Fees Required",
+        "url": "https://tdac.immigration.go.th/manual/en/faq.html",
+        "checkedAt": "2026-10-29",
+        "status": "read"
       }
     ],
-    "researchNote": "기존 내장 장소를 바탕으로 작성한 계획 제안입니다. 관광청 최신 교통·운영 조건은 본문 접근 제한으로 재확인하지 못했습니다."
+    "researchNote": "기존 내장 장소를 바탕으로 작성한 계획 제안입니다. 관광청 최신 교통·운영 조건은 본문 접근 제한으로 재확인하지 못했습니다. 2026-10-29에는 출발 전 입국·신고 준비 항목만 관련 공식 원문으로 보강했습니다. 모든 장소·교통·코스를 재검토한 것은 아니며 기존 미검증 범위는 남아 있습니다. 개별 장소 좌표·사진 출처·코스·메모는 변경하지 않았습니다."
   },
   {
     "cityId": "santorini",
@@ -1486,7 +1514,9 @@
     ],
     "before": [
       "렌터카는 필요한 면허·보험·운전자 조건을 업체 원문에서 확인하세요.",
-      "해양 체험은 기상 취소·픽업·장비·동행자 참여 조건을 확인하세요."
+      "해양 체험은 기상 취소·픽업·장비·동행자 참여 조건을 확인하세요.",
+      "괌 관광청은 Guam-CNMI 무비자 프로그램을 이용하는 여행자에게 G-CNMI ETA 전자 신청을 안내합니다. 본인에게 적용되는 입국 방식과 경유 조건은 CBP 공식 사이트에서 확인하고, 이 안내만으로 무비자 자격이나 입국 승인을 확정하지 마세요.",
+      "괌 세관신고 EDF는 입국허가 ETA와 별도입니다. 관광청 안내상 도착 72시간 전부터 작성할 수 있으며 2025-02-04부터 전자 방식입니다. 공식 괌 세관 사이트에서 양식을 열고 QR 등 제출 결과를 보관하세요. 기기·통신 문제가 있으면 공항의 담당 직원에게 문의하세요."
     ],
     "pitfalls": [
       "리티디안 등 접근 조건이 있는 곳은 당일 개방과 도로 공지를 확인하세요.",
@@ -1522,9 +1552,21 @@
         "url": "https://www.visitguam.com/",
         "checkedAt": "2026-10-15",
         "status": "unavailable"
+      },
+      {
+        "title": "Getting In and Out of Guam | Requirements & Formalities",
+        "url": "https://www.visitguam.com/about-guam/entry-and-exit-formalities/",
+        "checkedAt": "2026-10-29",
+        "status": "read"
+      },
+      {
+        "title": "CQA | Customs and Quarantine Agency",
+        "url": "https://cqa.guam.gov/",
+        "checkedAt": "2026-10-29",
+        "status": "read"
       }
     ],
-    "researchNote": "기존 내장 장소를 바탕으로 작성한 계획 제안입니다. 관광청 최신 교통·운영 조건은 본문 접근 제한으로 재확인하지 못했습니다. 내장 장소의 정확한 좌표와 원문 근거는 아직 미검증입니다."
+    "researchNote": "기존 내장 장소를 바탕으로 작성한 계획 제안입니다. 관광청 최신 교통·운영 조건은 본문 접근 제한으로 재확인하지 못했습니다. 내장 장소의 정확한 좌표와 원문 근거는 아직 미검증입니다. 2026-10-29에는 출발 전 입국·신고 준비 항목만 관련 공식 원문으로 보강했습니다. 모든 장소·교통·코스를 재검토한 것은 아니며 기존 미검증 범위는 남아 있습니다. 개별 장소 좌표·사진 출처·코스·메모는 변경하지 않았습니다."
   },
   {
     "cityId": "saipan",

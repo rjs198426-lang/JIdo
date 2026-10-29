@@ -1700,7 +1700,7 @@
       {
         "id": "bali-before",
         "title": "출발 전 준비",
-        "body": "체험·기사 차량은 포함 비용·대기 시간·입장료·취소 조건을 구분해 확인하세요.\n\n울루와뚜 공연은 사원 입장과 공연 입장 조건을 따로 확인하세요."
+        "body": "체험·기사 차량은 포함 비용·대기 시간·입장료·취소 조건을 구분해 확인하세요.\n\n울루와뚜 공연은 사원 입장과 공연 입장 조건을 따로 확인하세요.\n\n발리 주정부 Love Bali의 외국인 관광부담금은 2026-10-29 확인 기준 1인 Rp 150,000입니다. 면제 대상·신청 여부는 공식 FAQ에서 확인하고, 공식 Love Bali 결제 뒤 이메일로 받은 QR 바우처를 보관하세요. 환율·은행 수수료는 별도일 수 있습니다.\n\n관광부담금 납부를 비자·입국 자격 확인으로 대신하지 마세요. 입국 신고·비자 요건은 국적·경로에 맞춰 인도네시아 출입국 당국에서 별도로 확인하세요."
       },
       {
         "id": "bali-arrival",
@@ -1728,12 +1728,23 @@
         "body": "우붓의 미술관·실내 체험 또는 숙소 휴식으로 줄이세요. 장거리 차량 이동을 더 늘리는 대안은 피하세요."
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "title": "Welcome to Bali, the Island of Gods - Love Bali",
+        "url": "https://lovebali.baliprov.go.id/",
+        "accessedAt": "2026-10-29"
+      },
+      {
+        "title": "FAQ (frequently asked questions) -  Love Bali",
+        "url": "https://lovebali.baliprov.go.id/faq",
+        "accessedAt": "2026-10-29"
+      }
+    ],
     "status": "published",
     "requestId": null,
-    "createdAt": "2026-10-28T00:00:00.000Z",
-    "updatedAt": "2026-10-28T00:00:00.000Z",
-    "publishedAt": "2026-10-28T00:00:00.000Z"
+    "createdAt": "2026-10-29T00:00:00.000Z",
+    "updatedAt": "2026-10-29T00:00:00.000Z",
+    "publishedAt": "2026-10-29T00:00:00.000Z"
   },
   "practicalGuide": {
     "cityId": "bali",
@@ -1770,7 +1781,9 @@
     ],
     "before": [
       "체험·기사 차량은 포함 비용·대기 시간·입장료·취소 조건을 구분해 확인하세요.",
-      "울루와뚜 공연은 사원 입장과 공연 입장 조건을 따로 확인하세요."
+      "울루와뚜 공연은 사원 입장과 공연 입장 조건을 따로 확인하세요.",
+      "발리 주정부 Love Bali의 외국인 관광부담금은 2026-10-29 확인 기준 1인 Rp 150,000입니다. 면제 대상·신청 여부는 공식 FAQ에서 확인하고, 공식 Love Bali 결제 뒤 이메일로 받은 QR 바우처를 보관하세요. 환율·은행 수수료는 별도일 수 있습니다.",
+      "관광부담금 납부를 비자·입국 자격 확인으로 대신하지 마세요. 입국 신고·비자 요건은 국적·경로에 맞춰 인도네시아 출입국 당국에서 별도로 확인하세요."
     ],
     "pitfalls": [
       "남부 절벽·해변 세 곳을 모두 짧은 도보 동선으로 생각하지 마세요.",
@@ -1807,9 +1820,21 @@
         "url": "https://www.indonesia.travel/",
         "checkedAt": "2026-10-15",
         "status": "unavailable"
+      },
+      {
+        "title": "Welcome to Bali, the Island of Gods - Love Bali",
+        "url": "https://lovebali.baliprov.go.id/",
+        "checkedAt": "2026-10-29",
+        "status": "read"
+      },
+      {
+        "title": "FAQ (frequently asked questions) -  Love Bali",
+        "url": "https://lovebali.baliprov.go.id/faq",
+        "checkedAt": "2026-10-29",
+        "status": "read"
       }
     ],
-    "researchNote": "기존 내장 장소를 바탕으로 작성한 계획 제안입니다. 관광청 최신 교통·운영 조건은 본문 접근 제한으로 재확인하지 못했습니다."
+    "researchNote": "기존 내장 장소를 바탕으로 작성한 계획 제안입니다. 관광청 최신 교통·운영 조건은 본문 접근 제한으로 재확인하지 못했습니다. 2026-10-29에는 출발 전 입국·신고 준비 항목만 관련 공식 원문으로 보강했습니다. 모든 장소·교통·코스를 재검토한 것은 아니며 기존 미검증 범위는 남아 있습니다. 개별 장소 좌표·사진 출처·코스·메모는 변경하지 않았습니다."
   },
   "plans": {
     "cityId": "bali",

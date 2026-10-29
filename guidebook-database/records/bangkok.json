@@ -1790,7 +1790,7 @@
       {
         "id": "bangkok-before",
         "title": "출발 전 준비",
-        "body": "왕궁·사원은 복장과 당일 입장 공지를 확인하세요.\n\n루프탑·체험·식당 예약은 최소 주문·포함 비용·취소 조건을 확인하세요."
+        "body": "왕궁·사원은 복장과 당일 입장 공지를 확인하세요.\n\n루프탑·체험·식당 예약은 최소 주문·포함 비용·취소 조건을 확인하세요.\n\n태국 입국이 필요한 외국인 여행자는 출입국청 공식 TDAC 사이트에서 도착일을 포함한 도착 전 3일 이내에 디지털 입국신고를 준비하세요. 어린이도 대상이며, 출입국 심사를 통과하지 않는 환승·승무원 등 예외는 공식 FAQ에서 확인하세요.\n\nTDAC는 무료이며 비자가 아닙니다. 여권·항공편·태국 숙소·이메일 정보를 준비하고 제출 후 QR 문서를 내려받아 보관하세요. 일정이나 숙소가 바뀌면 입국 전 수정·재제출 안내를 확인하세요."
       },
       {
         "id": "bangkok-arrival",
@@ -1818,12 +1818,23 @@
         "body": "방콕 예술문화센터·짐 톰슨 하우스 등 한 구역의 실내 관람으로 줄이고 운영일을 확인하세요."
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "title": "Official Thailand Digital Arrival Card (TDAC) – No Fees Required",
+        "url": "https://tdac.immigration.go.th/manual/en/",
+        "accessedAt": "2026-10-29"
+      },
+      {
+        "title": "Official Thailand Digital Arrival Card (TDAC) – No Fees Required",
+        "url": "https://tdac.immigration.go.th/manual/en/faq.html",
+        "accessedAt": "2026-10-29"
+      }
+    ],
     "status": "published",
     "requestId": null,
-    "createdAt": "2026-10-28T00:00:00.000Z",
-    "updatedAt": "2026-10-28T00:00:00.000Z",
-    "publishedAt": "2026-10-28T00:00:00.000Z"
+    "createdAt": "2026-10-29T00:00:00.000Z",
+    "updatedAt": "2026-10-29T00:00:00.000Z",
+    "publishedAt": "2026-10-29T00:00:00.000Z"
   },
   "practicalGuide": {
     "cityId": "bangkok",
@@ -1860,7 +1871,9 @@
     ],
     "before": [
       "왕궁·사원은 복장과 당일 입장 공지를 확인하세요.",
-      "루프탑·체험·식당 예약은 최소 주문·포함 비용·취소 조건을 확인하세요."
+      "루프탑·체험·식당 예약은 최소 주문·포함 비용·취소 조건을 확인하세요.",
+      "태국 입국이 필요한 외국인 여행자는 출입국청 공식 TDAC 사이트에서 도착일을 포함한 도착 전 3일 이내에 디지털 입국신고를 준비하세요. 어린이도 대상이며, 출입국 심사를 통과하지 않는 환승·승무원 등 예외는 공식 FAQ에서 확인하세요.",
+      "TDAC는 무료이며 비자가 아닙니다. 여권·항공편·태국 숙소·이메일 정보를 준비하고 제출 후 QR 문서를 내려받아 보관하세요. 일정이나 숙소가 바뀌면 입국 전 수정·재제출 안내를 확인하세요."
     ],
     "pitfalls": [
       "시암 박물관은 시암 쇼핑 지구가 아니라 구시가지 쪽에 있습니다.",
@@ -1897,9 +1910,21 @@
         "url": "https://www.tourismthailand.org/",
         "checkedAt": "2026-10-15",
         "status": "unavailable"
+      },
+      {
+        "title": "Official Thailand Digital Arrival Card (TDAC) – No Fees Required",
+        "url": "https://tdac.immigration.go.th/manual/en/",
+        "checkedAt": "2026-10-29",
+        "status": "read"
+      },
+      {
+        "title": "Official Thailand Digital Arrival Card (TDAC) – No Fees Required",
+        "url": "https://tdac.immigration.go.th/manual/en/faq.html",
+        "checkedAt": "2026-10-29",
+        "status": "read"
       }
     ],
-    "researchNote": "기존 내장 장소를 바탕으로 작성한 계획 제안입니다. 관광청 최신 교통·운영 조건은 본문 접근 제한으로 재확인하지 못했습니다."
+    "researchNote": "기존 내장 장소를 바탕으로 작성한 계획 제안입니다. 관광청 최신 교통·운영 조건은 본문 접근 제한으로 재확인하지 못했습니다. 2026-10-29에는 출발 전 입국·신고 준비 항목만 관련 공식 원문으로 보강했습니다. 모든 장소·교통·코스를 재검토한 것은 아니며 기존 미검증 범위는 남아 있습니다. 개별 장소 좌표·사진 출처·코스·메모는 변경하지 않았습니다."
   },
   "plans": {
     "cityId": "bangkok",
