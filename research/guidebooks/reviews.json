@@ -275,6 +275,27 @@
         "https://vietnam.travel/things-to-do/eating-dalat-chef-peter/"
       ],
       "evidencePath": "research/guidebooks/runs/20261029T1102-new.json"
+    },
+    {
+      "guideId": "dubai",
+      "checkedAt": "2026-10-29",
+      "contentHash": "491411656f05c6c6cbc9fe259af94428e730114fe5b326c5a14b5b8310436438",
+      "result": "blocked",
+      "urls": [
+        "https://dubaiairports.ae/transport/metro"
+      ],
+      "evidencePath": "research/guidebooks/runs/20261029T1608-refresh.json"
+    },
+    {
+      "guideId": "hongkong",
+      "checkedAt": "2026-10-29",
+      "contentHash": "76b81bcc6bb78094fb2c33309bf1387f6d061bd34301db15f58947191431987d",
+      "result": "blocked",
+      "urls": [
+        "https://www.immd.gov.hk/eng/services/visas/visit-transit/visit-visa-entry-permit.html",
+        "https://www.mtr.com.hk/en/customer/services/complom_checkin.html"
+      ],
+      "evidencePath": "research/guidebooks/runs/20261029T1608-refresh.json"
     }
   ]
 }

@@ -1041,11 +1041,15 @@
     "arrival": [
       {
         "name": "공항에서 숙소",
-        "advice": "도착 공항·터미널과 메트로·공식 차량 접근을 확인하세요."
+        "advice": "항공권의 공항 코드와 터미널부터 확인하세요. DXB의 메트로 레드라인은 1·3터미널에 연결됩니다. DWC는 같은 공항이 아니며 메트로역에서 버스·택시 등 별도 연계 이동이 필요합니다. 늦은 도착은 해당 날짜 RTA 운행 시간과 숙소까지의 마지막 이동을 확인하세요."
       },
       {
         "name": "야외·도심 이동",
         "advice": "냉방이 되는 이동·실내 방문을 중간에 두고, 도로를 건널 수 있는 실제 경로를 확인하세요."
+      },
+      {
+        "name": "공항철도와 짐",
+        "advice": "DXB 안내는 기내 수하물을 포함해 짐 두 개까지를 안내합니다. 크기·무게 제한은 RTA에서 별도로 확인하고, 큰 짐이나 여러 개의 짐이 있으면 공식 차량과 비교하세요. 운행 시간이 매일 같거나 24시간이라고 가정하지 마세요."
       }
     ],
     "timePlan": [
@@ -1097,9 +1101,15 @@
         "url": "https://www.visitdubai.com/",
         "checkedAt": "2026-10-15",
         "status": "unavailable"
+      },
+      {
+        "title": "Dubai Metro at DXB | Travel to & from Dubai International Airport",
+        "url": "https://dubaiairports.ae/transport/metro",
+        "checkedAt": "2026-10-29",
+        "status": "read"
       }
     ],
-    "researchNote": "기존 내장 장소를 바탕으로 작성한 계획 제안입니다. 관광청 최신 교통·운영 조건은 본문 접근 제한으로 재확인하지 못했습니다."
+    "researchNote": "기존 내장 장소를 바탕으로 작성한 계획 제안입니다. 관광청 최신 교통·운영 조건은 본문 접근 제한으로 재확인하지 못했습니다. 2026-10-29 공식 공항·운영사·출입국 원문 중 확인 가능한 준비·교통 항목만 보강했습니다. 기존 장소 전체의 운영·예약·코스는 미검토이며 도시 전체 최신 검토로 계산하지 않습니다."
   },
   {
     "cityId": "maldives",
@@ -1272,6 +1282,10 @@
       {
         "name": "항구 건너기",
         "advice": "MTR과 페리를 목적지·날씨에 맞게 선택하고 밤 귀환편을 확인하세요."
+      },
+      {
+        "name": "귀국일 도심 체크인",
+        "advice": "홍콩역·카오룽역 도심 체크인은 Airport Express 이용객 중 지정 항공사가 실제 운항하는 항공편과 유효한 전자 여행서류 소지자 대상입니다. 다른 항공사가 운항하는 공동운항편은 제외될 수 있고 역마다 참여 항공사가 다릅니다. MTR은 항공사 서비스 시간 안에서 출발 24시간 전부터 90분 전까지를 안내하므로 실제 항공사·역·수하물 조건을 먼저 확인하세요. 조건에 맞지 않으면 공항에서 체크인하세요."
       }
     ],
     "timePlan": [
@@ -1286,7 +1300,8 @@
     ],
     "before": [
       "디즈니랜드·전망 시설·케이블카는 방문일 운영과 입장권 조건을 확인하세요.",
-      "태풍·호우 때 교통과 시설 공지를 확인할 경로를 준비하세요."
+      "태풍·호우 때 교통과 시설 공지를 확인할 경로를 준비하세요.",
+      "홍콩 입경사무처의 2026년 8월 갱신 안내는 대한민국 국적의 방문 무비자 기간을 최대 90일로 표시합니다. 체류비와 귀국·다음 목적지 항공권 등 조건을 함께 확인하세요. 여권 종류·방문 목적에 따라 요건이 달라질 수 있으며 무비자가 입국 승인을 보장하지 않습니다."
     ],
     "pitfalls": [
       "에스컬레이터가 있다고 모든 언덕 이동이 편한 것은 아닙니다.",
@@ -1323,9 +1338,21 @@
         "url": "https://www.discoverhongkong.com/",
         "checkedAt": "2026-10-15",
         "status": "unavailable"
+      },
+      {
+        "title": "Visit Visa / Entry Permit Requirements for the Hong Kong Special Administrative Region | Immigration Department",
+        "url": "https://www.immd.gov.hk/eng/services/visas/visit-transit/visit-visa-entry-permit.html",
+        "checkedAt": "2026-10-29",
+        "status": "read"
+      },
+      {
+        "title": "MTR > Privileges and Complimentary Service",
+        "url": "https://www.mtr.com.hk/en/customer/services/complom_checkin.html",
+        "checkedAt": "2026-10-29",
+        "status": "read"
       }
     ],
-    "researchNote": "기존 내장 장소를 바탕으로 작성한 계획 제안입니다. 관광청 최신 교통·운영 조건은 본문 접근 제한으로 재확인하지 못했습니다. 장소 목록은 2016년 보관본 기반이며 현재 운영은 별도 확인해야 합니다."
+    "researchNote": "기존 내장 장소를 바탕으로 작성한 계획 제안입니다. 관광청 최신 교통·운영 조건은 본문 접근 제한으로 재확인하지 못했습니다. 장소 목록은 2016년 보관본 기반이며 현재 운영은 별도 확인해야 합니다. 2026-10-29 공식 공항·운영사·출입국 원문 중 확인 가능한 준비·교통 항목만 보강했습니다. 기존 장소 전체의 운영·예약·코스는 미검토이며 도시 전체 최신 검토로 계산하지 않습니다."
   },
   {
     "cityId": "singapore",

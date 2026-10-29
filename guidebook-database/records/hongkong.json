@@ -898,12 +898,12 @@
       {
         "id": "hongkong-before",
         "title": "출발 전 준비",
-        "body": "디즈니랜드·전망 시설·케이블카는 방문일 운영과 입장권 조건을 확인하세요.\n\n태풍·호우 때 교통과 시설 공지를 확인할 경로를 준비하세요."
+        "body": "디즈니랜드·전망 시설·케이블카는 방문일 운영과 입장권 조건을 확인하세요.\n\n태풍·호우 때 교통과 시설 공지를 확인할 경로를 준비하세요.\n\n홍콩 입경사무처의 2026년 8월 갱신 안내는 대한민국 국적의 방문 무비자 기간을 최대 90일로 표시합니다. 체류비와 귀국·다음 목적지 항공권 등 조건을 함께 확인하세요. 여권 종류·방문 목적에 따라 요건이 달라질 수 있으며 무비자가 입국 승인을 보장하지 않습니다."
       },
       {
         "id": "hongkong-arrival",
         "title": "공항과 시내 이동",
-        "body": "공항에서 숙소: 공항철도·버스·공식 차량을 실제 숙소 접근과 인원·짐 기준으로 비교하세요.\n\n항구 건너기: MTR과 페리를 목적지·날씨에 맞게 선택하고 밤 귀환편을 확인하세요."
+        "body": "공항에서 숙소: 공항철도·버스·공식 차량을 실제 숙소 접근과 인원·짐 기준으로 비교하세요.\n\n항구 건너기: MTR과 페리를 목적지·날씨에 맞게 선택하고 밤 귀환편을 확인하세요.\n\n귀국일 도심 체크인: 홍콩역·카오룽역 도심 체크인은 Airport Express 이용객 중 지정 항공사가 실제 운항하는 항공편과 유효한 전자 여행서류 소지자 대상입니다. 다른 항공사가 운항하는 공동운항편은 제외될 수 있고 역마다 참여 항공사가 다릅니다. MTR은 항공사 서비스 시간 안에서 출발 24시간 전부터 90분 전까지를 안내하므로 실제 항공사·역·수하물 조건을 먼저 확인하세요. 조건에 맞지 않으면 공항에서 체크인하세요."
       },
       {
         "id": "hongkong-stay",
@@ -926,12 +926,23 @@
         "body": "홍콩 미술관·우주박물관 등 실내 장소를 가까운 권역에서 고르고 페리·산 전망은 운항과 시야를 확인하세요."
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "title": "Visit Visa / Entry Permit Requirements for the Hong Kong Special Administrative Region | Immigration Department",
+        "url": "https://www.immd.gov.hk/eng/services/visas/visit-transit/visit-visa-entry-permit.html",
+        "accessedAt": "2026-10-29"
+      },
+      {
+        "title": "MTR > Privileges and Complimentary Service",
+        "url": "https://www.mtr.com.hk/en/customer/services/complom_checkin.html",
+        "accessedAt": "2026-10-29"
+      }
+    ],
     "status": "published",
     "requestId": null,
-    "createdAt": "2026-10-28T00:00:00.000Z",
-    "updatedAt": "2026-10-28T00:00:00.000Z",
-    "publishedAt": "2026-10-28T00:00:00.000Z"
+    "createdAt": "2026-10-29T00:00:00.000Z",
+    "updatedAt": "2026-10-29T00:00:00.000Z",
+    "publishedAt": "2026-10-29T00:00:00.000Z"
   },
   "practicalGuide": {
     "cityId": "hongkong",
@@ -954,6 +965,10 @@
       {
         "name": "항구 건너기",
         "advice": "MTR과 페리를 목적지·날씨에 맞게 선택하고 밤 귀환편을 확인하세요."
+      },
+      {
+        "name": "귀국일 도심 체크인",
+        "advice": "홍콩역·카오룽역 도심 체크인은 Airport Express 이용객 중 지정 항공사가 실제 운항하는 항공편과 유효한 전자 여행서류 소지자 대상입니다. 다른 항공사가 운항하는 공동운항편은 제외될 수 있고 역마다 참여 항공사가 다릅니다. MTR은 항공사 서비스 시간 안에서 출발 24시간 전부터 90분 전까지를 안내하므로 실제 항공사·역·수하물 조건을 먼저 확인하세요. 조건에 맞지 않으면 공항에서 체크인하세요."
       }
     ],
     "timePlan": [
@@ -968,7 +983,8 @@
     ],
     "before": [
       "디즈니랜드·전망 시설·케이블카는 방문일 운영과 입장권 조건을 확인하세요.",
-      "태풍·호우 때 교통과 시설 공지를 확인할 경로를 준비하세요."
+      "태풍·호우 때 교통과 시설 공지를 확인할 경로를 준비하세요.",
+      "홍콩 입경사무처의 2026년 8월 갱신 안내는 대한민국 국적의 방문 무비자 기간을 최대 90일로 표시합니다. 체류비와 귀국·다음 목적지 항공권 등 조건을 함께 확인하세요. 여권 종류·방문 목적에 따라 요건이 달라질 수 있으며 무비자가 입국 승인을 보장하지 않습니다."
     ],
     "pitfalls": [
       "에스컬레이터가 있다고 모든 언덕 이동이 편한 것은 아닙니다.",
@@ -1005,9 +1021,21 @@
         "url": "https://www.discoverhongkong.com/",
         "checkedAt": "2026-10-15",
         "status": "unavailable"
+      },
+      {
+        "title": "Visit Visa / Entry Permit Requirements for the Hong Kong Special Administrative Region | Immigration Department",
+        "url": "https://www.immd.gov.hk/eng/services/visas/visit-transit/visit-visa-entry-permit.html",
+        "checkedAt": "2026-10-29",
+        "status": "read"
+      },
+      {
+        "title": "MTR > Privileges and Complimentary Service",
+        "url": "https://www.mtr.com.hk/en/customer/services/complom_checkin.html",
+        "checkedAt": "2026-10-29",
+        "status": "read"
       }
     ],
-    "researchNote": "기존 내장 장소를 바탕으로 작성한 계획 제안입니다. 관광청 최신 교통·운영 조건은 본문 접근 제한으로 재확인하지 못했습니다. 장소 목록은 2016년 보관본 기반이며 현재 운영은 별도 확인해야 합니다."
+    "researchNote": "기존 내장 장소를 바탕으로 작성한 계획 제안입니다. 관광청 최신 교통·운영 조건은 본문 접근 제한으로 재확인하지 못했습니다. 장소 목록은 2016년 보관본 기반이며 현재 운영은 별도 확인해야 합니다. 2026-10-29 공식 공항·운영사·출입국 원문 중 확인 가능한 준비·교통 항목만 보강했습니다. 기존 장소 전체의 운영·예약·코스는 미검토이며 도시 전체 최신 검토로 계산하지 않습니다."
   },
   "plans": {
     "cityId": "hongkong",
