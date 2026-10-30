@@ -1,0 +1,410 @@
+{
+  "checkedAt": "2026-10-30T05:11:28.711638+00:00",
+  "commit": "b0d8eb5c9494ec21735eade11f372bbb51df43b9",
+  "anonymousGET": true,
+  "guideCount": 75,
+  "placeCount": 1360,
+  "downloadableCities": 54,
+  "downloadablePlaces": 294,
+  "files": [
+    {
+      "file": "guidebooks/manifest.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/main/guidebooks/manifest.json",
+      "http": 200,
+      "bytes": 29043,
+      "sha256": "d3d124067048b80a01baa1f0010c6c70bcf800063535848451d28d99baec9879"
+    },
+    {
+      "file": "guidebooks/book-asahikawa-8ca96497280be5748c26d52f6f06f3c9a0f9b9a6f0ecf5be090bf9fb46deac0a.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/main/guidebooks/book-asahikawa-8ca96497280be5748c26d52f6f06f3c9a0f9b9a6f0ecf5be090bf9fb46deac0a.json",
+      "http": 200,
+      "bytes": 11363,
+      "sha256": "8ca96497280be5748c26d52f6f06f3c9a0f9b9a6f0ecf5be090bf9fb46deac0a"
+    },
+    {
+      "file": "guidebooks/book-barcelona-1f7e6e87e034bfeba352d880eab48f615683d93f4f3bae94968707e83e016458.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/main/guidebooks/book-barcelona-1f7e6e87e034bfeba352d880eab48f615683d93f4f3bae94968707e83e016458.json",
+      "http": 200,
+      "bytes": 7952,
+      "sha256": "1f7e6e87e034bfeba352d880eab48f615683d93f4f3bae94968707e83e016458"
+    },
+    {
+      "file": "guidebooks/book-beijing-1ac9a90e474b495d1da303001a53be07e5011b8523f2e32d12eca8a5d797156b.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/main/guidebooks/book-beijing-1ac9a90e474b495d1da303001a53be07e5011b8523f2e32d12eca8a5d797156b.json",
+      "http": 200,
+      "bytes": 8070,
+      "sha256": "1ac9a90e474b495d1da303001a53be07e5011b8523f2e32d12eca8a5d797156b"
+    },
+    {
+      "file": "guidebooks/book-beppu-a89a0039f1d9a5e9186e8b06de7845bd9f077994b291b504661344bd38e913aa.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/main/guidebooks/book-beppu-a89a0039f1d9a5e9186e8b06de7845bd9f077994b291b504661344bd38e913aa.json",
+      "http": 200,
+      "bytes": 10871,
+      "sha256": "a89a0039f1d9a5e9186e8b06de7845bd9f077994b291b504661344bd38e913aa"
+    },
+    {
+      "file": "guidebooks/book-bohol-486909783de6cd39f3ab9cf9f1e78c3662a7d01d047b967a9fae96e9ad154b2e.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/main/guidebooks/book-bohol-486909783de6cd39f3ab9cf9f1e78c3662a7d01d047b967a9fae96e9ad154b2e.json",
+      "http": 200,
+      "bytes": 7996,
+      "sha256": "486909783de6cd39f3ab9cf9f1e78c3662a7d01d047b967a9fae96e9ad154b2e"
+    },
+    {
+      "file": "guidebooks/book-cebu-4aa3175abbe100ccf6475b174d915fcedabf131b7ab5bdf5d7f6ab0c216b730b.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/main/guidebooks/book-cebu-4aa3175abbe100ccf6475b174d915fcedabf131b7ab5bdf5d7f6ab0c216b730b.json",
+      "http": 200,
+      "bytes": 8251,
+      "sha256": "4aa3175abbe100ccf6475b174d915fcedabf131b7ab5bdf5d7f6ab0c216b730b"
+    },
+    {
+      "file": "guidebooks/book-chiangmai-9cf5ae142cb9e7b905d41c5583ad90b7e9ff21483676f68b6765977e6cd2f196.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/main/guidebooks/book-chiangmai-9cf5ae142cb9e7b905d41c5583ad90b7e9ff21483676f68b6765977e6cd2f196.json",
+      "http": 200,
+      "bytes": 8344,
+      "sha256": "9cf5ae142cb9e7b905d41c5583ad90b7e9ff21483676f68b6765977e6cd2f196"
+    },
+    {
+      "file": "guidebooks/book-chiangrai-89ec61d41c0aadd593d4ff2c55adc22c0bd5a5b033f404105d7e02ede9bee429.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/main/guidebooks/book-chiangrai-89ec61d41c0aadd593d4ff2c55adc22c0bd5a5b033f404105d7e02ede9bee429.json",
+      "http": 200,
+      "bytes": 10617,
+      "sha256": "89ec61d41c0aadd593d4ff2c55adc22c0bd5a5b033f404105d7e02ede9bee429"
+    },
+    {
+      "file": "guidebooks/book-dalat-40e89165bfeb9d2d0941f34b69b3e10836bc80dd27ee22be1475b7738c654437.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/main/guidebooks/book-dalat-40e89165bfeb9d2d0941f34b69b3e10836bc80dd27ee22be1475b7738c654437.json",
+      "http": 200,
+      "bytes": 10031,
+      "sha256": "40e89165bfeb9d2d0941f34b69b3e10836bc80dd27ee22be1475b7738c654437"
+    },
+    {
+      "file": "guidebooks/book-hakodate-5b0da6bd09d78a2d747fea742ce0baa606548a482a7db5a9e6818e8368de391e.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/main/guidebooks/book-hakodate-5b0da6bd09d78a2d747fea742ce0baa606548a482a7db5a9e6818e8368de391e.json",
+      "http": 200,
+      "bytes": 10225,
+      "sha256": "5b0da6bd09d78a2d747fea742ce0baa606548a482a7db5a9e6818e8368de391e"
+    },
+    {
+      "file": "guidebooks/book-halong-03a15b7966fa54e14f451f2fc08dee54351841b43e6415ef68f29c3d4805a79c.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/main/guidebooks/book-halong-03a15b7966fa54e14f451f2fc08dee54351841b43e6415ef68f29c3d4805a79c.json",
+      "http": 200,
+      "bytes": 10863,
+      "sha256": "03a15b7966fa54e14f451f2fc08dee54351841b43e6415ef68f29c3d4805a79c"
+    },
+    {
+      "file": "guidebooks/book-hanoi-6754e004a06b4d1b24db94f6b9bc6f766eb33e1597dc123ef0ead02e202e758a.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/main/guidebooks/book-hanoi-6754e004a06b4d1b24db94f6b9bc6f766eb33e1597dc123ef0ead02e202e758a.json",
+      "http": 200,
+      "bytes": 7954,
+      "sha256": "6754e004a06b4d1b24db94f6b9bc6f766eb33e1597dc123ef0ead02e202e758a"
+    },
+    {
+      "file": "guidebooks/book-hochiminh-927dcb834e165881416e4cb5a12775fb67659b8e89e61f2ddb401c4c23918a8c.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/main/guidebooks/book-hochiminh-927dcb834e165881416e4cb5a12775fb67659b8e89e61f2ddb401c4c23918a8c.json",
+      "http": 200,
+      "bytes": 8245,
+      "sha256": "927dcb834e165881416e4cb5a12775fb67659b8e89e61f2ddb401c4c23918a8c"
+    },
+    {
+      "file": "guidebooks/book-honolulu-0593eaa396ead447b2f9509f278683629f4bc8e118fc7c01a1b919b77e376967.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/main/guidebooks/book-honolulu-0593eaa396ead447b2f9509f278683629f4bc8e118fc7c01a1b919b77e376967.json",
+      "http": 200,
+      "bytes": 8165,
+      "sha256": "0593eaa396ead447b2f9509f278683629f4bc8e118fc7c01a1b919b77e376967"
+    },
+    {
+      "file": "guidebooks/book-huahin-767523c4cb1bab41de326d7909401b7325debf73c15135edded940fcb2cda043.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/main/guidebooks/book-huahin-767523c4cb1bab41de326d7909401b7325debf73c15135edded940fcb2cda043.json",
+      "http": 200,
+      "bytes": 10233,
+      "sha256": "767523c4cb1bab41de326d7909401b7325debf73c15135edded940fcb2cda043"
+    },
+    {
+      "file": "guidebooks/book-hue-856ec6093a2862389c81aa661e1f617896f2a2aa622639fdb79210ccc0e9d8e4.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/main/guidebooks/book-hue-856ec6093a2862389c81aa661e1f617896f2a2aa622639fdb79210ccc0e9d8e4.json",
+      "http": 200,
+      "bytes": 9651,
+      "sha256": "856ec6093a2862389c81aa661e1f617896f2a2aa622639fdb79210ccc0e9d8e4"
+    },
+    {
+      "file": "guidebooks/book-ishigaki-a9979a08bf3c7324f8ae23b7bc80ccb0e2083d2188b793e055259adbe16e602f.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/main/guidebooks/book-ishigaki-a9979a08bf3c7324f8ae23b7bc80ccb0e2083d2188b793e055259adbe16e602f.json",
+      "http": 200,
+      "bytes": 9970,
+      "sha256": "a9979a08bf3c7324f8ae23b7bc80ccb0e2083d2188b793e055259adbe16e602f"
+    },
+    {
+      "file": "guidebooks/book-johorbahru-7bd61f65cf80703207e51023625fdb0f095af40a096f5357ae543d103f0273d9.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/main/guidebooks/book-johorbahru-7bd61f65cf80703207e51023625fdb0f095af40a096f5357ae543d103f0273d9.json",
+      "http": 200,
+      "bytes": 11622,
+      "sha256": "7bd61f65cf80703207e51023625fdb0f095af40a096f5357ae543d103f0273d9"
+    },
+    {
+      "file": "guidebooks/book-kagoshima-77463c136720953429f134c8aab590853ed486ac1df7cf29f3ca436c34fcef2b.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/main/guidebooks/book-kagoshima-77463c136720953429f134c8aab590853ed486ac1df7cf29f3ca436c34fcef2b.json",
+      "http": 200,
+      "bytes": 11151,
+      "sha256": "77463c136720953429f134c8aab590853ed486ac1df7cf29f3ca436c34fcef2b"
+    },
+    {
+      "file": "guidebooks/book-kanazawa-0006258ead84b612ffb815e101b65b259e99245e099b0a4e4b63ed8cff9f5bec.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/main/guidebooks/book-kanazawa-0006258ead84b612ffb815e101b65b259e99245e099b0a4e4b63ed8cff9f5bec.json",
+      "http": 200,
+      "bytes": 11658,
+      "sha256": "0006258ead84b612ffb815e101b65b259e99245e099b0a4e4b63ed8cff9f5bec"
+    },
+    {
+      "file": "guidebooks/book-kaohsiung-04197de4d0dfd0da88b95d273130b6529c449dcb08bb24b2d61b7cde9f665211.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/main/guidebooks/book-kaohsiung-04197de4d0dfd0da88b95d273130b6529c449dcb08bb24b2d61b7cde9f665211.json",
+      "http": 200,
+      "bytes": 7984,
+      "sha256": "04197de4d0dfd0da88b95d273130b6529c449dcb08bb24b2d61b7cde9f665211"
+    },
+    {
+      "file": "guidebooks/book-kohsamui-35c17fb192b0850791cf14727628e9f3e08e1c001ce404c901ac07d390eb601d.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/main/guidebooks/book-kohsamui-35c17fb192b0850791cf14727628e9f3e08e1c001ce404c901ac07d390eb601d.json",
+      "http": 200,
+      "bytes": 10164,
+      "sha256": "35c17fb192b0850791cf14727628e9f3e08e1c001ce404c901ac07d390eb601d"
+    },
+    {
+      "file": "guidebooks/book-kotakinabalu-752f11a2ed7c9f1451423ee71c240357e2b9913f255d373edb405506cce3df59.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/main/guidebooks/book-kotakinabalu-752f11a2ed7c9f1451423ee71c240357e2b9913f255d373edb405506cce3df59.json",
+      "http": 200,
+      "bytes": 8590,
+      "sha256": "752f11a2ed7c9f1451423ee71c240357e2b9913f255d373edb405506cce3df59"
+    },
+    {
+      "file": "guidebooks/book-krabi-1df98bbf5c9f14b53d0d02a890eb0bc387ba91bf655928144cfe1b1d364af524.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/main/guidebooks/book-krabi-1df98bbf5c9f14b53d0d02a890eb0bc387ba91bf655928144cfe1b1d364af524.json",
+      "http": 200,
+      "bytes": 9963,
+      "sha256": "1df98bbf5c9f14b53d0d02a890eb0bc387ba91bf655928144cfe1b1d364af524"
+    },
+    {
+      "file": "guidebooks/book-kualalumpur-ff509ca64a4c55d81fcf1727a5529050c9e9abf83ca9894c450199d45600bedc.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/main/guidebooks/book-kualalumpur-ff509ca64a4c55d81fcf1727a5529050c9e9abf83ca9894c450199d45600bedc.json",
+      "http": 200,
+      "bytes": 8307,
+      "sha256": "ff509ca64a4c55d81fcf1727a5529050c9e9abf83ca9894c450199d45600bedc"
+    },
+    {
+      "file": "guidebooks/book-kumamoto-48a594f9dccdb6efe76124cd895c4a411bcb471a18dd542846dad3cfe9d0c75d.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/main/guidebooks/book-kumamoto-48a594f9dccdb6efe76124cd895c4a411bcb471a18dd542846dad3cfe9d0c75d.json",
+      "http": 200,
+      "bytes": 11018,
+      "sha256": "48a594f9dccdb6efe76124cd895c4a411bcb471a18dd542846dad3cfe9d0c75d"
+    },
+    {
+      "file": "guidebooks/book-langkawi-96067a792261bd39ab65f4179506bf9b3416f72b1cc85b67d20c33854c56d6cb.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/main/guidebooks/book-langkawi-96067a792261bd39ab65f4179506bf9b3416f72b1cc85b67d20c33854c56d6cb.json",
+      "http": 200,
+      "bytes": 11003,
+      "sha256": "96067a792261bd39ab65f4179506bf9b3416f72b1cc85b67d20c33854c56d6cb"
+    },
+    {
+      "file": "guidebooks/book-london-6305f6c93e1d57810ece31cacf5fee2e1181b8c34f350662b6d36baa1a536be7.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/main/guidebooks/book-london-6305f6c93e1d57810ece31cacf5fee2e1181b8c34f350662b6d36baa1a536be7.json",
+      "http": 200,
+      "bytes": 7848,
+      "sha256": "6305f6c93e1d57810ece31cacf5fee2e1181b8c34f350662b6d36baa1a536be7"
+    },
+    {
+      "file": "guidebooks/book-losangeles-061347bc81e728907bbb3b9983306b92942065e93ce744b51d703daaee716eef.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/main/guidebooks/book-losangeles-061347bc81e728907bbb3b9983306b92942065e93ce744b51d703daaee716eef.json",
+      "http": 200,
+      "bytes": 8317,
+      "sha256": "061347bc81e728907bbb3b9983306b92942065e93ce744b51d703daaee716eef"
+    },
+    {
+      "file": "guidebooks/book-macau-c7370d62d437bd637017b4980c6d5a559baf1b1b5753feee1b2409adeaa3d3ff.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/main/guidebooks/book-macau-c7370d62d437bd637017b4980c6d5a559baf1b1b5753feee1b2409adeaa3d3ff.json",
+      "http": 200,
+      "bytes": 9625,
+      "sha256": "c7370d62d437bd637017b4980c6d5a559baf1b1b5753feee1b2409adeaa3d3ff"
+    },
+    {
+      "file": "guidebooks/book-manila-31ef4b0f9ca548c23fbd6fd184b5e53500d61b905e508b61f4176494728fdbdd.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/main/guidebooks/book-manila-31ef4b0f9ca548c23fbd6fd184b5e53500d61b905e508b61f4176494728fdbdd.json",
+      "http": 200,
+      "bytes": 10453,
+      "sha256": "31ef4b0f9ca548c23fbd6fd184b5e53500d61b905e508b61f4176494728fdbdd"
+    },
+    {
+      "file": "guidebooks/book-matsuyama-2092d44d3b9a2d3ae444baa26cec54e0385570a152ca9f796059bbd452f78f7c.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/main/guidebooks/book-matsuyama-2092d44d3b9a2d3ae444baa26cec54e0385570a152ca9f796059bbd452f78f7c.json",
+      "http": 200,
+      "bytes": 11739,
+      "sha256": "2092d44d3b9a2d3ae444baa26cec54e0385570a152ca9f796059bbd452f78f7c"
+    },
+    {
+      "file": "guidebooks/book-melaka-ac84cbc698bde6a12686a502654cf9e65f5e1df80484b4431ecb0cc1f905b83d.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/main/guidebooks/book-melaka-ac84cbc698bde6a12686a502654cf9e65f5e1df80484b4431ecb0cc1f905b83d.json",
+      "http": 200,
+      "bytes": 10890,
+      "sha256": "ac84cbc698bde6a12686a502654cf9e65f5e1df80484b4431ecb0cc1f905b83d"
+    },
+    {
+      "file": "guidebooks/book-miyakojima-c879fe0c1a1efb170e172d7bb7b831c3e338545a2cccb6840390a1d9a1b4878b.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/main/guidebooks/book-miyakojima-c879fe0c1a1efb170e172d7bb7b831c3e338545a2cccb6840390a1d9a1b4878b.json",
+      "http": 200,
+      "bytes": 10067,
+      "sha256": "c879fe0c1a1efb170e172d7bb7b831c3e338545a2cccb6840390a1d9a1b4878b"
+    },
+    {
+      "file": "guidebooks/book-nagasaki-83960239a5ce01ccde87a33a8a0e349d27c4d4097166015d337b7c73987964bf.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/main/guidebooks/book-nagasaki-83960239a5ce01ccde87a33a8a0e349d27c4d4097166015d337b7c73987964bf.json",
+      "http": 200,
+      "bytes": 11221,
+      "sha256": "83960239a5ce01ccde87a33a8a0e349d27c4d4097166015d337b7c73987964bf"
+    },
+    {
+      "file": "guidebooks/book-newyork-eaf5f8be9c621d06996197aa39b6f0cfee0334ad3e7b6aad07ad2aab0d3d830b.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/main/guidebooks/book-newyork-eaf5f8be9c621d06996197aa39b6f0cfee0334ad3e7b6aad07ad2aab0d3d830b.json",
+      "http": 200,
+      "bytes": 8035,
+      "sha256": "eaf5f8be9c621d06996197aa39b6f0cfee0334ad3e7b6aad07ad2aab0d3d830b"
+    },
+    {
+      "file": "guidebooks/book-nhatrang-c5770099f958ba638e2dd4391f76ab922fdd1c8129b8fde45f4148e9b6a20012.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/main/guidebooks/book-nhatrang-c5770099f958ba638e2dd4391f76ab922fdd1c8129b8fde45f4148e9b6a20012.json",
+      "http": 200,
+      "bytes": 8120,
+      "sha256": "c5770099f958ba638e2dd4391f76ab922fdd1c8129b8fde45f4148e9b6a20012"
+    },
+    {
+      "file": "guidebooks/book-okayama-f817eb93bb2c1bfb34f8764dacc47e0cbe1ef70dc95c0da88850cb79f7bb95e5.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/main/guidebooks/book-okayama-f817eb93bb2c1bfb34f8764dacc47e0cbe1ef70dc95c0da88850cb79f7bb95e5.json",
+      "http": 200,
+      "bytes": 11241,
+      "sha256": "f817eb93bb2c1bfb34f8764dacc47e0cbe1ef70dc95c0da88850cb79f7bb95e5"
+    },
+    {
+      "file": "guidebooks/book-okinawa-b8041ae4ca382cc5a48325632b270a20f9b1fafe83ce74e88a3ef9f98e0b2ccb.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/main/guidebooks/book-okinawa-b8041ae4ca382cc5a48325632b270a20f9b1fafe83ce74e88a3ef9f98e0b2ccb.json",
+      "http": 200,
+      "bytes": 9201,
+      "sha256": "b8041ae4ca382cc5a48325632b270a20f9b1fafe83ce74e88a3ef9f98e0b2ccb"
+    },
+    {
+      "file": "guidebooks/book-paris-59f0ee1676f3a57d57d6ce77079e345744d7c9e96d94566b947c6fb2ade31c57.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/main/guidebooks/book-paris-59f0ee1676f3a57d57d6ce77079e345744d7c9e96d94566b947c6fb2ade31c57.json",
+      "http": 200,
+      "bytes": 7806,
+      "sha256": "59f0ee1676f3a57d57d6ce77079e345744d7c9e96d94566b947c6fb2ade31c57"
+    },
+    {
+      "file": "guidebooks/book-pattaya-871119f04bd2ffead1de042111ad94df82a12f98e0a3286028fa7765710998c9.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/main/guidebooks/book-pattaya-871119f04bd2ffead1de042111ad94df82a12f98e0a3286028fa7765710998c9.json",
+      "http": 200,
+      "bytes": 10350,
+      "sha256": "871119f04bd2ffead1de042111ad94df82a12f98e0a3286028fa7765710998c9"
+    },
+    {
+      "file": "guidebooks/book-penang-e04fe2e08cefa659f09618698f2fb495f2381e11ca9efc8784144e0fd1c869c5.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/main/guidebooks/book-penang-e04fe2e08cefa659f09618698f2fb495f2381e11ca9efc8784144e0fd1c869c5.json",
+      "http": 200,
+      "bytes": 10369,
+      "sha256": "e04fe2e08cefa659f09618698f2fb495f2381e11ca9efc8784144e0fd1c869c5"
+    },
+    {
+      "file": "guidebooks/book-phuket-b6f75d5b49271b2ef407cb875a5e4b443f0a03a13ab3bfb3574f1af130cc822a.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/main/guidebooks/book-phuket-b6f75d5b49271b2ef407cb875a5e4b443f0a03a13ab3bfb3574f1af130cc822a.json",
+      "http": 200,
+      "bytes": 7990,
+      "sha256": "b6f75d5b49271b2ef407cb875a5e4b443f0a03a13ab3bfb3574f1af130cc822a"
+    },
+    {
+      "file": "guidebooks/book-phuquoc-0c9faff067ecb46818c4bb981d199166c00bb1c353989f9a15fb109bd7dfd80f.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/main/guidebooks/book-phuquoc-0c9faff067ecb46818c4bb981d199166c00bb1c353989f9a15fb109bd7dfd80f.json",
+      "http": 200,
+      "bytes": 7968,
+      "sha256": "0c9faff067ecb46818c4bb981d199166c00bb1c353989f9a15fb109bd7dfd80f"
+    },
+    {
+      "file": "guidebooks/book-prague-55de29e4b0156e289c888a8813328f0b65f974dabf4dfb1b2f29221358cd9100.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/main/guidebooks/book-prague-55de29e4b0156e289c888a8813328f0b65f974dabf4dfb1b2f29221358cd9100.json",
+      "http": 200,
+      "bytes": 7730,
+      "sha256": "55de29e4b0156e289c888a8813328f0b65f974dabf4dfb1b2f29221358cd9100"
+    },
+    {
+      "file": "guidebooks/book-puertoprincesa-a1733ec86e81c57ef9af93d680818661662967ae1854e57e462bc1e454d57c57.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/main/guidebooks/book-puertoprincesa-a1733ec86e81c57ef9af93d680818661662967ae1854e57e462bc1e454d57c57.json",
+      "http": 200,
+      "bytes": 11818,
+      "sha256": "a1733ec86e81c57ef9af93d680818661662967ae1854e57e462bc1e454d57c57"
+    },
+    {
+      "file": "guidebooks/book-rome-9cfc22a8c38682c77121a571764d49afe396dde4b56b6d0a2ab17839e697a24d.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/main/guidebooks/book-rome-9cfc22a8c38682c77121a571764d49afe396dde4b56b6d0a2ab17839e697a24d.json",
+      "http": 200,
+      "bytes": 7881,
+      "sha256": "9cfc22a8c38682c77121a571764d49afe396dde4b56b6d0a2ab17839e697a24d"
+    },
+    {
+      "file": "guidebooks/book-shanghai-3757958b96ec49a313471d05e2903cdd4cf6930ef053a28c52909ffcc50b430e.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/main/guidebooks/book-shanghai-3757958b96ec49a313471d05e2903cdd4cf6930ef053a28c52909ffcc50b430e.json",
+      "http": 200,
+      "bytes": 8368,
+      "sha256": "3757958b96ec49a313471d05e2903cdd4cf6930ef053a28c52909ffcc50b430e"
+    },
+    {
+      "file": "guidebooks/book-sydney-86a8da3020a6b816dc4473c67b796b8e154b0639669896317a33bc643de1b850.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/main/guidebooks/book-sydney-86a8da3020a6b816dc4473c67b796b8e154b0639669896317a33bc643de1b850.json",
+      "http": 200,
+      "bytes": 8035,
+      "sha256": "86a8da3020a6b816dc4473c67b796b8e154b0639669896317a33bc643de1b850"
+    },
+    {
+      "file": "guidebooks/book-taichung-e9471d3ee251412b8f8549e257f0140f3e123e7120bb2725a259887ab584ebb2.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/main/guidebooks/book-taichung-e9471d3ee251412b8f8549e257f0140f3e123e7120bb2725a259887ab584ebb2.json",
+      "http": 200,
+      "bytes": 10657,
+      "sha256": "e9471d3ee251412b8f8549e257f0140f3e123e7120bb2725a259887ab584ebb2"
+    },
+    {
+      "file": "guidebooks/book-tainan-883ebb0a157760d4913edfe3d462bc0080416f6e703edbbc37cdf83150d07867.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/main/guidebooks/book-tainan-883ebb0a157760d4913edfe3d462bc0080416f6e703edbbc37cdf83150d07867.json",
+      "http": 200,
+      "bytes": 8027,
+      "sha256": "883ebb0a157760d4913edfe3d462bc0080416f6e703edbbc37cdf83150d07867"
+    },
+    {
+      "file": "guidebooks/book-takamatsu-815a22a3b7186f7569626641fd30e382f0241687d81acd53bdc0fcd5546cc9f7.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/main/guidebooks/book-takamatsu-815a22a3b7186f7569626641fd30e382f0241687d81acd53bdc0fcd5546cc9f7.json",
+      "http": 200,
+      "bytes": 11189,
+      "sha256": "815a22a3b7186f7569626641fd30e382f0241687d81acd53bdc0fcd5546cc9f7"
+    },
+    {
+      "file": "guidebooks/book-tottori-0473c2d184fef91ada9305b31bd3fa4612a60fa4d337d9a3d8bd901bcf707860.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/main/guidebooks/book-tottori-0473c2d184fef91ada9305b31bd3fa4612a60fa4d337d9a3d8bd901bcf707860.json",
+      "http": 200,
+      "bytes": 11542,
+      "sha256": "0473c2d184fef91ada9305b31bd3fa4612a60fa4d337d9a3d8bd901bcf707860"
+    },
+    {
+      "file": "guidebooks/book-yufuin-0f2956a94a62b204080c4fb7f8229d3cb425102750c6fafec5b5d83da180b5ba.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/main/guidebooks/book-yufuin-0f2956a94a62b204080c4fb7f8229d3cb425102750c6fafec5b5d83da180b5ba.json",
+      "http": 200,
+      "bytes": 12166,
+      "sha256": "0f2956a94a62b204080c4fb7f8229d3cb425102750c6fafec5b5d83da180b5ba"
+    },
+    {
+      "file": "guidebook-database/index.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/main/guidebook-database/index.json",
+      "http": 200,
+      "bytes": 34516,
+      "sha256": "2cbdaba60e4b6f3581fa177247e0bcc27386d14b2c2d4c7a244c49e0307fcb16"
+    },
+    {
+      "file": "guidebook-database/guides.sqlite",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/main/guidebook-database/guides.sqlite",
+      "http": 200,
+      "bytes": 4427776,
+      "sha256": "23142e29f4667657d3dbb3ef787f76b2ad983c4a8133626842055849d09e65d8"
+    }
+  ]
+}
