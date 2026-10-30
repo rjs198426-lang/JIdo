@@ -528,6 +528,29 @@
         "https://www.senaiairport.com/To-From-The-Airport/By-Taxi"
       ],
       "evidencePath": "research/guidebooks/runs/20261030T0456-new.json"
+    },
+    {
+      "guideId": "guam",
+      "checkedAt": "2026-10-30",
+      "contentHash": "81b7371e467e5fb216dc1a11b56dca23663d554dbe557a30a41f65373707eed9",
+      "result": "blocked",
+      "urls": [
+        "https://www.visitguam.com/about-guam/entry-and-exit-formalities/",
+        "https://cqa.guam.gov/",
+        "https://www.guamairport.com/passenger/ground-transportation",
+        "https://www.guamairport.com/passenger/ground-transportation/taxis",
+        "https://www.visitguam.com/planning/transportation/buses/",
+        "https://www.visitguam.com/about-guam/safety-tips/water-safety/",
+        "https://www.visitguam.com/chamoru-culture/food/",
+        "https://www.visitguam.com/things-to-do/shopping/chamorro-village/",
+        "https://www.visitguam.com/things-to-do/attractions/guam-museum/",
+        "https://www.fws.gov/refuge/guam/visit-us",
+        "https://tlpguam.com/",
+        "https://www.gpoguam.com/",
+        "https://www.micronesiamall.com/",
+        "https://www.dusit.com/dusitthani-guamresort/"
+      ],
+      "evidencePath": "research/guidebooks/runs/20261030T2338-refresh.json"
     }
   ]
 }

@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "sequence": 1,
-  "revision": "98502baa7d205684912324a1c06e4e5f26e9e7b1bc8182cf94fd8a2f153900a7",
-  "file": "catalog-98502baa7d205684912324a1c06e4e5f26e9e7b1bc8182cf94fd8a2f153900a7.json",
-  "bytes": 1197086,
+  "sequence": 2,
+  "revision": "0d3d8e182f48f8d3f6bc255d6cab2bbcfffdc7cd7330d7343aa2728dcaa6093e",
+  "file": "catalog-0d3d8e182f48f8d3f6bc255d6cab2bbcfffdc7cd7330d7343aa2728dcaa6093e.json",
+  "bytes": 1234913,
   "minBuild": 58,
-  "publishedAt": "2026-10-21T08:01:48.598Z"
+  "publishedAt": "2026-10-30T23:43:39.216Z"
 }

@@ -1,0 +1,435 @@
+{
+  "task": "Guam practical guide expansion",
+  "startedAt": "2026-10-30T23:38:00Z",
+  "guideId": "guam",
+  "result": "blocked",
+  "partialUpdates": [
+    "guam-ritidian-beach",
+    "guam-guam-museum",
+    "guam-chamorro-village",
+    "guam-two-lovers-point",
+    "guam-premier-outlets"
+  ],
+  "reviewedTopics": [
+    "entry",
+    "customs",
+    "airport transport",
+    "water safety",
+    "culture and food",
+    "museum",
+    "market",
+    "refuge",
+    "viewpoint",
+    "shopping",
+    "hotel facilities"
+  ],
+  "publicationDatePolicy": "Date unknown unless explicit; access dates do not assert publication dates or full validity. Entry policy effective dates are not page publication dates.",
+  "sources": [
+    {
+      "key": "gvb",
+      "requestedUrl": "https://www.visitguam.com/",
+      "checkedAt": "2026-10-30T23:38:02.539276+00:00",
+      "status": 200,
+      "url": "https://www.visitguam.com/",
+      "title": "Visit Guam Island | Things to Do, Hotels & Beach Getaways",
+      "bytes": 366743,
+      "sha256": "ac10c65a447baa62eaeabbc9783661284fac9cb29e5932b7febfa679f8d784cf",
+      "textLength": 8595,
+      "dateMetadata": [],
+      "publicationDate": null,
+      "judgment": "not used as current factual evidence"
+    },
+    {
+      "key": "entry",
+      "requestedUrl": "https://www.visitguam.com/about-guam/entry-and-exit-formalities/",
+      "checkedAt": "2026-10-30T23:38:02.540173+00:00",
+      "status": 200,
+      "url": "https://www.visitguam.com/about-guam/entry-and-exit-formalities/",
+      "title": "Getting In and Out of Guam | Requirements & Formalities",
+      "bytes": 275598,
+      "sha256": "77b3c851a4564b154d789b07cc832690ee6c2c43132ca3f3ba5a0c716e37e65e",
+      "textLength": 13629,
+      "dateMetadata": [],
+      "publicationDate": null,
+      "judgment": "read and used for limited topics"
+    },
+    {
+      "key": "customs",
+      "requestedUrl": "https://cqa.guam.gov/",
+      "checkedAt": "2026-10-30T23:38:02.540884+00:00",
+      "status": 200,
+      "url": "https://cqa.guam.gov/",
+      "title": "CQA | Customs and Quarantine Agency",
+      "bytes": 105187,
+      "sha256": "7d3e80ede657112b173b8fdd606acc842a7f48d5ed694e537da6aff0c274af4d",
+      "textLength": 3148,
+      "dateMetadata": [],
+      "publicationDate": null,
+      "judgment": "read and used for limited topics"
+    },
+    {
+      "key": "eta",
+      "requestedUrl": "https://g-cnmi-eta.cbp.dhs.gov/",
+      "checkedAt": "2026-10-30T23:38:02.541229+00:00",
+      "status": 200,
+      "url": "https://g-cnmi-eta.cbp.dhs.gov/",
+      "title": "Official G-CNMI ETA Application Website, U.S. Customs and Border Protection",
+      "bytes": 7029,
+      "sha256": "1eb26ac2b6d8de640a155b807ac1c469bb6f0b95f5d38c9adbde6ce946e40269",
+      "textLength": 75,
+      "dateMetadata": [],
+      "publicationDate": null,
+      "judgment": "not used as current factual evidence"
+    },
+    {
+      "key": "airport",
+      "requestedUrl": "https://www.guamairport.com/",
+      "checkedAt": "2026-10-30T23:38:03.356182+00:00",
+      "status": 200,
+      "url": "https://www.guamairport.com/",
+      "title": "A.B. Won Pat International Airport Authority, GuamiconFacebookYoutubeInstagram",
+      "bytes": 221031,
+      "sha256": "d3d9de4a225353b37c4533d4b8b732207dd1460ed16b0cefd3f6c08dc3f55cdc",
+      "textLength": 7967,
+      "dateMetadata": [],
+      "publicationDate": null,
+      "judgment": "not used as current factual evidence"
+    },
+    {
+      "key": "nps",
+      "requestedUrl": "https://www.nps.gov/wapa/planyourvisit/conditions.htm",
+      "checkedAt": "2026-10-30T23:38:03.423393+00:00",
+      "status": 200,
+      "url": "https://www.nps.gov/wapa/planyourvisit/conditions.htm",
+      "title": "Current Conditions - War In The Pacific National Historical Park (U.S. National Park Service)Lock",
+      "bytes": 50538,
+      "sha256": "729c7eb535e2d74cdcb3b72d578005b1ad846557559a188f88938341ff278f07",
+      "textLength": 1985,
+      "dateMetadata": [],
+      "publicationDate": null,
+      "judgment": "not used as current factual evidence"
+    },
+    {
+      "key": "ritidian",
+      "requestedUrl": "https://www.fws.gov/refuge/guam/visit-us",
+      "checkedAt": "2026-10-30T23:38:03.478970+00:00",
+      "status": 200,
+      "url": "https://www.fws.gov/refuge/guam/visit-us",
+      "title": "Guam National Wildlife Refuge | Visit Us | U.S. Fish & Wildlife ServiceLock",
+      "bytes": 115021,
+      "sha256": "e1a4720862c42eb2357e4907440b92e5ebc16545e0cbd7e7ad3042145380d7f1",
+      "textLength": 8929,
+      "dateMetadata": [],
+      "publicationDate": null,
+      "judgment": "read and used for limited topics"
+    },
+    {
+      "key": "weather",
+      "requestedUrl": "https://www.weather.gov/gum/",
+      "checkedAt": "2026-10-30T23:38:03.765702+00:00",
+      "status": 200,
+      "url": "https://www.weather.gov/gum/",
+      "title": "Tiyan, GU",
+      "bytes": 66619,
+      "sha256": "0db64cd44d943085cfdeb0eb26cd4fb3a2ac1987af4b6a6f8c388f258fbfa754",
+      "textLength": 3801,
+      "dateMetadata": [
+        {
+          "name": "DC.date.created",
+          "scheme": "ISO8601",
+          "content": ""
+        }
+      ],
+      "publicationDate": null,
+      "judgment": "not used as current factual evidence"
+    },
+    {
+      "key": "museum",
+      "requestedUrl": "https://guammuseum.gov/",
+      "checkedAt": "2026-10-30T23:38:03.839064+00:00",
+      "status": null,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "publicationDate": null,
+      "judgment": "not used as current factual evidence"
+    },
+    {
+      "key": "two-lovers",
+      "requestedUrl": "https://www.puntandosamantes.com/",
+      "checkedAt": "2026-10-30T23:38:03.862134+00:00",
+      "status": 200,
+      "url": "https://tlpguam.com/",
+      "title": "Two Lovers Point",
+      "bytes": 186846,
+      "sha256": "69613ebb974bdbf23fd61b033ae320e5b6dfbcf178535eef01633f816241fe1f",
+      "textLength": 1221,
+      "dateMetadata": [],
+      "publicationDate": null,
+      "judgment": "read and used for limited topics"
+    },
+    {
+      "key": "fish-eye",
+      "requestedUrl": "https://www.fisheyeguamtours.com/",
+      "checkedAt": "2026-10-30T23:38:04.218514+00:00",
+      "status": null,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "publicationDate": null,
+      "judgment": "not used as current factual evidence"
+    },
+    {
+      "key": "gpo",
+      "requestedUrl": "https://www.gpoguam.com/",
+      "checkedAt": "2026-10-30T23:38:04.226783+00:00",
+      "status": 200,
+      "url": "https://www.gpoguam.com/",
+      "title": "Home - GPO Guam",
+      "bytes": 100632,
+      "sha256": "9bb3a1aa9cbaae6e66da193b2db9f651ee09a18e57faae166cb26d375678fba7",
+      "textLength": 2761,
+      "dateMetadata": [
+        {
+          "property": "article:modified_time",
+          "content": "2025-12-03T04:43:17+00:00"
+        }
+      ],
+      "publicationDate": null,
+      "judgment": "read and used for limited topics"
+    },
+    {
+      "key": "mall",
+      "requestedUrl": "https://www.micronesiamall.com/",
+      "checkedAt": "2026-10-30T23:38:04.321080+00:00",
+      "status": 200,
+      "url": "https://www.micronesiamall.com/",
+      "title": "Micronesia Mall",
+      "bytes": 273248,
+      "sha256": "a77d9a33fc9c82eac02dc1f1c301132ac102e5a811d66c0a2e3c48013c044ff4",
+      "textLength": 1093,
+      "dateMetadata": [],
+      "publicationDate": null,
+      "judgment": "read and used for limited topics"
+    },
+    {
+      "key": "meskla",
+      "requestedUrl": "https://www.mesklados.com/",
+      "checkedAt": "2026-10-30T23:38:04.570727+00:00",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found",
+      "publicationDate": null,
+      "judgment": "not used as current factual evidence"
+    },
+    {
+      "key": "eggs",
+      "requestedUrl": "https://www.eggsnthingsguam.com/",
+      "checkedAt": "2026-10-30T23:38:04.728916+00:00",
+      "status": 503,
+      "error": "HTTP Error 503: Service Unavailable",
+      "publicationDate": null,
+      "judgment": "not used as current factual evidence"
+    },
+    {
+      "key": "nikko",
+      "requestedUrl": "https://www.nikkoguam.com/",
+      "checkedAt": "2026-10-30T23:38:05.077926+00:00",
+      "status": 200,
+      "url": "https://nikkoguam.com/",
+      "title": "",
+      "bytes": 69,
+      "sha256": "bd17e454eb222b8956e7fe82134b642e65008e777818d1306d799839bd28f90d",
+      "textLength": 0,
+      "dateMetadata": [],
+      "publicationDate": null,
+      "judgment": "not used as current factual evidence"
+    },
+    {
+      "key": "dusit",
+      "requestedUrl": "https://www.dusit.com/dusitthani-guamresort/",
+      "checkedAt": "2026-10-30T23:38:06.346892+00:00",
+      "status": 200,
+      "url": "https://www.dusit.com/dusitthani-guamresort/",
+      "title": "Dusit Thani Guam Hotel USA – Dusit Hotels and Resorts",
+      "bytes": 632099,
+      "sha256": "aab4cec406daeffc6df1cf7b27d67e49f58881c2ff3c160a7547845b02561103",
+      "textLength": 21051,
+      "dateMetadata": [
+        {
+          "property": "article:modified_time",
+          "content": "2026-10-21T02:55:20+00:00"
+        }
+      ],
+      "publicationDate": null,
+      "judgment": "read and used for limited topics"
+    },
+    {
+      "key": "transport",
+      "requestedUrl": "https://www.guamairport.com/passenger/ground-transportation",
+      "checkedAt": "2026-10-30T23:40:58.860683+00:00",
+      "status": 200,
+      "url": "https://www.guamairport.com/passenger/ground-transportation",
+      "title": "Transportation | Passenger | A.B. Won Pat International Airport Authority, GuamFacebookYoutubeInstagram",
+      "bytes": 229599,
+      "sha256": "7df32c4287f8fb62ced5e1ef0c0bf6eaec89237998fcfffc854acf9a66ff1f8e",
+      "textLength": 10754,
+      "dateMetadata": [],
+      "publicationDate": null,
+      "judgment": "read and used for limited topics"
+    },
+    {
+      "key": "taxi",
+      "requestedUrl": "https://www.guamairport.com/passenger/ground-transportation/taxis",
+      "checkedAt": "2026-10-30T23:40:58.861632+00:00",
+      "status": 200,
+      "url": "https://www.guamairport.com/passenger/ground-transportation/taxis",
+      "title": "Taxis | Ground Transportation | Passenger | A.B. Won Pat International Airport Authority, GuamFacebookYoutubeInstagram",
+      "bytes": 224538,
+      "sha256": "c82fafb363a59ebd60c4efee48fdc4ab67a19cb51fe98e1870b350fd3682fae7",
+      "textLength": 9800,
+      "dateMetadata": [],
+      "publicationDate": null,
+      "judgment": "read and used for limited topics"
+    },
+    {
+      "key": "food",
+      "requestedUrl": "https://www.visitguam.com/chamoru-culture/food/",
+      "checkedAt": "2026-10-30T23:40:58.862185+00:00",
+      "status": 200,
+      "url": "https://www.visitguam.com/chamoru-culture/food/",
+      "title": "Chamorro Food in Guam | History, Dishes & Culture",
+      "bytes": 263592,
+      "sha256": "d0db6dda7644ca05658a827797992d30ee433b0d80842d1360ee2cb53d81ffa1",
+      "textLength": 10429,
+      "dateMetadata": [],
+      "publicationDate": null,
+      "judgment": "read and used for limited topics"
+    },
+    {
+      "key": "water",
+      "requestedUrl": "https://www.visitguam.com/about-guam/safety-tips/water-safety/",
+      "checkedAt": "2026-10-30T23:40:58.863024+00:00",
+      "status": 200,
+      "url": "https://www.visitguam.com/about-guam/safety-tips/water-safety/",
+      "title": "Water Safety in Guam | Plan Your Trip",
+      "bytes": 265514,
+      "sha256": "f6ec6bac58f30bd5678cb325624509bd87284740a336371f51baa3b2a3c641b1",
+      "textLength": 11357,
+      "dateMetadata": [],
+      "publicationDate": null,
+      "judgment": "read and used for limited topics"
+    },
+    {
+      "key": "museum-gvb",
+      "requestedUrl": "https://www.visitguam.com/things-to-do/attractions/guam-museum/",
+      "checkedAt": "2026-10-30T23:40:59.783365+00:00",
+      "status": 200,
+      "url": "https://www.visitguam.com/things-to-do/attractions/guam-museum/",
+      "title": "Guam Museum | Discover Chamorro History, Culture Exhibits",
+      "bytes": 258591,
+      "sha256": "d08dbdaf777b90f898133d8f2f1b2424067201b871bdac35ef79d06b61672f0e",
+      "textLength": 12686,
+      "dateMetadata": [],
+      "publicationDate": null,
+      "judgment": "read and used for limited topics"
+    },
+    {
+      "key": "village",
+      "requestedUrl": "https://www.visitguam.com/things-to-do/shopping/chamorro-village/",
+      "checkedAt": "2026-10-30T23:40:59.783719+00:00",
+      "status": 200,
+      "url": "https://www.visitguam.com/things-to-do/shopping/chamorro-village/",
+      "title": "Chamorro Village Night Market | Hagåtña, Guam Wednesdays",
+      "bytes": 269988,
+      "sha256": "65d53fb6b69cb056be78572c6d17035523851057eaf9c9c32e52b00e7fe22ee4",
+      "textLength": 14243,
+      "dateMetadata": [],
+      "publicationDate": null,
+      "judgment": "read and used for limited topics"
+    },
+    {
+      "key": "buses",
+      "requestedUrl": "https://www.visitguam.com/planning/transportation/buses/",
+      "checkedAt": "2026-10-30T23:40:59.912970+00:00",
+      "status": 200,
+      "url": "https://www.visitguam.com/planning/transportation/buses/",
+      "title": "Bus Transportation in Guam | Mass Transit in Guam",
+      "bytes": 346548,
+      "sha256": "6c522ae3216f4189c3648522e75d025b354fa8b5eb33dc4e3a1cfa0cadd0707c",
+      "textLength": 10424,
+      "dateMetadata": [],
+      "publicationDate": null,
+      "judgment": "read and used for limited topics"
+    },
+    {
+      "key": "hours-nps",
+      "requestedUrl": "https://www.nps.gov/wapa/planyourvisit/hours.htm",
+      "checkedAt": "2026-10-30T23:40:59.936841+00:00",
+      "status": 200,
+      "url": "https://www.nps.gov/wapa/planyourvisit/hours.htm",
+      "title": "NPS - Page In-Progress",
+      "bytes": 2138,
+      "sha256": "63ee5b5d505ec7eeb3b6c3d6685425190192b5710c8afee5ae71d40e2b54fb74",
+      "textLength": 113,
+      "dateMetadata": [],
+      "publicationDate": null,
+      "judgment": "not used as current factual evidence"
+    }
+  ],
+  "held": [
+    "Whole-city review: 29 existing venues not all reverified; existing coordinates untouched.",
+    "Current restaurant menus, prices and operating status not verified.",
+    "GMTA page undated; operator timetable/fare not independently confirmed.",
+    "NPS hours HTTP 200 is Page In-Progress, not usable hours evidence.",
+    "Aquarium of Guam says COMING SOON; not offered as open."
+  ],
+  "photos": "No new photos copied; existing attribution and IDs preserved.",
+  "releaseScope": "City/place content via content publish. Bundled practical UI and plans require next Android release; no APK build in this task.",
+  "findings": {
+    "guam-ritidian-beach": {
+      "description": "괌 국립야생동물보호구역의 리티디안 지구로, 해변과 해안 숲·자연 해설을 만나는 곳입니다. 동굴과 라테 마을 탐방로는 예약된 가이드 투어로만 들어갈 수 있으며, 보호구역 동쪽 일부는 출입이 금지됩니다.",
+      "tip": "리티디안: 미국 어류야생동물청 안내는 수–일 07:30–16:00, 월·화·연방 공휴일·위험한 해상 상태에는 폐쇄입니다. 문이 닫힌 날은 걸어서도 들어가지 마세요. 동굴·라테 마을 탐방로는 예약된 가이드 투어만 이용할 수 있습니다. 인명구조원이 없고 보호구역 동쪽 일부는 출입 금지입니다."
+    },
+    "guam-guam-museum": {
+      "description": "하갓냐에서 차모로 사람들의 역사와 문화를 살펴보는 박물관입니다. 관광청은 유물·영상·음성 자료를 엮은 7개 전시 공간과 영어·차모로어 패널, QR을 통한 한국어 번역을 소개합니다. 야외 광장 산책과 묶되 개관일을 먼저 확인하세요.",
+      "tip": "괌 박물관: 관광청 기본 안내는 화–금 09:00–16:00, 토 10:00–14:00, 일·월 휴관입니다. 특별 행사·공휴일 조정 가능성을 명시하므로 방문일에 다시 확인하세요. 한국어 안내는 전시 패널의 QR 번역으로 소개되어 있으며 한국어 상주 해설을 보장하는 뜻은 아닙니다."
+    },
+    "guam-chamorro-village": {
+      "description": "하갓냐의 음식·공예 시장입니다. 수요일 야시장에서는 바비큐 향, 현지 음식과 과일 음료, 공예품과 문화 공연을 함께 접할 수 있습니다. 기념품은 포장의 Guam 문구만 보지 말고 Made in Guam 인증 표시와 제작자를 확인하면 현지 생산품을 고르기 좋습니다.",
+      "tip": "차모로 빌리지: 일반 상점 이용과 수요일 야시장은 구분하세요. 수요일이라는 이유만으로 공휴일·악천후의 개최를 보장하지 않습니다. 야시장 이용일에는 돌아오는 이동편도 먼저 정하세요."
+    },
+    "guam-two-lovers-point": {
+      "description": "필리핀해와 괌 해안의 넓은 전망을 감상하는 절벽 전망 명소입니다. 풍경과 함께 두 연인의 전설을 소개하는 곳으로, 투몬 북쪽을 둘러보는 날에 묶기 좋습니다. 해변 수영과는 별도의 전망 관람 일정으로 계획하세요.",
+      "tip": "사랑의 절벽: 운영사 기본 안내는 매일 09:00–19:00·입장 USD 3입니다. 나이별 할인·패키지·임시 운영 변경은 이번 자료에 없어 추정하지 않았습니다. 전망을 위한 장소이며 난간 밖 접근이나 해변 입수를 위한 코스가 아닙니다."
+    },
+    "guam-premier-outlets": {
+      "description": "타무닝에 위치한 아울렛으로 의류·신발·잡화 매장과 식사 공간, 영화관을 함께 안내합니다. 공식 디렉터리에는 Ross, Tommy Hilfiger, Calvin Klein 등 매장이 실려 있습니다. 투몬 쇼핑 구역이나 마이크로네시아 몰과 다른 곳이므로 같은 쇼핑몰로 혼동하지 마세요.",
+      "tip": "공식 기본 안내는 매일 10:00–21:00입니다(2026-10-30 UTC 확인·게시일 미상). 개별 점포·연말·공휴일 시간과 재고·교환 조건은 다를 수 있습니다."
+    },
+    "safety": "해변 준비: 초보 스노클링은 구명조끼를 준비하고 혼자 입수하지 마세요. 어린이를 가까이서 지켜보고, 천둥·악천후에는 물 밖으로 나오세요. 산호초 경계와 물길에 접근하지 않으며 당일 경고 표지·해류·수질 안내를 확인하세요. 튜브는 수영 능력이나 구명조끼를 대신하지 않습니다.",
+    "entry": [
+      "입국 방식: 괌 관광청은 2024-11-29부터 Guam-CNMI 무비자 프로그램 이용자에게 G-CNMI ETA 전자 신청을 안내합니다. 한국은 안내된 대상 국가에 포함되지만 여권·여행 이력·목적 등에 따른 개인 자격은 별도입니다. 이 프로그램의 45일 한도와 미국 본토 경유가 없는 직행 조건을 확인하고, 미국 다른 지역을 거치면 같은 조건으로 판단하지 마세요. ETA·ESTA·비자는 동일한 신청이 아닙니다. CBP와 항공사에서 본인 여정에 적용되는 방식을 확인하세요.",
+      "세관 신고: EDF는 입국허가와 별도이며 도착 72시간 전부터 작성할 수 있습니다. 관광청은 2025-02-04부터 전자 신고를 안내합니다. 괌 세관 CQA 공식 홈페이지의 양식 링크를 이용하고 제출 QR을 오프라인에서도 열 수 있게 보관하세요. 같은 가구·가족의 신고 단위는 공식 양식 조건을 따르세요. 사전 작성이 어려운 경우 공항 키오스크·직원 안내를 이용하세요."
+    ],
+    "shopping": "쇼핑: GPO 공식 기본 운영 안내는 매일 10:00–21:00, 마이크로네시아 몰은 월–토 10:00–21:00·일 10:00–20:00입니다. 게시일이 없는 운영사 안내를 확인한 값이며 공휴일·연말과 개별 점포에는 그대로 적용하지 마세요. 사이즈·교환 규정·귀국 수하물 여유를 먼저 확인하세요.",
+    "aquarium": "수족관: 두짓 공식 페이지의 Aquarium of Guam 체험은 COMING SOON으로 표시돼 있습니다. 이미 이용 가능한 실내 대안으로 확정하지 않고 개장·예약 가능 여부가 확인될 때까지 일정 제안을 보류합니다."
+  },
+  "sourceSummary": {
+    "attempted": 25,
+    "used": 14,
+    "fullCityReview": false,
+    "existingPlaces": 29,
+    "placeDescriptionsUpdated": 5,
+    "beachSafetyTipsUpdated": 3
+  },
+  "validation": {
+    "guidebooksBuildCheck": "passed",
+    "databaseBuildCheck": "passed",
+    "databaseTests": {
+      "passed": 6
+    },
+    "webBuild": "passed; existing large chunk warning",
+    "browserChecks": {
+      "contentUpdatesAndMultidayAndPractical": 26,
+      "result": "25 passed in rerun plus source-evidence test passed after linking existing review records",
+      "additionalResortSuite": "1 passed, 2 failed: obsolete Saipan JPG expectation and old add-to-itinerary button locator. Neither UI/image was changed by this task."
+    },
+    "preservation": "Non-Guam source objects and DB records unchanged; all existing IDs/images/coordinates kept. Existing 2026-10-29 review metadata linked into public/guide-research.json without changing its dates."
+  }
+}

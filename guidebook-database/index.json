@@ -841,10 +841,10 @@
       "country": "미국령 괌",
       "origin": "bundled",
       "importedAt": "2026-10-28",
-      "sourceCheckedAt": "2026-10-29",
-      "latestSourceCheckedAt": "2026-10-29",
+      "sourceCheckedAt": "2026-10-30",
+      "latestSourceCheckedAt": "2026-10-30",
       "lastReviewedAt": null,
-      "contentHash": "eaa77ebe9a1522cebc98d61d5dfa1733c8610bc376c0174e141052b7dd5158c2",
+      "contentHash": "81b7371e467e5fb216dc1a11b56dca23663d554dbe557a30a41f65373707eed9",
       "file": "records/guam.json",
       "placeCount": 29,
       "sectionCount": 7
