@@ -1,0 +1,62 @@
+{
+  "checkedAt": "2026-10-30T23:47:40.796961+00:00",
+  "commit": "dd3c9b8",
+  "files": [
+    {
+      "file": "content/manifest.json",
+      "httpStatus": 200,
+      "bytes": 298,
+      "sha256": "d55ac8a0d266a6ae1b09dc1d3e574a55c6a955246e5cfce81e60ca7049a315f6",
+      "matchesLocal": true
+    },
+    {
+      "file": "content/catalog-0d3d8e182f48f8d3f6bc255d6cab2bbcfffdc7cd7330d7343aa2728dcaa6093e.json",
+      "httpStatus": 200,
+      "bytes": 1234913,
+      "sha256": "0d3d8e182f48f8d3f6bc255d6cab2bbcfffdc7cd7330d7343aa2728dcaa6093e",
+      "matchesLocal": true
+    },
+    {
+      "file": "guidebook-database/index.json",
+      "httpStatus": 200,
+      "bytes": 34516,
+      "sha256": "3c6d97e1bc2d7a0a0e3a8f4c81249bbfa0d2eb25f1e179546299a1dfc548edca",
+      "matchesLocal": true
+    },
+    {
+      "file": "guidebook-database/guides.sqlite",
+      "httpStatus": 200,
+      "bytes": 4448256,
+      "sha256": "21663ed59744a8c7ef2169600e52fd210524a5ac5a6917c37f96733b156b8b93",
+      "matchesLocal": true
+    },
+    {
+      "file": "guidebook-database/records/guam.json",
+      "httpStatus": 200,
+      "bytes": 69791,
+      "sha256": "81b7371e467e5fb216dc1a11b56dca23663d554dbe557a30a41f65373707eed9",
+      "matchesLocal": true
+    },
+    {
+      "file": "src/practical-guides.json",
+      "httpStatus": 200,
+      "bytes": 82461,
+      "sha256": "51a109c365c3ed54b06f8da08777effc3e8f61e8081bc0314de6ae72c5978643",
+      "matchesLocal": true
+    },
+    {
+      "file": "research/guidebooks/guam-travel-guide-20261030.md",
+      "httpStatus": 200,
+      "bytes": 14968,
+      "sha256": "43372575419c101a1ac5a1dc19e743b2303cdf345c1e544a709bb701e90398e5",
+      "matchesLocal": true
+    },
+    {
+      "file": "research/guidebooks/runs/20261030T2338-refresh.json",
+      "httpStatus": 200,
+      "bytes": 21173,
+      "sha256": "fdfcb3033457f3befcad0d10284aaeb50c4635f08bcaa66a3add2e3320e36ffe",
+      "matchesLocal": true
+    }
+  ]
+}
