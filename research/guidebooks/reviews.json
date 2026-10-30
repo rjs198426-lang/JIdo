@@ -447,6 +447,87 @@
         "https://www.npac-ntt.org/en/about/architecture/design"
       ],
       "evidencePath": "research/guidebooks/runs/20261029T2305-new.json"
+    },
+    {
+      "guideId": "book-kohsamui",
+      "checkedAt": "2026-10-30",
+      "contentHash": "f1f85b9c51ad7686da5c67f28d22f4bb012d45c6b954d4a1b42a4fd1e54e7dc6",
+      "result": "changed",
+      "urls": [
+        "https://www.tourismthailand.org/Destinations/Provinces/Ko-Samui/360",
+        "https://www.tourismthailand.org/Attraction/ko-samui",
+        "https://www.tourismthailand.org/Attraction/hat-lamai",
+        "https://www.samuiairport.com/",
+        "https://www.samuiairport.com/carrent"
+      ],
+      "evidencePath": "research/guidebooks/runs/20261030T0456-new.json"
+    },
+    {
+      "guideId": "book-huahin",
+      "checkedAt": "2026-10-30",
+      "contentHash": "1b4b8a5f16dd35e1049988ed62e61f0704773cd62c431f8081c74d10d645984d",
+      "result": "changed",
+      "urls": [
+        "https://www.tourismthailand.org/Attraction/hat-hua-hin",
+        "https://www.tourismthailand.org/Attraction/khao-takiap",
+        "https://www.tourismthailand.org/Attraction/cicada-market",
+        "https://www.vananavahuahin.com/",
+        "https://www.monsoonvalley.com/en",
+        "https://www.monsoonvalley.com/en/day-out",
+        "https://airportpattayabus.com/airport-hua-hin/"
+      ],
+      "evidencePath": "research/guidebooks/runs/20261030T0456-new.json"
+    },
+    {
+      "guideId": "book-chiangrai",
+      "checkedAt": "2026-10-30",
+      "contentHash": "059a66f89b4066bb33f113bcfe5edf5a59088db2ac97ff0b9a38a41ef1edfc9a",
+      "result": "changed",
+      "urls": [
+        "https://www.tourismthailand.org/Destinations/Provinces/Chiang-Rai/102",
+        "https://www.tourismthailand.org/Attraction/wat-rong-khun",
+        "https://www.tourismthailand.org/Attraction/wat-rong-suea-ten",
+        "https://www.tourismthailand.org/Attraction/wat-phra-kaeo",
+        "https://www.tourismthailand.org/Attraction/ban-dam-museum",
+        "https://www.maefahluang.org/en/mae-fah-luang-art-and-cultural-park/",
+        "https://chiangrai.airportthai.co.th/"
+      ],
+      "evidencePath": "research/guidebooks/runs/20261030T0456-new.json"
+    },
+    {
+      "guideId": "book-melaka",
+      "checkedAt": "2026-10-30",
+      "contentHash": "aab051220903465b88fdb1d48c427ef2741ab12a679f455c6fb723e887c197fe",
+      "result": "changed",
+      "urls": [
+        "https://visitmelaka.com.my/index.php/culture-heritagemenu/history",
+        "https://visitmelaka.com.my/index.php/culture-heritagemenu/heritage",
+        "https://visitmelaka.com.my/index.php/nature-adventure/recreation/124-melaka-river-cruise",
+        "https://www.babanyonyamuseum.com/",
+        "https://www.babanyonyamuseum.com/getting-here/",
+        "https://www.transnasional.com.my/",
+        "https://visitmelaka.com.my/index.php/lifestyles/food/104-cendol",
+        "https://visitmelaka.com.my/index.php/lifestyles/food/105-asam-pedas-melaka"
+      ],
+      "evidencePath": "research/guidebooks/runs/20261030T0456-new.json"
+    },
+    {
+      "guideId": "book-johorbahru",
+      "checkedAt": "2026-10-30",
+      "contentHash": "0204d5fe1bb1be6f5fc819a78a3fc086440d59072c09acb3855d1e389b166133",
+      "result": "changed",
+      "urls": [
+        "https://visitjohor2026.my/johor-bahru/",
+        "https://www.malaysia.travel/explore/the-ultimate-guide-to-the-best-shopping-malls-in-johor-bahru",
+        "https://www.malaysia.travel/explore/a-foodie-s-journey-12-local-eats-in-johor-you-must-try",
+        "https://visitjohor2026.my/listing/skyscape-menara-jland/",
+        "https://visitjohor2026.my/listing/sireh-park/",
+        "https://visitjohor2026.my/listing/permaisuri-zarith-sofiah-opera-house/",
+        "https://www.legoland.com.my/plan-your-day/before-you-visit/opening-hours/",
+        "https://www.causewaylink.com.my/routes-schedules/airport-shuttle-bus/",
+        "https://www.senaiairport.com/To-From-The-Airport/By-Taxi"
+      ],
+      "evidencePath": "research/guidebooks/runs/20261030T0456-new.json"
     }
   ]
 }

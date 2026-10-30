@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-29T23:23:22.253Z",
+  "updatedAt": "2026-10-30T05:06:33.472Z",
   "books": [
     {
       "id": "book-asahikawa",
@@ -101,6 +101,20 @@
       "placeCount": 6
     },
     {
+      "id": "book-chiangrai",
+      "name": "치앙라이",
+      "english": "Chiang Rai",
+      "country": "태국",
+      "summary": "란나 유산과 현대 예술을 서로 다른 시선으로 읽는 도시",
+      "region": "동남아",
+      "revision": "89ec61d41c0aadd593d4ff2c55adc22c0bd5a5b033f404105d7e02ede9bee429",
+      "file": "book-chiangrai-89ec61d41c0aadd593d4ff2c55adc22c0bd5a5b033f404105d7e02ede9bee429.json",
+      "bytes": 10617,
+      "updatedAt": "2026-10-30T05:06:33.472Z",
+      "minBuild": 73,
+      "placeCount": 5
+    },
+    {
       "id": "book-dalat",
       "name": "달랏",
       "english": "Da Lat",
@@ -185,6 +199,20 @@
       "placeCount": 6
     },
     {
+      "id": "book-huahin",
+      "name": "후아힌",
+      "english": "Hua Hin",
+      "country": "태국",
+      "summary": "해변 휴식에 예술 시장과 포도밭 나들이를 더하는 여행",
+      "region": "동남아",
+      "revision": "767523c4cb1bab41de326d7909401b7325debf73c15135edded940fcb2cda043",
+      "file": "book-huahin-767523c4cb1bab41de326d7909401b7325debf73c15135edded940fcb2cda043.json",
+      "bytes": 10233,
+      "updatedAt": "2026-10-30T05:06:33.472Z",
+      "minBuild": 73,
+      "placeCount": 5
+    },
+    {
       "id": "book-hue",
       "name": "후에",
       "english": "Hue",
@@ -209,6 +237,20 @@
       "file": "book-ishigaki-a9979a08bf3c7324f8ae23b7bc80ccb0e2083d2188b793e055259adbe16e602f.json",
       "bytes": 9970,
       "updatedAt": "2026-10-29T11:14:56.783Z",
+      "minBuild": 73,
+      "placeCount": 5
+    },
+    {
+      "id": "book-johorbahru",
+      "name": "조호르바루",
+      "english": "Johor Bahru",
+      "country": "말레이시아",
+      "summary": "도심 식사·쇼핑과 가족 체험을 나눠 즐기는 남쪽 관문",
+      "region": "동남아",
+      "revision": "7bd61f65cf80703207e51023625fdb0f095af40a096f5357ae543d103f0273d9",
+      "file": "book-johorbahru-7bd61f65cf80703207e51023625fdb0f095af40a096f5357ae543d103f0273d9.json",
+      "bytes": 11622,
+      "updatedAt": "2026-10-30T05:06:33.472Z",
       "minBuild": 73,
       "placeCount": 5
     },
@@ -253,6 +295,20 @@
       "updatedAt": "2026-10-28T05:07:12.733Z",
       "minBuild": 73,
       "placeCount": 6
+    },
+    {
+      "id": "book-kohsamui",
+      "name": "코사무이",
+      "english": "Ko Samui",
+      "country": "태국",
+      "summary": "해변마다 다른 분위기를 골라 쉬는 태국 만의 섬",
+      "region": "동남아",
+      "revision": "35c17fb192b0850791cf14727628e9f3e08e1c001ce404c901ac07d390eb601d",
+      "file": "book-kohsamui-35c17fb192b0850791cf14727628e9f3e08e1c001ce404c901ac07d390eb601d.json",
+      "bytes": 10164,
+      "updatedAt": "2026-10-30T05:06:33.472Z",
+      "minBuild": 73,
+      "placeCount": 5
     },
     {
       "id": "book-kotakinabalu",
@@ -391,6 +447,20 @@
       "file": "book-matsuyama-2092d44d3b9a2d3ae444baa26cec54e0385570a152ca9f796059bbd452f78f7c.json",
       "bytes": 11739,
       "updatedAt": "2026-10-29T04:13:17.595Z",
+      "minBuild": 73,
+      "placeCount": 5
+    },
+    {
+      "id": "book-melaka",
+      "name": "믈라카",
+      "english": "Melaka",
+      "country": "말레이시아",
+      "summary": "해상 교역의 역사와 페라나칸 생활, 강변 산책",
+      "region": "동남아",
+      "revision": "ac84cbc698bde6a12686a502654cf9e65f5e1df80484b4431ecb0cc1f905b83d",
+      "file": "book-melaka-ac84cbc698bde6a12686a502654cf9e65f5e1df80484b4431ecb0cc1f905b83d.json",
+      "bytes": 10890,
+      "updatedAt": "2026-10-30T05:06:33.472Z",
       "minBuild": 73,
       "placeCount": 5
     },

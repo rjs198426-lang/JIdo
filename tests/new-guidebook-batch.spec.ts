@@ -29,6 +29,11 @@ const ids = [
   'book-krabi',
   'book-macau',
   'book-taichung',
+  'book-kohsamui',
+  'book-huahin',
+  'book-chiangrai',
+  'book-melaka',
+  'book-johorbahru',
 ]
 test('researched city guide batches download one by one, render researched text offline, and preserve personal records', async ({
   page,

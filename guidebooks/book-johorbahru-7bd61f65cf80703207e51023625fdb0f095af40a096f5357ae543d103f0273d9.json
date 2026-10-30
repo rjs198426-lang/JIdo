@@ -1,0 +1,180 @@
+{
+  "id": "book-johorbahru",
+  "scope": "city",
+  "city": {
+    "id": "book-johorbahru",
+    "name": "조호르바루",
+    "english": "Johor Bahru",
+    "country": "말레이시아",
+    "region": "동남아",
+    "image": "/images/guide-placeholder.svg",
+    "tagline": "도심 식사·쇼핑과 가족 체험을 나눠 즐기는 남쪽 관문",
+    "description": "조호르바루는 말레이시아 남쪽의 도시 생활과 가족 체험을 함께 계획하는 목적지입니다. 도심의 상점·전망 시설·공연장과 이스칸다르푸트리의 레고랜드·공원은 권역을 나눠 이동합니다. 싱가포르와 국경을 맞대지만 입경 절차가 다른 별개 여행지입니다. 이번 가이드는 조호르바루 체류권을 다루며 이스칸다르푸트리를 다시 신규 도시로 세거나 데사루·므르싱까지 도심으로 묶지 않습니다.",
+    "tags": [
+      "도시 산책",
+      "여행 준비"
+    ],
+    "flight": "항공편·운항일은 예약 시 항공사에서 확인",
+    "currency": "말레이시아 링깃 · MYR",
+    "timeDifference": "한국보다 1시간 느림",
+    "timeZone": "Asia/Kuala_Lumpur",
+    "season": "방문일의 비·더위·강풍과 시설 공지를 확인하고 야외 일정에 실내 대안을 준비하세요.",
+    "accent": "#e7f1ef"
+  },
+  "places": [
+    {
+      "id": "book-johorbahru-legoland",
+      "cityId": "book-johorbahru",
+      "name": "레고랜드 말레이시아",
+      "english": "LEGOLAND Malaysia Resort",
+      "category": "체험",
+      "image": "/images/place-placeholder.svg",
+      "description": "레고 놀이와 놀이기구·물놀이·수족관을 서로 다른 구역으로 선택하는 가족 체험 시설입니다.",
+      "address": "Iskandar Puteri, Johor",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "방문일 파크별 달력·정비·키 제한과 표 포함 범위를 확인하세요."
+    },
+    {
+      "id": "book-johorbahru-city-square",
+      "cityId": "book-johorbahru",
+      "name": "조호르바루 시티스퀘어",
+      "english": "Johor Bahru City Square",
+      "category": "쇼핑",
+      "image": "/images/place-placeholder.svg",
+      "description": "도심의 식사·쇼핑을 한 공간에서 계획할 수 있는 상업시설입니다.",
+      "address": "Jalan Wong Ah Fook, Johor Bahru",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "개별 매장과 서비스의 현재 영업을 확인하고 국경 통과 시간을 쇼핑 시간과 구분하세요."
+    },
+    {
+      "id": "book-johorbahru-skyscape",
+      "cityId": "book-johorbahru",
+      "name": "스카이스케이프 메나라 제이랜드",
+      "english": "Skyscape Menara JLand",
+      "category": "체험",
+      "image": "/images/place-placeholder.svg",
+      "description": "유리 전망 구역과 실내 체험으로 도심을 높은 시선에서 보는 시설입니다.",
+      "address": "Komtar JBCC, Johor Bahru",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "기상·시야·체험 제한·표 포함을 확인하고 모든 날에 멀리까지 보인다고 기대하지 마세요."
+    },
+    {
+      "id": "book-johorbahru-sireh-park",
+      "cityId": "book-johorbahru",
+      "name": "시레 공원",
+      "english": "Sireh Park",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "자연 보전과 지역 참여를 지향하는 공원으로 도심 밖에서 산책과 휴식을 계획하는 곳입니다.",
+      "address": "Iskandar Puteri, Johor",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "공개 산책 구역과 별도 프로그램을 구분하고 비·더위·통제에 맞춰 이동하세요."
+    },
+    {
+      "id": "book-johorbahru-opera-house",
+      "cityId": "book-johorbahru",
+      "name": "페르마이수리 자리트 소피아 오페라하우스",
+      "english": "Permaisuri Zarith Sofiah Opera House",
+      "category": "바·공연",
+      "image": "/images/place-placeholder.svg",
+      "description": "독특한 외관의 공연장으로 공연 일정에 맞춰 문화 관람을 선택할 수 있는 장소입니다.",
+      "address": "R&F Princess Cove, Johor Bahru",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "외관을 보는 것과 실내 공연 관람은 다릅니다. 실제 편성·예매·귀환을 먼저 확인하세요."
+    }
+  ],
+  "sections": [
+    {
+      "id": "book-johorbahru-overview",
+      "title": "도시 한눈에",
+      "body": "조호르바루는 말레이시아 남쪽의 도시 생활과 가족 체험을 함께 계획하는 목적지입니다. 도심의 상점·전망 시설·공연장과 이스칸다르푸트리의 레고랜드·공원은 권역을 나눠 이동합니다. 싱가포르와 국경을 맞대지만 입경 절차가 다른 별개 여행지입니다. 이번 가이드는 조호르바루 체류권을 다루며 이스칸다르푸트리를 다시 신규 도시로 세거나 데사루·므르싱까지 도심으로 묶지 않습니다."
+    },
+    {
+      "id": "book-johorbahru-before",
+      "title": "출발 전에 챙길 것",
+      "body": "여권·입국 요건은 국적·여행 목적과 경유지에 맞춰 출입국 당국에서 확인하세요. 통신·결제·보험과 항공권·숙소 예약의 오프라인 사본을 준비하세요. 싱가포르에서 넘어오면 각 나라의 입국 서류와 실제 출입경 지점을 따로 확인하세요. 국경 통과를 고정 소요시간으로 잡아 공연·항공편을 촘촘히 연결하지 마세요. 레고랜드는 테마파크·워터파크·SEA LIFE의 포함 표와 운영 달력이 다릅니다. 운영사는 Forestmen’s Hideout의 별도 공지 시까지 중단, 10월24일~11월1일 LEGOLAND Express 정비를 표시하므로 원하는 시설의 방문일 운영을 확인하세요."
+    },
+    {
+      "id": "book-johorbahru-arrival",
+      "title": "공항과 시내 이동",
+      "body": "세나이공항과 JB Sentral 사이에는 Causeway Link의 AA1 셔틀 안내가 있습니다. 공항 사이트의 2022년 변경 안내만으로 판단하지 않고 버스 운영사 원문에서 현재 같은 양끝 지점을 다시 확인했습니다. 승차 플랫폼은 현장 창구에 확인하고 JB Sentral에서 숙소까지의 이동을 따로 정하세요. 공항 택시는 공항 안내에 쿠폰 구매 방식으로 소개되어 있습니다. 싱가포르 공항 도착은 국경 이동이 추가되므로 세나이공항 도착과 같은 경로로 생각하지 마세요."
+    },
+    {
+      "id": "book-johorbahru-stay",
+      "title": "숙소는 어느 동네에",
+      "body": "JB Sentral·시티스퀘어 주변은 도심 쇼핑·식사·전망시설을 우선할 때 비교하고, 이스칸다르푸트리 숙소는 레고랜드 중심 체류에 맞춰 비교하세요. 공연장을 선택했다면 종료 후 숙소 귀환을 먼저 정합니다. 공항·국경·숙소를 지도에서 각각 구분하고 무료 셔틀을 자동 포함으로 생각하지 마세요. 도심 숙소에서 모든 가족 시설이 걸어서 연결되는 것은 아닙니다."
+    },
+    {
+      "id": "book-johorbahru-food",
+      "title": "먹거리와 동네 쇼핑",
+      "body": "국가 관광청은 하이난식 치킨찹, 바나나 케이크, 미르부스와 수프툴랑 등 다양한 음식 문화를 소개합니다. 도심 옛 거리의 간식과 쇼핑몰 식사를 나눠 선택하면 날씨에 맞춰 쉬기 좋습니다. 기사 속 업소의 할랄 인증·영업·지점 상태는 별도 확인이 필요하므로 모든 지점에 같은 조건을 적용하지 않았습니다. 땅콩·유제품·고기·육수 재료를 확인하고 포장 과자는 보관과 국경 반입 조건을 확인하세요."
+    },
+    {
+      "id": "book-johorbahru-days",
+      "title": "처음 가는 3일 여행",
+      "body": "1일: 도착 → 도심 숙소 → 시티스퀘어에서 식사·쇼핑. 여유가 있으면 스카이스케이프를 선택합니다.\n\n2일: 레고랜드를 별도 하루로 계획하고 표에 포함된 구역과 동행자의 키·체력에 맞춰 활동을 줄입니다. 모든 파크를 한꺼번에 돌아야 하는 일정은 아닙니다.\n\n3일: 숙소와 귀환 교통에 따라 시레 공원의 공개 산책 구역을 선택하거나 도심에서 쉽니다. 공연을 원한다면 페르마이수리 자리트 소피아 오페라하우스의 실제 편성을 확인해 별도 날짜에 예매하세요.\n\n동선은 관심과 기상에 맞춰 고르는 편집 제안입니다. 자동 방문 시각이나 실제 지도 경로가 아니며 모든 곳을 방문할 필요는 없습니다."
+    },
+    {
+      "id": "book-johorbahru-notes",
+      "title": "예약과 현장 팁",
+      "body": "스카이스케이프의 유리 전망 공간은 높은 곳이 불편한 동행에게 맞지 않을 수 있어 체험 조건을 먼저 확인하세요. 시레 공원의 야외 활동은 비·통제·예약 프로그램에 따라 달라집니다. 관광 포털의 자동 “Now Open/Closed” 표시는 영구 폐업 판단에 사용하지 않았고 공원 심야 운영을 보장하지 않았습니다. 레고랜드의 오늘·내일 달력과 정비 기간은 기사 게시일이 아니며 공지 없는 재개일을 만들지 않았습니다."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Johor Bahru -",
+      "url": "https://visitjohor2026.my/johor-bahru/",
+      "accessedAt": "2026-10-30"
+    },
+    {
+      "title": "Malaysia Truly Asia - The Ultimate Guide to the Best Shopping Malls in Johor Bahru",
+      "url": "https://www.malaysia.travel/explore/the-ultimate-guide-to-the-best-shopping-malls-in-johor-bahru",
+      "accessedAt": "2026-10-30"
+    },
+    {
+      "title": "Malaysia Truly Asia - A Foodie’s Journey: 12 Local Eats in Johor You Must Try",
+      "url": "https://www.malaysia.travel/explore/a-foodie-s-journey-12-local-eats-in-johor-you-must-try",
+      "accessedAt": "2026-10-30"
+    },
+    {
+      "title": "Skyscape Menara JLand -",
+      "url": "https://visitjohor2026.my/listing/skyscape-menara-jland/",
+      "accessedAt": "2026-10-30"
+    },
+    {
+      "title": "Sireh Park -",
+      "url": "https://visitjohor2026.my/listing/sireh-park/",
+      "accessedAt": "2026-10-30"
+    },
+    {
+      "title": "Permaisuri Zarith Sofiah Opera House -",
+      "url": "https://visitjohor2026.my/listing/permaisuri-zarith-sofiah-opera-house/",
+      "accessedAt": "2026-10-30"
+    },
+    {
+      "title": "Opening Hours | LEGOLAND® Malaysia Resort",
+      "url": "https://www.legoland.com.my/plan-your-day/before-you-visit/opening-hours/",
+      "accessedAt": "2026-10-30"
+    },
+    {
+      "title": "Airport Shuttle Bus | Causeway Link",
+      "url": "https://www.causewaylink.com.my/routes-schedules/airport-shuttle-bus/",
+      "accessedAt": "2026-10-30"
+    },
+    {
+      "title": "Senai International Airport, Johor Bahru, Malaysia - By Taxi",
+      "url": "https://www.senaiairport.com/To-From-The-Airport/By-Taxi",
+      "accessedAt": "2026-10-30"
+    }
+  ],
+  "status": "published",
+  "requestId": null,
+  "createdAt": "2026-10-30T05:06:33.472Z",
+  "updatedAt": "2026-10-30T05:06:33.472Z",
+  "publishedAt": "2026-10-30T05:06:33.472Z"
+}

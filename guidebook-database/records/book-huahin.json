@@ -1,0 +1,172 @@
+{
+  "guide": {
+    "id": "book-huahin",
+    "scope": "city",
+    "city": {
+      "id": "book-huahin",
+      "name": "후아힌",
+      "english": "Hua Hin",
+      "country": "태국",
+      "region": "동남아",
+      "image": "/images/guide-placeholder.svg",
+      "tagline": "해변 휴식에 예술 시장과 포도밭 나들이를 더하는 여행",
+      "description": "후아힌은 해변에서 쉬는 날과 남쪽 카오따끼압·예술 시장·교외 포도밭을 나눠 즐기는 태국 해안 도시입니다. 파타야와는 별개 목적지이며 같은 공항버스 운영사가 나온다는 이유로 한 도시로 묶지 않습니다. 차암이나 더 먼 국립공원을 따로 신규 도시로 세지 않고 후아힌 체류권을 중심으로 안내합니다. 해변 활동을 빽빽하게 채우기보다 식사와 휴식을 충분히 두세요.",
+      "tags": [
+        "도시 산책",
+        "여행 준비"
+      ],
+      "flight": "항공편·운항일은 예약 시 항공사에서 확인",
+      "currency": "태국 바트 · THB",
+      "timeDifference": "한국보다 2시간 느림",
+      "timeZone": "Asia/Bangkok",
+      "season": "방문일의 비·더위·강풍과 시설 공지를 확인하고 야외 일정에 실내 대안을 준비하세요.",
+      "accent": "#e7f1ef"
+    },
+    "places": [
+      {
+        "id": "book-huahin-beach",
+        "cityId": "book-huahin",
+        "name": "후아힌 해변",
+        "english": "Hat Hua Hin",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "도심 동쪽 해안을 따라 숙소·휴식 공간이 이어지고 남쪽 카오따끼압을 바라보는 해변입니다.",
+        "address": "Hua Hin",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "수영·수상 활동은 현장 안내에 따르고 그늘에서 쉬는 시간을 두세요."
+      },
+      {
+        "id": "book-huahin-khao-takiap",
+        "cityId": "book-huahin",
+        "name": "카오따끼압",
+        "english": "Khao Takiap",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "사원과 불상, 해안 전망을 함께 보는 후아힌 남쪽 언덕 권역입니다.",
+        "address": "Southern Hua Hin",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "사원 복장과 오르막 부담을 고려하고 지정 관람 구역을 지키세요."
+      },
+      {
+        "id": "book-huahin-cicada",
+        "cityId": "book-huahin",
+        "name": "시카다 마켓",
+        "english": "Cicada Market",
+        "category": "쇼핑",
+        "image": "/images/place-placeholder.svg",
+        "description": "옷·생활 소품·현대 공예와 야외 공연을 만나는 예술 중심 저녁 시장입니다.",
+        "address": "Hua Hin",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "방문일 운영과 공연 편성을 먼저 확인하세요. 매일 같은 프로그램을 보장하지 않습니다."
+      },
+      {
+        "id": "book-huahin-vana-nava",
+        "cityId": "book-huahin",
+        "name": "바나나바 워터파크",
+        "english": "Vana Nava Water Jungle",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "어린이·가족·모험 놀이 구역을 나눠 고를 수 있는 물놀이 시설입니다.",
+        "address": "Nong Kae, Hua Hin",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "키·건강 제한, 방문일 운영과 표 포함 범위를 시설에서 확인하세요."
+      },
+      {
+        "id": "book-huahin-monsoon-valley",
+        "cityId": "book-huahin",
+        "name": "몬순밸리 포도밭",
+        "english": "Monsoon Valley Vineyard",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "열대 기후에서 자라는 포도와 교외 경관을 보고 식사·투어를 선택하는 농장 방문지입니다.",
+        "address": "Hua Hin countryside",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "왕복 교통과 예약 프로그램을 확인하세요. 수확 체험을 상시 제공으로 생각하지 마세요."
+      }
+    ],
+    "sections": [
+      {
+        "id": "book-huahin-overview",
+        "title": "도시 한눈에",
+        "body": "후아힌은 해변에서 쉬는 날과 남쪽 카오따끼압·예술 시장·교외 포도밭을 나눠 즐기는 태국 해안 도시입니다. 파타야와는 별개 목적지이며 같은 공항버스 운영사가 나온다는 이유로 한 도시로 묶지 않습니다. 차암이나 더 먼 국립공원을 따로 신규 도시로 세지 않고 후아힌 체류권을 중심으로 안내합니다. 해변 활동을 빽빽하게 채우기보다 식사와 휴식을 충분히 두세요."
+      },
+      {
+        "id": "book-huahin-before",
+        "title": "출발 전에 챙길 것",
+        "body": "여권·입국 요건은 국적·여행 목적과 경유지에 맞춰 출입국 당국에서 확인하세요. 통신·결제·보험과 항공권·숙소 예약의 오프라인 사본을 준비하세요. 시카다 마켓·공연·체험은 방문일 운영을 먼저 확인하세요. 해변과 전망 언덕에는 햇빛 차단·물·편한 신발이 필요합니다. 워터파크는 동행자의 키·건강 조건과 수영복·보관함·취소 규정을 확인한 뒤 예약하세요. 포도밭에서 시음을 선택한다면 귀환 차량을 먼저 정하고 운전자는 마시지 않습니다."
+      },
+      {
+        "id": "book-huahin-arrival",
+        "title": "공항과 시내 이동",
+        "body": "Roong Reuang Coach의 수완나품–후아힌 노선은 공항 탑승 장소와 후아힌 터미널을 안내합니다. 후아힌 터미널은 숙소 앞 하차와 다르므로 예약한 호텔까지의 마지막 구간을 따로 정하세요. 차암에는 승차와 하차 지점이 다르게 표시되어 있어 돌아오는 표를 갈 때의 정류장으로 단정하지 마세요. 도착 공항·예약일 좌석·짐·지연 대응을 확인하고 돈므앙 도착에 같은 노선을 그대로 적용하지 않습니다. 정가·운행 간격·도로 소요시간은 고정하지 않았습니다."
+      },
+      {
+        "id": "book-huahin-stay",
+        "title": "숙소는 어느 동네에",
+        "body": "후아힌 중심 해변은 도심 식사와 해변 산책을 함께 두고 싶을 때, 남쪽 카오따끼압·농깨는 전망 언덕·시카다·바나나바 방문을 고려할 때 비교하세요. 몬순밸리 포도밭은 교외 나들이로 왕복 차량이 필요하므로 해변 숙소에서 바로 걸어가는 장소로 생각하지 마세요. 객실의 바다 전망·해변 출입·주변 식사·늦은 귀환 조건을 숙소마다 확인하세요."
+      },
+      {
+        "id": "book-huahin-food",
+        "title": "먹거리와 동네 쇼핑",
+        "body": "시카다 마켓은 공예·창작품과 공연을 중심으로 둘러보고 방문일에 열리는 식사 공간을 함께 확인하는 곳입니다. 몬순밸리의 살라 와인바·비스트로는 포도밭 관람과 식사를 연결하는 선택지이며 주류 시음은 별도 조건을 확인합니다. 해변 주변 식당은 메뉴·알레르기 재료와 해산물 중량 기준 가격을 먼저 확인하세요. 단일 식당의 현재 할인·대기시간을 검증한 추천 목록은 아닙니다."
+      },
+      {
+        "id": "book-huahin-days",
+        "title": "처음 가는 3일 여행",
+        "body": "1일: 도착 → 후아힌 해변 산책 → 숙소 주변 식사와 휴식.\n\n2일: 카오따끼압 전망·사원 또는 바나나바 워터파크 중 동행자 취향에 맞는 활동을 고릅니다. 운영일이 맞으면 저녁에 시카다 마켓을 방문합니다.\n\n3일: 왕복 차량과 방문 프로그램을 확인한 뒤 몬순밸리 포도밭을 선택합니다. 출국 시간이 촉박하면 교외 방문을 생략하고 해변에서 쉬며 이동을 준비하세요.\n\n동선은 관심과 기상에 맞춰 고르는 편집 제안입니다. 자동 방문 시각이나 실제 지도 경로가 아니며 모든 곳을 방문할 필요는 없습니다."
+      },
+      {
+        "id": "book-huahin-notes",
+        "title": "예약과 현장 팁",
+        "body": "몬순밸리 운영사는 비스트로의 계절별 운영 안내와 포도밭 투어·자전거 활동을 구분합니다. 포도 수확·시음이 모든 날짜에 기본 포함된다고 가정하지 마세요. 카오따끼압은 사원 공간과 전망 언덕을 방문하는 곳이므로 복장·접근 통제를 지킵니다. 워터파크의 광고상 최고·최대 표현이나 모든 연령 안전 보장은 사용하지 않았고 코끼리 체험도 필수 일정에 넣지 않았습니다."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Hat Hua Hin",
+        "url": "https://www.tourismthailand.org/Attraction/hat-hua-hin",
+        "accessedAt": "2026-10-30"
+      },
+      {
+        "title": "Khao Takiap",
+        "url": "https://www.tourismthailand.org/Attraction/khao-takiap",
+        "accessedAt": "2026-10-30"
+      },
+      {
+        "title": "Cicada Market",
+        "url": "https://www.tourismthailand.org/Attraction/cicada-market",
+        "accessedAt": "2026-10-30"
+      },
+      {
+        "title": "Vana Nava Hua Hin",
+        "url": "https://www.vananavahuahin.com/",
+        "accessedAt": "2026-10-30"
+      },
+      {
+        "title": "Home | Monsoon Valley Vineyard",
+        "url": "https://www.monsoonvalley.com/en",
+        "accessedAt": "2026-10-30"
+      },
+      {
+        "title": "Day Out | Monsoon Valley Vineyard",
+        "url": "https://www.monsoonvalley.com/en/day-out",
+        "accessedAt": "2026-10-30"
+      },
+      {
+        "title": "Suvarnabhumi Airport to Hua Hin | RRC Pattaya Bus",
+        "url": "https://airportpattayabus.com/airport-hua-hin/",
+        "accessedAt": "2026-10-30"
+      }
+    ],
+    "status": "published",
+    "requestId": null,
+    "createdAt": "2026-10-30T05:06:33.472Z",
+    "updatedAt": "2026-10-30T05:06:33.472Z",
+    "publishedAt": "2026-10-30T05:06:33.472Z"
+  }
+}

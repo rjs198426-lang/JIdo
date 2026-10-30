@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "description": "공개 여행 가이드만 수집한 데이터베이스. 개인 일정·사진·메모·기기 캐시는 포함하지 않음.",
-  "guideCount": 70,
+  "guideCount": 75,
   "countryCount": 23,
-  "placeCount": 1335,
+  "placeCount": 1360,
   "origins": {
     "bundled": 21,
-    "downloadable": 49
+    "downloadable": 54
   },
   "guides": [
     {
@@ -136,6 +136,20 @@
       "sectionCount": 7
     },
     {
+      "id": "book-chiangrai",
+      "name": "치앙라이",
+      "country": "태국",
+      "origin": "downloadable",
+      "importedAt": "2026-10-30",
+      "sourceCheckedAt": "2026-10-30",
+      "latestSourceCheckedAt": "2026-10-30",
+      "lastReviewedAt": "2026-10-30",
+      "contentHash": "059a66f89b4066bb33f113bcfe5edf5a59088db2ac97ff0b9a38a41ef1edfc9a",
+      "file": "records/book-chiangrai.json",
+      "placeCount": 5,
+      "sectionCount": 7
+    },
+    {
       "id": "book-dalat",
       "name": "달랏",
       "country": "베트남",
@@ -220,6 +234,20 @@
       "sectionCount": 7
     },
     {
+      "id": "book-huahin",
+      "name": "후아힌",
+      "country": "태국",
+      "origin": "downloadable",
+      "importedAt": "2026-10-30",
+      "sourceCheckedAt": "2026-10-30",
+      "latestSourceCheckedAt": "2026-10-30",
+      "lastReviewedAt": "2026-10-30",
+      "contentHash": "1b4b8a5f16dd35e1049988ed62e61f0704773cd62c431f8081c74d10d645984d",
+      "file": "records/book-huahin.json",
+      "placeCount": 5,
+      "sectionCount": 7
+    },
+    {
       "id": "book-hue",
       "name": "후에",
       "country": "베트남",
@@ -244,6 +272,20 @@
       "lastReviewedAt": "2026-10-29",
       "contentHash": "08fd69c372a0efee7cd79ae889aca0032d5459573d43a8da2c391c9ddc47cbbc",
       "file": "records/book-ishigaki.json",
+      "placeCount": 5,
+      "sectionCount": 7
+    },
+    {
+      "id": "book-johorbahru",
+      "name": "조호르바루",
+      "country": "말레이시아",
+      "origin": "downloadable",
+      "importedAt": "2026-10-30",
+      "sourceCheckedAt": "2026-10-30",
+      "latestSourceCheckedAt": "2026-10-30",
+      "lastReviewedAt": "2026-10-30",
+      "contentHash": "0204d5fe1bb1be6f5fc819a78a3fc086440d59072c09acb3855d1e389b166133",
+      "file": "records/book-johorbahru.json",
       "placeCount": 5,
       "sectionCount": 7
     },
@@ -287,6 +329,20 @@
       "contentHash": "eb0e705c5159f6ff42c00f69b826a056fc3af52e7d047d695740944eecb0e65d",
       "file": "records/book-kaohsiung.json",
       "placeCount": 6,
+      "sectionCount": 7
+    },
+    {
+      "id": "book-kohsamui",
+      "name": "코사무이",
+      "country": "태국",
+      "origin": "downloadable",
+      "importedAt": "2026-10-30",
+      "sourceCheckedAt": "2026-10-30",
+      "latestSourceCheckedAt": "2026-10-30",
+      "lastReviewedAt": "2026-10-30",
+      "contentHash": "f1f85b9c51ad7686da5c67f28d22f4bb012d45c6b954d4a1b42a4fd1e54e7dc6",
+      "file": "records/book-kohsamui.json",
+      "placeCount": 5,
       "sectionCount": 7
     },
     {
@@ -426,6 +482,20 @@
       "lastReviewedAt": "2026-10-29",
       "contentHash": "3a04e70842a0c9b14188dbb76232751d61c64b9fd71a1b2b257287e49d4b1228",
       "file": "records/book-matsuyama.json",
+      "placeCount": 5,
+      "sectionCount": 7
+    },
+    {
+      "id": "book-melaka",
+      "name": "믈라카",
+      "country": "말레이시아",
+      "origin": "downloadable",
+      "importedAt": "2026-10-30",
+      "sourceCheckedAt": "2026-10-30",
+      "latestSourceCheckedAt": "2026-10-30",
+      "lastReviewedAt": "2026-10-30",
+      "contentHash": "aab051220903465b88fdb1d48c427ef2741ab12a679f455c6fb723e887c197fe",
+      "file": "records/book-melaka.json",
       "placeCount": 5,
       "sectionCount": 7
     },

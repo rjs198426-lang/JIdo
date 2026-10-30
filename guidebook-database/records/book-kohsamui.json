@@ -1,0 +1,162 @@
+{
+  "guide": {
+    "id": "book-kohsamui",
+    "scope": "city",
+    "city": {
+      "id": "book-kohsamui",
+      "name": "코사무이",
+      "english": "Ko Samui",
+      "country": "태국",
+      "region": "동남아",
+      "image": "/images/guide-placeholder.svg",
+      "tagline": "해변마다 다른 분위기를 골라 쉬는 태국 만의 섬",
+      "description": "코사무이는 태국 만의 섬으로 차웽·라마이·보풋 등 서로 다른 해안 권역을 골라 머무는 휴양지입니다. 섬을 모두 도는 것보다 숙소 가까운 해변과 관심 있는 동네를 묶으면 이동이 줄어듭니다. 푸껫·끄라비와는 다른 바다에 있으며 앙통 해상국립공원·주변 섬을 별도 신규 도시로 세지 않습니다. 이 가이드는 코사무이 본섬의 해변·옛 상점가·해안 지형을 중심으로 구성했습니다.",
+      "tags": [
+        "도시 산책",
+        "여행 준비"
+      ],
+      "flight": "항공편·운항일은 예약 시 항공사에서 확인",
+      "currency": "태국 바트 · THB",
+      "timeDifference": "한국보다 2시간 느림",
+      "timeZone": "Asia/Bangkok",
+      "season": "방문일의 비·더위·강풍과 시설 공지를 확인하고 야외 일정에 실내 대안을 준비하세요.",
+      "accent": "#e7f1ef"
+    },
+    "places": [
+      {
+        "id": "book-kohsamui-chaweng",
+        "cityId": "book-kohsamui",
+        "name": "차웽 해변",
+        "english": "Chaweng Beach",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "코사무이 해안 여행에서 숙소와 휴식을 중심으로 비교하는 대표 해변 권역입니다.",
+        "address": "Chaweng, Ko Samui",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "방문일 파도·수영 구역과 숙소의 실제 해변 접근을 확인하세요."
+      },
+      {
+        "id": "book-kohsamui-lamai",
+        "cityId": "book-kohsamui",
+        "name": "라마이 해변",
+        "english": "Lamai Beach",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "코사무이의 주요 해변으로 힌타·힌야이 방문과 함께 해안 휴식을 계획할 수 있습니다.",
+        "address": "Lamai, Ko Samui",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "관광청의 아름다운 해변 소개가 모든 날의 수영 안전을 뜻하지는 않습니다."
+      },
+      {
+        "id": "book-kohsamui-bophut",
+        "cityId": "book-kohsamui",
+        "name": "보풋 상점가 권역",
+        "english": "Bo Phut",
+        "category": "쇼핑",
+        "image": "/images/place-placeholder.svg",
+        "description": "옛 중국계 상점 건물을 바꿔 쓰는 모습을 통해 섬의 다른 분위기를 만나는 동네입니다.",
+        "address": "Bo Phut, Ko Samui",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "전체 동네가 하나의 시장은 아닙니다. 가게별 영업과 귀환 교통을 확인하세요."
+      },
+      {
+        "id": "book-kohsamui-hin-ta-hin-yai",
+        "cityId": "book-kohsamui",
+        "name": "힌타·힌야이",
+        "english": "Hin Ta Hin Yai",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "바닷물의 침식으로 독특한 형태가 된 화강암 바위와 주변 해안 경관을 보는 곳입니다.",
+        "address": "Ao Lamai, Ko Samui",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "미끄러운 바위와 높은 파도에 주의하고 통제 구역에 들어가지 마세요."
+      },
+      {
+        "id": "book-kohsamui-taling-ngam",
+        "cityId": "book-kohsamui",
+        "name": "탈링응암 해변",
+        "english": "Taling Ngam Beach",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "차웽·라마이와 함께 관광청이 소개하는 코사무이의 해변 휴식 후보입니다.",
+        "address": "Taling Ngam, Ko Samui",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "숙소·식사·공항 왕복을 따로 확인하고 야간의 외진 해변 산책을 피하세요."
+      }
+    ],
+    "sections": [
+      {
+        "id": "book-kohsamui-overview",
+        "title": "도시 한눈에",
+        "body": "코사무이는 태국 만의 섬으로 차웽·라마이·보풋 등 서로 다른 해안 권역을 골라 머무는 휴양지입니다. 섬을 모두 도는 것보다 숙소 가까운 해변과 관심 있는 동네를 묶으면 이동이 줄어듭니다. 푸껫·끄라비와는 다른 바다에 있으며 앙통 해상국립공원·주변 섬을 별도 신규 도시로 세지 않습니다. 이 가이드는 코사무이 본섬의 해변·옛 상점가·해안 지형을 중심으로 구성했습니다."
+      },
+      {
+        "id": "book-kohsamui-before",
+        "title": "출발 전에 챙길 것",
+        "body": "여권·입국 요건은 국적·여행 목적과 경유지에 맞춰 출입국 당국에서 확인하세요. 통신·결제·보험과 항공권·숙소 예약의 오프라인 사본을 준비하세요. 숙소를 예약할 때 해변 이름과 실제 입구, 공항 픽업 조건을 함께 확인하세요. 수영 가능 여부는 날씨와 현장 표지가 우선입니다. 관광청은 오토바이 사고 위험과 야간 해변 주의를 강조하므로 섬 여행의 기본 이동을 무조건 오토바이 대여로 정하지 마세요. 면허·보험·운전 조건을 확인하고 필요하면 숙소 차량이나 택시를 선택하세요."
+      },
+      {
+        "id": "book-kohsamui-arrival",
+        "title": "공항과 시내 이동",
+        "body": "사무이공항 홈페이지는 도착 구역의 호텔 픽업 안내와 렌터카·리무진·택시·이동 서비스를 소개합니다. 숙소가 있는 해변 이름과 도착편을 알려 주고 만나는 출구·대기·짐·지연 대응·최종 금액을 확인하세요. 육지의 다른 공항에 내리는 항공권은 섬으로 들어오는 추가 육로·배편이 필요할 수 있어 사무이공항 도착과 같은 상품으로 생각하면 안 됩니다. 공항의 쏭태우 공지는 제목과 수정일만 읽혔으며 세부 노선·운임을 확인한 것으로 처리하지 않았습니다."
+      },
+      {
+        "id": "book-kohsamui-stay",
+        "title": "숙소는 어느 동네에",
+        "body": "차웽·라마이는 해변 휴식과 주변 활동을 나눠 계획할 때, 보풋은 오래된 중국계 상점가 분위기를 함께 보고 싶을 때 비교할 권역입니다. 탈링응암 등 다른 해변 숙소는 식사·공항 왕복이 객실 예약에 포함되는지 먼저 확인하세요. 같은 해변 이름이어도 도보로 바다에 닿는 방식과 주변 소음은 다릅니다. 관광청의 고급 리조트 표현을 특정 숙소의 현재 시설·등급 보증으로 옮기지 않았습니다."
+      },
+      {
+        "id": "book-kohsamui-food",
+        "title": "먹거리와 동네 쇼핑",
+        "body": "관광청은 코사무이의 해산물과 코코넛 제품을 소개합니다. 힌타·힌야이로 가는 길 주변에는 코코넛 껍질 소품·오일·깔라매 같은 단 과자를 고르는 상점이 있습니다. 식품은 재료·보관·반입 조건을, 해산물은 중량과 조리비 포함 금액을 확인하세요. 특정 식당의 현재 영업이나 코코넛 오일의 건강 효능을 보증하지 않습니다. 보풋에서는 상점가 산책과 식사를 함께 계획하되 가게별 개점을 확인하세요."
+      },
+      {
+        "id": "book-kohsamui-days",
+        "title": "처음 가는 3일 여행",
+        "body": "1일: 도착 → 숙소 가까운 해변에서 휴식. 보풋에 접근하기 편하다면 옛 상점가 분위기를 보며 식사합니다.\n\n2일: 라마이 해변과 힌타·힌야이를 함께 살펴봅니다. 파도가 높거나 바위가 젖었다면 가까이 내려가지 않고 안전한 곳에서만 봅니다.\n\n3일: 차웽 또는 탈링응암 중 숙소·귀환 교통에 맞는 해변을 한 곳 고릅니다. 섬 일주나 외딴 섬 투어를 출국 당일에 무리하게 추가하지 마세요.\n\n동선은 관심과 기상에 맞춰 고르는 편집 제안입니다. 자동 방문 시각이나 실제 지도 경로가 아니며 모든 곳을 방문할 필요는 없습니다."
+      },
+      {
+        "id": "book-kohsamui-notes",
+        "title": "예약과 현장 팁",
+        "body": "힌타·힌야이는 해수 침식으로 만들어진 화강암 지형으로, 안전한 발판과 파도 상태를 확인해야 합니다. 바다를 배경으로 사진을 찍으려고 젖은 바위 끝으로 이동하지 마세요. 스노클링·다이빙 등 활동은 장비·자격·보험·기상 취소 조건을 먼저 확인합니다. 공항 공지의 수정일과 섬 소개의 게시일 미상은 구분했으며, 특정 달이면 항상 바람이 없다는 식으로 계절을 보장하지 않습니다."
+      }
+    ],
+    "sources": [
+      {
+        "title": "The official website of Tourism Authority of Thailand",
+        "url": "https://www.tourismthailand.org/Destinations/Provinces/Ko-Samui/360",
+        "accessedAt": "2026-10-30"
+      },
+      {
+        "title": "Ko Samui",
+        "url": "https://www.tourismthailand.org/Attraction/ko-samui",
+        "accessedAt": "2026-10-30"
+      },
+      {
+        "title": "Hat Lamai",
+        "url": "https://www.tourismthailand.org/Attraction/hat-lamai",
+        "accessedAt": "2026-10-30"
+      },
+      {
+        "title": "samuiairport",
+        "url": "https://www.samuiairport.com/",
+        "accessedAt": "2026-10-30"
+      },
+      {
+        "title": "Car Rent",
+        "url": "https://www.samuiairport.com/carrent",
+        "accessedAt": "2026-10-30"
+      }
+    ],
+    "status": "published",
+    "requestId": null,
+    "createdAt": "2026-10-30T05:06:33.472Z",
+    "updatedAt": "2026-10-30T05:06:33.472Z",
+    "publishedAt": "2026-10-30T05:06:33.472Z"
+  }
+}

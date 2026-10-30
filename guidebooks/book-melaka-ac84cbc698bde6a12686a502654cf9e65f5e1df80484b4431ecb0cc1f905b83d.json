@@ -1,0 +1,175 @@
+{
+  "id": "book-melaka",
+  "scope": "city",
+  "city": {
+    "id": "book-melaka",
+    "name": "믈라카",
+    "english": "Melaka",
+    "country": "말레이시아",
+    "region": "동남아",
+    "image": "/images/guide-placeholder.svg",
+    "tagline": "해상 교역의 역사와 페라나칸 생활, 강변 산책",
+    "description": "믈라카는 해협을 오간 교역과 여러 공동체의 생활이 건축·음식·골목에 남은 말레이시아의 역사 도시입니다. 붉은 행정 건물과 요새 흔적을 보는 날, 페라나칸 가옥과 상점가·강변을 걷는 날로 나누면 서로 다른 역사가 읽힙니다. 쿠알라룸푸르·페낭과 별개 목적지이며 말라카라는 다른 표기를 신규 도시로 추가하지 않습니다. 이 가이드는 역사 도심과 강변에 집중합니다.",
+    "tags": [
+      "도시 산책",
+      "여행 준비"
+    ],
+    "flight": "항공편·운항일은 예약 시 항공사에서 확인",
+    "currency": "말레이시아 링깃 · MYR",
+    "timeDifference": "한국보다 1시간 느림",
+    "timeZone": "Asia/Kuala_Lumpur",
+    "season": "방문일의 비·더위·강풍과 시설 공지를 확인하고 야외 일정에 실내 대안을 준비하세요.",
+    "accent": "#e7f1ef"
+  },
+  "places": [
+    {
+      "id": "book-melaka-stadthuys",
+      "cityId": "book-melaka",
+      "name": "스타더이스",
+      "english": "Stadthuys",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "네덜란드 행정 건물의 역사와 현재 박물관 구역을 함께 이해하는 도심 유산입니다.",
+      "address": "Melaka historic centre",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "광장 산책과 박물관 내부 입장·휴관 조건을 구분하세요."
+    },
+    {
+      "id": "book-melaka-porta-santiago",
+      "cityId": "book-melaka",
+      "name": "포르타 데 산티아고",
+      "english": "Porta de Santiago / A Famosa",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "포르투갈 시대 방어시설에서 남은 성문을 통해 교역항의 지배와 방어 역사를 살펴보는 곳입니다.",
+      "address": "Bandar Hilir, Melaka",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "요새 전체가 복원되어 있다고 생각하지 말고 유구·현장 통제를 존중하세요."
+    },
+    {
+      "id": "book-melaka-baba-nyonya",
+      "cityId": "book-melaka",
+      "name": "바바뇨냐 문화유산 박물관",
+      "english": "Baba Nyonya Heritage Museum",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "찬 가문이 살던 이어진 가옥을 통해 페라나칸 가족의 생활 문화를 소개하는 집 박물관입니다.",
+      "address": "Jalan Tun Tan Cheng Lock, Melaka",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "운영사 화요일 휴관 안내와 방문일 표·촬영 조건을 확인하세요."
+    },
+    {
+      "id": "book-melaka-jonker",
+      "cityId": "book-melaka",
+      "name": "존커워크",
+      "english": "Jonker Walk",
+      "category": "쇼핑",
+      "image": "/images/place-placeholder.svg",
+      "description": "공예·골동품·생활 상점과 음식점이 모여 믈라카의 다양한 전통을 만나는 거리입니다.",
+      "address": "Melaka historic centre",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "거리 상점과 야시장 운영은 다릅니다. 행사 날짜와 가게별 영업을 확인하세요."
+    },
+    {
+      "id": "book-melaka-river-cruise",
+      "cityId": "book-melaka",
+      "name": "믈라카 강 유람선",
+      "english": "Melaka River Cruise",
+      "category": "체험",
+      "image": "/images/place-placeholder.svg",
+      "description": "강에서 역사 도심·강변 건물과 생활 경관을 다른 시선으로 보는 배 여행입니다.",
+      "address": "Melaka River",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "예약한 승선장·운항 여부·날씨를 확인하세요. 도보 산책과 별도 표가 필요한 활동입니다."
+    }
+  ],
+  "sections": [
+    {
+      "id": "book-melaka-overview",
+      "title": "도시 한눈에",
+      "body": "믈라카는 해협을 오간 교역과 여러 공동체의 생활이 건축·음식·골목에 남은 말레이시아의 역사 도시입니다. 붉은 행정 건물과 요새 흔적을 보는 날, 페라나칸 가옥과 상점가·강변을 걷는 날로 나누면 서로 다른 역사가 읽힙니다. 쿠알라룸푸르·페낭과 별개 목적지이며 말라카라는 다른 표기를 신규 도시로 추가하지 않습니다. 이 가이드는 역사 도심과 강변에 집중합니다."
+    },
+    {
+      "id": "book-melaka-before",
+      "title": "출발 전에 챙길 것",
+      "body": "여권·입국 요건은 국적·여행 목적과 경유지에 맞춰 출입국 당국에서 확인하세요. 통신·결제·보험과 항공권·숙소 예약의 오프라인 사본을 준비하세요. 바바뇨냐 박물관은 운영사에 화요일 휴관으로 안내되어 있어 방문일을 먼저 고르세요. 홈페이지에 남아 있는 2025년 5월 정비 휴관은 이미 지난 기간이므로 현재 폐관이라고 해석하지 않습니다. 더위·비에 대비하고 돌길과 좁은 골목에서 걷기 편한 신발을 준비하세요. 강 유람선은 날씨·수위·운영과 실제 승선장을 확인한 뒤 예약합니다."
+    },
+    {
+      "id": "book-melaka-arrival",
+      "title": "공항과 시내 이동",
+      "body": "Transnasional의 공식 예약 사이트는 KLIA2·KLIA에서 Melaka Sentral로 가는 노선을 소개합니다. 도착 항공편의 터미널 표기와 예약표의 승차 지점을 맞춰 보고, 멜라카 센트럴에서 역사 도심 숙소까지의 마지막 이동을 따로 정하세요. 박물관 운영사는 도심 접근에 택시·트라이쇼·도보를 구분합니다. 공항 도착 후 수속과 짐 찾기 여유를 두고 특정 시간에 반드시 도착한다고 가정하지 마세요. 오래된 안내의 정가·도로 소요시간은 고정하지 않았습니다."
+    },
+    {
+      "id": "book-melaka-stay",
+      "title": "숙소는 어느 동네에",
+      "body": "존커워크·잘란 툰탄쳉록 주변은 가옥 박물관·상점가 산책을 중심으로, 반다르힐리르 쪽은 요새 흔적·박물관 접근을 중심으로 비교할 수 있습니다. 강변 숙소는 객실 전망만이 아니라 차량 하차·계단·야간 소음을 확인하세요. 아예르크로 등 외곽 숙소는 이번 역사 도심 코스와 왕복 이동이 추가됩니다. 역사 건물 숙소의 엘리베이터·짐 이동 조건은 예약 전 확인하는 편이 좋습니다."
+    },
+    {
+      "id": "book-melaka-food",
+      "title": "먹거리와 동네 쇼핑",
+      "body": "아삼페다스는 생선과 채소를 타마린드의 새콤한 맛과 함께 익히는 지역 음식이며, 첸돌은 판단 향의 면 모양 젤리 등을 곁들이는 디저트입니다. 치킨 라이스볼과 바바뇨냐 음식도 지역 식문화를 비교하는 선택지입니다. 코코넛·생선·새우·견과 등 재료와 매운 정도를 주문 전에 확인하세요. 관광청에 나열된 식당을 모두 현재 영업으로 검증한 것은 아니므로 이번에는 특정 업소의 가격·시간을 고정하지 않았습니다."
+    },
+    {
+      "id": "book-melaka-days",
+      "title": "처음 가는 3일 여행",
+      "body": "1일: 도착 → 역사 도심 숙소 → 스타더이스·광장 주변 산책.\n\n2일: 포르타 데 산티아고 요새 흔적 → 휴식 → 강 유람선 또는 강변 산책. 승선이 어려우면 도보와 카페 휴식으로 바꿉니다.\n\n3일: 바바뇨냐 박물관 → 존커워크의 공예·상점 구경. 화요일이라면 박물관을 다른 날짜로 옮기고 귀환 버스 탑승 지점까지 이동 시간을 확보하세요.\n\n동선은 관심과 기상에 맞춰 고르는 편집 제안입니다. 자동 방문 시각이나 실제 지도 경로가 아니며 모든 곳을 방문할 필요는 없습니다."
+    },
+    {
+      "id": "book-melaka-notes",
+      "title": "예약과 현장 팁",
+      "body": "스타더이스의 바깥 광장과 유료 박물관 전시는 별개로 확인하세요. 포르타 데 산티아고는 요새 전체가 온전히 남은 곳이 아니라 남은 성문·유구를 보는 장소입니다. 존커워크는 거리 상점과 야시장 행사의 운영이 다르므로 방문일을 확인해야 합니다. 관광청 역사 목록의 연도 계산·반복 문장 오류는 제외하고 검증 가능한 장소의 성격만 사용했습니다."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Tourism Melaka - Official Portal - History",
+      "url": "https://visitmelaka.com.my/index.php/culture-heritagemenu/history",
+      "accessedAt": "2026-10-30"
+    },
+    {
+      "title": "Tourism Melaka - Official Portal - Heritage",
+      "url": "https://visitmelaka.com.my/index.php/culture-heritagemenu/heritage",
+      "accessedAt": "2026-10-30"
+    },
+    {
+      "title": "Tourism Melaka - Official Portal - Melaka River Cruise",
+      "url": "https://visitmelaka.com.my/index.php/nature-adventure/recreation/124-melaka-river-cruise",
+      "accessedAt": "2026-10-30"
+    },
+    {
+      "title": "Baba Nyonya Museum – Home of A Peranakan Family",
+      "url": "https://www.babanyonyamuseum.com/",
+      "accessedAt": "2026-10-30"
+    },
+    {
+      "title": "Getting Here – Baba Nyonya Museum",
+      "url": "https://www.babanyonyamuseum.com/getting-here/",
+      "accessedAt": "2026-10-30"
+    },
+    {
+      "title": "Book Transnasional and Plusliner Bus Ticket Online | Transnasional Official",
+      "url": "https://www.transnasional.com.my/",
+      "accessedAt": "2026-10-30"
+    },
+    {
+      "title": "Tourism Melaka - Official Portal - Cendol",
+      "url": "https://visitmelaka.com.my/index.php/lifestyles/food/104-cendol",
+      "accessedAt": "2026-10-30"
+    },
+    {
+      "title": "Tourism Melaka - Official Portal - Asam Pedas Melaka",
+      "url": "https://visitmelaka.com.my/index.php/lifestyles/food/105-asam-pedas-melaka",
+      "accessedAt": "2026-10-30"
+    }
+  ],
+  "status": "published",
+  "requestId": null,
+  "createdAt": "2026-10-30T05:06:33.472Z",
+  "updatedAt": "2026-10-30T05:06:33.472Z",
+  "publishedAt": "2026-10-30T05:06:33.472Z"
+}
