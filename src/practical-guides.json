@@ -970,7 +970,7 @@
       },
       {
         "name": "섬 안 이동",
-        "advice": "버스 환승 지점과 귀환편을 확인하세요. 절벽길 산책과 차량 이동 구간을 구분합니다."
+        "advice": "KTEL 공식 노선표는 피라를 출발·귀환 기준으로 이아·카마리·페리사·아크로티리·공항 등을 나눠 제공합니다. 숙소가 피라 밖이면 공항 도착 뒤 환승·마지막 도보 구간을 따로 확인하세요. 2026-05-18 수정 표시와 겨울 프로그램 문구가 함께 있어 현재 방문일의 배차·막차·소요시간을 고정값으로 옮기지 않았습니다."
       }
     ],
     "timePlan": [
@@ -985,7 +985,8 @@
     ],
     "before": [
       "페리·투어는 결항과 취소 조건, 항구 도착 시간을 확인하세요.",
-      "일몰 식사는 전망 자리·예약 보증금·숙소 복귀 교통을 함께 확인하세요."
+      "일몰 식사는 전망 자리·예약 보증금·숙소 복귀 교통을 함께 확인하세요.",
+      "산토리니 공항은 공공버스와 택시 접근을 안내합니다. 공항 홈페이지 하단의 공항·터미널 운영시간을 버스 운행시간으로 읽지 마세요. KTEL의 현재 노선표와 항공편 날짜를 함께 확인하고 늦은 도착은 숙소 픽업 등 대안을 준비하세요."
     ],
     "pitfalls": [
       "도착 당일 촘촘한 시간 지정 예약은 배편 지연에 취약합니다.",
@@ -1021,9 +1022,27 @@
         "url": "https://www.visitgreece.gr/",
         "checkedAt": "2026-10-15",
         "status": "unavailable"
+      },
+      {
+        "title": "ΚΤΕΛ Σαντορίνης — KTEL Santorini – Επίσημο Site — Official Site",
+        "url": "https://ktel-santorini.gr/",
+        "checkedAt": "2026-10-31",
+        "status": "read"
+      },
+      {
+        "title": "Δρομολόγια – ΚΤΕΛ Σαντορίνης — KTEL Santorini",
+        "url": "https://ktel-santorini.gr/routes/?route=aerodromio",
+        "checkedAt": "2026-10-31",
+        "status": "read"
+      },
+      {
+        "title": "Airport information | Santorini Airport (JTR)",
+        "url": "https://www.jtr-airport.gr/en/flights--more/airport-information",
+        "checkedAt": "2026-10-31",
+        "status": "read"
       }
     ],
-    "researchNote": "기존 내장 장소를 바탕으로 작성한 계획 제안입니다. 관광청 최신 교통·운영 조건은 본문 접근 제한으로 재확인하지 못했습니다."
+    "researchNote": "기존 내장 장소를 바탕으로 작성한 계획 제안입니다. 관광청 최신 교통·운영 조건은 본문 접근 제한으로 재확인하지 못했습니다. 2026-10-31에는 입국·신고 또는 교통·개관 안내의 관련 공식 본문을 읽어 일부 항목을 보강했습니다. 게시일과 수정일·실제 확인일은 구분하며 전체 장소·좌표·예약 조건 검토가 완료된 것은 아닙니다."
   },
   {
     "cityId": "dubai",
@@ -1146,11 +1165,14 @@
     ],
     "before": [
       "숙박 결제 전에 왕복 이동비·운항 조건·지연 도착 시 대응을 숙소에 확인하세요.",
-      "해양 체험은 운영 주체·기상 취소·안전 장비·포함 비용을 확인하세요."
+      "해양 체험은 운영 주체·기상 취소·안전 장비·포함 비용을 확인하세요.",
+      "입국 전 Traveller Declaration은 몰디브 이민국의 공식 IMUGA에서 무료로 직접 제출합니다. 이민국 관광비자 안내는 도착 전 96시간 이내 제출과 어린이·미성년자를 포함한 여행자별 개별 신고를 명시합니다. 실제 입력 시에는 항공편 시각과 신청 화면의 기준을 확인하세요. 유료 대행 페이지를 공식 신청으로 혼동하지 마세요.",
+      "관광비자는 도착 시 심사하며, 이민국은 MRZ가 있는 여권·최소 1개월 유효기간, 귀국편·등록 숙박시설의 선결제 확정 예약·체류 자금 등의 조건을 안내합니다. 다음 목적지와 경유국의 여권·비자 조건은 별도이며 이 최소기간만으로 전체 여정이 가능하다고 판단하지 마세요. 준비서류가 갖춰져도 입국을 보장하지 않습니다."
     ],
     "pitfalls": [
       "다라반두·마푸시·말레를 같은 도보 코스로 묶지 마세요.",
-      "로컬섬의 수영복 허용 해변과 현지 생활 구역 규칙을 구분하세요."
+      "로컬섬의 수영복 허용 해변과 현지 생활 구역 규칙을 구분하세요.",
+      "IMUGA 초기 화면에는 arrival or departure라는 문구가 있지만 상세 신고 화면은 도착편을 기준으로 설명합니다. 이번 확인만으로 출국 신고 의무를 확정하지 않았습니다. 출국 전 최신 상세 안내를 확인하세요."
     ],
     "rainPlan": "해상 이동·체험의 운항을 확인하고 숙소 안에서 쉴 수 있는 일정으로 남겨두세요.",
     "courses": [
@@ -1182,9 +1204,27 @@
         "url": "https://visitmaldives.com/",
         "checkedAt": "2026-10-15",
         "status": "unavailable"
+      },
+      {
+        "title": "Traveller Declaration | Maldives Immigration",
+        "url": "https://www.immigration.gov.mv/traveller-declaration",
+        "checkedAt": "2026-10-31",
+        "status": "read"
+      },
+      {
+        "title": "Tourist Visa - On Arrival | Maldives Immigration",
+        "url": "https://www.immigration.gov.mv/visa/tourist-visa",
+        "checkedAt": "2026-10-31",
+        "status": "read"
+      },
+      {
+        "title": "Imuga | Traveller Declaration",
+        "url": "https://imuga.immigration.gov.mv/traveller",
+        "checkedAt": "2026-10-31",
+        "status": "read"
       }
     ],
-    "researchNote": "기존 내장 장소를 바탕으로 작성한 계획 제안입니다. 관광청 최신 교통·운영 조건은 본문 접근 제한으로 재확인하지 못했습니다."
+    "researchNote": "기존 내장 장소를 바탕으로 작성한 계획 제안입니다. 관광청 최신 교통·운영 조건은 본문 접근 제한으로 재확인하지 못했습니다. 2026-10-31에는 입국·신고 또는 교통·개관 안내의 관련 공식 본문을 읽어 일부 항목을 보강했습니다. 게시일과 수정일·실제 확인일은 구분하며 전체 장소·좌표·예약 조건 검토가 완료된 것은 아닙니다."
   },
   {
     "cityId": "taipei",
@@ -1370,7 +1410,7 @@
     "arrival": [
       {
         "name": "창이공항",
-        "advice": "MRT 환승과 공항버스·차량을 도착 시간·짐·인원에 맞춰 비교하세요."
+        "advice": "창이공항 MRT에서 타나메라역으로 가 동서선으로 환승하거나, 엑스포역에서 다운타운선으로 환승할 수 있습니다. 목적지에 맞춰 노선을 고르세요. 공항은 대부분의 MRT·공공버스가 밤새 운행하지 않는다고 안내하므로 도착일 막차를 확인하고 늦은 도착에는 택시·예약 차량을 비교하세요. 해외 발급 카드의 대중교통 결제에는 관리 수수료가 붙을 수 있습니다."
       },
       {
         "name": "시내 이동",
@@ -1389,7 +1429,9 @@
     ],
     "before": [
       "정원 유료 온실·전망대는 구역별 입장권과 운영일을 확인하세요.",
-      "야간 동물원·인기 체험은 지정 시간과 도심 귀환 교통을 함께 확인하세요."
+      "야간 동물원·인기 체험은 지정 시간과 도심 귀환 교통을 함께 확인하세요.",
+      "SG Arrival Card와 전자 건강신고는 ICA 공식 서비스에서 무료로 제출합니다. 도착일을 포함한 3일 이내에 제출하며, 예를 들어 30일 도착이면 28일부터입니다. 입국심사 없이 환승하는 경우 등 예외는 ICA의 적용 대상을 확인하세요. SGAC는 비자가 아니며 유료 대행사가 ICA와 제휴했다고 생각하지 마세요.",
+      "SGAC 제출 후 건강 상태가 바뀌면 Update SGAC로 갱신합니다. 제출 확인 이메일을 보관하고 실제 입국 때 여권 등 여행서류를 준비하세요. 비자·입국 자격은 별도 요건이며 제출 자체가 입국 승인은 아닙니다."
     ],
     "pitfalls": [
       "지도가 작아 보여도 더위·소나기 때문에 야외 보행량을 줄일 필요가 있습니다.",
@@ -1426,9 +1468,21 @@
         "url": "https://www.visitsingapore.com/travel-tips/essential-travel-information/",
         "checkedAt": "2026-10-15",
         "status": "partial"
+      },
+      {
+        "title": "SG Arrival Card with Electronic Health Declaration\r | Immigration & Checkpoints Authority",
+        "url": "https://www.ica.gov.sg/information-and-e-services/entry-and-departure/entering-singapore/sg-arrival-card-with-electronic-health-declaration",
+        "checkedAt": "2026-10-31",
+        "status": "read"
+      },
+      {
+        "title": "Leaving Changi Airport: Transport Options",
+        "url": "https://www.changiairport.com/en/at-changi/transport-and-directions/leaving-the-airport.html",
+        "checkedAt": "2026-10-31",
+        "status": "read"
       }
     ],
-    "researchNote": "기존 내장 장소를 바탕으로 작성한 계획 제안입니다. 관광청 최신 교통·운영 조건은 본문 접근 제한으로 재확인하지 못했습니다. 장소 목록은 2016년 보관본 기반이며 현재 운영은 별도 확인해야 합니다."
+    "researchNote": "기존 내장 장소를 바탕으로 작성한 계획 제안입니다. 관광청 최신 교통·운영 조건은 본문 접근 제한으로 재확인하지 못했습니다. 장소 목록은 2016년 보관본 기반이며 현재 운영은 별도 확인해야 합니다. 2026-10-31에는 입국·신고 또는 교통·개관 안내의 관련 공식 본문을 읽어 일부 항목을 보강했습니다. 게시일과 수정일·실제 확인일은 구분하며 전체 장소·좌표·예약 조건 검토가 완료된 것은 아닙니다."
   },
   {
     "cityId": "danang",
@@ -1712,12 +1766,14 @@
       }
     ],
     "before": [
-      "입국 절차와 여행서류는 본인 국적·일정에 맞춰 공식 안내를 확인하세요.",
+      "마리아나 관광청은 G-CNMI ETA와 미국 VWP의 ESTA를 서로 다른 안내로 제공합니다. 국적·여권·경유지에 따라 적용 프로그램을 확인하고, 두 신청을 같은 것으로 생각하거나 무조건 둘 다 신청하지 마세요. 온라인 CNMI 세관 신고는 입국허가와 별도이며 관광청의 한국어 양식 링크에서 안내를 확인할 수 있습니다. 이번 조사로 개인 입국 자격을 확정하지는 않습니다.",
       "마나가하섬 체험은 보트·추가 비용·장비·취소 조건을 구분해 확인하세요."
     ],
     "pitfalls": [
       "그로토는 사진 명소라는 이유로 단독 입수 계획을 세우지 마세요. 현지 안전·참가 조건을 확인해야 합니다.",
-      "내장 장소의 정확한 좌표와 현재 접근 조건은 아직 검증되지 않았습니다."
+      "내장 장소의 정확한 좌표와 현재 접근 조건은 아직 검증되지 않았습니다.",
+      "아메리칸 메모리얼 공원의 공용 야외 구역과 방문자센터는 운영시간이 다릅니다. NPS의 2024-04-15 수정 안내는 방문자센터·서점을 화·목·금·토 09:00–16:00, 추수감사절·성탄절·새해 첫날 휴관으로 설명합니다. 공용 구역은 상시 개방 안내가 있지만 당일 임시 폐쇄는 별도로 확인하세요.",
+      "관광청은 그로토 비거주자 이용료 USD 5를 안내하지만 장소 이용료가 가이드·장비·안전 관리까지 포함한다는 뜻은 아닙니다. 적용 대상·결제 장소와 당일 입수 가능 여부를 운영기관에 확인하고 단독 입수는 계획하지 마세요."
     ],
     "rainPlan": "북마리아나 역사문화박물관 등 실내 관람이나 숙소 휴식으로 바꾸고 절벽·해양 활동은 기상 조건을 우선하세요.",
     "courses": [
@@ -1750,8 +1806,20 @@
         "url": "https://www.mymarianas.com/",
         "checkedAt": "2026-10-15",
         "status": "unavailable"
+      },
+      {
+        "title": "Visitor Information – Discover The Marianas – Saipan | Tinian | Rota",
+        "url": "https://www.mymarianas.com/visitor-information/",
+        "checkedAt": "2026-10-31",
+        "status": "read"
+      },
+      {
+        "title": "Operating Hours & Seasons - American Memorial Park (U.S. National Park Service)Lock",
+        "url": "https://www.nps.gov/amme/planyourvisit/hours.htm",
+        "checkedAt": "2026-10-31",
+        "status": "read"
       }
     ],
-    "researchNote": "기존 내장 장소를 바탕으로 작성한 계획 제안입니다. 관광청 최신 교통·운영 조건은 본문 접근 제한으로 재확인하지 못했습니다. 내장 장소의 정확한 좌표와 원문 근거는 아직 미검증입니다."
+    "researchNote": "기존 내장 장소를 바탕으로 작성한 계획 제안입니다. 관광청 최신 교통·운영 조건은 본문 접근 제한으로 재확인하지 못했습니다. 내장 장소의 정확한 좌표와 원문 근거는 아직 미검증입니다. 2026-10-31에는 입국·신고 또는 교통·개관 안내의 관련 공식 본문을 읽어 일부 항목을 보강했습니다. 게시일과 수정일·실제 확인일은 구분하며 전체 장소·좌표·예약 조건 검토가 완료된 것은 아닙니다."
   }
 ]

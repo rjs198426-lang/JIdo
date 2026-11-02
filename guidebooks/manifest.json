@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-30T05:06:33.472Z",
+  "updatedAt": "2026-10-31T18:13:38Z",
   "books": [
     {
       "id": "book-asahikawa",
@@ -73,6 +73,20 @@
       "placeCount": 6
     },
     {
+      "id": "book-budapest",
+      "name": "부다페스트",
+      "english": "Budapest",
+      "country": "헝가리",
+      "summary": "부다의 미술·성당과 페스트의 온천을 나누어 즐기기",
+      "region": "유럽",
+      "revision": "2f70cf3df14ef31f91a2c6703e261b18bae0595336539ea9946442fdc5da1b80",
+      "file": "book-budapest-2f70cf3df14ef31f91a2c6703e261b18bae0595336539ea9946442fdc5da1b80.json",
+      "bytes": 10483,
+      "updatedAt": "2026-10-31T18:13:38Z",
+      "minBuild": 73,
+      "placeCount": 5
+    },
+    {
       "id": "book-cebu",
       "name": "세부·막탄",
       "english": "Cebu & Mactan",
@@ -125,6 +139,20 @@
       "file": "book-dalat-40e89165bfeb9d2d0941f34b69b3e10836bc80dd27ee22be1475b7738c654437.json",
       "bytes": 10031,
       "updatedAt": "2026-10-29T11:14:56.783Z",
+      "minBuild": 73,
+      "placeCount": 5
+    },
+    {
+      "id": "book-florence",
+      "name": "피렌체",
+      "english": "Florence",
+      "country": "이탈리아",
+      "summary": "르네상스 미술과 아르노강 너머 정원을 여유롭게",
+      "region": "유럽",
+      "revision": "094caad31e1dd9e8f639e9a740bc0167af514885789329b05de6a09c65700597",
+      "file": "book-florence-094caad31e1dd9e8f639e9a740bc0167af514885789329b05de6a09c65700597.json",
+      "bytes": 10433,
+      "updatedAt": "2026-10-31T18:13:38Z",
       "minBuild": 73,
       "placeCount": 5
     },
@@ -377,6 +405,20 @@
       "file": "book-langkawi-96067a792261bd39ab65f4179506bf9b3416f72b1cc85b67d20c33854c56d6cb.json",
       "bytes": 11003,
       "updatedAt": "2026-10-29T17:11:22.801Z",
+      "minBuild": 73,
+      "placeCount": 5
+    },
+    {
+      "id": "book-lisbon",
+      "name": "리스본",
+      "english": "Lisbon",
+      "country": "포르투갈",
+      "summary": "언덕의 성과 강변 미술관, 해양 문화를 만나는 여행",
+      "region": "유럽",
+      "revision": "4adb21b9d007dfea085d137f5cc80a66e726d47baffce3442be5474700d069b8",
+      "file": "book-lisbon-4adb21b9d007dfea085d137f5cc80a66e726d47baffce3442be5474700d069b8.json",
+      "bytes": 11044,
+      "updatedAt": "2026-10-31T18:13:38Z",
       "minBuild": 73,
       "placeCount": 5
     },
@@ -741,6 +783,34 @@
       "file": "book-tottori-0473c2d184fef91ada9305b31bd3fa4612a60fa4d337d9a3d8bd901bcf707860.json",
       "bytes": 11542,
       "updatedAt": "2026-10-29T04:13:17.595Z",
+      "minBuild": 73,
+      "placeCount": 5
+    },
+    {
+      "id": "book-venice",
+      "name": "베네치아",
+      "english": "Venice",
+      "country": "이탈리아",
+      "summary": "본섬의 미술과 무라노의 유리를 물길로 잇기",
+      "region": "유럽",
+      "revision": "d57724f83b261b654f78ab39be6a5899a4a4d7d695bb0d094c5038b2ec2f281c",
+      "file": "book-venice-d57724f83b261b654f78ab39be6a5899a4a4d7d695bb0d094c5038b2ec2f281c.json",
+      "bytes": 10583,
+      "updatedAt": "2026-10-31T18:13:38Z",
+      "minBuild": 73,
+      "placeCount": 5
+    },
+    {
+      "id": "book-vienna",
+      "name": "빈",
+      "english": "Vienna",
+      "country": "오스트리아",
+      "summary": "궁전·미술관과 동네 식당을 천천히 잇는 빈",
+      "region": "유럽",
+      "revision": "df6317b579c80414e739c0b20d1a1a6b7e2beac86d0696a3febd1c8c16cc0879",
+      "file": "book-vienna-df6317b579c80414e739c0b20d1a1a6b7e2beac86d0696a3febd1c8c16cc0879.json",
+      "bytes": 10527,
+      "updatedAt": "2026-10-31T18:13:38Z",
       "minBuild": 73,
       "placeCount": 5
     },

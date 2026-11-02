@@ -34,6 +34,11 @@ const ids = [
   'book-chiangrai',
   'book-melaka',
   'book-johorbahru',
+  'book-vienna',
+  'book-budapest',
+  'book-florence',
+  'book-venice',
+  'book-lisbon',
 ]
 test('researched city guide batches download one by one, render researched text offline, and preserve personal records', async ({
   page,

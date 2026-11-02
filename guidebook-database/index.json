@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "description": "공개 여행 가이드만 수집한 데이터베이스. 개인 일정·사진·메모·기기 캐시는 포함하지 않음.",
-  "guideCount": 75,
-  "countryCount": 23,
-  "placeCount": 1360,
+  "guideCount": 80,
+  "countryCount": 26,
+  "placeCount": 1385,
   "origins": {
     "bundled": 21,
-    "downloadable": 54
+    "downloadable": 59
   },
   "guides": [
     {
@@ -108,6 +108,20 @@
       "sectionCount": 7
     },
     {
+      "id": "book-budapest",
+      "name": "부다페스트",
+      "country": "헝가리",
+      "origin": "downloadable",
+      "importedAt": "2026-10-31",
+      "sourceCheckedAt": "2026-10-31",
+      "latestSourceCheckedAt": "2026-10-31",
+      "lastReviewedAt": "2026-10-31",
+      "contentHash": "8cf0c465f8950f21e3c30fc4255d51967eb31644c73de70638fb50dbeec9733b",
+      "file": "records/book-budapest.json",
+      "placeCount": 5,
+      "sectionCount": 7
+    },
+    {
       "id": "book-cebu",
       "name": "세부·막탄",
       "country": "필리핀",
@@ -160,6 +174,20 @@
       "lastReviewedAt": "2026-10-29",
       "contentHash": "6f5b096e7670ddbbde88004d1da4ecf36760bc8caa51491824d28d1b0089d99b",
       "file": "records/book-dalat.json",
+      "placeCount": 5,
+      "sectionCount": 7
+    },
+    {
+      "id": "book-florence",
+      "name": "피렌체",
+      "country": "이탈리아",
+      "origin": "downloadable",
+      "importedAt": "2026-10-31",
+      "sourceCheckedAt": "2026-10-31",
+      "latestSourceCheckedAt": "2026-10-31",
+      "lastReviewedAt": "2026-10-31",
+      "contentHash": "3b38d0f931308d1b883d57c589dcdeed478348a4118364059badea60018dd52e",
+      "file": "records/book-florence.json",
       "placeCount": 5,
       "sectionCount": 7
     },
@@ -412,6 +440,20 @@
       "lastReviewedAt": "2026-10-29",
       "contentHash": "58356a6361ecb6c684c659374e79da687366d731dfb79bd0571ba14465cf5c94",
       "file": "records/book-langkawi.json",
+      "placeCount": 5,
+      "sectionCount": 7
+    },
+    {
+      "id": "book-lisbon",
+      "name": "리스본",
+      "country": "포르투갈",
+      "origin": "downloadable",
+      "importedAt": "2026-10-31",
+      "sourceCheckedAt": "2026-10-31",
+      "latestSourceCheckedAt": "2026-10-31",
+      "lastReviewedAt": "2026-10-31",
+      "contentHash": "bc394d34f5531a5bb0d6d81159d593cb5ba38748eb22e609bf6f5de62d5c1606",
+      "file": "records/book-lisbon.json",
       "placeCount": 5,
       "sectionCount": 7
     },
@@ -780,6 +822,34 @@
       "sectionCount": 7
     },
     {
+      "id": "book-venice",
+      "name": "베네치아",
+      "country": "이탈리아",
+      "origin": "downloadable",
+      "importedAt": "2026-10-31",
+      "sourceCheckedAt": "2026-10-31",
+      "latestSourceCheckedAt": "2026-10-31",
+      "lastReviewedAt": "2026-10-31",
+      "contentHash": "4d98c48c4e2ffe95e040e67bfd9720b4560cbbecd36e6f4dc90b58bb5f69320c",
+      "file": "records/book-venice.json",
+      "placeCount": 5,
+      "sectionCount": 7
+    },
+    {
+      "id": "book-vienna",
+      "name": "빈",
+      "country": "오스트리아",
+      "origin": "downloadable",
+      "importedAt": "2026-10-31",
+      "sourceCheckedAt": "2026-10-31",
+      "latestSourceCheckedAt": "2026-10-31",
+      "lastReviewedAt": "2026-10-31",
+      "contentHash": "ba8be8ec1b5134105b35241655b9d16a114410cc9633a4e8f111f2a86df6e06a",
+      "file": "records/book-vienna.json",
+      "placeCount": 5,
+      "sectionCount": 7
+    },
+    {
       "id": "book-yufuin",
       "name": "유후인",
       "country": "일본",
@@ -911,10 +981,10 @@
       "country": "몰디브",
       "origin": "bundled",
       "importedAt": "2026-10-28",
-      "sourceCheckedAt": null,
-      "latestSourceCheckedAt": null,
+      "sourceCheckedAt": "2026-10-31",
+      "latestSourceCheckedAt": "2026-10-31",
       "lastReviewedAt": null,
-      "contentHash": "c3477edfc7e544d64ca8a8a8da26ee578bec7beafdd0ad3aa1b91f1b46439e80",
+      "contentHash": "1424f6f5f06704623c8d073b3494b9a46b673ec799b9dd658f35c66cd58be77b",
       "file": "records/maldives.json",
       "placeCount": 54,
       "sectionCount": 7
@@ -953,10 +1023,10 @@
       "country": "북마리아나 제도",
       "origin": "bundled",
       "importedAt": "2026-10-28",
-      "sourceCheckedAt": null,
-      "latestSourceCheckedAt": null,
+      "sourceCheckedAt": "2026-10-31",
+      "latestSourceCheckedAt": "2026-10-31",
       "lastReviewedAt": null,
-      "contentHash": "d0ea94caed6303eb7970c9f47845a00a34206bbb9666b94601c74d251b078904",
+      "contentHash": "227ffd765df9439e77398fdbbf599f930d30049c031f857d03cb86e4438232ba",
       "file": "records/saipan.json",
       "placeCount": 29,
       "sectionCount": 7
@@ -967,10 +1037,10 @@
       "country": "그리스",
       "origin": "bundled",
       "importedAt": "2026-10-28",
-      "sourceCheckedAt": null,
-      "latestSourceCheckedAt": null,
+      "sourceCheckedAt": "2026-10-31",
+      "latestSourceCheckedAt": "2026-10-31",
       "lastReviewedAt": null,
-      "contentHash": "9fea479b7e55e77c1ccde9f5da21c78ed314120d982f2042c90055c8adc69e7c",
+      "contentHash": "4b8dfe0f6391e4651b82e2d45c7e3445a2340164ca1a87c224603ce57f245501",
       "file": "records/santorini.json",
       "placeCount": 59,
       "sectionCount": 7
@@ -1009,10 +1079,10 @@
       "country": "싱가포르",
       "origin": "bundled",
       "importedAt": "2026-10-28",
-      "sourceCheckedAt": null,
-      "latestSourceCheckedAt": null,
+      "sourceCheckedAt": "2026-10-31",
+      "latestSourceCheckedAt": "2026-10-31",
       "lastReviewedAt": null,
-      "contentHash": "7111369c1b64984d1bd69ed63f13f7cc8d23e9c7701d950703d23ce0bc25a0ef",
+      "contentHash": "3078931ad7bad3e10e862774e889c15ed32f3705b6c1c938d2d053ec060af202",
       "file": "records/singapore.json",
       "placeCount": 31,
       "sectionCount": 7

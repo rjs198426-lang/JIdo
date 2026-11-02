@@ -1,0 +1,177 @@
+{
+  "guide": {
+    "id": "book-venice",
+    "scope": "city",
+    "city": {
+      "id": "book-venice",
+      "name": "베네치아",
+      "english": "Venice",
+      "country": "이탈리아",
+      "region": "유럽",
+      "image": "/images/guide-placeholder.svg",
+      "tagline": "본섬의 미술과 무라노의 유리를 물길로 잇기",
+      "description": "베네치아는 본섬에서 걷는 날과 배를 타고 무라노를 다녀오는 날을 나누면 편합니다. 산마르코의 두칼레 궁전·코레르와 도르소두로의 미술관은 관심 분야에 따라 고르세요. 같은 베네치아 숙박이라도 본섬과 메스트레는 귀환 방식이 다르며, 지도상 짧은 거리에도 다리와 계단이 이어질 수 있습니다.",
+      "tags": [
+        "도시 산책",
+        "박물관"
+      ],
+      "flight": "출발지·방문일의 항공편과 경유 조건은 항공사에서 확인",
+      "currency": "유로 · EUR",
+      "timeDifference": "한국보다 8시간 느림 · 서머타임에는 7시간",
+      "timeZone": "Europe/Rome",
+      "season": "야외 산책과 실내 관람을 섞고 방문일의 날씨·휴관 공지를 확인하세요.",
+      "accent": "#e7f1ef"
+    },
+    "places": [
+      {
+        "id": "book-venice-doges-palace",
+        "cityId": "book-venice",
+        "name": "두칼레 궁전",
+        "english": "Doge’s Palace",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "베네치아의 정치와 궁전 미술을 살펴보는 산마르코의 궁전입니다. 일반 관람과 특별 동선 투어가 구분됩니다.",
+        "address": "San Marco, Venezia",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "Secret Itineraries 등 특별 상품의 별도 예약을 확인하고 공사에 따른 관람 제한을 살펴보세요."
+      },
+      {
+        "id": "book-venice-correr",
+        "cityId": "book-venice",
+        "name": "코레르 박물관",
+        "english": "Museo Correr",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "베네치아의 역사와 미술을 만나는 박물관으로 왕실 공간 등 관람 코스가 나뉩니다.",
+        "address": "San Marco, Venezia",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "일반 표로 모든 방·특별 투어에 들어갈 수 있다고 생각하지 말고 부분 휴실 공지를 확인하세요."
+      },
+      {
+        "id": "book-venice-guggenheim",
+        "cityId": "book-venice",
+        "name": "페기 구겐하임 컬렉션",
+        "english": "Peggy Guggenheim Collection",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "20세기 유럽·미국 미술을 만나는 컬렉션입니다. 베네치아의 옛 회화와 다른 분위기의 미술 관람을 고를 수 있습니다.",
+        "address": "Dorsoduro, Venezia",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "화요일 휴관과 특별 휴관을 확인하세요. 원하는 작품의 상시 전시를 보장하지 않습니다."
+      },
+      {
+        "id": "book-venice-accademia",
+        "cityId": "book-venice",
+        "name": "베네치아 아카데미아 미술관",
+        "english": "Gallerie dell’Accademia di Venezia",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "조르조네·틴토레토·베로네세 등 베네치아 미술의 흐름을 보는 미술관입니다.",
+        "address": "Dorsoduro, Venezia",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "피렌체의 동명 미술관과 혼동하지 말고 베네치아 공식 사이트에서 예약하세요."
+      },
+      {
+        "id": "book-venice-glass",
+        "cityId": "book-venice",
+        "name": "무라노 유리박물관",
+        "english": "Murano Glass Museum",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "유리의 역사와 무라노 제작 전통을 소장품으로 살펴보는 박물관입니다. 베네치아에서 배로 이동하는 섬 나들이로 계획합니다.",
+        "address": "Murano, Venezia",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "전시 관람과 유리 제작 시연은 같은 상품이 아닙니다. 귀환 배와 박물관 운영을 함께 확인하세요."
+      }
+    ],
+    "sections": [
+      {
+        "id": "book-venice-overview",
+        "title": "도시 한눈에",
+        "body": "베네치아는 본섬에서 걷는 날과 배를 타고 무라노를 다녀오는 날을 나누면 편합니다. 산마르코의 두칼레 궁전·코레르와 도르소두로의 미술관은 관심 분야에 따라 고르세요. 같은 베네치아 숙박이라도 본섬과 메스트레는 귀환 방식이 다르며, 지도상 짧은 거리에도 다리와 계단이 이어질 수 있습니다."
+      },
+      {
+        "id": "book-venice-before",
+        "title": "출발 전에 챙길 것",
+        "body": "먼저 숙소가 본섬인지 메스트레인지 확인하고 짐을 들고 건너야 하는 다리와 선착장 거리를 살펴보세요. 공식 표의 포함 박물관과 특별 투어를 구분합니다. 방문일의 베네치아 입도 규정·신고 및 면제 조건은 시 공식 채널에서 확인해야 합니다. 이번 확인에서는 입도 기여금 사이트의 본문을 확보하지 못해 적용일·금액·면제 자격을 단정하지 않았습니다. 여권과 입국·경유 조건도 개인별로 확인하세요."
+      },
+      {
+        "id": "book-venice-arrival",
+        "title": "공항과 시내 이동",
+        "body": "마르코폴로 공항은 ACTV 5번 또는 ATVO 버스로 Piazzale Roma에 도착하는 방법과 수상 이동을 안내합니다. 버스는 본섬 호텔 앞까지 운행하는 교통편이 아닙니다. Alilaguna의 공항 수상 노선은 Blue·Orange와 계절성 Red를 구분하고 숙소 선착장·짐·운영일을 확인하세요. Green은 섬 관광 상품이므로 일반 통근 노선으로 생각하지 않습니다. Alilaguna와 ACTV 표의 호환을 가정하지 말고 귀환 방향과 승선 위치를 다시 확인하세요."
+      },
+      {
+        "id": "book-venice-stay",
+        "title": "숙소는 어느 동네에",
+        "body": "산마르코 주변은 궁전·코레르를 중심으로, 도르소두로는 아카데미아·구겐하임을 중심으로 비교할 수 있습니다. 메스트레 숙소는 본섬까지 오가는 교통과 늦은 귀환을 포함해 비용을 따져 보세요. 사진의 운하 전망만으로 짐 이동이 편하다고 판단하지 말고 가장 가까운 선착장과 다리 수, 침수·이동 지원 안내를 숙소에 물어보세요. 숙박 구역은 동선 제안이며 특정 호텔의 현재 영업을 보증하는 목록이 아닙니다."
+      },
+      {
+        "id": "book-venice-food",
+        "title": "먹거리와 쉬어 가기",
+        "body": "이탈리아 관광기관은 베네치아의 바카로(bacaro)를 잠깐 쉬며 한 잔을 즐기는 동네 공간으로 소개합니다. 박물관 사이에 간단히 쉬거나 식사하되 서서 이용하는지 자리에 앉는지에 따른 메뉴·이용 조건을 먼저 확인하세요. 무라노 방문 날은 박물관과 귀환 배 사이에 식사 시간을 두고 해산물·알레르기 재료와 표시 가격을 확인합니다. 특정 식당의 최신 평점이나 메뉴를 확인한 추천 순위는 아닙니다."
+      },
+      {
+        "id": "book-venice-days",
+        "title": "처음 가는 3일 여행",
+        "body": "1일: 산마르코의 두칼레 궁전 → 관심과 체력에 따라 코레르 박물관.\n\n2일: 도르소두로에서 아카데미아 또는 페기 구겐하임 컬렉션 중 한 곳을 우선 선택 → 동네 산책과 휴식.\n\n3일: 배로 무라노 이동 → 유리박물관 → 여유 있게 본섬 귀환. 출국일에는 섬 나들이를 생략하는 편이 안전합니다.\n\n물길·휴관·날씨와 예약에 맞춰 바꾸는 편집 제안입니다. 배 시간이나 실제 지도 경로를 자동 확정한 일정은 아닙니다."
+      },
+      {
+        "id": "book-venice-notes",
+        "title": "예약과 현장 팁",
+        "body": "궁전의 특별 관람·왕실 공간 투어·박물관 일반 입장을 구분하고 부분 공사 공지를 확인하세요. 구겐하임은 화요일과 성탄절 휴관 안내가 있습니다. 무라노를 별도 신규 도시로 중복 등록하지 않고 베네치아 체류 중 섬 방문으로 묶었습니다. 수상 교통은 운항 변경·선착장 변경을 확인하며 공항 수상 노선의 계절성 상품을 연중 운항으로 생각하지 마세요. 사진과 예약 가격은 출처만으로 재사용·최신성을 추정하지 않았습니다."
+      }
+    ],
+    "sources": [
+      {
+        "title": "From the Airport to Venice",
+        "url": "https://www.veneziaairport.it/en_gb/transport/from-to/venice",
+        "accessedAt": "2026-10-31"
+      },
+      {
+        "title": "Alilaguna | Public transport",
+        "url": "https://www.alilaguna.it/en/",
+        "accessedAt": "2026-10-31"
+      },
+      {
+        "title": "Things to do & see in Venice: Top Attractions - Italia.it",
+        "url": "https://www.italia.it/en/veneto/venice",
+        "accessedAt": "2026-10-31"
+      },
+      {
+        "title": "Doge's Palace Venice - Official Website",
+        "url": "https://palazzoducale.visitmuve.it/en/",
+        "accessedAt": "2026-10-31"
+      },
+      {
+        "title": "Museo Correr, Venice - MUVE | Official Website",
+        "url": "https://correr.visitmuve.it/en/",
+        "accessedAt": "2026-10-31"
+      },
+      {
+        "title": "Guggenheim museum in Venice: exhibition and guided tour - Peggy Guggenheim Collection",
+        "url": "https://www.guggenheim-venice.it/en/",
+        "accessedAt": "2026-10-31"
+      },
+      {
+        "title": "Gallerie dell'Accademia di Venezia",
+        "url": "https://www.gallerieaccademia.it/en/",
+        "accessedAt": "2026-10-31"
+      },
+      {
+        "title": "Glass Museum | Murano, Venezia - MUVE | Official Website",
+        "url": "https://museovetro.visitmuve.it/en/",
+        "accessedAt": "2026-10-31"
+      }
+    ],
+    "status": "published",
+    "requestId": null,
+    "createdAt": "2026-10-31T18:13:38Z",
+    "updatedAt": "2026-10-31T18:13:38Z",
+    "publishedAt": "2026-10-31T18:13:38Z"
+  }
+}

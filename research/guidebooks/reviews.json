@@ -551,6 +551,149 @@
         "https://www.dusit.com/dusitthani-guamresort/"
       ],
       "evidencePath": "research/guidebooks/runs/20261030T2338-refresh.json"
+    },
+    {
+      "guideId": "maldives",
+      "checkedAt": "2026-10-31",
+      "contentHash": "1424f6f5f06704623c8d073b3494b9a46b673ec799b9dd658f35c66cd58be77b",
+      "result": "blocked",
+      "urls": [
+        "https://www.immigration.gov.mv/traveller-declaration",
+        "https://www.immigration.gov.mv/visa/tourist-visa",
+        "https://imuga.immigration.gov.mv/traveller"
+      ],
+      "evidencePath": "research/guidebooks/runs/20261031T1756-refresh.json"
+    },
+    {
+      "guideId": "saipan",
+      "checkedAt": "2026-10-31",
+      "contentHash": "227ffd765df9439e77398fdbbf599f930d30049c031f857d03cb86e4438232ba",
+      "result": "blocked",
+      "urls": [
+        "https://www.mymarianas.com/visitor-information/",
+        "https://www.nps.gov/amme/planyourvisit/hours.htm"
+      ],
+      "evidencePath": "research/guidebooks/runs/20261031T1756-refresh.json"
+    },
+    {
+      "guideId": "santorini",
+      "checkedAt": "2026-10-31",
+      "contentHash": "4b8dfe0f6391e4651b82e2d45c7e3445a2340164ca1a87c224603ce57f245501",
+      "result": "blocked",
+      "urls": [
+        "https://ktel-santorini.gr/",
+        "https://ktel-santorini.gr/routes/?route=aerodromio",
+        "https://www.jtr-airport.gr/en/flights--more/airport-information"
+      ],
+      "evidencePath": "research/guidebooks/runs/20261031T1756-refresh.json"
+    },
+    {
+      "guideId": "singapore",
+      "checkedAt": "2026-10-31",
+      "contentHash": "3078931ad7bad3e10e862774e889c15ed32f3705b6c1c938d2d053ec060af202",
+      "result": "blocked",
+      "urls": [
+        "https://www.ica.gov.sg/information-and-e-services/entry-and-departure/entering-singapore/sg-arrival-card-with-electronic-health-declaration",
+        "https://www.changiairport.com/en/at-changi/transport-and-directions/leaving-the-airport.html"
+      ],
+      "evidencePath": "research/guidebooks/runs/20261031T1756-refresh.json"
+    },
+    {
+      "guideId": "taipei",
+      "checkedAt": "2026-10-31",
+      "contentHash": "b12c4acafdac0959617d1ac4c1615ae365658171f38b1c9c88a3bca81d9735d6",
+      "result": "blocked",
+      "urls": [
+        "https://www.immigration.gov.tw/5475/",
+        "https://twac.immigration.gov.tw/"
+      ],
+      "evidencePath": "research/guidebooks/runs/20261031T1756-refresh.json"
+    },
+    {
+      "guideId": "book-vienna",
+      "checkedAt": "2026-10-31",
+      "contentHash": "ba8be8ec1b5134105b35241655b9d16a114410cc9633a4e8f111f2a86df6e06a",
+      "result": "changed",
+      "urls": [
+        "https://www.wien.info/en/travel-info/arrival-departure/airport-to-center/important-information-for-airport-travellers-2026-2027-1118558",
+        "https://www.wien.info/en/dine-drink/viennese-cuisine/beisl-340946",
+        "https://www.schoenbrunn.at/en/",
+        "https://www.belvedere.at/en",
+        "https://www.khm.at/en",
+        "https://www.stephanskirche.at/",
+        "https://www.praterwien.com/en/"
+      ],
+      "evidencePath": "research/guidebooks/runs/20261031T1758-new.json"
+    },
+    {
+      "guideId": "book-budapest",
+      "checkedAt": "2026-10-31",
+      "contentHash": "8cf0c465f8950f21e3c30fc4255d51967eb31644c73de70638fb50dbeec9733b",
+      "result": "changed",
+      "urls": [
+        "https://www.bud.hu/en/parking-transport/transportation/public-transportation/public-transportation-by-bus",
+        "https://visithungary.com/articles/all-you-need-to-know-about-hungarian-cuisine",
+        "https://www.bazilikabudapest.hu/turizmus/",
+        "https://matyas-templom.hu/en/",
+        "https://www.szechenyibath.hu/",
+        "https://en.mng.hu/",
+        "https://www.mfab.hu/"
+      ],
+      "evidencePath": "research/guidebooks/runs/20261031T1758-new.json"
+    },
+    {
+      "guideId": "book-florence",
+      "checkedAt": "2026-10-31",
+      "contentHash": "3b38d0f931308d1b883d57c589dcdeed478348a4118364059badea60018dd52e",
+      "result": "changed",
+      "urls": [
+        "https://www.feelflorence.it/en/organize-your-trip/mobility",
+        "https://www.gestramvia.it/?lang=en",
+        "https://www.feelflorence.it/en/editors/museums-florence-latest-news-2026",
+        "https://www.feelflorence.it/en/made-tuscany",
+        "https://www.uffizi.it/en/the-uffizi",
+        "https://www.uffizi.it/en/pitti-palace",
+        "https://www.uffizi.it/en/boboli-garden",
+        "https://duomo.firenze.it/en/home",
+        "https://www.santacroceopera.it/en/"
+      ],
+      "evidencePath": "research/guidebooks/runs/20261031T1758-new.json"
+    },
+    {
+      "guideId": "book-venice",
+      "checkedAt": "2026-10-31",
+      "contentHash": "4d98c48c4e2ffe95e040e67bfd9720b4560cbbecd36e6f4dc90b58bb5f69320c",
+      "result": "changed",
+      "urls": [
+        "https://www.veneziaairport.it/en_gb/transport/from-to/venice",
+        "https://www.alilaguna.it/en/",
+        "https://www.italia.it/en/veneto/venice",
+        "https://palazzoducale.visitmuve.it/en/",
+        "https://correr.visitmuve.it/en/",
+        "https://www.guggenheim-venice.it/en/",
+        "https://www.gallerieaccademia.it/en/",
+        "https://museovetro.visitmuve.it/en/"
+      ],
+      "evidencePath": "research/guidebooks/runs/20261031T1758-new.json"
+    },
+    {
+      "guideId": "book-lisbon",
+      "checkedAt": "2026-10-31",
+      "contentHash": "bc394d34f5531a5bb0d6d81159d593cb5ba38748eb22e609bf6f5de62d5c1606",
+      "result": "changed",
+      "urls": [
+        "https://www.metrolisboa.pt/en/",
+        "https://www.visitlisboa.com/en/traveller-information",
+        "https://www.visitlisboa.com/en/p/lisbon-flavours/wine",
+        "https://www.visitlisboa.com/en/places/pilar-7-bridge-experience",
+        "https://castelodesaojorge.pt/en/castle/national-monument/the-castelo-de-sao-jorge/",
+        "https://www.visitlisboa.com/en/places/mac-ccb-museum-of-contemporary-art-and-architecture-centre",
+        "https://www.visitlisboa.com/en/places/water-museum-aguas-livres-aqueduct",
+        "https://www.visitlisboa.com/en/places/oceanario-de-lisboa",
+        "https://www.visitlisboa.com/en/places/interpretative-center-of-the-history-of-cod",
+        "https://www.visitlisboa.com/en/places/castelo-de-sao-jorge"
+      ],
+      "evidencePath": "research/guidebooks/runs/20261031T1758-new.json"
     }
   ]
 }

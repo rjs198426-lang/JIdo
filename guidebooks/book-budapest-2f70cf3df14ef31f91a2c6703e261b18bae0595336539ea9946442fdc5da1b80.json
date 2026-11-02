@@ -1,0 +1,170 @@
+{
+  "id": "book-budapest",
+  "scope": "city",
+  "city": {
+    "id": "book-budapest",
+    "name": "부다페스트",
+    "english": "Budapest",
+    "country": "헝가리",
+    "region": "유럽",
+    "image": "/images/guide-placeholder.svg",
+    "tagline": "부다의 미술·성당과 페스트의 온천을 나누어 즐기기",
+    "description": "다뉴브강 양쪽의 부다와 페스트를 하루마다 나눠 보면 왕복 이동을 줄일 수 있습니다. 부다 성 지구에서는 마차시 성당과 헝가리 국립미술관을, 페스트에서는 성 이슈트반 대성당과 미술관·온천을 조합하세요. 온천은 박물관 사이에 잠깐 들르는 장소보다 옷을 갈아입고 쉬는 시간을 충분히 두는 일정이 어울립니다.",
+    "tags": [
+      "도시 산책",
+      "박물관"
+    ],
+    "flight": "출발지·방문일의 항공편과 경유 조건은 항공사에서 확인",
+    "currency": "헝가리 포린트 · HUF",
+    "timeDifference": "한국보다 8시간 느림 · 서머타임에는 7시간",
+    "timeZone": "Europe/Budapest",
+    "season": "야외 산책과 실내 관람을 섞고 방문일의 날씨·휴관 공지를 확인하세요.",
+    "accent": "#e7f1ef"
+  },
+  "places": [
+    {
+      "id": "book-budapest-basilica",
+      "cityId": "book-budapest",
+      "name": "성 이슈트반 대성당",
+      "english": "St. Stephen’s Basilica",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "페스트의 대성당으로 성당 내부와 파노라마 테라스·보물관 관람을 구분합니다.",
+      "address": "Szent István tér, Budapest",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "예배와 관광 입장은 다릅니다. 테라스·보물관 포함 여부와 이용 시간을 확인하세요."
+    },
+    {
+      "id": "book-budapest-matthias",
+      "cityId": "book-budapest",
+      "name": "마차시 성당",
+      "english": "Matthias Church",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "부다 성 지구에서 오랜 역사와 성당 미술을 만나는 곳입니다. 성당 관람과 박물관 안내를 함께 확인할 수 있습니다.",
+      "address": "Buda Castle district, Budapest",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "미사·행사에 따라 관람이 달라질 수 있습니다. 한국어 오디오 가이드 제공을 가정하지 마세요."
+    },
+    {
+      "id": "book-budapest-szechenyi",
+      "cityId": "book-budapest",
+      "name": "세체니 온천",
+      "english": "Széchenyi Thermal Bath",
+      "category": "체험",
+      "image": "/images/place-placeholder.svg",
+      "description": "여러 욕탕과 수영장·사우나를 이용하는 온천 시설입니다. 마사지나 별도 스파 상품은 기본 입장과 구분합니다.",
+      "address": "Budapest",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "수영복·보관함과 동행자 연령·건강 조건을 시설에 확인하고 방문일 운영 구역을 확인하세요."
+    },
+    {
+      "id": "book-budapest-national-gallery",
+      "cityId": "book-budapest",
+      "name": "헝가리 국립미술관",
+      "english": "Hungarian National Gallery",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "부다 성에 자리한 미술관으로 중세 미술부터 근현대 헝가리 미술까지 살펴보는 곳입니다.",
+      "address": "Szent György tér, Budapest",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "휴관일과 최종 입장을 확인하세요. 돔 접근은 날씨와 운영에 영향을 받습니다."
+    },
+    {
+      "id": "book-budapest-fine-arts",
+      "cityId": "book-budapest",
+      "name": "부다페스트 미술관",
+      "english": "Museum of Fine Arts Budapest",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "영웅광장에 있는 미술관으로 고대 이집트·고전 유물과 유럽 미술 컬렉션을 만납니다.",
+      "address": "Heroes’ Square, Budapest",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "특별전과 일부 전시실 폐쇄, 단축 개관 공지를 방문일 기준으로 확인하세요."
+    }
+  ],
+  "sections": [
+    {
+      "id": "book-budapest-overview",
+      "title": "도시 한눈에",
+      "body": "다뉴브강 양쪽의 부다와 페스트를 하루마다 나눠 보면 왕복 이동을 줄일 수 있습니다. 부다 성 지구에서는 마차시 성당과 헝가리 국립미술관을, 페스트에서는 성 이슈트반 대성당과 미술관·온천을 조합하세요. 온천은 박물관 사이에 잠깐 들르는 장소보다 옷을 갈아입고 쉬는 시간을 충분히 두는 일정이 어울립니다."
+    },
+    {
+      "id": "book-budapest-before",
+      "title": "출발 전에 챙길 것",
+      "body": "헝가리의 결제 통화는 포린트입니다. 카드의 해외 결제·환전 조건을 확인하고 온천 준비물과 예약 취소 조건을 따로 챙기세요. 성당·미술관의 휴관일을 확인한 뒤 부다와 페스트에 하루씩 배정하면 편합니다. 입국·경유 요건은 개인의 국적과 체류 목적에 맞춰 당국에서 확인하세요. 온천 이용 가능 연령이나 치료 효과는 확인 없이 일반화하지 않습니다."
+    },
+    {
+      "id": "book-budapest-arrival",
+      "title": "공항과 시내 이동",
+      "body": "부다페스트 공항의 공식 버스 안내에서 100E는 공항과 페스트의 Deák Ferenc tér를 연결하는 직행 노선이며 전용 승차권이 필요합니다. 공항 도착층 터미널 사이 정류장을 확인하세요. 200E는 Kőbánya-Kispest에서 지하철 M3로 갈아타는 선택지이고 야간에는 Határ út와 야간 버스 연결을 안내합니다. 100E 표와 200E의 승차권은 같은 것으로 생각하지 마세요. 돌아갈 때 Astoria 정차는 시간대에 제한이 있으므로 탑승 정류장을 다시 확인합니다. 배차·요금은 여행일에 운영사에서 확인하세요."
+    },
+    {
+      "id": "book-budapest-stay",
+      "title": "숙소는 어느 동네에",
+      "body": "페스트 중심부는 공항버스와 시내 활동을 함께 계획하기 좋고, 부다 성 지구 숙소는 성당·국립미술관 관람을 중심으로 잡을 때 비교할 수 있습니다. 부다 언덕에 머물면 짐을 끌고 오르는 구간과 저녁 귀환 방법을 따져 보세요. 온천 방문 때문에 숙소를 정한다면 실제 대중교통 연결과 주변 식사 시간을 먼저 비교합니다. 구역 제안은 숙소 등급이나 안전을 일괄 보장하는 의미가 아닙니다."
+    },
+    {
+      "id": "book-budapest-food",
+      "title": "먹거리와 쉬어 가기",
+      "body": "헝가리 관광기관은 굴라시와 파프리카·양파를 활용한 푀르쾰트 같은 요리를 소개합니다. 굴라시는 식당 메뉴에서 수프인지 다른 형태인지 확인하고, 채소 중심 푀젤레크도 유제품이나 다른 재료가 들어갈 수 있어 채식·알레르기 조건을 따로 물어보세요. 온천 전후에는 무리한 음주보다 물과 휴식을 챙기고, 식당의 표시 통화와 서비스 비용을 결제 전에 확인하세요."
+    },
+    {
+      "id": "book-budapest-days",
+      "title": "처음 가는 3일 여행",
+      "body": "1일: 공항 도착 → 페스트 숙소 → 성 이슈트반 대성당과 주변 식사.\n\n2일: 부다 성 지구의 마차시 성당 → 헝가리 국립미술관. 박물관 관람량을 줄이고 언덕에서 쉬는 시간을 둡니다.\n\n3일: 영웅광장 미술관 또는 세체니 온천 중 하나를 우선 선택하고 여유가 있을 때만 둘을 연결합니다.\n\n성당 행사·미술관 휴관과 온천 예약에 맞춰 날짜를 바꿔 쓰는 예시입니다. 이동시간이나 자동 방문 시각은 부여하지 않았습니다."
+    },
+    {
+      "id": "book-budapest-notes",
+      "title": "예약과 현장 팁",
+      "body": "미술관은 입장 마감이 폐관보다 빠를 수 있고 일부 전시실은 닫힐 수 있습니다. 미술관 공식 홈페이지에는 2026년 11월 7일 단축 개관 공지가 있어 해당 날짜 방문자는 별도로 확인해야 합니다. 국립미술관의 돔 관람은 날씨에 따라 달라집니다. 온천의 모든 시설과 마사지가 한 장의 표에 포함된다고 가정하지 마세요. 국회의사당 사이트는 접근 확인 단계에서 본문을 검증하지 못해 이번 추천 장소에 넣지 않았습니다."
+    }
+  ],
+  "sources": [
+    {
+      "title": "BKK Bus",
+      "url": "https://www.bud.hu/en/parking-transport/transportation/public-transportation/public-transportation-by-bus",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "title": "All you need to know about Hungarian cuisine",
+      "url": "https://visithungary.com/articles/all-you-need-to-know-about-hungarian-cuisine",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "title": "Turizmus 2 – Szent István Bazilika – Budapest",
+      "url": "https://www.bazilikabudapest.hu/turizmus/",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "title": "Matthias Church Ticket purchase – Church of Our Lady in Budavar",
+      "url": "https://matyas-templom.hu/en/",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "title": "Széchenyi Thermal Bath | official website",
+      "url": "https://www.szechenyibath.hu/",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "title": "Hungarian National Gallery — visitor and collection information",
+      "url": "https://en.mng.hu/",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "title": "Museum of Fine Arts Budapest — exhibitions and visitor notices",
+      "url": "https://www.mfab.hu/",
+      "accessedAt": "2026-10-31"
+    }
+  ],
+  "status": "published",
+  "requestId": null,
+  "createdAt": "2026-10-31T18:13:38Z",
+  "updatedAt": "2026-10-31T18:13:38Z",
+  "publishedAt": "2026-10-31T18:13:38Z"
+}

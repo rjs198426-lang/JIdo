@@ -1,0 +1,172 @@
+{
+  "guide": {
+    "id": "book-vienna",
+    "scope": "city",
+    "city": {
+      "id": "book-vienna",
+      "name": "빈",
+      "english": "Vienna",
+      "country": "오스트리아",
+      "region": "유럽",
+      "image": "/images/guide-placeholder.svg",
+      "tagline": "궁전·미술관과 동네 식당을 천천히 잇는 빈",
+      "description": "빈은 슈테판 대성당을 중심으로 걷는 구도심, 벨베데레와 미술사박물관의 미술, 도심에서 떨어진 쇤브룬 궁전을 나눠 보면 편합니다. 궁전 내부 관람과 정원 산책을 같은 표·같은 운영시간으로 생각하지 마세요. 미술관을 하루에 몰아넣기보다 작품을 보는 날과 궁전·놀이공원에서 쉬는 날을 나누는 여행을 권합니다.",
+      "tags": [
+        "도시 산책",
+        "박물관"
+      ],
+      "flight": "출발지·방문일의 항공편과 경유 조건은 항공사에서 확인",
+      "currency": "유로 · EUR",
+      "timeDifference": "한국보다 8시간 느림 · 서머타임에는 7시간",
+      "timeZone": "Europe/Vienna",
+      "season": "야외 산책과 실내 관람을 섞고 방문일의 날씨·휴관 공지를 확인하세요.",
+      "accent": "#e7f1ef"
+    },
+    "places": [
+      {
+        "id": "book-vienna-schonbrunn",
+        "cityId": "book-vienna",
+        "name": "쇤브룬 궁전",
+        "english": "Schönbrunn Palace",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "합스부르크 왕가의 궁전 내부와 정원을 구분해 둘러보는 빈의 대표 궁전입니다. 관람 상품별 포함 공간이 다릅니다.",
+        "address": "Schönbrunn, Wien",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "공식 사이트가 연결하는 판매처에서 입장 상품과 시간을 고르세요. 현장 도착만으로 원하는 회차 입장을 보장하지 않습니다."
+      },
+      {
+        "id": "book-vienna-belvedere",
+        "cityId": "book-vienna",
+        "name": "상부 벨베데레",
+        "english": "Upper Belvedere",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "상부 궁전의 미술 컬렉션을 보는 곳으로 클림트 작품으로도 알려져 있습니다. 하부 궁전과 Belvedere 21은 별도 전시 공간입니다.",
+        "address": "Belvedere, Wien",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "상부·하부·21 중 어느 공간의 표인지 확인하고 원하는 작품의 전시 여부도 확인하세요."
+      },
+      {
+        "id": "book-vienna-khm",
+        "cityId": "book-vienna",
+        "name": "빈 미술사박물관",
+        "english": "Kunsthistorisches Museum Wien",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "고대 이집트부터 유럽 회화에 이르는 방대한 소장품을 만나는 미술관입니다. 관심 시대나 전시실을 먼저 고르면 관람 피로를 줄일 수 있습니다.",
+        "address": "Wien",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "계절별 개관일과 특별전 입장 조건을 확인하세요. 현재의 특정 기간 개관 안내를 연중 일정으로 생각하지 마세요."
+      },
+      {
+        "id": "book-vienna-stephansdom",
+        "cityId": "book-vienna",
+        "name": "슈테판 대성당",
+        "english": "Stephansdom",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "빈 구도심의 성당으로 예배 공간과 관광 관람, 탑 방문을 구분해서 이용합니다.",
+        "address": "Innere Stadt, Wien",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "미사와 행사 때 관람 범위가 달라질 수 있습니다. 탑 방문은 계단과 별도 입장 조건을 확인하세요."
+      },
+      {
+        "id": "book-vienna-prater",
+        "cityId": "book-vienna",
+        "name": "프라터 놀이공원",
+        "english": "Wiener Prater",
+        "category": "체험",
+        "image": "/images/place-placeholder.svg",
+        "description": "산책과 놀이기구를 골라 즐기는 공간입니다. 공원 출입과 개별 놀이기구 이용 요금·운영은 구분됩니다.",
+        "address": "Prater, Wien",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "방문일의 운영기관 안내 확인",
+        "tip": "겨울에는 일부 시설만 운영하므로 원하는 놀이기구의 당일 운영을 확인하세요."
+      }
+    ],
+    "sections": [
+      {
+        "id": "book-vienna-overview",
+        "title": "도시 한눈에",
+        "body": "빈은 슈테판 대성당을 중심으로 걷는 구도심, 벨베데레와 미술사박물관의 미술, 도심에서 떨어진 쇤브룬 궁전을 나눠 보면 편합니다. 궁전 내부 관람과 정원 산책을 같은 표·같은 운영시간으로 생각하지 마세요. 미술관을 하루에 몰아넣기보다 작품을 보는 날과 궁전·놀이공원에서 쉬는 날을 나누는 여행을 권합니다."
+      },
+      {
+        "id": "book-vienna-before",
+        "title": "출발 전에 챙길 것",
+        "body": "항공·숙소와 함께 궁전 입장 회차를 먼저 정하고 미술관은 하루 핵심 한 곳부터 선택하세요. 여권·입국 및 경유 조건은 본인의 국적과 체류 목적에 맞춰 출입국 당국에서 확인합니다. 예약 확인서와 귀환 교통을 오프라인으로 준비하세요. 2026~2027년 공항철도 공사 기간에는 오래된 여행기의 Wien Mitte 직행 설명을 그대로 따르지 않는 것이 중요합니다."
+      },
+      {
+        "id": "book-vienna-arrival",
+        "title": "공항과 시내 이동",
+        "body": "빈 관광청의 공사 안내에 따르면 2026년 9월 7일부터 2027년 10월 말까지 도심 S-Bahn 주요 구간이 폐쇄됩니다. CAT는 2026년 8월 24일~2027년 10월 31일 버스 대체 운행이며 이 기간 Wien Mitte의 City Check-In을 사용할 수 없습니다. S7은 St. Marx까지, REX 7은 중앙역 방향으로 안내됩니다. 일반 공항 소개보다 이 기간별 공지를 우선하고 출발 당일 운영사 경로 검색으로 숙소까지 환승을 확인하세요. 교통 체증과 공사 변경을 고려해 비행기 탑승 여유를 두고 고정 소요시간을 가정하지 않습니다."
+      },
+      {
+        "id": "book-vienna-stay",
+        "title": "숙소는 어느 동네에",
+        "body": "구도심 숙소는 대성당 주변 산책과 저녁 귀환을 편하게 하고 싶은 경우 비교하세요. 중앙역 접근이 좋은 숙소는 다른 도시로 철도 이동하는 일정과 맞추기 좋습니다. 쇤브룬 근처 숙소는 궁전 방문에 편하지만 구도심 일정의 왕복을 함께 따져야 합니다. 이는 일정에 따른 숙소 구역 제안이며 특정 호텔의 시설·가격 보장은 아닙니다. 계단·엘리베이터·짐 보관과 공사 기간 공항 접근을 예약 전에 확인하세요."
+      },
+      {
+        "id": "book-vienna-food",
+        "title": "먹거리와 쉬어 가기",
+        "body": "빈 관광청이 소개하는 바이스엘(Beisl)은 전통적인 동네 식당입니다. 슈니첼, 굴라시와 팬케이크·카이저슈마른 같은 메뉴를 찾아보고 박물관 사이 식사 시간을 비워 두세요. 같은 요리명도 고기 종류와 우유·밀·달걀 사용이 다를 수 있으므로 알레르기와 채식 조건을 주문 전에 확인합니다. 유명 식당 한 곳을 반드시 가기보다 숙소와 관람 장소 사이에서 메뉴와 예약 가능 시간을 비교하세요."
+      },
+      {
+        "id": "book-vienna-days",
+        "title": "처음 가는 3일 여행",
+        "body": "1일: 슈테판 대성당과 구도심 산책 → 동네 식당에서 식사.\n\n2일: 쇤브룬 궁전 예약 회차를 중심으로 내부 관람과 정원 산책을 선택합니다. 저녁까지 다른 궁전을 무리하게 이어 붙이지 마세요.\n\n3일: 상부 벨베데레 또는 미술사박물관 중 관심 컬렉션 한 곳 → 날씨와 놀이기구 운영이 맞으면 프라터.\n\n방문 순서는 편집 제안이며 실제 지도 경로나 자동 방문 시간이 아닙니다. 휴관·예약과 동행자의 걸음에 맞춰 순서를 바꾸세요."
+      },
+      {
+        "id": "book-vienna-notes",
+        "title": "예약과 현장 팁",
+        "body": "쇤브룬은 공식 연결 판매처와 표 종류를 확인하고, 벨베데레는 건물별 입장을 구분하세요. 프라터는 공원에 갈 수 있어도 모든 놀이기구가 운영되는 것은 아닙니다. 성당에서는 예배와 촬영 안내를 따릅니다. 철도 공사 기간과 CAT 버스 대체 운행은 여행 직전 다시 확인할 변동 정보입니다. 가격·정확한 배차와 확인하지 않은 입국 자격은 이 가이드에서 확정하지 않았습니다."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Important information for airport travelers - vienna.info",
+        "url": "https://www.wien.info/en/travel-info/arrival-departure/airport-to-center/important-information-for-airport-travellers-2026-2027-1118558",
+        "accessedAt": "2026-10-31"
+      },
+      {
+        "title": "The Vienna bistro - vienna.info",
+        "url": "https://www.wien.info/en/dine-drink/viennese-cuisine/beisl-340946",
+        "accessedAt": "2026-10-31"
+      },
+      {
+        "title": "An Authentic Experience of Imperial Heritage | Schönbrunn Palace",
+        "url": "https://www.schoenbrunn.at/en/",
+        "accessedAt": "2026-10-31"
+      },
+      {
+        "title": "Home | Austrian Gallery Belvedere",
+        "url": "https://www.belvedere.at/en",
+        "accessedAt": "2026-10-31"
+      },
+      {
+        "title": "The Kunsthistorisches Museum - Vienna - KHM.at",
+        "url": "https://www.khm.at/en",
+        "accessedAt": "2026-10-31"
+      },
+      {
+        "title": "Domkirche St. StephanHome",
+        "url": "https://www.stephanskirche.at/",
+        "accessedAt": "2026-10-31"
+      },
+      {
+        "title": "Prater Vienna - Visit, Attractions, Events | Prater Wien",
+        "url": "https://www.praterwien.com/en/",
+        "accessedAt": "2026-10-31"
+      }
+    ],
+    "status": "published",
+    "requestId": null,
+    "createdAt": "2026-10-31T18:13:38Z",
+    "updatedAt": "2026-10-31T18:13:38Z",
+    "publishedAt": "2026-10-31T18:13:38Z"
+  }
+}

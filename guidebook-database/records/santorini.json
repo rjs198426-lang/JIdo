@@ -1593,12 +1593,12 @@
       {
         "id": "santorini-before",
         "title": "출발 전 준비",
-        "body": "페리·투어는 결항과 취소 조건, 항구 도착 시간을 확인하세요.\n\n일몰 식사는 전망 자리·예약 보증금·숙소 복귀 교통을 함께 확인하세요."
+        "body": "페리·투어는 결항과 취소 조건, 항구 도착 시간을 확인하세요.\n\n일몰 식사는 전망 자리·예약 보증금·숙소 복귀 교통을 함께 확인하세요.\n\n산토리니 공항은 공공버스와 택시 접근을 안내합니다. 공항 홈페이지 하단의 공항·터미널 운영시간을 버스 운행시간으로 읽지 마세요. KTEL의 현재 노선표와 항공편 날짜를 함께 확인하고 늦은 도착은 숙소 픽업 등 대안을 준비하세요."
       },
       {
         "id": "santorini-arrival",
         "title": "공항과 시내 이동",
-        "body": "공항·항구 도착: 도착편에 맞는 숙소 픽업·버스·차량과 항구에서 숙소까지의 마지막 구간을 확인하세요.\n\n섬 안 이동: 버스 환승 지점과 귀환편을 확인하세요. 절벽길 산책과 차량 이동 구간을 구분합니다."
+        "body": "공항·항구 도착: 도착편에 맞는 숙소 픽업·버스·차량과 항구에서 숙소까지의 마지막 구간을 확인하세요.\n\n섬 안 이동: KTEL 공식 노선표는 피라를 출발·귀환 기준으로 이아·카마리·페리사·아크로티리·공항 등을 나눠 제공합니다. 숙소가 피라 밖이면 공항 도착 뒤 환승·마지막 도보 구간을 따로 확인하세요. 2026-05-18 수정 표시와 겨울 프로그램 문구가 함께 있어 현재 방문일의 배차·막차·소요시간을 고정값으로 옮기지 않았습니다."
       },
       {
         "id": "santorini-stay",
@@ -1621,12 +1621,28 @@
         "body": "테라 선사박물관 등 실내 관람이나 숙소 휴식으로 바꾸고 해상 투어 운항을 확인하세요."
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "title": "ΚΤΕΛ Σαντορίνης — KTEL Santorini – Επίσημο Site — Official Site",
+        "url": "https://ktel-santorini.gr/",
+        "accessedAt": "2026-10-31"
+      },
+      {
+        "title": "Δρομολόγια – ΚΤΕΛ Σαντορίνης — KTEL Santorini",
+        "url": "https://ktel-santorini.gr/routes/?route=aerodromio",
+        "accessedAt": "2026-10-31"
+      },
+      {
+        "title": "Airport information | Santorini Airport (JTR)",
+        "url": "https://www.jtr-airport.gr/en/flights--more/airport-information",
+        "accessedAt": "2026-10-31"
+      }
+    ],
     "status": "published",
     "requestId": null,
-    "createdAt": "2026-10-28T00:00:00.000Z",
-    "updatedAt": "2026-10-28T00:00:00.000Z",
-    "publishedAt": "2026-10-28T00:00:00.000Z"
+    "createdAt": "2026-10-31T00:00:00.000Z",
+    "updatedAt": "2026-10-31T00:00:00.000Z",
+    "publishedAt": "2026-10-31T00:00:00.000Z"
   },
   "practicalGuide": {
     "cityId": "santorini",
@@ -1648,7 +1664,7 @@
       },
       {
         "name": "섬 안 이동",
-        "advice": "버스 환승 지점과 귀환편을 확인하세요. 절벽길 산책과 차량 이동 구간을 구분합니다."
+        "advice": "KTEL 공식 노선표는 피라를 출발·귀환 기준으로 이아·카마리·페리사·아크로티리·공항 등을 나눠 제공합니다. 숙소가 피라 밖이면 공항 도착 뒤 환승·마지막 도보 구간을 따로 확인하세요. 2026-05-18 수정 표시와 겨울 프로그램 문구가 함께 있어 현재 방문일의 배차·막차·소요시간을 고정값으로 옮기지 않았습니다."
       }
     ],
     "timePlan": [
@@ -1663,7 +1679,8 @@
     ],
     "before": [
       "페리·투어는 결항과 취소 조건, 항구 도착 시간을 확인하세요.",
-      "일몰 식사는 전망 자리·예약 보증금·숙소 복귀 교통을 함께 확인하세요."
+      "일몰 식사는 전망 자리·예약 보증금·숙소 복귀 교통을 함께 확인하세요.",
+      "산토리니 공항은 공공버스와 택시 접근을 안내합니다. 공항 홈페이지 하단의 공항·터미널 운영시간을 버스 운행시간으로 읽지 마세요. KTEL의 현재 노선표와 항공편 날짜를 함께 확인하고 늦은 도착은 숙소 픽업 등 대안을 준비하세요."
     ],
     "pitfalls": [
       "도착 당일 촘촘한 시간 지정 예약은 배편 지연에 취약합니다.",
@@ -1699,9 +1716,27 @@
         "url": "https://www.visitgreece.gr/",
         "checkedAt": "2026-10-15",
         "status": "unavailable"
+      },
+      {
+        "title": "ΚΤΕΛ Σαντορίνης — KTEL Santorini – Επίσημο Site — Official Site",
+        "url": "https://ktel-santorini.gr/",
+        "checkedAt": "2026-10-31",
+        "status": "read"
+      },
+      {
+        "title": "Δρομολόγια – ΚΤΕΛ Σαντορίνης — KTEL Santorini",
+        "url": "https://ktel-santorini.gr/routes/?route=aerodromio",
+        "checkedAt": "2026-10-31",
+        "status": "read"
+      },
+      {
+        "title": "Airport information | Santorini Airport (JTR)",
+        "url": "https://www.jtr-airport.gr/en/flights--more/airport-information",
+        "checkedAt": "2026-10-31",
+        "status": "read"
       }
     ],
-    "researchNote": "기존 내장 장소를 바탕으로 작성한 계획 제안입니다. 관광청 최신 교통·운영 조건은 본문 접근 제한으로 재확인하지 못했습니다."
+    "researchNote": "기존 내장 장소를 바탕으로 작성한 계획 제안입니다. 관광청 최신 교통·운영 조건은 본문 접근 제한으로 재확인하지 못했습니다. 2026-10-31에는 입국·신고 또는 교통·개관 안내의 관련 공식 본문을 읽어 일부 항목을 보강했습니다. 게시일과 수정일·실제 확인일은 구분하며 전체 장소·좌표·예약 조건 검토가 완료된 것은 아닙니다."
   },
   "plans": {
     "cityId": "santorini",

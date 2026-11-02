@@ -1,0 +1,180 @@
+{
+  "id": "book-florence",
+  "scope": "city",
+  "city": {
+    "id": "book-florence",
+    "name": "피렌체",
+    "english": "Florence",
+    "country": "이탈리아",
+    "region": "유럽",
+    "image": "/images/guide-placeholder.svg",
+    "tagline": "르네상스 미술과 아르노강 너머 정원을 여유롭게",
+    "description": "피렌체는 두오모 주변 도심과 우피치, 아르노강 건너 피티 궁전·보볼리 정원을 나누어 둘러보면 좋습니다. 유명 미술관을 모두 하루에 예약하기보다 보고 싶은 작품이 있는 곳을 먼저 선택하세요. 성당 복합시설의 탑·돔·박물관과 궁전·정원은 표 구성과 입장 방식이 서로 다릅니다.",
+    "tags": [
+      "도시 산책",
+      "박물관"
+    ],
+    "flight": "출발지·방문일의 항공편과 경유 조건은 항공사에서 확인",
+    "currency": "유로 · EUR",
+    "timeDifference": "한국보다 8시간 느림 · 서머타임에는 7시간",
+    "timeZone": "Europe/Rome",
+    "season": "야외 산책과 실내 관람을 섞고 방문일의 날씨·휴관 공지를 확인하세요.",
+    "accent": "#e7f1ef"
+  },
+  "places": [
+    {
+      "id": "book-florence-uffizi",
+      "cityId": "book-florence",
+      "name": "우피치 미술관",
+      "english": "Uffizi Gallery",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "르네상스 회화를 중심으로 보티첼리·레오나르도 등 주요 작가의 작품을 살펴보는 미술관입니다.",
+      "address": "Firenze",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "예약 입장 시각과 휴관일, 특별 관람의 포함 여부를 확인하세요."
+    },
+    {
+      "id": "book-florence-pitti",
+      "cityId": "book-florence",
+      "name": "피티 궁전",
+      "english": "Pitti Palace",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "팔라티나 미술관 등 여러 컬렉션과 궁전 공간을 보는 복합 관람지입니다.",
+      "address": "Firenze",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "보수 공사로 일부 전시실이 닫힐 수 있습니다. 궁전 전체 폐쇄와 부분 제한을 구분하세요."
+    },
+    {
+      "id": "book-florence-boboli",
+      "cityId": "book-florence",
+      "name": "보볼리 정원",
+      "english": "Boboli Gardens",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "피티 궁전 뒤의 야외 정원으로 조각·분수와 산책 공간을 만납니다. 경사와 흙·자갈길을 고려해야 합니다.",
+      "address": "Firenze",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "계절별 폐장과 날씨에 따른 통제를 확인하세요. 도자기박물관은 보수 휴관 안내가 있습니다."
+    },
+    {
+      "id": "book-florence-duomo",
+      "cityId": "book-florence",
+      "name": "피렌체 두오모 복합시설",
+      "english": "Florence Duomo Complex",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "대성당·돔·조토의 종탑·박물관 등을 구분해 관람하는 도시 중심의 종교·예술 공간입니다.",
+      "address": "Piazza del Duomo, Firenze",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "돔·종탑 등 각 공간의 표와 예약 조건을 확인하세요. 박물관은 2026년 11월 3일 정비 휴관 공지가 있습니다."
+    },
+    {
+      "id": "book-florence-santa-croce",
+      "cityId": "book-florence",
+      "name": "산타 크로체",
+      "english": "Santa Croce",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "프란체스코회 성당에서 회화·조각과 기념 묘를 함께 살펴보는 곳입니다. 조토의 바르디 예배당도 관람 주제입니다.",
+      "address": "Firenze",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "예배와 관람 규칙을 따르고 복원·행사에 따른 구역별 접근 공지를 확인하세요."
+    }
+  ],
+  "sections": [
+    {
+      "id": "book-florence-overview",
+      "title": "도시 한눈에",
+      "body": "피렌체는 두오모 주변 도심과 우피치, 아르노강 건너 피티 궁전·보볼리 정원을 나누어 둘러보면 좋습니다. 유명 미술관을 모두 하루에 예약하기보다 보고 싶은 작품이 있는 곳을 먼저 선택하세요. 성당 복합시설의 탑·돔·박물관과 궁전·정원은 표 구성과 입장 방식이 서로 다릅니다."
+    },
+    {
+      "id": "book-florence-before",
+      "title": "출발 전에 챙길 것",
+      "body": "가장 보고 싶은 미술관 하나와 두오모의 관람 구역부터 정하세요. 궁전·정원·돔의 묶음 표는 예약 시각과 사용 순서를 확인하고 공식 기관이 연결하는 판매처를 이용합니다. 여권·경유·체류 조건은 당국에서 따로 확인하세요. 정원용 편한 신발과 비·햇빛 대비를 챙기고 성당의 복장·가방 규정은 방문 전에 확인합니다."
+    },
+    {
+      "id": "book-florence-arrival",
+      "title": "공항과 시내 이동",
+      "body": "피렌체 시 관광 사이트는 페레톨라의 Amerigo Vespucci 공항과 시내를 T2 트램으로 연결한다고 안내합니다. GEST의 여행일 노선도에서 숙소에 가까운 하차역과 환승을 확인하세요. 피사 등 다른 공항 도착에는 이 안내를 그대로 적용할 수 없습니다. 도심은 보행 구역과 차량 통제 구역이 있으므로 렌터카로 숙소 문 앞까지 갈 수 있다고 가정하지 말고 숙소의 진입·주차 안내를 받으세요."
+    },
+    {
+      "id": "book-florence-stay",
+      "title": "숙소는 어느 동네에",
+      "body": "두오모·우피치 쪽은 주요 미술관과 성당을 걸어서 연결하고 싶은 일정에, 강 건너 피티 궁전 쪽은 정원과 동네 산책을 여유롭게 하려는 일정에 비교할 수 있습니다. 기차로 다른 도시를 잇는다면 역 접근과 짐 이동도 함께 따져 보세요. 역사 지구 숙소의 계단·엘리베이터·차량 접근을 예약 전에 확인하고 지도상의 가까움만으로 짐 이동이 쉽다고 판단하지 않습니다."
+    },
+    {
+      "id": "book-florence-food",
+      "title": "먹거리와 쉬어 가기",
+      "body": "시 관광 사이트는 토스카나의 음식·와인과 지역 공예를 함께 소개합니다. 큰 미술관 사이에 식사 시간을 미리 두고 정원 방문 때는 물을 준비하세요. 식당은 현장 메뉴의 재료·분량·표시 가격을 확인하고 고기·치즈·밀·견과 등 식이 조건을 설명한 뒤 주문하는 편이 좋습니다. 특정 식당의 최신 메뉴나 예약 가능 여부를 검증한 순위가 아니므로 숙소와 예약 입장 사이의 동선에 맞춰 골라 보세요."
+    },
+    {
+      "id": "book-florence-days",
+      "title": "처음 가는 3일 여행",
+      "body": "1일: 두오모 복합시설 중 예약한 구역 → 산타 크로체. 두 성당을 모두 내부 관람하기 부담스러우면 한 곳을 다음 날로 옮깁니다.\n\n2일: 우피치 미술관 → 강 주변 산책과 충분한 식사·휴식.\n\n3일: 피티 궁전 → 날씨가 좋으면 보볼리 정원. 실내 관람량이 많다면 궁전이나 정원 중 하나만 고르세요.\n\n휴관일과 입장 회차에 맞춰 순서를 바꾸는 예시이며 실제 경로·이동시간을 계산한 일정은 아닙니다."
+    },
+    {
+      "id": "book-florence-notes",
+      "title": "예약과 현장 팁",
+      "body": "2026년 10월 27일 갱신된 시 관광 안내와 시설 공지를 함께 확인했습니다. 조토의 종탑은 2026년 3월 시작한 복원 공사 중에도 관람을 유지한다고 안내하지만 현장 동선은 확인해야 합니다. 보볼리 도자기박물관은 보수 휴관 안내가 남아 있습니다. 두오모 운영기관의 2026년 10월 30일 공지는 11월 3일 박물관 정비 휴관을 알립니다. 피티 궁전은 일부 전시실 공사와 전체 개관을 구분하고 예정 완료일만으로 재개관했다고 판단하지 마세요."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Mobility | FeelFlorenceToggle dropdownToggle dropdown",
+      "url": "https://www.feelflorence.it/en/organize-your-trip/mobility",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "title": "GEST | Trasporto tramviario dell'area fiorentinalogo-RATP",
+      "url": "https://www.gestramvia.it/?lang=en",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "title": "Museums of Florence: latest news 2026 | FeelFlorenceToggle dropdownToggle dropdown",
+      "url": "https://www.feelflorence.it/en/editors/museums-florence-latest-news-2026",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "title": "Made in Tuscany | FeelFlorenceToggle dropdownToggle dropdown",
+      "url": "https://www.feelflorence.it/en/made-tuscany",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "title": "The Uffizi | Uffizi Galleries",
+      "url": "https://www.uffizi.it/en/the-uffizi",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "title": "Pitti Palace | Uffizi Galleries",
+      "url": "https://www.uffizi.it/en/pitti-palace",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "title": "Boboli Gardens | Uffizi Galleries",
+      "url": "https://www.uffizi.it/en/boboli-garden",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "title": "Opera di Santa Maria del Fiore, Florence Cathedral | Official Site",
+      "url": "https://duomo.firenze.it/en/home",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "title": "Spirituality, Beauty, Memory, Conservation  | Santa Croce",
+      "url": "https://www.santacroceopera.it/en/",
+      "accessedAt": "2026-10-31"
+    }
+  ],
+  "status": "published",
+  "requestId": null,
+  "createdAt": "2026-10-31T18:13:38Z",
+  "updatedAt": "2026-10-31T18:13:38Z",
+  "publishedAt": "2026-10-31T18:13:38Z"
+}

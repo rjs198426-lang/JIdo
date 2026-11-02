@@ -1,0 +1,185 @@
+{
+  "id": "book-lisbon",
+  "scope": "city",
+  "city": {
+    "id": "book-lisbon",
+    "name": "리스본",
+    "english": "Lisbon",
+    "country": "포르투갈",
+    "region": "유럽",
+    "image": "/images/guide-placeholder.svg",
+    "tagline": "언덕의 성과 강변 미술관, 해양 문화를 만나는 여행",
+    "description": "리스본은 언덕 위 상조르즈성과 강변의 도심, 서쪽 벨렝, 동쪽 파르크 다스 나송이스를 나누어 둘러보면 좋습니다. 언덕과 계단을 고려해 하루에 여러 구역을 오가기보다 한두 구역에 머물며 쉬세요. 역사 공간과 현대 미술·해양 전시를 골라 가족이나 동행자의 취향에 맞출 수 있습니다.",
+    "tags": [
+      "도시 산책",
+      "박물관"
+    ],
+    "flight": "출발지·방문일의 항공편과 경유 조건은 항공사에서 확인",
+    "currency": "유로 · EUR",
+    "timeDifference": "한국보다 9시간 느림 · 서머타임에는 8시간",
+    "timeZone": "Europe/Lisbon",
+    "season": "야외 산책과 실내 관람을 섞고 방문일의 날씨·휴관 공지를 확인하세요.",
+    "accent": "#e7f1ef"
+  },
+  "places": [
+    {
+      "id": "book-lisbon-castle",
+      "cityId": "book-lisbon",
+      "name": "상조르즈 성",
+      "english": "Castelo de São Jorge",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "성벽과 탑이 남아 있는 언덕의 방어 유산으로 리스본의 성곽 역사를 살펴보는 곳입니다.",
+      "address": "Lisboa",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "성벽·계단과 날씨를 고려하고 방문 가능한 구역을 확인하세요."
+    },
+    {
+      "id": "book-lisbon-mac-ccb",
+      "cityId": "book-lisbon",
+      "name": "MAC/CCB 현대미술관",
+      "english": "MAC/CCB Museum of Contemporary Art and Architecture Centre",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "벨렝에서 현대 미술과 건축 전시를 보는 공간입니다. 역사 기념물 방문 사이에 실내 관람을 넣을 수 있습니다.",
+      "address": "Belém, Lisboa",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "월요일 휴관과 방문일 전시·입장 조건을 확인하세요."
+    },
+    {
+      "id": "book-lisbon-aqueduct",
+      "cityId": "book-lisbon",
+      "name": "아구아스 리브르스 수도교",
+      "english": "Águas Livres Aqueduct",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "리스본의 물 공급 역사를 만나는 수도교입니다. 캄폴리드와 몬산투 사이 높은 야외 통로를 걷는 방문을 고려할 수 있습니다.",
+      "address": "Campolide, Lisboa",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "노출된 야외 통로의 높이와 날씨, 휴관일을 확인하세요. 물 박물관의 모든 시설이 한 장소에 있는 것은 아닙니다."
+    },
+    {
+      "id": "book-lisbon-oceanarium",
+      "cityId": "book-lisbon",
+      "name": "리스본 해양수족관",
+      "english": "Oceanário de Lisboa",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "파르크 다스 나송이스에서 중앙 수조와 여러 해양 서식 환경을 둘러보는 실내 관람지입니다.",
+      "address": "Parque das Nações, Lisboa",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "입장 회차·특별전과 혼잡을 고려하고 동행자와 쉬는 시간을 두세요."
+    },
+    {
+      "id": "book-lisbon-cod",
+      "cityId": "book-lisbon",
+      "name": "대구 역사 해설센터",
+      "english": "Interpretative Center of the History of Cod",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "포르투갈의 식탁과 항해·어업 문화에서 대구가 차지한 역할을 전시로 알아보는 공간입니다.",
+      "address": "Terreiro do Paço, Lisboa",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "방문일의 운영기관 안내 확인",
+      "tip": "요리·식사 체험이 입장에 포함된다고 가정하지 말고 전시와 상품 구성을 확인하세요."
+    }
+  ],
+  "sections": [
+    {
+      "id": "book-lisbon-overview",
+      "title": "도시 한눈에",
+      "body": "리스본은 언덕 위 상조르즈성과 강변의 도심, 서쪽 벨렝, 동쪽 파르크 다스 나송이스를 나누어 둘러보면 좋습니다. 언덕과 계단을 고려해 하루에 여러 구역을 오가기보다 한두 구역에 머물며 쉬세요. 역사 공간과 현대 미술·해양 전시를 골라 가족이나 동행자의 취향에 맞출 수 있습니다."
+    },
+    {
+      "id": "book-lisbon-before",
+      "title": "출발 전에 챙길 것",
+      "body": "언덕을 걷기 편한 신발과 비·햇빛 대비를 챙기고 숙소의 엘리베이터·계단을 확인하세요. 월요일에 쉬는 미술관·수도교를 다른 날로 배치하면 편합니다. 항공권·숙소와 여권·입국·경유 조건은 개인 상황에 맞춰 확인하고, 오프라인으로 숙소 위치와 예약서를 준비합니다. 관광 패스는 방문할 시설과 실제 사용일을 먼저 정한 뒤 개별 입장과 비교하세요."
+    },
+    {
+      "id": "book-lisbon-arrival",
+      "title": "공항과 시내 이동",
+      "body": "리스본 지하철의 공식 경로 검색에 Aeroporto역이 있으며, 공항에서 숙소 역까지의 환승은 방문일 경로 검색으로 확인할 수 있습니다. 지하철 안내는 은행카드 결제와 navegante 이용을 구분하므로 동행자가 한 교통카드를 함께 쓸 수 있다고 가정하지 마세요. 늦은 도착이나 큰 짐이 있으면 운행 시간과 차량 이동을 함께 비교합니다. 공항에서 숙소까지의 정확한 요금·소요시간과 미확인 노선 색상은 고정하지 않았습니다."
+    },
+    {
+      "id": "book-lisbon-stay",
+      "title": "숙소는 어느 동네에",
+      "body": "바이샤·강변 도심은 대구 역사 해설센터와 중심 산책을 묶고 싶은 경우, 성 주변 언덕은 역사 구역에 머물고 싶은 경우 비교하세요. 벨렝은 MAC/CCB 방문을, 오리엔트·파르크 다스 나송이스는 수족관과 역 접근을 고려할 때 살펴볼 수 있습니다. 중심지에서 숙소까지 마지막 오르막·계단과 밤 귀환을 먼저 확인하고 지도상의 짧은 거리만으로 편리함을 판단하지 않습니다."
+    },
+    {
+      "id": "book-lisbon-food",
+      "title": "먹거리와 쉬어 가기",
+      "body": "대구 역사 해설센터에서는 바칼라우로 알려진 대구와 포르투갈의 항해·식문화를 함께 이해할 수 있습니다. 식당에서는 조리 방식과 염도·알레르기 재료를 확인하며 본인 취향에 맞춰 고르세요. 리스본 관광기관은 부셀라스·콜라르스 등 주변 와인 산지와 전통 음료 진지냐도 소개합니다. 시음은 선택이며 운전이나 귀환 일정과 분리합니다. 산지 방문을 리스본 도심에서 바로 걷는 일정으로 생각하지 마세요."
+    },
+    {
+      "id": "book-lisbon-days",
+      "title": "처음 가는 3일 여행",
+      "body": "1일: 상조르즈 성과 언덕 산책 → 강변 도심의 대구 역사 해설센터. 경사 이동이 부담되면 한 곳만 고릅니다.\n\n2일: 벨렝 MAC/CCB에서 현대 미술·건축 관람 → 강변에서 휴식.\n\n3일: 동쪽 파르크 다스 나송이스의 해양수족관. 야외 역사 시설을 선호하면 수도교 방문으로 바꾸되 두 먼 구역을 무리하게 연결하지 마세요.\n\n날씨·휴관·예약에 맞춰 조정하는 예시이며 실제 지도 경로와 자동 방문 시각은 포함하지 않습니다."
+    },
+    {
+      "id": "book-lisbon-notes",
+      "title": "예약과 현장 팁",
+      "body": "아구아스 리브르스 수도교는 높은 야외 통로이므로 이동 제약과 날씨를 먼저 고려하세요. 공식 관광 안내의 Pilar 7에는 승강기 수리 표시가 있어 전망 체험을 정상 운영으로 추천하지 않았습니다. 수족관의 과거 수상 이력을 현재 순위처럼 쓰지 않았고, 시설 운영시간·패스 혜택·입국 자격을 확인일만으로 최신 보장하지 않습니다. 날짜가 없는 공식 시설 소개는 게시일 미상으로 기록했습니다."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Metropolitano de Lisboa, EPE - EnglishAcessibilidadeIncrease TextDecrease TextGrayscaleHigh ContrastNegative ContrastLinks UnderlineReadable FontReset",
+      "url": "https://www.metrolisboa.pt/en/",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "title": "Traveller information | Visit Lisboa",
+      "url": "https://www.visitlisboa.com/en/traveller-information",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "title": "Wine | Visit Lisboa",
+      "url": "https://www.visitlisboa.com/en/p/lisbon-flavours/wine",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "title": "Pilar 7 Bridge Experience | Visit Lisboa",
+      "url": "https://www.visitlisboa.com/en/places/pilar-7-bridge-experience",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "title": "The Castelo de São Jorge - Castelo de São Jorge",
+      "url": "https://castelodesaojorge.pt/en/castle/national-monument/the-castelo-de-sao-jorge/",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "title": "MAC/CCB Museum of Contemporary Art and Architecture Centre | Visit Lisboa",
+      "url": "https://www.visitlisboa.com/en/places/mac-ccb-museum-of-contemporary-art-and-architecture-centre",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "title": "Water Museum - Águas Livres Aqueduct | Visit Lisboa",
+      "url": "https://www.visitlisboa.com/en/places/water-museum-aguas-livres-aqueduct",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "title": "Oceanário de Lisboa | Visit Lisboa",
+      "url": "https://www.visitlisboa.com/en/places/oceanario-de-lisboa",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "title": "Interpretative Center of the History of Cod | Visit Lisboa",
+      "url": "https://www.visitlisboa.com/en/places/interpretative-center-of-the-history-of-cod",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "title": "Castelo de São Jorge | Visit Lisboa",
+      "url": "https://www.visitlisboa.com/en/places/castelo-de-sao-jorge",
+      "accessedAt": "2026-10-31"
+    }
+  ],
+  "status": "published",
+  "requestId": null,
+  "createdAt": "2026-10-31T18:13:38Z",
+  "updatedAt": "2026-10-31T18:13:38Z",
+  "publishedAt": "2026-10-31T18:13:38Z"
+}

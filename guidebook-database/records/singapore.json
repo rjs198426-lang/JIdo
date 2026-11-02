@@ -897,12 +897,12 @@
       {
         "id": "singapore-before",
         "title": "출발 전 준비",
-        "body": "정원 유료 온실·전망대는 구역별 입장권과 운영일을 확인하세요.\n\n야간 동물원·인기 체험은 지정 시간과 도심 귀환 교통을 함께 확인하세요."
+        "body": "정원 유료 온실·전망대는 구역별 입장권과 운영일을 확인하세요.\n\n야간 동물원·인기 체험은 지정 시간과 도심 귀환 교통을 함께 확인하세요.\n\nSG Arrival Card와 전자 건강신고는 ICA 공식 서비스에서 무료로 제출합니다. 도착일을 포함한 3일 이내에 제출하며, 예를 들어 30일 도착이면 28일부터입니다. 입국심사 없이 환승하는 경우 등 예외는 ICA의 적용 대상을 확인하세요. SGAC는 비자가 아니며 유료 대행사가 ICA와 제휴했다고 생각하지 마세요.\n\nSGAC 제출 후 건강 상태가 바뀌면 Update SGAC로 갱신합니다. 제출 확인 이메일을 보관하고 실제 입국 때 여권 등 여행서류를 준비하세요. 비자·입국 자격은 별도 요건이며 제출 자체가 입국 승인은 아닙니다."
       },
       {
         "id": "singapore-arrival",
         "title": "공항과 시내 이동",
-        "body": "창이공항: MRT 환승과 공항버스·차량을 도착 시간·짐·인원에 맞춰 비교하세요.\n\n시내 이동: 도심은 MRT와 도보를 조합하고 동물원·센토사는 별도 왕복 구간을 계산하세요."
+        "body": "창이공항: 창이공항 MRT에서 타나메라역으로 가 동서선으로 환승하거나, 엑스포역에서 다운타운선으로 환승할 수 있습니다. 목적지에 맞춰 노선을 고르세요. 공항은 대부분의 MRT·공공버스가 밤새 운행하지 않는다고 안내하므로 도착일 막차를 확인하고 늦은 도착에는 택시·예약 차량을 비교하세요. 해외 발급 카드의 대중교통 결제에는 관리 수수료가 붙을 수 있습니다.\n\n시내 이동: 도심은 MRT와 도보를 조합하고 동물원·센토사는 별도 왕복 구간을 계산하세요."
       },
       {
         "id": "singapore-stay",
@@ -925,12 +925,23 @@
         "body": "아트사이언스 뮤지엄·실내 박물관 등으로 옮기고 야외 정원·해안 산책은 강수 상황을 보고 정하세요."
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "title": "SG Arrival Card with Electronic Health Declaration\r | Immigration & Checkpoints Authority",
+        "url": "https://www.ica.gov.sg/information-and-e-services/entry-and-departure/entering-singapore/sg-arrival-card-with-electronic-health-declaration",
+        "accessedAt": "2026-10-31"
+      },
+      {
+        "title": "Leaving Changi Airport: Transport Options",
+        "url": "https://www.changiairport.com/en/at-changi/transport-and-directions/leaving-the-airport.html",
+        "accessedAt": "2026-10-31"
+      }
+    ],
     "status": "published",
     "requestId": null,
-    "createdAt": "2026-10-28T00:00:00.000Z",
-    "updatedAt": "2026-10-28T00:00:00.000Z",
-    "publishedAt": "2026-10-28T00:00:00.000Z"
+    "createdAt": "2026-10-31T00:00:00.000Z",
+    "updatedAt": "2026-10-31T00:00:00.000Z",
+    "publishedAt": "2026-10-31T00:00:00.000Z"
   },
   "practicalGuide": {
     "cityId": "singapore",
@@ -948,7 +959,7 @@
     "arrival": [
       {
         "name": "창이공항",
-        "advice": "MRT 환승과 공항버스·차량을 도착 시간·짐·인원에 맞춰 비교하세요."
+        "advice": "창이공항 MRT에서 타나메라역으로 가 동서선으로 환승하거나, 엑스포역에서 다운타운선으로 환승할 수 있습니다. 목적지에 맞춰 노선을 고르세요. 공항은 대부분의 MRT·공공버스가 밤새 운행하지 않는다고 안내하므로 도착일 막차를 확인하고 늦은 도착에는 택시·예약 차량을 비교하세요. 해외 발급 카드의 대중교통 결제에는 관리 수수료가 붙을 수 있습니다."
       },
       {
         "name": "시내 이동",
@@ -967,7 +978,9 @@
     ],
     "before": [
       "정원 유료 온실·전망대는 구역별 입장권과 운영일을 확인하세요.",
-      "야간 동물원·인기 체험은 지정 시간과 도심 귀환 교통을 함께 확인하세요."
+      "야간 동물원·인기 체험은 지정 시간과 도심 귀환 교통을 함께 확인하세요.",
+      "SG Arrival Card와 전자 건강신고는 ICA 공식 서비스에서 무료로 제출합니다. 도착일을 포함한 3일 이내에 제출하며, 예를 들어 30일 도착이면 28일부터입니다. 입국심사 없이 환승하는 경우 등 예외는 ICA의 적용 대상을 확인하세요. SGAC는 비자가 아니며 유료 대행사가 ICA와 제휴했다고 생각하지 마세요.",
+      "SGAC 제출 후 건강 상태가 바뀌면 Update SGAC로 갱신합니다. 제출 확인 이메일을 보관하고 실제 입국 때 여권 등 여행서류를 준비하세요. 비자·입국 자격은 별도 요건이며 제출 자체가 입국 승인은 아닙니다."
     ],
     "pitfalls": [
       "지도가 작아 보여도 더위·소나기 때문에 야외 보행량을 줄일 필요가 있습니다.",
@@ -1004,9 +1017,21 @@
         "url": "https://www.visitsingapore.com/travel-tips/essential-travel-information/",
         "checkedAt": "2026-10-15",
         "status": "partial"
+      },
+      {
+        "title": "SG Arrival Card with Electronic Health Declaration\r | Immigration & Checkpoints Authority",
+        "url": "https://www.ica.gov.sg/information-and-e-services/entry-and-departure/entering-singapore/sg-arrival-card-with-electronic-health-declaration",
+        "checkedAt": "2026-10-31",
+        "status": "read"
+      },
+      {
+        "title": "Leaving Changi Airport: Transport Options",
+        "url": "https://www.changiairport.com/en/at-changi/transport-and-directions/leaving-the-airport.html",
+        "checkedAt": "2026-10-31",
+        "status": "read"
       }
     ],
-    "researchNote": "기존 내장 장소를 바탕으로 작성한 계획 제안입니다. 관광청 최신 교통·운영 조건은 본문 접근 제한으로 재확인하지 못했습니다. 장소 목록은 2016년 보관본 기반이며 현재 운영은 별도 확인해야 합니다."
+    "researchNote": "기존 내장 장소를 바탕으로 작성한 계획 제안입니다. 관광청 최신 교통·운영 조건은 본문 접근 제한으로 재확인하지 못했습니다. 장소 목록은 2016년 보관본 기반이며 현재 운영은 별도 확인해야 합니다. 2026-10-31에는 입국·신고 또는 교통·개관 안내의 관련 공식 본문을 읽어 일부 항목을 보강했습니다. 게시일과 수정일·실제 확인일은 구분하며 전체 장소·좌표·예약 조건 검토가 완료된 것은 아닙니다."
   },
   "plans": {
     "cityId": "singapore",
