@@ -1474,6 +1474,13 @@
     "latestMainBeforePublish": "e7de6ebd360b49665bb25ae729d5b0f9bb55e873"
   },
   "publication": {
-    "state": "pending"
+    "state": "published-and-verified",
+    "commit": "5f41a9bd97a639bce05a8dd53b60b02a6f6583c0",
+    "verifiedAt": "2026-11-02T01:34:54.477819+00:00",
+    "publicFiles": 72,
+    "matchingFiles": 72,
+    "evidencePath": "research/guidebooks/runs/20261031T1758-public-verification.json",
+    "guidebookWorkflow": "https://github.com/rjs198426-lang/JIdo/actions/runs/41373185526",
+    "guidebookWorkflowResult": "success"
   }
 }
