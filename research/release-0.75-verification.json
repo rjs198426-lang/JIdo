@@ -1,0 +1,42 @@
+{
+  "version": "0.75",
+  "versionCode": 76,
+  "package": "com.jido.travel.next",
+  "bytes": 41230933,
+  "sha256": "edffbeb29c4af0f78db16e3b147fce0d4f789d44cb591ddcce2b6567c1cbe198",
+  "certificateSha256": "0d1b1f20dae73d00626d9ebb4f460943c4f16c2266bc7bc58d124d13b32494ac",
+  "signatureVerified": true,
+  "matchedWebAssets": 235,
+  "privateSigningFilesFound": false,
+  "existingMapsConfigurationBundled": true,
+  "nativeDeviceInstallTested": false,
+  "checkedAt": "2026-11-04T09:57:42.095001+00:00",
+  "sourceCommit": "5c01e8daba2090e8d8b7cdd45bc740d15ba77674",
+  "publicCommit": "13fa445615e20e71329c0cdfbaf3201d659268ee",
+  "publicDownloads": [
+    {
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/13fa445615e20e71329c0cdfbaf3201d659268ee/JDo-android-0.75.apk",
+      "httpStatus": 200,
+      "bytes": 41230933,
+      "sha256": "edffbeb29c4af0f78db16e3b147fce0d4f789d44cb591ddcce2b6567c1cbe198",
+      "matchesBuild": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/android-apk-downloads/JDo-android.apk",
+      "httpStatus": 200,
+      "bytes": 41230933,
+      "sha256": "edffbeb29c4af0f78db16e3b147fce0d4f789d44cb591ddcce2b6567c1cbe198",
+      "matchesBuild": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/android-apk-downloads/jido-release.apk",
+      "httpStatus": 200,
+      "bytes": 41230933,
+      "sha256": "edffbeb29c4af0f78db16e3b147fce0d4f789d44cb591ddcce2b6567c1cbe198",
+      "matchesBuild": true
+    }
+  ],
+  "anonymousDownload": true,
+  "downloadedSignatureVerified": true,
+  "regressionTestsPassed": 78
+}
