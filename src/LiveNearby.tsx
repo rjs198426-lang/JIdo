@@ -1,5 +1,5 @@
 import { LocateFixed, ArrowUpRight } from 'lucide-react'
-import { places } from './catalog'
+import { discoveryPlaces } from './catalog'
 import type { Stop } from './travel-model'
 import { stopDetails } from './travel-model'
 import { routePoints } from './route-map-model'
@@ -25,7 +25,9 @@ export default function LiveNearby({
     position && target
       ? destinationProgress(position, location.previous, target, location.now)
       : undefined
-  const nearby = position ? nearbyDining(places, position, location.now) : []
+  const nearby = position
+    ? nearbyDining(discoveryPlaces(), position, location.now)
+    : []
   return (
     <section className="live-nearby" aria-label="현재 위치와 주변 장소">
       <div className="detail-section-heading">

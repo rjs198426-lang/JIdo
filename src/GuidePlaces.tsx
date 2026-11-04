@@ -1,4 +1,4 @@
-import { balancedPlaces } from './category-balance'
+import PlaceDiscoveryOrder from './PlaceDiscoveryOrder'
 import PlacePhoto from './PlacePhoto'
 import { useDraftFields } from './form-draft'
 import {
@@ -12,7 +12,7 @@ import {
   ShoppingBag,
   Sparkles,
 } from 'lucide-react'
-import { places, categoryOptions, type Place } from './catalog'
+import { places, discoveryPlaces, categoryOptions, type Place } from './catalog'
 import { placeIntroduction } from './place-introduction'
 const icons = {
   관광: MapPin,
@@ -43,7 +43,7 @@ export default function GuidePlaces({
   )
   const [category, setCategory] = view.field('category')
   const [query, setQuery] = view.field('query')
-  const all = balancedPlaces(places.filter((place) => place.cityId === cityId))
+  const all = discoveryPlaces(places.filter((place) => place.cityId === cityId))
   const filtered = all.filter(
     (place) =>
       (category === '전체' || place.category === category) &&
@@ -61,6 +61,7 @@ export default function GuidePlaces({
             : `${filtered.length}/${all.length}곳`}
         </span>
       </div>
+      <PlaceDiscoveryOrder />
       <div
         className="category-row guide-place-categories"
         role="group"

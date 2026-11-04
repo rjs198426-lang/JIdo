@@ -42,7 +42,8 @@ import { homeJourney } from './home-journey'
 import AppInformation from './AppInformation'
 import BlogPhotos from './BlogPhotos'
 import { meaningfulCost } from './place-introduction'
-import { balancedPlaces } from './category-balance'
+import { discoveryPlaces } from './catalog'
+import PlaceDiscoveryOrder from './PlaceDiscoveryOrder'
 import CompanionCount from './CompanionCount'
 import DayTransfers from './DayTransfers'
 import { useGoogleRoutes } from './google-routes'
@@ -517,7 +518,9 @@ function CreateTrip({
       : placeId
         ? [getPlace(placeId)!]
         : recommended
-          ? places.filter((place) => place.cityId === destination).slice(0, 3)
+          ? discoveryPlaces(
+              places.filter((place) => place.cityId === destination),
+            ).slice(0, 3)
           : []
     initialPlaces.forEach((place) =>
       days[0].push({
@@ -2464,7 +2467,8 @@ export default function App() {
       matchesRegisteredPlace(entry, query)
     )
   })
-  const filteredPlaces = places.filter((place) => {
+  const discoverablePlaces = discoveryPlaces()
+  const filteredPlaces = discoverablePlaces.filter((place) => {
     const city = getCity(place.cityId)!
     return (
       (region === '전체' || city.region === region) &&
@@ -2489,7 +2493,7 @@ export default function App() {
   }, [exploreFilters])
   const [homeNow, setHomeNow] = useState(() => new Date())
   useEffect(() => {
-    if (page !== 'home') return
+    // Also reevaluate the rolling mention window when returning to discovery.
     const refresh = () => {
       if (!document.hidden) setHomeNow(new Date())
     }
@@ -2502,7 +2506,7 @@ export default function App() {
       window.removeEventListener('focus', refresh)
       document.removeEventListener('visibilitychange', refresh)
     }
-  }, [page])
+  }, [])
   const home = homeJourney(store.trips, activeTripId, homeNow)
   const activeTrip =
     store.trips.find((trip) => trip.id === activeTripId) || store.trips[0]
@@ -2657,14 +2661,7 @@ export default function App() {
             places={placeCards(
               home?.personalized
                 ? home.recommendations
-                : [
-                    'tokyo-shibuya',
-                    'osaka-dotonbori',
-                    'kiyomizu',
-                    'sapporo-odori',
-                  ]
-                    .map(getPlace)
-                    .filter((place): place is Place => !!place),
+                : discoverablePlaces.slice(0, 4),
             )}
             placesTitle={
               home?.personalized
@@ -2862,8 +2859,9 @@ export default function App() {
                       <option key={city.id} value={city.id}>
                         {city.name} ·{' '}
                         {
-                          places.filter((place) => place.cityId === city.id)
-                            .length
+                          discoverablePlaces.filter(
+                            (place) => place.cityId === city.id,
+                          ).length
                         }
                         곳
                       </option>
@@ -2890,6 +2888,7 @@ export default function App() {
                 : filteredPlaces.length + filteredRegistered.length}
               개의 {exploreTab === 'cities' ? '여행지' : '장소'}
             </p>
+            {exploreTab === 'places' && <PlaceDiscoveryOrder />}
             {exploreTab === 'places' && (
               <>
                 <PlaceSearchResults
@@ -2988,12 +2987,7 @@ export default function App() {
               )
             ) : filteredPlaces.length ? (
               <>
-                {placeCards(
-                  (category === '전체'
-                    ? balancedPlaces(filteredPlaces)
-                    : filteredPlaces
-                  ).slice(0, placeLimit),
-                )}
+                {placeCards(filteredPlaces.slice(0, placeLimit))}
                 {filteredPlaces.length > placeLimit && (
                   <button
                     className="button outline full places-load-more"

@@ -27,7 +27,8 @@
     "guidebooks:check": "node --experimental-strip-types scripts/build-guidebooks.mjs --check",
     "guides:db:build": "node --experimental-strip-types scripts/build-guide-database.mjs",
     "guides:db:check": "node --experimental-strip-types scripts/build-guide-database.mjs --check",
-    "guides:plan": "node scripts/plan-guide-research.mjs"
+    "guides:plan": "node scripts/plan-guide-research.mjs",
+    "places:check": "node --experimental-strip-types scripts/check-place-discovery.mjs"
   },
   "engines": {
     "node": ">=24"

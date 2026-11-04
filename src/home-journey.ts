@@ -1,5 +1,4 @@
-import { getCity, places, type City } from './catalog'
-import { balancedPlaces } from './category-balance'
+import { getCity, places, discoveryPlaces, type City } from './catalog'
 import { tripClock } from './destination-time'
 import { journeyPreference } from './journey-personal'
 import { dateAt, dayCount } from './store'
@@ -96,16 +95,19 @@ export function homeJourney(
     trip.days.flat().map((stop) => stop.custom?.catalogPlaceId || stop.placeId),
   )
   const recommendations = city
-    ? balancedPlaces(
+    ? discoveryPlaces(
         places.filter(
           (place) => place.cityId === city.id && !planned.has(place.id),
         ),
+        now,
       ).slice(0, 4)
     : []
   return {
     ...selected,
     day,
-    scheduleDay: selected.currentDay ?? (selected.phase === 'upcoming' ? 0 : trip.days.length - 1),
+    scheduleDay:
+      selected.currentDay ??
+      (selected.phase === 'upcoming' ? 0 : trip.days.length - 1),
     destination,
     city,
     heroCity,

@@ -2,6 +2,7 @@ import { osmPlaceKind, googlePlaceKind } from '../src/place-categories'
 import { test, expect } from '@playwright/test'
 import { cities, places, categoryOptions } from '../src/data'
 import { balancedPlaces, currentPlaceCategory } from '../src/category-balance'
+import { placeDiscovery } from '../src/place-mention-ranking'
 import { placeCategories } from '../src/place-categories'
 import { placeSchema, guideSchema } from '../src/guide-schema'
 import { tripSchema, customPlaceSchema } from '../src/travel-model'
@@ -143,7 +144,7 @@ test('쇼핑·체험·바 분류는 직접 등록과 휴대용 여행 백업에�
     ).toBe(true)
 })
 
-test('오프라인 가이드의 첫 7곳에 모든 분류가 보이고 쇼핑·체험 필터와 출처가 정확히 연결', async ({
+test('오프라인 가이드는 최근 언급순이며 쇼핑·체험 필터와 출처가 정확히 연결', async ({
   page,
   context,
 }) => {
@@ -154,8 +155,13 @@ test('오프라인 가이드의 첫 7곳에 모든 분류가 보이고 쇼핑·�
     .getByRole('button', { name: '교토 여행지 자세히 보기', exact: true })
     .first()
     .click()
+  await page
+    .getByRole('tablist', { name: '도시 가이드', exact: true })
+    .getByRole('tab', { name: '관광', exact: true })
+    .click()
   const section = page.getByRole('region', { name: '가이드 가볼 만한 곳' })
   const group = page.getByRole('group', { name: '가볼 만한 곳 분류' })
+  await group.getByRole('button', { name: '전체', exact: true }).click()
   expect(
     await group.evaluate((node) => node.scrollWidth <= node.clientWidth + 1),
   ).toBe(true)
@@ -173,12 +179,12 @@ test('오프라인 가이드의 첫 7곳에 모든 분류가 보이고 쇼핑·�
     ),
   ).toBe(true)
   const rows = section.locator('.detail-place-list > div')
-  const first = await rows
-    .locator('> button > span')
-    .evaluateAll((nodes) =>
-      nodes.slice(0, 7).map((n) => n.textContent!.split(' · ')[0]),
-    )
-  expect(first).toEqual(placeCategories)
+  await expect(rows.locator('> button > strong')).toHaveText(
+    placeDiscovery
+      .list(places.filter((p) => p.cityId === 'kyoto'))
+      .map((p) => p.name),
+  )
+  await expect(section).toContainText('최근 언급순')
   for (const category of ['쇼핑', '체험']) {
     await group.getByRole('button', { name: category, exact: true }).click()
     await expect(rows).toHaveCount(
@@ -230,6 +236,10 @@ test('이전 관광 분류 캐시에서도 새 추천과 쇼핑을 표시하고 
   await page
     .getByRole('button', { name: '교토 여행지 자세히 보기', exact: true })
     .first()
+    .click()
+  await page
+    .getByRole('tablist', { name: '도시 가이드', exact: true })
+    .getByRole('tab', { name: '관광', exact: true })
     .click()
   const group = page.getByRole('group', { name: '가볼 만한 곳 분류' })
   await group.getByRole('button', { name: '쇼핑', exact: true }).click()

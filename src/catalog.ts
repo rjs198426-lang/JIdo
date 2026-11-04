@@ -11,6 +11,7 @@ import {
 import { guideSchema, archivedGuideSchema, type Guide } from './guide-schema'
 import { fetchGuides } from './guide-api'
 import { currentPlaceName } from './place-names'
+import { placeDiscovery, placeIdentityKey } from './place-mention-ranking'
 import { withBlogNotes } from './blog-place-notes'
 import { retiredBlogImages } from './blog-recency'
 import {
@@ -198,6 +199,16 @@ subscribePublicContent(() => {
 })
 export const getCity = (id: string) => cityRegistry.get(id)
 export const getPlace = (id: string) => placeRegistry.get(id)
+// Discovery is a view. Keep the full registry for old itinerary references,
+// backups, detail links and the author's personal guide content.
+export function discoveryPlaces(candidates = places, today = new Date()) {
+  const personal = new Set(
+    snapshot.available.flatMap((guide) => guide.places.map(placeIdentityKey)),
+  )
+  return placeDiscovery.list(candidates, today, (place) =>
+    personal.has(placeIdentityKey(place)),
+  )
+}
 export const getGuide = (id: string) =>
   snapshot.available.find((guide) => guide.id === id) ||
   snapshot.retained.find((guide) => guide.id === id) ||

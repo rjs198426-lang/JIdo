@@ -2,11 +2,11 @@ import PlaceSearchResults, {
   PlaceSearchService,
   usePlaceSearch,
 } from './PlaceSearch'
-import { balancedPlaces } from './category-balance'
+import PlaceDiscoveryOrder from './PlaceDiscoveryOrder'
 import { useState } from 'react'
 import { Check, Plus, Search, MapPin } from 'lucide-react'
 import { placeIntroduction } from './place-introduction'
-import { places, categoryOptions, getCity } from './catalog'
+import { places, discoveryPlaces, categoryOptions, getCity } from './catalog'
 import {
   destinationForDay,
   stopName,
@@ -56,18 +56,20 @@ export default function PlacePicker({
   const [category, setCategory] = useState('전체')
   const [query, setQuery] = useState('')
   const destination = destinationForDay(trip, day)
-  const known = places.filter(
-    (place) =>
-      place.cityId === destination.guideCityId &&
-      (matchesPlace(place, getCity(place.cityId)!, query) ||
-        matchesSearch(query, place.name, place.english, place.address)),
+  const known = discoveryPlaces(
+    places.filter(
+      (place) =>
+        place.cityId === destination.guideCityId &&
+        (matchesPlace(place, getCity(place.cityId)!, query) ||
+          matchesSearch(query, place.name, place.english, place.address)),
+    ),
   )
   const saved = registeredPlaces(trips, destination).filter((place) =>
     matchesRegisteredPlace(place, query),
   )
-  const available = (
-    category === '전체' ? balancedPlaces(known) : known
-  ).filter((place) => category === '전체' || place.category === category)
+  const available = known.filter(
+    (place) => category === '전체' || place.category === category,
+  )
   const reused = saved.filter(
     (place) => category === '전체' || place.custom.kind === category,
   )
@@ -119,6 +121,7 @@ export default function PlacePicker({
           </button>
         ))}
       </div>
+      <PlaceDiscoveryOrder />
       <div className="picker-list" aria-label="등록된 가볼 곳">
         {reused.map((entry) => {
           const added = trip.days[day].some(

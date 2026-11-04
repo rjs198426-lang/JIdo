@@ -1,0 +1,816 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-11-04",
+  "request": "최근 3년 한국어 블로그·여행 후기 수 및 검색 노출 순서, 미조사는 뒤에 보류",
+  "scope": "기존 공공 후기 ledger 대조와 괌 공개 검색 표본. 1,385곳 인터넷 전수 조사 아님",
+  "coverage": {
+    "asOf": "2026-11-04",
+    "guideCount": 80,
+    "placeCount": 1385,
+    "articleCount": 39,
+    "recent": 53,
+    "expired": 0,
+    "unverified": 1332,
+    "measuredExposure": 2,
+    "cities": [
+      {
+        "id": "bali",
+        "name": "발리",
+        "total": 62,
+        "recent": 0,
+        "expired": 0,
+        "unverified": 62,
+        "measuredExposure": 0
+      },
+      {
+        "id": "bangkok",
+        "name": "방콕",
+        "total": 66,
+        "recent": 0,
+        "expired": 0,
+        "unverified": 66,
+        "measuredExposure": 0
+      },
+      {
+        "id": "book-asahikawa",
+        "name": "아사히카와",
+        "total": 5,
+        "recent": 0,
+        "expired": 0,
+        "unverified": 5,
+        "measuredExposure": 0
+      },
+      {
+        "id": "book-barcelona",
+        "name": "바르셀로나",
+        "total": 6,
+        "recent": 0,
+        "expired": 0,
+        "unverified": 6,
+        "measuredExposure": 0
+      },
+      {
+        "id": "book-beijing",
+        "name": "베이징",
+        "total": 6,
+        "recent": 0,
+        "expired": 0,
+        "unverified": 6,
+        "measuredExposure": 0
+      },
+      {
+        "id": "book-beppu",
+        "name": "벳푸",
+        "total": 5,
+        "recent": 0,
+        "expired": 0,
+        "unverified": 5,
+        "measuredExposure": 0
+      },
+      {
+        "id": "book-bohol",
+        "name": "보홀·팡라오",
+        "total": 6,
+        "recent": 0,
+        "expired": 0,
+        "unverified": 6,
+        "measuredExposure": 0
+      },
+      {
+        "id": "book-budapest",
+        "name": "부다페스트",
+        "total": 5,
+        "recent": 0,
+        "expired": 0,
+        "unverified": 5,
+        "measuredExposure": 0
+      },
+      {
+        "id": "book-cebu",
+        "name": "세부·막탄",
+        "total": 6,
+        "recent": 0,
+        "expired": 0,
+        "unverified": 6,
+        "measuredExposure": 0
+      },
+      {
+        "id": "book-chiangmai",
+        "name": "치앙마이",
+        "total": 6,
+        "recent": 0,
+        "expired": 0,
+        "unverified": 6,
+        "measuredExposure": 0
+      },
+      {
+        "id": "book-chiangrai",
+        "name": "치앙라이",
+        "total": 5,
+        "recent": 0,
+        "expired": 0,
+        "unverified": 5,
+        "measuredExposure": 0
+      },
+      {
+        "id": "book-dalat",
+        "name": "달랏",
+        "total": 5,
+        "recent": 0,
+        "expired": 0,
+        "unverified": 5,
+        "measuredExposure": 0
+      },
+      {
+        "id": "book-florence",
+        "name": "피렌체",
+        "total": 5,
+        "recent": 0,
+        "expired": 0,
+        "unverified": 5,
+        "measuredExposure": 0
+      },
+      {
+        "id": "book-hakodate",
+        "name": "하코다테",
+        "total": 5,
+        "recent": 0,
+        "expired": 0,
+        "unverified": 5,
+        "measuredExposure": 0
+      },
+      {
+        "id": "book-halong",
+        "name": "하롱",
+        "total": 5,
+        "recent": 0,
+        "expired": 0,
+        "unverified": 5,
+        "measuredExposure": 0
+      },
+      {
+        "id": "book-hanoi",
+        "name": "하노이",
+        "total": 6,
+        "recent": 0,
+        "expired": 0,
+        "unverified": 6,
+        "measuredExposure": 0
+      },
+      {
+        "id": "book-hochiminh",
+        "name": "호찌민",
+        "total": 6,
+        "recent": 0,
+        "expired": 0,
+        "unverified": 6,
+        "measuredExposure": 0
+      },
+      {
+        "id": "book-honolulu",
+        "name": "호놀룰루·오아후",
+        "total": 6,
+        "recent": 0,
+        "expired": 0,
+        "unverified": 6,
+        "measuredExposure": 0
+      },
+      {
+        "id": "book-huahin",
+        "name": "후아힌",
+        "total": 5,
+        "recent": 0,
+        "expired": 0,
+        "unverified": 5,
+        "measuredExposure": 0
+      },
+      {
+        "id": "book-hue",
+        "name": "후에",
+        "total": 5,
+        "recent": 0,
+        "expired": 0,
+        "unverified": 5,
+        "measuredExposure": 0
+      },
+      {
+        "id": "book-ishigaki",
+        "name": "이시가키",
+        "total": 5,
+        "recent": 0,
+        "expired": 0,
+        "unverified": 5,
+        "measuredExposure": 0
+      },
+      {
+        "id": "book-johorbahru",
+        "name": "조호르바루",
+        "total": 5,
+        "recent": 0,
+        "expired": 0,
+        "unverified": 5,
+        "measuredExposure": 0
+      },
+      {
+        "id": "book-kagoshima",
+        "name": "가고시마",
+        "total": 5,
+        "recent": 0,
+        "expired": 0,
+        "unverified": 5,
+        "measuredExposure": 0
+      },
+      {
+        "id": "book-kanazawa",
+        "name": "가나자와",
+        "total": 5,
+        "recent": 0,
+        "expired": 0,
+        "unverified": 5,
+        "measuredExposure": 0
+      },
+      {
+        "id": "book-kaohsiung",
+        "name": "가오슝",
+        "total": 6,
+        "recent": 0,
+        "expired": 0,
+        "unverified": 6,
+        "measuredExposure": 0
+      },
+      {
+        "id": "book-kohsamui",
+        "name": "코사무이",
+        "total": 5,
+        "recent": 0,
+        "expired": 0,
+        "unverified": 5,
+        "measuredExposure": 0
+      },
+      {
+        "id": "book-kotakinabalu",
+        "name": "코타키나발루",
+        "total": 6,
+        "recent": 0,
+        "expired": 0,
+        "unverified": 6,
+        "measuredExposure": 0
+      },
+      {
+        "id": "book-krabi",
+        "name": "끄라비",
+        "total": 5,
+        "recent": 0,
+        "expired": 0,
+        "unverified": 5,
+        "measuredExposure": 0
+      },
+      {
+        "id": "book-kualalumpur",
+        "name": "쿠알라룸푸르",
+        "total": 6,
+        "recent": 0,
+        "expired": 0,
+        "unverified": 6,
+        "measuredExposure": 0
+      },
+      {
+        "id": "book-kumamoto",
+        "name": "구마모토",
+        "total": 5,
+        "recent": 0,
+        "expired": 0,
+        "unverified": 5,
+        "measuredExposure": 0
+      },
+      {
+        "id": "book-langkawi",
+        "name": "랑카위",
+        "total": 5,
+        "recent": 0,
+        "expired": 0,
+        "unverified": 5,
+        "measuredExposure": 0
+      },
+      {
+        "id": "book-lisbon",
+        "name": "리스본",
+        "total": 5,
+        "recent": 0,
+        "expired": 0,
+        "unverified": 5,
+        "measuredExposure": 0
+      },
+      {
+        "id": "book-london",
+        "name": "런던",
+        "total": 6,
+        "recent": 0,
+        "expired": 0,
+        "unverified": 6,
+        "measuredExposure": 0
+      },
+      {
+        "id": "book-losangeles",
+        "name": "로스앤젤레스",
+        "total": 6,
+        "recent": 0,
+        "expired": 0,
+        "unverified": 6,
+        "measuredExposure": 0
+      },
+      {
+        "id": "book-macau",
+        "name": "마카오",
+        "total": 5,
+        "recent": 0,
+        "expired": 0,
+        "unverified": 5,
+        "measuredExposure": 0
+      },
+      {
+        "id": "book-manila",
+        "name": "마닐라",
+        "total": 5,
+        "recent": 0,
+        "expired": 0,
+        "unverified": 5,
+        "measuredExposure": 0
+      },
+      {
+        "id": "book-matsuyama",
+        "name": "마쓰야마",
+        "total": 5,
+        "recent": 0,
+        "expired": 0,
+        "unverified": 5,
+        "measuredExposure": 0
+      },
+      {
+        "id": "book-melaka",
+        "name": "믈라카",
+        "total": 5,
+        "recent": 0,
+        "expired": 0,
+        "unverified": 5,
+        "measuredExposure": 0
+      },
+      {
+        "id": "book-miyakojima",
+        "name": "미야코지마",
+        "total": 5,
+        "recent": 0,
+        "expired": 0,
+        "unverified": 5,
+        "measuredExposure": 0
+      },
+      {
+        "id": "book-nagasaki",
+        "name": "나가사키",
+        "total": 5,
+        "recent": 0,
+        "expired": 0,
+        "unverified": 5,
+        "measuredExposure": 0
+      },
+      {
+        "id": "book-newyork",
+        "name": "뉴욕",
+        "total": 6,
+        "recent": 0,
+        "expired": 0,
+        "unverified": 6,
+        "measuredExposure": 0
+      },
+      {
+        "id": "book-nhatrang",
+        "name": "나트랑",
+        "total": 6,
+        "recent": 0,
+        "expired": 0,
+        "unverified": 6,
+        "measuredExposure": 0
+      },
+      {
+        "id": "book-okayama",
+        "name": "오카야마",
+        "total": 5,
+        "recent": 0,
+        "expired": 0,
+        "unverified": 5,
+        "measuredExposure": 0
+      },
+      {
+        "id": "book-okinawa",
+        "name": "오키나와·나하",
+        "total": 6,
+        "recent": 0,
+        "expired": 0,
+        "unverified": 6,
+        "measuredExposure": 0
+      },
+      {
+        "id": "book-paris",
+        "name": "파리",
+        "total": 6,
+        "recent": 0,
+        "expired": 0,
+        "unverified": 6,
+        "measuredExposure": 0
+      },
+      {
+        "id": "book-pattaya",
+        "name": "파타야",
+        "total": 5,
+        "recent": 0,
+        "expired": 0,
+        "unverified": 5,
+        "measuredExposure": 0
+      },
+      {
+        "id": "book-penang",
+        "name": "페낭",
+        "total": 5,
+        "recent": 0,
+        "expired": 0,
+        "unverified": 5,
+        "measuredExposure": 0
+      },
+      {
+        "id": "book-phuket",
+        "name": "푸껫",
+        "total": 6,
+        "recent": 0,
+        "expired": 0,
+        "unverified": 6,
+        "measuredExposure": 0
+      },
+      {
+        "id": "book-phuquoc",
+        "name": "푸꾸옥",
+        "total": 6,
+        "recent": 0,
+        "expired": 0,
+        "unverified": 6,
+        "measuredExposure": 0
+      },
+      {
+        "id": "book-prague",
+        "name": "프라하",
+        "total": 6,
+        "recent": 0,
+        "expired": 0,
+        "unverified": 6,
+        "measuredExposure": 0
+      },
+      {
+        "id": "book-puertoprincesa",
+        "name": "푸에르토프린세사",
+        "total": 5,
+        "recent": 0,
+        "expired": 0,
+        "unverified": 5,
+        "measuredExposure": 0
+      },
+      {
+        "id": "book-rome",
+        "name": "로마",
+        "total": 6,
+        "recent": 0,
+        "expired": 0,
+        "unverified": 6,
+        "measuredExposure": 0
+      },
+      {
+        "id": "book-shanghai",
+        "name": "상하이",
+        "total": 6,
+        "recent": 0,
+        "expired": 0,
+        "unverified": 6,
+        "measuredExposure": 0
+      },
+      {
+        "id": "book-sydney",
+        "name": "시드니",
+        "total": 6,
+        "recent": 0,
+        "expired": 0,
+        "unverified": 6,
+        "measuredExposure": 0
+      },
+      {
+        "id": "book-taichung",
+        "name": "타이중",
+        "total": 5,
+        "recent": 0,
+        "expired": 0,
+        "unverified": 5,
+        "measuredExposure": 0
+      },
+      {
+        "id": "book-tainan",
+        "name": "타이난",
+        "total": 6,
+        "recent": 0,
+        "expired": 0,
+        "unverified": 6,
+        "measuredExposure": 0
+      },
+      {
+        "id": "book-takamatsu",
+        "name": "다카마쓰",
+        "total": 5,
+        "recent": 0,
+        "expired": 0,
+        "unverified": 5,
+        "measuredExposure": 0
+      },
+      {
+        "id": "book-tottori",
+        "name": "돗토리",
+        "total": 5,
+        "recent": 0,
+        "expired": 0,
+        "unverified": 5,
+        "measuredExposure": 0
+      },
+      {
+        "id": "book-venice",
+        "name": "베네치아",
+        "total": 5,
+        "recent": 0,
+        "expired": 0,
+        "unverified": 5,
+        "measuredExposure": 0
+      },
+      {
+        "id": "book-vienna",
+        "name": "빈",
+        "total": 5,
+        "recent": 0,
+        "expired": 0,
+        "unverified": 5,
+        "measuredExposure": 0
+      },
+      {
+        "id": "book-yufuin",
+        "name": "유후인",
+        "total": 5,
+        "recent": 0,
+        "expired": 0,
+        "unverified": 5,
+        "measuredExposure": 0
+      },
+      {
+        "id": "danang",
+        "name": "다낭·호이안",
+        "total": 30,
+        "recent": 0,
+        "expired": 0,
+        "unverified": 30,
+        "measuredExposure": 0
+      },
+      {
+        "id": "dubai",
+        "name": "두바이",
+        "total": 60,
+        "recent": 3,
+        "expired": 0,
+        "unverified": 57,
+        "measuredExposure": 0
+      },
+      {
+        "id": "fukuoka",
+        "name": "후쿠오카",
+        "total": 56,
+        "recent": 0,
+        "expired": 0,
+        "unverified": 56,
+        "measuredExposure": 0
+      },
+      {
+        "id": "guam",
+        "name": "괌",
+        "total": 29,
+        "recent": 24,
+        "expired": 0,
+        "unverified": 5,
+        "measuredExposure": 2
+      },
+      {
+        "id": "hiroshima",
+        "name": "히로시마",
+        "total": 57,
+        "recent": 2,
+        "expired": 0,
+        "unverified": 55,
+        "measuredExposure": 0
+      },
+      {
+        "id": "hongkong",
+        "name": "홍콩",
+        "total": 30,
+        "recent": 1,
+        "expired": 0,
+        "unverified": 29,
+        "measuredExposure": 0
+      },
+      {
+        "id": "kobe",
+        "name": "고베",
+        "total": 54,
+        "recent": 1,
+        "expired": 0,
+        "unverified": 53,
+        "measuredExposure": 0
+      },
+      {
+        "id": "kyoto",
+        "name": "교토",
+        "total": 67,
+        "recent": 3,
+        "expired": 0,
+        "unverified": 64,
+        "measuredExposure": 0
+      },
+      {
+        "id": "maldives",
+        "name": "몰디브",
+        "total": 54,
+        "recent": 0,
+        "expired": 0,
+        "unverified": 54,
+        "measuredExposure": 0
+      },
+      {
+        "id": "nagoya",
+        "name": "나고야",
+        "total": 53,
+        "recent": 0,
+        "expired": 0,
+        "unverified": 53,
+        "measuredExposure": 0
+      },
+      {
+        "id": "osaka",
+        "name": "오사카",
+        "total": 54,
+        "recent": 2,
+        "expired": 0,
+        "unverified": 52,
+        "measuredExposure": 0
+      },
+      {
+        "id": "saipan",
+        "name": "사이판",
+        "total": 29,
+        "recent": 0,
+        "expired": 0,
+        "unverified": 29,
+        "measuredExposure": 0
+      },
+      {
+        "id": "santorini",
+        "name": "산토리니",
+        "total": 59,
+        "recent": 2,
+        "expired": 0,
+        "unverified": 57,
+        "measuredExposure": 0
+      },
+      {
+        "id": "sapporo",
+        "name": "삿포로",
+        "total": 54,
+        "recent": 7,
+        "expired": 0,
+        "unverified": 47,
+        "measuredExposure": 0
+      },
+      {
+        "id": "sendai",
+        "name": "센다이",
+        "total": 60,
+        "recent": 1,
+        "expired": 0,
+        "unverified": 59,
+        "measuredExposure": 0
+      },
+      {
+        "id": "singapore",
+        "name": "싱가포르",
+        "total": 31,
+        "recent": 1,
+        "expired": 0,
+        "unverified": 30,
+        "measuredExposure": 0
+      },
+      {
+        "id": "taipei",
+        "name": "타이베이",
+        "total": 30,
+        "recent": 0,
+        "expired": 0,
+        "unverified": 30,
+        "measuredExposure": 0
+      },
+      {
+        "id": "tokyo",
+        "name": "도쿄",
+        "total": 70,
+        "recent": 2,
+        "expired": 0,
+        "unverified": 68,
+        "measuredExposure": 0
+      },
+      {
+        "id": "yokohama",
+        "name": "요코하마",
+        "total": 61,
+        "recent": 4,
+        "expired": 0,
+        "unverified": 57,
+        "measuredExposure": 0
+      }
+    ]
+  },
+  "readSources": [
+    {
+      "url": "https://theqoo.net/travel/3666614058",
+      "publishedAt": "2025-03-26",
+      "checkedAt": "2026-11-04",
+      "decision": "accepted",
+      "placeIds": [
+        "guam-tumon-beach",
+        "guam-ritidian-beach"
+      ],
+      "evidence": "글의 게시 시각과 방문 서술을 읽고 투몬·리티디안 해변의 스노클링 경험을 확인. 다른 시설·브랜드는 지점이나 체험 유형이 명확하지 않아 연결하지 않음. 당시 개인 경험을 현재 입수 안전 근거로 사용하지 않음. 본문에 협찬·제공 문구는 발견하지 못했으나 비협찬 보증은 아님. 사진·원문 본문은 복제하지 않고 메타데이터와 외부 링크만 추가.",
+      "retrievedHtml": {
+        "httpStatus": 200,
+        "bytes": 37762,
+        "sha256": "31f4e6b8263da4d4aa1d4da0588ddeb9d285349414b1a7beee8697131e815f46",
+        "fetchedAt": "2026-11-04T13:00:04.628Z"
+      },
+      "readVia": "공개 웹 읽기 도구의 본문 및 별도 GET 원문의 날짜·투몬·리티디안 서술 대조"
+    },
+    {
+      "url": "https://xparrow.tistory.com/169",
+      "publishedAt": "2026-03-29",
+      "checkedAt": "2026-11-04",
+      "decision": "held",
+      "reason": "글은 1352 Pale San Vitores Rd의 도스버거를 서술하지만 현재 공공 장소 원본은 1155를 기록. 이번 작업에서 지점·주소 오류를 확정 해결하지 못해 신규 언급·사진을 연결하지 않음."
+    },
+    {
+      "url": "https://kth900708.tistory.com/603",
+      "publishedAt": "2024-07-10",
+      "checkedAt": "2026-11-04",
+      "decision": "held",
+      "reason": "원문의 Lower Tumon 주소1352와 앱 기존 주소1155가 다름. 다른 식당 언급은 앱의 해당 지점 ID가 확인되지 않아 집계하지 않음."
+    }
+  ],
+  "searchSample": {
+    "provider": "공개 웹 검색 도구(기반 검색엔진 명칭은 확인하지 않음)",
+    "cityId": "guam",
+    "query": "괌 여행 가볼만한곳 맛집 후기",
+    "observedAt": "2026-11-04",
+    "requestedRecencyDays": 1096,
+    "returnedResultCount": 18,
+    "interpretation": "검색 도구가 반환한 한 질의 표본의 위치. 실제 웹 전체 언급량·네이버/Google 공식 순위·노출 횟수가 아님. 본문 게시일로 3년을 다시 검사함.",
+    "screenedResults": [
+      {
+        "rank": 1,
+        "url": "https://theqoo.net/travel/3666614058",
+        "decision": "accepted"
+      },
+      {
+        "rank": 5,
+        "url": "https://kth900708.tistory.com/603",
+        "decision": "held-address-mismatch"
+      },
+      {
+        "rank": 6,
+        "url": "https://theqoo.net/travel/3666614058?listStyle=viewer",
+        "decision": "duplicate-of-rank-1"
+      }
+    ],
+    "remainingResults": "판매 페이지·날짜 미확인·다른 시설·주제 불일치 또는 추가 본문 검토 전인 결과는 런타임 순위 근거에 넣지 않음.",
+    "globalAbsenceProven": false
+  },
+  "technicalSources": [
+    {
+      "url": "https://developers.naver.com/docs/serviceapi/search/blog/blog.md",
+      "checkedAt": "2026-11-04",
+      "decision": "read",
+      "note": "total은 총 검색 결과 수이며 start 최대1000, 게시일은 개별 postdate. 이번에 API 호출·키 설정을 하지 않음."
+    },
+    {
+      "url": "https://developers.google.com/maps/documentation/places/web-service/place-details",
+      "checkedAt": "2026-11-04",
+      "decision": "read",
+      "note": "사용자가 한국어 블로그·검색 표본을 선택해 Google 리뷰 수·평점은 집계하지 않음."
+    }
+  ],
+  "excludedPlaceIds": [],
+  "preservation": "공공 가이드·장소 원본·ID·중앙 DB·사진 출처·전체 검토일은 변경하지 않음. 개인 자료를 읽거나 전송하지 않음."
+}

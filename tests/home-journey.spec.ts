@@ -312,6 +312,7 @@ test('새 여행을 만들거나 출발일을 바꾸면 재실행 없이 가장 
 }) => {
   await seed(page, [past])
   await nav(page, '내 여행')
+  await page.locator('.trip-library-more > summary').click()
   await page.getByRole('button', { name: '새 여행', exact: true }).click()
   let dialog = page.getByRole('dialog')
   await dialog.getByLabel('어디로 떠나세요?').selectOption('bangkok')
