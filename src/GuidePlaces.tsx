@@ -28,8 +28,10 @@ export default function GuidePlaces({
   onOpen,
   onAdd,
   initialCategory = '전체',
+  emptyMessage,
 }: {
   cityId: string
+  emptyMessage?: string
   initialCategory?: (typeof categoryOptions)[number]
   onOpen: (id: string) => void
   onAdd?: (id: string) => void
@@ -127,7 +129,13 @@ export default function GuidePlaces({
         })}
       </div>
       {!filtered.length && (
-        <p className="guide-places-empty">등록된 장소가 없어요.</p>
+        <p className="guide-places-empty">
+          {emptyMessage &&
+          !all.some((place) => place.category === initialCategory) &&
+          category === initialCategory
+            ? emptyMessage
+            : '등록된 장소가 없어요.'}
+        </p>
       )}
     </section>
   )

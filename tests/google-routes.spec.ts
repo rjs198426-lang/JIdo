@@ -3,6 +3,7 @@ import { placeSignature } from '../src/transfer-planning'
 import { googleMapsFixture } from './google-maps-fixture'
 import { openTrips, openWorkspace, openScheduleEditor } from './navigation'
 async function seed(page: Page, missing = false, fixture = true) {
+  await page.clock.setFixedTime(new Date('2026-10-31T00:00:00Z'))
   if (fixture) await googleMapsFixture(page)
   else await page.route('https://**', (route) => route.abort())
   await page.goto('/')
@@ -159,12 +160,20 @@ test('기존 수동 시간은 보존하면서 선택한 수단의 자동 계산 
   await expect(minutes(page)).toHaveText('22분')
   await mode(page).selectOption('driving')
   await expect(minutes(page)).toHaveText('9분')
-  expect(await state(page)).toEqual(before)
+  const saved = await state(page)
+  expect(saved.days[0][1].routePreference).toEqual({
+    fromStopId: 'temple',
+    mode: 'driving',
+  })
+  delete saved.days[0][1].routePreference
+  expect(saved).toEqual(before)
   await page.reload()
   await openTrips(page)
   await openWorkspace(page, '이동시간')
-  await expect(minutes(page)).toHaveText('13분')
-  expect(await state(page)).toEqual(before)
+  await expect(minutes(page)).toHaveText('9분')
+  expect((await state(page)).days[0][1].transfer).toEqual(
+    before.days[0][1].transfer,
+  )
 })
 
 test('늦은 이전 이동수단 응답은 현재 선택을 덮어쓰지 않음', async ({

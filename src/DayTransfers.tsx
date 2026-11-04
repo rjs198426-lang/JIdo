@@ -9,6 +9,7 @@ import {
 function routeStatus(configured: boolean, error?: string) {
   if (!configured) return '연결 필요'
   if (!error) return '계산 중…'
+  if (error.includes('날짜')) return '날짜 확인'
   if (error.includes('위치')) return '위치 필요'
   if (error.includes('인터넷')) return '연결 필요'
   if (error.includes('경로')) return '경로 없음'
@@ -75,6 +76,12 @@ export default function DayTransfers({
               <output
                 className={`transfer-duration ${value ? '' : 'transfer-status'}`}
                 aria-label={`${name} 이동시간`}
+                title={
+                  state?.error ||
+                  (value?.departureAt
+                    ? `출발 기준 ${value.departureAt}`
+                    : '현재 기준')
+                }
                 aria-live="polite"
                 aria-busy={
                   state?.pending ||
@@ -86,6 +93,7 @@ export default function DayTransfers({
                   : routeStatus(routing.configured, state?.error)}
               </output>
             </div>
+            {state?.error && <p role="status">{state.error}</p>}
             {state?.error && (
               <button className="button outline small" onClick={routing.retry}>
                 다시 계산

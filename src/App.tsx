@@ -4,6 +4,7 @@ import PlaceSearchResults, {
 } from './PlaceSearch'
 import TripLibrary from './TripLibrary'
 import GuidebookLibrary from './GuidebookLibrary'
+import GuidebookSearch from './GuidebookSearch'
 import { guidebookPlaceSnapshot } from './guidebook-trip'
 import { isManagedGuidebook } from './guidebook-store'
 import { createContext, useContext } from 'react'
@@ -928,6 +929,7 @@ function Itinerary({
     trip,
     day,
     workspace === 'route' || workspace === 'transfers',
+    onUpdate,
   )
   const planningView = useRef(
     (planningViews as readonly string[]).includes(workspace)
@@ -2764,6 +2766,7 @@ export default function App() {
                 </button>
               )}
             </form>
+            <GuidebookSearch query={query} onOpen={openCity} />
             <div className="page-tabs" role="tablist" aria-label="검색 유형">
               <button
                 role="tab"
@@ -3467,6 +3470,7 @@ export default function App() {
                   initialTab={dialog.guideTab}
                   onPlace={openPlace}
                   onAdd={(placeId) => setDialog({ type: 'add', placeId })}
+                  guide={storedGuide}
                   overviewOnly={isManagedGuidebook(storedGuide)}
                 >
                   <GuideContent

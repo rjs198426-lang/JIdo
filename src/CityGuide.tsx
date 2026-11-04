@@ -10,6 +10,7 @@ import {
 import type { City } from './catalog'
 import CityPhoto from './CityPhoto'
 import GuidePlaces from './GuidePlaces'
+import type { Guide } from './guide-schema'
 import { practicalGuideById } from './practical-guides'
 
 export type CityGuideTab = 'ready' | 'info' | 'tourism' | 'dining'
@@ -25,12 +26,14 @@ export default function CityGuide({
   onPlace,
   children,
   overviewOnly = false,
+  guide,
   onAdd,
 }: {
   city: City
   initialTab?: CityGuideTab
   onPlace: (id: string) => void
   children: ReactNode
+  guide?: Guide
   overviewOnly?: boolean
   onAdd?: (id: string) => void
 }) {
@@ -209,15 +212,44 @@ export default function CityGuide({
               )}
           </>
         )}
+        {tab === 'dining' &&
+          overviewOnly &&
+          guide?.sections
+            .filter((section) =>
+              /food|dining|cuisine|먹거리|맛집|음식|미식/i.test(
+                section.id + ' ' + section.title,
+              ),
+            )
+            .map((section) => (
+              <section className="guide-food-introduction" key={section.id}>
+                <h3>{section.title}</h3>
+                <p className="guidebook-section-body">{section.body}</p>
+              </section>
+            ))}
         {(tab === 'tourism' || tab === 'dining') && (
           <>
             <GuidePlaces
               key={`${city.id}-${tab}`}
               cityId={city.id}
+              emptyMessage={
+                tab === 'dining'
+                  ? '이 도시의 식당 목록은 준비 중이에요. 소개를 참고하거나 지도에서 찾아보세요.'
+                  : undefined
+              }
               initialCategory={tab === 'dining' ? '맛집' : '관광'}
               onOpen={onPlace}
               onAdd={onAdd}
             />
+            {tab === 'dining' && (
+              <a
+                className="text-button"
+                href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(city.name + ' restaurants')}`}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                지도에서 식당 찾기 ↗
+              </a>
+            )}
           </>
         )}
       </div>

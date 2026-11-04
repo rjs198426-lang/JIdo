@@ -82,6 +82,12 @@ export const stopSchema = z.object({
   photoId: z.string().uuid().optional(),
   status: z.enum(['planned', 'done', 'skipped']).optional(),
   durationMinutes: z.number().int().min(5).max(1440).optional(),
+  routePreference: z
+    .object({
+      fromStopId: id,
+      mode: z.enum(['walking', 'transit', 'driving']),
+    })
+    .optional(),
   transfer: z
     .object({
       fromStopId: id,
