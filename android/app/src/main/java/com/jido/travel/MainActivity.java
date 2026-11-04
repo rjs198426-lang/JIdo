@@ -17,8 +17,8 @@ public class MainActivity extends BridgeActivity {
 
     @Override protected void onNewIntent(Intent intent) {
         super.onNewIntent(intent);
-        // Reopening from the app icon shows Home. Returning from a file picker,
-        // attachment preview, sharing sheet or map preserves the current work.
+        // Reopening from the launcher preserves the current work. The event
+        // only flushes navigation preferences; it does not navigate or dismiss drafts.
         if (intent != null && Intent.ACTION_MAIN.equals(intent.getAction())
                 && intent.hasCategory(Intent.CATEGORY_LAUNCHER) && getBridge() != null) {
             getBridge().triggerWindowJSEvent("jido:launcher-open");

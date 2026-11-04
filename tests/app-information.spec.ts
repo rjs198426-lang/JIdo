@@ -126,7 +126,7 @@ test('좁은 화면·큰 글자·가로 모드에서도 간단한 앱 정보가 
   }
 })
 
-test('화면 이동·런처 복귀 시 메뉴가 닫히고 검색 키보드를 자동으로 열지 않음', async ({
+test('화면 이동은 정보 메뉴를 닫고 런처 복귀는 현재 화면과 메뉴를 유지', async ({
   page,
 }) => {
   await page.goto('/')
@@ -145,6 +145,6 @@ test('화면 이동·런처 복귀 시 메뉴가 닫히고 검색 키보드를 �
   await page.evaluate(() =>
     window.dispatchEvent(new Event('jido:launcher-open')),
   )
-  await expect(toggle).toHaveAttribute('aria-expanded', 'false')
-  await expect(page.locator('.travel-home')).toBeVisible()
+  await expect(toggle).toHaveAttribute('aria-expanded', 'true')
+  await expect(page.getByLabel('여행지와 장소 검색')).toBeVisible()
 })

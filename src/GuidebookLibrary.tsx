@@ -1,3 +1,4 @@
+import { useDraftFields } from './form-draft'
 import { useEffect, useRef, useState, useSyncExternalStore } from 'react'
 import { BookOpen, Download, RefreshCw, Search } from 'lucide-react'
 import bundledIndex from '../guidebooks/manifest.json'
@@ -20,8 +21,9 @@ export default function GuidebookLibrary({
   const [index, setIndex] = useState<GuidebookIndex>(() =>
     guidebookIndexSchema.parse(bundledIndex),
   )
-  const [query, setQuery] = useState(''),
-    [busy, setBusy] = useState(''),
+  const view = useDraftFields('jido-view:guidebook-library', { query: '' })
+  const [query, setQuery] = view.field('query')
+  const [busy, setBusy] = useState(''),
     [error, setError] = useState(''),
     [message, setMessage] = useState('')
   const active = useRef(true)

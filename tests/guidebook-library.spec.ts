@@ -53,6 +53,14 @@ async function boot(page: Page, cache?: unknown) {
   await expect(page.locator('.travel-home')).toBeVisible()
 }
 async function library(page: Page) {
+  // A restart can restore the library or another open detail.
+  if (await page.locator('.guidebook-library').isVisible())
+    return page.getByRole('dialog')
+  if (await page.getByRole('dialog').isVisible())
+    await page
+      .getByRole('dialog')
+      .getByRole('button', { name: '닫기', exact: true })
+      .click()
   await page
     .locator('.desktop-nav:visible,.bottom-nav:visible')
     .getByRole('button', { name: '설정', exact: true })

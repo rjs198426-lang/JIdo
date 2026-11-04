@@ -166,7 +166,10 @@ test('사진에는 이용 조건을 덧씌우지 않고 별도 출처에서 모�
   await page.goto('/')
   await expect(page.locator('.photo-credit')).toHaveCount(0)
   await expect(page.locator('.travel-home')).not.toContainText('CC BY')
-  await page.locator('.desktop-nav:visible,.bottom-nav:visible').getByRole('button', { name: '설정', exact: true }).click()
+  await page
+    .locator('.desktop-nav:visible,.bottom-nav:visible')
+    .getByRole('button', { name: '설정', exact: true })
+    .click()
   await page.getByRole('button', { name: '사진 출처', exact: true }).click()
   await expect(page.locator('.photo-credit-entry')).toHaveCount(95)
   const links = await page
@@ -353,7 +356,7 @@ test('홈 장소 더 보기는 가볼 만한 곳 목록으로 이동', async ({ 
   ).toContainText(`24/${places.length}`)
 })
 
-test('저장한 여행이 있어도 모든 주요 화면에서 재실행하면 홈으로 시작하며 기록 보존', async ({
+test('주요 화면에서 재실행하면 마지막 화면으로 돌아오고 기록 보존', async ({
   page,
 }) => {
   await seed(page)
@@ -365,7 +368,9 @@ test('저장한 여행이 있어도 모든 주요 화면에서 재실행하면 �
   for (const name of ['내 여행', '여행지']) {
     await navigate(page, name)
     await page.reload()
-    await expect(page.locator('.travel-home')).toBeVisible()
+    await expect(
+      page.locator(name === '내 여행' ? '.itinerary' : '.explore-search'),
+    ).toBeVisible()
     await expect(page.getByRole('dialog')).toHaveCount(0)
     expect(
       await page.evaluate(() => ({
@@ -383,7 +388,7 @@ test('저장한 여행이 있어도 모든 주요 화면에서 재실행하면 �
   await expect(page.locator('.timeline-item')).toContainText('기요미즈데라')
 })
 
-test('Android 런처로 다시 열면 열린 창을 닫고 홈으로 이동, 일반 복귀는 작업 화면 유지', async ({
+test('Android 런처와 일반 복귀는 열린 입력창과 작업 화면 유지', async ({
   page,
 }) => {
   await seed(page)
@@ -403,12 +408,11 @@ test('Android 런처로 다시 열면 열린 창을 닫고 홈으로 이동, 일
   await page.evaluate(() =>
     window.dispatchEvent(new Event('jido:launcher-open')),
   )
-  await expect(page.locator('.travel-home')).toBeVisible()
-  await expect(page.getByRole('dialog')).toHaveCount(0)
+  await expect(page.getByRole('dialog')).toBeVisible()
   expect(
     await page.evaluate(() => localStorage.getItem('jido-travel-v1')),
   ).toBe(before)
-  await navigate(page, '내 여행')
+  await page.keyboard.press('Escape')
   await expect(page.getByRole('tab', { name: /DAY 2/ })).toHaveAttribute(
     'aria-selected',
     'true',

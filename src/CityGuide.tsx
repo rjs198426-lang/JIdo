@@ -23,6 +23,7 @@ const tabs = [
 export default function CityGuide({
   city,
   initialTab = 'ready',
+  onTabChange,
   onPlace,
   children,
   overviewOnly = false,
@@ -31,6 +32,7 @@ export default function CityGuide({
 }: {
   city: City
   initialTab?: CityGuideTab
+  onTabChange?: (tab: CityGuideTab) => void
   onPlace: (id: string) => void
   children: ReactNode
   guide?: Guide
@@ -100,7 +102,10 @@ export default function CityGuide({
             aria-selected={tab === value}
             aria-controls={`${id}-panel`}
             tabIndex={tab === value ? 0 : -1}
-            onClick={() => setTab(value)}
+            onClick={() => {
+              setTab(value)
+              onTabChange?.(value)
+            }}
             onKeyDown={(event) => {
               const next =
                 event.key === 'ArrowRight'
@@ -115,6 +120,7 @@ export default function CityGuide({
               if (next < 0) return
               event.preventDefault()
               setTab(tabs[next][0])
+              onTabChange?.(tabs[next][0])
               document.getElementById(`${id}-${tabs[next][0]}`)?.focus()
             }}
           >

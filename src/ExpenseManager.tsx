@@ -110,17 +110,33 @@ export default function ExpenseManager({
     [budget, setBudget] = useState(''),
     [error, setError] = useState(''),
     [removed, setRemoved] = useState<Expense | null>(null)
-  const [managing, setManaging] = useState(false)
-  const [toolsOpen, setToolsOpen] = useState(false)
-  const [period, setPeriod] = useState('all')
-  const [filterDate, setFilterDate] = useState(''),
-    [filterCategory, setFilterCategory] = useState('전체'),
-    [filterCurrency, setFilterCurrency] = useState('전체'),
-    [filterQuery, setFilterQuery] = useState('')
-  const [filterPayment, setFilterPayment] = useState('전체'),
-    [filterPayer, setFilterPayer] = useState('전체'),
-    [filterDirection, setFilterDirection] = useState('전체'),
-    [filtersOpen, setFiltersOpen] = useState(false)
+  const viewSettings = useDraftFields(`jido-view:expenses:${trip.id}`, {
+    managing: false,
+    toolsOpen: false,
+    period: 'all',
+    filterDate: '',
+    filterCategory: '전체',
+    filterCurrency: '전체',
+    filterQuery: '',
+    filterPayment: '전체',
+    filterPayer: '전체',
+    filterDirection: '전체',
+    filtersOpen: false,
+  })
+  const [managing, setManaging] = viewSettings.field('managing')
+  const [toolsOpen, setToolsOpen] = viewSettings.field('toolsOpen')
+  const [period, setPeriod] = viewSettings.field('period')
+  const [filterDate, setFilterDate] = viewSettings.field('filterDate')
+  const [filterCategory, setFilterCategory] =
+    viewSettings.field('filterCategory')
+  const [filterCurrency, setFilterCurrency] =
+    viewSettings.field('filterCurrency')
+  const [filterQuery, setFilterQuery] = viewSettings.field('filterQuery')
+  const [filterPayment, setFilterPayment] = viewSettings.field('filterPayment')
+  const [filterPayer, setFilterPayer] = viewSettings.field('filterPayer')
+  const [filterDirection, setFilterDirection] =
+    viewSettings.field('filterDirection')
+  const [filtersOpen, setFiltersOpen] = viewSettings.field('filtersOpen')
   const expenseForm = useRef<HTMLFormElement>(null)
   const totalRef = useRef<HTMLDivElement>(null)
   function clearFilters() {

@@ -1,6 +1,6 @@
 import { balancedPlaces } from './category-balance'
 import PlacePhoto from './PlacePhoto'
-import { useState } from 'react'
+import { useDraftFields } from './form-draft'
 import {
   ChevronRight,
   Plus,
@@ -36,9 +36,13 @@ export default function GuidePlaces({
   onOpen: (id: string) => void
   onAdd?: (id: string) => void
 }) {
-  const [category, setCategory] =
-    useState<(typeof categoryOptions)[number]>(initialCategory)
-  const [query, setQuery] = useState('')
+  const view = useDraftFields(
+    `jido-view:guide-places:${cityId}:${initialCategory}`,
+    { category: initialCategory, query: '' },
+    { category: (value) => categoryOptions.some((option) => option === value) },
+  )
+  const [category, setCategory] = view.field('category')
+  const [query, setQuery] = view.field('query')
   const all = balancedPlaces(places.filter((place) => place.cityId === cityId))
   const filtered = all.filter(
     (place) =>

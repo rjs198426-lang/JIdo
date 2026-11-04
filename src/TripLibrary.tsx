@@ -1,3 +1,4 @@
+import { useDraftFields } from './form-draft'
 import { useEffect, useState } from 'react'
 import { ChevronRight, Search } from 'lucide-react'
 import CityPhoto from './CityPhoto'
@@ -11,8 +12,9 @@ export default function TripLibrary({
   trips: Trip[]
   onOpen: (trip: Trip) => void
 }) {
-  const [query, setQuery] = useState(''),
-    [now, setNow] = useState(() => new Date())
+  const view = useDraftFields('jido-view:trip-library', { query: '' })
+  const [query, setQuery] = view.field('query')
+  const [now, setNow] = useState(() => new Date())
   useEffect(() => {
     const timer = setInterval(() => setNow(new Date()), 60000)
     return () => clearInterval(timer)

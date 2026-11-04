@@ -1,3 +1,4 @@
+import { readAppSession, useAppSession } from './app-session'
 import PlaceSearchResults, {
   PlaceSearchService,
   usePlaceSearch,
@@ -2102,14 +2103,25 @@ export default function App() {
   } = useTravelStore()
   const attachmentStoreRef = useRef(store)
   attachmentStoreRef.current = store
-  const [page, setPage] = useState<Page>('home')
-  const [tripLibrary, setTripLibrary] = useState(true)
-  const [query, setQuery] = useState('')
-  const [region, setRegion] = useState<Region>('전체')
-  const [category, setCategory] = useState<string>('전체')
-  const [exploreCity, setExploreCity] = useState('전체')
-  const [placeLimit, setPlaceLimit] = useState(24)
-  const [exploreTab, setExploreTab] = useState<'cities' | 'places'>('cities')
+  const [initialSession] = useState(() => readAppSession(store.trips))
+  const [page, setPage] = useState<Page>(initialSession?.page || 'home')
+  const [tripLibrary, setTripLibrary] = useState(
+    initialSession?.tripLibrary ?? true,
+  )
+  const [query, setQuery] = useState(initialSession?.query || '')
+  const [region, setRegion] = useState<Region>(
+    (initialSession?.region as Region) || '전체',
+  )
+  const [category, setCategory] = useState<string>(
+    initialSession?.category || '전체',
+  )
+  const [exploreCity, setExploreCity] = useState(
+    initialSession?.exploreCity || '전체',
+  )
+  const [placeLimit, setPlaceLimit] = useState(initialSession?.placeLimit || 24)
+  const [exploreTab, setExploreTab] = useState<'cities' | 'places'>(
+    initialSession?.exploreTab || 'cities',
+  )
   const exploreSearch = usePlaceSearch()
   useEffect(
     () => exploreSearch.reset(),
@@ -2124,7 +2136,9 @@ export default function App() {
         guideCityId: city.id,
       })
   }
-  const [dialog, setDialog] = useState<Dialog | null>(null)
+  const [dialog, setDialog] = useState<Dialog | null>(
+    initialSession?.dialog || null,
+  )
   const [infoOpen, setInfoOpen] = useState(false)
   const closeDialog = () => setDialog(null)
   useEffect(() => setInfoOpen(false), [page, dialog])
@@ -2132,6 +2146,7 @@ export default function App() {
   const [toast, setToast] = useState('')
   const [reminderRevision, setReminderRevision] = useState(0)
   const [activeTripId, setActiveTripId] = useState(() => {
+    if (initialSession?.activeTripId) return initialSession.activeTripId
     try {
       const previous = localStorage.getItem('jdo-active-trip-v1')
       if (store.trips.some((trip) => trip.id === previous)) return previous!
@@ -2161,7 +2176,11 @@ export default function App() {
   }, [])
   const [activeDay, setActiveDay] = useState(() => {
     const trip = store.trips.find((item) => item.id === activeTripId)
-    return trip ? journeyPreference(trip).day : 0
+    return trip
+      ? initialSession?.activeTripId === trip.id
+        ? initialSession.day
+        : journeyPreference(trip).day
+      : 0
   })
   useTravelReminders(store.trips, (target) => {
     const trip = attachmentStoreRef.current.trips.find(
@@ -2200,17 +2219,6 @@ export default function App() {
     const timer = window.setTimeout(() => setToast(''), 2600)
     return () => window.clearTimeout(timer)
   }, [toast])
-  useEffect(() => {
-    const showHome = () => {
-      setDialog(null)
-      setInfoOpen(false)
-      setToast('')
-      setPage('home')
-      window.scrollTo({ top: 0, behavior: 'instant' })
-    }
-    window.addEventListener('jido:launcher-open', showHome)
-    return () => window.removeEventListener('jido:launcher-open', showHome)
-  }, [])
   useEffect(() => {
     const handleBack = () => {
       const preview = Array.from(
@@ -2466,10 +2474,19 @@ export default function App() {
       matchesPlace(place, city, query)
     )
   })
-  useEffect(
-    () => setPlaceLimit(24),
-    [query, region, category, effectiveExploreCity],
-  )
+  const exploreFilters = JSON.stringify([
+    query,
+    region,
+    category,
+    effectiveExploreCity,
+  ])
+  const previousExploreFilters = useRef(exploreFilters)
+  useEffect(() => {
+    if (previousExploreFilters.current !== exploreFilters) {
+      previousExploreFilters.current = exploreFilters
+      setPlaceLimit(24)
+    }
+  }, [exploreFilters])
   const [homeNow, setHomeNow] = useState(() => new Date())
   useEffect(() => {
     if (page !== 'home') return
@@ -2489,6 +2506,22 @@ export default function App() {
   const home = homeJourney(store.trips, activeTripId, homeNow)
   const activeTrip =
     store.trips.find((trip) => trip.id === activeTripId) || store.trips[0]
+  useAppSession(
+    {
+      page,
+      tripLibrary,
+      activeTripId: activeTrip?.id || '',
+      day: activeDay,
+      query,
+      region,
+      category,
+      exploreCity,
+      exploreTab,
+      placeLimit,
+      dialog,
+    },
+    initialSession,
+  )
   useEffect(() => {
     try {
       if (activeTrip) localStorage.setItem('jdo-active-trip-v1', activeTrip.id)
@@ -3488,6 +3521,13 @@ export default function App() {
                   key={city.id}
                   city={city}
                   initialTab={dialog.guideTab}
+                  onTabChange={(guideTab) =>
+                    setDialog((current) =>
+                      current?.type === 'city'
+                        ? { ...current, guideTab }
+                        : current,
+                    )
+                  }
                   onPlace={openPlace}
                   onAdd={(placeId) => setDialog({ type: 'add', placeId })}
                   guide={storedGuide}

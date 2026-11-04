@@ -333,6 +333,13 @@ test('복구 확인은 재실행 뒤에도 유지되며 설정에서 원본 접�
   await expect(page.locator('.recovery-notice')).toHaveCount(0)
   await page.reload()
   await expect(page.locator('.recovery-notice')).toHaveCount(0)
+  await expect(page.getByRole('dialog')).toContainText(
+    '확인 완료 · 원본 보관 중',
+  )
+  await page
+    .getByRole('dialog')
+    .getByRole('button', { name: '닫기', exact: true })
+    .click()
   await settings(page)
   await page
     .getByRole('button', { name: '기록 복구 안내', exact: true })
