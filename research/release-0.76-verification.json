@@ -1,0 +1,106 @@
+{
+  "version": "0.76",
+  "versionCode": 77,
+  "package": "com.jido.travel.next",
+  "bytes": 41231581,
+  "sha256": "b055955febe358ab2749446faf3079f1859c30dcf9eacfbd3a56d6b5022ffb2e",
+  "certificateSha256": "0d1b1f20dae73d00626d9ebb4f460943c4f16c2266bc7bc58d124d13b32494ac",
+  "signatureVerified": true,
+  "matchedWebAssets": 235,
+  "privateSigningFilesFound": false,
+  "existingMapsConfigurationBundled": true,
+  "nativeDeviceInstallTested": false,
+  "checkedAt": "2026-11-04T13:14:57.977798+00:00",
+  "sourceCommit": "f16144b180b62938e832b7ca95e4b8a6dc2c6b10",
+  "publicCommit": "1976272584923ab4192d32f59fd5e2b0c7a85fef",
+  "publicDownloads": [
+    {
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/1976272584923ab4192d32f59fd5e2b0c7a85fef/JDo-android-0.76.apk",
+      "httpStatus": 200,
+      "bytes": 41231581,
+      "sha256": "b055955febe358ab2749446faf3079f1859c30dcf9eacfbd3a56d6b5022ffb2e",
+      "matchesBuild": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/android-apk-downloads/JDo-android.apk",
+      "httpStatus": 200,
+      "bytes": 41231581,
+      "sha256": "b055955febe358ab2749446faf3079f1859c30dcf9eacfbd3a56d6b5022ffb2e",
+      "matchesBuild": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/android-apk-downloads/jido-release.apk",
+      "httpStatus": 200,
+      "bytes": 41231581,
+      "sha256": "b055955febe358ab2749446faf3079f1859c30dcf9eacfbd3a56d6b5022ffb2e",
+      "matchesBuild": true
+    }
+  ],
+  "anonymousDownload": true,
+  "downloadedSignatureVerified": true,
+  "regressionTestsPassed": 44,
+  "publicSourceFiles": [
+    {
+      "path": "src/place-mention-ranking.ts",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/f16144b180b62938e832b7ca95e4b8a6dc2c6b10/src/place-mention-ranking.ts",
+      "httpStatus": 200,
+      "bytes": 5395,
+      "sha256": "eef0aa5b4445f8ba2e3cc37f2784adbad754c6014d2a1b6dc0bc348136050df3",
+      "matchesSource": true
+    },
+    {
+      "path": "src/place-blogs.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/f16144b180b62938e832b7ca95e4b8a6dc2c6b10/src/place-blogs.json",
+      "httpStatus": 200,
+      "bytes": 22931,
+      "sha256": "749923b85bf1db9867c678c4469f88fdaef6601ecd011296ebaa8b5331fb5605",
+      "matchesSource": true
+    },
+    {
+      "path": "src/place-search-exposure.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/f16144b180b62938e832b7ca95e4b8a6dc2c6b10/src/place-search-exposure.json",
+      "httpStatus": 200,
+      "bytes": 278,
+      "sha256": "c5d6df312d43fedc90c5cc5f2012dfe85c8335913c94ed832e31b78e5bc7135c",
+      "matchesSource": true
+    },
+    {
+      "path": "src/catalog.ts",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/f16144b180b62938e832b7ca95e4b8a6dc2c6b10/src/catalog.ts",
+      "httpStatus": 200,
+      "bytes": 9728,
+      "sha256": "2e883ec55a332f595c59ba339a384f245d503bf9455287a8cba9899a5d27c798",
+      "matchesSource": true
+    },
+    {
+      "path": "research/place-discovery/2026-11-04.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/f16144b180b62938e832b7ca95e4b8a6dc2c6b10/research/place-discovery/2026-11-04.json",
+      "httpStatus": 200,
+      "bytes": 19922,
+      "sha256": "10e9e36b596abec4d3a02625a7717713dedb0316d67f64ca54ee5b1d47914b62",
+      "matchesSource": true
+    },
+    {
+      "path": "PLACE-DISCOVERY.md",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/f16144b180b62938e832b7ca95e4b8a6dc2c6b10/PLACE-DISCOVERY.md",
+      "httpStatus": 200,
+      "bytes": 4540,
+      "sha256": "e8e9ed05c900f2beface4d768541647c2a206a27f054358a981dc5f19f333fe0",
+      "matchesSource": true
+    }
+  ],
+  "placeCoverage": {
+    "asOf": "2026-11-04",
+    "totalPlaces": 1385,
+    "recentMentionEvidence": 53,
+    "unverified": 1332,
+    "expiredRemovedFromDiscovery": 0,
+    "exposureSamplePlaces": 2,
+    "fullInternetSurveyCompleted": false
+  },
+  "guidebookDatabaseVerified": {
+    "guides": 80,
+    "places": 1385,
+    "sourceChanged": false
+  }
+}

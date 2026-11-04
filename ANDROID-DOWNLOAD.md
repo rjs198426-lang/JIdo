@@ -1,6 +1,6 @@
 # J★Do Android 다운로드
 
-[J★Do 0.76 개발판 APK 다운로드](https://raw.githubusercontent.com/rjs198426-lang/JIdo/android-apk-downloads/JDo-android-0.76.apk)
+[J★Do 0.76 개발판 APK 다운로드](https://raw.githubusercontent.com/rjs198426-lang/JIdo/1976272584923ab4192d32f59fd5e2b0c7a85fef/JDo-android-0.76.apk)
 
 - 앱: **J★Do** (`com.jido.travel.next`)
 - 버전: 0.76 개발판 · versionCode 77 · Android 7.0 이상
@@ -21,6 +21,8 @@
 - 현재 중앙 DB1,385곳 중 최근 근거53곳, 미조사1,332곳, 만료 제외0곳입니다. 검색 노출은 괌2곳의 한 표본만 확인했습니다. 인터넷 전체 인기 순위나 모든 도시의 조사 완료를 뜻하지 않습니다.
 
 관련 검사44개, 공개 근거·DB·가이드북 검사, 웹/Android release 빌드와 기존 서명·내부 웹 자산235개 일치를 확인했습니다. 새 서명키를 만들지 않았으며 실제 Android 실기기 설치는 미확인입니다. [정렬·조사 범위와 보존 규칙](PLACE-DISCOVERY.md).
+
+공개 검증: 고정0.76 링크·최신 APK 별칭2개와 공개 정렬/조사 원본6개를 인증 없이 받아 HTTP200·바이트·SHA-256을 대조하고 내려받은 APK 서명을 다시 확인했습니다. [배포 검증 기록](research/release-0.76-verification.json).
 
 ## 0.75 개발판 · 마지막 화면 이어보기
 
