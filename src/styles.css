@@ -3883,5 +3883,7 @@ details {
   white-space: normal;
 }
 .storage-warning {
+  /* Keep this informational alert from blocking a failed action's retry. */
+  pointer-events: none;
   bottom: calc(var(--jido-bottom-nav-height) + 16px);
 }

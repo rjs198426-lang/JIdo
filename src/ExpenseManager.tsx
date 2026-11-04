@@ -912,7 +912,6 @@ export default function ExpenseManager({
                         className="icon-button"
                         aria-label={`${item.title} 지출 삭제`}
                         onClick={() => {
-                          setRemoved(item)
                           if (
                             onUpdate({
                               ...trip,
@@ -922,6 +921,7 @@ export default function ExpenseManager({
                             }) === false
                           )
                             return
+                          setRemoved(item)
                           if (editing === item.id) {
                             reset()
                             setOpen(false)

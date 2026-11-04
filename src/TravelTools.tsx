@@ -547,7 +547,6 @@ export function Reservations({ trip, onUpdate, day = 0 }: Props) {
                   className="icon-button"
                   aria-label={`${item.title} 예약 삭제`}
                   onClick={() => {
-                    setRemoved(item)
                     if (
                       onUpdate({
                         ...trip,
@@ -557,6 +556,7 @@ export function Reservations({ trip, onUpdate, day = 0 }: Props) {
                       }) === false
                     )
                       return
+                    setRemoved(item)
                     if (form?.id === item.id) setForm(null)
                   }}
                 >

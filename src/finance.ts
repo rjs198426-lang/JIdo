@@ -218,6 +218,40 @@ export function syncReservation(
       }
       const targetDay =
         day === oldDay && newDay >= 0 && newDay < days.length ? newDay : day
+      const custom = stop.custom
+        ? {
+            ...stop.custom,
+            kind:
+              stop.custom.kind === reservationPlaceKind(previous.kind)
+                ? reservationPlaceKind(next.kind)
+                : stop.custom.kind,
+            name:
+              stop.custom.name === previous.title
+                ? next.title
+                : stop.custom.name,
+            address:
+              stop.custom.address === previous.address
+                ? next.address
+                : stop.custom.address,
+            link:
+              stop.custom.link === previous.link ? next.link : stop.custom.link,
+          }
+        : stop.custom
+      // A changed place must not retain coordinates or provider identities from its predecessor.
+      if (custom && stop.custom) {
+        const identityChanged =
+          custom.name !== stop.custom.name ||
+          custom.address !== stop.custom.address
+        if (identityChanged || custom.link !== stop.custom.link) {
+          delete custom.coordinates
+          delete custom.googlePlaceId
+          delete custom.osmPlaceId
+          delete custom.catalogPlaceId
+          // Only retain a new link explicitly supplied with this reservation change.
+          if (identityChanged && custom.link === stop.custom.link)
+            custom.link = ''
+        }
+      }
       days[targetDay].push({
         ...stop,
         time: stop.time === previous.time ? next.time : stop.time,
@@ -225,27 +259,7 @@ export function syncReservation(
           stop.note === reservationNote(previous)
             ? reservationNote(next)
             : stop.note,
-        custom: stop.custom
-          ? {
-              ...stop.custom,
-              kind:
-                stop.custom.kind === reservationPlaceKind(previous.kind)
-                  ? reservationPlaceKind(next.kind)
-                  : stop.custom.kind,
-              name:
-                stop.custom.name === previous.title
-                  ? next.title
-                  : stop.custom.name,
-              address:
-                stop.custom.address === previous.address
-                  ? next.address
-                  : stop.custom.address,
-              link:
-                stop.custom.link === previous.link
-                  ? next.link
-                  : stop.custom.link,
-            }
-          : stop.custom,
+        custom,
       })
     }),
   )

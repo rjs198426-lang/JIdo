@@ -761,3 +761,147 @@ for (const mode of ['order', 'time'] as const) {
     expect(await saved(page)).not.toBe(before)
   })
 }
+
+for (const kind of ['expense', 'reservation'] as const) {
+  test(`${kind} 삭제 저장 실패에는 완료 안내 없이 원본을 유지하고 재시도·실행 취소`, async ({
+    page,
+  }) => {
+    const title = kind === 'expense' ? '보존할 식사' : '보존할 숙소'
+    const fixture = {
+      ...trip,
+      expenses: [
+        {
+          id: 'expense-delete',
+          title,
+          amount: 1000,
+          currency: 'JPY',
+          date: trip.startDate,
+          category: '식비',
+          payer: '',
+        },
+      ],
+      reservations: [
+        {
+          id: 'reservation-delete',
+          title,
+          kind: '숙소',
+          date: trip.startDate,
+          time: '15:00',
+          address: '',
+          link: '',
+          reference: '',
+          note: '',
+          status: 'confirmed',
+        },
+      ],
+    }
+    await boot(page, JSON.stringify(store([fixture])))
+    await openTrips(page)
+    if (kind === 'expense') {
+      await openWorkspace(page, '가계부')
+      await page.getByRole('button', { name: '지출 편집', exact: true }).click()
+    } else await openWorkspace(page, '예약')
+    const before = await saved(page)
+    await fail(page, true)
+    await page
+      .getByRole('button', {
+        name: `${title} ${kind === 'expense' ? '지출' : '예약'} 삭제`,
+        exact: true,
+      })
+      .click()
+    await expect(page.getByRole('alert')).toContainText('저장하지 못했어요')
+    await expect(page.locator('.undo-strip')).toHaveCount(0)
+    expect(await saved(page)).toBe(before)
+    await fail(page, false)
+    await page
+      .getByRole('button', {
+        name: `${title} ${kind === 'expense' ? '지출' : '예약'} 삭제`,
+        exact: true,
+      })
+      .click()
+    await expect(page.locator('.undo-strip')).toContainText('삭제했어요')
+    const key = kind === 'expense' ? 'expenses' : 'reservations'
+    expect(JSON.parse((await saved(page))!).trips[0][key]).toHaveLength(0)
+    await page
+      .locator('.undo-strip')
+      .getByRole('button', { name: '실행 취소', exact: true })
+      .click()
+    expect(JSON.parse((await saved(page))!).trips[0][key]).toEqual(fixture[key])
+  })
+}
+
+test('예약 장소 수정의 저장 실패는 위치와 초안을 유지하고 성공 시 과거 좌표를 해제', async ({
+  page,
+}) => {
+  const reservation = {
+    id: 'linked-booking',
+    title: '원래 숙소',
+    kind: '숙소',
+    date: trip.startDate,
+    endDate: trip.endDate,
+    time: '15:00',
+    address: 'Old address',
+    link: 'https://example.com/old',
+    reference: '',
+    note: '',
+    status: 'confirmed',
+  }
+  const fixture = {
+    ...trip,
+    reservations: [reservation],
+    days: [
+      [
+        {
+          id: 'linked-stop',
+          placeId: 'custom-linked',
+          reservationId: reservation.id,
+          time: '',
+          note: '개인 일정 메모',
+          custom: {
+            name: reservation.title,
+            kind: '숙소',
+            address: reservation.address,
+            link: reservation.link,
+            destinationId: 'kyoto',
+            coordinates: { lat: 35, lng: 135 },
+            googlePlaceId: 'old-google',
+            osmPlaceId: 'node/123',
+          },
+        },
+      ],
+      [],
+    ],
+  }
+  await boot(page, JSON.stringify(store([fixture])))
+  await openTrips(page)
+  await openWorkspace(page, '예약')
+  await page
+    .getByRole('button', { name: '원래 숙소 예약 수정', exact: true })
+    .click()
+  await page.getByLabel('예약 이름', { exact: true }).fill('새 숙소')
+  await page.getByLabel('예약 장소·주소', { exact: true }).fill('New address')
+  const before = await saved(page)
+  await fail(page, true)
+  await page
+    .getByRole('button', { name: '예약 정보 저장', exact: true })
+    .click()
+  await expect(page.getByLabel('예약 이름', { exact: true })).toHaveValue(
+    '새 숙소',
+  )
+  expect(await saved(page)).toBe(before)
+  await fail(page, false)
+  await page
+    .getByRole('button', { name: '예약 정보 저장', exact: true })
+    .click()
+  await expect(page.getByLabel('예약 이름', { exact: true })).toHaveCount(0)
+  const result = JSON.parse((await saved(page))!).trips[0].days[0][0]
+  expect(result.note).toBe('개인 일정 메모')
+  expect(result.custom).toMatchObject({
+    name: '새 숙소',
+    address: 'New address',
+    link: '',
+  })
+  expect(result.custom.coordinates).toBeUndefined()
+  expect(result.custom.googlePlaceId).toBeUndefined()
+  expect(result.custom.osmPlaceId).toBeUndefined()
+})

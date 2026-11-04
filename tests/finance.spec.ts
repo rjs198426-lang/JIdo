@@ -291,3 +291,90 @@ test('자유 도시 여행의 AED·SGD·CHF 경비도 저장하고 입력 환율
     missing: [],
   })
 })
+
+test('예약 장소 변경은 과거 위치 참조를 해제하고 개인 기록과 직접 고친 장소를 보존', () => {
+  const source = trip()
+  const old: Reservation = {
+    id: 'location-booking',
+    title: '원래 숙소',
+    kind: '숙소',
+    date: source.startDate,
+    time: '15:00',
+    address: 'Old address',
+    link: 'https://example.com/old',
+    reference: '',
+    note: '',
+    status: 'confirmed',
+  }
+  source.reservations = [old]
+  source.days[0] = [
+    {
+      id: 'linked',
+      placeId: 'custom-linked',
+      time: '17:00',
+      note: '개인 메모',
+      photoId: '11111111-1111-4111-8111-111111111111',
+      status: 'done',
+      reservationId: old.id,
+      custom: {
+        name: old.title,
+        kind: '숙소',
+        address: old.address,
+        link: old.link,
+        destinationId: 'paris',
+        coordinates: { lat: 48, lng: 2 },
+        googlePlaceId: 'old-google',
+        osmPlaceId: 'node/123',
+        catalogPlaceId: 'old-catalog',
+      },
+    },
+  ]
+  const before = structuredClone(source)
+  for (const patch of [
+    { title: '새 숙소' },
+    { address: 'New address' },
+    { link: 'https://example.com/new' },
+  ]) {
+    const result = syncReservation(source, old, { ...old, ...patch })
+    const stop = result.days[0][0]
+    expect(stop).toMatchObject({
+      time: '17:00',
+      note: '개인 메모',
+      photoId: source.days[0][0].photoId,
+      status: 'done',
+      reservationId: old.id,
+    })
+    expect(stop.custom?.coordinates).toBeUndefined()
+    expect(stop.custom?.googlePlaceId).toBeUndefined()
+    expect(stop.custom?.osmPlaceId).toBeUndefined()
+    expect(stop.custom?.catalogPlaceId).toBeUndefined()
+    expect(stop.custom?.link).toBe('link' in patch ? patch.link : '')
+    expect(tripSchema.safeParse(result).success).toBe(true)
+  }
+  expect(source).toEqual(before)
+  const freshLink = syncReservation(source, old, {
+    ...old,
+    title: '새 숙소',
+    link: 'https://example.com/new',
+  })
+  expect(freshLink.days[0][0].custom?.link).toBe('https://example.com/new')
+  const noteOnly = syncReservation(source, old, {
+    ...old,
+    note: '체크인 안내 수정',
+    reference: 'NEW',
+  })
+  expect(noteOnly.days[0][0].custom).toEqual(source.days[0][0].custom)
+  source.days[0][0].custom = {
+    ...source.days[0][0].custom!,
+    name: '직접 고른 장소',
+    address: '직접 고친 주소',
+    link: 'https://example.com/personal',
+  }
+  const manual = syncReservation(source, old, {
+    ...old,
+    title: '예약 이름 수정',
+    address: '예약 주소 수정',
+    link: 'https://example.com/booking',
+  })
+  expect(manual.days[0][0].custom).toEqual(source.days[0][0].custom)
+})
