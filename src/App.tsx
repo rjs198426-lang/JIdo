@@ -3015,9 +3015,30 @@ export default function App() {
         )}
         {page === 'trips' && (
           <section className="page-section trips-page">
-            <div className="page-title trip-page-title">
+            <div
+              className={`page-title trip-page-title ${activeTrip && !(store.trips.length > 1 && tripLibrary) ? 'trip-detail-toolbar' : ''}`}
+            >
+              {activeTrip && !tripLibrary && store.trips.length > 1 && (
+                <button
+                  className="text-button trip-library-return"
+                  onClick={() => {
+                    setTripLibrary(true)
+                    window.scrollTo({ top: 0, behavior: 'instant' })
+                  }}
+                >
+                  모든 여행 보기
+                </button>
+              )}
               <div>
-                <h1>내 여행</h1>
+                <h1
+                  className={
+                    activeTrip && !(store.trips.length > 1 && tripLibrary)
+                      ? 'sr-only'
+                      : undefined
+                  }
+                >
+                  내 여행
+                </h1>
                 <details className="trip-library-more">
                   <summary>여행 관리</summary>
                   <button
@@ -3026,14 +3047,24 @@ export default function App() {
                   >
                     여행 백업·공유 <ExternalLink size={14} />
                   </button>
+                  {activeTrip && !(store.trips.length > 1 && tripLibrary) && (
+                    <button
+                      className="text-button"
+                      onClick={() => setDialog({ type: 'create' })}
+                    >
+                      <Plus size={17} />새 여행
+                    </button>
+                  )}
                 </details>
               </div>
-              <button
-                className="button primary"
-                onClick={() => setDialog({ type: 'create' })}
-              >
-                <Plus size={17} />새 여행
-              </button>
+              {(!activeTrip || (store.trips.length > 1 && tripLibrary)) && (
+                <button
+                  className="button primary"
+                  onClick={() => setDialog({ type: 'create' })}
+                >
+                  <Plus size={17} />새 여행
+                </button>
+              )}
             </div>
             {store.trips.length > 1 && tripLibrary ? (
               <TripLibrary
@@ -3054,17 +3085,6 @@ export default function App() {
               />
             ) : (
               <>
-                {store.trips.length > 1 && (
-                  <button
-                    className="text-button trip-library-return"
-                    onClick={() => {
-                      setTripLibrary(true)
-                      window.scrollTo({ top: 0, behavior: 'instant' })
-                    }}
-                  >
-                    모든 여행 보기
-                  </button>
-                )}
                 <Itinerary
                   key={`${activeTrip.id}:${reminderRevision}`}
                   onQuickExpense={(stop) =>

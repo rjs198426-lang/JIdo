@@ -2015,3 +2015,152 @@ body {
 
 :root .city-guide-panel .detail-place-list > div:has(.guide-place-add) { flex-direction: row; }
 :root .city-guide-panel .detail-place-list .guide-place-add { display: inline-flex; flex: 0 0 44px; width: 44px; height: 44px; background: var(--mint); color: var(--green); }
+
+/* 2026-11: readable travel surfaces and fewer layers before the day's places. */
+:root {
+  --tap-size: calc(44px / var(--jido-ui-scale));
+  --reading-text: 18px;
+}
+:root :is(.icon-button, .text-button) {
+  min-width: var(--tap-size);
+  min-height: var(--tap-size);
+}
+:root :is(button, a, summary, input, select, textarea):focus-visible {
+  outline: 3px solid var(--green);
+  outline-offset: 3px;
+}
+:root :is(.workspace-tabs button, .workspace-view-switch button, .category-row button, .page-tabs button, .city-guide-tabs button, .bottom-nav > button) {
+  min-height: var(--tap-size);
+  font-size: 17px;
+  font-weight: 600;
+}
+:root :is(.field input, .field select, .field textarea, .input-search input) { font-size: var(--reading-text); }
+:root :is(.city-intro, .guidebook-section-body, .place-tip p, .field-introduction, .settings-group p) {
+  font-size: var(--reading-text);
+  line-height: 1.75;
+}
+:root :is(.guidebook-row, .guide-food-introduction) {
+  border-radius: 16px;
+  border: 1px solid var(--line);
+  background: white;
+  padding: 16px;
+  margin-block: 12px;
+}
+:root .guidebook-row { gap: 12px; }
+:root .guide-food-introduction h3 { font-size: 20px; margin-top: 0; }
+:root .guidebook-search h2 { font-size: 20px; }
+:root .guidebook-search .guidebook-row p { font-size: 16px; color: var(--muted); }
+:root .trips-page .trip-detail-toolbar {
+  margin: 0;
+  min-height: var(--tap-size);
+  gap: 8px;
+}
+:root .trip-detail-toolbar > div { margin-left: auto; }
+:root .trip-detail-toolbar .trip-library-return { margin: 0; font-size: 16px; }
+:root .trip-detail-toolbar .trip-library-more > summary {
+  min-height: var(--tap-size);
+  display: flex;
+  align-items: center;
+  padding-inline: 10px;
+  font-size: 16px;
+}
+:root .trip-detail-toolbar .trip-library-more[open] {
+  background: white;
+  border-radius: 14px;
+  box-shadow: 0 8px 24px #20323e10;
+}
+:root .trips-page .itinerary .trip-banner {
+  grid-template-columns: minmax(0, 1fr) 155px;
+  gap: 4px 8px;
+  padding: 4px 0 8px;
+}
+:root .trips-page .itinerary .trip-banner-controls {
+  width: 155px;
+  grid-template-columns: repeat(3, var(--tap-size));
+  grid-template-rows: var(--tap-size);
+}
+:root .trips-page .itinerary .trip-banner-controls > button {
+  width: var(--tap-size); height: var(--tap-size);
+  min-width: var(--tap-size); min-height: var(--tap-size);
+  border-radius: 12px;
+}
+:root .trips-page .itinerary .trip-facts { font-size: 16px; line-height: 1.55; }
+:root .itinerary .workspace-tabs { margin-block: 4px; padding: 4px; border-radius: 16px; background: #e9eef0; }
+:root .itinerary .workspace-tabs button { padding: 8px; border-radius: 12px; }
+:root .itinerary .workspace-tabs button.active { box-shadow: 0 2px 6px #20323e08; }
+:root .itinerary .workspace-view-switch { margin-block: 0 4px; gap: 4px; }
+:root .itinerary .workspace-view-switch button { padding: 6px 12px; }
+:root .itinerary .day-navigation { margin-block: 0 8px; }
+:root .itinerary .day-navigation .day-tab {
+  min-height: var(--tap-size);
+  padding: 6px 12px;
+  border-radius: 12px;
+}
+:root .itinerary .day-navigation .day-tab > span { font-size: 17px; }
+:root .itinerary .day-navigation > button { width: var(--tap-size); flex-shrink: 0; }
+:root .itinerary .timeline-day-heading {
+  gap: 8px;
+  padding: 0;
+  margin: 0 0 4px;
+}
+:root .timeline-day-heading h3 { margin: 0; line-height: 1.55; }
+:root .timeline-day-heading h3 > :is(span, time) { font-size: 17px; }
+:root .timeline-day-heading .timeline-city { display: inline; margin-left: 8px; font-size: 16px; }
+:root .timeline-day-heading .text-button { padding-inline: 12px; font-size: 16px; }
+:root .day-progress { margin-block: 0 10px; font-size: 15px; }
+:root .timeline-workspace .stop-card { padding: 16px; border: 1px solid #e4eaee; border-radius: 18px; box-shadow: 0 3px 12px #20323e04; }
+:root .timeline-workspace .stop-place strong { font-size: 20px; line-height: 1.5; }
+:root .timeline-workspace .stop-place small { font-size: 16px; }
+:root .timeline-workspace .schedule-note-preview p { font-size: 17px; line-height: 1.65; }
+:root .timeline-visit-time { font-size: 16px; color: var(--muted); }
+:root .timeline-workspace .stop-expand { min-width: var(--tap-size); min-height: var(--tap-size); font-size: 15px; }
+:root .itinerary .trip-more { margin-top: 24px; }
+:root .home-context-nav button { font-size: 17px; }
+:root .home-summary strong { font-size: 20px; }
+:root .settings-group { border: 1px solid var(--line); border-radius: 18px; padding: 20px; }
+:root .settings-group > :is(button, a) { font-size: 18px; min-height: 58px; }
+:root .modal-header { padding-block: 14px; }
+:root .modal-header h2 { font-size: 22px; }
+@media (max-width: 600px) {
+  :root .itinerary .timeline-workspace .timeline-day-heading { flex-direction: row; align-items: center; }
+  :root .itinerary .timeline-workspace .timeline-day-heading > .day-add-actions { width: auto; }
+  :root .trip-detail-toolbar { flex-wrap: nowrap; }
+  :root .trip-detail-toolbar .trip-library-more > summary { white-space: nowrap; }
+}
+@media (prefers-reduced-motion: reduce) {
+  :root *, :root *::before, :root *::after { scroll-behavior: auto !important; }
+}
+:root .sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+:root .trips-page .itinerary :is(.workspace-tabs button, .workspace-view-switch button) {
+  min-height: var(--tap-size);
+  font-size: 17px;
+}
+:root .main :is(.category-row button, .page-tabs button),
+:root .modal .city-guide-tabs button {
+  min-height: var(--tap-size);
+  font-size: 17px;
+}
+:root .trips-page .itinerary .timeline-workspace .stop-condensed .stop-place strong {
+  font-size: 20px;
+}
+:root .trips-page .itinerary .timeline-workspace .stop-condensed .stop-place :is(.timeline-card-category, .stop-city-name) {
+  font-size: 16px;
+}
+:root .trips-page .itinerary .timeline-workspace .schedule-note-preview p { font-size: 17px; }
+:root .trips-page .itinerary .timeline-workspace .stop-expand { min-width: var(--tap-size); min-height: var(--tap-size); font-size: 15px; }
+:root .trips-page .itinerary .day-content { padding-top: 4px; }
+:root .trips-page .timeline-day-heading h3 .timeline-city { display: inline; margin-left: 8px; font-size: 16px; }
+:root .home-journey-copy h2 { font-size: 24px; line-height: 1.4; }
+:root .home-context-nav button { font-size: 17px; }
+:root .bottom-nav > button { font-size: 16px; min-height: var(--tap-size); }
+:root .trips-page .itinerary .timeline-day-heading .text-button { min-width: var(--tap-size); }
