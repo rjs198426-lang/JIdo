@@ -44,6 +44,11 @@ import BlogPhotos from './BlogPhotos'
 import { meaningfulCost } from './place-introduction'
 import { discoveryPlaces } from './catalog'
 import PlaceDiscoveryOrder from './PlaceDiscoveryOrder'
+import { useSyncExternalStore } from 'react'
+import {
+  subscribeGoogleReviews,
+  googleReviewRevision,
+} from './google-review-store'
 import CompanionCount from './CompanionCount'
 import DayTransfers from './DayTransfers'
 import { useGoogleRoutes } from './google-routes'
@@ -2095,6 +2100,7 @@ export default function App() {
   }>()
   const scheduleReturnSequence = useRef(0)
   useGuideCatalog()
+  useSyncExternalStore(subscribeGoogleReviews, googleReviewRevision)
   useEffect(startContentUpdates, [])
   const {
     store,

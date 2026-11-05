@@ -3,7 +3,15 @@ export function isRecentBlog(
   post: { publishedAt?: string },
   today = new Date(),
 ): boolean {
-  const published = post.publishedAt || ''
+  return isRecentPublication(post.publishedAt, 3, today)
+}
+
+export function isRecentPublication(
+  publishedAt: string | undefined,
+  years: number,
+  today = new Date(),
+): boolean {
+  const published = publishedAt || ''
   if (!/^\d{4}-\d{2}-\d{2}$/.test(published)) return false
   const date = new Date(`${published}T00:00:00Z`)
   if (
@@ -14,7 +22,7 @@ export function isRecentBlog(
   const end = today.toISOString().slice(0, 10)
   const start = new Date(`${end}T00:00:00Z`)
   const month = start.getUTCMonth()
-  start.setUTCFullYear(start.getUTCFullYear() - 3)
+  start.setUTCFullYear(start.getUTCFullYear() - years)
   if (start.getUTCMonth() !== month) start.setUTCDate(0)
   return published >= start.toISOString().slice(0, 10) && published <= end
 }

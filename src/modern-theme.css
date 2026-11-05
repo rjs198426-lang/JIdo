@@ -2169,3 +2169,14 @@ body {
   font-size: 0.8rem;
   line-height: 1.5;
 }
+.google-place-reviews { margin: 20px 0; padding: 16px; border: 1px solid var(--line); border-radius: 16px; background: var(--paper); }
+.google-place-reviews .detail-section-heading { flex-wrap: wrap; gap: 8px; }
+.google-place-reviews .detail-section-heading h3 { margin: 0; }
+.google-place-reviews small { display: block; color: var(--muted); line-height: 1.6; }
+.google-review-candidates { display: grid; gap: 8px; }
+.google-review-candidates button { display: grid; width: 100%; gap: 6px; text-align: left; white-space: normal; overflow-wrap: anywhere; }
+.google-review-candidates button span { font-weight: 400; }
+.google-review-result { margin: 12px 0; padding: 12px 0; border-top: 1px solid var(--line); }
+.google-review-result ul { list-style: none; margin: 8px 0; padding: 0; }
+.google-review-result li { display: flex; flex-wrap: wrap; gap: 8px; padding: 10px 0; }
+.google-review-result a, .google-place-reviews > a { min-height: 44px; display: inline-flex; align-items: center; }

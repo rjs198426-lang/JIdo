@@ -1,6 +1,11 @@
 import mentions from './place-blogs.json' with { type: 'json' }
 import searchSamples from './place-search-exposure.json' with { type: 'json' }
 import { isRecentBlog } from './blog-recency.ts'
+import {
+  googleReviewMetrics,
+  type GoogleReviewEvidence,
+} from './google-review-evidence.ts'
+import { googleReviewsForPlace } from './google-review-store.ts'
 
 export type PlaceIdentity = { id: string; cityId: string; name: string }
 export type MentionEvidence = {
@@ -57,6 +62,9 @@ function validPublicationDay(value: string | undefined): value is string {
 export function createPlaceDiscovery(
   evidence: readonly MentionEvidence[],
   samples: readonly SearchSample[] = [],
+  googleEvidence: (
+    place: PlaceIdentity,
+  ) => GoogleReviewEvidence | undefined = () => undefined,
 ) {
   const byPlace = new Map<string, Map<string, Set<string>>>()
   for (const entry of evidence) {
@@ -81,6 +89,8 @@ export function createPlaceDiscovery(
       )
       .filter((post) => post.publishedAt <= end)
     const recent = articles.filter((post) => isRecentBlog(post, today))
+    const google = googleReviewMetrics(googleEvidence(place), place, today)
+    const count = recent.length + google.count
     const urls = new Set(recent.map((post) => post.url))
     // Exposure is only the observed order of a city-wide search sample, not
     // impressions, review totals or a permanent Naver/Google popularity rank.
@@ -108,12 +118,14 @@ export function createPlaceDiscovery(
           : []
       }) || []
     return {
-      state: recent.length
+      state: count
         ? ('recent' as const)
-        : articles.length
+        : articles.length || google.state === 'inactive'
           ? ('expired' as const)
           : ('unverified' as const),
-      mentionCount: recent.length,
+      mentionCount: count,
+      blogMentionCount: recent.length,
+      googleReviewCount: google.count,
       searchRank: ranks.length ? Math.min(...ranks) : null,
       searchObservedAt: ranks.length ? sample!.observedAt : null,
     }
@@ -149,4 +161,8 @@ export function createPlaceDiscovery(
   return { metrics, list }
 }
 
-export const placeDiscovery = createPlaceDiscovery(mentions, searchSamples)
+export const placeDiscovery = createPlaceDiscovery(
+  mentions,
+  searchSamples,
+  googleReviewsForPlace,
+)
