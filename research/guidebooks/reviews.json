@@ -694,6 +694,17 @@
         "https://www.visitlisboa.com/en/places/castelo-de-sao-jorge"
       ],
       "evidencePath": "research/guidebooks/runs/20261031T1758-new.json"
+    },
+    {
+      "guideId": "guam",
+      "checkedAt": "2026-11-05",
+      "contentHash": "75f450e5ce272272b1d2b5d4cffe849b54c5110891b3a19c67ea1d74bba47135",
+      "result": "blocked",
+      "urls": [
+        "https://www.picguam.net/ko/faqs",
+        "https://www.picguam.net/ko/restaurant"
+      ],
+      "evidencePath": "research/guidebooks/runs/20261105T_blog-search-refresh.json"
     }
   ]
 }

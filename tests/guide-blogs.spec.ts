@@ -7,7 +7,7 @@ test('모든 여행지의 실제 블로그 글은 본문 확인 근거와 연결
   expect(new Set(guideBlogs.map((post) => post.cityId))).toEqual(
     new Set(cities.map((city) => city.id)),
   )
-  expect(guideBlogs).toHaveLength(88)
+  expect(guideBlogs).toHaveLength(94)
   for (const city of cities) {
     const posts = blogsForCity(city.id)
     expect(posts.length).toBeGreaterThanOrEqual(1)
@@ -45,6 +45,10 @@ test('새 탭은 오프라인에서 해당 도시 글을 보여주고 원문과 
   await page.goto('/')
   await context.setOffline(true)
   await page
+    .locator('.desktop-nav:visible, .bottom-nav:visible')
+    .getByRole('button', { name: '여행지', exact: true })
+    .click()
+  await page
     .getByRole('button', { name: '교토 여행지 자세히 보기', exact: true })
     .first()
     .click()
@@ -68,7 +72,7 @@ test('새 탭은 오프라인에서 해당 도시 글을 보여주고 원문과 
         .getByRole('link', { name: '교토 후기 더 찾기', exact: true })
         .getAttribute('href')) as string,
     ).searchParams.get('query'),
-  ).toBe('교토 자유여행 후기')
+  ).toBe('교토 자유여행')
   await panel.getByText('후기 선정 기준', { exact: true }).click()
   await expect(panel).toContainText('조회수·인기 순위는 확인하지 않았습니다')
   await expect(panel).toContainText('원문 확인: 2026-10-16 ~ 2026-10-18')
@@ -108,6 +112,10 @@ test('320px 확대 글자에서도 네 탭·긴 제목·원문 버튼이 잘리�
 }) => {
   await page.setViewportSize({ width: 320, height: 720 })
   await page.goto('/')
+  await page
+    .locator('.desktop-nav:visible, .bottom-nav:visible')
+    .getByRole('button', { name: '여행지', exact: true })
+    .click()
   await page
     .getByRole('button', { name: '교토 여행지 자세히 보기', exact: true })
     .first()

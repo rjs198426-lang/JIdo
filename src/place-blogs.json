@@ -743,5 +743,21 @@
         "name": "리티디안 비치"
       }
     ]
+  },
+  {
+    "title": "아이와 괌 4박 5일 2일차｜이파오비치 스노클링·PIC 수영장",
+    "url": "https://blog.naver.com/hope7270/224399060616",
+    "platform": "네이버 블로그",
+    "author": "주말연구소장",
+    "publishedAt": "2026-09-02",
+    "topic": "2025년 3월 이파오비치·PIC 물놀이와 식사·휴식 동선",
+    "checkedAt": "2026-11-05",
+    "places": [
+      {
+        "id": "guam-ypao-beach",
+        "cityId": "guam",
+        "name": "이파오 비치"
+      }
+    ]
   }
 ]

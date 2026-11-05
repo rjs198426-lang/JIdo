@@ -2196,3 +2196,42 @@ body {
 :root .place-card:has(.place-library-card-actions) > .place-card-copy { grid-column: 2; grid-row: 1; padding-right: 12px; }
 :root .place-card:has(.place-library-card-actions) > .place-card-add { display: none; }
 :root .place-card > .place-library-card-actions { grid-column: 1 / -1; grid-row: 2; position: relative; border-top: 1px solid var(--line); }
+
+/* Search topics stay optional; every link remains a full horizontal tap target. */
+.blog-search-options {
+  margin-block: 12px;
+}
+.blog-search-options > summary {
+  cursor: pointer;
+  padding-block: 12px;
+  color: var(--primary, #087f75);
+}
+.blog-search-topics {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+  margin-top: 8px;
+}
+.blog-search-topics a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  min-width: 0;
+  min-height: var(--tap-size, 49px);
+  padding: 10px 12px;
+  border: 1px solid #dde6e4;
+  border-radius: 12px;
+  font-size: 14px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.blog-search-topics a svg {
+  flex: none;
+}
+.place-review-sources .blog-search-topics a {
+  margin: 0;
+}
+:root .guide-tabs button {
+  min-height: var(--tap-size);
+}

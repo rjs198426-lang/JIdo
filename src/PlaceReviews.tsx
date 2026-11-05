@@ -2,6 +2,8 @@ import { ExternalLink } from 'lucide-react'
 import { getCity, type Place } from './catalog'
 import { blogsForPlace } from './place-blogs'
 import GooglePlaceReviews from './GooglePlaceReviews'
+import BlogSearchLinks from './BlogSearchLinks'
+import { placeBlogSearches } from './blog-search'
 
 export default function PlaceReviews({ place }: { place: Place }) {
   const posts = blogsForPlace(place)
@@ -12,6 +14,7 @@ export default function PlaceReviews({ place }: { place: Place }) {
     ...new Set(guides.map((source) => source.license || 'CC BY-SA 4.0')),
   ]
   const city = getCity(place.cityId)?.name || ''
+  const searches = placeBlogSearches(city, place)
   return (
     <>
       <GooglePlaceReviews
@@ -39,7 +42,7 @@ export default function PlaceReviews({ place }: { place: Place }) {
               )}
               <small>
                 {post.publishedAt && `${post.publishedAt} 작성 · `}
-                방문 후기 · 링크 확인 {post.checkedAt}
+                자료 확인 {post.checkedAt}
               </small>
             </span>
             <ExternalLink size={16} aria-hidden="true" />
@@ -47,13 +50,14 @@ export default function PlaceReviews({ place }: { place: Place }) {
         ))}
         <a
           className="place-blog-search"
-          href={`https://search.naver.com/search.naver?where=blog&query=${encodeURIComponent(`${city} ${place.name} 방문 후기`)}`}
+          href={searches[0].url}
           target="_blank"
           rel="noopener noreferrer"
         >
-          {posts.length ? '이 장소 후기 더 찾기' : '이 장소 블로그 후기 찾기'}
+          {posts.length ? '이 장소 정보 더 찾기' : '이 장소 블로그 찾기'}
           <ExternalLink size={16} aria-hidden="true" />
         </a>
+        <BlogSearchLinks searches={searches.slice(1)} />
         {(guides.length > 0 || place.osmPlaceId) && (
           <details className="place-description-sources">
             <summary>설명 자료 출처</summary>

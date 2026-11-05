@@ -2,6 +2,8 @@ import { useState } from 'react'
 import { ExternalLink } from 'lucide-react'
 import { getCity } from './catalog'
 import { blogsForCity } from './guide-blogs'
+import { cityBlogSearches } from './blog-search'
+import BlogSearchLinks from './BlogSearchLinks'
 
 export default function GuideBlogs({ cityId }: { cityId: string }) {
   const [topic, setTopic] = useState('전체')
@@ -21,6 +23,7 @@ export default function GuideBlogs({ cityId }: { cityId: string }) {
     (post) => topic === '전체' || classify(post.topic + post.title) === topic,
   )
   const name = getCity(cityId)?.name ?? cityId
+  const searches = cityBlogSearches(name)
   return (
     <section className="guide-blogs" aria-label={`${name} 블로그 후기`}>
       <div className="guide-blogs-heading">
@@ -64,12 +67,13 @@ export default function GuideBlogs({ cityId }: { cityId: string }) {
       )}
       <a
         className="button outline full guide-blog-search"
-        href={`https://search.naver.com/search.naver?where=blog&query=${encodeURIComponent(`${name} 자유여행 후기`)}`}
+        href={searches[0].url}
         target="_blank"
         rel="noopener noreferrer"
       >
         {name} 후기 더 찾기 <ExternalLink size={16} aria-hidden="true" />
       </a>
+      <BlogSearchLinks searches={searches.slice(1)} />
       <details className="guide-blog-criteria">
         <summary>후기 선정 기준</summary>
         <p>
