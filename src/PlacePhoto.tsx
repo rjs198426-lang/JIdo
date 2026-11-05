@@ -102,7 +102,7 @@ export default function PlacePhoto({
         쇼핑: ShoppingBag,
         체험: Sparkles,
       } as Record<string, typeof ImageIcon>
-    )[catalog?.category || stop?.custom?.kind || ''] || ImageIcon
+    )[stop?.custom?.kind || catalog?.category || ''] || ImageIcon
   return (
     <span
       className={`place-photo-empty ${className}`}

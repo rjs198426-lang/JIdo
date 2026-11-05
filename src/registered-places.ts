@@ -17,6 +17,8 @@ export function registeredPlaceKey(place: CustomPlace) {
 }
 export type RegisteredPlace = {
   key: string
+  personalId?: string
+  description?: string
   custom: CustomPlace
   destination: Destination
 }
@@ -38,7 +40,12 @@ export function registeredPlaces(trips: Trip[], destination?: Destination) {
       if (destination && !sameDestination(source, destination)) continue
       if (
         stop.custom.catalogPlaceId &&
-        places.some((place) => place.id === stop.custom!.catalogPlaceId)
+        places.some(
+          (place) =>
+            place.id === stop.custom!.catalogPlaceId &&
+            place.category === stop.custom!.kind &&
+            place.name === stop.custom!.name,
+        )
       )
         continue
       const key = `${source.guideCityId || normalized(source.country) + ':' + normalized(source.name)}:${registeredPlaceKey(stop.custom)}`
@@ -56,5 +63,10 @@ export function matchesRegisteredPlace(place: RegisteredPlace, query: string) {
     place.custom.kind,
     place.destination.name,
     place.destination.country,
+    /퍼시픽\s*아일랜드\s*클럽|pacific\s+islands?\s+club/i.test(
+      place.custom.name,
+    )
+      ? 'PIC'
+      : '',
   )
 }

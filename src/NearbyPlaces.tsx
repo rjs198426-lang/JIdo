@@ -1,6 +1,8 @@
 import { places, type Place } from './catalog'
 import { placeCoordinates } from './place-location'
 import { ChevronRight } from 'lucide-react'
+import { useContext } from 'react'
+import { PlaceLibraryContext } from './PlaceLibraryContext'
 function km(a: { lat: number; lng: number }, b: { lat: number; lng: number }) {
   const r = Math.PI / 180,
     lat = (b.lat - a.lat) * r,
@@ -10,13 +12,19 @@ function km(a: { lat: number; lng: number }, b: { lat: number; lng: number }) {
     Math.cos(a.lat * r) * Math.cos(b.lat * r) * Math.sin(lng / 2) ** 2
   return 6371 * 2 * Math.atan2(Math.sqrt(n), Math.sqrt(1 - n))
 }
-export function nearbyPlaces(place: Place) {
+export function nearbyPlaces(
+  place: Place,
+  hidden: ReadonlySet<string> = new Set(),
+) {
   const center = placeCoordinates(place)
   if (!center) return []
   return places
     .filter(
       (p) =>
-        p.cityId === place.cityId && p.id !== place.id && placeCoordinates(p),
+        p.cityId === place.cityId &&
+        p.id !== place.id &&
+        placeCoordinates(p) &&
+        !hidden.has(p.id),
     )
     .map((p) => ({ place: p, distance: km(center, placeCoordinates(p)!) }))
     .filter((p) => p.distance <= 3)
@@ -30,7 +38,8 @@ export default function NearbyPlaces({
   place: Place
   onOpen: (id: string) => void
 }) {
-  const nearby = nearbyPlaces(place)
+  const library = useContext(PlaceLibraryContext)
+  const nearby = nearbyPlaces(place, library?.hiddenPublicIds)
   if (!nearby.length) return null
   return (
     <section className="nearby-places" aria-label="주변 함께 볼 곳">

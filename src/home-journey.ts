@@ -38,6 +38,7 @@ export function homeJourney(
   trips: Trip[],
   activeTripId: string,
   now = new Date(),
+  hiddenPlaceIds: ReadonlySet<string> = new Set(),
 ) {
   const states = trips.map((trip) => ({ trip, ...journeyPhase(trip, now) }))
   const ongoing = states
@@ -97,7 +98,10 @@ export function homeJourney(
   const recommendations = city
     ? discoveryPlaces(
         places.filter(
-          (place) => place.cityId === city.id && !planned.has(place.id),
+          (place) =>
+            place.cityId === city.id &&
+            !planned.has(place.id) &&
+            !hiddenPlaceIds.has(place.id),
         ),
         now,
       ).slice(0, 4)

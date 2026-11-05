@@ -2,6 +2,11 @@ import { useEffect, useRef, useState } from 'react'
 import { getCity, getPlace } from './catalog'
 
 import { tripSchema, type Trip } from './travel-model'
+import {
+  placeLibrarySchema,
+  personalPlaceSchema,
+  type PlaceLibrary,
+} from './personal-place-library'
 export type { Trip, Stop } from './travel-model'
 
 export interface TravelStore {
@@ -9,6 +14,7 @@ export interface TravelStore {
   savedCities: string[]
   savedPlaces: string[]
   trips: Trip[]
+  placeLibrary?: PlaceLibrary
 }
 export const STORAGE_KEY = 'jido-travel-v1'
 const emptyStore: TravelStore = {
@@ -49,7 +55,9 @@ export function isValidStore(value: unknown): value is TravelStore {
     Array.isArray(data.trips) &&
     data.trips.length <= 500 &&
     new Set(data.trips.map((trip) => trip?.id)).size === data.trips.length &&
-    data.trips.every((trip) => tripSchema.safeParse(trip).success)
+    data.trips.every((trip) => tripSchema.safeParse(trip).success) &&
+    (data.placeLibrary === undefined ||
+      placeLibrarySchema.safeParse(data.placeLibrary).success)
   )
 }
 export const SAVE_ERROR_MESSAGE =
@@ -109,12 +117,42 @@ function salvage(raw: string) {
           ),
         ]
       : []
+  const salvagedLibrary: PlaceLibrary | undefined =
+    data?.placeLibrary !== undefined
+      ? {
+          entries: Array.isArray(data.placeLibrary?.entries)
+            ? [
+                ...new Map(
+                  data.placeLibrary.entries.flatMap((entry) => {
+                    const parsed = personalPlaceSchema.safeParse(entry)
+                    return parsed.success
+                      ? [[parsed.data.id, parsed.data] as const]
+                      : []
+                  }),
+                ).values(),
+              ].slice(0, 1000)
+            : [],
+          hidden: Array.isArray(data.placeLibrary?.hidden)
+            ? [
+                ...new Set(
+                  data.placeLibrary.hidden.filter(
+                    (key) =>
+                      typeof key === 'string' &&
+                      key.length > 0 &&
+                      key.length <= 2000,
+                  ),
+                ),
+              ].slice(0, 5000)
+            : [],
+        }
+      : undefined
   return {
     store: {
       version: 1 as const,
       trips,
       savedCities: cities,
       savedPlaces: places,
+      ...(salvagedLibrary ? { placeLibrary: salvagedLibrary } : {}),
     },
     details: {
       keptTrips: trips.length,
@@ -125,7 +163,12 @@ function salvage(raw: string) {
         ? data.savedCities.length - cities.length
         : null,
       excludedPlaces: Array.isArray(data?.savedPlaces)
-        ? data.savedPlaces.length - places.length
+        ? data.savedPlaces.length -
+          places.length +
+          (Array.isArray(data?.placeLibrary?.entries)
+            ? data.placeLibrary.entries.length -
+              (salvagedLibrary?.entries.length || 0)
+            : 0)
         : null,
       unreadable: data?.version !== 1 || !Array.isArray(data?.trips),
     },

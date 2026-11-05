@@ -15,6 +15,11 @@ import {
 import { portableTrip } from './TravelBackup'
 import { tripSchema, type Trip } from './travel-model'
 import type { TravelStore } from './store'
+import {
+  placeLibrarySchema,
+  mergePlaceLibraries,
+  type PlaceLibrary,
+} from './personal-place-library'
 
 export const NativeBackup = registerPlugin<{
   saveDocument(options: {
@@ -37,7 +42,7 @@ const fileSchema = attachmentSchema.extend({
 })
 const manifestSchema = z.object({
   format: z.literal('jido-full-backup'),
-  version: z.literal(1),
+  version: z.union([z.literal(1), z.literal(2)]),
   createdAt: z.string().datetime(),
   trips: z.array(tripSchema).max(500),
   personalPhotos: z
@@ -47,6 +52,7 @@ const manifestSchema = z.object({
     )
     .refine((p) => Object.keys(p).length <= 200),
   files: z.array(fileSchema).max(5000),
+  placeLibrary: placeLibrarySchema.optional(),
 })
 export type FullManifest = z.infer<typeof manifestSchema>
 export type BackupPreview = {
@@ -65,7 +71,14 @@ const digest = async (bytes: Uint8Array) =>
     .join('')
 function validate(value: unknown) {
   const manifest = manifestSchema.parse(value)
-  if (!manifest.trips.length && !Object.keys(manifest.personalPhotos).length)
+  if (manifest.placeLibrary && manifest.version !== 2)
+    throw new Error('개인 장소가 포함된 백업 형식을 확인해 주세요.')
+  if (
+    !manifest.trips.length &&
+    !Object.keys(manifest.personalPhotos).length &&
+    !manifest.placeLibrary?.entries.length &&
+    !manifest.placeLibrary?.hidden.length
+  )
     throw new Error('백업할 여행이나 사진이 없습니다.')
   const files = new Map(manifest.files.map((f) => [f.id, f]))
   const used = new Set<string>()
@@ -102,7 +115,7 @@ function validate(value: unknown) {
     throw new Error('연결되지 않은 백업 자료가 있습니다.')
   return manifest
 }
-export function fullManifest(trips: Trip[]) {
+export function fullManifest(trips: Trip[], placeLibrary?: PlaceLibrary) {
   const photos = personalPhotosSnapshot()
   const files = new Map<string, Attachment>()
   for (const file of [
@@ -118,7 +131,7 @@ export function fullManifest(trips: Trip[]) {
     throw new Error('전체 백업에는 최대 5,000개 파일을 담을 수 있어요.')
   return {
     format: 'jido-full-backup' as const,
-    version: 1 as const,
+    version: placeLibrary ? (2 as const) : (1 as const),
     createdAt: new Date().toISOString(),
     trips: trips.map((trip) => {
       const portable = portableTrip(trip)
@@ -133,6 +146,9 @@ export function fullManifest(trips: Trip[]) {
     }),
     personalPhotos: photos,
     files: [...files.values()],
+    ...(placeLibrary
+      ? { placeLibrary: placeLibrarySchema.parse(placeLibrary) }
+      : {}),
   }
 }
 export function downloadBlob(blob: Blob, name: string) {
@@ -145,8 +161,11 @@ export function downloadBlob(blob: Blob, name: string) {
   anchor.remove()
   setTimeout(() => URL.revokeObjectURL(url), 30000)
 }
-export async function exportFullBackup(trips: Trip[]) {
-  const manifest = fullManifest(trips)
+export async function exportFullBackup(
+  trips: Trip[],
+  placeLibrary?: PlaceLibrary,
+) {
+  const manifest = fullManifest(trips, placeLibrary)
   if (isAndroid())
     return NativeBackup.exportArchive({ manifest: JSON.stringify(manifest) })
   if (manifest.files.reduce((n, f) => n + f.size, 0) > BROWSER_LIMIT)
@@ -313,7 +332,12 @@ export async function restoreBackupFiles(preview: BackupPreview) {
         attachments,
       })
     })
-    return { trips, photos, created }
+    return {
+      trips,
+      photos,
+      created,
+      placeLibrary: preview.manifest.placeLibrary,
+    }
   } catch (error) {
     await cleanupBackupFiles(created)
     throw error
@@ -332,12 +356,18 @@ export function commitFullRestore(
   restoredPhotos: Record<string, Attachment>,
   persist: (next: TravelStore) => void = (next) =>
     localStorage.setItem('jido-travel-v1', JSON.stringify(next)),
+  placeLibrary?: PlaceLibrary,
 ): TravelStore {
   if (current.trips.length + trips.length > 500)
     throw new Error('여행은 최대 500개까지 보관할 수 있어요.')
   const before = personalPhotosSnapshot(),
     photos = { ...restoredPhotos, ...before }
-  const next = { ...current, trips: [...current.trips, ...trips] }
+  const merged = mergePlaceLibraries(current.placeLibrary, placeLibrary)
+  const next = {
+    ...current,
+    trips: [...current.trips, ...trips],
+    ...(merged ? { placeLibrary: merged } : {}),
+  }
   for (const trip of trips) tripSchema.parse(trip)
   let changed = false
   try {

@@ -1,5 +1,7 @@
 import { LocateFixed, ArrowUpRight } from 'lucide-react'
 import { discoveryPlaces } from './catalog'
+import { useContext } from 'react'
+import { PlaceLibraryContext } from './PlaceLibraryContext'
 import type { Stop } from './travel-model'
 import { stopDetails } from './travel-model'
 import { routePoints } from './route-map-model'
@@ -18,6 +20,7 @@ export default function LiveNearby({
   next?: Stop
   onOpen: (id: string) => void
 }) {
+  const library = useContext(PlaceLibraryContext)
   const location = useLiveLocation(),
     position = location.position
   const target = next ? routePoints([next])[0] : undefined
@@ -26,7 +29,13 @@ export default function LiveNearby({
       ? destinationProgress(position, location.previous, target, location.now)
       : undefined
   const nearby = position
-    ? nearbyDining(discoveryPlaces(), position, location.now)
+    ? nearbyDining(
+        discoveryPlaces().filter(
+          (place) => !library?.hiddenPublicIds.has(place.id),
+        ),
+        position,
+        location.now,
+      )
     : []
   return (
     <section className="live-nearby" aria-label="현재 위치와 주변 장소">

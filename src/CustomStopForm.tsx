@@ -38,6 +38,7 @@ export default function CustomStopForm({
   const [kind, setKind] = useState<CustomPlace['kind']>(
     stop?.custom?.kind || '관광',
   )
+  const [kindChosen, setKindChosen] = useState(Boolean(stop))
   const [address, setAddress] = useState(stop?.custom?.address || '')
   const [link, setLink] = useState(stop?.custom?.link || '')
   const [destinationId, setDestinationId] = useState(
@@ -69,7 +70,7 @@ export default function CustomStopForm({
     setName(place.name)
     setAddress(place.address)
     setLink(place.link)
-    setKind(place.kind)
+    if (!kindChosen) setKind(place.kind)
     setGooglePlaceId(place.provider === 'google' ? place.id : undefined)
     setOsmPlaceId(place.provider === 'osm' ? place.id : undefined)
     setCoordinates(place.coordinates)
@@ -101,7 +102,7 @@ export default function CustomStopForm({
     setName(place.name)
     setAddress(place.address)
     setLink(mapsSearch(placeMapQuery(place)))
-    setKind(place.category)
+    if (!kindChosen) setKind(place.category)
     setResults([])
   }
   const draftKey = `jdo-place-draft:${trip.id}:${day}:${stop?.id || 'new'}${!stop && initialName ? ':' + initialName : ''}`
@@ -136,8 +137,10 @@ export default function CustomStopForm({
         if (typeof draft.note === 'string') setNote(draft.note)
         if (typeof draft.catalogPlaceId === 'string')
           setCatalogPlaceId(draft.catalogPlaceId)
-        if (customPlaceKinds.some((kind) => kind === draft.kind))
+        if (customPlaceKinds.some((kind) => kind === draft.kind)) {
           setKind(draft.kind)
+          setKindChosen(true)
+        }
         if (
           tripDestinations(trip).some((item) => item.id === draft.destinationId)
         )
@@ -364,9 +367,10 @@ export default function CustomStopForm({
           일정 유형
           <select
             value={kind}
-            onChange={(event) =>
+            onChange={(event) => {
               setKind(event.target.value as CustomPlace['kind'])
-            }
+              setKindChosen(true)
+            }}
           >
             {customPlaceKinds.map((item) => (
               <option key={item}>{item}</option>

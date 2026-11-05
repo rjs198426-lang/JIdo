@@ -1,4 +1,7 @@
 import PlaceDiscoveryOrder from './PlaceDiscoveryOrder'
+import { useContext } from 'react'
+import { PlaceLibraryContext } from './PlaceLibraryContext'
+import PersonalPlaceCard from './PersonalPlaceCard'
 import PlacePhoto from './PlacePhoto'
 import { useDraftFields } from './form-draft'
 import {
@@ -36,6 +39,7 @@ export default function GuidePlaces({
   onOpen: (id: string) => void
   onAdd?: (id: string) => void
 }) {
+  const library = useContext(PlaceLibraryContext)
   const view = useDraftFields(
     `jido-view:guide-places:${cityId}:${initialCategory}`,
     { category: initialCategory, query: '' },
@@ -43,7 +47,22 @@ export default function GuidePlaces({
   )
   const [category, setCategory] = view.field('category')
   const [query, setQuery] = view.field('query')
-  const all = discoveryPlaces(places.filter((place) => place.cityId === cityId))
+  const all = discoveryPlaces(
+    places.filter(
+      (place) =>
+        place.cityId === cityId && !library?.hiddenPublicIds.has(place.id),
+    ),
+  )
+  const owned = (library?.entries || []).filter(
+    (entry) => entry.destination.guideCityId === cityId,
+  )
+  const filteredOwned = owned.filter(
+    (entry) =>
+      (category === '전체' || entry.custom.kind === category) &&
+      `${entry.custom.name} ${entry.custom.address}`
+        .toLocaleLowerCase()
+        .includes(query.trim().toLocaleLowerCase()),
+  )
   const filtered = all.filter(
     (place) =>
       (category === '전체' || place.category === category) &&
@@ -57,11 +76,21 @@ export default function GuidePlaces({
         <h3>장소 둘러보기</h3>
         <span aria-live="polite">
           {category === '전체'
-            ? `${all.length}곳`
-            : `${filtered.length}/${all.length}곳`}
+            ? `${all.length + owned.length}곳`
+            : `${filtered.length + filteredOwned.length}/${all.length + owned.length}곳`}
         </span>
       </div>
       <PlaceDiscoveryOrder />
+      {library && (
+        <button
+          type="button"
+          className="text-button"
+          onClick={() => library.create(cityId, category)}
+        >
+          <Plus size={17} />
+          장소 추가
+        </button>
+      )}
       <div
         className="category-row guide-place-categories"
         role="group"
@@ -70,8 +99,9 @@ export default function GuidePlaces({
         {categoryOptions.map((item) => {
           const count =
             item === '전체'
-              ? all.length
-              : all.filter((place) => place.category === item).length
+              ? all.length + owned.length
+              : all.filter((place) => place.category === item).length +
+                owned.filter((entry) => entry.custom.kind === item).length
           return (
             <button
               key={item}
@@ -133,7 +163,19 @@ export default function GuidePlaces({
           )
         })}
       </div>
-      {!filtered.length && (
+      {filteredOwned.length > 0 && (
+        <div className="place-grid personal-place-grid">
+          {filteredOwned.map((entry) => (
+            <PersonalPlaceCard
+              key={entry.key}
+              entry={entry}
+              onOpen={() => library?.open(entry)}
+              onAdd={() => library?.open(entry)}
+            />
+          ))}
+        </div>
+      )}
+      {!filtered.length && !filteredOwned.length && (
         <p className="guide-places-empty">
           {emptyMessage &&
           !all.some((place) => place.category === initialCategory) &&

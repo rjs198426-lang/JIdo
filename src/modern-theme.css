@@ -2180,3 +2180,19 @@ body {
 .google-review-result ul { list-style: none; margin: 8px 0; padding: 0; }
 .google-review-result li { display: flex; flex-wrap: wrap; gap: 8px; padding: 10px 0; }
 .google-review-result a, .google-place-reviews > a { min-height: 44px; display: inline-flex; align-items: center; }
+.place-library-toolbar { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 12px; }
+.personal-place-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)); gap: 16px; margin-bottom: 16px; }
+.personal-place-card .place-photo-empty { min-height: 110px; }
+.personal-place-form .input-with-button { display: flex; gap: 8px; min-width: 0; }
+.personal-place-form .input-with-button input { min-width: 0; flex: 1; }
+.personal-place-form .input-with-button button { flex-shrink: 0; }
+.registered-place-manage { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; padding: 12px 20px 0; }
+.place-library-card-actions { display: flex; gap: 8px; padding: 8px 12px; justify-content: flex-end; grid-column: 1 / -1; }
+:root .place-card:has(.place-library-card-actions) .place-card-add { top: 12px; bottom: auto; }
+:root .place-card:has(.place-library-card-actions) .place-card-copy { padding-right: 64px; }
+.place-library-card-actions .icon-button { min-width: var(--tap-size); min-height: var(--tap-size); }
+:root .place-card:has(.place-library-card-actions) { display: grid; grid-template-columns: 100px minmax(0, 1fr); }
+:root .place-card:has(.place-library-card-actions) > .place-photo { grid-column: 1; grid-row: 1; min-height: 112px; aspect-ratio: auto; }
+:root .place-card:has(.place-library-card-actions) > .place-card-copy { grid-column: 2; grid-row: 1; padding-right: 12px; }
+:root .place-card:has(.place-library-card-actions) > .place-card-add { display: none; }
+:root .place-card > .place-library-card-actions { grid-column: 1 / -1; grid-row: 2; position: relative; border-top: 1px solid var(--line); }

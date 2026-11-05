@@ -9,6 +9,14 @@ export const SESSION_KEY = 'jido-last-screen-v1'
 const text = z.string().max(200)
 const day = z.number().int().min(0).max(89)
 const dialogSchema = z.discriminatedUnion('type', [
+  z.object({
+    type: z.literal('personal-place'),
+    personalId: z.string().uuid().optional(),
+    draftId: text.optional(),
+    cityId: text.optional(),
+    kind: text.optional(),
+    initialName: text.optional(),
+  }),
   z.object({ type: z.literal('credits') }),
   z.object({ type: z.literal('reminders') }),
   z.object({ type: z.literal('nearby') }),

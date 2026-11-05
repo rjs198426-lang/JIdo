@@ -4,6 +4,7 @@ import { type Trip } from './travel-model'
 import { type Attachment, formatFileSize } from './attachment-schema'
 import { isAndroid } from './attachment-storage'
 import { personalPhotosSnapshot } from './personal-photos'
+import type { PlaceLibrary } from './personal-place-library'
 import {
   cleanupBackupFiles,
   discardBackup,
@@ -15,10 +16,16 @@ import {
 
 export default function FullBackup({
   trips,
+  placeLibrary,
   onRestore,
 }: {
   trips: Trip[]
-  onRestore: (trips: Trip[], photos: Record<string, Attachment>) => void
+  placeLibrary?: PlaceLibrary
+  onRestore: (
+    trips: Trip[],
+    photos: Record<string, Attachment>,
+    placeLibrary?: PlaceLibrary,
+  ) => void
 }) {
   const [preview, setPreview] = useState<BackupPreview>(),
     [busy, setBusy] = useState(false),
@@ -77,7 +84,7 @@ export default function FullBackup({
         await cleanupBackupFiles(files)
         return
       }
-      onRestore(result.trips, result.photos)
+      onRestore(result.trips, result.photos, result.placeLibrary)
       files = []
       await discardBackup(preview)
       show(undefined)
@@ -107,14 +114,17 @@ export default function FullBackup({
           className="button primary"
           disabled={
             busy ||
-            (!trips.length && !Object.keys(personalPhotosSnapshot()).length)
+            (!trips.length &&
+              !Object.keys(personalPhotosSnapshot()).length &&
+              !placeLibrary?.entries.length &&
+              !placeLibrary?.hidden.length)
           }
           onClick={async () => {
             setBusy(true)
             setError('')
             setMessage('')
             try {
-              const result = await exportFullBackup(trips)
+              const result = await exportFullBackup(trips, placeLibrary)
               if (alive.current)
                 setMessage(
                   result.cancelled
@@ -166,6 +176,12 @@ export default function FullBackup({
             )}
           </strong>
           <ul>
+            {preview.manifest.placeLibrary && (
+              <li>
+                직접 추가한 장소 {preview.manifest.placeLibrary.entries.length}
+                곳 · 목록 제외 {preview.manifest.placeLibrary.hidden.length}건
+              </li>
+            )}
             {preview.manifest.trips.slice(0, 10).map((trip) => (
               <li key={trip.id}>
                 {trip.title} · {trip.days.length}일

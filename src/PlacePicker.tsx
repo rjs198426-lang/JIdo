@@ -3,7 +3,9 @@ import PlaceSearchResults, {
   usePlaceSearch,
 } from './PlaceSearch'
 import PlaceDiscoveryOrder from './PlaceDiscoveryOrder'
-import { useState } from 'react'
+import { useState, useContext } from 'react'
+import { PlaceLibraryContext } from './PlaceLibraryContext'
+import { sameDestination } from './registered-places'
 import { Check, Plus, Search, MapPin } from 'lucide-react'
 import { placeIntroduction } from './place-introduction'
 import { places, discoveryPlaces, categoryOptions, getCity } from './catalog'
@@ -42,6 +44,7 @@ export default function PlacePicker({
   onDone: () => void
   onReuse: (place: CustomPlace) => void
 }) {
+  const library = useContext(PlaceLibraryContext)
   const [initialIds] = useState(
     () => new Set(trip.days[day].map((stop) => stop.id)),
   )
@@ -59,13 +62,18 @@ export default function PlacePicker({
   const known = discoveryPlaces(
     places.filter(
       (place) =>
+        !library?.hiddenPublicIds.has(place.id) &&
         place.cityId === destination.guideCityId &&
         (matchesPlace(place, getCity(place.cityId)!, query) ||
           matchesSearch(query, place.name, place.english, place.address)),
     ),
   )
-  const saved = registeredPlaces(trips, destination).filter((place) =>
-    matchesRegisteredPlace(place, query),
+  const saved = (
+    library?.entries || registeredPlaces(trips, destination)
+  ).filter(
+    (place) =>
+      sameDestination(place.destination, destination) &&
+      matchesRegisteredPlace(place, query),
   )
   const available = known.filter(
     (place) => category === '전체' || place.category === category,
@@ -132,9 +140,17 @@ export default function PlacePicker({
           )
           return (
             <div key={entry.key} className="picker-item">
-              <span className="registered-place-icon">
-                <MapPin size={22} />
-              </span>
+              <PlacePhoto
+                stop={{
+                  id: '',
+                  placeId: '',
+                  time: '',
+                  note: '',
+                  custom: entry.custom,
+                }}
+                alt={entry.custom.name}
+                className="picker-place-photo"
+              />
               <button
                 type="button"
                 className="picker-place-name"

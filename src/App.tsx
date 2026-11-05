@@ -44,6 +44,16 @@ import BlogPhotos from './BlogPhotos'
 import { meaningfulCost } from './place-introduction'
 import { discoveryPlaces } from './catalog'
 import PlaceDiscoveryOrder from './PlaceDiscoveryOrder'
+import { PlaceLibraryContext } from './PlaceLibraryContext'
+import PersonalPlaceForm from './PersonalPlaceForm'
+import PersonalPlaceCard from './PersonalPlaceCard'
+import {
+  libraryPlaces,
+  savePersonalPlace,
+  removeLibraryPlace,
+  mergePlaceLibraries,
+  type PersonalPlace,
+} from './personal-place-library'
 import { useSyncExternalStore } from 'react'
 import {
   subscribeGoogleReviews,
@@ -120,6 +130,7 @@ import {
   useState,
   type FormEvent,
   type ReactNode,
+  type ContextType,
 } from 'react'
 import {
   ArrowDown,
@@ -194,6 +205,20 @@ import {
 
 type Page = 'home' | 'trips' | 'explore' | 'settings'
 type Dialog =
+  | {
+      type: 'personal-place'
+      personalId?: string
+      draftId?: string
+      cityId?: string
+      kind?: string
+      initialName?: string
+      entry?: import('./registered-places').RegisteredPlace
+    }
+  | {
+      type: 'remove-place'
+      entry?: import('./registered-places').RegisteredPlace
+      placeId?: string
+    }
   | { type: 'credits' }
   | { type: 'reminders' }
   | { type: 'nearby' }
@@ -247,6 +272,24 @@ const categoryIcon = {
 }
 
 const StorageErrorContext = createContext('')
+
+function AppProviders({
+  error,
+  library,
+  children,
+}: {
+  error: string
+  library: NonNullable<ContextType<typeof PlaceLibraryContext>>
+  children: ReactNode
+}) {
+  return (
+    <StorageErrorContext.Provider value={error}>
+      <PlaceLibraryContext.Provider value={library}>
+        {children}
+      </PlaceLibraryContext.Provider>
+    </StorageErrorContext.Provider>
+  )
+}
 
 function Modal({
   title,
@@ -373,10 +416,12 @@ function PlaceCard({
   place,
   onOpen,
   onAdd,
+  onDelete,
 }: {
   place: Place
   onOpen: () => void
   onAdd?: () => void
+  onDelete?: () => void
 }) {
   const Icon = categoryIcon[place.category]
   return (
@@ -416,6 +461,18 @@ function PlaceCard({
         >
           <Plus size={20} />
         </button>
+      )}
+      {onDelete && (
+        <div className="place-library-card-actions">
+          <button
+            type="button"
+            className="icon-button"
+            aria-label={`${place.name} 목록에서 삭제`}
+            onClick={onDelete}
+          >
+            <Trash2 size={20} />
+          </button>
+        </div>
       )}
     </article>
   )
@@ -2153,6 +2210,11 @@ export default function App() {
   useEffect(() => setInfoOpen(false), [page, dialog])
 
   const [toast, setToast] = useState('')
+  const [editingPlaces, setEditingPlaces] = useState(false)
+  const [removedPlace, setRemovedPlace] = useState<{
+    record?: PersonalPlace
+    keys: string[]
+  }>()
   const [reminderRevision, setReminderRevision] = useState(0)
   const [activeTripId, setActiveTripId] = useState(() => {
     if (initialSession?.activeTripId) return initialSession.activeTripId
@@ -2433,7 +2495,31 @@ export default function App() {
     }
     setToast(close ? '일정에 장소를 추가했어요.' : '')
   }
-  const registered = registeredPlaces(store.trips)
+  const registered = libraryPlaces(store.trips, store.placeLibrary)
+  const hiddenPublicIds = new Set(
+    (store.placeLibrary?.hidden || [])
+      .filter((key) => key.startsWith('public:'))
+      .map((key) => key.slice(7)),
+  )
+  for (const entry of registered)
+    if (entry.custom.catalogPlaceId)
+      hiddenPublicIds.add(entry.custom.catalogPlaceId)
+  const createLibraryPlace = (cityId?: string, kind?: string) =>
+    setDialog({
+      type: 'personal-place',
+      cityId,
+      kind,
+      draftId: `new-${cityId || 'all'}`,
+    })
+  const editLibraryPlace = (
+    entry: import('./registered-places').RegisteredPlace,
+  ) =>
+    setDialog({
+      type: 'personal-place',
+      entry,
+      personalId: entry.personalId,
+      draftId: entry.personalId || crypto.randomUUID(),
+    })
   const startNewPlace = () => {
     if (activeTrip)
       setDialog({
@@ -2473,7 +2559,9 @@ export default function App() {
       matchesRegisteredPlace(entry, query)
     )
   })
-  const discoverablePlaces = discoveryPlaces()
+  const discoverablePlaces = discoveryPlaces().filter(
+    (place) => !hiddenPublicIds.has(place.id),
+  )
   const filteredPlaces = discoverablePlaces.filter((place) => {
     const city = getCity(place.cityId)!
     return (
@@ -2513,7 +2601,7 @@ export default function App() {
       document.removeEventListener('visibilitychange', refresh)
     }
   }, [])
-  const home = homeJourney(store.trips, activeTripId, homeNow)
+  const home = homeJourney(store.trips, activeTripId, homeNow, hiddenPublicIds)
   const activeTrip =
     store.trips.find((trip) => trip.id === activeTripId) || store.trips[0]
   useAppSession(
@@ -2562,14 +2650,26 @@ export default function App() {
 
           onOpen={() => openPlace(place.id)}
           onAdd={() => setDialog({ type: 'add', placeId: place.id })}
+          onDelete={
+            page === 'explore' && editingPlaces
+              ? () => setDialog({ type: 'remove-place', placeId: place.id })
+              : undefined
+          }
         />
       ))}
     </div>
   )
 
   return (
-    <StorageErrorContext.Provider
-      value={storageError ? saveError || SAVE_ERROR_MESSAGE : ''}
+    <AppProviders
+      error={storageError ? saveError || SAVE_ERROR_MESSAGE : ''}
+      library={{
+        entries: registered,
+        hiddenPublicIds,
+        create: createLibraryPlace,
+        open: (entry) =>
+          setDialog({ type: 'registered', key: entry.key, entry }),
+      }}
     >
       <header className="header">
         <div className="header-inner">
@@ -2864,11 +2964,13 @@ export default function App() {
                     {exploreCityOptions.map((city) => (
                       <option key={city.id} value={city.id}>
                         {city.name} ·{' '}
-                        {
-                          discoverablePlaces.filter(
-                            (place) => place.cityId === city.id,
-                          ).length
-                        }
+                        {discoverablePlaces.filter(
+                          (place) => place.cityId === city.id,
+                        ).length +
+                          registered.filter(
+                            (entry) =>
+                              entry.destination.guideCityId === city.id,
+                          ).length}
                         곳
                       </option>
                     ))}
@@ -2894,7 +2996,96 @@ export default function App() {
                 : filteredPlaces.length + filteredRegistered.length}
               개의 {exploreTab === 'cities' ? '여행지' : '장소'}
             </p>
-            {exploreTab === 'places' && <PlaceDiscoveryOrder />}
+            {exploreTab === 'places' && (
+              <>
+                <div className="place-library-toolbar">
+                  <button
+                    type="button"
+                    className="button primary small"
+                    onClick={() =>
+                      setDialog({
+                        type: 'personal-place',
+                        draftId: `new-${effectiveExploreCity === '전체' ? 'all' : effectiveExploreCity}`,
+                        cityId:
+                          effectiveExploreCity === '전체'
+                            ? undefined
+                            : effectiveExploreCity,
+                        kind: category,
+                        initialName: query.trim(),
+                      })
+                    }
+                  >
+                    <Plus size={18} />
+                    장소 추가
+                  </button>
+                  <button
+                    type="button"
+                    className="button outline small"
+                    aria-pressed={editingPlaces}
+                    onClick={() => setEditingPlaces((value) => !value)}
+                  >
+                    {editingPlaces ? '편집 완료' : '장소 편집'}
+                  </button>
+                </div>
+                {editingPlaces &&
+                  store.placeLibrary?.hidden.some((key) =>
+                    key.startsWith('public:'),
+                  ) && (
+                    <button
+                      className="text-button"
+                      onClick={() =>
+                        setStore((previous) => ({
+                          ...previous,
+                          placeLibrary: {
+                            entries: previous.placeLibrary?.entries || [],
+                            hidden: (
+                              previous.placeLibrary?.hidden || []
+                            ).filter((key) => !key.startsWith('public:')),
+                          },
+                        }))
+                      }
+                    >
+                      삭제한 추천 장소 복원
+                    </button>
+                  )}
+                <PlaceDiscoveryOrder />
+                {removedPlace && (
+                  <div className="undo-strip" role="status">
+                    장소 목록에서 삭제했어요. 기존 일정은 유지돼요.
+                    <button
+                      type="button"
+                      onClick={() => {
+                        if (
+                          setStore((previous) => {
+                            const library = mergePlaceLibraries(
+                              previous.placeLibrary,
+                              {
+                                entries: removedPlace.record
+                                  ? [removedPlace.record]
+                                  : [],
+                                hidden: [],
+                              },
+                            )!
+                            return {
+                              ...previous,
+                              placeLibrary: {
+                                ...library,
+                                hidden: library.hidden.filter(
+                                  (key) => !removedPlace.keys.includes(key),
+                                ),
+                              },
+                            }
+                          })
+                        )
+                          setRemovedPlace(undefined)
+                      }}
+                    >
+                      실행 취소
+                    </button>
+                  </div>
+                )}
+              </>
+            )}
             {exploreTab === 'places' && (
               <>
                 <PlaceSearchResults
@@ -2923,7 +3114,11 @@ export default function App() {
                     setDialog({
                       type: 'registered',
                       key: `search:${place.provider}:${place.id}`,
-                      entry: { key: `search:${place.id}`, destination, custom },
+                      entry: {
+                        key: `search:${place.id}`,
+                        destination,
+                        custom,
+                      },
                     })
                   }}
                 />
@@ -2932,38 +3127,24 @@ export default function App() {
             )}
             {exploreTab === 'places' && filteredRegistered.length > 0 && (
               <div
-                className="picker-list registered-explore-list"
+                className="place-grid personal-place-grid"
                 aria-label="직접 등록한 장소 검색 결과"
               >
                 {filteredRegistered.map((entry) => (
-                  <div className="picker-item" key={entry.key}>
-                    <span className="registered-place-icon">
-                      <MapPin size={22} />
-                    </span>
-                    <button
-                      type="button"
-                      className="picker-place-name"
-                      onClick={() =>
-                        setDialog({ type: 'registered', key: entry.key })
-                      }
-                    >
-                      <small>
-                        {entry.destination.name} · {entry.custom.kind}
-                      </small>
-                      <strong>{entry.custom.name}</strong>
-                      <span>{entry.custom.address}</span>
-                    </button>
-                    <button
-                      type="button"
-                      className="icon-button"
-                      aria-label={`${entry.custom.name} 일정에 추가`}
-                      onClick={() =>
-                        setDialog({ type: 'registered', key: entry.key })
-                      }
-                    >
-                      <Plus size={20} />
-                    </button>
-                  </div>
+                  <PersonalPlaceCard
+                    key={entry.key}
+                    entry={entry}
+                    onOpen={() =>
+                      setDialog({ type: 'registered', key: entry.key })
+                    }
+                    onAdd={() =>
+                      setDialog({ type: 'registered', key: entry.key })
+                    }
+                    onEdit={
+                      editingPlaces ? () => editLibraryPlace(entry) : undefined
+                    }
+                    onDelete={() => setDialog({ type: 'remove-place', entry })}
+                  />
                 ))}
               </div>
             )}
@@ -3296,7 +3477,8 @@ export default function App() {
             day={activeDay}
             trips={store.trips}
             activeTrip={activeTrip}
-            onFullRestore={(trips, photos) => {
+            placeLibrary={store.placeLibrary}
+            onFullRestore={(trips, photos, placeLibrary) => {
               commitFullRestore(
                 attachmentStoreRef.current,
                 trips,
@@ -3304,6 +3486,7 @@ export default function App() {
                 (value) => {
                   if (!setStore(value)) throw new Error(SAVE_ERROR_MESSAGE)
                 },
+                placeLibrary,
               )
               if (trips.length) {
                 setActiveTripId(trips[0].id)
@@ -3371,6 +3554,101 @@ export default function App() {
               setToast(`${result.added}곳을 일정에 담았어요.`)
             }}
           />
+        </Modal>
+      )}
+      {dialog?.type === 'personal-place' && (
+        <Modal
+          title={
+            dialog.entry || dialog.personalId
+              ? '장소 수정'
+              : '가볼 만한 곳 추가'
+          }
+          onClose={() => setDialog(null)}
+        >
+          <PersonalPlaceForm
+            knownEntries={registered}
+            entry={
+              dialog.entry ||
+              (dialog.personalId
+                ? registered.find(
+                    (entry) => entry.personalId === dialog.personalId,
+                  )
+                : undefined)
+            }
+            draftId={dialog.draftId}
+            initialCityId={dialog.cityId}
+            initialKind={dialog.kind}
+            initialName={dialog.initialName}
+            destinations={[
+              ...cities.map((city) => ({
+                id: city.id,
+                name: city.name,
+                country: city.country,
+                guideCityId: city.id,
+                timeZone: city.timeZone,
+              })),
+              ...store.trips.flatMap(tripDestinations),
+            ]}
+            onSave={(record) => {
+              if (
+                !setStore((previous) => ({
+                  ...previous,
+                  placeLibrary: savePersonalPlace(
+                    previous.placeLibrary,
+                    record,
+                    dialog.entry,
+                  ),
+                }))
+              )
+                return false
+              setDialog(null)
+              setToast('장소 목록에 저장했어요.')
+              return true
+            }}
+          />
+        </Modal>
+      )}
+      {dialog?.type === 'remove-place' && (
+        <Modal title="장소 목록에서 삭제" onClose={() => setDialog(null)}>
+          <div className="modal-body">
+            <p>
+              <strong>
+                {dialog.entry?.custom.name ||
+                  getPlace(dialog.placeId || '')?.name}
+              </strong>
+              을 가볼 만한 곳에서 삭제할까요?
+            </p>
+            <p>이미 담은 일정·메모·사진·예약은 그대로 남아요.</p>
+            <div className="button-row">
+              <button
+                className="button outline"
+                onClick={() => setDialog(null)}
+              >
+                취소
+              </button>
+              <button
+                className="button danger"
+                onClick={() => {
+                  const current = attachmentStoreRef.current
+                  const target = dialog.entry || dialog.placeId
+                  if (!target) return
+                  const next = removeLibraryPlace(current.placeLibrary, target)
+                  if (!setStore({ ...current, placeLibrary: next })) return
+                  setRemovedPlace({
+                    record: current.placeLibrary?.entries.find(
+                      (entry) => entry.id === dialog.entry?.personalId,
+                    ),
+                    keys: next.hidden.filter(
+                      (key) => !current.placeLibrary?.hidden.includes(key),
+                    ),
+                  })
+                  setDialog(null)
+                }}
+              >
+                목록에서 삭제
+              </button>
+            </div>
+          </div>
         </Modal>
       )}
       {dialog?.type === 'create' && (
@@ -3693,6 +3971,20 @@ export default function App() {
               title="등록한 장소 일정에 담기"
               onClose={() => setDialog(null)}
             >
+              <div className="registered-place-manage">
+                <button
+                  className="text-button"
+                  onClick={() => editLibraryPlace(entry)}
+                >
+                  {entry.personalId ? '장소 정보 수정' : '장소 목록에 저장'}
+                </button>
+                <button
+                  className="text-button"
+                  onClick={() => setDialog({ type: 'remove-place', entry })}
+                >
+                  목록에서 삭제
+                </button>
+              </div>
               <RegisteredPlaceAdd
                 entry={entry}
                 trips={store.trips}
@@ -3763,8 +4055,8 @@ export default function App() {
         <Modal title="이 여행을 삭제할까요?" onClose={() => setDialog(null)}>
           <div className="modal-body">
             <p className="delete-description">
-              ‘{store.trips.find((trip) => trip.id === dialog.tripId)?.title}’의
-              일정과 메모가 삭제돼요.
+              ‘{store.trips.find((trip) => trip.id === dialog.tripId)?.title}
+              ’의 일정과 메모가 삭제돼요.
             </p>
             <div className="form-row">
               <button
@@ -3798,6 +4090,6 @@ export default function App() {
           </div>
         </Modal>
       )}
-    </StorageErrorContext.Provider>
+    </AppProviders>
   )
 }

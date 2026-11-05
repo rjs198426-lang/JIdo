@@ -16,6 +16,7 @@ import {
 } from './travel-model'
 import { dateAt, formatDate } from './store'
 import { placeCoordinates, placeMapQuery } from './place-location'
+import type { PlaceLibrary } from './personal-place-library'
 
 // Backups carry their own place descriptions, so a removed guide cannot break a restored trip.
 export function portableTrip(trip: Trip): Trip {
@@ -82,16 +83,22 @@ const backupSchema = z.object({
 })
 export default function TravelBackup({
   trips,
+  placeLibrary,
   activeTrip,
   day = 0,
   onRestore,
   onFullRestore,
 }: {
   trips: Trip[]
+  placeLibrary?: PlaceLibrary
   day?: number
   activeTrip?: Trip
   onRestore: (trips: Trip[]) => void
-  onFullRestore: (trips: Trip[], photos: Record<string, Attachment>) => void
+  onFullRestore: (
+    trips: Trip[],
+    photos: Record<string, Attachment>,
+    placeLibrary?: PlaceLibrary,
+  ) => void
 }) {
   const [purpose, setPurpose] = useState<'personal' | 'companion'>('personal')
   const [input, setInput] = useState('')
@@ -192,7 +199,11 @@ export default function TravelBackup({
         <JourneyShare trip={activeTrip} day={day} expanded />
       ) : (
         <>
-          <FullBackup trips={trips} onRestore={onFullRestore} />
+          <FullBackup
+            trips={trips}
+            placeLibrary={placeLibrary}
+            onRestore={onFullRestore}
+          />
           <details className="legacy-backup">
             <summary>고급 · 일정 JSON 가져오기·내보내기</summary>
             <h3>일정 JSON 백업</h3>
