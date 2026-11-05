@@ -1,6 +1,6 @@
 # J★Do Android 다운로드
 
-[J★Do 0.79 개발판 APK 다운로드](https://raw.githubusercontent.com/rjs198426-lang/JIdo/android-apk-downloads/JDo-android-0.79.apk)
+[J★Do 0.79 개발판 APK 다운로드](https://raw.githubusercontent.com/rjs198426-lang/JIdo/8521e726a22b4197960f586fb8bc31bb0821ab5f/JDo-android-0.79.apk)
 
 - 앱: **J★Do** (`com.jido.travel.next`)
 - 버전: 0.79 개발판 · versionCode 80 · Android 7.0 이상
@@ -22,6 +22,8 @@
 - 개인 장소·여행·메모·예약·사진과 기존 공공 ID·좌표·사진 출처를 보존합니다. 새 사진이나 원문 전체를 복제하지 않습니다.
 
 관련 검사54개와 DB 검사6개를 통과했습니다. 웹·Android release 빌드, 기존 패키지·서명·내부 웹 자산235개 일치를 확인했습니다. 중앙 DB80개 가이드·1,385곳과 다운로드59개·319곳의 일치를 검사했습니다. 실제 Android 실기기 설치는 미확인입니다. [검색·검토 범위](GUIDE_BLOGS.md) · [실제 근거와 보류](research/guidebooks/runs/20261105T_blog-search-refresh.json).
+
+공개 검증: 고정0.79 링크와 최신 APK 별칭2개·공개 원본/DB12개를 인증 없이 내려받아 HTTP200·바이트·SHA-256 일치를 확인하고 APK 서명도 대조했습니다. [배포 검증 기록](research/release-0.79-verification.json).
 
 ## 0.78 개발판 · 내가 관리하는 가볼 만한 곳
 

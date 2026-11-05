@@ -1,0 +1,156 @@
+{
+  "version": "0.79",
+  "versionCode": 80,
+  "package": "com.jido.travel.next",
+  "bytes": 41243453,
+  "sha256": "99bd94145ef093533a2679ec74844443ef6ab7d001c9882e523d49396c5cec19",
+  "certificateSha256": "0d1b1f20dae73d00626d9ebb4f460943c4f16c2266bc7bc58d124d13b32494ac",
+  "signatureVerified": true,
+  "matchedWebAssets": 235,
+  "privateSigningFilesFound": false,
+  "existingMapsConfigurationBundled": true,
+  "nativeDeviceInstallTested": false,
+  "checkedAt": "2026-11-05T03:46:47.729969+00:00",
+  "sourceCommit": "805e74b8d6bf9872db81b9a041c42e6235505301",
+  "publicCommit": "8521e726a22b4197960f586fb8bc31bb0821ab5f",
+  "publicDownloads": [
+    {
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/8521e726a22b4197960f586fb8bc31bb0821ab5f/JDo-android-0.79.apk",
+      "httpStatus": 200,
+      "bytes": 41243453,
+      "sha256": "99bd94145ef093533a2679ec74844443ef6ab7d001c9882e523d49396c5cec19",
+      "matchesBuild": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/android-apk-downloads/JDo-android.apk",
+      "httpStatus": 200,
+      "bytes": 41243453,
+      "sha256": "99bd94145ef093533a2679ec74844443ef6ab7d001c9882e523d49396c5cec19",
+      "matchesBuild": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/android-apk-downloads/jido-release.apk",
+      "httpStatus": 200,
+      "bytes": 41243453,
+      "sha256": "99bd94145ef093533a2679ec74844443ef6ab7d001c9882e523d49396c5cec19",
+      "matchesBuild": true
+    }
+  ],
+  "anonymousDownload": true,
+  "downloadedSignatureVerified": true,
+  "regressionTestsPassed": 54,
+  "databaseTestsPassed": 6,
+  "sourceVerification": {
+    "checkedAt": "2026-11-05T03:47:23.673068+00:00",
+    "files": [
+      {
+        "path": "src/blog-search.ts",
+        "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/805e74b8d6bf9872db81b9a041c42e6235505301/src/blog-search.ts",
+        "httpStatus": 200,
+        "bytes": 4783,
+        "sha256": "856df2c0acbab6b4cccb993dc0f855c7eed4faa0d4416e1532840c331579812f",
+        "matchesSource": true
+      },
+      {
+        "path": "src/GuideBlogs.tsx",
+        "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/805e74b8d6bf9872db81b9a041c42e6235505301/src/GuideBlogs.tsx",
+        "httpStatus": 200,
+        "bytes": 3667,
+        "sha256": "5257a9cbd4f8cdcd7b6b759f1f1e90877a1183d4d6401097a0592fd512e84cf9",
+        "matchesSource": true
+      },
+      {
+        "path": "src/PlaceReviews.tsx",
+        "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/805e74b8d6bf9872db81b9a041c42e6235505301/src/PlaceReviews.tsx",
+        "httpStatus": 200,
+        "bytes": 3704,
+        "sha256": "355fdf6566bce5d0b9e71f8849289c52b41b686bd38edb90bbd05d42817dd122",
+        "matchesSource": true
+      },
+      {
+        "path": "src/guide-blogs.json",
+        "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/805e74b8d6bf9872db81b9a041c42e6235505301/src/guide-blogs.json",
+        "httpStatus": 200,
+        "bytes": 39998,
+        "sha256": "31a2a9e4228570382e043458d4cedf57fe14680d558e57d25f825b7ed9337623",
+        "matchesSource": true
+      },
+      {
+        "path": "src/practical-guides.json",
+        "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/805e74b8d6bf9872db81b9a041c42e6235505301/src/practical-guides.json",
+        "httpStatus": 200,
+        "bytes": 94265,
+        "sha256": "1187d5b073e34486ffeea6b20df037c65a0bf537373bb46d1e785de28676bb5a",
+        "matchesSource": true
+      },
+      {
+        "path": "scripts/plan-blog-research.mjs",
+        "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/805e74b8d6bf9872db81b9a041c42e6235505301/scripts/plan-blog-research.mjs",
+        "httpStatus": 200,
+        "bytes": 2029,
+        "sha256": "9402b10c4798277d193fbd72ae5450763a1a398646f1e05923f5b1b0a12b2d15",
+        "matchesSource": true
+      },
+      {
+        "path": "research/guidebooks/runs/20261105T_blog-search-refresh.json",
+        "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/805e74b8d6bf9872db81b9a041c42e6235505301/research/guidebooks/runs/20261105T_blog-search-refresh.json",
+        "httpStatus": 200,
+        "bytes": 14181,
+        "sha256": "4c7d031442d20aaddc9793340e28fee734119ad2e6fe4fbead0a27beefaf4949",
+        "matchesSource": true
+      },
+      {
+        "path": "guidebook-database/records/guam.json",
+        "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/805e74b8d6bf9872db81b9a041c42e6235505301/guidebook-database/records/guam.json",
+        "httpStatus": 200,
+        "bytes": 77916,
+        "sha256": "75f450e5ce272272b1d2b5d4cffe849b54c5110891b3a19c67ea1d74bba47135",
+        "matchesSource": true
+      },
+      {
+        "path": "guidebook-database/index.json",
+        "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/805e74b8d6bf9872db81b9a041c42e6235505301/guidebook-database/index.json",
+        "httpStatus": 200,
+        "bytes": 36921,
+        "sha256": "5c4b0f708358cf72be6529d86dc99d2331ad7566a7f11a28d9048cbcf3a93d57",
+        "matchesSource": true
+      },
+      {
+        "path": "guidebook-database/guides.sqlite",
+        "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/805e74b8d6bf9872db81b9a041c42e6235505301/guidebook-database/guides.sqlite",
+        "httpStatus": 200,
+        "bytes": 4554752,
+        "sha256": "588399512666c6391582b746393c52cc00a04fe9cdfc5a6dcb77bcc4f9402328",
+        "matchesSource": true
+      },
+      {
+        "path": "public/guide-blog-research.json",
+        "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/805e74b8d6bf9872db81b9a041c42e6235505301/public/guide-blog-research.json",
+        "httpStatus": 200,
+        "bytes": 90960,
+        "sha256": "008a94d6fc492c71a994bfd881d5405b3127cd5a7793dc7a08de8ac906dd12f8",
+        "matchesSource": true
+      },
+      {
+        "path": "GUIDE_BLOGS.md",
+        "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/805e74b8d6bf9872db81b9a041c42e6235505301/GUIDE_BLOGS.md",
+        "httpStatus": 200,
+        "bytes": 5945,
+        "sha256": "9246f75b831c2fb3c70a2e14ac370b84071d86ee08885730a673c1e1f7fe8313",
+        "matchesSource": true
+      }
+    ],
+    "allMatched": true
+  },
+  "researchScope": {
+    "city": "괌",
+    "articlesRead": 8,
+    "acceptedCityBlogs": 6,
+    "blockedArticles": 2,
+    "fullyReviewedCities": 0,
+    "preservedOtherGuideRecords": 79,
+    "centralGuides": 80,
+    "centralPlaces": 1385,
+    "photosCopied": 0
+  }
+}
