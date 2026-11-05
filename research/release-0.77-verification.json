@@ -1,0 +1,124 @@
+{
+  "version": "0.77",
+  "versionCode": 78,
+  "package": "com.jido.travel.next",
+  "bytes": 41234337,
+  "sha256": "9e7205e35324356a92f3cf54483ba53c64063db95a2e0f90b3114ea837487217",
+  "certificateSha256": "0d1b1f20dae73d00626d9ebb4f460943c4f16c2266bc7bc58d124d13b32494ac",
+  "signatureVerified": true,
+  "matchedWebAssets": 235,
+  "privateSigningFilesFound": false,
+  "existingMapsConfigurationBundled": true,
+  "nativeDeviceInstallTested": false,
+  "checkedAt": "2026-11-05T00:12:47.385350+00:00",
+  "sourceCommit": "9f2e09a3cc7b685926f961b899446b4cb7b120da",
+  "publicCommit": "052259bef46f4542b576e58d24ebf7028fe7e6e6",
+  "publicDownloads": [
+    {
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/052259bef46f4542b576e58d24ebf7028fe7e6e6/JDo-android-0.77.apk",
+      "httpStatus": 200,
+      "bytes": 41234337,
+      "sha256": "9e7205e35324356a92f3cf54483ba53c64063db95a2e0f90b3114ea837487217",
+      "matchesBuild": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/android-apk-downloads/JDo-android.apk",
+      "httpStatus": 200,
+      "bytes": 41234337,
+      "sha256": "9e7205e35324356a92f3cf54483ba53c64063db95a2e0f90b3114ea837487217",
+      "matchesBuild": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/android-apk-downloads/jido-release.apk",
+      "httpStatus": 200,
+      "bytes": 41234337,
+      "sha256": "9e7205e35324356a92f3cf54483ba53c64063db95a2e0f90b3114ea837487217",
+      "matchesBuild": true
+    }
+  ],
+  "anonymousDownload": true,
+  "downloadedSignatureVerified": true,
+  "regressionTestsPassed": 54,
+  "publicSourceFiles": [
+    {
+      "path": "src/google-review-evidence.ts",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/9f2e09a3cc7b685926f961b899446b4cb7b120da/src/google-review-evidence.ts",
+      "httpStatus": 200,
+      "bytes": 2737,
+      "sha256": "9b8b8ea8a38f8e470526d743dd93861e1ed0af858cd819aedb9a709b7f0ac9e7",
+      "matchesSource": true
+    },
+    {
+      "path": "src/google-review-store.ts",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/9f2e09a3cc7b685926f961b899446b4cb7b120da/src/google-review-store.ts",
+      "httpStatus": 200,
+      "bytes": 2490,
+      "sha256": "ef64440461befe5bdc6307a94ad47bc7d6cf82c14459157c43dfb84667d5e67a",
+      "matchesSource": true
+    },
+    {
+      "path": "src/google-reviews.ts",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/9f2e09a3cc7b685926f961b899446b4cb7b120da/src/google-reviews.ts",
+      "httpStatus": 200,
+      "bytes": 3624,
+      "sha256": "a9be7bae6e11dd880252c7b1f1bb9262a9d51d1d093a0d33868a678d1c915a23",
+      "matchesSource": true
+    },
+    {
+      "path": "src/GooglePlaceReviews.tsx",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/9f2e09a3cc7b685926f961b899446b4cb7b120da/src/GooglePlaceReviews.tsx",
+      "httpStatus": 200,
+      "bytes": 7995,
+      "sha256": "bceebd86e4ebe50a32e97829a63edfa7fc5ebac4546200d39fd5e890f74c1241",
+      "matchesSource": true
+    },
+    {
+      "path": "src/place-mention-ranking.ts",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/9f2e09a3cc7b685926f961b899446b4cb7b120da/src/place-mention-ranking.ts",
+      "httpStatus": 200,
+      "bytes": 5911,
+      "sha256": "8a4aafe4b75b603743d98ff210514e1c0b6a5d4c2a5468d44518026253b885cb",
+      "matchesSource": true
+    },
+    {
+      "path": "research/place-discovery/2026-11-05-google-reviews.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/9f2e09a3cc7b685926f961b899446b4cb7b120da/research/place-discovery/2026-11-05-google-reviews.json",
+      "httpStatus": 200,
+      "bytes": 3334,
+      "sha256": "2bcfe2f82bdd7cb0d2e02b7ada6be9338b24ef06d8b600e54da39f64bc1ed02e",
+      "matchesSource": true
+    },
+    {
+      "path": "PLACE-DISCOVERY.md",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/9f2e09a3cc7b685926f961b899446b4cb7b120da/PLACE-DISCOVERY.md",
+      "httpStatus": 200,
+      "bytes": 8120,
+      "sha256": "fc4da82021923b4e9e676cd749c02bab2b3c95cee0469ca3d3030d5548e2b6b9",
+      "matchesSource": true
+    },
+    {
+      "path": "PRIVACY.md",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/9f2e09a3cc7b685926f961b899446b4cb7b120da/PRIVACY.md",
+      "httpStatus": 200,
+      "bytes": 5972,
+      "sha256": "a5945f7736d79894e04e2d11780a6a037a190c5cc4ebfb2b093f1c85dcecde0a",
+      "matchesSource": true
+    }
+  ],
+  "googleReviewEvidence": {
+    "windowYears": 1,
+    "validBlogWindowYears": 3,
+    "oldGoogleReviewsRemoveOnlyTheirEvidence": true,
+    "allTimeCountUsedAsYearlyCount": false,
+    "persistedGooglePayload": false,
+    "realApiProfilesChecked": 2,
+    "realDatedGoogleReviewsConfirmed": 0,
+    "realMissingDatesTreatedAsInactivity": false,
+    "mockTestsDistinguishedFromActualProviderData": true
+  },
+  "guidebookDatabaseVerified": {
+    "guides": 80,
+    "places": 1385,
+    "sourceChanged": false
+  }
+}

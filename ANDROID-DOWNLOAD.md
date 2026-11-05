@@ -1,6 +1,6 @@
 # J★Do Android 다운로드
 
-[J★Do 0.77 개발판 APK 다운로드](https://raw.githubusercontent.com/rjs198426-lang/JIdo/android-apk-downloads/JDo-android-0.77.apk)
+[J★Do 0.77 개발판 APK 다운로드](https://raw.githubusercontent.com/rjs198426-lang/JIdo/052259bef46f4542b576e58d24ebf7028fe7e6e6/JDo-android-0.77.apk)
 
 - 앱: **J★Do** (`com.jido.travel.next`)
 - 버전: 0.77 개발판 · versionCode 78 · Android 7.0 이상
@@ -22,6 +22,8 @@
 - Google 자료는 화면 메모리에만 두고 백그라운드·종료·10분 경과 시 지우며 개인 백업·공개 가이드DB에 저장하지 않습니다.
 
 관련 검사54개, 공공 근거/가이드북/DB 일치 검사, 웹·Android release 빌드·기존 서명·자산235개 일치 확인. 실제 괌2곳은API 요청이HTTP200이었으나 날짜 있는 리뷰가 없어 Google 근거 확보0건으로 보류했습니다. 실제 Android 실기기 설치는 미확인입니다. [정렬·검토 범위](PLACE-DISCOVERY.md).
+
+공개 검증: 고정0.77 링크와 최신 APK 별칭2개·공개 원본8개를 인증 없이 내려받아 HTTP200·바이트·SHA-256 일치를 확인하고 다운로드한 APK 서명도 대조했습니다. [배포 검증 기록](research/release-0.77-verification.json).
 
 ## 0.76 개발판 · 최근 언급으로 장소 찾기
 
