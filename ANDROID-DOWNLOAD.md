@@ -1,6 +1,6 @@
 # J★Do Android 다운로드
 
-[J★Do 0.78 개발판 APK 다운로드](https://raw.githubusercontent.com/rjs198426-lang/JIdo/android-apk-downloads/JDo-android-0.78.apk)
+[J★Do 0.78 개발판 APK 다운로드](https://raw.githubusercontent.com/rjs198426-lang/JIdo/b62409f5d9e2799013c2948a1f3ba147010997a3/JDo-android-0.78.apk)
 
 - 앱: **J★Do** (`com.jido.travel.next`)
 - 버전: 0.78 개발판 · versionCode 79 · Android 7.0 이상
@@ -22,6 +22,8 @@
 - 개인 장소는 기기에 저장하고 전체 ZIP 백업에 포함합니다. 개인 장소가 포함된 새 백업은0.78 이상에서 복원하며 기존 버전1 백업도 계속 읽습니다.
 
 관련 검사94개 통과, 웹·Android release 빌드, 기존 서명·패키지·내부 웹 자산235개 일치를 확인했습니다. 중앙 DB80개 가이드·1,385곳과 다운로드59개 도시·319곳 일치 검사도 통과했습니다. 실제 Android 실기기 설치·파일 선택은 미확인입니다. [장소 관리와 보존 규칙](PERSONAL-PLACES.md).
+
+공개 검증: 고정0.78 링크와 최신 APK 별칭2개·공개 원본8개를 인증 없이 다시 내려받아 HTTP200·바이트·SHA-256 일치를 확인하고 APK 서명도 대조했습니다. [배포 검증 기록](research/release-0.78-verification.json).
 
 ## 0.77 개발판 · Google 리뷰도 최근 근거로
 

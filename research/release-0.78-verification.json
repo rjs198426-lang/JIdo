@@ -1,0 +1,112 @@
+{
+  "version": "0.78",
+  "versionCode": 79,
+  "package": "com.jido.travel.next",
+  "bytes": 41238501,
+  "sha256": "183e2840271b4648af257db0ef48b52ad8a0f082389d19b7728b4b5c30cf755f",
+  "certificateSha256": "0d1b1f20dae73d00626d9ebb4f460943c4f16c2266bc7bc58d124d13b32494ac",
+  "signatureVerified": true,
+  "matchedWebAssets": 235,
+  "privateSigningFilesFound": false,
+  "existingMapsConfigurationBundled": true,
+  "nativeDeviceInstallTested": false,
+  "checkedAt": "2026-11-05T02:34:41.802144+00:00",
+  "sourceCommit": "320f8ca222587c6c285e9ec63df8e17f74e8abfd",
+  "publicCommit": "b62409f5d9e2799013c2948a1f3ba147010997a3",
+  "publicDownloads": [
+    {
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/b62409f5d9e2799013c2948a1f3ba147010997a3/JDo-android-0.78.apk",
+      "httpStatus": 200,
+      "bytes": 41238501,
+      "sha256": "183e2840271b4648af257db0ef48b52ad8a0f082389d19b7728b4b5c30cf755f",
+      "matchesBuild": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/android-apk-downloads/JDo-android.apk",
+      "httpStatus": 200,
+      "bytes": 41238501,
+      "sha256": "183e2840271b4648af257db0ef48b52ad8a0f082389d19b7728b4b5c30cf755f",
+      "matchesBuild": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/android-apk-downloads/jido-release.apk",
+      "httpStatus": 200,
+      "bytes": 41238501,
+      "sha256": "183e2840271b4648af257db0ef48b52ad8a0f082389d19b7728b4b5c30cf755f",
+      "matchesBuild": true
+    }
+  ],
+  "anonymousDownload": true,
+  "downloadedSignatureVerified": true,
+  "regressionTestsPassed": 94,
+  "sourceVerification": {
+    "checkedAt": "2026-11-05T02:35:16.402121+00:00",
+    "files": [
+      {
+        "path": "src/personal-place-library.ts",
+        "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/320f8ca222587c6c285e9ec63df8e17f74e8abfd/src/personal-place-library.ts",
+        "httpStatus": 200,
+        "bytes": 4901,
+        "sha256": "131ea14ad7072da03028c0892c6565a7859f5bac6dee2b41a15053268fe6f9f4",
+        "matchesSource": true
+      },
+      {
+        "path": "src/PersonalPlaceForm.tsx",
+        "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/320f8ca222587c6c285e9ec63df8e17f74e8abfd/src/PersonalPlaceForm.tsx",
+        "httpStatus": 200,
+        "bytes": 9125,
+        "sha256": "521c355160eda817c432eb3a5c6e65e85f35e49747f0b330d54e3f3b33b78187",
+        "matchesSource": true
+      },
+      {
+        "path": "src/PersonalPlaceCard.tsx",
+        "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/320f8ca222587c6c285e9ec63df8e17f74e8abfd/src/PersonalPlaceCard.tsx",
+        "httpStatus": 200,
+        "bytes": 2183,
+        "sha256": "ecbeb343ab12ad2dffbc34eeea94abe83b8fc3b12e2286272f3b74d23de93879",
+        "matchesSource": true
+      },
+      {
+        "path": "src/App.tsx",
+        "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/320f8ca222587c6c285e9ec63df8e17f74e8abfd/src/App.tsx",
+        "httpStatus": 200,
+        "bytes": 146303,
+        "sha256": "beab1f453e19c0f5b9af12bd445eadbd44a8548912bc454740554b264c6aa9a7",
+        "matchesSource": true
+      },
+      {
+        "path": "src/full-backup.ts",
+        "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/320f8ca222587c6c285e9ec63df8e17f74e8abfd/src/full-backup.ts",
+        "httpStatus": 200,
+        "bytes": 13300,
+        "sha256": "099c6c6a4de2c9b37469d5bf8a7cc811771cf5eb01694b902d378052f90a917d",
+        "matchesSource": true
+      },
+      {
+        "path": "src/store.ts",
+        "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/320f8ca222587c6c285e9ec63df8e17f74e8abfd/src/store.ts",
+        "httpStatus": 200,
+        "bytes": 13163,
+        "sha256": "23320afcf90568271acc80d2fa30bdb825fbc3f55f3e3bd635ed284279c9849f",
+        "matchesSource": true
+      },
+      {
+        "path": "android/app/src/main/java/com/jido/travel/TravelBackupPlugin.java",
+        "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/320f8ca222587c6c285e9ec63df8e17f74e8abfd/android/app/src/main/java/com/jido/travel/TravelBackupPlugin.java",
+        "httpStatus": 200,
+        "bytes": 11896,
+        "sha256": "4482e195d7e8a05ec333669f1382675e27535d0a0dc95fa081121d84dddc17f6",
+        "matchesSource": true
+      },
+      {
+        "path": "PERSONAL-PLACES.md",
+        "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/320f8ca222587c6c285e9ec63df8e17f74e8abfd/PERSONAL-PLACES.md",
+        "httpStatus": 200,
+        "bytes": 3814,
+        "sha256": "c276d09b949a0519d8b6a85ced6c5f8b5ec1466cd1b251d3e19dd8f09570eaf8",
+        "matchesSource": true
+      }
+    ],
+    "allMatched": true
+  }
+}
