@@ -5,6 +5,12 @@ import { attachmentUrl, deleteStoredAttachment } from './attachment-storage'
 
 const KEY = 'jido-personal-photos-v1'
 const listeners = new Set<() => void>()
+export const subscribePersonalPhotos = (listener: () => void) => {
+  listeners.add(listener)
+  return () => {
+    listeners.delete(listener)
+  }
+}
 let photos: Record<string, Attachment> = {}
 try {
   const raw: unknown = JSON.parse(localStorage.getItem(KEY) || '{}')

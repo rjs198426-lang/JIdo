@@ -7,6 +7,8 @@ import {
   ChevronRight,
 } from 'lucide-react'
 import ContentUpdates from './ContentUpdates'
+import DriveSyncSettings from './DriveSyncSettings'
+import type { DriveSyncState } from './useDriveSync'
 export default function SettingsPage({
   onReminders,
   onNearby,
@@ -14,6 +16,7 @@ export default function SettingsPage({
   onBackup,
   onRecovery,
   onGuidebooks,
+  sync,
 }: {
   onReminders: () => void
   onNearby: () => void
@@ -21,6 +24,7 @@ export default function SettingsPage({
   onBackup: () => void
   onRecovery?: () => void
   onGuidebooks: () => void
+  sync?: DriveSyncState
 }) {
   return (
     <section className="page-section settings-page" aria-label="설정">
@@ -56,6 +60,7 @@ export default function SettingsPage({
           </button>
         ))}
       </section>
+      {sync && <DriveSyncSettings sync={sync} />}
       <section className="settings-group" aria-label="앱 정보">
         <h2>J★Do</h2>
         <p className="settings-version">
@@ -63,8 +68,8 @@ export default function SettingsPage({
           Android
         </p>
         <p>
-          여행 기록은 이 기기에 저장돼요. 기기를 바꾸기 전 전체 백업을 저장해
-          주세요.
+          여행 기록은 이 기기에 저장돼요. 다른 기기에서도 사용하려면 Google
+          Drive를 연결하세요. 전체 백업도 따로 보관할 수 있어요.
         </p>
         <a
           href="https://github.com/rjs198426-lang/JIdo/blob/main/APP-TERMS.md"

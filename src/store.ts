@@ -375,6 +375,8 @@ export function useTravelStore() {
       durable.current = text
       current.current = next
       renderStore(next)
+      if (disk !== text && typeof window !== 'undefined')
+        window.dispatchEvent(new Event('jido:personal-data-change'))
       setStorageError(false)
       setSaveError('')
       return true
@@ -405,6 +407,7 @@ export function useTravelStore() {
   }
   return {
     store,
+    getCurrentStore: () => current.current,
     setStore,
     storageError,
     saveError,

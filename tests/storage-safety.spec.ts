@@ -211,6 +211,7 @@ test('직접 일정 저장 실패는 장소·메모 입력을 유지하고 재�
 }) => {
   await boot(page)
   await openTrips(page)
+  await page.getByRole('tab', { name: /^DAY 1 ·/ }).click()
   await page.getByRole('button', { name: '장소 추가', exact: true }).click()
   await page.getByLabel('일정에 추가할 장소 검색').fill('개인 일정 보존')
   await page
@@ -733,6 +734,7 @@ for (const mode of ['order', 'time'] as const) {
     }
     await boot(page, JSON.stringify(store([sample])))
     await openTrips(page)
+    await page.getByRole('tab', { name: /^DAY 1 ·/ }).click()
     await openScheduleEditor(page)
     const before = await saved(page)
     await page

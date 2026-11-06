@@ -241,6 +241,26 @@ export function installGuides(guides: Guide[]) {
   }
   for (const listener of listeners) listener()
 }
+export function personalGuidesForSync() {
+  return {
+    available: snapshot.available,
+    retained: snapshot.retained,
+    usingServer: snapshot.usingServer,
+  }
+}
+export function replaceSyncedPersonalGuides(
+  value: ReturnType<typeof personalGuidesForSync>,
+) {
+  const next = {
+    available: value.available.map((g) => guideSchema.parse(g)),
+    retained: value.retained.map((g) => guideSchema.parse(g)),
+    usingServer: value.usingServer,
+  }
+  localStorage.setItem(CACHE_KEY, JSON.stringify(next))
+  snapshot = next
+  rebuild()
+  for (const listener of listeners) listener()
+}
 let refreshInProgress: Promise<Guide[]> | null = null
 export function refreshGuides() {
   if (!refreshInProgress)

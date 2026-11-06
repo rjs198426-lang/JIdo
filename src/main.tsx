@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App'
+import { recoverSyncJournal } from './sync-journal'
 import AppErrorBoundary from './AppErrorBoundary'
 import './styles.css'
 import './workspace.css'
@@ -23,10 +23,31 @@ import './timeline-cards.css'
 import './simple-ui.css'
 import './modern-theme.css'
 
-ReactDOM.createRoot(document.getElementById('root')!).render(
-  <React.StrictMode>
-    <AppErrorBoundary>
-      <App />
-    </AppErrorBoundary>
-  </React.StrictMode>,
+const root = ReactDOM.createRoot(document.getElementById('root')!)
+async function start() {
+  await recoverSyncJournal()
+  const { default: App } = await import('./App')
+  root.render(
+    <React.StrictMode>
+      <AppErrorBoundary>
+        <App />
+      </AppErrorBoundary>
+    </React.StrictMode>,
+  )
+}
+void start().catch((error) =>
+  root.render(
+    <main className="page-section">
+      <h1>기록을 안전하게 복구하고 있어요</h1>
+      <p>
+        {error instanceof Error ? error.message : '앱을 다시 실행해 주세요.'}
+      </p>
+      <button
+        className="button primary"
+        onClick={() => window.location.reload()}
+      >
+        다시 시도
+      </button>
+    </main>,
+  ),
 )

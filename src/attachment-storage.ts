@@ -78,6 +78,37 @@ export async function browserBlob(file: Attachment): Promise<Blob> {
     throw new Error('자료가 없습니다. 다시 첨부해 주세요.')
   return blob
 }
+// Synced files retain their logical UUID on every device. Never overwrite a
+// different local file under the same ID, even when metadata looks identical.
+export async function putSyncedBrowserFile(
+  file: Attachment,
+  blob: Blob,
+  expectedHash: string,
+) {
+  attachmentSchema.parse({ ...file, storage: 'browser' })
+  const hash = async (value: Blob) =>
+    Array.from(
+      new Uint8Array(
+        await crypto.subtle.digest('SHA-256', await value.arrayBuffer()),
+      ),
+    )
+      .map((b) => b.toString(16).padStart(2, '0'))
+      .join('')
+  if (blob.size !== file.size || (await hash(blob)) !== expectedHash)
+    throw new Error('동기화 자료가 손상됐어요.')
+  const previous = await transaction<Blob | undefined>('readonly', (store) =>
+    store.get(file.id),
+  )
+  if (previous) {
+    if (previous.size !== file.size || (await hash(previous)) !== expectedHash)
+      throw new Error(
+        '같은 자료 번호의 파일 내용이 달라요. 기존 파일은 보존했어요.',
+      )
+    return false
+  }
+  await transaction('readwrite', (store) => store.add(blob, file.id))
+  return true
+}
 export async function checkStoredAttachment(file: Attachment) {
   let size: number
   if (file.storage === 'android') {

@@ -50,6 +50,18 @@ try {
 }
 const listeners = new Set<() => void>()
 export const guidebooksSnapshot = () => snapshot
+export function replaceSyncedGuidebooks(value: unknown) {
+  const next = schema.parse(value),
+    text = JSON.stringify(next)
+  if (new TextEncoder().encode(text).byteLength > 4 * 1024 * 1024)
+    throw new Error('가이드북 저장 용량을 초과했어요.')
+  if (unreadable)
+    throw new Error('손상된 가이드북의 원본을 먼저 보존해 주세요.')
+  localStorage.setItem(GUIDEBOOK_CACHE_KEY, text)
+  original = text
+  snapshot = next
+  for (const listener of listeners) listener()
+}
 export const guidebooksUnreadable = () => unreadable
 export const subscribeGuidebooks = (listener: () => void) => {
   listeners.add(listener)

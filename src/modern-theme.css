@@ -2235,3 +2235,99 @@ body {
 :root .guide-tabs button {
   min-height: var(--tap-size);
 }
+
+.drive-sync h2 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.drive-sync-account {
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+.drive-sync .drive-sync-auto {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: var(--tap-size);
+  margin-block: 10px;
+}
+.drive-sync .drive-sync-auto input {
+  flex: 0 0 20px;
+  width: 20px;
+  height: 20px;
+}
+.drive-sync .drive-sync-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-block: 12px;
+}
+.drive-sync .drive-sync-actions > button {
+  flex: 1 0 auto;
+  justify-content: center;
+  gap: 8px;
+  min-height: var(--tap-size);
+}
+.drive-sync [role='status'] {
+  color: var(--green);
+  line-height: 1.6;
+}
+.drive-sync fieldset {
+  min-width: 0;
+  margin: 12px 0;
+  padding: 12px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+}
+.drive-sync fieldset label {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px 0;
+  min-height: var(--tap-size);
+}
+.drive-sync fieldset input {
+  flex: 0 0 20px;
+  width: 20px;
+  height: 20px;
+}
+.drive-sync fieldset span {
+  min-width: 0;
+}
+.drive-sync fieldset strong,
+.drive-sync fieldset small {
+  display: block;
+  overflow-wrap: anywhere;
+}
+.drive-sync fieldset small {
+  color: var(--muted);
+  margin-bottom: 4px;
+}
+.drive-sync > details {
+  margin-top: 12px;
+}
+.drive-sync > details > summary {
+  cursor: pointer;
+  padding-block: 12px;
+  color: var(--green);
+}
+.sync-status-notice {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 16px;
+  margin-bottom: 16px;
+  border-radius: 14px;
+  background: var(--mint);
+  color: var(--deep);
+}
+.sync-status-notice > span {
+  min-width: 0;
+  line-height: 1.6;
+}
+.sync-status-notice > button {
+  flex-shrink: 0;
+  white-space: nowrap;
+}

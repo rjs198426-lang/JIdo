@@ -27,6 +27,7 @@ import { bundledImage } from './bundled-image'
 import { startContentUpdates } from './content-release'
 import TimelineRail, { timelineDistance } from './TimelineRail'
 import SettingsPage from './SettingsPage'
+import { useDriveSync } from './useDriveSync'
 import { Settings } from 'lucide-react'
 import ScheduleStopInfo from './ScheduleStopInfo'
 import ScheduleOrderDialog from './ScheduleOrderDialog'
@@ -2162,11 +2163,13 @@ export default function App() {
   const {
     store,
     setStore,
+    getCurrentStore,
     storageError,
     saveError,
     recoveries,
     acknowledgeRecovery,
   } = useTravelStore()
+  const driveSync = useDriveSync(getCurrentStore, setStore)
   const attachmentStoreRef = useRef(store)
   attachmentStoreRef.current = store
   const [initialSession] = useState(() => readAppSession(store.trips))
@@ -2724,6 +2727,23 @@ export default function App() {
         </div>
       </header>
       <main className="main">
+        {driveSync.enabled &&
+          page !== 'settings' &&
+          (driveSync.phase === 'conflict' || driveSync.phase === 'error') && (
+            <aside className="sync-status-notice" role="status">
+              <span>
+                {driveSync.phase === 'conflict'
+                  ? '기기 간 다른 내용을 확인해 주세요.'
+                  : '동기화를 마치지 못했어요. 기기 기록은 그대로예요.'}
+              </span>
+              <button
+                className="text-button"
+                onClick={() => setPage('settings')}
+              >
+                동기화 확인
+              </button>
+            </aside>
+          )}
         {recoveries.some((record) => !record.acknowledged) && (
           <aside className="recovery-notice" role="alert">
             <strong>일부 기록을 복구했어요</strong>
@@ -2741,6 +2761,7 @@ export default function App() {
         )}
         {page === 'settings' && (
           <SettingsPage
+            sync={driveSync}
             onReminders={() => setDialog({ type: 'reminders' })}
             onNearby={() => setDialog({ type: 'nearby' })}
             onPhotoCredits={() => setDialog({ type: 'credits' })}

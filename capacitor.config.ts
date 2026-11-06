@@ -4,6 +4,7 @@ const config: CapacitorConfig = {
   appId: 'com.jido.travel.next',
   appName: 'J★Do',
   webDir: 'dist',
+  loggingBehavior: 'none',
   backgroundColor: '#ffffff',
   android: { backgroundColor: '#ffffff' },
   ios: { backgroundColor: '#ffffff', contentInset: 'never' },

@@ -1,4 +1,12 @@
-import { useEffect, useState, type Dispatch, type SetStateAction } from 'react'
+import {
+  useEffect,
+  useRef,
+  useState,
+  type Dispatch,
+  type SetStateAction,
+} from 'react'
+const unsavedDrafts = new Set<symbol>()
+export const hasUnsavedDrafts = () => unsavedDrafts.size > 0
 
 // Form-only drafts never replace saved trip records. Restore known fields and types only.
 export function useDraftFields<T extends object>(
@@ -62,6 +70,30 @@ export function useDraftFields<T extends object>(
     }
   }
   const [state, setState] = useState<T>(read)
+  const [draftIdentity] = useState(() => Symbol(key))
+  const previousDefaults = useRef(defaults)
+  const defaultsText = JSON.stringify(defaults)
+  useEffect(() => {
+    const old = previousDefaults.current
+    previousDefaults.current = defaults
+    if (JSON.stringify(old) !== defaultsText)
+      setState((value) =>
+        JSON.stringify(value) === JSON.stringify(old) ? defaults : value,
+      )
+  }, [defaultsText])
+  useEffect(() => {
+    if (
+      !key.startsWith('jido-view:') &&
+      (shouldPersist
+        ? shouldPersist(state)
+        : JSON.stringify(state) !== defaultsText)
+    )
+      unsavedDrafts.add(draftIdentity)
+    else unsavedDrafts.delete(draftIdentity)
+    return () => {
+      unsavedDrafts.delete(draftIdentity)
+    }
+  }, [key, state, defaultsText, draftIdentity])
   useEffect(() => {
     try {
       if (shouldPersist && !shouldPersist(state)) localStorage.removeItem(key)

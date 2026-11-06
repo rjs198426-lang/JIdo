@@ -9,6 +9,7 @@ public class MainActivity extends BridgeActivity {
         registerPlugin(AttachmentsPlugin.class);
         registerPlugin(TravelSharingPlugin.class);
         registerPlugin(TravelBackupPlugin.class);
+        registerPlugin(GoogleDriveSyncPlugin.class);
         super.onCreate(savedInstanceState);
         // Identify this personal app to community map tiles, keeping WebView defaults.
         android.webkit.WebSettings settings = getBridge().getWebView().getSettings();
