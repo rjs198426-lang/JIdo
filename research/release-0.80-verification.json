@@ -1,0 +1,165 @@
+{
+  "version": "0.80",
+  "versionCode": 81,
+  "package": "com.jido.travel.next",
+  "bytes": 41427122,
+  "sha256": "c13012800ea02937f2200cb78147c459df309e5416c37fde33c3980963dadd22",
+  "certificateSha256": "0d1b1f20dae73d00626d9ebb4f460943c4f16c2266bc7bc58d124d13b32494ac",
+  "signatureVerified": true,
+  "matchedWebAssets": 237,
+  "privateSigningFilesFound": false,
+  "existingMapsConfigurationBundled": true,
+  "nativeDeviceInstallTested": false,
+  "checkedAt": "2026-11-06T05:41:09.323733+00:00",
+  "sourceCommit": "2093980f029bffdd032ef4d2dea0e3b1c75cfe21",
+  "publicCommit": "67805691039e18a38949387224db5b41d59ea36e",
+  "publicDownloads": [
+    {
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/67805691039e18a38949387224db5b41d59ea36e/JDo-android-0.80.apk",
+      "httpStatus": 200,
+      "bytes": 41427122,
+      "sha256": "c13012800ea02937f2200cb78147c459df309e5416c37fde33c3980963dadd22",
+      "matchesBuild": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/android-apk-downloads/JDo-android.apk",
+      "httpStatus": 200,
+      "bytes": 41427122,
+      "sha256": "c13012800ea02937f2200cb78147c459df309e5416c37fde33c3980963dadd22",
+      "matchesBuild": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/android-apk-downloads/jido-release.apk",
+      "httpStatus": 200,
+      "bytes": 41427122,
+      "sha256": "c13012800ea02937f2200cb78147c459df309e5416c37fde33c3980963dadd22",
+      "matchesBuild": true
+    }
+  ],
+  "anonymousDownload": true,
+  "downloadedSignatureVerified": true,
+  "regressionTestsPassed": 98,
+  "publicSourceFiles": [
+    {
+      "path": "src/sync-model.ts",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/2093980f029bffdd032ef4d2dea0e3b1c75cfe21/src/sync-model.ts",
+      "httpStatus": 200,
+      "bytes": 9276,
+      "sha256": "efda5f1ad249659bd527283d16eff97463fb42682a96ecfd395152d211d00c5f",
+      "matchesSourceCommit": true
+    },
+    {
+      "path": "src/sync-merge.ts",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/2093980f029bffdd032ef4d2dea0e3b1c75cfe21/src/sync-merge.ts",
+      "httpStatus": 200,
+      "bytes": 5877,
+      "sha256": "f471c617efa7afc6075e3287d1bae4815f4192b5dcaf9b125aeaa521ca15364d",
+      "matchesSourceCommit": true
+    },
+    {
+      "path": "src/sync-engine.ts",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/2093980f029bffdd032ef4d2dea0e3b1c75cfe21/src/sync-engine.ts",
+      "httpStatus": 200,
+      "bytes": 12710,
+      "sha256": "9a262309b069d38390f8788421f1d954b4c05bd2ab7e7dca0c60cb311bbd7167",
+      "matchesSourceCommit": true
+    },
+    {
+      "path": "src/sync-drive.ts",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/2093980f029bffdd032ef4d2dea0e3b1c75cfe21/src/sync-drive.ts",
+      "httpStatus": 200,
+      "bytes": 12616,
+      "sha256": "51edc98ad808ebf655a4db09580740de36f25765ddbbe2dd4858fa5aca94c3c8",
+      "matchesSourceCommit": true
+    },
+    {
+      "path": "src/sync-local.ts",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/2093980f029bffdd032ef4d2dea0e3b1c75cfe21/src/sync-local.ts",
+      "httpStatus": 200,
+      "bytes": 5361,
+      "sha256": "277694b855953cc223cefc50aca1cf99d0c0c42dda13a6a36c31fb5a4f2c4d9a",
+      "matchesSourceCommit": true
+    },
+    {
+      "path": "src/sync-journal.ts",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/2093980f029bffdd032ef4d2dea0e3b1c75cfe21/src/sync-journal.ts",
+      "httpStatus": 200,
+      "bytes": 3905,
+      "sha256": "5da2f59183dce5901575280b2eb98898d21ccf58ed24616f7088f5385f61e3bc",
+      "matchesSourceCommit": true
+    },
+    {
+      "path": "src/useDriveSync.ts",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/2093980f029bffdd032ef4d2dea0e3b1c75cfe21/src/useDriveSync.ts",
+      "httpStatus": 200,
+      "bytes": 10420,
+      "sha256": "0c7ed5f58b07a6dd5558fbe8fdd8169abc34d0ddd3d1fa8d024640958962effb",
+      "matchesSourceCommit": true
+    },
+    {
+      "path": "src/main.tsx",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/2093980f029bffdd032ef4d2dea0e3b1c75cfe21/src/main.tsx",
+      "httpStatus": 200,
+      "bytes": 1445,
+      "sha256": "e3385c25364faad26d74a720ce4c68c8323fefe062ef7cd5063c214837ab1fec",
+      "matchesSourceCommit": true
+    },
+    {
+      "path": "android/app/src/main/java/com/jido/travel/GoogleDriveSyncPlugin.java",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/2093980f029bffdd032ef4d2dea0e3b1c75cfe21/android/app/src/main/java/com/jido/travel/GoogleDriveSyncPlugin.java",
+      "httpStatus": 200,
+      "bytes": 13677,
+      "sha256": "e2ee5b1d2b258fdc17b9dc38f7c1bb32f368fe0e2be64592354b675d46ea9604",
+      "matchesSourceCommit": true
+    },
+    {
+      "path": "android/app/src/main/java/com/jido/travel/GoogleDriveAuthorizationActivity.java",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/2093980f029bffdd032ef4d2dea0e3b1c75cfe21/android/app/src/main/java/com/jido/travel/GoogleDriveAuthorizationActivity.java",
+      "httpStatus": 200,
+      "bytes": 931,
+      "sha256": "5cd3b51807c9cde69b8bf8527215c034371beb15a3dc5f32259547273884a758",
+      "matchesSourceCommit": true
+    },
+    {
+      "path": "GOOGLE-DRIVE-SYNC.md",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/2093980f029bffdd032ef4d2dea0e3b1c75cfe21/GOOGLE-DRIVE-SYNC.md",
+      "httpStatus": 200,
+      "bytes": 8873,
+      "sha256": "ad0cfe14562d7f9b9aa6024d3dcc637740058be5e1159c3c4bf17c6b8977c983",
+      "matchesSourceCommit": true
+    },
+    {
+      "path": "PRIVACY.md",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/2093980f029bffdd032ef4d2dea0e3b1c75cfe21/PRIVACY.md",
+      "httpStatus": 200,
+      "bytes": 8400,
+      "sha256": "d4c83ef06ccbad0bb1d3b6387165ac17baa81fb1171c1755f0765600a5a2da33",
+      "matchesSourceCommit": true
+    }
+  ],
+  "sourceFilesCheckedAt": "2026-11-06T05:41:45.432697+00:00",
+  "googleCloudSetupReportedCompleteByUser": true,
+  "actualGoogleOAuthVerified": false,
+  "actualGoogleDriveTransferVerified": false,
+  "actualTwoAndroidDevicesTested": false,
+  "isolatedBrowserAppsWithMockGoogleVerified": true,
+  "nativeGoogleSdkReleaseBuildVerified": true,
+  "guideDatabase": {
+    "check": "passed",
+    "guides": 80,
+    "places": 1385,
+    "bundledGuides": 21,
+    "downloadableGuides": 59,
+    "downloadablePlaces": 319
+  },
+  "testSuites": [
+    "drive-sync",
+    "storage-safety",
+    "app-session",
+    "personal-place-library",
+    "trip-discovery",
+    "ui-refinement",
+    "blog-search",
+    "guidebook-library"
+  ]
+}

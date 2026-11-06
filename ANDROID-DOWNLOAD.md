@@ -1,6 +1,6 @@
 # J★Do Android 다운로드
 
-[J★Do 0.80 개발판 APK 다운로드](https://raw.githubusercontent.com/rjs198426-lang/JIdo/android-apk-downloads/JDo-android-0.80.apk)
+[J★Do 0.80 개발판 APK 다운로드](https://raw.githubusercontent.com/rjs198426-lang/JIdo/67805691039e18a38949387224db5b41d59ea36e/JDo-android-0.80.apk)
 
 - 앱: **J★Do** (`com.jido.travel.next`)
 - 버전: 0.80 개발판 · versionCode 81 · Android 7.0 이상
@@ -22,6 +22,8 @@
 - 일반 Drive 문서가 아닌 비공개 앱 데이터 공간만 사용합니다. 개인 기록·사진·키·토큰을 GitHub에 올리지 않습니다. 기존 서명키와 지도 설정을 유지했습니다.
 
 관련 검사98개를 통과했습니다. 독립된 두 브라우저의 실행 앱에 Google HTTP·Android 브리지를 모형으로 제공해 초기 연결·오프라인 변경·충돌 선택·사진/첨부 해시·저장 실패 복구를 확인했습니다. 실제 Google SDK를 포함한 Android release 빌드와 기존 패키지·서명·내부 웹 자산237개 일치를 확인했습니다. 중앙 DB80개 가이드·1,385곳, 다운로드59개·319곳 일치 검사도 통과했습니다. Google Cloud 설정은 사용자가 완료했다고 알려 주었으며 **실제 Google 로그인·휴대폰 두 대의 서버 전송·실기기 설치는 아직 검증하지 않았습니다.** [사용·설정·검증 범위](GOOGLE-DRIVE-SYNC.md).
+
+공개 검증: 고정0.80 링크와 최신 APK 별칭2개·공개 원본12개를 인증 없이 내려받아 HTTP200·바이트·SHA-256 일치를 확인하고 내려받은 APK의 기존 서명을 대조했습니다. [배포 검증 기록](research/release-0.80-verification.json).
 
 ## 0.79 개발판 · 다양한 블로그 검색과 괌 정보
 
