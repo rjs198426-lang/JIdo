@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "description": "공개 여행 가이드만 수집한 데이터베이스. 개인 일정·사진·메모·기기 캐시는 포함하지 않음.",
-  "guideCount": 80,
-  "countryCount": 26,
-  "placeCount": 1385,
+  "guideCount": 85,
+  "countryCount": 27,
+  "placeCount": 1410,
   "origins": {
     "bundled": 21,
-    "downloadable": 59
+    "downloadable": 64
   },
   "guides": [
     {
@@ -184,9 +184,9 @@
       "origin": "downloadable",
       "importedAt": "2026-10-31",
       "sourceCheckedAt": "2026-10-31",
-      "latestSourceCheckedAt": "2026-10-31",
-      "lastReviewedAt": "2026-10-31",
-      "contentHash": "3b38d0f931308d1b883d57c589dcdeed478348a4118364059badea60018dd52e",
+      "latestSourceCheckedAt": "2026-11-07",
+      "lastReviewedAt": null,
+      "contentHash": "109eb1c17c897fd768c8ef49705c9af526ea5fba088c6788fefaccbf08cb2dec",
       "file": "records/book-florence.json",
       "placeCount": 5,
       "sectionCount": 7
@@ -198,9 +198,9 @@
       "origin": "downloadable",
       "importedAt": "2026-10-29",
       "sourceCheckedAt": "2026-10-29",
-      "latestSourceCheckedAt": "2026-10-29",
-      "lastReviewedAt": "2026-10-29",
-      "contentHash": "932f0348948baf71e3b98e946ebd4a5af34fd40bc10dae20c69425b828ffbbff",
+      "latestSourceCheckedAt": "2026-11-07",
+      "lastReviewedAt": null,
+      "contentHash": "f7e8d480a5f58b08cd0cdbad0bda1e8673610602c19dcde38fa5f8cfda45e523",
       "file": "records/book-hakodate.json",
       "placeCount": 5,
       "sectionCount": 7
@@ -286,6 +286,20 @@
       "lastReviewedAt": "2026-10-29",
       "contentHash": "b68889934cbda9c4ba593139255b4da34680965a9bba3841c20e55b68abc2aa4",
       "file": "records/book-hue.json",
+      "placeCount": 5,
+      "sectionCount": 7
+    },
+    {
+      "id": "book-interlaken",
+      "name": "인터라켄",
+      "country": "스위스",
+      "origin": "downloadable",
+      "importedAt": "2026-11-07",
+      "sourceCheckedAt": "2026-11-07",
+      "latestSourceCheckedAt": "2026-11-07",
+      "lastReviewedAt": "2026-11-07",
+      "contentHash": "0f91f3c6de02f7080a50c379a917c2456908c734b5eda7a277a21f8cdafdab5a",
+      "file": "records/book-interlaken.json",
       "placeCount": 5,
       "sectionCount": 7
     },
@@ -483,6 +497,20 @@
       "contentHash": "bee96dc2f5a6e7bd1cb6d86223b1a375d850f47ba0f916216493c440710547fb",
       "file": "records/book-losangeles.json",
       "placeCount": 6,
+      "sectionCount": 7
+    },
+    {
+      "id": "book-lucerne",
+      "name": "루체른",
+      "country": "스위스",
+      "origin": "downloadable",
+      "importedAt": "2026-11-07",
+      "sourceCheckedAt": "2026-11-07",
+      "latestSourceCheckedAt": "2026-11-07",
+      "lastReviewedAt": "2026-11-07",
+      "contentHash": "5e58d0ceea7cb9c9d4e039958a725b3198447e0d2be1a3fc0ccce598626e133e",
+      "file": "records/book-lucerne.json",
+      "placeCount": 5,
       "sectionCount": 7
     },
     {
@@ -738,6 +766,20 @@
       "sectionCount": 7
     },
     {
+      "id": "book-salzburg",
+      "name": "잘츠부르크",
+      "country": "오스트리아",
+      "origin": "downloadable",
+      "importedAt": "2026-11-07",
+      "sourceCheckedAt": "2026-11-07",
+      "latestSourceCheckedAt": "2026-11-07",
+      "lastReviewedAt": "2026-11-07",
+      "contentHash": "5717841fc7f7d9f02705b4aa47bd135e577c4fd9c830678b104a57ac981ab4cc",
+      "file": "records/book-salzburg.json",
+      "placeCount": 5,
+      "sectionCount": 7
+    },
+    {
       "id": "book-shanghai",
       "name": "상하이",
       "country": "중국",
@@ -864,6 +906,34 @@
       "sectionCount": 7
     },
     {
+      "id": "book-zermatt",
+      "name": "체르마트",
+      "country": "스위스",
+      "origin": "downloadable",
+      "importedAt": "2026-11-07",
+      "sourceCheckedAt": "2026-11-07",
+      "latestSourceCheckedAt": "2026-11-07",
+      "lastReviewedAt": "2026-11-07",
+      "contentHash": "ddaa77098345ce5fe436a8fdc7ebe8be97046eb1ba49d6eddb7cae9ebc55d697",
+      "file": "records/book-zermatt.json",
+      "placeCount": 5,
+      "sectionCount": 7
+    },
+    {
+      "id": "book-zurich",
+      "name": "취리히",
+      "country": "스위스",
+      "origin": "downloadable",
+      "importedAt": "2026-11-07",
+      "sourceCheckedAt": "2026-11-07",
+      "latestSourceCheckedAt": "2026-11-07",
+      "lastReviewedAt": "2026-11-07",
+      "contentHash": "95b086eb001c54a76ff22458f5336fb218130c7caa6cf361a73ea7a5cf91f2fe",
+      "file": "records/book-zurich.json",
+      "placeCount": 5,
+      "sectionCount": 7
+    },
+    {
       "id": "danang",
       "name": "다낭·호이안",
       "country": "베트남",
@@ -898,9 +968,9 @@
       "origin": "bundled",
       "importedAt": "2026-10-28",
       "sourceCheckedAt": "2026-10-15",
-      "latestSourceCheckedAt": "2026-10-15",
+      "latestSourceCheckedAt": "2026-11-07",
       "lastReviewedAt": null,
-      "contentHash": "2bbf435b89033aa80e321db7e8cea85f51cdb106bc98cf8fe7a95a4a619875a0",
+      "contentHash": "15a14c66cf8da9bbf270006be42dee8ea4f4814b99cb75ea4b16fa88574c9875",
       "file": "records/fukuoka.json",
       "placeCount": 56,
       "sectionCount": 7
@@ -926,9 +996,9 @@
       "origin": "bundled",
       "importedAt": "2026-10-28",
       "sourceCheckedAt": "2026-10-15",
-      "latestSourceCheckedAt": "2026-10-15",
+      "latestSourceCheckedAt": "2026-11-07",
       "lastReviewedAt": null,
-      "contentHash": "232e4dac7974a9ed7cb984d2bb73610a4a991fa25d930e3caf3d62eb94f1b765",
+      "contentHash": "06711a7d5af69de81f49c02365c3dab21a5d3e9aa57a81b35061f70120f768ef",
       "file": "records/hiroshima.json",
       "placeCount": 57,
       "sectionCount": 7
@@ -1093,10 +1163,10 @@
       "country": "대만",
       "origin": "bundled",
       "importedAt": "2026-10-28",
-      "sourceCheckedAt": null,
-      "latestSourceCheckedAt": null,
+      "sourceCheckedAt": "2026-11-07",
+      "latestSourceCheckedAt": "2026-11-07",
       "lastReviewedAt": null,
-      "contentHash": "b12c4acafdac0959617d1ac4c1615ae365658171f38b1c9c88a3bca81d9735d6",
+      "contentHash": "ee54af84cf09408932390fb600cc9bcfa7b1d4401d2fd568e47f9d280b242570",
       "file": "records/taipei.json",
       "placeCount": 30,
       "sectionCount": 7

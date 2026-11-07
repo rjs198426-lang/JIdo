@@ -705,6 +705,143 @@
         "https://www.picguam.net/ko/restaurant"
       ],
       "evidencePath": "research/guidebooks/runs/20261105T_blog-search-refresh.json"
+    },
+    {
+      "guideId": "book-salzburg",
+      "checkedAt": "2026-11-07",
+      "contentHash": "5717841fc7f7d9f02705b4aa47bd135e577c4fd9c830678b104a57ac981ab4cc",
+      "result": "changed",
+      "urls": [
+        "https://www.salzburg.info/en/sights/top10",
+        "https://www.salzburg.info/en/sights/top10/hohensalzburg-fortress",
+        "https://www.salzburg.info/en/sights/top10/mirabell-palace-gardens",
+        "https://www.salzburg.info/en/sights/top10/mozarts-birthplace",
+        "https://www.salzburg.info/en/sights/top10/getreidegasse",
+        "https://www.salzburg.info/en/sights/top10/domquartier-salzburg",
+        "https://www.salzburg.info/en/travel-info/arrival-traffic",
+        "https://www.salzburg.info/en/travel-info/arrival-traffic/airplane/salzburg-airport",
+        "https://www.salzburg.info/en/dining-shopping/salzburg-culinary-classics"
+      ],
+      "evidencePath": "research/guidebooks/runs/20261107T1800-new.json"
+    },
+    {
+      "guideId": "book-zurich",
+      "checkedAt": "2026-11-07",
+      "contentHash": "95b086eb001c54a76ff22458f5336fb218130c7caa6cf361a73ea7a5cf91f2fe",
+      "result": "changed",
+      "urls": [
+        "https://www.zuerich.com/en/sightseeing-activities/places-to-visit/zurichs-old-town",
+        "https://www.zuerich.com/en/inform-plan/getting-there-and-mobility-on-location",
+        "https://www.zuerich.com/en/inform-plan/getting-there-and-mobility-on-location/travel-to-zurich/zurich-airport-to-city-center",
+        "https://www.zuerich.com/en/eat-drink/typical-and-traditional"
+      ],
+      "evidencePath": "research/guidebooks/runs/20261107T1800-new.json"
+    },
+    {
+      "guideId": "book-lucerne",
+      "checkedAt": "2026-11-07",
+      "contentHash": "5e58d0ceea7cb9c9d4e039958a725b3198447e0d2be1a3fc0ccce598626e133e",
+      "result": "changed",
+      "urls": [
+        "https://www.luzern.com/en/the-city/sights/top-sights",
+        "https://www.luzern.com/en/the-city/sights/top-sights/lucernes-landmarks-the-chapel-bridge-and-its-water-tower",
+        "https://www.luzern.com/en/the-city/sights/top-sights/lion-monument",
+        "https://www.luzern.com/en/poi/musegg-wall",
+        "https://www.luzern.com/en/the-city/swiss-museum-of-transport",
+        "https://www.luzern.com/en/the-city/culture-and-congress-center-lucerne",
+        "https://www.luzern.com/en/information/planning/directions-mobility",
+        "https://www.luzern.com/en/the-city/food-drinks",
+        "https://www.luzern.com/fr/gastro/gleis-1-restaurant",
+        "https://www.zuerich.com/en/inform-plan/getting-there-and-mobility-on-location/travel-to-zurich/zurich-airport-to-city-center"
+      ],
+      "evidencePath": "research/guidebooks/runs/20261107T1800-new.json"
+    },
+    {
+      "guideId": "book-interlaken",
+      "checkedAt": "2026-11-07",
+      "contentHash": "0f91f3c6de02f7080a50c379a917c2456908c734b5eda7a277a21f8cdafdab5a",
+      "result": "changed",
+      "urls": [
+        "https://www.interlaken.swiss/en/destinations/interlaken/interlaken-matten-unterseen",
+        "https://www.interlaken.swiss/en/experiences/poi/grand-tour-of-switzerland-interlaken-photo-spot",
+        "https://www.interlaken.swiss/en/experiences/poi/japanese-garden-interlaken",
+        "https://www.interlaken.swiss/en/experiences/poi/monastery-and-interlaken-castle",
+        "https://www.jungfrau.ch/en-gb/harder-kulm/",
+        "https://www.interlaken.swiss/en/planning/getting-here",
+        "https://www.interlaken.swiss/en/planning/restaurants"
+      ],
+      "evidencePath": "research/guidebooks/runs/20261107T1800-new.json"
+    },
+    {
+      "guideId": "book-zermatt",
+      "checkedAt": "2026-11-07",
+      "contentHash": "ddaa77098345ce5fe436a8fdc7ebe8be97046eb1ba49d6eddb7cae9ebc55d697",
+      "result": "changed",
+      "urls": [
+        "https://zermatt.swiss/en/discover-experience/tradition-culture/museum",
+        "https://zermatt.swiss/en/p/viewpoint-old-part-of-the-village-01tVj000005DpoLIAS",
+        "https://zermatt.swiss/en/p/viewpoint-kirchbruecke-bridge-01tVj000005Dpl7IAC",
+        "https://zermatt.swiss/en/discover-experience/must-sees/gornergrat",
+        "https://zermatt.swiss/en/p/sunnegga-mountain-station-01tVj000005Dpl8IAC",
+        "https://zermatt.swiss/en/plan-book/arrival",
+        "https://zermatt.swiss/en/discover-experience/tradition-culture",
+        "https://zermatt.swiss/en/discover-experience/culinary"
+      ],
+      "evidencePath": "research/guidebooks/runs/20261107T1800-new.json"
+    },
+    {
+      "guideId": "taipei",
+      "checkedAt": "2026-11-07",
+      "contentHash": "ee54af84cf09408932390fb600cc9bcfa7b1d4401d2fd568e47f9d280b242570",
+      "result": "blocked",
+      "urls": [
+        "https://www.immigration.gov.tw/5475/5478/141457/142068/398041/",
+        "https://www.immigration.gov.tw/5475/5478/6928/392106/400432/cp_news"
+      ],
+      "evidencePath": "research/guidebooks/runs/20261107T1800-refresh.json"
+    },
+    {
+      "guideId": "fukuoka",
+      "checkedAt": "2026-11-07",
+      "contentHash": "15a14c66cf8da9bbf270006be42dee8ea4f4814b99cb75ea4b16fa88574c9875",
+      "result": "blocked",
+      "urls": [
+        "https://www.fukuoka-airport.jp/en/access/bus2.html",
+        "https://www.fukuoka-airport.jp/en/access/subway.html"
+      ],
+      "evidencePath": "research/guidebooks/runs/20261107T1800-refresh.json"
+    },
+    {
+      "guideId": "hiroshima",
+      "checkedAt": "2026-11-07",
+      "contentHash": "06711a7d5af69de81f49c02365c3dab21a5d3e9aa57a81b35061f70120f768ef",
+      "result": "blocked",
+      "urls": [
+        "https://www.hiroden.co.jp/topics/2026/0328-hiroshimast.html"
+      ],
+      "evidencePath": "research/guidebooks/runs/20261107T1800-refresh.json"
+    },
+    {
+      "guideId": "book-hakodate",
+      "checkedAt": "2026-11-07",
+      "contentHash": "f7e8d480a5f58b08cd0cdbad0bda1e8673610602c19dcde38fa5f8cfda45e523",
+      "result": "blocked",
+      "urls": [
+        "https://334.co.jp/news/2026/0406-22668/",
+        "https://334.co.jp/access/"
+      ],
+      "evidencePath": "research/guidebooks/runs/20261107T1800-refresh.json"
+    },
+    {
+      "guideId": "book-florence",
+      "checkedAt": "2026-11-07",
+      "contentHash": "109eb1c17c897fd768c8ef49705c9af526ea5fba088c6788fefaccbf08cb2dec",
+      "result": "blocked",
+      "urls": [
+        "https://duomo.firenze.it/en/visit/plan-your-visit",
+        "https://duomo.firenze.it/en/news/12035/on-tuesday-november-3rd-the-museum-will-be-closed-to-the-public"
+      ],
+      "evidencePath": "research/guidebooks/runs/20261107T1800-refresh.json"
     }
   ]
 }

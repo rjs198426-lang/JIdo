@@ -1,0 +1,1497 @@
+{
+  "schemaVersion": 1,
+  "mode": "new",
+  "startedAt": "2026-11-07T18:00:25Z",
+  "completedWritingAt": "2026-11-07T18:11:26.806788+00:00",
+  "baseCommit": "5e2f32866f7ffccdfa40c8bf020371a1aa8e1ba5",
+  "selectionCommand": "npm run guides:plan -- new --limit=5",
+  "databaseAtStart": {
+    "guides": 80,
+    "places": 1385,
+    "sqliteGuides": 80
+  },
+  "defaultCandidates": [
+    "boracay",
+    "clark",
+    "haiphong",
+    "quynhon",
+    "qingdao"
+  ],
+  "heldCandidates": {
+    "boracay": "HTTP200이지만 무관한 게임 사이트로 리다이렉트. 관광 근거·사진으로 사용하지 않음.",
+    "clark": "개발공사로 리다이렉트하며 읽은 본문은 투자·등록·기업 안내 중심. 장소5곳·여행 실용 본문 근거 부족.",
+    "haiphong": "요청 관광 상세 경로404. 다른 검색 결과만으로 도시의5개 장소·교통을 완성하지 않음.",
+    "quynhon": "요청 관광 상세 경로404. 검색에 발견한 도시계획·해변 소개만으로 원고 전체가 검증되지 않아 보류.",
+    "qingdao": "요청 경로503. 제한을 우회하거나 내용을 추정하지 않음."
+  },
+  "completed": [
+    "book-salzburg",
+    "book-zurich",
+    "book-lucerne",
+    "book-interlaken",
+    "book-zermatt"
+  ],
+  "selectionJudgment": "같은 후보 큐에서 한국인 유럽·알프스 여행 목적지를 편집 선정. 최신 한국인 방문 통계 순위로 표현하지 않음.",
+  "deduplication": {
+    "checked": "최신 main의 index80개·SQLite전체ID/이름 일치 및 records전문 별칭 검색",
+    "aliases": {
+      "salzburg": [
+        "Salzburg",
+        "잘츠부르크"
+      ],
+      "zurich": [
+        "Zürich",
+        "Zurich",
+        "취리히"
+      ],
+      "lucerne": [
+        "Luzern",
+        "Lucerne",
+        "루체른"
+      ],
+      "interlaken": [
+        "Interlaken",
+        "인터라켄"
+      ],
+      "zermatt": [
+        "Zermatt",
+        "체르마트"
+      ]
+    },
+    "priorRecordsMatchingAnyAlias": 0,
+    "notCountedSeparately": [
+      "Matten",
+      "Unterseen",
+      "Täsch",
+      "Gornergrat",
+      "Sunnegga"
+    ]
+  },
+  "sources": [
+    {
+      "key": "hold-boracay",
+      "requestedUrl": "https://philippines.travel/destinations/boracay",
+      "checkedAt": "2026-11-07T18:00:25.442675+00:00",
+      "status": 200,
+      "url": "https://pafitapteng.org/",
+      "bytes": 144487,
+      "sha256": "d58881c936b70b7a2a856195af83ec32ee7c93f1ea5bdde329ebacd50273d19a",
+      "contentType": "text/html",
+      "title": "OKE25 | Platform Login Game Online untuk Komunitas Game yang terus Bertumbuh",
+      "textLength": 10480,
+      "dateMetadata": [],
+      "operatorHost": "pafitapteng.org",
+      "publicationDate": null,
+      "modifiedAt": null,
+      "dateJudgment": "게시일·수정일 미상. 확인일이나 페이지의 행사·시즌·저작권 연도를 게시일로 대체하지 않음.",
+      "judgment": "held",
+      "verifiedFacts": [],
+      "heldReason": "HTTP200이지만 무관한 게임 사이트로 리다이렉트. 관광 근거·사진으로 사용하지 않음."
+    },
+    {
+      "key": "hold-clark",
+      "requestedUrl": "https://www.visitclark.com/",
+      "checkedAt": "2026-11-07T18:00:25.443992+00:00",
+      "status": 200,
+      "url": "https://www.clark.com.ph/",
+      "bytes": 48731,
+      "sha256": "082d45d963ec7239cf2aec438cfc0c550f066016c73b4c1ad9eedd7f3cb3b58c",
+      "contentType": "text/html; charset=UTF-8",
+      "title": "Clark Development Corporation",
+      "textLength": 2100,
+      "dateMetadata": [],
+      "operatorHost": "www.clark.com.ph",
+      "publicationDate": null,
+      "modifiedAt": null,
+      "dateJudgment": "게시일·수정일 미상. 확인일이나 페이지의 행사·시즌·저작권 연도를 게시일로 대체하지 않음.",
+      "judgment": "held",
+      "verifiedFacts": [],
+      "heldReason": "개발공사로 리다이렉트하며 읽은 본문은 투자·등록·기업 안내 중심. 장소5곳·여행 실용 본문 근거 부족."
+    },
+    {
+      "key": "hold-haiphong",
+      "requestedUrl": "https://vietnam.travel/places-to-go/northern-vietnam/hai-phong",
+      "checkedAt": "2026-11-07T18:00:25.444682+00:00",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found",
+      "url": "https://vietnam.travel/places-to-go/northern-vietnam/hai-phong",
+      "operatorHost": "vietnam.travel",
+      "publicationDate": null,
+      "modifiedAt": null,
+      "dateJudgment": "게시일·수정일 미상. 확인일이나 페이지의 행사·시즌·저작권 연도를 게시일로 대체하지 않음.",
+      "judgment": "held",
+      "verifiedFacts": [],
+      "heldReason": "요청 관광 상세 경로404. 다른 검색 결과만으로 도시의5개 장소·교통을 완성하지 않음."
+    },
+    {
+      "key": "hold-qingdao",
+      "requestedUrl": "https://qingdao.chinadaily.com.cn/travel.html",
+      "checkedAt": "2026-11-07T18:00:25.445645+00:00",
+      "status": 503,
+      "error": "HTTP Error 503: Service Unavailable",
+      "url": "https://qingdao.chinadaily.com.cn/travel.html",
+      "operatorHost": "qingdao.chinadaily.com.cn",
+      "publicationDate": null,
+      "modifiedAt": null,
+      "dateJudgment": "게시일·수정일 미상. 확인일이나 페이지의 행사·시즌·저작권 연도를 게시일로 대체하지 않음.",
+      "judgment": "held",
+      "verifiedFacts": [],
+      "heldReason": "요청 경로503. 제한을 우회하거나 내용을 추정하지 않음."
+    },
+    {
+      "key": "hold-quynhon",
+      "requestedUrl": "https://vietnam.travel/places-to-go/central-vietnam/quy-nhon",
+      "checkedAt": "2026-11-07T18:00:25.445100+00:00",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found",
+      "url": "https://vietnam.travel/places-to-go/central-vietnam/quy-nhon",
+      "operatorHost": "vietnam.travel",
+      "publicationDate": null,
+      "modifiedAt": null,
+      "dateJudgment": "게시일·수정일 미상. 확인일이나 페이지의 행사·시즌·저작권 연도를 게시일로 대체하지 않음.",
+      "judgment": "held",
+      "verifiedFacts": [],
+      "heldReason": "요청 관광 상세 경로404. 검색에 발견한 도시계획·해변 소개만으로 원고 전체가 검증되지 않아 보류."
+    },
+    {
+      "key": "interlaken-arrival",
+      "requestedUrl": "https://www.interlaken.swiss/en/planning/getting-here",
+      "checkedAt": "2026-11-07T18:03:34.816700+00:00",
+      "status": 200,
+      "url": "https://www.interlaken.swiss/en/planning/getting-here",
+      "bytes": 399043,
+      "sha256": "792e944333e759ea7d7d08b5114ea7bff8b46640099b0b7facaf64ed8c23259a",
+      "contentType": "text/html; charset=utf-8",
+      "title": "Getting here",
+      "textLength": 12336,
+      "dateMetadata": [],
+      "operatorHost": "www.interlaken.swiss",
+      "publicationDate": null,
+      "modifiedAt": null,
+      "dateJudgment": "게시일·수정일 미상. 확인일이나 페이지의 행사·시즌·저작권 연도를 게시일로 대체하지 않음.",
+      "judgment": "accepted",
+      "verifiedFacts": [
+        "2026년10월19일~12월11일 Ost–West 철도 공사와 대체버스, 서역 승차 지점 변동을 확인함."
+      ],
+      "heldReason": null
+    },
+    {
+      "key": "interlaken-castle",
+      "requestedUrl": "https://www.interlaken.swiss/en/experiences/poi/monastery-and-interlaken-castle",
+      "checkedAt": "2026-11-07T18:03:15.468504+00:00",
+      "status": 200,
+      "url": "https://www.interlaken.swiss/en/experiences/poi/monastery-and-interlaken-castle",
+      "bytes": 365563,
+      "sha256": "e5df976c2e8ebdf35e648551f4277097801777e2c5b043aac59032470c622170",
+      "contentType": "text/html; charset=utf-8",
+      "title": "Monastery, castle church and Interlaken Castle | interlaken.swiss",
+      "textLength": 11421,
+      "dateMetadata": [],
+      "operatorHost": "www.interlaken.swiss",
+      "publicationDate": null,
+      "modifiedAt": null,
+      "dateJudgment": "게시일·수정일 미상. 확인일이나 페이지의 행사·시즌·저작권 연도를 게시일로 대체하지 않음.",
+      "judgment": "accepted",
+      "verifiedFacts": [
+        "옛 수도원·성 교회·공개 부지와 현재 행정 기능을 구분함."
+      ],
+      "heldReason": null
+    },
+    {
+      "key": "interlaken-chocolate",
+      "requestedUrl": "https://www.myswitzerland.com/en-gb/experiences/lindt-chocolate-shop-interlaken/",
+      "checkedAt": "2026-11-07T18:02:37.330196+00:00",
+      "status": 406,
+      "error": "HTTP Error 406: Not Acceptable",
+      "url": "https://www.myswitzerland.com/en-gb/experiences/lindt-chocolate-shop-interlaken/",
+      "operatorHost": "www.myswitzerland.com",
+      "publicationDate": null,
+      "modifiedAt": null,
+      "dateJudgment": "게시일·수정일 미상. 확인일이나 페이지의 행사·시즌·저작권 연도를 게시일로 대체하지 않음.",
+      "judgment": "held",
+      "verifiedFacts": [],
+      "heldReason": "HTTP 응답 오류·접근 제한으로 본문 미확보. 우회하지 않음."
+    },
+    {
+      "key": "interlaken-food",
+      "requestedUrl": "https://www.interlaken.swiss/en/planning/restaurants",
+      "checkedAt": "2026-11-07T18:03:34.817221+00:00",
+      "status": 200,
+      "url": "https://www.interlaken.swiss/en/planning/restaurants",
+      "bytes": 372307,
+      "sha256": "bf1341f982a0983f336e9b39972c45508d0c6bdf6b28fd82369780452fe06bfa",
+      "contentType": "text/html; charset=utf-8",
+      "title": "Restaurants",
+      "textLength": 9807,
+      "dateMetadata": [],
+      "operatorHost": "www.interlaken.swiss",
+      "publicationDate": null,
+      "modifiedAt": null,
+      "dateJudgment": "게시일·수정일 미상. 확인일이나 페이지의 행사·시즌·저작권 연도를 게시일로 대체하지 않음.",
+      "judgment": "accepted",
+      "verifiedFacts": [
+        "지역 음식으로 라클레트·치즈 퐁뒤와 세계 음식·식이 조건별 분류를 확인함."
+      ],
+      "heldReason": null
+    },
+    {
+      "key": "interlaken-garden",
+      "requestedUrl": "https://www.interlaken.swiss/en/experiences/poi/japanese-garden-interlaken",
+      "checkedAt": "2026-11-07T18:03:15.467699+00:00",
+      "status": 200,
+      "url": "https://www.interlaken.swiss/en/experiences/poi/japanese-garden-interlaken",
+      "bytes": 369577,
+      "sha256": "ff0c4c61ef54c64646899b58a7987a62141bb1262979b84f29893ff761575bc8",
+      "contentType": "text/html; charset=utf-8",
+      "title": "Japanese Garden in Interlaken | interlaken.swiss",
+      "textLength": 10929,
+      "dateMetadata": [],
+      "operatorHost": "www.interlaken.swiss",
+      "publicationDate": null,
+      "modifiedAt": null,
+      "dateJudgment": "게시일·수정일 미상. 확인일이나 페이지의 행사·시즌·저작권 연도를 게시일로 대체하지 않음.",
+      "judgment": "accepted",
+      "verifiedFacts": [
+        "오쓰 자매도시가 선물한 연못·정자 정원과 낚시 금지를 확인함."
+      ],
+      "heldReason": null
+    },
+    {
+      "key": "interlaken-harder",
+      "requestedUrl": "https://www.jungfrau.ch/en-gb/harder-kulm/",
+      "checkedAt": "2026-11-07T18:00:26.608208+00:00",
+      "status": 200,
+      "url": "https://www.jungfrau.ch/en-gb/harder-kulm/",
+      "bytes": 293144,
+      "sha256": "31e4b25d3228f928aea7cd221a1924e3c3ed02e3003ba39c4d492416d4937de0",
+      "contentType": "text/html;charset=utf-8",
+      "title": "Harder Kulm – Top of Interlaken | jungfrau.ch",
+      "textLength": 5323,
+      "dateMetadata": [],
+      "operatorHost": "www.jungfrau.ch",
+      "publicationDate": null,
+      "modifiedAt": null,
+      "dateJudgment": "게시일·수정일 미상. 확인일이나 페이지의 행사·시즌·저작권 연도를 게시일로 대체하지 않음.",
+      "judgment": "accepted",
+      "verifiedFacts": [
+        "푸니쿨라·두 호수 전망·계절 상품 안내를 읽음. 특정 패스의 시즌 날짜를 모든 열차의 운행 보증으로 옮기지 않음."
+      ],
+      "heldReason": null
+    },
+    {
+      "key": "interlaken-home",
+      "requestedUrl": "https://www.interlaken.swiss/en/",
+      "checkedAt": "2026-11-07T18:01:20.662964+00:00",
+      "status": 200,
+      "url": "https://www.interlaken.swiss/en/",
+      "bytes": 394631,
+      "sha256": "f61b630e23a2b3fa010f4f17bf2672ba2ccac38ec834c7684b45e1dec30fbf89",
+      "contentType": "text/html; charset=utf-8",
+      "title": "Holiday Region Interlaken | interlaken.swiss",
+      "textLength": 17083,
+      "dateMetadata": [],
+      "operatorHost": "www.interlaken.swiss",
+      "publicationDate": null,
+      "modifiedAt": null,
+      "dateJudgment": "게시일·수정일 미상. 확인일이나 페이지의 행사·시즌·저작권 연도를 게시일로 대체하지 않음.",
+      "judgment": "held",
+      "verifiedFacts": [],
+      "heldReason": "원고 근거로 채택할 사실의 실질 본문 미확보 또는 이번 완성 범위 밖. HTTP200만으로 검증 처리하지 않음."
+    },
+    {
+      "key": "interlaken-horse",
+      "requestedUrl": "https://www.interlaken.swiss/en/experiences/poi/horse-drawn-carriage-rides-in-interlaken",
+      "checkedAt": "2026-11-07T18:02:37.341962+00:00",
+      "status": 200,
+      "url": "https://www.interlaken.swiss/en/experiences/poi/horse-drawn-carriage-rides-in-interlaken",
+      "bytes": 379917,
+      "sha256": "d4c418d51ac93e59657c4fc1e1fbf5e7b2507aa5972763bd3cf3339d94caa1d8",
+      "contentType": "text/html; charset=utf-8",
+      "title": "Horse-drawn carriage rides in Interlaken | interlaken.swiss",
+      "textLength": 11924,
+      "dateMetadata": [],
+      "operatorHost": "www.interlaken.swiss",
+      "publicationDate": null,
+      "modifiedAt": null,
+      "dateJudgment": "게시일·수정일 미상. 확인일이나 페이지의 행사·시즌·저작권 연도를 게시일로 대체하지 않음.",
+      "judgment": "held",
+      "verifiedFacts": [],
+      "heldReason": "원고 근거로 채택할 사실의 실질 본문 미확보 또는 이번 완성 범위 밖. HTTP200만으로 검증 처리하지 않음."
+    },
+    {
+      "key": "interlaken-photo",
+      "requestedUrl": "https://www.interlaken.swiss/en/experiences/poi/grand-tour-of-switzerland-interlaken-photo-spot",
+      "checkedAt": "2026-11-07T18:02:36.968061+00:00",
+      "status": 200,
+      "url": "https://www.interlaken.swiss/en/experiences/poi/grand-tour-of-switzerland-interlaken-photo-spot",
+      "bytes": 407131,
+      "sha256": "d710001fe93b56c844d33c096b3dc80808659136d5f9bc75af549490597de5dc",
+      "contentType": "text/html; charset=utf-8",
+      "title": "Grand Tour of Switzerland: Höhematte Interlaken photo spot | interlaken.swiss",
+      "textLength": 11242,
+      "dateMetadata": [],
+      "operatorHost": "www.interlaken.swiss",
+      "publicationDate": null,
+      "modifiedAt": null,
+      "dateJudgment": "게시일·수정일 미상. 확인일이나 페이지의 행사·시즌·저작권 연도를 게시일로 대체하지 않음.",
+      "judgment": "accepted",
+      "verifiedFacts": [
+        "호헤마테 사진 지점의 공공 접근·융프라우 방향 전망을 확인함. 관광 홍보의 상시 가시성 표현은 날씨 조건으로 완화함."
+      ],
+      "heldReason": null
+    },
+    {
+      "key": "interlaken-swiss",
+      "requestedUrl": "https://www.myswitzerland.com/en/destinations/interlaken/",
+      "checkedAt": "2026-11-07T18:01:21.319391+00:00",
+      "status": 406,
+      "error": "HTTP Error 406: Not Acceptable",
+      "url": "https://www.myswitzerland.com/en-us/destinations/interlaken/",
+      "operatorHost": "www.myswitzerland.com",
+      "publicationDate": null,
+      "modifiedAt": null,
+      "dateJudgment": "게시일·수정일 미상. 확인일이나 페이지의 행사·시즌·저작권 연도를 게시일로 대체하지 않음.",
+      "judgment": "held",
+      "verifiedFacts": [],
+      "heldReason": "HTTP 응답 오류·접근 제한으로 본문 미확보. 우회하지 않음."
+    },
+    {
+      "key": "interlaken-town",
+      "requestedUrl": "https://www.interlaken.swiss/en/destinations/interlaken/interlaken-matten-unterseen",
+      "checkedAt": "2026-11-07T18:02:36.948703+00:00",
+      "status": 200,
+      "url": "https://www.interlaken.swiss/en/destinations/interlaken/interlaken-matten-unterseen",
+      "bytes": 281674,
+      "sha256": "c2ba752f33a3ebb11ddbcc3a7dfdb5449a26321a50c052fcc2577bf8c2c3533d",
+      "contentType": "text/html; charset=utf-8",
+      "title": "Interlaken – Matten – Unterseen",
+      "textLength": 11636,
+      "dateMetadata": [],
+      "operatorHost": "www.interlaken.swiss",
+      "publicationDate": null,
+      "modifiedAt": null,
+      "dateJudgment": "게시일·수정일 미상. 확인일이나 페이지의 행사·시즌·저작권 연도를 게시일로 대체하지 않음.",
+      "judgment": "accepted",
+      "verifiedFacts": [
+        "두 호수 사이의 도시와 인접 Matten·Unterseen 범위, 구시가지·전망·호수 구역을 확인함."
+      ],
+      "heldReason": null
+    },
+    {
+      "key": "interlaken-uferweg",
+      "requestedUrl": "https://www.myswitzerland.com/en-gb/experiences/route/unterseener-uferweg/",
+      "checkedAt": "2026-11-07T18:02:37.210766+00:00",
+      "status": 406,
+      "error": "HTTP Error 406: Not Acceptable",
+      "url": "https://www.myswitzerland.com/en-gb/experiences/route/unterseener-uferweg/",
+      "operatorHost": "www.myswitzerland.com",
+      "publicationDate": null,
+      "modifiedAt": null,
+      "dateJudgment": "게시일·수정일 미상. 확인일이나 페이지의 행사·시즌·저작권 연도를 게시일로 대체하지 않음.",
+      "judgment": "held",
+      "verifiedFacts": [],
+      "heldReason": "HTTP 응답 오류·접근 제한으로 본문 미확보. 우회하지 않음."
+    },
+    {
+      "key": "interlaken-walk",
+      "requestedUrl": "https://www.interlaken.ch/en/experiences/tour/ortsrundgang-in-interlaken-what-can-i-do-in-1-hour",
+      "checkedAt": "2026-11-07T18:00:26.534484+00:00",
+      "status": 500,
+      "error": "HTTP Error 500: Internal Server Error",
+      "url": "https://www.interlaken.swiss/en/experiences/tour/ortsrundgang-in-interlaken-what-can-i-do-in-1-hour",
+      "operatorHost": "www.interlaken.swiss",
+      "publicationDate": null,
+      "modifiedAt": null,
+      "dateJudgment": "게시일·수정일 미상. 확인일이나 페이지의 행사·시즌·저작권 연도를 게시일로 대체하지 않음.",
+      "judgment": "held",
+      "verifiedFacts": [],
+      "heldReason": "HTTP 응답 오류·접근 제한으로 본문 미확보. 우회하지 않음."
+    },
+    {
+      "key": "lucerne-arrival",
+      "requestedUrl": "https://www.luzern.com/en/information/planning/directions-mobility",
+      "checkedAt": "2026-11-07T18:01:20.655975+00:00",
+      "status": 200,
+      "url": "https://www.luzern.com/en/information/planning/directions-mobility",
+      "bytes": 329613,
+      "sha256": "e234b8225ed8f6279951fc588e4fbee5ac336e4ce1a51308994cc9f08e7f04e7",
+      "contentType": "text/html; charset=utf-8",
+      "title": "Arrival &amp; mobility | Arrival in Lucerne",
+      "textLength": 19667,
+      "dateMetadata": [],
+      "operatorHost": "www.luzern.com",
+      "publicationDate": null,
+      "modifiedAt": null,
+      "dateJudgment": "게시일·수정일 미상. 확인일이나 페이지의 행사·시즌·저작권 연도를 게시일로 대체하지 않음.",
+      "judgment": "accepted",
+      "verifiedFacts": [
+        "철도·도심 버스·호수 선박 운영사를 구분함. 숙박객 시내 교통 혜택을 공항·산악 구간 전체로 확대하지 않음."
+      ],
+      "heldReason": null
+    },
+    {
+      "key": "lucerne-chapel",
+      "requestedUrl": "https://www.luzern.com/en/the-city/sights/top-sights/lucernes-landmarks-the-chapel-bridge-and-its-water-tower",
+      "checkedAt": "2026-11-07T18:02:36.442993+00:00",
+      "status": 200,
+      "url": "https://www.luzern.com/en/the-city/sights/top-sights/lucernes-landmarks-the-chapel-bridge-and-its-water-tower",
+      "bytes": 285566,
+      "sha256": "3d0d3c37ac4a652c7fdeb5224e1ca3c71787bf8f74e70357f6f3ab4bd136a164",
+      "contentType": "text/html; charset=utf-8",
+      "title": "Chapel Bridge | Lucerne&#039;s landmark",
+      "textLength": 11988,
+      "dateMetadata": [],
+      "operatorHost": "www.luzern.com",
+      "publicationDate": null,
+      "modifiedAt": null,
+      "dateJudgment": "게시일·수정일 미상. 확인일이나 페이지의 행사·시즌·저작권 연도를 게시일로 대체하지 않음.",
+      "judgment": "accepted",
+      "verifiedFacts": [
+        "물의 탑과 함께 로이스강 양쪽을 잇는 목조 다리이며 재건 역사가 있음."
+      ],
+      "heldReason": null
+    },
+    {
+      "key": "lucerne-food-example",
+      "requestedUrl": "https://www.luzern.com/fr/gastro/gleis-1-restaurant",
+      "checkedAt": "2026-11-07T18:03:34.817629+00:00",
+      "status": 200,
+      "url": "https://www.luzern.com/fr/gastro/gleis-1-restaurant",
+      "bytes": 385901,
+      "sha256": "de5ae7f02d1a251796305d56378241530ecba43236273d5bc5bd9021dc43fef2",
+      "contentType": "text/html; charset=utf-8",
+      "title": "Gleis 1 - Restaurant à Lucerne | Luzern.com",
+      "textLength": 10948,
+      "dateMetadata": [],
+      "operatorHost": "www.luzern.com",
+      "publicationDate": null,
+      "modifiedAt": null,
+      "dateJudgment": "게시일·수정일 미상. 확인일이나 페이지의 행사·시즌·저작권 연도를 게시일로 대체하지 않음.",
+      "judgment": "accepted",
+      "verifiedFacts": [
+        "2024년부터 Gleis1 새 이름으로 운영 안내와 Fritschipastete·소시지·채식 메뉴의 소개를 확인함. 개별 메뉴 상시 제공으로 일반화하지 않음."
+      ],
+      "heldReason": null
+    },
+    {
+      "key": "lucerne-food",
+      "requestedUrl": "https://www.luzern.com/en/the-city/food-drinks",
+      "checkedAt": "2026-11-07T18:01:20.658910+00:00",
+      "status": 200,
+      "url": "https://www.luzern.com/en/the-city/food-drinks",
+      "bytes": 253102,
+      "sha256": "99c2969af0386f9ebe4d1aecbe4f42647d4f343f19fb5bd4593b78193ce7b255",
+      "contentType": "text/html; charset=utf-8",
+      "title": "Eating &amp; drinking in Lucerne | Restaurants and culinary experiences",
+      "textLength": 8284,
+      "dateMetadata": [],
+      "operatorHost": "www.luzern.com",
+      "publicationDate": null,
+      "modifiedAt": null,
+      "dateJudgment": "게시일·수정일 미상. 확인일이나 페이지의 행사·시즌·저작권 연도를 게시일로 대체하지 않음.",
+      "judgment": "accepted",
+      "verifiedFacts": [
+        "식당·브런치·카페를 고르는 관광기관 안내를 읽음."
+      ],
+      "heldReason": null
+    },
+    {
+      "key": "lucerne-kkl",
+      "requestedUrl": "https://www.luzern.com/en/the-city/culture-and-congress-center-lucerne",
+      "checkedAt": "2026-11-07T18:02:36.450879+00:00",
+      "status": 200,
+      "url": "https://www.luzern.com/en/the-city/culture-and-congress-center-lucerne",
+      "bytes": 440236,
+      "sha256": "9fc448c21076906aed7a1e8721e6dc0a1922015eec000f5341a5e8c788f1a2bb",
+      "contentType": "text/html; charset=utf-8",
+      "title": "KKL Lucerne | Culture and Convention Center Lucerne",
+      "textLength": 11012,
+      "dateMetadata": [],
+      "operatorHost": "www.luzern.com",
+      "publicationDate": null,
+      "modifiedAt": null,
+      "dateJudgment": "게시일·수정일 미상. 확인일이나 페이지의 행사·시즌·저작권 연도를 게시일로 대체하지 않음.",
+      "judgment": "accepted",
+      "verifiedFacts": [
+        "콘서트홀·건축·행사와 호숫가 위치를 확인함. 자유 외관 산책과 예약 공연을 구분함."
+      ],
+      "heldReason": null
+    },
+    {
+      "key": "lucerne-lion",
+      "requestedUrl": "https://www.luzern.com/en/the-city/sights/top-sights/lion-monument",
+      "checkedAt": "2026-11-07T18:02:36.443604+00:00",
+      "status": 200,
+      "url": "https://www.luzern.com/en/the-city/sights/top-sights/lion-monument",
+      "bytes": 444989,
+      "sha256": "9d1dd772a8af21999794e219168d959ebfd66012599eb301a575596d6dc97f15",
+      "contentType": "text/html; charset=utf-8",
+      "title": "Lion Monument | Sights in Lucerne",
+      "textLength": 9998,
+      "dateMetadata": [],
+      "operatorHost": "www.luzern.com",
+      "publicationDate": null,
+      "modifiedAt": null,
+      "dateJudgment": "게시일·수정일 미상. 확인일이나 페이지의 행사·시즌·저작권 연도를 게시일로 대체하지 않음.",
+      "judgment": "accepted",
+      "verifiedFacts": [
+        "암벽의 사자 조각과 스위스 근위대 기념 맥락을 확인함. 연간 방문 숫자는 채택하지 않음."
+      ],
+      "heldReason": null
+    },
+    {
+      "key": "lucerne-musegg",
+      "requestedUrl": "https://www.luzern.com/en/poi/musegg-wall",
+      "checkedAt": "2026-11-07T18:01:20.655472+00:00",
+      "status": 200,
+      "url": "https://www.luzern.com/en/poi/musegg-wall",
+      "bytes": 407766,
+      "sha256": "7349093f35a13532b85f0f492c7abd1d907cef864213274d06790c97fd45977b",
+      "contentType": "text/html; charset=utf-8",
+      "title": "Musegg Wall - Sights",
+      "textLength": 13570,
+      "dateMetadata": [],
+      "operatorHost": "www.luzern.com",
+      "publicationDate": null,
+      "modifiedAt": null,
+      "dateJudgment": "게시일·수정일 미상. 확인일이나 페이지의 행사·시즌·저작권 연도를 게시일로 대체하지 않음.",
+      "judgment": "accepted",
+      "verifiedFacts": [
+        "무제크 성벽·탑 중 공개 대상과 매년4월1일~11월1일 개방 안내 확인. 겨울 내부 방문을 기본 예시에 넣지 않음."
+      ],
+      "heldReason": null
+    },
+    {
+      "key": "lucerne-sights",
+      "requestedUrl": "https://www.luzern.com/en/the-city/sights/top-sights",
+      "checkedAt": "2026-11-07T18:00:26.085135+00:00",
+      "status": 200,
+      "url": "https://www.luzern.com/en/the-city/sights/top-sights",
+      "bytes": 481465,
+      "sha256": "efe979e04664ad7208fc8ef26f445dd82519b94604605835b867766d09878522",
+      "contentType": "text/html; charset=utf-8",
+      "title": "Sights in Lucerne | Most beautiful city in the world",
+      "textLength": 13016,
+      "dateMetadata": [],
+      "operatorHost": "www.luzern.com",
+      "publicationDate": null,
+      "modifiedAt": null,
+      "dateJudgment": "게시일·수정일 미상. 확인일이나 페이지의 행사·시즌·저작권 연도를 게시일로 대체하지 않음.",
+      "judgment": "accepted",
+      "verifiedFacts": [
+        "카펠교·사자 기념비·무제크·교통박물관·KKL을 서로 다른 장소로 확인함."
+      ],
+      "heldReason": null
+    },
+    {
+      "key": "lucerne-transport-museum",
+      "requestedUrl": "https://www.luzern.com/en/the-city/swiss-museum-of-transport",
+      "checkedAt": "2026-11-07T18:02:36.444301+00:00",
+      "status": 200,
+      "url": "https://www.luzern.com/en/the-city/swiss-museum-of-transport",
+      "bytes": 434251,
+      "sha256": "0010f61e92e88c75a58577fea8609b3ab98e80d9ea6c43781b8e69c222ece271",
+      "contentType": "text/html; charset=utf-8",
+      "title": "Swiss Museum of Transport | A paradise for explorers",
+      "textLength": 9776,
+      "dateMetadata": [],
+      "operatorHost": "www.luzern.com",
+      "publicationDate": null,
+      "modifiedAt": null,
+      "dateJudgment": "게시일·수정일 미상. 확인일이나 페이지의 행사·시즌·저작권 연도를 게시일로 대체하지 않음.",
+      "judgment": "accepted",
+      "verifiedFacts": [
+        "이동·에너지 전시와 별도 영화관·천체관·초콜릿 체험을 구분함."
+      ],
+      "heldReason": null
+    },
+    {
+      "key": "salzburg-airport",
+      "requestedUrl": "https://www.salzburg.info/en/travel-info/arrival-traffic/airplane/salzburg-airport",
+      "checkedAt": "2026-11-07T18:01:23.896109+00:00",
+      "status": 200,
+      "url": "https://www.salzburg.info/en/travel-info/arrival-traffic/airplane/salzburg-airport",
+      "bytes": 333394,
+      "sha256": "f2850d429f4fc08924b2e785c4ce5ee322b6ae315bf0ab9aecb15746cb005fc9",
+      "contentType": "text/html; charset=UTF-8",
+      "title": "W. A. Mozart Airport : Air Travel to Salzburg : salzburg.info",
+      "textLength": 5896,
+      "dateMetadata": [],
+      "operatorHost": "www.salzburg.info",
+      "publicationDate": null,
+      "modifiedAt": null,
+      "dateJudgment": "게시일·수정일 미상. 확인일이나 페이지의 행사·시즌·저작권 연도를 게시일로 대체하지 않음.",
+      "judgment": "accepted",
+      "verifiedFacts": [
+        "공항2번·10번 트롤리버스 연결 안내. 현재 요금·고정 소요시간은 채택하지 않음."
+      ],
+      "heldReason": null
+    },
+    {
+      "key": "salzburg-arrival",
+      "requestedUrl": "https://www.salzburg.info/en/travel-info/arrival-traffic",
+      "checkedAt": "2026-11-07T18:00:28.491771+00:00",
+      "status": 200,
+      "url": "https://www.salzburg.info/en/travel-info/arrival-traffic",
+      "bytes": 476794,
+      "sha256": "9e6b0f2253297b6a849fb4be74551d920b7efc55edf03a977fa6945bfe843ae8",
+      "contentType": "text/html; charset=UTF-8",
+      "title": "Arrival &amp; Mobility : Planning my holidays in Salzburg : salzburg.info",
+      "textLength": 5927,
+      "dateMetadata": [],
+      "operatorHost": "www.salzburg.info",
+      "publicationDate": null,
+      "modifiedAt": null,
+      "dateJudgment": "게시일·수정일 미상. 확인일이나 페이지의 행사·시즌·저작권 연도를 게시일로 대체하지 않음.",
+      "judgment": "accepted",
+      "verifiedFacts": [
+        "2025년5월1일 도입 숙박객Guest Mobility Ticket과 구시가지 차량 제한, 걷기·대중교통을 확인함."
+      ],
+      "heldReason": null
+    },
+    {
+      "key": "salzburg-dom",
+      "requestedUrl": "https://www.salzburg.info/en/sights/top10/domquartier-salzburg",
+      "checkedAt": "2026-11-07T18:01:22.961025+00:00",
+      "status": 200,
+      "url": "https://www.salzburg.info/en/sights/top10/domquartier-salzburg",
+      "bytes": 639352,
+      "sha256": "8e80aed3d548a6316065c058594f731bdfe33a84b60add698a3e3a3850802f83",
+      "contentType": "text/html; charset=UTF-8",
+      "title": "DomQuartier : Museums in Salzburg : salzburg.info",
+      "textLength": 13592,
+      "dateMetadata": [],
+      "operatorHost": "www.salzburg.info",
+      "publicationDate": null,
+      "modifiedAt": null,
+      "dateJudgment": "게시일·수정일 미상. 확인일이나 페이지의 행사·시즌·저작권 연도를 게시일로 대체하지 않음.",
+      "judgment": "accepted",
+      "verifiedFacts": [
+        "궁정·성당 주변 컬렉션과 박물관 복합 방문을 확인함.",
+        "레지덴츠 갤러리2027년가을 무렵까지 폐쇄 예정·슈바르첸베르크 예배당 임시폐쇄·2026년8월17일 이후 성당 테라스 접근 경로 제한을 반영.예정 재개를 보장하지 않음."
+      ],
+      "heldReason": null
+    },
+    {
+      "key": "salzburg-food",
+      "requestedUrl": "https://www.salzburg.info/en/dining-shopping/salzburg-culinary-classics",
+      "checkedAt": "2026-11-07T18:01:22.995280+00:00",
+      "status": 200,
+      "url": "https://www.salzburg.info/en/dining-shopping/salzburg-culinary-classics",
+      "bytes": 297424,
+      "sha256": "9aab60205bed48ebe343ba9c9dcf9be7e10b9bbee287537d8eab5f6f1b14cb12",
+      "contentType": "text/html; charset=UTF-8",
+      "title": "Salzburg Culinary Classics : Dining in Salzburg : salzburg.info",
+      "textLength": 7351,
+      "dateMetadata": [],
+      "operatorHost": "www.salzburg.info",
+      "publicationDate": null,
+      "modifiedAt": null,
+      "dateJudgment": "게시일·수정일 미상. 확인일이나 페이지의 행사·시즌·저작권 연도를 게시일로 대체하지 않음.",
+      "judgment": "accepted",
+      "verifiedFacts": [
+        "노케를·모차르트쿠겔·보스나 등 지역 음식 설명을 확인함."
+      ],
+      "heldReason": null
+    },
+    {
+      "key": "salzburg-fortress",
+      "requestedUrl": "https://www.salzburg.info/en/sights/top10/hohensalzburg-fortress",
+      "checkedAt": "2026-11-07T18:01:22.442876+00:00",
+      "status": 200,
+      "url": "https://www.salzburg.info/en/sights/top10/hohensalzburg-fortress",
+      "bytes": 691257,
+      "sha256": "141bc6f8e635cee82354ae223bf4fbc609997f3b31416f3363bbb844000507f0",
+      "contentType": "text/html; charset=UTF-8",
+      "title": "Hohensalzburg Fortress : salzburg.info",
+      "textLength": 15178,
+      "dateMetadata": [],
+      "operatorHost": "www.salzburg.info",
+      "publicationDate": null,
+      "modifiedAt": null,
+      "dateJudgment": "게시일·수정일 미상. 확인일이나 페이지의 행사·시즌·저작권 연도를 게시일로 대체하지 않음.",
+      "judgment": "accepted",
+      "verifiedFacts": [
+        "2027년1월11일~3월14일 요새철도 점검 예정. 요새·박물관은 도보 접근으로 운영 안내."
+      ],
+      "heldReason": null
+    },
+    {
+      "key": "salzburg-getreide",
+      "requestedUrl": "https://www.salzburg.info/en/sights/top10/getreidegasse",
+      "checkedAt": "2026-11-07T18:02:38.207652+00:00",
+      "status": 200,
+      "url": "https://www.salzburg.info/en/sights/top10/getreidegasse",
+      "bytes": 366489,
+      "sha256": "dc951c217f054995aef8e38f71fa64af3435f0e4e1c3657bac94be5a26e8d881",
+      "contentType": "text/html; charset=UTF-8",
+      "title": "Getreidegasse : Squares &amp; Streets in Salzburg : salzburg.info",
+      "textLength": 7268,
+      "dateMetadata": [],
+      "operatorHost": "www.salzburg.info",
+      "publicationDate": null,
+      "modifiedAt": null,
+      "dateJudgment": "게시일·수정일 미상. 확인일이나 페이지의 행사·시즌·저작권 연도를 게시일로 대체하지 않음.",
+      "judgment": "accepted",
+      "verifiedFacts": [
+        "구시가지 상점·간판·안뜰 통로의 거리 설명을 읽음."
+      ],
+      "heldReason": null
+    },
+    {
+      "key": "salzburg-mirabell",
+      "requestedUrl": "https://www.salzburg.info/en/sights/top10/mirabell-palace-gardens",
+      "checkedAt": "2026-11-07T18:01:22.758079+00:00",
+      "status": 200,
+      "url": "https://www.salzburg.info/en/sights/top10/mirabell-palace-gardens",
+      "bytes": 610783,
+      "sha256": "4c3d7c338c9ca5550e13f406af1ff5eb2798e7527b02d0618e0830895991e0b8",
+      "contentType": "text/html; charset=UTF-8",
+      "title": "Schloss Mirabell &amp; Mirabell Gardens : salzburg.info",
+      "textLength": 10833,
+      "dateMetadata": [],
+      "operatorHost": "www.salzburg.info",
+      "publicationDate": null,
+      "modifiedAt": null,
+      "dateJudgment": "게시일·수정일 미상. 확인일이나 페이지의 행사·시즌·저작권 연도를 게시일로 대체하지 않음.",
+      "judgment": "accepted",
+      "verifiedFacts": [
+        "오랑제리 정원 재설계로2026년12월까지 폐쇄. 궁전·정원 전체 폐쇄로 확대하지 않음."
+      ],
+      "heldReason": null
+    },
+    {
+      "key": "salzburg-mozart",
+      "requestedUrl": "https://www.salzburg.info/en/sights/top10/mozarts-birthplace",
+      "checkedAt": "2026-11-07T18:01:22.898423+00:00",
+      "status": 200,
+      "url": "https://www.salzburg.info/en/sights/top10/mozarts-birthplace",
+      "bytes": 512359,
+      "sha256": "ec49b2c24c9453877c05cea1da537db382f51ebab24b10f7ac29b85aa4719765",
+      "contentType": "text/html; charset=UTF-8",
+      "title": "Mozart’s Birthplace: Sightseeing Attractions : salzburg.info",
+      "textLength": 11733,
+      "dateMetadata": [],
+      "operatorHost": "www.salzburg.info",
+      "publicationDate": null,
+      "modifiedAt": null,
+      "dateJudgment": "게시일·수정일 미상. 확인일이나 페이지의 행사·시즌·저작권 연도를 게시일로 대체하지 않음.",
+      "judgment": "accepted",
+      "verifiedFacts": [
+        "생가 위치Getreidegasse9와 별도 거주지 박물관을 구분함."
+      ],
+      "heldReason": null
+    },
+    {
+      "key": "salzburg-top",
+      "requestedUrl": "https://www.salzburg.info/en/sights/top10",
+      "checkedAt": "2026-11-07T18:00:28.116620+00:00",
+      "status": 200,
+      "url": "https://www.salzburg.info/en/sights/top10",
+      "bytes": 394993,
+      "sha256": "fbab3025aa8fdc4cd1eef803c4c95c856a8c6238ac0c076628cdd3e9cd2e838f",
+      "contentType": "text/html; charset=UTF-8",
+      "title": "Top 10 Tourist Attractions : Sightseeing : salzburg.info",
+      "textLength": 4934,
+      "dateMetadata": [],
+      "operatorHost": "www.salzburg.info",
+      "publicationDate": null,
+      "modifiedAt": null,
+      "dateJudgment": "게시일·수정일 미상. 확인일이나 페이지의 행사·시즌·저작권 연도를 게시일로 대체하지 않음.",
+      "judgment": "accepted",
+      "verifiedFacts": [
+        "요새·미라벨·생가·게트라이데·돔콰르티어 장소를 확인함."
+      ],
+      "heldReason": null
+    },
+    {
+      "key": "zermatt-arrival",
+      "requestedUrl": "https://zermatt.swiss/en/plan-book/arrival",
+      "checkedAt": "2026-11-07T18:01:21.437900+00:00",
+      "status": 200,
+      "url": "https://zermatt.swiss/en/plan-book/arrival",
+      "bytes": 414302,
+      "sha256": "6e4e31acd0c79ed68e3e3377833254785ecf49dfb73df53761ec51db4d4d7266",
+      "contentType": "text/html;charset=utf-8",
+      "title": "Planning Your Trip to Zermatt",
+      "textLength": 6550,
+      "dateMetadata": [],
+      "operatorHost": "zermatt.swiss",
+      "publicationDate": null,
+      "modifiedAt": null,
+      "dateJudgment": "게시일·수정일 미상. 확인일이나 페이지의 행사·시즌·저작권 연도를 게시일로 대체하지 않음.",
+      "judgment": "accepted",
+      "verifiedFacts": [
+        "자가용은Täsch까지, 이후 철도·허용된 교통 연결. 공항 철도 경로는 SBB·MGB 실제 시간표로 확인하도록 작성함."
+      ],
+      "heldReason": null
+    },
+    {
+      "key": "zermatt-bridge",
+      "requestedUrl": "https://zermatt.swiss/en/p/viewpoint-kirchbruecke-bridge-01tVj000005Dpl7IAC",
+      "checkedAt": "2026-11-07T18:02:37.362575+00:00",
+      "status": 200,
+      "url": "https://zermatt.swiss/en/p/viewpoint-kirchbruecke-bridge-01tVj000005Dpl7IAC",
+      "bytes": 365688,
+      "sha256": "bbe8f89221abd95393996108c7b5d6be4a67ea8c460092639d5ab074399adc8c",
+      "contentType": "text/html;charset=utf-8",
+      "title": "Viewpoint Kirchbrücke bridge | The Best Photos in Zermatt",
+      "textLength": 2242,
+      "dateMetadata": [],
+      "operatorHost": "zermatt.swiss",
+      "publicationDate": null,
+      "modifiedAt": null,
+      "dateJudgment": "게시일·수정일 미상. 확인일이나 페이지의 행사·시즌·저작권 연도를 게시일로 대체하지 않음.",
+      "judgment": "accepted",
+      "verifiedFacts": [
+        "Kirchbrücke의 마터호른 촬영 지점과 계절·일출 맥락을 확인함. 전망을 날씨와 무관하게 보장하지 않음."
+      ],
+      "heldReason": null
+    },
+    {
+      "key": "zermatt-culture",
+      "requestedUrl": "https://zermatt.swiss/en/discover-experience/tradition-culture",
+      "checkedAt": "2026-11-07T18:01:21.481038+00:00",
+      "status": 200,
+      "url": "https://zermatt.swiss/en/discover-experience/tradition-culture",
+      "bytes": 363335,
+      "sha256": "358fc847f1a6c140327ab87a63aeb2fe415508ff0b42bd977eb919678de46482",
+      "contentType": "text/html;charset=utf-8",
+      "title": "Zermatt Tradition and Culture",
+      "textLength": 3335,
+      "dateMetadata": [],
+      "operatorHost": "zermatt.swiss",
+      "publicationDate": null,
+      "modifiedAt": null,
+      "dateJudgment": "게시일·수정일 미상. 확인일이나 페이지의 행사·시즌·저작권 연도를 게시일로 대체하지 않음.",
+      "judgment": "accepted",
+      "verifiedFacts": [
+        "옛 마을·박물관과 가이드 투어의 연결을 읽음. 날짜 미확인 공연·계절 행사를 현재 운영으로 복제하지 않음."
+      ],
+      "heldReason": null
+    },
+    {
+      "key": "zermatt-food",
+      "requestedUrl": "https://zermatt.swiss/en/discover-experience/culinary",
+      "checkedAt": "2026-11-07T18:01:21.511575+00:00",
+      "status": 200,
+      "url": "https://zermatt.swiss/en/discover-experience/culinary",
+      "bytes": 426639,
+      "sha256": "d2e1985985b7e357c0b4ec776c2fcb0057d4073d815ab4996f5b5995ccd3f34c",
+      "contentType": "text/html;charset=utf-8",
+      "title": "Diverse Cuisine in Zermatt",
+      "textLength": 6383,
+      "dateMetadata": [],
+      "operatorHost": "zermatt.swiss",
+      "publicationDate": null,
+      "modifiedAt": null,
+      "dateJudgment": "게시일·수정일 미상. 확인일이나 페이지의 행사·시즌·저작권 연도를 게시일로 대체하지 않음.",
+      "judgment": "accepted",
+      "verifiedFacts": [
+        "발레 음식·퐁뒤·라클레트와 마을/산악 식당을 구분함. 동적 수치0을 실제 업소 수로 채택하지 않음."
+      ],
+      "heldReason": null
+    },
+    {
+      "key": "zermatt-gornergrat",
+      "requestedUrl": "https://zermatt.swiss/en/discover-experience/must-sees/gornergrat",
+      "checkedAt": "2026-11-07T18:00:27.077344+00:00",
+      "status": 200,
+      "url": "https://zermatt.swiss/en/discover-experience/must-sees/gornergrat",
+      "bytes": 411860,
+      "sha256": "825e9ae6c59a58b1f348712223bf808136b101bc0246f966756f11fd13ca6d15",
+      "contentType": "text/html;charset=utf-8",
+      "title": "Experience Gornergrat: Railway rides, adventure &amp; enjoyment at 3,089 m",
+      "textLength": 3324,
+      "dateMetadata": [],
+      "operatorHost": "zermatt.swiss",
+      "publicationDate": null,
+      "modifiedAt": null,
+      "dateJudgment": "게시일·수정일 미상. 확인일이나 페이지의 행사·시즌·저작권 연도를 게시일로 대체하지 않음.",
+      "judgment": "accepted",
+      "verifiedFacts": [
+        "산악열차·전망 구역과 여러 특별 상품을 구분함. 일부 일출·NostalChic 등은 Currently not available 표시로 추천에서 제외함."
+      ],
+      "heldReason": null
+    },
+    {
+      "key": "zermatt-museum",
+      "requestedUrl": "https://zermatt.swiss/en/discover-experience/tradition-culture/museum",
+      "checkedAt": "2026-11-07T18:00:27.000377+00:00",
+      "status": 200,
+      "url": "https://zermatt.swiss/en/discover-experience/tradition-culture/museum",
+      "bytes": 365004,
+      "sha256": "939424c49d28b7b05f9db69cd4cdc2375df9269b93b043bbf40ba10d3781c82b",
+      "contentType": "text/html;charset=utf-8",
+      "title": "Matterhorn Museum - Zermatlantis",
+      "textLength": 3073,
+      "dateMetadata": [],
+      "operatorHost": "zermatt.swiss",
+      "publicationDate": null,
+      "modifiedAt": null,
+      "dateJudgment": "게시일·수정일 미상. 확인일이나 페이지의 행사·시즌·저작권 연도를 게시일로 대체하지 않음.",
+      "judgment": "accepted",
+      "verifiedFacts": [
+        "마을 생활·초등정 관련 유물과 전시를 소개하는 박물관임을 확인함."
+      ],
+      "heldReason": null
+    },
+    {
+      "key": "zermatt-old",
+      "requestedUrl": "https://zermatt.swiss/en/p/viewpoint-old-part-of-the-village-01tVj000005DpoLIAS",
+      "checkedAt": "2026-11-07T18:02:37.707891+00:00",
+      "status": 200,
+      "url": "https://zermatt.swiss/en/p/viewpoint-old-part-of-the-village-01tVj000005DpoLIAS",
+      "bytes": 369848,
+      "sha256": "31e63cbb12ddd9e599648e8cb4284bdf3e62de0fd69cc00710c9fcc939023b20",
+      "contentType": "text/html;charset=utf-8",
+      "title": "Viewpoint Old part of the village | Explore Historic Sites",
+      "textLength": 3263,
+      "dateMetadata": [],
+      "operatorHost": "zermatt.swiss",
+      "publicationDate": null,
+      "modifiedAt": null,
+      "dateJudgment": "게시일·수정일 미상. 확인일이나 페이지의 행사·시즌·저작권 연도를 게시일로 대체하지 않음.",
+      "judgment": "accepted",
+      "verifiedFacts": [
+        "Hinterdorfstrasse 옛 목조 주거·창고 골목을 확인함."
+      ],
+      "heldReason": null
+    },
+    {
+      "key": "zermatt-photo",
+      "requestedUrl": "https://zermatt.swiss/en/discover-experience/villages/zermatt/photopoints",
+      "checkedAt": "2026-11-07T18:01:21.483170+00:00",
+      "status": 200,
+      "url": "https://zermatt.swiss/en/discover-experience/villages/zermatt/photopoints",
+      "bytes": 415825,
+      "sha256": "53068d0eec8bab2bb6e6e3b857fb3bfee875b661597d0ba7c832ad35a285aa81",
+      "contentType": "text/html;charset=utf-8",
+      "title": "Photopoints Zermatt - the most beautiful places for Matterhorn photos",
+      "textLength": 2603,
+      "dateMetadata": [],
+      "operatorHost": "zermatt.swiss",
+      "publicationDate": null,
+      "modifiedAt": null,
+      "dateJudgment": "게시일·수정일 미상. 확인일이나 페이지의 행사·시즌·저작권 연도를 게시일로 대체하지 않음.",
+      "judgment": "held",
+      "verifiedFacts": [],
+      "heldReason": "원고 근거로 채택할 사실의 실질 본문 미확보 또는 이번 완성 범위 밖. HTTP200만으로 검증 처리하지 않음."
+    },
+    {
+      "key": "zermatt-sunnegga",
+      "requestedUrl": "https://zermatt.swiss/en/p/sunnegga-mountain-station-01tVj000005Dpl8IAC",
+      "checkedAt": "2026-11-07T18:03:15.469043+00:00",
+      "status": 200,
+      "url": "https://zermatt.swiss/en/p/sunnegga-mountain-station-01tVj000005Dpl8IAC",
+      "bytes": 372342,
+      "sha256": "9fc74debdfea24d7401c83ff062835aefb5521084aa1b099b6c8227d2679d856",
+      "contentType": "text/html;charset=utf-8",
+      "title": "Sunnegga mountain station | Zermatt",
+      "textLength": 4045,
+      "dateMetadata": [],
+      "operatorHost": "zermatt.swiss",
+      "publicationDate": null,
+      "modifiedAt": null,
+      "dateJudgment": "게시일·수정일 미상. 확인일이나 페이지의 행사·시즌·저작권 연도를 게시일로 대체하지 않음.",
+      "judgment": "accepted",
+      "verifiedFacts": [
+        "지하 푸니쿨라 거점과 여름 호수·겨울 스키 활동을 구분함. 모든 산길의 현재 개방으로 해석하지 않음."
+      ],
+      "heldReason": null
+    },
+    {
+      "key": "zermatt-terrace",
+      "requestedUrl": "https://zermatt.swiss/en/p/viewpoint-kirchplatz-the-community-centre-terrace-01tVj000005DnJTIA0",
+      "checkedAt": "2026-11-07T18:02:37.743618+00:00",
+      "status": 200,
+      "url": "https://zermatt.swiss/en/p/viewpoint-kirchplatz-the-community-centre-terrace-01tVj000005DnJTIA0",
+      "bytes": 367703,
+      "sha256": "959a111ad0e3ba08e69b55024fbac457a4bb1a076474e7ab915804e4de856caf",
+      "contentType": "text/html;charset=utf-8",
+      "title": "Viewpoint Kirchplatz and the Community Centre terrace | The Best Photos in Zermatt",
+      "textLength": 2659,
+      "dateMetadata": [],
+      "operatorHost": "zermatt.swiss",
+      "publicationDate": null,
+      "modifiedAt": null,
+      "dateJudgment": "게시일·수정일 미상. 확인일이나 페이지의 행사·시즌·저작권 연도를 게시일로 대체하지 않음.",
+      "judgment": "held",
+      "verifiedFacts": [],
+      "heldReason": "원고 근거로 채택할 사실의 실질 본문 미확보 또는 이번 완성 범위 밖. HTTP200만으로 검증 처리하지 않음."
+    },
+    {
+      "key": "zurich-airport",
+      "requestedUrl": "https://www.zuerich.com/en/visit/plan-your-trip/travel-information/zurich-airport",
+      "checkedAt": "2026-11-07T18:01:20.653746+00:00",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found",
+      "url": "https://www.zuerich.com/en/visit/plan-your-trip/travel-information/zurich-airport",
+      "operatorHost": "www.zuerich.com",
+      "publicationDate": null,
+      "modifiedAt": null,
+      "dateJudgment": "게시일·수정일 미상. 확인일이나 페이지의 행사·시즌·저작권 연도를 게시일로 대체하지 않음.",
+      "judgment": "held",
+      "verifiedFacts": [],
+      "heldReason": "HTTP 응답 오류·접근 제한으로 본문 미확보. 우회하지 않음."
+    },
+    {
+      "key": "zurich-airport-ok",
+      "requestedUrl": "https://www.zuerich.com/en/inform-plan/getting-there-and-mobility-on-location/travel-to-zurich/zurich-airport-to-city-center",
+      "checkedAt": "2026-11-07T18:03:34.815834+00:00",
+      "status": 200,
+      "url": "https://www.zuerich.com/en/inform-plan/getting-there-and-mobility-on-location/travel-to-zurich/zurich-airport-to-city-center",
+      "bytes": 228437,
+      "sha256": "5c5427cb8b64d613a68c38195f06d5a64c7d8f69cf45a819a05bc69e92806106",
+      "contentType": "text/html;charset=utf-8",
+      "title": "From Zurich Airport to the City Center | zuerich.com",
+      "textLength": 5092,
+      "dateMetadata": [],
+      "operatorHost": "www.zuerich.com",
+      "publicationDate": null,
+      "modifiedAt": null,
+      "dateJudgment": "게시일·수정일 미상. 확인일이나 페이지의 행사·시즌·저작권 연도를 게시일로 대체하지 않음.",
+      "judgment": "accepted",
+      "verifiedFacts": [
+        "공항–중앙역 철도/S-Bahn과10번 트램을 구분함.",
+        "택시 가격 범위가 페이지 안에서 서로 달라 고정 요금은 채택하지 않음."
+      ],
+      "heldReason": null
+    },
+    {
+      "key": "zurich-food",
+      "requestedUrl": "https://www.zuerich.com/en/eat-drink/typical-zurich-food",
+      "checkedAt": "2026-11-07T18:01:20.654839+00:00",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found",
+      "url": "https://www.zuerich.com/en/eat-drink/typical-zurich-food",
+      "operatorHost": "www.zuerich.com",
+      "publicationDate": null,
+      "modifiedAt": null,
+      "dateJudgment": "게시일·수정일 미상. 확인일이나 페이지의 행사·시즌·저작권 연도를 게시일로 대체하지 않음.",
+      "judgment": "held",
+      "verifiedFacts": [],
+      "heldReason": "HTTP 응답 오류·접근 제한으로 본문 미확보. 우회하지 않음."
+    },
+    {
+      "key": "zurich-food-ok",
+      "requestedUrl": "https://www.zuerich.com/en/eat-drink/typical-and-traditional",
+      "checkedAt": "2026-11-07T18:02:36.442386+00:00",
+      "status": 200,
+      "url": "https://www.zuerich.com/en/eat-drink/typical-and-traditional",
+      "bytes": 272055,
+      "sha256": "f02bd09716c2991fbb812dc3006f53aa6a172158279c80078f688efbe91ac4c4",
+      "contentType": "text/html;charset=utf-8",
+      "title": "Typical &amp; Traditional | zuerich.com",
+      "textLength": 5744,
+      "dateMetadata": [],
+      "operatorHost": "www.zuerich.com",
+      "publicationDate": null,
+      "modifiedAt": null,
+      "dateJudgment": "게시일·수정일 미상. 확인일이나 페이지의 행사·시즌·저작권 연도를 게시일로 대체하지 않음.",
+      "judgment": "accepted",
+      "verifiedFacts": [
+        "게슈네첼테스·뢰스티·비르허 뮈즐리·지역 과자를 소개함. 개별 식당 현재 영업·원조 순위는 채택하지 않음."
+      ],
+      "heldReason": null
+    },
+    {
+      "key": "zurich-mobility",
+      "requestedUrl": "https://www.zuerich.com/en/inform-plan/getting-there-and-mobility-on-location",
+      "checkedAt": "2026-11-07T18:02:36.441540+00:00",
+      "status": 200,
+      "url": "https://www.zuerich.com/en/inform-plan/getting-there-and-mobility-on-location",
+      "bytes": 214298,
+      "sha256": "5e3f69061f5c6f75e9479a8848f2b54f6b906724497f3dc936677ed4f4bd3d32",
+      "contentType": "text/html;charset=utf-8",
+      "title": "Getting There and Mobility on Location | Enjoy",
+      "textLength": 2965,
+      "dateMetadata": [],
+      "operatorHost": "www.zuerich.com",
+      "publicationDate": null,
+      "modifiedAt": null,
+      "dateJudgment": "게시일·수정일 미상. 확인일이나 페이지의 행사·시즌·저작권 연도를 게시일로 대체하지 않음.",
+      "judgment": "accepted",
+      "verifiedFacts": [
+        "도심 이동·공항 이동·대중교통·무장애 여행 안내 연결을 확인함."
+      ],
+      "heldReason": null
+    },
+    {
+      "key": "zurich-old",
+      "requestedUrl": "https://www.zuerich.com/en/sightseeing-activities/places-to-visit/zurichs-old-town",
+      "checkedAt": "2026-11-07T18:00:25.446242+00:00",
+      "status": 200,
+      "url": "https://www.zuerich.com/en/sightseeing-activities/places-to-visit/zurichs-old-town",
+      "bytes": 304080,
+      "sha256": "36a7ae9ba6291ee567f90fd6ade4ee9031e728adaecc17733fcfbbf005d5f268",
+      "contentType": "text/html;charset=utf-8",
+      "title": "Attractions in Zurich&#x27;s Old Town | zuerich.com",
+      "textLength": 6832,
+      "dateMetadata": [],
+      "operatorHost": "www.zuerich.com",
+      "publicationDate": null,
+      "modifiedAt": null,
+      "dateJudgment": "게시일·수정일 미상. 확인일이나 페이지의 행사·시즌·저작권 연도를 게시일로 대체하지 않음.",
+      "judgment": "accepted",
+      "verifiedFacts": [
+        "구시가지가 리마트강 양쪽에 있고 Grossmünster·Fraumünster·Lindenhof·Bahnhofstrasse·Niederdorf를 구분해 소개함."
+      ],
+      "heldReason": null
+    }
+  ],
+  "guideEvidence": [
+    {
+      "id": "book-salzburg",
+      "sourceKeys": [
+        "salzburg-arrival",
+        "salzburg-food",
+        "salzburg-dom",
+        "salzburg-fortress",
+        "salzburg-airport",
+        "salzburg-mirabell",
+        "salzburg-top",
+        "salzburg-getreide",
+        "salzburg-mozart"
+      ],
+      "placeIds": [
+        "book-salzburg-fortress",
+        "book-salzburg-mirabell",
+        "book-salzburg-mozart-birthplace",
+        "book-salzburg-getreidegasse",
+        "book-salzburg-domquartier"
+      ],
+      "scope": "7개 섹션·장소5곳의 작성 내용에 한정한 원문 검토. 좌표·운영시간·요금·입국 허가를 추정하지 않음.",
+      "placeEvidence": [
+        {
+          "placeId": "book-salzburg-fortress",
+          "sourceKeys": [
+            "salzburg-fortress"
+          ],
+          "judgment": "장소·지리·소개 내용에 한정해 실제 본문 대조.명시하지 않은 운영·요금·좌표 검증을 의미하지 않음."
+        },
+        {
+          "placeId": "book-salzburg-mirabell",
+          "sourceKeys": [
+            "salzburg-mirabell"
+          ],
+          "judgment": "장소·지리·소개 내용에 한정해 실제 본문 대조.명시하지 않은 운영·요금·좌표 검증을 의미하지 않음."
+        },
+        {
+          "placeId": "book-salzburg-mozart-birthplace",
+          "sourceKeys": [
+            "salzburg-mozart"
+          ],
+          "judgment": "장소·지리·소개 내용에 한정해 실제 본문 대조.명시하지 않은 운영·요금·좌표 검증을 의미하지 않음."
+        },
+        {
+          "placeId": "book-salzburg-getreidegasse",
+          "sourceKeys": [
+            "salzburg-getreide"
+          ],
+          "judgment": "장소·지리·소개 내용에 한정해 실제 본문 대조.명시하지 않은 운영·요금·좌표 검증을 의미하지 않음."
+        },
+        {
+          "placeId": "book-salzburg-domquartier",
+          "sourceKeys": [
+            "salzburg-dom"
+          ],
+          "judgment": "장소·지리·소개 내용에 한정해 실제 본문 대조.명시하지 않은 운영·요금·좌표 검증을 의미하지 않음."
+        }
+      ]
+    },
+    {
+      "id": "book-zurich",
+      "sourceKeys": [
+        "zurich-food-ok",
+        "zurich-old",
+        "zurich-mobility",
+        "zurich-airport-ok"
+      ],
+      "placeIds": [
+        "book-zurich-grossmunster",
+        "book-zurich-fraumunster",
+        "book-zurich-lindenhof",
+        "book-zurich-bahnhofstrasse",
+        "book-zurich-niederdorf"
+      ],
+      "scope": "7개 섹션·장소5곳의 작성 내용에 한정한 원문 검토. 좌표·운영시간·요금·입국 허가를 추정하지 않음.",
+      "placeEvidence": [
+        {
+          "placeId": "book-zurich-grossmunster",
+          "sourceKeys": [
+            "zurich-old"
+          ],
+          "judgment": "장소·지리·소개 내용에 한정해 실제 본문 대조.명시하지 않은 운영·요금·좌표 검증을 의미하지 않음."
+        },
+        {
+          "placeId": "book-zurich-fraumunster",
+          "sourceKeys": [
+            "zurich-old"
+          ],
+          "judgment": "장소·지리·소개 내용에 한정해 실제 본문 대조.명시하지 않은 운영·요금·좌표 검증을 의미하지 않음."
+        },
+        {
+          "placeId": "book-zurich-lindenhof",
+          "sourceKeys": [
+            "zurich-old"
+          ],
+          "judgment": "장소·지리·소개 내용에 한정해 실제 본문 대조.명시하지 않은 운영·요금·좌표 검증을 의미하지 않음."
+        },
+        {
+          "placeId": "book-zurich-bahnhofstrasse",
+          "sourceKeys": [
+            "zurich-old"
+          ],
+          "judgment": "장소·지리·소개 내용에 한정해 실제 본문 대조.명시하지 않은 운영·요금·좌표 검증을 의미하지 않음."
+        },
+        {
+          "placeId": "book-zurich-niederdorf",
+          "sourceKeys": [
+            "zurich-old"
+          ],
+          "judgment": "장소·지리·소개 내용에 한정해 실제 본문 대조.명시하지 않은 운영·요금·좌표 검증을 의미하지 않음."
+        }
+      ]
+    },
+    {
+      "id": "book-lucerne",
+      "sourceKeys": [
+        "lucerne-musegg",
+        "lucerne-food",
+        "lucerne-lion",
+        "lucerne-sights",
+        "lucerne-food-example",
+        "lucerne-chapel",
+        "lucerne-arrival",
+        "lucerne-kkl",
+        "lucerne-transport-museum",
+        "zurich-airport-ok"
+      ],
+      "placeIds": [
+        "book-lucerne-chapel-bridge",
+        "book-lucerne-lion",
+        "book-lucerne-musegg",
+        "book-lucerne-transport-museum",
+        "book-lucerne-kkl"
+      ],
+      "scope": "7개 섹션·장소5곳의 작성 내용에 한정한 원문 검토. 좌표·운영시간·요금·입국 허가를 추정하지 않음.",
+      "placeEvidence": [
+        {
+          "placeId": "book-lucerne-chapel-bridge",
+          "sourceKeys": [
+            "lucerne-chapel"
+          ],
+          "judgment": "장소·지리·소개 내용에 한정해 실제 본문 대조.명시하지 않은 운영·요금·좌표 검증을 의미하지 않음."
+        },
+        {
+          "placeId": "book-lucerne-lion",
+          "sourceKeys": [
+            "lucerne-lion"
+          ],
+          "judgment": "장소·지리·소개 내용에 한정해 실제 본문 대조.명시하지 않은 운영·요금·좌표 검증을 의미하지 않음."
+        },
+        {
+          "placeId": "book-lucerne-musegg",
+          "sourceKeys": [
+            "lucerne-musegg"
+          ],
+          "judgment": "장소·지리·소개 내용에 한정해 실제 본문 대조.명시하지 않은 운영·요금·좌표 검증을 의미하지 않음."
+        },
+        {
+          "placeId": "book-lucerne-transport-museum",
+          "sourceKeys": [
+            "lucerne-transport-museum"
+          ],
+          "judgment": "장소·지리·소개 내용에 한정해 실제 본문 대조.명시하지 않은 운영·요금·좌표 검증을 의미하지 않음."
+        },
+        {
+          "placeId": "book-lucerne-kkl",
+          "sourceKeys": [
+            "lucerne-kkl"
+          ],
+          "judgment": "장소·지리·소개 내용에 한정해 실제 본문 대조.명시하지 않은 운영·요금·좌표 검증을 의미하지 않음."
+        }
+      ]
+    },
+    {
+      "id": "book-interlaken",
+      "sourceKeys": [
+        "interlaken-castle",
+        "interlaken-arrival",
+        "interlaken-garden",
+        "interlaken-food",
+        "interlaken-harder",
+        "interlaken-town",
+        "interlaken-photo"
+      ],
+      "placeIds": [
+        "book-interlaken-hohematte",
+        "book-interlaken-harder-kulm",
+        "book-interlaken-unterseen",
+        "book-interlaken-japanese-garden",
+        "book-interlaken-monastery"
+      ],
+      "scope": "7개 섹션·장소5곳의 작성 내용에 한정한 원문 검토. 좌표·운영시간·요금·입국 허가를 추정하지 않음.",
+      "placeEvidence": [
+        {
+          "placeId": "book-interlaken-hohematte",
+          "sourceKeys": [
+            "interlaken-photo"
+          ],
+          "judgment": "장소·지리·소개 내용에 한정해 실제 본문 대조.명시하지 않은 운영·요금·좌표 검증을 의미하지 않음."
+        },
+        {
+          "placeId": "book-interlaken-harder-kulm",
+          "sourceKeys": [
+            "interlaken-harder"
+          ],
+          "judgment": "장소·지리·소개 내용에 한정해 실제 본문 대조.명시하지 않은 운영·요금·좌표 검증을 의미하지 않음."
+        },
+        {
+          "placeId": "book-interlaken-unterseen",
+          "sourceKeys": [
+            "interlaken-town"
+          ],
+          "judgment": "장소·지리·소개 내용에 한정해 실제 본문 대조.명시하지 않은 운영·요금·좌표 검증을 의미하지 않음."
+        },
+        {
+          "placeId": "book-interlaken-japanese-garden",
+          "sourceKeys": [
+            "interlaken-garden"
+          ],
+          "judgment": "장소·지리·소개 내용에 한정해 실제 본문 대조.명시하지 않은 운영·요금·좌표 검증을 의미하지 않음."
+        },
+        {
+          "placeId": "book-interlaken-monastery",
+          "sourceKeys": [
+            "interlaken-castle"
+          ],
+          "judgment": "장소·지리·소개 내용에 한정해 실제 본문 대조.명시하지 않은 운영·요금·좌표 검증을 의미하지 않음."
+        }
+      ]
+    },
+    {
+      "id": "book-zermatt",
+      "sourceKeys": [
+        "zermatt-old",
+        "zermatt-bridge",
+        "zermatt-food",
+        "zermatt-culture",
+        "zermatt-arrival",
+        "zermatt-museum",
+        "zermatt-gornergrat",
+        "zermatt-sunnegga"
+      ],
+      "placeIds": [
+        "book-zermatt-museum",
+        "book-zermatt-hinterdorf",
+        "book-zermatt-kirchbrucke",
+        "book-zermatt-gornergrat",
+        "book-zermatt-sunnegga"
+      ],
+      "scope": "7개 섹션·장소5곳의 작성 내용에 한정한 원문 검토. 좌표·운영시간·요금·입국 허가를 추정하지 않음.",
+      "placeEvidence": [
+        {
+          "placeId": "book-zermatt-museum",
+          "sourceKeys": [
+            "zermatt-museum"
+          ],
+          "judgment": "장소·지리·소개 내용에 한정해 실제 본문 대조.명시하지 않은 운영·요금·좌표 검증을 의미하지 않음."
+        },
+        {
+          "placeId": "book-zermatt-hinterdorf",
+          "sourceKeys": [
+            "zermatt-old"
+          ],
+          "judgment": "장소·지리·소개 내용에 한정해 실제 본문 대조.명시하지 않은 운영·요금·좌표 검증을 의미하지 않음."
+        },
+        {
+          "placeId": "book-zermatt-kirchbrucke",
+          "sourceKeys": [
+            "zermatt-bridge"
+          ],
+          "judgment": "장소·지리·소개 내용에 한정해 실제 본문 대조.명시하지 않은 운영·요금·좌표 검증을 의미하지 않음."
+        },
+        {
+          "placeId": "book-zermatt-gornergrat",
+          "sourceKeys": [
+            "zermatt-gornergrat"
+          ],
+          "judgment": "장소·지리·소개 내용에 한정해 실제 본문 대조.명시하지 않은 운영·요금·좌표 검증을 의미하지 않음."
+        },
+        {
+          "placeId": "book-zermatt-sunnegga",
+          "sourceKeys": [
+            "zermatt-sunnegga"
+          ],
+          "judgment": "장소·지리·소개 내용에 한정해 실제 본문 대조.명시하지 않은 운영·요금·좌표 검증을 의미하지 않음."
+        }
+      ]
+    }
+  ],
+  "photoJudgment": "새 사진0개. 일반 블로그 사진의 최근3년·명시적 재사용·장소 일치를 확인한 자산이 없으며, 공식 관광 페이지의CC 표기만으로 개별 사진 촬영일·조건 검토를 완료하지 않았음. 기존 placeholder 사용.",
+  "counts": {
+    "written": 5,
+    "heldCandidates": 5,
+    "verifiedNewPlaces": 25,
+    "sourceRequests": 52,
+    "readAndUsedSources": 37
+  },
+  "sourceDatePolicy": "공식 날짜 없는 개요는 게시일 미상으로 채택 범위를 안정적인 장소·지리·안내에 한정.2024~2027시행/공사/시즌은 게시일과 별도 판단.",
+  "discoveryQueries": [
+    "site.philippines.travel Boracay 2025 2026",
+    "site:clark.com.ph tourism museum parade grounds",
+    "site:vietnam.travel Hai Phong Quy Nhon",
+    "site:qingdaochina.org travel attractions",
+    "site:myswitzerland.com Zurich Lucerne Interlaken Zermatt 2026",
+    "site:salzburg.info 2026 sights airport bus",
+    "site:zuerich.com en visit top sights old town grossmuenster lindenhof",
+    "site:luzern.com en sights chapel bridge musegg lion monument",
+    "site:interlaken.ch en experiences culture sights interlaken",
+    "site:zermatt.swiss en discover experience sights Matterhorn museum"
+  ],
+  "validationStatus": "passed",
+  "publicationStatus": "validated-pending-push",
+  "validation": {
+    "guidebooksBuild": "passed",
+    "guidebooksCheck": "passed",
+    "databaseBuild": "passed",
+    "databaseCheck": "passed",
+    "databaseTestsPassed": 6,
+    "webBuild": "passed",
+    "clientAssetAudit": "passed",
+    "typeCheck": "passed",
+    "uniqueBrowserTestsPassed": 24,
+    "browserAttempts": [
+      {
+        "tests": 24,
+        "passed": 21,
+        "failed": 3
+      },
+      {
+        "tests": 3,
+        "passed": 2,
+        "failed": 1
+      },
+      {
+        "tests": 1,
+        "passed": 1,
+        "failed": 0
+      }
+    ],
+    "correctedIssues": [
+      "과거 홈 재시작 기대 대신 현재 설정·열린 가이드북 복귀 흐름으로 검사",
+      "새 여행은 현재 여행 관리 메뉴를 통해 여는 검사",
+      "기존 괌 실제 검토 기록의 날짜·해시를 직접 대조하고 짧은 공식 공지는 실질 사실 검토 근거를 요구"
+    ],
+    "downloadOfflineCitiesVerified": 40,
+    "existingPublicFilesByteIdentical": {
+      "guidebook-sources/": 57,
+      "guidebook-database/records/": 75,
+      "guidebooks/": 59
+    },
+    "generatedAgainAfterCheckingLatestMain": "5e2f32866f7ffccdfa40c8bf020371a1aa8e1ba5"
+  },
+  "publicationVerificationPath": "research/guidebooks/runs/20261107T1800-public-verification.json"
+}

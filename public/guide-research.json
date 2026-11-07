@@ -707,6 +707,76 @@
       "publicationDate": null,
       "modifiedAt": null,
       "evidencePath": "research/guidebooks/runs/20261031T1756-refresh.json"
+    },
+    {
+      "id": "20261107-refresh-twac",
+      "url": "https://www.immigration.gov.tw/5475/5478/141457/142068/398041/",
+      "resolvedUrl": "https://www.immigration.gov.tw/5475/5478/141457/142068/398041/",
+      "checkedAt": "2026-11-07",
+      "httpStatus": 200,
+      "sha256": "f796152db30b90cfdf8f2f789a1d37e5ef3b1ab49b4d8ced29d393931eb38895",
+      "bytes": 26367,
+      "textLength": 5748,
+      "title": "National Immigration Agency, R.O.C. (Taiwan) - Traveling to Taiwan? Starting October 1, 2025, Complete the Taiwan Arrival Card (TWAC) Online for Faster Clearance!",
+      "publicationDate": "2025-09-21",
+      "modifiedAt": "2025-09-21",
+      "evidencePath": "research/guidebooks/runs/20261107T1800-refresh.json"
+    },
+    {
+      "id": "20261107-refresh-twac-scam",
+      "url": "https://www.immigration.gov.tw/5475/5478/6928/392106/400432/cp_news",
+      "resolvedUrl": "https://www.immigration.gov.tw/5475/5478/6928/392106/400432/cp_news",
+      "checkedAt": "2026-11-07",
+      "httpStatus": 200,
+      "sha256": "0e652dce6f0fd3cf60436762de5cc5805c80701ec4c5464f3d2745cf4a7b3348",
+      "bytes": 26205,
+      "textLength": 4224,
+      "title": "National Immigration Agency, R.O.C. (Taiwan) - Warning：Beware of fraudulent websites and websites impersonating the TWAC (Taiwan Arrival Card)",
+      "publicationDate": "2026-08-05",
+      "modifiedAt": "2026-10-21",
+      "evidencePath": "research/guidebooks/runs/20261107T1800-refresh.json"
+    },
+    {
+      "id": "20261107-refresh-fukuoka",
+      "url": "https://www.fukuoka-airport.jp/en/access/bus2.html",
+      "resolvedUrl": "https://www.fukuoka-airport.jp/en/access/bus2.html",
+      "checkedAt": "2026-11-07",
+      "httpStatus": 200,
+      "sha256": "49ae6dac3be4975da02dc10ab02ff8e64431b9781a9f75fcba8feec5c48f90b7",
+      "bytes": 91540,
+      "textLength": 7271,
+      "title": "Inter-Terminal Shuttle | Fukuoka Airport Official Website",
+      "publicationDate": null,
+      "modifiedAt": null,
+      "evidencePath": "research/guidebooks/runs/20261107T1800-refresh.json"
+    },
+    {
+      "id": "20261107-refresh-fukuoka-subway",
+      "url": "https://www.fukuoka-airport.jp/en/access/subway.html",
+      "resolvedUrl": "https://www.fukuoka-airport.jp/en/access/subway.html",
+      "checkedAt": "2026-11-07",
+      "httpStatus": 200,
+      "sha256": "8e7e40cc7887b1260702090bc22d31a96a8e9832e8366a6862633fffabae5048",
+      "bytes": 72922,
+      "textLength": 8635,
+      "title": "Subway | Fukuoka Airport Official Website",
+      "publicationDate": null,
+      "modifiedAt": null,
+      "evidencePath": "research/guidebooks/runs/20261107T1800-refresh.json"
+    },
+    {
+      "id": "20261107-refresh-hiroshima-platform",
+      "url": "https://www.hiroden.co.jp/topics/2026/0328-hiroshimast.html",
+      "resolvedUrl": "https://www.hiroden.co.jp/topics/2026/0328-hiroshimast.html",
+      "checkedAt": "2026-11-07",
+      "httpStatus": 200,
+      "sha256": "f7aefd66202a19687cd458367a6f18cbd06d1bc9ba5cb66c26ebffb6fcaf8a31",
+      "bytes": 3787,
+      "textLength": 335,
+      "title": "お知らせ｜広島電鉄",
+      "publicationDate": "2026-03-19",
+      "modifiedAt": null,
+      "evidencePath": "research/guidebooks/runs/20261107T1800-refresh.json"
     }
   ]
 }

@@ -1,10 +1,12 @@
-import { openCreateOptions } from './navigation'
+import { openCreateOptions, openTravelManagement } from './navigation'
 import { test, expect, type Page } from '@playwright/test'
+import { readFileSync } from 'node:fs'
 import { cities, places } from '../src/data'
 import { practicalGuides, findGuideCourse } from '../src/practical-guides'
 import { appendGuideCourse } from '../src/guide-course'
 import { tripSchema, type Trip } from '../src/travel-model'
 import research from '../public/guide-research.json' with { type: 'json' }
+import guamReview from '../research/guidebooks/runs/20261105T_blog-search-refresh.json' with { type: 'json' }
 const lookup = (id: string) => places.find((place) => place.id === id)
 function baseTrip(): Trip {
   return tripSchema.parse({
@@ -92,10 +94,35 @@ test('21개 가이드·42개 코스는 실제 내장 장소를 같은 여행권�
       (source) => source.status === 'read',
     )) {
       const record = research.references.find(
-        (record) => (record.resolvedUrl || record.url) === source.url,
+        (record) => record.resolvedUrl === source.url || record.url === source.url,
       )
+      if (!record) {
+        // Earlier Guam work retained the actual review in its run evidence.
+        // Refer to that original date/hash; do not invent a fresh source check.
+        const prior = [...guamReview.officialSources, ...guamReview.acceptedArticles]
+          .find((item) => item.url === source.url)
+        expect(prior?.httpStatus).toBe(200)
+        expect(prior?.checkedAt).toBe(source.checkedAt)
+        expect(prior?.decision).toMatch(/^read-and-used$|^accepted-context/)
+        expect(prior && ('documentSHA256' in prior ? prior.documentSHA256 : prior.articleTextSHA256))
+          .toMatch(/^[a-f0-9]{64}$/)
+        continue
+      }
       expect(record?.httpStatus).toBe(200)
-      expect(record?.textLength).toBeGreaterThan(1000)
+      expect(record?.textLength).toBeGreaterThan(100)
+      // A complete dated operator notice can be short. Require its actual
+      // review evidence rather than padding its text or relying on HTTP 200.
+      if (record && typeof record.textLength === 'number' && record.textLength <= 1000) {
+        const path = (record as typeof record & { evidencePath?: string })
+          .evidencePath
+        expect(path).toMatch(/^research\/guidebooks\/runs\/[\w-]+\.json$/)
+        const proof = JSON.parse(readFileSync(path!, 'utf8'))
+        const read = proof.sources.find(
+          (item: any) => item.url === source.url && item.judgment === 'accepted',
+        )
+        expect(read?.verifiedFacts.length).toBeGreaterThan(0)
+        expect(read?.sha256).toBe(record.sha256)
+      }
     }
   }
 })
@@ -291,6 +318,7 @@ test('여행이 없을 때 명시적으로 고른 코스만 새 여행 첫날에
   ).toEqual(findGuideCourse('kyoto', 'kyoto-course-1')!.placeIds)
   expect(saved.days.slice(1).flat()).toEqual([])
   expect(tripSchema.safeParse(saved).success).toBe(true)
+  await openTravelManagement(page)
   await page.getByRole('button', { name: '새 여행', exact: true }).click()
   await page.getByLabel('어디로 떠나세요?').selectOption('kyoto')
   await expect(

@@ -1,0 +1,178 @@
+{
+  "guide": {
+    "id": "book-zermatt",
+    "scope": "city",
+    "city": {
+      "id": "book-zermatt",
+      "name": "체르마트",
+      "english": "Zermatt",
+      "country": "스위스",
+      "region": "유럽",
+      "image": "/images/guide-placeholder.svg",
+      "tagline": "마터호른 전망과 옛 산악 마을을 함께 만나는 여행",
+      "description": "체르마트는 마터호른을 바라보는 차 없는 산악 마을입니다. 힌터도르프의 오래된 목조 주택과 마터호른 박물관을 먼저 둘러본 뒤, 날씨가 좋은 날 고르너그라트나 수네가 전망을 고르면 좋습니다. 전망 교통과 등산은 서로 다르며 케이블카나 열차를 탔다고 산길 전체가 안전하게 열리는 것은 아닙니다.",
+      "tags": [
+        "산악 전망",
+        "마을 산책",
+        "박물관"
+      ],
+      "flight": "출발지·방문일의 항공편과 경유 조건은 항공사에서 확인",
+      "currency": "스위스 프랑 · CHF",
+      "timeDifference": "한국보다 8시간 느림 · 서머타임에는 7시간",
+      "timeZone": "Europe/Zurich",
+      "season": "호수·도심 산책과 실내 관람을 섞고 산악 교통·야외 시설의 계절 운영을 먼저 확인하세요.",
+      "accent": "#e7f1ef"
+    },
+    "places": [
+      {
+        "id": "book-zermatt-museum",
+        "cityId": "book-zermatt",
+        "name": "마터호른 박물관 체르마트란티스",
+        "english": "Matterhorn Museum – Zermatlantis",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "체르마트 마을의 생활과 마터호른 초등정 역사를 유물·전시로 만나는 박물관입니다.",
+        "address": "Zermatt",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "이용할 시설·상품의 방문일 요금 확인",
+        "tip": "방문일의 개관과 입장 조건을 확인하세요. 산 위 전망 대신 선택할 수 있지만 늘 개관한다고 가정하지 않습니다."
+      },
+      {
+        "id": "book-zermatt-hinterdorf",
+        "cityId": "book-zermatt",
+        "name": "힌터도르프 옛 마을",
+        "english": "Hinterdorf",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "오래된 목조 가옥·창고·마구간이 남아 있는 체르마트의 좁은 골목 구역입니다.",
+        "address": "Hinterdorfstrasse, Zermatt",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "이용할 시설·상품의 방문일 요금 확인",
+        "tip": "실제 주거 공간과 사유 건물에 들어가지 말고 좁은 골목과 촬영 예절을 지켜 주세요."
+      },
+      {
+        "id": "book-zermatt-kirchbrucke",
+        "cityId": "book-zermatt",
+        "name": "키르히브뤼케 전망 다리",
+        "english": "Kirchbrücke",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "마을 안에서 마터호른을 바라보며 사진을 남기는 다리의 전망 지점입니다.",
+        "address": "Kirchbrücke, Zermatt",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "이용할 시설·상품의 방문일 요금 확인",
+        "tip": "일출·날씨에 따라 전망이 달라집니다. 다른 보행자의 통행을 막지 말고 겨울 빙판을 주의하세요."
+      },
+      {
+        "id": "book-zermatt-gornergrat",
+        "cityId": "book-zermatt",
+        "name": "고르너그라트",
+        "english": "Gornergrat",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "톱니바퀴 산악열차로 접근해 주변 산을 바라보는 높은 전망 구역입니다.",
+        "address": "Gornergrat, Zermatt",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "이용할 시설·상품의 방문일 요금 확인",
+        "tip": "기본 열차표·식사·일출 특별 상품을 구분하세요. 일부 체험은 판매 불가 표시가 있으며 산길 개방·기상을 따로 확인합니다."
+      },
+      {
+        "id": "book-zermatt-sunnegga",
+        "cityId": "book-zermatt",
+        "name": "수네가 전망 구역",
+        "english": "Sunnegga",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "지하 푸니쿨라로 연결되는 전망·산악 활동 거점으로 여름과 겨울의 즐길 거리가 달라집니다.",
+        "address": "Sunnegga, Zermatt",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "이용할 시설·상품의 방문일 요금 확인",
+        "tip": "계절별 교통과 놀이·하이킹·스키 운영을 구분하세요. 전망 교통 이용이 모든 산길의 안전·개방을 보장하지 않습니다."
+      }
+    ],
+    "sections": [
+      {
+        "id": "book-zermatt-overview",
+        "title": "도시 한눈에",
+        "body": "체르마트는 마터호른을 바라보는 차 없는 산악 마을입니다. 힌터도르프의 오래된 목조 주택과 마터호른 박물관을 먼저 둘러본 뒤, 날씨가 좋은 날 고르너그라트나 수네가 전망을 고르면 좋습니다. 전망 교통과 등산은 서로 다르며 케이블카나 열차를 탔다고 산길 전체가 안전하게 열리는 것은 아닙니다."
+      },
+      {
+        "id": "book-zermatt-before",
+        "title": "출발 전에 챙길 것",
+        "body": "여권·입국·경유 조건은 국적과 체류 목적에 맞춰 당국에서 따로 확인하세요. 숙소 주소·예약서와 교통표의 오프라인 사본을 준비하고, 숙소의 짐 보관·계단·엘리베이터를 확인합니다. 고도가 높은 전망지는 체감 기온과 몸 상태가 평지와 다를 수 있으므로 방풍·보온 옷과 편한 신발을 준비합니다. 동행자의 건강·이동 제약을 고려하고 산악 시설의 이용 조건을 확인하세요. 전망이 필요한 활동을 도착 직후 한 시각에 몰지 말고 날씨를 보고 바꿀 수 있는 여유를 둡니다."
+      },
+      {
+        "id": "book-zermatt-arrival",
+        "title": "공항과 시내 이동",
+        "body": "취리히·제네바·바젤 등 실제 도착 공항에서 체르마트역까지는 SBB 또는 Matterhorn Gotthard Bahn의 여행일 연결을 확인하세요. 체르마트는 일반 차량으로 마을까지 직접 진입하는 목적지가 아닙니다. 자가용·렌터카는 태쉬(Täsch)에 주차하고 열차나 허용된 환승 수단을 이용하는 방식입니다. 마을 안에서는 도보·전기버스·전기택시 등의 선택지를 숙소 위치와 비교하세요. 숙소가 역에서 가깝더라도 오르막·계단과 짐 픽업 여부를 확인합니다."
+      },
+      {
+        "id": "book-zermatt-stay",
+        "title": "숙소는 어느 동네에",
+        "body": "역·반호프 거리 주변은 철도 도착·식당·짐 이동을, 힌터도르프·교회 주변은 옛 마을과 박물관 산책을 우선할 때 비교하세요. 수네가 방면이나 다른 산악 교통 승강장 근처 숙소는 아침 탑승에는 편할 수 있지만 역과 저녁 식사 뒤 귀환 경사를 함께 확인해야 합니다. 마터호른이 보이는 객실은 방향·층·날씨에 따라 다르므로 사진 한 장으로 상시 전망을 보장받았다고 판단하지 마세요."
+      },
+      {
+        "id": "book-zermatt-food",
+        "title": "먹거리와 쉬어 가기",
+        "body": "체르마트 관광기관은 발레 지역 요리와 퐁뒤·라클레트, 세계 음식·카페·산악 식당을 함께 소개합니다. 산 위 점심은 실제 운영하는 식당과 마지막 하행에 맞추고, 마을 저녁은 숙소에서 쉬운 귀환과 식이 조건을 우선해 고르세요. 치즈 요리의 유제품·알코올·곁들임 재료를 물어보고 음주는 고지대 활동·운전과 분리합니다. 특정 식당의 수상·별점이나 예약 가능 여부를 현재 순위처럼 옮기지 않았습니다."
+      },
+      {
+        "id": "book-zermatt-days",
+        "title": "처음 가는 3일 여행",
+        "body": "1일: 체르마트 도착 → 힌터도르프 옛 마을 → 마터호른 박물관. 시간이 맞으면 키르히브뤼케에서 산을 바라봅니다.\n\n2일: 날씨와 운행이 맞는 날 고르너그라트 전망 → 마을에서 충분히 휴식. 별도 산길을 반드시 걷는 코스는 아닙니다.\n\n3일: 수네가 전망 또는 도심 카페·산책 후 출발. 고르너그라트와 수네가를 모두 가야 하는 일정은 아니며 날씨가 나쁘면 실내·마을 위주로 바꾸세요.\n\n계절 운영·현장 상태·건강에 따라 조정하는 예시이며 실제 지도 경로·방문 시각을 생성하지 않습니다."
+      },
+      {
+        "id": "book-zermatt-notes",
+        "title": "예약과 현장 팁",
+        "body": "산악 교통은 열차·리프트별 점검과 계절 운행이 다릅니다. 수네가의 여름 호수 놀이·겨울 스키 체험을 같은 시기에 모두 할 수 있다고 안내하지 않습니다. 고르너그라트 관광 페이지에서 일부 일출·특별 클래스가 Currently not available로 표시되어 있어 예약 가능한 체험으로 넣지 않았습니다. 산이 보이지 않을 때는 박물관·마을 산책으로 바꾸고, 키르히브뤼케의 일출 색채도 날씨와 계절에 따라 달라짐을 고려하세요. 일반 도로·택시 안내와 차 없는 마을의 허용된 교통수단을 혼동하지 않습니다."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Matterhorn Museum - Zermatlantis",
+        "url": "https://zermatt.swiss/en/discover-experience/tradition-culture/museum",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "Viewpoint Old part of the village",
+        "url": "https://zermatt.swiss/en/p/viewpoint-old-part-of-the-village-01tVj000005DpoLIAS",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "Viewpoint Kirchbrücke bridge",
+        "url": "https://zermatt.swiss/en/p/viewpoint-kirchbruecke-bridge-01tVj000005Dpl7IAC",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "Experience Gornergrat: Railway rides, adventure & enjoyment at 3,089 m",
+        "url": "https://zermatt.swiss/en/discover-experience/must-sees/gornergrat",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "Sunnegga mountain station",
+        "url": "https://zermatt.swiss/en/p/sunnegga-mountain-station-01tVj000005Dpl8IAC",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "Planning Your Trip to Zermatt",
+        "url": "https://zermatt.swiss/en/plan-book/arrival",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "Zermatt Tradition and Culture",
+        "url": "https://zermatt.swiss/en/discover-experience/tradition-culture",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "Diverse Cuisine in Zermatt",
+        "url": "https://zermatt.swiss/en/discover-experience/culinary",
+        "accessedAt": "2026-11-07"
+      }
+    ],
+    "status": "published",
+    "requestId": null,
+    "createdAt": "2026-11-07T18:07:50Z",
+    "updatedAt": "2026-11-07T18:07:50Z",
+    "publishedAt": "2026-11-07T18:07:50Z"
+  }
+}

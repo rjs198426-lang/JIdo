@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-31T18:13:38Z",
+  "updatedAt": "2026-11-07T18:13:19Z",
   "books": [
     {
       "id": "book-asahikawa",
@@ -149,10 +149,10 @@
       "country": "이탈리아",
       "summary": "르네상스 미술과 아르노강 너머 정원을 여유롭게",
       "region": "유럽",
-      "revision": "094caad31e1dd9e8f639e9a740bc0167af514885789329b05de6a09c65700597",
-      "file": "book-florence-094caad31e1dd9e8f639e9a740bc0167af514885789329b05de6a09c65700597.json",
-      "bytes": 10433,
-      "updatedAt": "2026-10-31T18:13:38Z",
+      "revision": "94758fc9efda2200a37d681dd5a6a2f78b43ff9487ed27483f358b427eeca101",
+      "file": "book-florence-94758fc9efda2200a37d681dd5a6a2f78b43ff9487ed27483f358b427eeca101.json",
+      "bytes": 10949,
+      "updatedAt": "2026-11-07T18:08:39Z",
       "minBuild": 73,
       "placeCount": 5
     },
@@ -163,10 +163,10 @@
       "country": "일본",
       "summary": "항구·언덕·아침 시장을 날짜별로 걷는 여행",
       "region": "일본",
-      "revision": "5b0da6bd09d78a2d747fea742ce0baa606548a482a7db5a9e6818e8368de391e",
-      "file": "book-hakodate-5b0da6bd09d78a2d747fea742ce0baa606548a482a7db5a9e6818e8368de391e.json",
-      "bytes": 10225,
-      "updatedAt": "2026-10-29T11:14:56.783Z",
+      "revision": "179b4e7388e5bae08a8bfc7b4cbf4d2ebae7e720fbc6a4cb7c063c2b498108bf",
+      "file": "book-hakodate-179b4e7388e5bae08a8bfc7b4cbf4d2ebae7e720fbc6a4cb7c063c2b498108bf.json",
+      "bytes": 10907,
+      "updatedAt": "2026-11-07T18:08:39Z",
       "minBuild": 73,
       "placeCount": 5
     },
@@ -251,6 +251,20 @@
       "file": "book-hue-856ec6093a2862389c81aa661e1f617896f2a2aa622639fdb79210ccc0e9d8e4.json",
       "bytes": 9651,
       "updatedAt": "2026-10-29T17:11:22.801Z",
+      "minBuild": 73,
+      "placeCount": 5
+    },
+    {
+      "id": "book-interlaken",
+      "name": "인터라켄",
+      "english": "Interlaken",
+      "country": "스위스",
+      "summary": "두 호수 사이 산악 여행의 거점과 여유로운 도심 산책",
+      "region": "유럽",
+      "revision": "e5bed99a6b5f356eaa0503ebce9663f80abc9dc1549e35f14a8ef3a6a27361c4",
+      "file": "book-interlaken-e5bed99a6b5f356eaa0503ebce9663f80abc9dc1549e35f14a8ef3a6a27361c4.json",
+      "bytes": 11049,
+      "updatedAt": "2026-11-07T18:07:50Z",
       "minBuild": 73,
       "placeCount": 5
     },
@@ -449,6 +463,20 @@
       "updatedAt": "2026-10-28T05:07:12.733Z",
       "minBuild": 73,
       "placeCount": 6
+    },
+    {
+      "id": "book-lucerne",
+      "name": "루체른",
+      "english": "Lucerne",
+      "country": "스위스",
+      "summary": "목조 다리·호수·교통박물관과 공연이 있는 도시",
+      "region": "유럽",
+      "revision": "52661afb7c25597ba29db8283ce2bca34c713662dce16b7dc8f1ae0a586e4ff6",
+      "file": "book-lucerne-52661afb7c25597ba29db8283ce2bca34c713662dce16b7dc8f1ae0a586e4ff6.json",
+      "bytes": 11022,
+      "updatedAt": "2026-11-07T18:07:50Z",
+      "minBuild": 73,
+      "placeCount": 5
     },
     {
       "id": "book-macau",
@@ -703,6 +731,20 @@
       "placeCount": 6
     },
     {
+      "id": "book-salzburg",
+      "name": "잘츠부르크",
+      "english": "Salzburg",
+      "country": "오스트리아",
+      "summary": "요새·모차르트·바로크 정원 사이로 걷는 도시",
+      "region": "유럽",
+      "revision": "660fad735640348af626636d662c141f308917af64efce534695a53f776fb409",
+      "file": "book-salzburg-660fad735640348af626636d662c141f308917af64efce534695a53f776fb409.json",
+      "bytes": 11884,
+      "updatedAt": "2026-11-07T18:13:19Z",
+      "minBuild": 73,
+      "placeCount": 5
+    },
+    {
       "id": "book-shanghai",
       "name": "상하이",
       "english": "Shanghai",
@@ -825,6 +867,34 @@
       "file": "book-yufuin-0f2956a94a62b204080c4fb7f8229d3cb425102750c6fafec5b5d83da180b5ba.json",
       "bytes": 12166,
       "updatedAt": "2026-10-28T17:19:14.408Z",
+      "minBuild": 73,
+      "placeCount": 5
+    },
+    {
+      "id": "book-zermatt",
+      "name": "체르마트",
+      "english": "Zermatt",
+      "country": "스위스",
+      "summary": "마터호른 전망과 옛 산악 마을을 함께 만나는 여행",
+      "region": "유럽",
+      "revision": "0bd61b72f58d2a5802fa793334edda88f9461a1a8f72b6d15d90921d246fb67b",
+      "file": "book-zermatt-0bd61b72f58d2a5802fa793334edda88f9461a1a8f72b6d15d90921d246fb67b.json",
+      "bytes": 11107,
+      "updatedAt": "2026-11-07T18:07:50Z",
+      "minBuild": 73,
+      "placeCount": 5
+    },
+    {
+      "id": "book-zurich",
+      "name": "취리히",
+      "english": "Zurich",
+      "country": "스위스",
+      "summary": "강 양쪽 구시가지·교회·호수와 쇼핑을 잇는 산책",
+      "region": "유럽",
+      "revision": "9aefb35d08bfbaea20c5f4cf35f1ab7780b21d56ecfa23897de4e4e3c0835b94",
+      "file": "book-zurich-9aefb35d08bfbaea20c5f4cf35f1ab7780b21d56ecfa23897de4e4e3c0835b94.json",
+      "bytes": 10064,
+      "updatedAt": "2026-11-07T18:07:50Z",
       "minBuild": 73,
       "placeCount": 5
     }

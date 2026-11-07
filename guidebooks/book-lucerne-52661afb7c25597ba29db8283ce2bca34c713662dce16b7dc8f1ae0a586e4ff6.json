@@ -1,0 +1,186 @@
+{
+  "id": "book-lucerne",
+  "scope": "city",
+  "city": {
+    "id": "book-lucerne",
+    "name": "루체른",
+    "english": "Lucerne",
+    "country": "스위스",
+    "region": "유럽",
+    "image": "/images/guide-placeholder.svg",
+    "tagline": "목조 다리·호수·교통박물관과 공연이 있는 도시",
+    "description": "루체른은 로이스강을 가로지르는 카펠교와 구시가지, 호수·문화시설을 함께 둘러보는 도시입니다. 사자 기념비와 무제크 성벽의 역사, 교통박물관의 체험 전시, KKL의 건축·공연 중 취향에 맞춰 조합하세요. 도심 산책만으로도 하루를 채울 수 있어 근교 산을 반드시 덧붙일 필요는 없습니다.",
+    "tags": [
+      "호수",
+      "가족 체험",
+      "공연"
+    ],
+    "flight": "출발지·방문일의 항공편과 경유 조건은 항공사에서 확인",
+    "currency": "스위스 프랑 · CHF",
+    "timeDifference": "한국보다 8시간 느림 · 서머타임에는 7시간",
+    "timeZone": "Europe/Zurich",
+    "season": "호수·도심 산책과 실내 관람을 섞고 산악 교통·야외 시설의 계절 운영을 먼저 확인하세요.",
+    "accent": "#e7f1ef"
+  },
+  "places": [
+    {
+      "id": "book-lucerne-chapel-bridge",
+      "cityId": "book-lucerne",
+      "name": "카펠교와 물의 탑",
+      "english": "Chapel Bridge and Water Tower",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "로이스강 양쪽을 잇는 지붕 있는 목조 다리와 물의 탑입니다. 강변 산책 속에서 다리의 그림과 재건 역사를 살펴보세요.",
+      "address": "Reuss, Luzern",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "이용할 시설·상품의 방문일 요금 확인",
+      "tip": "다리 통행과 물의 탑 내부 관람을 혼동하지 마세요. 혼잡할 때 촬영으로 통로를 막지 않습니다."
+    },
+    {
+      "id": "book-lucerne-lion",
+      "cityId": "book-lucerne",
+      "name": "빈사의 사자상",
+      "english": "Lion Monument",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "암벽에 새겨진 사자 조각으로 스위스 근위대의 희생을 기리는 기념비입니다.",
+      "address": "Löwendenkmal, Luzern",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "이용할 시설·상품의 방문일 요금 확인",
+      "tip": "단순 사진 배경보다 기념의 의미를 함께 읽어 보세요. 공원과 관람객을 배려합니다."
+    },
+    {
+      "id": "book-lucerne-musegg",
+      "cityId": "book-lucerne",
+      "name": "무제크 성벽",
+      "english": "Musegg Wall",
+      "category": "관광",
+      "image": "/images/place-placeholder.svg",
+      "description": "구시가지 위로 이어지는 옛 방어 성벽과 여러 탑을 보는 역사 공간입니다.",
+      "address": "Musegg, Luzern",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "이용할 시설·상품의 방문일 요금 확인",
+      "tip": "성벽·공개 탑은 4월1일~11월1일 계절 개방 안내입니다. 겨울에는 내부 관람을 예정하지 말고 계단 부담을 고려하세요."
+    },
+    {
+      "id": "book-lucerne-transport-museum",
+      "cityId": "book-lucerne",
+      "name": "스위스 교통박물관",
+      "english": "Swiss Museum of Transport",
+      "category": "체험",
+      "image": "/images/place-placeholder.svg",
+      "description": "철도·자동차·항공·선박과 이동·에너지의 역사를 전시와 체험으로 만나는 박물관입니다.",
+      "address": "Luzern",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "이용할 시설·상품의 방문일 요금 확인",
+      "tip": "영화관·천체관·초콜릿 체험의 별도 표·회차·관람 언어를 확인하세요. 모든 체험이 기본 표에 포함된다고 생각하지 마세요."
+    },
+    {
+      "id": "book-lucerne-kkl",
+      "cityId": "book-lucerne",
+      "name": "KKL 루체른",
+      "english": "KKL Luzern",
+      "category": "바·공연",
+      "image": "/images/place-placeholder.svg",
+      "description": "호숫가에 자리한 문화·컨벤션 시설로 건축과 콘서트홀을 만나는 곳입니다.",
+      "address": "Europaplatz, Luzern",
+      "duration": "방문 시간은 직접 선택",
+      "cost": "이용할 시설·상품의 방문일 요금 확인",
+      "tip": "공연 날짜·좌석과 건물 투어를 구분하세요. 외부 산책만으로 공연장 내부에 입장할 수 있는 것은 아닙니다."
+    }
+  ],
+  "sections": [
+    {
+      "id": "book-lucerne-overview",
+      "title": "도시 한눈에",
+      "body": "루체른은 로이스강을 가로지르는 카펠교와 구시가지, 호수·문화시설을 함께 둘러보는 도시입니다. 사자 기념비와 무제크 성벽의 역사, 교통박물관의 체험 전시, KKL의 건축·공연 중 취향에 맞춰 조합하세요. 도심 산책만으로도 하루를 채울 수 있어 근교 산을 반드시 덧붙일 필요는 없습니다."
+    },
+    {
+      "id": "book-lucerne-before",
+      "title": "출발 전에 챙길 것",
+      "body": "여권·입국·경유 조건은 국적과 체류 목적에 맞춰 당국에서 따로 확인하세요. 숙소 주소·예약서와 교통표의 오프라인 사본을 준비하고, 숙소의 짐 보관·계단·엘리베이터를 확인합니다. 교통박물관의 전시·천체관·영화관·초콜릿 체험은 상품 구성을 비교하세요. KKL 공연은 날짜·좌석·입장 규칙을 따로 정합니다. 루체른 시내 호텔 숙박객의 Visitor Card 교통 혜택은 숙소에서 발급과 시내 유효 구역을 확인하고 공항·근교 산까지 모두 무료라고 확대하지 않습니다."
+    },
+    {
+      "id": "book-lucerne-arrival",
+      "title": "공항과 시내 이동",
+      "body": "항공으로 도착한다면 공항역에서 Luzern역까지 방문일 SBB 경로를 먼저 검색하세요. 취리히 공항과 중앙역은 다른 역이며 직통 여부·환승과 막차는 실제 일정에 맞춰 확인합니다. 루체른역은 도심과 호수 산책의 출발점으로 활용하고 숙소까지 마지막 구간을 확인하세요. 시내는 도보·VBL 버스, 호수 이동은 선박 운영사의 노선과 계절 시간표를 구분합니다. 루체른–인터라켄 익스프레스는 다른 도시로 연결하는 열차로 도심 버스표와 동일하지 않습니다."
+    },
+    {
+      "id": "book-lucerne-stay",
+      "title": "숙소는 어느 동네에",
+      "body": "역·KKL 주변은 철도와 호수, 공연 후 귀환을 우선할 때, 구시가지는 카펠교와 강변 골목을 여유롭게 걸을 때 비교하세요. 사자 기념비 방향은 해당 구역 산책과 도심 접근을 함께 살펴보면 좋습니다. 교통박물관 근처에 머문다면 역·구시가지까지 버스·도보와 저녁 귀환을 따로 확인하세요. 호수 전망과 객실 가격뿐 아니라 계단·짐 보관·도로 소음도 비교합니다."
+    },
+    {
+      "id": "book-lucerne-food",
+      "title": "먹거리와 쉬어 가기",
+      "body": "루체른 지역 요리로는 속을 채운 페이스트리 프리치파스테테를 살펴볼 수 있습니다. 공식 관광기관의 역 근처 Gleis 1 소개에는 이 요리와 양파 소스를 곁들인 소시지·채식 선택지가 나옵니다. 모든 식당의 상시 메뉴로 일반화하지 말고 방문일 메뉴·육류·크림·밀 등 재료를 확인하세요. 강변 카페·브런치와 전통 스위스 식사를 나눠 고르고 공연 전에는 주문 마감·공연장 입장 여유를 남깁니다."
+    },
+    {
+      "id": "book-lucerne-days",
+      "title": "처음 가는 3일 여행",
+      "body": "1일: 카펠교와 구시가지 → 사자 기념비 → 강변에서 식사·휴식.\n\n2일: 스위스 교통박물관에서 관심 전시를 골라 관람. 별도 영화·천체관·초콜릿 체험은 필요한 것만 선택합니다.\n\n3일: 개방 계절이면 무제크 성벽·탑 → 호수 산책과 KKL 외관 또는 예약 공연. 겨울에는 성벽 내부를 빼고 개관을 확인한 실내 관람으로 바꾸세요.\n\n근교 산을 자동으로 연결하거나 방문 시각·이동시간을 생성하는 일정이 아닙니다."
+    },
+    {
+      "id": "book-lucerne-notes",
+      "title": "예약과 현장 팁",
+      "body": "무제크 성벽과 공개 탑은 공식 안내상 4월1일~11월1일 개방하는 계절 시설입니다. 11월 초 이후 겨울 방문을 탑 내부 관람으로 계획하지 마세요. 성벽과 탑은 계단·고저차가 있으며 모든 탑이 관람 가능한 것은 아닙니다. KKL 외관·호숫가 산책과 공연장 내부 입장은 별개이며 예약 없는 공연 관람을 보장하지 않습니다. 교통박물관의 모든 체험이 기본 입장료에 포함된다고 가정하지 마세요."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Sights in Lucerne",
+      "url": "https://www.luzern.com/en/the-city/sights/top-sights",
+      "accessedAt": "2026-11-07"
+    },
+    {
+      "title": "Chapel Bridge",
+      "url": "https://www.luzern.com/en/the-city/sights/top-sights/lucernes-landmarks-the-chapel-bridge-and-its-water-tower",
+      "accessedAt": "2026-11-07"
+    },
+    {
+      "title": "Lion Monument",
+      "url": "https://www.luzern.com/en/the-city/sights/top-sights/lion-monument",
+      "accessedAt": "2026-11-07"
+    },
+    {
+      "title": "Musegg Wall - Sights",
+      "url": "https://www.luzern.com/en/poi/musegg-wall",
+      "accessedAt": "2026-11-07"
+    },
+    {
+      "title": "Swiss Museum of Transport",
+      "url": "https://www.luzern.com/en/the-city/swiss-museum-of-transport",
+      "accessedAt": "2026-11-07"
+    },
+    {
+      "title": "KKL Lucerne",
+      "url": "https://www.luzern.com/en/the-city/culture-and-congress-center-lucerne",
+      "accessedAt": "2026-11-07"
+    },
+    {
+      "title": "Arrival & mobility",
+      "url": "https://www.luzern.com/en/information/planning/directions-mobility",
+      "accessedAt": "2026-11-07"
+    },
+    {
+      "title": "Eating & drinking in Lucerne",
+      "url": "https://www.luzern.com/en/the-city/food-drinks",
+      "accessedAt": "2026-11-07"
+    },
+    {
+      "title": "Gleis 1 - Restaurant à Lucerne",
+      "url": "https://www.luzern.com/fr/gastro/gleis-1-restaurant",
+      "accessedAt": "2026-11-07"
+    },
+    {
+      "title": "From Zurich Airport to the City Center",
+      "url": "https://www.zuerich.com/en/inform-plan/getting-there-and-mobility-on-location/travel-to-zurich/zurich-airport-to-city-center",
+      "accessedAt": "2026-11-07"
+    }
+  ],
+  "status": "published",
+  "requestId": null,
+  "createdAt": "2026-11-07T18:07:50Z",
+  "updatedAt": "2026-11-07T18:07:50Z",
+  "publishedAt": "2026-11-07T18:07:50Z"
+}

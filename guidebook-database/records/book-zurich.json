@@ -1,0 +1,158 @@
+{
+  "guide": {
+    "id": "book-zurich",
+    "scope": "city",
+    "city": {
+      "id": "book-zurich",
+      "name": "취리히",
+      "english": "Zurich",
+      "country": "스위스",
+      "region": "유럽",
+      "image": "/images/guide-placeholder.svg",
+      "tagline": "강 양쪽 구시가지·교회·호수와 쇼핑을 잇는 산책",
+      "description": "취리히는 리마트강 양쪽 구시가지와 호수로 이어지는 도심을 도보·트램으로 둘러보기 좋은 도시입니다. 그로스뮌스터와 프라우뮌스터의 역사·미술, 린덴호프의 전망, 반호프 거리의 쇼핑을 취향에 맞춰 나눠 보세요. 공항·중앙역 이동이 편한 도시지만 짐을 든 상태의 자갈길과 교회 탑 계단은 따로 고려해야 합니다.",
+      "tags": [
+        "구시가지",
+        "쇼핑",
+        "먹거리"
+      ],
+      "flight": "출발지·방문일의 항공편과 경유 조건은 항공사에서 확인",
+      "currency": "스위스 프랑 · CHF",
+      "timeDifference": "한국보다 8시간 느림 · 서머타임에는 7시간",
+      "timeZone": "Europe/Zurich",
+      "season": "호수·도심 산책과 실내 관람을 섞고 산악 교통·야외 시설의 계절 운영을 먼저 확인하세요.",
+      "accent": "#e7f1ef"
+    },
+    "places": [
+      {
+        "id": "book-zurich-grossmunster",
+        "cityId": "book-zurich",
+        "name": "그로스뮌스터",
+        "english": "Grossmünster",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "두 탑으로 알려진 구시가지 교회입니다. 리마트강 동쪽 골목 산책과 묶고 교회 역사·내부 관람을 살펴보세요.",
+        "address": "Old Town, Zürich",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "이용할 시설·상품의 방문일 요금 확인",
+        "tip": "탑 오르기와 본당 관람은 별도 조건일 수 있습니다. 계단 부담과 예배·행사를 확인하세요."
+      },
+      {
+        "id": "book-zurich-fraumunster",
+        "cityId": "book-zurich",
+        "name": "프라우뮌스터",
+        "english": "Fraumünster",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "파라데 광장 가까이에서 교회의 역사와 샤갈 스테인드글라스를 만나는 공간입니다.",
+        "address": "Old Town, Zürich",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "이용할 시설·상품의 방문일 요금 확인",
+        "tip": "작품 관람의 입장·촬영 규칙과 예배 시간을 확인하세요. 다른 교회 표로 입장된다고 가정하지 마세요."
+      },
+      {
+        "id": "book-zurich-lindenhof",
+        "cityId": "book-zurich",
+        "name": "린덴호프",
+        "english": "Lindenhof",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "구시가지 위에서 리마트강과 강 건너 건물을 바라보며 쉬는 언덕의 광장입니다.",
+        "address": "Lindenhof, Zürich",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "이용할 시설·상품의 방문일 요금 확인",
+        "tip": "평지 강변과 달리 오르막이 남습니다. 짐·휠체어·유모차 이동 경로를 먼저 살펴보세요."
+      },
+      {
+        "id": "book-zurich-bahnhofstrasse",
+        "cityId": "book-zurich",
+        "name": "반호프 거리",
+        "english": "Bahnhofstrasse",
+        "category": "쇼핑",
+        "image": "/images/place-placeholder.svg",
+        "description": "중앙역에서 구시가지와 호수 방향으로 이어지는 대표 쇼핑 거리입니다.",
+        "address": "Bahnhofstrasse, Zürich",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "이용할 시설·상품의 방문일 요금 확인",
+        "tip": "트램 선로와 보행 동선을 구분하고 개별 상점의 휴일 영업을 확인하세요."
+      },
+      {
+        "id": "book-zurich-niederdorf",
+        "cityId": "book-zurich",
+        "name": "니더도르프",
+        "english": "Niederdorf",
+        "category": "쇼핑",
+        "image": "/images/place-placeholder.svg",
+        "description": "리마트강 동쪽 구시가지의 상점·식당·바가 모인 골목 구역입니다.",
+        "address": "Niederdorf, Zürich",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "이용할 시설·상품의 방문일 요금 확인",
+        "tip": "하나의 업소가 아닌 동네입니다. 식사·카페·야간 영업은 개별 가게 기준으로 확인하세요."
+      }
+    ],
+    "sections": [
+      {
+        "id": "book-zurich-overview",
+        "title": "도시 한눈에",
+        "body": "취리히는 리마트강 양쪽 구시가지와 호수로 이어지는 도심을 도보·트램으로 둘러보기 좋은 도시입니다. 그로스뮌스터와 프라우뮌스터의 역사·미술, 린덴호프의 전망, 반호프 거리의 쇼핑을 취향에 맞춰 나눠 보세요. 공항·중앙역 이동이 편한 도시지만 짐을 든 상태의 자갈길과 교회 탑 계단은 따로 고려해야 합니다."
+      },
+      {
+        "id": "book-zurich-before",
+        "title": "출발 전에 챙길 것",
+        "body": "여권·입국·경유 조건은 국적과 체류 목적에 맞춰 당국에서 따로 확인하세요. 숙소 주소·예약서와 교통표의 오프라인 사본을 준비하고, 숙소의 짐 보관·계단·엘리베이터를 확인합니다. 철도표·교통패스는 실제 이동 구간을 정한 다음 비교하세요. Zürich Card는 정해진 유효기간·구역의 교통 및 제휴 혜택을 제공하는 상품이며 모든 스위스 열차와 산악 교통에 통용되는 표로 생각하면 안 됩니다. 일요일·휴일의 상점과 교회 관람 일정은 각각 확인합니다."
+      },
+      {
+        "id": "book-zurich-arrival",
+        "title": "공항과 시내 이동",
+        "body": "취리히 공항에서 중앙역 Zürich HB까지는 철도·S-Bahn을 이용하는 방법과 10번 트램이 있습니다. 철도는 도심으로 빠르게 접근하려는 경우, 트램은 노선상 숙소나 정류장에 맞춰 비교하세요. 실제 운행·환승·표의 구역은 방문일 경로 검색으로 확인합니다. 공항 도착 예정 시각에 입국·짐 수령·승강장까지 이동을 더하고, 중앙역에서 숙소까지 마지막 도보와 트램을 따로 확인하세요. 출발·도착 역 이름이 비슷한 상품을 임의로 같은 표로 취급하지 않습니다."
+      },
+      {
+        "id": "book-zurich-stay",
+        "title": "숙소는 어느 동네에",
+        "body": "중앙역 주변은 다른 스위스 도시로 이동하는 날이 많을 때, 니더도르프 등 강 동쪽 구시가지는 골목 산책·식당과 저녁 시간을 중심으로 머물 때 비교하세요. 반호프 거리·파라데 광장 쪽은 쇼핑과 호수 방향 산책을 묶기 좋습니다. 구시가지 숙소는 엘리베이터·계단·짐 이동과 야간 소음을 먼저 확인하세요. 공항 근처에 숙박한다면 도심을 다녀오는 마지막 교통과 아침 항공편 접근을 별도로 계산합니다."
+      },
+      {
+        "id": "book-zurich-food",
+        "title": "먹거리와 쉬어 가기",
+        "body": "취리히식 송아지고기 요리 취르허 게슈네첼테스와 곁들이는 뢰스티, 비르허 뮈즐리, 룩셈부르겔리 과자를 비교해 보세요. 관광기관은 퐁뒤·라클레트와 지역 과자·소시지도 소개합니다. 크림·고기·견과 등 재료를 확인하고 한 끼에 여러 무거운 요리를 겹치지 마세요. 전통 길드하우스 식당과 채식·세계 음식 중 예산·식이 조건에 맞춰 고르고, 초콜릿·과자는 보관과 귀국 반입 조건도 살펴보세요."
+      },
+      {
+        "id": "book-zurich-days",
+        "title": "처음 가는 3일 여행",
+        "body": "1일: 중앙역 → 반호프 거리 → 린덴호프 → 강변 휴식.\n\n2일: 강 양쪽의 그로스뮌스터·프라우뮌스터 중 보고 싶은 내부 전시 → 니더도르프 골목과 식사. 예배·행사 시간을 피해서 조정합니다.\n\n3일: 마음에 든 구시가지와 호수 방향 산책, 쇼핑과 카페. 비가 오면 교회·미술관 관람 중 실제 개관을 확인한 한 곳으로 바꾸세요.\n\n고정 예약·자동 방문 시각이 없는 선택 예시이며 실제 경로와 소요시간은 별도 확인합니다."
+      },
+      {
+        "id": "book-zurich-notes",
+        "title": "예약과 현장 팁",
+        "body": "교회 본당 관람·탑 오르기·예술 작품 관람의 표와 규칙을 구분하세요. 그로스뮌스터 탑은 계단 부담을 고려하고 예배와 사진 촬영 규칙을 따릅니다. 강변·린덴호프는 주변 주민과 보행 동선을 배려하세요. 공항 교통 페이지 안에서도 택시 가격 범위가 다르게 표시돼 있어 정액으로 옮기지 않았습니다. 날짜 없는 관광기관 소개를 최근 게시물이나 당일 영업 보증으로 표시하지 않습니다."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Attractions in Zurich's Old Town",
+        "url": "https://www.zuerich.com/en/sightseeing-activities/places-to-visit/zurichs-old-town",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "Getting There and Mobility on Location",
+        "url": "https://www.zuerich.com/en/inform-plan/getting-there-and-mobility-on-location",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "From Zurich Airport to the City Center",
+        "url": "https://www.zuerich.com/en/inform-plan/getting-there-and-mobility-on-location/travel-to-zurich/zurich-airport-to-city-center",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "Typical & Traditional",
+        "url": "https://www.zuerich.com/en/eat-drink/typical-and-traditional",
+        "accessedAt": "2026-11-07"
+      }
+    ],
+    "status": "published",
+    "requestId": null,
+    "createdAt": "2026-11-07T18:07:50Z",
+    "updatedAt": "2026-11-07T18:07:50Z",
+    "publishedAt": "2026-11-07T18:07:50Z"
+  }
+}

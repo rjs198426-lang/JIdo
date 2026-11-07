@@ -39,6 +39,11 @@ const ids = [
   'book-florence',
   'book-venice',
   'book-lisbon',
+  'book-salzburg',
+  'book-zurich',
+  'book-lucerne',
+  'book-interlaken',
+  'book-zermatt',
 ]
 test('researched city guide batches download one by one, render researched text offline, and preserve personal records', async ({
   page,
@@ -100,6 +105,12 @@ test('researched city guide batches download one by one, render researched text 
     localStorage.getItem('jido-travel-v1'),
   )
   async function library() {
+    // The app now restores an open library on reload. Close that restored
+    // dialog through the same single Escape action before using navigation.
+    if (await page.getByRole('dialog').count()) {
+      await page.keyboard.press('Escape')
+      await expect(page.getByRole('dialog')).toHaveCount(0)
+    }
     await page
       .locator('.desktop-nav:visible,.bottom-nav:visible')
       .getByRole('button', { name: '설정', exact: true })
@@ -122,7 +133,7 @@ test('researched city guide batches download one by one, render researched text 
     ...ids.map((id) => base + index.books.find((b: any) => b.id === id).file),
   ])
   await page.reload()
-  await expect(page.locator('.travel-home')).toBeVisible()
+  await expect(page.getByRole('region', { name: '설정', exact: true })).toBeVisible()
   await context.setOffline(true)
   for (const id of ids) {
     const book = index.books.find((b: any) => b.id === id)

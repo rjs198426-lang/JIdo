@@ -1,0 +1,481 @@
+{
+  "schemaVersion": 1,
+  "mode": "refresh",
+  "startedAt": "2026-11-07T18:00:28Z",
+  "completedReviewAt": "2026-11-07T18:11:26.806788+00:00",
+  "baseCommit": "5e2f32866f7ffccdfa40c8bf020371a1aa8e1ba5",
+  "selectionCommand": "npm run guides:plan -- refresh",
+  "databaseAtStart": {
+    "guides": 80,
+    "places": 1385
+  },
+  "priorityJudgment": "미확인 타이베이·오래된 후쿠오카/히로시마의 입국·교통과 날짜가 임박한 다운로드 하코다테/피렌체의 운영·예약을 부분 재검토.",
+  "counts": {
+    "partiallyReviewedCities": 5,
+    "changedCities": 5,
+    "unchangedCities": 0,
+    "fullyReviewedCities": 0,
+    "heldForFullReview": 5,
+    "untouchedExistingCities": 75,
+    "sourceRequests": 12,
+    "readAndUsedSources": 9
+  },
+  "cityResults": [
+    {
+      "guideId": "taipei",
+      "contentResult": "changed",
+      "reviewResult": "blocked",
+      "urls": [
+        "https://www.immigration.gov.tw/5475/5478/141457/142068/398041/",
+        "https://www.immigration.gov.tw/5475/5478/6928/392106/400432/cp_news"
+      ],
+      "reason": "TWAC와 사칭 방지 보강.30곳 운영·공항 교통 상세 미검토/본문 미확보."
+    },
+    {
+      "guideId": "fukuoka",
+      "contentResult": "changed",
+      "reviewResult": "blocked",
+      "urls": [
+        "https://www.fukuoka-airport.jp/en/access/bus2.html",
+        "https://www.fukuoka-airport.jp/en/access/subway.html"
+      ],
+      "reason": "무료 셔틀·지하철 연결 보강.56곳 운영·다자이후 미검토."
+    },
+    {
+      "guideId": "hiroshima",
+      "contentResult": "changed",
+      "reviewResult": "blocked",
+      "urls": [
+        "https://www.hiroden.co.jp/topics/2026/0328-hiroshimast.html"
+      ],
+      "reason": "2026년 역 홈 변경·일부편 예외 보강.57곳·미야지마/페리 미검토."
+    },
+    {
+      "guideId": "book-hakodate",
+      "contentResult": "changed",
+      "reviewResult": "blocked",
+      "urls": [
+        "https://334.co.jp/news/2026/0406-22668/",
+        "https://334.co.jp/access/"
+      ],
+      "reason": "로프웨이 운휴는 변경 없음.겨울 산정 도로 통제 추가.나머지 장소·교통·예약 미검토."
+    },
+    {
+      "guideId": "book-florence",
+      "contentResult": "changed",
+      "reviewResult": "blocked",
+      "urls": [
+        "https://duomo.firenze.it/en/visit/plan-your-visit",
+        "https://duomo.firenze.it/en/news/12035/on-tuesday-november-3rd-the-museum-will-be-closed-to-the-public"
+      ],
+      "reason": "지난11월3일 휴관을 이력으로 구분.정기 휴관·패스·돔 예약 보강.나머지 시설/공항 재검토 미완료."
+    }
+  ],
+  "sources": [
+    {
+      "key": "refresh-florence-old",
+      "requestedUrl": "https://duomo.firenze.it/en/news/12035/on-tuesday-november-3rd-the-museum-will-be-closed-to-the-public",
+      "checkedAt": "2026-11-07T18:01:26.879765+00:00",
+      "status": 200,
+      "url": "https://duomo.firenze.it/en/news/12035/on-tuesday-november-3rd-the-museum-will-be-closed-to-the-public",
+      "bytes": 34168,
+      "sha256": "a5f6ab687004f71bddb1419054ee674bad7d5dd3e084c33d33fa1801691c25af",
+      "contentType": "text/html; charset=UTF-8",
+      "title": "On Tuesday, November 3rd, 2026, the Museum will close to the public due to maintenance",
+      "textLength": 1564,
+      "dateMetadata": [],
+      "operatorHost": "duomo.firenze.it",
+      "publicationDate": "2026-10-30",
+      "modifiedAt": null,
+      "dateJudgment": "게시일/수정일 원문 확인; 시행·운영 날짜와 구분",
+      "judgment": "accepted",
+      "verifiedFacts": [
+        "2026년10월30일 공지의11월3일 휴관은 이번 확인일에 이미 지난 날짜. 역사 이력으로 분리."
+      ],
+      "heldReason": null
+    },
+    {
+      "key": "refresh-florence-pass",
+      "requestedUrl": "https://tickets.duomo.firenze.it/en/product/tickets/brunelleschi-pass/3006/13344",
+      "checkedAt": "2026-11-07T18:01:25.312785+00:00",
+      "status": 200,
+      "url": "https://tickets.duomo.firenze.it/en/product/tickets/brunelleschi-pass/3006/13344",
+      "bytes": 117643,
+      "sha256": "50ce7d53f056f708e7886d328e638f034a6a02e41006bd27c127a52f510c5ba0",
+      "contentType": "text/html; charset=utf-8",
+      "title": "Tickets Opera di Santa Maria del Fiore | Florence Duomo Official Tickets",
+      "textLength": 2643,
+      "dateMetadata": [],
+      "operatorHost": "tickets.duomo.firenze.it",
+      "publicationDate": null,
+      "modifiedAt": null,
+      "dateJudgment": "게시일·수정일 미상. 확인일이나 페이지의 행사·시즌·저작권 연도를 게시일로 대체하지 않음.",
+      "judgment": "held",
+      "verifiedFacts": [],
+      "heldReason": "HTTP200이나 구매 앱의 초기 껍데기. 검색에 보인11월 종탑·돔 점검 날짜를 실제 본문에서 검증하지 못해 채택 보류."
+    },
+    {
+      "key": "refresh-florence-plan",
+      "requestedUrl": "https://duomo.firenze.it/en/visit/plan-your-visit",
+      "checkedAt": "2026-11-07T18:01:26.763421+00:00",
+      "status": 200,
+      "url": "https://duomo.firenze.it/en/visit/plan-your-visit",
+      "bytes": 50178,
+      "sha256": "d9ecd10318baa4f6a260b0d6cd6faad8c6b73ae70d1f851f7e566c2bc9f74b28",
+      "contentType": "text/html; charset=UTF-8",
+      "title": "Plan your visit | Opera di Santa Maria del Fiore, Florence",
+      "textLength": 12305,
+      "dateMetadata": [],
+      "operatorHost": "duomo.firenze.it",
+      "publicationDate": null,
+      "modifiedAt": null,
+      "dateJudgment": "게시일·수정일 미상. 확인일이나 페이지의 행사·시즌·저작권 연도를 게시일로 대체하지 않음.",
+      "judgment": "accepted",
+      "verifiedFacts": [
+        "박물관 매월 첫째 화요일 휴관, 패스별 시설·시각 예약 차이와 돔 등반 예약 필수 확인."
+      ],
+      "heldReason": null
+    },
+    {
+      "key": "refresh-fukuoka",
+      "requestedUrl": "https://www.fukuoka-airport.jp/en/access/bus2.html",
+      "checkedAt": "2026-11-07T18:00:28.689111+00:00",
+      "status": 200,
+      "url": "https://www.fukuoka-airport.jp/en/access/bus2.html",
+      "bytes": 91540,
+      "sha256": "49ae6dac3be4975da02dc10ab02ff8e64431b9781a9f75fcba8feec5c48f90b7",
+      "contentType": "text/html; charset=utf-8",
+      "title": "Inter-Terminal Shuttle | Fukuoka Airport Official Website",
+      "textLength": 7271,
+      "dateMetadata": [],
+      "operatorHost": "www.fukuoka-airport.jp",
+      "publicationDate": null,
+      "modifiedAt": null,
+      "dateJudgment": "게시일·수정일 미상. 확인일이나 페이지의 행사·시즌·저작권 연도를 게시일로 대체하지 않음.",
+      "judgment": "accepted",
+      "verifiedFacts": [
+        "국내선–국제선 무료 셔틀. 여러 시각표와 과거 시행일이 섞여 고정 배차·막차를 옮기지 않음."
+      ],
+      "heldReason": null
+    },
+    {
+      "key": "refresh-fukuoka-subway",
+      "requestedUrl": "https://www.fukuoka-airport.jp/en/access/subway.html",
+      "checkedAt": "2026-11-07T18:02:38.344701+00:00",
+      "status": 200,
+      "url": "https://www.fukuoka-airport.jp/en/access/subway.html",
+      "bytes": 72922,
+      "sha256": "8e7e40cc7887b1260702090bc22d31a96a8e9832e8366a6862633fffabae5048",
+      "contentType": "text/html; charset=utf-8",
+      "title": "Subway | Fukuoka Airport Official Website",
+      "textLength": 8635,
+      "dateMetadata": [],
+      "operatorHost": "www.fukuoka-airport.jp",
+      "publicationDate": null,
+      "modifiedAt": null,
+      "dateJudgment": "게시일·수정일 미상. 확인일이나 페이지의 행사·시즌·저작권 연도를 게시일로 대체하지 않음.",
+      "judgment": "accepted",
+      "verifiedFacts": [
+        "국제선 도착에서 무료 셔틀로 국내선 남쪽 정류장에 이동 후 지하철 연결 설명을 확인함."
+      ],
+      "heldReason": null
+    },
+    {
+      "key": "refresh-hakodate-access",
+      "requestedUrl": "https://334.co.jp/access/",
+      "checkedAt": "2026-11-07T18:01:25.310706+00:00",
+      "status": 200,
+      "url": "https://334.co.jp/access/",
+      "bytes": 43829,
+      "sha256": "0936e9991f5103a5547ce464a85f7ce59a03745abf400841802ef129e93f4319",
+      "contentType": "text/html; charset=UTF-8",
+      "title": "アクセス | 函館山ロープウェイ",
+      "textLength": 2238,
+      "dateMetadata": [],
+      "operatorHost": "334.co.jp",
+      "publicationDate": null,
+      "modifiedAt": null,
+      "dateJudgment": "게시일·수정일 미상. 확인일이나 페이지의 행사·시즌·저작권 연도를 게시일로 대체하지 않음.",
+      "judgment": "accepted",
+      "verifiedFacts": [
+        "관광도로2026년11월9일11시~2027년4월12일11시(예정) 겨울 통제. 로프웨이 운행과 별개."
+      ],
+      "heldReason": null
+    },
+    {
+      "key": "refresh-hakodate",
+      "requestedUrl": "https://334.co.jp/news/2026/0406-22668/",
+      "checkedAt": "2026-11-07T18:01:25.284060+00:00",
+      "status": 200,
+      "url": "https://334.co.jp/news/2026/0406-22668/",
+      "bytes": 32308,
+      "sha256": "cb3d2ea8bffdaf41e367f24c1be061929cf6cb9831b2f28e9bd9887b14297479",
+      "contentType": "text/html; charset=UTF-8",
+      "title": "2026年度の函館山ロープウェイ法定整備点検について | 函館山ロープウェイ",
+      "textLength": 1278,
+      "dateMetadata": [],
+      "operatorHost": "334.co.jp",
+      "publicationDate": "2026-04-06",
+      "modifiedAt": null,
+      "dateJudgment": "게시일/수정일 원문 확인; 시행·운영 날짜와 구분",
+      "judgment": "accepted",
+      "verifiedFacts": [
+        "2026년4월6일 게시된10월20일~11월8일 점검 운휴. 기존 안내와 이 항목은 변경 없음."
+      ],
+      "heldReason": null
+    },
+    {
+      "key": "refresh-hiroshima-current",
+      "requestedUrl": "https://www.hiroden.co.jp/stop/hiroshima-st.html",
+      "checkedAt": "2026-11-07T18:02:38.546611+00:00",
+      "status": 200,
+      "url": "https://www.hiroden.co.jp/stop/hiroshima-st.html",
+      "bytes": 8964,
+      "sha256": "12ffaf4321ebcc5b27dd90cf0ab0ab32c4474cb4a0d2850739ad39190b53d677",
+      "contentType": "text/html",
+      "title": "のりば案内：広島駅｜広島電鉄",
+      "textLength": 738,
+      "dateMetadata": [],
+      "operatorHost": "www.hiroden.co.jp",
+      "publicationDate": null,
+      "modifiedAt": null,
+      "dateJudgment": "게시일·수정일 미상. 확인일이나 페이지의 행사·시즌·저작권 연도를 게시일로 대체하지 않음.",
+      "judgment": "held",
+      "verifiedFacts": [],
+      "heldReason": "읽은 역 페이지는 버스 승차장 표임. 노면전차 홈 변경의 교차검증으로 쓰지 않음."
+    },
+    {
+      "key": "refresh-hiroshima-platform",
+      "requestedUrl": "https://www.hiroden.co.jp/topics/2026/0328-hiroshimast.html",
+      "checkedAt": "2026-11-07T18:02:38.467829+00:00",
+      "status": 200,
+      "url": "https://www.hiroden.co.jp/topics/2026/0328-hiroshimast.html",
+      "bytes": 3787,
+      "sha256": "f7aefd66202a19687cd458367a6f18cbd06d1bc9ba5cb66c26ebffb6fcaf8a31",
+      "contentType": "text/html",
+      "title": "お知らせ｜広島電鉄",
+      "textLength": 335,
+      "dateMetadata": [],
+      "operatorHost": "www.hiroden.co.jp",
+      "publicationDate": "2026-03-19",
+      "modifiedAt": null,
+      "dateJudgment": "게시일/수정일 원문 확인; 시행·운영 날짜와 구분",
+      "judgment": "accepted",
+      "verifiedFacts": [
+        "2026년3월19일 게시,3월28일부터1호선D→B·2호선B→D. 일부 편 예외와 현장표지 우선."
+      ],
+      "heldReason": null
+    },
+    {
+      "key": "refresh-taoyuan",
+      "requestedUrl": "https://web.taoyuan-airport.com/airportmrt_inairport?lang=en",
+      "checkedAt": "2026-11-07T18:00:28.689508+00:00",
+      "status": 200,
+      "url": "https://web.taoyuan-airport.com/airportmrt_inairport?lang=en",
+      "bytes": 18208,
+      "sha256": "8c785c34daf95265968bd44b7bdde73a7c62eecd06a8cfacfde7103752e6d164",
+      "contentType": "text/html",
+      "title": "桃園國際機場",
+      "textLength": 58,
+      "dateMetadata": [],
+      "operatorHost": "web.taoyuan-airport.com",
+      "publicationDate": null,
+      "modifiedAt": null,
+      "dateJudgment": "게시일·수정일 미상. 확인일이나 페이지의 행사·시즌·저작권 연도를 게시일로 대체하지 않음.",
+      "judgment": "held",
+      "verifiedFacts": [],
+      "heldReason": "HTTP200이지만 실질 본문이 없는 SPA 껍데기. 공항 교통 세부 검증으로 사용하지 않음."
+    },
+    {
+      "key": "refresh-twac",
+      "requestedUrl": "https://www.immigration.gov.tw/5475/5478/141457/142068/398041/",
+      "checkedAt": "2026-11-07T18:01:25.146948+00:00",
+      "status": 200,
+      "url": "https://www.immigration.gov.tw/5475/5478/141457/142068/398041/",
+      "bytes": 26367,
+      "sha256": "f796152db30b90cfdf8f2f789a1d37e5ef3b1ab49b4d8ced29d393931eb38895",
+      "contentType": "text/html; charset=utf-8",
+      "title": "National Immigration Agency, R.O.C. (Taiwan) - Traveling to Taiwan? Starting October 1, 2025, Complete the Taiwan Arrival Card (TWAC) Online for Faster Clearance!",
+      "textLength": 5748,
+      "dateMetadata": [
+        {
+          "name": "DC.Publisher",
+          "content": "內政部移民署 A01050000A"
+        }
+      ],
+      "operatorHost": "www.immigration.gov.tw",
+      "publicationDate": "2025-09-21",
+      "modifiedAt": "2025-09-21",
+      "dateJudgment": "게시일/수정일 원문 확인; 시행·운영 날짜와 구분",
+      "judgment": "accepted",
+      "verifiedFacts": [
+        "2025년10월1일부터 온라인 TWAC, 대상 관광객은 도착 전3일 이내 무료 제출. 입국 허가·비자와 별개."
+      ],
+      "heldReason": null
+    },
+    {
+      "key": "refresh-twac-scam",
+      "requestedUrl": "https://www.immigration.gov.tw/5475/5478/6928/392106/400432/cp_news",
+      "checkedAt": "2026-11-07T18:01:25.148609+00:00",
+      "status": 200,
+      "url": "https://www.immigration.gov.tw/5475/5478/6928/392106/400432/cp_news",
+      "bytes": 26205,
+      "sha256": "0e652dce6f0fd3cf60436762de5cc5805c80701ec4c5464f3d2745cf4a7b3348",
+      "contentType": "text/html; charset=utf-8",
+      "title": "National Immigration Agency, R.O.C. (Taiwan) - Warning：Beware of fraudulent websites and websites impersonating the TWAC (Taiwan Arrival Card)",
+      "textLength": 4224,
+      "dateMetadata": [
+        {
+          "name": "DC.Publisher",
+          "content": "內政部移民署 A01050000A"
+        }
+      ],
+      "operatorHost": "www.immigration.gov.tw",
+      "publicationDate": "2026-08-05",
+      "modifiedAt": "2026-10-21",
+      "dateJudgment": "게시일/수정일 원문 확인; 시행·운영 날짜와 구분",
+      "judgment": "accepted",
+      "verifiedFacts": [
+        "2026년8월5일 게시·10월21일 갱신된 사칭·유료 대행 경고. 공식 무료 주소를 확인함."
+      ],
+      "heldReason": null
+    }
+  ],
+  "remainingGuideIds": [
+    "bali",
+    "bangkok",
+    "book-asahikawa",
+    "book-barcelona",
+    "book-beijing",
+    "book-beppu",
+    "book-bohol",
+    "book-budapest",
+    "book-cebu",
+    "book-chiangmai",
+    "book-chiangrai",
+    "book-dalat",
+    "book-halong",
+    "book-hanoi",
+    "book-hochiminh",
+    "book-honolulu",
+    "book-huahin",
+    "book-hue",
+    "book-ishigaki",
+    "book-johorbahru",
+    "book-kagoshima",
+    "book-kanazawa",
+    "book-kaohsiung",
+    "book-kohsamui",
+    "book-kotakinabalu",
+    "book-krabi",
+    "book-kualalumpur",
+    "book-kumamoto",
+    "book-langkawi",
+    "book-lisbon",
+    "book-london",
+    "book-losangeles",
+    "book-macau",
+    "book-manila",
+    "book-matsuyama",
+    "book-melaka",
+    "book-miyakojima",
+    "book-nagasaki",
+    "book-newyork",
+    "book-nhatrang",
+    "book-okayama",
+    "book-okinawa",
+    "book-paris",
+    "book-pattaya",
+    "book-penang",
+    "book-phuket",
+    "book-phuquoc",
+    "book-prague",
+    "book-puertoprincesa",
+    "book-rome",
+    "book-shanghai",
+    "book-sydney",
+    "book-taichung",
+    "book-tainan",
+    "book-takamatsu",
+    "book-tottori",
+    "book-venice",
+    "book-vienna",
+    "book-yufuin",
+    "danang",
+    "dubai",
+    "guam",
+    "hongkong",
+    "kobe",
+    "kyoto",
+    "maldives",
+    "nagoya",
+    "osaka",
+    "saipan",
+    "santorini",
+    "sapporo",
+    "sendai",
+    "singapore",
+    "tokyo",
+    "yokohama"
+  ],
+  "noDateOnlyRefresh": true,
+  "lastReviewedAtPolicy": "5개 모두 부분 검토여서 동일 현재 contentHash로blocked를 추가.도시 전체 완료 lastReviewedAt을 갱신하지 않음.",
+  "delivery": {
+    "downloadable": [
+      "book-hakodate",
+      "book-florence"
+    ],
+    "bundledPractical": [
+      "taipei",
+      "fukuoka",
+      "hiroshima"
+    ],
+    "bundledPracticalRequiresNextAndroidRelease": true,
+    "contentPublishRequired": false,
+    "reason": "내장 도시·장소 카탈로그 자체는 바꾸지 않았고 실용 본문만 수정.다운로드2개는 목록 새로고침/갱신;내장3개 실용본문은 다음Android배포 필요.이번APK/iOS/서명 변경 없음."
+  },
+  "photoJudgment": "새 사진·좌표·요금 없음.개인 자료는 읽거나 게시하지 않음.",
+  "validationStatus": "passed",
+  "publicationStatus": "validated-pending-push",
+  "validation": {
+    "guidebooksBuild": "passed",
+    "guidebooksCheck": "passed",
+    "databaseBuild": "passed",
+    "databaseCheck": "passed",
+    "databaseTestsPassed": 6,
+    "webBuild": "passed",
+    "clientAssetAudit": "passed",
+    "typeCheck": "passed",
+    "uniqueBrowserTestsPassed": 24,
+    "browserAttempts": [
+      {
+        "tests": 24,
+        "passed": 21,
+        "failed": 3
+      },
+      {
+        "tests": 3,
+        "passed": 2,
+        "failed": 1
+      },
+      {
+        "tests": 1,
+        "passed": 1,
+        "failed": 0
+      }
+    ],
+    "correctedIssues": [
+      "과거 홈 재시작 기대 대신 현재 설정·열린 가이드북 복귀 흐름으로 검사",
+      "새 여행은 현재 여행 관리 메뉴를 통해 여는 검사",
+      "기존 괌 실제 검토 기록의 날짜·해시를 직접 대조하고 짧은 공식 공지는 실질 사실 검토 근거를 요구"
+    ],
+    "downloadOfflineCitiesVerified": 40,
+    "existingPublicFilesByteIdentical": {
+      "guidebook-sources/": 57,
+      "guidebook-database/records/": 75,
+      "guidebooks/": 59
+    },
+    "generatedAgainAfterCheckingLatestMain": "5e2f32866f7ffccdfa40c8bf020371a1aa8e1ba5"
+  },
+  "publicationVerificationPath": "research/guidebooks/runs/20261107T1800-public-verification.json"
+}

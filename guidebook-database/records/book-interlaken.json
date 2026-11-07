@@ -1,0 +1,173 @@
+{
+  "guide": {
+    "id": "book-interlaken",
+    "scope": "city",
+    "city": {
+      "id": "book-interlaken",
+      "name": "인터라켄",
+      "english": "Interlaken",
+      "country": "스위스",
+      "region": "유럽",
+      "image": "/images/guide-placeholder.svg",
+      "tagline": "두 호수 사이 산악 여행의 거점과 여유로운 도심 산책",
+      "description": "인터라켄은 툰호와 브리엔츠호 사이의 평지 도시로, 호헤마테의 전망과 강변·운터젠 구시가지 산책을 즐기며 산악 교통의 거점으로 삼을 수 있습니다. 하더 쿨름 전망과 도심 정원·수도원 방문을 나누면 비싼 산악 일정만 연속으로 넣지 않아도 좋습니다. 운터젠·마텐은 함께 이동하는 인접 생활권으로 소개하며 별도 신규 도시로 세지 않았습니다.",
+      "tags": [
+        "산 전망",
+        "가족 산책",
+        "철도"
+      ],
+      "flight": "출발지·방문일의 항공편과 경유 조건은 항공사에서 확인",
+      "currency": "스위스 프랑 · CHF",
+      "timeDifference": "한국보다 8시간 느림 · 서머타임에는 7시간",
+      "timeZone": "Europe/Zurich",
+      "season": "호수·도심 산책과 실내 관람을 섞고 산악 교통·야외 시설의 계절 운영을 먼저 확인하세요.",
+      "accent": "#e7f1ef"
+    },
+    "places": [
+      {
+        "id": "book-interlaken-hohematte",
+        "cityId": "book-interlaken",
+        "name": "호헤마테",
+        "english": "Höhematte",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "융프라우 방향 전망과 도심 풍경을 즐기는 넓은 중앙 녹지 구역입니다.",
+        "address": "Höhematte, Interlaken",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "이용할 시설·상품의 방문일 요금 확인",
+        "tip": "날씨에 따라 산이 보이지 않을 수 있습니다. 지정된 보행 공간과 다른 이용자의 동선을 배려하세요."
+      },
+      {
+        "id": "book-interlaken-harder-kulm",
+        "cityId": "book-interlaken",
+        "name": "하더 쿨름",
+        "english": "Harder Kulm",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "푸니쿨라로 올라가 두 호수와 주변 산을 조망하는 인터라켄의 전망 구역입니다.",
+        "address": "Harder Kulm, Interlaken",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "이용할 시설·상품의 방문일 요금 확인",
+        "tip": "계절 운행·날씨·마지막 하행을 확인하세요. 산악 패스의 적용과 별도 음식 상품을 구분합니다."
+      },
+      {
+        "id": "book-interlaken-unterseen",
+        "cityId": "book-interlaken",
+        "name": "운터젠 구시가지",
+        "english": "Unterseen Old Town",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "인터라켄과 이어지는 이웃 구시가지로 강변과 옛 건물을 걸으며 보는 동네입니다.",
+        "address": "Unterseen",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "이용할 시설·상품의 방문일 요금 확인",
+        "tip": "도심과 붙어 있는 생활권이며 별도 먼 도시 일정으로 잡을 필요는 없습니다. 상점·식당은 개별 영업을 확인하세요."
+      },
+      {
+        "id": "book-interlaken-japanese-garden",
+        "cityId": "book-interlaken",
+        "name": "인터라켄 일본정원",
+        "english": "Japanese Garden Interlaken",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "자매도시 오쓰에서 선물한 정원으로 연못과 정자가 있는 작은 휴식 공간입니다.",
+        "address": "Höheweg, Interlaken",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "이용할 시설·상품의 방문일 요금 확인",
+        "tip": "연못에서 낚시하지 마세요. 정원 산책과 주변 교회 내부 관람은 별개입니다."
+      },
+      {
+        "id": "book-interlaken-monastery",
+        "cityId": "book-interlaken",
+        "name": "인터라켄 옛 수도원과 성",
+        "english": "Monastery and Interlaken Castle",
+        "category": "관광",
+        "image": "/images/place-placeholder.svg",
+        "description": "옛 아우구스티누스회 수도원과 성 교회, 고딕 회랑의 흔적을 살펴보는 역사 구역입니다. 현재 행정 기능도 남아 있습니다.",
+        "address": "Schloss 1, Interlaken",
+        "duration": "방문 시간은 직접 선택",
+        "cost": "이용할 시설·상품의 방문일 요금 확인",
+        "tip": "공개 부지 산책과 업무 중인 건물 내부를 구분하고 예배·행사와 사유 공간을 배려하세요."
+      }
+    ],
+    "sections": [
+      {
+        "id": "book-interlaken-overview",
+        "title": "도시 한눈에",
+        "body": "인터라켄은 툰호와 브리엔츠호 사이의 평지 도시로, 호헤마테의 전망과 강변·운터젠 구시가지 산책을 즐기며 산악 교통의 거점으로 삼을 수 있습니다. 하더 쿨름 전망과 도심 정원·수도원 방문을 나누면 비싼 산악 일정만 연속으로 넣지 않아도 좋습니다. 운터젠·마텐은 함께 이동하는 인접 생활권으로 소개하며 별도 신규 도시로 세지 않았습니다."
+      },
+      {
+        "id": "book-interlaken-before",
+        "title": "출발 전에 챙길 것",
+        "body": "여권·입국·경유 조건은 국적과 체류 목적에 맞춰 당국에서 따로 확인하세요. 숙소 주소·예약서와 교통표의 오프라인 사본을 준비하고, 숙소의 짐 보관·계단·엘리베이터를 확인합니다. 산악 교통은 날씨·운휴·유효 노선을 먼저 보고 패스를 비교하세요. 인터라켄 동역(Ost)·서역(West)을 같은 역으로 생각하지 말고 표의 목적지와 숙소 위치를 맞춥니다. 산에 가지 못하는 날에도 호헤마테·일본정원·옛 수도원 등 도심 산책으로 조정할 수 있도록 하루 여유를 남기세요."
+      },
+      {
+        "id": "book-interlaken-arrival",
+        "title": "공항과 시내 이동",
+        "body": "스위스 공항에서 인터라켄으로는 철도 연결과 환승을 방문일 SBB·BLS 시간표로 확인하세요. 숙소에 따라 Interlaken Ost 또는 West를 목적지로 골라야 합니다. 공식 관광기관은 2026년10월19일~12월11일 동역–서역 철도 구간을 공사로 폐쇄하고 대체버스를 운행한다고 안내합니다. 서역 대체버스 승차 장소가 Rugenparkstrasse 또는 Bahnhofplatz로 달라질 수 있으니 현장 표지와 갱신된 시간표를 보세요. 공항에서 두 역까지 늘 같은 열차로 연결된다고 가정하지 않습니다."
+      },
+      {
+        "id": "book-interlaken-stay",
+        "title": "숙소는 어느 동네에",
+        "body": "동역 주변은 산악 지역으로 이어지는 실제 환승과 철도 도착·출발을, 서역·운터젠 주변은 구시가지와 강변 산책·식당을 중심으로 비교하세요. 호헤마테·회에베크 주변은 도심 전망과 동서 양쪽 산책을 원할 때 살펴볼 수 있습니다. 현재 공사 기간에는 역 가까운 숙소라도 대체버스 정류장까지 짐을 옮길 구간과 야간 공사 소음을 확인합니다. 먼 산 전망보다 짐 보관·식사·마지막 교통을 먼저 정하세요."
+      },
+      {
+        "id": "book-interlaken-food",
+        "title": "먹거리와 쉬어 가기",
+        "body": "지역 관광기관은 라클레트·치즈 퐁뒤 같은 스위스 음식과 여러 나라의 음식, 채식·할랄 등 선택지를 소개합니다. 녹인 치즈 요리가 부담되면 두 끼 연속으로 고르기보다 다른 식사를 섞으세요. 육류·유제품·알코올 사용과 알레르기 재료는 가게에 확인합니다. 산 위 식사는 귀환 교통·마감과 함께 계획하고, 도심 카페·제과점에서는 다음 날 이른 이동에 맞춘 포장 가능 여부도 물어보세요. 현재 영업을 확인한 개별 맛집 순위는 아닙니다."
+      },
+      {
+        "id": "book-interlaken-days",
+        "title": "처음 가는 3일 여행",
+        "body": "1일: 호헤마테 → 일본정원과 옛 수도원·성 구역 → 편한 도심 식사.\n\n2일: 날씨와 철도 운행이 맞으면 하더 쿨름 전망. 귀환 뒤에는 추가 산악 이동 대신 쉬는 시간을 둡니다.\n\n3일: 운터젠 구시가지·강변 산책 → 숙소 짐 회수와 출발. 비·눈·결빙이면 야외 구간을 줄이세요.\n\n융프라우요흐 등 다른 산악 지역은 별도 비용·운영 확인이 필요한 선택이며 이 도심 예시에 자동으로 포함되지 않습니다. 실제 경로·방문 시각을 계산한 일정은 아닙니다."
+      },
+      {
+        "id": "book-interlaken-notes",
+        "title": "예약과 현장 팁",
+        "body": "하더 쿨름은 계절 운행이므로 겨울에도 항상 탈 수 있다고 예약하지 마세요. 운영사 페이지에는 2026년 시즌 상품과 종료 시기 안내가 있으며 실제 이용일 운행은 당일 상태를 확인해야 합니다. 동역–서역 공사와 도로 통제는 숙소·환승에 영향을 주므로 2026년12월11일까지 대체버스를 고려합니다. 패러글라이딩은 호헤마테를 보는 것과 다른 유료·날씨 의존 체험이며 참가 조건을 검증한 상품으로 넣지 않았습니다. 일본정원은 연못 낚시가 금지되어 있습니다."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Interlaken – Matten – Unterseen",
+        "url": "https://www.interlaken.swiss/en/destinations/interlaken/interlaken-matten-unterseen",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "Grand Tour of Switzerland: Höhematte Interlaken photo spot",
+        "url": "https://www.interlaken.swiss/en/experiences/poi/grand-tour-of-switzerland-interlaken-photo-spot",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "Japanese Garden in Interlaken",
+        "url": "https://www.interlaken.swiss/en/experiences/poi/japanese-garden-interlaken",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "Monastery, castle church and Interlaken Castle",
+        "url": "https://www.interlaken.swiss/en/experiences/poi/monastery-and-interlaken-castle",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "Harder Kulm – Top of Interlaken",
+        "url": "https://www.jungfrau.ch/en-gb/harder-kulm/",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "Getting here",
+        "url": "https://www.interlaken.swiss/en/planning/getting-here",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "title": "Restaurants",
+        "url": "https://www.interlaken.swiss/en/planning/restaurants",
+        "accessedAt": "2026-11-07"
+      }
+    ],
+    "status": "published",
+    "requestId": null,
+    "createdAt": "2026-11-07T18:07:50Z",
+    "updatedAt": "2026-11-07T18:07:50Z",
+    "publishedAt": "2026-11-07T18:07:50Z"
+  }
+}
