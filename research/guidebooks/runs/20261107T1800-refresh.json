@@ -436,7 +436,7 @@
   },
   "photoJudgment": "새 사진·좌표·요금 없음.개인 자료는 읽거나 게시하지 않음.",
   "validationStatus": "passed",
-  "publicationStatus": "validated-pending-push",
+  "publicationStatus": "published-verified",
   "validation": {
     "guidebooksBuild": "passed",
     "guidebooksCheck": "passed",
@@ -477,5 +477,20 @@
     },
     "generatedAgainAfterCheckingLatestMain": "5e2f32866f7ffccdfa40c8bf020371a1aa8e1ba5"
   },
-  "publicationVerificationPath": "research/guidebooks/runs/20261107T1800-public-verification.json"
+  "publicationVerificationPath": "research/guidebooks/runs/20261107T1800-public-verification.json",
+  "publishedCommit": "693e6ff8cf3651d318d2cfeed1457de35f82c984",
+  "publicVerification": {
+    "evidencePath": "research/guidebooks/runs/20261107T1800-public-verification.json",
+    "immutableFiles": 90,
+    "appMainUrls": 10,
+    "allHttpBytesAndHashesMatched": true,
+    "checkedAt": "2026-11-07T18:21:08.450878+00:00"
+  },
+  "githubActions": {
+    "id": 42400839523,
+    "status": "completed",
+    "conclusion": "success",
+    "head": "693e6ff8cf3651d318d2cfeed1457de35f82c984",
+    "url": "https://github.com/rjs198426-lang/JIdo/actions/runs/42400839523"
+  }
 }

@@ -1,0 +1,847 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-11-07T18:21:08.450878+00:00",
+  "publishedCommit": "693e6ff8cf3651d318d2cfeed1457de35f82c984",
+  "anonymousDownloads": true,
+  "allPassed": true,
+  "immutableFiles": [
+    {
+      "file": "guidebooks/manifest.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebooks/manifest.json",
+      "httpStatus": 200,
+      "bytes": 34408,
+      "sha256": "e4d2639e3cfa910a106896c0bf67c16b33cda96d0afb4b62ed89c2cdbd608bc2",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebook-database/index.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebook-database/index.json",
+      "httpStatus": 200,
+      "bytes": 39270,
+      "sha256": "1e4ef14219eaaf13079498b566232361cdcdf5f7b32a5dc93905c8cc5fc1890c",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebook-database/guides.sqlite",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebook-database/guides.sqlite",
+      "httpStatus": 200,
+      "bytes": 4640768,
+      "sha256": "ed3574aa0596f28497d16dbf31dafe5f2767d468f23b7264640fbeb78d7feb60",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "src/practical-guides.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/src/practical-guides.json",
+      "httpStatus": 200,
+      "bytes": 97453,
+      "sha256": "00faf660b21bb0cb5e277de4f402ef7aedfc97058b78197e7d6840915f857063",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "public/guide-research.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/public/guide-research.json",
+      "httpStatus": 200,
+      "bytes": 32301,
+      "sha256": "02bd86c6da8a7d0759e771c01d59c6f43db58748e233a04ada6820e4f628db94",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "research/guidebooks/reviews.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/research/guidebooks/reviews.json",
+      "httpStatus": 200,
+      "bytes": 37819,
+      "sha256": "6d7e009b659941bc3f511b744e1374097cae4d1b427d0f39381a11b77b523846",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "GUIDEBOOKS.md",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/GUIDEBOOKS.md",
+      "httpStatus": 200,
+      "bytes": 38926,
+      "sha256": "e69a01093605339b29382bd33d300374776f3a0e14642f303bf9cf859ddcf3b7",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "research/guidebooks/runs/20261107T1800-new.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/research/guidebooks/runs/20261107T1800-new.json",
+      "httpStatus": 200,
+      "bytes": 67343,
+      "sha256": "7ea509dd8722da952189125476fc27a95d163a9a42c5b25291e940bea188607d",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "research/guidebooks/runs/20261107T1800-refresh.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/research/guidebooks/runs/20261107T1800-refresh.json",
+      "httpStatus": 200,
+      "bytes": 18818,
+      "sha256": "889568e40b1bbe8315f398a26a72820bbb7df6c4381ad15ceec7b9d0ed9a21eb",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebooks/book-asahikawa-8ca96497280be5748c26d52f6f06f3c9a0f9b9a6f0ecf5be090bf9fb46deac0a.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebooks/book-asahikawa-8ca96497280be5748c26d52f6f06f3c9a0f9b9a6f0ecf5be090bf9fb46deac0a.json",
+      "httpStatus": 200,
+      "bytes": 11363,
+      "sha256": "8ca96497280be5748c26d52f6f06f3c9a0f9b9a6f0ecf5be090bf9fb46deac0a",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebooks/book-barcelona-1f7e6e87e034bfeba352d880eab48f615683d93f4f3bae94968707e83e016458.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebooks/book-barcelona-1f7e6e87e034bfeba352d880eab48f615683d93f4f3bae94968707e83e016458.json",
+      "httpStatus": 200,
+      "bytes": 7952,
+      "sha256": "1f7e6e87e034bfeba352d880eab48f615683d93f4f3bae94968707e83e016458",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebooks/book-beijing-1ac9a90e474b495d1da303001a53be07e5011b8523f2e32d12eca8a5d797156b.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebooks/book-beijing-1ac9a90e474b495d1da303001a53be07e5011b8523f2e32d12eca8a5d797156b.json",
+      "httpStatus": 200,
+      "bytes": 8070,
+      "sha256": "1ac9a90e474b495d1da303001a53be07e5011b8523f2e32d12eca8a5d797156b",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebooks/book-beppu-a89a0039f1d9a5e9186e8b06de7845bd9f077994b291b504661344bd38e913aa.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebooks/book-beppu-a89a0039f1d9a5e9186e8b06de7845bd9f077994b291b504661344bd38e913aa.json",
+      "httpStatus": 200,
+      "bytes": 10871,
+      "sha256": "a89a0039f1d9a5e9186e8b06de7845bd9f077994b291b504661344bd38e913aa",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebooks/book-bohol-486909783de6cd39f3ab9cf9f1e78c3662a7d01d047b967a9fae96e9ad154b2e.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebooks/book-bohol-486909783de6cd39f3ab9cf9f1e78c3662a7d01d047b967a9fae96e9ad154b2e.json",
+      "httpStatus": 200,
+      "bytes": 7996,
+      "sha256": "486909783de6cd39f3ab9cf9f1e78c3662a7d01d047b967a9fae96e9ad154b2e",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebooks/book-budapest-2f70cf3df14ef31f91a2c6703e261b18bae0595336539ea9946442fdc5da1b80.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebooks/book-budapest-2f70cf3df14ef31f91a2c6703e261b18bae0595336539ea9946442fdc5da1b80.json",
+      "httpStatus": 200,
+      "bytes": 10483,
+      "sha256": "2f70cf3df14ef31f91a2c6703e261b18bae0595336539ea9946442fdc5da1b80",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebooks/book-cebu-4aa3175abbe100ccf6475b174d915fcedabf131b7ab5bdf5d7f6ab0c216b730b.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebooks/book-cebu-4aa3175abbe100ccf6475b174d915fcedabf131b7ab5bdf5d7f6ab0c216b730b.json",
+      "httpStatus": 200,
+      "bytes": 8251,
+      "sha256": "4aa3175abbe100ccf6475b174d915fcedabf131b7ab5bdf5d7f6ab0c216b730b",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebooks/book-chiangmai-9cf5ae142cb9e7b905d41c5583ad90b7e9ff21483676f68b6765977e6cd2f196.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebooks/book-chiangmai-9cf5ae142cb9e7b905d41c5583ad90b7e9ff21483676f68b6765977e6cd2f196.json",
+      "httpStatus": 200,
+      "bytes": 8344,
+      "sha256": "9cf5ae142cb9e7b905d41c5583ad90b7e9ff21483676f68b6765977e6cd2f196",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebooks/book-chiangrai-89ec61d41c0aadd593d4ff2c55adc22c0bd5a5b033f404105d7e02ede9bee429.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebooks/book-chiangrai-89ec61d41c0aadd593d4ff2c55adc22c0bd5a5b033f404105d7e02ede9bee429.json",
+      "httpStatus": 200,
+      "bytes": 10617,
+      "sha256": "89ec61d41c0aadd593d4ff2c55adc22c0bd5a5b033f404105d7e02ede9bee429",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebooks/book-dalat-40e89165bfeb9d2d0941f34b69b3e10836bc80dd27ee22be1475b7738c654437.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebooks/book-dalat-40e89165bfeb9d2d0941f34b69b3e10836bc80dd27ee22be1475b7738c654437.json",
+      "httpStatus": 200,
+      "bytes": 10031,
+      "sha256": "40e89165bfeb9d2d0941f34b69b3e10836bc80dd27ee22be1475b7738c654437",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebooks/book-florence-94758fc9efda2200a37d681dd5a6a2f78b43ff9487ed27483f358b427eeca101.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebooks/book-florence-94758fc9efda2200a37d681dd5a6a2f78b43ff9487ed27483f358b427eeca101.json",
+      "httpStatus": 200,
+      "bytes": 10949,
+      "sha256": "94758fc9efda2200a37d681dd5a6a2f78b43ff9487ed27483f358b427eeca101",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebooks/book-hakodate-179b4e7388e5bae08a8bfc7b4cbf4d2ebae7e720fbc6a4cb7c063c2b498108bf.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebooks/book-hakodate-179b4e7388e5bae08a8bfc7b4cbf4d2ebae7e720fbc6a4cb7c063c2b498108bf.json",
+      "httpStatus": 200,
+      "bytes": 10907,
+      "sha256": "179b4e7388e5bae08a8bfc7b4cbf4d2ebae7e720fbc6a4cb7c063c2b498108bf",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebooks/book-halong-03a15b7966fa54e14f451f2fc08dee54351841b43e6415ef68f29c3d4805a79c.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebooks/book-halong-03a15b7966fa54e14f451f2fc08dee54351841b43e6415ef68f29c3d4805a79c.json",
+      "httpStatus": 200,
+      "bytes": 10863,
+      "sha256": "03a15b7966fa54e14f451f2fc08dee54351841b43e6415ef68f29c3d4805a79c",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebooks/book-hanoi-6754e004a06b4d1b24db94f6b9bc6f766eb33e1597dc123ef0ead02e202e758a.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebooks/book-hanoi-6754e004a06b4d1b24db94f6b9bc6f766eb33e1597dc123ef0ead02e202e758a.json",
+      "httpStatus": 200,
+      "bytes": 7954,
+      "sha256": "6754e004a06b4d1b24db94f6b9bc6f766eb33e1597dc123ef0ead02e202e758a",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebooks/book-hochiminh-927dcb834e165881416e4cb5a12775fb67659b8e89e61f2ddb401c4c23918a8c.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebooks/book-hochiminh-927dcb834e165881416e4cb5a12775fb67659b8e89e61f2ddb401c4c23918a8c.json",
+      "httpStatus": 200,
+      "bytes": 8245,
+      "sha256": "927dcb834e165881416e4cb5a12775fb67659b8e89e61f2ddb401c4c23918a8c",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebooks/book-honolulu-0593eaa396ead447b2f9509f278683629f4bc8e118fc7c01a1b919b77e376967.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebooks/book-honolulu-0593eaa396ead447b2f9509f278683629f4bc8e118fc7c01a1b919b77e376967.json",
+      "httpStatus": 200,
+      "bytes": 8165,
+      "sha256": "0593eaa396ead447b2f9509f278683629f4bc8e118fc7c01a1b919b77e376967",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebooks/book-huahin-767523c4cb1bab41de326d7909401b7325debf73c15135edded940fcb2cda043.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebooks/book-huahin-767523c4cb1bab41de326d7909401b7325debf73c15135edded940fcb2cda043.json",
+      "httpStatus": 200,
+      "bytes": 10233,
+      "sha256": "767523c4cb1bab41de326d7909401b7325debf73c15135edded940fcb2cda043",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebooks/book-hue-856ec6093a2862389c81aa661e1f617896f2a2aa622639fdb79210ccc0e9d8e4.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebooks/book-hue-856ec6093a2862389c81aa661e1f617896f2a2aa622639fdb79210ccc0e9d8e4.json",
+      "httpStatus": 200,
+      "bytes": 9651,
+      "sha256": "856ec6093a2862389c81aa661e1f617896f2a2aa622639fdb79210ccc0e9d8e4",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebooks/book-interlaken-e5bed99a6b5f356eaa0503ebce9663f80abc9dc1549e35f14a8ef3a6a27361c4.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebooks/book-interlaken-e5bed99a6b5f356eaa0503ebce9663f80abc9dc1549e35f14a8ef3a6a27361c4.json",
+      "httpStatus": 200,
+      "bytes": 11049,
+      "sha256": "e5bed99a6b5f356eaa0503ebce9663f80abc9dc1549e35f14a8ef3a6a27361c4",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebooks/book-ishigaki-a9979a08bf3c7324f8ae23b7bc80ccb0e2083d2188b793e055259adbe16e602f.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebooks/book-ishigaki-a9979a08bf3c7324f8ae23b7bc80ccb0e2083d2188b793e055259adbe16e602f.json",
+      "httpStatus": 200,
+      "bytes": 9970,
+      "sha256": "a9979a08bf3c7324f8ae23b7bc80ccb0e2083d2188b793e055259adbe16e602f",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebooks/book-johorbahru-7bd61f65cf80703207e51023625fdb0f095af40a096f5357ae543d103f0273d9.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebooks/book-johorbahru-7bd61f65cf80703207e51023625fdb0f095af40a096f5357ae543d103f0273d9.json",
+      "httpStatus": 200,
+      "bytes": 11622,
+      "sha256": "7bd61f65cf80703207e51023625fdb0f095af40a096f5357ae543d103f0273d9",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebooks/book-kagoshima-77463c136720953429f134c8aab590853ed486ac1df7cf29f3ca436c34fcef2b.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebooks/book-kagoshima-77463c136720953429f134c8aab590853ed486ac1df7cf29f3ca436c34fcef2b.json",
+      "httpStatus": 200,
+      "bytes": 11151,
+      "sha256": "77463c136720953429f134c8aab590853ed486ac1df7cf29f3ca436c34fcef2b",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebooks/book-kanazawa-0006258ead84b612ffb815e101b65b259e99245e099b0a4e4b63ed8cff9f5bec.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebooks/book-kanazawa-0006258ead84b612ffb815e101b65b259e99245e099b0a4e4b63ed8cff9f5bec.json",
+      "httpStatus": 200,
+      "bytes": 11658,
+      "sha256": "0006258ead84b612ffb815e101b65b259e99245e099b0a4e4b63ed8cff9f5bec",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebooks/book-kaohsiung-04197de4d0dfd0da88b95d273130b6529c449dcb08bb24b2d61b7cde9f665211.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebooks/book-kaohsiung-04197de4d0dfd0da88b95d273130b6529c449dcb08bb24b2d61b7cde9f665211.json",
+      "httpStatus": 200,
+      "bytes": 7984,
+      "sha256": "04197de4d0dfd0da88b95d273130b6529c449dcb08bb24b2d61b7cde9f665211",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebooks/book-kohsamui-35c17fb192b0850791cf14727628e9f3e08e1c001ce404c901ac07d390eb601d.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebooks/book-kohsamui-35c17fb192b0850791cf14727628e9f3e08e1c001ce404c901ac07d390eb601d.json",
+      "httpStatus": 200,
+      "bytes": 10164,
+      "sha256": "35c17fb192b0850791cf14727628e9f3e08e1c001ce404c901ac07d390eb601d",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebooks/book-kotakinabalu-752f11a2ed7c9f1451423ee71c240357e2b9913f255d373edb405506cce3df59.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebooks/book-kotakinabalu-752f11a2ed7c9f1451423ee71c240357e2b9913f255d373edb405506cce3df59.json",
+      "httpStatus": 200,
+      "bytes": 8590,
+      "sha256": "752f11a2ed7c9f1451423ee71c240357e2b9913f255d373edb405506cce3df59",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebooks/book-krabi-1df98bbf5c9f14b53d0d02a890eb0bc387ba91bf655928144cfe1b1d364af524.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebooks/book-krabi-1df98bbf5c9f14b53d0d02a890eb0bc387ba91bf655928144cfe1b1d364af524.json",
+      "httpStatus": 200,
+      "bytes": 9963,
+      "sha256": "1df98bbf5c9f14b53d0d02a890eb0bc387ba91bf655928144cfe1b1d364af524",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebooks/book-kualalumpur-ff509ca64a4c55d81fcf1727a5529050c9e9abf83ca9894c450199d45600bedc.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebooks/book-kualalumpur-ff509ca64a4c55d81fcf1727a5529050c9e9abf83ca9894c450199d45600bedc.json",
+      "httpStatus": 200,
+      "bytes": 8307,
+      "sha256": "ff509ca64a4c55d81fcf1727a5529050c9e9abf83ca9894c450199d45600bedc",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebooks/book-kumamoto-48a594f9dccdb6efe76124cd895c4a411bcb471a18dd542846dad3cfe9d0c75d.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebooks/book-kumamoto-48a594f9dccdb6efe76124cd895c4a411bcb471a18dd542846dad3cfe9d0c75d.json",
+      "httpStatus": 200,
+      "bytes": 11018,
+      "sha256": "48a594f9dccdb6efe76124cd895c4a411bcb471a18dd542846dad3cfe9d0c75d",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebooks/book-langkawi-96067a792261bd39ab65f4179506bf9b3416f72b1cc85b67d20c33854c56d6cb.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebooks/book-langkawi-96067a792261bd39ab65f4179506bf9b3416f72b1cc85b67d20c33854c56d6cb.json",
+      "httpStatus": 200,
+      "bytes": 11003,
+      "sha256": "96067a792261bd39ab65f4179506bf9b3416f72b1cc85b67d20c33854c56d6cb",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebooks/book-lisbon-4adb21b9d007dfea085d137f5cc80a66e726d47baffce3442be5474700d069b8.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebooks/book-lisbon-4adb21b9d007dfea085d137f5cc80a66e726d47baffce3442be5474700d069b8.json",
+      "httpStatus": 200,
+      "bytes": 11044,
+      "sha256": "4adb21b9d007dfea085d137f5cc80a66e726d47baffce3442be5474700d069b8",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebooks/book-london-6305f6c93e1d57810ece31cacf5fee2e1181b8c34f350662b6d36baa1a536be7.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebooks/book-london-6305f6c93e1d57810ece31cacf5fee2e1181b8c34f350662b6d36baa1a536be7.json",
+      "httpStatus": 200,
+      "bytes": 7848,
+      "sha256": "6305f6c93e1d57810ece31cacf5fee2e1181b8c34f350662b6d36baa1a536be7",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebooks/book-losangeles-061347bc81e728907bbb3b9983306b92942065e93ce744b51d703daaee716eef.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebooks/book-losangeles-061347bc81e728907bbb3b9983306b92942065e93ce744b51d703daaee716eef.json",
+      "httpStatus": 200,
+      "bytes": 8317,
+      "sha256": "061347bc81e728907bbb3b9983306b92942065e93ce744b51d703daaee716eef",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebooks/book-lucerne-52661afb7c25597ba29db8283ce2bca34c713662dce16b7dc8f1ae0a586e4ff6.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebooks/book-lucerne-52661afb7c25597ba29db8283ce2bca34c713662dce16b7dc8f1ae0a586e4ff6.json",
+      "httpStatus": 200,
+      "bytes": 11022,
+      "sha256": "52661afb7c25597ba29db8283ce2bca34c713662dce16b7dc8f1ae0a586e4ff6",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebooks/book-macau-c7370d62d437bd637017b4980c6d5a559baf1b1b5753feee1b2409adeaa3d3ff.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebooks/book-macau-c7370d62d437bd637017b4980c6d5a559baf1b1b5753feee1b2409adeaa3d3ff.json",
+      "httpStatus": 200,
+      "bytes": 9625,
+      "sha256": "c7370d62d437bd637017b4980c6d5a559baf1b1b5753feee1b2409adeaa3d3ff",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebooks/book-manila-31ef4b0f9ca548c23fbd6fd184b5e53500d61b905e508b61f4176494728fdbdd.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebooks/book-manila-31ef4b0f9ca548c23fbd6fd184b5e53500d61b905e508b61f4176494728fdbdd.json",
+      "httpStatus": 200,
+      "bytes": 10453,
+      "sha256": "31ef4b0f9ca548c23fbd6fd184b5e53500d61b905e508b61f4176494728fdbdd",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebooks/book-matsuyama-2092d44d3b9a2d3ae444baa26cec54e0385570a152ca9f796059bbd452f78f7c.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebooks/book-matsuyama-2092d44d3b9a2d3ae444baa26cec54e0385570a152ca9f796059bbd452f78f7c.json",
+      "httpStatus": 200,
+      "bytes": 11739,
+      "sha256": "2092d44d3b9a2d3ae444baa26cec54e0385570a152ca9f796059bbd452f78f7c",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebooks/book-melaka-ac84cbc698bde6a12686a502654cf9e65f5e1df80484b4431ecb0cc1f905b83d.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebooks/book-melaka-ac84cbc698bde6a12686a502654cf9e65f5e1df80484b4431ecb0cc1f905b83d.json",
+      "httpStatus": 200,
+      "bytes": 10890,
+      "sha256": "ac84cbc698bde6a12686a502654cf9e65f5e1df80484b4431ecb0cc1f905b83d",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebooks/book-miyakojima-c879fe0c1a1efb170e172d7bb7b831c3e338545a2cccb6840390a1d9a1b4878b.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebooks/book-miyakojima-c879fe0c1a1efb170e172d7bb7b831c3e338545a2cccb6840390a1d9a1b4878b.json",
+      "httpStatus": 200,
+      "bytes": 10067,
+      "sha256": "c879fe0c1a1efb170e172d7bb7b831c3e338545a2cccb6840390a1d9a1b4878b",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebooks/book-nagasaki-83960239a5ce01ccde87a33a8a0e349d27c4d4097166015d337b7c73987964bf.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebooks/book-nagasaki-83960239a5ce01ccde87a33a8a0e349d27c4d4097166015d337b7c73987964bf.json",
+      "httpStatus": 200,
+      "bytes": 11221,
+      "sha256": "83960239a5ce01ccde87a33a8a0e349d27c4d4097166015d337b7c73987964bf",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebooks/book-newyork-eaf5f8be9c621d06996197aa39b6f0cfee0334ad3e7b6aad07ad2aab0d3d830b.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebooks/book-newyork-eaf5f8be9c621d06996197aa39b6f0cfee0334ad3e7b6aad07ad2aab0d3d830b.json",
+      "httpStatus": 200,
+      "bytes": 8035,
+      "sha256": "eaf5f8be9c621d06996197aa39b6f0cfee0334ad3e7b6aad07ad2aab0d3d830b",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebooks/book-nhatrang-c5770099f958ba638e2dd4391f76ab922fdd1c8129b8fde45f4148e9b6a20012.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebooks/book-nhatrang-c5770099f958ba638e2dd4391f76ab922fdd1c8129b8fde45f4148e9b6a20012.json",
+      "httpStatus": 200,
+      "bytes": 8120,
+      "sha256": "c5770099f958ba638e2dd4391f76ab922fdd1c8129b8fde45f4148e9b6a20012",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebooks/book-okayama-f817eb93bb2c1bfb34f8764dacc47e0cbe1ef70dc95c0da88850cb79f7bb95e5.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebooks/book-okayama-f817eb93bb2c1bfb34f8764dacc47e0cbe1ef70dc95c0da88850cb79f7bb95e5.json",
+      "httpStatus": 200,
+      "bytes": 11241,
+      "sha256": "f817eb93bb2c1bfb34f8764dacc47e0cbe1ef70dc95c0da88850cb79f7bb95e5",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebooks/book-okinawa-b8041ae4ca382cc5a48325632b270a20f9b1fafe83ce74e88a3ef9f98e0b2ccb.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebooks/book-okinawa-b8041ae4ca382cc5a48325632b270a20f9b1fafe83ce74e88a3ef9f98e0b2ccb.json",
+      "httpStatus": 200,
+      "bytes": 9201,
+      "sha256": "b8041ae4ca382cc5a48325632b270a20f9b1fafe83ce74e88a3ef9f98e0b2ccb",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebooks/book-paris-59f0ee1676f3a57d57d6ce77079e345744d7c9e96d94566b947c6fb2ade31c57.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebooks/book-paris-59f0ee1676f3a57d57d6ce77079e345744d7c9e96d94566b947c6fb2ade31c57.json",
+      "httpStatus": 200,
+      "bytes": 7806,
+      "sha256": "59f0ee1676f3a57d57d6ce77079e345744d7c9e96d94566b947c6fb2ade31c57",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebooks/book-pattaya-871119f04bd2ffead1de042111ad94df82a12f98e0a3286028fa7765710998c9.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebooks/book-pattaya-871119f04bd2ffead1de042111ad94df82a12f98e0a3286028fa7765710998c9.json",
+      "httpStatus": 200,
+      "bytes": 10350,
+      "sha256": "871119f04bd2ffead1de042111ad94df82a12f98e0a3286028fa7765710998c9",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebooks/book-penang-e04fe2e08cefa659f09618698f2fb495f2381e11ca9efc8784144e0fd1c869c5.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebooks/book-penang-e04fe2e08cefa659f09618698f2fb495f2381e11ca9efc8784144e0fd1c869c5.json",
+      "httpStatus": 200,
+      "bytes": 10369,
+      "sha256": "e04fe2e08cefa659f09618698f2fb495f2381e11ca9efc8784144e0fd1c869c5",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebooks/book-phuket-b6f75d5b49271b2ef407cb875a5e4b443f0a03a13ab3bfb3574f1af130cc822a.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebooks/book-phuket-b6f75d5b49271b2ef407cb875a5e4b443f0a03a13ab3bfb3574f1af130cc822a.json",
+      "httpStatus": 200,
+      "bytes": 7990,
+      "sha256": "b6f75d5b49271b2ef407cb875a5e4b443f0a03a13ab3bfb3574f1af130cc822a",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebooks/book-phuquoc-0c9faff067ecb46818c4bb981d199166c00bb1c353989f9a15fb109bd7dfd80f.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebooks/book-phuquoc-0c9faff067ecb46818c4bb981d199166c00bb1c353989f9a15fb109bd7dfd80f.json",
+      "httpStatus": 200,
+      "bytes": 7968,
+      "sha256": "0c9faff067ecb46818c4bb981d199166c00bb1c353989f9a15fb109bd7dfd80f",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebooks/book-prague-55de29e4b0156e289c888a8813328f0b65f974dabf4dfb1b2f29221358cd9100.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebooks/book-prague-55de29e4b0156e289c888a8813328f0b65f974dabf4dfb1b2f29221358cd9100.json",
+      "httpStatus": 200,
+      "bytes": 7730,
+      "sha256": "55de29e4b0156e289c888a8813328f0b65f974dabf4dfb1b2f29221358cd9100",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebooks/book-puertoprincesa-a1733ec86e81c57ef9af93d680818661662967ae1854e57e462bc1e454d57c57.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebooks/book-puertoprincesa-a1733ec86e81c57ef9af93d680818661662967ae1854e57e462bc1e454d57c57.json",
+      "httpStatus": 200,
+      "bytes": 11818,
+      "sha256": "a1733ec86e81c57ef9af93d680818661662967ae1854e57e462bc1e454d57c57",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebooks/book-rome-9cfc22a8c38682c77121a571764d49afe396dde4b56b6d0a2ab17839e697a24d.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebooks/book-rome-9cfc22a8c38682c77121a571764d49afe396dde4b56b6d0a2ab17839e697a24d.json",
+      "httpStatus": 200,
+      "bytes": 7881,
+      "sha256": "9cfc22a8c38682c77121a571764d49afe396dde4b56b6d0a2ab17839e697a24d",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebooks/book-salzburg-660fad735640348af626636d662c141f308917af64efce534695a53f776fb409.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebooks/book-salzburg-660fad735640348af626636d662c141f308917af64efce534695a53f776fb409.json",
+      "httpStatus": 200,
+      "bytes": 11884,
+      "sha256": "660fad735640348af626636d662c141f308917af64efce534695a53f776fb409",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebooks/book-shanghai-3757958b96ec49a313471d05e2903cdd4cf6930ef053a28c52909ffcc50b430e.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebooks/book-shanghai-3757958b96ec49a313471d05e2903cdd4cf6930ef053a28c52909ffcc50b430e.json",
+      "httpStatus": 200,
+      "bytes": 8368,
+      "sha256": "3757958b96ec49a313471d05e2903cdd4cf6930ef053a28c52909ffcc50b430e",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebooks/book-sydney-86a8da3020a6b816dc4473c67b796b8e154b0639669896317a33bc643de1b850.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebooks/book-sydney-86a8da3020a6b816dc4473c67b796b8e154b0639669896317a33bc643de1b850.json",
+      "httpStatus": 200,
+      "bytes": 8035,
+      "sha256": "86a8da3020a6b816dc4473c67b796b8e154b0639669896317a33bc643de1b850",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebooks/book-taichung-e9471d3ee251412b8f8549e257f0140f3e123e7120bb2725a259887ab584ebb2.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebooks/book-taichung-e9471d3ee251412b8f8549e257f0140f3e123e7120bb2725a259887ab584ebb2.json",
+      "httpStatus": 200,
+      "bytes": 10657,
+      "sha256": "e9471d3ee251412b8f8549e257f0140f3e123e7120bb2725a259887ab584ebb2",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebooks/book-tainan-883ebb0a157760d4913edfe3d462bc0080416f6e703edbbc37cdf83150d07867.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebooks/book-tainan-883ebb0a157760d4913edfe3d462bc0080416f6e703edbbc37cdf83150d07867.json",
+      "httpStatus": 200,
+      "bytes": 8027,
+      "sha256": "883ebb0a157760d4913edfe3d462bc0080416f6e703edbbc37cdf83150d07867",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebooks/book-takamatsu-815a22a3b7186f7569626641fd30e382f0241687d81acd53bdc0fcd5546cc9f7.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebooks/book-takamatsu-815a22a3b7186f7569626641fd30e382f0241687d81acd53bdc0fcd5546cc9f7.json",
+      "httpStatus": 200,
+      "bytes": 11189,
+      "sha256": "815a22a3b7186f7569626641fd30e382f0241687d81acd53bdc0fcd5546cc9f7",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebooks/book-tottori-0473c2d184fef91ada9305b31bd3fa4612a60fa4d337d9a3d8bd901bcf707860.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebooks/book-tottori-0473c2d184fef91ada9305b31bd3fa4612a60fa4d337d9a3d8bd901bcf707860.json",
+      "httpStatus": 200,
+      "bytes": 11542,
+      "sha256": "0473c2d184fef91ada9305b31bd3fa4612a60fa4d337d9a3d8bd901bcf707860",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebooks/book-venice-d57724f83b261b654f78ab39be6a5899a4a4d7d695bb0d094c5038b2ec2f281c.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebooks/book-venice-d57724f83b261b654f78ab39be6a5899a4a4d7d695bb0d094c5038b2ec2f281c.json",
+      "httpStatus": 200,
+      "bytes": 10583,
+      "sha256": "d57724f83b261b654f78ab39be6a5899a4a4d7d695bb0d094c5038b2ec2f281c",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebooks/book-vienna-df6317b579c80414e739c0b20d1a1a6b7e2beac86d0696a3febd1c8c16cc0879.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebooks/book-vienna-df6317b579c80414e739c0b20d1a1a6b7e2beac86d0696a3febd1c8c16cc0879.json",
+      "httpStatus": 200,
+      "bytes": 10527,
+      "sha256": "df6317b579c80414e739c0b20d1a1a6b7e2beac86d0696a3febd1c8c16cc0879",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebooks/book-yufuin-0f2956a94a62b204080c4fb7f8229d3cb425102750c6fafec5b5d83da180b5ba.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebooks/book-yufuin-0f2956a94a62b204080c4fb7f8229d3cb425102750c6fafec5b5d83da180b5ba.json",
+      "httpStatus": 200,
+      "bytes": 12166,
+      "sha256": "0f2956a94a62b204080c4fb7f8229d3cb425102750c6fafec5b5d83da180b5ba",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebooks/book-zermatt-0bd61b72f58d2a5802fa793334edda88f9461a1a8f72b6d15d90921d246fb67b.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebooks/book-zermatt-0bd61b72f58d2a5802fa793334edda88f9461a1a8f72b6d15d90921d246fb67b.json",
+      "httpStatus": 200,
+      "bytes": 11107,
+      "sha256": "0bd61b72f58d2a5802fa793334edda88f9461a1a8f72b6d15d90921d246fb67b",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebooks/book-zurich-9aefb35d08bfbaea20c5f4cf35f1ab7780b21d56ecfa23897de4e4e3c0835b94.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebooks/book-zurich-9aefb35d08bfbaea20c5f4cf35f1ab7780b21d56ecfa23897de4e4e3c0835b94.json",
+      "httpStatus": 200,
+      "bytes": 10064,
+      "sha256": "9aefb35d08bfbaea20c5f4cf35f1ab7780b21d56ecfa23897de4e4e3c0835b94",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebook-sources/book-salzburg.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebook-sources/book-salzburg.json",
+      "httpStatus": 200,
+      "bytes": 11884,
+      "sha256": "660fad735640348af626636d662c141f308917af64efce534695a53f776fb409",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebook-sources/book-zurich.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebook-sources/book-zurich.json",
+      "httpStatus": 200,
+      "bytes": 10064,
+      "sha256": "9aefb35d08bfbaea20c5f4cf35f1ab7780b21d56ecfa23897de4e4e3c0835b94",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebook-sources/book-lucerne.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebook-sources/book-lucerne.json",
+      "httpStatus": 200,
+      "bytes": 11022,
+      "sha256": "52661afb7c25597ba29db8283ce2bca34c713662dce16b7dc8f1ae0a586e4ff6",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebook-sources/book-interlaken.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebook-sources/book-interlaken.json",
+      "httpStatus": 200,
+      "bytes": 11049,
+      "sha256": "e5bed99a6b5f356eaa0503ebce9663f80abc9dc1549e35f14a8ef3a6a27361c4",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebook-sources/book-zermatt.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebook-sources/book-zermatt.json",
+      "httpStatus": 200,
+      "bytes": 11107,
+      "sha256": "0bd61b72f58d2a5802fa793334edda88f9461a1a8f72b6d15d90921d246fb67b",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebook-sources/book-hakodate.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebook-sources/book-hakodate.json",
+      "httpStatus": 200,
+      "bytes": 10907,
+      "sha256": "179b4e7388e5bae08a8bfc7b4cbf4d2ebae7e720fbc6a4cb7c063c2b498108bf",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebook-sources/book-florence.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebook-sources/book-florence.json",
+      "httpStatus": 200,
+      "bytes": 10949,
+      "sha256": "94758fc9efda2200a37d681dd5a6a2f78b43ff9487ed27483f358b427eeca101",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebook-database/records/book-salzburg.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebook-database/records/book-salzburg.json",
+      "httpStatus": 200,
+      "bytes": 12259,
+      "sha256": "5717841fc7f7d9f02705b4aa47bd135e577c4fd9c830678b104a57ac981ab4cc",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebook-database/records/book-zurich.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebook-database/records/book-zurich.json",
+      "httpStatus": 200,
+      "bytes": 10389,
+      "sha256": "95b086eb001c54a76ff22458f5336fb218130c7caa6cf361a73ea7a5cf91f2fe",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebook-database/records/book-lucerne.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebook-database/records/book-lucerne.json",
+      "httpStatus": 200,
+      "bytes": 11407,
+      "sha256": "5e58d0ceea7cb9c9d4e039958a725b3198447e0d2be1a3fc0ccce598626e133e",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebook-database/records/book-interlaken.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebook-database/records/book-interlaken.json",
+      "httpStatus": 200,
+      "bytes": 11404,
+      "sha256": "0f91f3c6de02f7080a50c379a917c2456908c734b5eda7a277a21f8cdafdab5a",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebook-database/records/book-zermatt.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebook-database/records/book-zermatt.json",
+      "httpStatus": 200,
+      "bytes": 11472,
+      "sha256": "ddaa77098345ce5fe436a8fdc7ebe8be97046eb1ba49d6eddb7cae9ebc55d697",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebook-database/records/book-hakodate.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebook-database/records/book-hakodate.json",
+      "httpStatus": 200,
+      "bytes": 11250,
+      "sha256": "f7e8d480a5f58b08cd0cdbad0bda1e8673610602c19dcde38fa5f8cfda45e523",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebook-database/records/book-florence.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebook-database/records/book-florence.json",
+      "httpStatus": 200,
+      "bytes": 11332,
+      "sha256": "109eb1c17c897fd768c8ef49705c9af526ea5fba088c6788fefaccbf08cb2dec",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebook-database/records/taipei.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebook-database/records/taipei.json",
+      "httpStatus": 200,
+      "bytes": 57433,
+      "sha256": "ee54af84cf09408932390fb600cc9bcfa7b1d4401d2fd568e47f9d280b242570",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebook-database/records/fukuoka.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebook-database/records/fukuoka.json",
+      "httpStatus": 200,
+      "bytes": 89951,
+      "sha256": "15a14c66cf8da9bbf270006be42dee8ea4f4814b99cb75ea4b16fa88574c9875",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebook-database/records/hiroshima.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/693e6ff8cf3651d318d2cfeed1457de35f82c984/guidebook-database/records/hiroshima.json",
+      "httpStatus": 200,
+      "bytes": 93639,
+      "sha256": "06711a7d5af69de81f49c02365c3dab21a5d3e9aa57a81b35061f70120f768ef",
+      "matchesPublishedCommit": true
+    }
+  ],
+  "appMainUrls": [
+    {
+      "file": "guidebooks/manifest.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/main/guidebooks/manifest.json",
+      "httpStatus": 200,
+      "bytes": 34408,
+      "sha256": "e4d2639e3cfa910a106896c0bf67c16b33cda96d0afb4b62ed89c2cdbd608bc2",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebook-database/index.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/main/guidebook-database/index.json",
+      "httpStatus": 200,
+      "bytes": 39270,
+      "sha256": "1e4ef14219eaaf13079498b566232361cdcdf5f7b32a5dc93905c8cc5fc1890c",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebook-database/guides.sqlite",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/main/guidebook-database/guides.sqlite",
+      "httpStatus": 200,
+      "bytes": 4640768,
+      "sha256": "ed3574aa0596f28497d16dbf31dafe5f2767d468f23b7264640fbeb78d7feb60",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebooks/book-florence-94758fc9efda2200a37d681dd5a6a2f78b43ff9487ed27483f358b427eeca101.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/main/guidebooks/book-florence-94758fc9efda2200a37d681dd5a6a2f78b43ff9487ed27483f358b427eeca101.json",
+      "httpStatus": 200,
+      "bytes": 10949,
+      "sha256": "94758fc9efda2200a37d681dd5a6a2f78b43ff9487ed27483f358b427eeca101",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebooks/book-hakodate-179b4e7388e5bae08a8bfc7b4cbf4d2ebae7e720fbc6a4cb7c063c2b498108bf.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/main/guidebooks/book-hakodate-179b4e7388e5bae08a8bfc7b4cbf4d2ebae7e720fbc6a4cb7c063c2b498108bf.json",
+      "httpStatus": 200,
+      "bytes": 10907,
+      "sha256": "179b4e7388e5bae08a8bfc7b4cbf4d2ebae7e720fbc6a4cb7c063c2b498108bf",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebooks/book-interlaken-e5bed99a6b5f356eaa0503ebce9663f80abc9dc1549e35f14a8ef3a6a27361c4.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/main/guidebooks/book-interlaken-e5bed99a6b5f356eaa0503ebce9663f80abc9dc1549e35f14a8ef3a6a27361c4.json",
+      "httpStatus": 200,
+      "bytes": 11049,
+      "sha256": "e5bed99a6b5f356eaa0503ebce9663f80abc9dc1549e35f14a8ef3a6a27361c4",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebooks/book-lucerne-52661afb7c25597ba29db8283ce2bca34c713662dce16b7dc8f1ae0a586e4ff6.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/main/guidebooks/book-lucerne-52661afb7c25597ba29db8283ce2bca34c713662dce16b7dc8f1ae0a586e4ff6.json",
+      "httpStatus": 200,
+      "bytes": 11022,
+      "sha256": "52661afb7c25597ba29db8283ce2bca34c713662dce16b7dc8f1ae0a586e4ff6",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebooks/book-salzburg-660fad735640348af626636d662c141f308917af64efce534695a53f776fb409.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/main/guidebooks/book-salzburg-660fad735640348af626636d662c141f308917af64efce534695a53f776fb409.json",
+      "httpStatus": 200,
+      "bytes": 11884,
+      "sha256": "660fad735640348af626636d662c141f308917af64efce534695a53f776fb409",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebooks/book-zermatt-0bd61b72f58d2a5802fa793334edda88f9461a1a8f72b6d15d90921d246fb67b.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/main/guidebooks/book-zermatt-0bd61b72f58d2a5802fa793334edda88f9461a1a8f72b6d15d90921d246fb67b.json",
+      "httpStatus": 200,
+      "bytes": 11107,
+      "sha256": "0bd61b72f58d2a5802fa793334edda88f9461a1a8f72b6d15d90921d246fb67b",
+      "matchesPublishedCommit": true
+    },
+    {
+      "file": "guidebooks/book-zurich-9aefb35d08bfbaea20c5f4cf35f1ab7780b21d56ecfa23897de4e4e3c0835b94.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/main/guidebooks/book-zurich-9aefb35d08bfbaea20c5f4cf35f1ab7780b21d56ecfa23897de4e4e3c0835b94.json",
+      "httpStatus": 200,
+      "bytes": 10064,
+      "sha256": "9aefb35d08bfbaea20c5f4cf35f1ab7780b21d56ecfa23897de4e4e3c0835b94",
+      "matchesPublishedCommit": true
+    }
+  ],
+  "counts": {
+    "immutableFiles": 90,
+    "appMainUrls": 10,
+    "downloadableGuides": 64,
+    "downloadablePlaces": 344,
+    "totalGuides": 85,
+    "totalPlaces": 1410
+  },
+  "validation": {
+    "databaseTests": 6,
+    "browserTests": 24,
+    "browserFirstAttemptPassed": 21,
+    "browserFirstAttemptFailed": 3,
+    "browserCorrectedFailuresPassed": 3,
+    "browserRetries": [
+      {
+        "tests": 3,
+        "passed": 2,
+        "failed": 1
+      },
+      {
+        "tests": 1,
+        "passed": 1,
+        "failed": 0
+      }
+    ],
+    "actualPersonalDataRead": false,
+    "androidBuildPerformed": false
+  },
+  "githubActions": {
+    "id": 42400839523,
+    "status": "completed",
+    "conclusion": "success",
+    "head": "693e6ff8cf3651d318d2cfeed1457de35f82c984",
+    "url": "https://github.com/rjs198426-lang/JIdo/actions/runs/42400839523"
+  }
+}
