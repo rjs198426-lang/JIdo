@@ -1,4 +1,3559 @@
 {
   "schemaVersion": 1,
-  "sources": {}
+  "sources": {
+    "https://334.co.jp/access/": {
+      "fingerprint": "e5fd55e68e7ad42ee324775b1b69faab23b2edbbc0cc82e8b454a85748ff62be",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-hakodate"
+      ],
+      "lastAttemptAt": "2026-11-09T09:19:24Z",
+      "lastBodyFetchedAt": "2026-11-09T09:19:24Z",
+      "lastResult": "baseline"
+    },
+    "https://334.co.jp/en/": {
+      "fingerprint": "945f7c8a70a15ad13b6ef468cc384b932a1827ff606623981a63e63add8fdae0",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-hakodate"
+      ],
+      "lastAttemptAt": "2026-11-09T09:19:24Z",
+      "lastBodyFetchedAt": "2026-11-09T09:19:24Z",
+      "lastResult": "baseline"
+    },
+    "https://88shikokuhenro.jp/84yashimaji/": {
+      "fingerprint": "a71a6792d0e77142907baa7684dfe8990149d1d3c3fc5a42119516bb71b269c9",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-takamatsu"
+      ],
+      "lastAttemptAt": "2026-11-09T09:19:24Z",
+      "lastBodyFetchedAt": "2026-11-09T09:19:24Z",
+      "lastResult": "baseline"
+    },
+    "https://airportpattayabus.com/": {
+      "fingerprint": "c42098ad1c4c71c990e8d0916b23b76dc36c957bac24b370ab518e58730cd1eb",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-pattaya"
+      ],
+      "lastAttemptAt": "2026-11-09T09:19:24Z",
+      "lastBodyFetchedAt": "2026-11-09T09:19:24Z",
+      "lastResult": "baseline"
+    },
+    "https://airportpattayabus.com/airport-hua-hin/": {
+      "fingerprint": "afb405f68b04c85841df7fe7476bc5ff5c7adedd1a3a24954dd23432d7875ca0",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-huahin"
+      ],
+      "lastAttemptAt": "2026-11-09T09:19:24Z",
+      "lastBodyFetchedAt": "2026-11-09T09:19:24Z",
+      "lastResult": "baseline"
+    },
+    "https://blog.naver.com/chloetae/224335327706": {
+      "guideIds": [
+        "guam"
+      ],
+      "lastAttemptAt": "2026-11-09T09:19:24Z",
+      "lastResult": "unreadable-body"
+    },
+    "https://blog.naver.com/danodano777/224130907777": {
+      "guideIds": [
+        "guam"
+      ],
+      "lastAttemptAt": "2026-11-09T09:19:25Z",
+      "lastResult": "unreadable-body"
+    },
+    "https://blog.naver.com/hope7270/224399060616": {
+      "guideIds": [
+        "guam"
+      ],
+      "lastAttemptAt": "2026-11-09T09:19:25Z",
+      "lastResult": "unreadable-body"
+    },
+    "https://blog.naver.com/jinjin_0802/224426756629": {
+      "guideIds": [
+        "guam"
+      ],
+      "lastAttemptAt": "2026-11-09T09:19:26Z",
+      "lastResult": "unreadable-body"
+    },
+    "https://blog.naver.com/kissmecallme/224345831264": {
+      "guideIds": [
+        "guam"
+      ],
+      "lastAttemptAt": "2026-11-09T09:19:26Z",
+      "lastResult": "unreadable-body"
+    },
+    "https://blog.naver.com/lleee_h/223766991784": {
+      "guideIds": [
+        "guam"
+      ],
+      "lastAttemptAt": "2026-11-09T09:19:26Z",
+      "lastResult": "unreadable-body"
+    },
+    "https://castelodesaojorge.pt/en/castle/national-monument/the-castelo-de-sao-jorge/": {
+      "fingerprint": "b13224af3921005d5052f7131d9db191428f20b04543d5e2b69a9643e4c84f42",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-lisbon"
+      ],
+      "lastAttemptAt": "2026-11-09T09:19:26Z",
+      "lastBodyFetchedAt": "2026-11-09T09:19:26Z",
+      "lastResult": "baseline"
+    },
+    "https://castle.kumamoto-guide.jp/en/": {
+      "fingerprint": "a4068d287fb976d65baa30e9fc057371d5b0383554b57f3b84594917df5ec916",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-kumamoto"
+      ],
+      "lastAttemptAt": "2026-11-09T09:19:26Z",
+      "lastBodyFetchedAt": "2026-11-09T09:19:26Z",
+      "lastResult": "baseline"
+    },
+    "https://chiangmai.airportthai.co.th/": {
+      "fingerprint": "b290e8fd2eab70b3a8b7e625d552fe93d18f937715d495b93bc4034473f87c27",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-chiangmai"
+      ],
+      "lastAttemptAt": "2026-11-09T09:19:27Z",
+      "lastBodyFetchedAt": "2026-11-09T09:19:27Z",
+      "lastResult": "baseline"
+    },
+    "https://chiangrai.airportthai.co.th/": {
+      "fingerprint": "cb4bb55e90d607350e233671cf5e2e2c66ace555b7dde50394cad1ee1d6e09be",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-chiangrai"
+      ],
+      "lastAttemptAt": "2026-11-09T09:19:28Z",
+      "lastBodyFetchedAt": "2026-11-09T09:19:28Z",
+      "lastResult": "baseline"
+    },
+    "https://citytourism.puertoprincesa.ph/": {
+      "fingerprint": "420095573058b5879d5af5688f4b072cc3d983f513e05ad09d10c191dc75152b",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-puertoprincesa"
+      ],
+      "lastAttemptAt": "2026-11-09T09:19:28Z",
+      "lastBodyFetchedAt": "2026-11-09T09:19:28Z",
+      "lastResult": "baseline"
+    },
+    "https://citytourism.puertoprincesa.ph/cbst-destinations/": {
+      "fingerprint": "9c22398877d8f1f0a11063a9ee45fc76e616b67e91b3ec09a5540dfde54d6add",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-puertoprincesa"
+      ],
+      "lastAttemptAt": "2026-11-09T09:19:29Z",
+      "lastBodyFetchedAt": "2026-11-09T09:19:29Z",
+      "lastResult": "baseline"
+    },
+    "https://citytourism.puertoprincesa.ph/getting-to-puerto-princesa/": {
+      "fingerprint": "ecd5c07086c98cb7be02b5460fa7a6e1b2086213be2640038df68853ebc69787",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-puertoprincesa"
+      ],
+      "lastAttemptAt": "2026-11-09T09:19:31Z",
+      "lastBodyFetchedAt": "2026-11-09T09:19:31Z",
+      "lastResult": "baseline"
+    },
+    "https://correr.visitmuve.it/en/": {
+      "fingerprint": "58b8ea14e437e32439e31e2db69b33bd8a9fe81f11799e40c96da40a49e16170",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-venice"
+      ],
+      "lastAttemptAt": "2026-11-09T09:19:31Z",
+      "lastBodyFetchedAt": "2026-11-09T09:19:31Z",
+      "lastResult": "baseline"
+    },
+    "https://cqa.guam.gov/": {
+      "fingerprint": "4df19b17edce2efc83572ff5974389b0b6b5f7e20914bea59bd51f47797fddeb",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "guam"
+      ],
+      "lastAttemptAt": "2026-11-09T09:19:31Z",
+      "lastBodyFetchedAt": "2026-11-09T09:19:31Z",
+      "lastResult": "baseline"
+    },
+    "https://dogo.jp/onsen/asuka": {
+      "fingerprint": "a974367ed1443e9de51e6f1cde6c016afc78c6429385872dfbdb3882717ae812",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-matsuyama"
+      ],
+      "lastAttemptAt": "2026-11-09T09:19:32Z",
+      "lastBodyFetchedAt": "2026-11-09T09:19:32Z",
+      "lastResult": "baseline"
+    },
+    "https://dogo.jp/onsen/honkan": {
+      "fingerprint": "e6fbb9be8ca703ac994904c87a2034b60c015626f0e7b67d161b8f80345cd8d7",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-matsuyama"
+      ],
+      "lastAttemptAt": "2026-11-09T09:19:33Z",
+      "lastBodyFetchedAt": "2026-11-09T09:19:33Z",
+      "lastResult": "baseline"
+    },
+    "https://dubaiairports.ae/transport/metro": {
+      "fingerprint": "2abad8a879b049628b2398b2f417938bda275289986b86b078be8fc3349e45a2",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "dubai"
+      ],
+      "lastAttemptAt": "2026-11-09T09:19:33Z",
+      "lastBodyFetchedAt": "2026-11-09T09:19:33Z",
+      "lastResult": "baseline"
+    },
+    "https://duomo.firenze.it/en/home": {
+      "guideIds": [
+        "book-florence"
+      ],
+      "lastAttemptAt": "2026-11-09T09:19:34Z",
+      "lastResult": "http-error"
+    },
+    "https://duomo.firenze.it/en/visit/plan-your-visit": {
+      "guideIds": [
+        "book-florence"
+      ],
+      "lastAttemptAt": "2026-11-09T09:19:35Z",
+      "lastResult": "http-error"
+    },
+    "https://en.mng.hu/": {
+      "fingerprint": "b77c7f0f9e4c3e14baacb2c27ed591f8bd292b90b0f421277509e9b13ea7aa8a",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-budapest"
+      ],
+      "lastAttemptAt": "2026-11-09T09:19:35Z",
+      "lastBodyFetchedAt": "2026-11-09T09:19:35Z",
+      "lastResult": "baseline"
+    },
+    "https://english.beijing.gov.cn/travellinginbeijing/": {
+      "guideIds": [
+        "book-beijing"
+      ],
+      "lastAttemptAt": "2026-11-09T09:19:35Z",
+      "lastResult": "network-error"
+    },
+    "https://english.shanghai.gov.cn/": {
+      "fingerprint": "a6333eec3e3ea660d3819bf527bd9eb128c716222aa678fc4c79c4ed44bc3896",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-shanghai"
+      ],
+      "lastAttemptAt": "2026-11-09T09:19:36Z",
+      "lastBodyFetchedAt": "2026-11-09T09:19:36Z",
+      "lastResult": "baseline"
+    },
+    "https://glover-garden.jp/": {
+      "fingerprint": "ae3911985d9e622e206f7007a433589921f44d6a201bfe4c51a7a6be5ac84119",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-nagasaki"
+      ],
+      "lastAttemptAt": "2026-11-09T09:19:36Z",
+      "lastBodyFetchedAt": "2026-11-09T09:19:36Z",
+      "lastResult": "baseline"
+    },
+    "https://halongbay.com.vn/en": {
+      "fingerprint": "1817be769fa0547a91fd7cd7e342c4f74dc397c171e49ecd9db976af63453f15",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-halong"
+      ],
+      "lastAttemptAt": "2026-11-09T09:19:36Z",
+      "lastBodyFetchedAt": "2026-11-09T09:19:36Z",
+      "lastResult": "baseline"
+    },
+    "https://halongbay.com.vn/en/p/917-tang-cuong-kiem-tra-dieu-kien-phuc-vu-du-khach-tren-vinh-ha-long-mua-cao-diem": {
+      "fingerprint": "77160f9ac2af5f58120e972732854abc443e942204b8a93d788abd8fbb6c70e8",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-halong"
+      ],
+      "lastAttemptAt": "2026-11-09T09:19:38Z",
+      "lastBodyFetchedAt": "2026-11-09T09:19:38Z",
+      "lastResult": "baseline"
+    },
+    "https://halongbay.com.vn/en/places/28-sung-sot-cave": {
+      "fingerprint": "637355535a31cdf90fb343ddadb6d671e451bfdae53ac0394ff612e3ce0cbab7",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-halong"
+      ],
+      "lastAttemptAt": "2026-11-09T09:19:38Z",
+      "lastBodyFetchedAt": "2026-11-09T09:19:38Z",
+      "lastResult": "baseline"
+    },
+    "https://halongbay.com.vn/en/places/30-me-cung-grotto": {
+      "fingerprint": "037d53c610c6b43cc35f62fdd20a0e50c8339a31afc65fa22ce43c68226f7590",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-halong"
+      ],
+      "lastAttemptAt": "2026-11-09T09:19:38Z",
+      "lastBodyFetchedAt": "2026-11-09T09:19:38Z",
+      "lastResult": "baseline"
+    },
+    "https://halongbay.com.vn/en/places/31-luon-cave": {
+      "fingerprint": "9c8bb5edb2e0b4d07819dd5b1898f348b863d132d9a22285c7b2ba8b90b68429",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-halong"
+      ],
+      "lastAttemptAt": "2026-11-09T09:19:39Z",
+      "lastBodyFetchedAt": "2026-11-09T09:19:39Z",
+      "lastResult": "baseline"
+    },
+    "https://halongbay.com.vn/en/places/35-tien-ong-cave": {
+      "fingerprint": "e5e20ae8d0fe8e9eae82b9dedcdf82b5604ed40b8a4b4887a7c8eec8578b20ee",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-halong"
+      ],
+      "lastAttemptAt": "2026-11-09T09:19:43Z",
+      "lastBodyFetchedAt": "2026-11-09T09:19:43Z",
+      "lastResult": "baseline"
+    },
+    "https://halongbay.com.vn/en/places/37-cua-van-floating-cutural-center": {
+      "fingerprint": "8c4b5372423f235747464630466d18d465a71168301bf644419cecfc2c9b216d",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-halong"
+      ],
+      "lastAttemptAt": "2026-11-09T09:19:46Z",
+      "lastBodyFetchedAt": "2026-11-09T09:19:46Z",
+      "lastResult": "baseline"
+    },
+    "https://imuga.immigration.gov.mv/traveller": {
+      "fingerprint": "1c3a8c98afbc761debb8f89661fed8ed5d0c1529f2f540560a3f6fde62a445e9",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "maldives"
+      ],
+      "lastAttemptAt": "2026-11-09T09:19:49Z",
+      "lastBodyFetchedAt": "2026-11-09T09:19:49Z",
+      "lastResult": "baseline"
+    },
+    "https://intramuros.gov.ph/2026/10/06/calendar-of-events-october-2026/": {
+      "fingerprint": "74c7d2d61c3b1448514a864c2a392102924a9db6f681cfd3a2a6d01ccbde3729",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-manila"
+      ],
+      "lastAttemptAt": "2026-11-09T09:19:50Z",
+      "lastBodyFetchedAt": "2026-11-09T09:19:50Z",
+      "lastResult": "baseline"
+    },
+    "https://intramuros.gov.ph/bsd/": {
+      "fingerprint": "47c897310239a6fd0a896cba1da4cf960158aeebea3f25edd6a31417dbb6d9b3",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-manila"
+      ],
+      "lastAttemptAt": "2026-11-09T09:19:52Z",
+      "lastBodyFetchedAt": "2026-11-09T09:19:52Z",
+      "lastResult": "baseline"
+    },
+    "https://intramuros.gov.ph/cmm/": {
+      "fingerprint": "f169d51a933b3ab7d435a8fd74f017d8f450e40a641871a509457abe1e4b3d04",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-manila"
+      ],
+      "lastAttemptAt": "2026-11-09T09:19:53Z",
+      "lastBodyFetchedAt": "2026-11-09T09:19:53Z",
+      "lastResult": "baseline"
+    },
+    "https://intramuros.gov.ph/faq/": {
+      "fingerprint": "9aa72e2737627da73d9328e43ad73092a2355cd8c48e6f5974128ff21ba1c555",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-manila"
+      ],
+      "lastAttemptAt": "2026-11-09T09:19:53Z",
+      "lastBodyFetchedAt": "2026-11-09T09:19:53Z",
+      "lastResult": "baseline"
+    },
+    "https://intramuros.gov.ph/fs/": {
+      "fingerprint": "74f91ec12964ae8078a97fe9bee5d27634a4857a8960e0850dea3edf88215557",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-manila"
+      ],
+      "lastAttemptAt": "2026-11-09T09:19:54Z",
+      "lastBodyFetchedAt": "2026-11-09T09:19:54Z",
+      "lastResult": "baseline"
+    },
+    "https://intramuros.gov.ph/hours/": {
+      "fingerprint": "4e94a3b70eca1b54e4a21405c89893d9e02bf67513d2da0d13c755b8c28f2faa",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-manila"
+      ],
+      "lastAttemptAt": "2026-11-09T09:19:55Z",
+      "lastBodyFetchedAt": "2026-11-09T09:19:55Z",
+      "lastResult": "baseline"
+    },
+    "https://intramuros.gov.ph/mdi/": {
+      "fingerprint": "034581d9b3c0041cb140a9bf945aec796479dfb2f01ca107cac10758b962b5cb",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-manila"
+      ],
+      "lastAttemptAt": "2026-11-09T09:19:56Z",
+      "lastBodyFetchedAt": "2026-11-09T09:19:56Z",
+      "lastResult": "baseline"
+    },
+    "https://kamenoibus.com/otb/": {
+      "fingerprint": "92fc4d91c23c14f1cd2d2b8063e355f537c71a14fc86eb91a378127861943e13",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-beppu",
+        "book-yufuin"
+      ],
+      "lastAttemptAt": "2026-11-09T09:19:58Z",
+      "lastBodyFetchedAt": "2026-11-09T09:19:58Z",
+      "lastResult": "baseline"
+    },
+    "https://khh.travel/en/": {
+      "fingerprint": "1d0c9554d4d71dab16f6460060497fa1da5a26bc434bdefd0e1d46227842c5bd",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-kaohsiung"
+      ],
+      "lastAttemptAt": "2026-11-09T09:19:58Z",
+      "lastBodyFetchedAt": "2026-11-09T09:19:58Z",
+      "lastResult": "baseline"
+    },
+    "https://ktel-santorini.gr/": {
+      "fingerprint": "f997ff7bb0b0d2a5d1ce9bd83324aeccdc49ac1df87f51f8c50fb9443aa185a0",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "santorini"
+      ],
+      "lastAttemptAt": "2026-11-09T09:19:59Z",
+      "lastBodyFetchedAt": "2026-11-09T09:19:59Z",
+      "lastResult": "baseline"
+    },
+    "https://ktel-santorini.gr/routes/?route=aerodromio": {
+      "fingerprint": "89cd69b2efda2bcebf574f600a7c9bc2a926c72efb4eddb9c15d325c655fe387",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "santorini"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:00Z",
+      "lastBodyFetchedAt": "2026-11-09T09:20:00Z",
+      "lastResult": "baseline"
+    },
+    "https://kumamoto-guide.jp/en/": {
+      "fingerprint": "b68cbd9820029fde2d9d3266457c41ebb3615c20dc167d9ea2cd956f76708729",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-kumamoto"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:00Z",
+      "lastBodyFetchedAt": "2026-11-09T09:20:00Z",
+      "lastResult": "baseline"
+    },
+    "https://kumamoto-guide.jp/en/access/city.html": {
+      "fingerprint": "9e5ff6e830cf49d3077f18d36477dfab8063dcfec270e8d8451161b2d8248023",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-kumamoto"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:01Z",
+      "lastBodyFetchedAt": "2026-11-09T09:20:01Z",
+      "lastResult": "baseline"
+    },
+    "https://kumamoto-guide.jp/en/foods/": {
+      "fingerprint": "cafd8aee2e8bb9d6e9f0cc19b4773aeaeb89c4f4b9df01f01e5d37b7a8933333",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-kumamoto"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:01Z",
+      "lastBodyFetchedAt": "2026-11-09T09:20:01Z",
+      "lastResult": "baseline"
+    },
+    "https://kumamoto-guide.jp/en/spots/detail/1": {
+      "fingerprint": "ae6fa910d8515dc71fcc00a248264b7cba80a0e008cc2a9ab5eac20d49123b82",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-kumamoto"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:02Z",
+      "lastBodyFetchedAt": "2026-11-09T09:20:02Z",
+      "lastResult": "baseline"
+    },
+    "https://kumamoto-guide.jp/en/spots/detail/109": {
+      "fingerprint": "e1c0e5add13e44f36dae93da5127878cbd549523e9777fa5c70d1389464edf9a",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-kumamoto"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:03Z",
+      "lastBodyFetchedAt": "2026-11-09T09:20:03Z",
+      "lastResult": "baseline"
+    },
+    "https://kumamoto-guide.jp/en/spots/detail/12": {
+      "fingerprint": "c48b1e972582d2a83d27b0e097b22e3798e736af5b2462d71700d1f5852a6b5b",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-kumamoto"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:03Z",
+      "lastBodyFetchedAt": "2026-11-09T09:20:03Z",
+      "lastResult": "baseline"
+    },
+    "https://kumamoto-guide.jp/en/spots/detail/75": {
+      "fingerprint": "fd5b91e04a33d656ab42fb3046996e23ee26943f1cd098c2cd3b2fb6b1ee66b7",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-kumamoto"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:04Z",
+      "lastBodyFetchedAt": "2026-11-09T09:20:04Z",
+      "lastResult": "baseline"
+    },
+    "https://lovebali.baliprov.go.id/": {
+      "guideIds": [
+        "bali"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:04Z",
+      "lastResult": "robots-denied"
+    },
+    "https://lovebali.baliprov.go.id/faq": {
+      "guideIds": [
+        "bali"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:05Z",
+      "lastResult": "robots-denied"
+    },
+    "https://matsuyama-sightseeing.com/appeal/castle/": {
+      "fingerprint": "91f8add20fb9d733f187cf7e54a23164338ae736dbb7ca35606263117b8411f4",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-matsuyama"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:05Z",
+      "lastBodyFetchedAt": "2026-11-09T09:20:05Z",
+      "lastResult": "baseline"
+    },
+    "https://matsuyama-sightseeing.com/appeal/food/": {
+      "fingerprint": "b11fe08b726f44cd2fd1cddcc727919ce1086ff01edbcf3902365ae23ee7f825",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-matsuyama"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:06Z",
+      "lastBodyFetchedAt": "2026-11-09T09:20:06Z",
+      "lastResult": "baseline"
+    },
+    "https://matsuyama-sightseeing.com/spot/23-2/": {
+      "fingerprint": "72409ca1c29edcd7f01163338803c246522e31b7f26882f77f1018c0b1728c52",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-matsuyama"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:07Z",
+      "lastBodyFetchedAt": "2026-11-09T09:20:07Z",
+      "lastResult": "baseline"
+    },
+    "https://matsuyama-sightseeing.com/topics/relaxed_travel/": {
+      "fingerprint": "8565414ced22f2547ef6f378bbf791d319aabac6a31d6e028ea1f38507d313e2",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-matsuyama"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:09Z",
+      "lastBodyFetchedAt": "2026-11-09T09:20:09Z",
+      "lastResult": "baseline"
+    },
+    "https://matsuyama-sightseeing.com/topics/shiki-soseki-matsuyama/": {
+      "fingerprint": "e56feceb3941c6c38cecec365c5faa28cff6d0c3138b1bc358b6985998bf2f55",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-matsuyama"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:09Z",
+      "lastBodyFetchedAt": "2026-11-09T09:20:09Z",
+      "lastResult": "baseline"
+    },
+    "https://matyas-templom.hu/en/": {
+      "fingerprint": "59509a2cedc7db3a1b83706107ebbab00b45abd1aa7d3217a10d16e9a2a0d008",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-budapest"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:10Z",
+      "lastBodyFetchedAt": "2026-11-09T09:20:10Z",
+      "lastResult": "baseline"
+    },
+    "https://miyako-guide.net/about/caution/": {
+      "fingerprint": "0a07702dcb56187baeadcd511c0e0af968f798c32aa703b4adbbb074125286e9",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-miyakojima"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:11Z",
+      "lastBodyFetchedAt": "2026-11-09T09:20:11Z",
+      "lastResult": "baseline"
+    },
+    "https://miyako-island.net/access/": {
+      "fingerprint": "4226240ccb6e449950599c11be33f8d16ec691d2b5442574487cbaca6439a7f8",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-miyakojima"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:12Z",
+      "lastBodyFetchedAt": "2026-11-09T09:20:12Z",
+      "lastResult": "baseline"
+    },
+    "https://miyakoap.co.jp/": {
+      "fingerprint": "93bca041b89547c73af25812881aa9a01170be5e4858e25b0a5faeffee6088e4",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-miyakojima"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:13Z",
+      "lastBodyFetchedAt": "2026-11-09T09:20:13Z",
+      "lastResult": "baseline"
+    },
+    "https://museovetro.visitmuve.it/en/": {
+      "fingerprint": "77f13e3afe5185515c13899d9c41d7fda45ebdbdb8de127557a64a9c4a634eb8",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-venice"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:13Z",
+      "lastBodyFetchedAt": "2026-11-09T09:20:13Z",
+      "lastResult": "baseline"
+    },
+    "https://mypenang.gov.my/view_itenary.php?id=THVMRHBRb2V2ODlQc3hRTEkvalB4QT09": {
+      "fingerprint": "4c59c1d2c575a513895136609b7d08fe8af17679da394069b0bbc725f23d6f6b",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-penang"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:15Z",
+      "lastBodyFetchedAt": "2026-11-09T09:20:15Z",
+      "lastResult": "baseline"
+    },
+    "https://nabmuseum.jp/": {
+      "fingerprint": "c4d4cd345829a9946dbd52af78dac067e1f324bc6529caae1946fa2a1b81c1f1",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-nagasaki"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:15Z",
+      "lastBodyFetchedAt": "2026-11-09T09:20:15Z",
+      "lastResult": "baseline"
+    },
+    "https://nagasaki-airport.jp/access/bus/": {
+      "fingerprint": "b897ff6baddf6e038c6ac4b4a3310fabb4f73057528f6f6f4028b8b72335a1d8",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-nagasaki"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:15Z",
+      "lastBodyFetchedAt": "2026-11-09T09:20:15Z",
+      "lastResult": "baseline"
+    },
+    "https://nagasakidejima.jp/": {
+      "fingerprint": "6214c078a34dce907b1fef6258cb3ebf4027b43cecfe68140c24e00960a1fa4b",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-nagasaki"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:16Z",
+      "lastBodyFetchedAt": "2026-11-09T09:20:16Z",
+      "lastResult": "baseline"
+    },
+    "https://naturallylangkawi.my/about-langkawi/": {
+      "fingerprint": "d78a377c00c0f3907654409a8ca978b55e91bb6e6dc1a31a6ca8ac77674de630",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-langkawi"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:17Z",
+      "lastBodyFetchedAt": "2026-11-09T09:20:17Z",
+      "lastResult": "baseline"
+    },
+    "https://naturallylangkawi.my/getting-here-2/": {
+      "fingerprint": "23a33e160af5590d5fc401e62d4d339c1ccd5fdd6d7477698eb4b88c1162cc21",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-langkawi"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:17Z",
+      "lastBodyFetchedAt": "2026-11-09T09:20:17Z",
+      "lastResult": "baseline"
+    },
+    "https://naturallylangkawi.my/portfolio/durian-perangin-waterfall/": {
+      "fingerprint": "ad51e7e07fa2ef9fd6d10d2185381f7402aa0b644babc78e7e3c944bcd899dca",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-langkawi"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:18Z",
+      "lastBodyFetchedAt": "2026-11-09T09:20:18Z",
+      "lastResult": "baseline"
+    },
+    "https://naturallylangkawi.my/portfolio/laman-padi/": {
+      "fingerprint": "74b0bf94b0b8afc5dd2c390479c7b3ebf96b9fc376b333a94fe836e9dc72be1c",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-langkawi"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:19Z",
+      "lastBodyFetchedAt": "2026-11-09T09:20:19Z",
+      "lastResult": "baseline"
+    },
+    "https://naturallylangkawi.my/portfolio/tanjung-rhu/": {
+      "fingerprint": "d2dbbfd3c4dae64a25c264a7472560c1f59c9a4d498fbaee036137b5b18ee556",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-langkawi"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:19Z",
+      "lastBodyFetchedAt": "2026-11-09T09:20:19Z",
+      "lastResult": "baseline"
+    },
+    "https://ohmicho-ichiba.com/": {
+      "fingerprint": "cb7f608a5335e95389d358052182d89ccdfdb64dd84efe3654b3009ca1c1b251",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-kanazawa"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:20Z",
+      "lastBodyFetchedAt": "2026-11-09T09:20:20Z",
+      "lastResult": "baseline"
+    },
+    "https://okayama-castle.jp/": {
+      "fingerprint": "758b1547e81042a46dc3d5602bab837abc619708e474bfe1de057f18aa9076b1",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-okayama"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:20Z",
+      "lastBodyFetchedAt": "2026-11-09T09:20:20Z",
+      "lastResult": "baseline"
+    },
+    "https://palazzoducale.visitmuve.it/en/": {
+      "fingerprint": "7d17f22d66c3e7b9e6fcc139305bcf3c0e64dfb7b79aaae4bdd311ee859d537f",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-venice"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:20Z",
+      "lastBodyFetchedAt": "2026-11-09T09:20:20Z",
+      "lastResult": "baseline"
+    },
+    "https://panoramalangkawi.com/operation-calendar/": {
+      "fingerprint": "20ea13eeada7cec75df6a8016a533e7774813bb46fda5a4ed36a233c1bd7d213",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-langkawi"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:21Z",
+      "lastBodyFetchedAt": "2026-11-09T09:20:21Z",
+      "lastResult": "baseline"
+    },
+    "https://panoramalangkawi.com/skycab/": {
+      "fingerprint": "7523d17a2a3060b937737e903ed6aa5e12251307dfc8a2e75910d1f3ae40604d",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-langkawi"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:22Z",
+      "lastBodyFetchedAt": "2026-11-09T09:20:22Z",
+      "lastResult": "baseline"
+    },
+    "https://panoramalangkawi.com/telaga-tujuh/": {
+      "fingerprint": "ec3fe4bd5075395bc1845094dfabe916dba475ab4852e024da58eef719612372",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-langkawi"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:22Z",
+      "lastBodyFetchedAt": "2026-11-09T09:20:22Z",
+      "lastResult": "baseline"
+    },
+    "https://parisjetaime.com/eng/": {
+      "guideIds": [
+        "book-paris"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:23Z",
+      "lastResult": "http-error"
+    },
+    "https://phuket.airportthai.co.th/": {
+      "fingerprint": "8cec307f270ae1512ec0f1088c46994fad80fdc1a032a61e8cb0d17650b0a55e",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-phuket"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:23Z",
+      "lastBodyFetchedAt": "2026-11-09T09:20:23Z",
+      "lastResult": "baseline"
+    },
+    "https://prague.eu/en/": {
+      "fingerprint": "d4f18e5f4ea1c2ff8cac4dff8261fc3ed13f46cdef8d9b689fea444ea79e4bbe",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-prague"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:23Z",
+      "lastBodyFetchedAt": "2026-11-09T09:20:23Z",
+      "lastResult": "baseline"
+    },
+    "https://puertoprincesa.ph/balayong-park/": {
+      "fingerprint": "1b6da82d3c569ef1bd60e39892d470370f295166467b694b677dfb3342377c0f",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-puertoprincesa"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:23Z",
+      "lastBodyFetchedAt": "2026-11-09T09:20:23Z",
+      "lastResult": "baseline"
+    },
+    "https://puertoprincesa.ph/underground-river/": {
+      "fingerprint": "f9f27bcfe1ebaac82efc4b28423efb70747f88de37c8edceb67a110a1e604b86",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-puertoprincesa"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:24Z",
+      "lastBodyFetchedAt": "2026-11-09T09:20:24Z",
+      "lastResult": "baseline"
+    },
+    "https://sabahtourism.com/": {
+      "fingerprint": "305b237c44fc37396c1a9515931a4b2b862fdd410f5e06fb77964fc7ec71da23",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-kotakinabalu"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:25Z",
+      "lastBodyFetchedAt": "2026-11-09T09:20:25Z",
+      "lastResult": "baseline"
+    },
+    "https://sabahtourism.com/destination/kota-kinabalu-wetlands/": {
+      "fingerprint": "d4f52c76543afc3c9d1e1c9482a841d860ea38de06bdea0f68daedd22b57507c",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-kotakinabalu"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:25Z",
+      "lastBodyFetchedAt": "2026-11-09T09:20:25Z",
+      "lastResult": "baseline"
+    },
+    "https://shiro-niwa.pref.ishikawa.lg.jp/kanazawa-castle/": {
+      "fingerprint": "2f465df5432ce6419b2fc129ca35282a8ade6bbae8dc1050794e80018a1f7c60",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-kanazawa"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:25Z",
+      "lastBodyFetchedAt": "2026-11-09T09:20:25Z",
+      "lastResult": "baseline"
+    },
+    "https://shiro-niwa.pref.ishikawa.lg.jp/kenrokuen-garden/": {
+      "guideIds": [
+        "book-kanazawa"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:25Z",
+      "lastResult": "unreadable-body"
+    },
+    "https://takasagoshuzo.com/meiji-sakagura/": {
+      "fingerprint": "15de4842407f046ca1d5a06937ac605b14f5e5f05aef1ffd6a0588ecfbed27e4",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-asahikawa"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:26Z",
+      "lastBodyFetchedAt": "2026-11-09T09:20:26Z",
+      "lastResult": "baseline"
+    },
+    "https://tdac.immigration.go.th/manual/en/": {
+      "fingerprint": "b16efc1c663916149a069e2c17acb243ee58ce5e5f5b1f5ae211b2c2b8239e53",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "bangkok"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:26Z",
+      "lastBodyFetchedAt": "2026-11-09T09:20:26Z",
+      "lastResult": "baseline"
+    },
+    "https://tdac.immigration.go.th/manual/en/faq.html": {
+      "fingerprint": "95dd529abdd68850e6cf4a6fd40814f182b77beed38cb9709e95c492829ba090",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "bangkok"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:26Z",
+      "lastBodyFetchedAt": "2026-11-09T09:20:26Z",
+      "lastResult": "baseline"
+    },
+    "https://thisisbarcelona.com/": {
+      "fingerprint": "0f40ac6915f2272b88d4bf6c76ca87aa8e8f077f871e7af9a4e979ee659b3aba",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-barcelona"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:28Z",
+      "lastBodyFetchedAt": "2026-11-09T09:20:28Z",
+      "lastResult": "baseline"
+    },
+    "https://tlpguam.com/": {
+      "fingerprint": "060e4f905f3877c9dac0ad17b9744d7d196c96c9776d2d61e6cb9fd4f0008f29",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "guam"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:28Z",
+      "lastBodyFetchedAt": "2026-11-09T09:20:28Z",
+      "lastResult": "baseline"
+    },
+    "https://tourism.bohol.gov.ph/": {
+      "fingerprint": "70e6e2826fb1ef4fe2e1f0be19b56411cb394a7292ace1a3efa9c449358fec30",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-bohol"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:28Z",
+      "lastBodyFetchedAt": "2026-11-09T09:20:28Z",
+      "lastResult": "baseline"
+    },
+    "https://tourism.cebu.gov.ph/": {
+      "fingerprint": "afe8e0dec1fcbd3cc2ccdf706ab4b36df303587a677daf16bfbf06442dcb1068",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-cebu"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:29Z",
+      "lastBodyFetchedAt": "2026-11-09T09:20:29Z",
+      "lastResult": "baseline"
+    },
+    "https://travel.taichung.gov.tw/en/attractions/intro/1222": {
+      "fingerprint": "e26b2835c97efc788c2c5c5f820251d8b7c8e559cef46ff07ef895ffac946276",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-taichung"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:29Z",
+      "lastBodyFetchedAt": "2026-11-09T09:20:29Z",
+      "lastResult": "baseline"
+    },
+    "https://travel.taichung.gov.tw/en/attractions/intro/1239": {
+      "fingerprint": "13e5f63c6e86971c62510023ced316b5356e2001acf8375e213f0b32b7e7da85",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-taichung"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:30Z",
+      "lastBodyFetchedAt": "2026-11-09T09:20:30Z",
+      "lastResult": "baseline"
+    },
+    "https://travel.taichung.gov.tw/en/attractions/intro/850": {
+      "fingerprint": "ce7862ac41906ae058e8aa57306efb8fad1a7b93703ae421074c04f1e16987b5",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-taichung"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:30Z",
+      "lastBodyFetchedAt": "2026-11-09T09:20:30Z",
+      "lastResult": "baseline"
+    },
+    "https://travel.taichung.gov.tw/en/attractions/intro/886": {
+      "fingerprint": "c007d32ffb18e21293a004190dd01d204d85c11f189c985cf9f347a110a11023",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-taichung"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:30Z",
+      "lastBodyFetchedAt": "2026-11-09T09:20:30Z",
+      "lastResult": "baseline"
+    },
+    "https://travel.taichung.gov.tw/en/traffic/gettinghere": {
+      "fingerprint": "8cdd48c92b55786746e374c25cc49aee2bc575bbdc6794a85bca84948ac5656c",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-taichung"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:33Z",
+      "lastBodyFetchedAt": "2026-11-09T09:20:33Z",
+      "lastResult": "baseline"
+    },
+    "https://undergroundriver.puertoprincesa.ph/": {
+      "fingerprint": "a0ffb67e35589f8c852a769684fcab868fcfa383536873c9e69d6ccfb8706297",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-puertoprincesa"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:34Z",
+      "lastBodyFetchedAt": "2026-11-09T09:20:34Z",
+      "lastResult": "baseline"
+    },
+    "https://undergroundriver.puertoprincesa.ph/notice-to-the-public/notice-to-the-public/": {
+      "fingerprint": "178d93f41e86332b05719913baa2ba3320c80009777eee3718659f772ec5efa7",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-puertoprincesa"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:36Z",
+      "lastBodyFetchedAt": "2026-11-09T09:20:36Z",
+      "lastResult": "baseline"
+    },
+    "https://undergroundriver.puertoprincesa.ph/notice-to-the-public/public-advisory/": {
+      "fingerprint": "c36902a476d19d3d7b4c2a0d760e46a1956b0a65f54bfd10751838be06eae9ab",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-puertoprincesa"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:36Z",
+      "lastBodyFetchedAt": "2026-11-09T09:20:36Z",
+      "lastResult": "baseline"
+    },
+    "https://undergroundriver.puertoprincesa.ph/travel-advisory/travel-advisory-2/": {
+      "fingerprint": "02f6fd46975857b607f843c7c3158b0fe8b00e5c3128a0870d2b4ca40b67248d",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-puertoprincesa"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:37Z",
+      "lastBodyFetchedAt": "2026-11-09T09:20:37Z",
+      "lastResult": "baseline"
+    },
+    "https://vietnam.travel/places-to-go/mekong-delta/phu-quoc/": {
+      "fingerprint": "8d209c6d2a67fe3cba61b92cbec15635f4b7b819904970194c24a74789f31580",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-phuquoc"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:38Z",
+      "lastBodyFetchedAt": "2026-11-09T09:20:38Z",
+      "lastResult": "baseline"
+    },
+    "https://vietnam.travel/places-to-go/north-central-coast/hue/": {
+      "fingerprint": "64982c36b5f79abf6b7365c593791344fe5a59090a7626ad04863f5e5c448561",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-hue"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:39Z",
+      "lastBodyFetchedAt": "2026-11-09T09:20:39Z",
+      "lastResult": "baseline"
+    },
+    "https://vietnam.travel/places-to-go/red-river-delta/ha-long/": {
+      "fingerprint": "5cfb7001b148da8fe3cf661535724190ed0f040f01454881f606c5cd1546f000",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-halong"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:40Z",
+      "lastBodyFetchedAt": "2026-11-09T09:20:40Z",
+      "lastResult": "baseline"
+    },
+    "https://vietnam.travel/places-to-go/red-river-delta/ha-noi/": {
+      "fingerprint": "091084ecb4ac03b4f6ce5d9a3d01c51ebacad37c46875f3ecd092f4b815536c0",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-hanoi"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:41Z",
+      "lastBodyFetchedAt": "2026-11-09T09:20:41Z",
+      "lastResult": "baseline"
+    },
+    "https://vietnam.travel/places-to-go/south-central-coast-central-highlands/da-nang": {
+      "fingerprint": "1ffa1daf5360e6e3d084ace638098f4c2abab54de2f6a069f5f7fe4a695637b0",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "danang"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:42Z",
+      "lastBodyFetchedAt": "2026-11-09T09:20:42Z",
+      "lastResult": "baseline"
+    },
+    "https://vietnam.travel/places-to-go/south-central-coast-central-highlands/dalat/": {
+      "fingerprint": "f62594d3ef1714b1e6c4277fe3d64a8975cbca89582ea7a072809276adaed1f3",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-dalat"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:44Z",
+      "lastBodyFetchedAt": "2026-11-09T09:20:44Z",
+      "lastResult": "baseline"
+    },
+    "https://vietnam.travel/places-to-go/south-central-coast-central-highlands/nha-trang/": {
+      "fingerprint": "189369651219dedbd2e4490eca2841331f677f24d0d2e42087bdfd9470dcf150",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-nhatrang"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:44Z",
+      "lastBodyFetchedAt": "2026-11-09T09:20:44Z",
+      "lastResult": "baseline"
+    },
+    "https://vietnam.travel/places-to-go/southeastern-vietnam/ho-chi-minh-city/": {
+      "fingerprint": "40201165c7ff13725dc9d2fff3f65c60d5e7c2f9bbc68fc5db9dd4fe0d38e2b8",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-hochiminh"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:46Z",
+      "lastBodyFetchedAt": "2026-11-09T09:20:46Z",
+      "lastResult": "baseline"
+    },
+    "https://vietnam.travel/things-to-do/an-inside-guide-hue-tombs/": {
+      "fingerprint": "8a6f33900a26b0dc7e29eaabc4ebb69d6cad166aa141250f8e516a9c6aedc23b",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-hue"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:47Z",
+      "lastBodyFetchedAt": "2026-11-09T09:20:47Z",
+      "lastResult": "baseline"
+    },
+    "https://vietnam.travel/things-to-do/da-lat-tour-coffee-lovers/": {
+      "fingerprint": "d0daef472b1981196a38c82e509ea961a3a1cec1a1aedfb14a9c422b90772ebd",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-dalat"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:48Z",
+      "lastBodyFetchedAt": "2026-11-09T09:20:48Z",
+      "lastResult": "baseline"
+    },
+    "https://vietnam.travel/things-to-do/eating-dalat-chef-peter/": {
+      "fingerprint": "ca64ec79ffa01e5e31e672b7bd1e1fe02d6e3139b9044ab5c19b1d68e5366415",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-dalat"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:50Z",
+      "lastBodyFetchedAt": "2026-11-09T09:20:50Z",
+      "lastResult": "baseline"
+    },
+    "https://vietnam.travel/things-to-do/how-eat-local-hue/": {
+      "fingerprint": "00b4c44171db37630fbaf7031bc0c313441272699d367995b6c2b322aa248095",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-hue"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:52Z",
+      "lastBodyFetchedAt": "2026-11-09T09:20:52Z",
+      "lastResult": "baseline"
+    },
+    "https://vietnam.travel/things-to-do/hue-itinerary/": {
+      "fingerprint": "a5113c1bbf481bdb378a1825be9bcd418bb409248ada5eb2213efa2e2fb0a757",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-hue"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:55Z",
+      "lastBodyFetchedAt": "2026-11-09T09:20:55Z",
+      "lastResult": "baseline"
+    },
+    "https://visithungary.com/articles/all-you-need-to-know-about-hungarian-cuisine": {
+      "guideIds": [
+        "book-budapest"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:57Z",
+      "lastResult": "too-large"
+    },
+    "https://visitjohor2026.my/johor-bahru/": {
+      "fingerprint": "c009044f02bf7d91114c98a87fc63f2f78c9a3232ff2ce8aeaf27fac57df5211",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-johorbahru"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:58Z",
+      "lastBodyFetchedAt": "2026-11-09T09:20:58Z",
+      "lastResult": "baseline"
+    },
+    "https://visitjohor2026.my/listing/permaisuri-zarith-sofiah-opera-house/": {
+      "fingerprint": "0adeaa8b2a7938e623d06343bf7a672619e8a7800a8dcddeb25d3ace823da3af",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-johorbahru"
+      ],
+      "lastAttemptAt": "2026-11-09T09:20:59Z",
+      "lastBodyFetchedAt": "2026-11-09T09:20:59Z",
+      "lastResult": "baseline"
+    },
+    "https://visitjohor2026.my/listing/sireh-park/": {
+      "fingerprint": "5411732450ee25e7fcf680a9c10c8f6cac251d40e99942b2badaf8757742810d",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-johorbahru"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:00Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:00Z",
+      "lastResult": "baseline"
+    },
+    "https://visitjohor2026.my/listing/skyscape-menara-jland/": {
+      "fingerprint": "aa58b80ef0f8c05cc9bc9436a7d55fbe076a6ac76865b994957e3bce94bd991d",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-johorbahru"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:00Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:00Z",
+      "lastResult": "baseline"
+    },
+    "https://visitmelaka.com.my/index.php/culture-heritagemenu/heritage": {
+      "fingerprint": "fe0de4d6a062be5409d1cc3e6b95bb83a65eb816fd6fba416b127366c02174bf",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-melaka"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:02Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:02Z",
+      "lastResult": "baseline"
+    },
+    "https://visitmelaka.com.my/index.php/culture-heritagemenu/history": {
+      "fingerprint": "1c58b2589fb6c6028424c18a978a3e3ff518a7d68156c852338edaaa64226eb9",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-melaka"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:03Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:03Z",
+      "lastResult": "baseline"
+    },
+    "https://visitmelaka.com.my/index.php/lifestyles/food/104-cendol": {
+      "fingerprint": "37fb365c7aac479a5bef654df9fec015c1443eabba695d3ba768277e6026b227",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-melaka"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:05Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:05Z",
+      "lastResult": "baseline"
+    },
+    "https://visitmelaka.com.my/index.php/lifestyles/food/105-asam-pedas-melaka": {
+      "fingerprint": "563263a26649f06b801e8100cf0bdad29ab736a131b9164a7d94c0723e302c3b",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-melaka"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:06Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:06Z",
+      "lastResult": "baseline"
+    },
+    "https://visitmelaka.com.my/index.php/nature-adventure/recreation/124-melaka-river-cruise": {
+      "fingerprint": "036b0769a3c9f8f7903fb8578f70648cd017b80ed9ed09db80f2da07d91f217e",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-melaka"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:08Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:08Z",
+      "lastResult": "baseline"
+    },
+    "https://visitokinawajapan.com/": {
+      "fingerprint": "49b250af1e502eace4215f178349383212a01d97f5d6614b01f7d03ad0ee6e45",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-okinawa"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:11Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:11Z",
+      "lastResult": "baseline"
+    },
+    "https://visitokinawajapan.com/destinations/miyako-islands/miyako-island/": {
+      "fingerprint": "4680ba49174b098029636e8876a21ebcf51ecfd9af18e7e8b7fb32ab9e995ae1",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-miyakojima"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:11Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:11Z",
+      "lastResult": "baseline"
+    },
+    "https://visitokinawajapan.com/destinations/okinawa-main-island/": {
+      "fingerprint": "b1a5b7efabce4aef8799f8cc5d72d4c5babe63b636f4854012aa7375c4a280f9",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-okinawa"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:12Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:12Z",
+      "lastResult": "baseline"
+    },
+    "https://visitokinawajapan.com/destinations/okinawa-main-island/southern-okinawa-main-island/naha/": {
+      "fingerprint": "6d35a2df74b95f37ac3a1c147db9a9deedc367acfd839dabf812df1764ac82ed",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-okinawa"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:13Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:13Z",
+      "lastResult": "baseline"
+    },
+    "https://visitokinawajapan.com/destinations/yaeyama-islands/ishigaki-island/": {
+      "fingerprint": "458a25d5994188a169feda160f2246ef2900d5a0054dc980c15d5d8f952fbe75",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-ishigaki"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:13Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:13Z",
+      "lastResult": "baseline"
+    },
+    "https://warabe.or.jp/": {
+      "fingerprint": "b21c9103694e64801581df4551bb9b4df5bcdcf7128b09be9854e8976e62fd3c",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-tottori"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:14Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:14Z",
+      "lastResult": "baseline"
+    },
+    "https://warabe.or.jp/%e7%a9%ba%e8%aa%bf%e5%b7%a5%e4%ba%8b%e4%ba%88%e5%91%8a/": {
+      "fingerprint": "bb29de5bc1315e80363559a6535404b253ec4d55ac0a5435b5ff122d9d793222",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-tottori"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:14Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:14Z",
+      "lastResult": "baseline"
+    },
+    "https://www.alilaguna.it/en/": {
+      "fingerprint": "dd845da13104a6b07922f0c42d53bd5507f6cb4416009a4189e27f612f5a5c80",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-venice"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:15Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:15Z",
+      "lastResult": "baseline"
+    },
+    "https://www.atca.jp/%e6%97%ad%e5%b7%9d%e5%b8%82%e5%86%85%e3%81%ae%e8%a6%b3%e5%85%89%e6%96%bd%e8%a8%ad%e7%ad%89%e3%81%ae%e6%96%99%e9%87%91%e6%94%b9%e5%ae%9a%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6/": {
+      "fingerprint": "dc027059e8bad6ef99c96045d97096722b6307293ce0f767b9557a47831f947a",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-asahikawa"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:15Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:15Z",
+      "lastResult": "baseline"
+    },
+    "https://www.atca.jp/kankouspoy/%e5%b8%b8%e7%a3%90%e5%85%ac%e5%9c%92%e3%81%ae%e5%bd%ab%e5%88%bb%e7%be%a4/": {
+      "fingerprint": "52f7597bb3a9b722be230c47d1839dff7b5118f6397ae02ace6743fda0caeea9",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-asahikawa"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:16Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:16Z",
+      "lastResult": "baseline"
+    },
+    "https://www.atca.jp/kankouspoy/%e6%97%ad%e5%b7%9d%e5%b8%82%e7%a7%91%e5%ad%a6%e9%a4%a8%e3%80%80%e3%82%b5%e3%82%a4%e3%83%91%e3%83%ab/": {
+      "fingerprint": "6a1c64da198de8da2f59e77843dc26a711456560592131dd7d68a48f38bede97",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-asahikawa"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:16Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:16Z",
+      "lastResult": "baseline"
+    },
+    "https://www.atca.jp/members/eat/": {
+      "fingerprint": "b0ba9808fa9443226c061ae32f3325fad68bc82998d63813bfadcd606be308c2",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-asahikawa"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:17Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:17Z",
+      "lastResult": "baseline"
+    },
+    "https://www.babanyonyamuseum.com/": {
+      "fingerprint": "079fc4f7de63a213c92f55971d245766ad47f9a29b4dfd9b039392f8864e381e",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-melaka"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:18Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:18Z",
+      "lastResult": "baseline"
+    },
+    "https://www.babanyonyamuseum.com/getting-here/": {
+      "fingerprint": "8977b497cd0deba74a9c3ccc9b3f142370384633e9b70c54f81a177651d6592c",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-melaka"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:18Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:18Z",
+      "lastResult": "baseline"
+    },
+    "https://www.bazilikabudapest.hu/turizmus/": {
+      "fingerprint": "2cf08a7130b509752d855346317c17b42aec70b416c402b9d01781dc0693fc24",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-budapest"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:20Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:20Z",
+      "lastResult": "baseline"
+    },
+    "https://www.belvedere.at/en": {
+      "fingerprint": "7fa832dd9a63f05b473cb374b98d2b7660f264d9320ebfef4e69841a69f371db",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-vienna"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:20Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:20Z",
+      "lastResult": "baseline"
+    },
+    "https://www.beppu-jigoku.com/": {
+      "fingerprint": "c6192c5438862ad0d50214f37659c998f671fbcd7c0360df081341d2beef46a4",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-beppu"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:22Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:22Z",
+      "lastResult": "baseline"
+    },
+    "https://www.beppu-jigoku.com/bouzu/index.html": {
+      "fingerprint": "4f4b0e3fc62ccef031a3dfdaf74a08b0f02475cda843c28bb4e00099e8395d4e",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-beppu"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:23Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:23Z",
+      "lastResult": "baseline"
+    },
+    "https://www.beppu-jigoku.com/chinoike/index.html": {
+      "fingerprint": "ac4e8456232c353b1707bee4946d06fd059c0dec5d1089a543bcc7e858fedbff",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-beppu"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:23Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:23Z",
+      "lastResult": "baseline"
+    },
+    "https://www.beppu-jigoku.com/kamado/index.html": {
+      "fingerprint": "37655b331caeaa0b5969377d2e2f6c2f8e7cbba2c685e87dcc0613c28d87016e",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-beppu"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:25Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:25Z",
+      "lastResult": "baseline"
+    },
+    "https://www.beppu-jigoku.com/shiraike/index.html": {
+      "fingerprint": "666c07327b3efdc73062c4e3393a02c326b2e28c19bd2f8aad740dea10743ab7",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-beppu"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:25Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:25Z",
+      "lastResult": "baseline"
+    },
+    "https://www.beppu-jigoku.com/umi/index.html": {
+      "fingerprint": "6fe50cb9d067086b200ed7352124ba22198b4c50e8565747ffc775ac7c5c6c74",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-beppu"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:26Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:26Z",
+      "lastResult": "baseline"
+    },
+    "https://www.bud.hu/en/parking-transport/transportation/public-transportation/public-transportation-by-bus": {
+      "guideIds": [
+        "book-budapest"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:26Z",
+      "lastResult": "unreadable-body"
+    },
+    "https://www.causewaylink.com.my/routes-schedules/airport-shuttle-bus/": {
+      "fingerprint": "158b052b5d9f1d7be2c3b0636ad7a8b675bbf175f8a0e74029f60dbc141e2ed5",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-johorbahru"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:27Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:27Z",
+      "lastResult": "baseline"
+    },
+    "https://www.cebu.gov.ph/": {
+      "fingerprint": "e1fa38638c735b812e7f5b52a0ced8f712cec6dc9294639a87da3c8d1c4f6639",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-cebu"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:27Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:27Z",
+      "lastResult": "baseline"
+    },
+    "https://www.changiairport.com/en/at-changi/transport-and-directions/leaving-the-airport.html": {
+      "fingerprint": "d6b02dffdb2dab345790333b9c92d554faea612120b609476c520ae2de2fcb40",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "singapore"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:28Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:28Z",
+      "lastResult": "baseline"
+    },
+    "https://www.chutetsu-bus.co.jp/rosen/rimujin.htm": {
+      "fingerprint": "8957a4b9c4ee27b2afe7558cd4813bfc8ee3620b09b9275650c29f6a1d5418b1",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-okayama"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:29Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:29Z",
+      "lastResult": "baseline"
+    },
+    "https://www.city.asahikawa.hokkaido.jp/asahiyamazoo/": {
+      "fingerprint": "4dde7a674d8edbd2c761e55f7d19bcd240a7a89075a3ad6947eeac98513bc1ab",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-asahikawa"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:29Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:29Z",
+      "lastResult": "baseline"
+    },
+    "https://www.city.asahikawa.hokkaido.jp/hakubutukan/": {
+      "fingerprint": "5fbb1d4ea5533c9b63137693ef73e91ea1784da310d39278fae9824179badfa9",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-asahikawa"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:29Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:29Z",
+      "lastResult": "baseline"
+    },
+    "https://www.city.asahikawa.hokkaido.jp/science/index.html": {
+      "fingerprint": "feb4371b1e9dc76f30b5158991f4c4959b66b46ef968af162d1011551357cb10",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-asahikawa"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:30Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:30Z",
+      "lastResult": "baseline"
+    },
+    "https://www.city.takamatsu.kagawa.jp/museum/takamatsu/": {
+      "fingerprint": "08581245929523d4656ced744c6b6772c625d81b8a7408a8a05ed3004dba02ae",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-takamatsu"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:30Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:30Z",
+      "lastResult": "baseline"
+    },
+    "https://www.discoverlosangeles.com/": {
+      "fingerprint": "4510a2b7bbfd9c5f552dcc9a62403209a910a79cf2d1a542ddf28e1bc587893c",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-losangeles"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:31Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:31Z",
+      "lastResult": "baseline"
+    },
+    "https://www.dusit.com/dusitthani-guamresort/": {
+      "fingerprint": "57f3570fb95546081753053d4ee39ac2844e6a1d929f2509892e812539a3865f",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "guam"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:32Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:32Z",
+      "lastResult": "baseline"
+    },
+    "https://www.feelflorence.it/en/editors/museums-florence-latest-news-2026": {
+      "guideIds": [
+        "book-florence"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:32Z",
+      "lastResult": "robots-unavailable"
+    },
+    "https://www.feelflorence.it/en/made-tuscany": {
+      "guideIds": [
+        "book-florence"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:32Z",
+      "lastResult": "robots-unavailable"
+    },
+    "https://www.feelflorence.it/en/organize-your-trip/mobility": {
+      "guideIds": [
+        "book-florence"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:32Z",
+      "lastResult": "robots-unavailable"
+    },
+    "https://www.fukuoka-airport.jp/en/access/bus2.html": {
+      "fingerprint": "cf4a8ff0c2534b59657ad50b0d716bba591d7f909dfad8b284b04becd92cbe1f",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "fukuoka"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:33Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:33Z",
+      "lastResult": "baseline"
+    },
+    "https://www.fukuoka-airport.jp/en/access/subway.html": {
+      "fingerprint": "b8c6799322bebd203b8cfb19b5428856de3e2b449d3f8e11500bd367f1070c34",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "fukuoka"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:34Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:34Z",
+      "lastResult": "baseline"
+    },
+    "https://www.fws.gov/refuge/guam/visit-us": {
+      "fingerprint": "af181523aeaa829c08ab3f18b1da0db31f8ea71124b1822a4ad663d7dde2e531",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "guam"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:34Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:34Z",
+      "lastResult": "baseline"
+    },
+    "https://www.gallerieaccademia.it/en/": {
+      "fingerprint": "86dd27032fe7ad73d648b51546dd55d0e5fba1eb18baa934e372e467e838ae3f",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-venice"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:34Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:34Z",
+      "lastResult": "baseline"
+    },
+    "https://www.gestramvia.it/?lang=en": {
+      "fingerprint": "e9d4990f735dca061c3137b94f8caad87fb191ef82ce3a45a8e45a54ecc0881a",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-florence"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:35Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:35Z",
+      "lastResult": "baseline"
+    },
+    "https://www.gohawaii.com/islands/oahu": {
+      "guideIds": [
+        "book-honolulu"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:35Z",
+      "lastResult": "robots-denied"
+    },
+    "https://www.gpoguam.com/": {
+      "fingerprint": "b911badd1c6ea87c9abceb1c5013274432c37cdc031b6e645d60a73d071bc5ec",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "guam"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:36Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:36Z",
+      "lastResult": "baseline"
+    },
+    "https://www.guamairport.com/passenger/ground-transportation": {
+      "fingerprint": "34de4e0c051b9dd9b4c5df52ba29f9e5f75f361ae0b15b89a0adc0942b8bab18",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "guam"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:36Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:36Z",
+      "lastResult": "baseline"
+    },
+    "https://www.guamairport.com/passenger/ground-transportation/taxis": {
+      "fingerprint": "7ae4bcdce278c9f66456dfd3817097621eeebc84acface8c7af7a5dfbfd9dffd",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "guam"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:37Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:37Z",
+      "lastResult": "baseline"
+    },
+    "https://www.guggenheim-venice.it/en/": {
+      "fingerprint": "3d8f3608414f6501ced118bde35a3eb922d3838b2c05e898bae1dfdd6abea508",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-venice"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:37Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:37Z",
+      "lastResult": "baseline"
+    },
+    "https://www.hakodate.travel/en/experience/gourmet/": {
+      "fingerprint": "4df5c084878af1f4e8bd1617c6367b0a4025df467dc0b1a4f07b91103f24f8aa",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-hakodate"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:37Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:37Z",
+      "lastResult": "baseline"
+    },
+    "https://www.hakodate.travel/en/information/accommodation/": {
+      "fingerprint": "a0d71eeb5b4950825a41a6aff5826eac56225b2b3fc888ff43cb7d1df654ed79",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-hakodate"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:37Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:37Z",
+      "lastResult": "baseline"
+    },
+    "https://www.hakodate.travel/en/top7/": {
+      "fingerprint": "20b355dc9bae20c253ffc6f1ac5a32ae6af1af625571a7c0764f036d75136b1c",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-hakodate"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:37Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:37Z",
+      "lastResult": "baseline"
+    },
+    "https://www.hiroden.co.jp/topics/2026/0328-hiroshimast.html": {
+      "fingerprint": "189c03eb4560460af42efa1afc3dd7d35641ed7781e441d116122ad47400570c",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "hiroshima"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:39Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:39Z",
+      "lastResult": "baseline"
+    },
+    "https://www.hokkaido-airports.com/en/hakodate/access/": {
+      "fingerprint": "7bab7ee5697c30cf4866ad42122948aa470cbbab28b821132726606cda1b026a",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-hakodate"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:39Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:39Z",
+      "lastResult": "baseline"
+    },
+    "https://www.hokkaido-airports.com/ja/asahikawa/access/": {
+      "fingerprint": "1f4013bba37c958149b083134dea21ef95d4892ebe9336a8e66334dfead91d47",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-asahikawa"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:39Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:39Z",
+      "lastResult": "baseline"
+    },
+    "https://www.hokutetsu.co.jp/airport-bus": {
+      "fingerprint": "137d47fbbc6229e5fa35a8d797ade3e71118f17a5ec5bc14244d9c5bda0ec981",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-kanazawa"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:40Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:40Z",
+      "lastResult": "baseline"
+    },
+    "https://www.ica.gov.sg/information-and-e-services/entry-and-departure/entering-singapore/sg-arrival-card-with-electronic-health-declaration": {
+      "fingerprint": "0b1d2864fd2286e1c6b53d4c9918984be41879e5087474a7d0864a976c577691",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "singapore"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:41Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:41Z",
+      "lastResult": "baseline"
+    },
+    "https://www.immd.gov.hk/eng/services/visas/visit-transit/visit-visa-entry-permit.html": {
+      "fingerprint": "daf91175c66c4b8349fee571663320656d3d86835cc5fb3b0d87dced27e797f5",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "hongkong"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:41Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:41Z",
+      "lastResult": "baseline"
+    },
+    "https://www.immigration.gov.mv/traveller-declaration": {
+      "fingerprint": "0fae24185f1e3feb39f38c3c5c292a8d72a676a9b12c918a218675904ff1d258",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "maldives"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:41Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:41Z",
+      "lastResult": "baseline"
+    },
+    "https://www.immigration.gov.mv/visa/tourist-visa": {
+      "fingerprint": "f042508f10aa1d9cc022598a5821fb6e33d03ed9f8a104929c3ee75331f20221",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "maldives"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:42Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:42Z",
+      "lastResult": "baseline"
+    },
+    "https://www.immigration.gov.tw/5475/5478/141457/142068/398041/": {
+      "fingerprint": "2250dce49f228b7f00f1b51312270f2100d3f206cd19a272f17222a6efca0284",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "taipei"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:42Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:42Z",
+      "lastResult": "baseline"
+    },
+    "https://www.immigration.gov.tw/5475/5478/6928/392106/400432/cp_news": {
+      "fingerprint": "cd8a1314a5476488fe8d61938aa56a4dc40ebc36f1076db49e968624567a2840",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "taipei"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:43Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:43Z",
+      "lastResult": "baseline"
+    },
+    "https://www.interlaken.swiss/en/destinations/interlaken/interlaken-matten-unterseen": {
+      "fingerprint": "82e9de7bee522c1ebab67a20e5aed5187c56f0a888537b2c92db0596eca1116c",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-interlaken"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:43Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:43Z",
+      "lastResult": "baseline"
+    },
+    "https://www.interlaken.swiss/en/experiences/poi/grand-tour-of-switzerland-interlaken-photo-spot": {
+      "fingerprint": "d0a6611dc0b8a444f898ec56cd2be3613bc6e8cf07af4ce3c13eb0175c640208",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-interlaken"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:43Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:43Z",
+      "lastResult": "baseline"
+    },
+    "https://www.interlaken.swiss/en/experiences/poi/japanese-garden-interlaken": {
+      "fingerprint": "d8c0a15f93c63c80061ba5df83673d271818288235d3976849e553daf8a4e135",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-interlaken"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:45Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:45Z",
+      "lastResult": "baseline"
+    },
+    "https://www.interlaken.swiss/en/experiences/poi/monastery-and-interlaken-castle": {
+      "fingerprint": "efac54a351240e02fefa9de278b41bbe084aea042f54a772c5269c108bd20a3f",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-interlaken"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:45Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:45Z",
+      "lastResult": "baseline"
+    },
+    "https://www.interlaken.swiss/en/planning/getting-here": {
+      "fingerprint": "ebea0c88ae0b1d436866749e0d984029f2f67a4db88ddbd8303b93fddf5e10fe",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-interlaken"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:45Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:45Z",
+      "lastResult": "baseline"
+    },
+    "https://www.interlaken.swiss/en/planning/restaurants": {
+      "fingerprint": "2762f4057cbfb4ebc38e38784ec93128db77a092d80af9b02ce7211ced66fb00",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-interlaken"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:46Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:46Z",
+      "lastResult": "baseline"
+    },
+    "https://www.ishigaki-airport.co.jp/access/bus-taxi/index.html": {
+      "fingerprint": "fd90bb9f06fc64b9079c065f2cff73d09f5304ce0e8321f3e4eebc22d8af7034",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-ishigaki"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:46Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:46Z",
+      "lastResult": "baseline"
+    },
+    "https://www.italia.it/en/veneto/venice": {
+      "fingerprint": "347d68943927d55844b9d7b4f309d9e18ed3155f731a702e280856e421345e2d",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-venice"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:48Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:48Z",
+      "lastResult": "baseline"
+    },
+    "https://www.japan-guide.com/e/e2033.html": {
+      "fingerprint": "6d4ca0ffcee3aa2d7ab277f2ff38813ae0ef625cf5dd642866e41e8568085910",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "osaka"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:48Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:48Z",
+      "lastResult": "baseline"
+    },
+    "https://www.japan-guide.com/e/e2155.html": {
+      "fingerprint": "e0ff94bdd5037f5f4928c0f4afbaadbbfd521d2058bdbdb0ba3378f45718fc19",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "nagoya"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:49Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:49Z",
+      "lastResult": "baseline"
+    },
+    "https://www.japan-guide.com/e/e2156.html": {
+      "fingerprint": "be16be271efe80599f326fa283fae24168d2e173c100aaec09909d09f1dd4e9e",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "yokohama"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:49Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:49Z",
+      "lastResult": "baseline"
+    },
+    "https://www.japan-guide.com/e/e2157.html": {
+      "fingerprint": "69d670239b5686d6244b9740441345fd4ce1733f99c419e38f8ade6c6b1281e8",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "osaka"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:49Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:49Z",
+      "lastResult": "baseline"
+    },
+    "https://www.japan-guide.com/e/e2158.html": {
+      "fingerprint": "40d96b7a6c159129b621c123a7a3f354f801bd0f6eac157b421481be35e07778",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "kyoto"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:49Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:49Z",
+      "lastResult": "baseline"
+    },
+    "https://www.japan-guide.com/e/e2159.html": {
+      "fingerprint": "13176fd050dedf8040ba7edfdfe01cd3a1bd1bc9016bd7fa013d10d8cc926ca3",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "kobe"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:50Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:50Z",
+      "lastResult": "baseline"
+    },
+    "https://www.japan-guide.com/e/e2160.html": {
+      "fingerprint": "2fa48d5723342cb44c4c3f5b93353e29edfb574eee92ed016096537c6bcb8b54",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "hiroshima"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:50Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:50Z",
+      "lastResult": "baseline"
+    },
+    "https://www.japan-guide.com/e/e2161.html": {
+      "fingerprint": "5d05591c28cb8b4f0cca661d234f8a0fc85df03e35a2132cb0e2ea69cd1a8c3b",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "fukuoka"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:50Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:50Z",
+      "lastResult": "baseline"
+    },
+    "https://www.japan-guide.com/e/e2163.html": {
+      "fingerprint": "7acb45ee9eeeeeff6f995ddb5d994684e57c918a2f88518562b875ef9d4ed5e3",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "sapporo"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:51Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:51Z",
+      "lastResult": "baseline"
+    },
+    "https://www.japan-guide.com/e/e2164.html": {
+      "fingerprint": "7b126d1c93d767a4574f6316978041e329dfbc2b55b93f586443e91b1c94d041",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "tokyo"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:51Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:51Z",
+      "lastResult": "baseline"
+    },
+    "https://www.japan-guide.com/e/e4006.html": {
+      "fingerprint": "d5015830649b37250578a00cfe1844bd7003f8b2644b0ea2fe9a019c5c19cb3a",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "osaka"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:52Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:52Z",
+      "lastResult": "baseline"
+    },
+    "https://www.japan-guide.com/e/e5150.html": {
+      "fingerprint": "274d8de640361360e5c7f0b8f79c3e067aeb598102b4ab21d17101b764c000dd",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "sendai"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:52Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:52Z",
+      "lastResult": "baseline"
+    },
+    "https://www.japan.travel/fr/destinations/hokuriku-shinetsu/ishikawa/kanazawa-and-around/": {
+      "fingerprint": "27ac27035bb11d9f152edc3da5635fd763c93c3a725eac232b7037adbc381c5c",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-kanazawa"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:53Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:53Z",
+      "lastResult": "baseline"
+    },
+    "https://www.japan.travel/fr/destinations/kyushu/nagasaki/nagasaki-city-and-around/": {
+      "fingerprint": "0e99330e5720ffafe8ce1cae7e60ff418b4b44d8443f8c8256c4056d51f886b7",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-nagasaki"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:53Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:53Z",
+      "lastResult": "baseline"
+    },
+    "https://www.japan.travel/fr/destinations/kyushu/oita/beppu-and-yufuin-around/": {
+      "fingerprint": "4750e8f829d26c28fa0265601eed62bb04651d6283194d7abae348f360d1fc5e",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-beppu"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:54Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:54Z",
+      "lastResult": "baseline"
+    },
+    "https://www.japan.travel/fr/destinations/shikoku/kagawa/takamatsu-area/": {
+      "fingerprint": "a41b080b6d11ae0dd32b73efcf571edf2789463cfcb8a1b387bac249ac248190",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-takamatsu"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:55Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:55Z",
+      "lastResult": "baseline"
+    },
+    "https://www.japan.travel/fr/spot/740/": {
+      "fingerprint": "27dd6895ec7f055bfd8053b8287b6ed0d442a3af1c01a7cfb020a7931cb99de8",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-nagasaki"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:55Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:55Z",
+      "lastResult": "baseline"
+    },
+    "https://www.japan.travel/fr/spot/742/": {
+      "fingerprint": "6dc9703b7593a5370ddeb7e6db497d113ab926e440d20610852c4f642778c0f0",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-nagasaki"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:55Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:55Z",
+      "lastResult": "baseline"
+    },
+    "https://www.jtr-airport.gr/en/flights--more/airport-information": {
+      "fingerprint": "ff6e26efe3571e5e222e986daef96225f22d441aaa76374f6a566284a54c738e",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "santorini"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:56Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:56Z",
+      "lastResult": "baseline"
+    },
+    "https://www.jungfrau.ch/en-gb/harder-kulm/": {
+      "fingerprint": "3850d736cd89bc261c2588d145d8a19d2f4a0f16982c011064437b7ec61ba254",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-interlaken"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:56Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:56Z",
+      "lastResult": "baseline"
+    },
+    "https://www.kagoshima-yokanavi.jp/en": {
+      "fingerprint": "46cbea6f08bb75cab517871a204f279157fa60e5f00ce5cba8c028b8e1f9d514",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-kagoshima"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:57Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:57Z",
+      "lastResult": "baseline"
+    },
+    "https://www.kagoshima-yokanavi.jp/en/feature/sakurajima2": {
+      "fingerprint": "9f6460eb967669b4853e73ad812b7582307475e518217538a65cd9164d322faa",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-kagoshima"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:57Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:57Z",
+      "lastResult": "baseline"
+    },
+    "https://www.kagoshima-yokanavi.jp/en/spot/10002": {
+      "fingerprint": "d02eec5f737a270cb3e65d579f2e8b00b290ca44dfe77b2056472501a27224d0",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-kagoshima"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:57Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:57Z",
+      "lastResult": "baseline"
+    },
+    "https://www.kagoshima-yokanavi.jp/en/spot/10006": {
+      "fingerprint": "08a7459f7bbb73d2b57dc9997b28ef50781f6685ad27b8420d7239a67cf25b27",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-kagoshima"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:58Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:58Z",
+      "lastResult": "baseline"
+    },
+    "https://www.kagoshima-yokanavi.jp/en/spot/10025": {
+      "fingerprint": "0429397fe66b75853ce6b0a971a046bdeea0d79afacc77922f6378987a450d08",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-kagoshima"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:58Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:58Z",
+      "lastResult": "baseline"
+    },
+    "https://www.kagoshima-yokanavi.jp/en/spot/10027": {
+      "fingerprint": "9076fb29642890c720e6f3afa81bbf46752430b85b79ca93fbfe371de83d9943",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-kagoshima"
+      ],
+      "lastAttemptAt": "2026-11-09T09:21:59Z",
+      "lastBodyFetchedAt": "2026-11-09T09:21:59Z",
+      "lastResult": "baseline"
+    },
+    "https://www.kagoshima-yokanavi.jp/en/spot/10030": {
+      "fingerprint": "6e3c83224f9aa011fa511734d65d99c750098382cd85ac9a017f8b8cc7b5bdff",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-kagoshima"
+      ],
+      "lastAttemptAt": "2026-11-09T09:22:00Z",
+      "lastBodyFetchedAt": "2026-11-09T09:22:00Z",
+      "lastResult": "baseline"
+    },
+    "https://www.kagoshima-yokanavi.jp/en/spot/10092": {
+      "fingerprint": "27a1787c3456697cd2f68b38b307bbe00168cd3bbcdf082ee06f326dd6d116bc",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-kagoshima"
+      ],
+      "lastAttemptAt": "2026-11-09T09:22:02Z",
+      "lastBodyFetchedAt": "2026-11-09T09:22:02Z",
+      "lastResult": "baseline"
+    },
+    "https://www.kagoshima-yokanavi.jp/en/transportation": {
+      "fingerprint": "7b32ea8e1fa6bf4b6efe26502d41ffdd120701a8ef9a84ddb584fd6f400a988f",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-kagoshima"
+      ],
+      "lastAttemptAt": "2026-11-09T09:22:04Z",
+      "lastBodyFetchedAt": "2026-11-09T09:22:04Z",
+      "lastResult": "baseline"
+    },
+    "https://www.kanazawa21.jp/": {
+      "fingerprint": "139b31a3651a18ce7ddc4c6cc02935cfa3ff37499d560dfb2d2610d8da20c36a",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-kanazawa"
+      ],
+      "lastAttemptAt": "2026-11-09T09:22:06Z",
+      "lastBodyFetchedAt": "2026-11-09T09:22:06Z",
+      "lastResult": "baseline"
+    },
+    "https://www.kanazawa21.jp/data_list.php?g=151&d=48": {
+      "guideIds": [
+        "book-kanazawa"
+      ],
+      "lastAttemptAt": "2026-11-09T09:22:08Z",
+      "lastResult": "unreadable-body"
+    },
+    "https://www.kanazawa21.jp/data_list.php?g=61&d=503": {
+      "fingerprint": "92692dd0e16d32a1831a75d435d983eb02f0c2d72e3442625025304049d6e6b9",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-kanazawa"
+      ],
+      "lastAttemptAt": "2026-11-09T09:22:10Z",
+      "lastBodyFetchedAt": "2026-11-09T09:22:10Z",
+      "lastResult": "baseline"
+    },
+    "https://www.khm.at/en": {
+      "fingerprint": "ce75dc5bd155050714d2ade6ed2d2e04cb712e8057d16ad750f838a9f5957fb2",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-vienna"
+      ],
+      "lastAttemptAt": "2026-11-09T09:22:13Z",
+      "lastBodyFetchedAt": "2026-11-09T09:22:13Z",
+      "lastResult": "baseline"
+    },
+    "https://www.kumamoto-airport.co.jp/facilities/bus-ticket/": {
+      "guideIds": [
+        "book-kumamoto"
+      ],
+      "lastAttemptAt": "2026-11-09T09:22:14Z",
+      "lastResult": "unreadable-body"
+    },
+    "https://www.legoland.com.my/plan-your-day/before-you-visit/opening-hours/": {
+      "fingerprint": "d5182e5cfdcc2cd5a373e773fadf49063fab21f57bc8d716a3e5884f175521f3",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-johorbahru"
+      ],
+      "lastAttemptAt": "2026-11-09T09:22:15Z",
+      "lastBodyFetchedAt": "2026-11-09T09:22:15Z",
+      "lastResult": "baseline"
+    },
+    "https://www.luzern.com/en/information/planning/directions-mobility": {
+      "fingerprint": "33c437ad73d44a217380ec59331305f0252180035bf1c04c7226c5813efccccc",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-lucerne"
+      ],
+      "lastAttemptAt": "2026-11-09T09:22:16Z",
+      "lastBodyFetchedAt": "2026-11-09T09:22:16Z",
+      "lastResult": "baseline"
+    },
+    "https://www.luzern.com/en/poi/musegg-wall": {
+      "guideIds": [
+        "book-lucerne"
+      ],
+      "lastAttemptAt": "2026-11-09T09:22:16Z",
+      "lastResult": "network-error"
+    },
+    "https://www.luzern.com/en/the-city/culture-and-congress-center-lucerne": {
+      "fingerprint": "3797fee0a137abb2ab7eafb7ca879f01c3e6a676dbca6126532d7805608f6399",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-lucerne"
+      ],
+      "lastAttemptAt": "2026-11-09T09:22:17Z",
+      "lastBodyFetchedAt": "2026-11-09T09:22:17Z",
+      "lastResult": "baseline"
+    },
+    "https://www.luzern.com/en/the-city/food-drinks": {
+      "fingerprint": "b559fa2deda916920e77fcd5a3d52ee3047394d3e8cecf0b3075eb740af5c0a2",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-lucerne"
+      ],
+      "lastAttemptAt": "2026-11-09T09:22:17Z",
+      "lastBodyFetchedAt": "2026-11-09T09:22:17Z",
+      "lastResult": "baseline"
+    },
+    "https://www.luzern.com/en/the-city/sights/top-sights": {
+      "fingerprint": "47586c1eb3fc08bceb1ab6e5ab0377430d01f946254f7961ad9c7b3076cbcba2",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-lucerne"
+      ],
+      "lastAttemptAt": "2026-11-09T09:22:18Z",
+      "lastBodyFetchedAt": "2026-11-09T09:22:18Z",
+      "lastResult": "baseline"
+    },
+    "https://www.luzern.com/en/the-city/sights/top-sights/lion-monument": {
+      "fingerprint": "9511a989297139f95dfe69eaa4e76630b042c21d975e2161435c8db42567d823",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-lucerne"
+      ],
+      "lastAttemptAt": "2026-11-09T09:22:18Z",
+      "lastBodyFetchedAt": "2026-11-09T09:22:18Z",
+      "lastResult": "baseline"
+    },
+    "https://www.luzern.com/en/the-city/sights/top-sights/lucernes-landmarks-the-chapel-bridge-and-its-water-tower": {
+      "fingerprint": "ca1c12e4216c7390e56f75e8e528af839263db4b080b5404c4e0cca50128d040",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-lucerne"
+      ],
+      "lastAttemptAt": "2026-11-09T09:22:21Z",
+      "lastBodyFetchedAt": "2026-11-09T09:22:21Z",
+      "lastResult": "baseline"
+    },
+    "https://www.luzern.com/en/the-city/swiss-museum-of-transport": {
+      "fingerprint": "48e25d729b5aae057b3db03358d0d7490de4fb87916ae608f16c7e639caebaa1",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-lucerne"
+      ],
+      "lastAttemptAt": "2026-11-09T09:22:32Z",
+      "lastBodyFetchedAt": "2026-11-09T09:22:32Z",
+      "lastResult": "baseline"
+    },
+    "https://www.luzern.com/fr/gastro/gleis-1-restaurant": {
+      "guideIds": [
+        "book-lucerne"
+      ],
+      "lastAttemptAt": "2026-11-09T09:22:36Z",
+      "lastResult": "network-error"
+    },
+    "https://www.macaotourism.gov.mo/en/dining": {
+      "fingerprint": "0cdfca9dbb7aa3c8d54cc45ab6e3b159e912706870d790f415de5bd80cda4898",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-macau"
+      ],
+      "lastAttemptAt": "2026-11-09T09:22:38Z",
+      "lastBodyFetchedAt": "2026-11-09T09:22:38Z",
+      "lastResult": "baseline"
+    },
+    "https://www.macaotourism.gov.mo/en/sightseeing/macao-world-heritage": {
+      "fingerprint": "697b2fff77f17835ef91ec7926cb2407d7ee9faeb282d221affb8abad51ee629",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-macau"
+      ],
+      "lastAttemptAt": "2026-11-09T09:22:39Z",
+      "lastBodyFetchedAt": "2026-11-09T09:22:39Z",
+      "lastResult": "baseline"
+    },
+    "https://www.macau-airport.com/en/transportation": {
+      "fingerprint": "2ae0758850f60a5841b2681b58d0993ed406d29f7a66a795175beb467d39df46",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-macau"
+      ],
+      "lastAttemptAt": "2026-11-09T09:22:40Z",
+      "lastBodyFetchedAt": "2026-11-09T09:22:40Z",
+      "lastResult": "baseline"
+    },
+    "https://www.maefahluang.org/en/mae-fah-luang-art-and-cultural-park/": {
+      "fingerprint": "fc2228a253f6fdfff0758cd6d5d8f9c864edb8eb62d6169dd4175518f088a3d2",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-chiangrai"
+      ],
+      "lastAttemptAt": "2026-11-09T09:22:40Z",
+      "lastBodyFetchedAt": "2026-11-09T09:22:40Z",
+      "lastResult": "baseline"
+    },
+    "https://www.malaysia.travel/": {
+      "fingerprint": "3f88e5de0678a301b2ccdacc1e3d454b0a95096205459dd77e93590f0fe7dba2",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-kualalumpur"
+      ],
+      "lastAttemptAt": "2026-11-09T09:22:41Z",
+      "lastBodyFetchedAt": "2026-11-09T09:22:41Z",
+      "lastResult": "baseline"
+    },
+    "https://www.malaysia.travel/explore/a-foodie-s-journey-12-local-eats-in-johor-you-must-try": {
+      "fingerprint": "182bdc07e21858e5a1b537b922399d3ad02faf4442f0830b01c707da526d6d87",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-johorbahru"
+      ],
+      "lastAttemptAt": "2026-11-09T09:22:41Z",
+      "lastBodyFetchedAt": "2026-11-09T09:22:41Z",
+      "lastResult": "baseline"
+    },
+    "https://www.malaysia.travel/explore/the-ultimate-guide-to-the-best-shopping-malls-in-johor-bahru": {
+      "fingerprint": "b5a9e294c0399318bca56c20286f67eeb43a6877653a1348865096c03d4c9bb4",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-johorbahru"
+      ],
+      "lastAttemptAt": "2026-11-09T09:22:41Z",
+      "lastBodyFetchedAt": "2026-11-09T09:22:41Z",
+      "lastResult": "baseline"
+    },
+    "https://www.malaysia.travel/explore/top-places-to-visit-in-kuala-lumpur": {
+      "fingerprint": "563113ddcca2aefbba5ffa8cdddc14f698adde633aa56f85e54a956bc94555fc",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-kualalumpur"
+      ],
+      "lastAttemptAt": "2026-11-09T09:22:42Z",
+      "lastBodyFetchedAt": "2026-11-09T09:22:42Z",
+      "lastResult": "baseline"
+    },
+    "https://www.matsuyama-airport.co.jp/access/bus.html": {
+      "fingerprint": "eda5041955182bb557670fa1fec9a0be7e9d7f9962b64ad82d231522b0ca8fbc",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-matsuyama"
+      ],
+      "lastAttemptAt": "2026-11-09T09:22:42Z",
+      "lastBodyFetchedAt": "2026-11-09T09:22:42Z",
+      "lastResult": "baseline"
+    },
+    "https://www.meet-in-shanghai.net/": {
+      "guideIds": [
+        "book-shanghai"
+      ],
+      "lastAttemptAt": "2026-11-09T09:22:44Z",
+      "lastResult": "robots-unavailable"
+    },
+    "https://www.metrolisboa.pt/en/": {
+      "fingerprint": "78bd190a11a5cdada5663bdf213149d531583476589eaef61af3383c3282b4ef",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-lisbon"
+      ],
+      "lastAttemptAt": "2026-11-09T09:22:44Z",
+      "lastBodyFetchedAt": "2026-11-09T09:22:44Z",
+      "lastResult": "baseline"
+    },
+    "https://www.mfab.hu/": {
+      "fingerprint": "2c01bea67f077e17a53036c35eb5e9297323456535746d58b605f5de1166614e",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-budapest"
+      ],
+      "lastAttemptAt": "2026-11-09T09:22:45Z",
+      "lastBodyFetchedAt": "2026-11-09T09:22:45Z",
+      "lastResult": "baseline"
+    },
+    "https://www.micronesiamall.com/": {
+      "fingerprint": "af8f8c35639f591bfd117488eb61cf525b1959872d6f50b4a74fd033c0c47c06",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "guam"
+      ],
+      "lastAttemptAt": "2026-11-09T09:22:45Z",
+      "lastBodyFetchedAt": "2026-11-09T09:22:45Z",
+      "lastResult": "baseline"
+    },
+    "https://www.monsoonvalley.com/en": {
+      "fingerprint": "526fa91b503dcd6339d8f034740e4857c22ff63c787b2ecb136bb96a12cb98e2",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-huahin"
+      ],
+      "lastAttemptAt": "2026-11-09T09:22:46Z",
+      "lastBodyFetchedAt": "2026-11-09T09:22:46Z",
+      "lastResult": "baseline"
+    },
+    "https://www.monsoonvalley.com/en/day-out": {
+      "fingerprint": "6452e58de296e4bbf7ecd9bfb2ff8b8543be764e063bac3c195784c1cc708152",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-huahin"
+      ],
+      "lastAttemptAt": "2026-11-09T09:22:46Z",
+      "lastBodyFetchedAt": "2026-11-09T09:22:46Z",
+      "lastResult": "baseline"
+    },
+    "https://www.mtr.com.hk/en/customer/services/complom_checkin.html": {
+      "fingerprint": "bc81774de111061bbd6264694ead19fac4c312edae87d3f8799594f11a566aeb",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "hongkong"
+      ],
+      "lastAttemptAt": "2026-11-09T09:22:47Z",
+      "lastBodyFetchedAt": "2026-11-09T09:22:47Z",
+      "lastResult": "baseline"
+    },
+    "https://www.mymarianas.com/visitor-information/": {
+      "guideIds": [
+        "saipan"
+      ],
+      "lastAttemptAt": "2026-11-09T09:22:47Z",
+      "lastResult": "robots-denied"
+    },
+    "https://www.mypenang.gov.my/": {
+      "fingerprint": "75c8c9748544e8227b69669c28898992aada0c62361f10d51761dd2ddd9d2496",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-penang"
+      ],
+      "lastAttemptAt": "2026-11-09T09:22:47Z",
+      "lastBodyFetchedAt": "2026-11-09T09:22:47Z",
+      "lastResult": "baseline"
+    },
+    "https://www.mypenang.gov.my/abt_png.php?id=NGx1SFc0M3E5OW03UUkrRjYvNmczdz09": {
+      "fingerprint": "f2d5f4d157b4116061213335923427e7d303420f1ab67d3db8b85c68f44017cb",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-penang"
+      ],
+      "lastAttemptAt": "2026-11-09T09:22:47Z",
+      "lastBodyFetchedAt": "2026-11-09T09:22:47Z",
+      "lastResult": "baseline"
+    },
+    "https://www.mypenang.gov.my/abt_png.php?id=WjRiaEVUSWxRdERPNzFRYnlxNEdBdz09": {
+      "fingerprint": "918287dfd67e76b463b13310681d868b239962902bf62dd11ac92f6029523c75",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-penang"
+      ],
+      "lastAttemptAt": "2026-11-09T09:22:48Z",
+      "lastBodyFetchedAt": "2026-11-09T09:22:48Z",
+      "lastResult": "baseline"
+    },
+    "https://www.mypenang.gov.my/page.php?id=WWV6MXdpeDhnNXphWGhDL1VZRmVZQT09&subid=ZHorMUxudjRGak5TOGdlMUpudElUdz09&thirdid=ZHJuTEsydnhXR2IwSmJSSm5QbXZsUT09&subtext=food&thirdtext=street-food&cTab=ec0080": {
+      "fingerprint": "53c916a97b9ec49b345537181461f21486fcc31c777a46c834a2981f9b13f7fc",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-penang"
+      ],
+      "lastAttemptAt": "2026-11-09T09:22:48Z",
+      "lastBodyFetchedAt": "2026-11-09T09:22:48Z",
+      "lastResult": "baseline"
+    },
+    "https://www.nongnoochpattaya.com/en/": {
+      "fingerprint": "b59e38283acb847efbc531a267a9c274e28979ebe31bfe7b8c0141e44c397985",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-pattaya"
+      ],
+      "lastAttemptAt": "2026-11-09T09:22:52Z",
+      "lastBodyFetchedAt": "2026-11-09T09:22:52Z",
+      "lastResult": "baseline"
+    },
+    "https://www.npac-ntt.org/en/": {
+      "fingerprint": "955d5247bdfccd617a312019511f9960f457d7fff924a94d4e0d4b2d3242ecd5",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-taichung"
+      ],
+      "lastAttemptAt": "2026-11-09T09:22:55Z",
+      "lastBodyFetchedAt": "2026-11-09T09:22:55Z",
+      "lastResult": "baseline"
+    },
+    "https://www.npac-ntt.org/en/about/architecture/design": {
+      "fingerprint": "a0d36ff348beacd027f05893b403fdfca9ae798f5324776083eb3a1034cba27c",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-taichung"
+      ],
+      "lastAttemptAt": "2026-11-09T09:22:55Z",
+      "lastBodyFetchedAt": "2026-11-09T09:22:55Z",
+      "lastResult": "baseline"
+    },
+    "https://www.nps.gov/amme/planyourvisit/hours.htm": {
+      "fingerprint": "08afe334f9e464e58f4c58ed6bc017bd9a02aca2e857fdb07b233db6e04669f5",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "saipan"
+      ],
+      "lastAttemptAt": "2026-11-09T09:22:55Z",
+      "lastBodyFetchedAt": "2026-11-09T09:22:55Z",
+      "lastResult": "baseline"
+    },
+    "https://www.nyctourism.com/": {
+      "fingerprint": "ffbc80522e91e547809607777781fa2242b07afa170638cc4ed8d584e4b36f78",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-newyork"
+      ],
+      "lastAttemptAt": "2026-11-09T09:22:56Z",
+      "lastBodyFetchedAt": "2026-11-09T09:22:56Z",
+      "lastResult": "baseline"
+    },
+    "https://www.oita-airport.jp/access/bus/": {
+      "fingerprint": "105bf85bd5d59bc0239213767f372b13ea81f89d754fd1a4f270acaae6cc2980",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-beppu",
+        "book-yufuin"
+      ],
+      "lastAttemptAt": "2026-11-09T09:22:56Z",
+      "lastBodyFetchedAt": "2026-11-09T09:22:56Z",
+      "lastResult": "baseline"
+    },
+    "https://www.okayama-japan.jp/en/24107": {
+      "fingerprint": "ff62069f77f3a1b6aa63edf0935814500be53825edf422a7cab0a96953017a4d",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-okayama"
+      ],
+      "lastAttemptAt": "2026-11-09T09:22:56Z",
+      "lastBodyFetchedAt": "2026-11-09T09:22:56Z",
+      "lastResult": "baseline"
+    },
+    "https://www.okayama-japan.jp/en/gourmet": {
+      "fingerprint": "82151d9b20ecddaacdfa60503233cfae2203d2effa89229ee7d8b6933e02c6f1",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-okayama"
+      ],
+      "lastAttemptAt": "2026-11-09T09:22:57Z",
+      "lastBodyFetchedAt": "2026-11-09T09:22:57Z",
+      "lastResult": "baseline"
+    },
+    "https://www.okayama-japan.jp/en/spot/10672": {
+      "fingerprint": "537c567330d8b712652d8d451e9455cb28a8107dee8de620a974a3fab5a41267",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-okayama"
+      ],
+      "lastAttemptAt": "2026-11-09T09:22:58Z",
+      "lastBodyFetchedAt": "2026-11-09T09:22:58Z",
+      "lastResult": "baseline"
+    },
+    "https://www.picguam.net/ko/faqs": {
+      "fingerprint": "4f701a7c67781131a0e8154eb737db7b17cfd2c03d486413dd79ab15829c4d38",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "guam"
+      ],
+      "lastAttemptAt": "2026-11-09T09:22:59Z",
+      "lastBodyFetchedAt": "2026-11-09T09:22:59Z",
+      "lastResult": "baseline"
+    },
+    "https://www.picguam.net/ko/restaurant": {
+      "guideIds": [
+        "guam"
+      ],
+      "lastAttemptAt": "2026-11-09T09:22:59Z",
+      "lastResult": "too-large"
+    },
+    "https://www.praterwien.com/en/": {
+      "fingerprint": "4091c369ae06a5bcbe14a7e7d4da7af61d59b5ed9dc837808d865a5cac4e9300",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-vienna"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:00Z",
+      "lastBodyFetchedAt": "2026-11-09T09:23:00Z",
+      "lastResult": "baseline"
+    },
+    "https://www.pref.kagawa.lg.jp/ritsurin/": {
+      "fingerprint": "2ddb108882b3a3942a3b229143b7ed150001a7d56e91fdcc0007cca8bcb8172d",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-takamatsu"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:00Z",
+      "lastBodyFetchedAt": "2026-11-09T09:23:00Z",
+      "lastResult": "baseline"
+    },
+    "https://www.pref.kagawa.lg.jp/ritsurin/r8_a_lightup.html": {
+      "fingerprint": "74bed6f3f61de3c9a75ece45f7d733d9ccb9cd9a1f945e20f1787fbd157fc12c",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-takamatsu"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:01Z",
+      "lastBodyFetchedAt": "2026-11-09T09:23:01Z",
+      "lastResult": "baseline"
+    },
+    "https://www.pref.tottori.lg.jp/museum/": {
+      "guideIds": [
+        "book-tottori"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:02Z",
+      "lastResult": "unreadable-body"
+    },
+    "https://www.sakyu-vc.com/jp/": {
+      "fingerprint": "7dd4f1323a4eb5826efa71e1d370c3606625e409e43f17a19e695d51eab9bb4f",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-tottori"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:02Z",
+      "lastBodyFetchedAt": "2026-11-09T09:23:02Z",
+      "lastResult": "baseline"
+    },
+    "https://www.sakyu-vc.com/jp/visitor/": {
+      "fingerprint": "3a2ae1757d9facd36b9a9b2863ae0c27e3c17a4e22c5973521636499ff244255",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-tottori"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:03Z",
+      "lastBodyFetchedAt": "2026-11-09T09:23:03Z",
+      "lastResult": "baseline"
+    },
+    "https://www.salzburg.info/en/dining-shopping/salzburg-culinary-classics": {
+      "fingerprint": "85e07703f5d9bc36279a6f40010bc573eca9c6967e4768d1bc85463106749e26",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-salzburg"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:04Z",
+      "lastBodyFetchedAt": "2026-11-09T09:23:04Z",
+      "lastResult": "baseline"
+    },
+    "https://www.salzburg.info/en/sights/top10": {
+      "fingerprint": "09cc2c6d71770b72272b367f847066ba6c7be2dcbc68ba97f46ea55519b51343",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-salzburg"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:05Z",
+      "lastBodyFetchedAt": "2026-11-09T09:23:05Z",
+      "lastResult": "baseline"
+    },
+    "https://www.salzburg.info/en/sights/top10/domquartier-salzburg": {
+      "fingerprint": "9d74230db62382d11721fcacab46bc7a4b447f9c2a9121eade8abf5f4f6cc13c",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-salzburg"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:05Z",
+      "lastBodyFetchedAt": "2026-11-09T09:23:05Z",
+      "lastResult": "baseline"
+    },
+    "https://www.salzburg.info/en/sights/top10/getreidegasse": {
+      "fingerprint": "b6514c62e31a4cc822e2aa3683bafcfd581625ea6e1306e7194544936e583258",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-salzburg"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:06Z",
+      "lastBodyFetchedAt": "2026-11-09T09:23:06Z",
+      "lastResult": "baseline"
+    },
+    "https://www.salzburg.info/en/sights/top10/hohensalzburg-fortress": {
+      "fingerprint": "e98977849c3a61089670a19005a00621f72e765ea56dedb33d332f40dae68d8d",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-salzburg"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:07Z",
+      "lastBodyFetchedAt": "2026-11-09T09:23:07Z",
+      "lastResult": "baseline"
+    },
+    "https://www.salzburg.info/en/sights/top10/mirabell-palace-gardens": {
+      "fingerprint": "a43964d0a155df689772f586b2d23e44f5fe02cc29752c5d4409027da5870749",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-salzburg"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:07Z",
+      "lastBodyFetchedAt": "2026-11-09T09:23:07Z",
+      "lastResult": "baseline"
+    },
+    "https://www.salzburg.info/en/sights/top10/mozarts-birthplace": {
+      "fingerprint": "18c87cc9ac413031c1ae290043b0610b82495c95d58bddc611b67fd32fd3bd13",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-salzburg"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:07Z",
+      "lastBodyFetchedAt": "2026-11-09T09:23:07Z",
+      "lastResult": "baseline"
+    },
+    "https://www.salzburg.info/en/travel-info/arrival-traffic": {
+      "fingerprint": "3dc5fffa1d738b8cf6372cd5d335ea53d2467dc2fe05d71a0850eb1df9d2297e",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-salzburg"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:10Z",
+      "lastBodyFetchedAt": "2026-11-09T09:23:10Z",
+      "lastResult": "baseline"
+    },
+    "https://www.salzburg.info/en/travel-info/arrival-traffic/airplane/salzburg-airport": {
+      "fingerprint": "8d2c11308de3ca61273a5cba928152291851a061dd72b083bf02a6bba8128973",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-salzburg"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:11Z",
+      "lastBodyFetchedAt": "2026-11-09T09:23:11Z",
+      "lastResult": "baseline"
+    },
+    "https://www.samuiairport.com/": {
+      "fingerprint": "ed6fe3149c479b5445664020162874eec5be92c2c63b45dd8c3bf37057668247",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-kohsamui"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:14Z",
+      "lastBodyFetchedAt": "2026-11-09T09:23:14Z",
+      "lastResult": "baseline"
+    },
+    "https://www.samuiairport.com/carrent": {
+      "fingerprint": "309406d6697e5d318c59fd0707c2e2a3d4006b49b1f081dc47ec01176d23a17f",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-kohsamui"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:16Z",
+      "lastBodyFetchedAt": "2026-11-09T09:23:16Z",
+      "lastResult": "baseline"
+    },
+    "https://www.sand-museum.jp/": {
+      "fingerprint": "63d4d14d7208515652aa950c272c46b01d616ac57467e4768572eddf25c7bd98",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-tottori"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:18Z",
+      "lastBodyFetchedAt": "2026-11-09T09:23:18Z",
+      "lastResult": "baseline"
+    },
+    "https://www.santacroceopera.it/en/": {
+      "fingerprint": "e6c24b2ea6c7cf73ff90ae1fd03e41e494dc110de20890d2012fd25c0bdf75cf",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-florence"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:18Z",
+      "lastBodyFetchedAt": "2026-11-09T09:23:18Z",
+      "lastResult": "baseline"
+    },
+    "https://www.schoenbrunn.at/en/": {
+      "fingerprint": "899697320df65ccb11953fa5dc39703d366dd2a7ddac555a52796dfe7f962711",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-vienna"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:19Z",
+      "lastBodyFetchedAt": "2026-11-09T09:23:19Z",
+      "lastResult": "baseline"
+    },
+    "https://www.senaiairport.com/To-From-The-Airport/By-Taxi": {
+      "guideIds": [
+        "book-johorbahru"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:20Z",
+      "lastResult": "unreadable-body"
+    },
+    "https://www.shikokumura.or.jp/": {
+      "fingerprint": "ad1f0a210df917043567b471055a5dd2ff0d225551d95452e59266b368306f0d",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-takamatsu"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:20Z",
+      "lastBodyFetchedAt": "2026-11-09T09:23:20Z",
+      "lastResult": "baseline"
+    },
+    "https://www.stephanskirche.at/": {
+      "guideIds": [
+        "book-vienna"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:21Z",
+      "lastResult": "robots-unavailable"
+    },
+    "https://www.sydney.com/": {
+      "fingerprint": "d996fefa43ef75e51b360ca4481a46a75cd65d2b511e77316b5ada85b06afcfe",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-sydney"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:22Z",
+      "lastBodyFetchedAt": "2026-11-09T09:23:22Z",
+      "lastResult": "baseline"
+    },
+    "https://www.szechenyibath.hu/": {
+      "fingerprint": "e0e5d7b7923f28f44c7999f59bd35a7438e2c5603cad6a1114009bf90d7b0380",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-budapest"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:22Z",
+      "lastBodyFetchedAt": "2026-11-09T09:23:22Z",
+      "lastResult": "baseline"
+    },
+    "https://www.takamatsu-airport.com/access/bus/index.php": {
+      "fingerprint": "836c3176ed32f331502d61c939d66a662052dab69bc79a24ba883854749170fc",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-takamatsu"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:22Z",
+      "lastBodyFetchedAt": "2026-11-09T09:23:22Z",
+      "lastResult": "baseline"
+    },
+    "https://www.tottori-tour.jp/en/food/": {
+      "fingerprint": "9868da995cc43a783e60eab8f62a4e262445c10ed6131b233aa2dda07d90937e",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-tottori"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:22Z",
+      "lastBodyFetchedAt": "2026-11-09T09:23:22Z",
+      "lastResult": "baseline"
+    },
+    "https://www.tottori-tour.jp/en/sightseeing/456/": {
+      "fingerprint": "9bf03bd720eaad9d67e749eb0be8e87c228ce68e075567ca677f781909a683cd",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-tottori"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:24Z",
+      "lastBodyFetchedAt": "2026-11-09T09:23:24Z",
+      "lastResult": "baseline"
+    },
+    "https://www.tourismthailand.org/Attraction/ao-nang": {
+      "guideIds": [
+        "book-krabi"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:24Z",
+      "lastResult": "http-error"
+    },
+    "https://www.tourismthailand.org/Attraction/ban-dam-museum": {
+      "guideIds": [
+        "book-chiangrai"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:24Z",
+      "lastResult": "http-error"
+    },
+    "https://www.tourismthailand.org/Attraction/cicada-market": {
+      "guideIds": [
+        "book-huahin"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:24Z",
+      "lastResult": "http-error"
+    },
+    "https://www.tourismthailand.org/Attraction/hat-hua-hin": {
+      "guideIds": [
+        "book-huahin"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:24Z",
+      "lastResult": "http-error"
+    },
+    "https://www.tourismthailand.org/Attraction/hat-lamai": {
+      "guideIds": [
+        "book-kohsamui"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:24Z",
+      "lastResult": "http-error"
+    },
+    "https://www.tourismthailand.org/Attraction/jomtien-beach": {
+      "guideIds": [
+        "book-pattaya"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:24Z",
+      "lastResult": "http-error"
+    },
+    "https://www.tourismthailand.org/Attraction/khao-takiap": {
+      "guideIds": [
+        "book-huahin"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:24Z",
+      "lastResult": "http-error"
+    },
+    "https://www.tourismthailand.org/Attraction/ko-lan": {
+      "guideIds": [
+        "book-pattaya"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:24Z",
+      "lastResult": "http-error"
+    },
+    "https://www.tourismthailand.org/Attraction/ko-samui": {
+      "guideIds": [
+        "book-kohsamui"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:24Z",
+      "lastResult": "http-error"
+    },
+    "https://www.tourismthailand.org/Attraction/pattaya-beach": {
+      "guideIds": [
+        "book-pattaya"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:24Z",
+      "lastResult": "http-error"
+    },
+    "https://www.tourismthailand.org/Attraction/railay-beach": {
+      "guideIds": [
+        "book-krabi"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:24Z",
+      "lastResult": "http-error"
+    },
+    "https://www.tourismthailand.org/Attraction/wat-phra-kaeo": {
+      "guideIds": [
+        "book-chiangrai"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:24Z",
+      "lastResult": "http-error"
+    },
+    "https://www.tourismthailand.org/Attraction/wat-rong-khun": {
+      "guideIds": [
+        "book-chiangrai"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:24Z",
+      "lastResult": "http-error"
+    },
+    "https://www.tourismthailand.org/Attraction/wat-rong-suea-ten": {
+      "guideIds": [
+        "book-chiangrai"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:24Z",
+      "lastResult": "http-error"
+    },
+    "https://www.tourismthailand.org/Attraction/wat-tham-suea": {
+      "guideIds": [
+        "book-krabi"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:24Z",
+      "lastResult": "http-error"
+    },
+    "https://www.tourismthailand.org/Destinations/Provinces/Chiang-Mai/101": {
+      "guideIds": [
+        "book-chiangmai"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:24Z",
+      "lastResult": "http-error"
+    },
+    "https://www.tourismthailand.org/Destinations/Provinces/Chiang-Rai/102": {
+      "guideIds": [
+        "book-chiangrai"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:25Z",
+      "lastResult": "http-error"
+    },
+    "https://www.tourismthailand.org/Destinations/Provinces/Ko-Samui/360": {
+      "guideIds": [
+        "book-kohsamui"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:25Z",
+      "lastResult": "http-error"
+    },
+    "https://www.tourismthailand.org/Destinations/Provinces/Krabi/344": {
+      "guideIds": [
+        "book-krabi"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:25Z",
+      "lastResult": "http-error"
+    },
+    "https://www.tourismthailand.org/Destinations/Provinces/Pattaya/469": {
+      "guideIds": [
+        "book-pattaya"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:25Z",
+      "lastResult": "http-error"
+    },
+    "https://www.tourismthailand.org/Destinations/Provinces/Phuket/350": {
+      "guideIds": [
+        "book-phuket"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:25Z",
+      "lastResult": "http-error"
+    },
+    "https://www.transnasional.com.my/": {
+      "fingerprint": "9a5dec4286eddde3319053ea344d6850c0be8cc762b3d0ee0c45580804dd0719",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-melaka"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:25Z",
+      "lastBodyFetchedAt": "2026-11-09T09:23:25Z",
+      "lastResult": "baseline"
+    },
+    "https://www.ttj-ap-bld.co.jp/access": {
+      "guideIds": [
+        "book-tottori"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:25Z",
+      "lastResult": "unreadable-body"
+    },
+    "https://www.turismoroma.it/en": {
+      "fingerprint": "d1c5a116c3aebfa3792536560266422671cd4a0e0bb5a10c6e3cd73f93949e41",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-rome"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:25Z",
+      "lastBodyFetchedAt": "2026-11-09T09:23:25Z",
+      "lastResult": "baseline"
+    },
+    "https://www.twtainan.net/en/": {
+      "fingerprint": "4bb6e992f497db5a9882739d5a890eddffe66f7cda4e31037649475f06c26717",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-tainan"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:25Z",
+      "lastBodyFetchedAt": "2026-11-09T09:23:25Z",
+      "lastResult": "baseline"
+    },
+    "https://www.uffizi.it/en/boboli-garden": {
+      "fingerprint": "e9942243fdc04836c20365e7eb118ac2a6aadc8bb4e21e8ef3259c58b229f945",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-florence"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:26Z",
+      "lastBodyFetchedAt": "2026-11-09T09:23:26Z",
+      "lastResult": "baseline"
+    },
+    "https://www.uffizi.it/en/pitti-palace": {
+      "fingerprint": "f768a59a42d624f201943f18416b6d58a27f3ef49ba54619adfcf45af6c89dc0",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-florence"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:27Z",
+      "lastBodyFetchedAt": "2026-11-09T09:23:27Z",
+      "lastResult": "baseline"
+    },
+    "https://www.uffizi.it/en/the-uffizi": {
+      "fingerprint": "da8283bc078f5981b4cb6bfbf8afb3e8f1133ce385c0b065f5cd4ddd73da3574",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-florence"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:27Z",
+      "lastBodyFetchedAt": "2026-11-09T09:23:27Z",
+      "lastResult": "baseline"
+    },
+    "https://www.vananavahuahin.com/": {
+      "fingerprint": "d54907a51956b12dd290b673db342cc04482410ee000149aa4ec3b8ac9578111",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-huahin"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:27Z",
+      "lastBodyFetchedAt": "2026-11-09T09:23:27Z",
+      "lastResult": "baseline"
+    },
+    "https://www.veneziaairport.it/en_gb/transport/from-to/venice": {
+      "guideIds": [
+        "book-venice"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:27Z",
+      "lastResult": "robots-denied"
+    },
+    "https://www.visitguam.com/about-guam/entry-and-exit-formalities/": {
+      "fingerprint": "7f792050d6c050e516bac024bafbea0d940a5737603d79d6b96f4cf75e7ec9c1",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "guam"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:28Z",
+      "lastBodyFetchedAt": "2026-11-09T09:23:28Z",
+      "lastResult": "baseline"
+    },
+    "https://www.visitguam.com/about-guam/safety-tips/water-safety/": {
+      "fingerprint": "512973d2a6dd9910a9eb5ea7811a4973c5a93d88ff48b17d07ef2b8ebbb0e64a",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "guam"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:28Z",
+      "lastBodyFetchedAt": "2026-11-09T09:23:28Z",
+      "lastResult": "baseline"
+    },
+    "https://www.visitguam.com/chamoru-culture/food/": {
+      "fingerprint": "531951bc43cd9a6c006a4b588978a5d2c0ad5aa49b727541df25fd97a6128ab3",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "guam"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:28Z",
+      "lastBodyFetchedAt": "2026-11-09T09:23:28Z",
+      "lastResult": "baseline"
+    },
+    "https://www.visitguam.com/planning/transportation/buses/": {
+      "fingerprint": "43564482a5e799c866b2e4197b9ec510b4a9c2c3780458a4d6938aee8176fc82",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "guam"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:28Z",
+      "lastBodyFetchedAt": "2026-11-09T09:23:28Z",
+      "lastResult": "baseline"
+    },
+    "https://www.visitguam.com/things-to-do/attractions/guam-museum/": {
+      "fingerprint": "c6d59fd873d1af496a2f421cce47d6c3e89421aa3a245c960aa5d2c3150a7b32",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "guam"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:29Z",
+      "lastBodyFetchedAt": "2026-11-09T09:23:29Z",
+      "lastResult": "baseline"
+    },
+    "https://www.visitguam.com/things-to-do/shopping/chamorro-village/": {
+      "fingerprint": "abc6fcaf563a4ee95e926460d28aec74f0a6c5fb3f93a5cd96c238f4eaac7985",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "guam"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:29Z",
+      "lastBodyFetchedAt": "2026-11-09T09:23:29Z",
+      "lastResult": "baseline"
+    },
+    "https://www.visitlisboa.com/en/p/lisbon-flavours/wine": {
+      "fingerprint": "a952ae638c7d18a179af6186604d90fcd47c23b75668974617a948ce1fa4c526",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-lisbon"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:29Z",
+      "lastBodyFetchedAt": "2026-11-09T09:23:29Z",
+      "lastResult": "baseline"
+    },
+    "https://www.visitlisboa.com/en/places/castelo-de-sao-jorge": {
+      "fingerprint": "52db1b31b26606628c8ffefab3d9e8e4ba7156ece46bdce8db2db3afcea00368",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-lisbon"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:30Z",
+      "lastBodyFetchedAt": "2026-11-09T09:23:30Z",
+      "lastResult": "baseline"
+    },
+    "https://www.visitlisboa.com/en/places/interpretative-center-of-the-history-of-cod": {
+      "fingerprint": "d8cfd36afcc0a5c24b7cf539cd522d9b371ec2371f8050d9d20ffbd62a5ef4fe",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-lisbon"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:30Z",
+      "lastBodyFetchedAt": "2026-11-09T09:23:30Z",
+      "lastResult": "baseline"
+    },
+    "https://www.visitlisboa.com/en/places/mac-ccb-museum-of-contemporary-art-and-architecture-centre": {
+      "fingerprint": "3ed35ad0193492cc697fc3193974d62abf375baccf2285d4dc53d1c3559a3165",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-lisbon"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:30Z",
+      "lastBodyFetchedAt": "2026-11-09T09:23:30Z",
+      "lastResult": "baseline"
+    },
+    "https://www.visitlisboa.com/en/places/oceanario-de-lisboa": {
+      "fingerprint": "dd56c55a1476363a3c08bf210c224b6285498e0fb532ecf11ee5d5a79c907e6a",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-lisbon"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:31Z",
+      "lastBodyFetchedAt": "2026-11-09T09:23:31Z",
+      "lastResult": "baseline"
+    },
+    "https://www.visitlisboa.com/en/places/pilar-7-bridge-experience": {
+      "fingerprint": "a9244f21ed61ead75f6a26c33674640a1e046638d696ca001121c4b257fb6112",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-lisbon"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:31Z",
+      "lastBodyFetchedAt": "2026-11-09T09:23:31Z",
+      "lastResult": "baseline"
+    },
+    "https://www.visitlisboa.com/en/places/water-museum-aguas-livres-aqueduct": {
+      "fingerprint": "ac22376e0e9202267a9fe11249df5afd3cfd9f0d6870ddac79a44c50ab3baf2a",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-lisbon"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:32Z",
+      "lastBodyFetchedAt": "2026-11-09T09:23:32Z",
+      "lastResult": "baseline"
+    },
+    "https://www.visitlisboa.com/en/traveller-information": {
+      "fingerprint": "88c32a0e8e1bfc4658d16601dc3e3740da342123f2f0d7adbda7d5983822ddc7",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-lisbon"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:33Z",
+      "lastBodyFetchedAt": "2026-11-09T09:23:33Z",
+      "lastResult": "baseline"
+    },
+    "https://www.visitlondon.com/": {
+      "guideIds": [
+        "book-london"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:34Z",
+      "lastResult": "http-error"
+    },
+    "https://www.wien.info/en/dine-drink/viennese-cuisine/beisl-340946": {
+      "fingerprint": "4fb9161824ff98d3ae31086c4fdde0207d20228483a1860b1b2ea61679fdc111",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-vienna"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:34Z",
+      "lastBodyFetchedAt": "2026-11-09T09:23:34Z",
+      "lastResult": "baseline"
+    },
+    "https://www.wien.info/en/travel-info/arrival-departure/airport-to-center/important-information-for-airport-travellers-2026-2027-1118558": {
+      "fingerprint": "9e9d25ff4aed93c793d90f4506a4f269830cc182a80482b1998ba476e34ea070",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-vienna"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:34Z",
+      "lastBodyFetchedAt": "2026-11-09T09:23:34Z",
+      "lastResult": "baseline"
+    },
+    "https://www.zuerich.com/en/eat-drink/typical-and-traditional": {
+      "fingerprint": "9df29cb0f5d62839717af257d306e238f82a4456b92babe95e055036d90ad729",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-zurich"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:36Z",
+      "lastBodyFetchedAt": "2026-11-09T09:23:36Z",
+      "lastResult": "baseline"
+    },
+    "https://www.zuerich.com/en/inform-plan/getting-there-and-mobility-on-location": {
+      "fingerprint": "284e3530d8e044594613a10bf6c669a4cd4ff1dc324e253434a06c343c4b5df6",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-zurich"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:36Z",
+      "lastBodyFetchedAt": "2026-11-09T09:23:36Z",
+      "lastResult": "baseline"
+    },
+    "https://www.zuerich.com/en/inform-plan/getting-there-and-mobility-on-location/travel-to-zurich/zurich-airport-to-city-center": {
+      "fingerprint": "11af5471dbe35da05bbd9d51aaf7bfcf6b98f7f860403f245f54f7fea3d25ce3",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-lucerne",
+        "book-zurich"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:37Z",
+      "lastBodyFetchedAt": "2026-11-09T09:23:37Z",
+      "lastResult": "baseline"
+    },
+    "https://www.zuerich.com/en/sightseeing-activities/places-to-visit/zurichs-old-town": {
+      "fingerprint": "1455d4d48a88873f4f7800af786c5fa400155963abd861ee351b44fbe9a0a9b3",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-zurich"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:37Z",
+      "lastBodyFetchedAt": "2026-11-09T09:23:37Z",
+      "lastResult": "baseline"
+    },
+    "https://yaeyama.or.jp/food/localfood/": {
+      "fingerprint": "d77fd1dda80b4e62bbb0f31253589f11c452df9e205df492bea3d2d5e0d0a0ad",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-ishigaki"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:37Z",
+      "lastBodyFetchedAt": "2026-11-09T09:23:37Z",
+      "lastResult": "baseline"
+    },
+    "https://yaeyama.or.jp/watch/nature/": {
+      "fingerprint": "411d20413a97705d149ff65eb26c1c31705006272d68f097c13098c7b6202848",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-ishigaki"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:37Z",
+      "lastBodyFetchedAt": "2026-11-09T09:23:37Z",
+      "lastResult": "baseline"
+    },
+    "https://yufuin.gr.jp/access/": {
+      "fingerprint": "cb15e69a624504c01953bce75856ae51f192407d5784c1c0152b44d1cda7494f",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-yufuin"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:38Z",
+      "lastBodyFetchedAt": "2026-11-09T09:23:38Z",
+      "lastResult": "baseline"
+    },
+    "https://yufuin.gr.jp/news/news-7044/": {
+      "fingerprint": "15de2b8ca62f999155cdfd27b326904a1099f471187ad240ecb7557687019254",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-yufuin"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:38Z",
+      "lastBodyFetchedAt": "2026-11-09T09:23:38Z",
+      "lastResult": "baseline"
+    },
+    "https://yufuin.gr.jp/spot/spot-1182/": {
+      "fingerprint": "f4b36c835019e943465ad2ebc5bcb890389a6f63796c206e2594eb18be3107d3",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-yufuin"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:38Z",
+      "lastBodyFetchedAt": "2026-11-09T09:23:38Z",
+      "lastResult": "baseline"
+    },
+    "https://yufuin.gr.jp/spot/spot-1241/": {
+      "fingerprint": "04cad8802b4762f88e10f34f42a8980ad6689c42d82f67cba44c6e2b8346d612",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-yufuin"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:39Z",
+      "lastBodyFetchedAt": "2026-11-09T09:23:39Z",
+      "lastResult": "baseline"
+    },
+    "https://yufuin.gr.jp/spot/spot-1268/": {
+      "fingerprint": "755876c3cbb374ba24dec2e912f1f552de4cfef0d6e8f61192f0ed246d139350",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-yufuin"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:40Z",
+      "lastBodyFetchedAt": "2026-11-09T09:23:40Z",
+      "lastResult": "baseline"
+    },
+    "https://yufuin.gr.jp/spot/spot-1277/": {
+      "fingerprint": "dde4ff66878254c6c66741597bf8460f996f57a0b357f4c6e30081f018b31ce6",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-yufuin"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:41Z",
+      "lastBodyFetchedAt": "2026-11-09T09:23:41Z",
+      "lastResult": "baseline"
+    },
+    "https://yufuin.gr.jp/spot/spot-1285/": {
+      "fingerprint": "c441a00ca9cac44fd338d1c487fc0c615ffc59e9254aae234c4ec001d125a9f9",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-yufuin"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:42Z",
+      "lastBodyFetchedAt": "2026-11-09T09:23:42Z",
+      "lastResult": "baseline"
+    },
+    "https://yufuin.gr.jp/yufuin/": {
+      "fingerprint": "c4c8012be88dfb205eb7b7b258e1cde1c4d75f0b418b12d880dc558140955300",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-yufuin"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:44Z",
+      "lastBodyFetchedAt": "2026-11-09T09:23:44Z",
+      "lastResult": "baseline"
+    },
+    "https://yumeji-art-museum.com/": {
+      "fingerprint": "9a2c80de24fcbe6b6070d42c34b513561b249c562829d4f21ccb1bc498ef3c5a",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-okayama"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:47Z",
+      "lastBodyFetchedAt": "2026-11-09T09:23:47Z",
+      "lastResult": "baseline"
+    },
+    "https://zermatt.swiss/en/discover-experience/culinary": {
+      "fingerprint": "cbb9540fcf26ce373f49fe4adde30e4243d8831a7111af063243bc7099f88a01",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-zermatt"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:50Z",
+      "lastBodyFetchedAt": "2026-11-09T09:23:50Z",
+      "lastResult": "baseline"
+    },
+    "https://zermatt.swiss/en/discover-experience/must-sees/gornergrat": {
+      "fingerprint": "63cc7e79ac4fa0f18326fddcf367b70fda55544757e49cacc3b363d7d88e4fee",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-zermatt"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:50Z",
+      "lastBodyFetchedAt": "2026-11-09T09:23:50Z",
+      "lastResult": "baseline"
+    },
+    "https://zermatt.swiss/en/discover-experience/tradition-culture": {
+      "fingerprint": "4b3957fff3782485982fde54b26208ab753396ba93eaac6d95bc4add80ef121a",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-zermatt"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:52Z",
+      "lastBodyFetchedAt": "2026-11-09T09:23:52Z",
+      "lastResult": "baseline"
+    },
+    "https://zermatt.swiss/en/discover-experience/tradition-culture/museum": {
+      "fingerprint": "c7d5708acf5bb4042247472db71718f92bf876e7ee2b15fb508a2c399f847391",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-zermatt"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:53Z",
+      "lastBodyFetchedAt": "2026-11-09T09:23:53Z",
+      "lastResult": "baseline"
+    },
+    "https://zermatt.swiss/en/p/sunnegga-mountain-station-01tVj000005Dpl8IAC": {
+      "fingerprint": "a94b1d5968c772ee69bece8d109cc82365762993e6a856b193e357074c7101fe",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-zermatt"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:53Z",
+      "lastBodyFetchedAt": "2026-11-09T09:23:53Z",
+      "lastResult": "baseline"
+    },
+    "https://zermatt.swiss/en/p/viewpoint-kirchbruecke-bridge-01tVj000005Dpl7IAC": {
+      "fingerprint": "df740760e5a53bd707865359f49de68b2ea9a7c3a74593b7a2f6902afc69d57e",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-zermatt"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:54Z",
+      "lastBodyFetchedAt": "2026-11-09T09:23:54Z",
+      "lastResult": "baseline"
+    },
+    "https://zermatt.swiss/en/p/viewpoint-old-part-of-the-village-01tVj000005DpoLIAS": {
+      "fingerprint": "da79a6b73d5224424e5544b4ecf6898289c4abbb9a792f7a9273777a8b77fac3",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-zermatt"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:55Z",
+      "lastBodyFetchedAt": "2026-11-09T09:23:55Z",
+      "lastResult": "baseline"
+    },
+    "https://zermatt.swiss/en/plan-book/arrival": {
+      "fingerprint": "dfac88c8a9907cb8ed0c8c14975da90134620003e13f9270d82294318999ca8e",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-zermatt"
+      ],
+      "lastAttemptAt": "2026-11-09T09:23:56Z",
+      "lastBodyFetchedAt": "2026-11-09T09:23:56Z",
+      "lastResult": "baseline"
+    }
+  }
 }
