@@ -145,31 +145,40 @@ export default function TravelHome(props: Props) {
           />
         </section>
       ) : (
-        <section className="home-start-card" aria-label="첫 여행 준비">
-          <div>
-            <span className="home-phase">YOUR NEXT TRIP</span>
-            <h2>
-              다음 여행은
-              <br />
-              어디로 떠날까요?
-            </h2>
-            <button className="button primary" onClick={props.onCreate}>
-              첫 여행 만들기
-              <Plus size={17} />
-            </button>
-          </div>
-          <div className="home-ticket" aria-hidden="true">
-            <span>J★Do · BOARDING PASS</span>
-            <Plane size={32} />
-            <strong>나만의 자유여행</strong>
-            <div className="home-ticket-path">
-              <i />
-              <b />
-              <i />
+        <>
+          <section className="home-start-card" aria-label="첫 여행 준비">
+            <div>
+              <span className="home-phase">YOUR NEXT TRIP</span>
+              <h2>
+                다음 여행은
+                <br />
+                어디로 떠날까요?
+              </h2>
+              <p className="home-start-description">
+                일정·예약·준비물을 한곳에 모아요.
+              </p>
+              <button className="button primary" onClick={props.onCreate}>
+                첫 여행 만들기
+                <Plus size={17} />
+              </button>
             </div>
-            <small>PLAN · GO · REMEMBER</small>
-          </div>
-        </section>
+            <div className="home-ticket" aria-hidden="true">
+              <span>J★Do · BOARDING PASS</span>
+              <Plane size={32} />
+              <strong>나만의 자유여행</strong>
+              <div className="home-ticket-path">
+                <i />
+                <b />
+                <i />
+              </div>
+              <small>PLAN · GO · REMEMBER</small>
+            </div>
+          </section>
+          <p className="home-storage-note">
+            가입 없이 시작할 수 있어요. 기록은 이 기기에 저장되며, 백업·기기
+            동기화는 설정에서 할 수 있어요.
+          </p>
+        </>
       )}
       {trip && journey && (
         <nav className="home-context-nav" aria-label="이번 여행 바로가기">
@@ -179,7 +188,9 @@ export default function TravelHome(props: Props) {
                 <BookOpen size={21} />
                 <span>여행 가이드</span>
               </button>
-              <button onClick={() => props.onExplore(false, true, journey.city!.id)}>
+              <button
+                onClick={() => props.onExplore(false, true, journey.city!.id)}
+              >
                 <Map size={21} />
                 <span>가볼 곳</span>
               </button>
@@ -243,7 +254,9 @@ export default function TravelHome(props: Props) {
             <div className="home-section-heading">
               <div>
                 <span className="home-kicker">
-                  {formatDate(dateAt(trip.startDate, scheduleDay))} · DAY {scheduleDay + 1} · {destinationForDay(trip, scheduleDay).name}
+                  {formatDate(dateAt(trip.startDate, scheduleDay))} · DAY{' '}
+                  {scheduleDay + 1} ·{' '}
+                  {destinationForDay(trip, scheduleDay).name}
                 </span>
                 <h2>{currentDay !== null ? '오늘의 일정' : '여행 일정'}</h2>
               </div>
@@ -261,7 +274,9 @@ export default function TravelHome(props: Props) {
                   <li key={stop.id}>
                     <span>{stop.time}</span>
                     <button
-                      onClick={() => props.onOpenTrip(trip, 'schedule', scheduleDay)}
+                      onClick={() =>
+                        props.onOpenTrip(trip, 'schedule', scheduleDay)
+                      }
                     >
                       <strong>{stopDetails(stop).name}</strong>
                       <Chevron />

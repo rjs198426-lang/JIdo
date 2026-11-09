@@ -6,6 +6,7 @@ import PlaceSearchResults, {
 import TripLibrary from './TripLibrary'
 import GuidebookLibrary from './GuidebookLibrary'
 import GuidebookSearch from './GuidebookSearch'
+import ConnectionNotice from './ConnectionNotice'
 import { guidebookPlaceSnapshot } from './guidebook-trip'
 import { isManagedGuidebook } from './guidebook-store'
 import { createContext, useContext } from 'react'
@@ -496,6 +497,7 @@ function EmptyState({
     <div className="empty-state">
       <div className="empty-icon">{icon}</div>
       <h3>{title}</h3>
+      {description && <p>{description}</p>}
       <button className="button primary" onClick={onAction}>
         {action}
         <ArrowRight size={16} />
@@ -525,6 +527,8 @@ function CreateTrip({
       destination: cityId || (initialName ? 'custom' : ''),
       customCity: initialName,
       customCountry: initialCountry,
+      cityQuery: '',
+      citySearchOpen: false,
       title: '',
       start: today(),
       end: dateAt(today(), course?.days ? course.days.length - 1 : 3),
@@ -543,6 +547,9 @@ function CreateTrip({
   const [recommended, setRecommended] = draft.field('recommended')
   const [courseTime, setCourseTime] = draft.field('courseTime')
   const [error, setError] = useState('')
+  const [citySearchOpen, setCitySearchOpen] = draft.field('citySearchOpen')
+  const [cityQuery, setCityQuery] = draft.field('cityQuery')
+  const [cityMessage, setCityMessage] = useState('')
   const selectedCity = getCity(destination) || {
     name: customCity.trim() || '새로운 도시',
   }
@@ -647,13 +654,18 @@ function CreateTrip({
         if (details) details.open = true
       }}
     >
-      <p className="form-intro">여행지와 날짜만 정하면 준비 끝이에요.</p>
+      <p className="form-intro">
+        여행지와 날짜로 시작해요. 장소와 예약은 나중에 더할 수 있어요.
+      </p>
       <label className="field">
         어디로 떠나세요?
         <select
           required
           value={destination}
-          onChange={(event) => setDestination(event.target.value)}
+          onChange={(event) => {
+            setDestination(event.target.value)
+            setCityMessage('')
+          }}
           disabled={!!placeId || !!course}
         >
           <option value="" disabled>
@@ -673,6 +685,48 @@ function CreateTrip({
           ))}
         </select>
       </label>
+      {!placeId && !course && (
+        <div className="create-city-search">
+          <button
+            type="button"
+            className="text-button"
+            aria-expanded={citySearchOpen}
+            aria-controls="create-city-search-panel"
+            onClick={() => setCitySearchOpen(!citySearchOpen)}
+          >
+            {citySearchOpen ? '검색 닫기' : '다른 도시 가이드 찾기'}
+          </button>
+          {citySearchOpen && (
+            <div id="create-city-search-panel">
+              <label className="field">
+                추가 도시 가이드 검색
+                <input
+                  value={cityQuery}
+                  onChange={(event) => setCityQuery(event.target.value)}
+                  placeholder="예: 파리, 하노이"
+                />
+              </label>
+              <p className="muted">
+                가이드를 받으면 여행지로 선택돼요. 가이드가 없어도 위에서 도시를
+                직접 입력할 수 있어요.
+              </p>
+              <GuidebookSearch
+                query={cityQuery}
+                showEmpty
+                onOpen={(id) => {
+                  setDestination(id)
+                  setCityMessage(
+                    `${getCity(id)?.name || '도시'} 가이드를 받아 여행지로 선택했어요.`,
+                  )
+                  setCitySearchOpen(false)
+                  setError('')
+                }}
+              />
+            </div>
+          )}
+          {cityMessage && <p role="status">{cityMessage}</p>}
+        </div>
+      )}
       {destination === 'custom' && (
         <div className="form-row">
           <label className="field">
@@ -705,9 +759,19 @@ function CreateTrip({
             type="date"
             value={start}
             onChange={(event) => {
-              setStart(event.target.value)
-              if (course?.days && event.target.value)
-                setEnd(dateAt(event.target.value, course.days.length - 1))
+              const nextStart = event.target.value
+              const previousLength = dayCount(start, end)
+              setStart(nextStart)
+              if (nextStart && (course?.days || !end || end < nextStart)) {
+                const length =
+                  course?.days?.length ||
+                  (Number.isFinite(previousLength) &&
+                  previousLength >= 1 &&
+                  previousLength <= 90
+                    ? previousLength
+                    : 4)
+                setEnd(dateAt(nextStart, length - 1))
+              }
               setError('')
             }}
           />
@@ -718,6 +782,7 @@ function CreateTrip({
             required
             type="date"
             value={end}
+            min={start || undefined}
             onChange={(event) => {
               setEnd(event.target.value)
               setError('')
@@ -1696,13 +1761,36 @@ function Itinerary({
                     </div>
                   )}
                   {stops.length === 0 ? (
-                    <EmptyState
-                      icon={<MapIcon size={32} />}
-                      title="아직 비어 있는 하루"
-                      description="가고 싶은 곳을 더해 나만의 하루를 만들어보세요."
-                      action="장소 추가"
-                      onAction={onAdd}
-                    />
+                    <div className="schedule-first-place">
+                      <EmptyState
+                        icon={<MapIcon size={32} />}
+                        title="아직 비어 있는 하루"
+                        description="가고 싶은 장소부터 담아보세요. 방문 시간은 나중에 정해도 돼요."
+                        action="장소 추가"
+                        onAction={onAdd}
+                      />
+                      {!trip.days.some((items) => items.length) && (
+                        <nav
+                          className="first-trip-actions"
+                          aria-label="여행 준비 시작"
+                        >
+                          <button
+                            className="text-button"
+                            onClick={() => setWorkspace('reservations')}
+                          >
+                            <Ticket size={17} />
+                            예약 기록하기
+                          </button>
+                          <button
+                            className="text-button"
+                            onClick={() => setWorkspace('checklist')}
+                          >
+                            <CheckSquare size={17} />
+                            준비물 챙기기
+                          </button>
+                        </nav>
+                      )}
+                    </div>
                   ) : (
                     <div className="timeline">
                       {!visibleStops.length && (
@@ -2727,6 +2815,7 @@ export default function App() {
         </div>
       </header>
       <main className="main">
+        <ConnectionNotice />
         {driveSync.enabled &&
           page !== 'settings' &&
           (driveSync.phase === 'conflict' || driveSync.phase === 'error') && (

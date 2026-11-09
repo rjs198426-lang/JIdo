@@ -1,0 +1,19 @@
+{
+  "version": "0.82",
+  "versionCode": 83,
+  "package": "com.jido.travel.next",
+  "bytes": 41431610,
+  "sha256": "ecd0c99d564b437ff4caf39f9aa15002559259d8c14257586ea7ccbe969f9c4a",
+  "certificateSha256": "0d1b1f20dae73d00626d9ebb4f460943c4f16c2266bc7bc58d124d13b32494ac",
+  "signatureVerified": true,
+  "matchedWebAssets": 237,
+  "privateSigningFilesFound": false,
+  "existingMapsConfigurationBundled": true,
+  "nativeDeviceInstallTested": false,
+  "checkedAt": "2026-11-09T13:39:21.402092+00:00",
+  "sourceBaseCommit": "65f466f44b96bb43dad44f4aaa4ad9292bd477d6",
+  "scope": "First-time traveler usability fixes",
+  "regressionTestsPassed": 136,
+  "newFirstUseTestsPassed": 14,
+  "publicCommit": "a849c33b4e4bc61ae20c0eab081bb4b4ddce1fe7"
+}

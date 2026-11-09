@@ -171,7 +171,7 @@ export default function PreparationChecklist({
       <p className="preparation-remaining">
         {items.length
           ? items.length === done
-            ? '여행 준비를 모두 마쳤어요'
+            ? '등록한 준비물을 모두 체크했어요'
             : `출발 전, ${items.length - done}개만 더 챙기면 돼요`
           : '챙길 것부터 하나씩 준비해요'}
       </p>

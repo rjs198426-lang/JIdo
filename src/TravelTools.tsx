@@ -113,6 +113,12 @@ export function Reservations({ trip, onUpdate, day = 0 }: Props) {
         </div>
         <Ticket size={26} />
       </div>
+      {!items.length && (
+        <p className="reservation-start-note">
+          이미 예약한 항공·숙소·교통 정보를 기록하는 곳이에요. 실제 예약은
+          이용할 서비스에서 진행해 주세요.
+        </p>
+      )}
       <button
         className="button primary"
         onClick={() => {

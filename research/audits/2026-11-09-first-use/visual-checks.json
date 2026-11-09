@@ -1,0 +1,77 @@
+[
+  {
+    "width": 320,
+    "name": "home",
+    "overflow": false
+  },
+  {
+    "width": 320,
+    "name": "create",
+    "overflow": false
+  },
+  {
+    "width": 320,
+    "name": "schedule",
+    "overflow": false
+  },
+  {
+    "width": 320,
+    "name": "checklist",
+    "overflow": false
+  },
+  {
+    "width": 320,
+    "name": "offline",
+    "overflow": false
+  },
+  {
+    "width": 393,
+    "name": "home",
+    "overflow": false
+  },
+  {
+    "width": 393,
+    "name": "create",
+    "overflow": false
+  },
+  {
+    "width": 393,
+    "name": "schedule",
+    "overflow": false
+  },
+  {
+    "width": 393,
+    "name": "checklist",
+    "overflow": false
+  },
+  {
+    "width": 393,
+    "name": "offline",
+    "overflow": false
+  },
+  {
+    "width": 1440,
+    "name": "home",
+    "overflow": false
+  },
+  {
+    "width": 1440,
+    "name": "create",
+    "overflow": false
+  },
+  {
+    "width": 1440,
+    "name": "schedule",
+    "overflow": false
+  },
+  {
+    "width": 1440,
+    "name": "checklist",
+    "overflow": false
+  },
+  {
+    "width": 1440,
+    "name": "offline",
+    "overflow": false
+  }
+]

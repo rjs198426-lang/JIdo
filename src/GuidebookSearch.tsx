@@ -6,9 +6,11 @@ import { cities } from './catalog'
 export default function GuidebookSearch({
   query,
   onOpen,
+  showEmpty = false,
 }: {
   query: string
   onOpen: (id: string) => void
+  showEmpty?: boolean
 }) {
   const catalog = useGuidebookIndex()
   const { index } = catalog
@@ -33,12 +35,13 @@ export default function GuidebookSearch({
         .toLocaleLowerCase()
         .includes(q),
   )
-  if (!books.length && !error) return null
+  if (!books.length && !error && !showEmpty) return null
   return (
     <section className="guidebook-search" aria-label="받을 수 있는 도시 가이드">
       <div className="detail-section-heading">
         <h2>도시 가이드 받기</h2>
         <button
+          type="button"
           className="text-button"
           disabled={!!busy || catalog.checking}
           onClick={async () => {
@@ -65,6 +68,7 @@ export default function GuidebookSearch({
             </p>
           </div>
           <button
+            type="button"
             className="button primary small"
             aria-label={`${book.name} 가이드 받기`}
             disabled={!!busy || book.minBuild > __JIDO_APP_INFO__.build}

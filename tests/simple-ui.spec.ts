@@ -96,6 +96,8 @@ async function stored(page: Page) {
   )
 }
 async function seed(page: Page) {
+  // Keep the November trip upcoming regardless of the real test date.
+  await page.clock.setFixedTime(new Date('2026-10-30T03:00:00Z'))
   await page.goto('/')
   const value = fixture()
   await page.evaluate(

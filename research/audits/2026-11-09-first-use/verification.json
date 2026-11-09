@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-11-09T13:41:01.640963+00:00",
+  "method": "task-based expert review, synthetic browser contexts; not customer research",
+  "browserChecks": {
+    "passed": 136,
+    "failed": 0,
+    "projects": [
+      "desktop",
+      "mobile"
+    ],
+    "newFirstUseChecks": 14,
+    "productionStaticBuild": true,
+    "productionQaBuildVersion": "0.81",
+    "note": "Same final UI code; Android release 0.82 uses the existing Maps configuration and incremented version only.",
+    "files": [
+      "first-time-traveler.spec.ts",
+      "simple-ui.spec.ts",
+      "trip-discovery.spec.ts",
+      "flexible-schedule.spec.ts",
+      "ui-refinement.spec.ts",
+      "storage-safety.spec.ts",
+      "guidebook-index.spec.ts"
+    ]
+  },
+  "visualChecks": {
+    "widths": [
+      320,
+      393,
+      1440
+    ],
+    "screens": 15,
+    "horizontalOverflow": false
+  },
+  "build": {
+    "typescript": "passed",
+    "web": "passed",
+    "androidRelease": "passed",
+    "version": "0.82",
+    "versionCode": 83,
+    "existingCertificateMatches": true,
+    "matchedWebAssets": 237,
+    "newSigningKeyCreated": false,
+    "nativeDeviceInstallTested": false
+  },
+  "publicGuideData": {
+    "guides": 85,
+    "places": 1410,
+    "downloadable": 64,
+    "guidebooksCheck": "passed",
+    "databaseCheck": "passed",
+    "originalsChanged": false
+  },
+  "limitations": [
+    "Actual Android keyboard, font scale and device install not tested",
+    "No real-user interviews or satisfaction statistics",
+    "Google Maps/Drive live services not tested by HTTP/bridge response models"
+  ],
+  "executionNotes": [
+    "Initial dev-server regression run interrupted after module-loading timeouts; rerun on isolated static production assets.",
+    "Fixed existing simple-ui trip date to 2026-10-30 so future-trip assertions do not expire.",
+    "Initial first-use check caught omitted EmptyState descriptions; fixed and final rerun passed."
+  ]
+}

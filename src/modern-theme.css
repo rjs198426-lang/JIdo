@@ -2331,3 +2331,72 @@ body {
   flex-shrink: 0;
   white-space: nowrap;
 }
+
+/* First-use guidance stays in the task, without a mandatory tour or permissions. */
+.connection-notice {
+  font-size: 18px;
+  padding: 12px 16px;
+  margin: 12px 0;
+  border-radius: 12px;
+  background: #fff5dc;
+  color: #594416;
+  line-height: 1.7;
+}
+.connection-notice strong { margin-right: 6px; }
+:root .home-start-description {
+  margin: -6px 0 16px;
+  line-height: 1.6;
+  color: var(--deep);
+  font-size: 18px;
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+}
+:root .home-storage-note {
+  margin: 12px 2px 20px;
+  color: var(--muted);
+  line-height: 1.7;
+  font-size: 18px;
+}
+.create-city-search {
+  min-width: 0;
+}
+.create-city-search > button {
+  min-height: 49px;
+}
+.create-city-search .guidebook-search {
+  margin-top: 12px;
+}
+.create-city-search .guidebook-row {
+  gap: 12px;
+}
+.create-city-search .guidebook-row > div {
+  min-width: 0;
+}
+.create-city-search :is(p, strong) {
+  overflow-wrap: anywhere;
+}
+.first-trip-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+  justify-content: center;
+  padding: 0 12px 16px;
+}
+.first-trip-actions > button {
+  min-height: 49px;
+  white-space: nowrap;
+}
+:root :is(.readiness-scope, .reservation-start-note) {
+  font-size: 18px;
+  line-height: 1.7;
+  color: var(--muted);
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+}
+:root .empty-state p {
+  color: var(--muted);
+  font-size: 18px;
+  margin: 12px 0 20px;
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+}

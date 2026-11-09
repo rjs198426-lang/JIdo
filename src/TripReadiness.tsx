@@ -15,14 +15,40 @@ export default function TripReadiness({
     filtered = issues.filter(
       (item) => category === '전체' || item.category === category,
     )
+  const hasRecords =
+    trip.days.some((stops) => stops.length) ||
+    !!trip.reservations?.length ||
+    !!trip.checklist?.length
   return (
     <section className="trip-readiness" aria-label="여행 점검">
       <div className="tool-heading">
         <h4>여행 점검</h4>
         <span>
-          {issues.length ? `${issues.length}건 확인` : '확인할 항목이 없어요'}
+          {issues.length
+            ? `${issues.length}건 확인`
+            : hasRecords
+              ? '등록한 기록에서 발견한 문제 없음'
+              : '아직 점검할 기록이 없어요'}
         </span>
       </div>
+      <p className="readiness-scope">
+        등록한 일정·예약·준비물만 점검해요. 입국 조건과 실제 예약 상태는 별도로
+        확인해 주세요.
+      </p>
+      {!hasRecords && (
+        <div className="readiness-list">
+          {[
+            ['가고 싶은 장소 담기', 'schedule'],
+            ['예약한 항공·숙소 기록하기', 'reservations'],
+            ['여권·통신 등 준비물 확인하기', 'checklist'],
+          ].map(([label, workspace]) => (
+            <button key={workspace} onClick={() => onLocate({ workspace })}>
+              <span>{label}</span>
+              <ChevronRight size={17} />
+            </button>
+          ))}
+        </div>
+      )}
       {issues.length > 0 && (
         <>
           <div
