@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-11-09T08:13:52.493157+00:00",
+  "baseCommit": "3c71ab46f5fb218312f987051978e15254eac9b3",
+  "problem": "Public guide index grew but the APK reset to its bundled list on every screen mount; manual refresh results were not persisted.",
+  "evidence": {
+    "oldAndroidVersion": "0.80",
+    "oldBundledGuideCount": 59,
+    "publicDownloadableGuideCount": 64,
+    "centralGuides": 85,
+    "centralPlaces": 1410,
+    "publicFiles": [
+      {
+        "file": "guidebooks/manifest.json",
+        "bytes": 34408,
+        "sha256": "e4d2639e3cfa910a106896c0bf67c16b33cda96d0afb4b62ed89c2cdbd608bc2"
+      },
+      {
+        "file": "guidebook-database/index.json",
+        "bytes": 39270,
+        "sha256": "1e4ef14219eaaf13079498b566232361cdcdf5f7b32a5dc93905c8cc5fc1890c"
+      }
+    ]
+  },
+  "changes": [
+    "shared validated public index cache",
+    "automatic daily check when opening discovery/library",
+    "offline/restart retention",
+    "manual refresh and no query transmission",
+    "bounded retry holds for previously blocked candidates"
+  ],
+  "automationObservation": {
+    "checkedAt": "2026-11-09",
+    "timezone": "Asia/Seoul",
+    "newCitySchedule": "weekly Sunday 03:00",
+    "refreshSchedule": "weekly Sunday 03:00",
+    "bothEnabled": true,
+    "lastRecordedNewTime": "2026-11-07T17:57:38.329061+00:00",
+    "lastRecordedRefreshTime": "2026-11-07T17:59:16.439361+00:00",
+    "detailedRunHistory": null,
+    "nextRunTime": null,
+    "successfulExecutionInferred": false,
+    "schedulesChanged": false
+  },
+  "newCityGuidesAuthored": 0,
+  "guideDataChanged": false,
+  "validation": {
+    "databaseTestsPassed": 7,
+    "guidebooksAndDatabaseChecks": "passed",
+    "androidReleaseBuild": "passed",
+    "webAssetAudit": "passed",
+    "matchedApkWebAssets": 237,
+    "uniqueBrowserTestsPassed": 43,
+    "firstBrowserRun": {
+      "passed": 42,
+      "failed": 1
+    },
+    "retry": {
+      "passed": 1,
+      "failed": 0
+    },
+    "retryReason": "기존 배치 검사에서 화면 열기의 자동 확인과 수동 확인2회의 요청 수를 반영.",
+    "nativeDeviceInstallTested": false
+  },
+  "publicationStatus": "validated-pending-push"
+}

@@ -186,3 +186,56 @@ test('a real recent review changes priority without rewriting the original sourc
   assert.equal(result.selected[1].sourceCheckedAt, '2026-01-01')
   assert.equal(result.selected[1].reviewPriorityDate, '2026-10-28')
 })
+
+test('dated failed candidates defer to other cities and return after their bounded retry date', () => {
+  const hold = {
+    checkedAt: '2026-11-07',
+    retryAfter: '2026-11-21',
+    reason: 'Official detail returned 404',
+    evidencePath: 'research/guidebooks/runs/20261107T1800-new.json',
+  }
+  const candidate = {
+    slug: 'held-city',
+    name: '보류 도시',
+    country: '테스트',
+    researchHold: hold,
+  }
+  const queue = {
+    cities: [
+      candidate,
+      ...Array.from({ length: 6 }, (_, i) => ({
+        slug: `ready-${i}`,
+        name: `도시${i}`,
+        country: '테스트',
+      })),
+    ],
+  }
+  const before = JSON.stringify(queue)
+  const result = planNewCities(queue, { guides: [] }, 5, '2026-11-09')
+  assert.equal(result.selected.length, 5)
+  assert.equal(result.selected[0].slug, 'ready-0')
+  assert.equal(result.deferred[0].slug, 'held-city')
+  assert.equal(
+    planNewCities(queue, { guides: [] }, 5, '2026-11-21').selected[0].slug,
+    'held-city',
+  )
+  assert.equal(JSON.stringify(queue), before)
+  for (const change of [
+    { retryAfter: 'bad' },
+    { retryAfter: '2028-11-21' },
+    { checkedAt: '2026-11-30' },
+    { evidencePath: '../../private' },
+    { reason: '' },
+  ]) {
+    const invalid = {
+      cities: [
+        { ...candidate, researchHold: { ...hold, ...change } },
+        ...queue.cities.slice(1),
+      ],
+    }
+    assert.equal(
+      planNewCities(invalid, { guides: [] }, 5, '2026-11-09').selected[0].slug,
+      'held-city',
+    )
+  }
+})

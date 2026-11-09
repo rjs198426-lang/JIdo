@@ -79,7 +79,13 @@
     {
       "slug": "boracay",
       "name": "보라카이",
-      "country": "필리핀"
+      "country": "필리핀",
+      "researchHold": {
+        "checkedAt": "2026-11-07",
+        "retryAfter": "2026-11-21",
+        "reason": "HTTP200이지만 무관한 게임 사이트로 리다이렉트. 관광 근거·사진으로 사용하지 않음.",
+        "evidencePath": "research/guidebooks/runs/20261107T1800-new.json"
+      }
     },
     {
       "slug": "manila",
@@ -89,7 +95,13 @@
     {
       "slug": "clark",
       "name": "클락",
-      "country": "필리핀"
+      "country": "필리핀",
+      "researchHold": {
+        "checkedAt": "2026-11-07",
+        "retryAfter": "2026-11-21",
+        "reason": "개발공사로 리다이렉트하며 읽은 본문은 투자·등록·기업 안내 중심. 장소5곳·여행 실용 본문 근거 부족.",
+        "evidencePath": "research/guidebooks/runs/20261107T1800-new.json"
+      }
     },
     {
       "slug": "puertoprincesa",
@@ -104,7 +116,13 @@
     {
       "slug": "haiphong",
       "name": "하이퐁",
-      "country": "베트남"
+      "country": "베트남",
+      "researchHold": {
+        "checkedAt": "2026-11-07",
+        "retryAfter": "2026-11-21",
+        "reason": "요청 관광 상세 경로404. 다른 검색 결과만으로 도시의5개 장소·교통을 완성하지 않음.",
+        "evidencePath": "research/guidebooks/runs/20261107T1800-new.json"
+      }
     },
     {
       "slug": "hue",
@@ -114,7 +132,13 @@
     {
       "slug": "quynhon",
       "name": "꾸이년",
-      "country": "베트남"
+      "country": "베트남",
+      "researchHold": {
+        "checkedAt": "2026-11-07",
+        "retryAfter": "2026-11-21",
+        "reason": "요청 관광 상세 경로404. 검색에 발견한 도시계획·해변 소개만으로 원고 전체가 검증되지 않아 보류.",
+        "evidencePath": "research/guidebooks/runs/20261107T1800-new.json"
+      }
     },
     {
       "slug": "halong",
@@ -169,7 +193,13 @@
     {
       "slug": "qingdao",
       "name": "칭다오",
-      "country": "중국"
+      "country": "중국",
+      "researchHold": {
+        "checkedAt": "2026-11-07",
+        "retryAfter": "2026-11-21",
+        "reason": "요청 경로503. 제한을 우회하거나 내용을 추정하지 않음.",
+        "evidencePath": "research/guidebooks/runs/20261107T1800-new.json"
+      }
     },
     {
       "slug": "zhangjiajie",

@@ -112,7 +112,11 @@ test('only selected city downloads; opening offline after restart preserves priv
     requests.push(r.request().url())
     expect(r.request().method()).toBe('GET')
     expect(r.request().postData()).toBeNull()
-    return r.fulfill({ body, contentType: 'application/json' })
+    return r.fulfill(
+      r.request().url() === base + 'manifest.json'
+        ? { json: manifest }
+        : { body, contentType: 'application/json' },
+    )
   })
   await boot(page)
   const before = await page.evaluate(() =>
@@ -121,7 +125,7 @@ test('only selected city downloads; opening offline after restart preserves priv
   const r = await row(page)
   await r.getByRole('button', { name: '불러오기', exact: true }).click()
   await expect(r.getByText('기기에 저장됨')).toBeVisible()
-  expect(requests).toEqual([base + entry.file])
+  expect(requests).toEqual([base + 'manifest.json', base + entry.file])
   expect(
     await page.evaluate(() => localStorage.getItem('jido-travel-v1')),
   ).toBe(before)

@@ -6,19 +6,26 @@
     {
       "title": "J★Do 새 도시 가이드북",
       "isEnabled": true,
-      "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Seoul:20261029T020000\nRRULE:FREQ=DAILY;BYHOUR=2,8,14,20;BYMINUTE=0;BYSECOND=0\nEND:VEVENT",
+      "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Seoul:20261101T030000\nRRULE:FREQ=WEEKLY;BYDAY=SU;BYHOUR=3;BYMINUTE=0;BYSECOND=0\nEND:VEVENT",
       "timingMode": "exact_schedule",
       "registrationConfirmed": true,
-      "firstRunVerified": false
+      "firstRunVerified": false,
+      "observedLastRunTime": "2026-11-07T17:57:38.329061+00:00",
+      "observedNextRunTime": null,
+      "runDetailsAvailable": false
     },
     {
       "title": "J★Do 가이드북 최신화",
       "isEnabled": true,
-      "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Seoul:20261029T200000\nRRULE:FREQ=DAILY;BYHOUR=20;BYMINUTE=0;BYSECOND=0\nEND:VEVENT",
+      "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Seoul:20261101T030000\nRRULE:FREQ=WEEKLY;BYDAY=SU;BYHOUR=3;BYMINUTE=0;BYSECOND=0\nEND:VEVENT",
       "timingMode": "exact_schedule",
       "registrationConfirmed": true,
-      "firstRunVerified": false
+      "firstRunVerified": false,
+      "observedLastRunTime": "2026-11-07T17:59:16.439361+00:00",
+      "observedNextRunTime": null,
+      "runDetailsAvailable": false
     }
   ],
-  "note": "자동 작업 생성·활성화 확인. 첫 예정 실행은 아직 수행되지 않았으며, 저장소 접근·실제 조사·게시는 각 실행 결과로 확인한다. GitHub Actions의 빌드 검사와 별개다."
+  "note": "2026-11-09 도구로 기존 두 작업의 매주 일요일03:00 Asia/Seoul·활성화를 확인했다. 시간은 변경하지 않았다. 상세last_run/latest_result와next_run_time은null이므로 도구의last_run_time만으로 조사·게시 성공이나 중단을 단정하지 않는다. 실제 공개 게시 기록과 별도로 대조한다. 다른 자동화의 정보는 수집·게시하지 않는다.",
+  "scheduleCheckedAt": "2026-11-09"
 }

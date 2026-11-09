@@ -6,18 +6,54 @@ const normalize = (value) =>
     .normalize('NFKC')
     .toLowerCase()
     .replace(/[\s·&-]+/g, '')
-export function planNewCities(queue, index, limit = 5) {
+export function planNewCities(
+  queue,
+  index,
+  limit = 5,
+  today = new Date().toISOString().slice(0, 10),
+) {
   if (!Number.isInteger(limit) || limit < 5 || limit > 10)
     throw new Error('New-city batches must contain 5–10 cities.')
   const ids = new Set(index.guides.map((g) => g.id)),
     names = new Set(
       index.guides.map((g) => normalize(g.country) + '/' + normalize(g.name)),
     )
-  const selected = []
+  const selected = [],
+    deferred = []
   for (const city of queue.cities) {
     const key = normalize(city.country) + '/' + normalize(city.name)
     if (ids.has('book-' + city.slug) || ids.has(city.slug) || names.has(key))
       continue
+    const hold = city.researchHold
+    const checked = Date.parse(hold?.checkedAt),
+      retry = Date.parse(hold?.retryAfter)
+    // A failed URL must not monopolize every batch. Only a dated, bounded
+    // hold with review evidence defers it; it becomes eligible automatically.
+    if (
+      hold &&
+      /^\d{4}-\d{2}-\d{2}$/.test(hold.checkedAt) &&
+      /^\d{4}-\d{2}-\d{2}$/.test(hold.retryAfter) &&
+      Number.isFinite(checked) &&
+      Number.isFinite(retry) &&
+      new Date(checked).toISOString().slice(0, 10) === hold.checkedAt &&
+      new Date(retry).toISOString().slice(0, 10) === hold.retryAfter &&
+      hold.checkedAt <= today &&
+      hold.retryAfter > today &&
+      retry > checked &&
+      retry - checked <= 30 * 86400000 &&
+      typeof hold.reason === 'string' &&
+      hold.reason.trim() &&
+      /^research\/guidebooks\/runs\/[\w-]+\.json$/.test(hold.evidencePath)
+    ) {
+      deferred.push({
+        slug: city.slug,
+        name: city.name,
+        retryAfter: hold.retryAfter,
+        reason: hold.reason,
+        evidencePath: hold.evidencePath,
+      })
+      continue
+    }
     ids.add('book-' + city.slug)
     names.add(key)
     selected.push(city)
@@ -29,6 +65,7 @@ export function planNewCities(queue, index, limit = 5) {
     minCompleted: 5,
     maxCompleted: 10,
     selected,
+    deferred,
     needsMoreCandidates: selected.length < 5,
   }
 }

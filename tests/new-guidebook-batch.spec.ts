@@ -129,6 +129,8 @@ test('researched city guide batches download one by one, render researched text 
     await expect(row.getByText('기기에 저장됨')).toBeVisible()
   }
   expect(requests).toEqual([
+    // Opening checks once; the explicit refresh deliberately checks again.
+    base + 'manifest.json',
     base + 'manifest.json',
     ...ids.map((id) => base + index.books.find((b: any) => b.id === id).file),
   ])

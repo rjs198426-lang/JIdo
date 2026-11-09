@@ -1,9 +1,8 @@
 import { useDraftFields } from './form-draft'
 import { useEffect, useRef, useState, useSyncExternalStore } from 'react'
 import { BookOpen, Download, RefreshCw, Search } from 'lucide-react'
-import bundledIndex from '../guidebooks/manifest.json'
-import { guidebookIndexSchema, type GuidebookIndex } from './guidebook-schema'
-import { fetchGuidebookIndex, downloadGuidebook } from './guidebook-api'
+import { useGuidebookIndex } from './useGuidebookIndex'
+import { downloadGuidebook } from './guidebook-api'
 import {
   guidebooksSnapshot,
   guidebooksUnreadable,
@@ -18,9 +17,8 @@ export default function GuidebookLibrary({
     subscribeGuidebooks,
     guidebooksSnapshot,
   )
-  const [index, setIndex] = useState<GuidebookIndex>(() =>
-    guidebookIndexSchema.parse(bundledIndex),
-  )
+  const catalog = useGuidebookIndex()
+  const { index } = catalog
   const view = useDraftFields('jido-view:guidebook-library', { query: '' })
   const [query, setQuery] = view.field('query')
   const [busy, setBusy] = useState(''),
@@ -59,19 +57,19 @@ export default function GuidebookLibrary({
       </label>
       <div className="guidebook-library-status">
         <span>
-          {index.books.length}개 도시 · 기기에 {installed.books.length}개 저장
+          받을 수 있는 도시 {index.books.length}개 · 기기에{' '}
+          {installed.books.length}개 저장
         </span>
         <button
           className="text-button"
-          disabled={!!busy}
+          disabled={!!busy || catalog.checking}
           onClick={async () => {
             setBusy('index')
             setError('')
             setMessage('')
             try {
-              const fresh = await fetchGuidebookIndex()
+              await catalog.refresh()
               if (active.current) {
-                setIndex(fresh)
                 setMessage('가이드북 목록을 확인했어요.')
               }
             } catch {
@@ -85,9 +83,16 @@ export default function GuidebookLibrary({
           }}
         >
           <RefreshCw size={15} />
-          목록 새로고침
+          {catalog.checking ? '목록 확인 중…' : '목록 새로고침'}
         </button>
       </div>
+      <p className="muted" aria-live="polite">
+        {catalog.checking
+          ? '새 가이드북이 있는지 확인하고 있어요.'
+          : catalog.error ||
+            catalog.cacheWarning ||
+            `목록 ${index.updatedAt.slice(0, 10)} · 하루 한 번 자동 확인`}
+      </p>
       {guidebooksUnreadable() && (
         <p role="alert">
           저장된 가이드북을 읽지 못했어요. 필요한 도시를 다시 불러와 주세요.

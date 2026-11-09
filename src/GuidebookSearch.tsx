@@ -1,7 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
-import bundledIndex from '../guidebooks/manifest.json'
-import { guidebookIndexSchema } from './guidebook-schema'
-import { downloadGuidebook, fetchGuidebookIndex } from './guidebook-api'
+import { useGuidebookIndex } from './useGuidebookIndex'
+import { downloadGuidebook } from './guidebook-api'
 import { cities } from './catalog'
 
 export default function GuidebookSearch({
@@ -11,9 +10,8 @@ export default function GuidebookSearch({
   query: string
   onOpen: (id: string) => void
 }) {
-  const [index, setIndex] = useState(() =>
-    guidebookIndexSchema.parse(bundledIndex),
-  )
+  const catalog = useGuidebookIndex()
+  const { index } = catalog
   const [busy, setBusy] = useState('')
   const [error, setError] = useState('')
   const active = useRef(true)
@@ -42,12 +40,12 @@ export default function GuidebookSearch({
         <h2>도시 가이드 받기</h2>
         <button
           className="text-button"
-          disabled={!!busy}
+          disabled={!!busy || catalog.checking}
           onClick={async () => {
             setBusy('index')
             setError('')
             try {
-              setIndex(await fetchGuidebookIndex())
+              await catalog.refresh()
             } catch {
               setError('목록을 확인하지 못했어요. 다시 시도해 주세요.')
             } finally {

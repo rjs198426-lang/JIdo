@@ -11,6 +11,7 @@ export const GUIDEBOOK_BASE =
   'https://raw.githubusercontent.com/rjs198426-lang/JIdo/main/guidebooks/'
 async function read(path: string, limit: number) {
   const response = await fetch(GUIDEBOOK_BASE + path, {
+    cache: path === 'manifest.json' ? 'no-store' : 'default',
     credentials: 'omit',
     referrerPolicy: 'no-referrer',
     redirect: 'error',
