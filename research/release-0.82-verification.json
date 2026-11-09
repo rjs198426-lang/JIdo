@@ -10,10 +10,246 @@
   "privateSigningFilesFound": false,
   "existingMapsConfigurationBundled": true,
   "nativeDeviceInstallTested": false,
-  "checkedAt": "2026-11-09T13:39:21.402092+00:00",
+  "checkedAt": "2026-11-09T13:42:13.386307+00:00",
   "sourceBaseCommit": "65f466f44b96bb43dad44f4aaa4ad9292bd477d6",
   "scope": "First-time traveler usability fixes",
   "regressionTestsPassed": 136,
   "newFirstUseTestsPassed": 14,
-  "publicCommit": "a849c33b4e4bc61ae20c0eab081bb4b4ddce1fe7"
+  "publicCommit": "a849c33b4e4bc61ae20c0eab081bb4b4ddce1fe7",
+  "sourceCommit": "6625b972fd87b79a028c891422edd2f1d7c63c75",
+  "publicDownloads": [
+    {
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/a849c33b4e4bc61ae20c0eab081bb4b4ddce1fe7/JDo-android-0.82.apk",
+      "httpStatus": 200,
+      "bytes": 41431610,
+      "sha256": "ecd0c99d564b437ff4caf39f9aa15002559259d8c14257586ea7ccbe969f9c4a",
+      "matchesBuild": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/android-apk-downloads/JDo-android.apk",
+      "httpStatus": 200,
+      "bytes": 41431610,
+      "sha256": "ecd0c99d564b437ff4caf39f9aa15002559259d8c14257586ea7ccbe969f9c4a",
+      "matchesBuild": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/android-apk-downloads/jido-release.apk",
+      "httpStatus": 200,
+      "bytes": 41431610,
+      "sha256": "ecd0c99d564b437ff4caf39f9aa15002559259d8c14257586ea7ccbe969f9c4a",
+      "matchesBuild": true
+    }
+  ],
+  "anonymousDownload": true,
+  "downloadedSignatureVerified": true,
+  "publicSourceFiles": [
+    {
+      "path": "AGENTS.md",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/6625b972fd87b79a028c891422edd2f1d7c63c75/AGENTS.md",
+      "httpStatus": 200,
+      "bytes": 37210,
+      "sha256": "45bd29bec35899d4278492dd57221469d89052aa098a28feac360856a9dcba26",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "ANDROID-DOWNLOAD.md",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/6625b972fd87b79a028c891422edd2f1d7c63c75/ANDROID-DOWNLOAD.md",
+      "httpStatus": 200,
+      "bytes": 87768,
+      "sha256": "9923bee98e531538a8d946f54e8434398bc58ac92f5290eaed2681ac0c1841ed",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/6625b972fd87b79a028c891422edd2f1d7c63c75/README.md",
+      "httpStatus": 200,
+      "bytes": 18802,
+      "sha256": "8e659f1c04ed5973a145f51e74003a247fc22ff2a4505af1dcb89376647277bd",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "UI.md",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/6625b972fd87b79a028c891422edd2f1d7c63c75/UI.md",
+      "httpStatus": 200,
+      "bytes": 64581,
+      "sha256": "ee5f823f736b676d986e85c701da502d26043eeab7d9f36bc8ab4cb0151716cf",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "android/app/build.gradle",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/6625b972fd87b79a028c891422edd2f1d7c63c75/android/app/build.gradle",
+      "httpStatus": 200,
+      "bytes": 3197,
+      "sha256": "c3c886a99c6f4c5dceff33354a88ad4d4f653fb1ec3aae6f273b7dc8f815c574",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-09-first-use/README.md",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/6625b972fd87b79a028c891422edd2f1d7c63c75/research/audits/2026-11-09-first-use/README.md",
+      "httpStatus": 200,
+      "bytes": 8058,
+      "sha256": "e02e65bf86b900b74d9fb29c90417566124da602dbc524ff2be5297b2c7ea540",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-09-first-use/after-create.png",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/6625b972fd87b79a028c891422edd2f1d7c63c75/research/audits/2026-11-09-first-use/after-create.png",
+      "httpStatus": 200,
+      "bytes": 78604,
+      "sha256": "7db313eb703c1f3e357faa61f3c16e7725d4b4722054de6db93ae3a3ece5b582",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-09-first-use/after-empty-trip.png",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/6625b972fd87b79a028c891422edd2f1d7c63c75/research/audits/2026-11-09-first-use/after-empty-trip.png",
+      "httpStatus": 200,
+      "bytes": 43315,
+      "sha256": "748ec29470b7e22f253c63d1a2bbeaa357d566c1a72091cf65ec1bfc23fcf940",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-09-first-use/after-home.png",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/6625b972fd87b79a028c891422edd2f1d7c63c75/research/audits/2026-11-09-first-use/after-home.png",
+      "httpStatus": 200,
+      "bytes": 136308,
+      "sha256": "fa7f68584fde3e38156683b8418205112615d02fd85b7fa2f19debd74a1b434a",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-09-first-use/after-offline.png",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/6625b972fd87b79a028c891422edd2f1d7c63c75/research/audits/2026-11-09-first-use/after-offline.png",
+      "httpStatus": 200,
+      "bytes": 52266,
+      "sha256": "fcbcaf36ac44b0fa251e6cd257ef6b1cc760a2719ed943af76caf7d11c2a2552",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-09-first-use/before-empty-trip.png",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/6625b972fd87b79a028c891422edd2f1d7c63c75/research/audits/2026-11-09-first-use/before-empty-trip.png",
+      "httpStatus": 200,
+      "bytes": 41009,
+      "sha256": "c6edd0e152224d01acb13ebbd6910c2f1ee92e842eda8194468492be994df5f8",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-09-first-use/verification.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/6625b972fd87b79a028c891422edd2f1d7c63c75/research/audits/2026-11-09-first-use/verification.json",
+      "httpStatus": 200,
+      "bytes": 1951,
+      "sha256": "dc4413f4a8d98158b71c3ebe0a98d06799861ca3c17d413d8b82e1f345bcbab7",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-09-first-use/visual-checks.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/6625b972fd87b79a028c891422edd2f1d7c63c75/research/audits/2026-11-09-first-use/visual-checks.json",
+      "httpStatus": 200,
+      "bytes": 1084,
+      "sha256": "443de448a6ba7138eedce86c14bc1d0ff85313b4e8fa88a28cb525972a848dfd",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "src/App.tsx",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/6625b972fd87b79a028c891422edd2f1d7c63c75/src/App.tsx",
+      "httpStatus": 200,
+      "bytes": 150684,
+      "sha256": "2a6c9ee9f495736e5b69e4991322f57d740d738b9e3e5fd3825898cd1e1e4d6c",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "src/ConnectionNotice.tsx",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/6625b972fd87b79a028c891422edd2f1d7c63c75/src/ConnectionNotice.tsx",
+      "httpStatus": 200,
+      "bytes": 728,
+      "sha256": "5f3a1a6d022f50e457dee563d446eba5bc62611787f10f6c626d0e8e1133affa",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "src/GuidebookSearch.tsx",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/6625b972fd87b79a028c891422edd2f1d7c63c75/src/GuidebookSearch.tsx",
+      "httpStatus": 200,
+      "bytes": 3293,
+      "sha256": "4f822eedbc1665b78095d21a0430dd014ff94e34ab6f23f61e7edda538c21758",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "src/PreparationChecklist.tsx",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/6625b972fd87b79a028c891422edd2f1d7c63c75/src/PreparationChecklist.tsx",
+      "httpStatus": 200,
+      "bytes": 17901,
+      "sha256": "0294e4a1fb08b07a9b1a444c36d5c60a3ec27c000bc974a481fbc8953c4f24a3",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "src/TravelHome.tsx",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/6625b972fd87b79a028c891422edd2f1d7c63c75/src/TravelHome.tsx",
+      "httpStatus": 200,
+      "bytes": 16128,
+      "sha256": "6c4bad807c2185d78a6da5cba500fbbb0773f96d9d6a2b349d5e2c224cb419e5",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "src/TravelTools.tsx",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/6625b972fd87b79a028c891422edd2f1d7c63c75/src/TravelTools.tsx",
+      "httpStatus": 200,
+      "bytes": 21379,
+      "sha256": "62f2891e4973e2de722d56583c18fdeb1c09ad4fd8f5fbeacb05c7faf7f69a44",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "src/TripReadiness.tsx",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/6625b972fd87b79a028c891422edd2f1d7c63c75/src/TripReadiness.tsx",
+      "httpStatus": 200,
+      "bytes": 3421,
+      "sha256": "80c2fd33f6fcdc9c4eabe7d86978bbdda441618efacb8b620ad881bf9062844a",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "src/modern-theme.css",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/6625b972fd87b79a028c891422edd2f1d7c63c75/src/modern-theme.css",
+      "httpStatus": 200,
+      "bytes": 61014,
+      "sha256": "054e38230a27ba2f826e3c0f97484f54c7e99187b0dbd1072dcfacc2b5b22a2f",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "tests/first-time-traveler.spec.ts",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/6625b972fd87b79a028c891422edd2f1d7c63c75/tests/first-time-traveler.spec.ts",
+      "httpStatus": 200,
+      "bytes": 9344,
+      "sha256": "18b7f62c6d51f15264eb3c05b466364a747e47a906deab60dfeb635e7f5cc2bf",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "tests/simple-ui.spec.ts",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/6625b972fd87b79a028c891422edd2f1d7c63c75/tests/simple-ui.spec.ts",
+      "httpStatus": 200,
+      "bytes": 15433,
+      "sha256": "05c12e818564d8b71f21a363644289287ed6c025951a1d7e6d24ed68a5a53fcb",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "guidebooks/manifest.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/6625b972fd87b79a028c891422edd2f1d7c63c75/guidebooks/manifest.json",
+      "httpStatus": 200,
+      "bytes": 34408,
+      "sha256": "e4d2639e3cfa910a106896c0bf67c16b33cda96d0afb4b62ed89c2cdbd608bc2",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "guidebook-database/index.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/6625b972fd87b79a028c891422edd2f1d7c63c75/guidebook-database/index.json",
+      "httpStatus": 200,
+      "bytes": 39270,
+      "sha256": "1e4ef14219eaaf13079498b566232361cdcdf5f7b32a5dc93905c8cc5fc1890c",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "guidebook-database/guides.sqlite",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/6625b972fd87b79a028c891422edd2f1d7c63c75/guidebook-database/guides.sqlite",
+      "httpStatus": 200,
+      "bytes": 4640768,
+      "sha256": "ed3574aa0596f28497d16dbf31dafe5f2767d468f23b7264640fbeb78d7feb60",
+      "matchesBuildSource": true
+    }
+  ]
 }

@@ -60,5 +60,13 @@
     "Initial dev-server regression run interrupted after module-loading timeouts; rerun on isolated static production assets.",
     "Fixed existing simple-ui trip date to 2026-10-30 so future-trip assertions do not expire.",
     "Initial first-use check caught omitted EmptyState descriptions; fixed and final rerun passed."
-  ]
+  ],
+  "publication": {
+    "mainSourceCommit": "6625b972fd87b79a028c891422edd2f1d7c63c75",
+    "apkCommit": "a849c33b4e4bc61ae20c0eab081bb4b4ddce1fe7",
+    "publicDownloadsVerified": 3,
+    "publicSourceFilesVerified": 26,
+    "downloadedCertificateMatches": true,
+    "evidence": "../../release-0.82-verification.json"
+  }
 }
