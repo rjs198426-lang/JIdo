@@ -1,0 +1,87 @@
+name: Check existing guide sources
+on:
+  schedule:
+    - cron: '0 18 * * 6' # Sunday 03:00 Asia/Seoul
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: 'Source limit: 0 checks all registered sources (maximum 600)'
+        required: false
+        default: '0'
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/guide-source-monitor.yml'
+      - 'scripts/guide-source-monitor.py'
+      - 'scripts/guide_source_monitor_test.py'
+permissions:
+  contents: read
+concurrency:
+  group: existing-guide-source-monitor
+  cancel-in-progress: false
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 38
+    outputs:
+      artifact: ${{ steps.upload.outputs.artifact-id }}
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          ref: main
+          persist-credentials: false
+      - name: Test source monitor
+        run: python3 -m unittest discover -s scripts -p 'guide_source_monitor_test.py' -v
+      - name: Check registered public sources
+        id: check
+        continue-on-error: true
+        env:
+          SOURCE_CHECK_LIMIT: ${{ inputs.limit || '0' }}
+        run: python3 scripts/guide-source-monitor.py check
+      - name: Show actual results
+        if: always()
+        run: |
+          if test -f .runtime/guide-source-monitor/summary.md; then
+            cat .runtime/guide-source-monitor/summary.md >> "$GITHUB_STEP_SUMMARY"
+          fi
+      - name: Retain bounded metadata (no source HTML or credentials)
+        id: upload
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: existing-guide-source-check
+          path: |
+            .runtime/guide-source-monitor/report.json
+            .runtime/guide-source-monitor/state.json
+            .runtime/guide-source-monitor/summary.md
+          include-hidden-files: true
+          retention-days: 7
+          if-no-files-found: error
+      - name: Report inaccessible sources honestly
+        if: steps.check.outcome == 'failure'
+        run: exit 1
+  publish-report:
+    needs: audit
+    if: always() && needs.audit.outputs.artifact != ''
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          ref: main
+          fetch-depth: 1
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4
+        with:
+          name: existing-guide-source-check
+          path: .runtime/guide-source-monitor
+      - name: Validate latest public scope and publish reports only
+        run: |
+          python3 scripts/guide-source-monitor.py publish
+          git add -- research/guidebooks/source-monitor-state.json research/guidebooks/runs/*-source-check-*.json
+          git diff --cached --quiet && exit 0
+          git config user.name 'JDo source monitor'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Record existing guide source checks'
+          git push origin HEAD:main

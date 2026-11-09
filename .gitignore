@@ -32,3 +32,7 @@ service-account*.json
 
 # LaundryGothic permits app embedding, not standalone font redistribution.
 /public/fonts/LaundryGothic-Regular.woff*
+
+# Python source-monitor test cache
+__pycache__/
+*.pyc
