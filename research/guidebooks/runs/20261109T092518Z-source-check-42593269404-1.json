@@ -1,0 +1,136 @@
+{
+  "attempted": 5,
+  "completedAt": "2026-11-09T09:25:25Z",
+  "counts": {
+    "baseline": 0,
+    "blocked-address": 0,
+    "body-changed": 0,
+    "body-unchanged": 5,
+    "budget-exceeded": 0,
+    "http-error": 0,
+    "network-error": 0,
+    "redirect-review": 0,
+    "robots-denied": 0,
+    "robots-unavailable": 0,
+    "too-large": 0,
+    "unreadable-body": 0
+  },
+  "factsReviewed": false,
+  "guideContentChanged": false,
+  "guideCount": 85,
+  "lastReviewedAtChanged": false,
+  "mode": "source-check",
+  "newGuidesCreated": 0,
+  "pendingBodyChanges": 0,
+  "previousStateSha256": "d100d995b1d5680db56e2b5366e54ee15cc0e7be2474085a58199fe373c8d385",
+  "receivedBytes": 618071,
+  "remainingSources": 366,
+  "reportFile": "20261109T092518Z-source-check-42593269404-1.json",
+  "results": [
+    {
+      "bytes": 43829,
+      "declaredModifiedAt": null,
+      "declaredPublishedAt": null,
+      "documentSha256": "0936e9991f5103a5547ce464a85f7ce59a03745abf400841802ef129e93f4319",
+      "factsReviewed": false,
+      "fetchedAt": "2026-11-09T09:25:18Z",
+      "finalUrl": "https://334.co.jp/access/",
+      "fingerprint": "e5fd55e68e7ad42ee324775b1b69faab23b2edbbc0cc82e8b454a85748ff62be",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-hakodate"
+      ],
+      "httpStatus": 200,
+      "previousFingerprint": "e5fd55e68e7ad42ee324775b1b69faab23b2edbbc0cc82e8b454a85748ff62be",
+      "result": "body-unchanged",
+      "textLength": 1372,
+      "title": "アクセス | 函館山ロープウェイ",
+      "url": "https://334.co.jp/access/"
+    },
+    {
+      "bytes": 34033,
+      "declaredModifiedAt": null,
+      "declaredPublishedAt": null,
+      "documentSha256": "0e1dcdb6e0ff2639ad869aa4092d7042d530671262f7fb09eebf731f22fe8d59",
+      "factsReviewed": false,
+      "fetchedAt": "2026-11-09T09:25:18Z",
+      "finalUrl": "https://334.co.jp/en/",
+      "fingerprint": "945f7c8a70a15ad13b6ef468cc384b932a1827ff606623981a63e63add8fdae0",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-hakodate"
+      ],
+      "httpStatus": 200,
+      "previousFingerprint": "945f7c8a70a15ad13b6ef468cc384b932a1827ff606623981a63e63add8fdae0",
+      "result": "body-unchanged",
+      "textLength": 330,
+      "title": "Welcome to a city of overflowing lights. Enjoy the dramatic night view from the best location. | Mt.HAKODATE ROPEWAY",
+      "url": "https://334.co.jp/en/"
+    },
+    {
+      "bytes": 39692,
+      "declaredModifiedAt": null,
+      "declaredPublishedAt": null,
+      "documentSha256": "7d59694945a9b9482211cf8457322f55156f2d1af4fd96cc3dff470071ec043a",
+      "factsReviewed": false,
+      "fetchedAt": "2026-11-09T09:25:18Z",
+      "finalUrl": "https://88shikokuhenro.jp/84yashimaji/",
+      "fingerprint": "a71a6792d0e77142907baa7684dfe8990149d1d3c3fc5a42119516bb71b269c9",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-takamatsu"
+      ],
+      "httpStatus": 200,
+      "previousFingerprint": "a71a6792d0e77142907baa7684dfe8990149d1d3c3fc5a42119516bb71b269c9",
+      "result": "body-unchanged",
+      "textLength": 1110,
+      "title": "南面山 千光院 屋島寺 – （一社）四国八十八ヶ所霊場会",
+      "url": "https://88shikokuhenro.jp/84yashimaji/"
+    },
+    {
+      "bytes": 214394,
+      "declaredModifiedAt": "2026-09-15T03:34:08+00:00",
+      "declaredPublishedAt": null,
+      "documentSha256": "7aadf25df753a486fb9b2663659a2be42a070d580e6e63a2c053f699c9ee17c4",
+      "factsReviewed": false,
+      "fetchedAt": "2026-11-09T09:25:18Z",
+      "finalUrl": "https://airportpattayabus.com/",
+      "fingerprint": "c42098ad1c4c71c990e8d0916b23b76dc36c957bac24b370ab518e58730cd1eb",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-pattaya"
+      ],
+      "httpStatus": 200,
+      "previousFingerprint": "c42098ad1c4c71c990e8d0916b23b76dc36c957bac24b370ab518e58730cd1eb",
+      "result": "body-unchanged",
+      "textLength": 2095,
+      "title": "RRC Bus | Pattaya, Hua Hin & Suvarnabhumi Airport Transfers",
+      "url": "https://airportpattayabus.com/"
+    },
+    {
+      "bytes": 285616,
+      "declaredModifiedAt": "2026-10-27T07:40:48+00:00",
+      "declaredPublishedAt": null,
+      "documentSha256": "d941b6032031f83ad57695856550e4a9d4ae85ccbcba4e9e35c6750069ab3ff9",
+      "factsReviewed": false,
+      "fetchedAt": "2026-11-09T09:25:18Z",
+      "finalUrl": "https://airportpattayabus.com/airport-hua-hin/",
+      "fingerprint": "afb405f68b04c85841df7fe7476bc5ff5c7adedd1a3a24954dd23432d7875ca0",
+      "fingerprintKind": "static-text",
+      "guideIds": [
+        "book-huahin"
+      ],
+      "httpStatus": 200,
+      "previousFingerprint": "afb405f68b04c85841df7fe7476bc5ff5c7adedd1a3a24954dd23432d7875ca0",
+      "result": "body-unchanged",
+      "textLength": 2208,
+      "title": "Suvarnabhumi Airport to Hua Hin | RRC Pattaya Bus",
+      "url": "https://airportpattayabus.com/airport-hua-hin/"
+    }
+  ],
+  "schemaVersion": 1,
+  "scopeDigest": "52391028f5a84dadb7232f0fa0d5c637da14c7834f9dd7a7848654fb28e4d92c",
+  "sourceCommit": "b058bfc8c01fdbdb6009e698b26479e75875cc84",
+  "startedAt": "2026-11-09T09:25:18Z",
+  "totalSources": 371
+}
