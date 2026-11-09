@@ -62,5 +62,15 @@
     "retryReason": "기존 배치 검사에서 화면 열기의 자동 확인과 수동 확인2회의 요청 수를 반영.",
     "nativeDeviceInstallTested": false
   },
-  "publicationStatus": "validated-pending-push"
+  "publicationStatus": "published-verified",
+  "publishedCommit": "47cfcf26dd334757144197e9e56509837e1132db",
+  "apkPublicCommit": "91d35e4d5dd4383153d269e49ae9c656ed9f8a9f",
+  "evidencePath": "research/release-0.81-verification.json",
+  "githubActions": {
+    "id": 42584705986,
+    "head": "47cfcf26dd334757144197e9e56509837e1132db",
+    "status": "completed",
+    "conclusion": "success",
+    "url": "https://github.com/rjs198426-lang/JIdo/actions/runs/42584705986"
+  }
 }

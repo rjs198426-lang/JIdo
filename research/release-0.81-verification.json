@@ -1,0 +1,224 @@
+{
+  "version": "0.81",
+  "versionCode": 82,
+  "package": "com.jido.travel.next",
+  "bytes": 41430386,
+  "sha256": "178f0674d8f2c381f488124222df6374a4d9541ac1f883647499528476022c1e",
+  "certificateSha256": "0d1b1f20dae73d00626d9ebb4f460943c4f16c2266bc7bc58d124d13b32494ac",
+  "signatureVerified": true,
+  "matchedWebAssets": 237,
+  "privateSigningFilesFound": false,
+  "existingMapsConfigurationBundled": true,
+  "nativeDeviceInstallTested": false,
+  "checkedAt": "2026-11-09T08:17:09.884635+00:00",
+  "sourceCommit": "47cfcf26dd334757144197e9e56509837e1132db",
+  "publicCommit": "91d35e4d5dd4383153d269e49ae9c656ed9f8a9f",
+  "publicDownloads": [
+    {
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/91d35e4d5dd4383153d269e49ae9c656ed9f8a9f/JDo-android-0.81.apk",
+      "httpStatus": 200,
+      "bytes": 41430386,
+      "sha256": "178f0674d8f2c381f488124222df6374a4d9541ac1f883647499528476022c1e",
+      "matchesBuild": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/android-apk-downloads/JDo-android.apk",
+      "httpStatus": 200,
+      "bytes": 41430386,
+      "sha256": "178f0674d8f2c381f488124222df6374a4d9541ac1f883647499528476022c1e",
+      "matchesBuild": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/android-apk-downloads/jido-release.apk",
+      "httpStatus": 200,
+      "bytes": 41430386,
+      "sha256": "178f0674d8f2c381f488124222df6374a4d9541ac1f883647499528476022c1e",
+      "matchesBuild": true
+    }
+  ],
+  "anonymousDownload": true,
+  "downloadedSignatureVerified": true,
+  "regressionTestsPassed": 43,
+  "publicSourceFiles": [
+    {
+      "path": "src/guidebook-index.ts",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/47cfcf26dd334757144197e9e56509837e1132db/src/guidebook-index.ts",
+      "httpStatus": 200,
+      "bytes": 3634,
+      "sha256": "4e4456076958623283572e192f1e20eb51cef59a57fa721aef7b748f4cc6ef78",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "src/useGuidebookIndex.ts",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/47cfcf26dd334757144197e9e56509837e1132db/src/useGuidebookIndex.ts",
+      "httpStatus": 200,
+      "bytes": 804,
+      "sha256": "3f84c980c1ad753d8811e5cbd04e666ff308cfb29f8fc4cfa562f1bdf05fbe36",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "src/GuidebookLibrary.tsx",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/47cfcf26dd334757144197e9e56509837e1132db/src/GuidebookLibrary.tsx",
+      "httpStatus": 200,
+      "bytes": 7967,
+      "sha256": "8672c95fec7e165a83fb06700c8901c567f891b263f60dc3f8a7214050ce502c",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "src/GuidebookSearch.tsx",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/47cfcf26dd334757144197e9e56509837e1132db/src/GuidebookSearch.tsx",
+      "httpStatus": 200,
+      "bytes": 3186,
+      "sha256": "382c9e48f745ada0c0d720625a1ec513f34f36cb3b70b2b169163bef6338d3b7",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "src/guidebook-api.ts",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/47cfcf26dd334757144197e9e56509837e1132db/src/guidebook-api.ts",
+      "httpStatus": 200,
+      "bytes": 3400,
+      "sha256": "837e7ebb01b2d2f30c295ae6b130cc50870ae888a1ff81f384fac16d3dd11d80",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "scripts/plan-guide-research.mjs",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/47cfcf26dd334757144197e9e56509837e1132db/scripts/plan-guide-research.mjs",
+      "httpStatus": 200,
+      "bytes": 4010,
+      "sha256": "bfb76e9d97471312866686645cdeb00a6dc647bb74968647ae1e05eeb394bb8b",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/guidebooks/city-queue.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/47cfcf26dd334757144197e9e56509837e1132db/research/guidebooks/city-queue.json",
+      "httpStatus": 200,
+      "bytes": 13171,
+      "sha256": "9aad39748baec3731143f9ec5c3225675fabd2c1e7394b3092decee7bd70b29b",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/guidebooks/automations.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/47cfcf26dd334757144197e9e56509837e1132db/research/guidebooks/automations.json",
+      "httpStatus": 200,
+      "bytes": 1512,
+      "sha256": "4535d702d605b20e4ae195b42dcffb235c5daa78a9dff8799515ed77d524e71b",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/guidebooks/runs/20261109-guide-discovery-fix.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/47cfcf26dd334757144197e9e56509837e1132db/research/guidebooks/runs/20261109-guide-discovery-fix.json",
+      "httpStatus": 200,
+      "bytes": 2200,
+      "sha256": "94a71dc1148bf3cde6d2b59884fa8831e6c0bc61868b71e48a976af9edfd2886",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "GUIDEBOOKS.md",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/47cfcf26dd334757144197e9e56509837e1132db/GUIDEBOOKS.md",
+      "httpStatus": 200,
+      "bytes": 41650,
+      "sha256": "c7ad088ea0cad9fe8e093296d835467e67bcfe70fc3517c0daa8e60fc9c21198",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "GUIDEBOOK-AUTOMATION.md",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/47cfcf26dd334757144197e9e56509837e1132db/GUIDEBOOK-AUTOMATION.md",
+      "httpStatus": 200,
+      "bytes": 12259,
+      "sha256": "d3a87d2654c6c30646cbfef212a4f5e83f95335693a0f8b7301bfe6d1533970a",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "android/app/build.gradle",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/47cfcf26dd334757144197e9e56509837e1132db/android/app/build.gradle",
+      "httpStatus": 200,
+      "bytes": 3197,
+      "sha256": "4396aec13c6746aaf814556d2b2a24f8bb82ba8ed55278a44e92b143d70e9002",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "guidebooks/manifest.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/47cfcf26dd334757144197e9e56509837e1132db/guidebooks/manifest.json",
+      "httpStatus": 200,
+      "bytes": 34408,
+      "sha256": "e4d2639e3cfa910a106896c0bf67c16b33cda96d0afb4b62ed89c2cdbd608bc2",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "guidebook-database/index.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/47cfcf26dd334757144197e9e56509837e1132db/guidebook-database/index.json",
+      "httpStatus": 200,
+      "bytes": 39270,
+      "sha256": "1e4ef14219eaaf13079498b566232361cdcdf5f7b32a5dc93905c8cc5fc1890c",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "guidebook-database/guides.sqlite",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/47cfcf26dd334757144197e9e56509837e1132db/guidebook-database/guides.sqlite",
+      "httpStatus": 200,
+      "bytes": 4640768,
+      "sha256": "ed3574aa0596f28497d16dbf31dafe5f2767d468f23b7264640fbeb78d7feb60",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "guidebooks/book-interlaken-e5bed99a6b5f356eaa0503ebce9663f80abc9dc1549e35f14a8ef3a6a27361c4.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/47cfcf26dd334757144197e9e56509837e1132db/guidebooks/book-interlaken-e5bed99a6b5f356eaa0503ebce9663f80abc9dc1549e35f14a8ef3a6a27361c4.json",
+      "httpStatus": 200,
+      "bytes": 11049,
+      "sha256": "e5bed99a6b5f356eaa0503ebce9663f80abc9dc1549e35f14a8ef3a6a27361c4",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "guidebooks/book-lucerne-52661afb7c25597ba29db8283ce2bca34c713662dce16b7dc8f1ae0a586e4ff6.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/47cfcf26dd334757144197e9e56509837e1132db/guidebooks/book-lucerne-52661afb7c25597ba29db8283ce2bca34c713662dce16b7dc8f1ae0a586e4ff6.json",
+      "httpStatus": 200,
+      "bytes": 11022,
+      "sha256": "52661afb7c25597ba29db8283ce2bca34c713662dce16b7dc8f1ae0a586e4ff6",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "guidebooks/book-salzburg-660fad735640348af626636d662c141f308917af64efce534695a53f776fb409.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/47cfcf26dd334757144197e9e56509837e1132db/guidebooks/book-salzburg-660fad735640348af626636d662c141f308917af64efce534695a53f776fb409.json",
+      "httpStatus": 200,
+      "bytes": 11884,
+      "sha256": "660fad735640348af626636d662c141f308917af64efce534695a53f776fb409",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "guidebooks/book-zermatt-0bd61b72f58d2a5802fa793334edda88f9461a1a8f72b6d15d90921d246fb67b.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/47cfcf26dd334757144197e9e56509837e1132db/guidebooks/book-zermatt-0bd61b72f58d2a5802fa793334edda88f9461a1a8f72b6d15d90921d246fb67b.json",
+      "httpStatus": 200,
+      "bytes": 11107,
+      "sha256": "0bd61b72f58d2a5802fa793334edda88f9461a1a8f72b6d15d90921d246fb67b",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "guidebooks/book-zurich-9aefb35d08bfbaea20c5f4cf35f1ab7780b21d56ecfa23897de4e4e3c0835b94.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/47cfcf26dd334757144197e9e56509837e1132db/guidebooks/book-zurich-9aefb35d08bfbaea20c5f4cf35f1ab7780b21d56ecfa23897de4e4e3c0835b94.json",
+      "httpStatus": 200,
+      "bytes": 10064,
+      "sha256": "9aefb35d08bfbaea20c5f4cf35f1ab7780b21d56ecfa23897de4e4e3c0835b94",
+      "matchesBuildSource": true
+    }
+  ],
+  "sourceCheckedAt": "2026-11-09T08:18:09.634645+00:00",
+  "databaseTestsPassed": 7,
+  "browserTests": {
+    "uniquePassed": 43,
+    "firstRunPassed": 42,
+    "firstRunFailed": 1,
+    "retryPassed": 1,
+    "retryFailed": 0
+  },
+  "guideCount": 85,
+  "downloadableGuideCount": 64,
+  "placeCount": 1410,
+  "newGuidesAuthored": 0,
+  "githubActions": {
+    "id": 42584705986,
+    "head": "47cfcf26dd334757144197e9e56509837e1132db",
+    "status": "completed",
+    "conclusion": "success",
+    "url": "https://github.com/rjs198426-lang/JIdo/actions/runs/42584705986"
+  }
+}

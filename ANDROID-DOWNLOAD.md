@@ -1,6 +1,6 @@
 # J★Do Android 다운로드
 
-[J★Do 0.81 개발판 APK 다운로드](https://raw.githubusercontent.com/rjs198426-lang/JIdo/android-apk-downloads/JDo-android-0.81.apk)
+[J★Do 0.81 개발판 APK 다운로드](https://raw.githubusercontent.com/rjs198426-lang/JIdo/91d35e4d5dd4383153d269e49ae9c656ed9f8a9f/JDo-android-0.81.apk)
 
 - 앱: **J★Do** (`com.jido.travel.next`)
 - 버전: 0.81 개발판 · versionCode 82 · Android 7.0 이상
@@ -25,6 +25,8 @@
 관련 모바일 브라우저43개와 DB 테스트7개를 통과했습니다. 최초42개 통과·1개 실패 후 자동 확인+수동 확인의 요청 수를 반영한 재실행1개도 통과했습니다. 신규 포함40개 도시의 오프라인 열람·개인 기록 보존, 새 목록의 자동 발견·저장·검색 공유·오류/용량 실패·이전 응답 차단을 확인했습니다.
 
 기존 인증서·패키지·APK 내부 웹 자산237개 일치와 비공개 서명 파일 미포함을 확인했습니다. 실제 Android 실기기 설치는 미확인입니다. [목록·조사 운영과 검증 범위](GUIDEBOOKS.md).
+
+공개 검증:0.81 고정 APK와 최신 별칭2개·공개 원본/DB/신규 본문20개를 인증 없이 내려받아 HTTP200·바이트·SHA-256 일치를 확인하고 내려받은 APK의 기존 서명을 대조했습니다. [배포 검증 기록](research/release-0.81-verification.json).
 
 ## 0.80 개발판 · 내 기기 Google Drive 동기화
 
