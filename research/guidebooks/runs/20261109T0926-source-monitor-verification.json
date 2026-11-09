@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "mode": "source-monitor-deployment-verification",
+  "checkedAt": "2026-11-09T09:26:58Z",
+  "verifiedCommit": "d127b954a445e96af8e720755c4bdc2eed3b1123",
+  "guideCount": 85,
+  "placeCount": 1410,
+  "newGuidesCreated": 0,
+  "guideContentChanged": false,
+  "lastReviewedAtChanged": false,
+  "chatgptTasksDisabled": true,
+  "tests": {
+    "sourceMonitor": 9,
+    "guideDatabase": 7,
+    "guidebooksCheck": "passed",
+    "databaseCheck": "passed",
+    "workflowYaml": "parsed"
+  },
+  "runs": [
+    {
+      "id": "42592496291",
+      "url": "https://github.com/rjs198426-lang/JIdo/actions/runs/42592496291",
+      "conclusion": "success",
+      "report": "research/guidebooks/runs/20261109T091924Z-source-check-42592496291-1.json",
+      "attempted": 371,
+      "remainingSources": 0,
+      "counts": {
+        "baseline": 318,
+        "blocked-address": 0,
+        "body-changed": 0,
+        "body-unchanged": 0,
+        "budget-exceeded": 0,
+        "http-error": 25,
+        "network-error": 3,
+        "redirect-review": 0,
+        "robots-denied": 5,
+        "robots-unavailable": 5,
+        "too-large": 2,
+        "unreadable-body": 13
+      },
+      "guideCount": 85,
+      "factsReviewed": false
+    },
+    {
+      "id": "42593269404",
+      "url": "https://github.com/rjs198426-lang/JIdo/actions/runs/42593269404",
+      "conclusion": "success",
+      "report": "research/guidebooks/runs/20261109T092518Z-source-check-42593269404-1.json",
+      "attempted": 5,
+      "remainingSources": 366,
+      "counts": {
+        "baseline": 0,
+        "blocked-address": 0,
+        "body-changed": 0,
+        "body-unchanged": 5,
+        "budget-exceeded": 0,
+        "http-error": 0,
+        "network-error": 0,
+        "redirect-review": 0,
+        "robots-denied": 0,
+        "robots-unavailable": 0,
+        "too-large": 0,
+        "unreadable-body": 0
+      },
+      "guideCount": 85,
+      "factsReviewed": false
+    }
+  ],
+  "publicFiles": [
+    {
+      "path": ".github/workflows/guide-source-monitor.yml",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/d127b954a445e96af8e720755c4bdc2eed3b1123/.github/workflows/guide-source-monitor.yml",
+      "httpStatus": 200,
+      "bytes": 3146,
+      "sha256": "7ccad42ce3e8535d939dedfb0606a9da3fa24c2afc48dcd7467fae964865d52a",
+      "matchesLocal": true
+    },
+    {
+      "path": "scripts/guide-source-monitor.py",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/d127b954a445e96af8e720755c4bdc2eed3b1123/scripts/guide-source-monitor.py",
+      "httpStatus": 200,
+      "bytes": 19442,
+      "sha256": "ea35ddc81c1cf15fa719ec92868164eb9e6cd8ecf4ec2aa02a97da3e12bb9cc9",
+      "matchesLocal": true
+    },
+    {
+      "path": "research/guidebooks/source-monitor-state.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/d127b954a445e96af8e720755c4bdc2eed3b1123/research/guidebooks/source-monitor-state.json",
+      "httpStatus": 200,
+      "bytes": 130903,
+      "sha256": "cbb7d34d68fa739d1445e903cb489fda774f06e197a60deb2ef8b0b5e25e9084",
+      "matchesLocal": true
+    },
+    {
+      "path": "research/guidebooks/runs/20261109T091924Z-source-check-42592496291-1.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/d127b954a445e96af8e720755c4bdc2eed3b1123/research/guidebooks/runs/20261109T091924Z-source-check-42592496291-1.json",
+      "httpStatus": 200,
+      "bytes": 283491,
+      "sha256": "f1147268e2f38bc79980d5a4dea00750ae7d848ab9ff984d03ca6c68b2e0cf7c",
+      "matchesLocal": true
+    },
+    {
+      "path": "research/guidebooks/runs/20261109T092518Z-source-check-42593269404-1.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/d127b954a445e96af8e720755c4bdc2eed3b1123/research/guidebooks/runs/20261109T092518Z-source-check-42593269404-1.json",
+      "httpStatus": 200,
+      "bytes": 5181,
+      "sha256": "7e1ab224c16a78c775879f41c01923d7f62a0c0565cb8ca297e99eb560ac5c67",
+      "matchesLocal": true
+    },
+    {
+      "path": "guidebooks/manifest.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/d127b954a445e96af8e720755c4bdc2eed3b1123/guidebooks/manifest.json",
+      "httpStatus": 200,
+      "bytes": 34408,
+      "sha256": "e4d2639e3cfa910a106896c0bf67c16b33cda96d0afb4b62ed89c2cdbd608bc2",
+      "matchesLocal": true
+    },
+    {
+      "path": "guidebook-database/index.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/d127b954a445e96af8e720755c4bdc2eed3b1123/guidebook-database/index.json",
+      "httpStatus": 200,
+      "bytes": 39270,
+      "sha256": "1e4ef14219eaaf13079498b566232361cdcdf5f7b32a5dc93905c8cc5fc1890c",
+      "matchesLocal": true
+    },
+    {
+      "path": "guidebook-database/guides.sqlite",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/d127b954a445e96af8e720755c4bdc2eed3b1123/guidebook-database/guides.sqlite",
+      "httpStatus": 200,
+      "bytes": 4640768,
+      "sha256": "ed3574aa0596f28497d16dbf31dafe5f2767d468f23b7264640fbeb78d7feb60",
+      "matchesLocal": true
+    }
+  ],
+  "scope": "Operational source fingerprints only; no semantic fact review. Baselines are not unchanged or reviewed guides."
+}

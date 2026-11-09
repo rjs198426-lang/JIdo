@@ -203,3 +203,7 @@ Android 0.72/versionCode 73 release를 기존 키로 빌드했다. 기존 패키
 공개 검증:0.81 고정 APK와 최신 별칭2개·공개 원본/DB/신규 본문20개를 인증 없이 내려받아 HTTP200·바이트·SHA-256 일치를 확인하고 내려받은 APK의 기존 서명을 대조했습니다. [배포 검증 기록](research/release-0.81-verification.json).
 
 [가이드북 자동 검사](https://github.com/rjs198426-lang/JIdo/actions/runs/42584705986)도 성공했습니다.
+
+## GitHub 기존 출처 주간 점검 · 2026-11-09
+
+ChatGPT 정기 작업 두 개를 실제로 중지하고 GitHub Actions로 이전했다. 새 도시는 추가하지 않는다. [전체 실행](https://github.com/rjs198426-lang/JIdo/actions/runs/42592496291)은 등록 출처371개를 시도해 최초 비교 기준318개·접근 실패/보류53개를 기록하고 보고서·상태를 main에 자동 게시했다. [후속5개 비교](https://github.com/rjs198426-lang/JIdo/actions/runs/42593269404)도 점검·게시 성공, 지문 동일5개였다. 향후 매주 일요일03:00(한국 시간)에 원문 변경을 점검한다. 최초 기준·HTTP200·지문 동일은 사실 검토가 아니며, 선택한 무료 점검은 앱 본문·명소·사진·실제 검토일을 자동 수정하지 않는다. 중앙 DB85개·1,410곳과 다운로드64개를 유지했다. [운영 안내](GUIDEBOOK-AUTOMATION.md), [실제 실행·공개 다운로드 검증](research/guidebooks/runs/20261109T0926-source-monitor-verification.json).

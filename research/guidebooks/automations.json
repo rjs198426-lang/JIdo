@@ -39,6 +39,13 @@
     "mode": "existing-source-change-check-only",
     "newGuidesEnabled": false,
     "paidAiEnabled": false,
-    "firstRunVerified": false
+    "firstRunVerified": true,
+    "registeredAt": "2026-11-09",
+    "registrationConfirmed": true,
+    "firstRunUrl": "https://github.com/rjs198426-lang/JIdo/actions/runs/42592496291",
+    "comparisonRunUrl": "https://github.com/rjs198426-lang/JIdo/actions/runs/42593269404",
+    "verifiedAt": "2026-11-09T09:26:58Z",
+    "reportPublicationCommit": "d127b954a445e96af8e720755c4bdc2eed3b1123",
+    "verificationPath": "research/guidebooks/runs/20261109T0926-source-monitor-verification.json"
   }
 }
