@@ -14,6 +14,8 @@
 
 PC·모바일 고유 검사200개와 서버 검사7개, Android release 빌드·기존 서명·APK 웹 자산237개 일치를 확인했습니다. 실제 Android 설치·Google 로그인·휴대폰 두 대 동기화는 미검증입니다. [변경과 저장 호환성](TRAVEL-WORKSPACE.md), [검증 기록](research/release-0.83-verification.json), [현재 화면](research/audits/2026-11-11-planner/README.md).
 
+공개 검증:0.83 고정APK와 최신 별칭2개를 인증 없이 내려받아 HTTP200·41,355,858 bytes·SHA-256·기존 서명 일치를 확인했습니다. 공개 소스·문서·현재 화면·보존DB32개 파일도 바이트/해시가 일치했습니다. [실제 결과](research/release-0.83-verification.json).
+
 ## 이전 배포 이력
 
 아래는 이전 버전의 기능·검증 기록이며 현재 제품 구성은 위0.83 설명을 따릅니다.
