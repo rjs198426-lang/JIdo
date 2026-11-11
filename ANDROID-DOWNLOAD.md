@@ -1,5 +1,24 @@
 # J★Do Android 다운로드
 
+[J★Do 0.83 개발판 APK 다운로드](https://raw.githubusercontent.com/rjs198426-lang/JIdo/cc86346fdd2c0359978f2593179043c240761bd4/JDo-android-0.83.apk)
+
+- 앱: **J★Do** (`com.jido.travel.next`)
+- 버전: 0.83 개발판 · versionCode 84 · Android 7.0 이상
+- 크기: 41,355,858 bytes
+- SHA-256: `fd0eb8bb53446efbfbe463c2c0d736cbf28a9d8d8c0740e44f603cb34af1e2c3`
+- 기존 인증서 SHA-256: `0d1b1f20dae73d00626d9ebb4f460943c4f16c2266bc7bc58d124d13b32494ac`
+
+기존 앱을 삭제하지 말고 업데이트로 설치하세요. 일정·예약·메모·사진·첨부·경비·정산은 유지합니다. 새 항공·호텔 상세를 여러 기기에서 사용하려면 모든 동기화 기기를 **0.83 이상**으로 업데이트하세요.
+
+가이드 탐색·공개 추천·블로그·코스·가이드북 다운로드와 자동 점검을 앱 사용 흐름에서 제거했습니다. 도시·국가·날짜로 여행을 만들고 내 일정, 현장 지도·이동 확인, 항공·호텔 정보, 경비·동행인 정산을 관리합니다. 하단 메뉴는 홈·내 여행·예약·경비·설정입니다. 항공사·편명·공항·도착 현지 시각·좌석·수하물과 호텔 체크아웃·연락처·예약 확인서를 입력·보관할 수 있습니다. 실제 예약·항공편 실시간 조회 기능은 아닙니다.
+
+PC·모바일 고유 검사200개와 서버 검사7개, Android release 빌드·기존 서명·APK 웹 자산237개 일치를 확인했습니다. 실제 Android 설치·Google 로그인·휴대폰 두 대 동기화는 미검증입니다. [변경과 저장 호환성](TRAVEL-WORKSPACE.md), [검증 기록](research/release-0.83-verification.json), [현재 화면](research/audits/2026-11-11-planner/README.md).
+
+## 이전 배포 이력
+
+아래는 이전 버전의 기능·검증 기록이며 현재 제품 구성은 위0.83 설명을 따릅니다.
+
+
 [J★Do 0.82 개발판 APK 다운로드](https://raw.githubusercontent.com/rjs198426-lang/JIdo/a849c33b4e4bc61ae20c0eab081bb4b4ddce1fe7/JDo-android-0.82.apk)
 
 - 앱: **J★Do** (`com.jido.travel.next`)

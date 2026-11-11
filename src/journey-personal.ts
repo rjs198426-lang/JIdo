@@ -1,3 +1,7 @@
+import {
+  hasReservationDetails,
+  RESERVATION_DETAILS_BUILD,
+} from './reservation-compat'
 import { transferFor } from './transfer-planning'
 import {
   destinationForDay,
@@ -184,7 +188,14 @@ export function companionBackup(trip: Trip, notes = false) {
     ),
   }
   return JSON.stringify(
-    { format: 'jdo-trips', version: 1, trips: [itinerary] },
+    {
+      format: 'jdo-trips',
+      version: hasReservationDetails([itinerary]) ? 2 : 1,
+      ...(hasReservationDetails([itinerary])
+        ? { minBuild: RESERVATION_DETAILS_BUILD }
+        : {}),
+      trips: [itinerary],
+    },
     null,
     2,
   )

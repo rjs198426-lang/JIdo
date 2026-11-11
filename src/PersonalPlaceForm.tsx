@@ -92,7 +92,7 @@ export default function PersonalPlaceForm({
         sameDestination(item.destination, destination) &&
         matchesRegisteredPlace(item, name),
     )
-    const catalog = places
+    const catalog = ([] as typeof places)
       .filter(
         (place) =>
           place.cityId === destination.guideCityId &&

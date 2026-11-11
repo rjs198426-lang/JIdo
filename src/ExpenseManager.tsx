@@ -403,6 +403,18 @@ export default function ExpenseManager({
           </button>
         </div>
       </div>
+      <div className="inner-tabs" role="tablist" aria-label="가계부 보기">
+        {['지출', '정산', '통계', '예산'].map((value) => (
+          <button
+            role="tab"
+            aria-selected={view === value}
+            key={value}
+            onClick={() => setView(value)}
+          >
+            {value}
+          </button>
+        ))}
+      </div>
       <div className="expense-summary-compact">
         <ExpenseSummary
           trip={trip}
@@ -996,15 +1008,12 @@ export default function ExpenseManager({
       )}
       <details
         className="simple-options expense-more"
-        open={toolsOpen || view !== '지출'}
+        open={toolsOpen}
         onToggle={(event) => {
           setToolsOpen(event.currentTarget.open)
-          if (!event.currentTarget.open && view !== '지출') setView('지출')
         }}
       >
-        <summary>
-          가계부 더보기 <span>통계·정산·예산</span>
-        </summary>
+        <summary>내보내기·상세 기록</summary>
         <button
           className="text-button"
           onClick={() => {
@@ -1044,21 +1053,6 @@ export default function ExpenseManager({
             })}
           </div>
         </details>
-        <div className="inner-tabs" role="tablist" aria-label="가계부 보기">
-          {(trip.travelers > 1 || expenses.some((item) => item.splits)
-            ? ['지출', '통계', '정산', '예산']
-            : ['지출', '통계', '예산']
-          ).map((value) => (
-            <button
-              role="tab"
-              aria-selected={view === value}
-              key={value}
-              onClick={() => setView(value)}
-            >
-              {value}
-            </button>
-          ))}
-        </div>
       </details>
       {view === '통계' && (
         <div className="expense-statistics">

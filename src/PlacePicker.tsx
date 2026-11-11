@@ -1,36 +1,23 @@
+import { useContext, useState } from 'react'
+import { Search, Plus, Check, MapPin } from 'lucide-react'
 import PlaceSearchResults, {
   PlaceSearchService,
   usePlaceSearch,
 } from './PlaceSearch'
-import PlaceDiscoveryOrder from './PlaceDiscoveryOrder'
-import { useState, useContext } from 'react'
 import { PlaceLibraryContext } from './PlaceLibraryContext'
-import { sameDestination } from './registered-places'
-import { Check, Plus, Search, MapPin } from 'lucide-react'
-import { placeIntroduction } from './place-introduction'
-import { places, discoveryPlaces, categoryOptions, getCity } from './catalog'
-import {
-  destinationForDay,
-  stopName,
-  type Trip,
-  type CustomPlace,
-} from './travel-model'
-import { dateAt, formatDate } from './store'
-import { matchesPlace, matchesSearch } from './search'
-import PlacePhoto from './PlacePhoto'
 import {
   registeredPlaces,
-  registeredPlaceKey,
+  sameDestination,
   matchesRegisteredPlace,
+  registeredPlaceKey,
 } from './registered-places'
-import { sameStopPlace } from './stop-identity'
+import { destinationForDay, type CustomPlace, type Trip } from './travel-model'
+import { dateAt, formatDate } from './store'
 
 export default function PlacePicker({
   trip,
   trips,
   day,
-  onAdd,
-  onOpen,
   onCustom,
   onReuse,
   onDone,
@@ -38,77 +25,58 @@ export default function PlacePicker({
   trip: Trip
   trips: Trip[]
   day: number
-  onAdd: (placeId: string) => void
-  onOpen: (placeId: string) => void
   onCustom: (name: string) => void
-  onDone: () => void
   onReuse: (place: CustomPlace) => void
+  onDone: () => void
+  onAdd?: (id: string) => void
+  onOpen?: (id: string) => void
 }) {
-  const library = useContext(PlaceLibraryContext)
-  const [initialIds] = useState(
-    () => new Set(trip.days[day].map((stop) => stop.id)),
-  )
-  const addedStops = trip.days[day].filter((stop) => !initialIds.has(stop.id))
-  const remote = usePlaceSearch()
-  const findOnMap = () => {
-    if (query.trim() && !remote.loading) {
-      setCategory('전체')
-      void remote.search(query.trim(), destination)
-    }
-  }
-  const [category, setCategory] = useState('전체')
-  const [query, setQuery] = useState('')
-  const destination = destinationForDay(trip, day)
-  const known = discoveryPlaces(
-    places.filter(
-      (place) =>
-        !library?.hiddenPublicIds.has(place.id) &&
-        place.cityId === destination.guideCityId &&
-        (matchesPlace(place, getCity(place.cityId)!, query) ||
-          matchesSearch(query, place.name, place.english, place.address)),
-    ),
-  )
+  const [query, setQuery] = useState(''),
+    [initialIds] = useState(
+      () => new Set(trip.days[day].map((stop) => stop.id)),
+    )
+  const remote = usePlaceSearch(),
+    library = useContext(PlaceLibraryContext),
+    destination = destinationForDay(trip, day)
   const saved = (
     library?.entries || registeredPlaces(trips, destination)
   ).filter(
-    (place) =>
-      sameDestination(place.destination, destination) &&
-      matchesRegisteredPlace(place, query),
+    (entry) =>
+      sameDestination(entry.destination, destination) &&
+      matchesRegisteredPlace(entry, query),
   )
-  const available = known.filter(
-    (place) => category === '전체' || place.category === category,
-  )
-  const reused = saved.filter(
-    (place) => category === '전체' || place.custom.kind === category,
-  )
+  const added = trip.days[day].filter((stop) => !initialIds.has(stop.id))
+  const find = () => {
+    if (query.trim() && !remote.loading)
+      void remote.search(query.trim(), destination)
+  }
   return (
     <div className="modal-body place-picker-body">
       <p className="muted picker-description">
-        DAY {day + 1} · {formatDate(dateAt(trip.startDate, day))}
+        {destination.name} · {formatDate(dateAt(trip.startDate, day))}
       </p>
       <div className="input-search">
         <Search size={18} />
         <input
-          value={query}
-          onChange={(event) => {
-            setQuery(event.target.value)
-            remote.reset()
-            setCategory('전체')
-          }}
-          placeholder="등록된 장소 이름·주소 검색"
           aria-label="일정에 추가할 장소 검색"
-          onKeyDown={(event) => {
-            if (event.key === 'Enter') {
-              event.preventDefault()
-              findOnMap()
+          placeholder="장소 이름 또는 주소"
+          value={query}
+          onChange={(e) => {
+            setQuery(e.target.value)
+            remote.reset()
+          }}
+          onKeyDown={(e) => {
+            if (e.key === 'Enter') {
+              e.preventDefault()
+              find()
             }
           }}
         />
         <button
           className="button primary small"
           type="button"
+          onClick={find}
           disabled={!query.trim() || remote.loading}
-          onClick={findOnMap}
         >
           {remote.loading
             ? '찾는 중…'
@@ -117,114 +85,13 @@ export default function PlacePicker({
               : '지도 검색'}
         </button>
       </div>
-      <div className="filter-row">
-        {[...categoryOptions, '이동', '기타'].map((item) => (
-          <button
-            type="button"
-            key={item}
-            className={`filter ${item === category ? 'active' : ''}`}
-            onClick={() => setCategory(item)}
-          >
-            {item}
-          </button>
-        ))}
-      </div>
-      <PlaceDiscoveryOrder />
-      <div className="picker-list" aria-label="등록된 가볼 곳">
-        {reused.map((entry) => {
-          const added = trip.days[day].some(
-            (stop) =>
-              stop.custom &&
-              registeredPlaceKey(stop.custom) ===
-                registeredPlaceKey(entry.custom),
-          )
-          return (
-            <div key={entry.key} className="picker-item">
-              <PlacePhoto
-                stop={{
-                  id: '',
-                  placeId: '',
-                  time: '',
-                  note: '',
-                  custom: entry.custom,
-                }}
-                alt={entry.custom.name}
-                className="picker-place-photo"
-              />
-              <button
-                type="button"
-                className="picker-place-name"
-                disabled={added}
-                onClick={() => onReuse(entry.custom)}
-              >
-                <small>{entry.custom.kind} · 직접 등록</small>
-                <strong>{entry.custom.name}</strong>
-                <span>{entry.custom.address || destination.name}</span>
-              </button>
-              <button
-                type="button"
-                className={`icon-button ${added ? 'added' : 'add-stop'}`}
-                disabled={added}
-                aria-label={`${entry.custom.name} ${added ? '추가됨' : '일정에 추가'}`}
-                onClick={() => onReuse(entry.custom)}
-              >
-                {added ? <Check size={20} /> : <Plus size={20} />}
-              </button>
-            </div>
-          )
-        })}
-        {available.map((place) => {
-          const added = trip.days[day].some((stop) =>
-            sameStopPlace(stop, {
-              id: 'candidate',
-              placeId: place.id,
-              time: '',
-              note: '',
-            }),
-          )
-          return (
-            <div key={place.id} className="picker-item">
-              <PlacePhoto
-                place={place}
-                alt={place.name}
-                className="picker-place-photo"
-              />
-              <button
-                type="button"
-                className="picker-place-name"
-                onClick={() => onOpen(place.id)}
-              >
-                <small>{place.category}</small>
-                <strong>{place.name}</strong>
-                <span>{placeIntroduction(place)}</span>
-              </button>
-              <button
-                type="button"
-                className={`icon-button ${added ? 'added' : 'add-stop'}`}
-                disabled={added}
-                aria-label={`${place.name} ${added ? '추가됨' : '일정에 추가'}`}
-                onClick={() => onAdd(place.id)}
-              >
-                {added ? <Check size={20} /> : <Plus size={20} />}
-              </button>
-            </div>
-          )
-        })}
-      </div>
-      {!available.length && !reused.length && (
-        <p className="no-results">등록된 장소가 없어요.</p>
-      )}
-      {!available.length &&
-        !reused.length &&
-        known.length + saved.length > 0 && (
-          <button
-            type="button"
-            className="button outline full"
-            onClick={() => setCategory('전체')}
-          >
-            전체 분류에서 보기
-          </button>
-        )}
+      <button
+        className="button outline full custom-stop-cta"
+        onClick={() => onCustom(query.trim())}
+      >
+        <Plus size={17} />
+        {query.trim() ? `‘${query.trim()}’ 직접 입력` : '직접 일정 입력'}
+      </button>
       <PlaceSearchResults
         search={remote}
         actionLabel="일정에 추가"
@@ -250,36 +117,59 @@ export default function PlacePicker({
         }
       />
       <PlaceSearchService search={remote} />
-      <button
-        type="button"
-        className={`button ${known.length + saved.length ? 'outline' : 'primary'} full custom-stop-cta`}
-        onClick={() => onCustom(query.trim())}
-      >
-        <Plus size={17} />
-        {query.trim() && !known.length && !saved.length
-          ? `‘${query.trim()}’ 새 장소 추가`
-          : '새 장소 추가'}
-      </button>
+      <section className="picker-list" aria-label="내가 등록한 장소">
+        <h3>내가 등록한 장소</h3>
+        {saved.length ? (
+          saved.map((entry) => {
+            const exists = trip.days[day].some(
+              (stop) =>
+                stop.custom &&
+                registeredPlaceKey(stop.custom) ===
+                  registeredPlaceKey(entry.custom),
+            )
+            return (
+              <div className="picker-item" key={entry.key}>
+                <MapPin size={21} />
+                <button
+                  className="picker-place-name"
+                  disabled={exists}
+                  onClick={() => onReuse(entry.custom)}
+                >
+                  <strong>{entry.custom.name}</strong>
+                  <small>
+                    {entry.custom.kind} ·{' '}
+                    {entry.custom.address || destination.name}
+                  </small>
+                </button>
+                <button
+                  className="icon-button"
+                  disabled={exists}
+                  aria-label={`${entry.custom.name} ${exists ? '추가됨' : '일정에 추가'}`}
+                  onClick={() => onReuse(entry.custom)}
+                >
+                  {exists ? <Check size={20} /> : <Plus size={20} />}
+                </button>
+              </div>
+            )
+          })
+        ) : (
+          <p className="muted">
+            지도에서 찾거나 이름만 직접 입력해 시작하세요. 시간은 나중에 정할 수
+            있어요.
+          </p>
+        )}
+      </section>
       <div className="picker-confirm" aria-label="이날 담은 장소">
         <div role="status">
-          <strong>
-            DAY {day + 1} · {trip.days[day].length}곳
-          </strong>
+          <strong>일정 {trip.days[day].length}곳</strong>
           <span>
-            {addedStops.length
-              ? `이번에 ${addedStops.length}곳 추가했어요`
-              : '가고 싶은 곳을 차례로 담아보세요'}
+            {added.length
+              ? `이번에 ${added.length}곳 추가했어요`
+              : '정한 순서대로 담아보세요'}
           </span>
         </div>
-        {addedStops.length > 0 && (
-          <div className="picker-added-names" aria-label="이번에 추가한 장소">
-            {addedStops.map((stop) => (
-              <span key={stop.id}>{stopName(stop)}</span>
-            ))}
-          </div>
-        )}
         <button className="button primary full" onClick={onDone}>
-          일정 보기
+          일정으로 돌아가기
         </button>
       </div>
     </div>

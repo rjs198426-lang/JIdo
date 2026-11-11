@@ -2,7 +2,11 @@ import { dateAt } from './store'
 import type { Reservation, Trip } from './travel-model'
 
 export function reservationDayLabel(item: Reservation, date: string) {
-  if (item.kind !== '숙소') return `${item.kind} · ${item.time}`
+  if (item.kind === '항공' && item.flight)
+    return item.date !== date && item.flight.arrivalDate === date
+      ? `항공 · 도착 ${item.flight.arrivalTime || '시간 미정'}`
+      : `항공 · 출발 ${item.time || '시간 미정'}`
+  if (item.kind !== '숙소') return `${item.kind} · ${item.time || '시간 미정'}`
   if (
     date < item.date ||
     (item.endDate && date > item.endDate) ||
@@ -11,7 +15,7 @@ export function reservationDayLabel(item: Reservation, date: string) {
     return '숙소 · 이용일 확인'
   if (item.endDate && item.endDate !== item.date && item.endDate === date)
     return '숙소 · 체크아웃일'
-  if (item.date === date) return `숙소 · 체크인 ${item.time}`
+  if (item.date === date) return `숙소 · 체크인 ${item.time || '시간 미정'}`
   return '숙소 · 숙박 중'
 }
 export function reservationsForDay(trip: Trip, day: number) {
@@ -21,6 +25,7 @@ export function reservationsForDay(trip: Trip, day: number) {
       (item) =>
         item.status !== 'cancelled' &&
         (item.date === date ||
+          (item.kind === '항공' && item.flight?.arrivalDate === date) ||
           (item.kind === '숙소' &&
             !!item.endDate &&
             item.date <= date &&

@@ -1,29 +1,22 @@
 import {
-  BookOpen,
-  Bell,
-  LocateFixed,
-  Image,
-  FileDown,
-  ChevronRight,
+Bell,
+ChevronRight,
+FileDown,
+Image
 } from 'lucide-react'
-import ContentUpdates from './ContentUpdates'
 import DriveSyncSettings from './DriveSyncSettings'
 import type { DriveSyncState } from './useDriveSync'
 export default function SettingsPage({
   onReminders,
-  onNearby,
   onPhotoCredits,
   onBackup,
   onRecovery,
-  onGuidebooks,
   sync,
 }: {
   onReminders: () => void
-  onNearby: () => void
   onPhotoCredits: () => void
   onBackup: () => void
   onRecovery?: () => void
-  onGuidebooks: () => void
   sync?: DriveSyncState
 }) {
   return (
@@ -33,11 +26,6 @@ export default function SettingsPage({
       </div>
       <section className="settings-group" aria-label="여행과 기기">
         <h2>여행과 기기</h2>
-        <button onClick={onGuidebooks}>
-          <BookOpen size={21} />
-          <span>가이드북</span>
-          <ChevronRight size={18} />
-        </button>
         {onRecovery && (
           <button onClick={onRecovery}>
             <FileDown size={21} />
@@ -48,7 +36,6 @@ export default function SettingsPage({
         {(
           [
             ['여행 알림 설정', Bell, onReminders],
-            ['현재 위치·내 주변', LocateFixed, onNearby],
             ['여행 백업·공유', FileDown, onBackup],
             ['사진 출처', Image, onPhotoCredits],
           ] as const
@@ -85,9 +72,6 @@ export default function SettingsPage({
         >
           개인정보 처리 안내 <ChevronRight size={18} />
         </a>
-      </section>
-      <section className="settings-group">
-        <ContentUpdates />
       </section>
     </section>
   )

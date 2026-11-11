@@ -1,18 +1,14 @@
-import { LocateFixed, ArrowUpRight } from 'lucide-react'
-import { discoveryPlaces } from './catalog'
+import { LocateFixed } from 'lucide-react'
 import { useContext } from 'react'
+import {
+destinationProgress,
+displayDistance
+} from './live-location'
 import { PlaceLibraryContext } from './PlaceLibraryContext'
+import { routePoints } from './route-map-model'
 import type { Stop } from './travel-model'
 import { stopDetails } from './travel-model'
-import { routePoints } from './route-map-model'
 import { useLiveLocation } from './use-live-location'
-import {
-  nearbyDining,
-  destinationProgress,
-  displayDistance,
-} from './live-location'
-import PlacePhoto from './PlacePhoto'
-import { mapsSearch } from './google-maps'
 export default function LiveNearby({
   next,
   onOpen,
@@ -28,20 +24,12 @@ export default function LiveNearby({
     position && target
       ? destinationProgress(position, location.previous, target, location.now)
       : undefined
-  const nearby = position
-    ? nearbyDining(
-        discoveryPlaces().filter(
-          (place) => !library?.hiddenPublicIds.has(place.id),
-        ),
-        position,
-        location.now,
-      )
-    : []
   return (
     <section className="live-nearby" aria-label="현재 위치와 주변 장소">
       <div className="detail-section-heading">
         <h3>
-          <LocateFixed size={19} />내 주변
+          <LocateFixed size={19} />
+          이동 확인
         </h3>
         <button
           className="button outline small"
@@ -55,7 +43,8 @@ export default function LiveNearby({
       </div>
       {!location.running && !position && (
         <p>
-          위치를 켜면 다음 장소까지의 거리와 주변 맛집·카페를 확인할 수 있어요.
+          위치를 켜면 다음 일정 장소까지의 직선 거리와 이동 방향을 확인할 수
+          있어요.
         </p>
       )}
       {location.message && (
@@ -96,36 +85,6 @@ export default function LiveNearby({
               </p>
             )
           )}
-          <h4>주변 맛집·카페</h4>
-          {nearby.length ? (
-            <ul className="live-nearby-list">
-              {nearby.map(({ place, distance }) => (
-                <li key={place.id}>
-                  <PlacePhoto place={place} />
-                  <button onClick={() => onOpen(place.id)}>
-                    <strong>{place.name}</strong>
-                    <small>
-                      {place.category} · 직선 {displayDistance(distance)}
-                    </small>
-                  </button>
-                </li>
-              ))}
-            </ul>
-          ) : (
-            <p>현재 위치에서 3km 안에 등록된 맛집·카페가 없어요.</p>
-          )}
-          <a
-            className="text-button"
-            href={mapsSearch(`맛집 near ${position.lat},${position.lng}`)}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Google 지도에서 주변 맛집 찾기 <ArrowUpRight size={15} />
-          </a>
-          <p className="detail-footnote">
-            가까운 순으로 표시합니다. 위치가 대략적으로 허용되면 거리 오차가 클
-            수 있어요. 영업 여부는 방문 전에 확인해 주세요.
-          </p>
         </>
       )}
       <details className="location-privacy">

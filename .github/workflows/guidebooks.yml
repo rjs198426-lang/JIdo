@@ -1,27 +1,6 @@
-name: Prepare reviewed guidebooks
+name: Archived guidebook validation (manual only)
 on:
   workflow_dispatch:
-  push:
-    paths:
-      - 'guidebook-sources/**'
-      - 'guidebooks/**'
-      - 'scripts/build-guidebooks.mjs'
-      - 'src/guidebook-schema.ts'
-      - 'src/guide-schema.ts'
-      - 'guidebook-database/**'
-      - 'research/guidebooks/**'
-      - 'scripts/build-guide-database.mjs'
-      - 'scripts/plan-guide-research.mjs'
-      - 'scripts/guide-database.test.mjs'
-      - 'src/venue-coordinates.ts'
-      - 'src/category-balance.ts'
-      - 'src/data.ts'
-      - 'src/*guides*'
-      - 'src/*places*'
-      - 'src/*notes*'
-      - 'src/guide-plans.json'
-      - 'src/place-*.json'
-      - 'src/photo-credits.ts'
 permissions:
   contents: read
 jobs:

@@ -1,3 +1,4 @@
+import ReservationDetails from './ReservationDetails'
 import { useState } from 'react'
 import { ExternalLink } from 'lucide-react'
 import AttachmentsPanel from './AttachmentsPanel'
@@ -40,9 +41,14 @@ export default function FieldReservation({
         </span>
       </div>
       <p>
-        {formatDate(item.kind === '숙소' ? date : item.date)} ·{' '}
-        {reservationDayLabel(item, date)}
+        {formatDate(
+          item.kind === '숙소' || item.flight?.arrivalDate === date
+            ? date
+            : item.date,
+        )}{' '}
+        · {reservationDayLabel(item, date)}
       </p>
+      <ReservationDetails item={item} />
       {mismatch && (
         <p className="booking-pending" role="alert">
           연결된 일정과 예약 날짜·시간이 달라요.

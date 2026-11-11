@@ -115,7 +115,7 @@ async function boot(
     { raw, options, key: STORAGE_KEY, prefix: RECOVERY_PREFIX },
   )
   await page.goto('/')
-  await expect(page.locator('.travel-home')).toBeVisible()
+  await expect(page.locator('.planner-home')).toBeVisible()
 }
 const saved = (page: Page) =>
   page.evaluate((key) => localStorage.getItem(key), STORAGE_KEY)
@@ -140,7 +140,8 @@ async function create(page: Page) {
   await page
     .getByRole('button', { name: '첫 여행 만들기', exact: true })
     .click()
-  await page.getByLabel('어디로 떠나세요?').selectOption('kyoto')
+  await page.getByLabel('여행 도시', { exact: true }).fill('교토')
+  await page.getByLabel('국가', { exact: true }).fill('일본')
   await page.getByLabel('출발일', { exact: true }).fill(trip.startDate)
   await page.getByLabel('마지막 날', { exact: true }).fill(trip.endDate)
 }
@@ -216,7 +217,7 @@ test('직접 일정 저장 실패는 장소·메모 입력을 유지하고 재�
   await page.getByLabel('일정에 추가할 장소 검색').fill('개인 일정 보존')
   await page
     .getByRole('dialog')
-    .getByRole('button', { name: /새 장소 추가/ })
+    .getByRole('button', { name: /직접 입력|직접 일정 입력/ })
     .click()
   await page.getByLabel(/^장소 또는 일정 이름/).fill('개인 일정 보존')
   await page.getByLabel('메모', { exact: true }).fill('지우면 안 되는 메모')

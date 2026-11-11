@@ -2400,3 +2400,59 @@ body {
   word-break: keep-all;
   overflow-wrap: anywhere;
 }
+
+/* 0.83 personal planning, reservations and money; no public guide surfaces. */
+:root .bottom-nav { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+:root .planner-home { padding-block: 24px 40px; max-width: 960px; margin-inline: auto; }
+:root .planner-home h1 { font-size: clamp(24px, 4vw, 30px); line-height: 1.35; margin: 6px 0 20px; }
+:root .planner-home h2 { font-size: 21px; margin: 0; line-height: 1.4; }
+.planner-welcome, .planner-trip-summary { padding: 28px; border-radius: 24px; background: linear-gradient(135deg,#e5f5ef,#f0f7fc); margin: 12px 0 22px; }
+.planner-welcome > svg { color: var(--green); margin-bottom: 20px; }
+.planner-welcome p, .planner-trip-summary p { line-height: 1.7; color: var(--muted); font-size: 18px; }
+.planner-welcome .button, .planner-trip-summary .button { margin-top: 10px; }
+.planner-shortcuts { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: 8px; margin-block: 20px; }
+.planner-shortcuts button { display: flex; flex-direction: column; gap: 10px; align-items: center; justify-content: center; border: 0; border-radius: 16px; background: white; min-height: 92px; color: var(--deep); padding: 12px 4px; }
+.planner-shortcuts svg { color: var(--green); }
+.planner-shortcuts span { white-space: nowrap; font-size: 16px; font-weight: 600; }
+.planner-panel { margin-block: 18px; border-radius: 20px; padding: 24px; background: white; }
+.planner-panel .home-section-heading { gap: 12px; flex-wrap: wrap; }
+.planner-empty-link { display: flex; gap: 12px; align-items: center; width: 100%; min-height: 64px; border: 0; background: transparent; color: var(--green); padding: 12px 0; text-align: left; }
+.planner-empty-link > svg:last-child { margin-left: auto; flex-shrink: 0; }
+.planner-day-preview { list-style: none; padding: 0; margin-bottom: 0; }
+.planner-day-preview li { display: grid; grid-template-columns: 60px minmax(0,1fr); gap: 14px; padding-block: 14px; border-top: 1px solid var(--line); }
+.planner-day-preview strong { word-break: keep-all; overflow-wrap: anywhere; }
+.planner-day-preview span { color: var(--muted); }
+.planner-booking-row { display: flex; align-items: center; gap: 14px; padding: 18px 0; border: 0; border-bottom: 1px solid var(--line); width: 100%; text-align: left; background: transparent; }
+.planner-booking-row > span { flex: 1; min-width: 0; }
+.planner-booking-row strong, .planner-booking-row small { display: block; line-height: 1.6; overflow-wrap: anywhere; }
+.planner-booking-row small { color: var(--muted); margin-top: 4px; }
+.planner-booking-row svg { flex-shrink: 0; color: var(--green); }
+.planner-metrics { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 12px; margin-block: 18px; }
+.planner-metrics button { border: 0; background: white; border-radius: 18px; text-align: left; padding: 20px; }
+.planner-metrics span, .planner-metrics strong { display: block; overflow-wrap: anywhere; }
+.planner-metrics span { color: var(--muted); margin-bottom: 8px; }
+.planner-metrics strong { font-size: 21px; }
+.reservation-quick-start { display: flex; flex-wrap: wrap; gap: 8px; margin-block: 12px; }
+.reservation-quick-start button { flex: 1 1 120px; min-height: var(--tap-size); }
+.reservation-specific-fields { padding: 18px; border: 1px solid var(--line); border-radius: 16px; }
+.reservation-specific-fields h4 { margin-block: 0 18px; }
+.reservation-specific-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 16px; }
+.reservation-specific-grid input { min-width: 0; width: 100%; }
+.reservation-specific-fields p { line-height: 1.7; }
+.reservation-details:empty { display: none; }
+.flight-route { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; padding-block: 6px; }
+.flight-times { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 12px; padding: 14px; background: var(--mint); border-radius: 14px; }
+.flight-times p { margin: 0; }
+.flight-times :is(span,strong,small) { display: block; line-height: 1.7; overflow-wrap: anywhere; }
+.flight-times small { color: var(--muted); }
+:root .expense-manager > .inner-tabs { display: flex; gap: 4px; margin: 12px 0 20px; width: 100%; }
+:root .expense-manager > .inner-tabs button { flex: 1; min-width: 0; min-height: var(--tap-size); white-space: nowrap; }
+@media(max-width: 380px) {
+  .planner-panel, .planner-welcome, .planner-trip-summary { padding: 20px; }
+  .planner-shortcuts span { font-size: 15px; }
+  .reservation-specific-fields { padding: 12px; }
+  .reservation-specific-grid { gap: 12px; }
+}
+
+.workspace-trip-switch { padding: 12px 0; margin-bottom: 12px; }
+.workspace-trip-switch select { width: 100%; min-height: var(--tap-size); }

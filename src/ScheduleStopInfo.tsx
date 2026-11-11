@@ -1,7 +1,6 @@
-import { getPlace } from './catalog'
-import { FileText, Ticket, MessageSquare } from 'lucide-react'
-import { scheduleFiles, scheduleStatus } from './schedule-list'
-import { stopDetails, type Stop, type Trip } from './travel-model'
+import { FileText,MessageSquare,Ticket } from 'lucide-react'
+import { scheduleFiles,scheduleStatus } from './schedule-list'
+import { stopDetails,type Stop,type Trip } from './travel-model'
 import type { JourneyTarget } from './trip-readiness'
 export default function ScheduleStopInfo({
   trip,
@@ -20,7 +19,7 @@ export default function ScheduleStopInfo({
   const files = scheduleFiles(trip, stop)
   const status = scheduleStatus(trip, stop)
   const name = stopDetails(stop).name
-  const preview = (stop.note.trim() || getPlace(stop.custom?.catalogPlaceId || stop.placeId)?.description || '').replace(/\s+/g, ' ')
+  const preview = (stop.note.trim()).replace(/\s+/g, ' ')
   return (
     <div className="schedule-stop-info">
       <div className="schedule-stop-badges">

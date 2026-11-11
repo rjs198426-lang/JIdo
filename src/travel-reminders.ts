@@ -152,7 +152,7 @@ export function planTravelReminders(
         )
         const zone =
           booking.kind === '항공'
-            ? preferences.flightZones[`${trip.id}:${booking.id}`]
+            ? preferences.flightZones[`${trip.id}:${booking.id}`] || booking.flight?.departureTimeZone
             : destinationTimeZone(destinationForDay(trip, day))
         if (booking.kind === '항공' && !zone) continue
         const clock = reminderInstant(booking.date, booking.time, zone)
@@ -181,7 +181,7 @@ export function planTravelReminders(
           )
           const zone =
             booking?.kind === '항공'
-              ? preferences.flightZones[`${trip.id}:${booking.id}`]
+              ? preferences.flightZones[`${trip.id}:${booking.id}`] || booking.flight?.departureTimeZone
               : destinationTimeZone(destinationForDay(trip, day))
           if (booking?.kind === '항공' && !zone) continue
           // A linked reservation already has its own reminder when that category is enabled.

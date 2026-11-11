@@ -1,4 +1,8 @@
 import {
+  hasReservationDetails,
+  RESERVATION_DETAILS_BUILD,
+} from './reservation-compat'
+import {
   canonicalSnapshot,
   emptySyncSnapshot,
   stableJson,
@@ -332,7 +336,9 @@ export async function runDriveSync({
     onProgress('Drive에 변경 저장 중')
     const commit = syncCommitSchema.parse({
       format: 'jido-drive-sync-v1',
-      minBuild: 81,
+      minBuild: hasReservationDetails(target.store.trips)
+        ? RESERVATION_DETAILS_BUILD
+        : 81,
       id: crypto.randomUUID(),
       parents: heads.map((h) => h.id),
       createdAt: new Date().toISOString(),

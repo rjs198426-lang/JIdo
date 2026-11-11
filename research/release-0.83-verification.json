@@ -1,0 +1,40 @@
+{
+  "version": "0.83",
+  "versionCode": 84,
+  "package": "com.jido.travel.next",
+  "bytes": 41355858,
+  "sha256": "fd0eb8bb53446efbfbe463c2c0d736cbf28a9d8d8c0740e44f603cb34af1e2c3",
+  "certificateSha256": "0d1b1f20dae73d00626d9ebb4f460943c4f16c2266bc7bc58d124d13b32494ac",
+  "signatureVerified": true,
+  "matchedWebAssets": 237,
+  "privateSigningFilesFound": false,
+  "existingMapsConfigurationBundled": true,
+  "nativeDeviceInstallTested": false,
+  "checkedAt": "2026-11-11T05:28:56.504145+00:00",
+  "sourceBaseCommit": "dee3813f59a9bcad41a1a6e170efcf4d76f2a153",
+  "scope": "Personal travel planning, field use, flight/hotel records, expenses and settlement; guide UI and automatic triggers removed",
+  "browserTestsPassed": 200,
+  "serverTestsPassed": 7,
+  "realGoogleLoginTested": false,
+  "realTwoDeviceSyncTested": false,
+  "publicCommit": "cc86346fdd2c0359978f2593179043c240761bd4",
+  "legacyReferenceValidation": {
+    "guides": 85,
+    "places": 1410,
+    "downloadableGuides": 64,
+    "guidebooksCheck": true,
+    "centralDatabaseCheck": true,
+    "newGuidesCreated": 0
+  },
+  "testExecution": {
+    "uniqueBrowserCases": 200,
+    "initialCoreRunPassed": 180,
+    "initialCoreRunFailed": 2,
+    "initialCoreFailureReason": "Two assertions still used the removed direct-add button name. Updated selectors to current labels; both desktop/mobile retries passed.",
+    "correctedCoreRetriesPassed": 2,
+    "reminderCases": 18,
+    "serverCases": 7,
+    "finalVisualRerunPassed": 1,
+    "externalServices": "Google Maps, Drive and native permission/file bridges use controlled responses; no real account or private user data used."
+  }
+}

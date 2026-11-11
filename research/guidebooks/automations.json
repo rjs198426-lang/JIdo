@@ -34,9 +34,9 @@
   "scheduleCheckedAt": "2026-11-09",
   "github": {
     "workflow": ".github/workflows/guide-source-monitor.yml",
-    "cronUtc": "0 18 * * 6",
-    "localSchedule": "매주 일요일 03:00 Asia/Seoul",
-    "mode": "existing-source-change-check-only",
+    "cronUtc": null,
+    "localSchedule": null,
+    "mode": "archived-manual-only",
     "newGuidesEnabled": false,
     "paidAiEnabled": false,
     "firstRunVerified": true,
@@ -46,6 +46,9 @@
     "comparisonRunUrl": "https://github.com/rjs198426-lang/JIdo/actions/runs/42593269404",
     "verifiedAt": "2026-11-09T09:26:58Z",
     "reportPublicationCommit": "d127b954a445e96af8e720755c4bdc2eed3b1123",
-    "verificationPath": "research/guidebooks/runs/20261109T0926-source-monitor-verification.json"
+    "verificationPath": "research/guidebooks/runs/20261109T0926-source-monitor-verification.json",
+    "scheduled": false,
+    "disabledAt": "2026-11-11",
+    "disabledReason": "User removed guide-driven app features"
   }
 }

@@ -780,6 +780,7 @@ async function fakeGoogle(
 }
 test('독립된 두 기기의 실제 화면에서 계정 연결·초기 가져오기·오프라인 수정 병합·연결 해제', async ({
   browser,
+  baseURL,
 }) => {
   const a = await browser.newContext({ viewport: { width: 393, height: 851 } }),
     b = await browser.newContext({ viewport: { width: 393, height: 851 } }),
@@ -790,10 +791,7 @@ test('독립된 두 기기의 실제 화면에서 계정 연결·초기 가져�
     await fakeGoogle(b, space, sessions, emptySyncSnapshot())
     const pa = await a.newPage(),
       pb = await b.newPage()
-    await Promise.all([
-      pa.goto('http://127.0.0.1:5192'),
-      pb.goto('http://127.0.0.1:5192'),
-    ])
+    await Promise.all([pa.goto(baseURL!), pb.goto(baseURL!)])
     const sa = await settings(pa),
       sb = await settings(pb)
     await sa
@@ -912,6 +910,7 @@ test('독립된 두 기기의 실제 화면에서 계정 연결·초기 가져�
 
 test('두 기기의 사진·일정 사진·첨부는 해시 검증 후 나타나며 손상 파일은 부분 적용하지 않음', async ({
   browser,
+  baseURL,
 }) => {
   const a = await browser.newContext({ viewport: { width: 393, height: 851 } }),
     b = await browser.newContext({ viewport: { width: 393, height: 851 } }),
@@ -939,10 +938,7 @@ test('두 기기의 사진·일정 사진·첨부는 해시 검증 후 나타나
     await fakeGoogle(b, space, sessions, emptySyncSnapshot())
     const pa = await a.newPage(),
       pb = await b.newPage()
-    await Promise.all([
-      pa.goto('http://127.0.0.1:5192'),
-      pb.goto('http://127.0.0.1:5192'),
-    ])
+    await Promise.all([pa.goto(baseURL!), pb.goto(baseURL!)])
     await pa.evaluate(
       async ({ id, bytes }) =>
         new Promise<void>((resolve, reject) => {

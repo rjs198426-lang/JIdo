@@ -1,3 +1,7 @@
+import {
+  hasReservationDetails,
+  RESERVATION_DETAILS_BUILD,
+} from './reservation-compat'
 import { registerPlugin } from '@capacitor/core'
 import { zipSync, unzipSync, strToU8, strFromU8 } from 'fflate'
 import { z } from 'zod'
@@ -42,7 +46,8 @@ const fileSchema = attachmentSchema.extend({
 })
 const manifestSchema = z.object({
   format: z.literal('jido-full-backup'),
-  version: z.union([z.literal(1), z.literal(2)]),
+  version: z.union([z.literal(1), z.literal(2), z.literal(3)]),
+  minBuild: z.literal(84).optional(),
   createdAt: z.string().datetime(),
   trips: z.array(tripSchema).max(500),
   personalPhotos: z
@@ -71,7 +76,7 @@ const digest = async (bytes: Uint8Array) =>
     .join('')
 function validate(value: unknown) {
   const manifest = manifestSchema.parse(value)
-  if (manifest.placeLibrary && manifest.version !== 2)
+  if (manifest.placeLibrary && manifest.version === 1)
     throw new Error('개인 장소가 포함된 백업 형식을 확인해 주세요.')
   if (
     !manifest.trips.length &&
@@ -80,6 +85,11 @@ function validate(value: unknown) {
     !manifest.placeLibrary?.hidden.length
   )
     throw new Error('백업할 여행이나 사진이 없습니다.')
+  if (
+    hasReservationDetails(manifest.trips) &&
+    (manifest.version !== 3 || manifest.minBuild !== RESERVATION_DETAILS_BUILD)
+  )
+    throw new Error('항공·호텔 상세 정보의 백업 버전을 확인해 주세요.')
   const files = new Map(manifest.files.map((f) => [f.id, f]))
   const used = new Set<string>()
   if (files.size !== manifest.files.length)
@@ -131,7 +141,14 @@ export function fullManifest(trips: Trip[], placeLibrary?: PlaceLibrary) {
     throw new Error('전체 백업에는 최대 5,000개 파일을 담을 수 있어요.')
   return {
     format: 'jido-full-backup' as const,
-    version: placeLibrary ? (2 as const) : (1 as const),
+    version: hasReservationDetails(trips)
+      ? (3 as const)
+      : placeLibrary
+        ? (2 as const)
+        : (1 as const),
+    ...(hasReservationDetails(trips)
+      ? { minBuild: RESERVATION_DETAILS_BUILD }
+      : {}),
     createdAt: new Date().toISOString(),
     trips: trips.map((trip) => {
       const portable = portableTrip(trip)

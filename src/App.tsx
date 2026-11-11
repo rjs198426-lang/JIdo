@@ -1,209 +1,152 @@
-import { readAppSession, useAppSession } from './app-session'
-import PlaceSearchResults, {
-  PlaceSearchService,
-  usePlaceSearch,
-} from './PlaceSearch'
-import TripLibrary from './TripLibrary'
-import GuidebookLibrary from './GuidebookLibrary'
-import GuidebookSearch from './GuidebookSearch'
-import ConnectionNotice from './ConnectionNotice'
-import { guidebookPlaceSnapshot } from './guidebook-trip'
-import { isManagedGuidebook } from './guidebook-store'
-import { createContext, useContext } from 'react'
-import RecoveryPanel from './RecoveryPanel'
-import { SAVE_ERROR_MESSAGE } from './store'
-import ReminderSettings from './ReminderSettings'
-import LiveNearby from './LiveNearby'
-import { useTravelReminders } from './reminder-service'
-import { layoutHeight } from './ui-scale'
-import { BookOpen, Ticket, CheckSquare, Wallet } from 'lucide-react'
-import DayNavigation from './DayNavigation'
+import { App as NativeApp } from '@capacitor/app'
+import { Capacitor } from '@capacitor/core'
 import {
-  moveScheduleStops,
-  scheduleMoveRecord,
-  undoScheduleMove,
-  type ScheduleMove,
-} from './schedule-move'
-import { bundledImage } from './bundled-image'
-import { startContentUpdates } from './content-release'
-import TimelineRail, { timelineDistance } from './TimelineRail'
-import SettingsPage from './SettingsPage'
-import { useDriveSync } from './useDriveSync'
-import { Settings } from 'lucide-react'
-import ScheduleStopInfo from './ScheduleStopInfo'
-import ScheduleOrderDialog from './ScheduleOrderDialog'
+  ArrowDown,
+  ArrowRight,
+  ArrowUp,
+  BedDouble,
+  Bookmark,
+  CalendarDays,
+  Check,
+  CheckSquare,
+  ChevronRight,
+  Coffee,
+  ExternalLink,
+  Home,
+  Luggage,
+  Map as MapIcon,
+  MapPin,
+  Music,
+  Pencil,
+  Plus,
+  Search,
+  Settings,
+  ShoppingBag,
+  Sparkles,
+  Ticket,
+  Trash2,
+  Users,
+  Utensils,
+  Wallet,
+  X,
+} from 'lucide-react'
 import {
-  emptyScheduleFilter,
-  matchesSchedule,
-  scheduleSummary,
-  applyScheduleOrder,
-  type ScheduleFilter,
-  type ScheduleOrder,
-} from './schedule-list'
-import { homeJourney } from './home-journey'
+  createContext,
+  useContext,
+  useEffect,
+  useId,
+  useRef,
+  useState,
+  type ContextType,
+  type ReactNode,
+} from 'react'
 import AppInformation from './AppInformation'
-import BlogPhotos from './BlogPhotos'
-import { meaningfulCost } from './place-introduction'
-import { discoveryPlaces } from './catalog'
-import PlaceDiscoveryOrder from './PlaceDiscoveryOrder'
-import { PlaceLibraryContext } from './PlaceLibraryContext'
-import PersonalPlaceForm from './PersonalPlaceForm'
-import PersonalPlaceCard from './PersonalPlaceCard'
-import {
-  libraryPlaces,
-  savePersonalPlace,
-  removeLibraryPlace,
-  mergePlaceLibraries,
-  type PersonalPlace,
-} from './personal-place-library'
-import { useSyncExternalStore } from 'react'
-import {
-  subscribeGoogleReviews,
-  googleReviewRevision,
-} from './google-review-store'
-import CompanionCount from './CompanionCount'
-import DayTransfers from './DayTransfers'
-import { useGoogleRoutes } from './google-routes'
-import DurationInput from './DurationInput'
-import TripSearch from './TripSearch'
+import AttachmentsPanel, { AttachmentsContext } from './AttachmentsPanel'
+import { type CityGuideTab } from './CityGuide'
+import ConnectionNotice from './ConnectionNotice'
+import CustomStopForm from './CustomStopForm'
+import DayNavigation from './DayNavigation'
 import DayScheduleAdjust from './DayScheduleAdjust'
-import { applyTimeAdjustment, type TimeAdjustment } from './schedule-adjust'
-import { useJourneyNavigation } from './use-journey-navigation'
-import type { JourneyTarget } from './trip-readiness'
-import { dayTransferLegs } from './transfer-planning'
-import {
-  planningViews,
-  preparationViews,
-  workspaceGroup,
-} from './workspace-navigation'
+import DayTransfers from './DayTransfers'
+import DurationInput from './DurationInput'
+import FieldJourney from './FieldJourney'
+import JourneyRoute, { DayRoute } from './JourneyRoute'
+import JourneyShare from './JourneyShare'
+import PersonalPlaceForm from './PersonalPlaceForm'
+import PhotoCredits from './PhotoCredits'
+import { PlaceLibraryContext } from './PlaceLibraryContext'
+import PlacePhoto from './PlacePhoto'
+import PlacePicker from './PlacePicker'
+import PlaceSource from './PlaceSource'
+import CreateTrip from './PlannerCreateTrip'
+import PlannerHome from './PlannerHome'
 import QuickExpense from './QuickExpense'
-import NearbyPlaces from './NearbyPlaces'
-import { commitFullRestore } from './full-backup'
+import RecoveryPanel from './RecoveryPanel'
+import RegisteredPlaceAdd from './RegisteredPlaceAdd'
+import ReminderSettings from './ReminderSettings'
 import ReservationConflicts from './ReservationConflicts'
-import { useDraftFields } from './form-draft'
-import CityGuide, { type CityGuideTab } from './CityGuide'
+import ScheduleOrderDialog from './ScheduleOrderDialog'
+import ScheduleStopInfo from './ScheduleStopInfo'
+import SettingsPage from './SettingsPage'
+import TimelineRail, { timelineDistance } from './TimelineRail'
+import TravelBackup from './TravelBackup'
+import { Checklist, Expenses, Reservations } from './TravelTools'
+import TripDashboard from './TripDashboard'
+import TripEditor from './TripEditor'
+import TripLibrary from './TripLibrary'
 import TripOverview from './TripOverview'
+import TripSearch from './TripSearch'
+import { readAppSession, useAppSession } from './app-session'
+import type { Attachment } from './attachment-schema'
+import { bundledImage } from './bundled-image'
+import { cities, getCity, getPlace, type Region } from './catalog'
+import { commitFullRestore } from './full-backup'
+import { googleMapsLink, mapsSearch } from './google-maps'
+import { useGoogleRoutes } from './google-routes'
+import {
+  journeyPreference,
+  saveJourneyPreference,
+  travelDay,
+} from './journey-personal'
+import { cancelledReservation, timeConflicts } from './journey-progress'
 import {
   personalPhotoKey,
   personalPhotosSnapshot,
   usePersonalPhoto,
   usePhotoUrl,
 } from './personal-photos'
+import {
+  libraryPlaces,
+  removeLibraryPlace,
+  savePersonalPlace,
+  type PersonalPlace,
+} from './personal-place-library'
+import { type CourseSelection } from './practical-guides'
+import { registeredPlaceKey } from './registered-places'
+import { useTravelReminders } from './reminder-service'
+import { applyTimeAdjustment, type TimeAdjustment } from './schedule-adjust'
+import {
+  applyScheduleOrder,
+  emptyScheduleFilter,
+  matchesSchedule,
+  scheduleSummary,
+  type ScheduleFilter,
+  type ScheduleOrder,
+} from './schedule-list'
+import {
+  moveScheduleStops,
+  scheduleMoveRecord,
+  undoScheduleMove,
+  type ScheduleMove,
+} from './schedule-move'
 import { sameStopPlace } from './stop-identity'
-import CityPhoto from './CityPhoto'
-import PersonalPhotoControl from './PersonalPhotoControl'
-import GuideCourseForm from './GuideCourseForm'
-import { appendGuideSelection } from './guide-course'
-import {
-  courseDays,
-  practicalGuideById,
-  type CourseSelection,
-} from './practical-guides'
-import CoursePreview from './CoursePreview'
-import TravelHome from './TravelHome'
-import PhotoCredits from './PhotoCredits'
-import PlaceSource from './PlaceSource'
-import PlaceReviews from './PlaceReviews'
-import PlacePhoto from './PlacePhoto'
-import FieldJourney from './FieldJourney'
-import JourneyShare from './JourneyShare'
-import {
-  journeyPreference,
-  saveJourneyPreference,
-  travelDay,
-} from './journey-personal'
-import AttachmentsPanel, { AttachmentsContext } from './AttachmentsPanel'
-import type { Attachment } from './attachment-schema'
-import TripDashboard from './TripDashboard'
-import { cancelledReservation, timeConflicts } from './journey-progress'
-import PlacePicker from './PlacePicker'
-import RegisteredPlaceAdd from './RegisteredPlaceAdd'
-import {
-  registeredPlaces,
-  registeredPlaceKey,
-  matchesRegisteredPlace,
-} from './registered-places'
-import { googleMapsLink, mapsSearch } from './google-maps'
-import { placeCoordinates, placeMapQuery } from './place-location'
-import {
-  useEffect,
-  useId,
-  useRef,
-  useState,
-  type FormEvent,
-  type ReactNode,
-  type ContextType,
-} from 'react'
-import {
-  ArrowDown,
-  ArrowRight,
-  ArrowUp,
-  Bookmark,
-  CalendarDays,
-  Check,
-  ChevronRight,
-  Clock3,
-  Compass,
-  Coffee,
-  Earth,
-  Home,
-  Luggage,
-  Map as MapIcon,
-  MapPin,
-  Plus,
-  Search,
-  Sparkles,
-  Trash2,
-  Users,
-  Utensils,
-  X,
-  Plane,
-  ExternalLink,
-  Pencil,
-  BedDouble,
-  Music,
-  ShoppingBag,
-} from 'lucide-react'
-import { App as NativeApp } from '@capacitor/app'
-import { Capacitor } from '@capacitor/core'
-import {
-  cities,
-  places,
-  regions,
-  categoryOptions,
-  getCity,
-  getPlace,
-  type City,
-  type Place,
-  type Region,
-} from './catalog'
-import { getGuide, useGuideCatalog } from './catalog'
-import GuideContent from './GuideContent'
-import TripEditor from './TripEditor'
-import JourneyRoute, { DayRoute } from './JourneyRoute'
-import CustomStopForm from './CustomStopForm'
-import TravelBackup from './TravelBackup'
-import { Checklist, Expenses, Reservations } from './TravelTools'
-import {
-  tripCity,
-  tripDestinations,
-  destinationForDay,
-  stopDetails,
-  mapQuery,
-  tripSchema,
-  MAX_TRAVELERS,
-  type CustomPlace,
-} from './travel-model'
-import { matchesCity, matchesPlace } from './search'
 import {
   dateAt,
-  dayCount,
   formatDate,
-  today,
+  SAVE_ERROR_MESSAGE,
   useTravelStore,
-  type Trip,
   type Stop,
+  type Trip,
 } from './store'
+import { dayTransferLegs } from './transfer-planning'
+import {
+  destinationForDay,
+  mapQuery,
+  stopDetails,
+  tripCity,
+  tripDestinations,
+  tripSchema,
+  type CustomPlace,
+} from './travel-model'
+import type { JourneyTarget } from './trip-readiness'
+import { layoutHeight } from './ui-scale'
+import { useJourneyNavigation } from './use-journey-navigation'
+import { useDriveSync } from './useDriveSync'
+import {
+  planningViews,
+  preparationViews,
+  workspaceGroup,
+} from './workspace-navigation'
 
 type Page = 'home' | 'trips' | 'explore' | 'settings'
 type Dialog =
@@ -260,7 +203,8 @@ type Dialog =
 const navigation = [
   { id: 'home' as const, name: '홈', icon: Home },
   { id: 'trips' as const, name: '내 여행', icon: Luggage },
-  { id: 'explore' as const, name: '여행지', icon: Compass },
+  { id: 'reservations' as const, name: '예약', icon: Ticket },
+  { id: 'expenses' as const, name: '경비', icon: Wallet },
   { id: 'settings' as const, name: '설정', icon: Settings },
 ]
 const categoryIcon = {
@@ -376,110 +320,6 @@ function Modal({
   )
 }
 
-function CityCard({
-  city,
-  onOpen,
-  compact = false,
-}: {
-  city: City
-  onOpen: () => void
-  compact?: boolean
-}) {
-  return (
-    <article className={`city-card ${compact ? 'city-compact' : ''}`}>
-      <div className="city-photo">
-        <button
-          className="photo-button"
-          aria-label={`${city.name} 여행지 자세히 보기`}
-          onClick={onOpen}
-        >
-          <CityPhoto city={city} />
-        </button>
-        <span className="country-tag">{city.country}</span>
-      </div>
-      <button className="city-card-copy" onClick={onOpen}>
-        <span className="city-title">
-          <strong>{city.name}</strong>
-          <span>{city.country}</span>
-          <ArrowUp className="diagonal-arrow" size={19} />
-        </span>
-        <span className="city-tagline">{city.tagline}</span>
-        <span className="tags">
-          {city.tags.map((tag) => (
-            <span key={tag}>#{tag}</span>
-          ))}
-        </span>
-      </button>
-    </article>
-  )
-}
-
-function PlaceCard({
-  place,
-  onOpen,
-  onAdd,
-  onDelete,
-}: {
-  place: Place
-  onOpen: () => void
-  onAdd?: () => void
-  onDelete?: () => void
-}) {
-  const Icon = categoryIcon[place.category]
-  return (
-    <article className="place-card">
-      <div className="place-photo">
-        <button
-          className="photo-button"
-          onClick={onOpen}
-          aria-label={`${place.name} 자세히 보기`}
-        >
-          <PlacePhoto place={place} alt={place.name} />
-        </button>
-      </div>
-      <button className="place-card-copy" onClick={onOpen}>
-        <span className="place-location">
-          <MapPin size={12} />
-          {place.area?.startsWith('근교')
-            ? place.area
-            : getCity(place.cityId)?.name}
-          <span>·</span>
-          {place.category}
-        </span>
-        <strong>{place.name}</strong>
-        <span className="place-description">{place.description}</span>
-        <span className="place-meta">
-          <Icon size={13} /> {place.area || place.category}
-          {place.address && (
-            <span className="place-card-address">{place.address}</span>
-          )}
-        </span>
-      </button>
-      {onAdd && (
-        <button
-          className="icon-button place-card-add"
-          aria-label={`${place.name} 일정에 추가`}
-          onClick={onAdd}
-        >
-          <Plus size={20} />
-        </button>
-      )}
-      {onDelete && (
-        <div className="place-library-card-actions">
-          <button
-            type="button"
-            className="icon-button"
-            aria-label={`${place.name} 목록에서 삭제`}
-            onClick={onDelete}
-          >
-            <Trash2 size={20} />
-          </button>
-        </div>
-      )}
-    </article>
-  )
-}
-
 function EmptyState({
   icon,
   title,
@@ -506,472 +346,6 @@ function EmptyState({
   )
 }
 
-function CreateTrip({
-  cityId,
-  placeId,
-  initialName = '',
-  initialCountry = '',
-  course,
-  onCreate,
-}: {
-  cityId?: string
-  course?: CourseSelection
-  initialName?: string
-  initialCountry?: string
-  placeId?: string
-  onCreate: (trip: Trip) => void
-}) {
-  const draft = useDraftFields(
-    `jido-draft:create:${cityId || 'custom'}:${placeId || ''}:${course?.days ? course.id + ':' : ''}${course?.placeIds.join(',') || ''}${initialName ? ':' + initialName + ':' + initialCountry : ''}`,
-    {
-      destination: cityId || (initialName ? 'custom' : ''),
-      customCity: initialName,
-      customCountry: initialCountry,
-      cityQuery: '',
-      citySearchOpen: false,
-      title: '',
-      start: today(),
-      end: dateAt(today(), course?.days ? course.days.length - 1 : 3),
-      travelers: 1,
-      recommended: false,
-      courseTime: '',
-    },
-  )
-  const [destination, setDestination] = draft.field('destination')
-  const [customCity, setCustomCity] = draft.field('customCity')
-  const [customCountry, setCustomCountry] = draft.field('customCountry')
-  const [title, setTitle] = draft.field('title')
-  const [start, setStart] = draft.field('start')
-  const [end, setEnd] = draft.field('end')
-  const [travelers, setTravelers] = draft.field('travelers')
-  const [recommended, setRecommended] = draft.field('recommended')
-  const [courseTime, setCourseTime] = draft.field('courseTime')
-  const [error, setError] = useState('')
-  const [citySearchOpen, setCitySearchOpen] = draft.field('citySearchOpen')
-  const [cityQuery, setCityQuery] = draft.field('cityQuery')
-  const [cityMessage, setCityMessage] = useState('')
-  const selectedCity = getCity(destination) || {
-    name: customCity.trim() || '새로운 도시',
-  }
-  const submit = (event: FormEvent) => {
-    event.preventDefault()
-    if (!destination) return setError('여행지를 골라주세요.')
-    if (
-      destination === 'custom' &&
-      (!customCity.trim() || !customCountry.trim())
-    ) {
-      setError('도시와 국가를 입력해 주세요.')
-      return
-    }
-    if (
-      !Number.isInteger(travelers) ||
-      travelers < 1 ||
-      travelers > MAX_TRAVELERS
-    ) {
-      setError('함께하는 인원을 확인해 주세요.')
-      return
-    }
-    const targetId =
-      destination === 'custom' ? `personal-${crypto.randomUUID()}` : destination
-    const count = dayCount(start, end)
-    if (!Number.isFinite(count) || count < 1) {
-      setError('마지막 날은 출발일과 같거나 이후여야 해요.')
-      return
-    }
-    if (count > 90) {
-      setError('한 여행은 최대 90일까지 만들 수 있어요.')
-      return
-    }
-    const days: Stop[][] = Array.from({ length: count }, () => [])
-    const initialPlaces = course
-      ? []
-      : placeId
-        ? [getPlace(placeId)!]
-        : recommended
-          ? discoveryPlaces(
-              places.filter((place) => place.cityId === destination),
-            ).slice(0, 3)
-          : []
-    initialPlaces.forEach((place) =>
-      days[0].push({
-        id: crypto.randomUUID(),
-        placeId: place.id,
-        time: '',
-        note: '',
-        ...(guidebookPlaceSnapshot(place, targetId)
-          ? { custom: guidebookPlaceSnapshot(place, targetId) }
-          : {}),
-      }),
-    )
-    const created: Trip = {
-      id: crypto.randomUUID(),
-      title: title.trim() || `${selectedCity.name} 여행`,
-      cityId: targetId,
-      destinations: [
-        {
-          id: targetId,
-          name: selectedCity.name,
-          country:
-            destination === 'custom'
-              ? customCountry.trim()
-              : getCity(destination)!.country,
-          ...(destination !== 'custom'
-            ? {
-                guideCityId: destination,
-                ...(getCity(destination)?.timeZone
-                  ? { timeZone: getCity(destination)!.timeZone }
-                  : {}),
-              }
-            : {}),
-        },
-      ],
-      startDate: start,
-      endDate: end,
-      travelers,
-      members: Array.from({ length: travelers }, (_, index) => ({
-        id: crypto.randomUUID(),
-        name: index === 0 ? '나' : `동행 ${index}`,
-      })),
-      days,
-    }
-    try {
-      onCreate(
-        course
-          ? appendGuideSelection(created, course, 0, courseTime, getPlace).trip
-          : created,
-      )
-      draft.clear()
-    } catch (error) {
-      setError((error as Error).message)
-    }
-  }
-  return (
-    <form
-      className="create-form simple-create"
-      onSubmit={submit}
-      onInvalidCapture={(event) => {
-        const details = (event.target as HTMLElement).closest('details')
-        if (details) details.open = true
-      }}
-    >
-      <p className="form-intro">
-        여행지와 날짜로 시작해요. 장소와 예약은 나중에 더할 수 있어요.
-      </p>
-      <label className="field">
-        어디로 떠나세요?
-        <select
-          required
-          value={destination}
-          onChange={(event) => {
-            setDestination(event.target.value)
-            setCityMessage('')
-          }}
-          disabled={!!placeId || !!course}
-        >
-          <option value="" disabled>
-            여행지 선택
-          </option>
-          {!cities.some((city) => city.id === destination) &&
-            getCity(destination) && (
-              <option value={destination}>
-                {getCity(destination)!.name} · 저장된 가이드
-              </option>
-            )}
-          <option value="custom">원하는 도시 직접 입력</option>
-          {cities.map((city) => (
-            <option key={city.id} value={city.id}>
-              {city.name} · {city.country}
-            </option>
-          ))}
-        </select>
-      </label>
-      {!placeId && !course && (
-        <div className="create-city-search">
-          <button
-            type="button"
-            className="text-button"
-            aria-expanded={citySearchOpen}
-            aria-controls="create-city-search-panel"
-            onClick={() => setCitySearchOpen(!citySearchOpen)}
-          >
-            {citySearchOpen ? '검색 닫기' : '다른 도시 가이드 찾기'}
-          </button>
-          {citySearchOpen && (
-            <div id="create-city-search-panel">
-              <label className="field">
-                추가 도시 가이드 검색
-                <input
-                  value={cityQuery}
-                  onChange={(event) => setCityQuery(event.target.value)}
-                  placeholder="예: 파리, 하노이"
-                />
-              </label>
-              <p className="muted">
-                가이드를 받으면 여행지로 선택돼요. 가이드가 없어도 위에서 도시를
-                직접 입력할 수 있어요.
-              </p>
-              <GuidebookSearch
-                query={cityQuery}
-                showEmpty
-                onOpen={(id) => {
-                  setDestination(id)
-                  setCityMessage(
-                    `${getCity(id)?.name || '도시'} 가이드를 받아 여행지로 선택했어요.`,
-                  )
-                  setCitySearchOpen(false)
-                  setError('')
-                }}
-              />
-            </div>
-          )}
-          {cityMessage && <p role="status">{cityMessage}</p>}
-        </div>
-      )}
-      {destination === 'custom' && (
-        <div className="form-row">
-          <label className="field">
-            도시 이름
-            <input
-              required
-              maxLength={80}
-              value={customCity}
-              onChange={(event) => setCustomCity(event.target.value)}
-              placeholder="예: 파리"
-            />
-          </label>
-          <label className="field">
-            국가
-            <input
-              required
-              maxLength={80}
-              value={customCountry}
-              onChange={(event) => setCustomCountry(event.target.value)}
-              placeholder="예: 프랑스"
-            />
-          </label>
-        </div>
-      )}
-      <div className="form-row">
-        <label className="field">
-          출발일
-          <input
-            required
-            type="date"
-            value={start}
-            onChange={(event) => {
-              const nextStart = event.target.value
-              const previousLength = dayCount(start, end)
-              setStart(nextStart)
-              if (nextStart && (course?.days || !end || end < nextStart)) {
-                const length =
-                  course?.days?.length ||
-                  (Number.isFinite(previousLength) &&
-                  previousLength >= 1 &&
-                  previousLength <= 90
-                    ? previousLength
-                    : 4)
-                setEnd(dateAt(nextStart, length - 1))
-              }
-              setError('')
-            }}
-          />
-        </label>
-        <label className="field">
-          마지막 날
-          <input
-            required
-            type="date"
-            value={end}
-            min={start || undefined}
-            onChange={(event) => {
-              setEnd(event.target.value)
-              setError('')
-            }}
-          />
-        </label>
-      </div>
-      {course && (
-        <section className="course-create-preview">
-          <h3>{course.title}</h3>
-          <CoursePreview course={course} />
-          <label className="field">
-            {course.days ? '매일 첫 방문 시간' : '첫날 첫 방문 시간'}
-            <input
-              type="time"
-              value={courseTime}
-              onChange={(event) => setCourseTime(event.target.value)}
-            />
-          </label>
-          <p className="detail-footnote">
-            {course.days
-              ? `선택한 ${courseDays(course).length}일 코스를 날짜별로 담습니다. `
-              : '선택한 코스를 첫날에 담습니다. '}
-            시간을 정하지 않고 담아도 됩니다. 방문 시간은 일정 편집에서 정할 수
-            있어요.
-          </p>
-        </section>
-      )}
-      <details className="simple-options create-options">
-        <summary>
-          여행 이름·동행 설정 <span>선택</span>
-        </summary>
-        <label className="field">
-          여행 이름 <span className="optional">선택</span>
-          <input
-            placeholder={`${selectedCity.name} 여행`}
-            value={title}
-            maxLength={50}
-            onChange={(event) => setTitle(event.target.value)}
-          />
-        </label>
-        <CompanionCount travelers={travelers} onChange={setTravelers} />
-        {!placeId && !course && destination && destination !== 'custom' && (
-          <label className="check-field">
-            <input
-              type="checkbox"
-              checked={recommended}
-              onChange={(event) => setRecommended(event.target.checked)}
-            />
-            <span>
-              첫날에 추천 장소 3곳 넣어두기
-              <small>나중에 자유롭게 바꿀 수 있어요.</small>
-            </span>
-          </label>
-        )}
-      </details>
-      {error && (
-        <p className="form-error" role="alert">
-          {error}
-        </p>
-      )}
-      <button type="submit" className="button primary full">
-        내 여행 만들기
-        <ArrowRight size={18} />
-      </button>
-    </form>
-  )
-}
-
-function AddToTrip({
-  place,
-  trips,
-  preferredTripId,
-  preferredDay,
-  onAdd,
-  onCreate,
-  onManageTrip,
-}: {
-  place: Place
-  trips: Trip[]
-  preferredTripId?: string
-  preferredDay?: number
-  onAdd: (tripId: string, day: number) => void
-  onCreate: () => void
-  onManageTrip: (id: string) => void
-}) {
-  const matching = trips.filter((trip) =>
-    tripDestinations(trip).some(
-      (destination) => destination.guideCityId === place.cityId,
-    ),
-  )
-  const [tripId, setTripId] = useState(
-    matching.find((trip) => trip.id === preferredTripId)?.id ??
-      matching[0]?.id ??
-      '',
-  )
-  const [day, setDay] = useState<number | null>(
-    matching.some((trip) => trip.id === preferredTripId)
-      ? (preferredDay ?? null)
-      : null,
-  )
-  const trip = matching.find((item) => item.id === tripId)
-  const eligible =
-    trip?.days
-      .map((_, index) => index)
-      .filter(
-        (index) => destinationForDay(trip, index).guideCityId === place.cityId,
-      ) || []
-  const selectedDay = day !== null && eligible.includes(day) ? day : eligible[0]
-  if (!trip)
-    return (
-      <div className="modal-body">
-        <EmptyState
-          icon={<Luggage size={30} />}
-          title={`${getCity(place.cityId)?.name} 여행을 먼저 만들어볼까요?`}
-          description="여행을 만들면 이 장소가 첫날 일정에 추가돼요."
-          action="이 장소와 여행 시작하기"
-          onAction={onCreate}
-        />
-      </div>
-    )
-  return (
-    <form
-      className="modal-body"
-      onSubmit={(event) => {
-        event.preventDefault()
-        if (selectedDay !== undefined) onAdd(tripId, selectedDay)
-      }}
-    >
-      <div className="add-place-preview">
-        <PlacePhoto place={place} alt={place.name} />
-        <div>
-          <span className="eyebrow">{place.category}</span>
-          <h3>{place.name}</h3>
-        </div>
-      </div>
-      <label className="field">
-        추가할 여행
-        <select
-          value={tripId}
-          onChange={(event) => {
-            setTripId(event.target.value)
-            setDay(null)
-          }}
-        >
-          {matching.map((item) => (
-            <option key={item.id} value={item.id}>
-              {item.title}
-            </option>
-          ))}
-        </select>
-      </label>
-      <label className="field">
-        어느 날에 갈까요?
-        <select
-          value={selectedDay ?? ''}
-          onChange={(event) => setDay(Number(event.target.value))}
-        >
-          {selectedDay === undefined && (
-            <option value="">이 도시의 날짜 미지정</option>
-          )}
-          {eligible.map((index) => (
-            <option key={index} value={index}>
-              DAY {index + 1} · {formatDate(dateAt(trip.startDate, index))}
-            </option>
-          ))}
-        </select>
-      </label>
-      {selectedDay === undefined && (
-        <button
-          type="button"
-          className="button outline full"
-          onClick={() => onManageTrip(trip.id)}
-        >
-          여행에서 체류 날짜 지정
-        </button>
-      )}
-      <button
-        className="button primary full"
-        type="submit"
-        disabled={selectedDay === undefined}
-      >
-        <Plus size={18} />
-        일정에 추가
-      </button>
-    </form>
-  )
-}
-
 function Itinerary({
   trip,
   day,
@@ -986,7 +360,9 @@ function Itinerary({
   isAttachmentShared,
   onQuickExpense,
   scheduleReturn,
+  onWorkspaceChange,
 }: {
+  onWorkspaceChange: (workspace: string) => void
   scheduleReturn?: { tripId: string; day: number; revision: number }
   onQuickExpense: (stop?: Stop) => void
   onAttachmentsChange: (
@@ -1015,6 +391,7 @@ function Itinerary({
     setWorkspaceState,
     changeDay,
   )
+  useEffect(() => onWorkspaceChange(workspace), [workspace, onWorkspaceChange])
   const setWorkspace = (next: string) => navigation.go(next)
   const onDayChange = (next: number) => navigation.go(workspace, next)
   const [searchOpen, setSearchOpen] = useState(false)
@@ -1923,13 +1300,7 @@ function Itinerary({
                               </div>
                               <div className="stop-place">
                                 <PlacePhoto stop={stop} alt={place.name} />
-                                <button
-                                  onClick={() =>
-                                    stop.custom
-                                      ? onCustom(stop.id)
-                                      : onOpen(place.id)
-                                  }
-                                >
+                                <button onClick={() => onCustom(stop.id)}>
                                   <strong>{place.name}</strong>
                                   <span className="timeline-card-category">
                                     {place.category}
@@ -2245,9 +1616,6 @@ export default function App() {
     revision: number
   }>()
   const scheduleReturnSequence = useRef(0)
-  useGuideCatalog()
-  useSyncExternalStore(subscribeGoogleReviews, googleReviewRevision)
-  useEffect(startContentUpdates, [])
   const {
     store,
     setStore,
@@ -2260,8 +1628,33 @@ export default function App() {
   const driveSync = useDriveSync(getCurrentStore, setStore)
   const attachmentStoreRef = useRef(store)
   attachmentStoreRef.current = store
-  const [initialSession] = useState(() => readAppSession(store.trips))
-  const [page, setPage] = useState<Page>(initialSession?.page || 'home')
+  const [initialSession] = useState(() => {
+    const session = readAppSession(store.trips)
+    if (
+      session &&
+      (session.page === 'explore' ||
+        ['city', 'place', 'add', 'guidebooks', 'nearby'].includes(
+          session.dialog?.type || '',
+        ))
+    ) {
+      return {
+        ...session,
+        page: (store.trips.length ? 'trips' : 'home') as Page,
+        tripLibrary: store.trips.length > 1,
+        dialog: null,
+        scroll: 0,
+        modalScroll: [],
+        openDetails: [],
+        detailCount: 0,
+      }
+    }
+    return session
+  })
+  const [page, setPage] = useState<Page>(
+    initialSession?.page === 'explore'
+      ? 'trips'
+      : initialSession?.page || 'home',
+  )
   const [tripLibrary, setTripLibrary] = useState(
     initialSession?.tripLibrary ?? true,
   )
@@ -2279,28 +1672,25 @@ export default function App() {
   const [exploreTab, setExploreTab] = useState<'cities' | 'places'>(
     initialSession?.exploreTab || 'cities',
   )
-  const exploreSearch = usePlaceSearch()
-  useEffect(
-    () => exploreSearch.reset(),
-    [page, exploreTab, query, region, exploreCity, exploreSearch.reset],
-  )
-  const findExplorePlace = () => {
-    const city = getCity(exploreCity)
-    if (query.trim() && city && !exploreSearch.loading)
-      void exploreSearch.search(query.trim(), {
-        name: city.name,
-        country: city.country,
-        guideCityId: city.id,
-      })
-  }
   const [dialog, setDialog] = useState<Dialog | null>(
-    initialSession?.dialog || null,
+    initialSession?.dialog &&
+      !['city', 'place', 'add', 'guidebooks', 'nearby', 'course'].includes(
+        initialSession.dialog.type,
+      )
+      ? initialSession.dialog
+      : null,
   )
   const [infoOpen, setInfoOpen] = useState(false)
   const closeDialog = () => setDialog(null)
   useEffect(() => setInfoOpen(false), [page, dialog])
 
   const [toast, setToast] = useState('')
+  const [navWorkspace, setNavWorkspace] = useState(() => {
+    const trip =
+      store.trips.find((t) => t.id === initialSession?.activeTripId) ||
+      store.trips.at(-1)
+    return trip ? journeyPreference(trip).workspace : 'schedule'
+  })
   const [editingPlaces, setEditingPlaces] = useState(false)
   const [removedPlace, setRemovedPlace] = useState<{
     record?: PersonalPlace
@@ -2420,27 +1810,36 @@ export default function App() {
       void listener?.then((handle) => handle.remove())
     }
   }, [])
-  const navigate = (target: Page, detail = false) => {
+  const navigate = (
+    target: Page | 'reservations' | 'expenses',
+    detail = false,
+  ) => {
+    if (target === 'reservations' || target === 'expenses') {
+      if (activeTrip) {
+        const day = Math.min(activeDay, activeTrip.days.length - 1)
+        saveJourneyPreference(activeTrip, day, target)
+        setNavWorkspace(target)
+        setReminderRevision((v) => v + 1)
+      }
+      setTripLibrary(false)
+      setPage('trips')
+      setInfoOpen(false)
+      window.scrollTo({ top: 0, behavior: 'instant' })
+      return
+    }
     if (target === 'trips') setTripLibrary(!detail)
     setInfoOpen(false)
     setPage(target)
     window.scrollTo({ top: 0, behavior: 'smooth' })
   }
-  const openCity = (id: string) => {
-    setDialog({ type: 'city', id })
-  }
   const openPlace = (id: string) => {
-    setDialog({ type: 'place', id })
-  }
-  const search = (event: FormEvent) => {
-    event.preventDefault()
-    setRegion('전체')
-    setCategory('전체')
-    setExploreCity('전체')
-    setExploreTab(
-      cities.some((city) => matchesCity(city, query)) ? 'cities' : 'places',
+    if (!activeTrip) return
+    const day = activeTrip.days.findIndex((stops) =>
+      stops.some((stop) => stop.placeId === id),
     )
-    navigate('explore')
+    const stop = activeTrip.days[day]?.find((stop) => stop.placeId === id)
+    if (stop)
+      setDialog({ type: 'custom', tripId: activeTrip.id, day, stopId: stop.id })
   }
   const createTrip = (trip: Trip) => {
     if (
@@ -2461,78 +1860,6 @@ export default function App() {
       ...previous,
       trips: previous.trips.map((item) => (item.id === trip.id ? trip : item)),
     }))
-  const addStop = (
-    tripId: string,
-    day: number,
-    placeId: string,
-    close = true,
-  ) => {
-    const trip = store.trips.find((item) => item.id === tripId)
-    if (
-      !trip ||
-      !trip.days[day] ||
-      !tripDestinations(trip).some(
-        (destination) => destination.guideCityId === getPlace(placeId)?.cityId,
-      )
-    )
-      return
-    if (
-      destinationForDay(trip, day).guideCityId !== getPlace(placeId)?.cityId
-    ) {
-      setToast('장소와 같은 도시로 지정한 날짜를 선택해 주세요.')
-      return
-    }
-    if (
-      trip.days[day].some((stop) =>
-        sameStopPlace(stop, {
-          id: 'candidate',
-          placeId,
-          time: '',
-          note: '',
-        }),
-      )
-    ) {
-      setToast('이날 일정에 이미 있는 장소예요.')
-      return
-    }
-    if (trip.days[day].length >= 200) {
-      setToast('하루 일정은 최대 200곳까지 담을 수 있어요.')
-      return
-    }
-    const stop: Stop = {
-      id: crypto.randomUUID(),
-      placeId,
-      time: '',
-      note: '',
-      ...(guidebookPlaceSnapshot(
-        getPlace(placeId)!,
-        destinationForDay(trip, day).id,
-      )
-        ? {
-            custom: guidebookPlaceSnapshot(
-              getPlace(placeId)!,
-              destinationForDay(trip, day).id,
-            ),
-          }
-        : {}),
-    }
-    if (
-      !updateTrip({
-        ...trip,
-        days: trip.days.map((items, index) =>
-          index === day ? [...items, stop] : items,
-        ),
-      })
-    )
-      return
-    if (close) {
-      setDialog(null)
-      setActiveTripId(trip.id)
-      setActiveDay(day)
-      navigate('trips', true)
-    }
-    setToast(close ? '일정에 장소를 추가했어요.' : '')
-  }
   const addRegisteredPlace = (
     place: CustomPlace,
     tripId: string,
@@ -2611,88 +1938,6 @@ export default function App() {
       personalId: entry.personalId,
       draftId: entry.personalId || crypto.randomUUID(),
     })
-  const startNewPlace = () => {
-    if (activeTrip)
-      setDialog({
-        type: 'custom',
-        tripId: activeTrip.id,
-        day: Math.min(activeDay, activeTrip.days.length - 1),
-        initialName: query.trim(),
-      })
-    else
-      setDialog({
-        type: 'create',
-        cityId: 'custom',
-        pendingPlaceName: query.trim(),
-      })
-  }
-  const filteredCities = cities.filter(
-    (city) =>
-      (region === '전체' || city.region === region) && matchesCity(city, query),
-  )
-  const exploreCityOptions = cities.filter(
-    (city) => region === '전체' || city.region === region,
-  )
-  const effectiveExploreCity = exploreCityOptions.some(
-    (city) => city.id === exploreCity,
-  )
-    ? exploreCity
-    : '전체'
-  const filteredRegistered = registered.filter((entry) => {
-    const city = entry.destination.guideCityId
-      ? getCity(entry.destination.guideCityId)
-      : undefined
-    return (
-      (region === '전체' || city?.region === region) &&
-      (category === '전체' || entry.custom.kind === category) &&
-      (effectiveExploreCity === '전체' ||
-        entry.destination.guideCityId === effectiveExploreCity) &&
-      matchesRegisteredPlace(entry, query)
-    )
-  })
-  const discoverablePlaces = discoveryPlaces().filter(
-    (place) => !hiddenPublicIds.has(place.id),
-  )
-  const filteredPlaces = discoverablePlaces.filter((place) => {
-    const city = getCity(place.cityId)!
-    return (
-      (region === '전체' || city.region === region) &&
-      (category === '전체' || place.category === category) &&
-      (effectiveExploreCity === '전체' ||
-        place.cityId === effectiveExploreCity) &&
-      matchesPlace(place, city, query)
-    )
-  })
-  const exploreFilters = JSON.stringify([
-    query,
-    region,
-    category,
-    effectiveExploreCity,
-  ])
-  const previousExploreFilters = useRef(exploreFilters)
-  useEffect(() => {
-    if (previousExploreFilters.current !== exploreFilters) {
-      previousExploreFilters.current = exploreFilters
-      setPlaceLimit(24)
-    }
-  }, [exploreFilters])
-  const [homeNow, setHomeNow] = useState(() => new Date())
-  useEffect(() => {
-    // Also reevaluate the rolling mention window when returning to discovery.
-    const refresh = () => {
-      if (!document.hidden) setHomeNow(new Date())
-    }
-    refresh()
-    const timer = window.setInterval(refresh, 60_000)
-    window.addEventListener('focus', refresh)
-    document.addEventListener('visibilitychange', refresh)
-    return () => {
-      window.clearInterval(timer)
-      window.removeEventListener('focus', refresh)
-      document.removeEventListener('visibilitychange', refresh)
-    }
-  }, [])
-  const home = homeJourney(store.trips, activeTripId, homeNow, hiddenPublicIds)
   const activeTrip =
     store.trips.find((trip) => trip.id === activeTripId) || store.trips[0]
   useAppSession(
@@ -2719,38 +1964,14 @@ export default function App() {
       /* Travel data saving reports its own storage error. */
     }
   }, [activeTrip?.id])
-  const cityCards = (items: City[], compact = false) => (
-    <div className="city-grid">
-      {items.map((city) => (
-        <CityCard
-          key={city.id}
-          city={city}
-          compact={compact}
-
-          onOpen={() => openCity(city.id)}
-        />
-      ))}
-    </div>
-  )
-  const placeCards = (items: Place[]) => (
-    <div className="place-grid">
-      {items.map((place) => (
-        <PlaceCard
-          key={place.id}
-          place={place}
-
-          onOpen={() => openPlace(place.id)}
-          onAdd={() => setDialog({ type: 'add', placeId: place.id })}
-          onDelete={
-            page === 'explore' && editingPlaces
-              ? () => setDialog({ type: 'remove-place', placeId: place.id })
-              : undefined
-          }
-        />
-      ))}
-    </div>
-  )
-
+  const selectedNav =
+    page === 'trips' && activeTrip && !(store.trips.length > 1 && tripLibrary)
+      ? navWorkspace === 'reservations'
+        ? 'reservations'
+        : navWorkspace === 'expenses'
+          ? 'expenses'
+          : 'trips'
+      : page
   return (
     <AppProviders
       error={storageError ? saveError || SAVE_ERROR_MESSAGE : ''}
@@ -2781,7 +2002,7 @@ export default function App() {
             {navigation.map((item) => (
               <button
                 key={item.id}
-                className={page === item.id ? 'active' : ''}
+                className={selectedNav === item.id ? 'active' : ''}
                 onClick={() => navigate(item.id)}
               >
                 {item.name}
@@ -2794,16 +2015,7 @@ export default function App() {
               onToggle={() => setInfoOpen((value) => !value)}
               onClose={() => setInfoOpen(false)}
             />
-            <button
-              className="header-search icon-button"
-              aria-label="여행지 검색"
-              onClick={() => {
-                setQuery('')
-                navigate('explore')
-              }}
-            >
-              <Search size={20} />
-            </button>
+
             <button
               className="button outline header-plan"
               onClick={() => setDialog({ type: 'create' })}
@@ -2852,10 +2064,8 @@ export default function App() {
           <SettingsPage
             sync={driveSync}
             onReminders={() => setDialog({ type: 'reminders' })}
-            onNearby={() => setDialog({ type: 'nearby' })}
             onPhotoCredits={() => setDialog({ type: 'credits' })}
             onBackup={() => setDialog({ type: 'backup' })}
-            onGuidebooks={() => setDialog({ type: 'guidebooks' })}
             onRecovery={
               recoveries.length
                 ? () => setDialog({ type: 'recovery' })
@@ -2864,478 +2074,20 @@ export default function App() {
           />
         )}
         {page === 'home' && (
-          <TravelHome
-            journey={home}
+          <PlannerHome
             trips={store.trips}
-            cities={cityCards(
-              home?.personalized
-                ? home.cities
-                : ['tokyo', 'osaka', 'kyoto', 'sapporo']
-                    .map(getCity)
-                    .filter((city): city is City => !!city),
-            )}
-            places={placeCards(
-              home?.personalized
-                ? home.recommendations
-                : discoverablePlaces.slice(0, 4),
-            )}
-            placesTitle={
-              home?.personalized
-                ? `${home.destination.name}에서 더 가볼 곳`
-                : '여행에 담아둘 장소'
-            }
-            onGuide={(id, guideTab) =>
-              setDialog({ type: 'city', id, guideTab })
-            }
+            activeTripId={activeTripId}
             onCreate={() => setDialog({ type: 'create' })}
-            onTrips={() => navigate('trips')}
-            onImport={() => setDialog({ type: 'backup' })}
-            onExplore={(japan = false, showPlaces = false, cityId) => {
-              setQuery('')
-              setRegion(japan ? '일본' : '전체')
-              setCategory('전체')
-              setExploreCity(cityId || '전체')
-              if (cityId && home?.personalized) {
-                setActiveTripId(home.trip.id)
-                setActiveDay(home.day)
-              }
-              setExploreTab(showPlaces ? 'places' : 'cities')
-              navigate('explore')
-            }}
-            onOpenTrip={(trip, workspace, day) => {
-              const preference = journeyPreference(trip)
-              const nextDay = day ?? preference.day
-              if (workspace) saveJourneyPreference(trip, nextDay, workspace)
+            onOpen={(trip, workspace, day) => {
+              saveJourneyPreference(trip, day, workspace)
               setActiveTripId(trip.id)
-              setActiveDay(nextDay)
+              setActiveDay(day)
+              setNavWorkspace(workspace)
+              setReminderRevision((v) => v + 1)
               navigate('trips', true)
             }}
-            search={
-              <form className="home-search" onSubmit={search}>
-                <div className="search-label">
-                  <Compass size={22} />
-                  <span>
-                    내 여행,
-                    <br />
-                    <strong>도시·장소 찾기</strong>
-                  </span>
-                </div>
-                <div className="search-input">
-                  <Search size={20} />
-                  <input
-                    aria-label="도시 또는 나라 검색"
-                    placeholder="도시, 나라 또는 가고 싶은 장소"
-                    value={query}
-                    onChange={(event) => setQuery(event.target.value)}
-                  />
-                  {query && (
-                    <button
-                      type="button"
-                      className="icon-button"
-                      aria-label="검색어 지우기"
-                      onClick={() => setQuery('')}
-                    >
-                      <X size={16} />
-                    </button>
-                  )}
-                </div>
-                <button type="submit" className="button primary">
-                  여행지 찾기
-                  <ArrowRight size={17} />
-                </button>
-              </form>
-            }
+            onImport={() => setDialog({ type: 'backup' })}
           />
-        )}
-        {page === 'explore' && (
-          <section className="page-section">
-            <div className="page-title">
-              <h1>도시·장소 찾기</h1>
-              <button
-                className="text-button"
-                onClick={() => setDialog({ type: 'guidebooks' })}
-              >
-                <BookOpen size={17} />
-                가이드북 추가
-              </button>
-            </div>
-            <form
-              className="explore-search input-search"
-              onSubmit={(event) => {
-                event.preventDefault()
-                if (exploreTab === 'places') findExplorePlace()
-              }}
-            >
-              <Search size={21} />
-              <input
-                aria-label="여행지와 장소 검색"
-                placeholder="도시, 나라, 장소 이름으로 검색하세요"
-                value={query}
-                onChange={(event) => {
-                  const value = event.target.value
-                  setQuery(value)
-                  if (exploreTab === 'places') setCategory('전체')
-                  if (
-                    value.trim() &&
-                    !cities.some((city) => matchesCity(city, value))
-                  ) {
-                    setExploreTab('places')
-                    setRegion('전체')
-                  }
-                }}
-              />
-              {query && (
-                <button
-                  type="button"
-                  className="icon-button"
-                  aria-label="검색어 지우기"
-                  onClick={() => setQuery('')}
-                >
-                  <X size={18} />
-                </button>
-              )}
-              {exploreTab === 'places' && (
-                <button
-                  type="submit"
-                  className="button primary small"
-                  disabled={
-                    !query.trim() ||
-                    !getCity(exploreCity) ||
-                    exploreSearch.loading
-                  }
-                >
-                  {exploreSearch.loading
-                    ? '찾는 중…'
-                    : exploreSearch.service === 'google'
-                      ? 'Google 검색'
-                      : '지도 검색'}
-                </button>
-              )}
-            </form>
-            <GuidebookSearch query={query} onOpen={openCity} />
-            <div className="page-tabs" role="tablist" aria-label="검색 유형">
-              <button
-                role="tab"
-                aria-selected={exploreTab === 'cities'}
-                className={exploreTab === 'cities' ? 'active' : ''}
-                onClick={() => setExploreTab('cities')}
-              >
-                여행 도시 <span>{filteredCities.length}</span>
-              </button>
-              <button
-                role="tab"
-                aria-selected={exploreTab === 'places'}
-                className={exploreTab === 'places' ? 'active' : ''}
-                onClick={() => {
-                  setExploreTab('places')
-                  setRegion('전체')
-                  setCategory('전체')
-                  if (exploreCity === '전체') {
-                    const cityId =
-                      activeTrip &&
-                      destinationForDay(
-                        activeTrip,
-                        Math.min(activeDay, activeTrip.days.length - 1),
-                      ).guideCityId
-                    if (cityId) setExploreCity(cityId)
-                  }
-                }}
-              >
-                가볼 만한 곳{' '}
-                <span>{filteredPlaces.length + filteredRegistered.length}</span>
-              </button>
-            </div>
-            {exploreTab === 'cities' && (
-              <div className="filter-row">
-                {regions.map((item) => (
-                  <button
-                    key={item}
-                    className={`filter ${region === item ? 'active' : ''}`}
-                    onClick={() => {
-                      setRegion(item)
-                      setExploreCity('전체')
-                    }}
-                  >
-                    {item}
-                  </button>
-                ))}
-              </div>
-            )}
-            {exploreTab === 'places' && (
-              <div className="explore-place-filters">
-                <label className="explore-city-filter">
-                  도시
-                  <select
-                    aria-label="가볼 만한 곳의 도시"
-                    value={effectiveExploreCity}
-                    onChange={(event) => setExploreCity(event.target.value)}
-                  >
-                    <option value="전체">모든 도시</option>
-                    {exploreCityOptions.map((city) => (
-                      <option key={city.id} value={city.id}>
-                        {city.name} ·{' '}
-                        {discoverablePlaces.filter(
-                          (place) => place.cityId === city.id,
-                        ).length +
-                          registered.filter(
-                            (entry) =>
-                              entry.destination.guideCityId === city.id,
-                          ).length}
-                        곳
-                      </option>
-                    ))}
-                  </select>
-                </label>
-                <div className="category-row">
-                  {categoryOptions.map((item) => (
-                    <button
-                      className={item === category ? 'active' : ''}
-                      key={item}
-                      onClick={() => setCategory(item)}
-                    >
-                      {item}
-                    </button>
-                  ))}
-                </div>
-              </div>
-            )}
-            <p className="result-count">
-              {query.trim() && <strong>‘{query.trim()}’ </strong>}총{' '}
-              {exploreTab === 'cities'
-                ? filteredCities.length
-                : filteredPlaces.length + filteredRegistered.length}
-              개의 {exploreTab === 'cities' ? '여행지' : '장소'}
-            </p>
-            {exploreTab === 'places' && (
-              <>
-                <div className="place-library-toolbar">
-                  <button
-                    type="button"
-                    className="button primary small"
-                    onClick={() =>
-                      setDialog({
-                        type: 'personal-place',
-                        draftId: `new-${effectiveExploreCity === '전체' ? 'all' : effectiveExploreCity}`,
-                        cityId:
-                          effectiveExploreCity === '전체'
-                            ? undefined
-                            : effectiveExploreCity,
-                        kind: category,
-                        initialName: query.trim(),
-                      })
-                    }
-                  >
-                    <Plus size={18} />
-                    장소 추가
-                  </button>
-                  <button
-                    type="button"
-                    className="button outline small"
-                    aria-pressed={editingPlaces}
-                    onClick={() => setEditingPlaces((value) => !value)}
-                  >
-                    {editingPlaces ? '편집 완료' : '장소 편집'}
-                  </button>
-                </div>
-                {editingPlaces &&
-                  store.placeLibrary?.hidden.some((key) =>
-                    key.startsWith('public:'),
-                  ) && (
-                    <button
-                      className="text-button"
-                      onClick={() =>
-                        setStore((previous) => ({
-                          ...previous,
-                          placeLibrary: {
-                            entries: previous.placeLibrary?.entries || [],
-                            hidden: (
-                              previous.placeLibrary?.hidden || []
-                            ).filter((key) => !key.startsWith('public:')),
-                          },
-                        }))
-                      }
-                    >
-                      삭제한 추천 장소 복원
-                    </button>
-                  )}
-                <PlaceDiscoveryOrder />
-                {removedPlace && (
-                  <div className="undo-strip" role="status">
-                    장소 목록에서 삭제했어요. 기존 일정은 유지돼요.
-                    <button
-                      type="button"
-                      onClick={() => {
-                        if (
-                          setStore((previous) => {
-                            const library = mergePlaceLibraries(
-                              previous.placeLibrary,
-                              {
-                                entries: removedPlace.record
-                                  ? [removedPlace.record]
-                                  : [],
-                                hidden: [],
-                              },
-                            )!
-                            return {
-                              ...previous,
-                              placeLibrary: {
-                                ...library,
-                                hidden: library.hidden.filter(
-                                  (key) => !removedPlace.keys.includes(key),
-                                ),
-                              },
-                            }
-                          })
-                        )
-                          setRemovedPlace(undefined)
-                      }}
-                    >
-                      실행 취소
-                    </button>
-                  </div>
-                )}
-              </>
-            )}
-            {exploreTab === 'places' && (
-              <>
-                <PlaceSearchResults
-                  search={exploreSearch}
-                  actionLabel="일정에 추가"
-                  onSelect={(place) => {
-                    const city = getCity(exploreCity)
-                    if (!city) return
-                    const destination = {
-                      id: city.id,
-                      name: city.name,
-                      country: city.country,
-                      guideCityId: city.id,
-                    }
-                    const custom = {
-                      name: place.name,
-                      kind: place.kind,
-                      address: place.address,
-                      link: place.link,
-                      destinationId: city.id,
-                      coordinates: place.coordinates,
-                      ...(place.provider === 'osm'
-                        ? { osmPlaceId: place.id }
-                        : { googlePlaceId: place.id }),
-                    }
-                    setDialog({
-                      type: 'registered',
-                      key: `search:${place.provider}:${place.id}`,
-                      entry: {
-                        key: `search:${place.id}`,
-                        destination,
-                        custom,
-                      },
-                    })
-                  }}
-                />
-                <PlaceSearchService search={exploreSearch} />
-              </>
-            )}
-            {exploreTab === 'places' && filteredRegistered.length > 0 && (
-              <div
-                className="place-grid personal-place-grid"
-                aria-label="직접 등록한 장소 검색 결과"
-              >
-                {filteredRegistered.map((entry) => (
-                  <PersonalPlaceCard
-                    key={entry.key}
-                    entry={entry}
-                    onOpen={() =>
-                      setDialog({ type: 'registered', key: entry.key })
-                    }
-                    onAdd={() =>
-                      setDialog({ type: 'registered', key: entry.key })
-                    }
-                    onEdit={
-                      editingPlaces ? () => editLibraryPlace(entry) : undefined
-                    }
-                    onDelete={() => setDialog({ type: 'remove-place', entry })}
-                  />
-                ))}
-              </div>
-            )}
-            {exploreTab === 'cities' ? (
-              filteredCities.length ? (
-                cityCards(filteredCities)
-              ) : (
-                <EmptyState
-                  icon={<Search size={30} />}
-                  title="아직 찾지 못했어요"
-                  description={
-                    filteredPlaces.length
-                      ? `검색어와 일치하는 장소 ${filteredPlaces.length}곳이 있어요.`
-                      : '가이드가 없는 도시도 이름을 직접 입력해 여행을 시작할 수 있어요.'
-                  }
-                  action={
-                    filteredPlaces.length
-                      ? '일치하는 장소 보기'
-                      : '직접 입력해 여행 만들기'
-                  }
-                  onAction={() =>
-                    filteredPlaces.length
-                      ? setExploreTab('places')
-                      : setDialog({ type: 'create', cityId: 'custom' })
-                  }
-                />
-              )
-            ) : filteredPlaces.length ? (
-              <>
-                {placeCards(filteredPlaces.slice(0, placeLimit))}
-                {filteredPlaces.length > placeLimit && (
-                  <button
-                    className="button outline full places-load-more"
-                    onClick={() => setPlaceLimit((limit) => limit + 24)}
-                  >
-                    장소 더 보기 · {placeLimit}/{filteredPlaces.length}
-                  </button>
-                )}
-              </>
-            ) : filteredRegistered.length ? null : (
-              <EmptyState
-                icon={<Search size={30} />}
-                title="등록된 장소가 없어요"
-                description=""
-                action={
-                  query.trim()
-                    ? `‘${query.trim()}’ 새 장소 추가`
-                    : '새 장소 추가'
-                }
-                onAction={startNewPlace}
-              />
-            )}
-            {exploreTab === 'cities' &&
-              query.trim() &&
-              !filteredCities.length &&
-              !filteredPlaces.length &&
-              !filteredRegistered.length && (
-                <button
-                  type="button"
-                  className="button outline full custom-stop-cta"
-                  onClick={startNewPlace}
-                >
-                  ‘{query.trim()}’ 새 장소 추가
-                </button>
-              )}
-            {exploreTab === 'places' &&
-              query.trim() &&
-              !filteredCities.length &&
-              !filteredPlaces.length &&
-              !filteredRegistered.length && (
-                <button
-                  type="button"
-                  className="button outline full custom-stop-cta"
-                  onClick={() =>
-                    setDialog({ type: 'create', cityId: 'custom' })
-                  }
-                >
-                  직접 입력해 여행 만들기
-                </button>
-              )}
-          </section>
         )}
         {page === 'trips' && (
           <section className="page-section trips-page">
@@ -3403,12 +2155,43 @@ export default function App() {
               <EmptyState
                 icon={<Luggage size={36} />}
                 title="설레는 여행을 시작해볼까요?"
-                description="도시와 날짜를 정하고, 나만의 여행 코스를 만들어보세요."
+                description="여행 도시와 날짜를 정하고 일정·예약·경비를 한곳에 모아요."
                 action="첫 여행 만들기"
                 onAction={() => setDialog({ type: 'create' })}
               />
             ) : (
               <>
+                {store.trips.length > 1 &&
+                  ['reservations', 'expenses'].includes(navWorkspace) && (
+                    <label className="workspace-trip-switch field">
+                      현재 작업의 여행
+                      <select
+                        aria-label="현재 작업의 여행"
+                        value={activeTrip.id}
+                        onChange={(event) => {
+                          const trip = store.trips.find(
+                            (t) => t.id === event.target.value,
+                          )
+                          if (!trip) return
+                          const preference = journeyPreference(trip)
+                          saveJourneyPreference(
+                            trip,
+                            preference.day,
+                            navWorkspace,
+                          )
+                          setActiveTripId(trip.id)
+                          setActiveDay(preference.day)
+                          setReminderRevision((v) => v + 1)
+                        }}
+                      >
+                        {store.trips.map((trip) => (
+                          <option key={trip.id} value={trip.id}>
+                            {trip.title} · {formatDate(trip.startDate)}
+                          </option>
+                        ))}
+                      </select>
+                    </label>
+                  )}
                 <Itinerary
                   key={`${activeTrip.id}:${reminderRevision}`}
                   onQuickExpense={(stop) =>
@@ -3477,6 +2260,7 @@ export default function App() {
                   }
                   onUpdate={updateTrip}
                   onOpen={openPlace}
+                  onWorkspaceChange={setNavWorkspace}
                 />
               </>
             )}
@@ -3489,11 +2273,14 @@ export default function App() {
           return (
             <button
               key={item.id}
-              className={page === item.id ? 'active' : ''}
+              className={selectedNav === item.id ? 'active' : ''}
               onClick={() => navigate(item.id)}
             >
               <span>
-                <Icon size={22} strokeWidth={page === item.id ? 2.2 : 1.7} />
+                <Icon
+                  size={22}
+                  strokeWidth={selectedNav === item.id ? 2.2 : 1.7}
+                />
               </span>
               <span>{item.name}</span>
             </button>
@@ -3547,11 +2334,7 @@ export default function App() {
             </Modal>
           )
         })()}
-      {dialog?.type === 'guidebooks' && (
-        <Modal title="가이드북" onClose={() => setDialog(null)}>
-          <GuidebookLibrary onOpen={openCity} />
-        </Modal>
-      )}
+
       {dialog?.type === 'recovery' && (
         <Modal title="기록 복구 안내" onClose={() => setDialog(null)}>
           <RecoveryPanel
@@ -3565,13 +2348,7 @@ export default function App() {
           <ReminderSettings trips={store.trips} />
         </Modal>
       )}
-      {dialog?.type === 'nearby' && (
-        <Modal title="내 주변 맛집·카페" onClose={() => setDialog(null)}>
-          <div className="modal-body">
-            <LiveNearby onOpen={openPlace} />
-          </div>
-        </Modal>
-      )}
+
       {dialog?.type === 'credits' && (
         <Modal title="사진 출처" onClose={() => setDialog(null)} wide>
           <PhotoCredits
@@ -3615,63 +2392,11 @@ export default function App() {
           />
         </Modal>
       )}
-      {dialog?.type === 'course' && (
-        <Modal title="가이드 코스 담기" onClose={closeDialog}>
-          <GuideCourseForm
-            key={dialog.course.id}
-            course={dialog.course}
-            trips={store.trips}
-            activeTripId={activeTripId}
-            activeDay={activeDay}
-            onCreate={() =>
-              setDialog({
-                type: 'create',
-                cityId: dialog.course.cityId,
-                course: dialog.course,
-              })
-            }
-            onOpenTrip={(id) => {
-              setActiveTripId(id)
-              setDialog(null)
-              navigate('trips', true)
-            }}
-            onApply={(tripId, day, time) => {
-              const course = dialog.course
-              const current = attachmentStoreRef.current
-              const target = current.trips.find((trip) => trip.id === tripId)
-              if (!target)
-                throw new Error('여행을 찾을 수 없습니다. 다시 선택해 주세요.')
-              const result = appendGuideSelection(
-                target,
-                course,
-                day,
-                time,
-                getPlace,
-              )
-              if (
-                !setStore({
-                  ...current,
-                  trips: current.trips.map((trip) =>
-                    trip.id === tripId ? result.trip : trip,
-                  ),
-                })
-              )
-                throw new Error(SAVE_ERROR_MESSAGE)
-              setActiveTripId(tripId)
-              setActiveDay(day)
-              setDialog(null)
-              navigate('trips', true)
-              setToast(`${result.added}곳을 일정에 담았어요.`)
-            }}
-          />
-        </Modal>
-      )}
+
       {dialog?.type === 'personal-place' && (
         <Modal
           title={
-            dialog.entry || dialog.personalId
-              ? '장소 수정'
-              : '가볼 만한 곳 추가'
+            dialog.entry || dialog.personalId ? '장소 수정' : '내 장소 추가'
           }
           onClose={() => setDialog(null)}
         >
@@ -3761,53 +2486,19 @@ export default function App() {
           </div>
         </Modal>
       )}
+
       {dialog?.type === 'create' && (
-        <Modal title="새로운 여행 만들기" onClose={() => setDialog(null)}>
+        <Modal title="새로운 여행 만들기" onClose={closeDialog}>
           <CreateTrip
             initialName={
-              dialog.initialName ??
-              (dialog.pendingPlaceName
-                ? ''
-                : dialog.cityId === 'custom'
-                  ? query.trim().slice(0, 80)
-                  : '')
+              dialog.initialName ||
+              (dialog.cityId ? getCity(dialog.cityId)?.name : '')
             }
-            initialCountry={dialog.initialCountry}
-            cityId={dialog.cityId}
-            placeId={dialog.placeId}
-            course={dialog.course}
-            onCreate={(trip) => {
-              if (dialog.registeredPlace) {
-                trip = {
-                  ...trip,
-                  days: trip.days.map((items, index) =>
-                    index === 0
-                      ? [
-                          ...items,
-                          {
-                            id: crypto.randomUUID(),
-                            placeId: `custom-${crypto.randomUUID()}`,
-                            time: '',
-                            note: '',
-                            custom: {
-                              ...dialog.registeredPlace!,
-                              destinationId: destinationForDay(trip, 0).id,
-                            },
-                          },
-                        ]
-                      : items,
-                  ),
-                }
-              }
-              createTrip(trip)
-              if (dialog.pendingPlaceName)
-                setDialog({
-                  type: 'custom',
-                  tripId: trip.id,
-                  day: 0,
-                  initialName: dialog.pendingPlaceName,
-                })
-            }}
+            initialCountry={
+              dialog.initialCountry ||
+              (dialog.cityId ? getCity(dialog.cityId)?.country : '')
+            }
+            onCreate={createTrip}
           />
         </Modal>
       )}
@@ -3882,195 +2573,7 @@ export default function App() {
             )
           )
         })()}
-      {dialog?.type === 'city' &&
-        (() => {
-          const city = getCity(dialog.id)!
-          const storedGuide = getGuide(city.id)
-          return (
-            <Modal
-              title={`${city.name} 여행 가이드`}
-              onClose={() => setDialog(null)}
-              wide
-            >
-              <div className="city-detail-hero">
-                <CityPhoto city={city} alt={`${city.name} 여행 풍경`} />
 
-                <div>
-                  <span>{city.country}</span>
-                  <h2>{city.name}</h2>
-                  <p>{city.tagline}</p>
-                </div>
-              </div>
-              <div className="modal-body">
-                {(!practicalGuideById.has(city.id) || storedGuide) && (
-                  <p className="city-intro">{city.description}</p>
-                )}
-                <CityGuide
-                  key={city.id}
-                  city={city}
-                  initialTab={dialog.guideTab}
-                  onTabChange={(guideTab) =>
-                    setDialog((current) =>
-                      current?.type === 'city'
-                        ? { ...current, guideTab }
-                        : current,
-                    )
-                  }
-                  onPlace={openPlace}
-                  onAdd={(placeId) => setDialog({ type: 'add', placeId })}
-                  guide={storedGuide}
-                  overviewOnly={isManagedGuidebook(storedGuide)}
-                >
-                  <GuideContent
-                    library={isManagedGuidebook(storedGuide)}
-                    compact
-                    guide={storedGuide}
-                    cityId={city.id}
-                    onCourse={(course) => setDialog({ type: 'course', course })}
-                    onPlace={openPlace}
-                  />
-                </CityGuide>
-                <PersonalPhotoControl
-                  kind="city"
-                  id={city.id}
-                  name={city.name}
-                />
-                <BlogPhotos cityId={city.id} />
-
-                <button
-                  className="button primary full city-plan-button"
-                  onClick={() => setDialog({ type: 'create', cityId: city.id })}
-                >
-                  <Plus size={18} />
-                  {city.name} 여행 만들기
-                </button>
-              </div>
-            </Modal>
-          )
-        })()}
-      {dialog?.type === 'place' &&
-        (() => {
-          const place = getPlace(dialog.id)!
-          const city = getCity(place.cityId)!
-          return (
-            <Modal key={place.id} title={place.name} onClose={closeDialog}>
-              <div className="place-detail-photo">
-                <PlacePhoto place={place} alt={place.name} />
-
-                <span>
-                  {city.name} · {place.category}
-                </span>
-              </div>
-              <div className="modal-body">
-                <span className="eyebrow">
-                  {city.name} · {place.category}
-                </span>
-                <h3 className="place-detail-title">{place.name}</h3>
-                <PersonalPhotoControl
-                  kind="place"
-                  id={place.id}
-                  name={place.name}
-                />
-                {place.english && (
-                  <details className="place-original-name">
-                    <summary>현지 이름 확인</summary>
-                    <p lang="und">{place.english}</p>
-                  </details>
-                )}
-                <p className="city-intro">{place.description}</p>
-                <BlogPhotos
-                  cityId={city.id}
-                  placeId={place.id}
-                  primaryImage={place.image}
-                />
-                <div className="place-facts">
-                  {place.area && (
-                    <p>
-                      <MapPin size={17} />
-                      <span>{place.area}</span>
-                    </p>
-                  )}
-                  <p>
-                    <MapPin size={17} />
-                    <span>{place.address}</span>
-                  </p>
-                  {meaningfulCost(place.cost) && (
-                    <p>
-                      <Bookmark size={17} />
-                      <span>{place.cost}</span>
-                    </p>
-                  )}
-                </div>
-                {place.tip !==
-                  '영업·휴관 일정과 예약 여부는 방문 전 공식 안내에서 확인하세요.' && (
-                  <div className="place-tip">
-                    <Sparkles size={18} />
-                    <div>
-                      <strong>작은 여행 팁</strong>
-                      <p>{place.tip}</p>
-                    </div>
-                  </div>
-                )}
-                <PlaceReviews place={place} />
-                <NearbyPlaces place={place} onOpen={openPlace} />
-                <a
-                  className="button outline full map-link"
-                  href={mapsSearch(placeMapQuery(place))}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <MapIcon size={17} />
-                  {placeCoordinates(place)
-                    ? '지도에서 위치 보기'
-                    : '지도에서 이름으로 찾기'}
-                  <ExternalLink size={14} />
-                </a>
-                <button
-                  className="button primary full"
-                  onClick={() => setDialog({ type: 'add', placeId: place.id })}
-                >
-                  <Plus size={17} />
-                  일정에 추가
-                </button>
-              </div>
-            </Modal>
-          )
-        })()}
-      {dialog?.type === 'add' && (
-        <Modal title="내 일정에 장소 담기" onClose={() => setDialog(null)}>
-          <AddToTrip
-            place={getPlace(dialog.placeId)!}
-            trips={store.trips}
-            preferredTripId={
-              page === 'home' && home?.personalized
-                ? home.trip.id
-                : activeTrip?.id
-            }
-            preferredDay={
-              page === 'home' && home?.personalized ? home.day : activeDay
-            }
-            onAdd={(tripId, day) => addStop(tripId, day, dialog.placeId)}
-            onManageTrip={(id) => {
-              const trip = store.trips.find((item) => item.id === id)
-              if (trip) {
-                const selected = journeyPreference(trip).day
-                saveJourneyPreference(trip, selected, 'schedule')
-                setActiveDay(selected)
-              }
-              setActiveTripId(id)
-              setDialog(null)
-              navigate('trips', true)
-            }}
-            onCreate={() =>
-              setDialog({
-                type: 'create',
-                cityId: getPlace(dialog.placeId)!.cityId,
-                placeId: dialog.placeId,
-              })
-            }
-          />
-        </Modal>
-      )}
       {dialog?.type === 'registered' &&
         (() => {
           const entry =
@@ -4128,10 +2631,7 @@ export default function App() {
         (() => {
           const trip = store.trips.find((item) => item.id === dialog.tripId)!
           return (
-            <Modal
-              title={`${destinationForDay(trip, dialog.day).name}에서 가볼 곳`}
-              onClose={() => setDialog(null)}
-            >
+            <Modal title="일정에 장소 추가" onClose={() => setDialog(null)}>
               <PlacePicker
                 onDone={() => {
                   setScheduleReturn({
@@ -4155,7 +2655,6 @@ export default function App() {
                 onReuse={(place) =>
                   addRegisteredPlace(place, trip.id, dialog.day, false)
                 }
-                onAdd={(id) => addStop(trip.id, dialog.day, id, false)}
                 onOpen={openPlace}
               />
             </Modal>

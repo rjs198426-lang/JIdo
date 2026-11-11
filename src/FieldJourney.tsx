@@ -1,38 +1,37 @@
-import LiveNearby from './LiveNearby'
-import PlaceSource from './PlaceSource'
-import { placeIntroduction } from './place-introduction'
-import { tripClock, destinationTimeZone } from './destination-time'
-import PlacePhoto from './PlacePhoto'
 import {
-  Check,
-  ChevronRight,
-  MapPin,
-  Wallet,
-  FileText,
-  Ticket,
-  Plus,
-  Phone,
+Check,
+ChevronRight,
+FileText,
+MapPin,
+Phone,
+Plus,
+Ticket,
+Wallet,
 } from 'lucide-react'
-import { useEffect, useState } from 'react'
-import {
-  type Trip,
-  type Stop,
-  stopDetails,
-  destinationForDay,
-} from './travel-model'
-import { dateAt, formatDate } from './store'
-import {
-  pendingStops,
-  lodgingForDay,
-  directionsTo,
-  travelDay,
-} from './journey-personal'
-import { mapsSearch } from './google-maps'
-import AttachmentsPanel from './AttachmentsPanel'
-import JourneyShare from './JourneyShare'
+import { useEffect,useState } from 'react'
 import AddressCard from './AddressCard'
+import AttachmentsPanel from './AttachmentsPanel'
 import FieldReservation from './FieldReservation'
+import JourneyShare from './JourneyShare'
+import LiveNearby from './LiveNearby'
+import PlacePhoto from './PlacePhoto'
+import PlaceSource from './PlaceSource'
+import { destinationTimeZone,tripClock } from './destination-time'
 import { reservationsForDay } from './field-reservations'
+import { mapsSearch } from './google-maps'
+import {
+directionsTo,
+lodgingForDay,
+pendingStops,
+travelDay,
+} from './journey-personal'
+import { dateAt,formatDate } from './store'
+import {
+destinationForDay,
+type Stop,
+stopDetails,
+type Trip,
+} from './travel-model'
 
 export default function FieldJourney({
   trip,
@@ -169,11 +168,7 @@ export default function FieldJourney({
             </span>
           )}
           <h2>{stopDetails(next).name}</h2>
-          {nextPlace && 'description' in nextPlace && (
-            <p className="field-place-introduction">
-              {placeIntroduction(nextPlace)}
-            </p>
-          )}
+          {next.note && <p className="field-place-introduction">{next.note}</p>}
           <div className="field-actions">
             <a
               className="button primary"

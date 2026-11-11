@@ -1,3 +1,7 @@
+import {
+  hasReservationDetails,
+  RESERVATION_DETAILS_BUILD,
+} from './reservation-compat'
 import FullBackup from './FullBackup'
 import JourneyShare from './JourneyShare'
 import { destinationTimeZone } from './destination-time'
@@ -78,7 +82,8 @@ export function portableTrip(trip: Trip): Trip {
 }
 const backupSchema = z.object({
   format: z.literal('jdo-trips'),
-  version: z.literal(1),
+  version: z.union([z.literal(1), z.literal(2)]),
+  minBuild: z.literal(84).optional(),
   trips: z.array(tripSchema).min(1).max(500),
 })
 export default function TravelBackup({
@@ -108,7 +113,14 @@ export default function TravelBackup({
   const [exportText, setExportText] = useState('')
   const backup = () =>
     JSON.stringify(
-      { format: 'jdo-trips', version: 1, trips: trips.map(portableTrip) },
+      {
+        format: 'jdo-trips',
+        version: hasReservationDetails(trips) ? 2 : 1,
+        ...(hasReservationDetails(trips)
+          ? { minBuild: RESERVATION_DETAILS_BUILD }
+          : {}),
+        trips: trips.map(portableTrip),
+      },
       null,
       2,
     )
@@ -121,7 +133,13 @@ export default function TravelBackup({
       return setError('백업은 5MB 이하로 가져와 주세요.')
     try {
       const parsed = backupSchema.safeParse(JSON.parse(text))
-      if (!parsed.success) throw new Error()
+      if (
+        !parsed.success ||
+        (hasReservationDetails(parsed.data.trips) &&
+          (parsed.data.version !== 2 ||
+            parsed.data.minBuild !== RESERVATION_DETAILS_BUILD))
+      )
+        throw new Error()
       setPreview(parsed.data.trips)
     } catch {
       setError(

@@ -1,4 +1,6 @@
-import { places } from './catalog'
+import { getPlace } from './catalog'
+import { placeCoordinates, placeMapQuery } from './place-location'
+import { mapsSearch } from './google-maps'
 import {
   tripDestinations,
   type Trip,
@@ -32,25 +34,30 @@ export function registeredPlaces(trips: Trip[], destination?: Destination) {
   const found = new Map<string, RegisteredPlace>()
   for (const trip of trips) {
     for (const stop of trip.days.flat()) {
-      if (!stop.custom) continue
-      const source = tripDestinations(trip).find(
-        (city) => city.id === stop.custom!.destinationId,
+      const legacy = stop.custom ? undefined : getPlace(stop.placeId)
+      const source = tripDestinations(trip).find((city) =>
+        stop.custom
+          ? city.id === stop.custom.destinationId
+          : city.guideCityId === legacy?.cityId,
       )
       if (!source) continue
       if (destination && !sameDestination(source, destination)) continue
-      if (
-        stop.custom.catalogPlaceId &&
-        places.some(
-          (place) =>
-            place.id === stop.custom!.catalogPlaceId &&
-            place.category === stop.custom!.kind &&
-            place.name === stop.custom!.name,
-        )
-      )
-        continue
-      const key = `${source.guideCityId || normalized(source.country) + ':' + normalized(source.name)}:${registeredPlaceKey(stop.custom)}`
-      if (!found.has(key))
-        found.set(key, { key, custom: stop.custom, destination: source })
+      const custom: CustomPlace | undefined =
+        stop.custom ||
+        (legacy
+          ? {
+              name: legacy.name,
+              kind: legacy.category,
+              address: legacy.address,
+              destinationId: source.id,
+              catalogPlaceId: legacy.id,
+              coordinates: placeCoordinates(legacy),
+              link: mapsSearch(placeMapQuery(legacy)),
+            }
+          : undefined)
+      if (!custom) continue
+      const key = `${source.guideCityId || normalized(source.country) + ':' + normalized(source.name)}:${registeredPlaceKey(custom)}`
+      if (!found.has(key)) found.set(key, { key, custom, destination: source })
     }
   }
   return [...found.values()]

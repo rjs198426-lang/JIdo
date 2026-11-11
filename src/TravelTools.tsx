@@ -1,3 +1,7 @@
+import { flightTimingIssue } from './reservation-timing'
+import ReservationDetails, {
+  ReservationDetailsFields,
+} from './ReservationDetails'
 import { useDraftFields } from './form-draft'
 import AttachmentsPanel from './AttachmentsPanel'
 import {
@@ -29,13 +33,13 @@ export { default as Expenses } from './ExpenseManager'
 
 export function Reservations({ trip, onUpdate, day = 0 }: Props) {
   const items = trip.reservations || []
-  const blank = (): Reservation => ({
+  const blank = (kind: Reservation['kind'] = '숙소'): Reservation => ({
     id: crypto.randomUUID(),
     title: '',
-    kind: '숙소',
+    kind,
     date: dateAt(trip.startDate, day),
-    endDate: dateAt(trip.startDate, day + 1),
-    time: '15:00',
+    endDate: kind === '숙소' ? dateAt(trip.startDate, day + 1) : undefined,
+    time: '',
     reference: '',
     address: '',
     link: '',
@@ -91,7 +95,19 @@ export function Reservations({ trip, onUpdate, day = 0 }: Props) {
       ...form,
       currency: form?.cost !== undefined ? form.currency || 'KRW' : undefined,
     })
-    if (!parsed.success) return setError(parsed.error.issues[0].message)
+    if (!parsed.success) {
+      event.currentTarget
+        .querySelectorAll('details')
+        .forEach((panel) => (panel.open = true))
+      return setError(parsed.error.issues[0].message)
+    }
+    const timingIssue = flightTimingIssue(parsed.data)
+    if (timingIssue) {
+      event.currentTarget
+        .querySelectorAll('details')
+        .forEach((panel) => (panel.open = true))
+      return setError(timingIssue)
+    }
     if (
       onUpdate(
         syncReservation(
@@ -109,7 +125,7 @@ export function Reservations({ trip, onUpdate, day = 0 }: Props) {
     <section className="workspace-panel">
       <div className="tool-heading">
         <div>
-          <h3>예약 정보를 한곳에</h3>
+          <h3>항공·호텔·예약</h3>
         </div>
         <Ticket size={26} />
       </div>
@@ -119,6 +135,26 @@ export function Reservations({ trip, onUpdate, day = 0 }: Props) {
           이용할 서비스에서 진행해 주세요.
         </p>
       )}
+      <div className="reservation-quick-start">
+        <button
+          className="button outline"
+          onClick={() => {
+            setForm(blank('항공'))
+            setError('')
+          }}
+        >
+          항공편 추가
+        </button>
+        <button
+          className="button outline"
+          onClick={() => {
+            setForm(blank('숙소'))
+            setError('')
+          }}
+        >
+          호텔 예약 추가
+        </button>
+      </div>
       <button
         className="button primary"
         onClick={() => {
@@ -151,7 +187,14 @@ export function Reservations({ trip, onUpdate, day = 0 }: Props) {
       </div>
       {message && <p role="status">{message}</p>}
       {form && (
-        <form className="inline-form" onSubmit={save}>
+        <form
+          className="inline-form"
+          onSubmit={save}
+          onInvalidCapture={(event) => {
+            const parent = (event.target as HTMLElement).closest('details')
+            if (parent) parent.open = true
+          }}
+        >
           <label className="field">
             예약 이름
             <input
@@ -194,7 +237,11 @@ export function Reservations({ trip, onUpdate, day = 0 }: Props) {
           </div>
           <div className="form-row">
             <label className="field">
-              이용 날짜
+              {form.kind === '항공'
+                ? '출발 날짜'
+                : form.kind === '숙소'
+                  ? '체크인 날짜'
+                  : '이용 날짜'}
               <input
                 required
                 type="date"
@@ -215,31 +262,40 @@ export function Reservations({ trip, onUpdate, day = 0 }: Props) {
               />
             </label>
             <label className="field">
-              이용 시간
+              {form.kind === '항공'
+                ? '출발 시간'
+                : form.kind === '숙소'
+                  ? '체크인 시간'
+                  : '이용 시간'}
               <input
-                required
                 type="time"
                 value={form.time}
                 onChange={(event) => set('time', event.target.value)}
               />
             </label>
           </div>
-          <label className="field">
-            {form.kind === '숙소' ? '체크아웃 날짜' : '이용 종료일'}
-            <input
-              type="date"
-              required={form.kind === '숙소'}
-              min={
-                form.kind === '숙소' && form.date
-                  ? dateAt(form.date, 1)
-                  : form.date
-              }
-              value={form.endDate || ''}
-              onChange={(event) =>
-                set('endDate', event.target.value || undefined)
-              }
-            />
-          </label>
+          {form.kind !== '항공' && (
+            <>
+              {' '}
+              <label className="field">
+                {form.kind === '숙소' ? '체크아웃 날짜' : '이용 종료일'}
+                <input
+                  type="date"
+                  required={form.kind === '숙소'}
+                  min={
+                    form.kind === '숙소' && form.date
+                      ? dateAt(form.date, 1)
+                      : form.date
+                  }
+                  value={form.endDate || ''}
+                  onChange={(event) =>
+                    set('endDate', event.target.value || undefined)
+                  }
+                />
+              </label>
+            </>
+          )}
+          <ReservationDetailsFields value={form} onChange={setForm} />
           <label className="field">
             예약 상태
             <select
@@ -275,6 +331,7 @@ export function Reservations({ trip, onUpdate, day = 0 }: Props) {
               <label className="field">
                 예약 비용 통화
                 <select
+                  aria-label="예약 비용 통화"
                   value={form.currency || 'KRW'}
                   onChange={(event) => set('currency', event.target.value)}
                 >
@@ -370,10 +427,11 @@ export function Reservations({ trip, onUpdate, day = 0 }: Props) {
               <div className="reservation-date">
                 <span>{item.kind}</span>
                 <strong>{formatDate(item.date)}</strong>
-                <span>{item.time}</span>
+                <span>{item.time || '시간 미정'}</span>
               </div>
               <div className="reservation-copy">
                 <h4>{item.title}</h4>
+                <ReservationDetails item={item} />
                 <AttachmentsPanel reservationId={item.id} />
                 <select
                   className="reservation-status"

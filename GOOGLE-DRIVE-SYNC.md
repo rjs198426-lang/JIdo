@@ -53,3 +53,7 @@ Google 공식 Drive appData/AuthorizationClient/AuthorizationRequest/Authorizati
 관련 자동 검사98개가 통과했다. 독립된 두 브라우저 저장소에서 앱을 실행하고 Google HTTP·Android 계정 선택/파일 IO를 모형으로 제공한다. 초기 자료 합치기·오프라인 수정·동시 저장·삭제·충돌 선택·사진/첨부 해시·손상/저장 실패·앱 시작 복구·토큰 비영구 보관과 기존 기능을 검사한다. Android 릴리스 빌드는 실제 Google SDK를 컴파일하고 기존 패키지·서명을 대조한다. 실제 Google 로그인·기기 두 대의 Google 서버 전송·네이티브 중간 종료는 실기기에서 별도로 확인해야 한다. 완료하지 않은 실제 OAuth/Drive 전송을 성공으로 기록하지 않는다.
 
 공식 문서: [앱 전용 데이터](https://developers.google.com/workspace/drive/api/guides/appdata), [AuthorizationClient](https://developers.google.com/android/reference/com/google/android/gms/auth/api/identity/AuthorizationClient), [AuthorizationRequest.Builder](https://developers.google.com/android/reference/com/google/android/gms/auth/api/identity/AuthorizationRequest.Builder), [AuthorizationResult](https://developers.google.com/android/reference/com/google/android/gms/auth/api/identity/AuthorizationResult), [Drive 계정 정보](https://developers.google.com/workspace/drive/api/reference/rest/v3/about/get).
+
+## 0.83 항공·호텔 상세와 기존 자료
+
+새 항공·호텔 상세 또는 빈 예약 시간이 있으면 Drive 커밋의 minBuild는84입니다. 새 앱은81/84를 읽고 이전 앱은84를 거부하므로 모든 기기를0.83 이상으로 업데이트하세요. 기존 가이드 캐시는 이전 일정/사진을 읽기 위한 보존 자료이며 새 가이드 다운로드나 자동 정보 갱신을 수행하지 않습니다. 예약 상세도 기존 스냅샷·해시·충돌 선택·원자 적용을 사용합니다. 새 형식의 전체 ZIP은 version3, 여행 JSON은 version2이고 기존 형식도 계속 읽습니다.

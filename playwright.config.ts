@@ -2,6 +2,18 @@ import { defineConfig, devices } from '@playwright/test'
 
 export default defineConfig({
   testDir: './tests',
+  // 0.83 ships personal planning/reservations/finance, not the archived guide UI.
+  // Old guide/discovery specs remain in Git for their historical versions.
+  testMatch: [
+    '**/planner-workspace.spec.ts',
+    '**/planner-reminders.spec.ts',
+    '**/storage-safety.spec.ts',
+    '**/drive-sync.spec.ts',
+    '**/expense-upgrade.spec.ts',
+    '**/google-routes.spec.ts',
+    '**/finance.spec.ts',
+    '**/travel-reminders.spec.ts',
+  ],
   fullyParallel: true,
   workers: 2,
   reporter: [['list']],

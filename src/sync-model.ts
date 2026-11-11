@@ -106,7 +106,7 @@ export type SyncFile = z.infer<typeof syncFileSchema>
 export const syncCommitSchema = z
   .object({
     format: z.literal('jido-drive-sync-v1'),
-    minBuild: z.literal(81),
+    minBuild: z.union([z.literal(81), z.literal(84)]),
     id: z.string().uuid(),
     parents: z.array(z.string().uuid()).max(32),
     createdAt: z.string().datetime(),

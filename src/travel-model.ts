@@ -187,13 +187,47 @@ export const expenseSchema = z
         : Math.abs(item.amount * 100 - Math.round(item.amount * 100)) < 0.0001,
     '통화에 맞는 소수 자릿수를 입력하세요.',
   )
+const reservationTime = z.string().regex(/^([01]\d|2[0-3]):[0-5]\d$/)
+const reservationZone = z
+  .string()
+  .max(80)
+  .refine((value) => {
+    try {
+      new Intl.DateTimeFormat('en', { timeZone: value }).format()
+      return true
+    } catch {
+      return false
+    }
+  }, '현지 시간대를 확인해 주세요.')
+export const flightDetailsSchema = z.object({
+  airline: z.string().trim().max(100).optional(),
+  number: z.string().trim().max(50).optional(),
+  departureAirport: z.string().trim().max(160).optional(),
+  arrivalAirport: z.string().trim().max(160).optional(),
+  arrivalDate: dateSchema.optional(),
+  arrivalTime: reservationTime.optional(),
+  departureTimeZone: reservationZone.optional(),
+  arrivalTimeZone: reservationZone.optional(),
+  terminal: z.string().trim().max(100).optional(),
+  gate: z.string().trim().max(50).optional(),
+  seat: z.string().trim().max(50).optional(),
+  baggage: z.string().trim().max(300).optional(),
+})
+export const stayDetailsSchema = z.object({
+  checkoutTime: reservationTime.optional(),
+  contact: z.string().trim().max(200).optional(),
+  room: z.string().trim().max(200).optional(),
+  guestName: z.string().trim().max(100).optional(),
+})
 export const reservationSchema = z
   .object({
     id,
     title: label,
     kind: z.enum(['항공', '숙소', '교통', '체험', '기타']),
     date: dateSchema,
-    time: z.string().regex(/^([01]\d|2[0-3]):[0-5]\d$/),
+    time: z.union([z.literal(''), reservationTime]),
+    flight: flightDetailsSchema.optional(),
+    stay: stayDetailsSchema.optional(),
     reference: z.string().trim().max(200),
     address: z.string().trim().max(500),
     link: safeLink,

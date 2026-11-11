@@ -1,22 +1,22 @@
+import { useEffect, useState, type FormEvent } from 'react'
+import { type Place } from './catalog'
+import { mapsSearch, parseMapsShare } from './google-maps'
 import { customPlaceKinds } from './place-categories'
+import { placeCoordinates, placeMapQuery } from './place-location'
+import type { SearchPlace } from './place-search'
 import PlaceSearchResults, {
   PlaceSearchService,
   usePlaceSearch,
 } from './PlaceSearch'
-import type { SearchPlace } from './place-search'
-import { places, type Place } from './catalog'
-import { matchesSearch } from './search'
-import { placeCoordinates, placeMapQuery } from './place-location'
-import { mapsSearch, parseMapsShare } from './google-maps'
-import { useEffect, useState, type FormEvent } from 'react'
 import {
-  destinationForDay,
   customPlaceSchema,
-  tripDestinations,
+  destinationForDay,
+  stopDetails,
   stopName,
+  tripDestinations,
+  type CustomPlace,
   type Stop,
   type Trip,
-  type CustomPlace,
 } from './travel-model'
 
 export default function CustomStopForm({
@@ -34,13 +34,19 @@ export default function CustomStopForm({
   initialName?: string
   onSave: (stop: Stop) => void
 }) {
+  const legacy = stop && !stop.custom ? stopDetails(stop) : undefined
   const [name, setName] = useState(stop ? stopName(stop) : initialName)
   const [kind, setKind] = useState<CustomPlace['kind']>(
-    stop?.custom?.kind || '관광',
+    stop?.custom?.kind || legacy?.category || '기타',
   )
   const [kindChosen, setKindChosen] = useState(Boolean(stop))
-  const [address, setAddress] = useState(stop?.custom?.address || '')
-  const [link, setLink] = useState(stop?.custom?.link || '')
+  const [address, setAddress] = useState(
+    stop?.custom?.address || legacy?.address || '',
+  )
+  const [link, setLink] = useState(
+    stop?.custom?.link ||
+      (legacy ? mapsSearch(placeMapQuery(legacy as Place)) : ''),
+  )
   const [destinationId, setDestinationId] = useState(
     stop?.custom?.destinationId || destinationForDay(trip, day).id,
   )
@@ -48,15 +54,17 @@ export default function CustomStopForm({
   const [note, setNote] = useState(stop?.note || '')
   const [error, setError] = useState('')
   const [share, setShare] = useState('')
-  const [results, setResults] = useState<Place[]>([])
   const google = usePlaceSearch()
   const [googlePlaceId, setGooglePlaceId] = useState(
     stop?.custom?.googlePlaceId,
   )
-  const [coordinates, setCoordinates] = useState(stop?.custom?.coordinates)
+  const [coordinates, setCoordinates] = useState(
+    stop?.custom?.coordinates ||
+      (legacy ? placeCoordinates(legacy as Place) : undefined),
+  )
   const [osmPlaceId, setOsmPlaceId] = useState(stop?.custom?.osmPlaceId)
   const [catalogPlaceId, setCatalogPlaceId] = useState(
-    stop?.custom?.catalogPlaceId,
+    stop?.custom?.catalogPlaceId || (legacy ? stop?.placeId : undefined),
   )
   function clearSelection() {
     setGooglePlaceId(undefined)
@@ -74,36 +82,15 @@ export default function CustomStopForm({
     setGooglePlaceId(place.provider === 'google' ? place.id : undefined)
     setOsmPlaceId(place.provider === 'osm' ? place.id : undefined)
     setCoordinates(place.coordinates)
-    setResults([])
     google.reset()
   }
-  function findPlace(source: 'auto' | 'google' = 'auto') {
+  function findPlace() {
     if (!name.trim()) return
     const destination = tripDestinations(trip).find(
       (item) => item.id === destinationId,
     )!
-    const found =
-      source === 'google'
-        ? []
-        : places.filter(
-            (place) =>
-              place.cityId === destination.guideCityId &&
-              matchesSearch(name, place.name, place.english, place.address),
-          )
-    setResults(found)
     google.reset()
-    if (!found.length) void google.search(name.trim(), destination)
-  }
-  function choosePlace(place: Place) {
-    setCatalogPlaceId(place.id)
-    setGooglePlaceId(undefined)
-    setOsmPlaceId(undefined)
-    setCoordinates(placeCoordinates(place))
-    setName(place.name)
-    setAddress(place.address)
-    setLink(mapsSearch(placeMapQuery(place)))
-    if (!kindChosen) setKind(place.category)
-    setResults([])
+    void google.search(name.trim(), destination)
   }
   const draftKey = `jdo-place-draft:${trip.id}:${day}:${stop?.id || 'new'}${!stop && initialName ? ':' + initialName : ''}`
   const [loaded, setLoaded] = useState(false)
@@ -261,7 +248,6 @@ export default function CustomStopForm({
               setAddress('')
               clearSelection()
               setName(event.target.value)
-              setResults([])
               google.reset()
             }}
             onKeyDown={(event) => {
@@ -283,32 +269,7 @@ export default function CustomStopForm({
         </span>
       </label>
       <PlaceSearchService search={google} />
-      {results.length > 0 && (
-        <button
-          type="button"
-          className="text-button"
-          disabled={google.loading}
-          onClick={() => findPlace('google')}
-        >
-          {google.service === 'google'
-            ? '구글 지도에서 찾기'
-            : '무료 지도에서 찾기'}
-        </button>
-      )}
-      {results.length > 0 && (
-        <div className="place-find-results" aria-label="장소 검색 결과">
-          {results.map((place) => (
-            <button
-              type="button"
-              key={place.id}
-              onClick={() => choosePlace(place)}
-            >
-              <strong>{place.name}</strong>
-              <span>{place.address}</span>
-            </button>
-          ))}
-        </div>
-      )}
+
       <PlaceSearchResults
         search={google}
         onSelect={chooseGoogle}
@@ -359,7 +320,7 @@ export default function CustomStopForm({
       )}
       {onBrowse && !stop && (
         <button className="text-button" type="button" onClick={onBrowse}>
-          등록된 가볼 곳에서 선택
+          내가 등록한 장소에서 선택
         </button>
       )}
       <div className="form-row">
@@ -408,7 +369,6 @@ export default function CustomStopForm({
               clearSelection()
               setAddress('')
               setDestinationId(event.target.value)
-              setResults([])
               google.reset()
             }}
           >
