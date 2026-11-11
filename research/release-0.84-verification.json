@@ -1,0 +1,32 @@
+{
+  "version": "0.84",
+  "versionCode": 85,
+  "package": "com.jido.travel.next",
+  "bytes": 41357302,
+  "sha256": "cdea4a1732b2fc9e0ed9c7267f2f70135664b792c420d5aa11e3c6a04a0ea8bf",
+  "certificateSha256": "0d1b1f20dae73d00626d9ebb4f460943c4f16c2266bc7bc58d124d13b32494ac",
+  "signatureVerified": true,
+  "matchedWebAssets": 237,
+  "privateSigningFilesFound": false,
+  "existingMapsConfigurationBundled": true,
+  "nativeDeviceInstallTested": false,
+  "checkedAt": "2026-11-11T06:10:04.382871+00:00",
+  "sourceBaseCommit": "8190f35c61f592d726973610446354f0384bb739",
+  "scope": "Private trip and schedule-place photos: upload, gallery preview, chosen cover, deletion, full backup and existing Drive synchronization",
+  "browserTestsPassed": 220,
+  "realGoogleLoginTested": false,
+  "realTwoDeviceSyncTested": false,
+  "testExecution": {
+    "uniqueBrowserCases": 220,
+    "coreAndInitialPhotoRunPassed": 218,
+    "finalPhotoRunPassed": 19,
+    "finalPhotoRunTimeout": 1,
+    "unchangedNarrowScreenRetryPassed": 1,
+    "timeoutContext": "One mobile layout test exceeded 30 seconds while the Android build was running; it passed unchanged in 3.2 seconds after the build finished. No assertion failed.",
+    "newPhotoCases": 20,
+    "overlappingRerunsCountedOnce": true,
+    "realPrivateUserFilesUsed": false,
+    "externalServices": "Google/Drive/native file interfaces use controlled responses; Android back uses a bridge event. Real native photo selection was not tested."
+  },
+  "publicCommit": "b8289ca28c9f3ccfaff5f01ff21015c37094d225"
+}

@@ -7,6 +7,7 @@ import {
   BedDouble,
   Bookmark,
   CalendarDays,
+  Camera,
   Check,
   CheckSquare,
   ChevronRight,
@@ -41,7 +42,10 @@ import {
   type ReactNode,
 } from 'react'
 import AppInformation from './AppInformation'
-import AttachmentsPanel, { AttachmentsContext } from './AttachmentsPanel'
+import AttachmentsPanel from './AttachmentsPanel'
+import TripFilesProvider from './TripFilesProvider'
+import TripPhoto from './TripPhoto'
+import { tripCover } from './trip-photos'
 import { type CityGuideTab } from './CityGuide'
 import ConnectionNotice from './ConnectionNotice'
 import CustomStopForm from './CustomStopForm'
@@ -77,7 +81,6 @@ import TripLibrary from './TripLibrary'
 import TripOverview from './TripOverview'
 import TripSearch from './TripSearch'
 import { readAppSession, useAppSession } from './app-session'
-import type { Attachment } from './attachment-schema'
 import { bundledImage } from './bundled-image'
 import { cities, getCity, getPlace, type Region } from './catalog'
 import { commitFullRestore } from './full-backup'
@@ -193,6 +196,7 @@ type Dialog =
   | { type: 'delete'; tripId: string }
   | { type: 'backup' }
   | { type: 'edit'; tripId: string }
+  | { type: 'photos'; tripId: string; stopId?: string }
   | {
       type: 'custom'
       tripId: string
@@ -264,6 +268,8 @@ function Modal({
       )
       ?.focus()
     const handleKey = (event: KeyboardEvent) => {
+      // Let a native photo/document preview handle its own focus and Escape.
+      if (document.querySelector('dialog[open]')) return
       if (event.key === 'Escape') closeRef.current()
       if (event.key === 'Tab') {
         const elements = Array.from(
@@ -356,7 +362,8 @@ function Itinerary({
   onCustom,
   onUpdate,
   onOpen,
-  onAttachmentsChange,
+  onPhotos,
+  onFilesChange,
   isAttachmentShared,
   onQuickExpense,
   scheduleReturn,
@@ -365,10 +372,9 @@ function Itinerary({
   onWorkspaceChange: (workspace: string) => void
   scheduleReturn?: { tripId: string; day: number; revision: number }
   onQuickExpense: (stop?: Stop) => void
-  onAttachmentsChange: (
-    change: (files: Attachment[]) => Attachment[],
-  ) => boolean | void
+  onFilesChange: (change: (current: Trip) => Trip) => boolean | void
   isAttachmentShared: (id: string) => boolean
+  onPhotos: (stopId?: string) => void
   trip: Trip
   day: number
   onDayChange: (day: number) => void
@@ -381,7 +387,9 @@ function Itinerary({
 }) {
   const city = tripCity(trip)
   const personalCityPhoto = usePersonalPhoto(personalPhotoKey('city', city.id))
-  const cityCover = usePhotoUrl(personalCityPhoto) || city.image
+  const ownTripCover = usePhotoUrl(tripCover(trip))
+  const personalCityUrl = usePhotoUrl(personalCityPhoto)
+  const cityCover = ownTripCover || personalCityUrl || city.image
   const [workspace, setWorkspaceState] = useState(
     () => journeyPreference(trip).workspace,
   )
@@ -617,56 +625,10 @@ function Itinerary({
     changeOrder({ day, before: stops.map((stop) => stop.id), after: updated })
   }
   return (
-    <AttachmentsContext.Provider
-      value={{
-        files: trip.attachments || [],
-        add: (files) => {
-          if (
-            onAttachmentsChange((current) =>
-              [
-                ...current,
-                ...files.filter(
-                  (file) => !current.some((item) => item.id === file.id),
-                ),
-              ].slice(0, 300),
-            ) === false
-          )
-            throw new Error(SAVE_ERROR_MESSAGE)
-        },
-        remove: (id) => {
-          if (
-            onAttachmentsChange((current) =>
-              current.filter((file) => file.id !== id),
-            ) === false
-          )
-            throw new Error(SAVE_ERROR_MESSAGE)
-        },
-        isShared: isAttachmentShared,
-        coverFor: (id) =>
-          trip.days.flat().find((stop) => stop.id === id)?.photoId,
-        setCover: (stopId, id) => {
-          if (
-            !trip.attachments?.some(
-              (file) =>
-                file.id === id &&
-                file.stopId === stopId &&
-                file.mimeType.startsWith('image/'),
-            )
-          )
-            return
-          if (
-            onUpdate({
-              ...trip,
-              days: trip.days.map((items) =>
-                items.map((stop) =>
-                  stop.id === stopId ? { ...stop, photoId: id } : stop,
-                ),
-              ),
-            }) === false
-          )
-            return
-        },
-      }}
+    <TripFilesProvider
+      trip={trip}
+      onChange={onFilesChange}
+      isShared={isAttachmentShared}
     >
       <div className={`itinerary ${workspace === 'field' ? 'is-field' : ''}`}>
         <div
@@ -717,6 +679,15 @@ function Itinerary({
               <Trash2 size={18} />
             </button>
           </div>
+        </div>
+        <div className="trip-photo-toolbar">
+          {ownTripCover && (
+            <TripPhoto trip={trip} className="trip-plan-cover" />
+          )}
+          <button className="text-button" onClick={() => onPhotos()}>
+            <Camera size={18} />
+            여행 사진
+          </button>
         </div>
         <div className="workspace-tabs" role="tablist" aria-label="여행 관리">
           {[
@@ -1323,6 +1294,14 @@ function Itinerary({
                                 <ChevronRight size={18} />
                               </div>
 
+                              <button
+                                className="text-button stop-photo-shortcut"
+                                onClick={() => onPhotos(stop.id)}
+                                aria-label={`${place.name} 사진 추가·관리`}
+                              >
+                                <Camera size={16} />
+                                사진
+                              </button>
                               <ScheduleStopInfo
                                 trip={trip}
                                 stop={stop}
@@ -1605,7 +1584,7 @@ function Itinerary({
           )}
         </div>
       </div>
-    </AttachmentsContext.Provider>
+    </TripFilesProvider>
   )
 }
 
@@ -1860,6 +1839,23 @@ export default function App() {
       ...previous,
       trips: previous.trips.map((item) => (item.id === trip.id ? trip : item)),
     }))
+  const changeTripFiles = (tripId: string, change: (trip: Trip) => Trip) =>
+    setStore((current) => {
+      if (!current.trips.some((trip) => trip.id === tripId))
+        throw new Error('여행이 없어졌어요. 다시 확인해 주세요.')
+      return {
+        ...current,
+        trips: current.trips.map((trip) =>
+          trip.id === tripId ? change(trip) : trip,
+        ),
+      }
+    })
+  const sharedFile = (tripId: string, id: string) =>
+    Object.values(personalPhotosSnapshot()).some((file) => file.id === id) ||
+    attachmentStoreRef.current.trips.some(
+      (trip) =>
+        trip.id !== tripId && trip.attachments?.some((file) => file.id === id),
+    )
   const addRegisteredPlace = (
     place: CustomPlace,
     tripId: string,
@@ -2077,6 +2073,7 @@ export default function App() {
           <PlannerHome
             trips={store.trips}
             activeTripId={activeTripId}
+            onPhotos={(trip) => setDialog({ type: 'photos', tripId: trip.id })}
             onCreate={() => setDialog({ type: 'create' })}
             onOpen={(trip, workspace, day) => {
               saveJourneyPreference(trip, day, workspace)
@@ -2193,6 +2190,10 @@ export default function App() {
                     </label>
                   )}
                 <Itinerary
+                  onFilesChange={(change) =>
+                    changeTripFiles(activeTrip.id, change)
+                  }
+                  isAttachmentShared={(id) => sharedFile(activeTrip.id, id)}
                   key={`${activeTrip.id}:${reminderRevision}`}
                   onQuickExpense={(stop) =>
                     setDialog({
@@ -2203,36 +2204,12 @@ export default function App() {
                     })
                   }
                   trip={activeTrip}
-                  onAttachmentsChange={(change) =>
-                    setStore((previous) => ({
-                      ...previous,
-                      trips: previous.trips.map((trip) => {
-                        if (trip.id !== activeTrip.id) return trip
-                        const files = change(trip.attachments || [])
-                        return {
-                          ...trip,
-                          attachments: files,
-                          days: trip.days.map((items) =>
-                            items.map((stop) =>
-                              stop.photoId &&
-                              !files.some((file) => file.id === stop.photoId)
-                                ? { ...stop, photoId: undefined }
-                                : stop,
-                            ),
-                          ),
-                        }
-                      }),
-                    }))
-                  }
-                  isAttachmentShared={(id) =>
-                    Object.values(personalPhotosSnapshot()).some(
-                      (file) => file.id === id,
-                    ) ||
-                    attachmentStoreRef.current.trips.some(
-                      (trip) =>
-                        trip.id !== activeTrip.id &&
-                        trip.attachments?.some((file) => file.id === id),
-                    )
+                  onPhotos={(stopId) =>
+                    setDialog({
+                      type: 'photos',
+                      tripId: activeTrip.id,
+                      stopId,
+                    })
                   }
                   onCustom={(stopId) =>
                     setDialog({
@@ -2548,6 +2525,35 @@ export default function App() {
                   )
                 }}
               />
+            </Modal>
+          )
+        })()}
+      {dialog?.type === 'photos' &&
+        (() => {
+          const trip = store.trips.find((item) => item.id === dialog.tripId)
+          const stop = dialog.stopId
+            ? trip?.days.flat().find((item) => item.id === dialog.stopId)
+            : undefined
+          if (!trip || (dialog.stopId && !stop)) return null
+          return (
+            <Modal
+              title={stop ? `${stopDetails(stop).name} 사진` : '여행 사진'}
+              onClose={() => setDialog(null)}
+            >
+              <div className="modal-body travel-photos-modal">
+                <p>
+                  {stop
+                    ? '이 장소의 사진을 넣고 대표 사진을 골라보세요.'
+                    : '여행 사진을 넣고 홈과 여행 목록에 보일 대표 사진을 골라보세요.'}
+                </p>
+                <TripFilesProvider
+                  trip={trip}
+                  onChange={(change) => changeTripFiles(trip.id, change)}
+                  isShared={(id) => sharedFile(trip.id, id)}
+                >
+                  <AttachmentsPanel imagesOnly stopId={stop?.id} />
+                </TripFilesProvider>
+              </div>
             </Modal>
           )
         })()}

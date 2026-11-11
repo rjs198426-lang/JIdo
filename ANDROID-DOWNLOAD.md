@@ -1,5 +1,21 @@
 # J★Do Android 다운로드
 
+[J★Do 0.84 개발판 APK 다운로드](https://raw.githubusercontent.com/rjs198426-lang/JIdo/b8289ca28c9f3ccfaff5f01ff21015c37094d225/JDo-android-0.84.apk)
+
+- 앱: **J★Do** (`com.jido.travel.next`)
+- 버전: 0.84 개발판 · versionCode85 · Android7.0 이상
+- 크기: 41,357,302 bytes
+- SHA-256: `cdea4a1732b2fc9e0ed9c7267f2f70135664b792c420d5aa11e3c6a04a0ea8bf`
+- 기존 인증서 SHA-256: `0d1b1f20dae73d00626d9ebb4f460943c4f16c2266bc7bc58d124d13b32494ac`
+
+기존 앱을 삭제하지 말고 업데이트로 설치하세요. 기존 일정·예약·메모·사진·경비·정산을 유지합니다.
+
+**내 사진 추가:** 홈/내 여행의 **여행 사진 → 사진 추가**, 또는 일정 카드의 **사진** 버튼을 사용하세요. 여러 장 추가·대표 선택·큰 미리보기·확인 후 삭제를 제공합니다. 여행 대표는 홈·여행 목록·계획에, 장소 대표는 일정 읽기 카드·여행 중에 표시합니다. 사진은 여행별로 보관하며 전체ZIP 백업과 연결한Drive 동기화에 포함합니다. 일정JSON·동행자 전달에는 사진 파일을 넣지 않습니다.
+
+PC·모바일 고유220개 검사와 Android 빌드, 기존 서명·APK 웹 자산237개 일치를 확인했습니다. 실제 휴대폰 설치·갤러리·Google 로그인·두 휴대폰 동기화는 미검증입니다. [사용과 보존](PERSONAL-TRAVEL-PHOTOS.md), [현재 화면](research/audits/2026-11-11-travel-photos/README.md), [검증 기록](research/release-0.84-verification.json).
+
+## 0.83 이전 배포
+
 [J★Do 0.83 개발판 APK 다운로드](https://raw.githubusercontent.com/rjs198426-lang/JIdo/cc86346fdd2c0359978f2593179043c240761bd4/JDo-android-0.83.apk)
 
 - 앱: **J★Do** (`com.jido.travel.next`)

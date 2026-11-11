@@ -2,6 +2,7 @@ import { useDraftFields } from './form-draft'
 import { useEffect, useState } from 'react'
 import { ChevronRight, Search } from 'lucide-react'
 import CityPhoto from './CityPhoto'
+import TripPhoto from './TripPhoto'
 import { journeyPhase } from './home-journey'
 import { tripCity, tripDestinations, type Trip } from './travel-model'
 import { formatDate } from './store'
@@ -62,7 +63,10 @@ export default function TripLibrary({
                 onClick={() => onOpen(trip)}
                 aria-label={`${trip.title} 열기`}
               >
-                <CityPhoto city={tripCity(trip)} alt="" />
+                <TripPhoto
+                  trip={trip}
+                  fallback={<CityPhoto city={tripCity(trip)} alt="" />}
+                />
                 <span className="trip-library-copy">
                   <small>
                     {tripDestinations(trip)

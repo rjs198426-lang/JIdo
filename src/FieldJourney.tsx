@@ -1,6 +1,5 @@
 import {
 Check,
-ChevronRight,
 FileText,
 MapPin,
 Phone,
@@ -213,13 +212,9 @@ export default function FieldJourney({
           )}
           {next.note && <p className="field-note">{next.note}</p>}
           <PlaceSource stop={next} />
-          <details className="field-place-info stop-photos">
-            <summary>
-              사진 더 보기
-              <ChevronRight size={16} aria-hidden="true" />
-            </summary>
+          <div className="field-place-info stop-photos field-photo-gallery">
             <AttachmentsPanel stopId={next.id} imagesOnly />
-          </details>
+          </div>
           <button className="text-button" onClick={() => mark(next, 'skipped')}>
             이번 장소 건너뛰기
           </button>

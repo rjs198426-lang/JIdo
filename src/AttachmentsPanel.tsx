@@ -1,5 +1,6 @@
 import { createContext, useContext, useEffect, useRef, useState } from 'react'
 import AttachmentCheck from './AttachmentCheck'
+import { usePhotoUrl } from './personal-photos'
 import { attachmentConnection } from './trip-search'
 import type { Trip } from './travel-model'
 import {
@@ -31,8 +32,8 @@ type Value = {
   add: (files: Attachment[]) => void
   remove: (id: string) => void
   isShared: (id: string) => boolean
-  coverFor: (id: string) => string | undefined
-  setCover: (stopId: string, id: string) => void
+  coverFor: (id?: string) => string | undefined
+  setCover: (stopId: string | undefined, id: string) => void
 }
 export const AttachmentsContext = createContext<Value | null>(null)
 export default function AttachmentsPanel({
@@ -92,6 +93,7 @@ export default function AttachmentsPanel({
       file.name.toLocaleLowerCase().includes(query.toLocaleLowerCase().trim()),
   )
   const limit = Math.max(0, Math.min(10, 300 - context.files.length))
+  const tripPhotos = imagesOnly && !stopId && !reservationId && !expenseId
   if (readOnly && !files.length) return null
   async function attach(browserFiles?: FileList) {
     if (!context || lock.current) return
@@ -100,6 +102,7 @@ export default function AttachmentsPanel({
     setError('')
     const imported: Attachment[] = [],
       errors: string[] = []
+    let committed = false
     try {
       if (isAndroid()) {
         const result = await NativeAttachments.pickFiles({ limit, imagesOnly })
@@ -120,7 +123,26 @@ export default function AttachmentsPanel({
           }
         }
       }
-      if (imported.length)
+      if (imagesOnly) {
+        for (const file of imported) {
+          if (!file.mimeType.startsWith('image/'))
+            throw new Error('사진 파일을 선택해 주세요.')
+          const source = await attachmentUrl(file)
+          try {
+            const image = new Image()
+            image.src = source.url
+            await image.decode()
+            if (!image.naturalWidth) throw new Error()
+          } catch {
+            throw new Error(
+              `${file.name}: 사진을 열 수 없어요. JPG·PNG 사진으로 다시 선택해 주세요.`,
+            )
+          } finally {
+            source.revoke()
+          }
+        }
+      }
+      if (imported.length && active.current) {
         context.add(
           imported.map((file) => ({
             ...file,
@@ -129,9 +151,15 @@ export default function AttachmentsPanel({
             stopId,
           })),
         )
+        committed = true
+      }
     } catch (error) {
       errors.push((error as Error).message || '자료를 첨부하지 못했습니다.')
     } finally {
+      if (!committed)
+        await Promise.all(
+          imported.map((file) => deleteStoredAttachment(file).catch(() => {})),
+        )
       lock.current = false
       if (active.current) {
         setBusy(false)
@@ -161,17 +189,25 @@ export default function AttachmentsPanel({
       aria-label={
         stopId
           ? '장소 사진'
-          : reservationId
-            ? '예약 첨부 자료'
-            : expenseId
-              ? '경비 첨부 자료'
-              : '여행 첨부 자료'
+          : tripPhotos
+            ? '여행 사진'
+            : reservationId
+              ? '예약 첨부 자료'
+              : expenseId
+                ? '경비 첨부 자료'
+                : '여행 첨부 자료'
       }
     >
       <div className="attachment-heading">
         <h4>
           <Paperclip size={17} />
-          {imagesOnly ? '장소 사진' : all ? '여행 자료 보관함' : '첨부 자료'}
+          {imagesOnly
+            ? tripPhotos
+              ? '여행 사진'
+              : '장소 사진'
+            : all
+              ? '여행 자료 보관함'
+              : '첨부 자료'}
           {files.length > 0 && <span>{files.length}</span>}
         </h4>
         {!readOnly && (
@@ -238,7 +274,7 @@ export default function AttachmentsPanel({
           {error}
         </p>
       )}
-      <div className="attachment-list">
+      <div className={`attachment-list ${imagesOnly ? 'photo-gallery' : ''}`}>
         {files.map((file) => (
           <article key={file.id} data-attachment-id={file.id} tabIndex={-1}>
             <button
@@ -247,7 +283,9 @@ export default function AttachmentsPanel({
               aria-label={`${file.name} 자료 열기`}
               onClick={() => void open(file)}
             >
-              {file.mimeType.startsWith('image/') ? (
+              {imagesOnly ? (
+                <PhotoThumbnail file={file} />
+              ) : file.mimeType.startsWith('image/') ? (
                 <ImageIcon size={20} />
               ) : (
                 <FileText size={20} />
@@ -265,7 +303,7 @@ export default function AttachmentsPanel({
                 {all && <small>{attachmentConnection(file, trip)}</small>}
               </span>
             </button>
-            {!readOnly && imagesOnly && stopId && (
+            {!readOnly && imagesOnly && (
               <button
                 type="button"
                 className="photo-cover-button"
@@ -273,7 +311,14 @@ export default function AttachmentsPanel({
                 aria-pressed={
                   (context.coverFor(stopId) || files[0]?.id) === file.id
                 }
-                onClick={() => context.setCover(stopId, file.id)}
+                onClick={() => {
+                  setError('')
+                  try {
+                    context.setCover(stopId, file.id)
+                  } catch (reason) {
+                    setError((reason as Error).message)
+                  }
+                }}
               >
                 대표 사진
               </button>
@@ -340,6 +385,14 @@ export default function AttachmentsPanel({
         <AttachmentPreview file={preview} onClose={() => setPreview(null)} />
       )}
     </section>
+  )
+}
+function PhotoThumbnail({ file }: { file: Attachment }) {
+  const url = usePhotoUrl(file)
+  return url ? (
+    <img className="photo-thumbnail" src={url} alt="" loading="lazy" />
+  ) : (
+    <ImageIcon size={20} />
   )
 }
 function AttachmentPreview({

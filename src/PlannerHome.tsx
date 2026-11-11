@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import TripPhoto from './TripPhoto'
 import {
   CalendarDays,
   Plane,
@@ -9,6 +10,7 @@ import {
   Plus,
   Map,
   FileDown,
+  Camera,
 } from 'lucide-react'
 import { journeyPhase } from './home-journey'
 import { convertedTotal, currencyTotals } from './finance'
@@ -26,11 +28,13 @@ export default function PlannerHome({
   onCreate,
   onOpen,
   onImport,
+  onPhotos,
 }: {
   trips: Trip[]
   activeTripId: string
   onCreate: () => void
   onImport: () => void
+  onPhotos: (trip: Trip) => void
   onOpen: (trip: Trip, workspace: string, day: number) => void
 }) {
   const [now, setNow] = useState(() => new Date())
@@ -132,6 +136,7 @@ export default function PlannerHome({
         </button>
       </div>
       <div className="planner-trip-summary">
+        <TripPhoto trip={trip} className="planner-cover-photo" />
         <span className="home-phase">
           {entry.phase === 'upcoming'
             ? `D-${entry.until}`
@@ -154,6 +159,13 @@ export default function PlannerHome({
         >
           {entry.phase === 'ongoing' ? '오늘 여행 열기' : '여행 계획 열기'}
           <ArrowRight size={18} />
+        </button>
+        <button
+          className="text-button planner-photo-button"
+          onClick={() => onPhotos(trip)}
+        >
+          <Camera size={18} />
+          여행 사진
         </button>
       </div>
       <nav className="planner-shortcuts" aria-label="여행 바로가기">
