@@ -28,5 +28,194 @@
     "realPrivateUserFilesUsed": false,
     "externalServices": "Google/Drive/native file interfaces use controlled responses; Android back uses a bridge event. Real native photo selection was not tested."
   },
-  "publicCommit": "b8289ca28c9f3ccfaff5f01ff21015c37094d225"
+  "publicCommit": "b8289ca28c9f3ccfaff5f01ff21015c37094d225",
+  "sourceCommit": "bd99c43afe4f1f57dd805eb0b646f4f865beb5da",
+  "publicDownloads": [
+    {
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/b8289ca28c9f3ccfaff5f01ff21015c37094d225/JDo-android-0.84.apk",
+      "httpStatus": 200,
+      "bytes": 41357302,
+      "sha256": "cdea4a1732b2fc9e0ed9c7267f2f70135664b792c420d5aa11e3c6a04a0ea8bf",
+      "matchesBuild": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/android-apk-downloads/JDo-android.apk",
+      "httpStatus": 200,
+      "bytes": 41357302,
+      "sha256": "cdea4a1732b2fc9e0ed9c7267f2f70135664b792c420d5aa11e3c6a04a0ea8bf",
+      "matchesBuild": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/android-apk-downloads/jido-release.apk",
+      "httpStatus": 200,
+      "bytes": 41357302,
+      "sha256": "cdea4a1732b2fc9e0ed9c7267f2f70135664b792c420d5aa11e3c6a04a0ea8bf",
+      "matchesBuild": true
+    }
+  ],
+  "anonymousDownload": true,
+  "downloadedSignatureVerified": true,
+  "publicSourceFiles": [
+    {
+      "path": "AGENTS.md",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/bd99c43afe4f1f57dd805eb0b646f4f865beb5da/AGENTS.md",
+      "httpStatus": 200,
+      "bytes": 39114,
+      "sha256": "2117700282fc13af6d7d0092960658ada939cb085247d2aaec6cc5285e8ccb8d",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "ANDROID-DOWNLOAD.md",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/bd99c43afe4f1f57dd805eb0b646f4f865beb5da/ANDROID-DOWNLOAD.md",
+      "httpStatus": 200,
+      "bytes": 91780,
+      "sha256": "627bec367e5232c4221a9c7cf315b2ee96fb4832ce250bc626dba95cfd167158",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/bd99c43afe4f1f57dd805eb0b646f4f865beb5da/README.md",
+      "httpStatus": 200,
+      "bytes": 2660,
+      "sha256": "82fec64fb442294297703fc1cdd0b72192f8aad75fd85a7443a3495bb364d4c1",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "UI.md",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/bd99c43afe4f1f57dd805eb0b646f4f865beb5da/UI.md",
+      "httpStatus": 200,
+      "bytes": 66848,
+      "sha256": "489044ead08ded7785cf8647b4096394ef14dab82084f9cc60811647447cebc6",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "PERSONAL-TRAVEL-PHOTOS.md",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/bd99c43afe4f1f57dd805eb0b646f4f865beb5da/PERSONAL-TRAVEL-PHOTOS.md",
+      "httpStatus": 200,
+      "bytes": 3834,
+      "sha256": "639b0fdc16335ee41ea256d00bfb907b81337a23c9a21e289118096ba22c2489",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "src/App.tsx",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/bd99c43afe4f1f57dd805eb0b646f4f865beb5da/src/App.tsx",
+      "httpStatus": 200,
+      "bytes": 100514,
+      "sha256": "6b5955969968a157ddbe1e22749c8683e5fe003407355924193a3f7b7624138c",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "src/AttachmentsPanel.tsx",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/bd99c43afe4f1f57dd805eb0b646f4f865beb5da/src/AttachmentsPanel.tsx",
+      "httpStatus": 200,
+      "bytes": 16310,
+      "sha256": "500cd520a3f4d3b12dbf8fc6f1f8641d0cdf7c9506c93355e4194f135a3952f3",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "src/PlannerHome.tsx",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/bd99c43afe4f1f57dd805eb0b646f4f865beb5da/src/PlannerHome.tsx",
+      "httpStatus": 200,
+      "bytes": 9129,
+      "sha256": "5e2377b1e6c999a51c78e3f658b8c0847efb4da41ff666667a3d6cf9677e9a13",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "src/TripLibrary.tsx",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/bd99c43afe4f1f57dd805eb0b646f4f865beb5da/src/TripLibrary.tsx",
+      "httpStatus": 200,
+      "bytes": 3945,
+      "sha256": "0882a9fa27fe627fe148ddb937ca084d44d3995bb26521b87de942f065d9c563",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "src/FieldJourney.tsx",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/bd99c43afe4f1f57dd805eb0b646f4f865beb5da/src/FieldJourney.tsx",
+      "httpStatus": 200,
+      "bytes": 12874,
+      "sha256": "c9f5ddf03507768d2f4589781f73eddf1ac5174a7d73fce290f8659df239bce9",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "src/TripFilesProvider.tsx",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/bd99c43afe4f1f57dd805eb0b646f4f865beb5da/src/TripFilesProvider.tsx",
+      "httpStatus": 200,
+      "bytes": 2982,
+      "sha256": "219e7b1925277a54d11bf2cbb5e8ef9fe1bc2f77c4fa07ee3e98c66324e4cad6",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "src/TripPhoto.tsx",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/bd99c43afe4f1f57dd805eb0b646f4f865beb5da/src/TripPhoto.tsx",
+      "httpStatus": 200,
+      "bytes": 656,
+      "sha256": "98afafc13f13e49bf3f5712f427f07a4441ac0d23ce5c54660bb5cc39b913651",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "src/trip-photos.ts",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/bd99c43afe4f1f57dd805eb0b646f4f865beb5da/src/trip-photos.ts",
+      "httpStatus": 200,
+      "bytes": 807,
+      "sha256": "793c38cb1e04697c708d0b147c41b4ce30fa4881ef666bf3b8bb56249ce6716b",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "src/modern-theme.css",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/bd99c43afe4f1f57dd805eb0b646f4f865beb5da/src/modern-theme.css",
+      "httpStatus": 200,
+      "bytes": 68381,
+      "sha256": "5f1375e4aab7b3f1d51ab5d12ea370732d16af9ddcf701a86a0f40c5b90c3ce0",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "android/app/build.gradle",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/bd99c43afe4f1f57dd805eb0b646f4f865beb5da/android/app/build.gradle",
+      "httpStatus": 200,
+      "bytes": 3197,
+      "sha256": "c0910168506d8390ea34dbbb43dcab085010f865c8ef518f61854028de372416",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "playwright.config.ts",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/bd99c43afe4f1f57dd805eb0b646f4f865beb5da/playwright.config.ts",
+      "httpStatus": 200,
+      "bytes": 1238,
+      "sha256": "7047358b154399bcc125825f1af6e71edffb800cba6b4f71ffc5d6188d762087",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "tests/travel-photos.spec.ts",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/bd99c43afe4f1f57dd805eb0b646f4f865beb5da/tests/travel-photos.spec.ts",
+      "httpStatus": 200,
+      "bytes": 15567,
+      "sha256": "3a94248d55c357505c6633e566cadd6dda045edf49b4b128549264c4f20e9ce3",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-11-travel-photos/README.md",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/bd99c43afe4f1f57dd805eb0b646f4f865beb5da/research/audits/2026-11-11-travel-photos/README.md",
+      "httpStatus": 200,
+      "bytes": 2155,
+      "sha256": "69f3c59584aacaf79f544a7587433cc80cdc46c10bd9f50e106f2c69af36bc99",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-11-travel-photos/photo-gallery-320.png",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/bd99c43afe4f1f57dd805eb0b646f4f865beb5da/research/audits/2026-11-11-travel-photos/photo-gallery-320.png",
+      "httpStatus": 200,
+      "bytes": 190218,
+      "sha256": "7409bb88e6f5403613da53f7c2770bfb4d6d908790fe8b2c4d7913e9aac4068d",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-11-travel-photos/photo-home-320.png",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/bd99c43afe4f1f57dd805eb0b646f4f865beb5da/research/audits/2026-11-11-travel-photos/photo-home-320.png",
+      "httpStatus": 200,
+      "bytes": 178907,
+      "sha256": "3719142603e41d04a97ec4c55295639aed60a696203ab826be085184ef73213f",
+      "matchesBuildSource": true
+    }
+  ],
+  "publicVerifiedAt": "2026-11-11T06:12:06.162590+00:00"
 }
