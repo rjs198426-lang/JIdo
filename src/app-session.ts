@@ -81,6 +81,13 @@ export function readAppSession(trips: Trip[]): AppSession | undefined {
     if (!parsed.success) return
     const s = parsed.data,
       trip = trips.find((t) => t.id === s.activeTripId)
+    if (s.dialog?.type === 'credits') {
+      s.dialog = null
+      s.scroll = 0
+      s.modalScroll = []
+      s.openDetails = []
+      s.detailCount = 0
+    }
     if (!trip) {
       s.activeTripId = ''
       s.day = 0

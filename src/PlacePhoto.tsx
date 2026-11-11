@@ -13,8 +13,7 @@ import {
 import { AttachmentsContext } from './AttachmentsPanel'
 import { attachmentUrl } from './attachment-storage'
 import type { Stop } from './travel-model'
-import { getPlace, getCity, type Place } from './catalog'
-import { bundledImage } from './bundled-image'
+import { getPlace, type Place } from './catalog'
 
 export default function PlacePhoto({
   stop,
@@ -49,14 +48,12 @@ export default function PlacePhoto({
   const own =
     files.find((file) => file.id === stop?.photoId) || files[0] || personal
   const [url, setUrl] = useState(''),
-    [failed, setFailed] = useState(false),
-    [fallbackFailed, setFallbackFailed] = useState(false)
+    [failed, setFailed] = useState(false)
   useEffect(() => {
     let active = true,
       revoke = () => {}
     setUrl('')
     setFailed(false)
-    setFallbackFailed(false)
     if (own)
       void attachmentUrl(own)
         .then((result) => {
@@ -71,24 +68,17 @@ export default function PlacePhoto({
       active = false
       revoke()
     }
-  }, [own?.id, catalog?.image])
-  const fallback =
-    catalog &&
-    (catalog.photoCredit || catalog.image !== getCity(catalog.cityId)?.image)
-      ? catalog.image
-      : undefined
-  const source = own && !failed ? url : fallback
-  if (source && !fallbackFailed && source !== '/images/place-placeholder.svg')
+  }, [own?.id])
+  const source = own && !failed ? url : ''
+  if (source)
     return (
       <img
         className={className}
-        src={bundledImage(source)}
+        src={source}
         decoding="async"
         alt={alt || catalog?.name || stop?.custom?.name || '장소 사진'}
         loading="lazy"
-        onError={() =>
-          own && source === url ? setFailed(true) : setFallbackFailed(true)
-        }
+        onError={() => setFailed(true)}
       />
     )
   const EmptyIcon =

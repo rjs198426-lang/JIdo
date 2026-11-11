@@ -27,7 +27,7 @@ export default function JourneyRoute({
   onUpdate: (trip: Trip) => boolean | void
 }) {
   const [adding, setAdding] = useState(false)
-  const [guideId, setGuideId] = useState('custom')
+  const [cityPresetId, setCityPresetId] = useState('custom')
   const [name, setName] = useState('')
   const [country, setCountry] = useState('')
   const [assignFrom, setAssignFrom] = useState('none')
@@ -40,7 +40,7 @@ export default function JourneyRoute({
   )
   function add(event: FormEvent) {
     event.preventDefault()
-    const city = cities.find((city) => city.id === guideId)
+    const city = cities.find((city) => city.id === cityPresetId)
     const next = {
       id: crypto.randomUUID(),
       name: city?.name || name.trim(),
@@ -209,8 +209,8 @@ export default function JourneyRoute({
           <label className="field">
             추가할 여행지
             <select
-              value={guideId}
-              onChange={(event) => setGuideId(event.target.value)}
+              value={cityPresetId}
+              onChange={(event) => setCityPresetId(event.target.value)}
             >
               <option value="custom">도시 직접 입력</option>
               {cities.map((city) => (
@@ -220,7 +220,7 @@ export default function JourneyRoute({
               ))}
             </select>
           </label>
-          {guideId === 'custom' && (
+          {cityPresetId === 'custom' && (
             <div className="form-row">
               <label className="field">
                 도시 이름

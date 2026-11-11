@@ -1,7 +1,7 @@
 J★Do travel place data — checked 2026-10-14
 
 Wikivoyage contributors: source titles and per-place links are provided in
-travel-place-sources.json and the app's travel review/source section.
+https://github.com/rjs198426-lang/JIdo/blob/main/public/travel-place-sources.json .
 Wikivoyage text (including retained source excerpts and adaptations) is
 licensed under Creative Commons Attribution-ShareAlike 4.0 International:
 https://creativecommons.org/licenses/by-sa/4.0/
@@ -21,8 +21,10 @@ written for J★Do; a source link does not license copying the original blog.
 No numerical venue ratings, current prices or opening-hour guarantees are
 inferred from traveler reviews.
 
-Photo licenses are separate; existing licensed venue photos retain their
-original credits and license links in the app's photo source screen.
+Since 0.85 the personal-travel APK does not include or display stock guide
+photos. Historical photo authorship and licenses are retained in the public
+source archive: https://github.com/rjs198426-lang/JIdo/blob/main/ASSETS.md .
+Private photos selected by the user remain in private device storage/backup.
 
 Expanded destinations (Taipei, Hong Kong, Singapore, Da Nang/Hoi An):
 80 selected records are adapted from the 2016-10-27 public Wikivoyage listings
@@ -42,3 +44,10 @@ paragraphs under CC BY-SA 4.0. Source revisions, original listing text and
 coordinate evidence are retained in category-place-research.json. Changes:
 selection, Korean summaries and category mapping. Three additional cafes use
 factual summaries of two personal blog visits; no blog prose or photos copied.
+
+0.85 distribution scope (2026-11-11): geographic names and old itinerary
+references remain for compatibility. Guide photos/research JSON are excluded
+from the client assets. Upstream text/data attribution and license records:
+https://github.com/rjs198426-lang/JIdo/blob/main/public/expanded-place-sources.json
+https://github.com/rjs198426-lang/JIdo/blob/main/public/category-place-research.json
+This cleanup does not relicense the retained data or delete private records.

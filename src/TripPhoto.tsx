@@ -1,7 +1,11 @@
 import { useState, type ReactNode } from 'react'
-import { usePhotoUrl } from './personal-photos'
+import {
+  usePhotoUrl,
+  usePersonalPhoto,
+  personalPhotoKey,
+} from './personal-photos'
 import { tripCover } from './trip-photos'
-import type { Trip } from './travel-model'
+import { tripCity, type Trip } from './travel-model'
 
 export default function TripPhoto({
   trip,
@@ -12,7 +16,10 @@ export default function TripPhoto({
   className?: string
   fallback?: ReactNode
 }) {
-  const file = tripCover(trip),
+  const legacyPersonal = usePersonalPhoto(
+    personalPhotoKey('city', tripCity(trip).id),
+  )
+  const file = tripCover(trip) || legacyPersonal,
     url = usePhotoUrl(file)
   const [failed, setFailed] = useState('')
   return url && url !== failed ? (

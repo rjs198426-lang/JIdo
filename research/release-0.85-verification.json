@@ -1,0 +1,50 @@
+{
+  "version": "0.85",
+  "versionCode": 86,
+  "package": "com.jido.travel.next",
+  "bytes": 6387988,
+  "sha256": "73603424484adb0e06a4a0d815d6821d317afd39bf3b566f84ff646692be8c03",
+  "certificateSha256": "0d1b1f20dae73d00626d9ebb4f460943c4f16c2266bc7bc58d124d13b32494ac",
+  "signatureVerified": true,
+  "matchedWebAssets": 19,
+  "privateSigningFilesFound": false,
+  "existingMapsConfigurationBundled": true,
+  "nativeDeviceInstallTested": false,
+  "checkedAt": "2026-11-11T06:55:10.718969+00:00",
+  "sourceBaseCommit": "77bf50b71bd731cb3c2f8fa731ca4a9358a87007",
+  "scope": "Remove retired guide photo-credit UI, stock photo fallbacks, guide-only filters/CSS and packaged photos/research; preserve private photos and travel records",
+  "browserTestsPassed": 158,
+  "realGoogleLoginTested": false,
+  "realTwoDeviceSyncTested": false,
+  "clientBuildAudit": {
+    "assets": 19,
+    "bytes": 4388847,
+    "fontFiles": 1,
+    "fontBytes": 2057688,
+    "images": 0,
+    "originalImageBytes": 0,
+    "imageBytes": 0,
+    "adminFiles": 0,
+    "metadataFiles": 0
+  },
+  "testExecution": {
+    "relatedBrowserCasesPassed": 158,
+    "newCleanupCases": 10,
+    "initialCleanupPassed": 8,
+    "initialCleanupFailed": 2,
+    "initialFailureReason": "The test selected preparation buttons as tabs. Corrected the accessibility selector, then all 158 related cases passed.",
+    "syntheticDataOnly": true,
+    "nativeInstallTested": false,
+    "unchangedFinanceAndReminderSuitesRerun": false
+  },
+  "archivedGuidePhotosBundled": 0,
+  "archivedGuideResearchFilesBundled": 0,
+  "previousApkBytes": 41357302,
+  "apkReductionPercent": 84.55,
+  "separateAdminAssetPreparationVerified": true,
+  "extraCapacitorPublicAssets": [
+    "assets/public/cordova.js",
+    "assets/public/cordova_plugins.js"
+  ],
+  "publicCommit": "ed1796630d246c49060f449b0e4e69a006ce444b"
+}

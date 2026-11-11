@@ -33,7 +33,7 @@ const field = (path: string[]) =>
             : path.includes('placeLibrary')
               ? '개인 장소'
               : path.includes('catalog')
-                ? '개인 가이드'
+                ? '이전 버전 자료'
                 : path.includes('trips')
                   ? '여행'
                   : '저장 목록'

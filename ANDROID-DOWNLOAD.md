@@ -1,5 +1,21 @@
 # J★Do Android 다운로드
 
+[J★Do 0.85 개발판 APK 다운로드](https://raw.githubusercontent.com/rjs198426-lang/JIdo/ed1796630d246c49060f449b0e4e69a006ce444b/JDo-android-0.85.apk)
+
+- 앱: **J★Do** (`com.jido.travel.next`)
+- 버전:0.85 개발판 · versionCode86 · Android7.0 이상
+- 크기:6,387,988bytes · 0.84보다84.55% 감소
+- SHA-256:`73603424484adb0e06a4a0d815d6821d317afd39bf3b566f84ff646692be8c03`
+- 기존 인증서 SHA-256:`0d1b1f20dae73d00626d9ebb4f460943c4f16c2266bc7bc58d124d13b32494ac`
+
+기존 앱을 삭제하지 말고 업데이트로 설치하세요. 기존 여행·내 사진·예약·경비·정산·첨부·백업·동기화를 유지합니다.
+
+사진 출처 메뉴/팝업과 기본 가이드 사진·조사JSON·가이드 전용표시를 정리했습니다. 내가 넣은 사진만 표시하고 사진이 없으면 장소/여행 아이콘을 사용합니다. 사용자 배포에서 가이드 사진204개를 제외해 APK가약41.4MB에서6.4MB로 줄었습니다. 이전 개인 대표 사진과 지도·글꼴·기존 장소 참조의 출처/라이선스는 유지합니다.
+
+관련 PC·모바일158개, Android빌드·기존서명·웹자산19개 일치와APK내 가이드사진/조사JSON0개를 확인했습니다. 실제Android설치·갤러리·Google로그인·휴대폰 두 대 동기화는 미검증입니다. [정리·보존 범위](POST-GUIDE-CLEANUP.md), [현재 설정 화면](research/audits/2026-11-11-guide-cleanup/README.md), [실제 검증 기록](research/release-0.85-verification.json).
+
+## 0.84 이전 배포
+
 [J★Do 0.84 개발판 APK 다운로드](https://raw.githubusercontent.com/rjs198426-lang/JIdo/b8289ca28c9f3ccfaff5f01ff21015c37094d225/JDo-android-0.84.apk)
 
 - 앱: **J★Do** (`com.jido.travel.next`)

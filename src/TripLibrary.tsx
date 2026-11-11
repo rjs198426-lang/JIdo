@@ -1,10 +1,9 @@
 import { useDraftFields } from './form-draft'
 import { useEffect, useState } from 'react'
-import { ChevronRight, Search } from 'lucide-react'
-import CityPhoto from './CityPhoto'
+import { ChevronRight, Search, Luggage } from 'lucide-react'
 import TripPhoto from './TripPhoto'
 import { journeyPhase } from './home-journey'
-import { tripCity, tripDestinations, type Trip } from './travel-model'
+import { tripDestinations, type Trip } from './travel-model'
 import { formatDate } from './store'
 export default function TripLibrary({
   trips,
@@ -65,7 +64,14 @@ export default function TripLibrary({
               >
                 <TripPhoto
                   trip={trip}
-                  fallback={<CityPhoto city={tripCity(trip)} alt="" />}
+                  fallback={
+                    <span
+                      className="trip-library-placeholder"
+                      aria-hidden="true"
+                    >
+                      <Luggage size={28} />
+                    </span>
+                  }
                 />
                 <span className="trip-library-copy">
                   <small>

@@ -1,20 +1,13 @@
-import {
-Bell,
-ChevronRight,
-FileDown,
-Image
-} from 'lucide-react'
+import { Bell, ChevronRight, FileDown } from 'lucide-react'
 import DriveSyncSettings from './DriveSyncSettings'
 import type { DriveSyncState } from './useDriveSync'
 export default function SettingsPage({
   onReminders,
-  onPhotoCredits,
   onBackup,
   onRecovery,
   sync,
 }: {
   onReminders: () => void
-  onPhotoCredits: () => void
   onBackup: () => void
   onRecovery?: () => void
   sync?: DriveSyncState
@@ -37,7 +30,6 @@ export default function SettingsPage({
           [
             ['여행 알림 설정', Bell, onReminders],
             ['여행 백업·공유', FileDown, onBackup],
-            ['사진 출처', Image, onPhotoCredits],
           ] as const
         ).map(([label, Icon, action]) => (
           <button key={label} onClick={action}>

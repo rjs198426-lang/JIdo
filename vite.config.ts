@@ -40,7 +40,10 @@ if (!version || !build)
 export default defineConfig(({ mode }) => ({
   plugins: [react()],
   base: mode === 'admin' ? '/admin/' : '/',
-  publicDir: '.runtime/public-assets/public',
+  publicDir:
+    mode === 'admin'
+      ? '.runtime/admin-assets/public'
+      : '.runtime/public-assets/public',
   build: {
     outDir: mode === 'admin' ? 'dist-admin' : 'dist',
     rollupOptions: { input: mode === 'admin' ? 'admin.html' : 'index.html' },
@@ -54,7 +57,9 @@ export default defineConfig(({ mode }) => ({
           JSON.parse(
             readFileSync(
               new URL(
-                './.runtime/public-assets/image-map.json',
+                mode === 'admin'
+                  ? './.runtime/admin-assets/image-map.json'
+                  : './.runtime/public-assets/image-map.json',
                 import.meta.url,
               ),
               'utf8',

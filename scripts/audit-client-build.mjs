@@ -19,11 +19,15 @@ const entries = await files(dist)
 for (const file of entries) {
   const relative = path.relative(dist, file)
   if (
-    /AdminApp|admin\.html|(?:^|\/)admin-|SUIT|HiKR|Laundry|noto-sans-kr/i.test(
+    /AdminApp|admin\.html|(?:^|\/)admin-|SUIT|HiKR|Laundry|noto-sans-kr|(?:^|\/)(?:photo-sources|photo-research|guide-research|guide-blog-research|travel-place-sources|expanded-place-sources|category-place-research|dining-research|blog-place-research|place-blog-research|japan-guide-sources)/i.test(
       relative,
     )
   )
     throw new Error(`Non-client asset in release: ${relative}`)
+  if (/^images\/.*\.(?:jpe?g|png|webp)$/i.test(relative))
+    throw new Error(
+      `Archived guide photo in personal-travel release: ${relative}`,
+    )
   if (
     /\.(js|css)$/.test(file) &&
     /\/api\/admin|AdminApp-/.test(await readFile(file, 'utf8'))

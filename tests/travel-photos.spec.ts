@@ -184,9 +184,8 @@ test('trip photos select a cover, survive restart and remain separate for two tr
     'src',
     /^blob:/,
   )
-  await expect(
-    page.locator('[data-trip-id="second-trip"] img'),
-  ).not.toHaveAttribute('src', /^blob:/)
+  await expect(page.locator('[data-trip-id="second-trip"] img')).toHaveCount(0)
+  await expect(page.locator('[data-trip-id="second-trip"] .trip-library-placeholder')).toBeVisible()
 })
 test('place photo is visible on the reading card and during travel without altering the untimed schedule', async ({
   page,

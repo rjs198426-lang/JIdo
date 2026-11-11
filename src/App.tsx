@@ -45,8 +45,6 @@ import AppInformation from './AppInformation'
 import AttachmentsPanel from './AttachmentsPanel'
 import TripFilesProvider from './TripFilesProvider'
 import TripPhoto from './TripPhoto'
-import { tripCover } from './trip-photos'
-import { type CityGuideTab } from './CityGuide'
 import ConnectionNotice from './ConnectionNotice'
 import CustomStopForm from './CustomStopForm'
 import DayNavigation from './DayNavigation'
@@ -57,7 +55,6 @@ import FieldJourney from './FieldJourney'
 import JourneyRoute, { DayRoute } from './JourneyRoute'
 import JourneyShare from './JourneyShare'
 import PersonalPlaceForm from './PersonalPlaceForm'
-import PhotoCredits from './PhotoCredits'
 import { PlaceLibraryContext } from './PlaceLibraryContext'
 import PlacePhoto from './PlacePhoto'
 import PlacePicker from './PlacePicker'
@@ -81,8 +78,7 @@ import TripLibrary from './TripLibrary'
 import TripOverview from './TripOverview'
 import TripSearch from './TripSearch'
 import { readAppSession, useAppSession } from './app-session'
-import { bundledImage } from './bundled-image'
-import { cities, getCity, getPlace, type Region } from './catalog'
+import { cities, getCity, getPlace } from './catalog'
 import { commitFullRestore } from './full-backup'
 import { googleMapsLink, mapsSearch } from './google-maps'
 import { useGoogleRoutes } from './google-routes'
@@ -92,19 +88,13 @@ import {
   travelDay,
 } from './journey-personal'
 import { cancelledReservation, timeConflicts } from './journey-progress'
-import {
-  personalPhotoKey,
-  personalPhotosSnapshot,
-  usePersonalPhoto,
-  usePhotoUrl,
-} from './personal-photos'
+import { personalPhotosSnapshot } from './personal-photos'
 import {
   libraryPlaces,
   removeLibraryPlace,
   savePersonalPlace,
   type PersonalPlace,
 } from './personal-place-library'
-import { type CourseSelection } from './practical-guides'
 import { registeredPlaceKey } from './registered-places'
 import { useTravelReminders } from './reminder-service'
 import { applyTimeAdjustment, type TimeAdjustment } from './schedule-adjust'
@@ -151,7 +141,7 @@ import {
   workspaceGroup,
 } from './workspace-navigation'
 
-type Page = 'home' | 'trips' | 'explore' | 'settings'
+type Page = 'home' | 'trips' | 'settings'
 type Dialog =
   | {
       type: 'personal-place'
@@ -167,27 +157,19 @@ type Dialog =
       entry?: import('./registered-places').RegisteredPlace
       placeId?: string
     }
-  | { type: 'credits' }
   | { type: 'reminders' }
-  | { type: 'nearby' }
   | { type: 'recovery' }
-  | { type: 'guidebooks' }
   | { type: 'expense'; tripId: string; day: number; stopId?: string }
-  | { type: 'city'; id: string; guideTab?: CityGuideTab }
-  | { type: 'place'; id: string }
   | {
       type: 'create'
       cityId?: string
       placeId?: string
-      course?: CourseSelection
       initialName?: string
       initialCountry?: string
       pendingPlaceName?: string
       registeredPlace?: CustomPlace
     }
-  | { type: 'course'; course: CourseSelection }
   | { type: 'picker'; tripId: string; day: number }
-  | { type: 'add'; placeId: string }
   | {
       type: 'registered'
       key: string
@@ -386,10 +368,6 @@ function Itinerary({
   onOpen: (placeId: string) => void
 }) {
   const city = tripCity(trip)
-  const personalCityPhoto = usePersonalPhoto(personalPhotoKey('city', city.id))
-  const ownTripCover = usePhotoUrl(tripCover(trip))
-  const personalCityUrl = usePhotoUrl(personalCityPhoto)
-  const cityCover = ownTripCover || personalCityUrl || city.image
   const [workspace, setWorkspaceState] = useState(
     () => journeyPreference(trip).workspace,
   )
@@ -631,12 +609,7 @@ function Itinerary({
       isShared={isAttachmentShared}
     >
       <div className={`itinerary ${workspace === 'field' ? 'is-field' : ''}`}>
-        <div
-          className="trip-banner"
-          style={{
-            backgroundImage: `linear-gradient(90deg, rgba(12,36,31,.86),rgba(12,36,31,.3)), url(${bundledImage(cityCover)})`,
-          }}
-        >
+        <div className="trip-banner">
           <div className="trip-header-copy">
             <span className="trip-country">
               {city.country} · {city.name}
@@ -681,9 +654,7 @@ function Itinerary({
           </div>
         </div>
         <div className="trip-photo-toolbar">
-          {ownTripCover && (
-            <TripPhoto trip={trip} className="trip-plan-cover" />
-          )}
+          <TripPhoto trip={trip} className="trip-plan-cover" />
           <button className="text-button" onClick={() => onPhotos()}>
             <Camera size={18} />
             여행 사진
@@ -1637,26 +1608,18 @@ export default function App() {
   const [tripLibrary, setTripLibrary] = useState(
     initialSession?.tripLibrary ?? true,
   )
-  const [query, setQuery] = useState(initialSession?.query || '')
-  const [region, setRegion] = useState<Region>(
-    (initialSession?.region as Region) || '전체',
-  )
-  const [category, setCategory] = useState<string>(
-    initialSession?.category || '전체',
-  )
-  const [exploreCity, setExploreCity] = useState(
-    initialSession?.exploreCity || '전체',
-  )
-  const [placeLimit, setPlaceLimit] = useState(initialSession?.placeLimit || 24)
-  const [exploreTab, setExploreTab] = useState<'cities' | 'places'>(
-    initialSession?.exploreTab || 'cities',
-  )
   const [dialog, setDialog] = useState<Dialog | null>(
     initialSession?.dialog &&
-      !['city', 'place', 'add', 'guidebooks', 'nearby', 'course'].includes(
-        initialSession.dialog.type,
-      )
-      ? initialSession.dialog
+      ![
+        'city',
+        'place',
+        'add',
+        'guidebooks',
+        'nearby',
+        'course',
+        'credits',
+      ].includes(initialSession.dialog.type)
+      ? (initialSession.dialog as Dialog)
       : null,
   )
   const [infoOpen, setInfoOpen] = useState(false)
@@ -1670,11 +1633,6 @@ export default function App() {
       store.trips.at(-1)
     return trip ? journeyPreference(trip).workspace : 'schedule'
   })
-  const [editingPlaces, setEditingPlaces] = useState(false)
-  const [removedPlace, setRemovedPlace] = useState<{
-    record?: PersonalPlace
-    keys: string[]
-  }>()
   const [reminderRevision, setReminderRevision] = useState(0)
   const [activeTripId, setActiveTripId] = useState(() => {
     if (initialSession?.activeTripId) return initialSession.activeTripId
@@ -1942,12 +1900,13 @@ export default function App() {
       tripLibrary,
       activeTripId: activeTrip?.id || '',
       day: activeDay,
-      query,
-      region,
-      category,
-      exploreCity,
-      exploreTab,
-      placeLimit,
+      // Retain the old navigation envelope without guide-search state.
+      query: '',
+      region: '전체',
+      category: '전체',
+      exploreCity: '전체',
+      exploreTab: 'cities',
+      placeLimit: 24,
       dialog,
     },
     initialSession,
@@ -2060,7 +2019,6 @@ export default function App() {
           <SettingsPage
             sync={driveSync}
             onReminders={() => setDialog({ type: 'reminders' })}
-            onPhotoCredits={() => setDialog({ type: 'credits' })}
             onBackup={() => setDialog({ type: 'backup' })}
             onRecovery={
               recoveries.length
@@ -2326,15 +2284,6 @@ export default function App() {
         </Modal>
       )}
 
-      {dialog?.type === 'credits' && (
-        <Modal title="사진 출처" onClose={() => setDialog(null)} wide>
-          <PhotoCredits
-            trips={store.trips}
-            savedCities={store.savedCities}
-            savedPlaces={store.savedPlaces}
-          />
-        </Modal>
-      )}
       {dialog?.type === 'backup' && (
         <Modal title="여행 백업·공유" onClose={() => setDialog(null)}>
           <TravelBackup
@@ -2428,7 +2377,7 @@ export default function App() {
                 {dialog.entry?.custom.name ||
                   getPlace(dialog.placeId || '')?.name}
               </strong>
-              을 가볼 만한 곳에서 삭제할까요?
+              을 내 장소 목록에서 삭제할까요?
             </p>
             <p>이미 담은 일정·메모·사진·예약은 그대로 남아요.</p>
             <div className="button-row">
@@ -2446,14 +2395,6 @@ export default function App() {
                   if (!target) return
                   const next = removeLibraryPlace(current.placeLibrary, target)
                   if (!setStore({ ...current, placeLibrary: next })) return
-                  setRemovedPlace({
-                    record: current.placeLibrary?.entries.find(
-                      (entry) => entry.id === dialog.entry?.personalId,
-                    ),
-                    keys: next.hidden.filter(
-                      (key) => !current.placeLibrary?.hidden.includes(key),
-                    ),
-                  })
                   setDialog(null)
                 }}
               >

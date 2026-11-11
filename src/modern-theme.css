@@ -2487,3 +2487,9 @@ body {
   :root .photo-gallery > article { padding: 7px; }
   :root .photo-thumbnail { height: 96px; }
 }
+
+/* No stock guide imagery: neutral travel tiles until a private photo is set. */
+:root .trip-library-placeholder { display: grid; place-items: center; width: 76px; height: 88px; border-radius: 12px; background: #e8f2ef; color: #64817b; }
+@media (max-width: 600px) {
+  :root .trip-library-placeholder { width: 60px; height: 80px; }
+}

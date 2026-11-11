@@ -11,7 +11,22 @@ import { createHash } from 'node:crypto'
 import path from 'node:path'
 import sharp from 'sharp'
 const root = path.resolve(import.meta.dirname, '..')
-const output = path.join(root, '.runtime/public-assets')
+const admin = process.argv.includes('--admin')
+const output = path.join(
+  root,
+  admin ? '.runtime/admin-assets' : '.runtime/public-assets',
+)
+const clientAssets = new Set([
+  'favicon.svg',
+  'app-icon.svg',
+  'fonts/PretendardVariable.woff2',
+  'fonts/Pretendard-source.json',
+  'licenses/Pretendard-OFL.txt',
+  'licenses/leaflet.txt',
+  'licenses/travel-data.txt',
+  'images/place-placeholder.svg',
+  'images/guide-placeholder.svg',
+])
 const cache = path.join(root, '.runtime/image-cache')
 const sha = (bytes) => createHash('sha256').update(bytes).digest('hex')
 const options = {
@@ -20,7 +35,7 @@ const options = {
   effort: 6,
   encoder: sharp.versions.sharp,
 }
-await mkdir(cache, { recursive: true })
+if (admin) await mkdir(cache, { recursive: true })
 await rm(path.join(output, 'public'), { recursive: true, force: true })
 const map = {},
   audit = []
@@ -31,6 +46,9 @@ async function walk(directory, prefix = '') {
       await walk(path.join(directory, entry.name), relative)
       continue
     }
+    // The personal-travel app shows private photos from attachment storage.
+    // Historical stock photos/research stay in Git and the archive/admin build.
+    if (!admin && !clientAssets.has(relative)) continue
     if (
       relative.startsWith('fonts/') &&
       !/^fonts\/Pretendard(?:Variable\.woff2|-source\.json)$/.test(relative)
@@ -110,5 +128,7 @@ await writeFile(
   JSON.stringify({ schemaVersion: 1, options, images: audit }, null, 2) + '\n',
 )
 console.log(
-  `Prepared ${audit.length} photos: ${audit.reduce((n, p) => n + p.originalBytes, 0)} → ${audit.reduce((n, p) => n + p.bytes, 0)} bytes; originals preserved.`,
+  admin
+    ? `Prepared ${audit.length} photos: ${audit.reduce((n, p) => n + p.originalBytes, 0)} → ${audit.reduce((n, p) => n + p.bytes, 0)} bytes; originals preserved.`
+    : 'Prepared personal-travel assets; archived guide photos and research excluded.',
 )
