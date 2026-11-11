@@ -14,6 +14,8 @@
 
 관련 PC·모바일158개, Android빌드·기존서명·웹자산19개 일치와APK내 가이드사진/조사JSON0개를 확인했습니다. 실제Android설치·갤러리·Google로그인·휴대폰 두 대 동기화는 미검증입니다. [정리·보존 범위](POST-GUIDE-CLEANUP.md), [현재 설정 화면](research/audits/2026-11-11-guide-cleanup/README.md), [실제 검증 기록](research/release-0.85-verification.json).
 
+공개 확인:0.85 고정APK와 최신별칭2개를 인증 없이 내려받아 HTTP200·6,387,988bytes·SHA-256·기존 서명 일치를 확인했습니다. 공개 소스·문서·화면29개 파일도 바이트/해시가 일치했습니다. [실제 결과](research/release-0.85-verification.json).
+
 ## 0.84 이전 배포
 
 [J★Do 0.84 개발판 APK 다운로드](https://raw.githubusercontent.com/rjs198426-lang/JIdo/b8289ca28c9f3ccfaff5f01ff21015c37094d225/JDo-android-0.84.apk)
