@@ -36,5 +36,234 @@
   },
   "noNewRequiredTravelFields": true,
   "bookingTextSentToExternalService": false,
-  "preservesAttachmentPurposeBuild": 88
+  "preservesAttachmentPurposeBuild": 88,
+  "sourceCommit": "41e1b813c06743f6f72a35538df71f83eef099ec",
+  "publicDownloads": [
+    {
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/0714f18c8e68ca17fd9d8398366ae83a8f3bea90/JDo-android-0.88.apk",
+      "httpStatus": 200,
+      "bytes": 6397616,
+      "sha256": "7b3368a747027b2a7b1222eab1505ce07abe0ce9d9db9850e918b82c320c99a8",
+      "matchesBuild": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/android-apk-downloads/JDo-android.apk",
+      "httpStatus": 200,
+      "bytes": 6397616,
+      "sha256": "7b3368a747027b2a7b1222eab1505ce07abe0ce9d9db9850e918b82c320c99a8",
+      "matchesBuild": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/android-apk-downloads/jido-release.apk",
+      "httpStatus": 200,
+      "bytes": 6397616,
+      "sha256": "7b3368a747027b2a7b1222eab1505ce07abe0ce9d9db9850e918b82c320c99a8",
+      "matchesBuild": true
+    }
+  ],
+  "anonymousDownload": true,
+  "downloadedSignatureVerified": true,
+  "publicSourceFiles": [
+    {
+      "path": "AGENTS.md",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/41e1b813c06743f6f72a35538df71f83eef099ec/AGENTS.md",
+      "httpStatus": 200,
+      "bytes": 43312,
+      "sha256": "d1880140aed8272f88ba76583d1516817ff6a2acbf2f20e84198e0052d6787dd",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "ANDROID-DOWNLOAD.md",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/41e1b813c06743f6f72a35538df71f83eef099ec/ANDROID-DOWNLOAD.md",
+      "httpStatus": 200,
+      "bytes": 98639,
+      "sha256": "661957c2b49d87e6fd61a36ec1f4f3e97cc17b2696998f0a6c7ffa2b4907b543",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/41e1b813c06743f6f72a35538df71f83eef099ec/README.md",
+      "httpStatus": 200,
+      "bytes": 3873,
+      "sha256": "0f5b7225fad5045d61675adda4aa7a3a256e150e8ed3caea82d7c562d1bf912e",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "DESIGN-SYSTEM.md",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/41e1b813c06743f6f72a35538df71f83eef099ec/DESIGN-SYSTEM.md",
+      "httpStatus": 200,
+      "bytes": 10481,
+      "sha256": "fb60ceb1f8069c8e06b4c8a7f4c8c29c55c4ebad856486f37bf73980f558c592",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "UI.md",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/41e1b813c06743f6f72a35538df71f83eef099ec/UI.md",
+      "httpStatus": 200,
+      "bytes": 69710,
+      "sha256": "75ea81c088be6e39d3b4e9bab2089edb771bd51a047794892d156f9aa50b4b78",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "MODERN-TRAVEL-EXPERIENCE.md",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/41e1b813c06743f6f72a35538df71f83eef099ec/MODERN-TRAVEL-EXPERIENCE.md",
+      "httpStatus": 200,
+      "bytes": 5159,
+      "sha256": "fa7770164f03cabbb26807009e06e9ba33166424676232578f39bc20c7bff719",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "src/App.tsx",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/41e1b813c06743f6f72a35538df71f83eef099ec/src/App.tsx",
+      "httpStatus": 200,
+      "bytes": 108200,
+      "sha256": "2dc2e11ffa82898df65a26d2434e24c9a7ca248cbcfcc9bb6a323bc9f565af49",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "src/PlannerHome.tsx",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/41e1b813c06743f6f72a35538df71f83eef099ec/src/PlannerHome.tsx",
+      "httpStatus": 200,
+      "bytes": 17753,
+      "sha256": "bea71017e3942bd786568efd546fe62129802503e76f08cbcf5dd132d6a27f35",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "src/AttachmentsPanel.tsx",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/41e1b813c06743f6f72a35538df71f83eef099ec/src/AttachmentsPanel.tsx",
+      "httpStatus": 200,
+      "bytes": 16815,
+      "sha256": "fcdaa4352d2cb0cd76429fdbb37f58f5e9da3354544e36fe96766591c54de9d4",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "src/TravelTools.tsx",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/41e1b813c06743f6f72a35538df71f83eef099ec/src/TravelTools.tsx",
+      "httpStatus": 200,
+      "bytes": 23852,
+      "sha256": "bc4758d3c6010ccd45e8e084bab7ae1240238611d1f9e4d6f4cbcd0c8d219373",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "src/QuickPlan.tsx",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/41e1b813c06743f6f72a35538df71f83eef099ec/src/QuickPlan.tsx",
+      "httpStatus": 200,
+      "bytes": 5652,
+      "sha256": "67deaa03f4d439962f382f9311e21989ad456abe83b4c6c27fbbe67df9c03c24",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "src/plan-paste.ts",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/41e1b813c06743f6f72a35538df71f83eef099ec/src/plan-paste.ts",
+      "httpStatus": 200,
+      "bytes": 3452,
+      "sha256": "ac691e813c28c2b925cf801fab92dc6e506c3e9bce862e25cee294bb11282644",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "src/BookingPaste.tsx",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/41e1b813c06743f6f72a35538df71f83eef099ec/src/BookingPaste.tsx",
+      "httpStatus": 200,
+      "bytes": 2077,
+      "sha256": "8910d46d417482fca1f49cb76eac019e9bf2c57fa5af89081b04f5070d0ddf0d",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "src/booking-paste.ts",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/41e1b813c06743f6f72a35538df71f83eef099ec/src/booking-paste.ts",
+      "httpStatus": 200,
+      "bytes": 3263,
+      "sha256": "b0a34466e7502dc2d9b1c95b326fe0a42d6cca8e2c6cff56be6cc6cfc169dc30",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "src/app-session.ts",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/41e1b813c06743f6f72a35538df71f83eef099ec/src/app-session.ts",
+      "httpStatus": 200,
+      "bytes": 7985,
+      "sha256": "5bae31f83f4911782b5788825b4218db17e522875bc2bcc8ff5d04551e551fde",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "src/modern-theme.css",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/41e1b813c06743f6f72a35538df71f83eef099ec/src/modern-theme.css",
+      "httpStatus": 200,
+      "bytes": 85503,
+      "sha256": "5cce0a20045f137286ac092814fa828c7f92f0910662fa99a9eca4e0484b768e",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "android/app/build.gradle",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/41e1b813c06743f6f72a35538df71f83eef099ec/android/app/build.gradle",
+      "httpStatus": 200,
+      "bytes": 3197,
+      "sha256": "307775e309498f964f245465c85b009622f96e021936ce178f919fc5f120f27e",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "playwright.config.ts",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/41e1b813c06743f6f72a35538df71f83eef099ec/playwright.config.ts",
+      "httpStatus": 200,
+      "bytes": 1353,
+      "sha256": "6cd5648254c61535f1f0d5e34b5ba66260242bb0d916449406086a7d918d1d84",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "tests/modern-experience.spec.ts",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/41e1b813c06743f6f72a35538df71f83eef099ec/tests/modern-experience.spec.ts",
+      "httpStatus": 200,
+      "bytes": 15884,
+      "sha256": "210f6369fd9d376a5373cbadfbdbe317f341e3b1ce072d78301261c12a0b26ba",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-12-modern-experience/README.md",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/41e1b813c06743f6f72a35538df71f83eef099ec/research/audits/2026-11-12-modern-experience/README.md",
+      "httpStatus": 200,
+      "bytes": 3373,
+      "sha256": "dc7e7a4d5f96955a4c2ebad8ddbcb7e99197cc8fdd2674c84c58cd8ecc467578",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-12-modern-experience/after-home.png",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/41e1b813c06743f6f72a35538df71f83eef099ec/research/audits/2026-11-12-modern-experience/after-home.png",
+      "httpStatus": 200,
+      "bytes": 54231,
+      "sha256": "58a2518e9e1fcb0ea13a0dad285f339cf94df981c79be8896eb317d690bf9169",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-12-modern-experience/after-schedule.png",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/41e1b813c06743f6f72a35538df71f83eef099ec/research/audits/2026-11-12-modern-experience/after-schedule.png",
+      "httpStatus": 200,
+      "bytes": 52046,
+      "sha256": "582e5f2f1c2515d40edcc8986d89b9c5aae35e8e559375b22e0762b9c88e0aba",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-12-modern-experience/after-reservations.png",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/41e1b813c06743f6f72a35538df71f83eef099ec/research/audits/2026-11-12-modern-experience/after-reservations.png",
+      "httpStatus": 200,
+      "bytes": 49206,
+      "sha256": "ed4a6f0495565ba3e332f7610b9f088f4d52d809a6faa167df45bfcc9ec51726",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-12-modern-experience/after-expenses.png",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/41e1b813c06743f6f72a35538df71f83eef099ec/research/audits/2026-11-12-modern-experience/after-expenses.png",
+      "httpStatus": 200,
+      "bytes": 36574,
+      "sha256": "6ba0d10d266da7ab5a118cd697c7493b0adf3f3256da402bb31df1779d84e670",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-12-modern-experience/quick-add.png",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/41e1b813c06743f6f72a35538df71f83eef099ec/research/audits/2026-11-12-modern-experience/quick-add.png",
+      "httpStatus": 200,
+      "bytes": 50618,
+      "sha256": "aafa72e72b43909342c92732383586da024ebde6f3ea8937b19135a05fe2778e",
+      "matchesBuildSource": true
+    }
+  ],
+  "publicVerifiedAt": "2026-11-12T05:48:14.224129+00:00"
 }

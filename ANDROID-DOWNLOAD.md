@@ -12,6 +12,8 @@
 
 기본 전체278개 통과 후 홈 여행 선택/링크 확인을 보강해 관련68개를 재통과했습니다. 새2개를 포함한 고유 통과 수는280개이며 중복 합산하지 않았습니다. Android빌드·기존 서명·최종 웹 자산19개가 일치합니다. 실제 Android설치·키보드/파일 선택·Google로그인/휴대폰 두 대 동기화는 미검증입니다. [기능과 변경 화면](MODERN-TRAVEL-EXPERIENCE.md), [실제 검증 기록](research/release-0.88-verification.json).
 
+공개 확인:고정APK와 최신 별칭2개를 인증 없이 내려받아 HTTP200·6,397,616bytes·SHA-256·기존 서명을 확인했습니다. 공개 소스·문서·화면25개 파일도 바이트와 해시가 일치했습니다.
+
 ## 0.87 이전 배포
 
 [J★Do 0.87 개발판 APK 다운로드](https://raw.githubusercontent.com/rjs198426-lang/JIdo/ad6aa290dd98ff28f395f9bed98e7725eea83347/JDo-android-0.87.apk)
