@@ -2493,3 +2493,24 @@ body {
 @media (max-width: 600px) {
   :root .trip-library-placeholder { width: 60px; height: 80px; }
 }
+
+/* 0.86 planning: collect first, assign a day when ready; clear task pages. */
+:root .trip-photo-toolbar { flex-wrap: wrap; }
+:root .trip-photo-toolbar > button { min-height: 50px; }
+:root .task-planning-return { display: inline-flex; min-height: 50px; margin-bottom: 10px; }
+:root .saved-places .input-search { margin: 0 0 12px; }
+:root .saved-places > .field { margin-top: 20px; }
+:root .saved-place-row { padding: 16px 0; border-bottom: 1px solid var(--line); }
+:root .saved-place-row h3 { margin: 5px 0; font-size: 17px; }
+:root .saved-place-row small { color: var(--muted); }
+:root .saved-place-row p { margin: 6px 0 12px; overflow-wrap: anywhere; }
+:root .saved-place-actions { display: flex; gap: 8px; align-items: center; margin-top: 12px; }
+:root .saved-place-actions .button { flex: 1; min-height: 50px; }
+:root .saved-place-actions .icon-button { width: 50px; height: 50px; }
+:root .saved-places-done { margin-top: 20px; min-height: 50px; }
+:root .saved-place-back { margin: 0 24px 20px; min-height: 50px; }
+:root .workspace-schedule > .trip-overview { order: 0; margin: 0 0 14px; }
+:root .trip-overview > summary { min-height: 50px; display: flex; align-items: center; gap: 9px; }
+:root .trip-overview .input-search { margin: 10px 0; }
+:root .overview-bookings { color: #087b70; }
+:root .reservation-search { margin: 15px 0; }

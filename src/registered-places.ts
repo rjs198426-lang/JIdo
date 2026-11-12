@@ -6,6 +6,7 @@ import {
   type Trip,
   type Destination,
   type CustomPlace,
+  type Stop,
 } from './travel-model'
 import { matchesSearch } from './search'
 
@@ -16,6 +17,11 @@ export function registeredPlaceKey(place: CustomPlace) {
   if (place.googlePlaceId) return `google:${place.googlePlaceId}`
   if (place.osmPlaceId) return `osm:${place.osmPlaceId}`
   return `manual:${normalized(place.name)}:${normalized(place.address)}`
+}
+export function stopMatchesCustom(stop: Stop, place: CustomPlace) {
+  return stop.custom
+    ? registeredPlaceKey(stop.custom) === registeredPlaceKey(place)
+    : !!place.catalogPlaceId && stop.placeId === place.catalogPlaceId
 }
 export type RegisteredPlace = {
   key: string
@@ -68,6 +74,7 @@ export function matchesRegisteredPlace(place: RegisteredPlace, query: string) {
     place.custom.name,
     place.custom.address,
     place.custom.kind,
+    place.description || '',
     place.destination.name,
     place.destination.country,
     /퍼시픽\s*아일랜드\s*클럽|pacific\s+islands?\s+club/i.test(

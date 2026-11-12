@@ -1,5 +1,19 @@
 # J★Do Android 다운로드
 
+[J★Do 0.86 개발판 APK 다운로드](https://raw.githubusercontent.com/rjs198426-lang/JIdo/9a3ff3f8ce2155e23dc6eb95f69e7ad4ed3d16d7/JDo-android-0.86.apk)
+
+- 앱: **J★Do** (`com.jido.travel.next`)
+- 버전:0.86 개발판 · versionCode87 · Android7.0 이상
+- 크기:6,390,388 bytes (약6.4MB)
+- SHA-256:`94fc5560bf2d2d0ce0c3cc1541d6e1722adbb3ef2ab9fb5f7c262bbafe01fff1`
+- 기존 인증서 SHA-256:`0d1b1f20dae73d00626d9ebb4f460943c4f16c2266bc7bc58d124d13b32494ac`
+
+기존 앱을 삭제하지 말고 업데이트로 설치하세요. 장소 보관함에서 날짜 미정 후보를 모은 뒤 원하는 날짜에 넣고, 상단에서 전체 일정을 검색하며, 항공편·호텔·예약 번호로 예약을 찾습니다. 예약·경비 전용 진입의 반복 메뉴를 줄이고 현지 시간대를 도시 이름으로 고릅니다. 기존 여행·사진·예약·경비·정산·첨부·백업·Drive 형식을 유지합니다.
+
+PC·모바일 고유252개, 최종 관련42개/22개 재검사와 Android 빌드·기존 서명·최종 웹 자산19개 일치를 확인했습니다. 실제 Android 설치·제조사 키보드/갤러리·Google 로그인·두 휴대폰 동기화는 미검증입니다. [비교·사용·보존 범위](TRAVEL-PLANNING-UPGRADE.md), [현재 화면과 검사](research/audits/2026-11-12-travel-planning/README.md), [배포 검증](research/release-0.86-verification.json).
+
+## 0.85 이전 배포
+
 [J★Do 0.85 개발판 APK 다운로드](https://raw.githubusercontent.com/rjs198426-lang/JIdo/ed1796630d246c49060f449b0e4e69a006ce444b/JDo-android-0.85.apk)
 
 - 앱: **J★Do** (`com.jido.travel.next`)

@@ -1,0 +1,19 @@
+{
+  "method": "Local isolated Intl formatter comparison, not app latency or battery measurement. No timing threshold asserted.",
+  "records": [
+    {
+      "project": "desktop",
+      "comparisons": 500,
+      "outputComparisonMs": 528.3512589999955,
+      "freshFormatterMs": 45.593008000003465,
+      "cachedFormatterMs": 3.626774000003934
+    },
+    {
+      "project": "mobile",
+      "comparisons": 500,
+      "outputComparisonMs": 532.0373980000004,
+      "freshFormatterMs": 22.901934000001347,
+      "cachedFormatterMs": 2.42981200000213
+    }
+  ]
+}

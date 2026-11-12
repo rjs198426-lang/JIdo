@@ -1,0 +1,35 @@
+{
+  "checkedAt": "2026-11-12",
+  "fullSuite": {
+    "passed": 252,
+    "failed": 0,
+    "durationMinutes": 7.2,
+    "projects": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "finalReservationRetest": {
+    "startTime": "2026-11-12T01:01:22.889Z",
+    "duration": 99348.189,
+    "expected": 42,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "finalLayoutAndPlanningRetest": {
+    "startTime": "2026-11-12T01:03:51.579Z",
+    "duration": 64720.087,
+    "expected": 22,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "browser": "Chromium /usr/bin/chromium",
+  "outsideServices": "Requests intercepted/blocked; no live Google or OAuth verification",
+  "privateDataUsed": false,
+  "assetFiles": 19,
+  "webBytes": 4397934,
+  "realAndroidInstallationTested": false,
+  "realTwoDeviceSyncTested": false
+}

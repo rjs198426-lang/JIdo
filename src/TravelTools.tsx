@@ -1,4 +1,5 @@
 import { flightTimingIssue } from './reservation-timing'
+import { matchesReservation } from './reservation-search'
 import ReservationDetails, {
   ReservationDetailsFields,
 } from './ReservationDetails'
@@ -32,6 +33,7 @@ export { default as Checklist } from './PreparationChecklist'
 export { default as Expenses } from './ExpenseManager'
 
 export function Reservations({ trip, onUpdate, day = 0 }: Props) {
+  const [query, setQuery] = useState('')
   const items = trip.reservations || []
   const blank = (kind: Reservation['kind'] = '숙소'): Reservation => ({
     id: crypto.randomUUID(),
@@ -121,6 +123,17 @@ export function Reservations({ trip, onUpdate, day = 0 }: Props) {
     setForm(null)
     setError('')
   }
+  const visible = items
+    .filter((item) => matchesReservation(item, query))
+    .filter(
+      (item) =>
+        filter === '전체' ||
+        (filter === '확인 필요' &&
+          (!item.status || item.status === 'pending')) ||
+        (filter === '확정' && item.status === 'confirmed') ||
+        (filter === '취소' && item.status === 'cancelled'),
+    )
+    .sort((a, b) => (a.date + a.time).localeCompare(b.date + b.time))
   return (
     <section className="workspace-panel">
       <div className="tool-heading">
@@ -185,6 +198,19 @@ export function Reservations({ trip, onUpdate, day = 0 }: Props) {
           건
         </span>
       </div>
+      {items.length > 0 && (
+        <label className="field reservation-search">
+          예약 검색
+          <input
+            type="search"
+            maxLength={200}
+            aria-label="예약 검색"
+            placeholder="항공편·호텔·예약 번호"
+            value={query}
+            onChange={(event) => setQuery(event.target.value)}
+          />
+        </label>
+      )}
       {message && <p role="status">{message}</p>}
       {form && (
         <form
@@ -411,224 +437,217 @@ export function Reservations({ trip, onUpdate, day = 0 }: Props) {
           </p>
         </div>
       )}
+      {items.length > 0 && visible.length === 0 && (
+        <p className="workspace-empty" role="status">
+          일치하는 예약이 없어요. 검색어나 예약 상태를 바꿔 보세요.
+        </p>
+      )}
       <div className="reservation-list">
-        {[...items]
-          .filter(
-            (item) =>
-              filter === '전체' ||
-              (filter === '확인 필요' &&
-                (!item.status || item.status === 'pending')) ||
-              (filter === '확정' && item.status === 'confirmed') ||
-              (filter === '취소' && item.status === 'cancelled'),
-          )
-          .sort((a, b) => (a.date + a.time).localeCompare(b.date + b.time))
-          .map((item) => (
-            <article key={item.id} data-reservation-id={item.id} tabIndex={-1}>
-              <div className="reservation-date">
-                <span>{item.kind}</span>
-                <strong>{formatDate(item.date)}</strong>
-                <span>{item.time || '시간 미정'}</span>
-              </div>
-              <div className="reservation-copy">
-                <h4>{item.title}</h4>
-                <ReservationDetails item={item} />
-                <AttachmentsPanel reservationId={item.id} />
-                <select
-                  className="reservation-status"
-                  aria-label={`${item.title} 예약 상태`}
-                  value={item.status || 'pending'}
-                  onChange={(event) =>
-                    onUpdate(
-                      syncReservation(trip, item, {
-                        ...item,
-                        status: event.target.value as Reservation['status'],
-                      }),
-                    )
-                  }
-                >
-                  <option value="pending">확인 필요</option>
-                  <option value="confirmed">확정</option>
-                  <option value="cancelled">취소</option>
-                </select>
-                {item.endDate && <p>이용 종료 {formatDate(item.endDate)}</p>}
-                {item.cost !== undefined && item.currency && (
-                  <p className="reservation-cost">
-                    예약 비용 {money(item.cost, item.currency)}
-                  </p>
-                )}
-                {item.reference && (
-                  <p>
-                    예약 번호 <strong>{item.reference}</strong>
-                  </p>
-                )}
-                {item.address && <p>{item.address}</p>}
-                {item.note && <p className="reservation-note">{item.note}</p>}
-                {item.link && (
-                  <a target="_blank" rel="noopener noreferrer" href={item.link}>
-                    예약 확인 <ExternalLink size={14} />
-                  </a>
-                )}
-                {item.reference && (
-                  <button
-                    className="text-button"
-                    aria-label={`${item.title} 예약 번호 복사`}
-                    onClick={async () => {
-                      try {
-                        await navigator.clipboard.writeText(item.reference)
-                        setMessage('예약 번호를 복사했어요.')
-                      } catch {
-                        setMessage(`예약 번호: ${item.reference}`)
-                      }
-                    }}
-                  >
-                    예약 번호 복사
-                  </button>
-                )}
-                {item.cost !== undefined && item.currency && (
-                  <button
-                    className="text-button"
-                    aria-label={`${item.title} 지출로 기록`}
-                    disabled={(trip.expenses || []).some(
-                      (expense) => expense.reservationId === item.id,
-                    )}
-                    onClick={() => {
-                      if (
-                        (trip.expenses || []).some(
-                          (expense) => expense.reservationId === item.id,
-                        )
-                      )
-                        return
-                      if (
-                        onUpdate({
-                          ...trip,
-                          expenses: [
-                            ...(trip.expenses || []),
-                            {
-                              id: crypto.randomUUID(),
-                              title: item.title,
-                              amount: item.cost!,
-                              currency: item.currency!,
-                              date: item.paymentDate || item.date,
-                              category:
-                                item.kind === '숙소'
-                                  ? '숙박'
-                                  : item.kind === '항공' || item.kind === '교통'
-                                    ? '교통'
-                                    : item.kind === '체험'
-                                      ? '관광'
-                                      : '기타',
-                              payer: '',
-                              reservationId: item.id,
-                              direction: 'expense',
-                            },
-                          ],
-                        }) === false
-                      )
-                        return
-                      setMessage('가계부에 예약 비용을 기록했어요.')
-                    }}
-                  >
-                    지출로 기록
-                  </button>
-                )}
-                <details className="reservation-schedule-setting simple-options">
-                  <summary>일정에 반영 설정</summary>{' '}
-                  <button
-                    className="text-button reservation-to-stop"
-                    aria-label={`${item.title} 일정에 복사`}
-                    disabled={
-                      item.status === 'cancelled' ||
-                      item.date < trip.startDate ||
-                      item.date > trip.endDate ||
-                      trip.days
-                        .flat()
-                        .some((stop) => stop.reservationId === item.id)
-                    }
-                    onClick={() => {
-                      const day = dayCount(trip.startDate, item.date) - 1
-                      if (
-                        !trip.days[day] ||
-                        trip.days
-                          .flat()
-                          .some((stop) => stop.reservationId === item.id)
-                      )
-                        return
-                      if (
-                        onUpdate({
-                          ...trip,
-                          days: trip.days.map((stops, index) =>
-                            index === day
-                              ? [
-                                  ...stops,
-                                  {
-                                    id: crypto.randomUUID(),
-                                    placeId: `custom-${crypto.randomUUID()}`,
-                                    reservationId: item.id,
-                                    time: item.time,
-                                    note: reservationNote(item),
-                                    custom: {
-                                      name: item.title,
-                                      kind: reservationPlaceKind(item.kind),
-                                      address: item.address,
-                                      link: item.link,
-                                      destinationId: destinationForDay(
-                                        trip,
-                                        day,
-                                      ).id,
-                                    },
-                                  },
-                                ]
-                              : stops,
-                          ),
-                        }) === false
-                      )
-                        return
-                    }}
-                  >
-                    {trip.days
-                      .flat()
-                      .some((stop) => stop.reservationId === item.id)
-                      ? '일정에 반영됨'
-                      : item.date < trip.startDate || item.date > trip.endDate
-                        ? '여행 기간 밖의 예약'
-                        : '이 날짜의 일정에 반영'}{' '}
-                    <Plus size={14} />
-                  </button>
-                </details>
-              </div>
-              <div className="row-actions">
+        {visible.map((item) => (
+          <article key={item.id} data-reservation-id={item.id} tabIndex={-1}>
+            <div className="reservation-date">
+              <span>{item.kind}</span>
+              <strong>{formatDate(item.date)}</strong>
+              <span>{item.time || '시간 미정'}</span>
+            </div>
+            <div className="reservation-copy">
+              <h4>{item.title}</h4>
+              <ReservationDetails item={item} />
+              <AttachmentsPanel reservationId={item.id} />
+              <select
+                className="reservation-status"
+                aria-label={`${item.title} 예약 상태`}
+                value={item.status || 'pending'}
+                onChange={(event) =>
+                  onUpdate(
+                    syncReservation(trip, item, {
+                      ...item,
+                      status: event.target.value as Reservation['status'],
+                    }),
+                  )
+                }
+              >
+                <option value="pending">확인 필요</option>
+                <option value="confirmed">확정</option>
+                <option value="cancelled">취소</option>
+              </select>
+              {item.endDate && <p>이용 종료 {formatDate(item.endDate)}</p>}
+              {item.cost !== undefined && item.currency && (
+                <p className="reservation-cost">
+                  예약 비용 {money(item.cost, item.currency)}
+                </p>
+              )}
+              {item.reference && (
+                <p>
+                  예약 번호 <strong>{item.reference}</strong>
+                </p>
+              )}
+              {item.address && <p>{item.address}</p>}
+              {item.note && <p className="reservation-note">{item.note}</p>}
+              {item.link && (
+                <a target="_blank" rel="noopener noreferrer" href={item.link}>
+                  예약 확인 <ExternalLink size={14} />
+                </a>
+              )}
+              {item.reference && (
                 <button
-                  className="icon-button"
-                  aria-label={`${item.title} 예약 수정`}
-                  onClick={() => {
-                    setForm(item)
-                    setError('')
+                  className="text-button"
+                  aria-label={`${item.title} 예약 번호 복사`}
+                  onClick={async () => {
+                    try {
+                      await navigator.clipboard.writeText(item.reference)
+                      setMessage('예약 번호를 복사했어요.')
+                    } catch {
+                      setMessage(`예약 번호: ${item.reference}`)
+                    }
                   }}
                 >
-                  <Pencil size={17} />
+                  예약 번호 복사
                 </button>
+              )}
+              {item.cost !== undefined && item.currency && (
                 <button
-                  className="icon-button"
-                  aria-label={`${item.title} 예약 삭제`}
+                  className="text-button"
+                  aria-label={`${item.title} 지출로 기록`}
+                  disabled={(trip.expenses || []).some(
+                    (expense) => expense.reservationId === item.id,
+                  )}
                   onClick={() => {
+                    if (
+                      (trip.expenses || []).some(
+                        (expense) => expense.reservationId === item.id,
+                      )
+                    )
+                      return
                     if (
                       onUpdate({
                         ...trip,
-                        reservations: items.filter(
-                          (current) => current.id !== item.id,
+                        expenses: [
+                          ...(trip.expenses || []),
+                          {
+                            id: crypto.randomUUID(),
+                            title: item.title,
+                            amount: item.cost!,
+                            currency: item.currency!,
+                            date: item.paymentDate || item.date,
+                            category:
+                              item.kind === '숙소'
+                                ? '숙박'
+                                : item.kind === '항공' || item.kind === '교통'
+                                  ? '교통'
+                                  : item.kind === '체험'
+                                    ? '관광'
+                                    : '기타',
+                            payer: '',
+                            reservationId: item.id,
+                            direction: 'expense',
+                          },
+                        ],
+                      }) === false
+                    )
+                      return
+                    setMessage('가계부에 예약 비용을 기록했어요.')
+                  }}
+                >
+                  지출로 기록
+                </button>
+              )}
+              <details className="reservation-schedule-setting simple-options">
+                <summary>일정에 반영 설정</summary>{' '}
+                <button
+                  className="text-button reservation-to-stop"
+                  aria-label={`${item.title} 일정에 복사`}
+                  disabled={
+                    item.status === 'cancelled' ||
+                    item.date < trip.startDate ||
+                    item.date > trip.endDate ||
+                    trip.days
+                      .flat()
+                      .some((stop) => stop.reservationId === item.id)
+                  }
+                  onClick={() => {
+                    const day = dayCount(trip.startDate, item.date) - 1
+                    if (
+                      !trip.days[day] ||
+                      trip.days
+                        .flat()
+                        .some((stop) => stop.reservationId === item.id)
+                    )
+                      return
+                    if (
+                      onUpdate({
+                        ...trip,
+                        days: trip.days.map((stops, index) =>
+                          index === day
+                            ? [
+                                ...stops,
+                                {
+                                  id: crypto.randomUUID(),
+                                  placeId: `custom-${crypto.randomUUID()}`,
+                                  reservationId: item.id,
+                                  time: item.time,
+                                  note: reservationNote(item),
+                                  custom: {
+                                    name: item.title,
+                                    kind: reservationPlaceKind(item.kind),
+                                    address: item.address,
+                                    link: item.link,
+                                    destinationId: destinationForDay(trip, day)
+                                      .id,
+                                  },
+                                },
+                              ]
+                            : stops,
                         ),
                       }) === false
                     )
                       return
-                    setRemoved(item)
-                    if (form?.id === item.id) setForm(null)
                   }}
                 >
-                  <Trash2 size={17} />
+                  {trip.days
+                    .flat()
+                    .some((stop) => stop.reservationId === item.id)
+                    ? '일정에 반영됨'
+                    : item.date < trip.startDate || item.date > trip.endDate
+                      ? '여행 기간 밖의 예약'
+                      : '이 날짜의 일정에 반영'}{' '}
+                  <Plus size={14} />
                 </button>
-              </div>
-            </article>
-          ))}
+              </details>
+            </div>
+            <div className="row-actions">
+              <button
+                className="icon-button"
+                aria-label={`${item.title} 예약 수정`}
+                onClick={() => {
+                  setForm(item)
+                  setError('')
+                }}
+              >
+                <Pencil size={17} />
+              </button>
+              <button
+                className="icon-button"
+                aria-label={`${item.title} 예약 삭제`}
+                onClick={() => {
+                  if (
+                    onUpdate({
+                      ...trip,
+                      reservations: items.filter(
+                        (current) => current.id !== item.id,
+                      ),
+                    }) === false
+                  )
+                    return
+                  setRemoved(item)
+                  if (form?.id === item.id) setForm(null)
+                }}
+              >
+                <Trash2 size={17} />
+              </button>
+            </div>
+          </article>
+        ))}
       </div>
       {removed && (
         <div className="undo-strip" role="status">

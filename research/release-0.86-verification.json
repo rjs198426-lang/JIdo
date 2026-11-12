@@ -1,0 +1,29 @@
+{
+  "version": "0.86",
+  "versionCode": 87,
+  "package": "com.jido.travel.next",
+  "bytes": 6390388,
+  "sha256": "94fc5560bf2d2d0ce0c3cc1541d6e1722adbb3ef2ab9fb5f7c262bbafe01fff1",
+  "certificateSha256": "0d1b1f20dae73d00626d9ebb4f460943c4f16c2266bc7bc58d124d13b32494ac",
+  "signatureVerified": true,
+  "matchedWebAssets": 19,
+  "privateSigningFilesFound": false,
+  "existingMapsConfigurationBundled": true,
+  "nativeDeviceInstallTested": false,
+  "checkedAt": "2026-11-12T01:06:36.199293+00:00",
+  "sourceBaseCommit": "52798423d561827e42fb0455efa26d3bc44abfd6",
+  "scope": "Personal saved places, searchable trip overview and reservations, focused booking/finance entry, friendly time zones and bounded local rendering/format caches; preserve existing travel, photo, backup and sync formats",
+  "browserTestsPassed": 252,
+  "realGoogleLoginTested": false,
+  "realTwoDeviceSyncTested": false,
+  "publicCommit": "9a3ff3f8ce2155e23dc6eb95f69e7ad4ed3d16d7",
+  "browserRetests": {
+    "reservationAndPlanning": 42,
+    "finalLayoutAndPlanning": 22,
+    "overlapNotAddedToUniqueCount": true
+  },
+  "webBytes": 4397934,
+  "stockPhotosBundled": 0,
+  "guideResearchFilesBundled": 0,
+  "androidBuildSeconds": 47
+}

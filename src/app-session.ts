@@ -23,6 +23,7 @@ const dialogSchema = z.discriminatedUnion('type', [
   z.object({ type: z.literal('recovery') }),
   z.object({ type: z.literal('guidebooks') }),
   z.object({ type: z.literal('backup') }),
+  z.object({ type: z.literal('place-library'), tripId: text, day }),
   z.object({
     type: z.literal('city'),
     id: text,
@@ -58,6 +59,7 @@ const schema = z.object({
   version: z.literal(1),
   page: z.enum(['home', 'trips', 'explore', 'settings']),
   tripLibrary: z.boolean(),
+  workspaceEntry: z.enum(['trip', 'reservations', 'expenses']).optional(),
   activeTripId: text,
   day,
   query: text,

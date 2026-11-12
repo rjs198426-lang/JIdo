@@ -1,6 +1,8 @@
-import { useState } from 'react'
+import { useMemo, useState } from 'react'
 import { CalendarDays, Search, ChevronRight, ChevronDown } from 'lucide-react'
 import { destinationForDay, stopDetails, type Trip } from './travel-model'
+import { reservationsForDay } from './field-reservations'
+import { cancelledReservation } from './journey-progress'
 import { dateAt, formatDate } from './store'
 export default function TripOverview({
   trip,
@@ -9,47 +11,81 @@ export default function TripOverview({
   trip: Trip
   onDay: (day: number) => void
 }) {
-  const [query, setQuery] = useState('')
-  const needle = query.trim().toLocaleLowerCase()
-  const days = trip.days
-    .map((stops, index) => ({
-      stops,
-      index,
-      city: destinationForDay(trip, index).name,
-    }))
-    .filter(
-      ({ stops, city, index }) =>
-        !needle ||
-        `${city} DAY ${index + 1} ${dateAt(trip.startDate, index)}`
-          .toLocaleLowerCase()
-          .includes(needle) ||
-        stops.some((stop) =>
-          `${stopDetails(stop).name} ${stop.note} ${stopDetails(stop).address}`
-            .toLocaleLowerCase()
-            .includes(needle),
-        ),
-    )
+  const [open, setOpen] = useState(false)
   return (
-    <details className="trip-overview">
+    <details
+      className="trip-overview"
+      onToggle={(event) => setOpen(event.currentTarget.open)}
+    >
       <summary>
         <CalendarDays size={17} />
         전체 일정{' '}
         <span>
-          {trip.days.length}일 · {trip.days.flat().length}곳
+          {trip.days.length}일 ·{' '}
+          {trip.days.reduce((total, day) => total + day.length, 0)}곳
         </span>
         <ChevronDown size={16} aria-hidden="true" />
       </summary>
+      {open && <OverviewDays trip={trip} onDay={onDay} />}
+    </details>
+  )
+}
+function OverviewDays({
+  trip,
+  onDay,
+}: {
+  trip: Trip
+  onDay: (day: number) => void
+}) {
+  const [query, setQuery] = useState('')
+  const days = useMemo(
+    () =>
+      trip.days.map((stops, index) => {
+        const reservations = reservationsForDay(trip, index)
+        return {
+          stops,
+          index,
+          reservations,
+          city: destinationForDay(trip, index).name,
+          untimed: stops.filter(
+            (stop) =>
+              !stop.time &&
+              stop.status !== 'skipped' &&
+              stop.status !== 'done' &&
+              !cancelledReservation(trip, stop),
+          ).length,
+          search: [
+            dateAt(trip.startDate, index),
+            `DAY ${index + 1}`,
+            destinationForDay(trip, index).name,
+            ...stops.flatMap((stop) => [
+              stopDetails(stop).name,
+              stop.note,
+              stopDetails(stop).address,
+            ]),
+            ...reservations.map((item) => item.title),
+          ]
+            .join(' ')
+            .toLocaleLowerCase(),
+        }
+      }),
+    [trip],
+  )
+  const needle = query.trim().toLocaleLowerCase()
+  const filtered = days.filter((day) => !needle || day.search.includes(needle))
+  return (
+    <>
       <label className="input-search">
         <Search size={16} />
         <input
           aria-label="여행 전체 일정 검색"
-          placeholder="장소·도시·메모 검색"
+          placeholder="날짜·장소·예약·메모 검색"
           value={query}
-          onChange={(event) => setQuery(event.target.value)}
+          onChange={(e) => setQuery(e.target.value)}
         />
       </label>
       <div className="trip-overview-days">
-        {days.map(({ stops, index, city }) => (
+        {filtered.map(({ stops, index, city, reservations, untimed }) => (
           <button
             key={index}
             type="button"
@@ -61,34 +97,32 @@ export default function TripOverview({
                 DAY {index + 1} · {city}
               </strong>
               <small>
-                {formatDate(dateAt(trip.startDate, index))} · {stops.length}곳 ·{' '}
-                {stops.filter((stop) => stop.status === 'done').length}곳 완료
+                {formatDate(dateAt(trip.startDate, index), true)} ·{' '}
+                {stops.length}곳{untimed > 0 && ` · 시간 미정 ${untimed}곳`}
               </small>
               <span>
                 {stops.length
                   ? stops
-                      .filter(
-                        (stop) =>
-                          !needle ||
-                          `${stopDetails(stop).name} ${stop.note}`
-                            .toLocaleLowerCase()
-                            .includes(needle),
-                      )
-                      .slice(0, 3)
-                      .map((stop) => stopDetails(stop).name)
-                      .join(' · ') ||
-                    stops
                       .slice(0, 3)
                       .map((stop) => stopDetails(stop).name)
                       .join(' · ')
-                  : '장소 추가하기'}
+                  : '아직 정한 일정 없음 · 장소 추가하기'}
               </span>
+              {reservations.length > 0 && (
+                <small className="overview-bookings">
+                  예약 {reservations.length}건 ·{' '}
+                  {reservations
+                    .slice(0, 2)
+                    .map((item) => item.title)
+                    .join(' · ')}
+                </small>
+              )}
             </span>
             <ChevronRight size={16} />
           </button>
         ))}
       </div>
-      {!days.length && <p role="status">일치하는 일정이 없어요.</p>}
-    </details>
+      {!filtered.length && <p role="status">일치하는 일정이 없어요.</p>}
+    </>
   )
 }

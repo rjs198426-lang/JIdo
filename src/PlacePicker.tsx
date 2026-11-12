@@ -10,6 +10,7 @@ import {
   sameDestination,
   matchesRegisteredPlace,
   registeredPlaceKey,
+  stopMatchesCustom,
 } from './registered-places'
 import { destinationForDay, type CustomPlace, type Trip } from './travel-model'
 import { dateAt, formatDate } from './store'
@@ -21,6 +22,7 @@ export default function PlacePicker({
   onCustom,
   onReuse,
   onDone,
+  onLibrary,
 }: {
   trip: Trip
   trips: Trip[]
@@ -28,6 +30,7 @@ export default function PlacePicker({
   onCustom: (name: string) => void
   onReuse: (place: CustomPlace) => void
   onDone: () => void
+  onLibrary?: () => void
   onAdd?: (id: string) => void
   onOpen?: (id: string) => void
 }) {
@@ -118,14 +121,18 @@ export default function PlacePicker({
       />
       <PlaceSearchService search={remote} />
       <section className="picker-list" aria-label="내가 등록한 장소">
-        <h3>내가 등록한 장소</h3>
+        <div className="tool-heading">
+          <h3>내가 등록한 장소</h3>
+          {onLibrary && (
+            <button className="text-button" onClick={onLibrary}>
+              장소 보관함
+            </button>
+          )}
+        </div>
         {saved.length ? (
           saved.map((entry) => {
-            const exists = trip.days[day].some(
-              (stop) =>
-                stop.custom &&
-                registeredPlaceKey(stop.custom) ===
-                  registeredPlaceKey(entry.custom),
+            const exists = trip.days[day].some((stop) =>
+              stopMatchesCustom(stop, entry.custom),
             )
             return (
               <div className="picker-item" key={entry.key}>

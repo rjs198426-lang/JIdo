@@ -1,3 +1,4 @@
+import TimeZoneField, { timeZoneName } from './TimeZoneField'
 import type { Reservation } from './travel-model'
 import { formatDate } from './store'
 export default function ReservationDetails({ item }: { item: Reservation }) {
@@ -21,7 +22,7 @@ export default function ReservationDetails({ item }: { item: Reservation }) {
               <strong>
                 {formatDate(item.date)} {item.time || '시간 미정'}
               </strong>
-              <small>{flight.departureTimeZone || '시간대 미설정'}</small>
+              <small>{timeZoneName(flight.departureTimeZone)}</small>
             </p>
             <p>
               <span>도착</span>
@@ -31,7 +32,7 @@ export default function ReservationDetails({ item }: { item: Reservation }) {
                   : '날짜 미정'}{' '}
                 {flight.arrivalTime || '시간 미정'}
               </strong>
-              <small>{flight.arrivalTimeZone || '시간대 미설정'}</small>
+              <small>{timeZoneName(flight.arrivalTimeZone)}</small>
             </p>
           </div>
           {flight.terminal && <p>터미널 {flight.terminal}</p>}
@@ -98,30 +99,36 @@ export function ReservationDetailsFields({
       : ['checkoutTime', 'contact']
   const renderFields = (all: typeof fields) => (
     <div className="reservation-specific-grid">
-      {all.map(([field, label, type, max]) => (
-        <label className="field" key={field}>
-          {label}
-          <input
-            type={String(type)}
-            maxLength={Number(max)}
+      {all.map(([field, label, type, max]) =>
+        String(field).includes('TimeZone') ? (
+          <TimeZoneField
+            key={field}
+            label={String(label)}
             value={String((data as Record<string, unknown>)[field] || '')}
-            list={
-              String(field).includes('TimeZone')
-                ? 'reservation-time-zones'
-                : undefined
-            }
-            placeholder={
-              String(field).includes('TimeZone') ? '예: Asia/Seoul' : undefined
-            }
-            onChange={(event) =>
+            onChange={(zone) =>
               onChange({
                 ...value,
-                [key]: { ...data, [field]: event.target.value || undefined },
+                [key]: { ...data, [field]: zone || undefined },
               })
             }
           />
-        </label>
-      ))}
+        ) : (
+          <label className="field" key={field}>
+            {label}
+            <input
+              type={String(type)}
+              maxLength={Number(max)}
+              value={String((data as Record<string, unknown>)[field] || '')}
+              onChange={(event) =>
+                onChange({
+                  ...value,
+                  [key]: { ...data, [field]: event.target.value || undefined },
+                })
+              }
+            />
+          </label>
+        ),
+      )}
     </div>
   )
   return (
@@ -145,24 +152,6 @@ export function ReservationDetailsFields({
           fields.filter(([field]) => !primary.includes(String(field))),
         )}
       </details>
-      <datalist id="reservation-time-zones">
-        {[
-          'Asia/Seoul',
-          'Asia/Tokyo',
-          'Asia/Bangkok',
-          'Asia/Singapore',
-          'Pacific/Guam',
-          'Pacific/Saipan',
-          'Europe/Paris',
-          'Europe/London',
-          'America/New_York',
-          'America/Los_Angeles',
-          'Pacific/Honolulu',
-          'Australia/Sydney',
-        ].map((zone) => (
-          <option key={zone}>{zone}</option>
-        ))}
-      </datalist>
     </section>
   )
 }

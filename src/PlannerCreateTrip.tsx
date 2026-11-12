@@ -1,4 +1,5 @@
-import { useState, type FormEvent } from 'react'
+import TimeZoneField from './TimeZoneField'
+import { useState, useRef, type FormEvent } from 'react'
 import { ArrowRight } from 'lucide-react'
 import { cities } from './catalog'
 import { useDraftFields } from './form-draft'
@@ -33,6 +34,7 @@ export default function PlannerCreateTrip({
     [travelers, setTravelers] = draft.field('travelers'),
     [timeZone, setTimeZone] = draft.field('timeZone')
   const [error, setError] = useState('')
+  const automaticCountry = useRef<string | undefined>(undefined)
   function submit(event: FormEvent) {
     event.preventDefault()
     setError('')
@@ -110,11 +112,17 @@ export default function PlannerCreateTrip({
             placeholder="예: 괌, 파리"
             onChange={(e) => {
               setName(e.target.value)
-              const city = cities.find((c) => c.name === e.target.value)
+              const matches = cities.filter((c) => c.name === e.target.value)
+              const city = matches.length === 1 ? matches[0] : undefined
               if (city) {
                 setCountry(city.country)
+                automaticCountry.current = city.country
                 setTimeZone(city.timeZone || '')
-              } else setTimeZone('')
+              } else {
+                if (automaticCountry.current === country) setCountry('')
+                automaticCountry.current = undefined
+                setTimeZone('')
+              }
             }}
           />
         </label>
@@ -127,6 +135,7 @@ export default function PlannerCreateTrip({
             placeholder="예: 미국령 괌"
             onChange={(e) => {
               setCountry(e.target.value)
+              automaticCountry.current = undefined
               setTimeZone('')
             }}
           />
@@ -189,36 +198,11 @@ export default function PlannerCreateTrip({
           />
         </label>
         <CompanionCount travelers={travelers} onChange={setTravelers} />
-        <label className="field">
-          현지 시간대
-          <input
-            list="planner-timezones"
-            maxLength={80}
-            value={timeZone}
-            placeholder="예: Pacific/Guam"
-            onChange={(e) => setTimeZone(e.target.value)}
-          />
-        </label>
-        <datalist id="planner-timezones">
-          {[
-            'Asia/Seoul',
-            'Asia/Tokyo',
-            'Asia/Taipei',
-            'Asia/Bangkok',
-            'Asia/Singapore',
-            'Asia/Manila',
-            'Pacific/Guam',
-            'Pacific/Saipan',
-            'Europe/Paris',
-            'Europe/London',
-            'America/New_York',
-            'America/Los_Angeles',
-            'Pacific/Honolulu',
-            'Australia/Sydney',
-          ].map((zone) => (
-            <option key={zone}>{zone}</option>
-          ))}
-        </datalist>
+        <TimeZoneField
+          label="현지 시간대"
+          value={timeZone}
+          onChange={setTimeZone}
+        />
         <p className="muted">
           여행지의 날짜와 이동시간 계산에 사용해요. 여행의 도시 관리에서도
           변경할 수 있어요.

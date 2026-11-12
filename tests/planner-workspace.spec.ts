@@ -204,10 +204,12 @@ test('structured flight information is stored and restored without automatically
   await form.getByLabel('도착 날짜', { exact: true }).fill('2026-12-23')
   await form.getByLabel('도착 시간', { exact: true }).fill('02:00')
   await form.getByText('시간대·좌석·수하물', { exact: false }).click()
-  await form.getByLabel('출발 공항 시간대', { exact: true }).fill('Asia/Seoul')
+  await form
+    .getByLabel('출발 공항 시간대', { exact: true })
+    .selectOption('Asia/Seoul')
   await form
     .getByLabel('도착 공항 시간대', { exact: true })
-    .fill('Pacific/Guam')
+    .selectOption('Pacific/Guam')
   await form.getByLabel('좌석', { exact: true }).fill('12A')
   await form
     .getByRole('button', { name: '예약 정보 저장', exact: true })

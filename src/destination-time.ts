@@ -47,6 +47,27 @@ export function validTimeZone(zone: string) {
     return false
   }
 }
+const clockFormats = new Map<string, Intl.DateTimeFormat>()
+function clockFormat(zone?: string) {
+  const cached = zone ? clockFormats.get(zone) : undefined
+  if (cached) return cached
+  const format = new Intl.DateTimeFormat('en-CA', {
+    ...(zone ? { timeZone: zone } : {}),
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+    hour: '2-digit',
+    minute: '2-digit',
+    hourCycle: 'h23',
+  })
+  // Don't cache the implicit device zone: it can change while travelling.
+  if (zone) {
+    if (clockFormats.size >= 64)
+      clockFormats.delete(clockFormats.keys().next().value!)
+    clockFormats.set(zone, format)
+  }
+  return format
+}
 export function destinationTimeZone(destination: Destination) {
   return (
     destination.timeZone ||
@@ -56,15 +77,7 @@ export function destinationTimeZone(destination: Destination) {
   )
 }
 export function localClock(now: Date, zone?: string) {
-  const parts = new Intl.DateTimeFormat('en-CA', {
-    ...(zone ? { timeZone: zone } : {}),
-    year: 'numeric',
-    month: '2-digit',
-    day: '2-digit',
-    hour: '2-digit',
-    minute: '2-digit',
-    hourCycle: 'h23',
-  }).formatToParts(now)
+  const parts = clockFormat(zone).formatToParts(now)
   const part = (name: string) => parts.find((p) => p.type === name)?.value || ''
   return {
     date: `${part('year')}-${part('month')}-${part('day')}`,

@@ -1,0 +1,50 @@
+{
+  "checkedAt": "2026-11-12",
+  "method": "Read official public pages; inspect current JDo source and exercise synthetic trips in desktop/mobile Chromium. Competitor native apps were not installed or tested.",
+  "sources": [
+    {
+      "app": "Wanderlog",
+      "url": "https://help.wanderlog.com/hc/en-us/sections/5159360260507--Places-and-lists",
+      "publishedAt": null,
+      "updatedAt": null,
+      "observed": "Place lists, moving/deleting saved places and directions are documented.",
+      "judgment": "Make existing personal-place storage usable without assigning an itinerary day.",
+      "implemented": "SavedPlaces access, local search, save/edit/delete, explicit insertion into selected day"
+    },
+    {
+      "app": "Wanderlog",
+      "url": "https://help.wanderlog.com/hc/en-us/sections/5154228681883--Daily-itinerary",
+      "publishedAt": null,
+      "updatedAt": null,
+      "observed": "Daily schedules, place times, route time/distance, directions and compact view are documented.",
+      "judgment": "Expose the existing full-trip overview before date selection, preserving untimed planning and real route behavior.",
+      "implemented": "Relocated lazy overview, local itinerary search, separate reservations and untimed counts"
+    },
+    {
+      "app": "TripIt",
+      "url": "https://www.tripit.com/web/free/trip-planner",
+      "publishedAt": null,
+      "updatedAt": null,
+      "observed": "Reservation consolidation, inbox sync, sharing, offline access and map/navigation are described by the vendor.",
+      "judgment": "Prioritize finding locally stored booking details; avoid broad new email permissions and invented live flight data.",
+      "implemented": "Local reservation search by flight, airports, hotel, reference, dates and notes",
+      "notImplemented": "Email ingestion and live flight monitoring"
+    },
+    {
+      "app": "Tripsy",
+      "url": "https://tripsy.help/article/100-trip-overview",
+      "publishedAt": null,
+      "updatedAt": "2026-06-27",
+      "observed": "Trip shortcuts, next activity, date-appropriate itinerary, expenses/documents and latest undated activities are described.",
+      "judgment": "Keep explicit reservation and finance entry focused rather than repeating every planning control.",
+      "implemented": "Focused bottom-nav task pages with planning return; preserve selected trip/day and restart mode",
+      "notImplemented": "Competitor widget customization or iOS development"
+    }
+  ],
+  "limits": [
+    "Reading date is not publication date or independent validation of all vendor claims.",
+    "No paid feature, pricing or ranking comparison was made.",
+    "No competitor photos, screenshots, logos, text or code were copied into the app.",
+    "Examples and screenshots use synthetic travel records only."
+  ]
+}

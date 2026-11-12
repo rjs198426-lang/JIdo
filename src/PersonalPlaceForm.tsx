@@ -12,11 +12,7 @@ import PlaceSearchResults, {
   usePlaceSearch,
 } from './PlaceSearch'
 import { useDraftFields } from './form-draft'
-import { places } from './catalog'
 import { sameDestination, matchesRegisteredPlace } from './registered-places'
-import { matchesSearch } from './search'
-import { placeCoordinates, placeMapQuery } from './place-location'
-import { mapsSearch } from './google-maps'
 
 export default function PersonalPlaceForm({
   entry,
@@ -92,26 +88,7 @@ export default function PersonalPlaceForm({
         sameDestination(item.destination, destination) &&
         matchesRegisteredPlace(item, name),
     )
-    const catalog = ([] as typeof places)
-      .filter(
-        (place) =>
-          place.cityId === destination.guideCityId &&
-          matchesSearch(name, place.name, place.english, place.address),
-      )
-      .map((place) => ({
-        key: `catalog:${place.id}`,
-        destination,
-        custom: {
-          name: place.name,
-          kind: place.category,
-          address: place.address,
-          link: mapsSearch(placeMapQuery(place)),
-          destinationId: destination.id,
-          catalogPlaceId: place.id,
-          coordinates: placeCoordinates(place),
-        },
-      }))
-    const found = [...own, ...catalog].slice(0, 20)
+    const found = own.slice(0, 20)
     setLocalResults(found)
     remote.reset()
     if (!found.length) void remote.search(name.trim(), destination)

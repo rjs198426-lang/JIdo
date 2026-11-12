@@ -36,6 +36,7 @@ import {
   useContext,
   useEffect,
   useId,
+  useMemo,
   useRef,
   useState,
   type ContextType,
@@ -58,6 +59,8 @@ import PersonalPlaceForm from './PersonalPlaceForm'
 import { PlaceLibraryContext } from './PlaceLibraryContext'
 import PlacePhoto from './PlacePhoto'
 import PlacePicker from './PlacePicker'
+import SavedPlaces from './SavedPlaces'
+import StopPhotos from './StopPhotos'
 import PlaceSource from './PlaceSource'
 import CreateTrip from './PlannerCreateTrip'
 import PlannerHome from './PlannerHome'
@@ -95,7 +98,7 @@ import {
   savePersonalPlace,
   type PersonalPlace,
 } from './personal-place-library'
-import { registeredPlaceKey } from './registered-places'
+import { registeredPlaceKey, stopMatchesCustom } from './registered-places'
 import { useTravelReminders } from './reminder-service'
 import { applyTimeAdjustment, type TimeAdjustment } from './schedule-adjust'
 import {
@@ -142,7 +145,9 @@ import {
 } from './workspace-navigation'
 
 type Page = 'home' | 'trips' | 'settings'
+type LibraryTarget = { type: 'place-library'; tripId: string; day: number }
 type Dialog =
+  | LibraryTarget
   | {
       type: 'personal-place'
       personalId?: string
@@ -151,11 +156,13 @@ type Dialog =
       kind?: string
       initialName?: string
       entry?: import('./registered-places').RegisteredPlace
+      returnTo?: LibraryTarget
     }
   | {
       type: 'remove-place'
       entry?: import('./registered-places').RegisteredPlace
       placeId?: string
+      returnTo?: LibraryTarget
     }
   | { type: 'reminders' }
   | { type: 'recovery' }
@@ -345,6 +352,9 @@ function Itinerary({
   onUpdate,
   onOpen,
   onPhotos,
+  onSavedPlaces,
+  onPlanning,
+  focused,
   onFilesChange,
   isAttachmentShared,
   onQuickExpense,
@@ -356,6 +366,9 @@ function Itinerary({
   onQuickExpense: (stop?: Stop) => void
   onFilesChange: (change: (current: Trip) => Trip) => boolean | void
   isAttachmentShared: (id: string) => boolean
+  onSavedPlaces: () => void
+  onPlanning: () => void
+  focused?: boolean
   onPhotos: (stopId?: string) => void
   trip: Trip
   day: number
@@ -629,65 +642,83 @@ function Itinerary({
               <span>{trip.days.length}일</span>
             </div>
           </div>
-          <div className="trip-banner-controls">
-            <button
-              className="icon-button trip-find"
-              aria-label="여행 내 찾기"
-              onClick={() => setSearchOpen(true)}
-            >
-              <Search size={18} />
+          {!focused && (
+            <div className="trip-banner-controls">
+              <button
+                className="icon-button trip-find"
+                aria-label="여행 내 찾기"
+                onClick={() => setSearchOpen(true)}
+              >
+                <Search size={18} />
+              </button>
+              <button
+                className="icon-button trip-edit"
+                aria-label="여행 정보 수정"
+                onClick={onEditTrip}
+              >
+                <Pencil size={18} />
+              </button>
+              <button
+                className="icon-button trip-delete"
+                onClick={onDeleteTrip}
+                aria-label="여행 삭제"
+              >
+                <Trash2 size={18} />
+              </button>
+            </div>
+          )}
+        </div>
+        {focused && (
+          <button
+            className="text-button task-planning-return"
+            onClick={onPlanning}
+          >
+            일정으로 돌아가기
+          </button>
+        )}
+        {!focused && (
+          <div className="trip-photo-toolbar">
+            <TripPhoto trip={trip} className="trip-plan-cover" />
+            <button className="text-button" onClick={() => onPhotos()}>
+              <Camera size={18} />
+              여행 사진
             </button>
-            <button
-              className="icon-button trip-edit"
-              aria-label="여행 정보 수정"
-              onClick={onEditTrip}
-            >
-              <Pencil size={18} />
-            </button>
-            <button
-              className="icon-button trip-delete"
-              onClick={onDeleteTrip}
-              aria-label="여행 삭제"
-            >
-              <Trash2 size={18} />
+            <button className="text-button" onClick={onSavedPlaces}>
+              <Bookmark size={18} />
+              장소 보관함
             </button>
           </div>
-        </div>
-        <div className="trip-photo-toolbar">
-          <TripPhoto trip={trip} className="trip-plan-cover" />
-          <button className="text-button" onClick={() => onPhotos()}>
-            <Camera size={18} />
-            여행 사진
-          </button>
-        </div>
-        <div className="workspace-tabs" role="tablist" aria-label="여행 관리">
-          {[
-            ['schedule', '일정'],
-            ['field', '여행 중'],
-            ['overview', '여행 준비'],
-            ['expenses', '가계부'],
-          ].map(([id, label]) => (
-            <button
-              key={id}
-              id={`workspace-${id}`}
-              role="tab"
-              aria-controls="workspace-panel"
-              aria-selected={mainWorkspace === id}
-              onClick={() => {
-                navigation.go(
-                  id === 'schedule'
-                    ? planningView.current
-                    : id === 'overview'
-                      ? preparationView.current
-                      : id,
-                  id === 'field' ? (travelDay(trip) ?? day) : day,
-                )
-              }}
-            >
-              {label}
-            </button>
-          ))}
-        </div>
+        )}
+        {!focused && (
+          <div className="workspace-tabs" role="tablist" aria-label="여행 관리">
+            {[
+              ['schedule', '일정'],
+              ['field', '여행 중'],
+              ['overview', '여행 준비'],
+              ['expenses', '가계부'],
+            ].map(([id, label]) => (
+              <button
+                key={id}
+                id={`workspace-${id}`}
+                role="tab"
+                aria-controls="workspace-panel"
+                aria-selected={mainWorkspace === id}
+                onClick={() => {
+                  navigation.go(
+                    id === 'schedule'
+                      ? planningView.current
+                      : id === 'overview'
+                        ? preparationView.current
+                        : id,
+                    id === 'field' ? (travelDay(trip) ?? day) : day,
+                  )
+                }}
+              >
+                {label}
+              </button>
+            ))}
+          </div>
+        )}
         <ReservationConflicts
           trip={trip}
           onOpen={() => setWorkspace('reservations')}
@@ -695,9 +726,16 @@ function Itinerary({
         <div
           className={`workspace-content workspace-${workspace}`}
           id="workspace-panel"
-          role="tabpanel"
+          role={focused ? 'region' : 'tabpanel'}
           tabIndex={-1}
-          aria-labelledby={`workspace-${mainWorkspace}`}
+          aria-label={
+            focused
+              ? workspace === 'reservations'
+                ? '예약 기록'
+                : '경비 기록'
+              : undefined
+          }
+          aria-labelledby={focused ? undefined : `workspace-${mainWorkspace}`}
         >
           {mainWorkspace === 'schedule' && (
             <div
@@ -727,7 +765,7 @@ function Itinerary({
               ))}
             </div>
           )}
-          {mainWorkspace === 'overview' && (
+          {mainWorkspace === 'overview' && !focused && (
             <div
               className="workspace-view-switch"
               role="group"
@@ -779,6 +817,9 @@ function Itinerary({
           )}
           {mainWorkspace === 'schedule' && (
             <>
+              {workspace === 'schedule' && (
+                <TripOverview trip={trip} onDay={onDayChange} />
+              )}
               <DayNavigation trip={trip} day={day} onDay={onDayChange} />
               {workspace === 'transfers' ? (
                 <DayTransfers trip={trip} day={day} routing={googleRouting} />
@@ -1303,10 +1344,7 @@ function Itinerary({
                                     관련 링크 열기 <ExternalLink size={14} />
                                   </a>
                                 )}
-                              <details className="stop-photos">
-                                <summary>장소 사진</summary>
-                                <AttachmentsPanel stopId={stop.id} imagesOnly />
-                              </details>
+                              <StopPhotos stopId={stop.id} />
                               <div className="stop-progress-actions">
                                 <button
                                   className="button outline small"
@@ -1492,7 +1530,6 @@ function Itinerary({
               <details className="simple-options trip-more">
                 <summary>여행 더보기</summary>
                 <JourneyRoute trip={trip} day={day} onUpdate={onUpdate} />
-                <TripOverview trip={trip} onDay={onDayChange} />
                 <JourneyShare trip={trip} day={day} />
               </details>
             </>
@@ -1605,6 +1642,9 @@ export default function App() {
       ? 'trips'
       : initialSession?.page || 'home',
   )
+  const [workspaceEntry, setWorkspaceEntry] = useState<
+    'trip' | 'reservations' | 'expenses'
+  >(initialSession?.workspaceEntry || 'trip')
   const [tripLibrary, setTripLibrary] = useState(
     initialSession?.tripLibrary ?? true,
   )
@@ -1684,6 +1724,9 @@ export default function App() {
     setDialog(null)
     setInfoOpen(false)
     setTripLibrary(false)
+    setWorkspaceEntry(
+      target.workspace === 'reservations' ? target.workspace : 'trip',
+    )
     setPage('trips')
     window.scrollTo(0, 0)
   })
@@ -1752,6 +1795,7 @@ export default function App() {
     detail = false,
   ) => {
     if (target === 'reservations' || target === 'expenses') {
+      setWorkspaceEntry(target)
       if (activeTrip) {
         const day = Math.min(activeDay, activeTrip.days.length - 1)
         saveJourneyPreference(activeTrip, day, target)
@@ -1764,7 +1808,19 @@ export default function App() {
       window.scrollTo({ top: 0, behavior: 'instant' })
       return
     }
-    if (target === 'trips') setTripLibrary(!detail)
+    if (target === 'trips') {
+      setWorkspaceEntry('trip')
+      setTripLibrary(!detail)
+      if (!detail && activeTrip) {
+        saveJourneyPreference(
+          activeTrip,
+          Math.min(activeDay, activeTrip.days.length - 1),
+          'schedule',
+        )
+        setNavWorkspace('schedule')
+        setReminderRevision((value) => value + 1)
+      }
+    }
     setInfoOpen(false)
     setPage(target)
     window.scrollTo({ top: 0, behavior: 'smooth' })
@@ -1825,13 +1881,7 @@ export default function App() {
     )
     if (!trip || !trip.days[day]) return
     const custom = { ...place, destinationId: destinationForDay(trip, day).id }
-    if (
-      trip.days[day].some(
-        (stop) =>
-          stop.custom &&
-          registeredPlaceKey(stop.custom) === registeredPlaceKey(custom),
-      )
-    ) {
+    if (trip.days[day].some((stop) => stopMatchesCustom(stop, custom))) {
       setToast('이날 일정에 이미 있는 장소예요.')
       return
     }
@@ -1867,7 +1917,10 @@ export default function App() {
     }
     setToast(close ? '일정에 장소를 추가했어요.' : '')
   }
-  const registered = libraryPlaces(store.trips, store.placeLibrary)
+  const registered = useMemo(
+    () => libraryPlaces(store.trips, store.placeLibrary),
+    [store.trips, store.placeLibrary],
+  )
   const hiddenPublicIds = new Set(
     (store.placeLibrary?.hidden || [])
       .filter((key) => key.startsWith('public:'))
@@ -1898,6 +1951,7 @@ export default function App() {
     {
       page,
       tripLibrary,
+      workspaceEntry,
       activeTripId: activeTrip?.id || '',
       day: activeDay,
       // Retain the old navigation envelope without guide-search state.
@@ -2040,6 +2094,11 @@ export default function App() {
               setNavWorkspace(workspace)
               setReminderRevision((v) => v + 1)
               navigate('trips', true)
+              setWorkspaceEntry(
+                workspace === 'reservations' || workspace === 'expenses'
+                  ? workspace
+                  : 'trip',
+              )
             }}
             onImport={() => setDialog({ type: 'backup' })}
           />
@@ -2101,8 +2160,11 @@ export default function App() {
               <TripLibrary
                 trips={store.trips}
                 onOpen={(trip) => {
+                  const day = journeyPreference(trip).day
+                  saveJourneyPreference(trip, day, 'schedule')
                   setActiveTripId(trip.id)
-                  setActiveDay(journeyPreference(trip).day)
+                  setActiveDay(day)
+                  setNavWorkspace('schedule')
                   navigate('trips', true)
                 }}
               />
@@ -2148,6 +2210,24 @@ export default function App() {
                     </label>
                   )}
                 <Itinerary
+                  focused={
+                    workspaceEntry !== 'trip' &&
+                    (navWorkspace === 'reservations' ||
+                      navWorkspace === 'expenses')
+                  }
+                  onPlanning={() => {
+                    saveJourneyPreference(activeTrip, activeDay, 'schedule')
+                    setWorkspaceEntry('trip')
+                    setNavWorkspace('schedule')
+                    setReminderRevision((value) => value + 1)
+                  }}
+                  onSavedPlaces={() =>
+                    setDialog({
+                      type: 'place-library',
+                      tripId: activeTrip.id,
+                      day: activeDay,
+                    })
+                  }
                   onFilesChange={(change) =>
                     changeTripFiles(activeTrip.id, change)
                   }
@@ -2319,6 +2399,62 @@ export default function App() {
         </Modal>
       )}
 
+      {dialog?.type === 'place-library' &&
+        (() => {
+          const trip = store.trips.find((item) => item.id === dialog.tripId)
+          if (!trip) return null
+          const target = (day: number): LibraryTarget => ({
+            type: 'place-library',
+            tripId: trip.id,
+            day,
+          })
+          return (
+            <Modal title="장소 보관함" onClose={() => setDialog(null)}>
+              <SavedPlaces
+                trip={trip}
+                day={dialog.day}
+                entries={registered}
+                onCreate={(day, initialName) =>
+                  setDialog({
+                    type: 'personal-place',
+                    cityId: destinationForDay(trip, day).id,
+                    initialName,
+                    draftId: `saved:${trip.id}:${day}`,
+                    returnTo: target(day),
+                  })
+                }
+                onEdit={(entry, day) =>
+                  setDialog({
+                    type: 'personal-place',
+                    entry,
+                    personalId: entry.personalId,
+                    draftId: entry.personalId || entry.key,
+                    returnTo: target(day),
+                  })
+                }
+                onDelete={(entry, day) =>
+                  setDialog({
+                    type: 'remove-place',
+                    entry,
+                    returnTo: target(day),
+                  })
+                }
+                onAdd={(entry, day) =>
+                  addRegisteredPlace(entry.custom, trip.id, day, false)
+                }
+                onDone={(day) => {
+                  saveJourneyPreference(trip, day, 'schedule')
+                  setActiveTripId(trip.id)
+                  setActiveDay(day)
+                  setDialog(null)
+                  navigate('trips', true)
+                  setNavWorkspace('schedule')
+                  setReminderRevision((value) => value + 1)
+                }}
+              />
+            </Modal>
+          )
+        })()}
       {dialog?.type === 'personal-place' && (
         <Modal
           title={
@@ -2341,14 +2477,13 @@ export default function App() {
             initialKind={dialog.kind}
             initialName={dialog.initialName}
             destinations={[
-              ...cities.map((city) => ({
-                id: city.id,
-                name: city.name,
-                country: city.country,
-                guideCityId: city.id,
-                timeZone: city.timeZone,
-              })),
+              ...(dialog.returnTo
+                ? store.trips
+                    .filter((trip) => trip.id === dialog.returnTo!.tripId)
+                    .flatMap(tripDestinations)
+                : []),
               ...store.trips.flatMap(tripDestinations),
+              ...registered.map((entry) => entry.destination),
             ]}
             onSave={(record) => {
               if (
@@ -2362,15 +2497,26 @@ export default function App() {
                 }))
               )
                 return false
-              setDialog(null)
-              setToast('장소 목록에 저장했어요.')
+              setDialog(dialog.returnTo || null)
+              setToast('장소 보관함에 저장했어요.')
               return true
             }}
           />
+          {dialog.returnTo && (
+            <button
+              className="text-button saved-place-back"
+              onClick={() => setDialog(dialog.returnTo!)}
+            >
+              보관함으로 돌아가기
+            </button>
+          )}
         </Modal>
       )}
       {dialog?.type === 'remove-place' && (
-        <Modal title="장소 목록에서 삭제" onClose={() => setDialog(null)}>
+        <Modal
+          title="장소 목록에서 삭제"
+          onClose={() => setDialog(dialog.returnTo || null)}
+        >
           <div className="modal-body">
             <p>
               <strong>
@@ -2383,7 +2529,7 @@ export default function App() {
             <div className="button-row">
               <button
                 className="button outline"
-                onClick={() => setDialog(null)}
+                onClick={() => setDialog(dialog.returnTo || null)}
               >
                 취소
               </button>
@@ -2395,7 +2541,7 @@ export default function App() {
                   if (!target) return
                   const next = removeLibraryPlace(current.placeLibrary, target)
                   if (!setStore({ ...current, placeLibrary: next })) return
-                  setDialog(null)
+                  setDialog(dialog.returnTo || null)
                 }}
               >
                 목록에서 삭제
@@ -2580,6 +2726,13 @@ export default function App() {
           return (
             <Modal title="일정에 장소 추가" onClose={() => setDialog(null)}>
               <PlacePicker
+                onLibrary={() =>
+                  setDialog({
+                    type: 'place-library',
+                    tripId: trip.id,
+                    day: dialog.day,
+                  })
+                }
                 onDone={() => {
                   setScheduleReturn({
                     tripId: trip.id,
