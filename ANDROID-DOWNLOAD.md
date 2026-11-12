@@ -12,6 +12,8 @@
 
 관련PC·모바일134개(4.9분), Android빌드·기존 서명·최종 웹 자산19개 일치를 확인했습니다. 실제 Android설치·갤러리·Google로그인/휴대폰 두 대 동기화는 미검증입니다. [사용·보존 범위](PERSONAL-TRAVEL-PHOTOS.md), [실제 검증 기록](research/release-0.87-verification.json).
 
+공개 확인:고정APK와 최신 별칭2개를 인증 없이 내려받아 HTTP200·6,390,752bytes·SHA-256·기존 서명 일치를 확인했습니다. 공개 소스·문서20개 파일도 바이트/해시가 일치했습니다.
+
 ## 0.86 이전 배포
 
 [J★Do 0.86 개발판 APK 다운로드](https://raw.githubusercontent.com/rjs198426-lang/JIdo/9a3ff3f8ce2155e23dc6eb95f69e7ad4ed3d16d7/JDo-android-0.86.apk)
