@@ -1,4 +1,5 @@
 import { cancelledReservation } from './journey-progress'
+import { documentAttachments } from './attachment-purpose'
 import { stopDetails, type Stop, type Trip } from './travel-model'
 
 export type ScheduleStatus = 'all' | 'planned' | 'done' | 'excluded'
@@ -21,7 +22,7 @@ export function scheduleStatus(
   return stop.status === 'done' ? 'done' : 'planned'
 }
 export function scheduleFiles(trip: Trip, stop: Stop) {
-  return (trip.attachments || []).filter(
+  return documentAttachments(trip.attachments).filter(
     (file) =>
       file.stopId === stop.id ||
       (!!stop.reservationId && file.reservationId === stop.reservationId),

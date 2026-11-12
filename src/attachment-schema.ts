@@ -27,6 +27,7 @@ export const attachmentSchema = z.object({
   size: z.number().int().positive().max(MAX_ATTACHMENT_BYTES),
   createdAt: z.string().datetime(),
   storage: z.enum(['android', 'browser']),
+  purpose: z.enum(['photo', 'document']).optional(),
   reservationId: z.string().min(1).max(100).optional(),
   expenseId: z.string().min(1).max(100).optional(),
   stopId: z.string().min(1).max(100).optional(),

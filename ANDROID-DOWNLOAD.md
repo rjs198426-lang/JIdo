@@ -1,5 +1,19 @@
 # J★Do Android 다운로드
 
+[J★Do 0.87 개발판 APK 다운로드](https://raw.githubusercontent.com/rjs198426-lang/JIdo/ad6aa290dd98ff28f395f9bed98e7725eea83347/JDo-android-0.87.apk)
+
+- 앱: **J★Do** (`com.jido.travel.next`)
+- 버전:0.87 개발판 · versionCode88 · Android7.0 이상
+- 크기:6,390,752 bytes (약6.4MB)
+- SHA-256:`e06a1773710f653c0dc76dd16825031e387e795d12715e5184e55703d66a7f42`
+- 기존 인증서 SHA-256:`0d1b1f20dae73d00626d9ebb4f460943c4f16c2266bc7bc58d124d13b32494ac`
+
+기존 앱을 삭제하지 말고 업데이트로 설치하세요. 여행·장소 사진은 여행 자료 개수·목록에서 제외합니다. 자료에서 직접 첨부한 티켓·문서·이미지 확인서만 자료로 표시합니다. 기존 원본과 기록은 보존하며 사진/자료 구분을 동기화할 모든 기기를0.87 이상으로 업데이트하세요. 새 구분이 있는 ZIP/Drive는 minBuild88이고 이전 백업도 읽습니다.
+
+관련PC·모바일134개(4.9분), Android빌드·기존 서명·최종 웹 자산19개 일치를 확인했습니다. 실제 Android설치·갤러리·Google로그인/휴대폰 두 대 동기화는 미검증입니다. [사용·보존 범위](PERSONAL-TRAVEL-PHOTOS.md), [실제 검증 기록](research/release-0.87-verification.json).
+
+## 0.86 이전 배포
+
 [J★Do 0.86 개발판 APK 다운로드](https://raw.githubusercontent.com/rjs198426-lang/JIdo/9a3ff3f8ce2155e23dc6eb95f69e7ad4ed3d16d7/JDo-android-0.86.apk)
 
 - 앱: **J★Do** (`com.jido.travel.next`)

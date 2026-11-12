@@ -309,12 +309,24 @@ test('사진·영수증 바이트와 해시가 도착한 뒤에만 전체 기록
     size: bytes.length,
     createdAt: '2026-11-06T00:00:00Z',
     storage: 'browser' as const,
+    purpose: 'photo' as const,
+  }
+  const document = {
+    ...file,
+    id: randomUUID(),
+    name: '예약 확인서.png',
+    purpose: 'document' as const,
   }
   a.data.photos['city:guam'] = file
-  a.data.store.trips[0].attachments = [{ ...file, stopId: 'first-stop' }]
+  a.data.store.trips[0].attachments = [
+    { ...file, stopId: 'first-stop' },
+    document,
+  ]
   a.data.store.trips[0].days[0][0].photoId = id
   a.drive.files.set(id, bytes)
+  a.drive.files.set(document.id, bytes)
   await a.sync()
+  expect(JSON.parse([...space.bodies.values()][0]).minBuild).toBe(88)
   b.drive.failDownload = true
   const before = b.capture()
   await expect(b.sync()).rejects.toThrow('다운로드 실패')
@@ -324,6 +336,10 @@ test('사진·영수증 바이트와 해시가 도착한 뒤에만 전체 기록
   expect(b.drive.files.get(id)).toEqual(bytes)
   expect(b.data.photos['city:guam'].id).toBe(id)
   expect(b.data.store.trips[0].days[0][0].photoId).toBe(id)
+  expect(
+    b.data.store.trips[0].attachments?.map((file) => file.purpose),
+  ).toEqual(['photo', 'document'])
+  expect(b.drive.files.get(document.id)).toEqual(bytes)
 })
 
 test('손상된 파일·동기화 본문·기준 기록은 적용하지 않고 다른 Google 계정 접근을 중단', async () => {

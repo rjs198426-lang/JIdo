@@ -1,11 +1,12 @@
 import type { Attachment } from './attachment-schema'
 import type { Trip } from './travel-model'
+import { isPhotoAttachment } from './attachment-purpose'
 
 // General trip photos use the existing ordered attachment collection. Keeping
 // the selected cover first preserves it in existing backups and Drive merges.
 export function isTripPhoto(file: Attachment) {
   return (
-    file.mimeType.startsWith('image/') &&
+    isPhotoAttachment(file) &&
     !file.stopId &&
     !file.reservationId &&
     !file.expenseId

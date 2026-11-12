@@ -2,6 +2,7 @@ import { dateAt, formatDate } from './store'
 import { stopDetails, destinationForDay, type Trip } from './travel-model'
 import type { Attachment } from './attachment-schema'
 import type { JourneyTarget } from './trip-readiness'
+import { documentAttachments } from './attachment-purpose'
 export const tripSearchCategories = [
   '전체',
   '일정',
@@ -85,7 +86,7 @@ export function searchTrip(trip: Trip, query: string, category = '전체') {
       text: item.note || '',
       target: { workspace: 'checklist', checklistId: item.id },
     })
-  for (const item of trip.attachments || [])
+  for (const item of documentAttachments(trip.attachments))
     add({
       key: `attachment-${item.id}`,
       category: '자료',

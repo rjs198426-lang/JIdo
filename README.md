@@ -2,7 +2,7 @@
 
 여행을 계획하고, 현장에서 일정과 예약을 확인하고, 사용한 돈과 동행자 정산을 관리하는 Android 앱입니다.
 
-[0.86 개발판 APK 다운로드·업데이트 안내](ANDROID-DOWNLOAD.md) · [여행 계획 개선](TRAVEL-PLANNING-UPGRADE.md) · [개편 내용과 자료 보존](TRAVEL-WORKSPACE.md)
+[0.87 개발판 APK 다운로드·업데이트 안내](ANDROID-DOWNLOAD.md) · [여행 계획 개선](TRAVEL-PLANNING-UPGRADE.md) · [개편 내용과 자료 보존](TRAVEL-WORKSPACE.md)
 
 - **홈:** 가까운 날짜의 일정, 항공·호텔 예약, 준비물과 경비 현황
 - **내 여행:** 날짜를 정하기 전의 장소 보관함, 검색 가능한 전체 일정, 여행·장소 사진과 대표 선택, 여러 도시, 지도·동선·이동시간, 여행 중 완료·메모·첨부·길찾기
@@ -31,3 +31,5 @@ npm test
 ```
 
 Android만 동기화·빌드하며 기존 서명키가 필요합니다. 키를 새로 생성하지 않습니다. [현재 기능·호환·검사 범위](TRAVEL-WORKSPACE.md), [지도](GOOGLE-MAPS-SETUP.md), [기기 동기화](GOOGLE-DRIVE-SYNC.md), [저장 안전성](STORAGE-SAFETY.md), [이용 안내](APP-TERMS.md), [개인정보](PRIVACY.md)를 참고하세요. 과거 가이드 조사 자료는 저장소 이력과 GUIDEBOOKS.md에 보관하며 앱에서 자동 수집·게시하지 않습니다.
+
+0.87부터 사진 추가는 여행 자료 개수에 포함하지 않습니다. 자료에서 직접 첨부한 티켓·이미지 확인서·문서만 자료로 표시합니다. 사진/자료 구분을 동기화할 모든 기기는0.87 이상으로 업데이트하세요.

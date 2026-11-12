@@ -1,5 +1,6 @@
 import { createContext, useContext, useEffect, useRef, useState } from 'react'
 import AttachmentCheck from './AttachmentCheck'
+import { isPhotoAttachment, documentAttachments } from './attachment-purpose'
 import { usePhotoUrl } from './personal-photos'
 import { attachmentConnection } from './trip-search'
 import type { Trip } from './travel-model'
@@ -70,7 +71,10 @@ export default function AttachmentsPanel({
     }
   }, [])
   if (!context) return null
-  const files = context.files.filter(
+  const scope = imagesOnly
+    ? context.files.filter(isPhotoAttachment)
+    : documentAttachments(context.files)
+  const files = scope.filter(
     (file) =>
       (all ||
         (stopId
@@ -146,6 +150,7 @@ export default function AttachmentsPanel({
         context.add(
           imported.map((file) => ({
             ...file,
+            purpose: imagesOnly ? 'photo' : 'document',
             reservationId,
             expenseId,
             stopId,
@@ -237,7 +242,7 @@ export default function AttachmentsPanel({
           }}
         />
       )}
-      {all && context.files.length > 0 && (
+      {all && scope.length > 0 && (
         <input
           className="attachment-search"
           aria-label="첨부 자료 검색"
@@ -247,7 +252,7 @@ export default function AttachmentsPanel({
         />
       )}
       {busy && <p role="status">선택한 자료를 기기에 저장하고 있어요.</p>}
-      {all && context.files.length > 0 && (
+      {all && scope.length > 0 && (
         <>
           <div
             className="journey-filter-row"
@@ -266,7 +271,7 @@ export default function AttachmentsPanel({
               </button>
             ))}
           </div>
-          <AttachmentCheck files={context.files} />
+          <AttachmentCheck files={scope} />
         </>
       )}
       {error && (
@@ -337,6 +342,11 @@ export default function AttachmentsPanel({
           </article>
         ))}
       </div>
+      {all && !scope.length && (
+        <p className="workspace-empty">
+          아직 추가한 자료가 없어요. 티켓·예약 확인서 등을 파일로 첨부해 주세요.
+        </p>
+      )}
       {all && !files.length && (query.trim() || category !== '전체') && (
         <p className="workspace-empty">조건에 맞는 자료가 없어요.</p>
       )}

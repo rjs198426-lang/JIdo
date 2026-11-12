@@ -6,6 +6,10 @@ import { placeCoordinates } from './place-location'
 const embeddedIds = new Set(embeddedPlaces.map((p) => p.id))
 import { placeLibrarySchema } from './personal-place-library'
 import { attachmentSchema } from './attachment-schema'
+import {
+  hasAttachmentPurpose,
+  ATTACHMENT_PURPOSE_BUILD,
+} from './attachment-purpose'
 import { guideSchema, placeSchema } from './guide-schema'
 
 const ids = z.array(z.string().min(1).max(100)).max(10000)
@@ -106,7 +110,7 @@ export type SyncFile = z.infer<typeof syncFileSchema>
 export const syncCommitSchema = z
   .object({
     format: z.literal('jido-drive-sync-v1'),
-    minBuild: z.union([z.literal(81), z.literal(84)]),
+    minBuild: z.union([z.literal(81), z.literal(84), z.literal(88)]),
     id: z.string().uuid(),
     parents: z.array(z.string().uuid()).max(32),
     createdAt: z.string().datetime(),
@@ -130,6 +134,15 @@ export const syncCommitSchema = z
       ...v.snapshot.store.trips.flatMap((t) => t.attachments || []),
       ...Object.values(v.snapshot.photos),
     ]
+    if (
+      hasAttachmentPurpose([...referenced, ...v.files]) &&
+      v.minBuild < ATTACHMENT_PURPOSE_BUILD
+    )
+      ctx.addIssue({
+        code: 'custom',
+        message:
+          '사진·자료 구분을 유지하려면 모든 기기의 앱을 업데이트해 주세요.',
+      })
     for (const f of referenced) {
       const known = files.get(f.id)
       if (!known || known.size !== f.size || known.mimeType !== f.mimeType)

@@ -1,0 +1,38 @@
+{
+  "version": "0.87",
+  "versionCode": 88,
+  "package": "com.jido.travel.next",
+  "bytes": 6390752,
+  "sha256": "e06a1773710f653c0dc76dd16825031e387e795d12715e5184e55703d66a7f42",
+  "certificateSha256": "0d1b1f20dae73d00626d9ebb4f460943c4f16c2266bc7bc58d124d13b32494ac",
+  "signatureVerified": true,
+  "matchedWebAssets": 19,
+  "privateSigningFilesFound": false,
+  "existingMapsConfigurationBundled": true,
+  "nativeDeviceInstallTested": false,
+  "checkedAt": "2026-11-12T02:33:38.025321+00:00",
+  "sourceBaseCommit": "383be51b8a98674e983012e14136e87b9c01e5e8",
+  "scope": "Separate travel photos from explicitly attached documents; preserve image documents, originals, backup purpose and Drive compatibility",
+  "browserTestsPassed": 134,
+  "realGoogleLoginTested": false,
+  "realTwoDeviceSyncTested": false,
+  "publicCommit": "ad6aa290dd98ff28f395f9bed98e7725eea83347",
+  "webBytes": 4398945,
+  "androidBuildSeconds": 109,
+  "attachmentPurposeMinBuild": 88,
+  "tests": {
+    "passed": 134,
+    "failed": 0,
+    "minutes": 4.9,
+    "specs": [
+      "travel-photos",
+      "storage-safety",
+      "drive-sync",
+      "planner-workspace"
+    ],
+    "fullSuiteRun": false
+  },
+  "photosExcludedFromDocumentCount": true,
+  "explicitImageDocumentsSupported": true,
+  "legacyRecordsRewritten": false
+}

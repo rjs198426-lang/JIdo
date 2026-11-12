@@ -1,4 +1,8 @@
 import {
+  hasAttachmentPurpose,
+  ATTACHMENT_PURPOSE_BUILD,
+} from './attachment-purpose'
+import {
   hasReservationDetails,
   RESERVATION_DETAILS_BUILD,
 } from './reservation-compat'
@@ -336,9 +340,14 @@ export async function runDriveSync({
     onProgress('Drive에 변경 저장 중')
     const commit = syncCommitSchema.parse({
       format: 'jido-drive-sync-v1',
-      minBuild: hasReservationDetails(target.store.trips)
-        ? RESERVATION_DETAILS_BUILD
-        : 81,
+      minBuild: hasAttachmentPurpose([
+        ...target.store.trips.flatMap((trip) => trip.attachments || []),
+        ...Object.values(target.photos),
+      ])
+        ? ATTACHMENT_PURPOSE_BUILD
+        : hasReservationDetails(target.store.trips)
+          ? RESERVATION_DETAILS_BUILD
+          : 81,
       id: crypto.randomUUID(),
       parents: heads.map((h) => h.id),
       createdAt: new Date().toISOString(),

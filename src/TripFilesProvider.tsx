@@ -3,6 +3,7 @@ import { AttachmentsContext } from './AttachmentsPanel'
 import type { Trip } from './travel-model'
 import { SAVE_ERROR_MESSAGE } from './store'
 import { selectTripCover, tripCover } from './trip-photos'
+import { isPhotoAttachment } from './attachment-purpose'
 
 export default function TripFilesProvider({
   trip,
@@ -70,7 +71,7 @@ export default function TripFilesProvider({
                 (file) =>
                   file.id === id &&
                   file.stopId === stopId &&
-                  file.mimeType.startsWith('image/'),
+                  isPhotoAttachment(file),
               )
             )
               throw new Error('장소 사진을 다시 선택해 주세요.')

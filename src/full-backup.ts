@@ -20,6 +20,10 @@ import { portableTrip } from './TravelBackup'
 import { tripSchema, type Trip } from './travel-model'
 import type { TravelStore } from './store'
 import {
+  hasAttachmentPurpose,
+  ATTACHMENT_PURPOSE_BUILD,
+} from './attachment-purpose'
+import {
   placeLibrarySchema,
   mergePlaceLibraries,
   type PlaceLibrary,
@@ -47,7 +51,7 @@ const fileSchema = attachmentSchema.extend({
 const manifestSchema = z.object({
   format: z.literal('jido-full-backup'),
   version: z.union([z.literal(1), z.literal(2), z.literal(3)]),
-  minBuild: z.literal(84).optional(),
+  minBuild: z.union([z.literal(84), z.literal(88)]).optional(),
   createdAt: z.string().datetime(),
   trips: z.array(tripSchema).max(500),
   personalPhotos: z
@@ -87,9 +91,19 @@ function validate(value: unknown) {
     throw new Error('백업할 여행이나 사진이 없습니다.')
   if (
     hasReservationDetails(manifest.trips) &&
-    (manifest.version !== 3 || manifest.minBuild !== RESERVATION_DETAILS_BUILD)
+    (manifest.version !== 3 ||
+      (manifest.minBuild || 0) < RESERVATION_DETAILS_BUILD)
   )
     throw new Error('항공·호텔 상세 정보의 백업 버전을 확인해 주세요.')
+  if (
+    hasAttachmentPurpose([
+      ...manifest.trips.flatMap((trip) => trip.attachments || []),
+      ...Object.values(manifest.personalPhotos),
+      ...manifest.files,
+    ]) &&
+    (manifest.version !== 3 || manifest.minBuild !== ATTACHMENT_PURPOSE_BUILD)
+  )
+    throw new Error('사진·자료 구분의 백업 버전을 확인해 주세요.')
   const files = new Map(manifest.files.map((f) => [f.id, f]))
   const used = new Set<string>()
   if (files.size !== manifest.files.length)
@@ -139,16 +153,22 @@ export function fullManifest(trips: Trip[], placeLibrary?: PlaceLibrary) {
   }
   if (files.size > 5000)
     throw new Error('전체 백업에는 최대 5,000개 파일을 담을 수 있어요.')
+  const minBuild = hasAttachmentPurpose([
+    ...trips.flatMap((trip) => trip.attachments || []),
+    ...Object.values(photos),
+  ])
+    ? ATTACHMENT_PURPOSE_BUILD
+    : hasReservationDetails(trips)
+      ? RESERVATION_DETAILS_BUILD
+      : undefined
   return {
     format: 'jido-full-backup' as const,
-    version: hasReservationDetails(trips)
+    version: minBuild
       ? (3 as const)
       : placeLibrary
         ? (2 as const)
         : (1 as const),
-    ...(hasReservationDetails(trips)
-      ? { minBuild: RESERVATION_DETAILS_BUILD }
-      : {}),
+    ...(minBuild ? { minBuild } : {}),
     createdAt: new Date().toISOString(),
     trips: trips.map((trip) => {
       const portable = portableTrip(trip)
@@ -312,6 +332,7 @@ export async function restoreBackupFiles(preview: BackupPreview) {
         reservationId: file.reservationId,
         expenseId: file.expenseId,
         stopId: file.stopId,
+        purpose: file.purpose,
       }
     }
     const photos = Object.fromEntries(

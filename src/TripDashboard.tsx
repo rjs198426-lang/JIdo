@@ -1,3 +1,4 @@
+import { documentAttachments } from './attachment-purpose'
 import { useDraftFields } from './form-draft'
 import { useState, type FormEvent } from 'react'
 import {
@@ -177,8 +178,8 @@ export default function TripDashboard({
         <button onClick={() => onOpen('files')}>
           <FileDown size={20} />
           <span>여행 자료</span>
-          <strong>{(trip.attachments || []).length}</strong>
-          <small>티켓·사진·파일</small>
+          <strong>{documentAttachments(trip.attachments).length}</strong>
+          <small>티켓·예약 확인서·문서</small>
         </button>
       </div>
       <details className="simple-options preparation-review">

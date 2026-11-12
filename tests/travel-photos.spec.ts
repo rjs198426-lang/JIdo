@@ -1,10 +1,22 @@
 import { test, expect, type Page } from '@playwright/test'
 import sharp from 'sharp'
 import { readFileSync } from 'node:fs'
-import { unzipSync, strFromU8 } from 'fflate'
+import { unzipSync, strFromU8, zipSync, strToU8 } from 'fflate'
 import { createHash } from 'node:crypto'
 import { tripSchema, type Trip } from '../src/travel-model'
-import { canonicalSnapshot, emptySyncSnapshot } from '../src/sync-model'
+import {
+  canonicalSnapshot,
+  emptySyncSnapshot,
+  syncCommitSchema,
+} from '../src/sync-model'
+import {
+  documentAttachments,
+  isPhotoAttachment,
+} from '../src/attachment-purpose'
+import { scheduleFiles } from '../src/schedule-list'
+import { searchTrip } from '../src/trip-search'
+import { fullManifest, inspectFullBackup } from '../src/full-backup'
+import { randomUUID } from 'node:crypto'
 import { mergeSyncSnapshots } from '../src/sync-merge'
 import { tripCover, selectTripCover } from '../src/trip-photos'
 const red = await sharp({
@@ -185,7 +197,9 @@ test('trip photos select a cover, survive restart and remain separate for two tr
     /^blob:/,
   )
   await expect(page.locator('[data-trip-id="second-trip"] img')).toHaveCount(0)
-  await expect(page.locator('[data-trip-id="second-trip"] .trip-library-placeholder')).toBeVisible()
+  await expect(
+    page.locator('[data-trip-id="second-trip"] .trip-library-placeholder'),
+  ).toBeVisible()
 })
 test('place photo is visible on the reading card and during travel without altering the untimed schedule', async ({
   page,
@@ -244,6 +258,11 @@ test('full ZIP contains exact trip/place photo bytes and restores the chosen cov
   const archive = readFileSync((await (await pending).path())!)
   const entries = unzipSync(archive),
     manifest = JSON.parse(strFromU8(entries['manifest.json']))
+  expect(manifest.version).toBe(3)
+  expect(manifest.minBuild).toBe(88)
+  expect(
+    manifest.trips[0].attachments.every((f: any) => f.purpose === 'photo'),
+  ).toBe(true)
   expect(manifest.trips[0].attachments.map((f: any) => f.name)).toEqual([
     '대표.png',
     '여행 풍경.png',
@@ -269,12 +288,207 @@ test('full ZIP contains exact trip/place photo bytes and restores the chosen cov
   await expect.poll(async () => (await saved(page)).length).toBe(2)
   const restored = (await saved(page))[1]
   expect(tripCover(restored)?.name).toBe('대표.png')
+  expect(restored.attachments?.every((f) => f.purpose === 'photo')).toBe(true)
   expect(restored.id).not.toBe(original.id)
   expect(restored.attachments?.map((f) => f.id)).not.toEqual(
     original.attachments?.map((f) => f.id),
   )
   expect(restored.days[0][0].photoId).toBe(
     restored.attachments?.find((f) => f.name === '장소.png')?.id,
+  )
+})
+
+test('photos do not count as travel documents; explicitly attached image documents stay separate after restart', async ({
+  page,
+}) => {
+  await boot(page)
+  let d = await add(page)
+  await d.getByRole('button', { name: '닫기', exact: true }).click()
+  d = await add(page, [photo('장소 풍경.png')], true)
+  await d.getByRole('button', { name: '닫기', exact: true }).click()
+  await nav(page, '내 여행')
+  await page.getByRole('tab', { name: '여행 준비', exact: true }).click()
+  const documents = page
+    .locator('.dashboard-cards > button')
+    .filter({ hasText: '여행 자료' })
+  await expect(documents.locator('strong')).toHaveText('0')
+  await documents.click()
+  const library = page.locator('.attachment-library')
+  await expect(library.locator('[data-attachment-id]')).toHaveCount(0)
+  await expect(library).toContainText('아직 추가한 자료가 없어요')
+  await library.getByLabel('첨부할 자료 파일').setInputFiles([
+    photo('예약 확인서.png'),
+    {
+      name: '항공 티켓.pdf',
+      mimeType: 'application/pdf',
+      buffer: Buffer.from('%PDF-1.4\nexample ticket'),
+    },
+  ])
+  await expect(library.locator('[data-attachment-id]')).toHaveCount(2)
+  const original = (await saved(page))[0]
+  expect(original.attachments?.map((file) => file.purpose)).toEqual([
+    'photo',
+    'photo',
+    'document',
+    'document',
+  ])
+  expect(tripCover(original)?.name).toBe('여행 풍경.png')
+  await page.reload()
+  await expect(
+    page.locator('.attachment-library [data-attachment-id]'),
+  ).toHaveCount(2)
+  await page.getByRole('button', { name: '요약', exact: true }).click()
+  await expect(documents.locator('strong')).toHaveText('2')
+  d = await gallery(page)
+  await expect(d.locator('[data-attachment-id]')).toHaveCount(1)
+  await expect(d).not.toContainText('예약 확인서.png')
+  await d
+    .getByRole('button', { name: '여행 풍경.png 첨부 삭제', exact: true })
+    .click()
+  await d.getByRole('button', { name: '첨부 삭제', exact: true }).click()
+  await expect(d.locator('[data-attachment-id]')).toHaveCount(0)
+  await d.getByRole('button', { name: '닫기', exact: true }).click()
+  await nav(page, '내 여행')
+  await page.getByRole('tab', { name: '여행 준비', exact: true }).click()
+  await expect(documents.locator('strong')).toHaveText('2')
+  expect(
+    documentAttachments((await saved(page))[0].attachments).map(
+      (file) => file.name,
+    ),
+  ).toEqual(['예약 확인서.png', '항공 티켓.pdf'])
+})
+
+const purposeFile = () => ({
+  id: randomUUID(),
+  name: '개인 사진.png',
+  mimeType: 'image/png' as const,
+  size: red.length,
+  createdAt: '2026-11-12T00:00:00.000Z',
+  storage: 'browser' as const,
+})
+test('legacy photos are excluded without rewriting records; linked receipts and image documents still count', async () => {
+  const image = purposeFile()
+  const placePhoto = { ...purposeFile(), stopId: 'beach' }
+  const receipt = {
+    ...purposeFile(),
+    name: '식사 영수증.png',
+    expenseId: 'expense',
+  }
+  const booking = {
+    ...purposeFile(),
+    name: '숙소 확인.png',
+    reservationId: 'booking',
+  }
+  const document = {
+    ...purposeFile(),
+    name: '공용 확인서.png',
+    purpose: 'document' as const,
+    stopId: 'beach',
+  }
+  const trip = fixture()
+  trip.attachments = [image, placePhoto, receipt, booking, document]
+  const before = JSON.stringify(trip)
+  expect(trip.attachments.filter(isPhotoAttachment)).toEqual([
+    image,
+    placePhoto,
+  ])
+  expect(documentAttachments(trip.attachments)).toEqual([
+    receipt,
+    booking,
+    document,
+  ])
+  expect(scheduleFiles(trip, trip.days[0][0])).toEqual([document])
+  expect(searchTrip(trip, '개인 사진.png', '자료')).toEqual([])
+  expect(searchTrip(trip, '공용 확인서.png', '자료')).toHaveLength(1)
+  expect(JSON.stringify(trip)).toBe(before)
+})
+
+test('full backup keeps photo/document meaning, rejects missing compatibility headers and still reads legacy archives', async () => {
+  const trip = fixture()
+  trip.attachments = [
+    { ...purposeFile(), purpose: 'photo' },
+    { ...purposeFile(), name: '확인서.png', purpose: 'document' },
+  ]
+  const source = fullManifest([trip])
+  expect(source).toMatchObject({ version: 3, minBuild: 88 })
+  const manifest = {
+    ...source,
+    files: source.files.map((file) => ({
+      ...file,
+      sha256: createHash('sha256').update(red).digest('hex'),
+    })),
+  }
+  const archive = (value: unknown) =>
+    new File(
+      [
+        new Uint8Array(
+          zipSync({
+            'manifest.json': strToU8(JSON.stringify(value)),
+            ...Object.fromEntries(
+              source.files.map((file) => ['files/' + file.id, red]),
+            ),
+          }),
+        ),
+      ],
+      '자료.zip',
+      { type: 'application/zip' },
+    )
+  const restored = await inspectFullBackup(archive(manifest))
+  expect(
+    restored?.manifest.trips[0].attachments?.map((file) => file.purpose),
+  ).toEqual(['photo', 'document'])
+  await expect(
+    inspectFullBackup(archive({ ...manifest, minBuild: 84 })),
+  ).rejects.toThrow('사진·자료 구분')
+  for (const file of trip.attachments) delete file.purpose
+  const old = fullManifest([trip])
+  expect(old.version).toBe(1)
+  const oldManifest = {
+    ...old,
+    files: old.files.map((file) => ({
+      ...file,
+      sha256: createHash('sha256').update(red).digest('hex'),
+    })),
+  }
+  expect(
+    (
+      await inspectFullBackup(archive(oldManifest))
+    )?.manifest.trips[0].attachments?.map((file) => file.id),
+  ).toEqual(trip.attachments.map((file) => file.id))
+})
+
+test('Drive commits preserve attachment purposes and reject old minimum builds instead of losing the distinction', () => {
+  const snapshot = emptySyncSnapshot()
+  const trip = fixture()
+  trip.attachments = [
+    { ...purposeFile(), purpose: 'photo' },
+    { ...purposeFile(), name: '예약 문서.png', purpose: 'document' },
+  ]
+  snapshot.store.trips = [trip]
+  expect(
+    canonicalSnapshot(snapshot).store.trips[0].attachments?.map(
+      (file) => file.purpose,
+    ),
+  ).toEqual(['photo', 'document'])
+  const commit = {
+    format: 'jido-drive-sync-v1',
+    minBuild: 88,
+    id: randomUUID(),
+    parents: [],
+    createdAt: '2026-11-12T00:00:00.000Z',
+    device: randomUUID(),
+    snapshot,
+    files: trip.attachments.map((file) => ({
+      ...file,
+      sha256: createHash('sha256').update(red).digest('hex'),
+    })),
+  }
+  expect(syncCommitSchema.safeParse(commit).success).toBe(true)
+  expect(syncCommitSchema.safeParse({ ...commit, minBuild: 84 }).success).toBe(
+    false,
+  )
+  expect(syncCommitSchema.safeParse({ ...commit, minBuild: 81 }).success).toBe(
+    false,
   )
 })
 test('photo save failure cleans uncommitted bytes, keeps the original cover and permits a single retry', async ({
