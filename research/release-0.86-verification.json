@@ -25,5 +25,282 @@
   "webBytes": 4397934,
   "stockPhotosBundled": 0,
   "guideResearchFilesBundled": 0,
-  "androidBuildSeconds": 47
+  "androidBuildSeconds": 47,
+  "sourceCommit": "d5d5421a813ef6d6e0ede2cbcb01f5ac8f6796b8",
+  "publicDownloads": [
+    {
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/9a3ff3f8ce2155e23dc6eb95f69e7ad4ed3d16d7/JDo-android-0.86.apk",
+      "httpStatus": 200,
+      "bytes": 6390388,
+      "sha256": "94fc5560bf2d2d0ce0c3cc1541d6e1722adbb3ef2ab9fb5f7c262bbafe01fff1",
+      "matchesBuild": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/android-apk-downloads/JDo-android.apk",
+      "httpStatus": 200,
+      "bytes": 6390388,
+      "sha256": "94fc5560bf2d2d0ce0c3cc1541d6e1722adbb3ef2ab9fb5f7c262bbafe01fff1",
+      "matchesBuild": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/android-apk-downloads/jido-release.apk",
+      "httpStatus": 200,
+      "bytes": 6390388,
+      "sha256": "94fc5560bf2d2d0ce0c3cc1541d6e1722adbb3ef2ab9fb5f7c262bbafe01fff1",
+      "matchesBuild": true
+    }
+  ],
+  "anonymousDownload": true,
+  "downloadedSignatureVerified": true,
+  "publicSourceFiles": [
+    {
+      "path": "AGENTS.md",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/d5d5421a813ef6d6e0ede2cbcb01f5ac8f6796b8/AGENTS.md",
+      "httpStatus": 200,
+      "bytes": 41225,
+      "sha256": "496c9f0b91e38b41edfb89f8b8f58d32e7ce030676eb17b694c8c5ac44e70dc7",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "ANDROID-DOWNLOAD.md",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/d5d5421a813ef6d6e0ede2cbcb01f5ac8f6796b8/ANDROID-DOWNLOAD.md",
+      "httpStatus": 200,
+      "bytes": 95364,
+      "sha256": "8961c3fbff57993b41dbadde6e9957f9f877469c9627a7dcc98ef590132a1042",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/d5d5421a813ef6d6e0ede2cbcb01f5ac8f6796b8/README.md",
+      "httpStatus": 200,
+      "bytes": 3343,
+      "sha256": "c2b73027aa8d7cece4f1515f23663f2b332ecb38efb408c8033e140b7f511baf",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "UI.md",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/d5d5421a813ef6d6e0ede2cbcb01f5ac8f6796b8/UI.md",
+      "httpStatus": 200,
+      "bytes": 68696,
+      "sha256": "bcaab45fb5078423d0896c416bf81e5a64440bc282fee61a3387eb3d67a3d955",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "TRAVEL-PLANNING-UPGRADE.md",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/d5d5421a813ef6d6e0ede2cbcb01f5ac8f6796b8/TRAVEL-PLANNING-UPGRADE.md",
+      "httpStatus": 200,
+      "bytes": 6362,
+      "sha256": "2de7d23b5e3a6797d50c3cfe7a9118878bf0d779c260d41ff0f0e17e09ab28f2",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "TRAVEL-WORKSPACE.md",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/d5d5421a813ef6d6e0ede2cbcb01f5ac8f6796b8/TRAVEL-WORKSPACE.md",
+      "httpStatus": 200,
+      "bytes": 7144,
+      "sha256": "025f43a97e0aed236365dd8f1cff4ba5ed7423f390c38ffd7a05a0f9026ec72c",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "src/App.tsx",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/d5d5421a813ef6d6e0ede2cbcb01f5ac8f6796b8/src/App.tsx",
+      "httpStatus": 200,
+      "bytes": 103554,
+      "sha256": "39a86e5b8ca94d11eaf77eea2f2ddd6dc334900bbe97f39adf9b86b8db4b68fe",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "src/SavedPlaces.tsx",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/d5d5421a813ef6d6e0ede2cbcb01f5ac8f6796b8/src/SavedPlaces.tsx",
+      "httpStatus": 200,
+      "bytes": 5659,
+      "sha256": "75edc2a3a95163e85ad628810902afeb7eaad6f16da40586a8d98b7d57f9659d",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "src/StopPhotos.tsx",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/d5d5421a813ef6d6e0ede2cbcb01f5ac8f6796b8/src/StopPhotos.tsx",
+      "httpStatus": 200,
+      "bytes": 523,
+      "sha256": "6255d3e17e41909b71371795ccd02d4fc6f0a5ab4008ebcdb97034d4e5a32314",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "src/TimeZoneField.tsx",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/d5d5421a813ef6d6e0ede2cbcb01f5ac8f6796b8/src/TimeZoneField.tsx",
+      "httpStatus": 200,
+      "bytes": 2758,
+      "sha256": "90ea3d5e1df93b0be920c71e7b981915d9ca73d9a3a3bb17a1a0ebfb5f3ed4c0",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "src/TripOverview.tsx",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/d5d5421a813ef6d6e0ede2cbcb01f5ac8f6796b8/src/TripOverview.tsx",
+      "httpStatus": 200,
+      "bytes": 4016,
+      "sha256": "02bac14ed2871c5834d79a2c0e8b7f294fa1136e112abbca47188b52f55cef58",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "src/TravelTools.tsx",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/d5d5421a813ef6d6e0ede2cbcb01f5ac8f6796b8/src/TravelTools.tsx",
+      "httpStatus": 200,
+      "bytes": 23519,
+      "sha256": "ad2154b29ff70cfa325893cc589313abe325eb0b62c721f73f8f855effec6f1e",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "src/PlacePicker.tsx",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/d5d5421a813ef6d6e0ede2cbcb01f5ac8f6796b8/src/PlacePicker.tsx",
+      "httpStatus": 200,
+      "bytes": 5835,
+      "sha256": "35491b779a35fd645ada833d66dee5de4257e2a24b0d6b89c3f858eefc1b28f7",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "src/PersonalPlaceForm.tsx",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/d5d5421a813ef6d6e0ede2cbcb01f5ac8f6796b8/src/PersonalPlaceForm.tsx",
+      "httpStatus": 200,
+      "bytes": 8336,
+      "sha256": "97dc4590b7af946324e3c2a20d87464df8d4cd6076d90506ec133f74ab4daff8",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "src/PlannerCreateTrip.tsx",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/d5d5421a813ef6d6e0ede2cbcb01f5ac8f6796b8/src/PlannerCreateTrip.tsx",
+      "httpStatus": 200,
+      "bytes": 7009,
+      "sha256": "06149ed517d9a2b89e118ab1f506415f733b076a2e9b32d0307281fa62d450ca",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "src/ReservationDetails.tsx",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/d5d5421a813ef6d6e0ede2cbcb01f5ac8f6796b8/src/ReservationDetails.tsx",
+      "httpStatus": 200,
+      "bytes": 5581,
+      "sha256": "3241c99a1562272c2e3b9fd2a6123611b8f4b8869b6aa8f0f417c2c98bf71c8b",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "src/app-session.ts",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/d5d5421a813ef6d6e0ede2cbcb01f5ac8f6796b8/src/app-session.ts",
+      "httpStatus": 200,
+      "bytes": 7668,
+      "sha256": "5a722ab14e74e7e08de44274992663414de67c4e139b45dbd5f8aa137c80bf04",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "src/registered-places.ts",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/d5d5421a813ef6d6e0ede2cbcb01f5ac8f6796b8/src/registered-places.ts",
+      "httpStatus": 200,
+      "bytes": 3129,
+      "sha256": "bb45f8c893fce03c4584b921d9a1ff04d2906e48c843d45f8b61144c6659ed74",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "src/reservation-search.ts",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/d5d5421a813ef6d6e0ede2cbcb01f5ac8f6796b8/src/reservation-search.ts",
+      "httpStatus": 200,
+      "bytes": 561,
+      "sha256": "ead6d945e88fdf4f48987562bd239513c498bd86df3ce09826f13067236b7b15",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "src/destination-time.ts",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/d5d5421a813ef6d6e0ede2cbcb01f5ac8f6796b8/src/destination-time.ts",
+      "httpStatus": 200,
+      "bytes": 2781,
+      "sha256": "5ae378929c7c7a9e8591a246162a05b68d022a726dd546a4158e4674b4acfd7a",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "src/modern-theme.css",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/d5d5421a813ef6d6e0ede2cbcb01f5ac8f6796b8/src/modern-theme.css",
+      "httpStatus": 200,
+      "bytes": 70055,
+      "sha256": "728603e01bb3fb99bf4e6464444742265a77221709ca74a5b5fbf60a3a591a77",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "android/app/build.gradle",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/d5d5421a813ef6d6e0ede2cbcb01f5ac8f6796b8/android/app/build.gradle",
+      "httpStatus": 200,
+      "bytes": 3197,
+      "sha256": "26e6f24858570d1fff92f70b43a6bfabd5a3f93fe8f3d73bb368dc36cf773325",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "playwright.config.ts",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/d5d5421a813ef6d6e0ede2cbcb01f5ac8f6796b8/playwright.config.ts",
+      "httpStatus": 200,
+      "bytes": 1317,
+      "sha256": "388629e88cfa12d26ba6334204be38b0bf04208b6cd9ada9a5ed95f3670429cd",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "tests/travel-planning-upgrade.spec.ts",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/d5d5421a813ef6d6e0ede2cbcb01f5ac8f6796b8/tests/travel-planning-upgrade.spec.ts",
+      "httpStatus": 200,
+      "bytes": 18633,
+      "sha256": "8cc5532da6e2b44418a2f75acb1cb84d3150f75149dc461e535bfc2a94d3c13e",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "tests/planner-workspace.spec.ts",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/d5d5421a813ef6d6e0ede2cbcb01f5ac8f6796b8/tests/planner-workspace.spec.ts",
+      "httpStatus": 200,
+      "bytes": 15716,
+      "sha256": "0ca421eb081ef94510f450a445bc2beac5cb2649188ffcf6d35a08f8587f7a32",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-12-travel-planning/README.md",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/d5d5421a813ef6d6e0ede2cbcb01f5ac8f6796b8/research/audits/2026-11-12-travel-planning/README.md",
+      "httpStatus": 200,
+      "bytes": 4479,
+      "sha256": "34bf8847f9ed0354e89ca6ed4d5c6e3bfc2bd6b0e7d3b2de0aef0e133f176681",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-12-travel-planning/comparison.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/d5d5421a813ef6d6e0ede2cbcb01f5ac8f6796b8/research/audits/2026-11-12-travel-planning/comparison.json",
+      "httpStatus": 200,
+      "bytes": 2808,
+      "sha256": "fffaf8f4f72cf0e3b875ba0fc017e4b8f4a6b7857dee5d4bc5e3cb7ed1393500",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-12-travel-planning/after-reservations.png",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/d5d5421a813ef6d6e0ede2cbcb01f5ac8f6796b8/research/audits/2026-11-12-travel-planning/after-reservations.png",
+      "httpStatus": 200,
+      "bytes": 44180,
+      "sha256": "54e93d4c28fd7c21e3432ef748c0456d34884cb06309eba3545ad0b1056359b6",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-12-travel-planning/after-saved-places-320.png",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/d5d5421a813ef6d6e0ede2cbcb01f5ac8f6796b8/research/audits/2026-11-12-travel-planning/after-saved-places-320.png",
+      "httpStatus": 200,
+      "bytes": 157933,
+      "sha256": "975afabc9532ebf6c6da20cd2dcb73cf52db5b3fe62fba1861399058325b882f",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-12-travel-planning/after-saved-places.png",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/d5d5421a813ef6d6e0ede2cbcb01f5ac8f6796b8/research/audits/2026-11-12-travel-planning/after-saved-places.png",
+      "httpStatus": 200,
+      "bytes": 60070,
+      "sha256": "1df5fc513437e7eb11178176ac971caf4e11d5a95445224215dc6ba2137f4392",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-12-travel-planning/verification.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/d5d5421a813ef6d6e0ede2cbcb01f5ac8f6796b8/research/audits/2026-11-12-travel-planning/verification.json",
+      "httpStatus": 200,
+      "bytes": 825,
+      "sha256": "eb459281ab795be0a5af7e310f575265a174ac9475231882801ca4167f607eb3",
+      "matchesBuildSource": true
+    }
+  ],
+  "publicVerifiedAt": "2026-11-12T01:09:41.680891+00:00"
 }

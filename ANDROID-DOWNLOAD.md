@@ -12,6 +12,8 @@
 
 PC·모바일 고유252개, 최종 관련42개/22개 재검사와 Android 빌드·기존 서명·최종 웹 자산19개 일치를 확인했습니다. 실제 Android 설치·제조사 키보드/갤러리·Google 로그인·두 휴대폰 동기화는 미검증입니다. [비교·사용·보존 범위](TRAVEL-PLANNING-UPGRADE.md), [현재 화면과 검사](research/audits/2026-11-12-travel-planning/README.md), [배포 검증](research/release-0.86-verification.json).
 
+공개 확인:0.86 고정APK와 최신 별칭2개를 인증 없이 내려받아 HTTP200·6,390,388bytes·SHA-256·기존 서명을 확인했습니다. 공개 소스·문서·화면31개 파일도 바이트와 해시가 일치했습니다. [실제 결과](research/release-0.86-verification.json).
+
 ## 0.85 이전 배포
 
 [J★Do 0.85 개발판 APK 다운로드](https://raw.githubusercontent.com/rjs198426-lang/JIdo/ed1796630d246c49060f449b0e4e69a006ce444b/JDo-android-0.85.apk)
