@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-12",
+  "syntheticDataOnly": true,
+  "runs": {
+    "fullSuite": {
+      "passed": 278,
+      "failed": 0,
+      "minutes": 7.7
+    },
+    "finalRelated": {
+      "passed": 68,
+      "failed": 0,
+      "minutes": 2.3
+    },
+    "uniqueCasesPassedAcrossRuns": 280,
+    "overlapNotAdded": true,
+    "fullSuiteAtFinalSource": false
+  },
+  "viewports": [
+    320,
+    393,
+    768,
+    1440
+  ],
+  "webAssets": 19,
+  "webBytes": 4427293,
+  "realNativeInstallTested": false,
+  "realGoogleOAuthTested": false,
+  "realTwoPhoneSyncTested": false
+}

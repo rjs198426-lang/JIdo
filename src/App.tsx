@@ -1,3 +1,5 @@
+import QuickPlan from './QuickPlan'
+import { appendPlanLines } from './plan-paste'
 import { App as NativeApp } from '@capacitor/app'
 import { Capacitor } from '@capacitor/core'
 import {
@@ -148,6 +150,14 @@ type Page = 'home' | 'trips' | 'settings'
 type LibraryTarget = { type: 'place-library'; tripId: string; day: number }
 type Dialog =
   | LibraryTarget
+  | { type: 'quick-add'; tripId: string; day: number }
+  | { type: 'quick-files'; tripId: string; day: number }
+  | {
+      type: 'quick-booking'
+      tripId: string
+      day: number
+      kind: import('./travel-model').Reservation['kind']
+    }
   | {
       type: 'personal-place'
       personalId?: string
@@ -353,6 +363,7 @@ function Itinerary({
   onOpen,
   onPhotos,
   onSavedPlaces,
+  onQuick,
   onPlanning,
   focused,
   onFilesChange,
@@ -366,6 +377,7 @@ function Itinerary({
   onQuickExpense: (stop?: Stop) => void
   onFilesChange: (change: (current: Trip) => Trip) => boolean | void
   isAttachmentShared: (id: string) => boolean
+  onQuick: () => void
   onSavedPlaces: () => void
   onPlanning: () => void
   focused?: boolean
@@ -1592,6 +1604,10 @@ function Itinerary({
           )}
         </div>
       </div>
+      <button className="quick-add-fab" onClick={onQuick}>
+        <Plus size={22} />
+        빠른 추가
+      </button>
     </TripFilesProvider>
   )
 }
@@ -1645,6 +1661,7 @@ export default function App() {
   const [workspaceEntry, setWorkspaceEntry] = useState<
     'trip' | 'reservations' | 'expenses'
   >(initialSession?.workspaceEntry || 'trip')
+  const [homeTripId, setHomeTripId] = useState(initialSession?.homeTripId || '')
   const [tripLibrary, setTripLibrary] = useState(
     initialSession?.tripLibrary ?? true,
   )
@@ -1917,6 +1934,19 @@ export default function App() {
     }
     setToast(close ? '일정에 장소를 추가했어요.' : '')
   }
+  const quickAction = (trip: Trip, day: number, action?: string) => {
+    setActiveTripId(trip.id)
+    setActiveDay(day)
+    if (action === 'expense')
+      setDialog({ type: 'expense', tripId: trip.id, day })
+    else if (action === 'files')
+      setDialog({ type: 'quick-files', tripId: trip.id, day })
+    else if (action === 'place')
+      setDialog({ type: 'picker', tripId: trip.id, day })
+    else if (action === '항공' || action === '숙소')
+      setDialog({ type: 'quick-booking', tripId: trip.id, day, kind: action })
+    else setDialog({ type: 'quick-add', tripId: trip.id, day })
+  }
   const registered = useMemo(
     () => libraryPlaces(store.trips, store.placeLibrary),
     [store.trips, store.placeLibrary],
@@ -1952,6 +1982,7 @@ export default function App() {
       page,
       tripLibrary,
       workspaceEntry,
+      homeTripId,
       activeTripId: activeTrip?.id || '',
       day: activeDay,
       // Retain the old navigation envelope without guide-search state.
@@ -2084,6 +2115,14 @@ export default function App() {
         {page === 'home' && (
           <PlannerHome
             trips={store.trips}
+            selectedTripId={homeTripId}
+            onSyncTrip={setActiveTripId}
+            onSelectTrip={(id) => {
+              setHomeTripId(id)
+              setActiveTripId(id)
+            }}
+            onQuick={quickAction}
+            onChange={changeTripFiles}
             activeTripId={activeTripId}
             onPhotos={(trip) => setDialog({ type: 'photos', tripId: trip.id })}
             onCreate={() => setDialog({ type: 'create' })}
@@ -2210,6 +2249,7 @@ export default function App() {
                     </label>
                   )}
                 <Itinerary
+                  onQuick={() => quickAction(activeTrip, activeDay)}
                   focused={
                     workspaceEntry !== 'trip' &&
                     (navWorkspace === 'reservations' ||
@@ -2399,6 +2439,86 @@ export default function App() {
         </Modal>
       )}
 
+      {dialog &&
+        ['quick-add', 'quick-files', 'quick-booking'].includes(dialog.type) &&
+        'tripId' in dialog &&
+        'day' in dialog &&
+        (() => {
+          const trip = store.trips.find((item) => item.id === dialog.tripId)
+          if (!trip || !trip.days[dialog.day]) return null
+          return (
+            <Modal
+              key={dialog.type}
+              title={
+                dialog.type === 'quick-add'
+                  ? '빠른 추가'
+                  : dialog.type === 'quick-files'
+                    ? '여행 자료'
+                    : '예약 빠르게 기록'
+              }
+              onClose={() => setDialog(null)}
+            >
+              {dialog.type === 'quick-add' ? (
+                <QuickPlan
+                  trip={trip}
+                  day={dialog.day}
+                  onAction={(action, day) => quickAction(trip, day, action)}
+                  onSave={(day, lines) => {
+                    try {
+                      if (
+                        changeTripFiles(trip.id, (current) =>
+                          appendPlanLines(current, day, lines),
+                        ) === false
+                      )
+                        return false
+                      saveJourneyPreference(trip, day, 'schedule')
+                      setActiveTripId(trip.id)
+                      setActiveDay(day)
+                      setDialog(null)
+                      navigate('trips', true)
+                      setNavWorkspace('schedule')
+                      setReminderRevision((value) => value + 1)
+                      setToast(`${lines.length}개 일정을 추가했어요.`)
+                      return true
+                    } catch (reason) {
+                      setToast(
+                        reason instanceof Error
+                          ? reason.message
+                          : '일정을 추가하지 못했어요.',
+                      )
+                      return false
+                    }
+                  }}
+                />
+              ) : (
+                <TripFilesProvider
+                  trip={trip}
+                  onChange={(change) => changeTripFiles(trip.id, change)}
+                  isShared={(id) => sharedFile(trip.id, id)}
+                >
+                  <div className="modal-body">
+                    {dialog.type === 'quick-booking' ? (
+                      <Reservations
+                        trip={trip}
+                        day={dialog.day}
+                        initialKind={dialog.kind}
+                        formOnly
+                        onUpdate={updateTrip}
+                        onSaved={() => {
+                          setDialog(null)
+                          setToast('예약을 저장했어요.')
+                        }}
+                        onCancel={() => setDialog(null)}
+                      />
+                    ) : (
+                      <AttachmentsPanel all trip={trip} />
+                    )}
+                  </div>
+                </TripFilesProvider>
+              )}
+            </Modal>
+          )
+        })()}
       {dialog?.type === 'place-library' &&
         (() => {
           const trip = store.trips.find((item) => item.id === dialog.tripId)

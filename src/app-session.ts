@@ -24,6 +24,14 @@ const dialogSchema = z.discriminatedUnion('type', [
   z.object({ type: z.literal('guidebooks') }),
   z.object({ type: z.literal('backup') }),
   z.object({ type: z.literal('place-library'), tripId: text, day }),
+  z.object({ type: z.literal('quick-add'), tripId: text, day }),
+  z.object({ type: z.literal('quick-files'), tripId: text, day }),
+  z.object({
+    type: z.literal('quick-booking'),
+    tripId: text,
+    day,
+    kind: z.enum(['항공', '숙소', '교통', '체험', '기타']),
+  }),
   z.object({
     type: z.literal('city'),
     id: text,
@@ -60,6 +68,7 @@ const schema = z.object({
   page: z.enum(['home', 'trips', 'explore', 'settings']),
   tripLibrary: z.boolean(),
   workspaceEntry: z.enum(['trip', 'reservations', 'expenses']).optional(),
+  homeTripId: text.optional(),
   activeTripId: text,
   day,
   query: text,

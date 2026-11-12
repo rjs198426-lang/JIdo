@@ -44,6 +44,7 @@ export default function AttachmentsPanel({
   imagesOnly = false,
   all = false,
   readOnly = false,
+  maxVisible,
   trip,
 }: {
   reservationId?: string
@@ -52,6 +53,7 @@ export default function AttachmentsPanel({
   imagesOnly?: boolean
   all?: boolean
   readOnly?: boolean
+  maxVisible?: number
   trip?: Trip
 }) {
   const context = useContext(AttachmentsContext)
@@ -242,7 +244,7 @@ export default function AttachmentsPanel({
           }}
         />
       )}
-      {all && scope.length > 0 && (
+      {all && !readOnly && scope.length > 0 && (
         <input
           className="attachment-search"
           aria-label="첨부 자료 검색"
@@ -252,7 +254,7 @@ export default function AttachmentsPanel({
         />
       )}
       {busy && <p role="status">선택한 자료를 기기에 저장하고 있어요.</p>}
-      {all && scope.length > 0 && (
+      {all && !readOnly && scope.length > 0 && (
         <>
           <div
             className="journey-filter-row"
@@ -280,7 +282,7 @@ export default function AttachmentsPanel({
         </p>
       )}
       <div className={`attachment-list ${imagesOnly ? 'photo-gallery' : ''}`}>
-        {files.map((file) => (
+        {files.slice(0, maxVisible).map((file) => (
           <article key={file.id} data-attachment-id={file.id} tabIndex={-1}>
             <button
               className="attachment-open"

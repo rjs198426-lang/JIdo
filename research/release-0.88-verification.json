@@ -1,0 +1,40 @@
+{
+  "version": "0.88",
+  "versionCode": 89,
+  "package": "com.jido.travel.next",
+  "bytes": 6397616,
+  "sha256": "7b3368a747027b2a7b1222eab1505ce07abe0ce9d9db9850e918b82c320c99a8",
+  "certificateSha256": "0d1b1f20dae73d00626d9ebb4f460943c4f16c2266bc7bc58d124d13b32494ac",
+  "signatureVerified": true,
+  "matchedWebAssets": 19,
+  "privateSigningFilesFound": false,
+  "existingMapsConfigurationBundled": true,
+  "nativeDeviceInstallTested": false,
+  "checkedAt": "2026-11-12T05:42:59.712904+00:00",
+  "sourceBaseCommit": "213a548abd6870f2f8091f903df9a0528d76880a",
+  "scope": "Modern actionable travel dashboard, quick-add sheets, reviewed bulk plans, explicit booking-text fields and unified mobile design with existing records and compatibility preserved",
+  "browserTestsPassed": 280,
+  "realGoogleLoginTested": false,
+  "realTwoDeviceSyncTested": false,
+  "publicCommit": "0714f18c8e68ca17fd9d8398366ae83a8f3bea90",
+  "webBytes": 4427293,
+  "androidBuildSeconds": 52,
+  "verificationRuns": {
+    "fullSuite": {
+      "passed": 278,
+      "failed": 0,
+      "minutes": 7.7
+    },
+    "finalRelated": {
+      "passed": 68,
+      "failed": 0,
+      "minutes": 2.3
+    },
+    "uniqueCasesPassedAcrossRuns": 280,
+    "overlapNotAdded": true,
+    "fullSuiteAtFinalSource": false
+  },
+  "noNewRequiredTravelFields": true,
+  "bookingTextSentToExternalService": false,
+  "preservesAttachmentPurposeBuild": 88
+}

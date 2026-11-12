@@ -2514,3 +2514,173 @@ body {
 :root .trip-overview .input-search { margin: 10px 0; }
 :root .overview-bookings { color: #087b70; }
 :root .reservation-search { margin: 15px 0; }
+
+/* 0.88: an actionable travel dashboard and a consistent mobile surface. */
+:root {
+  --green: #11796f;
+  --deep: #153f3b;
+  --muted: #63767c;
+  --line: #e4ebed;
+}
+:root body { background: #f3f6f7; color: #20343c; }
+:root .main { max-width: 1160px; padding-bottom: calc(var(--jido-bottom-nav-height, 88px) + 110px); }
+:root :is(p, .field, .workspace-panel, .create-form) { font-size: 18px; }
+:root :is(input, textarea, select) { font-size: 19px; border-radius: 15px; border-color: #dfe8e9; background: #f8fafb; min-height: 54px; }
+:root textarea { padding: 15px; line-height: 1.65; }
+:root .field { gap: 9px; margin-bottom: 19px; color: #425d65; font-weight: 550; }
+:root :is(h1, h2, h3, h4) { letter-spacing: -.025em; }
+:root :is(.page-title h1, .home-section-heading h1) { font-size: clamp(27px, 5.5vw, 34px); font-weight: 760; }
+:root .header { background: #ffffffed; border-bottom: 1px solid #e5ecee; backdrop-filter: blur(18px); }
+:root .header-inner { min-height: 68px; }
+:root .brand-mark { font-size: 38px; letter-spacing: -2.5px; }
+:root .button { min-height: 52px; border-radius: 15px; font-size: 18px; font-weight: 620; padding: 12px 19px; transition: background .15s, box-shadow .15s; }
+:root .button.primary { background: #11796f; border-color: #11796f; box-shadow: 0 4px 12px #0e746d16; }
+:root .button.outline { background: #fff; border: 1px solid #dfe8e9; color: #285952; }
+:root .icon-button { width: 50px; min-height: 50px; border-radius: 15px; background: #fff; border-color: #e3eaec; }
+:root .text-button { min-height: 50px; font-size: 17px; font-weight: 600; }
+:root .bottom-nav { background: #ffffffed; backdrop-filter: blur(20px); box-shadow: 0 -8px 30px #253f3f08; border-top: 1px solid #e6ecee; }
+:root .bottom-nav button { min-height: 64px; gap: 4px; color: #718087; font-size: 14px; }
+:root .bottom-nav button > span { border-radius: 15px; min-width: 56px; }
+:root .bottom-nav button.active { color: #116d63; font-weight: 720; }
+:root .bottom-nav button.active > span { background: #dcefe8; }
+:root .bottom-nav svg { width: 24px; height: 24px; stroke-width: 1.85; }
+:root .quick-add-fab { position: fixed; z-index: 35; right: max(22px, calc((100vw - 1120px)/2)); bottom: calc(var(--jido-bottom-nav-height, 88px) + 18px); display: inline-flex; align-items: center; gap: 9px; border: 1px solid #ffffff40; border-radius: 20px; min-height: 58px; padding: 13px 22px; background: #163f3b; color: #fff; font-size: 18px; font-weight: 650; box-shadow: 0 8px 26px #173e3c26; }
+:root .planner-home .home-section-heading { align-items: center; margin-bottom: 15px; }
+:root .home-trip-switch { display: flex; align-items: center; gap: 10px; margin-bottom: 24px; font-size: 16px; color: #60767a; }
+:root .home-trip-switch select { width: auto; max-width: 82%; min-width: 0; flex: 1; font-size: 18px; min-height: 50px; background: white; }
+:root .home-kicker { color: #587d75; font-size: 16px; font-weight: 600; margin-bottom: 6px; }
+:root .planner-trip-summary { position: relative; border: 0; border-radius: 26px; padding: 26px 145px 24px 26px; min-height: 225px; background: #163f3b; color: #eef9f4; box-shadow: 0 10px 30px #163f3b0c; }
+:root .planner-trip-summary:has(.planner-cover-photo) { padding-right: 39%; min-height: 240px; }
+:root .planner-trip-summary p { font-size: 18px; line-height: 1.6; margin: 10px 0; color: #d6e8e0; }
+:root .planner-trip-summary .home-phase { background: #ffffff18; border: 1px solid #ffffff20; color: #e3f7eb; font-size: 16px; padding: 8px 12px; }
+:root .planner-trip-summary .button.primary { color: #194e41; background: #d8eed7; border-color: #d8eed7; margin-top: 8px; min-height: 52px; box-shadow: none; }
+:root .hero-travel-icon { position: absolute; right: 32px; top: 44px; transform: rotate(-15deg); color: #c0e2d2; opacity: .3; pointer-events: none; }
+:root .planner-trip-summary .planner-photo-button { color: #e4f2ed; font-size: 15px; min-height: 48px; margin: 8px 0 0; }
+:root .planner-cover-photo { width: 34%; height: 100%; object-fit: cover; }
+:root .planner-shortcuts { margin: 18px 0 24px; gap: 10px; }
+:root .planner-shortcuts button { min-height: 94px; border-radius: 20px; padding: 12px 3px; gap: 11px; box-shadow: 0 3px 12px #183e3403; }
+:root .planner-shortcuts span { font-size: 17px; color: #37545a; font-weight: 600; }
+:root .planner-panel { padding: 24px; margin: 18px 0; border-radius: 24px; border: 1px solid #edf1f2; box-shadow: 0 4px 24px #1b343b03; }
+:root .planner-panel h2 { font-size: 23px; font-weight: 720; display: flex; align-items: center; gap: 8px; }
+:root .planner-panel .home-section-heading { margin: 0; }
+:root .planner-panel .home-section-heading > .text-button { font-size: 16px; padding-inline: 0; }
+:root .planner-panel > .muted { margin-block: 9px 17px; font-size: 17px; }
+:root .planner-day-preview li { display: grid; grid-template-columns: 50px 66px minmax(0,1fr); gap: 10px; align-items: center; min-height: 78px; padding: 12px 0; }
+:root .home-complete { display: grid; place-items: center; width: 50px; height: 50px; border: 0; background: transparent; color: #6f8a84; }
+:root .home-complete svg { border: 1.5px solid #bed0cc; border-radius: 50%; padding: 5px; box-sizing: content-box; }
+:root .home-complete[aria-pressed='true'] svg { background: #137c69; color: #fff; border-color: #137c69; }
+:root .planner-day-preview li > span { font-size: 16px; font-variant-numeric: tabular-nums; }
+:root .home-stop-details { text-align: left; min-width: 0; padding: 6px 0; border: 0; background: transparent; min-height: 50px; }
+:root .home-stop-details strong { display: block; font-size: 20px; font-weight: 650; color: #253e45; }
+:root .home-stop-details small { display: block; color: #6f8084; font-size: 16px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-top: 5px; }
+:root .is-done .home-stop-details strong { color: #80928e; text-decoration: line-through; }
+:root .home-booking-card { padding: 21px 0; border-top: 1px solid #e6edef; }
+:root .home-booking-card:first-of-type { border-top: 0; }
+:root .home-booking-heading { display: flex; align-items: center; gap: 10px; }
+:root .home-booking-heading > svg { flex: 0 0 auto; color: #227f72; }
+:root .home-booking-heading > strong { font-size: 20px; flex: 1; min-width: 0; overflow-wrap: anywhere; }
+:root .home-booking-heading > span { font-size: 14px; white-space: nowrap; color: #247b68; background: #edf6f0; border-radius: 7px; padding: 5px 8px; }
+:root .home-flight-route { display: flex; align-items: center; justify-content: space-between; gap: 16px; background: #f2f7f6; border-radius: 14px; margin: 15px 0 10px; padding: 15px 17px; }
+:root .home-flight-route strong { font-size: 24px; }
+:root .home-booking-card p { font-size: 16px; color: #667d82; line-height: 1.6; margin: 10px 0 4px; }
+:root .home-booking-reference { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; margin: 5px 0; }
+:root .home-booking-reference span { font-size: 16px; color: #637d80; flex: 1; overflow-wrap: anywhere; }
+:root .home-booking-reference strong { color: #224b47; font-size: 19px; margin-inline-start: 9px; user-select: text; }
+:root .home-booking-reference .text-button { font-size: 16px; }
+:root .home-booking-card .attachments-panel { margin-top: 12px; padding: 0; }
+:root .home-booking-card .attachment-heading, :root .home-documents .attachment-heading { display: none; }
+:root .home-booking-card .attachment-list article, :root .home-documents .attachment-list article { border: 1px solid #e4ece9; border-radius: 13px; padding: 5px 10px; background: #f7faf9; margin-top: 9px; }
+:root .home-booking-card .attachment-open, :root .home-documents .attachment-open { min-height: 50px; }
+:root .home-booking-card .attachment-open small { display: none; }
+:root .home-booking-card .attachment-open strong, :root .home-documents .attachment-open strong { font-size: 17px; }
+:root .home-check-row { display: flex; align-items: center; gap: 14px; min-height: 65px; border-top: 1px solid #eaf0ee; padding: 12px 0; font-size: 19px; color: #304d52; cursor: pointer; }
+:root .home-check-row:first-of-type { border-top: 0; }
+:root .home-check-row input, :root .paste-preview input { min-height: 24px; width: 24px; height: 24px; accent-color: #16806c; flex: 0 0 auto; }
+:root .home-check-row span { min-width: 0; overflow-wrap: anywhere; }
+:root .home-check-row small { display: block; color: #758883; font-size: 15px; margin-top: 4px; }
+:root .planner-metrics { border: 1px solid #e6edeb; border-radius: 22px; background: #edf4f0; padding: 18px; }
+:root .planner-metrics button { background: transparent; border: 0; }
+:root .planner-metrics strong { font-size: 24px; color: #164c40; }
+:root .trip-library-card { border-radius: 23px; padding: 21px; border: 1px solid #e7eeed; box-shadow: 0 5px 20px #203d3603; }
+:root .trip-library-copy strong { font-size: 23px; font-weight: 700; }
+:root .trip-library-copy small { font-size: 16px; }
+:root .trip-library .trip-library-placeholder { border-radius: 18px; background: #e8f2ec; }
+:root .trip-header-copy h2, :root .itinerary h2 { font-size: 29px; }
+:root .workspace-tabs { gap: 3px; border-radius: 18px; background: #e8eeed; padding: 5px; }
+:root .workspace-tabs > button { min-height: 54px; font-size: 18px; border-radius: 13px; color: #617677; }
+:root .workspace-tabs > button[aria-selected='true'] { background: #fff; color: #183f38; box-shadow: 0 2px 8px #173f3210; }
+:root .itinerary .workspace-view-switch { gap: 6px; margin-block: 16px 12px; }
+:root .itinerary .workspace-view-switch > button { min-height: 50px; border-radius: 12px; font-size: 17px; }
+:root .trip-overview { border-radius: 14px; border: 1px solid #e5edeb; padding: 3px 13px; background: #fff; }
+:root .day-content .day-header { margin-top: 20px; }
+:root .stop-card { border: 1px solid #e5eceb; border-radius: 23px; box-shadow: 0 5px 20px #243e3704; padding: 23px; }
+:root .stop-place strong { font-size: 22px; font-weight: 680; }
+:root .stop-read-note { font-size: 18px; line-height: 1.55; }
+:root .stop-card .stop-expand { border-radius: 10px; color: #617d79; min-height: 46px; font-size: 15px; }
+:root .reservation-list > article { border-radius: 22px; background: white; border: 1px solid #e3ebe8; padding: 23px; margin-bottom: 16px; }
+:root .reservation-copy h4 { font-size: 23px; }
+:root .reservation-details { font-size: 17px; }
+:root .flight-times { background: #edf6f1; border-radius: 16px; padding: 16px; }
+:root .expense-tabs { border-radius: 16px; background: #e8eeec; padding: 4px; }
+:root .expense-tabs button { border-radius: 12px; min-height: 51px; font-size: 17px; }
+:root .expense-toolbar, :root .expense-summary { border-radius: 23px; }
+:root .settings-page > section, :root .settings-card { border-radius: 23px; }
+:root .modal { border-radius: 26px; border: 1px solid #edf1f0; box-shadow: 0 20px 90px #18352d26; }
+:root .modal-header { padding: 19px 24px; background: #fff; }
+:root .modal-header h2 { font-size: 25px; }
+:root .modal-body, :root .create-form { padding: 24px; }
+:root .sheet-intro { margin: 0 0 18px; color: #244a42; font-size: 20px; font-weight: 650; }
+:root .sheet-intro span { display: block; color: #728780; font-size: 16px; font-weight: 400; margin-top: 6px; }
+:root .quick-action-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 10px; margin: 16px 0 26px; }
+:root .quick-action-grid button { display: flex; flex-direction: column; align-items: center; gap: 10px; min-height: 88px; border-radius: 17px; background: #edf5f1; color: #256452; border: 1px solid #e4efe7; padding: 12px 4px; font-size: 16px; font-weight: 600; }
+:root .quick-action-grid button span { white-space: nowrap; }
+:root .quick-plan h3 { display: flex; align-items: center; gap: 9px; font-size: 23px; margin: 10px 0 15px; }
+:root .quick-plan .muted { font-size: 16px; margin: -7px 0 18px; }
+:root .quick-plan .full { min-height: 56px; }
+:root .paste-preview { border: 1px solid #e0ebe5; border-radius: 17px; background: #f8fbf9; padding: 4px 15px; margin: 18px 0; max-height: 300px; overflow-y: auto; }
+:root .paste-preview label { display: flex; align-items: center; gap: 13px; min-height: 65px; padding: 12px 0; border-bottom: 1px solid #e4ede8; cursor: pointer; }
+:root .paste-preview label:last-child { border-bottom: 0; }
+:root .paste-preview span { min-width: 0; }
+:root .paste-preview strong { display: block; font-size: 19px; overflow-wrap: anywhere; }
+:root .paste-preview small { display: block; font-size: 15px; color: #6a8179; margin-top: 5px; overflow-wrap: anywhere; }
+:root .booking-paste { border-radius: 17px; padding: 15px; background: #eff6f2; border: 1px solid #dceae1; margin-bottom: 23px; }
+:root .booking-paste summary { display: flex; align-items: center; gap: 9px; min-height: 40px; font-size: 18px; color: #21644c; font-weight: 650; }
+:root .booking-paste .field { margin-top: 16px; }
+:root .quick-booking-form { padding: 0; }
+:root .quick-booking-form .inline-form { border: 0; margin: 0; padding: 0; background: transparent; }
+@media (max-width: 600px) {
+  :root .main { padding-inline: 20px; }
+  :root .planner-panel { padding: 20px; }
+  :root .planner-trip-summary { padding-left: 22px; }
+  :root .planner-shortcuts { gap: 8px; }
+  :root .planner-shortcuts span { font-size: 16px; }
+  :root .planner-shortcuts button { border-radius: 18px; min-height: 87px; }
+  :root .planner-day-preview li { grid-template-columns: 50px 62px minmax(0,1fr); gap: 7px; }
+  :root .home-stop-details strong { font-size: 20px; }
+  :root .home-complete { width: 50px; min-width: 50px; height: 50px; }
+  :root .modal-backdrop { padding: 16px 0 0; align-items: flex-end; }
+  :root .modal { width: 100%; max-width: 100%; max-height: calc(94dvh / .9); border-radius: 27px 27px 0 0; margin: 0; }
+  :root .modal::before { content: ''; display: block; width: 36px; height: 4px; background: #cfdcd7; margin: 10px auto 0; border-radius: 6px; flex: 0 0 auto; }
+  :root .modal-header { padding: 12px 22px 17px; }
+  :root .modal-header .icon-button { background: #f1f5f3; border: 0; }
+  :root .modal-body, :root .create-form { padding: 22px; }
+  :root .quick-plan > form { padding: 0; }
+  :root .quick-add-fab { right: 18px; padding-inline: 18px; }
+}
+@media (min-width: 960px) {
+  :root .planner-home { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 0 24px; }
+  :root .planner-home > :is(.home-section-heading,.home-trip-switch,.planner-trip-summary,.planner-shortcuts,.planner-welcome,.home-storage-note) { grid-column: 1 / -1; }
+  :root .planner-home .planner-panel { margin-top: 12px; }
+  :root .quick-add-fab { bottom: 28px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  :root .button, :root .modal, :root .modal-backdrop { animation: none; transition: none; }
+}
+/* Keep the summary compact so the actual plan reaches the first screen. */
+:root .planner-home .home-section-heading h1 { font-size: 30px; line-height: 1.28; }
+:root .planner-trip-summary { min-height: 185px; padding: 22px 110px 22px 24px; }
+:root .planner-trip-summary:has(.planner-cover-photo) { min-height: 195px; }
+:root .planner-trip-summary p { margin: 7px 0; font-size: 17px; }
+:root .planner-trip-summary .planner-photo-button { position: absolute; right: 15px; top: 17px; bottom: auto; min-height: 46px; margin: 0; padding: 7px 10px; border-radius: 12px; background: #0c2f3266; }
+:root .hero-travel-icon { top: 85px; right: 24px; width: 66px; height: 66px; }
+:root .planner-shortcuts button { min-height: 78px; gap: 8px; }

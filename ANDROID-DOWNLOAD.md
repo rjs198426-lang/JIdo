@@ -1,5 +1,19 @@
 # J★Do Android 다운로드
 
+[J★Do 0.88 개발판 APK 다운로드](https://raw.githubusercontent.com/rjs198426-lang/JIdo/0714f18c8e68ca17fd9d8398366ae83a8f3bea90/JDo-android-0.88.apk)
+
+- 앱: **J★Do** (`com.jido.travel.next`)
+- 버전:0.88 개발판 · versionCode89 · Android7.0 이상
+- 크기:6,397,616 bytes (약6.4MB)
+- SHA-256:`7b3368a747027b2a7b1222eab1505ce07abe0ce9d9db9850e918b82c320c99a8`
+- 기존 인증서 SHA-256:`0d1b1f20dae73d00626d9ebb4f460943c4f16c2266bc7bc58d124d13b32494ac`
+
+기존 앱을 삭제하지 말고 업데이트로 설치하세요. 홈에서 예약 번호·자료·방문/준비 완료를 처리하고, 공통 빠른 추가와 여러 일정 붙여넣기·예약 문자 입력칸 채우기를 제공합니다. 홈·여행·예약·경비·설정·모바일 하단 입력 시트의 디자인을 함께 정리했습니다. 기존 여행·사진/자료 구분·개인 파일·백업·Drive 형식을 유지합니다.
+
+기본 전체278개 통과 후 홈 여행 선택/링크 확인을 보강해 관련68개를 재통과했습니다. 새2개를 포함한 고유 통과 수는280개이며 중복 합산하지 않았습니다. Android빌드·기존 서명·최종 웹 자산19개가 일치합니다. 실제 Android설치·키보드/파일 선택·Google로그인/휴대폰 두 대 동기화는 미검증입니다. [기능과 변경 화면](MODERN-TRAVEL-EXPERIENCE.md), [실제 검증 기록](research/release-0.88-verification.json).
+
+## 0.87 이전 배포
+
 [J★Do 0.87 개발판 APK 다운로드](https://raw.githubusercontent.com/rjs198426-lang/JIdo/ad6aa290dd98ff28f395f9bed98e7725eea83347/JDo-android-0.87.apk)
 
 - 앱: **J★Do** (`com.jido.travel.next`)

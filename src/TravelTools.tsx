@@ -1,3 +1,4 @@
+import BookingPaste from './BookingPaste'
 import { flightTimingIssue } from './reservation-timing'
 import { matchesReservation } from './reservation-search'
 import ReservationDetails, {
@@ -10,7 +11,7 @@ import {
   reservationPlaceKind,
   syncReservation,
 } from './finance'
-import { useState, type FormEvent } from 'react'
+import { useState, useEffect, useRef, type FormEvent } from 'react'
 import { Check, Plus, Trash2, Pencil, ExternalLink, Ticket } from 'lucide-react'
 import {
   currencies,
@@ -32,7 +33,20 @@ export { default as Checklist } from './PreparationChecklist'
 
 export { default as Expenses } from './ExpenseManager'
 
-export function Reservations({ trip, onUpdate, day = 0 }: Props) {
+export function Reservations({
+  trip,
+  onUpdate,
+  day = 0,
+  initialKind,
+  formOnly = false,
+  onSaved,
+  onCancel,
+}: Props & {
+  initialKind?: Reservation['kind']
+  formOnly?: boolean
+  onSaved?: () => void
+  onCancel?: () => void
+}) {
   const [query, setQuery] = useState('')
   const items = trip.reservations || []
   const blank = (kind: Reservation['kind'] = '숙소'): Reservation => ({
@@ -87,6 +101,13 @@ export function Reservations({ trip, onUpdate, day = 0 }: Props) {
   const [removed, setRemoved] = useState<Reservation | null>(null)
   const [filter, setFilter] = useState('전체')
   const [message, setMessage] = useState('')
+  const started = useRef(false)
+  useEffect(() => {
+    if (initialKind && !started.current) {
+      started.current = true
+      if (!form) setForm(blank(initialKind))
+    }
+  }, [initialKind, form])
   const set = (key: keyof Reservation, value: string | undefined) =>
     setForm((form) => (form ? { ...form, [key]: value } : null))
   function save(event: FormEvent) {
@@ -122,6 +143,12 @@ export function Reservations({ trip, onUpdate, day = 0 }: Props) {
       return
     setForm(null)
     setError('')
+    try {
+      localStorage.removeItem(`jido-draft:booking-text:${parsed.data.id}`)
+    } catch {
+      /* Optional draft. */
+    }
+    onSaved?.()
   }
   const visible = items
     .filter((item) => matchesReservation(item, query))
@@ -134,6 +161,244 @@ export function Reservations({ trip, onUpdate, day = 0 }: Props) {
         (filter === '취소' && item.status === 'cancelled'),
     )
     .sort((a, b) => (a.date + a.time).localeCompare(b.date + b.time))
+  const formView = form ? (
+    <form
+      className="inline-form"
+      onSubmit={save}
+      onInvalidCapture={(event) => {
+        const parent = (event.target as HTMLElement).closest('details')
+        if (parent) parent.open = true
+      }}
+    >
+      <BookingPaste
+        kind={form.kind}
+        draftId={form.id}
+        onApply={(value) =>
+          setForm({
+            ...form,
+            ...value,
+            flight: value.flight
+              ? { ...form.flight, ...value.flight }
+              : form.flight,
+            stay: value.stay ? { ...form.stay, ...value.stay } : form.stay,
+          })
+        }
+      />
+      <label className="field">
+        예약 이름
+        <input
+          required
+          maxLength={160}
+          value={form.title}
+          onChange={(event) => set('title', event.target.value)}
+          placeholder="예: 파리 3박 숙소"
+        />
+      </label>
+      <div className="form-row">
+        <label className="field">
+          예약 유형
+          <select
+            value={form.kind}
+            onChange={(event) =>
+              setForm({
+                ...form,
+                kind: event.target.value as Reservation['kind'],
+                endDate:
+                  event.target.value === '숙소' && form.date
+                    ? dateAt(form.date, 1)
+                    : undefined,
+              })
+            }
+          >
+            {['항공', '숙소', '교통', '체험', '기타'].map((value) => (
+              <option key={value}>{value}</option>
+            ))}
+          </select>
+        </label>
+        <label className="field">
+          예약 번호
+          <input
+            maxLength={200}
+            value={form.reference}
+            onChange={(event) => set('reference', event.target.value)}
+          />
+        </label>
+      </div>
+      <div className="form-row">
+        <label className="field">
+          {form.kind === '항공'
+            ? '출발 날짜'
+            : form.kind === '숙소'
+              ? '체크인 날짜'
+              : '이용 날짜'}
+          <input
+            required
+            type="date"
+            value={form.date}
+            onChange={(event) => {
+              const date = event.target.value
+              setForm({
+                ...form,
+                date,
+                endDate:
+                  form.kind === '숙소' &&
+                  date &&
+                  (!form.endDate || form.endDate <= date)
+                    ? dateAt(date, 1)
+                    : form.endDate,
+              })
+            }}
+          />
+        </label>
+        <label className="field">
+          {form.kind === '항공'
+            ? '출발 시간'
+            : form.kind === '숙소'
+              ? '체크인 시간'
+              : '이용 시간'}
+          <input
+            type="time"
+            value={form.time}
+            onChange={(event) => set('time', event.target.value)}
+          />
+        </label>
+      </div>
+      {form.kind !== '항공' && (
+        <>
+          {' '}
+          <label className="field">
+            {form.kind === '숙소' ? '체크아웃 날짜' : '이용 종료일'}
+            <input
+              type="date"
+              required={form.kind === '숙소'}
+              min={
+                form.kind === '숙소' && form.date
+                  ? dateAt(form.date, 1)
+                  : form.date
+              }
+              value={form.endDate || ''}
+              onChange={(event) =>
+                set('endDate', event.target.value || undefined)
+              }
+            />
+          </label>
+        </>
+      )}
+      <ReservationDetailsFields value={form} onChange={setForm} />
+      <label className="field">
+        예약 상태
+        <select
+          value={form.status || 'pending'}
+          onChange={(event) => set('status', event.target.value)}
+        >
+          <option value="pending">확인 필요</option>
+          <option value="confirmed">확정</option>
+          <option value="cancelled">취소</option>
+        </select>
+      </label>
+      <details className="reservation-cost-fields">
+        <summary>비용·결제일</summary>
+        <div className="form-row">
+          <label className="field">
+            예약 비용
+            <input
+              type="number"
+              min={currencyStep(form.currency || 'KRW')}
+              max={1e9}
+              step={currencyStep(form.currency || 'KRW')}
+              value={form.cost ?? ''}
+              onChange={(event) =>
+                setForm({
+                  ...form,
+                  cost: event.target.value
+                    ? Number(event.target.value)
+                    : undefined,
+                })
+              }
+            />
+          </label>
+          <label className="field">
+            예약 비용 통화
+            <select
+              aria-label="예약 비용 통화"
+              value={form.currency || 'KRW'}
+              onChange={(event) => set('currency', event.target.value)}
+            >
+              {currencies.map((value) => (
+                <option key={value}>{value}</option>
+              ))}
+            </select>
+          </label>
+        </div>
+        <div className="form-row">
+          <label className="field">
+            결제일 · 미입력 시 이용일
+            <input
+              type="date"
+              value={form.paymentDate || ''}
+              onChange={(event) =>
+                set('paymentDate', event.target.value || undefined)
+              }
+            />
+          </label>
+        </div>
+      </details>
+      <label className="field">
+        예약 장소·주소
+        <input
+          maxLength={500}
+          value={form.address}
+          onChange={(event) => set('address', event.target.value)}
+        />
+      </label>
+      <label className="field">
+        예약 확인 링크
+        <input
+          type="url"
+          maxLength={1500}
+          value={form.link}
+          onChange={(event) => set('link', event.target.value)}
+          placeholder="https://"
+        />
+      </label>
+      <label className="field">
+        예약 메모
+        <textarea
+          maxLength={2000}
+          value={form.note}
+          onChange={(event) => set('note', event.target.value)}
+          placeholder="체크인 방법, 수하물 규정, 취소 기한"
+        />
+      </label>
+      <AttachmentsPanel reservationId={form.id} />
+      {error && (
+        <p role="alert" className="form-error">
+          {error}
+        </p>
+      )}
+      <div className="form-row">
+        <button
+          className="button outline"
+          type="button"
+          onClick={() => {
+            setForm(null)
+            onCancel?.()
+          }}
+        >
+          취소
+        </button>
+        <button className="button primary" type="submit">
+          예약 정보 저장
+        </button>
+      </div>
+    </form>
+  ) : null
+  if (formOnly)
+    return (
+      <section className="workspace-panel quick-booking-form">
+        {formView}
+      </section>
+    )
   return (
     <section className="workspace-panel">
       <div className="tool-heading">
@@ -212,221 +477,7 @@ export function Reservations({ trip, onUpdate, day = 0 }: Props) {
         </label>
       )}
       {message && <p role="status">{message}</p>}
-      {form && (
-        <form
-          className="inline-form"
-          onSubmit={save}
-          onInvalidCapture={(event) => {
-            const parent = (event.target as HTMLElement).closest('details')
-            if (parent) parent.open = true
-          }}
-        >
-          <label className="field">
-            예약 이름
-            <input
-              required
-              maxLength={160}
-              value={form.title}
-              onChange={(event) => set('title', event.target.value)}
-              placeholder="예: 파리 3박 숙소"
-            />
-          </label>
-          <div className="form-row">
-            <label className="field">
-              예약 유형
-              <select
-                value={form.kind}
-                onChange={(event) =>
-                  setForm({
-                    ...form,
-                    kind: event.target.value as Reservation['kind'],
-                    endDate:
-                      event.target.value === '숙소' && form.date
-                        ? dateAt(form.date, 1)
-                        : undefined,
-                  })
-                }
-              >
-                {['항공', '숙소', '교통', '체험', '기타'].map((value) => (
-                  <option key={value}>{value}</option>
-                ))}
-              </select>
-            </label>
-            <label className="field">
-              예약 번호
-              <input
-                maxLength={200}
-                value={form.reference}
-                onChange={(event) => set('reference', event.target.value)}
-              />
-            </label>
-          </div>
-          <div className="form-row">
-            <label className="field">
-              {form.kind === '항공'
-                ? '출발 날짜'
-                : form.kind === '숙소'
-                  ? '체크인 날짜'
-                  : '이용 날짜'}
-              <input
-                required
-                type="date"
-                value={form.date}
-                onChange={(event) => {
-                  const date = event.target.value
-                  setForm({
-                    ...form,
-                    date,
-                    endDate:
-                      form.kind === '숙소' &&
-                      date &&
-                      (!form.endDate || form.endDate <= date)
-                        ? dateAt(date, 1)
-                        : form.endDate,
-                  })
-                }}
-              />
-            </label>
-            <label className="field">
-              {form.kind === '항공'
-                ? '출발 시간'
-                : form.kind === '숙소'
-                  ? '체크인 시간'
-                  : '이용 시간'}
-              <input
-                type="time"
-                value={form.time}
-                onChange={(event) => set('time', event.target.value)}
-              />
-            </label>
-          </div>
-          {form.kind !== '항공' && (
-            <>
-              {' '}
-              <label className="field">
-                {form.kind === '숙소' ? '체크아웃 날짜' : '이용 종료일'}
-                <input
-                  type="date"
-                  required={form.kind === '숙소'}
-                  min={
-                    form.kind === '숙소' && form.date
-                      ? dateAt(form.date, 1)
-                      : form.date
-                  }
-                  value={form.endDate || ''}
-                  onChange={(event) =>
-                    set('endDate', event.target.value || undefined)
-                  }
-                />
-              </label>
-            </>
-          )}
-          <ReservationDetailsFields value={form} onChange={setForm} />
-          <label className="field">
-            예약 상태
-            <select
-              value={form.status || 'pending'}
-              onChange={(event) => set('status', event.target.value)}
-            >
-              <option value="pending">확인 필요</option>
-              <option value="confirmed">확정</option>
-              <option value="cancelled">취소</option>
-            </select>
-          </label>
-          <details className="reservation-cost-fields">
-            <summary>비용·결제일</summary>
-            <div className="form-row">
-              <label className="field">
-                예약 비용
-                <input
-                  type="number"
-                  min={currencyStep(form.currency || 'KRW')}
-                  max={1e9}
-                  step={currencyStep(form.currency || 'KRW')}
-                  value={form.cost ?? ''}
-                  onChange={(event) =>
-                    setForm({
-                      ...form,
-                      cost: event.target.value
-                        ? Number(event.target.value)
-                        : undefined,
-                    })
-                  }
-                />
-              </label>
-              <label className="field">
-                예약 비용 통화
-                <select
-                  aria-label="예약 비용 통화"
-                  value={form.currency || 'KRW'}
-                  onChange={(event) => set('currency', event.target.value)}
-                >
-                  {currencies.map((value) => (
-                    <option key={value}>{value}</option>
-                  ))}
-                </select>
-              </label>
-            </div>
-            <div className="form-row">
-              <label className="field">
-                결제일 · 미입력 시 이용일
-                <input
-                  type="date"
-                  value={form.paymentDate || ''}
-                  onChange={(event) =>
-                    set('paymentDate', event.target.value || undefined)
-                  }
-                />
-              </label>
-            </div>
-          </details>
-          <label className="field">
-            예약 장소·주소
-            <input
-              maxLength={500}
-              value={form.address}
-              onChange={(event) => set('address', event.target.value)}
-            />
-          </label>
-          <label className="field">
-            예약 확인 링크
-            <input
-              type="url"
-              maxLength={1500}
-              value={form.link}
-              onChange={(event) => set('link', event.target.value)}
-              placeholder="https://"
-            />
-          </label>
-          <label className="field">
-            예약 메모
-            <textarea
-              maxLength={2000}
-              value={form.note}
-              onChange={(event) => set('note', event.target.value)}
-              placeholder="체크인 방법, 수하물 규정, 취소 기한"
-            />
-          </label>
-          <AttachmentsPanel reservationId={form.id} />
-          {error && (
-            <p role="alert" className="form-error">
-              {error}
-            </p>
-          )}
-          <div className="form-row">
-            <button
-              className="button outline"
-              type="button"
-              onClick={() => setForm(null)}
-            >
-              취소
-            </button>
-            <button className="button primary" type="submit">
-              예약 정보 저장
-            </button>
-          </div>
-        </form>
-      )}
+      {formView}
       {!items.length && !form && (
         <div className="workspace-empty">
           <Ticket size={32} />
