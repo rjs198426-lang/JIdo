@@ -5,6 +5,8 @@ export default defineConfig({
   // 0.83 ships personal planning/reservations/finance, not the archived guide UI.
   // Old guide/discovery specs remain in Git for their historical versions.
   testMatch: [
+    '**/compact-layout.spec.ts',
+    '**/compact-density.spec.ts',
     '**/modern-experience.spec.ts',
     '**/travel-planning-upgrade.spec.ts',
     '**/post-guide-cleanup.spec.ts',

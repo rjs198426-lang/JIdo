@@ -1,0 +1,18 @@
+{
+  "home": {
+    "height": 1618,
+    "firstStop": null
+  },
+  "schedule": {
+    "height": 1111,
+    "firstStop": 599.703125
+  },
+  "reservations": {
+    "height": 1415,
+    "firstStop": null
+  },
+  "expenses": {
+    "height": 890,
+    "firstStop": null
+  }
+}

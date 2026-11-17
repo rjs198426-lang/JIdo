@@ -182,33 +182,25 @@ export default function PlannerHome({
           </button>
         </div>
         <div className="planner-trip-summary">
-          <TripPhoto
-            trip={trip}
-            className="planner-cover-photo"
-            fallback={
-              <Plane
-                className="hero-travel-icon"
-                size={88}
-                aria-hidden="true"
-              />
-            }
-          />
-          <span className="home-phase">
-            {entry.phase === 'upcoming'
-              ? `D-${entry.until}`
-              : entry.phase === 'ongoing'
-                ? '여행 중'
-                : '여행 기록'}
-          </span>
-          <p>
-            {formatDate(trip.startDate)} – {formatDate(trip.endDate)} ·{' '}
-            {trip.days.length}일
-          </p>
-          <p>
-            {trip.travelers === 1
-              ? '나 혼자'
-              : `나와 동행 ${trip.travelers - 1}명`}
-          </p>
+          <TripPhoto trip={trip} className="planner-cover-photo" />
+          <div className="home-summary-copy">
+            <span className="home-phase">
+              {entry.phase === 'upcoming'
+                ? `D-${entry.until}`
+                : entry.phase === 'ongoing'
+                  ? '여행 중'
+                  : '여행 기록'}
+            </span>
+            <p>
+              {formatDate(trip.startDate)} – {formatDate(trip.endDate)}
+            </p>
+            <small>
+              {trip.days.length}일 ·{' '}
+              {trip.travelers === 1
+                ? '나 혼자'
+                : `나와 동행 ${trip.travelers - 1}명`}
+            </small>
+          </div>
           <button
             className="button primary"
             onClick={() =>
@@ -218,12 +210,18 @@ export default function PlannerHome({
             {entry.phase === 'ongoing' ? '오늘 여행 열기' : '여행 계획 열기'}
             <ArrowRight size={18} />
           </button>
+        </div>
+        <div className="home-action-row">
           <button
             className="text-button planner-photo-button"
             onClick={() => onPhotos(trip)}
           >
             <Camera size={18} />
             여행 사진
+          </button>
+          <button className="quick-add-fab" onClick={() => onQuick(trip, day)}>
+            <Plus size={20} />
+            빠른 추가
           </button>
         </div>
         <nav className="planner-shortcuts" aria-label="여행 바로가기">
@@ -387,7 +385,12 @@ export default function PlannerHome({
         </section>
         <section className="planner-panel home-checklist">
           <div className="home-section-heading">
-            <h2>출발 전 할 일</h2>
+            <h2>
+              출발 전 할 일{' '}
+              <small>
+                {done}/{trip.checklist?.length || 0}
+              </small>
+            </h2>
             <button className="text-button" onClick={() => open('checklist')}>
               전체 보기 <ArrowRight size={16} />
             </button>
@@ -460,14 +463,6 @@ export default function PlannerHome({
           )}
         </section>
         <div className="planner-metrics">
-          <button onClick={() => open('checklist')}>
-            <span>준비물</span>
-            <strong>
-              {trip.checklist?.length
-                ? `${done}/${trip.checklist.length}`
-                : '목록 만들기'}
-            </strong>
-          </button>
           <button onClick={() => open('expenses')}>
             <span>기록한 여행 경비</span>
             <strong>
@@ -480,10 +475,6 @@ export default function PlannerHome({
           </button>
         </div>
       </section>
-      <button className="quick-add-fab" onClick={() => onQuick(trip, day)}>
-        <Plus size={22} />
-        빠른 추가
-      </button>
     </TripFilesProvider>
   )
 }

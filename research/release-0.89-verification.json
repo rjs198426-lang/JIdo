@@ -1,0 +1,20 @@
+{
+  "version": "0.89",
+  "versionCode": 90,
+  "package": "com.jido.travel.next",
+  "bytes": 6398564,
+  "sha256": "3bf6e91b3c9835b902c6ba9f0de3bae25ac0548b714aa40593d4dbac4297f6b6",
+  "certificateSha256": "0d1b1f20dae73d00626d9ebb4f460943c4f16c2266bc7bc58d124d13b32494ac",
+  "signatureVerified": true,
+  "matchedWebAssets": 19,
+  "privateSigningFilesFound": false,
+  "existingMapsConfigurationBundled": true,
+  "nativeDeviceInstallTested": false,
+  "checkedAt": "2026-11-17T12:31:49.168695+00:00",
+  "sourceBaseCommit": "ae74f3811b42fe9212972ae754df43ade834c558",
+  "scope": "Compact aligned Home and planning layout, in-flow quick actions, reduced repeated information; existing records and compatibility preserved",
+  "browserTestsPassed": 120,
+  "realGoogleLoginTested": false,
+  "realTwoDeviceSyncTested": false,
+  "publicCommit": "842def8144000b280796adf63d3ebc3eba48fd97"
+}

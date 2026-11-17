@@ -681,12 +681,18 @@ function Itinerary({
           )}
         </div>
         {focused && (
-          <button
-            className="text-button task-planning-return"
-            onClick={onPlanning}
-          >
-            일정으로 돌아가기
-          </button>
+          <div className="focused-actions">
+            <button
+              className="text-button task-planning-return"
+              onClick={onPlanning}
+            >
+              일정으로 돌아가기
+            </button>
+            <button className="quick-add-fab" onClick={onQuick}>
+              <Plus size={22} />
+              빠른 추가
+            </button>
+          </div>
         )}
         {!focused && (
           <div className="trip-photo-toolbar">
@@ -698,6 +704,10 @@ function Itinerary({
             <button className="text-button" onClick={onSavedPlaces}>
               <Bookmark size={18} />
               장소 보관함
+            </button>
+            <button className="quick-add-fab" onClick={onQuick}>
+              <Plus size={22} />
+              빠른 추가
             </button>
           </div>
         )}
@@ -1604,10 +1614,6 @@ function Itinerary({
           )}
         </div>
       </div>
-      <button className="quick-add-fab" onClick={onQuick}>
-        <Plus size={22} />
-        빠른 추가
-      </button>
     </TripFilesProvider>
   )
 }

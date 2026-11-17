@@ -75,7 +75,7 @@ test('320px와 큰 글자에서도 작업 버튼·공유 요약과 긴 장소명
   await page.getByRole('button', { name: '장소 추가', exact: true }).click()
   await expect(page.getByRole('dialog')).toBeVisible()
   await expect(
-    page.getByRole('dialog').getByRole('button', { name: '새 장소 추가' }),
+    page.getByRole('dialog').getByRole('button', { name: '직접 일정 입력', exact: true }),
   ).toBeVisible()
   await page.getByRole('button', { name: '닫기', exact: true }).click()
   for (const name of [
