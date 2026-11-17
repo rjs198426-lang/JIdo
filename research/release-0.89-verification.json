@@ -16,5 +16,226 @@
   "browserTestsPassed": 120,
   "realGoogleLoginTested": false,
   "realTwoDeviceSyncTested": false,
-  "publicCommit": "842def8144000b280796adf63d3ebc3eba48fd97"
+  "publicCommit": "842def8144000b280796adf63d3ebc3eba48fd97",
+  "sourceCommit": "9c78116b266508b4d03e82d9264e90e283e6aac4",
+  "publicDownloads": [
+    {
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/842def8144000b280796adf63d3ebc3eba48fd97/JDo-android-0.89.apk",
+      "httpStatus": 200,
+      "bytes": 6398564,
+      "sha256": "3bf6e91b3c9835b902c6ba9f0de3bae25ac0548b714aa40593d4dbac4297f6b6",
+      "matchesBuild": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/android-apk-downloads/JDo-android.apk",
+      "httpStatus": 200,
+      "bytes": 6398564,
+      "sha256": "3bf6e91b3c9835b902c6ba9f0de3bae25ac0548b714aa40593d4dbac4297f6b6",
+      "matchesBuild": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/android-apk-downloads/jido-release.apk",
+      "httpStatus": 200,
+      "bytes": 6398564,
+      "sha256": "3bf6e91b3c9835b902c6ba9f0de3bae25ac0548b714aa40593d4dbac4297f6b6",
+      "matchesBuild": true
+    }
+  ],
+  "anonymousDownload": true,
+  "downloadedSignatureVerified": true,
+  "publicSourceFiles": [
+    {
+      "path": "AGENTS.md",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/9c78116b266508b4d03e82d9264e90e283e6aac4/AGENTS.md",
+      "httpStatus": 200,
+      "bytes": 43973,
+      "sha256": "78e41897227de789651b15bb9b223f2bea3d55e4bc3c4c023b4413726f6ab280",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "ANDROID-DOWNLOAD.md",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/9c78116b266508b4d03e82d9264e90e283e6aac4/ANDROID-DOWNLOAD.md",
+      "httpStatus": 200,
+      "bytes": 100345,
+      "sha256": "b216db1ea18e2d69b7be42bf770f309802f9945112d182f65732794096864b87",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/9c78116b266508b4d03e82d9264e90e283e6aac4/README.md",
+      "httpStatus": 200,
+      "bytes": 4102,
+      "sha256": "5448bef7e95fab68f57d8d1348687c27de13123a8cf80085d5eb019770d4d828",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "DESIGN-SYSTEM.md",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/9c78116b266508b4d03e82d9264e90e283e6aac4/DESIGN-SYSTEM.md",
+      "httpStatus": 200,
+      "bytes": 10914,
+      "sha256": "5bc2aacb3198fd6eca86cb22d8c9c4704eb7ad46932696af3606605fa6ede4d3",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "UI.md",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/9c78116b266508b4d03e82d9264e90e283e6aac4/UI.md",
+      "httpStatus": 200,
+      "bytes": 70143,
+      "sha256": "6dbb615f466f7a86d8992aeff9863d1b8eb772eff3d5de9c79de079f12c2dcf4",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "COMPACT-LAYOUT.md",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/9c78116b266508b4d03e82d9264e90e283e6aac4/COMPACT-LAYOUT.md",
+      "httpStatus": 200,
+      "bytes": 1865,
+      "sha256": "966600850e1443fc0321f9ad64a21f32f4b20312d18b801f51e70c50c6cea27f",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "src/App.tsx",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/9c78116b266508b4d03e82d9264e90e283e6aac4/src/App.tsx",
+      "httpStatus": 200,
+      "bytes": 108445,
+      "sha256": "51bd90d934ee24d9ee21023ae1fb70d81a18a9233efe40159c38ab785a49e867",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "src/PlannerHome.tsx",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/9c78116b266508b4d03e82d9264e90e283e6aac4/src/PlannerHome.tsx",
+      "httpStatus": 200,
+      "bytes": 17565,
+      "sha256": "16c1d0a74a609a422a882ea5806643377a732c8d349b651e64567ec9c0c0b2ab",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "src/modern-theme.css",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/9c78116b266508b4d03e82d9264e90e283e6aac4/src/modern-theme.css",
+      "httpStatus": 200,
+      "bytes": 92889,
+      "sha256": "3568b5f6923f8a3e1efc9a9f1213cde4a54c9a579394b7b8ac7ed2feaefa2636",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "android/app/build.gradle",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/9c78116b266508b4d03e82d9264e90e283e6aac4/android/app/build.gradle",
+      "httpStatus": 200,
+      "bytes": 3197,
+      "sha256": "6ed4dab07a246dbe8b18ac85b099d724bae4f8a9be4e2a392ea25a56a1f6a04d",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "playwright.config.ts",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/9c78116b266508b4d03e82d9264e90e283e6aac4/playwright.config.ts",
+      "httpStatus": 200,
+      "bytes": 1420,
+      "sha256": "9844949b85223987daf8fdc93ebd5dc56182976d75aafd6207f9f73f40ee6114",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "tests/compact-layout.spec.ts",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/9c78116b266508b4d03e82d9264e90e283e6aac4/tests/compact-layout.spec.ts",
+      "httpStatus": 200,
+      "bytes": 3520,
+      "sha256": "a4f926ec922a3d9b6ea33dfae5dc4832bf863361e9a04a899573b2a966379ee1",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "tests/compact-density.spec.ts",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/9c78116b266508b4d03e82d9264e90e283e6aac4/tests/compact-density.spec.ts",
+      "httpStatus": 200,
+      "bytes": 4091,
+      "sha256": "acb498d9dd34dd3ed8e3b595ff097d5b3f7d8e84da62336126097bebdb9a5368",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-17-compact-layout/README.md",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/9c78116b266508b4d03e82d9264e90e283e6aac4/research/audits/2026-11-17-compact-layout/README.md",
+      "httpStatus": 200,
+      "bytes": 1716,
+      "sha256": "95d2c5b40803fe19ad7d50b15ea42e6fb36d112be6bae2298f3c17a3a324885c",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-17-compact-layout/before-home.png",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/9c78116b266508b4d03e82d9264e90e283e6aac4/research/audits/2026-11-17-compact-layout/before-home.png",
+      "httpStatus": 200,
+      "bytes": 54256,
+      "sha256": "e8a22eac8011664cdac353ff4e0d9d9811d9cf8e1dff5836f9b97989c5e79ae4",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-17-compact-layout/before-schedule.png",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/9c78116b266508b4d03e82d9264e90e283e6aac4/research/audits/2026-11-17-compact-layout/before-schedule.png",
+      "httpStatus": 200,
+      "bytes": 52046,
+      "sha256": "582e5f2f1c2515d40edcc8986d89b9c5aae35e8e559375b22e0762b9c88e0aba",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-17-compact-layout/before-reservations.png",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/9c78116b266508b4d03e82d9264e90e283e6aac4/research/audits/2026-11-17-compact-layout/before-reservations.png",
+      "httpStatus": 200,
+      "bytes": 49206,
+      "sha256": "ed4a6f0495565ba3e332f7610b9f088f4d52d809a6faa167df45bfcc9ec51726",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-17-compact-layout/before-expenses.png",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/9c78116b266508b4d03e82d9264e90e283e6aac4/research/audits/2026-11-17-compact-layout/before-expenses.png",
+      "httpStatus": 200,
+      "bytes": 36574,
+      "sha256": "6ba0d10d266da7ab5a118cd697c7493b0adf3f3256da402bb31df1779d84e670",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-17-compact-layout/after-home.png",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/9c78116b266508b4d03e82d9264e90e283e6aac4/research/audits/2026-11-17-compact-layout/after-home.png",
+      "httpStatus": 200,
+      "bytes": 52443,
+      "sha256": "4704a5f00a7c198dc3b03e193ca8ff8f20153b7fd99af11610fbca68da65b95b",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-17-compact-layout/after-schedule.png",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/9c78116b266508b4d03e82d9264e90e283e6aac4/research/audits/2026-11-17-compact-layout/after-schedule.png",
+      "httpStatus": 200,
+      "bytes": 47053,
+      "sha256": "ab028a5ab3a987b00a129e112d406a7d80c754d2824c50ebd31590e33d4cc2bc",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-17-compact-layout/after-reservations.png",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/9c78116b266508b4d03e82d9264e90e283e6aac4/research/audits/2026-11-17-compact-layout/after-reservations.png",
+      "httpStatus": 200,
+      "bytes": 48402,
+      "sha256": "19bd4a217465fbbeb9f89bea9211643e71575c7b53689dcd399bd8d8a7ee346c",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-17-compact-layout/after-expenses.png",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/9c78116b266508b4d03e82d9264e90e283e6aac4/research/audits/2026-11-17-compact-layout/after-expenses.png",
+      "httpStatus": 200,
+      "bytes": 34008,
+      "sha256": "848b650ebac6b01cf75dba555dc70f3ef24dd34c49753aee254a84cb55c2dc69",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-17-compact-layout/before-metrics.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/9c78116b266508b4d03e82d9264e90e283e6aac4/research/audits/2026-11-17-compact-layout/before-metrics.json",
+      "httpStatus": 200,
+      "bytes": 259,
+      "sha256": "75adbc914311abe43e483f9e4f083027867e95aeaa6393c1dd5dc65e85930757",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-17-compact-layout/after-metrics.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/9c78116b266508b4d03e82d9264e90e283e6aac4/research/audits/2026-11-17-compact-layout/after-metrics.json",
+      "httpStatus": 200,
+      "bytes": 255,
+      "sha256": "24c86111d391f94148fa99cfe698eac9233dfda879130294f2cb60808359c819",
+      "matchesBuildSource": true
+    }
+  ],
+  "publicVerifiedAt": "2026-11-17T12:32:48.499972+00:00"
 }

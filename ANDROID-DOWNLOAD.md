@@ -12,7 +12,7 @@
 
 관련 PC·모바일120개 검사, Android빌드·기존 서명·웹 자산19개 일치를 확인했습니다. 실제 Android설치·제조사 키보드/파일 선택·Google로그인/두 휴대폰 동기화는 미검증입니다. [변경 내용](https://github.com/rjs198426-lang/JIdo/blob/main/COMPACT-LAYOUT.md).
 
-[실제 배포 검증 기록](research/release-0.89-verification.json). 공개 파일 확인은 업로드 후 기록합니다.
+공개 확인:고정 APK와 최신 별칭2개를 인증 없이 내려받아 HTTP200·6,398,564bytes·SHA-256·기존 서명을 확인했습니다. 공개 소스·문서·화면24개 파일도 바이트와 해시가 일치했습니다. [실제 배포 검증 기록](research/release-0.89-verification.json).
 
 ## 0.88 이전 배포
 
