@@ -19,5 +19,434 @@
   "verificationSequence": "292 full checks passed before final finance summary and reservation-entry presentation changes; 130 relevant checks including 2 new cases passed on final web assets; unique count 294",
   "realGoogleLoginTested": false,
   "realTwoDeviceSyncTested": false,
-  "publicCommit": "b44cb7b3713b4628de6555cfa03c3d8b0f9c3011"
+  "publicCommit": "b44cb7b3713b4628de6555cfa03c3d8b0f9c3011",
+  "sourceCommit": "ed452522965a3f075ffdcb24542914769a6eb1c7",
+  "publicDownloads": [
+    {
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/b44cb7b3713b4628de6555cfa03c3d8b0f9c3011/JDo-android-0.90.apk",
+      "httpStatus": 200,
+      "bytes": 6402108,
+      "sha256": "3c81648fc40c8963cc54684e9624c533ce6619877031cd7c8fcbd0dcd8b5e0c4",
+      "matchesBuild": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/android-apk-downloads/JDo-android.apk",
+      "httpStatus": 200,
+      "bytes": 6402108,
+      "sha256": "3c81648fc40c8963cc54684e9624c533ce6619877031cd7c8fcbd0dcd8b5e0c4",
+      "matchesBuild": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/android-apk-downloads/jido-release.apk",
+      "httpStatus": 200,
+      "bytes": 6402108,
+      "sha256": "3c81648fc40c8963cc54684e9624c533ce6619877031cd7c8fcbd0dcd8b5e0c4",
+      "matchesBuild": true
+    }
+  ],
+  "anonymousDownload": true,
+  "downloadedSignatureVerified": true,
+  "publicSourceFiles": [
+    {
+      "path": "AGENTS.md",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/ed452522965a3f075ffdcb24542914769a6eb1c7/AGENTS.md",
+      "httpStatus": 200,
+      "bytes": 44844,
+      "sha256": "d54d2b5dea0c11d6fd6696f06fcce55f54d7085738bb94aebd67c73121798ff2",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/ed452522965a3f075ffdcb24542914769a6eb1c7/README.md",
+      "httpStatus": 200,
+      "bytes": 4375,
+      "sha256": "e5ec364a461a54781229db4ddfa2081b660850570319a16cc54a9ea8947e34c4",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "ANDROID-DOWNLOAD.md",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/ed452522965a3f075ffdcb24542914769a6eb1c7/ANDROID-DOWNLOAD.md",
+      "httpStatus": 200,
+      "bytes": 102175,
+      "sha256": "c1c88e1debf09a34840583689720f7d02b0aa5b0c737992ddce71ef06b29e000",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "UI.md",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/ed452522965a3f075ffdcb24542914769a6eb1c7/UI.md",
+      "httpStatus": 200,
+      "bytes": 71014,
+      "sha256": "622d01a361be8dccdb13a000c7fc484460033c3ed14c7edf514444b2ab9add6e",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "DESIGN-SYSTEM.md",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/ed452522965a3f075ffdcb24542914769a6eb1c7/DESIGN-SYSTEM.md",
+      "httpStatus": 200,
+      "bytes": 11785,
+      "sha256": "b08e4bdd4f15c72254bfa9c00f3badf45c311b079bf4e445493daddfd99459c8",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "UNIFIED-DESIGN.md",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/ed452522965a3f075ffdcb24542914769a6eb1c7/UNIFIED-DESIGN.md",
+      "httpStatus": 200,
+      "bytes": 2879,
+      "sha256": "f3834dc6e364296b619e08834351df2e9f8a00493b3e63f1af31b6060ff6dd17",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "src/App.tsx",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/ed452522965a3f075ffdcb24542914769a6eb1c7/src/App.tsx",
+      "httpStatus": 200,
+      "bytes": 108255,
+      "sha256": "c91d76288a0d383bcecc18756c6c6320ee84074c9d14a0aee1e1241ad1cd37d2",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "src/main.tsx",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/ed452522965a3f075ffdcb24542914769a6eb1c7/src/main.tsx",
+      "httpStatus": 200,
+      "bytes": 1443,
+      "sha256": "8929d6633fe7df20982f10fa453be2adc3529ca55eb88b4cc01ced2328c72b9a",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "src/design-system.css",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/ed452522965a3f075ffdcb24542914769a6eb1c7/src/design-system.css",
+      "httpStatus": 200,
+      "bytes": 23883,
+      "sha256": "f3caf68635f62525538d957be147cb26d57a2f17b6933673afefcd2399bf45e7",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "src/TripActionsMenu.tsx",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/ed452522965a3f075ffdcb24542914769a6eb1c7/src/TripActionsMenu.tsx",
+      "httpStatus": 200,
+      "bytes": 1772,
+      "sha256": "ddc1013f81216be965da6957570cb9f1525c55a1684dceacb50ed9c9406bcb3b",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "src/TravelTools.tsx",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/ed452522965a3f075ffdcb24542914769a6eb1c7/src/TravelTools.tsx",
+      "httpStatus": 200,
+      "bytes": 24618,
+      "sha256": "e2a7eb1c93f98ff6a261d0f939050a4f78b7aa618c20bab9ae7136dcba87d9e6",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "src/ExpenseManager.tsx",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/ed452522965a3f075ffdcb24542914769a6eb1c7/src/ExpenseManager.tsx",
+      "httpStatus": 200,
+      "bytes": 48290,
+      "sha256": "1e177cfd893b188b431a248ba05d8a8cf78326fb3a1d23b937e664a0dfad37b2",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "src/FieldJourney.tsx",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/ed452522965a3f075ffdcb24542914769a6eb1c7/src/FieldJourney.tsx",
+      "httpStatus": 200,
+      "bytes": 12807,
+      "sha256": "ba14ed6018b289a2ad8d11aadcf16688c03221baef725bf06e84cb14e4d8b43f",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "src/DriveSyncSettings.tsx",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/ed452522965a3f075ffdcb24542914769a6eb1c7/src/DriveSyncSettings.tsx",
+      "httpStatus": 200,
+      "bytes": 7280,
+      "sha256": "80a2a5bd6461fc033e62479d6aacc8dd08246070e9ee6edea2cefd3a5cf7ba05",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "src/SettingsPage.tsx",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/ed452522965a3f075ffdcb24542914769a6eb1c7/src/SettingsPage.tsx",
+      "httpStatus": 200,
+      "bytes": 2183,
+      "sha256": "319a6ebfe2c283611d327fccc353e5c69060d2053eb923fca7f063512fbc52ff",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "src/QuickPlan.tsx",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/ed452522965a3f075ffdcb24542914769a6eb1c7/src/QuickPlan.tsx",
+      "httpStatus": 200,
+      "bytes": 5649,
+      "sha256": "239cbae0f102fcec9f7ed0f5e43652c672405919068f84e46273ed8fdf1ebe19",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "android/app/build.gradle",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/ed452522965a3f075ffdcb24542914769a6eb1c7/android/app/build.gradle",
+      "httpStatus": 200,
+      "bytes": 3197,
+      "sha256": "c1d141fa06ec24894b8f1644cf6a9405bdb9de5b78cd44513203756af6fc2d16",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "playwright.config.ts",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/ed452522965a3f075ffdcb24542914769a6eb1c7/playwright.config.ts",
+      "httpStatus": 200,
+      "bytes": 1453,
+      "sha256": "f770239655e9af936da5b6427a4f85335b5820f53eb222f7fe450e8c056835e5",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "tests/navigation.ts",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/ed452522965a3f075ffdcb24542914769a6eb1c7/tests/navigation.ts",
+      "httpStatus": 200,
+      "bytes": 3997,
+      "sha256": "be46b485b7a0b376f735a7030ac353d6e4f061267182f5dc3a8fb17a21902c46",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "tests/storage-safety.spec.ts",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/ed452522965a3f075ffdcb24542914769a6eb1c7/tests/storage-safety.spec.ts",
+      "httpStatus": 200,
+      "bytes": 31759,
+      "sha256": "cfbef69445441adc7e1c338855dc171ca4f60d00b302de7cd192d80ea8f9d43d",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "tests/unified-design.spec.ts",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/ed452522965a3f075ffdcb24542914769a6eb1c7/tests/unified-design.spec.ts",
+      "httpStatus": 200,
+      "bytes": 7010,
+      "sha256": "1d119fb6a77833ec1a037d6fa51d110301f58f21b2c11f7f957c494cdeefe17b",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "tests/fixtures/unified-trip.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/ed452522965a3f075ffdcb24542914769a6eb1c7/tests/fixtures/unified-trip.json",
+      "httpStatus": 200,
+      "bytes": 2834,
+      "sha256": "e7e6ea4ec12f80f956e67fea1c94c94611f7a7b6010755d4d10acbdb80f4dc02",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-17-unified-design/README.md",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/ed452522965a3f075ffdcb24542914769a6eb1c7/research/audits/2026-11-17-unified-design/README.md",
+      "httpStatus": 200,
+      "bytes": 3847,
+      "sha256": "499ff22dfda049705452f358f65ca62f8a57ff72356f0f225e4565f835143ae3",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-17-unified-design/density-metrics.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/ed452522965a3f075ffdcb24542914769a6eb1c7/research/audits/2026-11-17-unified-design/density-metrics.json",
+      "httpStatus": 200,
+      "bytes": 258,
+      "sha256": "8d285943a0ac224ac36d95ab760072a350b87efd4db0c921a758a609cb9d263f",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-17-unified-design/before-checklist.png",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/ed452522965a3f075ffdcb24542914769a6eb1c7/research/audits/2026-11-17-unified-design/before-checklist.png",
+      "httpStatus": 200,
+      "bytes": 47475,
+      "sha256": "0b96bb0d17d669f1d8973a3a6ac8618ed6f0c373f8b194bab9757acd55443544",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-17-unified-design/before-expenses.png",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/ed452522965a3f075ffdcb24542914769a6eb1c7/research/audits/2026-11-17-unified-design/before-expenses.png",
+      "httpStatus": 200,
+      "bytes": 34395,
+      "sha256": "bb4fdfe9f0e0e312c264a8af8e72405ea77de51345de28e17e8eb96452c014d2",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-17-unified-design/before-field.png",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/ed452522965a3f075ffdcb24542914769a6eb1c7/research/audits/2026-11-17-unified-design/before-field.png",
+      "httpStatus": 200,
+      "bytes": 48119,
+      "sha256": "dab632b3e728439cea2b7dea3c2134d3e5db8dbc4a1b4418c20fe50342994aea",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-17-unified-design/before-home.png",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/ed452522965a3f075ffdcb24542914769a6eb1c7/research/audits/2026-11-17-unified-design/before-home.png",
+      "httpStatus": 200,
+      "bytes": 56352,
+      "sha256": "dd3f9bd25371eaeed35bb831dd28694954b8b34abe9b7fa7b9dfada14890c9f1",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-17-unified-design/before-prepare.png",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/ed452522965a3f075ffdcb24542914769a6eb1c7/research/audits/2026-11-17-unified-design/before-prepare.png",
+      "httpStatus": 200,
+      "bytes": 48009,
+      "sha256": "ce6762ad7cf9884cd6fa5ed16fba82242c8d26e0bcf4875d02d424714ce5d43b",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-17-unified-design/before-quick.png",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/ed452522965a3f075ffdcb24542914769a6eb1c7/research/audits/2026-11-17-unified-design/before-quick.png",
+      "httpStatus": 200,
+      "bytes": 113203,
+      "sha256": "93b1d16d51fcef345b348e69b76375628d1615a4a80116b4ccfd9663709bc155",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-17-unified-design/before-reservations.png",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/ed452522965a3f075ffdcb24542914769a6eb1c7/research/audits/2026-11-17-unified-design/before-reservations.png",
+      "httpStatus": 200,
+      "bytes": 49695,
+      "sha256": "a10a8824777ef2994cefd2cca16650d9b7f6c23fd47e48c93a30ce7bd0f32a6b",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-17-unified-design/before-schedule.png",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/ed452522965a3f075ffdcb24542914769a6eb1c7/research/audits/2026-11-17-unified-design/before-schedule.png",
+      "httpStatus": 200,
+      "bytes": 50222,
+      "sha256": "5373afa1fc3938045bc8db1c00ec125b95f42824c3565ffe4329f427a49655bb",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-17-unified-design/before-settings.png",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/ed452522965a3f075ffdcb24542914769a6eb1c7/research/audits/2026-11-17-unified-design/before-settings.png",
+      "httpStatus": 200,
+      "bytes": 58379,
+      "sha256": "afd7ded21c58c4527397f5a4db5826331031bbee945774370ba7d5fcb618241b",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-17-unified-design/after-budget.png",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/ed452522965a3f075ffdcb24542914769a6eb1c7/research/audits/2026-11-17-unified-design/after-budget.png",
+      "httpStatus": 200,
+      "bytes": 41798,
+      "sha256": "5605e859b769d24f29f7c2568e4f15b661026816644f75aecaaaff1d1716bafe",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-17-unified-design/after-checklist.png",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/ed452522965a3f075ffdcb24542914769a6eb1c7/research/audits/2026-11-17-unified-design/after-checklist.png",
+      "httpStatus": 200,
+      "bytes": 42660,
+      "sha256": "f928d73e0d20402895f73cb24c92bf5dd420f78eae85fe4e175588597efa5101",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-17-unified-design/after-create-form.png",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/ed452522965a3f075ffdcb24542914769a6eb1c7/research/audits/2026-11-17-unified-design/after-create-form.png",
+      "httpStatus": 200,
+      "bytes": 123227,
+      "sha256": "86fe98d1031d26331743a876d51aa447c212a29a33919cb7570133965af8fb7b",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-17-unified-design/after-expense-list.png",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/ed452522965a3f075ffdcb24542914769a6eb1c7/research/audits/2026-11-17-unified-design/after-expense-list.png",
+      "httpStatus": 200,
+      "bytes": 41096,
+      "sha256": "623b805e564479e4d4b40cd32d7399fa55dd7395368da8a7508ded9898ab27ab",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-17-unified-design/after-expenses.png",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/ed452522965a3f075ffdcb24542914769a6eb1c7/research/audits/2026-11-17-unified-design/after-expenses.png",
+      "httpStatus": 200,
+      "bytes": 34005,
+      "sha256": "e78af0343c828429fe63ff4ea697c798fd107feced47f4bbcabfe75d235857db",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-17-unified-design/after-field.png",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/ed452522965a3f075ffdcb24542914769a6eb1c7/research/audits/2026-11-17-unified-design/after-field.png",
+      "httpStatus": 200,
+      "bytes": 44971,
+      "sha256": "00b54e994e0877275b13595f6cd3bf2cd1eb8a3236a07b52e55d31bee7764f2b",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-17-unified-design/after-home.png",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/ed452522965a3f075ffdcb24542914769a6eb1c7/research/audits/2026-11-17-unified-design/after-home.png",
+      "httpStatus": 200,
+      "bytes": 6682,
+      "sha256": "1c0d8e18a89b8cfef229dc0663c5d29a0b0b1e9c87d479d544f31b1a20ca0cc1",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-17-unified-design/after-hotel-form.png",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/ed452522965a3f075ffdcb24542914769a6eb1c7/research/audits/2026-11-17-unified-design/after-hotel-form.png",
+      "httpStatus": 200,
+      "bytes": 38205,
+      "sha256": "6ee6a7815a869b9340b7ffd71df93ca52e81963b1898e0f822f4f08c901bf535",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-17-unified-design/after-library.png",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/ed452522965a3f075ffdcb24542914769a6eb1c7/research/audits/2026-11-17-unified-design/after-library.png",
+      "httpStatus": 200,
+      "bytes": 35295,
+      "sha256": "57f8738d328acde50dc8cfe2c5f346d862ca582f7391746745c82d4b67f9aece",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-17-unified-design/after-place-picker.png",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/ed452522965a3f075ffdcb24542914769a6eb1c7/research/audits/2026-11-17-unified-design/after-place-picker.png",
+      "httpStatus": 200,
+      "bytes": 117663,
+      "sha256": "3022bc25a330c58000ded48d5dcb200dffa98cd1ee1e5848db0d23ec84098a90",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-17-unified-design/after-prepare.png",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/ed452522965a3f075ffdcb24542914769a6eb1c7/research/audits/2026-11-17-unified-design/after-prepare.png",
+      "httpStatus": 200,
+      "bytes": 42514,
+      "sha256": "a89d5274507f818194bb317d1c3783686b404721604e5389a38a5c67c1a9682c",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-17-unified-design/after-quick.png",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/ed452522965a3f075ffdcb24542914769a6eb1c7/research/audits/2026-11-17-unified-design/after-quick.png",
+      "httpStatus": 200,
+      "bytes": 110151,
+      "sha256": "b4cb8eeec501eb67a882c4725ac77bfe1c7578f3e18ada32de3f95ad9ee49772",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-17-unified-design/after-reservations.png",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/ed452522965a3f075ffdcb24542914769a6eb1c7/research/audits/2026-11-17-unified-design/after-reservations.png",
+      "httpStatus": 200,
+      "bytes": 49442,
+      "sha256": "a34ae5843c5e382c817b021288ff43ce7464afb8614d6b296670c5025a94ce18",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-17-unified-design/after-schedule.png",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/ed452522965a3f075ffdcb24542914769a6eb1c7/research/audits/2026-11-17-unified-design/after-schedule.png",
+      "httpStatus": 200,
+      "bytes": 46465,
+      "sha256": "8ad0b55864cdd44f551f206f9249dec9b52e7ed5721888d86cc47cb3ea69e5bb",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-17-unified-design/after-settings.png",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/ed452522965a3f075ffdcb24542914769a6eb1c7/research/audits/2026-11-17-unified-design/after-settings.png",
+      "httpStatus": 200,
+      "bytes": 47785,
+      "sha256": "846b737fef1bf99ce3faf4ce60e36325499c720209c551c477804037774daca0",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-17-unified-design/after-settlement.png",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/ed452522965a3f075ffdcb24542914769a6eb1c7/research/audits/2026-11-17-unified-design/after-settlement.png",
+      "httpStatus": 200,
+      "bytes": 45167,
+      "sha256": "84ad0a7a36294f228bc96dfba646bcb42e3d3aee2142d24ee31b9c7fcf4b1731",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-17-unified-design/after-statistics.png",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/ed452522965a3f075ffdcb24542914769a6eb1c7/research/audits/2026-11-17-unified-design/after-statistics.png",
+      "httpStatus": 200,
+      "bytes": 41138,
+      "sha256": "1479bd04601a94043b9021759c8148c466a8a2a6e26b812bb23fa91cac3c3e7b",
+      "matchesBuildSource": true
+    }
+  ],
+  "publicVerifiedAt": "2026-11-18T11:24:35.760759+00:00"
 }

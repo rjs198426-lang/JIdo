@@ -12,7 +12,7 @@
 
 전체292개 검사 후 마지막 표시 순서 수정에 관련된130개를 최종 파일로 다시 통과했습니다. 새2개를 포함한 서로 다른 검사는294개이며 중복 합산하지 않았습니다. Android 빌드·기존 서명·웹 자산19개 일치를 확인했습니다. 실제 Android설치·제조사 키보드/갤러리·TalkBack·Google로그인/휴대폰 두 대 동기화는 미검증입니다. [공통 디자인과 화면 비교](https://github.com/rjs198426-lang/JIdo/blob/main/UNIFIED-DESIGN.md).
 
-[실제 배포 검증 기록](research/release-0.90-verification.json). 공개 파일 확인은 업로드 후 기록합니다.
+공개 확인:고정 APK와 최신 별칭2개를 인증 없이 내려받아 HTTP200·6,402,108bytes·SHA-256·기존 서명을 확인했습니다. 공개 소스·문서·화면50개 파일도 바이트와 해시가 일치했습니다. [실제 배포 검증 기록](research/release-0.90-verification.json).
 
 ## 0.89 이전 배포
 
