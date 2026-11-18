@@ -1,6 +1,7 @@
 import { expect, test, type Page } from '@playwright/test'
 import {
   openTrips,
+  openTripAction,
   openWorkspace,
   openCreateOptions,
   openScheduleEditor,
@@ -189,9 +190,7 @@ test('여행 수정 실패는 원본·날짜·입력·초안을 유지하고 저
   await boot(page)
   const before = await saved(page)
   await openTrips(page)
-  await page
-    .getByRole('button', { name: '여행 정보 수정', exact: true })
-    .click()
+  await openTripAction(page, '여행 정보 수정')
   await page.getByLabel('여행 이름', { exact: true }).fill('수정 중인 이름')
   await fail(page, true)
   await page.getByRole('button', { name: '변경사항 저장', exact: true }).click()
@@ -280,7 +279,7 @@ test('삭제 저장 실패는 확인 창과 여행 원본을 유지', async ({ p
   await boot(page)
   const before = await saved(page)
   await openTrips(page)
-  await page.getByRole('button', { name: '여행 삭제', exact: true }).click()
+  await openTripAction(page, '여행 삭제')
   await fail(page, true)
   await page
     .getByRole('dialog')
@@ -399,9 +398,7 @@ test('복구 사본 저장 실패 시 손상 원본을 덮어쓰지 않고 변�
   expect(await saved(page)).toBe(raw)
   expect(await records(page)).toHaveLength(0)
   await openTrips(page)
-  await page
-    .getByRole('button', { name: '여행 정보 수정', exact: true })
-    .click()
+  await openTripAction(page, '여행 정보 수정')
   await page.getByLabel('여행 이름', { exact: true }).fill('보호 실패 중 입력')
   await page.getByRole('button', { name: '변경사항 저장', exact: true }).click()
   await expect(page.getByRole('dialog')).toBeVisible()
@@ -507,9 +504,7 @@ test('다른 화면에서 바뀐 기록을 오래된 입력으로 덮어쓰지 �
 }) => {
   await boot(page)
   await openTrips(page)
-  await page
-    .getByRole('button', { name: '여행 정보 수정', exact: true })
-    .click()
+  await openTripAction(page, '여행 정보 수정')
   await page.getByLabel('여행 이름', { exact: true }).fill('오래된 화면의 수정')
   const newer = JSON.stringify(
     store([{ ...trip, title: '다른 화면의 최신 기록' }]),

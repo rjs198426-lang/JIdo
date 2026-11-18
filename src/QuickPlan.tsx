@@ -48,7 +48,7 @@ export default function QuickPlan({
   return (
     <div className="modal-body quick-plan">
       <p className="sheet-intro">
-        {trip.title} <span>· 원하는 날짜에 바로 추가해요</span>
+        {trip.title} <span>원하는 날짜에 바로 추가해요</span>
       </p>
       <label className="field">
         추가할 날짜

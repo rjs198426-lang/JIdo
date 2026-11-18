@@ -1,0 +1,114 @@
+{
+  "version": 1,
+  "savedCities": [],
+  "savedPlaces": [],
+  "trips": [
+    {
+      "id": "modern-trip",
+      "title": "크리스마스 괌 여행",
+      "cityId": "own-guam",
+      "startDate": "2026-12-22",
+      "endDate": "2026-12-24",
+      "travelers": 2,
+      "destinations": [
+        {
+          "id": "own-guam",
+          "name": "괌",
+          "country": "미국령 괌",
+          "timeZone": "Pacific/Guam"
+        },
+        {
+          "id": "own-tokyo",
+          "name": "도쿄",
+          "country": "일본",
+          "timeZone": "Asia/Tokyo"
+        }
+      ],
+      "dayDestinationIds": [
+        "own-guam",
+        "own-tokyo",
+        "own-guam"
+      ],
+      "days": [
+        [
+          {
+            "id": "original",
+            "placeId": "custom-original",
+            "time": "",
+            "note": "바닷가를 걷고 근처에서 저녁 먹기",
+            "custom": {
+              "name": "해변 산책",
+              "kind": "관광",
+              "address": "원래 주소",
+              "link": "",
+              "destinationId": "own-guam",
+              "coordinates": {
+                "lat": 13.5,
+                "lng": 144.8
+              }
+            }
+          },
+          {
+            "id": "dinner",
+            "placeId": "custom-dinner",
+            "time": "",
+            "note": "식사 후 호텔로 돌아오기",
+            "custom": {
+              "name": "투몬 저녁 식사",
+              "kind": "맛집",
+              "address": "원래 주소",
+              "link": "",
+              "destinationId": "own-guam",
+              "coordinates": {
+                "lat": 13.5,
+                "lng": 144.8
+              }
+            }
+          }
+        ],
+        [],
+        []
+      ],
+      "reservations": [
+        {
+          "id": "flight",
+          "title": "예시 항공 괌 도착편",
+          "kind": "항공",
+          "date": "2026-12-22",
+          "time": "20:00",
+          "reference": "EXAMPLE123",
+          "address": "",
+          "link": "",
+          "note": "기존 예약 메모",
+          "status": "confirmed",
+          "flight": {
+            "airline": "예시 항공",
+            "number": "JD123",
+            "departureAirport": "ICN",
+            "arrivalAirport": "GUM",
+            "arrivalDate": "2026-12-23",
+            "arrivalTime": "02:00"
+          }
+        }
+      ],
+      "checklist": [
+        {
+          "id": "passport",
+          "title": "여권 유효기간 확인",
+          "done": false,
+          "category": "서류",
+          "note": ""
+        },
+        {
+          "id": "data",
+          "title": "eSIM 준비하기",
+          "done": true,
+          "category": "기타",
+          "note": ""
+        }
+      ],
+      "expenses": [],
+      "attachments": []
+    }
+  ]
+}

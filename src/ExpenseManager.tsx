@@ -373,7 +373,15 @@ export default function ExpenseManager({
       className={`workspace-panel expense-manager ${showRunningTotal ? 'has-running-total' : ''}`}
     >
       <div className="tool-heading">
-        <h3>지출 내역</h3>
+        <h3>
+          {view === '지출'
+            ? '지출 내역'
+            : view === '정산'
+              ? '동행자 정산'
+              : view === '통계'
+                ? '지출 통계'
+                : '예산·환율'}
+        </h3>
         <div className="expense-add-actions">
           {view === '지출' && !!expenses.length && (
             <button
@@ -415,7 +423,9 @@ export default function ExpenseManager({
           </button>
         ))}
       </div>
-      <div className="expense-summary-compact">
+      <div
+        className={`expense-summary-compact ${view !== '지출' ? 'is-secondary' : ''}`}
+      >
         <ExpenseSummary
           trip={trip}
           day={day}
@@ -1006,54 +1016,6 @@ export default function ExpenseManager({
           )}
         </>
       )}
-      <details
-        className="simple-options expense-more"
-        open={toolsOpen}
-        onToggle={(event) => {
-          setToolsOpen(event.currentTarget.open)
-        }}
-      >
-        <summary>내보내기·상세 기록</summary>
-        <button
-          className="text-button"
-          onClick={() => {
-            reset()
-            setView('지출')
-            setOpen(true)
-          }}
-        >
-          자세히 기록
-        </button>
-        <details className="currency-breakdown">
-          <summary>통화별 지출·예산</summary>
-          <div className="expense-totals">
-            {usedCurrencies.map((value) => {
-              const spent =
-                  totals.find((item) => item.currency === value)?.total || 0,
-                limit = trip.budgets?.[value]
-              return (
-                <article key={value}>
-                  <span>{value} 사용 금액</span>
-                  <strong>{money(spent, value)}</strong>
-                  {limit !== undefined && (
-                    <>
-                      <small className={spent > limit ? 'over-budget' : ''}>
-                        {spent > limit ? '예산 초과' : '남은 예산'}{' '}
-                        {money(Math.abs(limit - spent), value)}
-                      </small>
-                      <progress
-                        value={Math.max(0, Math.min(spent, limit))}
-                        max={limit || 1}
-                        aria-label={`${value} 예산 사용률`}
-                      />
-                    </>
-                  )}
-                </article>
-              )
-            })}
-          </div>
-        </details>
-      </details>
       {view === '통계' && (
         <div className="expense-statistics">
           <ExpenseInsights trip={trip} onFilter={drillDown} />
@@ -1307,6 +1269,54 @@ export default function ExpenseManager({
           </section>
         </div>
       )}
+      <details
+        className="simple-options expense-more"
+        open={toolsOpen}
+        onToggle={(event) => {
+          setToolsOpen(event.currentTarget.open)
+        }}
+      >
+        <summary>내보내기·상세 기록</summary>
+        <button
+          className="text-button"
+          onClick={() => {
+            reset()
+            setView('지출')
+            setOpen(true)
+          }}
+        >
+          자세히 기록
+        </button>
+        <details className="currency-breakdown">
+          <summary>통화별 지출·예산</summary>
+          <div className="expense-totals">
+            {usedCurrencies.map((value) => {
+              const spent =
+                  totals.find((item) => item.currency === value)?.total || 0,
+                limit = trip.budgets?.[value]
+              return (
+                <article key={value}>
+                  <span>{value} 사용 금액</span>
+                  <strong>{money(spent, value)}</strong>
+                  {limit !== undefined && (
+                    <>
+                      <small className={spent > limit ? 'over-budget' : ''}>
+                        {spent > limit ? '예산 초과' : '남은 예산'}{' '}
+                        {money(Math.abs(limit - spent), value)}
+                      </small>
+                      <progress
+                        value={Math.max(0, Math.min(spent, limit))}
+                        max={limit || 1}
+                        aria-label={`${value} 예산 사용률`}
+                      />
+                    </>
+                  )}
+                </article>
+              )
+            })}
+          </div>
+        </details>
+      </details>
       {message && view !== '통계' && <p role="status">{message}</p>}
       {error && !(view === '지출' && open) && (
         <p className="form-error" role="alert">

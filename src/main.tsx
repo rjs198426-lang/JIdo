@@ -21,6 +21,7 @@ import './responsive-text.css'
 import './timeline-cards.css'
 import './simple-ui.css'
 import './modern-theme.css'
+import './design-system.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root')!)
 async function start() {

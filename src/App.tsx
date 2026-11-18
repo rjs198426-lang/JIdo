@@ -1,3 +1,4 @@
+import TripActionsMenu from './TripActionsMenu'
 import QuickPlan from './QuickPlan'
 import { appendPlanLines } from './plan-paste'
 import { App as NativeApp } from '@capacitor/app'
@@ -365,6 +366,8 @@ function Itinerary({
   onSavedPlaces,
   onQuick,
   onPlanning,
+  travelMenu,
+  tripSelector,
   focused,
   onFilesChange,
   isAttachmentShared,
@@ -380,6 +383,8 @@ function Itinerary({
   onQuick: () => void
   onSavedPlaces: () => void
   onPlanning: () => void
+  travelMenu: ReactNode
+  tripSelector: ReactNode
   focused?: boolean
   onPhotos: (stopId?: string) => void
   trip: Trip
@@ -633,13 +638,21 @@ function Itinerary({
       onChange={onFilesChange}
       isShared={isAttachmentShared}
     >
-      <div className={`itinerary ${workspace === 'field' ? 'is-field' : ''}`}>
+      <div
+        className={`itinerary ${workspace === 'field' ? 'is-field' : ''} ${focused ? 'task-page' : ''}`}
+      >
+        {focused && (
+          <h1 className="task-page-heading">
+            {workspace === 'reservations' ? '예약' : '경비'}
+          </h1>
+        )}
+        {focused && tripSelector}
         <div className="trip-banner">
           <div className="trip-header-copy">
             <span className="trip-country">
               {city.country} · {city.name}
             </span>
-            <h2>{trip.title}</h2>
+            {focused ? <h2>{trip.title}</h2> : <h1>{trip.title}</h1>}
             <div className="trip-facts">
               <span>
                 <CalendarDays size={15} />
@@ -663,20 +676,9 @@ function Itinerary({
               >
                 <Search size={18} />
               </button>
-              <button
-                className="icon-button trip-edit"
-                aria-label="여행 정보 수정"
-                onClick={onEditTrip}
-              >
-                <Pencil size={18} />
-              </button>
-              <button
-                className="icon-button trip-delete"
-                onClick={onDeleteTrip}
-                aria-label="여행 삭제"
-              >
-                <Trash2 size={18} />
-              </button>
+              <TripActionsMenu onEdit={onEditTrip} onDelete={onDeleteTrip}>
+                {travelMenu}
+              </TripActionsMenu>
             </div>
           )}
         </div>
@@ -717,7 +719,7 @@ function Itinerary({
               ['schedule', '일정'],
               ['field', '여행 중'],
               ['overview', '여행 준비'],
-              ['expenses', '가계부'],
+              ['expenses', '경비'],
             ].map(([id, label]) => (
               <button
                 key={id}
@@ -2150,57 +2152,17 @@ export default function App() {
         )}
         {page === 'trips' && (
           <section className="page-section trips-page">
-            <div
-              className={`page-title trip-page-title ${activeTrip && !(store.trips.length > 1 && tripLibrary) ? 'trip-detail-toolbar' : ''}`}
-            >
-              {activeTrip && !tripLibrary && store.trips.length > 1 && (
-                <button
-                  className="text-button trip-library-return"
-                  onClick={() => {
-                    setTripLibrary(true)
-                    window.scrollTo({ top: 0, behavior: 'instant' })
-                  }}
-                >
-                  모든 여행 보기
-                </button>
-              )}
-              <div>
-                <h1
-                  className={
-                    activeTrip && !(store.trips.length > 1 && tripLibrary)
-                      ? 'sr-only'
-                      : undefined
-                  }
-                >
-                  내 여행
-                </h1>
-                <details className="trip-library-more">
-                  <summary>여행 관리</summary>
-                  <button
-                    className="text-button"
-                    onClick={() => setDialog({ type: 'backup' })}
-                  >
-                    여행 백업·공유 <ExternalLink size={14} />
-                  </button>
-                  {activeTrip && !(store.trips.length > 1 && tripLibrary) && (
-                    <button
-                      className="text-button"
-                      onClick={() => setDialog({ type: 'create' })}
-                    >
-                      <Plus size={17} />새 여행
-                    </button>
-                  )}
-                </details>
-              </div>
-              {(!activeTrip || (store.trips.length > 1 && tripLibrary)) && (
+            {(!activeTrip || (store.trips.length > 1 && tripLibrary)) && (
+              <div className="page-title trip-page-title">
+                <h1>내 여행</h1>
                 <button
                   className="button primary"
                   onClick={() => setDialog({ type: 'create' })}
                 >
                   <Plus size={17} />새 여행
                 </button>
-              )}
-            </div>
+              </div>
+            )}
             {store.trips.length > 1 && tripLibrary ? (
               <TripLibrary
                 trips={store.trips}
@@ -2223,38 +2185,69 @@ export default function App() {
               />
             ) : (
               <>
-                {store.trips.length > 1 &&
-                  ['reservations', 'expenses'].includes(navWorkspace) && (
-                    <label className="workspace-trip-switch field">
-                      현재 작업의 여행
-                      <select
-                        aria-label="현재 작업의 여행"
-                        value={activeTrip.id}
-                        onChange={(event) => {
-                          const trip = store.trips.find(
-                            (t) => t.id === event.target.value,
-                          )
-                          if (!trip) return
-                          const preference = journeyPreference(trip)
-                          saveJourneyPreference(
-                            trip,
-                            preference.day,
-                            navWorkspace,
-                          )
-                          setActiveTripId(trip.id)
-                          setActiveDay(preference.day)
-                          setReminderRevision((v) => v + 1)
-                        }}
-                      >
-                        {store.trips.map((trip) => (
-                          <option key={trip.id} value={trip.id}>
-                            {trip.title} · {formatDate(trip.startDate)}
-                          </option>
-                        ))}
-                      </select>
-                    </label>
-                  )}
                 <Itinerary
+                  tripSelector={
+                    store.trips.length > 1 &&
+                    ['reservations', 'expenses'].includes(navWorkspace) && (
+                      <label className="workspace-trip-switch field">
+                        현재 작업의 여행
+                        <select
+                          aria-label="현재 작업의 여행"
+                          value={activeTrip.id}
+                          onChange={(event) => {
+                            const trip = store.trips.find(
+                              (t) => t.id === event.target.value,
+                            )
+                            if (!trip) return
+                            const preference = journeyPreference(trip)
+                            saveJourneyPreference(
+                              trip,
+                              preference.day,
+                              navWorkspace,
+                            )
+                            setActiveTripId(trip.id)
+                            setActiveDay(preference.day)
+                            setReminderRevision((v) => v + 1)
+                          }}
+                        >
+                          {store.trips.map((trip) => (
+                            <option key={trip.id} value={trip.id}>
+                              {trip.title} · {formatDate(trip.startDate)}
+                            </option>
+                          ))}
+                        </select>
+                      </label>
+                    )
+                  }
+                  travelMenu={
+                    <>
+                      {store.trips.length > 1 && (
+                        <button
+                          className="text-button trip-library-return"
+                          onClick={() => {
+                            setTripLibrary(true)
+                            window.scrollTo({ top: 0, behavior: 'instant' })
+                          }}
+                        >
+                          <Luggage size={17} />
+                          모든 여행 보기
+                        </button>
+                      )}
+                      <button
+                        className="text-button"
+                        onClick={() => setDialog({ type: 'create' })}
+                      >
+                        <Plus size={17} />새 여행
+                      </button>
+                      <button
+                        className="text-button"
+                        onClick={() => setDialog({ type: 'backup' })}
+                      >
+                        <ExternalLink size={17} />
+                        여행 백업·공유
+                      </button>
+                    </>
+                  }
                   onQuick={() => quickAction(activeTrip, activeDay)}
                   focused={
                     workspaceEntry !== 'trip' &&

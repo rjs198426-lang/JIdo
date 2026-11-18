@@ -45,7 +45,7 @@ export async function openWorkspace(page: Page, name: string) {
     ? '여행 준비'
     : planning[name]
       ? '일정'
-      : name
+      : name === '가계부' ? '경비' : name
   await page
     .getByRole('tablist', { name: '여행 관리', exact: true })
     .getByRole('tab', { name: primary, exact: true })
@@ -109,4 +109,10 @@ export async function openExpenseFilters(page: Page) {
   const toggle = page.locator('.expense-filter-toggle')
   if ((await toggle.getAttribute('aria-expanded')) !== 'true')
     await toggle.click()
+}
+
+// Trip editing is a secondary action in the shared header menu.
+export async function openTripAction(page: Page, name: string) {
+  await page.locator('.trip-actions-menu > summary').click()
+  await page.getByRole('button', { name, exact: true }).click()
 }

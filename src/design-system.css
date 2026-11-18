@@ -1,0 +1,268 @@
+/* 0.90 — visual ownership for the active travel app.
+   Legacy sheets retain layout/compatibility rules; this file owns shared visual
+   roles. Tokens and selectors cover every active tab, including forms and sheets. */
+:root {
+  --ui-ink: #192d32;
+  --ui-muted: #6f7b83;
+  --ui-accent: #087c70;
+  --ui-accent-soft: #e8f3ef;
+  --ui-line: #e4e8eb;
+  --ui-surface: #fff;
+  --ui-canvas: #f6f7f9;
+  --ui-radius: 16px;
+  --ui-control-radius: 10px;
+  --ui-space: 16px;
+  --green: var(--ui-accent);
+  --deep: var(--ui-ink);
+  --muted: var(--ui-muted);
+  --line: var(--ui-line);
+  --paper: var(--ui-surface);
+  --canvas: var(--ui-canvas);
+}
+:root body { background: var(--ui-canvas); }
+:root #root { color: var(--ui-ink); }
+:root #root .main { max-width: 1060px; padding-inline: 20px; }
+:root #root :is(.page-section, .planner-home) { padding-top: 24px; }
+:root #root :is(h1,h2,h3,h4,p) { overflow-wrap: anywhere; }
+:root #root :is(h1,h2,h3,h4) { color: var(--ui-ink); letter-spacing: -.025em; line-height: 1.4; }
+:root #root :is(.page-title h1, .task-page-heading, .trip-header-copy h1, .planner-home > .home-section-heading h1, .planner-home > h1) { font-size: 30px; font-weight: 750; margin: 0; }
+:root #root :is(.tool-heading h3, .planner-panel h2, .settings-group h2) { font-size: 22px; font-weight: 700; margin: 0; }
+:root #root :is(.page-title, .home-section-heading, .tool-heading) { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin: 0 0 16px; }
+:root #root :is(.tool-heading, .home-section-heading) > div { min-width: 0; }
+:root #root :is(.page-title, .home-section-heading, .tool-heading) .text-button { flex-shrink: 0; }
+:root #root :is(p, .settings-group p, .workspace-panel) { font-size: 18px; line-height: 1.6; }
+:root #root :is(.muted, .local-clock, .home-kicker, .trip-facts, .reservation-search, .field) { color: var(--ui-muted); }
+:root #root .home-kicker { display: block; font-size: 16px; margin-bottom: 6px; font-weight: 500; }
+:root #root :is(.button, .text-button, .quick-add-fab, .icon-button) { min-height: 50px; border-radius: var(--ui-control-radius); box-shadow: none; font-size: 17px; font-weight: 600; line-height: 1.4; }
+:root #root .button { padding: 12px 16px; gap: 7px; border: 1px solid transparent; }
+:root #root .button.primary { color: #fff; background: var(--ui-accent); border-color: var(--ui-accent); }
+:root #root .button.outline { color: var(--ui-ink); background: #fff; border-color: var(--ui-line); }
+:root #root .button.small { font-size: 17px; padding: 10px 14px; }
+:root #root .text-button { color: var(--ui-accent); padding: 8px 4px; background: transparent; }
+:root #root .icon-button { width: 50px; flex: 0 0 50px; border: 1px solid var(--ui-line); background: #fff; color: #52666d; }
+:root #root :is(button, input, textarea, select, summary, a):focus-visible { outline: 3px solid #53a99c; outline-offset: 3px; }
+:root #root :is(button:disabled, .button:disabled) { box-shadow: none; }
+:root #root :is(input:not([type=checkbox]):not([type=radio]), textarea, select) { font-size: 18px; min-height: 52px; border: 1px solid var(--ui-line); border-radius: var(--ui-control-radius); background: #fff; color: var(--ui-ink); padding: 12px; }
+:root #root textarea { min-height: 100px; line-height: 1.6; }
+:root #root .field { gap: 7px; margin-bottom: 16px; font-size: 16px; font-weight: 550; }
+:root #root .input-search { background: #fff; border: 1px solid var(--ui-line); border-radius: var(--ui-control-radius); box-shadow: none; }
+:root #root .input-search input { border: 0; background: transparent; }
+:root #root .header { background: #fff; backdrop-filter: none; box-shadow: none; border-bottom: 1px solid var(--ui-line); }
+:root #root .header-inner { height: 64px; min-height: 64px; max-width: 1060px; padding-inline: 20px; }
+:root #root .brand-mark { font-size: 34px; letter-spacing: -2px; }
+:root #root .header-info { border: 0; background: transparent; }
+:root #root .bottom-nav { border-top: 1px solid var(--ui-line); background: #fff; box-shadow: none; backdrop-filter: none; }
+:root #root .bottom-nav > button { gap: 4px; padding-block: 7px; min-height: 72px; font-size: 15px; color: #78858b; }
+:root #root .bottom-nav > button > span:first-child { display: grid; place-items: center; width: 48px; min-width: 48px; min-height: 30px; border-radius: 10px; background: transparent; }
+:root #root .bottom-nav > button.active { color: var(--ui-accent); font-weight: 700; }
+:root #root .bottom-nav > button.active > span:first-child { background: var(--ui-accent-soft); }
+:root #root .bottom-nav > button > span:last-child { min-width: 0; background: transparent; border-radius: 0; }
+:root #root .bottom-nav svg { width: 23px; height: 23px; }
+/* One primary segmented control; all secondary views use the same underline. */
+:root #root .workspace-tabs { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: 2px; padding: 4px; margin: 0 0 12px; border: 1px solid var(--ui-line); border-radius: 12px; background: #edf0f2; }
+:root #root .workspace-tabs > button { min-height: 50px; padding: 9px 3px; border: 0; border-radius: 8px; font-size: 17px; color: var(--ui-muted); background: transparent; box-shadow: none; }
+:root #root .workspace-tabs > button[aria-selected=true] { color: var(--ui-ink); background: #fff; box-shadow: 0 1px 3px #1b30300a; }
+:root #root :is(.workspace-view-switch, .inner-tabs, .expense-tabs) { display: flex; align-items: stretch; gap: 0; padding: 0; margin: 0 0 16px; border: 0; border-bottom: 1px solid var(--ui-line); border-radius: 0; background: transparent; box-shadow: none; }
+:root #root :is(.workspace-view-switch, .inner-tabs, .expense-tabs) > :is(button, .button) { flex: 1; min-width: 0; min-height: 50px; display: flex; align-items: center; justify-content: center; padding: 8px 4px; border: 0; border-bottom: 2px solid transparent; border-radius: 0; background: transparent; color: var(--ui-muted); font-size: 17px; font-weight: 550; box-shadow: none; }
+:root #root :is(.workspace-view-switch, .inner-tabs, .expense-tabs) > :is(button, .button):is([aria-pressed=true],[aria-selected=true],.active) { background: transparent; color: var(--ui-accent); border-bottom-color: var(--ui-accent); font-weight: 700; }
+/* Reusable surface: same radius, edge, padding, heading rhythm on every page. */
+:root #root :is(.planner-panel, .planner-trip-summary, .trip-library-card, .settings-group, .reservation-list > article, .field-next, .expense-summary-compact, .timeline-workspace .stop-card) { border: 1px solid var(--ui-line); border-radius: var(--ui-radius); background: var(--ui-surface); padding: 16px; box-shadow: none; }
+:root #root :is(.planner-panel, .settings-group) { margin: 0 0 12px; }
+:root #root .workspace-panel { padding: 0; border: 0; border-radius: 0; background: transparent; box-shadow: none; }
+/* Home is a dashboard, without an extra set of different-looking controls. */
+:root #root .planner-home > .home-section-heading { margin-bottom: 16px; }
+:root #root .home-trip-switch { margin: 0 0 16px; gap: 12px; }
+:root #root .home-trip-switch select { background: #fff; }
+:root #root .planner-trip-summary, :root #root .planner-trip-summary:has(.planner-cover-photo) { display: grid; grid-template-columns: minmax(0,1fr) auto; gap: 12px; min-height: 0; margin: 0; padding: 16px; background: #fff; color: var(--ui-ink); }
+:root #root .planner-trip-summary:has(.planner-cover-photo) { grid-template-columns: 54px minmax(0,1fr) auto; }
+:root #root .planner-cover-photo { position: static; width: 54px; height: 70px; border-radius: 8px; }
+:root #root .home-phase { background: var(--ui-accent-soft); color: var(--ui-accent); border: 0; border-radius: 6px; padding: 4px 7px; font-size: 15px; }
+:root #root .planner-trip-summary p { font-size: 17px; color: #41535b; margin: 5px 0; }
+:root #root .home-summary-copy small { font-size: 16px; color: var(--ui-muted); }
+:root #root .planner-trip-summary .button.primary { min-height: 50px; background: var(--ui-accent); border-color: var(--ui-accent); color: #fff; padding: 10px 12px; margin: 0; font-size: 16px; }
+:root #root .home-action-row { margin: 10px 0 0; gap: 10px; }
+:root #root .home-action-row .planner-photo-button, :root #root .quick-add-fab { position: static; margin: 0; padding: 10px 12px; border: 1px solid var(--ui-line); background: #fff; color: #4b6268; border-radius: var(--ui-control-radius); box-shadow: none; font-size: 17px; }
+:root #root .quick-add-fab { min-height: 50px; }
+:root #root .planner-shortcuts { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: 0; border: 0; padding: 8px 0; margin: 0 0 4px; }
+:root #root .planner-shortcuts button { min-height: 66px; gap: 8px; padding: 8px 2px; border: 0; background: transparent; border-radius: 8px; box-shadow: none; }
+:root #root .planner-shortcuts button span { color: #465a62; font-size: 16px; font-weight: 550; }
+:root #root .planner-shortcuts svg { width: 22px; height: 22px; color: var(--ui-accent); }
+:root #root .planner-panel .home-section-heading { margin: 0 0 8px; }
+:root #root .planner-panel .home-section-heading .text-button { font-size: 16px; }
+:root #root .planner-panel > .muted { margin: 0 0 10px; font-size: 16px; }
+:root #root .planner-day-preview { margin: 0; }
+:root #root .planner-day-preview li { min-height: 60px; grid-template-columns: 42px 66px minmax(0,1fr); gap: 8px; padding: 8px 0; }
+:root #root .home-stop-details strong { font-size: 20px; color: var(--ui-ink); }
+:root #root .home-stop-details small { font-size: 16px; margin-top: 3px; }
+:root #root .home-booking-card { padding: 10px 0; }
+:root #root .home-booking-heading > strong { font-size: 19px; color: var(--ui-ink); }
+:root #root .home-booking-heading > span { border-radius: 5px; background: var(--ui-accent-soft); color: var(--ui-accent); }
+:root #root .home-flight-route { margin: 10px 0 4px; background: transparent; padding: 0; border-radius: 0; gap: 12px; }
+:root #root .home-flight-route strong { font-size: 22px; }
+:root #root .home-check-row { min-height: 54px; font-size: 18px; padding: 8px 0; border-color: var(--ui-line); }
+:root #root .planner-metrics { margin: 0 0 16px; padding: 12px 18px; border: 1px solid var(--ui-line); border-radius: var(--ui-radius); background: #fff; }
+:root #root .planner-metrics strong { font-size: 24px; color: var(--ui-ink); }
+/* Trip header is one title row, not a separate management heading and icon wall. */
+:root #root .trip-banner { display: grid; grid-template-columns: minmax(0,1fr) auto; gap: 8px 12px; align-items: start; padding: 0; margin: 0 0 14px; border: 0; background: transparent; }
+:root #root .trip-header-copy { min-width: 0; }
+:root #root .trip-header-copy h1 { margin: 0 0 8px; }
+:root #root .trip-banner-controls { display: flex; align-items: center; gap: 5px; padding: 0; }
+:root #root .trip-banner-controls .icon-button { background: transparent; border-color: transparent; }
+:root #root .trips-page .itinerary .trip-facts { display: flex; flex-direction: row; flex-wrap: wrap; gap: 5px 12px; margin: 6px 0 0; }
+:root #root .trip-facts > span, :root #root .trips-page .itinerary .trip-facts > span:first-child { font-size: 16px; width: auto; flex-basis: auto; }
+:root #root .trip-photo-toolbar { display: flex; gap: 10px; align-items: center; margin: 0 0 16px; }
+:root #root .trip-photo-toolbar .text-button { font-size: 16px; color: #52656c; }
+:root #root .trip-photo-toolbar .quick-add-fab { margin-left: auto; }
+:root #root .trip-plan-cover { width: 40px; height: 40px; border-radius: 8px; }
+:root #root .trip-actions-menu { position: relative; flex: 0 0 50px; }
+:root #root .trip-actions-menu > summary { display: grid; place-items: center; width: 50px; height: 50px; list-style: none; border-radius: var(--ui-control-radius); cursor: pointer; color: #52666d; }
+:root #root .trip-actions-menu > summary::-webkit-details-marker { display: none; }
+:root #root .trip-actions-menu[open] > summary { background: #e9eeef; }
+:root #root .trip-menu-items { position: absolute; z-index: 40; right: 0; top: 56px; display: grid; min-width: 208px; padding: 6px; border: 1px solid var(--ui-line); border-radius: 12px; background: #fff; box-shadow: 0 8px 28px #1c303019; }
+:root #root .trip-menu-items .text-button { justify-content: flex-start; padding: 10px 12px; color: var(--ui-ink); font-size: 17px; width: 100%; margin: 0; }
+:root #root .trip-menu-items .danger-action { color: #b44747; border-top: 1px solid var(--ui-line); border-radius: 0; }
+:root #root .task-page-heading { margin-bottom: 14px; }
+:root #root .task-page .trip-banner { padding: 12px 16px; border: 1px solid var(--ui-line); border-radius: 12px; background: #fff; margin: 0 0 8px; }
+:root #root .task-page .trip-header-copy h2 { font-size: 20px; margin: 0; }
+:root #root .focused-actions { margin: 0 0 16px; gap: 10px; }
+:root #root .task-planning-return { margin: 0; font-size: 16px; }
+:root #root .workspace-trip-switch { margin: 0 0 12px; }
+:root #root .workspace-trip-switch select { width: 100%; }
+/* Schedule, preparation and on-trip content share a restrained card vocabulary. */
+:root #root .trip-overview { border: 1px solid var(--ui-line); border-radius: var(--ui-control-radius); padding: 0 12px; background: #fff; margin-bottom: 12px; }
+:root #root .trip-overview > summary { min-height: 50px; font-size: 16px; }
+:root #root .day-navigation { margin: 0 0 12px; padding: 0; border-color: var(--ui-line); }
+:root #root .day-tabs { gap: 5px; }
+:root #root .day-tab { min-height: 50px; background: transparent; color: var(--ui-muted); padding: 9px 12px; border-radius: 9px; }
+:root #root .day-tab[aria-selected=true] { background: #fff; color: var(--ui-accent); box-shadow: inset 0 0 0 1px var(--ui-line); }
+:root #root .timeline-day-heading { margin: 0 0 8px; }
+:root #root .timeline-day-heading h3 { font-size: 18px; }
+:root #root .timeline-workspace .stop-card { padding: 16px; }
+:root #root .timeline-workspace .stop-place strong { font-size: 21px; line-height: 1.5; font-weight: 650; }
+:root #root .timeline-workspace .stop-place small { font-size: 16px; color: var(--ui-muted); }
+:root #root .timeline-marker { background: var(--ui-accent); }
+:root #root .stop-expand { min-height: 50px; font-size: 16px; color: var(--ui-muted); }
+:root #root .preparation-checklist .tool-heading { margin-bottom: 8px; }
+:root #root .preparation-quick-filters { gap: 6px; margin: 12px 0; }
+:root #root .preparation-quick-filters button { min-height: 50px; border-radius: 9px; background: #fff; border: 1px solid var(--ui-line); color: var(--ui-muted); font-size: 16px; }
+:root #root .preparation-quick-filters button[aria-pressed=true] { background: var(--ui-accent-soft); border-color: var(--ui-accent-soft); color: var(--ui-accent); }
+:root #root .preparation-group { border: 1px solid var(--ui-line); border-radius: var(--ui-radius); padding: 0 16px; background: #fff; margin: 12px 0; }
+:root #root .preparation-group > summary { min-height: 50px; font-size: 17px; }
+:root #root .checklist-row { padding: 12px 0; border-color: var(--ui-line); }
+:root #root .checklist-row label { min-height: 50px; font-size: 18px; }
+:root #root .checklist-row input { width: 22px; height: 22px; min-height: 22px; flex: 0 0 22px; accent-color: var(--ui-accent); }
+:root #root .field-next { margin: 12px 0; }
+:root #root .field-next h2 { font-size: 26px; margin: 8px 0; }
+:root #root .field-place-photo { border-radius: 10px; background: #f0f3f4; }
+:root #root .field-primary-photo:has(svg) { height: 84px; }
+:root #root .field-place-introduction { color: var(--ui-muted); font-size: 18px; margin: 8px 0 16px; }
+:root #root .field-actions { gap: 8px; }
+:root #root .field-actions .button { padding-inline: 6px; font-size: 16px; }
+/* Reservation entry has one action row, aligned with expense actions. */
+:root #root .reservation-add-actions { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 14px; }
+:root #root .reservation-add-actions .reservation-quick-start { display: contents; }
+:root #root .reservation-add-actions > .button { flex: 1 1 100px; }
+:root #root .reservation-add-actions .button { min-height: 50px; font-size: 16px; padding: 10px 11px; }
+:root #root .reservation-add-actions > .button.primary { background: #fff; color: var(--ui-ink); border-color: var(--ui-line); }
+:root #root .reservations-panel > .tool-heading > svg { display: none; }
+:root #root .tool-filters { display: flex; align-items: center; flex-wrap: wrap; gap: 10px; }
+:root #root .tool-filters select { min-width: 0; font-size: 16px; }
+:root #root .reservation-search { margin: 12px 0 16px; }
+:root #root .reservation-list > article { display: grid; grid-template-columns: 64px minmax(0,1fr); gap: 8px 12px; margin: 0 0 12px; padding: 16px; }
+:root #root .reservation-date { color: var(--ui-muted); font-size: 16px; }
+:root #root .reservation-copy h4 { font-size: 21px; margin: 0 0 8px; color: var(--ui-ink); }
+:root #root .reservation-details { font-size: 17px; }
+:root #root .flight-times { padding: 12px; border-radius: 10px; background: #f5f7f8; }
+:root #root .reservation-list > article > .row-actions { grid-column: 1 / -1; display: flex; justify-content: flex-end; border-top: 1px solid var(--ui-line); padding-top: 8px; }
+:root #root .reservation-status { border-radius: 6px; background: var(--ui-accent-soft); color: var(--ui-accent); }
+/* Finance uses the same list/detail rhythm and single accent, preserving totals. */
+:root #root .expense-manager > .tool-heading h3 { font-size: 22px; }
+:root #root .expense-summary-compact { padding: 16px; margin-bottom: 16px; }
+:root #root .money-overview { border: 0; border-radius: 0; padding: 0; background: transparent; box-shadow: none; gap: 12px; }
+:root #root .money-overview strong { font-size: 28px; color: var(--ui-ink); line-height: 1.3; }
+:root #root .money-overview span { font-size: 16px; color: var(--ui-muted); }
+:root #root .expense-selected-day { margin: 12px 0 0; padding: 12px 0 0; border-top: 1px solid var(--ui-line); min-height: 50px; font-size: 16px; }
+:root #root .expense-entry { padding-block: 16px; border-color: var(--ui-line); }
+:root #root .expense-entry-title { font-size: 20px; }
+:root #root .expense-running-total { background: #fff; border-top: 1px solid var(--ui-line); border-radius: 0; box-shadow: none; font-size: 22px; }
+/* Settings: grouped rows, the same headings, fewer competing filled actions. */
+:root #root .settings-group { padding: 16px; }
+:root #root .settings-group h2 { display: flex; align-items: center; gap: 8px; margin-bottom: 12px; }
+:root #root .settings-group p { font-size: 17px; margin: 8px 0 12px; line-height: 1.65; }
+:root #root .settings-group > :is(button,a) { font-size: 18px; min-height: 54px; padding: 12px 0; color: var(--ui-ink); border-color: var(--ui-line); font-weight: 550; }
+:root #root .settings-group > :is(button,a):last-child { border-bottom: 0; }
+:root #root .settings-group > button.primary { padding: 12px 16px; background: var(--ui-accent-soft); border: 0; color: var(--ui-accent); }
+:root #root .settings-version { font-size: 16px; color: var(--ui-muted); }
+:root #root .trip-library-card { gap: 14px; padding: 16px; }
+:root #root .trip-library-copy strong { font-size: 23px; }
+:root #root .trip-library-copy small { font-size: 16px; color: var(--ui-muted); }
+/* All inputs open in the same sheet, with one heading and one footer grammar. */
+:root #root .modal { border-radius: 20px; border: 1px solid var(--ui-line); background: #fff; box-shadow: 0 20px 70px #192d3226; }
+:root #root .modal-header { background: #fff; padding: 16px 20px; border-bottom: 1px solid var(--ui-line); gap: 12px; }
+:root #root .modal-header h2 { font-size: 26px; margin: 0; }
+:root #root .modal-header .icon-button { background: #f3f5f6; border: 0; }
+:root #root :is(.modal-body,.create-form) { padding: 20px; }
+:root #root .inline-form { padding: 16px; border: 1px solid var(--ui-line); border-radius: 12px; background: #fff; }
+:root #root .sheet-intro { font-size: 21px; color: var(--ui-ink); margin: 0 0 16px; }
+:root #root .sheet-intro span { font-size: 17px; color: var(--ui-muted); }
+:root #root .quick-action-grid { gap: 8px; margin: 12px 0 20px; }
+:root #root .quick-action-grid button { min-height: 76px; border-radius: 10px; border: 1px solid var(--ui-line); background: #fff; color: #4a6167; font-size: 17px; }
+:root #root .quick-action-grid button[aria-pressed=true] { border-color: var(--ui-accent); background: var(--ui-accent-soft); color: var(--ui-accent); }
+:root #root .quick-plan h3 { font-size: 22px; }
+:root #root .simple-options { border-color: var(--ui-line); }
+:root #root .simple-options > summary { min-height: 50px; font-size: 16px; color: #61747b; }
+:root #root .workspace-empty { padding: 26px 16px; color: var(--ui-muted); font-size: 18px; }
+@media (max-width: 600px) {
+  :root #root .main { padding-inline: 20px; }
+  :root #root .modal { border-radius: 20px 20px 0 0; }
+  :root #root .trip-banner { grid-template-columns: minmax(0,1fr) 105px; }
+  :root #root .task-page .trip-banner { grid-template-columns: minmax(0,1fr); }
+}
+@media (max-width: 360px) {
+  :root #root .main { padding-inline: 16px; }
+  :root #root :is(.page-title h1,.task-page-heading,.trip-header-copy h1,.planner-home > .home-section-heading h1) { font-size: 28px; }
+  :root #root .trip-photo-toolbar { gap: 5px; }
+  :root #root .trip-photo-toolbar .text-button { font-size: 15px; }
+  :root #root .trip-photo-toolbar .quick-add-fab { padding-inline: 9px; font-size: 15px; }
+  :root #root .planner-trip-summary:has(.planner-cover-photo) { grid-template-columns: 44px minmax(0,1fr); }
+  :root #root .planner-trip-summary:has(.planner-cover-photo) .button { grid-column: 1 / -1; }
+  :root #root .planner-cover-photo { width: 44px; height: 62px; }
+}
+@media (min-width: 960px) {
+  :root #root .planner-home { gap: 16px; }
+  :root #root .planner-home > .home-action-row { margin: 0; }
+  :root #root .planner-home > .planner-panel { margin-bottom: 0; }
+}
+
+:root #root .timeline-workspace .timeline-item { --route-color: var(--ui-accent); }
+:root #root .timeline-workspace .timeline-rail .stop-number { background: var(--ui-accent); }
+:root #root .desktop-nav > button { min-height: 50px; }
+
+:root #root .planner-day-preview li > span { white-space: nowrap; }
+:root #root .readiness-list { border: 1px solid var(--ui-line); border-radius: var(--ui-radius); background: #fff; padding: 0 16px; }
+:root #root .readiness-list > button { border-color: var(--ui-line); }
+/* An empty dashboard section is a light action row, not another empty card. */
+:root #root .home-checklist:has(.planner-empty-link),
+:root #root .home-documents:not(:has(.attachments-panel)) {
+  padding: 0 4px;
+  border: 0;
+  border-top: 1px solid var(--ui-line);
+  border-radius: 0;
+  background: transparent;
+  margin: 0 0 12px;
+}
+:root #root .home-documents:not(:has(.attachments-panel)) .home-section-heading { margin: 0; }
+:root #root .home-documents:not(:has(.attachments-panel)) h2 { font-size: 18px; font-weight: 600; }
+:root #root .home-booking-card:first-of-type { padding-top: 0; }
+
+/* Financial context supports the selected task instead of pushing it away. */
+:root #root .money-overview { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); align-items: start; gap: 16px; }
+:root #root .money-overview > div:only-child { grid-column: 1 / -1; }
+:root #root .money-overview strong { overflow-wrap: anywhere; }
+:root #root .expense-summary-compact.is-secondary { padding: 12px 16px; margin-bottom: 16px; }
+:root #root .is-secondary .money-overview { gap: 12px; }
+:root #root .is-secondary .money-overview strong { font-size: 20px; }
+:root #root .is-secondary .money-overview span { font-size: 15px; }
+:root #root .is-secondary .money-overview :is(progress,small),
+:root #root .is-secondary .expense-selected-day { display: none; }
+:root #root .reservation-edit-page .inline-form { margin-top: 0; padding: 16px; }

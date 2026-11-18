@@ -210,7 +210,6 @@ export default function FieldJourney({
               />
             </details>
           )}
-          {next.note && <p className="field-note">{next.note}</p>}
           <PlaceSource stop={next} />
           <div className="field-place-info stop-photos field-photo-gallery">
             <AttachmentsPanel stopId={next.id} imagesOnly />

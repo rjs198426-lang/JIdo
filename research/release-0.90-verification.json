@@ -1,0 +1,23 @@
+{
+  "version": "0.90",
+  "versionCode": 91,
+  "package": "com.jido.travel.next",
+  "bytes": 6402108,
+  "sha256": "3c81648fc40c8963cc54684e9624c533ce6619877031cd7c8fcbd0dcd8b5e0c4",
+  "certificateSha256": "0d1b1f20dae73d00626d9ebb4f460943c4f16c2266bc7bc58d124d13b32494ac",
+  "signatureVerified": true,
+  "matchedWebAssets": 19,
+  "privateSigningFilesFound": false,
+  "existingMapsConfigurationBundled": true,
+  "nativeDeviceInstallTested": false,
+  "checkedAt": "2026-11-18T11:22:34.121274+00:00",
+  "sourceBaseCommit": "971ab94a50efa26aa256a80e58e97cbaf4a5caa9",
+  "scope": "Shared travel design system across all active tabs, consistent headings, controls and surfaces, accessible trip action menu and reduced repeated content; records and compatibility preserved",
+  "browserTestsPassed": 294,
+  "fullSuitePassed": 292,
+  "finalRelevantPassed": 130,
+  "verificationSequence": "292 full checks passed before final finance summary and reservation-entry presentation changes; 130 relevant checks including 2 new cases passed on final web assets; unique count 294",
+  "realGoogleLoginTested": false,
+  "realTwoDeviceSyncTested": false,
+  "publicCommit": "b44cb7b3713b4628de6555cfa03c3d8b0f9c3011"
+}

@@ -399,8 +399,28 @@ export function Reservations({
         {formView}
       </section>
     )
+  if (form)
+    return (
+      <section className="workspace-panel reservations-panel reservation-edit-page">
+        <div className="tool-heading">
+          <h3>
+            {items.some((item) => item.id === form.id)
+              ? '예약 수정'
+              : form.kind === '숙소'
+                ? '호텔 예약 추가'
+                : form.kind === '항공'
+                  ? '항공편 추가'
+                  : '예약 정보 추가'}
+          </h3>
+          <button className="text-button" onClick={() => setForm(null)}>
+            입력 취소
+          </button>
+        </div>
+        {formView}
+      </section>
+    )
   return (
-    <section className="workspace-panel">
+    <section className="workspace-panel reservations-panel">
       <div className="tool-heading">
         <div>
           <h3>항공·호텔·예약</h3>
@@ -413,36 +433,39 @@ export function Reservations({
           이용할 서비스에서 진행해 주세요.
         </p>
       )}
-      <div className="reservation-quick-start">
+      <div className="reservation-add-actions">
+        <div className="reservation-quick-start">
+          <button
+            className="button outline"
+            onClick={() => {
+              setForm(blank('항공'))
+              setError('')
+            }}
+          >
+            항공편 추가
+          </button>
+          <button
+            className="button outline"
+            onClick={() => {
+              setForm(blank('숙소'))
+              setError('')
+            }}
+          >
+            호텔 예약 추가
+          </button>
+        </div>
         <button
-          className="button outline"
+          className="button primary"
+          aria-label="예약 정보 추가"
           onClick={() => {
-            setForm(blank('항공'))
+            setForm(blank())
             setError('')
           }}
         >
-          항공편 추가
-        </button>
-        <button
-          className="button outline"
-          onClick={() => {
-            setForm(blank('숙소'))
-            setError('')
-          }}
-        >
-          호텔 예약 추가
+          <Plus size={17} />
+          예약 추가
         </button>
       </div>
-      <button
-        className="button primary"
-        onClick={() => {
-          setForm(blank())
-          setError('')
-        }}
-      >
-        <Plus size={17} />
-        예약 정보 추가
-      </button>
       <div className="tool-filters">
         <select
           aria-label="예약 상태 필터"
@@ -691,7 +714,6 @@ export function Reservations({
                   )
                     return
                   setRemoved(item)
-                  if (form?.id === item.id) setForm(null)
                 }}
               >
                 <Trash2 size={17} />

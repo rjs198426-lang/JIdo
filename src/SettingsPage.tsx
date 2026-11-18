@@ -47,8 +47,7 @@ export default function SettingsPage({
           Android
         </p>
         <p>
-          여행 기록은 이 기기에 저장돼요. 다른 기기에서도 사용하려면 Google
-          Drive를 연결하세요. 전체 백업도 따로 보관할 수 있어요.
+          여행 기록은 이 기기에 저장돼요. 기기를 바꾸기 전 전체 백업을 보관하세요.
         </p>
         <a
           href="https://github.com/rjs198426-lang/JIdo/blob/main/APP-TERMS.md"

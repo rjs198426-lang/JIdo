@@ -50,15 +50,13 @@ export default function DriveSyncSettings({ sync }: { sync: DriveSyncState }) {
         <Cloud size={21} aria-hidden="true" /> Google Drive 동기화
       </h2>
       <p>
-        같은 Google 계정으로 내 기기의 여행·경비·예약·개인 장소·사진·첨부를 함께
-        사용해요.
+        같은 Google 계정으로 여행·사진·첨부를 내 기기끼리 동기화해요.
       </p>
       {!sync.enabled ? (
         <>
           <p>
-            연결하면 이 자료를 Google Drive의 앱 전용 공간에 저장해요. 일반
-            Drive 문서는 읽지 않아요. 인터넷이 없어도 기기 기록은 계속 사용할 수
-            있어요.
+            내 Drive의 앱 전용 공간에 보관하며 일반 문서는 읽지 않아요.
+            인터넷이 없어도 기기 기록은 사용할 수 있어요.
           </p>
           <button
             className="button primary"
