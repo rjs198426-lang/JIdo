@@ -12,7 +12,7 @@
 
 브라우저 검사 108개와 Android 빌드, 기존 서명, 웹 자산 19개 일치를 확인했습니다. 실제 휴대폰 설치는 확인하지 못했습니다. [변경 전후 화면](research/audits/2026-11-20-visual-refresh/README.md).
 
-[배포 검증 기록](research/release-0.91-verification.json).
+고정 링크와 최신 별칭 2개에서 APK를 공개 다운로드해 HTTP 200, 파일 크기, SHA-256, 기존 서명을 확인했습니다. [배포 검증 기록](research/release-0.91-verification.json).
 
 ## 0.90 이전 배포
 

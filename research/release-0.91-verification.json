@@ -16,5 +16,186 @@
   "browserTestsPassed": 108,
   "realGoogleLoginTested": false,
   "realTwoDeviceSyncTested": false,
-  "publicCommit": "71abe0e8862a32c457becadaa15c50d7e713b239"
+  "publicCommit": "71abe0e8862a32c457becadaa15c50d7e713b239",
+  "sourceCommit": "8b465977563ba8d7fbe42d7e2135ad2b2912f74b",
+  "publicDownloads": [
+    {
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/71abe0e8862a32c457becadaa15c50d7e713b239/JDo-android-0.91.apk",
+      "httpStatus": 200,
+      "bytes": 6402884,
+      "sha256": "0e22d34bbef7bd1c41b36a93174d92cbdde2efa67282b7c08eca81367d88acf7",
+      "matchesBuild": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/android-apk-downloads/JDo-android.apk",
+      "httpStatus": 200,
+      "bytes": 6402884,
+      "sha256": "0e22d34bbef7bd1c41b36a93174d92cbdde2efa67282b7c08eca81367d88acf7",
+      "matchesBuild": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/android-apk-downloads/jido-release.apk",
+      "httpStatus": 200,
+      "bytes": 6402884,
+      "sha256": "0e22d34bbef7bd1c41b36a93174d92cbdde2efa67282b7c08eca81367d88acf7",
+      "matchesBuild": true
+    }
+  ],
+  "anonymousDownload": true,
+  "downloadedSignatureVerified": true,
+  "publicSourceFiles": [
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/8b465977563ba8d7fbe42d7e2135ad2b2912f74b/README.md",
+      "httpStatus": 200,
+      "bytes": 4607,
+      "sha256": "01e30da40cc5e8cc67cd494fa2447fb2913d7ae700dd1b7e3d15f7cac92d5652",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "ANDROID-DOWNLOAD.md",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/8b465977563ba8d7fbe42d7e2135ad2b2912f74b/ANDROID-DOWNLOAD.md",
+      "httpStatus": 200,
+      "bytes": 103377,
+      "sha256": "603cb5141e0dc726476bafe7d6020a1a25b5d3d100b9b587df475a87f815a0c9",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "src/App.tsx",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/8b465977563ba8d7fbe42d7e2135ad2b2912f74b/src/App.tsx",
+      "httpStatus": 200,
+      "bytes": 108424,
+      "sha256": "d9559fa50b640689cc271d831a8fa932a46d389abf5e254528ae7962f13e28bf",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "src/PlannerHome.tsx",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/8b465977563ba8d7fbe42d7e2135ad2b2912f74b/src/PlannerHome.tsx",
+      "httpStatus": 200,
+      "bytes": 17627,
+      "sha256": "a11064faaa83f071f9b56a5d046ee66927d5055503774e3161c5a4d7609b1c94",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "src/design-system.css",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/8b465977563ba8d7fbe42d7e2135ad2b2912f74b/src/design-system.css",
+      "httpStatus": 200,
+      "bytes": 28887,
+      "sha256": "729650dc38f057c3c136a2d2c1bb8fcaa69cf206ec17ebb5d292053867c78504",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "android/app/build.gradle",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/8b465977563ba8d7fbe42d7e2135ad2b2912f74b/android/app/build.gradle",
+      "httpStatus": 200,
+      "bytes": 3197,
+      "sha256": "63255f3808e4efacd150a978a50d508e4a2dcbfb4447ba60461b105296c34ea4",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-20-visual-refresh/README.md",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/8b465977563ba8d7fbe42d7e2135ad2b2912f74b/research/audits/2026-11-20-visual-refresh/README.md",
+      "httpStatus": 200,
+      "bytes": 2237,
+      "sha256": "32c4c18777e3bda0728f518932e6555b12df6baff1cbe1e51732e2f479facaca",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-20-visual-refresh/density-metrics.json",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/8b465977563ba8d7fbe42d7e2135ad2b2912f74b/research/audits/2026-11-20-visual-refresh/density-metrics.json",
+      "httpStatus": 200,
+      "bytes": 258,
+      "sha256": "5d824a0fa308e4705ca0694c891373003405053b4e13868674dcc77e2b940a9d",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-20-visual-refresh/after-checklist.png",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/8b465977563ba8d7fbe42d7e2135ad2b2912f74b/research/audits/2026-11-20-visual-refresh/after-checklist.png",
+      "httpStatus": 200,
+      "bytes": 44419,
+      "sha256": "6aa547556a7f265dd41332abefc43221c6e5bfb68d37169a21151cfdbafb11a3",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-20-visual-refresh/after-desktop-home.png",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/8b465977563ba8d7fbe42d7e2135ad2b2912f74b/research/audits/2026-11-20-visual-refresh/after-desktop-home.png",
+      "httpStatus": 200,
+      "bytes": 133421,
+      "sha256": "b844fe3f8b7609db70e945babb726f8a8366d6b9284b764fdf9d519ed3a2118b",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-20-visual-refresh/after-expenses.png",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/8b465977563ba8d7fbe42d7e2135ad2b2912f74b/research/audits/2026-11-20-visual-refresh/after-expenses.png",
+      "httpStatus": 200,
+      "bytes": 36708,
+      "sha256": "5b8a69d1af2975ac073309939cb91ad7c4e2213adaae619a4591217f5d4169ae",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-20-visual-refresh/after-field.png",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/8b465977563ba8d7fbe42d7e2135ad2b2912f74b/research/audits/2026-11-20-visual-refresh/after-field.png",
+      "httpStatus": 200,
+      "bytes": 47173,
+      "sha256": "52aef6305bf9424886ed8e667da9debaa2f8ff7c4e359999f5fd4dc9a63a1aa2",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-20-visual-refresh/after-home.png",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/8b465977563ba8d7fbe42d7e2135ad2b2912f74b/research/audits/2026-11-20-visual-refresh/after-home.png",
+      "httpStatus": 200,
+      "bytes": 80818,
+      "sha256": "c237d6435384df85a5fc388a84e991c6e3a93c8e5699db9e410e9c7b2bcbc1d9",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-20-visual-refresh/after-prepare.png",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/8b465977563ba8d7fbe42d7e2135ad2b2912f74b/research/audits/2026-11-20-visual-refresh/after-prepare.png",
+      "httpStatus": 200,
+      "bytes": 44031,
+      "sha256": "e108a7d52e89f7baab49b94a0247f081ddfa216007cc6b397df837bc89dd0870",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-20-visual-refresh/after-quick.png",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/8b465977563ba8d7fbe42d7e2135ad2b2912f74b/research/audits/2026-11-20-visual-refresh/after-quick.png",
+      "httpStatus": 200,
+      "bytes": 49934,
+      "sha256": "de3495d8bf01fb5c1e111e81c9a06a510e557a6add73426d7102af1d7a2eb3b8",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-20-visual-refresh/after-reservations.png",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/8b465977563ba8d7fbe42d7e2135ad2b2912f74b/research/audits/2026-11-20-visual-refresh/after-reservations.png",
+      "httpStatus": 200,
+      "bytes": 51141,
+      "sha256": "c95aa1e60c2b7705b3a611473c44901d0ce347a6745641204dff5ad98e14290a",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-20-visual-refresh/after-schedule.png",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/8b465977563ba8d7fbe42d7e2135ad2b2912f74b/research/audits/2026-11-20-visual-refresh/after-schedule.png",
+      "httpStatus": 200,
+      "bytes": 49243,
+      "sha256": "82d9d7a98d37c89bbae721862d97008ae8d39d044dbf8cca2ea4a21932e2ecd4",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-20-visual-refresh/after-settings.png",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/8b465977563ba8d7fbe42d7e2135ad2b2912f74b/research/audits/2026-11-20-visual-refresh/after-settings.png",
+      "httpStatus": 200,
+      "bytes": 51014,
+      "sha256": "1d9d6a99ad32d1013da97334a0b68fa2f216dc10cc6bfaf5a6937ac38cb37bdf",
+      "matchesBuildSource": true
+    },
+    {
+      "path": "research/audits/2026-11-20-visual-refresh/after-expense-list.png",
+      "url": "https://raw.githubusercontent.com/rjs198426-lang/JIdo/8b465977563ba8d7fbe42d7e2135ad2b2912f74b/research/audits/2026-11-20-visual-refresh/after-expense-list.png",
+      "httpStatus": 200,
+      "bytes": 43312,
+      "sha256": "c1511ec3eed243e7e426601582ea858dd2a8c764c00f1f5da76e22befa0cd0b9",
+      "matchesBuildSource": true
+    }
+  ],
+  "publicVerifiedAt": "2026-11-20T22:14:09.914324+00:00"
 }
