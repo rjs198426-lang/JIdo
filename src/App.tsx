@@ -2051,6 +2051,7 @@ export default function App() {
               <button
                 key={item.id}
                 className={selectedNav === item.id ? 'active' : ''}
+                aria-current={selectedNav === item.id ? 'page' : undefined}
                 onClick={() => navigate(item.id)}
               >
                 {item.name}
@@ -2328,9 +2329,10 @@ export default function App() {
             <button
               key={item.id}
               className={selectedNav === item.id ? 'active' : ''}
+              aria-current={selectedNav === item.id ? 'page' : undefined}
               onClick={() => navigate(item.id)}
             >
-              <span>
+              <span aria-hidden="true">
                 <Icon
                   size={22}
                   strokeWidth={selectedNav === item.id ? 2.2 : 1.7}

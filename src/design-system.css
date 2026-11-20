@@ -1,16 +1,20 @@
-/* 0.90 — visual ownership for the active travel app.
+/* 0.91 — visual ownership for the active travel app.
    Legacy sheets retain layout/compatibility rules; this file owns shared visual
    roles. Tokens and selectors cover every active tab, including forms and sheets. */
 :root {
-  --ui-ink: #192d32;
-  --ui-muted: #6f7b83;
-  --ui-accent: #087c70;
-  --ui-accent-soft: #e8f3ef;
-  --ui-line: #e4e8eb;
+  --ui-ink: #182d2a;
+  --ui-muted: #526964;
+  --ui-accent: #12685a;
+  --ui-accent-soft: #e3efe8;
+  --ui-line: #dce5de;
   --ui-surface: #fff;
-  --ui-canvas: #f6f7f9;
-  --ui-radius: 16px;
-  --ui-control-radius: 10px;
+  --ui-canvas: #f3f6f2;
+  --ui-panel: #143832;
+  --ui-panel-ink: #f4fbf6;
+  --ui-panel-muted: #c1dbc9;
+  --ui-shadow: 0 2px 4px #18372b06, 0 8px 22px #18372b08;
+  --ui-radius: 18px;
+  --ui-control-radius: 12px;
   --ui-space: 16px;
   --green: var(--ui-accent);
   --deep: var(--ui-ink);
@@ -25,7 +29,7 @@
 :root #root :is(.page-section, .planner-home) { padding-top: 24px; }
 :root #root :is(h1,h2,h3,h4,p) { overflow-wrap: anywhere; }
 :root #root :is(h1,h2,h3,h4) { color: var(--ui-ink); letter-spacing: -.025em; line-height: 1.4; }
-:root #root :is(.page-title h1, .task-page-heading, .trip-header-copy h1, .planner-home > .home-section-heading h1, .planner-home > h1) { font-size: 30px; font-weight: 750; margin: 0; }
+:root #root :is(.page-title h1, .task-page-heading, .trip-header-copy h1, .planner-feature h1, .planner-welcome h1) { font-size: 32px; font-weight: 760; margin: 0; }
 :root #root :is(.tool-heading h3, .planner-panel h2, .settings-group h2) { font-size: 22px; font-weight: 700; margin: 0; }
 :root #root :is(.page-title, .home-section-heading, .tool-heading) { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin: 0 0 16px; }
 :root #root :is(.tool-heading, .home-section-heading) > div { min-width: 0; }
@@ -70,13 +74,11 @@
 :root #root :is(.planner-panel, .settings-group) { margin: 0 0 12px; }
 :root #root .workspace-panel { padding: 0; border: 0; border-radius: 0; background: transparent; box-shadow: none; }
 /* Home is a dashboard, without an extra set of different-looking controls. */
-:root #root .planner-home > .home-section-heading { margin-bottom: 16px; }
 :root #root .home-trip-switch { margin: 0 0 16px; gap: 12px; }
 :root #root .home-trip-switch select { background: #fff; }
 :root #root .planner-trip-summary, :root #root .planner-trip-summary:has(.planner-cover-photo) { display: grid; grid-template-columns: minmax(0,1fr) auto; gap: 12px; min-height: 0; margin: 0; padding: 16px; background: #fff; color: var(--ui-ink); }
 :root #root .planner-trip-summary:has(.planner-cover-photo) { grid-template-columns: 54px minmax(0,1fr) auto; }
 :root #root .planner-cover-photo { position: static; width: 54px; height: 70px; border-radius: 8px; }
-:root #root .home-phase { background: var(--ui-accent-soft); color: var(--ui-accent); border: 0; border-radius: 6px; padding: 4px 7px; font-size: 15px; }
 :root #root .planner-trip-summary p { font-size: 17px; color: #41535b; margin: 5px 0; }
 :root #root .home-summary-copy small { font-size: 16px; color: var(--ui-muted); }
 :root #root .planner-trip-summary .button.primary { min-height: 50px; background: var(--ui-accent); border-color: var(--ui-accent); color: #fff; padding: 10px 12px; margin: 0; font-size: 16px; }
@@ -220,7 +222,7 @@
 }
 @media (max-width: 360px) {
   :root #root .main { padding-inline: 16px; }
-  :root #root :is(.page-title h1,.task-page-heading,.trip-header-copy h1,.planner-home > .home-section-heading h1) { font-size: 28px; }
+  :root #root :is(.page-title h1,.task-page-heading,.trip-header-copy h1,.planner-feature h1, .planner-welcome h1) { font-size: 28px; }
   :root #root .trip-photo-toolbar { gap: 5px; }
   :root #root .trip-photo-toolbar .text-button { font-size: 15px; }
   :root #root .trip-photo-toolbar .quick-add-fab { padding-inline: 9px; font-size: 15px; }
@@ -266,3 +268,122 @@
 :root #root .is-secondary .money-overview :is(progress,small),
 :root #root .is-secondary .expense-selected-day { display: none; }
 :root #root .reservation-edit-page .inline-form { margin-top: 0; padding: 16px; }
+
+/* Travel overview and money summary are the main reading anchors. */
+:root #root :is(.planner-feature, .planner-welcome, .expense-summary-compact:not(.is-secondary)) {
+  color: var(--ui-panel-ink);
+  background-color: var(--ui-panel);
+  border: 1px solid #224940;
+  border-radius: 22px;
+  box-shadow: 0 8px 24px #14383221;
+}
+:root #root .planner-feature {
+  grid-column: 1 / -1;
+  padding: 13px 16px 12px;
+  background-image: radial-gradient(ellipse at right top, #225c4c 0%, transparent 67%);
+}
+:root #root .planner-feature .home-section-heading {
+  align-items: start;
+  margin: 0;
+  gap: 10px;
+}
+:root #root :is(.planner-feature, .planner-welcome) h1 { color: var(--ui-panel-ink); }
+:root #root .planner-feature .home-kicker {
+  color: var(--ui-panel-muted);
+  margin: 1px 0 3px;
+  font-weight: 650;
+}
+:root #root .planner-feature .icon-button {
+  background: #ffffff12;
+  border-color: #d6f1df35;
+  color: var(--ui-panel-ink);
+}
+:root #root .planner-feature .planner-trip-summary {
+  gap: 8px 12px;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  padding: 5px 0 0;
+}
+:root #root .planner-feature :is(.home-summary-copy p, .home-summary-copy small) {
+  color: var(--ui-panel-muted);
+  font-variant-numeric: tabular-nums;
+}
+:root #root .planner-feature .home-summary-copy p { margin: 0 0 3px; }
+:root #root :is(.planner-feature, .planner-welcome) .button.primary {
+  background: #dcf3dd;
+  border-color: #dcf3dd;
+  color: #143832;
+}
+:root #root .planner-welcome {
+  padding: 22px;
+  margin-top: 0;
+  background-image: radial-gradient(ellipse at right top, #225c4c 0%, transparent 70%);
+}
+:root #root .planner-welcome > svg, :root #root .planner-welcome p { color: var(--ui-panel-muted); }
+:root #root .planner-welcome > svg { margin-bottom: 8px; }
+:root #root .home-action-row > button { background: var(--ui-surface); }
+:root #root .planner-shortcuts {
+  background: var(--ui-surface);
+  border: 1px solid var(--ui-line);
+  border-radius: var(--ui-radius);
+  padding: 3px 4px;
+  margin: 10px 0 12px;
+}
+:root #root .planner-shortcuts button { gap: 3px; min-height: 64px; }
+:root #root .planner-shortcuts .shortcut-icon {
+  display: grid;
+  width: 30px;
+  height: 28px;
+  place-items: center;
+  border-radius: 8px;
+  background: var(--ui-accent-soft);
+}
+:root #root .planner-shortcuts .shortcut-icon svg { width: 18px; height: 18px; }
+:root #root .planner-panel h2 svg { color: var(--ui-accent); flex-shrink: 0; }
+
+/* Repeated cards and controls use the lighter surface. */
+:root #root :is(.planner-panel, .settings-group, .trip-library-card, .reservation-list > article, .field-next, .timeline-workspace .stop-card) {
+  box-shadow: var(--ui-shadow);
+}
+:root #root :is(.home-checklist:has(.planner-empty-link), .home-documents:not(:has(.attachments-panel))) { box-shadow: none; }
+:root #root .itinerary:not(.task-page) .trip-banner {
+  border-inline-start: 3px solid #79a792;
+  padding-inline-start: 12px;
+}
+:root #root .task-page .trip-banner {
+  background: #e9f0e9;
+  border-color: #d5e3d7;
+}
+:root #root .workspace-tabs { background: #e6eee6; border-color: #d9e4d9; }
+:root #root .workspace-tabs > button[aria-selected=true] { color: var(--ui-accent); }
+:root #root .day-tab[aria-selected=true] { background: var(--ui-accent-soft); }
+:root #root .flight-times, :root #root .field-place-photo { background: #ebf2ed; }
+:root #root .reservation-add-actions .button { box-shadow: 0 1px 2px #18372b08; }
+:root #root .expense-summary-compact:not(.is-secondary) :is(.money-overview span, .money-overview small, .expense-selected-day span) { color: var(--ui-panel-muted); }
+:root #root .expense-summary-compact:not(.is-secondary) :is(.money-overview strong, .expense-selected-day strong) { color: var(--ui-panel-ink); }
+:root #root .expense-summary-compact:not(.is-secondary) .money-overview .over-budget { color: #ffd7ba; }
+:root #root .expense-summary-compact:not(.is-secondary) .expense-selected-day { border-color: #9bc7ad50; background: transparent; }
+:root #root .money-overview strong { font-variant-numeric: tabular-nums; }
+:root #root .settings-group > button:not(.primary) > svg:first-child {
+  box-sizing: content-box;
+  padding: 6px;
+  border-radius: 9px;
+  background: var(--ui-accent-soft);
+  color: var(--ui-accent);
+}
+:root #root .quick-action-grid button > svg { color: var(--ui-accent); }
+:root #root :is(.quick-action-grid button, .modal-header .icon-button) { background: #f1f6f1; }
+:root #root .header { background: var(--ui-surface); }
+:root #root .brand-star { color: #4e927a; }
+:root #root .bottom-nav { box-shadow: 0 -4px 18px #18372b0a; }
+:root #root .bottom-nav > button { color: var(--ui-muted); }
+:root #root .bottom-nav > button.active > span:first-child { border-radius: 16px; }
+@media (hover: hover) {
+  :root #root :is(.planner-shortcuts button, .quick-action-grid button, .trip-menu-items button):hover { background: var(--ui-accent-soft); color: var(--ui-accent); }
+  :root #root .button.primary:hover { filter: brightness(.94); }
+}
+@media (min-width: 960px) {
+  :root #root .planner-feature { padding-inline: 20px; }
+  :root #root .planner-shortcuts { margin: 0; }
+}

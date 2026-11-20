@@ -92,11 +92,9 @@ export default function PlannerHome({
   if (!trip || !entry)
     return (
       <section className="planner-home page-section">
-        <span className="home-kicker">나의 자유여행</span>
-        <h1>여행 준비부터 현장까지</h1>
         <div className="planner-welcome">
-          <Plane size={32} />
-          <h2>내 여행을 한곳에</h2>
+          <Plane size={28} aria-hidden="true" />
+          <h1>내 여행을 한곳에</h1>
           <p>
             날짜별 일정, 항공·호텔 예약, 여행 경비와 동행자 정산을 함께
             관리해요.
@@ -162,54 +160,49 @@ export default function PlannerHome({
             </select>
           </label>
         )}
-        <div className="home-section-heading">
-          <div>
-            <span className="home-kicker">
-              {entry.phase === 'ongoing'
-                ? '지금 여행 중'
-                : entry.phase === 'past'
-                  ? '지난 여행'
-                  : '다음 여행 준비'}
-            </span>
-            <h1>{trip.title}</h1>
+        <div className="planner-feature">
+          <div className="home-section-heading">
+            <div>
+              <span className="home-kicker">
+                {entry.phase === 'ongoing'
+                  ? '지금 여행 중'
+                  : entry.phase === 'past'
+                    ? '지난 여행'
+                    : `출발까지 D-${entry.until}`}
+              </span>
+              <h1>{trip.title}</h1>
+            </div>
+            <button
+              className="icon-button"
+              aria-label="새 여행 만들기"
+              onClick={onCreate}
+            >
+              <Plus size={22} />
+            </button>
           </div>
-          <button
-            className="icon-button"
-            aria-label="새 여행 만들기"
-            onClick={onCreate}
-          >
-            <Plus size={22} />
-          </button>
-        </div>
-        <div className="planner-trip-summary">
-          <TripPhoto trip={trip} className="planner-cover-photo" />
-          <div className="home-summary-copy">
-            <span className="home-phase">
-              {entry.phase === 'upcoming'
-                ? `D-${entry.until}`
-                : entry.phase === 'ongoing'
-                  ? '여행 중'
-                  : '여행 기록'}
-            </span>
-            <p>
-              {formatDate(trip.startDate)} – {formatDate(trip.endDate)}
-            </p>
-            <small>
-              {trip.days.length}일 ·{' '}
-              {trip.travelers === 1
-                ? '나 혼자'
-                : `나와 동행 ${trip.travelers - 1}명`}
-            </small>
+          <div className="planner-trip-summary">
+            <TripPhoto trip={trip} className="planner-cover-photo" />
+            <div className="home-summary-copy">
+              <p>
+                {formatDate(trip.startDate)} – {formatDate(trip.endDate)}
+              </p>
+              <small>
+                {trip.days.length}일 ·{' '}
+                {trip.travelers === 1
+                  ? '나 혼자'
+                  : `나와 동행 ${trip.travelers - 1}명`}
+              </small>
+            </div>
+            <button
+              className="button primary"
+              onClick={() =>
+                open(entry.phase === 'ongoing' ? 'field' : 'schedule')
+              }
+            >
+              {entry.phase === 'ongoing' ? '오늘 여행 열기' : '여행 계획 열기'}
+              <ArrowRight size={18} />
+            </button>
           </div>
-          <button
-            className="button primary"
-            onClick={() =>
-              open(entry.phase === 'ongoing' ? 'field' : 'schedule')
-            }
-          >
-            {entry.phase === 'ongoing' ? '오늘 여행 열기' : '여행 계획 열기'}
-            <ArrowRight size={18} />
-          </button>
         </div>
         <div className="home-action-row">
           <button
@@ -237,7 +230,9 @@ export default function PlannerHome({
                 key={workspace as string}
                 onClick={() => open(workspace as string)}
               >
-                <Image size={23} />
+                <span className="shortcut-icon" aria-hidden="true">
+                  <Image size={21} />
+                </span>
                 <span>{label as string}</span>
               </button>
             )
@@ -245,7 +240,10 @@ export default function PlannerHome({
         </nav>
         <section className="planner-panel">
           <div className="home-section-heading">
-            <h2>{entry.phase === 'ongoing' ? '오늘 일정' : '여행 일정'}</h2>
+            <h2>
+              <CalendarDays size={21} aria-hidden="true" />
+              {entry.phase === 'ongoing' ? '오늘 일정' : '여행 일정'}
+            </h2>
             <button className="text-button" onClick={() => open('schedule')}>
               일정 보기
               <ArrowRight size={16} />
@@ -314,7 +312,10 @@ export default function PlannerHome({
         </section>
         <section className="planner-panel">
           <div className="home-section-heading">
-            <h2>항공·호텔 예약</h2>
+            <h2>
+              <Plane size={21} aria-hidden="true" />
+              항공·호텔 예약
+            </h2>
             <button
               className="text-button"
               onClick={() => open('reservations')}
